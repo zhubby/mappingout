@@ -1,0 +1,1248 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "source": "Campaign.00.核心/Elitelist.txt",
+      "encoding": "gb18030",
+      "bytes": 4952
+    },
+    {
+      "source": "Campaign.00.核心/PetsList.txt",
+      "encoding": "gb18030",
+      "bytes": 417
+    },
+    {
+      "source": "Campaign.01.预言(一章)/Elitelist.txt",
+      "encoding": "gb18030",
+      "bytes": 10867
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/Elitelist.txt",
+      "encoding": "gb18030",
+      "bytes": 18836
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/Elitelist.txt",
+      "encoding": "gb18030",
+      "bytes": 21378
+    },
+    {
+      "source": "Campaign.04.北方之眼(四章)/Elitelist.txt",
+      "encoding": "gb18030",
+      "bytes": 7728
+    },
+    {
+      "source": "Campaign.01.预言(一章)/Regions.txt",
+      "encoding": "gb18030",
+      "bytes": 132
+    },
+    {
+      "source": "Campaign.01.预言(一章)/Professions.txt",
+      "encoding": "utf-8",
+      "bytes": 480
+    },
+    {
+      "source": "Campaign.01.预言(一章)/Zones.txt",
+      "encoding": "gb18030",
+      "bytes": 4623
+    },
+    {
+      "source": "Campaign.01.预言(一章)/EliteLocations.txt",
+      "encoding": "gb18030",
+      "bytes": 36692
+    },
+    {
+      "source": "Campaign.01.预言(一章)/Greens.txt",
+      "encoding": "gb18030",
+      "bytes": 11365
+    },
+    {
+      "source": "Campaign.01.预言(一章)/Collectors.txt",
+      "encoding": "utf-8",
+      "bytes": 78101
+    },
+    {
+      "source": "Campaign.01.预言(一章)/CollectorsLocations.txt",
+      "encoding": "utf-8",
+      "bytes": 3148
+    },
+    {
+      "source": "Campaign.01.预言(一章)/PetsLocations.txt",
+      "encoding": "utf-8",
+      "bytes": 1144
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/Regions.txt",
+      "encoding": "gb18030",
+      "bytes": 46
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/Professions.txt",
+      "encoding": "utf-8",
+      "bytes": 647
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/Zones.txt",
+      "encoding": "gb18030",
+      "bytes": 3611
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/EliteLocations.txt",
+      "encoding": "gb18030",
+      "bytes": 16984
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "encoding": "gb18030",
+      "bytes": 20329
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/Collectors.txt",
+      "encoding": "utf-8",
+      "bytes": 72672
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/CollectorsLocations.txt",
+      "encoding": "utf-8",
+      "bytes": 2092
+    },
+    {
+      "source": "Campaign.02.盟与敌(二章)/PetsLocations.txt",
+      "encoding": "utf-8",
+      "bytes": 645
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/Regions.txt",
+      "encoding": "gb18030",
+      "bytes": 53
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/Professions.txt",
+      "encoding": "gb18030",
+      "bytes": 542
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/Zones.txt",
+      "encoding": "gb18030",
+      "bytes": 3910
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/EliteLocations.txt",
+      "encoding": "gb18030",
+      "bytes": 15918
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "encoding": "gb18030",
+      "bytes": 26476
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/Collectors.txt",
+      "encoding": "utf-8",
+      "bytes": 63140
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/CollectorsLocations.txt",
+      "encoding": "utf-8",
+      "bytes": 2078
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/PetsLocations.txt",
+      "encoding": "utf-8",
+      "bytes": 749
+    },
+    {
+      "source": "Campaign.03.黑暗逆袭(三章)/Treasures.txt",
+      "encoding": "gb18030",
+      "bytes": 326
+    },
+    {
+      "source": "Campaign.04.北方之眼(四章)/Regions.txt",
+      "encoding": "gb18030",
+      "bytes": 41
+    },
+    {
+      "source": "Campaign.04.北方之眼(四章)/Zones.txt",
+      "encoding": "gb18030",
+      "bytes": 1925
+    },
+    {
+      "source": "Campaign.04.北方之眼(四章)/EliteLocations.txt",
+      "encoding": "gb18030",
+      "bytes": 14222
+    },
+    {
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "encoding": "gb18030",
+      "bytes": 22306
+    },
+    {
+      "source": "Campaign.04.北方之眼(四章)/PetsLocations.txt",
+      "encoding": "utf-8",
+      "bytes": 756
+    }
+  ],
+  "excluded": [
+    "Campaign.01.预言(一章)/附件Greens.txt",
+    "Campaign.02.盟与敌(二章)/Elitelist - 副本.txt",
+    "Campaign.02.盟与敌(二章)/EliteLocations - 副本.txt",
+    "Campaign.04.北方之眼(四章)/附件Greens.txt"
+  ],
+  "issues": [
+    {
+      "kind": "missing-image",
+      "source": "Campaign.00.核心",
+      "line": 33,
+      "detail": "0293"
+    },
+    {
+      "kind": "duplicate-skill-code",
+      "source": "Campaign.04.北方之眼(四章)",
+      "line": 3,
+      "detail": "0001"
+    },
+    {
+      "kind": "missing-image",
+      "source": "Campaign.04.北方之眼(四章)",
+      "line": 3,
+      "detail": "0001"
+    },
+    {
+      "kind": "duplicate-skill-code",
+      "source": "Campaign.04.北方之眼(四章)",
+      "line": 4,
+      "detail": "0293"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 24,
+      "detail": "幻术师的构造体"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 27,
+      "detail": "奥术古代披"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 48,
+      "detail": "Ryver 苔藓种植者"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 60,
+      "detail": "剑古凯"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 70,
+      "detail": "战士的构造"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 76,
+      "detail": "未受触动的古代Ky"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 86,
+      "detail": "钟，协调者"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 98,
+      "detail": "游侠的构造"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 99,
+      "detail": "饥饿的古堡"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 104,
+      "detail": "和尚的构造"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 111,
+      "detail": "死灵法师的构造体"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 112,
+      "detail": "注定失败的远古克拉兹"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 116,
+      "detail": "拉赫斯捕风者"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 123,
+      "detail": "星古古森"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 124,
+      "detail": "元素的构造"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 135,
+      "detail": "刺客的构造"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 137,
+      "detail": "沉默的古代奥纳塔"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 150,
+      "detail": "挑衅的古代先知"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.02.盟与敌(二章)/Greens.txt",
+      "line": 151,
+      "detail": "仪式者的构造"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 6,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 9,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 30,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 31,
+      "detail": "以修长矛"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 34,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 35,
+      "detail": "沙克尔火矛"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 37,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 69,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 77,
+      "detail": "哈乔地球卫士"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 82,
+      "detail": "亚米隆，以太领主"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 98,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 100,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 102,
+      "detail": "夜幕降临结束游戏物品"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.03.黑暗逆袭(三章)/Greens.txt",
+      "line": 123,
+      "detail": "科尔玛布，燃烧之心"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 3,
+      "detail": "耶梦刚德"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 6,
+      "detail": "狂犬熊"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 12,
+      "detail": "特别的"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 13,
+      "detail": "特别的"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 19,
+      "detail": "任务装备"
+    },
+    {
+      "kind": "incomplete-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 24,
+      "detail": "野牛杯\t任务装备"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 24,
+      "detail": "任务装备"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 25,
+      "detail": "特别的"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 46,
+      "detail": "特别的"
+    },
+    {
+      "kind": "ambiguous-boss",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 53,
+      "detail": "骗子安马特"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 55,
+      "detail": "雾中的德里卡德"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 65,
+      "detail": "顽皮的洛克"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 66,
+      "detail": "偏执埃丁、水晶埃丁、恐怖埃丁"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 73,
+      "detail": "水晶艾丁"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 87,
+      "detail": "被谴责者弗拉克斯"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 88,
+      "detail": "被谴责者弗拉克斯"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 95,
+      "detail": "守护者"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 96,
+      "detail": "大师"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 97,
+      "detail": "法兹法师"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 98,
+      "detail": "贾丹·斯皮纳纳"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 99,
+      "detail": "被谴责者 弗拉克斯"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 100,
+      "detail": "被谴责者弗拉克斯"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 101,
+      "detail": "格雷克·冰拉什"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 129,
+      "detail": "戈尔洛斯剥皮者"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 130,
+      "detail": "腐败者哈卡多"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 133,
+      "detail": "多产的伊拉斯克利翁"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 135,
+      "detail": "特别的"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 145,
+      "detail": "格洛普"
+    },
+    {
+      "kind": "incomplete-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 148,
+      "detail": "螳螂战斗仿旗\t任务物品"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 148,
+      "detail": "任务物品"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 152,
+      "detail": "突变软泥怪"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 163,
+      "detail": "兽王科格"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 192,
+      "detail": "砍击伤害:07-17 (需求 9 匕首精通)"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 196,
+      "detail": "监工贝洛克"
+    },
+    {
+      "kind": "unlocated-green",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 220,
+      "detail": "结语"
+    },
+    {
+      "kind": "duplicate-record",
+      "source": "Campaign.03.黑暗逆袭(三章)/Zones.txt",
+      "line": 98,
+      "detail": "zone:3:301"
+    },
+    {
+      "kind": "duplicate-record",
+      "source": "Campaign.04.北方之眼(四章)/Greens.txt",
+      "line": 88,
+      "detail": "green:4:070f978d941a2c43"
+    }
+  ],
+  "counts": {
+    "skill": 381,
+    "zone": 366,
+    "boss": 1183,
+    "green": 697,
+    "collector": 350,
+    "pet": 32,
+    "treasure": 12
+  },
+  "mapVerification": [
+    {
+      "region": "1:1",
+      "name": "水晶沙漠",
+      "image": "assets/maps/1-1.jpg",
+      "width": 1030,
+      "height": 1651,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "先王之墓",
+            "x": 670,
+            "y": 153
+          },
+          {
+            "name": "龙穴",
+            "x": 651,
+            "y": 244
+          },
+          {
+            "name": "伊洛那流域",
+            "x": 595,
+            "y": 648
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "1:2",
+      "name": "席娃山脈南部",
+      "image": "assets/maps/1-2.jpg",
+      "width": 1503,
+      "height": 1911,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "洛拿斯通道",
+            "x": 121,
+            "y": 258
+          },
+          {
+            "name": "毕肯高地",
+            "x": 49,
+            "y": 41
+          },
+          {
+            "name": "无惧者之丘",
+            "x": 98,
+            "y": 639
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "1:3",
+      "name": "火环群岛地域",
+      "image": "assets/maps/1-3.jpg",
+      "width": 940,
+      "height": 632,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "残火营地",
+            "x": 685,
+            "y": 429
+          },
+          {
+            "name": "火环群岛",
+            "x": 537,
+            "y": 260
+          },
+          {
+            "name": "地域隘口",
+            "x": 398,
+            "y": 175
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "1:4",
+      "name": "阿斯卡隆 (崩坏后)",
+      "image": "assets/maps/1-4.jpg",
+      "width": 1550,
+      "height": 1212,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "阿斯卡隆丘陵",
+            "x": 115,
+            "y": 237
+          },
+          {
+            "name": "底耶沙低地",
+            "x": 360,
+            "y": 434
+          },
+          {
+            "name": "葛兰迪法院",
+            "x": 359,
+            "y": 309
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "1:5",
+      "name": "席娃山脈北部",
+      "image": "assets/maps/1-5.jpg",
+      "width": 1276,
+      "height": 938,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "狮鹫兽隘口",
+            "x": 89,
+            "y": 838
+          },
+          {
+            "name": "戴尔狄摩盆地",
+            "x": 266,
+            "y": 550
+          },
+          {
+            "name": "毕肯高地",
+            "x": 373,
+            "y": 788
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "1:6",
+      "name": "科瑞塔",
+      "image": "assets/maps/1-6.jpg",
+      "width": 1708,
+      "height": 1352,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "王者安息处",
+            "x": 120,
+            "y": 402
+          },
+          {
+            "name": "突马克荒地",
+            "x": 339,
+            "y": 446
+          },
+          {
+            "name": "神圣海岸",
+            "x": 480,
+            "y": 214
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "1:7",
+      "name": "梅古玛丛林",
+      "image": "assets/maps/1-7.jpg",
+      "width": 1476,
+      "height": 1228,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "血石沼泽",
+            "x": 446,
+            "y": 402
+          },
+          {
+            "name": "怨言瀑布",
+            "x": 568,
+            "y": 565
+          },
+          {
+            "name": "银树",
+            "x": 576,
+            "y": 477
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "1:8",
+      "name": "阿斯卡隆 (崩坏前)",
+      "image": "assets/maps/1-8.jpg",
+      "width": 1458,
+      "height": 1226,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "地下墓穴",
+            "x": 179,
+            "y": 24
+          },
+          {
+            "name": "绿丘郡",
+            "x": 458,
+            "y": 453
+          },
+          {
+            "name": "巴拉丁領地",
+            "x": 468,
+            "y": 597
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "2:1",
+      "name": "凯宁城",
+      "image": "assets/maps/2-1.jpg",
+      "width": 1312,
+      "height": 1112,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "凯宁中心",
+            "x": 399,
+            "y": 169
+          },
+          {
+            "name": "地下城",
+            "x": 171,
+            "y": 153
+          },
+          {
+            "name": "莱苏皇宫",
+            "x": 525,
+            "y": 168
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "2:2",
+      "name": "科凡德森林",
+      "image": "assets/maps/2-2.jpg",
+      "width": 966,
+      "height": 1380,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "谭格坞森林",
+            "x": 285,
+            "y": 23
+          },
+          {
+            "name": "亭石 (任务)",
+            "x": 120,
+            "y": 147
+          },
+          {
+            "name": "亭石",
+            "x": 154,
+            "y": 202
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "2:3",
+      "name": "碧玉海",
+      "image": "assets/maps/2-3.jpg",
+      "width": 1248,
+      "height": 1139,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "风神海床 (任务)",
+            "x": 188,
+            "y": 88
+          },
+          {
+            "name": "风神海床",
+            "x": 375,
+            "y": 94
+          },
+          {
+            "name": "今凱山",
+            "x": 155,
+            "y": 255
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "2:4",
+      "name": "星岬島",
+      "image": "assets/maps/2-4.jpg",
+      "width": 1236,
+      "height": 766,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "岚穆苏花园",
+            "x": 249,
+            "y": 148
+          },
+          {
+            "name": "欣弥领地",
+            "x": 157,
+            "y": 290
+          },
+          {
+            "name": "班让半岛",
+            "x": 259,
+            "y": 578
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "3:1",
+      "name": "艾斯坦",
+      "image": "assets/maps/3-1.jpg",
+      "width": 1530,
+      "height": 1150,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "旧城·法兰努尔",
+            "x": 216,
+            "y": 445
+          },
+          {
+            "name": "卓坎诺挖掘点",
+            "x": 444,
+            "y": 420
+          },
+          {
+            "name": "黑潮之穴",
+            "x": 430,
+            "y": 673
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "3:2",
+      "name": "高楠",
+      "image": "assets/maps/3-2.jpg",
+      "width": 1618,
+      "height": 1466,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "猶郎避难所",
+            "x": 550,
+            "y": 1080
+          },
+          {
+            "name": "马加海岸",
+            "x": 358,
+            "y": 849
+          },
+          {
+            "name": "纳度湾",
+            "x": 189,
+            "y": 972
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "3:3",
+      "name": "瓦贝",
+      "image": "assets/maps/3-3.jpg",
+      "width": 1632,
+      "height": 1416,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "玄武岩石穴",
+            "x": 1,
+            "y": 359
+          },
+          {
+            "name": "威金矿坑",
+            "x": 223,
+            "y": 501
+          },
+          {
+            "name": "征钠群落",
+            "x": 472,
+            "y": 683
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "3:4",
+      "name": "硫磺沙漠",
+      "image": "assets/maps/3-4.jpg",
+      "width": 1153,
+      "height": 1246,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "水晶高地",
+            "x": 126,
+            "y": 476
+          },
+          {
+            "name": "摩拉废墟",
+            "x": 429,
+            "y": 501
+          },
+          {
+            "name": "破裂之心",
+            "x": 523,
+            "y": 292
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "3:5",
+      "name": "苦痛之地",
+      "image": "assets/maps/3-5.jpg",
+      "width": 1872,
+      "height": 1406,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "惩罚领地",
+            "x": 125,
+            "y": 579
+          },
+          {
+            "name": "涡流",
+            "x": 1210,
+            "y": 190
+          },
+          {
+            "name": "夜蚀暗殒·夏亥",
+            "x": 767,
+            "y": 53
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "4:1",
+      "name": "席娃山脈极端",
+      "image": "assets/maps/4-1.jpg",
+      "width": 1739,
+      "height": 1515,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "袭哈拉",
+            "x": 913,
+            "y": 438
+          },
+          {
+            "name": "甘拿的占领地",
+            "x": 1367,
+            "y": 865
+          },
+          {
+            "name": "极地之眼",
+            "x": 1383,
+            "y": 1211
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "4:2",
+      "name": "夏尔家园",
+      "image": "assets/maps/4-2.jpg",
+      "width": 940,
+      "height": 788,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "末日传说神殿",
+            "x": 595,
+            "y": 76
+          },
+          {
+            "name": "古斯玛战争丘陵地",
+            "x": 317,
+            "y": 325
+          },
+          {
+            "name": "达拉达山地",
+            "x": 729,
+            "y": 208
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    },
+    {
+      "region": "4:3",
+      "name": "灰暗沿岸",
+      "image": "assets/maps/4-3.jpg",
+      "width": 1963,
+      "height": 819,
+      "verified": true,
+      "evidence": {
+        "method": "visual-overlay",
+        "coordinateSystem": "top-left image pixels",
+        "landmarks": [
+          {
+            "name": "洛达顶点",
+            "x": 337,
+            "y": 233
+          },
+          {
+            "name": "灰暗避难所",
+            "x": 816,
+            "y": 591
+          },
+          {
+            "name": "佛洛克斯瀑布",
+            "x": 1201,
+            "y": 77
+          }
+        ],
+        "notes": "Representative zone positions inspected on original image; not an in-game survey."
+      }
+    }
+  ]
+}

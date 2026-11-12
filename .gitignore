@@ -1,0 +1,13 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.wrangler/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+
+# public/data/*.json and public/assets/** are required, committed build inputs.

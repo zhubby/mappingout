@@ -1,0 +1,442 @@
+{
+  "1:1": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "先王之墓",
+        "x": 670,
+        "y": 153
+      },
+      {
+        "name": "龙穴",
+        "x": 651,
+        "y": 244
+      },
+      {
+        "name": "伊洛那流域",
+        "x": 595,
+        "y": 648
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "1:2": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "洛拿斯通道",
+        "x": 121,
+        "y": 258
+      },
+      {
+        "name": "毕肯高地",
+        "x": 49,
+        "y": 41
+      },
+      {
+        "name": "无惧者之丘",
+        "x": 98,
+        "y": 639
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "1:3": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "残火营地",
+        "x": 685,
+        "y": 429
+      },
+      {
+        "name": "火环群岛",
+        "x": 537,
+        "y": 260
+      },
+      {
+        "name": "地域隘口",
+        "x": 398,
+        "y": 175
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "1:4": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "阿斯卡隆丘陵",
+        "x": 115,
+        "y": 237
+      },
+      {
+        "name": "底耶沙低地",
+        "x": 360,
+        "y": 434
+      },
+      {
+        "name": "葛兰迪法院",
+        "x": 359,
+        "y": 309
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "1:5": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "狮鹫兽隘口",
+        "x": 89,
+        "y": 838
+      },
+      {
+        "name": "戴尔狄摩盆地",
+        "x": 266,
+        "y": 550
+      },
+      {
+        "name": "毕肯高地",
+        "x": 373,
+        "y": 788
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "1:6": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "王者安息处",
+        "x": 120,
+        "y": 402
+      },
+      {
+        "name": "突马克荒地",
+        "x": 339,
+        "y": 446
+      },
+      {
+        "name": "神圣海岸",
+        "x": 480,
+        "y": 214
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "1:7": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "血石沼泽",
+        "x": 446,
+        "y": 402
+      },
+      {
+        "name": "怨言瀑布",
+        "x": 568,
+        "y": 565
+      },
+      {
+        "name": "银树",
+        "x": 576,
+        "y": 477
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "1:8": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "地下墓穴",
+        "x": 179,
+        "y": 24
+      },
+      {
+        "name": "绿丘郡",
+        "x": 458,
+        "y": 453
+      },
+      {
+        "name": "巴拉丁領地",
+        "x": 468,
+        "y": 597
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "2:1": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "凯宁中心",
+        "x": 399,
+        "y": 169
+      },
+      {
+        "name": "地下城",
+        "x": 171,
+        "y": 153
+      },
+      {
+        "name": "莱苏皇宫",
+        "x": 525,
+        "y": 168
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "2:2": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "谭格坞森林",
+        "x": 285,
+        "y": 23
+      },
+      {
+        "name": "亭石 (任务)",
+        "x": 120,
+        "y": 147
+      },
+      {
+        "name": "亭石",
+        "x": 154,
+        "y": 202
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "2:3": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "风神海床 (任务)",
+        "x": 188,
+        "y": 88
+      },
+      {
+        "name": "风神海床",
+        "x": 375,
+        "y": 94
+      },
+      {
+        "name": "今凱山",
+        "x": 155,
+        "y": 255
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "2:4": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "岚穆苏花园",
+        "x": 249,
+        "y": 148
+      },
+      {
+        "name": "欣弥领地",
+        "x": 157,
+        "y": 290
+      },
+      {
+        "name": "班让半岛",
+        "x": 259,
+        "y": 578
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "3:1": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "旧城·法兰努尔",
+        "x": 216,
+        "y": 445
+      },
+      {
+        "name": "卓坎诺挖掘点",
+        "x": 444,
+        "y": 420
+      },
+      {
+        "name": "黑潮之穴",
+        "x": 430,
+        "y": 673
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "3:2": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "猶郎避难所",
+        "x": 550,
+        "y": 1080
+      },
+      {
+        "name": "马加海岸",
+        "x": 358,
+        "y": 849
+      },
+      {
+        "name": "纳度湾",
+        "x": 189,
+        "y": 972
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "3:3": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "玄武岩石穴",
+        "x": 1,
+        "y": 359
+      },
+      {
+        "name": "威金矿坑",
+        "x": 223,
+        "y": 501
+      },
+      {
+        "name": "征钠群落",
+        "x": 472,
+        "y": 683
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "3:4": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "水晶高地",
+        "x": 126,
+        "y": 476
+      },
+      {
+        "name": "摩拉废墟",
+        "x": 429,
+        "y": 501
+      },
+      {
+        "name": "破裂之心",
+        "x": 523,
+        "y": 292
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "3:5": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "惩罚领地",
+        "x": 125,
+        "y": 579
+      },
+      {
+        "name": "涡流",
+        "x": 1210,
+        "y": 190
+      },
+      {
+        "name": "夜蚀暗殒·夏亥",
+        "x": 767,
+        "y": 53
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "4:1": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "袭哈拉",
+        "x": 913,
+        "y": 438
+      },
+      {
+        "name": "甘拿的占领地",
+        "x": 1367,
+        "y": 865
+      },
+      {
+        "name": "极地之眼",
+        "x": 1383,
+        "y": 1211
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "4:2": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "末日传说神殿",
+        "x": 595,
+        "y": 76
+      },
+      {
+        "name": "古斯玛战争丘陵地",
+        "x": 317,
+        "y": 325
+      },
+      {
+        "name": "达拉达山地",
+        "x": 729,
+        "y": 208
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  },
+  "4:3": {
+    "method": "visual-overlay",
+    "coordinateSystem": "top-left image pixels",
+    "landmarks": [
+      {
+        "name": "洛达顶点",
+        "x": 337,
+        "y": 233
+      },
+      {
+        "name": "灰暗避难所",
+        "x": 816,
+        "y": 591
+      },
+      {
+        "name": "佛洛克斯瀑布",
+        "x": 1201,
+        "y": 77
+      }
+    ],
+    "notes": "Representative zone positions inspected on original image; not an in-game survey."
+  }
+}

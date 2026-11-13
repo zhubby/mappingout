@@ -17,7 +17,8 @@ for(const file of files){const name=path.basename(file);if(names.has(name))throw
 const platforms={};
 for(const [platform,match] of Object.entries({'windows-x86_64':/_x64-offline-setup\.exe$/,'windows-i686':/_x86-offline-setup\.exe$/,'darwin-aarch64':/\.app\.tar\.gz$/})){
  const matches=[...names].filter(n=>match.test(n));if(matches.length!==1)throw Error(`Expected one updater for ${platform}: ${matches}`);
- const name=matches[0];const signature=(await fs.readFile(path.join(out,name+'.sig'),'utf8')).trim();if(!signature)throw Error(`Missing signature ${name}`);
+ const name=matches[0];if(!names.has(name+'.sig'))throw Error(`Missing input signature ${name}`);
+ const signature=(await fs.readFile(path.join(out,name+'.sig'),'utf8')).trim();if(!signature)throw Error(`Missing signature ${name}`);
  platforms[platform]={signature,url:new URL(encodeURIComponent(name),base).href};
 }
 await fs.writeFile(path.join(out,'latest.json'),JSON.stringify({version:config.version,notes,pub_date:new Date().toISOString(),platforms},null,2)+'\n');

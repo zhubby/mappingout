@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Platemail armor",
+  "pageid": 12170,
+  "revid": 2621363,
+  "revisedAt": "2017-08-15T15:30:57Z",
+  "sha1": "4f5f15f004e7237c23878e152dca436a13c1c3d4",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Platemail_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Platemail%20armor&oldid=2621363",
+  "retrievedAt": "2026-11-13T05:28:19.394Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Prophecies]]\n| maleimage = [[Image:Warrior Platemail armor m.jpg|130px]]\n| pvp = Platemail\n| pvpreward = Basic\n| gallery = warrior Platemail}}\n[[Warrior Platemail armor]] is an art type available in the Prophecies campaign.\n\nThe [[prestige armor|prestige]] version of this armor is [[Warrior Elite Platemail armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Cuirass || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\" |[[Droknar's Forge]]\n! align=\"center\" |[[Morgren]]\n! align=\"center\" | 80\n| {{Cost|1000}}\n| 25 {{Iron}}<br>4 {{Steel}}\n| 75 {{Iron}}<br>12 {{Steel}}\n| 25 {{Iron}}<br>4 {{Steel}}\n| 50 {{Iron}}<br>8 {{Steel}}\n| 25 {{Iron}}<br>4 {{Steel}}\n| {{Cost|5000}}\n| 200 {{Iron}}<br>32 {{Steel}}\n|}\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Platemail]]\n[[Category:Prophecies armor]]\n[[Category:PvP reward armor]]"
+}

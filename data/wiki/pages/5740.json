@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Luxon armor",
+  "pageid": 5740,
+  "revid": 2379744,
+  "revisedAt": "2011-09-13T17:59:59Z",
+  "sha1": "544e0bd9223282c4745239c076c52f7a78db4663",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Luxon_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Luxon%20armor&oldid=2379744",
+  "retrievedAt": "2026-11-13T05:28:36.281Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Factions]]\n| pvp = Luxon\n| pvpreward = Basic\n| gallery = mesmer Luxon \n}}\n'''Mesmer [[Luxon armor]]''' is an art type available in the Factions campaign.\n\nThe [[Prestige armor|prestige]] version of this armor is [[Mesmer Elite Luxon armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Cavalon]]\n! [[Tateos]]\n! 60\n| {{Cost|1000}}\n| 25 {{Cloth}}<br>4 {{Silk}}<br>3 {{Jadeite}}\n| 75 {{Cloth}}<br>12 {{Silk}}<br>9 {{Jadeite}}\n| 25 {{Cloth}}<br>4 {{Silk}}<br>3 {{Jadeite}}\n| 50 {{Cloth}}<br>8 {{Silk}}<br>6 {{Jadeite}}\n| 25 {{Cloth}}<br>4 {{Silk}}<br>3 {{Jadeite}}\n| {{Cost|5000}}\n| 200 {{Cloth}}<br>32 {{Silk}}<br>24 {{Jadeite}}\n|}\n\n{{bug|Male version clips through the bottom of cape when moving and at the top where the cape is attached.}}\n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Luxon]]\n[[Category:Luxon armor]]"
+}

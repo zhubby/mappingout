@@ -1,0 +1,11 @@
+{
+  "title": "Unwaking Waters (Zaishen vanquish)",
+  "pageid": 279380,
+  "revid": 2668636,
+  "revisedAt": "2020-11-13T17:57:15Z",
+  "sha1": "c70f403ccf0e691e63e0b0e81f4d9624617e4b4e",
+  "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unwaking%20Waters%20(Zaishen%20vanquish)&oldid=2668636",
+  "retrievedAt": "2026-11-13T05:29:47.471Z",
+  "wikitext": "{{Location disambiguation 2|disambigdesc=the [[outpost]]s | disambigarticle=Unwaking Waters (Luxon)| disambigarticle2=Unwaking Waters (Kurzick)}}{{Quest infobox\n| id = 1292\n| name = Unwaking Waters\n| section = Zaishen Vanquish\n| image = [[File:Whirlpool.jpg|200px]]\n| map = [[File:Unwaking Waters (explorable area) map.jpg|200px|link=Unwaking Waters (explorable area)/Map]]\n| map1text = Vanquish the [[Unwaking Waters (explorable area)|Unwaking Waters]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Unwaking Waters (explorable area)|Unwaking Waters]].\n\n== Quest information ==\n=== Objectives ===\n* Clear the Unwaking Waters in [[the Jade Sea]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 7,000 [[Luxon faction|Luxon Faction]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Unwaking Waters in the Jade Sea of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Luxon faction]]"
+}

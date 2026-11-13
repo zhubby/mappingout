@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Norn armor",
+  "pageid": 64624,
+  "revid": 2380062,
+  "revisedAt": "2011-09-14T17:10:15Z",
+  "sha1": "4d29a679d8a6ecf88de519e76a8573c6fcecbe88",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Norn_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Norn%20armor&oldid=2380062",
+  "retrievedAt": "2026-11-13T05:28:36.285Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Eye of the North]]\n| pvp = Norn\n| pvpreward = Basic\n| femaleimage = [[Image:Mesmer Norn armor f.jpg|95px]]\n| maleimage = [[Image:Mesmer Norn armor m.jpg|137px]]\n| gallery = mesmer Norn\n}}\n'''Mesmer [[Norn armor]]''' is a [[Prestige armor|prestige]] art type available in the Eye of the North expansion. You need to be at least rank 5 (Slayer of Wurms) in the [[Norn rank|Norn title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Gunnar's Hold]]\n! [[Radi]]\n! 60\n| 10 {{plat}}\n| 50 {{Cloth}}<br>5 {{Fur}}\n| 150 {{Cloth}}<br>15 {{Fur}}\n| 50 {{Cloth}}<br>5 {{Fur}}\n| 100 {{Cloth}}<br>10 {{Fur}}\n| 50 {{Cloth}}<br>5 {{Fur}}\n| 50 {{plat}}\n| 400 {{Cloth}}<br>40 {{Fur}}\n|}\n\n{{bug|\nFor male mesmers with long hair, hair tends to \"bleed\" through the collar.}}{{bug|\nFor female mesmers, the coat glitches with all mesmer hoses, including the Norn hose.}}\n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Norn]]\n[[Category:Norn armor]]\n[[Category:Prestige armor]]"
+}

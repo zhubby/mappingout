@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Kurzick armor",
+  "pageid": 5738,
+  "revid": 2552557,
+  "revisedAt": "2013-08-18T11:14:41Z",
+  "sha1": "c4d46ee91209d41ab71192cf714127487b54a98e",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Kurzick_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Kurzick%20armor&oldid=2552557",
+  "retrievedAt": "2026-11-13T05:28:36.280Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Factions]]\n| pvp = Kurzick\n| pvpreward = Basic\n| gallery = mesmer Kurzick \n}}\n'''Mesmer [[Kurzick armor]]''' is an art type available in the Factions campaign.\n\nThe [[Prestige armor|prestige]] version of this armor is [[Mesmer Elite Kurzick armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[House zu Heltzer]]\n! [[Morbach]]\n! 60\n| align=\"right\" | 1 {{plat}}\n| 25 {{Hide}}<br>4 {{Silk}}<br>3 {{Amber}}\n| 75 {{Hide}}<br>12 {{Silk}}<br>9 {{Amber}}\n| 25 {{Hide}}<br>4 {{Silk}}<br>3 {{Amber}}\n| 50 {{Hide}}<br>8 {{Silk}}<br>6 {{Amber}}\n| 25 {{Hide}}<br>4 {{Silk}}<br>3 {{Amber}}\n| align=\"right\" | 5 {{plat}}\n| 200 {{Hide}}<br>32 {{Silk}}<br>24 {{Amber}}\n|}\n\n==Notes==\n*The female version of this armor has quite a few clipping issues with off-hands and shields.\n*The male leggings appear green in the non dye-able areas from a distance.\n*The female version of [[Mesmer Elegant Long Coat]] seems to be a reskin of this armor.\n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Kurzick]]\n[[Category:Kurzick armor]]"
+}

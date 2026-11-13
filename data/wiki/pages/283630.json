@@ -1,0 +1,11 @@
+{
+  "title": "Gyala Hatchery (Zaishen vanquish)",
+  "pageid": 283630,
+  "revid": 2626900,
+  "revisedAt": "2018-05-05T01:58:42Z",
+  "sha1": "68fa19e493b1dd4c2e16300f474726a91786aaae",
+  "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gyala%20Hatchery%20(Zaishen%20vanquish)&oldid=2626900",
+  "retrievedAt": "2026-11-13T05:29:51.528Z",
+  "wikitext": "{{Quest infobox\n| id = 1223\n| name = Gyala Hatchery\n| section = Zaishen Vanquish\n| image = [[File:Seabed.jpg|200px]]\n| map = [[File:Gyala Hatchery (explorable area) map.jpg|200px|link=Gyala Hatchery (explorable area)/Map]]\n| map1text = Vanquish the [[Gyala Hatchery (explorable area)|Gyala Hatchery]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Gyala Hatchery (explorable area)|Gyala Hatchery]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear the Gyala Hatchery in [[the Jade Sea]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 7,000 [[Luxon faction|Luxon Faction]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Gyala Hatchery in the Jade Sea of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Luxon faction]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Canthan armor",
+  "pageid": 5735,
+  "revid": 2263156,
+  "revisedAt": "2011-03-14T15:43:12Z",
+  "sha1": "a0414eb560a89ddb9012aadb1dae1b48c2585f2a",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Canthan_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Canthan%20armor&oldid=2263156",
+  "retrievedAt": "2026-11-13T05:28:35.664Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Factions]]\n| pvp = Canthan\n| gallery = mesmer Canthan }}\n'''Mesmer [[Canthan armor]]''' is an art type available in the Factions campaign as [[collector]] armor for the region of [[Kaineng City]], and as regular crafted armor.\n\nThe [[Prestige armor|prestige]] version of this armor is [[Mesmer Elite Canthan armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"5\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Shing Jea Monastery]]\n! [[Kambei]]\n| 15\n| align=\"right\" | {{Cost|20}}\n| 1 {{Cloth}}\n| 3 {{Cloth}}\n| 1 {{Cloth}}\n| 2 {{Cloth}}\n| 1 {{Cloth}}\n| align=\"right\" | {{Cost|100}}\n| 8 {{Cloth}}\n|-\n! [[Ran Musu Gardens]]\n! [[Taura]]\n| 30\n| align=\"right\" | {{Cost|75}}\n| 2 {{Cloth}}\n| 6 {{Cloth}}\n| 2 {{Cloth}}\n| 4 {{Cloth}}\n| 2 {{Cloth}}\n| align=\"right\" | {{Cost|375}}\n| 16 {{Cloth}}\n|- style=\"\"\n! [[Seitung Harbor]]\n! [[Tsukare]]\n| 45\n| align=\"right\" | {{Cost|200}}\n| 6 {{Cloth}}\n| 18 {{Cloth}}\n| 6 {{Cloth}}\n| 12 {{Cloth}}\n| 6 {{Cloth}}\n| {{Cost|1000}}\n| 48 {{Cloth}}\n|-\n! [[Kaineng Center]]\n! [[Kakumei]]\n! 60\n| {{Cost|1000}}\n| 25 {{Cloth}}<br>4 {{Silk}}\n| 75 {{Cloth}}<br>12 {{Silk}}\n| 25 {{Cloth}}<br>4 {{Silk}}\n| 50 {{Cloth}}<br>8 {{Silk}}\n| 25 {{Cloth}}<br>4 {{Silk}}\n| {{Cost|5000}}\n| 200 {{Cloth}}<br>32 {{Silk}}\n|}\n\n{{:Mesmer Canthan armor/Collector}}\n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Canthan]]\n[[Category:Factions armor]]\n[[Category:Canthan armor]]\n[[Category:PvP armor]]\n[[Category:Mesmer collector armor]]"
+}

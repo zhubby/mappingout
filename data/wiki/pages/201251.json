@@ -1,0 +1,11 @@
+{
+  "title": "Riverside Province (Zaishen quest)",
+  "pageid": 201251,
+  "revid": 2287292,
+  "revisedAt": "2011-04-26T16:55:23Z",
+  "sha1": "1e7057e1195728b9d0767544866357529f8f3fe0",
+  "url": "https://wiki.guildwars.com/wiki/Riverside_Province_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Riverside%20Province%20(Zaishen%20quest)&oldid=2287292",
+  "retrievedAt": "2026-11-13T05:29:33.218Z",
+  "wikitext": "{{Quest infobox\n| id = 948\n| name = Riverside Province\n| section = Zaishen Mission\n| map = [[File:Riverside Province map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 3000\n}}__NOTOC__\nComplete [[Riverside Province]].\n\n==Quest information==\n===Objectives===\n*Claim the [[Scepter of Orr]].\n* *BONUS* Take out all nine watchtowers.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Riverside Province#Walkthrough| Riverside Province]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;[[Zaishen Mission]]\n:''\"The Scepter of Orr is the key to [[Tyria]]'s future. Patriots are needed in [[Riverside Province (outpost)|Riverside Province]] to claim this ancient relic.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*It is significantly easier and faster to complete the mission in hard mode and then do the first bonus in [[normal mode]] (assuming you don't need the [[hard mode]] bonus for the [[Guardian of Tyria]] title)."
+}

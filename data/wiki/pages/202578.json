@@ -1,0 +1,11 @@
+{
+  "title": "Fort Ranik (Zaishen quest)",
+  "pageid": 202578,
+  "revid": 2703928,
+  "revisedAt": "2025-04-02T16:58:13Z",
+  "sha1": "530128ddcb0aea4ccb50b110b2d2e2a962beacff",
+  "url": "https://wiki.guildwars.com/wiki/Fort_Ranik_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fort%20Ranik%20(Zaishen%20quest)&oldid=2703928",
+  "retrievedAt": "2026-11-13T05:29:29.545Z",
+  "wikitext": "{{Quest infobox\n| id = 937\n| name = Fort Ranik\n| section = Zaishen Mission\n| map = [[File:Fort Ranik map.jpg|120px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 1000\n}}__NOTOC__\nComplete [[Fort Ranik]].\n\n==Quest information==\n===Objectives===\n*Push the invading [[Charr]] forces back to the [[Great Northern Wall]].\n* *BONUS* Rescue [[Trooper Deeter Saberlin|Deeter Saberlin]] from the Charr.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Fort Ranik#Walkthrough| Fort Ranik]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;[[Zaishen Mission]]\n:''\"[[Ascalon]]ian commanders are in trouble at [[Fort Ranik (outpost)|Fort Ranik]]. The Charr army has breached the Northern Wall and taken prisoners. Using any measures necessary, push back the invading Charr forces. For Ascalon!\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Tasca's Demise (Zaishen vanquish)",
+  "pageid": 279054,
+  "revid": 2626833,
+  "revisedAt": "2018-05-05T01:56:33Z",
+  "sha1": "7731e9d10d2d434471472a8f670aa14258450873",
+  "url": "https://wiki.guildwars.com/wiki/Tasca%27s_Demise_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tasca's%20Demise%20(Zaishen%20vanquish)&oldid=2626833",
+  "retrievedAt": "2026-11-13T05:29:46.270Z",
+  "wikitext": "{{Quest infobox\n| id = 1289\n| name = Tasca's Demise\n| section = Zaishen Vanquish\n| image = [[File:Tasca's Demise.jpg|200px]]\n| map = [[File:Tasca's Demise map.jpg|200px|link=Tasca's Demise/Map]]\n| map1text = Vanquish [[Tasca's Demise]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Tasca's Demise]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Tasca's Demise in the [[Southern Shiverpeaks]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 50 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Tasca's Demise in the Southern Shiverpeaks of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]"
+}

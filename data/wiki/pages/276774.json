@@ -1,0 +1,11 @@
+{
+  "title": "Plains of Jarin (Zaishen vanquish)",
+  "pageid": 276774,
+  "revid": 2626865,
+  "revisedAt": "2018-05-05T01:57:34Z",
+  "sha1": "7fa33f907b33d0ff0af321956fcb119c3a69edd6",
+  "url": "https://wiki.guildwars.com/wiki/Plains_of_Jarin_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Plains%20of%20Jarin%20(Zaishen%20vanquish)&oldid=2626865",
+  "retrievedAt": "2026-11-13T05:29:43.064Z",
+  "wikitext": "{{Quest infobox\n| id = 1249\n| name = Plains of Jarin\n| section = Zaishen Vanquish\n| image = [[File:Plains of Jarin.jpg|200px]]\n| map = [[File:Plains of Jarin map.jpg|200px|link=Plains of Jarin/Map]]\n| map1text = Vanquish the [[Plains of Jarin]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Plains of Jarin]].\n\n== Quest information ==\n=== Objectives ===\n* Clear the Plains of Jarin in [[Istan]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 750 [[Sunspear rank|Sunspear Promotion Points]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Plains of Jarin in Istan of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Sunspear promotion points]]"
+}

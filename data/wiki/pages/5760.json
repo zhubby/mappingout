@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Elite Sunspear armor",
+  "pageid": 5760,
+  "revid": 2524375,
+  "revisedAt": "2012-11-25T05:27:21Z",
+  "sha1": "8fe95ccc8509a9333df4111202ea17b7a1d50296",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Elite_Sunspear_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Elite%20Sunspear%20armor&oldid=2524375",
+  "retrievedAt": "2026-11-13T05:28:36.282Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Nightfall]]\n| gallery = mesmer Elite Sunspear }}\n'''Mesmer Elite [[Sunspear armor]]''' is a [[Prestige armor|prestige]] art type available in the Nightfall campaign.\n\nThe standard version of this armor is [[Mesmer Sunspear armor]]\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Command Post]]\n! [[Ahamid]]\n! 60\n| {{Cost|15000}}\n| 50 {{Cloth}}<br>5 {{Silk}}\n| 150 {{Cloth}}<br>15 {{Silk}}\n| 50  {{Cloth}}<br>5 {{Silk}}\n| 100 {{Cloth}}<br>10 {{Silk}}\n| 50 {{Cloth}}<br>5 {{Silk}}\n| {{Cost|75000}}\n| 400 {{Cloth}}<br>40 {{Silk}}\n|}\n\n==Notes==\n* In [[:File:Mesmer Elite Sunspear armor m.jpg|the image]], the male hose and footwear look the same as the standard versions, but the in-game art has been updated. Comparison below with updated versions:\n:[[Image:Male Mesmer Elite Sunspear footwear and hose comparison.jpg|500px]]\n{{bug|The female armor glitches with every pair of hose, including Elite Sunspear.}}\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Sunspear elite]]\n[[Category:Nightfall armor]]\n[[Category:Sunspear armor]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Necromancer Krytan armor",
+  "pageid": 17059,
+  "revid": 2508715,
+  "revisedAt": "2012-07-27T09:47:59Z",
+  "sha1": "7acf2ef908bfd74ae691ff4e03381605356bfb10",
+  "url": "https://wiki.guildwars.com/wiki/Necromancer_Krytan_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Necromancer%20Krytan%20armor&oldid=2508715",
+  "retrievedAt": "2026-11-13T05:28:33.573Z",
+  "wikitext": "{{armor art infobox\n| profession = Necromancer\n| campaign = [[Prophecies]], [[Factions]]\n| maleimage = [[Image:Necromancer Krytan armor m.jpg|108px]]\n| pvp = Krytan, Pagan ([[PvP reward]])\n| gallery = necromancer Krytan }}\n'''Necromancer [[Krytan armor]]''' is an art type introduced in the Prophecies campaign as [[Necromancer collector armor|collector armor]] and is also available for crafting in the Factions campaign.\n\n'''Note''': Necromancer Krytan armor art does not have headgear, but the [[Necromancer Ragged Scar Pattern]] is available from the same armorer in Factions. In Prophecies the same scar pattern is available from collectors.\n\nThere is no [[Prestige armor|prestige]] version of Krytan armor.\n\n{| style=\"margin:0.5em; border:1px solid {{N-color|border}}; border-collapse:collapse; font-size:90%; text-align:center;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{N-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting - Factions\n|- style=\"background:{{N-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Tunic || Gloves || Leggings || Boots ||rowspan=2| &nbsp; || colspan=\"2\" | Total cost\n|-\n! [[Bukdek Byway]]\n! [[Oroku]]\n! 60\n| {{Cost|1000}}\n| 75 {{Chitin}}<br>12 {{Leather}}\n| 25 {{Chitin}}<br>4 {{Leather}}\n| 50 {{Chitin}}<br>8 {{Leather}}\n| 25 {{Chitin}}<br>4 {{Leather}}\n| {{Cost|4000}}\n| 175 {{Chitin}}<br>28 {{Leather}}\n|}\n\n{{:Necromancer Krytan armor/Collector}}\n\n{{Necromancer armor nav}}\n\n[[Category:Necromancer armor|Krytan]]\n[[Category:Prophecies armor]]\n[[Category:Factions armor]]\n[[Category:Krytan armor]]\n[[Category:PvP armor]]\n[[Category:Necromancer collector armor]]\n[[Category:PvP reward armor]]"
+}

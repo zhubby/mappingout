@@ -1,7 +1,7 @@
 import { plainText, splitTopLevel } from './wikitext.mjs';
 
 // Expand rowspans so every exported version retains its profession and collector.
-export function wikiTables(source) {
+export function wikiTables(source, { raw = false } = {}) {
   const tables = []; let table, cells = [], spans = [];
   function flush() {
     if (!cells.length) return;
@@ -32,9 +32,9 @@ export function wikiTables(source) {
         if (/^\s*(?:rowspan|colspan|style|align|class|width)\s*=/.test(value)) {
           const pieces = splitTopLevel(value); attributes = pieces.shift(); text = pieces.join('|');
         }
-        cells.push({ text: plainText(text), rowspan: Number(/rowspan\s*=\s*["']?(\d+)/i.exec(attributes)?.[1] || 1), colspan: Number(/colspan\s*=\s*["']?(\d+)/i.exec(attributes)?.[1] || 1) });
+        cells.push({ text: raw ? text.trim() : plainText(text), rowspan: Number(/rowspan\s*=\s*["']?(\d+)/i.exec(attributes)?.[1] || 1), colspan: Number(/colspan\s*=\s*["']?(\d+)/i.exec(attributes)?.[1] || 1) });
       }
-    } else if (cells.length && line.trim()) cells[cells.length - 1].text += ` ${plainText(line)}`;
+    } else if (cells.length && line.trim()) cells[cells.length - 1].text += ` ${raw ? line.trim() : plainText(line)}`;
   }
   if (table) throw new Error('Unclosed version table');
   return tables;

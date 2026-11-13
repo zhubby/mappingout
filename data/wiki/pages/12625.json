@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Luxon armor",
+  "pageid": 12625,
+  "revid": 2621369,
+  "revisedAt": "2017-08-15T15:35:26Z",
+  "sha1": "5805eeaa1dd0413bad5bb1487bb15a4f772b593d",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Luxon_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Luxon%20armor&oldid=2621369",
+  "retrievedAt": "2026-11-13T05:28:19.396Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Factions]]\n| maleimage = [[Image:Warrior Luxon armor m.jpg|130px]]\n| pvp = Luxon\n| pvpreward = Basic\n| gallery = warrior Luxon}}\n[[Warrior Luxon armor]] is an art type available in the Factions campaign.\n\nThe [[Prestige armor|prestige]] version of this armor is [[Warrior Elite Luxon armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Cuirass || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\" |[[Cavalon]]\n! align=\"center\" |[[Tateos]]\n! align=\"center\" | 80\n| {{Cost|1000}}\n| 25 {{Scale}}<br>25 {{Chitin}}<br>3 {{Jadeite}}\n| 75 {{Scale}}<br>75 {{Chitin}}<br>9 {{Jadeite}}\n| 25 {{Scale}}<br>25 {{Chitin}}<br>3 {{Jadeite}}\n| 50 {{Scale}}<br>50 {{Chitin}}<br>6 {{Jadeite}}\n| 25 {{Scale}}<br>25 {{Chitin}}<br>3 {{Jadeite}}\n| {{Cost|5000}}\n| 200 {{Scale}}<br>200 {{Chitin}}<br>24 {{Jadeite}}\n|}\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Luxon]]\n[[Category:Luxon armor]]"
+}

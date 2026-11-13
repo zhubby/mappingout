@@ -1,0 +1,11 @@
+{
+  "title": "Elementalist Norn armor",
+  "pageid": 64618,
+  "revid": 2380063,
+  "revisedAt": "2011-09-14T17:10:41Z",
+  "sha1": "522982531c2acb28189d6f86ad9fec132566bf39",
+  "url": "https://wiki.guildwars.com/wiki/Elementalist_Norn_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Elementalist%20Norn%20armor&oldid=2380063",
+  "retrievedAt": "2026-11-13T05:28:41.614Z",
+  "wikitext": "{{armor art infobox\n| profession = Elementalist\n| campaign = [[Eye of the North]]\n| pvp = Norn\n| pvpreward = Basic\n| gallery = elementalist Norn\n}}\n'''Elementalist [[Norn armor]]''' is a prestige art type available in the Eye of the North expansion. You need to be at least rank 5 (Slayer of Wurms) in the [[Norn rank|Norn title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{E-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{E-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background:{{E-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Robes || Gloves || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Gunnar's Hold]]\n! [[Radi]]\n! 60\n| 10 {{plat}}\n| 150 {{Hide}}<br>15 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 100 {{Hide}}<br>10 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 40 {{plat}} \n| 350 {{Hide}}<br>35 {{Fur}}\n|}\n\n{{Elementalist armor nav}}\n\n[[Category:Elementalist armor|Norn]]\n[[Category:Norn armor]]\n[[Category:Prestige armor]]"
+}

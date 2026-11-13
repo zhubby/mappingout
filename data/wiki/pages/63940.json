@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Norn armor",
+  "pageid": 63940,
+  "revid": 2380059,
+  "revisedAt": "2011-09-14T17:09:12Z",
+  "sha1": "cc9f32556484fb48285dd76a572383d3a3cdf570",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Norn_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Norn%20armor&oldid=2380059",
+  "retrievedAt": "2026-11-13T05:28:19.397Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Eye of the North]]\n| pvp = Norn\n| pvpreward = Basic\n| maleimage = [[Image:Warrior Norn armor m.jpg|125px]]\n| gallery = warrior Norn\n}}\n'''Warrior [[Norn armor]]''' is a [[prestige armor|prestige]] art type available in the Eye of the North expansion. You need to be at least rank 5 (Slayer of Wurms) in the [[Norn rank|Norn title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Cuirass || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Gunnar's Hold]]\n! align=\"center\"|[[Radi]]\n! align=\"center\"|80\n| {{Cost|10000}}\n| 50 {{Iron}}<br>3 {{Monstrous Fang}} <br>2 {{Monstrous Claw}}\n| 150 {{Iron}}<br>9 {{Monstrous Fang}} <br>6 {{Monstrous Claw}}\n| 50 {{Iron}}<br>3 {{Monstrous Fang}} <br>2 {{Monstrous Claw}}\n| 100 {{Iron}}<br>6 {{Monstrous Fang}} <br>4 {{Monstrous Claw}}\n| 50  {{Iron}}<br>3 {{Monstrous Fang}} <br>2 {{Monstrous Claw}}\n| {{Cost|50000}}\n| 400 {{Iron}}<br>24 {{Monstrous Fang}} <br>16 {{Monstrous Claw}}\n|}\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Norn]]\n[[Category:Norn armor]]\n[[Category:Prestige armor]]"
+}

@@ -23,6 +23,6 @@ export interface Catalog { version: number; referenceVersion?: string; stories?:
 export interface Character { id: string; name: string }
 export interface Progress { characterId: string; entryId: string; done: boolean; date?: string }
 export interface Note { id: string; characterId: string; region: string; x: number; y: number; text: string }
-export interface Personal { characters: Character[]; progress: Progress[]; notes: Note[]; preferences: { characterId: string; layers: Kind[] } }
-export interface Backup { format: 'mappingout-backup'; version: 1; exportedAt: string; data: Personal }
+export interface Personal { characters: Character[]; progress: Progress[]; notes: Note[]; armorPlans: import('./feature-types').ArmorPlan[]; activityProgress: import('./feature-types').ActivityProgress[]; preferences: { characterId: string; layers: Kind[]; calendarTimezone?: 'Asia/Shanghai'|'local'|'UTC' } }
+export interface Backup { format: 'mappingout-backup'; version: 2; exportedAt: string; data: Personal; migratedFrom?: 1 }
 export interface Filters { q: string; campaign: string; region: string; zone: string; kind: Kind | ''; profession: string; attribute: string; incomplete: boolean; selected: string; map: string }

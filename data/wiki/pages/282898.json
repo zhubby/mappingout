@@ -1,0 +1,11 @@
+{
+  "title": "Dragon's Gullet (Zaishen vanquish)",
+  "pageid": 282898,
+  "revid": 2626917,
+  "revisedAt": "2018-05-05T01:59:12Z",
+  "sha1": "82e415fc35d66fa4b95423b227d5e9e73246d5cc",
+  "url": "https://wiki.guildwars.com/wiki/Dragon%27s_Gullet_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dragon's%20Gullet%20(Zaishen%20vanquish)&oldid=2626917",
+  "retrievedAt": "2026-11-13T05:29:51.522Z",
+  "wikitext": "{{Quest infobox\n| id = 1216\n| name = Dragon's Gullet\n| section = Zaishen Vanquish\n| image = [[File:Dragon's Gullet.jpg|200px]]\n| map = [[File:Dragon's Gullet map.jpg|200px|link=Dragon's Gullet/Map]]\n| map1text = Vanquish [[Dragon's Gullet]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Dragon's Gullet]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Dragon's Gullet in [[Ascalon]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 15,000 [[Experience]]\n* 2,000 [[Gold]]\n* Complete the Base Objective for 250 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Dragon's Gullet in Ascalon of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

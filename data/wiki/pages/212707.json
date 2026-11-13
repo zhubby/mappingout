@@ -1,0 +1,11 @@
+{
+  "title": "Gate of Desolation (Zaishen quest)",
+  "pageid": 212707,
+  "revid": 2420814,
+  "revisedAt": "2011-12-10T09:14:38Z",
+  "sha1": "de4a5d7ac8d7aca6f81a3849ce44b13dad8d25b3",
+  "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gate%20of%20Desolation%20(Zaishen%20quest)&oldid=2420814",
+  "retrievedAt": "2026-11-13T05:29:27.684Z",
+  "wikitext": "{{Quest infobox\n| id =\n| name = Gate of Desolation\n| section = Zaishen Mission\n| map = [[File:Gate of Desolation map.jpg|250px]]\n| required hero = Zhed Shadowhoof\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 5000\n}}__NOTOC__\nComplete [[Gate of Desolation]].\n\n== Quest information ==\n=== Objectives ===\n* Tame [[Queen Aijundu]] to travel across [[The Desolation]].\n* *BONUS* Save three young [[Junundu]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 500 [[Lightbringer rank|Lightbringer points]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Gate of Desolation#Walkthrough|Gate of Desolation]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; Zaishen Mission\n: ''\"To master the Desolation, you must first master the beast. Can you tame the great wurm Aijundu or will you perish in her belly? Contact [[Zhed Shadowhoof]] and test yourself at the [[Gate of Desolation (outpost)|Gate of Desolation]].\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Lightbringer points]]\n[[Category:Rewards Platinum]]"
+}

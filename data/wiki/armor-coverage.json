@@ -1,0 +1,91 @@
+{
+  "referenceVersion": "gww-2026-11-13-crafting-calendar",
+  "coverage": {
+    "discovered": 305,
+    "crafted": 298,
+    "excluded": 7
+  },
+  "excluded": [
+    {
+      "title": "Elementalist Elementalist's Aura",
+      "reason": "No NPC crafting recipe; starter, collector, or trophy exchange only."
+    },
+    {
+      "title": "Blindfold",
+      "reason": "No NPC crafting recipe; starter, collector, or trophy exchange only."
+    },
+    {
+      "title": "Crown",
+      "reason": "No NPC crafting recipe; starter, collector, or trophy exchange only."
+    },
+    {
+      "title": "Destroyer Gauntlets",
+      "reason": "No NPC crafting recipe; starter, collector, or trophy exchange only."
+    },
+    {
+      "title": "Dread Mask",
+      "reason": "No NPC crafting recipe; starter, collector, or trophy exchange only."
+    },
+    {
+      "title": "Glacial Gauntlets",
+      "reason": "No NPC crafting recipe; starter, collector, or trophy exchange only."
+    },
+    {
+      "title": "Mask of the Mo Zing",
+      "reason": "No NPC crafting recipe; starter, collector, or trophy exchange only."
+    }
+  ],
+  "issues": [],
+  "professions": [
+    {
+      "profession": 1,
+      "sets": 35,
+      "offers": 95
+    },
+    {
+      "profession": 2,
+      "sets": 35,
+      "offers": 151
+    },
+    {
+      "profession": 3,
+      "sets": 34,
+      "offers": 112
+    },
+    {
+      "profession": 4,
+      "sets": 35,
+      "offers": 120
+    },
+    {
+      "profession": 5,
+      "sets": 36,
+      "offers": 166
+    },
+    {
+      "profession": 6,
+      "sets": 43,
+      "offers": 288
+    },
+    {
+      "profession": 7,
+      "sets": 22,
+      "offers": 32
+    },
+    {
+      "profession": 8,
+      "sets": 21,
+      "offers": 31
+    },
+    {
+      "profession": 9,
+      "sets": 14,
+      "offers": 29
+    },
+    {
+      "profession": 10,
+      "sets": 14,
+      "offers": 24
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Paragon Asuran armor",
+  "pageid": 67558,
+  "revid": 2380082,
+  "revisedAt": "2011-09-14T17:20:48Z",
+  "sha1": "8e22c2878e1cca368b92d48dff19a5c4906edc79",
+  "url": "https://wiki.guildwars.com/wiki/Paragon_Asuran_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Paragon%20Asuran%20armor&oldid=2380082",
+  "retrievedAt": "2026-11-13T05:28:49.684Z",
+  "wikitext": "{{armor art infobox\n| profession = Paragon\n| campaign = [[Eye of the North]]\n| pvp = Asuran\n| pvpreward = Basic\n| gallery = paragon Asuran\n}}\n'''Paragon [[Asuran armor]]''' is a prestige art type available in the Eye of the North expansion. You need to be at least rank 5 (Not Too Annoying) in the [[Asura rank|Asura title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{P-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{P-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background:{{P-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Raiment || Armguards || Leggings || Sandals || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Rata Sum]]\n! [[Klub]]\n| 80\n| {{Cost|10000}}\n| 150 {{Hide}}<br>15 {{Leather}} \n| 50 {{Hide}}<br>5 {{Leather}}\n| 100 {{Hide}}<br>10 {{Leather}}\n| 50 {{Hide}}<br>5 {{Leather}}\n| {{Cost|40000}}\n| 350 {{Hide}}<br>35 {{Leather}}\n|}\n\n== Notes ==\n* The male version of this armor is very similar to [[Paragon Vabbian armor|Vabbian armor]], while the female resembles [[Paragon Elonian armor|Elonian]].\n\n{{Paragon armor nav}}\n\n[[Category:Paragon armor|Asuran]]\n[[Category:Asuran armor]]\n[[Category:Prestige armor]]"
+}

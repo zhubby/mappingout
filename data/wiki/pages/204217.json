@@ -1,0 +1,11 @@
+{
+  "title": "Nundu Bay (Zaishen quest)",
+  "pageid": 204217,
+  "revid": 2420822,
+  "revisedAt": "2011-12-10T09:23:01Z",
+  "sha1": "3a859f11bb96c582cc631daba5a08968bb241292",
+  "url": "https://wiki.guildwars.com/wiki/Nundu_Bay_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Nundu%20Bay%20(Zaishen%20quest)&oldid=2420822",
+  "retrievedAt": "2026-11-13T05:29:27.681Z",
+  "wikitext": "{{Quest infobox \n| id = 991\n| name = Nundu Bay   \n| section = Zaishen Mission\n| required hero = Melonni\n| map = [[File:Nundu Bay map.jpg|200px]]   \n| given by = [[Zaishen Mission]]  \n| given at = [[Great Temple of Balthazar]]   \n| experience reward = 5000  \n}}__NOTOC__\nComplete [[Nundu Bay]].\n\n== Quest information ==\n=== Objectives ===\n* Take [[Melonni]] and defend the village of [[Ronjok]].   \n* *BONUS* Defeat two additional [[Harbinger of Nightfall|Harbingers of Nightfall]].  \n* *BONUS* Complete the mission in [[hard mode|Hard Mode]]. \n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]] \n* 1,000 [[Gold]]  \n* 500 [[Lightbringer rank|Lightbringer points]]   \n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].  \n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.  \n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Nundu Bay#Walkthrough|Nundu Bay]] mission.  \n  \n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission \n: ''\"Ronjok village is at risk of succumbing to [[Abaddon]]'s followers. Help quash the evil that has suddenly erupted. Contact Melonni and travel to the village on [[Nundu Bay (outpost)|Nundu Bay]].\"''  \n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu  \n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Lightbringer points]]\n[[Category:Rewards Platinum]]"
+}

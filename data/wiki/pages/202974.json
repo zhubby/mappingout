@@ -1,0 +1,11 @@
+{
+  "title": "Thirsty River (Zaishen quest)",
+  "pageid": 202974,
+  "revid": 1943578,
+  "revisedAt": "2010-03-10T22:31:38Z",
+  "sha1": "bd4d2306178cda476778ce4696d9a34a905bc804",
+  "url": "https://wiki.guildwars.com/wiki/Thirsty_River_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Thirsty%20River%20(Zaishen%20quest)&oldid=1943578",
+  "retrievedAt": "2026-11-13T05:29:27.680Z",
+  "wikitext": "{{Quest infobox\n| id = 951\n| name = Thirsty River\n| section = Zaishen Mission\n| map = [[File:Thirsty River map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 3000\n}}__NOTOC__\nComplete [[Thirsty River]].\n\n==Quest information==\n===Objectives===\n*Annihilate the six opposing enemy teams.\n* *BONUS* Cleanse the area before [[King Khimaar]]'s spirit leaves.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Thirsty River#Walkthrough|Thirsty River]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"Are you worthy of [[Ascension]]? That honor goes only to the brave and noble champions who can surmount the trials at [[Thirsty River (outpost)|Thirsty River]].\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

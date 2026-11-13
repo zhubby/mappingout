@@ -1,0 +1,11 @@
+{
+  "title": "Prophet's Path (Zaishen vanquish)",
+  "pageid": 278866,
+  "revid": 2626861,
+  "revisedAt": "2018-05-05T01:57:26Z",
+  "sha1": "86eac74e643a8d149aaa6ee984a382d277fd2d49",
+  "url": "https://wiki.guildwars.com/wiki/Prophet%27s_Path_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Prophet's%20Path%20(Zaishen%20vanquish)&oldid=2626861",
+  "retrievedAt": "2026-11-13T05:29:46.269Z",
+  "wikitext": "{{Quest infobox\n| id = 1287\n| name = Prophet's Path\n| section = Zaishen Vanquish\n| image = [[File:Prophet's Path.jpg|200px]]\n| map = [[File:Prophet's Path map.jpg|200px|link=Prophet's Path/Map]]\n| map1text = Vanquish [[Prophet's Path]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Prophet's Path]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Prophet's Path in the [[Crystal Desert]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 15,000 [[Experience]]\n* 2,000 [[Gold]]\n* Complete the Base Objective for 250 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Prophet's Path in the Crystal Desert of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

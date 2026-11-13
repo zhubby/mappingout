@@ -1,0 +1,11 @@
+{
+  "title": "Monk Asuran armor",
+  "pageid": 67372,
+  "revid": 2380074,
+  "revisedAt": "2011-09-14T17:16:20Z",
+  "sha1": "2dd9801e326fe87d842d5dffb71937436d93f9ef",
+  "url": "https://wiki.guildwars.com/wiki/Monk_Asuran_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Monk%20Asuran%20armor&oldid=2380074",
+  "retrievedAt": "2026-11-13T05:28:28.080Z",
+  "wikitext": "{{Armor art infobox\n| profession = Monk\n| campaign = [[Eye of the North]]\n| pvp = Asuran\n| pvpreward = Basic\n| femaleimage = [[Image:Monk Asuran armor f.jpg|107px]]\n| maleimage = [[Image:Monk Asuran armor m.jpg|137px]]\n| gallery = monk Asuran\n}}\n'''Monk [[Asuran armor]]''' is a [[prestige armor|prestige]] art type available in the Eye of the North expansion. You need to be at least rank 5 (Not Too Annoying) in the [[Asura rank|Asura title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{Mo-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Mo-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Mo-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Scalp Design || Vestments || Handwraps || Pants || Sandals || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|-\n! [[Rata Sum]]\n! [[Klub]]\n! 60\n| {{Cost|10000}}\n| 10 {{Parchment}} 5 {{Ink}}\n| 150 {{Cloth}}<br>15 {{Leather}}\n| 50 {{Cloth}}<br>5 {{Leather}}\n| 100 {{Cloth}}<br>10 {{Leather}}\n| 50 {{Cloth}}<br>5 {{Leather}}\n| {{Cost|50000}}\n| 10 {{Parchment}}<br>5 {{Ink}}<br>350 {{Cloth}}<br>35 {{Leather}}\n|}\n==Trivia==\n* This armor is a reskin of [[Monk Krytan armor]].\n\n\n{{Monk armor nav}}\n\n[[Category:Monk armor|Asuran]]\n[[Category:Asuran armor]]\n[[Category:Prestige armor]]"
+}

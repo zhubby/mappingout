@@ -1,0 +1,11 @@
+{
+  "title": "The Elusive Golemancer (Zaishen quest)",
+  "pageid": 200044,
+  "revid": 2671467,
+  "revisedAt": "2021-04-05T14:50:37Z",
+  "sha1": "d0a9657c96b412fb8a7fae3aefee46f277d22b8f",
+  "url": "https://wiki.guildwars.com/wiki/The_Elusive_Golemancer_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Elusive%20Golemancer%20(Zaishen%20quest)&oldid=2671467",
+  "retrievedAt": "2026-11-13T05:29:33.217Z",
+  "wikitext": "{{Quest infobox\n| name = The Elusive Golemancer\n| section = Zaishen Mission\n| image =\n| map = [[File:The Elusive Golemancer map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[The Elusive Golemancer]].\n\n==Quest information==\n===Objectives===\n* In the laboratory south {{sic|west}} of [[Rata Sum]], survive [[Oola]]'s security measures while you locate her.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 1,500 [[Asura rank|Asura reputation points]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per [[The Elusive Golemancer#Walkthrough|The Elusive Golemancer]] quest.\n\n==Dialogue==\n===Initial dialogue===\n;[[Zaishen Mission]]\n:''\"[[Vekk]] is seeking clever humans as krewe recruiters. Handsome rewards for any human who can recruit the elusive golemancer Oola to the krewe. Talk to [[Blimm]] in [[Magus Stones]] for information on how to find her.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*Although the objectives states this as a [[mission]], it is actually a [[primary quest]].\n*The mission objectives say the laboratory is to the south of [[Rata Sum]]. It is actually to the west.\n\n[[Category:Rewards Asura reputation points]]"
+}

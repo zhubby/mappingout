@@ -1,0 +1,11 @@
+{
+  "title": "The Hidden City of Ahdashim (Zaishen vanquish)",
+  "pageid": 277416,
+  "revid": 2694330,
+  "revisedAt": "2024-04-07T15:33:09Z",
+  "sha1": "67f93c36511cb739ebab2f3a5fe0d36229ee3caa",
+  "url": "https://wiki.guildwars.com/wiki/The_Hidden_City_of_Ahdashim_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Hidden%20City%20of%20Ahdashim%20(Zaishen%20vanquish)&oldid=2694330",
+  "retrievedAt": "2026-11-13T05:29:44.682Z",
+  "wikitext": "{{Quest infobox\n| id = 1261\n| name = The Hidden City of Ahdashim\n| section = Zaishen Vanquish\n| image = [[File:Nightfall screenshot 8.jpg|200px]]\n| map = [[File:The Hidden City of Ahdashim map.jpg|200px|link=The Hidden City of Ahdashim/Map]]\n| map1text = Vanquish [[the Hidden City of Ahdashim]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[the Hidden City of Ahdashim]].\n\n== Quest information ==\n=== Objectives ===\n* Clear the Hidden City of Ahdashim in [[Vabbi]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 750 [[Sunspear rank|Sunspear Promotion Points]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Hidden City of Ahdashim in Vabbi of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n== Notes ==\n* Even though this is a [[Vabbi|Vabbian]] area, and thus rewards [[Lightbringer]] points for vanquishing the area, this quest rewards Sunspear promotion points.\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Sunspear promotion points]]"
+}

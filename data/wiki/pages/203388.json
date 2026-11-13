@@ -1,0 +1,11 @@
+{
+  "title": "Against the Charr (Zaishen quest)",
+  "pageid": 203388,
+  "revid": 2100372,
+  "revisedAt": "2010-07-29T06:33:13Z",
+  "sha1": "e6001fbee1b880f28349f09d0c2cde6a66588512",
+  "url": "https://wiki.guildwars.com/wiki/Against_the_Charr_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Against%20the%20Charr%20(Zaishen%20quest)&oldid=2100372",
+  "retrievedAt": "2026-11-13T05:29:27.680Z",
+  "wikitext": "{{Quest infobox\n| id = \n| name = Against the Charr\n| section = Zaishen Mission\n| map = [[File:Against the Charr map.jpg|250px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]] \n| experience reward = 1000\n}}__NOTOC__\nComplete [[Against the Charr]].\n\n== Quest information ==\n=== Objectives ===\n* Search for the [[Ebon Vanguard]] in the [[Charr Homelands|Charr homelands]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 1,500 [[Vanguard reputation point|Vanguard reputation points]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Against the Charr#Walkthrough|Against the Charr]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission\n: ''\"A cadre of the Ebon Vanguard have gone missing. Looking for volunteer soldiers to investigate their last known location: battling against the Charr on the [[Grothmar Wardowns]].\"''\n{{offer dialog\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]].}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Vanguard reputation points]]"
+}

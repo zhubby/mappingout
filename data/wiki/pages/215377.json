@@ -1,0 +1,11 @@
+{
+  "title": "D'Alessio Seaboard (Zaishen quest)",
+  "pageid": 215377,
+  "revid": 2012001,
+  "revisedAt": "2010-05-07T00:52:38Z",
+  "sha1": "67d5dad4a0de09e1eb4023eb55c3e0a83435f608",
+  "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=D'Alessio%20Seaboard%20(Zaishen%20quest)&oldid=2012001",
+  "retrievedAt": "2026-11-13T05:29:29.548Z",
+  "wikitext": "{{Quest infobox\n| id = 943\n| name = D'Alessio Seaboard\n| section = Zaishen Mission\n| map = [[File:D'Alessio Seaboard map.jpg|200px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 3000\n}}__NOTOC__\nComplete [[D'Alessio Seaboard]].\n\n== Quest information ==\n=== Objectives ===\n* Cleanse [[Hakewood]] of [[undead]] and retrieve the [[Scepter of Orr]].\n* *BONUS* Make an offering to the [[statue of Melandru]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Zaishen Coin|Zaishen Copper Coin]]s.\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per [[D'Alessio Seaboard#Walkthrough|D'Alessio Seaboard]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"Undead forces are swarming along the [[D'Alessio Seaboard (outpost)|D'Alessio Seaboard]]. The [[White Mantle]] needs your help to save the village of Hakewood and retrieve the sacred Scepter of Orr.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

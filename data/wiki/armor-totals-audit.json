@@ -1,0 +1,25 @@
+{
+  "referenceVersion": "gww-2026-11-13-crafting-calendar",
+  "sets": 298,
+  "offers": 1057,
+  "checkedGoldTotals": 654,
+  "checkedMaterialTotals": 654,
+  "reviewedSourceDiscrepancies": [
+    {
+      "offerId": "offer:6626:d53fd097f7500aa7",
+      "title": "Ranger Drakescale armor",
+      "armorer": "Hanita",
+      "sourceTotal": 600,
+      "pieceTotal": 800,
+      "resolution": "4 pieces × 200 gold = 800 gold; Armorer overview independently lists the 200 gold per-piece fee. Original total cell is retained in pinned source."
+    },
+    {
+      "offerId": "offer:6626:b7a1433ab6e16c62",
+      "title": "Ranger Drakescale armor",
+      "armorer": "Alemeth",
+      "sourceTotal": 600,
+      "pieceTotal": 800,
+      "resolution": "4 pieces × 200 gold = 800 gold; Armorer overview independently lists the 200 gold per-piece fee. Original total cell is retained in pinned source."
+    }
+  ]
+}

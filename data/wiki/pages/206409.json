@@ -1,0 +1,11 @@
+{
+  "title": "Nolani Academy (Zaishen quest)",
+  "pageid": 206409,
+  "revid": 1943608,
+  "revisedAt": "2010-03-10T22:45:28Z",
+  "sha1": "be05344be0dbe6d008c17ce71d3d712c5dab4222",
+  "url": "https://wiki.guildwars.com/wiki/Nolani_Academy_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Nolani%20Academy%20(Zaishen%20quest)&oldid=1943608",
+  "retrievedAt": "2026-11-13T05:29:29.547Z",
+  "wikitext": "{{Quest infobox\n| id =\n| name = Nolani Academy\n| section = Zaishen Mission\n| image =\n| map = [[File:Nolani Academy map.jpg|250px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = EP reward\n}}__NOTOC__\nComplete [[Nolani Academy]].\n\n== Quest information ==\n=== Objectives ===\n* Help [[Prince Rurik]] exit the besieged [[Nolani Academy (outpost)|Nolani Academy]] and return to [[Rin]].\n* *BONUS* Return the [[Tome of the Fallen]] to its pedestal.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Nolani Academy#Walkthrough|Nolani Academy]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"Prince Rurik is besieged inside the Nolani Academy. Reinforcements must carve a path for the Prince back to the capital city of Rin. The Prince must be protected at all costs. For [[Ascalon]]!\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

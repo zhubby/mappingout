@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Elite Rogue armor",
+  "pageid": 5715,
+  "revid": 2263150,
+  "revisedAt": "2011-03-14T15:41:32Z",
+  "sha1": "e12d293bad3008485ed011fe943863919737e1b5",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Elite_Rogue_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Elite%20Rogue%20armor&oldid=2263150",
+  "retrievedAt": "2026-11-13T05:28:35.659Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Prophecies]]\n| gallery = mesmer Elite Rogue }}\n'''Mesmer Elite Rogue armor''' is a [[Prestige armor|prestige]] art type available in the Prophecies campaign.\n\nThe standard version of this armor is [[Mesmer Rogue armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Marhan's Grotto]]\n! [[Karl]]\n! 60\n| {{Cost|15000}}\n| 150 {{Cloth}}<br>15 {{Elonian Leather}}\n| 50 {{Cloth}}<br>5 {{Elonian Leather}}\n| 100 {{Cloth}}<br>10 {{Elonian Leather}}\n| 50 {{Cloth}}<br>5 {{Elonian Leather}}\n| {{Cost|60000}}\n| 350 {{Cloth}}<br>35 {{Elonian Leather}}\n|}\n\n==Notes==\n* This armor is labeled [[Marhan's Grotto armor#Marhan's Grotto Exclusive Armor|Marhan's Grotto Exclusive Armor]] in the [[\"Resilience\"]] monument in the [[Hall of Monuments]].\n\n{{bug|There is a small red splotch on the male hose, just below the belt.}}\n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Elite Rogue]]\n[[Category:Prophecies armor]]\n[[Category:Prestige armor]]"
+}

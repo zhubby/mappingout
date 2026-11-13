@@ -1,0 +1,11 @@
+{
+  "title": "Elementalist Ancient armor",
+  "pageid": 11943,
+  "revid": 2377774,
+  "revisedAt": "2011-09-09T18:08:26Z",
+  "sha1": "682ed5cdeb084f5ab1db3909b7039078ca7da270",
+  "url": "https://wiki.guildwars.com/wiki/Elementalist_Ancient_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Elementalist%20Ancient%20armor&oldid=2377774",
+  "retrievedAt": "2026-11-13T05:28:38.872Z",
+  "wikitext": "{{Armor art infobox\n| profession = Elementalist\n| campaign = [[Nightfall]]\n| pvp = Ancient\n| pvpreward = Fancy\n| gallery = elementalist Ancient\n}}\n'''Elementalist [[Ancient armor]]''' is a prestige art type available in the Nightfall campaign.\n\nThere is no standard version of Ancient armor.\n\n{| style=\"margin:0.5em; border:1px solid {{E-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{E-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background:{{E-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Robes || Gloves || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Bone Palace]]\n! [[Palmod]]\n! 60\n| {{Cost|10000}}\n| 150 {{Cloth}}<br>15 {{Damask}}\n| 50 {{Cloth}}<br>5 {{Damask}}\n| 100 {{Cloth}}<br>10 {{Damask}}\n| 50 {{Cloth}}<br>5 {{Damask}}\n| {{Cost|40000}}\n| 350 {{Cloth}}<br>35 {{Damask}}\n|}\n\n==Notes==\n* The male collar clips with long hair styles.\n* The female leggings clip with guild capes.\n\n{{Elementalist armor nav}}\n\n[[Category:Elementalist armor|Ancient]]\n[[Category:Ancient armor]]\n[[Category:Prestige armor]]"
+}

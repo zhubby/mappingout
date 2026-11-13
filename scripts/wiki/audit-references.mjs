@@ -18,6 +18,11 @@ for (const record of catalog.records) {
   record.locations.forEach(place => collect(place.wiki));
 }
 catalog.stories?.forEach(story => story.references.forEach(collect));
+const featureVersions=[];
+function collectNested(value){if(!value||typeof value!=='object')return;if(value.revisionUrl&&value.pageid){collect(value);return;}for(const nested of Object.values(value))if(Array.isArray(nested))nested.forEach(collectNested);else collectNested(nested);}
+for(const filename of ['armor.json','calendar.json']) {
+  const feature=JSON.parse(await fs.readFile(path.join(web,'public/data',filename),'utf8'));collectNested(feature);featureVersions.push(feature.referenceVersion);
+}
 const revisions = [];
 for (const reference of references.values()) {
   const page = JSON.parse(await fs.readFile(path.join(evidenceDir, `pages/${reference.pageid}.json`), 'utf8'));
@@ -38,5 +43,5 @@ if (process.argv.includes('--remote')) {
     }
     console.log(`Wiki revision hashes ${offset + batch.length}/${revisions.length}`);
   }
-  await fs.writeFile(path.join(evidenceDir, 'source-audit.json'), JSON.stringify({ format: 1, source: 'https://wiki.guildwars.com/api.php', checkedAt: new Date().toISOString(), referenceVersion: catalog.referenceVersion, records: catalog.records.length, revisions: revisions.length, checks: ['local-wikitext-sha1', 'live-revision-page-title-id-timestamp-sha1'], entries: revisions }, null, 2) + '\n');
+  await fs.writeFile(path.join(evidenceDir, 'source-audit.json'), JSON.stringify({ format: 1, source: 'https://wiki.guildwars.com/api.php', checkedAt: new Date().toISOString(), referenceVersion: catalog.referenceVersion, featureVersions: [...new Set(featureVersions)], records: catalog.records.length, revisions: revisions.length, checks: ['local-wikitext-sha1', 'live-revision-page-title-id-timestamp-sha1'], entries: revisions }, null, 2) + '\n');
 }

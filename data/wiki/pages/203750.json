@@ -1,0 +1,11 @@
+{
+  "title": "Grand Court of Sebelkeh (Zaishen quest)",
+  "pageid": 203750,
+  "revid": 2420817,
+  "revisedAt": "2011-12-10T09:15:20Z",
+  "sha1": "b14709264f0fb96f941ed721d97c140c7583f450",
+  "url": "https://wiki.guildwars.com/wiki/Grand_Court_of_Sebelkeh_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Grand%20Court%20of%20Sebelkeh%20(Zaishen%20quest)&oldid=2420817",
+  "retrievedAt": "2026-11-13T05:29:27.681Z",
+  "wikitext": "{{Quest infobox\n| id = 989\n| name = Grand Court of Sebelkeh\n| section = Zaishen Mission\n| map = [[File:Grand Court of Sebelkeh map.jpg|225px]]\n| required hero = Tahlkora\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]] \n| experience reward = 5000\n}}__NOTOC__\nComplete [[Grand Court of Sebelkeh]].\n\n== Quest information ==\n=== Objectives ===\n* Take [[Tahlkora]] and close the torment rifts in the [[Sebelkeh Basilica]].\n* *BONUS* Complete the mission in under 6 minutes (12 minutes in [[Hard Mode]]).\n* *BONUS* Complete the mission in Hard Mode.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 500 [[Lightbringer rank|Lightbringer Points]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Grand Court of Sebelkeh#Walkthrough|Grand Court of Sebelkeh]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission\n: ''\"[[Abaddon]]'s minions are trying to corrupt the holy [[Altar of Lyssa]] in the [[Grand Court of Sebelkeh (outpost)|Grand Court of Sebelkeh]]. Contact Tahlkora and clear Abbaddon's {{sic}} evil from the sacred site.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Lightbringer points]]\n[[Category:Rewards Platinum]]"
+}

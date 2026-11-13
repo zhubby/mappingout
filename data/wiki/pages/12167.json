@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Elite Dragon armor",
+  "pageid": 12167,
+  "revid": 2709920,
+  "revisedAt": "2025-07-01T04:58:46Z",
+  "sha1": "e10544d6d843f0a415505816bb57bbc0f29c57a0",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Elite_Dragon_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Elite%20Dragon%20armor&oldid=2709920",
+  "retrievedAt": "2026-11-13T05:28:19.393Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Prophecies]]\n| pvp = Elite Dragon\n| pvpreward = Fancy\n| maleimage = [[Image:Warrior Elite Dragon armor m.jpg|127px]]\n| gallery = warrior Elite Dragon \n}}\n[[Warrior Elite Dragon armor]] is a [[prestige armor|prestige]] art type available in the Prophecies campaign.\n\nThe standard version of this armor is [[Warrior Wyvern armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Hauberk || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[The Granite Citadel]]\n! align=\"center\"|[[Hagen]]\n! align=\"center\"|80\n| {{Cost|15000}}\n| 50  {{Iron}}<br>5 {{Scale}}\n| 150 {{Iron}}<br>15 {{Scale}}\n| 50  {{Iron}}<br>5 {{Scale}}\n| 100 {{Iron}}<br>10 {{Scale}}\n| 50  {{Iron}}<br>5 {{Scale}}\n| {{Cost|75000}}\n| 400 {{Iron}}<br>40 {{Scale}}\n|}\n\n==Notes==   \n* This armor is labeled [[Granite Citadel armor#Granite Citadel Exclusive Armor|Granite Citadel Exclusive Armor]] in the [[\"Resilience\"]] monument in the [[Hall of Monuments]].\n{{Bug|The neck appears twisted for the female model}}\n\n==Trivia==\n*Several [http://wiki.guildwars.com/index.php?title=Special%3AWhatLinksHere&target=File%3AGhost+warrior.jpg&namespace=0 ghosts] can be seen wearing this.\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Elite Dragon]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "A Gate Too Far (Zaishen quest)",
+  "pageid": 207015,
+  "revid": 2132370,
+  "revisedAt": "2010-09-14T23:35:17Z",
+  "sha1": "bb4fff3a8868d5595e126a316f6a4c83b55edefb",
+  "url": "https://wiki.guildwars.com/wiki/A_Gate_Too_Far_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=A%20Gate%20Too%20Far%20(Zaishen%20quest)&oldid=2132370",
+  "retrievedAt": "2026-11-13T05:29:29.547Z",
+  "wikitext": "{{Quest infobox\n| id = 1008\n| name = A Gate Too Far\n| section = Zaishen Mission\n| image =\n| map = [[File:A Gate Too Far map.jpg|250px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 5000\n}}__NOTOC__\nComplete [[A Gate Too Far]].\n\n== Quest information ==\n=== Objectives ===\n* Destroy the [[Asura Gate]] in the temple near [[Raven's Point]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 2,500 [[Norn rank|Norn reputation points]]\n* Complete the Base Objective for 40 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 100 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per [[A Gate Too Far#Walkthrough|A Gate Too Far]].\n\n== Dialogue ==\n=== Initial dialogue ===\n;[[Zaishen Mission]]\n: ''\"Destroyers are pouring through the Asura Gate in the temple near Raven's Point. The gate must be destroyed to stem the flow of evil.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n;Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Norn reputation points]]\n[[Category:Rewards Platinum]]"
+}

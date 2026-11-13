@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Vabbian armor",
+  "pageid": 12366,
+  "revid": 2730386,
+  "revisedAt": "2026-06-15T12:06:34Z",
+  "sha1": "4f5a7670a3045362c7dbd6a700e57049711f122b",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Vabbian_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Vabbian%20armor&oldid=2730386",
+  "retrievedAt": "2026-11-13T05:28:20.396Z",
+  "wikitext": "{{Armor art infobox\n| profession = Warrior\n| campaign = [[Nightfall]]\n| pvp = Vabbian\n| pvpreward = Fancy\n| maleimage = [[Image:Warrior Vabbian armor m.jpg|127px]]\n| gallery = warrior Vabbian\n}}\n'''Warrior [[Vabbian armor]]''' is [[prestige armor|prestige]] art type available in the Nightfall campaign. Vabbian armor is considered prestige since it is very expensive due to the high amount of [[ruby|rubies]] and [[Sapphire|sapphires]] needed to craft it.\n\nThere is no standard version of Vabbian armor. \n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Cuirass || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[The Kodash Bazaar]]\n! align=\"center\"|[[Mateneh]]\n! align=\"center\"|80\n| {{Cost|5000}}\n| 25  {{Iron}}<br>4 {{Linen}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| 75 {{Iron}}<br>12 {{Linen}}<br>6 {{Ruby}}<br>6 {{Sapphire}}\n| 25  {{Iron}}<br>4 {{Linen}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| 50 {{Iron}}<br>8 {{Linen}}<br>4 {{Ruby}}<br>4 {{Sapphire}}\n| 25  {{Iron}}<br>4 {{Linen}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| {{Cost|25000}}\n| 200 {{Iron}}<br>32 {{Linen}}<br>16 {{Ruby}}<br>16 {{Sapphire}}\n|}\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Vabbian]]\n[[Category:Prestige armor]]\n[[Category:Vabbian armor]]"
+}

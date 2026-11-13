@@ -1,0 +1,11 @@
+{
+  "title": "Bukdek Byway (Zaishen vanquish)",
+  "pageid": 282577,
+  "revid": 2703424,
+  "revisedAt": "2025-03-01T15:15:23Z",
+  "sha1": "585d94c122677bb2f50a2605982217e8a43f0f75",
+  "url": "https://wiki.guildwars.com/wiki/Bukdek_Byway_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bukdek%20Byway%20(Zaishen%20vanquish)&oldid=2703424",
+  "retrievedAt": "2026-11-13T05:29:50.267Z",
+  "wikitext": "{{Quest infobox\n| id = 1209\n| name = Bukdek Byway\n| section = Zaishen Vanquish\n| image = [[File:Bukdek Byway.jpg|200px]]\n| map = [[File:Bukdek Byway map.jpg|200px|link=Bukdek Byway/Map]]\n| map1text = Kill at least 25 enemies in the [[Bukdek Byway]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquish]] the [[Bukdek Byway]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear at least 25 enemies in the Bukdek Byway near [[Kaineng City]] {{sic|'near Kaineng City' instead of 'in Kaineng City' or 'near Kaineng Center'}} in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear at least 25 enemies in the Bukdek Byway near Kaineng City {{sic|'near Kaineng City' instead of 'in Kaineng City' or 'near Kaineng Center'}} in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n== Notes ==\n\n{{bug|Despite the objective description, this quest does not require killing 25 foes, but requires [[vanquish]]ing the area. The quest is still completed if the area is vanquished by killing less than 25 foes. See [[Bukdek Byway#Notes]] for details on 0-kill or low-count vanquishes.}}\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

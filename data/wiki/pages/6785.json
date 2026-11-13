@@ -1,0 +1,11 @@
+{
+  "title": "Ranger Elite Druid armor",
+  "pageid": 6785,
+  "revid": 2571905,
+  "revisedAt": "2014-07-18T08:06:45Z",
+  "sha1": "3fedd169beb15741cf8f428ae12b8348e0b2a7ea",
+  "url": "https://wiki.guildwars.com/wiki/Ranger_Elite_Druid_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ranger%20Elite%20Druid%20armor&oldid=2571905",
+  "retrievedAt": "2026-11-13T05:28:20.393Z",
+  "wikitext": "{{armor art infobox\n| profession = Ranger\n| campaign = [[Prophecies]]\n| pvp = Elite Druid\n| pvpreward = Fancy\n| maleimage = [[Image:Ranger Elite Druid armor m.jpg|135px]]\n| gallery = ranger Elite Druid \n}}\n[[Ranger Elite Druid armor]] is a [[prestige armor|prestige]] art type available in the Prophecies campaign.\n\nThe standard version of this armor is [[Ranger Druid armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{R-color|border}}; border-collapse:collapse; font-size: 90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background: {{R-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background: {{R-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Marhan's Grotto]]\n! align=\"center\"|[[Karl]]\n! align=\"center\"|70\n| 15 {{plat}}\n| 150 {{Hide}}<br>150 {{Wood}}\n| 50 {{Hide}}<br>50 {{Wood}}\n| 100 {{Hide}}<br>100 {{Wood}}\n| 50 {{Hide}}<br>50 {{Wood}}\n| 60 {{plat}}\n| 350 {{Hide}}<br>350 {{Wood}}\n|}\n\n==Notes==  \n* This armor is labeled [[Marhan's Grotto armor#Marhan's Grotto Elite Armor|Marhan's Grotto Elite Armor]] in the [[\"Resilience\"]] monument in the [[Hall of Monuments]].\n* [[Dye]] affects all light brown parts.\n* Male coat stretches while running.\n* Some of the fabric parts disappear underwater.\n{{bug|[[Clipping]] issues with the male armor, while running sideways.}}\n\n{{Ranger armor nav}}\n\n[[Category:Ranger armor|Elite Druid]]\n[[Category:Prestige armor]]"
+}

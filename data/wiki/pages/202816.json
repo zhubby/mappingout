@@ -1,0 +1,11 @@
+{
+  "title": "Moddok Crevice (Zaishen quest)",
+  "pageid": 202816,
+  "revid": 2619810,
+  "revisedAt": "2017-06-28T22:14:54Z",
+  "sha1": "cc89ff78036991fcbff49f20593a728584448721",
+  "url": "https://wiki.guildwars.com/wiki/Moddok_Crevice_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Moddok%20Crevice%20(Zaishen%20quest)&oldid=2619810",
+  "retrievedAt": "2026-11-13T05:29:29.545Z",
+  "wikitext": "{{Quest infobox\n| id = 985\n| name = Moddok Crevice\n| section = Zaishen Mission\n| map = [[File:Moddok Crevice map.jpg|200px]]\n| required hero = Dunkoro\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]] \n| experience reward = 3000\n}}__NOTOC__\nComplete [[Moddok Crevice]].\n\n== Quest information ==\n=== Objectives ===\n* Take [[Dunkoro]] through the [[Moddok Crevice (outpost)|Moddok Crevice]] into [[Vabbi]].\n* *BONUS* Complete the mission by following Dunkoro's suggestions.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 300 [[Sunspear Promotion Points]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Moddok Crevice#Walkthrough|Moddok Crevice]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"The [[Sunspears]] have been forced out of [[Kourna]]. We must get word to the [[princes of Vabbi]]. Contact Dunkoro at the Moddok Crevice; he knows a secret route that connects Kourna and Vabbi.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Sunspear promotion points]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Drazach Thicket (Zaishen vanquish)",
+  "pageid": 282796,
+  "revid": 2717566,
+  "revisedAt": "2026-01-08T19:09:47Z",
+  "sha1": "36cd24aecd21bdfc2844be0d896280586ec8d221",
+  "url": "https://wiki.guildwars.com/wiki/Drazach_Thicket_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Drazach%20Thicket%20(Zaishen%20vanquish)&oldid=2717566",
+  "retrievedAt": "2026-11-13T05:29:51.522Z",
+  "wikitext": "{{Quest infobox\n| id = 1214\n| name = Drazach Thicket\n| section = Zaishen Vanquish\n| image = [[File:Drazach Thicket.jpg|200px]]\n| map = [[File:Drazach Thicket map.jpg|200px|link=Drazach Thicket/Map]]\n| map1text = Vanquish the [[Drazach Thicket]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Drazach Thicket]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear the Drazach Thicket in the [[Echovald Forest]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 7,000 [[Kurzick faction|Kurzick Faction]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Drazach Thicket in the Echovald Forest of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Kurzick faction]]"
+}

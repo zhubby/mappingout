@@ -1,0 +1,11 @@
+{
+  "title": "Spearhead Peak (Zaishen vanquish)",
+  "pageid": 280732,
+  "revid": 2626842,
+  "revisedAt": "2018-05-05T01:56:50Z",
+  "sha1": "307ca5f48ef072c1c17393ffc342effcaeba23cb",
+  "url": "https://wiki.guildwars.com/wiki/Spearhead_Peak_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Spearhead%20Peak%20(Zaishen%20vanquish)&oldid=2626842",
+  "retrievedAt": "2026-11-13T05:29:48.676Z",
+  "wikitext": "{{Quest infobox\n| id = 1315\n| name = Spearhead Peak\n| section = Zaishen Vanquish\n| image = [[File:Spearhead Peak.jpg|200px]]\n| map = [[File:Spearhead Peak map.jpg|200px|link=Spearhead Peak/Map]]\n| map1text = Vanquish [[Spearhead Peak]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Spearhead Peak]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Spearhead Peak in the [[Southern Shiverpeaks]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Spearhead Peak in the Southern Shiverpeaks of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

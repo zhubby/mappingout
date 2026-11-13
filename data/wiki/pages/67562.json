@@ -1,0 +1,11 @@
+{
+  "title": "Dervish Asuran armor",
+  "pageid": 67562,
+  "revid": 2380084,
+  "revisedAt": "2011-09-14T17:21:27Z",
+  "sha1": "b9189c70d04bd9c3b51ec3c695f349ce93a86ed0",
+  "url": "https://wiki.guildwars.com/wiki/Dervish_Asuran_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dervish%20Asuran%20armor&oldid=2380084",
+  "retrievedAt": "2026-11-13T05:28:49.684Z",
+  "wikitext": "{{armor art infobox\n| profession = Dervish\n| campaign = [[Eye of the North]]\n| pvp = Asuran\n| pvpreward = Basic\n| gallery = dervish Asuran\n}}\n'''Dervish [[Asuran armor]]''' is a prestige art type available in the Eye of the North expansion. You need to be at least rank 5 (Not Too Annoying) in the [[Asura rank|Asura title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{d-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{d-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{d-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Hood || Robes || Vambraces || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Rata Sum]]\n! [[Klub]]\n! 70\n| 10 {{plat}}\n| 50 {{Hide}}<br>5 {{Leather}}\n| 150 {{Hide}}<br>15 {{Leather}}\n| 50 {{Hide}}<br>5 {{Leather}}\n| 100 {{Hide}}<br>10 {{Leather}}\n| 50 {{Hide}}<br>5 {{Leather}}\n| 50 {{plat}} \n| 400 {{Hide}} 40 {{Leather}}\n|}\n\n==Notes==\n* This armor seems to be a reskin of [[Dervish Elonian Armor]].\n\n{{dervish armor nav}}\n\n[[Category:Dervish armor|Asuran]]\n[[Category:Prestige armor]]\n[[Category:Asuran armor]]"
+}

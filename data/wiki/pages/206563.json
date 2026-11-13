@@ -1,0 +1,11 @@
+{
+  "title": "Jennur's Horde (Zaishen quest)",
+  "pageid": 206563,
+  "revid": 2420818,
+  "revisedAt": "2011-12-10T09:15:36Z",
+  "sha1": "c496fa85c376ce8e2e728c1f7f54dd05b1c036d4",
+  "url": "https://wiki.guildwars.com/wiki/Jennur%27s_Horde_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Jennur's%20Horde%20(Zaishen%20quest)&oldid=2420818",
+  "retrievedAt": "2026-11-13T05:29:35.743Z",
+  "wikitext": "{{Quest infobox\n| id = 990\n| name = Jennur's Horde\n| section = Zaishen Mission\n| map = [[File:Jennur's Horde map.jpg|280px]]\n| required hero = Koss\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = EP reward\n}}__NOTOC__\nComplete [[Jennur's Horde]].\n\n== Quest information ==\n=== Objectives ===\n* Take [[Koss]] and defend the [[Garden of Seborhin]] against the demon horde.\n* *BONUS* Defeat two additional Harbingers and accompanying foes.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 500 [[Lightbringer rank|Lightbringer Points]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Jennur's Horde#Walkthrough|Jennur's Horde]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; Zaishen Mission\n: ''\"[[Harbinger of Nightfall|Harbingers of Nightfall]] have beset the Garden of Seborhin. Contact Koss and defend the garden near [[Jennur's Horde (outpost)|Jennur's Horde]].\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Lightbringer points]]\n[[Category:Rewards Platinum]]"
+}

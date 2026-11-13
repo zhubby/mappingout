@@ -1,0 +1,11 @@
+{
+  "title": "Abaddon's Mouth (Zaishen quest)",
+  "pageid": 213189,
+  "revid": 2622813,
+  "revisedAt": "2017-10-14T21:13:40Z",
+  "sha1": "448775da082794aafda8c1789ebff12160a041af",
+  "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Mouth_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Abaddon's%20Mouth%20(Zaishen%20quest)&oldid=2622813",
+  "retrievedAt": "2026-11-13T05:29:27.684Z",
+  "wikitext": "{{Quest infobox\n| id = 959\n| name = Abaddon's Mouth\n| section = Zaishen Mission\n| image =\n| map = [[File:Abaddon's Mouth map.jpg|225px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Abaddon's Mouth]].\n\n==Quest information==\n===Objectives===\n* Open the [[Door of Komalie]] on the [[Ring of Fire Island Chain|Ring of Fire Islands]].\n* *BONUS* Guide the spirit of [[Leah Stone]] to her rest.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per [[Abaddon's Mouth#walkthrough|Abaddon's Mouth]].\n\n==Dialogue==\n\n===Initial dialogue===\n;[[Zaishen Mission]]\n:''\"Are you the one in the prophecy? [[Vizier Khilbron]] anxiously awaits one who will fulfill the prophecies and open the Door of Komalie on the Ring of Fire Islands.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*This [[quest]] was offered for the first time on July 22, 2009.\n\n[[Category:Rewards Platinum]]"
+}

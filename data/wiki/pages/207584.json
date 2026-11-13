@@ -1,0 +1,11 @@
+{
+  "title": "Dunes of Despair (Zaishen quest)",
+  "pageid": 207584,
+  "revid": 2435793,
+  "revisedAt": "2012-01-17T18:30:14Z",
+  "sha1": "3049120b0f5a4c40146b0da427cadb7e777b00e6",
+  "url": "https://wiki.guildwars.com/wiki/Dunes_of_Despair_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dunes%20of%20Despair%20(Zaishen%20quest)&oldid=2435793",
+  "retrievedAt": "2026-11-13T05:29:33.222Z",
+  "wikitext": "{{Quest infobox\n| id = 950\n| name = Dunes of Despair\n| section = Zaishen Mission\n| image =\n| map = [[File:Dunes of Despair map.jpg|270px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = EP reward\n}}__NOTOC__\nComplete [[Dunes of Despair]].\n\n== Quest information ==\n=== Objectives ===\n* Help the [[Ghostly Hero (PvE)|Ghostly Hero]] reclaim his throne in the [[Dunes of Despair (outpost)|Dunes of Despair]].\n* *BONUS* Defeat the three [[Forgotten]] generals.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Dunes of Despair#Walkthrough|Dunes of Despair]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"True patriots honor the heroes that come before them. A Ghostly Hero wanders the Dunes of Despair, seeking new heroes who can aid the ritual to reclaim his throne. Honor his memory and his sacrifice.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

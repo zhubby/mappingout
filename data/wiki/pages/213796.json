@@ -1,0 +1,11 @@
+{
+  "title": "The Great Northern Wall (Zaishen quest)",
+  "pageid": 213796,
+  "revid": 2436254,
+  "revisedAt": "2012-01-19T01:44:47Z",
+  "sha1": "72870d4c1372aedb40fb05268b75a21610f3b000",
+  "url": "https://wiki.guildwars.com/wiki/The_Great_Northern_Wall_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Great%20Northern%20Wall%20(Zaishen%20quest)&oldid=2436254",
+  "retrievedAt": "2026-11-13T05:29:27.684Z",
+  "wikitext": "{{location disambiguation 2|landmark=Great Northern Wall}}\n{{Quest infobox\n| id =\n| name = The Great Northern Wall\n| section = Zaishen Mission\n| image =\n| map = [[File:The Great Northern Wall map.jpg|275px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = EP reward\n}}__NOTOC__\nComplete [[The Great Northern Wall]].\n\n== Quest information ==\n=== Objectives ===\n* Scout the enemy territory north of the [[Great Northern Wall]] and assess the strength of the [[Charr]] army.\n* *BONUS* Find and return the four pieces of [[Kilnn Testibrie]]'s armor to his tomb.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per [[The Great Northern Wall#Walkthrough|The Great Northern Wall]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"[[Ascalon]] has received information that Charr General [[Bonfaaz Burntfur]] may be planning a massive raid on [[The Great Northern Wall (outpost)|the Great Northern Wall]]. Scouts are needed to head north of the wall into Charr territory and evaluate the threat. For Ascalon!\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]].}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Magus Stones (Zaishen vanquish)",
+  "pageid": 278410,
+  "revid": 2626884,
+  "revisedAt": "2018-05-05T01:58:10Z",
+  "sha1": "788600076e31016d258b9684ea91049bd4213822",
+  "url": "https://wiki.guildwars.com/wiki/Magus_Stones_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Magus%20Stones%20(Zaishen%20vanquish)&oldid=2626884",
+  "retrievedAt": "2026-11-13T05:29:46.265Z",
+  "wikitext": "{{Quest infobox\n| id = 1278\n| name = Magus Stones\n| section = Zaishen Vanquish\n| image = [[File:Magus Stones.jpg|200px]]\n| map = [[File:Magus Stones map.jpg|200px|link=Magus Stones/Map]]\n| map1text = Vanquish [[Magus Stones]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Magus Stones]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Magus Stones on [[the Tarnished Coast]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 15,000 [[Experience]]\n* 2,000 [[Gold]]\n* 5,000 [[Asura rank|Asura reputation point]]s\n* Complete the Base Objective for 250 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Magus Stones on the Tarnished Coast of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Asura reputation points]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Melandru's Hope (Zaishen vanquish)",
+  "pageid": 280880,
+  "revid": 2626878,
+  "revisedAt": "2018-05-05T01:57:59Z",
+  "sha1": "18b7052f9f5a63e31936fce2b682fbeaa9b4fc9b",
+  "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Hope_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Melandru's%20Hope%20(Zaishen%20vanquish)&oldid=2626878",
+  "retrievedAt": "2026-11-13T05:29:48.678Z",
+  "wikitext": "{{Quest infobox\n| id = 1318\n| name = Melandru's Hope\n| section = Zaishen Vanquish\n| image = [[File:Melandru's Hope.jpg|200px]]\n| map = [[File:Melandru's Hope map.jpg|200px|link=Melandru's Hope/Map]]\n| map1text = Vanquish [[Melandru's Hope]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Melandru's Hope]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Melandru's Hope in the [[Echovald Forest]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 7,000 [[Kurzick faction|Kurzick Faction]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Melandru's Hope in the Echovald Forest of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Kurzick faction]]"
+}

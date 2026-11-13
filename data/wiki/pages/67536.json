@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Asuran armor",
+  "pageid": 67536,
+  "revid": 2380073,
+  "revisedAt": "2011-09-14T17:14:50Z",
+  "sha1": "b630e747ccbd9033b1adc3de392d3ac9f386e267",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Asuran_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Asuran%20armor&oldid=2380073",
+  "retrievedAt": "2026-11-13T05:28:15.153Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Eye of the North]]\n| pvp = Asuran\n| pvpreward = Basic\n| maleimage = [[Image:Warrior Asuran armor m.jpg|128px]]\n| gallery = warrior Asuran\n}}\n'''Warrior [[Asuran armor]]''' is a [[prestige armor|prestige]] art type available in the Eye of the North expansion. You need to be at least rank 5 (Not Too Annoying) in the [[Asura rank|Asura title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Cuirass || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Rata Sum]]\n! align=\"center\"|[[Klub]]\n! align=\"center\"|80\n| {{Cost|10000}}\n| 50 {{Iron}}<br>5 {{Steel}}\n| 150 {{Iron}}<br>15 {{Steel}}\n| 50 {{Iron}}<br>5 {{Steel}}\n| 100 {{Iron}}<br>10 {{Steel}}\n| 50 {{Iron}}<br>5 {{Steel}}\n| {{Cost|50000}}\n| 400 {{Iron}}<br>40 {{Steel}}\n|}\n\n==Notes==\n\n* This armor has some similarities to [[Warrior Elite Kurzick armor]], apart from the helm which is slightly remodeled.\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Asuran]]\n[[Category:Asuran armor]]\n[[Category:Prestige armor]]"
+}

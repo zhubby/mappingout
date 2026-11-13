@@ -1,0 +1,11 @@
+{
+  "title": "Sunqua Vale (Zaishen vanquish)",
+  "pageid": 278481,
+  "revid": 2626839,
+  "revisedAt": "2018-05-05T01:56:43Z",
+  "sha1": "1aaf9a077f33dc4d86515d2f1dfcec6a3f24ced2",
+  "url": "https://wiki.guildwars.com/wiki/Sunqua_Vale_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sunqua%20Vale%20(Zaishen%20vanquish)&oldid=2626839",
+  "retrievedAt": "2026-11-13T05:29:46.266Z",
+  "wikitext": "{{Quest infobox\n| id = 1280\n| name = Sunqua Vale\n| section = Zaishen Vanquish\n| image = [[File:Sunqua Vale.jpg|200px]]\n| map = [[File:Sunqua Vale map.jpg|200px|link=Sunqua Vale/Map]]\n| map1text = Vanquish [[Sunqua Vale]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Sunqua Vale]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Sunqua Vale on [[Shing Jea Island]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 50 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Sunqua Vale on Shing Jea Island of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "The Eternal Grove (Zaishen quest)",
+  "pageid": 202698,
+  "revid": 2394104,
+  "revisedAt": "2011-10-12T18:28:13Z",
+  "sha1": "1a343232b87e9d4b3495331833a58da89d75afe1",
+  "url": "https://wiki.guildwars.com/wiki/The_Eternal_Grove_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Eternal%20Grove%20(Zaishen%20quest)&oldid=2394104",
+  "retrievedAt": "2026-11-13T05:29:29.545Z",
+  "wikitext": "{{Quest infobox\n| id = 968\n| name = The Eternal Grove\n| section = Zaishen Mission\n| map = [[File:Eternal Grove map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 5000\n}}__NOTOC__\nComplete [[The Eternal Grove]].\n\n==Quest information==\n===Objectives===\n*Protect the [[Forever Tree]]s in the Eternal Grove.\n* *BONUS* Keep all 12 [[Tree Singer]]s alive.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] [Zaishen Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1000 [[Gold]]\n* 2,500 [[Kurzick Faction]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per [[The Eternal Grove#Walkthrough| The Eternal Grove]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;[[Zaishen Mission]]\n:''\"Protectors are needed for the Forever Trees and the Tree Singers during ritual for the [[Kurzick Juggernaut]]s. Report to [[The Eternal Grove (outpost)|the Eternal Grove]] in the [[Echovald Forest]].\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Kurzick faction]]\n[[Category:Rewards Platinum]]"
+}

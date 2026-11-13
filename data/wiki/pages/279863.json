@@ -1,0 +1,11 @@
+{
+  "title": "Zehlon Reach (Zaishen vanquish)",
+  "pageid": 279863,
+  "revid": 2626803,
+  "revisedAt": "2018-05-05T01:55:26Z",
+  "sha1": "10b15b5c310047578cd9160f9b6e5e0a15663193",
+  "url": "https://wiki.guildwars.com/wiki/Zehlon_Reach_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Zehlon%20Reach%20(Zaishen%20vanquish)&oldid=2626803",
+  "retrievedAt": "2026-11-13T05:29:47.478Z",
+  "wikitext": "{{Quest infobox\n| id = 1301\n| name = Zehlon Reach\n| section = Zaishen Vanquish\n| image = [[File:Zehlon Reach.jpg|200px]]\n| map = [[File:Zehlon Reach map.jpg|200px|link=Zehlon Reach/Map]]\n| map1text = Vanquish [[Zehlon Reach]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Zehlon Reach]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Zehlon Reach in [[Istan]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 750 [[Sunspear rank|Sunspear Promotion Point]]s\n* Complete the Base Objective for 50 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Zehlon Reach in Istan of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:Rewards Sunspear promotion points]]"
+}

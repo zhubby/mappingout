@@ -1,0 +1,11 @@
+{
+  "title": "Elementalist Krytan armor",
+  "pageid": 10584,
+  "revid": 2714215,
+  "revisedAt": "2025-12-07T13:03:51Z",
+  "sha1": "db47fbdae545bcc2a767c4251fa1b57eb22c67db",
+  "url": "https://wiki.guildwars.com/wiki/Elementalist_Krytan_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Elementalist%20Krytan%20armor&oldid=2714215",
+  "retrievedAt": "2026-11-13T05:28:41.608Z",
+  "wikitext": "{{Armor art infobox\n| profession = Elementalist\n| campaign = [[Prophecies]], [[Factions]]\n| pvp = Krytan\n| gallery = elementalist Krytan }}\n'''Elementalist [[Krytan armor]]''' is an art type introduced in the Prophecies campaign as [[Elementalist collector armor|collector armor]] and is also available in the Factions campaign.\n\nThere is no [[Prestige armor|prestige]] version of Krytan armor.\n\n{{:Elementalist Krytan armor/Collector}}\n\n{| style=\"margin:0.5em; border:1px solid {{E-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{E-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting - Factions\n|- style=\"background:{{E-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Robes || Gloves || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Bukdek Byway]]\n! [[Oroku]]\n! 60\n| 1 {{plat}}\n| 75 {{Cloth}}<br>12 {{Silk}}\n| 25 {{Cloth}}<br>4 {{Silk}}\n| 50 {{Cloth}}<br>8 {{Silk}}\n| 25 {{Cloth}}<br>4 {{Silk}}\n| 4 {{plat}}\n| 175 {{Cloth}}<br>28 {{Silk}}\n|}\n\n==Notes==\n*The female chest piece has a clipping error with guild capes\n*This is one of the armor sets with odd dying behavior, which is more noticeable in the the female version. Adding two or more dyes will dye the armor in a counterintuitive way.\n*[[Elementalist Elite Stormforged armor|Elementalist Elite Stormforged]] [[Prestige armor]] uses the same mesh as this armor.\n*[[Elementalist Thaumaturgic Robes]] uses the same mesh as this armor.\n\n{{Elementalist armor nav}}\n[[Category:Elementalist armor|Krytan]]\n[[Category:Prophecies armor]]\n[[Category:Factions armor]]\n[[Category:Krytan armor]]\n[[Category:PvP armor]]\n[[Category:Elementalist collector armor|Krytan]]"
+}

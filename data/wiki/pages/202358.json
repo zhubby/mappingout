@@ -1,0 +1,11 @@
+{
+  "title": "Gates of Kryta (Zaishen quest)",
+  "pageid": 202358,
+  "revid": 2250658,
+  "revisedAt": "2011-02-28T17:43:48Z",
+  "sha1": "6f97d369598f5ad3976900b10cf01d6d339922a9",
+  "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gates%20of%20Kryta%20(Zaishen%20quest)&oldid=2250658",
+  "retrievedAt": "2026-11-13T05:29:33.219Z",
+  "wikitext": "{{Quest infobox\n| id = 942\n| name = Gates of Kryta\n| section = Zaishen Mission\n| map = [[File:Gates of Kryta map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 1000\n}}__NOTOC__\nComplete [[Gates of Kryta]].\n\n==Quest information==\n===Objectives===\n*Destroy the [[undead]] in the swamp south of [[Lion's Arch]].\n* *BONUS* Retrieve the [[Orrian Text]] for the [[Orrian Historian McClain|Historian]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Gates of Kryta#Walkthrough| Gates of Kryta]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"Undead have risen from the swamps, forcing Lion's Arch to close its gates. Cleanse the swamp of the undead infestation.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

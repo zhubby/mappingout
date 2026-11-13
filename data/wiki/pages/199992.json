@@ -1,0 +1,11 @@
+{
+  "title": "Heroes' Ascent (Zaishen quest)",
+  "pageid": 199992,
+  "revid": 2584638,
+  "revisedAt": "2015-04-11T08:24:14Z",
+  "sha1": "d7252e8a5e1ff38b519cda5a643fe1883750f4ed",
+  "url": "https://wiki.guildwars.com/wiki/Heroes%27_Ascent_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Heroes'%20Ascent%20(Zaishen%20quest)&oldid=2584638",
+  "retrievedAt": "2026-11-13T05:29:41.696Z",
+  "wikitext": "{{ Quest infobox\n| id = 1118\n| name = Heroes' Ascent\n| section = Zaishen Combat\n| type = Secondary\n| repeatable = y\n| given by =[[Zaishen Combat]]\n| given at =[[Great Temple of Balthazar]]\n}}__NOTOC__\nWin in [[Heroes' Ascent]].\n\n==Quest information==\n===Objectives===\n* Win 2 battles in Heroes' Ascent.\n* *BONUS* Win your way to competing in the [[The Hall of Heroes (arena)|Hall of Heroes]].\n* *BONUS* Win 6 battles in Heroes' Ascent.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 1,500 [[Gold]]\n* 9,000 [[Balthazar Faction]]\n* Complete the Base Objective for 50 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 100 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 200 Zaishen Copper Coins.\n\n==Walkthrough==\nForm a [[party]] of eight along with seven player characters and/or henchmen in the Heroes' Ascent outpost. Check out possible [[meta]] [[build]]s on  [http://www.gwpvx.com/Category:Meta_working_HA_builds PvXwiki].\n\n==Dialogues==\n===Initial dialogue===\n;Zaishen Combat\n:''\"The most favored of [[Balthazar]] may make the Heroes' Ascent. Build your team of eight and prepare for battle. Win at least two battles before you return to Zehnchu.\"''\n{{ Offer dialog\n| accept = I can do that!\n| decline = No, I'm way too busy today.\n| ask = More competitors needed to prove their mettle in combat. Travel to the battlegrounds if you have what it takes to triumph.\n}}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n{{Combat Quest nav}}\n[[Category:Rewards Platinum]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Ranger Ancient armor",
+  "pageid": 8599,
+  "revid": 2571904,
+  "revisedAt": "2014-07-18T08:05:36Z",
+  "sha1": "39d1ddfd7130b7078502b4ae2f1a818bb5cb7584",
+  "url": "https://wiki.guildwars.com/wiki/Ranger_Ancient_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ranger%20Ancient%20armor&oldid=2571904",
+  "retrievedAt": "2026-11-13T05:28:20.395Z",
+  "wikitext": "{{Armor art infobox\n| profession = Ranger\n| campaign = [[Nightfall]]\n| pvp = Ancient\n| pvpreward = Fancy\n| maleimage = [[Image:Ranger Ancient armor m.jpg|135px]]\n| gallery = ranger Ancient \n}}\n'''Ranger [[Ancient armor]]''' is a [[prestige armor|prestige]] art type available in the Nightfall campaign.\n\nThere is no standard version of Ancient armor.\n\n{| style=\"margin:0.5em; border:1px solid {{R-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{R-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{R-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Bone Palace]]\n! align=\"center\"|[[Palmod]]\n! align=\"center\"|70\n| 10 {{plat}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| 150 {{Hide}}<br>15 {{Elonian Leather}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| 100 {{Hide}}<br>10 {{Elonian Leather}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| 50 {{plat}}\n| 400 {{Hide}}<br>40{{Elonian Leather}}\n|}\n\n==Notes==\n*[[Dye]] does not affect the coat coloring, only the inner clothing.\n{{bug|On the male armor, the pants [[Clipping|clip]] through the back of the coat on either side of the waist while running diagonally or while using the /[[dance]] emote.}}\n\n{{Ranger armor nav}}\n\n[[Category:Ranger armor|Ancient]]\n[[Category:Ancient armor]]\n[[Category:Prestige armor]]"
+}

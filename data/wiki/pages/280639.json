@@ -1,0 +1,11 @@
+{
+  "title": "Lahtenda Bog (Zaishen vanquish)",
+  "pageid": 280639,
+  "revid": 2626886,
+  "revisedAt": "2018-05-05T01:58:15Z",
+  "sha1": "cd1169fe9836a15d05e6e4c05a5d00bc352ab350",
+  "url": "https://wiki.guildwars.com/wiki/Lahtenda_Bog_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lahtenda%20Bog%20(Zaishen%20vanquish)&oldid=2626886",
+  "retrievedAt": "2026-11-13T05:29:48.676Z",
+  "wikitext": "{{Quest infobox\n| id = 1314\n| name = Lahtenda Bog\n| section = Zaishen Vanquish\n| image = [[File:Lahtenda Bog.jpg|200px]]\n| map = [[File:Lahtenda Bog map.jpg|200px|link=Lahtenda Bog/Map]]\n| map1text = Vanquish the [[Lahtenda Bog]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Lahtenda Bog]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear the Lahtenda Bog in [[Istan]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 15,000 [[Experience]]\n* 2,000 [[Gold]]\n* 1,000 [[Sunspear rank|Sunspear Promotion Point]]s\n* Complete the Base Objective for 250 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Lahtenda Bog in Istan of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Sunspear promotion points]]"
+}

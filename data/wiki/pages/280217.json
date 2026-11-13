@@ -1,0 +1,11 @@
+{
+  "title": "The Scar (Zaishen vanquish)",
+  "pageid": 280217,
+  "revid": 2626821,
+  "revisedAt": "2018-05-05T01:56:14Z",
+  "sha1": "d230a094dee8be0c0aebd16bf5b8b6b0fe189a41",
+  "url": "https://wiki.guildwars.com/wiki/The_Scar_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Scar%20(Zaishen%20vanquish)&oldid=2626821",
+  "retrievedAt": "2026-11-13T05:29:47.480Z",
+  "wikitext": "{{Quest infobox\n| id = 1308\n| name = The Scar\n| section = Zaishen Vanquish\n| image = [[File:The Scar.jpg|200px]]\n| map = [[File:The Scar map.jpg|200px|link=The Scar/Map]]\n| map1text = Vanquish [[the Scar]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[the Scar]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear the Scar in the [[Crystal Desert]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 15,000 [[Experience]]\n* 2,000 [[Gold]]\n* Complete the Base Objective for 250 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Scar in the Crystal Desert of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*Consider acquiring the quests for [[The Arid Sea (Zaishen vanquish)|The Arid Sea]] (three days earlier) and [[Skyward Reach (Zaishen vanquish)|Skyward Reach]] (the prior quest in cycle), since you can [[Vanquisher#Larger party sizes|caravan vanquish]] all three areas consecutively with an eight-member [[party]] via [[Forgotten Guardian]].\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

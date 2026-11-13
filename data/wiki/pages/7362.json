@@ -1,0 +1,11 @@
+{
+  "title": "Dervish Ancient armor",
+  "pageid": 7362,
+  "revid": 2380541,
+  "revisedAt": "2011-09-16T00:45:50Z",
+  "sha1": "04cf1bbd81c23121273d5fdd226804ca6ee8c82b",
+  "url": "https://wiki.guildwars.com/wiki/Dervish_Ancient_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dervish%20Ancient%20armor&oldid=2380541",
+  "retrievedAt": "2026-11-13T05:28:49.675Z",
+  "wikitext": "{{Armor art infobox\n| profession = Dervish\n| campaign = [[Nightfall]]\n| pvp = Ancient\n| pvpreward = Basic\n| gallery = dervish Ancient\n}}\n'''Dervish [[Ancient armor]]''' is a prestige art type available in the Nightfall campaign.\n\nThere is no standard version of Ancient armor.\n\n{| style=\"margin:0.5em; border:1px solid {{d-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{d-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{d-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Hood || Robes || Vambraces || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Bone Palace]]\n! [[Palmod]]\n! 70\n| 10 {{plat}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| 150 {{Hide}}<br>15 {{Elonian Leather}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| 100 {{Hide}}<br>10 {{Elonian Leather}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| 50 {{plat}} \n| 400 {{Hide}}<br>40 {{Elonian Leather}}\n|}\n\n{{Bug|The blades on the elbows clip with capes.}}\n\n{{dervish armor nav}}\n\n[[Category:Dervish armor|Ancient]]\n[[Category:Prestige armor]]\n[[Category:Ancient armor]]"
+}

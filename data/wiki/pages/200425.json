@@ -1,0 +1,11 @@
+{
+  "title": "Divinity Coast (Zaishen quest)",
+  "pageid": 200425,
+  "revid": 1993655,
+  "revisedAt": "2010-04-22T08:34:09Z",
+  "sha1": "c805a43ed666cfe6f93d9b573f88d57999202c8c",
+  "url": "https://wiki.guildwars.com/wiki/Divinity_Coast_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Divinity%20Coast%20(Zaishen%20quest)&oldid=1993655",
+  "retrievedAt": "2026-11-13T05:29:27.675Z",
+  "wikitext": "{{Quest infobox\n| id = 944\n| name = Divinity Coast \n| section = Zaishen Mission\n| map = [[File:Divinity Coast map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 3000\n}}__NOTOC__\nComplete [[Divinity Coast]].\n\n==Quest information==\n===Objectives===\n*Deliver the [[Eye of Janthir]] to [[Loamhurst]].\n* *BONUS* Find and deliver five [[Chosen]] to Loamhurst.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Divinity Coast]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"Strong, reliable guards are needed to collect the Eye of Janthir and conduct this holiest of items through [[Divinity Coast (outpost)|Divinity Coast]]. Seek [[Justiciar Hablion]] in [[Shaemoor]] to apply.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n== Notes ==\n* It might be easier to complete the first bonus objective in [[normal mode]], since the five Chosen can die more quickly in [[hard mode]]."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Ranger Elite Drakescale armor",
+  "pageid": 6784,
+  "revid": 2380758,
+  "revisedAt": "2011-09-16T17:07:05Z",
+  "sha1": "c1ad4b4834e982a6200240ab87ad6f642073def7",
+  "url": "https://wiki.guildwars.com/wiki/Ranger_Elite_Drakescale_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ranger%20Elite%20Drakescale%20armor&oldid=2380758",
+  "retrievedAt": "2026-11-13T05:28:20.393Z",
+  "wikitext": "{{armor art infobox\n| profession = Ranger\n| campaign = [[Prophecies]]\n| pvp = Elite Drakescale\n| pvpreward = Basic\n| maleimage = [[Image:Ranger Elite Drakescale armor m.jpg|135px]]\n| gallery = ranger Elite Drakescale \n}}\n'''Ranger Elite Drakescale armor''' is a [[prestige armor|prestige]] art type available in the Prophecies campaign.\n\nThe standard version of this armor is [[Ranger Drakescale armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{R-color|border}}; border-collapse:collapse; font-size: 90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background: {{R-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background: {{R-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Marhan's Grotto]]\n! align=\"center\"|[[Karl]]\n! align=\"center\"|70\n| 15 {{plat}}\n| 150 {{Hide}}<br>15 {{Scale}}\n| 50 {{Hide}}<br>5 {{Scale}}\n| 100 {{Hide}}<br>10  {{Scale}}\n| 50 {{Hide}}<br>5  {{Scale}}\n| 60 {{plat}}\n| 350 {{Hide}}<br>35 {{Scale}}\n|}\n\n==Notes==\n* This armor is labeled [[Marhan's Grotto armor#Marhan's Grotto Ascended Armor|Marhan's Grotto Ascended Armor]] in the [[\"Resilience\"]] monument in the [[Hall of Monuments]].\n* There is a clipping issue with the male leggings while attacking.\n* The Asuran Prestige set is a reskin of this model.\n{{anomaly|This is the only prestige Prophecies armor set available as a Basic PvP reward.}}\n\n{{Ranger armor nav}}\n\n[[Category:Ranger armor|Elite Drakescale]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Bandana",
+  "pageid": 67434,
+  "revid": 2735334,
+  "revisedAt": "2026-07-22T20:32:17Z",
+  "sha1": "e9964efeb62f219e8993eb0bb4e41ebfbcab28fe",
+  "url": "https://wiki.guildwars.com/wiki/Bandana",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bandana&oldid=2735334",
+  "retrievedAt": "2026-11-13T05:28:52.076Z",
+  "wikitext": "{{armor art infobox\n| campaign = [[Eye of the North]]\n| pvp = Bandana\n| pvpreward = Basic\n| specialgallery = Bandana\n}}\nThe '''Bandana''' is a prestige headgear art available in the Eye of the North expansion. You need to be at least rank 5 (Bold Delver) in the [[Deldrimor title track]] to be able to craft this armor. It has an [[Item's Attribute]] +1 bonus.\n\n{| style=\"margin:0.5em; border:1px solid {{x-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{x-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{x-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost || Bandana\n|-\n! [[Central Transfer Chamber]]\n! [[Gobrech Stonefoot]]\n! 60-80\n| 10 {{plat}}\n| 50 {{Cloth}}\n|}\n\n== Dye==\n* Adding white [[dye]] on top of another color (other than black) makes the pattern brighter and easier to see. \n* Adding gray dye on top of another color makes the pattern brighter and the base color darker.\n{{dye chart}}\n\n== Notes ==\n* Sometimes the ties of the bandana have [[clipping]] issues with neck pieces of armor.\n\n{{bug|There are clipping issues with the Bandana and three different male [[armor]]s: warrior monument, necromancer asuran, and mesmer norn. In addition, there are stretching errors with the necromancer [[dance]] emote.}}\n\n==Trivia==\n*The Bandana design looks identical to the one used in The Office by Michael Scott during the episode \"The Convict\".\n\n{{common armor nav}}\n\n[[Category:Common armor|Bandana]]\n[[Category:Prestige armor]]"
+}

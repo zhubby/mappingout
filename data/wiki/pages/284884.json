@@ -1,0 +1,11 @@
+{
+  "title": "Grenth's Footprint (Zaishen vanquish)",
+  "pageid": 284884,
+  "revid": 2626903,
+  "revisedAt": "2018-05-05T01:58:47Z",
+  "sha1": "966373de6a524a07009bd2ce9864a10b1920d4cc",
+  "url": "https://wiki.guildwars.com/wiki/Grenth%27s_Footprint_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Grenth's%20Footprint%20(Zaishen%20vanquish)&oldid=2626903",
+  "retrievedAt": "2026-11-13T05:29:51.531Z",
+  "wikitext": "{{Quest infobox\n| id = 1231\n| name = Grenth's Footprint\n| section = Zaishen Vanquish\n| image = [[File:Prophecies screenshot 075.jpg|200px]]\n| map = [[File:Grenth's Footprint map.jpg|200px|link=Grenth's Footprint/Map]]\n| map1text = Vanquish [[Grenth's Footprint]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Grenth's Footprint]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Grenth's Footprint in the [[Southern Shiverpeaks]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Grenth's Footprint in the Southern Shiverpeaks of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

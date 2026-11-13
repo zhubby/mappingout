@@ -1,0 +1,11 @@
+{
+  "title": "Ranger Norn armor",
+  "pageid": 64352,
+  "revid": 2380056,
+  "revisedAt": "2011-09-14T17:07:44Z",
+  "sha1": "e94db38070882b2d278cf85a82769812309512f8",
+  "url": "https://wiki.guildwars.com/wiki/Ranger_Norn_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ranger%20Norn%20armor&oldid=2380056",
+  "retrievedAt": "2026-11-13T05:28:24.396Z",
+  "wikitext": "{{armor art infobox\n| profession = Ranger\n| pvp = Norn\n| pvpreward = Basic\n| campaign = [[Eye of the North]]\n| maleimage = [[Image:Ranger Norn armor m.jpg|135px]]\n| gallery = ranger Norn\n}}\n'''Ranger [[Norn armor]]''' is a [[prestige armor|prestige armor]] art type available in the Eye of the North expansion. You need to have acquired at least rank 5 (Slayer of Wurms) in the [[Norn rank|Norn title track]] to be permitted to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{R-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{R-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{R-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Gunnar's Hold]]\n! align=\"center\"|[[Radi]]\n! align=\"center\"|70\n| 10 {{plat}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 150 {{Hide}}<br>15 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 100 {{Hide}}<br>10 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 50 {{plat}}\n| 400 {{Hide}}<br>40 {{Fur}}\n|}\n{{bug|If the armor is [[dye]]d red, the [[inventory]] icons appear brown.}}\n{{bug|The fur trim has clipping issues with displayed [[guild cape]]s.}}\n{{bug|The female mask disappears when zoomed out enough.}}\n{{ranger armor nav}}\n\n[[Category:Ranger armor|Norn]]\n[[Category:Norn armor]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Venta Cemetery (Zaishen quest)",
+  "pageid": 201491,
+  "revid": 2619854,
+  "revisedAt": "2017-06-28T22:16:51Z",
+  "sha1": "fbfe3b454a9546f3fd77d3085875df65dc4bfcf9",
+  "url": "https://wiki.guildwars.com/wiki/Venta_Cemetery_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Venta%20Cemetery%20(Zaishen%20quest)&oldid=2619854",
+  "retrievedAt": "2026-11-13T05:29:29.544Z",
+  "wikitext": "{{Quest infobox\n| id = 982\n| name = Venta Cemetery\n| section = Zaishen Mission\n| map = [[File:Venta Cemetery map.jpg|280px]]\n| required hero = Koss\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 3000\n}}__NOTOC__\nComplete [[Venta Cemetery]].\n\n==Quest information==\n===Objectives===\n*Take [[Koss]] and escort the [[Sunspear Evacuee|Sunspear evacuees]] from the [[Venta Cemetery (outpost)|Venta Cemetery]] to the boat at [[Dajkah Inlet (outpost)|Dajkah Inlet]].\n* *[[Bonus|BONUS]]* Neutralize all 12 [[Guard Post|guard posts]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 300 [[Sunspear Promotion Points]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Venta Cemetery#Walkthrough|Venta Cemetery]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;[[Zaishen Mission]]\n:''\"The [[Order of the Sunspears|Sunspear forces]] stranded in [[Kourna]] need strengthening to get past the garrison in the Venta Cemetery. A ship awaits to take them home to [[Istan]]. Interested parties should contact Koss and meet the Sunspears at the Venta Cemetery.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Sunspear promotion points]]"
+}

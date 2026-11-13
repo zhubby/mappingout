@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Ancient armor",
+  "pageid": 5769,
+  "revid": 2377773,
+  "revisedAt": "2011-09-09T18:08:22Z",
+  "sha1": "bd3276f367d96aec271c93a3d52610f311d1571f",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Ancient_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Ancient%20armor&oldid=2377773",
+  "retrievedAt": "2026-11-13T05:28:35.666Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Nightfall]]\n| pvp = Ancient\n| pvpreward = Fancy\n| gallery = mesmer Ancient\n}}\n'''Mesmer [[Ancient armor]]''' is a [[Prestige armor|prestige]] art type available in the Nightfall campaign.\n\nThere is no standard version of Ancient armor.\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Bone Palace]]\n! [[Palmod]]\n! 60\n| {{Cost|10000}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| 150 {{Hide}}<br>15 {{Elonian Leather}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| 100 {{Hide}}<br>10 {{Elonian Leather}}\n| 50 {{Hide}}<br>5 {{Elonian Leather}}\n| {{Cost|50000}}\n| 400 {{Hide}}<br>40 {{Elonian Leather}}\n|}\n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Ancient]]\n[[Category:Ancient armor]]\n[[Category:Prestige armor]]"
+}

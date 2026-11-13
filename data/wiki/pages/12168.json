@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Elite Platemail armor",
+  "pageid": 12168,
+  "revid": 2572920,
+  "revisedAt": "2014-07-30T03:22:21Z",
+  "sha1": "6e98aa342d61d72cbcd2330145efeb1c570af1a7",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Elite_Platemail_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Elite%20Platemail%20armor&oldid=2572920",
+  "retrievedAt": "2026-11-13T05:28:19.394Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Prophecies]]\n| pvp = Elite Platemail\n| pvpreward = Fancy\n| maleimage = [[Image:Warrior Elite Platemail armor m.jpg|127px]]\n| gallery = warrior Elite Platemail \n}}\n[[Warrior Elite Platemail armor]] is a [[prestige armor|prestige]] art type available in the Prophecies campaign.\n\nThe standard version of this armor is [[Warrior Platemail armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Cuirass || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[The Granite Citadel]]\n! align=\"center\"|[[Hagen]]\n! align=\"center\"|80\n| {{Cost|15000}}\n| 50 {{Iron}}<br>5 {{Deldrimor Steel}}\n| 150 {{Iron}}<br>15 {{Deldrimor Steel}}\n| 50  {{Iron}}<br>5{{Deldrimor Steel}}\n| 100 {{Iron}}<br>10 {{Deldrimor Steel}}\n| 50  {{Iron}}<br>5 {{Deldrimor Steel}}\n| {{Cost|75000}}\n| 400 {{Iron}}<br>40 {{Deldrimor Steel}}\n|}\n\n==Notes==   \n* This armor is labeled [[Granite Citadel armor#Granite Citadel Ascended Armor|Granite Citadel Ascended Armor]] in the [[\"Resilience\"]] monument in the [[Hall of Monuments]].\n{{bug|The male version of this armor has [[clipping]] issues with guild [[cape]]s.}}\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Elite Platemail]]\n[[Category:Prestige armor]]"
+}

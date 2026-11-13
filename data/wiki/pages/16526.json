@@ -1,0 +1,11 @@
+{
+  "title": "Ritualist Vabbian armor",
+  "pageid": 16526,
+  "revid": 2377728,
+  "revisedAt": "2011-09-09T15:24:14Z",
+  "sha1": "7f05115d7a2d80fc3b4b35052707758ccd76e564",
+  "url": "https://wiki.guildwars.com/wiki/Ritualist_Vabbian_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ritualist%20Vabbian%20armor&oldid=2377728",
+  "retrievedAt": "2026-11-13T05:28:47.930Z",
+  "wikitext": "{{Armor art infobox\n| profession = Ritualist\n| campaign = [[Nightfall]]\n| pvp = Vabbian\n| pvpreward = Fancy\n| gallery = ritualist Vabbian\n}}\n'''Ritualist [[Vabbian armor]]''' is a [[prestige armor|prestige]] art type available in the Nightfall campaign.\n\nThere is no standard version of Vabbian armor.\n\n{| style=\"margin:0.5em; border:1px solid {{Rt-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Rt-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Rt-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Headwrap || Raiment || Bangles || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[The Kodash Bazaar]]\n! [[Mateneh]]\n! 60\n| 5 {{plat}}\n| 25 {{Hide}}<br>4 {{Silk}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| 75 {{Hide}}<br>12 {{Silk}}<br>6 {{Ruby}}<br>6 {{Sapphire}}\n| 25 {{Hide}}<br>4 {{Silk}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| 50 {{Hide}}<br>8 {{Silk}}<br>4 {{Ruby}}<br>4 {{Sapphire}}\n| 25 {{Hide}}<br>4 {{Silk}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| 25 {{plat}}\n| 200 {{Hide}}<br>32 {{Silk}}<br>16 {{Ruby}}<br>16 {{Sapphire}}\n|}\n\n==Notes==\n{{bug|The skirt on the female armor clips with the legs while carrying out certain emotes or movements, such as fighting or strafing.}}\n\n{{Ritualist armor nav}}\n\n[[Category:Ritualist armor|Vabbian]]\n[[Category:Vabbian armor]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Boreas Seabed (Zaishen quest)",
+  "pageid": 201055,
+  "revid": 2393959,
+  "revisedAt": "2011-10-12T17:37:57Z",
+  "sha1": "4b33071afc9cf13682047a4628607c84c407e352",
+  "url": "https://wiki.guildwars.com/wiki/Boreas_Seabed_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Boreas%20Seabed%20(Zaishen%20quest)&oldid=2393959",
+  "retrievedAt": "2026-11-13T05:29:33.218Z",
+  "wikitext": "{{Quest infobox\n| id = 966\n| name = Boreas Seabed\n| section = Zaishen Mission\n| map = [[File:Boreas Seabed map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 5000\n}}__NOTOC__\nComplete [[Boreas Seabed]].\n\n==Quest information==\n===Objectives===\n*Help [[Master Togo]] win the [[Luxon]] convocation.\n* *BONUS* Complete the mission in under 20 minutes.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 2,500 [[Luxon Faction]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Boreas Seabed#Walkthrough|Boreas Seabed]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"Master Togo needs the [[Spear of Archemorus]]. Join him at the Luxon convocation in the [[Boreas Seabed (outpost)|Boreas Seabed]] to defeat the clans and claim the spear.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Trivia==\n*This quest was first offered on May 4, 2009.\n\n[[Category:Rewards Luxon faction]]\n[[Category:Rewards Platinum]]"
+}

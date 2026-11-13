@@ -1,0 +1,11 @@
+{
+  "title": "Bloodstone Fen (Zaishen quest)",
+  "pageid": 211064,
+  "revid": 2502710,
+  "revisedAt": "2012-07-06T22:55:58Z",
+  "sha1": "6cbf9ddcc6be2dfb03e327d9bb5b1b24d4fe0cc3",
+  "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bloodstone%20Fen%20(Zaishen%20quest)&oldid=2502710",
+  "retrievedAt": "2026-11-13T05:29:35.745Z",
+  "wikitext": "{{Quest infobox\n| id = 946\n| name = Bloodstone Fen\n| section = Zaishen Mission\n| image = [[File:Bloodstone_Fen_map.jpg|280px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 3000\n}}__NOTOC__\nComplete [[Bloodstone Fen]].\n\n== Quest information ==\n=== Objectives ===\n* Avenge the [[White Mantle]] [[Chosen]] by killing their murderer.\n* *BONUS* Awaken the four [[druid (NPC)|druids]] and speak with the [[Elder Druid]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Bloodstone Fen#Walkthrough|Bloodstone Fen]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n;[[Zaishen Mission]]\n: ''\"The Chosen are being slaughtered in the [[Bloodstone Fen (outpost)|Bloodstone Fen]]; bring their murderer to justice.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n;Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

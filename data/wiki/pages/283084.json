@@ -1,0 +1,11 @@
+{
+  "title": "Dreadnought's Drift (Zaishen vanquish)",
+  "pageid": 283084,
+  "revid": 2626914,
+  "revisedAt": "2018-05-05T01:59:06Z",
+  "sha1": "b0a05c538d522beba16fe26bcb3fe3c80525aab9",
+  "url": "https://wiki.guildwars.com/wiki/Dreadnought%27s_Drift_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dreadnought's%20Drift%20(Zaishen%20vanquish)&oldid=2626914",
+  "retrievedAt": "2026-11-13T05:29:51.527Z",
+  "wikitext": "{{Quest infobox\n| id = 1219\n| name = Dreadnought's Drift\n| section = Zaishen Vanquish\n| image = [[File:Dreadnought's Drift.jpg|200px]]\n| map = [[File:Dreadnought's Drift map.jpg|200px|link=Dreadnought's Drift/Map]]\n| map1text = Vanquish [[Dreadnought's Drift]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Dreadnought's Drift]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Dreadnought's Drift in the [[Southern Shiverpeaks]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 15,000 [[Experience]]\n* 2,000 [[Gold]]\n* Complete the Base Objective for 250 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Dreadnought's Drift in the Southern Shiverpeaks of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

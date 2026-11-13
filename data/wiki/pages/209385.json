@@ -1,0 +1,11 @@
+{
+  "title": "Ruins of Surmia (Zaishen quest)",
+  "pageid": 209385,
+  "revid": 1943726,
+  "revisedAt": "2010-03-11T00:17:32Z",
+  "sha1": "03570281b4b2665874843d717485060e9f211fd9",
+  "url": "https://wiki.guildwars.com/wiki/Ruins_of_Surmia_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ruins%20of%20Surmia%20(Zaishen%20quest)&oldid=1943726",
+  "retrievedAt": "2026-11-13T05:29:33.223Z",
+  "wikitext": "{{Quest infobox\n| id = 938\n| name = Ruins of Surmia\n| section = Zaishen Mission\n| map = [[File:Ruins_of_Surmia_map.jpg|250px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 1000\n}}__NOTOC__\nComplete [[Ruins of Surmia]].\n\n== Quest information ==\n=== Objectives ===\n* Assist and protect [[Prince Rurik]] as he frees [[Ascalon]]ians from the [[Charr]] in the [[Ruins of Surmia (outpost)|Ruins of Surmia]].\n* *BONUS* Extinguish the Charr temple flame.\n* *BONUS* Complete the mission in Hard Mode.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per [[Ruins of Surmia#Walkthrough|Ruins of Surmia]].\n\n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission\n: ''\"Prince Rurik calls for all brave soldiers to accompany him in rescuing our Ascalonian brethren from Charr captors. Stalwart soldiers can join the prince on the road to [[Surmia]]. The Prince must be protected at all costs. For Ascalon!\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

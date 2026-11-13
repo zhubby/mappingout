@@ -1,0 +1,11 @@
+{
+  "title": "Imperial Sanctum (Zaishen quest)",
+  "pageid": 216502,
+  "revid": 2484020,
+  "revisedAt": "2012-05-09T01:53:20Z",
+  "sha1": "d5173ae6a84d0ce5c93a2ad273e3bd12c73b6ea2",
+  "url": "https://wiki.guildwars.com/wiki/Imperial_Sanctum_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Imperial%20Sanctum%20(Zaishen%20quest)&oldid=2484020",
+  "retrievedAt": "2026-11-13T05:29:29.549Z",
+  "wikitext": "{{Quest infobox\n| id =972\n| name = Imperial Sanctum\n| section = Zaishen Mission\n| image =\n| map = [[Image:Imperial Sanctum map.jpg|200px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = EP reward\n}}__NOTOC__\nComplete [[Imperial Sanctum]].\n\n== Quest information ==\n=== Objectives ===\n* Defeat [[Shiro]].\n* *BONUS* Complete the mission in under 2.5 minutes (3 minutes in [[Hard Mode]]).\n* *BONUS* Complete the mission in Hard Mode.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coin]]s.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Imperial Sanctum#Walkthrough|Imperial Sanctum]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"The [[Imperial Sanctum (outpost)|Imperial Sanctum]] in [[Kaineng City]] has been breached.  Protect [[Cantha]].  Defeat [[Shiro'ken]] army's nefarious leader.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]"
+}

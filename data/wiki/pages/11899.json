@@ -1,0 +1,11 @@
+{
+  "title": "Elementalist Elite Canthan armor",
+  "pageid": 11899,
+  "revid": 2499200,
+  "revisedAt": "2012-06-28T00:54:42Z",
+  "sha1": "79f49e4be334862c5ace2ec35d1f809a6992540e",
+  "url": "https://wiki.guildwars.com/wiki/Elementalist_Elite_Canthan_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Elementalist%20Elite%20Canthan%20armor&oldid=2499200",
+  "retrievedAt": "2026-11-13T05:28:38.871Z",
+  "wikitext": "{{Armor art infobox\n| profession = Elementalist\n| campaign = [[Factions]]\n| pvp = Elite Canthan\n| pvpreward = Basic\n| gallery = elementalist Elite Canthan\n}}\n'''Elementalist Elite [[Canthan armor]]''' is a [[Prestige armor|prestige]] art type available in the Factions campaign.\n\nThis armor is only available in the [[Divine Path]], an [[explorable area]] only accessible by completing [[Imperial Sanctum]]. If you plan on buying this armor make sure you take all of the required crafting materials and money into the mission with you, as there are no [[Xunlai Agent]]s, [[material trader]]s, or [[rare material trader]]s available in the zone.\n\nThe standard version of this armor is [[Elementalist Canthan armor]].\n\n\n{| style=\"margin:0.5em; border:1px solid {{E-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{E-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background:{{E-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Robes || Gloves || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Divine Path]]\n! [[Koumei]]\n! 60\n| 15 {{plat}}\n| 150 {{Cloth}}<br>15 {{Silk}}\n| 50 {{Cloth}}<br>5 {{Silk}}\n| 100 {{Cloth}}<br>10 {{Silk}}\n| 50 {{Cloth}}<br>5 {{Silk}}\n| 60 {{plat}}\n| 350 {{Cloth}}<br>35 {{Silk}}\n|}\n\n== Notes ==\n*There is a clipping issue with the female armor - a small triangular group of pixels on the leggings may show skin through the armor near the left hand. The clipping disappears when the emote \"/attention\" is applied.\n\n{{Elementalist armor nav}}\n\n[[Category:Elementalist armor|Elite Canthan]]\n[[Category:Canthan armor]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Assassin Asuran armor",
+  "pageid": 67550,
+  "revid": 2531178,
+  "revisedAt": "2013-01-26T10:46:35Z",
+  "sha1": "79961ce2fdab1290b1ce43420404becfd2fbbd50",
+  "url": "https://wiki.guildwars.com/wiki/Assassin_Asuran_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Assassin%20Asuran%20armor&oldid=2531178",
+  "retrievedAt": "2026-11-13T05:28:44.515Z",
+  "wikitext": "{{armor art infobox\n| profession = Assassin\n| campaign = [[Eye of the North]]\n| pvp = Asuran\n| pvpreward = Basic\n| gallery = assassin Asuran\n}}\n'''Assassin [[Asuran armor]]''' is a prestige art type available in the Eye of the North expansion. You need to be at least rank 5 (Not Too Annoying) in the [[Asura rank|Asura title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{A-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{A-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{A-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Guise || Gloves || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Rata Sum]]\n! [[Klub]]\n! 70\n| 10 {{plat}}\n| 50 {{hide}}<br>5 {{steel}}\n| 150 {{hide}}<br>15 {{steel}}\n| 50 {{hide}}<br>5 {{steel}}\n| 100 {{hide}}<br>10 {{steel}}\n| 50 {{hide}}<br>5 {{steel}}\n| 50 {{plat}}\n| 400 {{hide}}<br>40 {{steel}}\n|}\n\n==Notes==\n* This armor is a reskin of [[Assassin Elite Imperial armor]].\n* While dancing shoulder spikes clip with head on males.\n* The spikes on the arms will clip through some shields.\n* The blue part cannot be dyed and will remain navy blue.\n{{bug|Parts of the armor retain a slight reddish tint when dyed with some colors.}}\n\n\n{{Assassin armor nav}}\n\n[[Category:Assassin armor|Asuran]]\n[[Category:Asuran armor]]\n[[category:Prestige armor]]"
+}

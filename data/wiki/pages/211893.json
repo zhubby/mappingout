@@ -1,0 +1,11 @@
+{
+  "title": "Augury Rock (Zaishen quest)",
+  "pageid": 211893,
+  "revid": 2298147,
+  "revisedAt": "2011-05-13T04:56:07Z",
+  "sha1": "6133213be2cea49660afbd5fdf4dae319ad1b098",
+  "url": "https://wiki.guildwars.com/wiki/Augury_Rock_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Augury%20Rock%20(Zaishen%20quest)&oldid=2298147",
+  "retrievedAt": "2026-11-13T05:29:27.683Z",
+  "wikitext": "{{Quest infobox\n| id = 953\n| name = Augury Rock\n| section = Zaishen Mission\n| image =\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 3000\n}}__NOTOC__\nComplete [[Augury Rock]].\n\n== Quest information ==\n=== Objectives ===\n* Defeat your [[Doppelganger]] at Augury Rock.\n* *BONUS* Complete the mission in under 10 minutes (2 minutes in [[Hard Mode]]).\n* *BONUS* Complete the mission in Hard Mode.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Augury Rock#Walkthrough|Augury Rock]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"Are you ready for [[ascension]]? Ready to see if you are your own worst enemy? At Augury Rock, you face the final trial: your own doppelganger.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n== Notes ==\n{{bug|The mission doesn't need to be a success. Defeating the Doppelganger is enough to complete the quest; however, the first bonus is not satisfied if you die before the Doppelganger.}}"
+}

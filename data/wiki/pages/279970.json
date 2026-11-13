@@ -1,0 +1,11 @@
+{
+  "title": "Silverwood (Zaishen vanquish)",
+  "pageid": 279970,
+  "revid": 2626846,
+  "revisedAt": "2018-05-05T01:56:58Z",
+  "sha1": "2947aa6301ddb0ef3cc24e5fcd7d0e5369d8147a",
+  "url": "https://wiki.guildwars.com/wiki/Silverwood_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Silverwood%20(Zaishen%20vanquish)&oldid=2626846",
+  "retrievedAt": "2026-11-13T05:29:47.479Z",
+  "wikitext": "{{Quest infobox\n| id = 1303\n| name = Silverwood\n| section = Zaishen Vanquish\n| image = [[File:Silverwood.jpg|200px]]\n| map = [[File:Silverwood map.jpg|200px|link=Silverwood/Map]]\n| map1text = Vanquish [[Silverwood]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Silverwood]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Silverwood in the [[Maguuma Jungle]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Silverwood in the Maguuma Jungle of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Kurzick armor",
+  "pageid": 12628,
+  "revid": 2621353,
+  "revisedAt": "2017-08-15T15:25:55Z",
+  "sha1": "4f00f75d6b0ff86edf48118cd0bdf230e9527ce7",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Kurzick_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Kurzick%20armor&oldid=2621353",
+  "retrievedAt": "2026-11-13T05:28:19.396Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Factions]]\n| pvp = Kurzick\n| pvpreward = Basic\n| maleimage = [[Image:Warrior Kurzick armor m.jpg|130px]]\n| gallery = warrior Kurzick \n}}\n[[Warrior Kurzick armor]] is an art type available in the Factions campaign.\n\nThe [[Prestige armor|prestige]] version of this armor is [[Warrior Elite Kurzick armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Cuirass || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\" |[[House zu Heltzer]]\n! align=\"center\" |[[Morbach]]\n! align=\"center\" | 80\n| {{Cost|1000}}\n| 25 {{Iron}}<br>4 {{Steel}}<br>3 {{Amber}}\n| 75 {{Iron}}<br>12 {{Steel}}<br>9 {{Amber}}\n| 25 {{Iron}}<br>4 {{Steel}}<br>3 {{Amber}}\n| 50 {{Iron}}<br>8 {{Steel}}<br>6 {{Amber}}\n| 25 {{Iron}}<br>4 {{Steel}}<br>3 {{Amber}}\n| {{Cost|5000}}\n| 200 {{Iron}}<br>32 {{Steel}}<br>24 {{Amber}}\n|}\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Kurzick]]\n[[Category:Kurzick armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Monk Luxon armor",
+  "pageid": 5896,
+  "revid": 2379741,
+  "revisedAt": "2011-09-13T17:59:02Z",
+  "sha1": "86b5ed9ced959d8f07b468918bad49f625134763",
+  "url": "https://wiki.guildwars.com/wiki/Monk_Luxon_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Monk%20Luxon%20armor&oldid=2379741",
+  "retrievedAt": "2026-11-13T05:28:28.968Z",
+  "wikitext": "{{Armor art infobox\n| profession = Monk\n| campaign = [[Factions]]\n| pvp = Luxon\n| pvpreward = Basic\n| femaleimage = [[Image:Monk Luxon armor f.jpg|110px]]\n| gallery = monk Luxon\n}}\n'''Monk [[Luxon armor]]''' is an art type available in the Factions campaign.\n\nThe [[prestige armor|prestige]] version of this armor is [[Monk Elite Luxon armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{Mo-color|border}}; border-collapse:collapse; font-size: 90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Mo-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Mo-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Scalp Design || Vestments || Handwraps || Pants || Sandals || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n| align=\"center\"|'''[[Cavalon]]'''\n| align=\"center\"|'''[[Tateos]]'''\n| align=\"center\"|'''60'''\n| 1 {{plat}} \n| 5 {{Parchment}} 4 {{Ink}}\n| 75 {{Cloth}}<br>12 {{Ink}}<br>9 {{Jadeite}}\n| 25 {{Cloth}}<br>4 {{Ink}}<br>3 {{Jadeite}}\n| 50 {{Cloth}}<br>8 {{Ink}}<br>6 {{Jadeite}}\n| 25 {{Cloth}}<br>4 {{Ink}}<br>3 {{Jadeite}}\n| 5 {{plat}}\n| 5 {{Parchment}}<br>32 {{Ink}}<br>175 {{Cloth}}<br>21 {{Jadeite}}\n|}\n\n{{bug|The back of the male chestpiece clips through guild capes.}}\n\n{{Monk armor nav}}\n\n[[Category:Monk armor|Luxon]]\n[[Category:Luxon armor]]"
+}

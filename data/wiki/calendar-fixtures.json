@@ -1,0 +1,56 @@
+[
+  {
+    "at": "2026-11-13T15:59:59Z",
+    "quests": [
+      "Blacktide Den",
+      "Chung, the Attuned",
+      "Alliance Battles",
+      "The Alkali Pan"
+    ]
+  },
+  {
+    "at": "2026-11-13T16:00:00Z",
+    "quests": [
+      "Against the Charr",
+      "Lord Jadoth",
+      "Heroes' Ascent",
+      "Varajar Fells"
+    ]
+  },
+  {
+    "at": "2026-11-16T14:59:59Z",
+    "quests": [
+      "Nundu Bay",
+      "The Iron Forgeman",
+      "Fort Aspenwood",
+      "Pongmei Valley"
+    ]
+  },
+  {
+    "at": "2026-11-16T15:00:00Z",
+    "quests": [
+      "Nundu Bay",
+      "The Iron Forgeman",
+      "Fort Aspenwood",
+      "Pongmei Valley"
+    ]
+  },
+  {
+    "at": "2026-12-31T23:59:59Z",
+    "quests": [
+      "Boreas Seabed",
+      "Rotscale",
+      "Codex Arena",
+      "Tangle Root"
+    ]
+  },
+  {
+    "at": "2027-01-01T00:00:00Z",
+    "quests": [
+      "Boreas Seabed",
+      "Rotscale",
+      "Codex Arena",
+      "Tangle Root"
+    ]
+  }
+]

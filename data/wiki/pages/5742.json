@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Elite Kurzick armor",
+  "pageid": 5742,
+  "revid": 2377778,
+  "revisedAt": "2011-09-09T18:10:36Z",
+  "sha1": "affdafd6ebb98cbf72484036598ab3bcf6aa6d2f",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Elite_Kurzick_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Elite%20Kurzick%20armor&oldid=2377778",
+  "retrievedAt": "2026-11-13T05:28:35.665Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Factions]]\n| pvp = Elite Kurzick\n| pvpreward = Fancy\n| gallery = mesmer Elite Kurzick\n}}\n'''Mesmer Elite [[Kurzick armor]]''' is a [[Prestige armor|prestige]] art type available in the Factions campaign.\n\nThe standard version of this armor is [[Mesmer Kurzick armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Vasburg Armory]]\n! [[Giygas]]\n! 60\n| {{Cost|15000}}\n| 50 {{Hide}}<br>5 {{Silk}}<br>10 {{Amber}}\n| 150 {{Hide}}<br>15 {{Silk}}<br>30 {{Amber}}\n| 50 {{Hide}}<br>5 {{Silk}}<br>10 {{Amber}}\n| 100 {{Hide}}<br>10 {{Silk}}<br>20 {{Amber}}\n| 50 {{Hide}}<br>5 {{Silk}}<br>10 {{Amber}}\n| {{Cost|75000}}\n| 400 {{Hide}}<br>40 {{Silk}}<br>80 {{Amber}}\n|}\n\n==Notes==\n* The female version has a clipping issue on the right shoulder.\n* Sitting down with the female version results in clipping issues such as the hands going through the skirt.\n* The male version's jacket sometimes clips with capes while running diagonally. \n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Elite Kurzick]]\n[[Category:Kurzick armor]]\n[[Category:Prestige armor]]"
+}

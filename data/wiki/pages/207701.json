@@ -1,0 +1,11 @@
+{
+  "title": "Vizunah Square (Zaishen quest)",
+  "pageid": 207701,
+  "revid": 2374650,
+  "revisedAt": "2011-09-03T20:52:56Z",
+  "sha1": "ae370f9ce4ff5bf9420080f8908c0912ce17ac37",
+  "url": "https://wiki.guildwars.com/wiki/Vizunah_Square_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vizunah%20Square%20(Zaishen%20quest)&oldid=2374650",
+  "retrievedAt": "2026-11-13T05:29:33.222Z",
+  "wikitext": "{{Quest infobox\n| id =\n| name = Vizunah Square\n| section = Zaishen Mission\n| image =\n| map = [[File:Vizunah Square map.jpg|275px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Vizunah Square]].\n\n==Quest information==\n===Objectives===\n* Locate and destroy the source of the plague in [[Kaineng City]].\n* *BONUS* Complete the mission in under 25 minutes. {{sic|see the Notes section}}\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Vizunah Square#walkthrough|Vizunah Square]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;[[Zaishen Mission]]\n:''\"Plague is spreading throughout [[Cantha]]. [[Master Togo]] and Brother [[Mhenlo]] can't do it alone. Join them in [[Kaineng City]] - together you must discover the source and survive long enough to end the sickness.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*Similar to the mission, completing in under 35 minutes when doing this quest in [[Hard mode]] will still gain you the first bonus objective."
+}

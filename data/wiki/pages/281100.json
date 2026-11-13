@@ -1,0 +1,11 @@
+{
+  "title": "Wilderness of Bahdza (Zaishen vanquish)",
+  "pageid": 281100,
+  "revid": 2634917,
+  "revisedAt": "2018-11-11T20:45:32Z",
+  "sha1": "049d22dd7fdf62dd4f7e8d3db39b4ae42046f8c1",
+  "url": "https://wiki.guildwars.com/wiki/Wilderness_of_Bahdza_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Wilderness%20of%20Bahdza%20(Zaishen%20vanquish)&oldid=2634917",
+  "retrievedAt": "2026-11-13T05:29:48.680Z",
+  "wikitext": "{{Quest infobox\n| id = 1322\n| name = Wilderness of Bahdza\n| section = Zaishen Vanquish\n| image = [[File:Wilderness of Bahdza.jpg|200px]]\n| map = [[File:Wilderness of Bahdza map.jpg|200px|link=Wilderness of Bahdza/Map]]\n| map1text = Vanquish the [[Wilderness of Bahdza]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Wilderness of Bahdza]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear the Wilderness of Bahdza in [[Vabbi]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 750 [[Sunspear rank|Sunspear Promotion Point]]s\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Wilderness of Bahdza in Vabbi of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Sunspear promotion points]]"
+}

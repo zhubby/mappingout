@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Elite Canthan armor",
+  "pageid": 12472,
+  "revid": 2499204,
+  "revisedAt": "2012-06-28T00:55:15Z",
+  "sha1": "478280e496e6d31869fd7d058177038ab918b835",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Elite_Canthan_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Elite%20Canthan%20armor&oldid=2499204",
+  "retrievedAt": "2026-11-13T05:28:19.395Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Factions]]\n| pvp = Elite Canthan\n| pvpreward = Basic\n| maleimage = [[Image:Warrior Elite Canthan armor m.jpg|127px]]\n| gallery = warrior Elite Canthan \n}}\n'''Warrior Elite [[Canthan armor]]''' is a [[Prestige armor|prestige]] art type available in the Factions campaign.\n\nThis armor is only available in the [[Divine Path]], an [[explorable area]] only accessible by completing [[Imperial Sanctum]]. If you plan on buying this armor make sure you take all of the required crafting materials and money into the mission with you, as there are no [[Xunlai Agent]]s, [[material trader]]s, or [[rare material trader]]s available in the zone.\n\nThe standard version of this armor is [[Warrior Canthan armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Hauberk || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Divine Path]]\n! align=\"center\"|[[Koumei]]\n! align=\"center\"|80\n| {{Cost|15000}}\n| 50 {{Iron}}<br>5 {{Steel}}\n| 150 {{Iron}}<br>15 {{Steel}}\n| 50 {{Iron}}<br>5 {{Steel}}\n| 100 {{Iron}}<br>10 {{Steel}}\n| 50 {{Iron}}<br>5 {{Steel}}\n| {{Cost|75000}}\n| 400 {{Iron}}<br>40 {{Steel}}\n|}\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Elite Canthan]]\n[[Category:Prestige armor]]\n[[Category:Canthan armor]]"
+}

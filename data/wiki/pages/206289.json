@@ -1,0 +1,11 @@
+{
+  "title": "Ruins of Morah (Zaishen quest)",
+  "pageid": 206289,
+  "revid": 2637934,
+  "revisedAt": "2019-04-04T19:10:21Z",
+  "sha1": "bd6d91f812adbc863dbbb3f5b83b2c967bcdc037",
+  "url": "https://wiki.guildwars.com/wiki/Ruins_of_Morah_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ruins%20of%20Morah%20(Zaishen%20quest)&oldid=2637934",
+  "retrievedAt": "2026-11-13T05:29:33.222Z",
+  "wikitext": "__NOTOC__\n{{Quest infobox\n| id = 993\n| name = Ruins of Morah\n| section = Zaishen Mission\n| image = \n| required hero = General Morgahn\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 5000\n}}__NOTOC__\nComplete [[Ruins of Morah]].\n\n== Quest information ==\n=== Objectives ===\n* Kill [[Varesh Ossa|Abaddon's prophet]] in the [[Ruins of Morah]].\n* *BONUS* Complete the mission in less than 8 minutes (10 in [[Hard Mode]]).\n* *BONUS* Complete the mission in Hard Mode.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 500 [[Lightbringer Points]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Ruins of Morah#Walkthrough|Ruins of Morah]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission\n: ''\"The prophet of [[Abaddon]] has started a diabolical ritual in the Ruins of Morah. Take [[General Morgahn]] and slay the prophet before unspeakable evil is unleashed on the world.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n;Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Lightbringer points]]\n[[Category:Rewards Platinum]]"
+}

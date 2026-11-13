@@ -1,0 +1,11 @@
+{
+  "title": "Ring of Fire (Zaishen quest)",
+  "pageid": 200144,
+  "revid": 2688261,
+  "revisedAt": "2023-07-05T19:32:04Z",
+  "sha1": "226f80fe14dcac0db6403543e7d78745f5675221",
+  "url": "https://wiki.guildwars.com/wiki/Ring_of_Fire_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ring%20of%20Fire%20(Zaishen%20quest)&oldid=2688261",
+  "retrievedAt": "2026-11-13T05:29:29.539Z",
+  "wikitext": "{{Quest infobox\n| id = 958\n| name = Ring of Fire\n| section = Zaishen Mission\n| image =\n| map = [[File:Ring_of_Fire_map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Ring of Fire]].\n\n==Quest information==\n===Objectives===\n* Clear the way on the [[Ring of Fire Island Chain|Ring of Fire islands]].\n* *BONUS* Return the [[Spectral Essence]] from the [[Eidolon]] to the [[Ancient Seer]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Ring of Fire#Walkthrough|Ring of Fire]] mission.\n\n==Dialogues==\n===Initial dialogue===\n;Zaishen Mission\n:''\"It is written in the [[Flameseeker Prophecies]]: your destiny is in the Ring of Fire.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n{{bug|Contrary to the quest objective text and the mission bonus, killing the Eidolon is counted as completion, rather than returning the Spectral Essence.}}\n\n[[Category:Rewards Platinum]]"
+}

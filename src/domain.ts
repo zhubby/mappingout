@@ -29,7 +29,7 @@ export function preferredPlace(entry: Entry, filters: Filters): Place | undefine
 }
 export function deleteCharacter(state: Personal, id: string): Personal {
   const characters = state.characters.filter(c => c.id !== id);
-  return { ...state, characters, progress: state.progress.filter(p => p.characterId !== id), notes: state.notes.filter(n => n.characterId !== id), preferences: { ...state.preferences, characterId: state.preferences.characterId === id ? characters[0]?.id || '' : state.preferences.characterId } };
+  return { ...state, characters, progress: state.progress.filter(p => p.characterId !== id), notes: state.notes.filter(n => n.characterId !== id), armorPlans:state.armorPlans.filter(p=>p.characterId!==id), activityProgress:state.activityProgress.filter(p=>p.characterId!==id), preferences: { ...state.preferences, characterId: state.preferences.characterId === id ? characters[0]?.id || '' : state.preferences.characterId } };
 }
 export function belongsToRegion(entry: Entry, region: string) {
   return entry.locations.some(place => place.region === region) || (entry.kind === 'zone' && entry.area?.atlasRegion === region);

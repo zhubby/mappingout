@@ -1,0 +1,11 @@
+{
+  "title": "Diviner's Ascent (Zaishen vanquish)",
+  "pageid": 282697,
+  "revid": 2626918,
+  "revisedAt": "2018-05-05T01:59:13Z",
+  "sha1": "e16f7951e474c82f9e9923394b5f0cb1db67ebe9",
+  "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Diviner's%20Ascent%20(Zaishen%20vanquish)&oldid=2626918",
+  "retrievedAt": "2026-11-13T05:29:50.268Z",
+  "wikitext": "{{Quest infobox\n| id = 1212\n| name = Diviner's Ascent\n| section = Zaishen Vanquish\n| image = [[File:Diviner's Ascent.jpg|200px]]\n| map = [[File:Diviner's Ascent map.jpg|200px|link=Diviner's Ascent/Map]]\n| map1text = Vanquish [[Diviner's Ascent]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Diviner's Ascent]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Diviner's Ascent in the [[Crystal Desert]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 50 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Diviner's Ascent in the Crystal Desert of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]"
+}

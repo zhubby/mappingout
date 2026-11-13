@@ -81,7 +81,7 @@ npx wrangler rollback <目标版本ID> --message "Rollback MappingOut release"
 2. 打开正式 Workers 地址，进入「数据备份」并导入该文件。
 3. 核对角色数量和预览后，点击「确认替换并恢复」。这会整体替换目标地址的个人数据。
 
-备份仍使用 `mappingout-backup` 版本 1；部署适配没有修改业务数据、IndexedDB 名称或备份格式。
+当前护甲与日历版本导出 `mappingout-backup` v2，并支持 v1 备份迁移。数据库名称仍为 `mappingout`，版本升级到 2；回滚时应保留 v2 存储兼容层，见 [新功能与兼容说明](armor-calendar.md)。
 
 ## 验收
 

@@ -1,0 +1,11 @@
+{
+  "title": "Rilohn Refuge (Zaishen quest)",
+  "pageid": 216074,
+  "revid": 2619822,
+  "revisedAt": "2017-06-28T22:15:25Z",
+  "sha1": "6472f151b3dd8becc67c6ed40f8a7548d10bd1b7",
+  "url": "https://wiki.guildwars.com/wiki/Rilohn_Refuge_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rilohn%20Refuge%20(Zaishen%20quest)&oldid=2619822",
+  "retrievedAt": "2026-11-13T05:29:29.548Z",
+  "wikitext": "{{Quest infobox\n| id =\n| name = Rilohn Refuge \n| section = Zaishen Mission\n| image =\n| map = [[File:Rilohn Refuge map.jpg|250px]]\n| required hero = Master of Whispers\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = EP reward\n}}__NOTOC__\nComplete [[Rilohn Refuge]].\n\n== Quest information ==\n=== Objectives ===\n* Take the [[Master of Whispers]] to [[Rilohn Refuge (outpost)|Rilohn Refuge]] in [[Kourna]] and defeat the demon in [[Mahnkelon Waterworks]].\n* *BONUS* Complete the mission without shutting down the water pumps.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 300 [[Sunspear rank|Sunspear Promotion Points]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Rilohn Refuge#Walkthrough|Rilohn Refuge]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"A demon inside Mahnkelon Waterworks is poised to corrupt the river [[Elon]] and poison thousands of citizens. Anyone who can deal with a demon should contact the Master of Whispers and travel to the Rilohn Refuge in Kourna.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Sunspear promotion points]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "The Alkali Pan (Zaishen vanquish)",
+  "pageid": 277010,
+  "revid": 2626831,
+  "revisedAt": "2018-05-05T01:56:30Z",
+  "sha1": "2942db772b31b7ded1be6c2408a4fdabb9b47b07",
+  "url": "https://wiki.guildwars.com/wiki/The_Alkali_Pan_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Alkali%20Pan%20(Zaishen%20vanquish)&oldid=2626831",
+  "retrievedAt": "2026-11-13T05:29:44.675Z",
+  "wikitext": "{{Quest infobox\n| id = 1253\n| name = The Alkali Pan\n| section = Zaishen Vanquish\n| image = [[File:The Alkali Pan.jpg|200px]]\n| map = [[File:The Alkali Pan map.jpg|200px|link=The Alkali Pan/Map]]\n| map1text = Vanquish [[The Alkali Pan]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[the Alkali Pan]].\n\n== Quest information ==\n=== Objectives ===\n* Clear the Alkali Pan in [[the Desolation]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 15,000 [[Experience]]\n* 2,000 [[Gold]]\n* 1,000 [[Lightbringer rank|Lightbringer Points]]\n* Complete the Base Objective for 250 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; Zaishen Vanquish\n: ''\"Clear the Alkali Pan in the Desolation of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Lightbringer points]]"
+}

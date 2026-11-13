@@ -1,0 +1,11 @@
+{
+  "title": "Destruction's Depths (Zaishen quest)",
+  "pageid": 205970,
+  "revid": 2368680,
+  "revisedAt": "2011-08-24T22:28:32Z",
+  "sha1": "4eeb95aded7e7e29911bd950d45c6768f7894267",
+  "url": "https://wiki.guildwars.com/wiki/Destruction%27s_Depths_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Destruction's%20Depths%20(Zaishen%20quest)&oldid=2368680",
+  "retrievedAt": "2026-11-13T05:29:29.547Z",
+  "wikitext": "{{Quest infobox\n| id = 1009\n| name = Destruction's Depths\n| section = Zaishen Mission\n| image =\n| map = [[File:Destruction's Depths map.jpg|225px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n}}__NOTOC__\nComplete [[Destruction's Depths]].\n\n== Quest information ==\n=== Objectives ===\n* Reclaim the [[Asura Gate]] to the [[Central Transfer Chamber]] from the [[Destroyers]] in the [[Depths of Tyria]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 2,500 [[Deldrimor rank|Dwarf reputation points]]\n* Complete the Base Objective for 40 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 100 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Destruction's Depths#Walkthrough|Destruction's Depths]] quest.\n\n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission\n: ''\"Reinforcements are needed. [[Destroyer]]s are swarming the [[Asura Gate]] in the Depths of Tyria. The [[dwarves]] can't hold forever. Report to [[King Jalis]]. [[Tyria]]'s future depends on you.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n;Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Dwarf reputation points]]\n[[Category:Rewards Platinum]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Dervish Elite Sunspear armor",
+  "pageid": 7358,
+  "revid": 2415027,
+  "revisedAt": "2011-11-28T18:38:51Z",
+  "sha1": "b9befa073d01ca44d151c8e34d65bb3bf4fd1694",
+  "url": "https://wiki.guildwars.com/wiki/Dervish_Elite_Sunspear_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dervish%20Elite%20Sunspear%20armor&oldid=2415027",
+  "retrievedAt": "2026-11-13T05:28:49.675Z",
+  "wikitext": "{{Armor art infobox\n| profession = Dervish\n| campaign = [[Nightfall]]\n| pvp = Elite Sunspear\n| pvpreward = Basic\n| gallery = dervish Elite Sunspear \n}}\n'''Dervish Elite [[Sunspear armor]]''' is a prestige art type available in the Nightfall campaign. It is crafted by [[Ahamid]] in [[Command Post]] and Ahamid only appears after completion of the [[Building the Base: Prisoners of War]] quest.\n\nThe standard version of this armor is [[Dervish Sunspear armor]].  \n\n{| style=\"margin:0.5em; border:1px solid {{d-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{d-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{d-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Hood|| Robes || Vambraces || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Command Post]]\n! [[Ahamid]]\n! 70\n| 15 {{plat}}\n| 50 {{Hide}}<br>5 {{Steel}}\n| 150 {{Hide}}<br>15 {{Steel}}\n| 50 {{Hide}}<br>5 {{Steel}}\n| 100 {{Hide}}<br>10 {{Steel}}\n| 50 {{Hide}}<br>5 {{Steel}}\n| 75 {{plat}} \n| 400 {{Hide}}<br>40 {{Steel}}\n|}\n\n{{Bug|The \"tags\" on the leggings will disappear if you are underwater.}}\n\n{{dervish armor nav}}\n\n[[Category:Dervish armor|Elite Sunspear]]\n[[Category:Prestige armor]]\n[[Category:Sunspear armor]]"
+}

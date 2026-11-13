@@ -1,0 +1,11 @@
+{
+  "title": "Gate of Pain (Zaishen quest)",
+  "pageid": 203548,
+  "revid": 2420816,
+  "revisedAt": "2011-12-10T09:15:10Z",
+  "sha1": "1c393ab3f4bbd15e69458aecaca6c20297164672",
+  "url": "https://wiki.guildwars.com/wiki/Gate_of_Pain_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gate%20of%20Pain%20(Zaishen%20quest)&oldid=2420816",
+  "retrievedAt": "2026-11-13T05:29:35.741Z",
+  "wikitext": "{{Quest infobox\n| id = \n| name = Gate of Pain \n| section = Zaishen Mission\n| map = [[File:Gate of Pain map.jpg|250px]]\n| required hero = Dunkoro\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]] \n| experience reward = 5000\n}}__NOTOC__\nComplete [[Gate of Pain]].\n\n== Quest information ==\n=== Objectives ===\n* Take [[Dunkoro]] and release the tortured souls at the [[Gate of Pain (outpost)|Gate of Pain]].\n* *BONUS* Kill three additional [[Emissary of Dhuum|Emissaries of Dhuum]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 500 [[Lightbringer rank|Lightbringer points]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Gate of Pain#Walkthrough|Gate of Pain]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission\n: ''\"[[Abaddon]]'s minions have trapped spirits in the [[Realm of Torment]] and are collecting them to feed the dark lord. Contact Dunkoro and free the tortured souls at the Gate of Pain.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Lightbringer points]]\n[[Category:Rewards Platinum]]"
+}

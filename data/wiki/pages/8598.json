@@ -1,0 +1,11 @@
+{
+  "title": "Ranger Vabbian armor",
+  "pageid": 8598,
+  "revid": 2627944,
+  "revisedAt": "2018-06-02T06:03:15Z",
+  "sha1": "8e6c1147df874cee50cce75268f47afc6d3f68ce",
+  "url": "https://wiki.guildwars.com/wiki/Ranger_Vabbian_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ranger%20Vabbian%20armor&oldid=2627944",
+  "retrievedAt": "2026-11-13T05:28:28.078Z",
+  "wikitext": "{{Armor art infobox\n| profession = Ranger\n| campaign = [[Nightfall]]\n| pvp = Vabbian\n| pvpreward = Fancy\n| maleimage = [[Image:Ranger Vabbian armor m.jpg|135px]]\n| gallery = ranger Vabbian\n}}\n'''Ranger [[Vabbian armor]]''' is a [[prestige armor|prestige]] art type available in the Nightfall campaign.\n\nThere is no standard version of Vabbian armor.\n\n{| style=\"margin:0.5em; border:1px solid {{R-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{R-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{R-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[The Kodash Bazaar]]\n! align=\"center\"|[[Mateneh]]\n! align=\"center\"|70\n| 5 {{plat}}\n| 25 {{Cloth}}<br>4 {{Elonian Leather}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| 75 {{Cloth}}<br>12 {{Elonian Leather}}<br>6 {{Ruby}}<br>6 {{Sapphire}}\n| 25 {{Cloth}}<br>4 {{Elonian Leather}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| 50 {{Cloth}}<br>8 {{Elonian Leather}}<br>4 {{Ruby}}<br>4 {{Sapphire}}\n| 25 {{Cloth}}<br>4 {{Elonian Leather}}<br>2 {{Ruby}}<br>2 {{Sapphire}}\n| 25 {{plat}}\n| 200 {{Cloth}}<br>32 {{Elonian Leather}}<br>16 {{Ruby}}<br>16 {{Sapphire}}\n|}\n\n== Notes ==\n{{bug|The material holding the front-most dagger on the pants does not dye properly, staying its original color while the material holding the other daggers changes to the color you dyed the pants.}}\n{{bug|A large section of the skirt portion of the leg armor will clip through the left leg while walking.}}\n\n{{Ranger armor nav}}\n\n[[Category:Ranger armor|Vabbian]]\n[[Category:Vabbian armor]]\n[[Category:Prestige armor]]"
+}

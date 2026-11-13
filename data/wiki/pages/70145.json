@@ -1,0 +1,11 @@
+{
+  "title": "Monk Aureate Pants",
+  "pageid": 70145,
+  "revid": 2448920,
+  "revisedAt": "2012-02-11T21:30:21Z",
+  "sha1": "63d506aa1e94608b7858bddf8d3158c5cae86766",
+  "url": "https://wiki.guildwars.com/wiki/Monk_Aureate_Pants",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Monk%20Aureate%20Pants&oldid=2448920",
+  "retrievedAt": "2026-11-13T05:28:28.080Z",
+  "wikitext": "{{armor art infobox\n|profession = Monk\n|campaign = [[Eye of the North]]\n|specialgallery = monk Aureate Pants}}\n'''Monk Aureate Pants''' is a [[prestige armor]] piece available in the Eye of the North expansion. You need to be at least rank 5 (Bold Delver) in the [[Deldrimor rank|Deldrimor title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{mo-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{mo-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"5\" | Crafting\n|- style=\"background:{{mo-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Pants\n|-\n! [[Central Transfer Chamber]]\n! [[Gobrech Stonefoot]]\n! 60\n| 10 {{plat}}\n| 100 {{Cloth}}<br>10 {{Damask}}\n|}\n\n== Notes ==\n*Female armor part is a reskin of [[Monk Elite Canthan armor]] pants. \n*Male armor part appears to be a reskin of the [[Monk Elite Kurzick armor]] pants.\n{{bug|These pants have clipping issues on male monks while wielding some types of shields and focuses.}}\n\n{{monk armor nav}}\n\n[[Category:Eye of the North armor]]\n[[Category:Monk armor|Aureate Pants]]\n[[Category:Prestige armor]]"
+}

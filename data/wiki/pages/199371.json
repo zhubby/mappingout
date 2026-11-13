@@ -1,0 +1,11 @@
+{
+  "title": "Blood Washes Blood (Zaishen quest)",
+  "pageid": 199371,
+  "revid": 2622764,
+  "revisedAt": "2017-10-13T16:09:39Z",
+  "sha1": "6783b21244deb474247d5245d017635fca4513a9",
+  "url": "https://wiki.guildwars.com/wiki/Blood_Washes_Blood_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Blood%20Washes%20Blood%20(Zaishen%20quest)&oldid=2622764",
+  "retrievedAt": "2026-11-13T05:29:35.734Z",
+  "wikitext": "{{Quest infobox\n| id = \n| name = Blood Washes Blood\n| section = Zaishen Mission\n| map = [[File:Blood_Washes_Blood_map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Blood Washes Blood]].\n==Quest information==\n===Objectives===\n* Kill the [[Charr]] trespassers on [[Jora]]'s homeland in [[Bjora Marches]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 1,500 [[Norn reputation point]]s\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per [[Blood_Washes_Blood#Walkthrough|Blood Washes Blood walkthrough]].\n\n==Dialogues==\n===Initial dialogue===\n'''Zaishen Mission'''\n:''\"I, Jora, seek a strong hunting party to reclaim my homestead from the Charr. The Bear Spirit in Jaga Moraine will guide you to me.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n'''Zehnchu'''\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Trivia==\n*This was the first [[Zaishen Mission]] when it was introduced in the Guild Wars 4th Birthday Celebration update in April 2009.\n\n[[Category:Rewards Norn reputation points]]"
+}

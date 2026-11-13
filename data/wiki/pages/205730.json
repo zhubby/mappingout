@@ -1,0 +1,11 @@
+{
+  "title": "Kodonur Crossroads (Zaishen quest)",
+  "pageid": 205730,
+  "revid": 2619794,
+  "revisedAt": "2017-06-28T22:14:21Z",
+  "sha1": "f31caf912c7f22fc7d6d7e052fc3c57370a544f3",
+  "url": "https://wiki.guildwars.com/wiki/Kodonur_Crossroads_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kodonur%20Crossroads%20(Zaishen%20quest)&oldid=2619794",
+  "retrievedAt": "2026-11-13T05:29:33.221Z",
+  "wikitext": "{{Quest infobox\n| id =983\n| name = Kodonur Crossroads\n| section = Zaishen Mission\n| image = \n| map = [[File:Kodonur Crossroads map.jpg|275px]]\n| required hero = Zhed Shadowhoof\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 3000 xp\n}}__NOTOC__\nComplete [[Kodonur Crossroads]].\n\n== Quest information ==\n=== Objectives ===\n*Take [[Zhed Shadowhoof]] and rescue [[Mirza Veldrunner]] from the Kodonur Crossroads in [[Kourna]].\n* *BONUS* Kill the three cruel [[Taskmaster]] [[boss]]es.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 300 [[Sunspear rank|Sunspear Promotion Points]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Kodonur Crossroads#Walkthrough|Kodonur Crossroads]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"So that the [[centaur]]s will ally with us, we need to earn their favor. We seek willing heroes who can infiltrate a prison and release the centaur prisoners. Contact Zhed Shadowhoof and surrender to the guards in Kodonur Crossroads.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Sunspear promotion points]]"
+}

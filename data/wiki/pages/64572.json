@@ -1,0 +1,11 @@
+{
+  "title": "Monk Norn armor",
+  "pageid": 64572,
+  "revid": 2380060,
+  "revisedAt": "2011-09-14T17:09:33Z",
+  "sha1": "aa7f96f060b081a75c33949f24d60b4fbd3070ac",
+  "url": "https://wiki.guildwars.com/wiki/Monk_Norn_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Monk%20Norn%20armor&oldid=2380060",
+  "retrievedAt": "2026-11-13T05:28:28.971Z",
+  "wikitext": "{{armor art infobox\n| profession = Monk\n| campaign = [[Eye of the North]]\n| pvp = Norn\n| pvpreward = Basic\n| femaleimage = [[Image:Monk Norn armor f.jpg|105px]]\n| maleimage = [[Image:Monk Norn armor m.jpg|137px]]\n| gallery = monk Norn\n}}\n'''Monk [[Norn armor]]''' is a [[prestige armor|prestige]] art type available in the Eye of the North expansion. You need to be at least rank 5 (Slayer of Wurms) in the [[Norn rank|Norn title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{mo-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{mo-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{mo-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Headpiece || Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|-\n! [[Gunnar's Hold]]\n! [[Radi]]\n! 60\n| 10 {{plat}}\n| 10 {{Parchment}}<br>5 {{Ink}}\n| 150 {{Hide}}<br>15 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 100 {{Hide}}<br>10 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 50 {{plat}}\n| 10 {{Parchment}}<br>5 {{Ink}}<br>350 {{Hide}} 35 {{Fur}} \n|}\n\n{{monk armor nav}}\n\n[[Category:Monk armor|Norn]]\n[[Category:Norn armor]]\n[[Category:Prestige armor]]"
+}

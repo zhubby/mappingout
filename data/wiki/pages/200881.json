@@ -1,0 +1,11 @@
+{
+  "title": "Dzagonur Bastion (Zaishen quest)",
+  "pageid": 200881,
+  "revid": 2619770,
+  "revisedAt": "2017-06-28T22:13:27Z",
+  "sha1": "550795754c219905708d6fce334a7d5f00507f78",
+  "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dzagonur%20Bastion%20(Zaishen%20quest)&oldid=2619770",
+  "retrievedAt": "2026-11-13T05:29:29.543Z",
+  "wikitext": "{{Quest infobox\n| id = 987\n| name = Dzagonur Bastion\n| section = Zaishen Mission\n| map = [[File:Dzagonur Bastion map.jpg|200px]]\n| required hero = Master of Whispers\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 5000\n}}__NOTOC__\nComplete [[Dzagonur Bastion]].\n\n==Quest information==\n===Objectives===\n*Defend [[Dzagonur Bastion (outpost)|Dzagonur Bastion]] against the invading generals.\n* *BONUS* Keep the defensive structures intact.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 500 [[Sunspear Promotion Point]]s\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Dzagonur Bastion]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"[[Prince Ahmtur the Mighty]] needs your help in resisting the invading forces at Dzagonur Bastion. Contact the [[Master of Whispers]] and join the forces at the citadel.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Trivia==\n*This quest was first offered on May 3, 2009.\n\n[[Category:Rewards Sunspear promotion points]]\n[[Category:Rewards Platinum]]"
+}

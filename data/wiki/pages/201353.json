@@ -1,0 +1,11 @@
+{
+  "title": "G.O.L.E.M. (Zaishen quest)",
+  "pageid": 201353,
+  "revid": 2484228,
+  "revisedAt": "2012-05-09T19:50:32Z",
+  "sha1": "437707507061d71de3557461a324505b317f2544",
+  "url": "https://wiki.guildwars.com/wiki/G.O.L.E.M._(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=G.O.L.E.M.%20(Zaishen%20quest)&oldid=2484228",
+  "retrievedAt": "2026-11-13T05:29:33.219Z",
+  "wikitext": "{{Quest infobox\n| id = 1002\n| name = G.O.L.E.M.\n| section = Zaishen Mission\n| map = [[File:G O L E M map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Genius Operated Living Enchanted Manifestation]].\n\n==Quest information==\n===Objectives===\n* Defend the G.O.L.E.M. kilns and destroy the [[Destroyer]] hive outside [[Rata Sum]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 2,500 [[Asura reputation point]]s\n* Complete the Base Objective for 40 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 100 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per [[G.O.L.E.M.#Walkthrough|G.O.L.E.M. walkthrough]].\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"The [[Asura]]n Council needs strong arms and swords to protect valuable Asuran technology. Destroyer hives have appeared near the irreplaceable G.O.L.E.M. kilns outside Rata Sum. Report to [[Mamp]] for precise instructions.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Asura reputation points]]\n[[Category:Rewards Platinum]]"
+}

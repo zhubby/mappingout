@@ -1,0 +1,11 @@
+{
+  "title": "Ranger Asuran armor",
+  "pageid": 67540,
+  "revid": 2406222,
+  "revisedAt": "2011-11-08T23:51:48Z",
+  "sha1": "8a993e1880be1058290f7184acd4960440e6e29e",
+  "url": "https://wiki.guildwars.com/wiki/Ranger_Asuran_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ranger%20Asuran%20armor&oldid=2406222",
+  "retrievedAt": "2026-11-13T05:28:20.397Z",
+  "wikitext": "{{armor art infobox\n| profession = Ranger\n| campaign = [[Eye of the North]]\n| pvp = Asuran\n| pvpreward = Basic\n| maleimage = [[Image:Ranger Asuran armor m.jpg|135px]]\n| gallery = ranger Asuran\n}}\n'''Ranger [[Asuran armor]]''' is a [[prestige armor|prestige]] art type available in the Eye of the North expansion. You need to be at least rank 5 (Not Too Annoying) in the [[Asura rank|Asura title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{R-color|border}}; border-collapse:collapse; font-size: 90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background: {{R-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background: {{R-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Rata Sum]]\n! align=\"center\"|[[Klub]]\n! align=\"center\"|70\n| 10 {{plat}}\n| 50 {{Hide}}<br>5 {{Leather}}\n| 150 {{Hide}}<br>15 {{Leather}}\n| 50 {{Hide}}<br>5 {{Leather}}\n| 100 {{Hide}}<br>10 {{Leather}}\n| 50 {{Hide}}<br>5 {{Leather}}\n| 50 {{plat}}\n| 400 {{Hide}}<br>40 {{Leather}}\n|}\n\n==Notes==\n* This armor set is a reskin of the [[Ranger Elite Drakescale armor|Elite Drakescale]] set.\n{{bug|There is a clipping error on the male model's left thigh. Especially when the character is running, you can notice the error and it will occur on both sides.  There is also an issue with the bone on the females shoulder; it will disappear if you use Splinter Shot.}} \n\n{{Ranger armor nav}}\n\n[[Category:Ranger armor|Asuran]]\n[[Category:Asuran armor]]\n[[Category:Prestige armor]]"
+}

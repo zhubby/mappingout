@@ -1,0 +1,11 @@
+{
+  "title": "Ritualist Norn armor",
+  "pageid": 64623,
+  "revid": 2380066,
+  "revisedAt": "2011-09-14T17:11:33Z",
+  "sha1": "71bcabc412a3907754bb4d211faa04b61b985014",
+  "url": "https://wiki.guildwars.com/wiki/Ritualist_Norn_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ritualist%20Norn%20armor&oldid=2380066",
+  "retrievedAt": "2026-11-13T05:28:47.930Z",
+  "wikitext": "{{Armor art infobox\n| profession = Ritualist\n| campaign = [[Eye of the North]]\n| pvp = Norn\n| pvpreward = Basic\n| gallery = ritualist Norn\n}}\n'''Ritualist [[Norn armor]]''' is a [[prestige armor|prestige]] art type available in the Eye of the North expansion. You need to be at least rank 5 (Slayer of Wurms) in the [[Norn rank|Norn title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{Rt-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Rt-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Rt-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Headwrap || Raiment || Bangles || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Gunnar's Hold]]\n! [[Radi]]\n! 60\n| 10 {{plat}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 150 {{Hide}}<br>15 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 100 {{Hide}}<br>10 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 50 {{plat}}\n| 400 {{Hide}}<br>40 {{Fur}}\n|}\n\n{{Bug|There may be some graphical errors when viewing Ritualist Norn armor as some polygons may render exposed in the character model. This seems to only occur from certain viewing angles.}}\n{{Ritualist armor nav}}\n\n[[Category:Ritualist armor|Norn]]\n[[Category:Norn armor]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Template:Cycle/ZCombat",
+  "pageid": 262478,
+  "revid": 2559669,
+  "revisedAt": "2013-12-02T21:38:47Z",
+  "sha1": "6b3e10b6f05aa0f18f0157a21fc46d498103ef8d",
+  "url": "https://wiki.guildwars.com/wiki/Template:Cycle/ZCombat",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3ACycle%2FZCombat&oldid=2559669",
+  "retrievedAt": "2026-11-13T05:29:20.334Z",
+  "wikitext": "<includeonly>{{ #switch: {{ #expr: ( {{{1|}}} - 1256227200 ) / 86400 mod 28 }}\n| 0 = Jade Quarry\n| 1 = Codex Arena\n| 2 = Heroes' Ascent\n| 3 = Guild Versus Guild\n| 4 = Alliance Battles\n| 5 = Heroes' Ascent\n| 6 = Guild Versus Guild\n| 7 = Codex Arena\n| 8 = Fort Aspenwood\n| 9 = Jade Quarry\n| 10 = Random Arena\n| 11 = Codex Arena\n| 12 = Guild Versus Guild\n| 13 = Jade Quarry\n| 14 = Alliance Battles\n| 15 = Heroes' Ascent\n| 16 = Random Arena\n| 17 = Fort Aspenwood\n| 18 = Jade Quarry\n| 19 = Random Arena\n| 20 = Fort Aspenwood\n| 21 = Heroes' Ascent\n| 22 = Alliance Battles\n| 23 = Guild Versus Guild\n| 24 = Codex Arena\n| 25 = Random Arena\n| 26 = Fort Aspenwood\n| 27 = Alliance Battles\n}}</includeonly><noinclude>\n== Description ==\nThis template resembles the [[Zaishen Combat/cycles|Zaishen Combat cycle]], which started 22 October 2009 16:00 (UTC).\n\nTo make use of this template, please use [[Template:Cycle]] instead.\n\n[[Category:Data templates|Cycle/ZCombat]]\n</noinclude>"
+}

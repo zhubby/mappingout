@@ -1,0 +1,11 @@
+{
+  "title": "Borlis Pass (Zaishen quest)",
+  "pageid": 203265,
+  "revid": 1943581,
+  "revisedAt": "2010-03-10T22:33:09Z",
+  "sha1": "c95bc86dd0076677efbf437d8707939a56ec566f",
+  "url": "https://wiki.guildwars.com/wiki/Borlis_Pass_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Borlis%20Pass%20(Zaishen%20quest)&oldid=1943581",
+  "retrievedAt": "2026-11-13T05:29:29.546Z",
+  "wikitext": "{{Quest infobox\n| id = 940\n| name = Borlis Pass\n| section = Zaishen Mission\n| map = [[File:Borlis Pass map.jpg|250px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]] \n| experience reward = 1000\n}}__NOTOC__\nComplete [[Borlis Pass]].\n\n== Quest information ==\n=== Objectives ===\n* Light the [[Storm Beacon|storm beacons]] along [[Borlis Pass (outpost)|Borlis Pass]].\n* *BONUS* Kill the [[Ice Drake]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Borlis Pass#Walkthrough|Borlis Pass]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission\n: ''\"Storms up in Borlis Pass have extinguished the beacons. A small band of hardy individuals would be enough to relight the way and assure safe passage for future travelers.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n{{anomaly|The 2 [[Frostfire Dryder]]s that accompany the Ice Drake also have to be killed to complete the first bonus objective.}}"
+}

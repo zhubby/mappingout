@@ -1,0 +1,11 @@
+{
+  "title": "Norrhart Domains (Zaishen vanquish)",
+  "pageid": 278583,
+  "revid": 2626870,
+  "revisedAt": "2018-05-05T01:57:45Z",
+  "sha1": "70d36ca6264b4b037514d66c79bab6ea909e9805",
+  "url": "https://wiki.guildwars.com/wiki/Norrhart_Domains_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Norrhart%20Domains%20(Zaishen%20vanquish)&oldid=2626870",
+  "retrievedAt": "2026-11-13T05:29:46.267Z",
+  "wikitext": "{{Quest infobox\n| id = 1282\n| name = Norrhart Domains\n| section = Zaishen Vanquish\n| image = [[File:Norrhart Domains.jpg|200px]]\n| map = [[File:Norrhart Domains map.jpg|200px|link=Norrhart Domains/Map]]\n| map1text = Vanquish [[Norrhart Domains]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Norrhart Domains]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Norrhart Domains in the [[Far Shiverpeaks]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 3,500 [[Norn rank|Norn reputation point]]s\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Norrhart Domains in the Far Shiverpeaks of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Norn reputation points]]"
+}

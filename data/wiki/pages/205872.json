@@ -1,0 +1,11 @@
+{
+  "title": "Gyala Hatchery (Zaishen quest)",
+  "pageid": 205872,
+  "revid": 2476546,
+  "revisedAt": "2012-04-17T19:36:55Z",
+  "sha1": "57d729c17a69d3c7276c0adf7dfa2664064f9170",
+  "url": "https://wiki.guildwars.com/wiki/Gyala_Hatchery_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gyala%20Hatchery%20(Zaishen%20quest)&oldid=2476546",
+  "retrievedAt": "2026-11-13T05:29:35.743Z",
+  "wikitext": "{{Quest infobox\n| id = 970\n| name = Gyala Hatchery\n| section = Zaishen Mission\n| map = [[File:Gyala Hatchery map.jpg|225px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = EP reward\n}}__NOTOC__\nComplete [[Gyala Hatchery]].\n\n== Quest information ==\n=== Objectives ===\n* Guard the [[turtle]] caravan from the [[Gyala Hatchery (outpost)|Gyala Hatchery]].\n* *BONUS* Keep all five [[Young Turtle|young turtles]] alive.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 2,500 [[Allegiance_rank|Luxon Faction]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Gyala Hatchery#Walkthrough|Gyala Hatchery]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n;[[Zaishen Mission]]\n: ''\"Gyala Hatchery officials are looking for extra guards to accompany young turtles on their first sojourn. Caravans are already gathering for departure.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n;Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Luxon faction]]\n[[Category:Rewards Platinum]]"
+}

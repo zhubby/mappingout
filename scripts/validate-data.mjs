@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { jpegSize } from './format.mjs';
+import { validateFeatureData } from './validate-features.mjs';
 
 const web = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const kinds = ['skill', 'boss', 'green', 'collector', 'pet', 'treasure', 'zone'];
@@ -91,7 +92,8 @@ export async function validateDeploymentData(publicDir = path.join(web, 'public'
     try { if (!(await fs.readFile(path.join(publicDir, 'licenses/gfdl-1.3.txt'), 'utf8')).includes('GNU Free Documentation License')) throw new Error(); }
     catch { fail('缺少 Wiki 原创文字的 GFDL 许可证'); }
   }
-  return { campaigns: catalog.campaigns.length, maps: regions.size, records: entries.size, images: images.size, sourceIssues: report.issues.length, counts };
+  const features=await validateFeatureData(publicDir,catalog);
+  return { campaigns: catalog.campaigns.length, maps: regions.size, records: entries.size, images: images.size, sourceIssues: report.issues.length, counts, ...features };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

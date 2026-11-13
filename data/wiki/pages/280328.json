@@ -1,0 +1,11 @@
+{
+  "title": "Panjiang Peninsula (Zaishen vanquish)",
+  "pageid": 280328,
+  "revid": 2626867,
+  "revisedAt": "2018-05-05T01:57:39Z",
+  "sha1": "9a9e0870dd61bd70db6404c6dc11231f65e13677",
+  "url": "https://wiki.guildwars.com/wiki/Panjiang_Peninsula_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Panjiang%20Peninsula%20(Zaishen%20vanquish)&oldid=2626867",
+  "retrievedAt": "2026-11-13T05:29:48.674Z",
+  "wikitext": "{{Quest infobox\n| id = 1310\n| name = Panjiang Peninsula\n| section = Zaishen Vanquish\n| image = [[File:Panjiang Peninsula.jpg|200px]]\n| map = [[File:Panjiang Peninsula map.jpg|200px|link=Panjiang Peninsula/Map]]\n| map1text = Vanquish [[Panjiang Peninsula]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Panjiang Peninsula]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Panjiang Peninsula on [[Shing Jea Island]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Panjiang Peninsula on Shing Jea Island of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

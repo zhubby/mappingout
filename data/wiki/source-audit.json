@@ -1,10 +1,11 @@
 {
   "format": 1,
   "source": "https://wiki.guildwars.com/api.php",
-  "checkedAt": "2026-11-13T04:07:32.943Z",
+  "checkedAt": "2026-11-13T05:50:35.305Z",
   "referenceVersion": "gww-2026-11-13-areas",
+  "featureVersions": ["gww-2026-11-13-crafting-calendar"],
   "records": 3022,
-  "revisions": 3027,
+  "revisions": 3706,
   "checks": [
     "local-wikitext-sha1",
     "live-revision-page-title-id-timestamp-sha1"
@@ -16,6 +17,76 @@
       "revid": 721339,
       "revisedAt": "2008-03-07T23:31:46Z",
       "sha1": "57e7d10d4fc45b3c60baf1c25589d52a0c2f804c"
+    },
+    {
+      "title": "Necromancer Ascalon armor",
+      "pageid": 17058,
+      "revid": 781552,
+      "revisedAt": "2008-04-03T16:13:25Z",
+      "sha1": "ce11976fefbec1b290037583c8e5146211f4d9ba"
+    },
+    {
+      "title": "Necromancer Tyrian armor",
+      "pageid": 17064,
+      "revid": 781575,
+      "revisedAt": "2008-04-03T16:20:06Z",
+      "sha1": "2592f0b77e394eb2657c8c716b163cfc12bdb659"
+    },
+    {
+      "title": "Elementalist Flameforged armor",
+      "pageid": 11147,
+      "revid": 783395,
+      "revisedAt": "2008-04-04T11:57:56Z",
+      "sha1": "f438d8d634eb07bb083951e9d5229addd25e906f"
+    },
+    {
+      "title": "Elementalist Iceforged armor",
+      "pageid": 11808,
+      "revid": 783396,
+      "revisedAt": "2008-04-04T11:58:19Z",
+      "sha1": "8770026e8710352671424e14cf2111fe02175262"
+    },
+    {
+      "title": "Elementalist Stormforged armor",
+      "pageid": 11812,
+      "revid": 783398,
+      "revisedAt": "2008-04-04T11:59:01Z",
+      "sha1": "3b5c8927a94c39a97fe3954b725d53105f2b14bc"
+    },
+    {
+      "title": "Assassin Canthan armor",
+      "pageid": 15823,
+      "revid": 799774,
+      "revisedAt": "2008-04-10T19:29:19Z",
+      "sha1": "b13155713d584b7619069e83a46ee7fd7c4d808d"
+    },
+    {
+      "title": "Assassin Imperial armor",
+      "pageid": 15826,
+      "revid": 799778,
+      "revisedAt": "2008-04-10T19:31:21Z",
+      "sha1": "111876c909a21a36e6e2c28617f0cfbbe6269661"
+    },
+    {
+      "title": "Ritualist Shing Jea armor",
+      "pageid": 16506,
+      "revid": 800040,
+      "revisedAt": "2008-04-10T21:01:26Z",
+      "sha1": "3e6e530fd2897386bb36803f1715964d736ab24d"
+    },
+    {
+      "title": "Ritualist Canthan armor",
+      "pageid": 16511,
+      "revid": 800051,
+      "revisedAt": "2008-04-10T21:04:16Z",
+      "sha1": "a90332b1a2565578526b73be8dae75a9544b8e1e"
+    },
+    {
+      "title": "Dervish Istani armor",
+      "pageid": 13057,
+      "revid": 802044,
+      "revisedAt": "2008-04-11T19:20:18Z",
+      "sha1": "017a8e6c0136d925c174c67e1bbd5cab11aeee61"
     },
     {
       "title": "Goran Grimyak",
@@ -158,6 +229,13 @@
       "sha1": "39642e1d70be0ce3b86199790c4099cef3048560"
     },
     {
+      "title": "Assassin Seitung armor",
+      "pageid": 15821,
+      "revid": 1287465,
+      "revisedAt": "2009-01-05T02:13:51Z",
+      "sha1": "6f987d94287397a8e16370327fd9f425450662bb"
+    },
+    {
       "title": "Alem the Unclean",
       "pageid": 10071,
       "revid": 1454211,
@@ -172,11 +250,116 @@
       "sha1": "c3c1e851ca2092d395ff1a630974917b8ad50527"
     },
     {
+      "title": "Necromancer Scar Pattern armor",
+      "pageid": 18183,
+      "revid": 1584763,
+      "revisedAt": "2009-07-15T19:55:15Z",
+      "sha1": "c20c2a9a20c7afd9ba783ab9306b7c24809cc3f1"
+    },
+    {
+      "title": "Elementalist Tyrian armor",
+      "pageid": 10588,
+      "revid": 1601010,
+      "revisedAt": "2009-07-25T08:19:05Z",
+      "sha1": "c8e6687ca38579ec10c40b0f7a7ff7ceea5a25bc"
+    },
+    {
       "title": "Prenuptial Disagreement",
       "pageid": 64018,
       "revid": 1639727,
       "revisedAt": "2009-08-18T20:07:34Z",
       "sha1": "2e8c23062400d88063ee16862ca4632b74ba5029"
+    },
+    {
+      "title": "Necromancer Demonhorn Boots",
+      "pageid": 71360,
+      "revid": 1732376,
+      "revisedAt": "2009-10-16T13:03:05Z",
+      "sha1": "93c489e6076b2a709dbd9f586762ef9e9ec4e58d"
+    },
+    {
+      "title": "Necromancer Deathlace Leggings",
+      "pageid": 71358,
+      "revid": 1732377,
+      "revisedAt": "2009-10-16T13:03:36Z",
+      "sha1": "32ca0c2c01bf54ab4b6a1d5cea71227805f65dfd"
+    },
+    {
+      "title": "Necromancer Grim Gloves",
+      "pageid": 71357,
+      "revid": 1732378,
+      "revisedAt": "2009-10-16T13:04:06Z",
+      "sha1": "e4aa18d2f8f34d51956c5698ed6863ed585b2e12"
+    },
+    {
+      "title": "Necromancer Gloomcrest Tunic",
+      "pageid": 71353,
+      "revid": 1732379,
+      "revisedAt": "2009-10-16T13:04:35Z",
+      "sha1": "7f313ef2ae10d32db74798a4d6892c2989542efa"
+    },
+    {
+      "title": "Elementalist Canthan armor",
+      "pageid": 11864,
+      "revid": 1732460,
+      "revisedAt": "2009-10-16T14:08:37Z",
+      "sha1": "5babfd5f0ef06a45f03d2a7eb8ce3b26a3891de2"
+    },
+    {
+      "title": "Paragon Sunspear armor",
+      "pageid": 8642,
+      "revid": 1732545,
+      "revisedAt": "2009-10-16T14:49:15Z",
+      "sha1": "82998f788ac58ad32205c4d303aa45497c49bf97"
+    },
+    {
+      "title": "Paragon Istani armor",
+      "pageid": 8641,
+      "revid": 1732547,
+      "revisedAt": "2009-10-16T14:49:46Z",
+      "sha1": "190014191af580d6871606d4ff4d2ee2d2005261"
+    },
+    {
+      "title": "Elementalist Ascalon armor",
+      "pageid": 10346,
+      "revid": 1735801,
+      "revisedAt": "2009-10-19T01:27:45Z",
+      "sha1": "debfa6d8a9b08db763affa443c7efa1d3624d555"
+    },
+    {
+      "title": "Elementalist Shing Jea armor",
+      "pageid": 11852,
+      "revid": 1735802,
+      "revisedAt": "2009-10-19T01:28:10Z",
+      "sha1": "cda3a76c3fc5f8e12e47b11c717a60491b2381d9"
+    },
+    {
+      "title": "Elementalist Stone Eye",
+      "pageid": 34922,
+      "revid": 1746579,
+      "revisedAt": "2009-10-25T07:59:08Z",
+      "sha1": "1aaae95532f77d989f66e9aa476c9e3b01910784"
+    },
+    {
+      "title": "Necromancer Elite Sunspear armor",
+      "pageid": 18206,
+      "revid": 1781121,
+      "revisedAt": "2009-11-12T15:56:35Z",
+      "sha1": "de699f7b073481d8673e8aeb63bbe589c1176685"
+    },
+    {
+      "title": "Necromancer Canthan armor",
+      "pageid": 18195,
+      "revid": 1781128,
+      "revisedAt": "2009-11-12T15:56:50Z",
+      "sha1": "c49b940b813c162115a2d95dc8b54b2534239539"
+    },
+    {
+      "title": "Necromancer Shing Jea armor",
+      "pageid": 18193,
+      "revid": 1781296,
+      "revisedAt": "2009-11-12T18:15:53Z",
+      "sha1": "dd3ba29a1abdce8581adc4bbfda81ef95f06bced"
     },
     {
       "title": "Leon",
@@ -396,6 +579,13 @@
       "sha1": "5c64dffdab6ad4a22d85b4c1b76c8cb8b0fa5adf"
     },
     {
+      "title": "Ritualist Exotic armor",
+      "pageid": 16513,
+      "revid": 1882667,
+      "revisedAt": "2010-01-23T18:13:33Z",
+      "sha1": "5ff973313a066b0c9e236c804ba0cf66409836a5"
+    },
+    {
       "title": "Facet of Darkness",
       "pageid": 21774,
       "revid": 1882828,
@@ -408,6 +598,13 @@
       "revid": 1882830,
       "revisedAt": "2010-01-23T20:51:19Z",
       "sha1": "cc4ed82d5e313bf296b47d4ad686e494603d072f"
+    },
+    {
+      "title": "Elementalist All-Seeing Eye",
+      "pageid": 34906,
+      "revid": 1887473,
+      "revisedAt": "2010-01-27T14:46:59Z",
+      "sha1": "68efee48cc9f305bf1d36cb06dd7ae01b9638e23"
     },
     {
       "title": "Facet of Chaos",
@@ -431,11 +628,116 @@
       "sha1": "38490f3d7a827f09b8a1912d09c650be65a09cf1"
     },
     {
+      "title": "Ranger Drakescale armor",
+      "pageid": 6626,
+      "revid": 1940553,
+      "revisedAt": "2010-03-08T07:01:47Z",
+      "sha1": "19375d60ec1cae4522b3a1a80e360299709666a8"
+    },
+    {
+      "title": "Ranger Simple Mask",
+      "pageid": 17972,
+      "revid": 1940565,
+      "revisedAt": "2010-03-08T07:15:01Z",
+      "sha1": "b2da22be4de47cf5c2e13524b4a497557355c3c2"
+    },
+    {
+      "title": "Ranger Shing Jea armor",
+      "pageid": 6865,
+      "revid": 1940615,
+      "revisedAt": "2010-03-08T08:01:15Z",
+      "sha1": "2ff8a0beb7b1bdf8e0039f300cc46b240a75c5c1"
+    },
+    {
+      "title": "Ranger Canthan armor",
+      "pageid": 7377,
+      "revid": 1940624,
+      "revisedAt": "2010-03-08T08:03:01Z",
+      "sha1": "09ddd0997b9631ac83959598d5f2bd4dc4fd3302"
+    },
+    {
+      "title": "Monk Ascalon armor",
+      "pageid": 5318,
+      "revid": 1941090,
+      "revisedAt": "2010-03-08T21:01:34Z",
+      "sha1": "0e993039493e09eaea1f191404499f5924de935b"
+    },
+    {
+      "title": "Monk Tyrian armor",
+      "pageid": 5330,
+      "revid": 1941304,
+      "revisedAt": "2010-03-09T00:13:50Z",
+      "sha1": "1c0ef6cb425fe53c13602619f4d5bc603c668ac3"
+    },
+    {
+      "title": "Monk Woven armor",
+      "pageid": 5757,
+      "revid": 1941306,
+      "revisedAt": "2010-03-09T00:15:54Z",
+      "sha1": "15d3722ae9d90404b95ce3e3ff5873d4debbc96d"
+    },
+    {
+      "title": "Monk Sacred armor",
+      "pageid": 5456,
+      "revid": 1941901,
+      "revisedAt": "2010-03-09T07:05:19Z",
+      "sha1": "78006e4f3c4eab35f31423a99517547adbd8b3ae"
+    },
+    {
+      "title": "Monk Shing Jea armor",
+      "pageid": 5314,
+      "revid": 1941906,
+      "revisedAt": "2010-03-09T07:10:12Z",
+      "sha1": "5820f772f6c0dbedf7c35d775d6838ba74f56e24"
+    },
+    {
+      "title": "Monk Canthan armor",
+      "pageid": 5371,
+      "revid": 1941918,
+      "revisedAt": "2010-03-09T07:18:23Z",
+      "sha1": "90151b802cb4267fb64027c9c7dbc5c4a2e497b5"
+    },
+    {
       "title": "Flower Spiritgarden",
       "pageid": 34196,
       "revid": 1943465,
       "revisedAt": "2010-03-10T20:19:30Z",
       "sha1": "26cb98a7c1888b0880a9c8adb6a5b4e9c07de4ab"
+    },
+    {
+      "title": "Thirsty River (Zaishen quest)",
+      "pageid": 202974,
+      "revid": 1943578,
+      "revisedAt": "2010-03-10T22:31:38Z",
+      "sha1": "bd4d2306178cda476778ce4696d9a34a905bc804"
+    },
+    {
+      "title": "Borlis Pass (Zaishen quest)",
+      "pageid": 203265,
+      "revid": 1943581,
+      "revisedAt": "2010-03-10T22:33:09Z",
+      "sha1": "c95bc86dd0076677efbf437d8707939a56ec566f"
+    },
+    {
+      "title": "The Wilds (Zaishen quest)",
+      "pageid": 206079,
+      "revid": 1943605,
+      "revisedAt": "2010-03-10T22:44:02Z",
+      "sha1": "12cc298a1f0d828a848f7639cc2fdde8dff2bbe3"
+    },
+    {
+      "title": "Nolani Academy (Zaishen quest)",
+      "pageid": 206409,
+      "revid": 1943608,
+      "revisedAt": "2010-03-10T22:45:28Z",
+      "sha1": "be05344be0dbe6d008c17ce71d3d712c5dab4222"
+    },
+    {
+      "title": "Ruins of Surmia (Zaishen quest)",
+      "pageid": 209385,
+      "revid": 1943726,
+      "revisedAt": "2010-03-11T00:17:32Z",
+      "sha1": "03570281b4b2665874843d717485060e9f211fd9"
     },
     {
       "title": "Bizzr Ironshell",
@@ -466,6 +768,13 @@
       "sha1": "00a8022471c39c60894014e9be9d4384d07cf144"
     },
     {
+      "title": "Ranger Leather Long Coat",
+      "pageid": 70138,
+      "revid": 1953719,
+      "revisedAt": "2010-03-20T00:36:57Z",
+      "sha1": "8bcaa40c1a30ce8d8f6b2d90e2dc061f8985e89d"
+    },
+    {
       "title": "Casses Flameweb",
       "pageid": 29903,
       "revid": 1956871,
@@ -492,6 +801,13 @@
       "revid": 1975504,
       "revisedAt": "2010-04-08T18:10:57Z",
       "sha1": "fa2d04079d5d2da4bbb0676fb9465ac82611d964"
+    },
+    {
+      "title": "Divinity Coast (Zaishen quest)",
+      "pageid": 200425,
+      "revid": 1993655,
+      "revisedAt": "2010-04-22T08:34:09Z",
+      "sha1": "c805a43ed666cfe6f93d9b573f88d57999202c8c"
     },
     {
       "title": "Joknang Earthturner",
@@ -543,6 +859,20 @@
       "sha1": "c50d85ce7c981293204cc9187dc446560770cd29"
     },
     {
+      "title": "D'Alessio Seaboard (Zaishen quest)",
+      "pageid": 215377,
+      "revid": 2012001,
+      "revisedAt": "2010-05-07T00:52:38Z",
+      "sha1": "67d5dad4a0de09e1eb4023eb55c3e0a83435f608"
+    },
+    {
+      "title": "Elementalist Third Eye",
+      "pageid": 34904,
+      "revid": 2026080,
+      "revisedAt": "2010-05-20T15:21:13Z",
+      "sha1": "5be62a1fb1d6f3789f4f5096796ff0c3c88952e5"
+    },
+    {
       "title": "Neoli the Contagious",
       "pageid": 23906,
       "revid": 2029129,
@@ -564,11 +894,25 @@
       "sha1": "5fdef029cfa68764a9af750cdca2beb62313c0cd"
     },
     {
+      "title": "Elona Reach (Zaishen quest)",
+      "pageid": 204060,
+      "revid": 2055060,
+      "revisedAt": "2010-06-11T21:57:23Z",
+      "sha1": "fccc719a26c03e9fe4d49f55cc013b29edeb63bc"
+    },
+    {
       "title": "Dervish's Chest",
       "pageid": 67796,
       "revid": 2058300,
       "revisedAt": "2010-06-14T22:46:06Z",
       "sha1": "efc8ef857c97a6b3d0931554a8c68a03c0958983"
+    },
+    {
+      "title": "Assassin Shing Jea armor",
+      "pageid": 5307,
+      "revid": 2061546,
+      "revisedAt": "2010-06-17T05:24:55Z",
+      "sha1": "693aecb16602eefc3825731996b2ba154f5e351e"
     },
     {
       "title": "Drikard the Foggy",
@@ -592,6 +936,34 @@
       "sha1": "f65cde1a5d4ac418ad31a1c1b7ad86822fcde466"
     },
     {
+      "title": "Dervish Elonian armor",
+      "pageid": 13061,
+      "revid": 2072070,
+      "revisedAt": "2010-06-27T23:35:02Z",
+      "sha1": "3f3c2833b13e7e86075be670b860642d76f1c001"
+    },
+    {
+      "title": "Dragon Lich (Zaishen quest)",
+      "pageid": 215682,
+      "revid": 2072742,
+      "revisedAt": "2010-06-28T17:03:11Z",
+      "sha1": "9740315657a71530e42b618848e4bd6d1ea87d00"
+    },
+    {
+      "title": "Monk Gilded Vestments",
+      "pageid": 70142,
+      "revid": 2074333,
+      "revisedAt": "2010-06-30T20:38:21Z",
+      "sha1": "a232f8c01053b5f67143b0424c16775c9e504da5"
+    },
+    {
+      "title": "Ranger Sterling Leggings",
+      "pageid": 70139,
+      "revid": 2088227,
+      "revisedAt": "2010-07-15T12:29:22Z",
+      "sha1": "5202bccfbf0209b5d0095329532fa80d79185a3e"
+    },
+    {
       "title": "Ziinfaun Lifeforce",
       "pageid": 39700,
       "revid": 2089806,
@@ -604,6 +976,48 @@
       "revid": 2098335,
       "revisedAt": "2010-07-26T23:10:39Z",
       "sha1": "0907d4c80c9a5cfc5181492165c855e6d1311c00"
+    },
+    {
+      "title": "Warband of Brothers (Zaishen quest)",
+      "pageid": 216219,
+      "revid": 2100370,
+      "revisedAt": "2010-07-29T06:32:03Z",
+      "sha1": "e53c13b001ea664d1dc639256b42d178afe218aa"
+    },
+    {
+      "title": "Assault on the Stronghold (Zaishen quest)",
+      "pageid": 202174,
+      "revid": 2100371,
+      "revisedAt": "2010-07-29T06:32:31Z",
+      "sha1": "d223970d8a43a46616ebd61c6c2634d614189fa1"
+    },
+    {
+      "title": "Against the Charr (Zaishen quest)",
+      "pageid": 203388,
+      "revid": 2100372,
+      "revisedAt": "2010-07-29T06:33:13Z",
+      "sha1": "e6001fbee1b880f28349f09d0c2cde6a66588512"
+    },
+    {
+      "title": "Finding the Bloodstone (Zaishen quest)",
+      "pageid": 205449,
+      "revid": 2100377,
+      "revisedAt": "2010-07-29T06:36:18Z",
+      "sha1": "09282f973c0b81593ff94442e04149ade4894a6c"
+    },
+    {
+      "title": "Forgewight (Zaishen quest)",
+      "pageid": 209521,
+      "revid": 2100385,
+      "revisedAt": "2010-07-29T06:46:14Z",
+      "sha1": "e0d3eba837c755f14d4fb5004d1f77aeeeb1fc77"
+    },
+    {
+      "title": "Murakai, Lady of the Night (Zaishen quest)",
+      "pageid": 204868,
+      "revid": 2100451,
+      "revisedAt": "2010-07-29T07:33:57Z",
+      "sha1": "4089745bfc8258b2fbcef6d77a4a100bc0dd9612"
     },
     {
       "title": "Adept Bishu",
@@ -788,6 +1202,13 @@
       "sha1": "2e22cafb2bf847486a6b675b18e6035465bff9dc"
     },
     {
+      "title": "Monk Censor armor",
+      "pageid": 5397,
+      "revid": 2116086,
+      "revisedAt": "2010-08-19T22:28:15Z",
+      "sha1": "cf9bcef299221f8df4f1fab2713efcadba7c3c21"
+    },
+    {
       "title": "Imperial Quartermaster",
       "pageid": 26578,
       "revid": 2117369,
@@ -963,11 +1384,25 @@
       "sha1": "9c6f308f72c0b94d937dc5047b3b5bd5cfb61b16"
     },
     {
+      "title": "Ice Caves of Sorrow (Zaishen quest)",
+      "pageid": 212398,
+      "revid": 2132173,
+      "revisedAt": "2010-09-14T15:18:18Z",
+      "sha1": "7d7ba3bf9178df96b84dffc244f5817394a1111c"
+    },
+    {
       "title": "Varis",
       "pageid": 36148,
       "revid": 2132264,
       "revisedAt": "2010-09-14T18:57:04Z",
       "sha1": "0f063489a15ab2c2c0c2ca2b3ddc6cc8b1113b41"
+    },
+    {
+      "title": "A Gate Too Far (Zaishen quest)",
+      "pageid": 207015,
+      "revid": 2132370,
+      "revisedAt": "2010-09-14T23:35:17Z",
+      "sha1": "bb4fff3a8868d5595e126a316f6a4c83b55edefb"
     },
     {
       "title": "Guard Captain Mirkoz",
@@ -1082,6 +1517,13 @@
       "sha1": "665ce0bcd06740e962bf023f0d242fb9b5f71109"
     },
     {
+      "title": "Zoldark the Unholy (Zaishen quest)",
+      "pageid": 202818,
+      "revid": 2140518,
+      "revisedAt": "2010-09-27T23:33:45Z",
+      "sha1": "716f1fce6a2f2281c1a2ead5cd3ebf4f025f0e29"
+    },
+    {
       "title": "Hatcher",
       "pageid": 36162,
       "revid": 2140715,
@@ -1131,11 +1573,25 @@
       "sha1": "964a8291fdb959f58403e3e2059fe2b1df9a6694"
     },
     {
+      "title": "Elementalist Elite Sunspear armor",
+      "pageid": 11936,
+      "revid": 2154399,
+      "revisedAt": "2010-10-21T01:20:24Z",
+      "sha1": "7830d2f1d141422f41b6b323c50fab5bb76ff271"
+    },
+    {
       "title": "Major Jeahr",
       "pageid": 18464,
       "revid": 2154427,
       "revisedAt": "2010-10-21T01:55:36Z",
       "sha1": "2dd13a8f6b0b0812b510d5677346d0ddd27d5bed"
+    },
+    {
+      "title": "Monk Adorned Handwraps",
+      "pageid": 70143,
+      "revid": 2154484,
+      "revisedAt": "2010-10-21T04:31:45Z",
+      "sha1": "66cc8e63cc62a0dbd2bb9211ff9e7bc56b59fa3b"
     },
     {
       "title": "Stone Rain Polymock Piece",
@@ -1150,6 +1606,13 @@
       "revid": 2155564,
       "revisedAt": "2010-10-22T13:30:58Z",
       "sha1": "073c97d99044104773130dbe28a6c8e78b1321b8"
+    },
+    {
+      "title": "Fozzy Yeoryios (Zaishen quest)",
+      "pageid": 212709,
+      "revid": 2157665,
+      "revisedAt": "2010-10-24T16:13:03Z",
+      "sha1": "70fe1bd5e2fbc04c25c8c3368739bffcf30df7c8"
     },
     {
       "title": "Skomay Bonehewer",
@@ -1327,6 +1790,13 @@
       "sha1": "f803a82e02dfee212a6782869a5e9f40fc1bea87"
     },
     {
+      "title": "Selvetarm (Zaishen quest)",
+      "pageid": 205732,
+      "revid": 2195766,
+      "revisedAt": "2010-12-09T17:20:15Z",
+      "sha1": "c88f64e4cac8bef0a306f04622c48ceb6f227c27"
+    },
+    {
       "title": "Ran Musu Gardens",
       "pageid": 6756,
       "revid": 2195845,
@@ -1493,6 +1963,13 @@
       "revid": 2214393,
       "revisedAt": "2011-01-05T06:53:40Z",
       "sha1": "95220a6ab933bd26fefe06163ff94341c0eb2bfc"
+    },
+    {
+      "title": "Lord Khobay (Zaishen quest)",
+      "pageid": 206080,
+      "revid": 2214486,
+      "revisedAt": "2011-01-05T13:34:31Z",
+      "sha1": "82389c808d0130d24cabc7c9f05b813b0445defa"
     },
     {
       "title": "Rien, the Martyr",
@@ -1740,6 +2217,13 @@
       "sha1": "6e577906f9323d12a145c5223ad1fa262118e9ae"
     },
     {
+      "title": "Sanctum Cay (Zaishen quest)",
+      "pageid": 204382,
+      "revid": 2234995,
+      "revisedAt": "2011-02-06T21:49:33Z",
+      "sha1": "34fb43f79d3eb5b5e0522d49de7f67a28a009889"
+    },
+    {
       "title": "Sunreach Warmaker",
       "pageid": 41045,
       "revid": 2240983,
@@ -1766,6 +2250,13 @@
       "revid": 2249831,
       "revisedAt": "2011-02-27T01:41:32Z",
       "sha1": "7c2228bdb7d8090a74ee9a451fdf9cff22b40241"
+    },
+    {
+      "title": "Gates of Kryta (Zaishen quest)",
+      "pageid": 202358,
+      "revid": 2250658,
+      "revisedAt": "2011-02-28T17:43:48Z",
+      "sha1": "6f97d369598f5ad3976900b10cf01d6d339922a9"
     },
     {
       "title": "Barbed Grawl",
@@ -1824,6 +2315,125 @@
       "sha1": "bb5e01b7aa4b2aeaa4f05dc623c3e54a6c3576db"
     },
     {
+      "title": "Mesmer Elite Enchanter armor",
+      "pageid": 5719,
+      "revid": 2263147,
+      "revisedAt": "2011-03-14T15:40:30Z",
+      "sha1": "a8c91fe81f8eab36040f895f60120264117930aa"
+    },
+    {
+      "title": "Mesmer Elite Noble armor",
+      "pageid": 5717,
+      "revid": 2263149,
+      "revisedAt": "2011-03-14T15:41:19Z",
+      "sha1": "4895f95cf28b45366e16ca7b90ddb0e552824afe"
+    },
+    {
+      "title": "Mesmer Elite Rogue armor",
+      "pageid": 5715,
+      "revid": 2263150,
+      "revisedAt": "2011-03-14T15:41:32Z",
+      "sha1": "e12d293bad3008485ed011fe943863919737e1b5"
+    },
+    {
+      "title": "Mesmer Canthan armor",
+      "pageid": 5735,
+      "revid": 2263156,
+      "revisedAt": "2011-03-14T15:43:12Z",
+      "sha1": "a0414eb560a89ddb9012aadb1dae1b48c2585f2a"
+    },
+    {
+      "title": "Mesmer Sleek Mask",
+      "pageid": 5801,
+      "revid": 2263159,
+      "revisedAt": "2011-03-14T15:43:56Z",
+      "sha1": "f94409701e9a350e4b3ba1f5df8477a35b395ee8"
+    },
+    {
+      "title": "Mesmer Imposing Mask",
+      "pageid": 5800,
+      "revid": 2263160,
+      "revisedAt": "2011-03-14T15:44:39Z",
+      "sha1": "c389650c7d8d1b13d1ba4011db7741ed9c3d936d"
+    },
+    {
+      "title": "Mesmer Costume Mask",
+      "pageid": 5799,
+      "revid": 2263161,
+      "revisedAt": "2011-03-14T15:44:58Z",
+      "sha1": "967d8065a46811ae86b66a27bfc557be5e92c34a"
+    },
+    {
+      "title": "Mesmer Animal Mask",
+      "pageid": 5794,
+      "revid": 2263162,
+      "revisedAt": "2011-03-14T15:45:21Z",
+      "sha1": "ce9de699a076e6648191a9016ff62c1f613382c8"
+    },
+    {
+      "title": "Mesmer Enchanter armor",
+      "pageid": 5713,
+      "revid": 2263164,
+      "revisedAt": "2011-03-14T15:45:56Z",
+      "sha1": "2ca4e09927a6adcef2d5684e493c3e58a448d81e"
+    },
+    {
+      "title": "Mesmer Performer armor",
+      "pageid": 5712,
+      "revid": 2263165,
+      "revisedAt": "2011-03-14T15:47:12Z",
+      "sha1": "d8a05bba1e271326c45f90fa22d80ee3f446cc44"
+    },
+    {
+      "title": "Mesmer Courtly armor",
+      "pageid": 5659,
+      "revid": 2263167,
+      "revisedAt": "2011-03-14T15:47:35Z",
+      "sha1": "7071062710e8b75a12bff0f412ca072ba6220cbe"
+    },
+    {
+      "title": "Mesmer Tyrian armor",
+      "pageid": 5599,
+      "revid": 2263168,
+      "revisedAt": "2011-03-14T15:48:10Z",
+      "sha1": "7db039e557eae2491777528c12e9c58e3d2b139a"
+    },
+    {
+      "title": "Mesmer Rogue armor",
+      "pageid": 5658,
+      "revid": 2263169,
+      "revisedAt": "2011-03-14T15:49:05Z",
+      "sha1": "626b101333b3f9163b3f3a696847c0431211f374"
+    },
+    {
+      "title": "Necromancer Necrotic armor",
+      "pageid": 18179,
+      "revid": 2263286,
+      "revisedAt": "2011-03-14T16:38:43Z",
+      "sha1": "890f32a4e68e337fe1801b95157bd31ea37e7c33"
+    },
+    {
+      "title": "Necromancer Fanatic armor",
+      "pageid": 18178,
+      "revid": 2263287,
+      "revisedAt": "2011-03-14T16:39:10Z",
+      "sha1": "72a70fe72a5a44e464f6aad53a8b736abf51fb85"
+    },
+    {
+      "title": "Necromancer Cabal armor",
+      "pageid": 18177,
+      "revid": 2263288,
+      "revisedAt": "2011-03-14T16:39:27Z",
+      "sha1": "db6003949bd746e557aa025456c73a5145f90cfe"
+    },
+    {
+      "title": "Mesmer Krytan armor",
+      "pageid": 5338,
+      "revid": 2266532,
+      "revisedAt": "2011-03-19T13:45:29Z",
+      "sha1": "0fc29a7df3f867a060c2c1afeaaa7752e171e53f"
+    },
+    {
       "title": "Anmat the Trickster",
       "pageid": 75772,
       "revid": 2267438,
@@ -1866,11 +2476,39 @@
       "sha1": "484527dcfb1fbca1eb6ac541db014ea0b70f2043"
     },
     {
+      "title": "A Time for Heroes (Zaishen quest)",
+      "pageid": 214511,
+      "revid": 2269303,
+      "revisedAt": "2011-03-23T18:45:32Z",
+      "sha1": "95093896e1ad4f1d2e6da9be45db8b8ca28bef39"
+    },
+    {
       "title": "Facet of Existence",
       "pageid": 76078,
       "revid": 2272566,
       "revisedAt": "2011-03-29T06:29:28Z",
       "sha1": "c7eebdba7dfe0cb41681128945b1e9ea59aaafa1"
+    },
+    {
+      "title": "Warrior Ironfist Gauntlets",
+      "pageid": 70134,
+      "revid": 2273646,
+      "revisedAt": "2011-03-31T07:45:35Z",
+      "sha1": "c2a0b74dba3450589043a7890e2f80558f980a79"
+    },
+    {
+      "title": "Warrior Stalwart Leggings",
+      "pageid": 70136,
+      "revid": 2273647,
+      "revisedAt": "2011-03-31T07:46:00Z",
+      "sha1": "bdaa20c94e8c2689ced670fc3dc550fe8c9f97a1"
+    },
+    {
+      "title": "Warrior Sturdy Boots",
+      "pageid": 70137,
+      "revid": 2273648,
+      "revisedAt": "2011-03-31T07:46:22Z",
+      "sha1": "752488356603a7a7bf1526dda0a2e788a1aea910"
     },
     {
       "title": "Attendant Nashu",
@@ -1892,6 +2530,13 @@
       "revid": 2279813,
       "revisedAt": "2011-04-11T10:38:00Z",
       "sha1": "daaff31e1e80915a50fbfc1403b4ccba64536dca"
+    },
+    {
+      "title": "Thunderhead Keep (Zaishen quest)",
+      "pageid": 199594,
+      "revid": 2280333,
+      "revisedAt": "2011-04-12T19:50:24Z",
+      "sha1": "33373b868bc77e811f842d287646e52db3dc7fed"
     },
     {
       "title": "Linka Goldensteel",
@@ -1936,6 +2581,13 @@
       "sha1": "99d0df602f2a947ffaf061baa1e154c1f0e6f107"
     },
     {
+      "title": "Riverside Province (Zaishen quest)",
+      "pageid": 201251,
+      "revid": 2287292,
+      "revisedAt": "2011-04-26T16:55:23Z",
+      "sha1": "1e7057e1195728b9d0767544866357529f8f3fe0"
+    },
+    {
       "title": "Captain Mwende",
       "pageid": 38653,
       "revid": 2291750,
@@ -1948,6 +2600,20 @@
       "revid": 2291773,
       "revisedAt": "2011-05-02T03:55:57Z",
       "sha1": "7f668c7f60c6803bfb930fbbdda2b7272877283d"
+    },
+    {
+      "title": "The Frost Gate (Zaishen quest)",
+      "pageid": 205613,
+      "revid": 2295012,
+      "revisedAt": "2011-05-07T04:44:09Z",
+      "sha1": "98c6034e5a0efe81e89a20b063fa55708957192b"
+    },
+    {
+      "title": "Augury Rock (Zaishen quest)",
+      "pageid": 211893,
+      "revid": 2298147,
+      "revisedAt": "2011-05-13T04:56:07Z",
+      "sha1": "6133213be2cea49660afbd5fdf4dae319ad1b098"
     },
     {
       "title": "Thraexis Thundermaw",
@@ -2034,6 +2700,13 @@
       "sha1": "c928143df96745a0e2299103de992a52cd2fcf3f"
     },
     {
+      "title": "Fronis Irontoe (Zaishen quest)",
+      "pageid": 207139,
+      "revid": 2316001,
+      "revisedAt": "2011-06-11T18:58:34Z",
+      "sha1": "b4f0e0348c64b2988434bf5b8a39bd913bb71c5d"
+    },
+    {
       "title": "Yu Lae",
       "pageid": 52325,
       "revid": 2317394,
@@ -2062,6 +2735,13 @@
       "sha1": "4c12affdc907bfa7ab66b70e45319f22dcd98fca"
     },
     {
+      "title": "Plague of Destruction (Zaishen quest)",
+      "pageid": 206188,
+      "revid": 2324321,
+      "revisedAt": "2011-06-24T02:53:54Z",
+      "sha1": "175e86fc8c728d0dc1ff21558ce65dac4676873d"
+    },
+    {
       "title": "Valetudo Rubor",
       "pageid": 44246,
       "revid": 2325014,
@@ -2074,6 +2754,13 @@
       "revid": 2325171,
       "revisedAt": "2011-06-25T23:52:41Z",
       "sha1": "1dee92a96c419f9b7421d0a22939e44a19b0861d"
+    },
+    {
+      "title": "Hell's Precipice (Zaishen quest)",
+      "pageid": 209241,
+      "revid": 2327312,
+      "revisedAt": "2011-06-30T07:52:27Z",
+      "sha1": "de5452aa2ed6d9e3129cec4379e683a1107b06ff"
     },
     {
       "title": "Kodlonu Hamlet",
@@ -2095,6 +2782,13 @@
       "revid": 2336990,
       "revisedAt": "2011-07-11T13:16:25Z",
       "sha1": "b58665776a473ea498cd4494c138f431480cf145"
+    },
+    {
+      "title": "Z'him Monns (Zaishen quest)",
+      "pageid": 208558,
+      "revid": 2338691,
+      "revisedAt": "2011-07-13T05:03:02Z",
+      "sha1": "e73df6b086358f1eb82e2e35ca8c04f67567f437"
     },
     {
       "title": "Vyrrgis the Pestilent",
@@ -2172,6 +2866,48 @@
       "revid": 2353634,
       "revisedAt": "2011-07-30T11:07:26Z",
       "sha1": "c48347b65c07291a11a6c83c9b1a084469889542"
+    },
+    {
+      "title": "Mesmer Shing Jea armor",
+      "pageid": 5721,
+      "revid": 2353807,
+      "revisedAt": "2011-07-30T18:29:18Z",
+      "sha1": "63a15a21710e0b2012c94929988dd76b0ed176d2"
+    },
+    {
+      "title": "Mesmer Studded Hose",
+      "pageid": 70152,
+      "revid": 2353881,
+      "revisedAt": "2011-07-30T22:15:07Z",
+      "sha1": "9aea0a83dcf92643723c71b15f97c56175c5ac6a"
+    },
+    {
+      "title": "Mesmer Elegant Long Coat",
+      "pageid": 70149,
+      "revid": 2353884,
+      "revisedAt": "2011-07-30T22:24:56Z",
+      "sha1": "fbfdfcec3ff6d4a843541c01b82e60e6f0257f1c"
+    },
+    {
+      "title": "Assassin Exotic armor",
+      "pageid": 15825,
+      "revid": 2356811,
+      "revisedAt": "2011-08-04T11:22:07Z",
+      "sha1": "f7b961763533b969e2257778173f02514482eb93"
+    },
+    {
+      "title": "Elementalist Storm Eye",
+      "pageid": 34923,
+      "revid": 2359052,
+      "revisedAt": "2011-08-08T01:49:19Z",
+      "sha1": "44e0a79870b5409236bd0a51811d442812f9b63b"
+    },
+    {
+      "title": "Elementalist Glacial Eye",
+      "pageid": 34921,
+      "revid": 2359053,
+      "revisedAt": "2011-08-08T01:49:36Z",
+      "sha1": "9b94ae8ace1d61b4ee529c302300c960e4cda980"
     },
     {
       "title": "Eshim Mindclouder",
@@ -2335,11 +3071,32 @@
       "sha1": "be7e80df695c83ee0bbde51b3a3883307e219d46"
     },
     {
+      "title": "Fenrir (Zaishen quest)",
+      "pageid": 200898,
+      "revid": 2365682,
+      "revisedAt": "2011-08-18T19:54:23Z",
+      "sha1": "7370bf3c81e05d0f652b4007a0bc0ad93f3358d6"
+    },
+    {
       "title": "Konrru's Fervor",
       "pageid": 12563,
       "revid": 2365850,
       "revisedAt": "2011-08-19T00:21:54Z",
       "sha1": "b7d4ff6830c047d28310d0f9c47266cd6268ecb8"
+    },
+    {
+      "title": "Destruction's Depths (Zaishen quest)",
+      "pageid": 205970,
+      "revid": 2368680,
+      "revisedAt": "2011-08-24T22:28:32Z",
+      "sha1": "4eeb95aded7e7e29911bd950d45c6768f7894267"
+    },
+    {
+      "title": "Vizunah Square (Zaishen quest)",
+      "pageid": 207701,
+      "revid": 2374650,
+      "revisedAt": "2011-09-03T20:52:56Z",
+      "sha1": "ae370f9ce4ff5bf9420080f8908c0912ce17ac37"
     },
     {
       "title": "Dzajo",
@@ -2368,6 +3125,328 @@
       "revid": 2375976,
       "revisedAt": "2011-09-06T07:23:33Z",
       "sha1": "5690182ebd90ffd10cc886cddb779d5043c9095c"
+    },
+    {
+      "title": "Ranger Ascalon armor",
+      "pageid": 6258,
+      "revid": 2376273,
+      "revisedAt": "2011-09-06T17:58:46Z",
+      "sha1": "f0d9c6d2848fee3dcccd21713c201731d733d718"
+    },
+    {
+      "title": "Ranger Embroidered Boots",
+      "pageid": 70140,
+      "revid": 2376283,
+      "revisedAt": "2011-09-06T18:02:47Z",
+      "sha1": "73092f1554157d4dd6714019978a148254c028a0"
+    },
+    {
+      "title": "Ranger Luxon armor",
+      "pageid": 7492,
+      "revid": 2376288,
+      "revisedAt": "2011-09-06T18:09:28Z",
+      "sha1": "147feca4900699937946624f77abed6ae9d4d0d6"
+    },
+    {
+      "title": "Ranger Kurzick armor",
+      "pageid": 7490,
+      "revid": 2376289,
+      "revisedAt": "2011-09-06T18:09:32Z",
+      "sha1": "8796b21e5b22b5713f9fd268a3fefbeff8600c03"
+    },
+    {
+      "title": "Ranger Fur-Lined armor",
+      "pageid": 6553,
+      "revid": 2376500,
+      "revisedAt": "2011-09-07T01:30:09Z",
+      "sha1": "bba700d7041744df5f91f8a761054601a372879e"
+    },
+    {
+      "title": "Ranger Hunter Mask",
+      "pageid": 37562,
+      "revid": 2376510,
+      "revisedAt": "2011-09-07T02:09:14Z",
+      "sha1": "1025039f3c8b5aa55cd2f58d983350cf0bf83658"
+    },
+    {
+      "title": "Ranger Tamer Mask",
+      "pageid": 37678,
+      "revid": 2376511,
+      "revisedAt": "2011-09-07T02:09:21Z",
+      "sha1": "4436ea2698eef84300cabe61d078bce825927af7"
+    },
+    {
+      "title": "Joffs the Mitigator (Zaishen quest)",
+      "pageid": 204688,
+      "revid": 2376590,
+      "revisedAt": "2011-09-07T05:02:56Z",
+      "sha1": "91e4dba061737363090f36545754459240c11a3b"
+    },
+    {
+      "title": "Warrior Elite Charr Hide armor",
+      "pageid": 12157,
+      "revid": 2376735,
+      "revisedAt": "2011-09-07T16:47:11Z",
+      "sha1": "f4af2610eecebcd643e1904c822e580700e2c283"
+    },
+    {
+      "title": "Warrior Elite Kurzick armor",
+      "pageid": 12429,
+      "revid": 2376743,
+      "revisedAt": "2011-09-07T16:49:41Z",
+      "sha1": "dcf42a168437a53aad403a1244c80294708b996b"
+    },
+    {
+      "title": "Warrior Elite Luxon armor",
+      "pageid": 12618,
+      "revid": 2376744,
+      "revisedAt": "2011-09-07T16:50:18Z",
+      "sha1": "56d51b8bbf86742b14fb2dd962344ffec97a0eb6"
+    },
+    {
+      "title": "Warrior Elite Sunspear armor",
+      "pageid": 12386,
+      "revid": 2376750,
+      "revisedAt": "2011-09-07T16:52:00Z",
+      "sha1": "b531a5c7647ab25ee0ba93a9bf45d591d848a1bd"
+    },
+    {
+      "title": "Warrior Elite Templar armor",
+      "pageid": 19384,
+      "revid": 2376752,
+      "revisedAt": "2011-09-07T16:52:56Z",
+      "sha1": "afd413f9101b8b3a4a33997f0b9f51ca06cf5a0a"
+    },
+    {
+      "title": "Ritualist Ancient armor",
+      "pageid": 16527,
+      "revid": 2377371,
+      "revisedAt": "2011-09-08T18:43:45Z",
+      "sha1": "7f605ffda67bd3d95e8a18fa102d31d49edfdb14"
+    },
+    {
+      "title": "Ritualist Elite Kurzick armor",
+      "pageid": 16521,
+      "revid": 2377372,
+      "revisedAt": "2011-09-08T18:44:00Z",
+      "sha1": "4c3caa32443d92999f9a3b62ba2bfb6e52d5b9eb"
+    },
+    {
+      "title": "Ritualist Elite Luxon armor",
+      "pageid": 16519,
+      "revid": 2377373,
+      "revisedAt": "2011-09-08T18:44:21Z",
+      "sha1": "1e188bfd0bd147cc1fd15a4069ecf4765b1b553b"
+    },
+    {
+      "title": "Assassin Ancient armor",
+      "pageid": 15840,
+      "revid": 2377376,
+      "revisedAt": "2011-09-08T18:46:59Z",
+      "sha1": "d7a07c52792293236e498536a26969f830c6ab0d"
+    },
+    {
+      "title": "Warrior Obsidian armor",
+      "pageid": 10882,
+      "revid": 2377384,
+      "revisedAt": "2011-09-08T18:54:23Z",
+      "sha1": "79e44715ef7de32123ab7695fe3f4935330a6c10"
+    },
+    {
+      "title": "Dervish Obsidian armor",
+      "pageid": 7393,
+      "revid": 2377386,
+      "revisedAt": "2011-09-08T18:56:18Z",
+      "sha1": "99067ae33016230353955ba5b77030e9ab9ef7f8"
+    },
+    {
+      "title": "Paragon Obsidian armor",
+      "pageid": 9074,
+      "revid": 2377389,
+      "revisedAt": "2011-09-08T18:56:59Z",
+      "sha1": "563436d0b8be74e39f1f290b7d294f6dd01aa48c"
+    },
+    {
+      "title": "Ranger Obsidian armor",
+      "pageid": 8602,
+      "revid": 2377390,
+      "revisedAt": "2011-09-08T19:01:53Z",
+      "sha1": "18f99d2de188c3cb4dc5a76d56ebcffa496ef483"
+    },
+    {
+      "title": "Monk Obsidian armor",
+      "pageid": 5969,
+      "revid": 2377391,
+      "revisedAt": "2011-09-08T19:01:59Z",
+      "sha1": "97c352dc10313ef4b9b11ed4e5248c17811c3069"
+    },
+    {
+      "title": "Necromancer Obsidian armor",
+      "pageid": 18210,
+      "revid": 2377392,
+      "revisedAt": "2011-09-08T19:02:43Z",
+      "sha1": "32a45965c138a17954df5700b62b4e2ac3b86551"
+    },
+    {
+      "title": "Mesmer Obsidian armor",
+      "pageid": 5777,
+      "revid": 2377393,
+      "revisedAt": "2011-09-08T19:02:47Z",
+      "sha1": "a04d15e297b5db4b48b77cefd9fa422b9f04194f"
+    },
+    {
+      "title": "Elementalist Obsidian armor",
+      "pageid": 7881,
+      "revid": 2377394,
+      "revisedAt": "2011-09-08T19:02:48Z",
+      "sha1": "4f2724855fc3e083e13b18020f1b08f3acbf79ff"
+    },
+    {
+      "title": "Ranger Elite Fur-Lined armor",
+      "pageid": 6783,
+      "revid": 2377464,
+      "revisedAt": "2011-09-08T22:17:10Z",
+      "sha1": "a0ea2c7a5e72c6119f3ce39d7f6ca6a38ea70a93"
+    },
+    {
+      "title": "Ranger Elite Studded Leather armor",
+      "pageid": 6786,
+      "revid": 2377482,
+      "revisedAt": "2011-09-08T22:30:08Z",
+      "sha1": "66b4ffc7f3021335d01a2e0f9484f80ac4313d62"
+    },
+    {
+      "title": "Ranger Istani armor",
+      "pageid": 8593,
+      "revid": 2377489,
+      "revisedAt": "2011-09-08T22:40:18Z",
+      "sha1": "9557c01d301ba298c04a78acf6980b0628f934e6"
+    },
+    {
+      "title": "Ranger Sunspear armor",
+      "pageid": 8595,
+      "revid": 2377490,
+      "revisedAt": "2011-09-08T22:40:36Z",
+      "sha1": "becae18e7a9604d5f40c437a0f08af1afabdb089"
+    },
+    {
+      "title": "Elementalist Primeval armor",
+      "pageid": 11945,
+      "revid": 2377719,
+      "revisedAt": "2011-09-09T15:18:16Z",
+      "sha1": "77ba283fb9945724ed17f70a756ad57e1a79c34b"
+    },
+    {
+      "title": "Mesmer Primeval armor",
+      "pageid": 5771,
+      "revid": 2377720,
+      "revisedAt": "2011-09-09T15:19:38Z",
+      "sha1": "8aee7bb9e2613158eb221d2266632b848f4ec90c"
+    },
+    {
+      "title": "Monk Vabbian armor",
+      "pageid": 5966,
+      "revid": 2377724,
+      "revisedAt": "2011-09-09T15:22:22Z",
+      "sha1": "76e5b1cf7503a236337dcd2abe73e7ff577c8a95"
+    },
+    {
+      "title": "Necromancer Vabbian armor",
+      "pageid": 18207,
+      "revid": 2377725,
+      "revisedAt": "2011-09-09T15:22:54Z",
+      "sha1": "7d61fc59d54faec859beb13256f34677764e7353"
+    },
+    {
+      "title": "Paragon Vabbian armor",
+      "pageid": 8647,
+      "revid": 2377727,
+      "revisedAt": "2011-09-09T15:24:08Z",
+      "sha1": "892f78f78c2427a09f636c3ddedd2a5a43120f0b"
+    },
+    {
+      "title": "Ritualist Vabbian armor",
+      "pageid": 16526,
+      "revid": 2377728,
+      "revisedAt": "2011-09-09T15:24:14Z",
+      "sha1": "7f05115d7a2d80fc3b4b35052707758ccd76e564"
+    },
+    {
+      "title": "Assassin Vabbian armor",
+      "pageid": 15839,
+      "revid": 2377729,
+      "revisedAt": "2011-09-09T15:24:20Z",
+      "sha1": "c69a694633960c32c45c6b5fe77e57d42a1dc88b"
+    },
+    {
+      "title": "Dervish Vabbian armor",
+      "pageid": 7355,
+      "revid": 2377730,
+      "revisedAt": "2011-09-09T15:24:32Z",
+      "sha1": "c55c96faf83e315f535a7353daea4e4917dd08e5"
+    },
+    {
+      "title": "Monk Ancient armor",
+      "pageid": 5967,
+      "revid": 2377771,
+      "revisedAt": "2011-09-09T18:08:09Z",
+      "sha1": "30b020dbc2132b00a7a6f54d7864b15bf3721ba0"
+    },
+    {
+      "title": "Necromancer Ancient armor",
+      "pageid": 18208,
+      "revid": 2377772,
+      "revisedAt": "2011-09-09T18:08:13Z",
+      "sha1": "9ba6aa3dd9ba74897c9b2e4cf3e79ecfc180a6c2"
+    },
+    {
+      "title": "Mesmer Ancient armor",
+      "pageid": 5769,
+      "revid": 2377773,
+      "revisedAt": "2011-09-09T18:08:22Z",
+      "sha1": "bd3276f367d96aec271c93a3d52610f311d1571f"
+    },
+    {
+      "title": "Elementalist Ancient armor",
+      "pageid": 11943,
+      "revid": 2377774,
+      "revisedAt": "2011-09-09T18:08:26Z",
+      "sha1": "682ed5cdeb084f5ab1db3909b7039078ca7da270"
+    },
+    {
+      "title": "Monk Elite Kurzick armor",
+      "pageid": 5944,
+      "revid": 2377776,
+      "revisedAt": "2011-09-09T18:09:42Z",
+      "sha1": "40f4bfe93bad590f09b2ae8addfb8536cdacd881"
+    },
+    {
+      "title": "Necromancer Elite Kurzick armor",
+      "pageid": 5904,
+      "revid": 2377777,
+      "revisedAt": "2011-09-09T18:10:21Z",
+      "sha1": "b0cd65fc06075f309bf2c2db419854cecde5ff4c"
+    },
+    {
+      "title": "Mesmer Elite Kurzick armor",
+      "pageid": 5742,
+      "revid": 2377778,
+      "revisedAt": "2011-09-09T18:10:36Z",
+      "sha1": "affdafd6ebb98cbf72484036598ab3bcf6aa6d2f"
+    },
+    {
+      "title": "Monk Elite Luxon armor",
+      "pageid": 5947,
+      "revid": 2377779,
+      "revisedAt": "2011-09-09T18:12:34Z",
+      "sha1": "babcc702010b3c5fa65ab5b5c860dc14a2e3c013"
+    },
+    {
+      "title": "Mesmer Elite Luxon armor",
+      "pageid": 5743,
+      "revid": 2377782,
+      "revisedAt": "2011-09-09T18:16:36Z",
+      "sha1": "84f14deb768b44f479449e0f1ef182d83e24847d"
     },
     {
       "title": "Smukk Foombool",
@@ -2447,11 +3526,410 @@
       "sha1": "4b285cebd873bb8a3bfe2562e0582816777053a7"
     },
     {
+      "title": "Monk Kurzick armor",
+      "pageid": 5859,
+      "revid": 2379731,
+      "revisedAt": "2011-09-13T17:53:31Z",
+      "sha1": "b7d680e246c0ecb427134b688ac4c22905483794"
+    },
+    {
+      "title": "Necromancer Kurzick armor",
+      "pageid": 18196,
+      "revid": 2379732,
+      "revisedAt": "2011-09-13T17:54:11Z",
+      "sha1": "cd9bc4f8b0eeec156f7dc1373d6855a75c11407e"
+    },
+    {
+      "title": "Assassin Kurzick armor",
+      "pageid": 15827,
+      "revid": 2379737,
+      "revisedAt": "2011-09-13T17:57:02Z",
+      "sha1": "42e158dd91be7d0872baa84e5a1f3bda6c46c329"
+    },
+    {
+      "title": "Ritualist Kurzick armor",
+      "pageid": 16517,
+      "revid": 2379738,
+      "revisedAt": "2011-09-13T17:57:27Z",
+      "sha1": "d9ebfbd2a9f2635057a4cc63ab2dcf9dabb628c2"
+    },
+    {
+      "title": "Monk Luxon armor",
+      "pageid": 5896,
+      "revid": 2379741,
+      "revisedAt": "2011-09-13T17:59:02Z",
+      "sha1": "86b5ed9ced959d8f07b468918bad49f625134763"
+    },
+    {
+      "title": "Necromancer Luxon armor",
+      "pageid": 18199,
+      "revid": 2379742,
+      "revisedAt": "2011-09-13T17:59:33Z",
+      "sha1": "2c9de68e560a86bd27a460a697224d016e486fcf"
+    },
+    {
+      "title": "Mesmer Luxon armor",
+      "pageid": 5740,
+      "revid": 2379744,
+      "revisedAt": "2011-09-13T17:59:59Z",
+      "sha1": "544e0bd9223282c4745239c076c52f7a78db4663"
+    },
+    {
+      "title": "Elementalist Luxon armor",
+      "pageid": 11891,
+      "revid": 2379745,
+      "revisedAt": "2011-09-13T18:00:31Z",
+      "sha1": "2e5d6f31f2bbd868cb36b3a249961e37cb1e9ac4"
+    },
+    {
+      "title": "Assassin Luxon armor",
+      "pageid": 15828,
+      "revid": 2379746,
+      "revisedAt": "2011-09-13T18:01:04Z",
+      "sha1": "2419e0fa9f32f0a884dc392f1bb3f19a54b0980c"
+    },
+    {
+      "title": "Ritualist Luxon armor",
+      "pageid": 16518,
+      "revid": 2379747,
+      "revisedAt": "2011-09-13T18:01:43Z",
+      "sha1": "1d6cf45113ef1b63bdab39615418cdf147f5b4ec"
+    },
+    {
+      "title": "Ranger Norn armor",
+      "pageid": 64352,
+      "revid": 2380056,
+      "revisedAt": "2011-09-14T17:07:44Z",
+      "sha1": "e94db38070882b2d278cf85a82769812309512f8"
+    },
+    {
+      "title": "Warrior Norn armor",
+      "pageid": 63940,
+      "revid": 2380059,
+      "revisedAt": "2011-09-14T17:09:12Z",
+      "sha1": "cc9f32556484fb48285dd76a572383d3a3cdf570"
+    },
+    {
+      "title": "Monk Norn armor",
+      "pageid": 64572,
+      "revid": 2380060,
+      "revisedAt": "2011-09-14T17:09:33Z",
+      "sha1": "aa7f96f060b081a75c33949f24d60b4fbd3070ac"
+    },
+    {
+      "title": "Necromancer Norn armor",
+      "pageid": 64621,
+      "revid": 2380061,
+      "revisedAt": "2011-09-14T17:09:48Z",
+      "sha1": "0c0f5c819afbb40ca3154625726936f9a8f06da7"
+    },
+    {
+      "title": "Mesmer Norn armor",
+      "pageid": 64624,
+      "revid": 2380062,
+      "revisedAt": "2011-09-14T17:10:15Z",
+      "sha1": "4d29a679d8a6ecf88de519e76a8573c6fcecbe88"
+    },
+    {
+      "title": "Elementalist Norn armor",
+      "pageid": 64618,
+      "revid": 2380063,
+      "revisedAt": "2011-09-14T17:10:41Z",
+      "sha1": "522982531c2acb28189d6f86ad9fec132566bf39"
+    },
+    {
+      "title": "Assassin Norn armor",
+      "pageid": 64619,
+      "revid": 2380064,
+      "revisedAt": "2011-09-14T17:10:59Z",
+      "sha1": "c11c09ff84cef610e4ab772abfcf54aad3ae86c5"
+    },
+    {
+      "title": "Ritualist Norn armor",
+      "pageid": 64623,
+      "revid": 2380066,
+      "revisedAt": "2011-09-14T17:11:33Z",
+      "sha1": "71bcabc412a3907754bb4d211faa04b61b985014"
+    },
+    {
+      "title": "Paragon Norn armor",
+      "pageid": 64622,
+      "revid": 2380068,
+      "revisedAt": "2011-09-14T17:12:32Z",
+      "sha1": "0c0512eed3e05e8f924de2c9879b348d540acf02"
+    },
+    {
+      "title": "Warrior Asuran armor",
+      "pageid": 67536,
+      "revid": 2380073,
+      "revisedAt": "2011-09-14T17:14:50Z",
+      "sha1": "b630e747ccbd9033b1adc3de392d3ac9f386e267"
+    },
+    {
+      "title": "Monk Asuran armor",
+      "pageid": 67372,
+      "revid": 2380074,
+      "revisedAt": "2011-09-14T17:16:20Z",
+      "sha1": "2dd9801e326fe87d842d5dffb71937436d93f9ef"
+    },
+    {
+      "title": "Mesmer Asuran armor",
+      "pageid": 67548,
+      "revid": 2380077,
+      "revisedAt": "2011-09-14T17:17:23Z",
+      "sha1": "2701ae9c24deb28ed50587cba6b26a7900b1dc0f"
+    },
+    {
+      "title": "Ritualist Asuran armor",
+      "pageid": 67553,
+      "revid": 2380080,
+      "revisedAt": "2011-09-14T17:20:27Z",
+      "sha1": "ff5ae9c977b190e98a9afa79c613cc53f051c69f"
+    },
+    {
+      "title": "Paragon Asuran armor",
+      "pageid": 67558,
+      "revid": 2380082,
+      "revisedAt": "2011-09-14T17:20:48Z",
+      "sha1": "8e22c2878e1cca368b92d48dff19a5c4906edc79"
+    },
+    {
+      "title": "Dervish Asuran armor",
+      "pageid": 67562,
+      "revid": 2380084,
+      "revisedAt": "2011-09-14T17:21:27Z",
+      "sha1": "b9189c70d04bd9c3b51ec3c695f349ce93a86ed0"
+    },
+    {
+      "title": "Warrior Monument armor",
+      "pageid": 67414,
+      "revid": 2380099,
+      "revisedAt": "2011-09-14T17:37:19Z",
+      "sha1": "3392bb9e2df9d39da2eb04ea3d5991ca253d0f7f"
+    },
+    {
+      "title": "Necromancer Monument armor",
+      "pageid": 67570,
+      "revid": 2380103,
+      "revisedAt": "2011-09-14T17:41:39Z",
+      "sha1": "fc93e022592bf83cc79e60351c1bae820babac59"
+    },
+    {
+      "title": "Elementalist Monument armor",
+      "pageid": 66968,
+      "revid": 2380105,
+      "revisedAt": "2011-09-14T17:43:06Z",
+      "sha1": "f17e9c28612ecf3aafdc0f3b6b98a5ef85076e72"
+    },
+    {
       "title": "Buhon Icelord",
       "pageid": 17731,
       "revid": 2380250,
       "revisedAt": "2011-09-15T03:17:37Z",
       "sha1": "3df8752bfaad304fd28ff55e4cb8ead926e8b631"
+    },
+    {
+      "title": "Paragon Elite Sunspear armor",
+      "pageid": 8646,
+      "revid": 2380537,
+      "revisedAt": "2011-09-16T00:39:37Z",
+      "sha1": "68ab53b514dd510b217d61d94f02ef635b5ffece"
+    },
+    {
+      "title": "Paragon Ancient armor",
+      "pageid": 9071,
+      "revid": 2380540,
+      "revisedAt": "2011-09-16T00:45:21Z",
+      "sha1": "1d35dbdd7f5d2b3f98889f8dd4c6e149f9068488"
+    },
+    {
+      "title": "Dervish Ancient armor",
+      "pageid": 7362,
+      "revid": 2380541,
+      "revisedAt": "2011-09-16T00:45:50Z",
+      "sha1": "04cf1bbd81c23121273d5fdd226804ca6ee8c82b"
+    },
+    {
+      "title": "Duncan the Black (Zaishen quest)",
+      "pageid": 212159,
+      "revid": 2380580,
+      "revisedAt": "2011-09-16T03:49:28Z",
+      "sha1": "e2a3ff6c72595bc65cbcff2fd0cada972887eedf"
+    },
+    {
+      "title": "Ranger Elite Drakescale armor",
+      "pageid": 6784,
+      "revid": 2380758,
+      "revisedAt": "2011-09-16T17:07:05Z",
+      "sha1": "c1ad4b4834e982a6200240ab87ad6f642073def7"
+    },
+    {
+      "title": "Sunjiang District (Zaishen quest)",
+      "pageid": 203200,
+      "revid": 2381313,
+      "revisedAt": "2011-09-17T22:12:51Z",
+      "sha1": "418716dc8ea0d99b3b3961ed65e8a872422d11cb"
+    },
+    {
+      "title": "Monk Flowing armor",
+      "pageid": 5856,
+      "revid": 2382473,
+      "revisedAt": "2011-09-20T18:49:15Z",
+      "sha1": "c1dc5c487c775626cb1943a9f3c87fbe4141513f"
+    },
+    {
+      "title": "Mesmer Sunspear armor",
+      "pageid": 5754,
+      "revid": 2382479,
+      "revisedAt": "2011-09-20T19:02:05Z",
+      "sha1": "4884ca94777610ecea52ef3f19580e5d5c86c506"
+    },
+    {
+      "title": "Elementalist Sunspear armor",
+      "pageid": 11930,
+      "revid": 2382481,
+      "revisedAt": "2011-09-20T19:02:23Z",
+      "sha1": "c13869156973855e079447794a74b2c2ea184bde"
+    },
+    {
+      "title": "Dervish Padded Sandals",
+      "pageid": 71384,
+      "revid": 2382483,
+      "revisedAt": "2011-09-20T19:04:43Z",
+      "sha1": "d4ff9812eb0b91fda43a49a737af207ae378d3f7"
+    },
+    {
+      "title": "Dervish Hooked Leggings",
+      "pageid": 71383,
+      "revid": 2382485,
+      "revisedAt": "2011-09-20T19:06:21Z",
+      "sha1": "dc7fc373eabdb4310ab9807336ff806fa0ae0e00"
+    },
+    {
+      "title": "Paragon Winged Raiment",
+      "pageid": 71379,
+      "revid": 2382486,
+      "revisedAt": "2011-09-20T19:07:10Z",
+      "sha1": "c8feb67f1640dfb5f26fa8ad4f67768b47fe1037"
+    },
+    {
+      "title": "Paragon Banded Sandals",
+      "pageid": 71381,
+      "revid": 2382487,
+      "revisedAt": "2011-09-20T19:07:31Z",
+      "sha1": "c55e0a52d318681d395af4f73a440d708c30ebc3"
+    },
+    {
+      "title": "Paragon Sashed Leggings",
+      "pageid": 71380,
+      "revid": 2382489,
+      "revisedAt": "2011-09-20T19:08:44Z",
+      "sha1": "9bc062d77422808c414c5550ab9a9fee579075e2"
+    },
+    {
+      "title": "Ritualist Opulent Raiment",
+      "pageid": 71367,
+      "revid": 2382490,
+      "revisedAt": "2011-09-20T19:12:56Z",
+      "sha1": "84df61b20474e7053acf2a5d02dcece58835d5b5"
+    },
+    {
+      "title": "Ritualist Beaded Shoes",
+      "pageid": 71370,
+      "revid": 2382491,
+      "revisedAt": "2011-09-20T19:13:41Z",
+      "sha1": "fa6a468754ba806264729bf6c430f581a706e142"
+    },
+    {
+      "title": "Ritualist Scale Leggings",
+      "pageid": 71369,
+      "revid": 2382492,
+      "revisedAt": "2011-09-20T19:14:07Z",
+      "sha1": "98079635ff2ad02236ffeba0ed82cda1d5f3b702"
+    },
+    {
+      "title": "Assassin Bladed Gloves",
+      "pageid": 70181,
+      "revid": 2382493,
+      "revisedAt": "2011-09-20T19:17:29Z",
+      "sha1": "c155445860a95b06fb4a7ed083a6e752ca1d74d2"
+    },
+    {
+      "title": "Assassin Oni Leggings",
+      "pageid": 71362,
+      "revid": 2382494,
+      "revisedAt": "2011-09-20T19:20:45Z",
+      "sha1": "4df95833d77e001d679364648fc8621397e44655"
+    },
+    {
+      "title": "Assassin Spiked Guise",
+      "pageid": 70180,
+      "revid": 2382496,
+      "revisedAt": "2011-09-20T19:23:06Z",
+      "sha1": "0fcb949dddfd93c37bd8524f2e6bdf198f11b3b5"
+    },
+    {
+      "title": "Elementalist Thaumaturgic Robes",
+      "pageid": 70175,
+      "revid": 2382501,
+      "revisedAt": "2011-09-20T19:25:34Z",
+      "sha1": "9c2419be629a9e39f6dbb9111b8aba5a21027564"
+    },
+    {
+      "title": "Elementalist Exquisite Leggings",
+      "pageid": 70178,
+      "revid": 2382504,
+      "revisedAt": "2011-09-20T19:27:13Z",
+      "sha1": "9fcc6dff73dbb48c4db084a2f05f6aa439ae16db"
+    },
+    {
+      "title": "Elementalist Majestic Shoes",
+      "pageid": 70179,
+      "revid": 2382505,
+      "revisedAt": "2011-09-20T19:28:26Z",
+      "sha1": "7cfa5202f8860c416de356a061c50a355589ed39"
+    },
+    {
+      "title": "Elementalist Yeoryios Gloves",
+      "pageid": 70177,
+      "revid": 2382506,
+      "revisedAt": "2011-09-20T19:28:49Z",
+      "sha1": "56aecbfadf6e1a995eaf33ae5a8dd2d182254a95"
+    },
+    {
+      "title": "Monk Elite Judge armor",
+      "pageid": 5837,
+      "revid": 2383035,
+      "revisedAt": "2011-09-22T18:06:31Z",
+      "sha1": "4353850639adc30f92440dcdada8b7c5db3006cb"
+    },
+    {
+      "title": "Monk Elite Woven armor",
+      "pageid": 5843,
+      "revid": 2383036,
+      "revisedAt": "2011-09-22T18:07:07Z",
+      "sha1": "b9882e165c9be9f0c7be747346b9ab277da8bf7a"
+    },
+    {
+      "title": "Necromancer Elite Necrotic armor",
+      "pageid": 18187,
+      "revid": 2383040,
+      "revisedAt": "2011-09-22T18:10:00Z",
+      "sha1": "7ef37a1135977202af9d018e69bed5553f3c3873"
+    },
+    {
+      "title": "Necromancer Elite Cultist armor",
+      "pageid": 18186,
+      "revid": 2383042,
+      "revisedAt": "2011-09-22T18:10:26Z",
+      "sha1": "70956d7cd3023311c9a12c59795a577f04176227"
+    },
+    {
+      "title": "Necromancer Elite Cabal armor",
+      "pageid": 18185,
+      "revid": 2383043,
+      "revisedAt": "2011-09-22T18:10:47Z",
+      "sha1": "9937241d719f1f5f63a40d6bcf799f9142bc22c8"
     },
     {
       "title": "Alana Kepkep",
@@ -2480,6 +3958,55 @@
       "revid": 2383753,
       "revisedAt": "2011-09-24T20:59:40Z",
       "sha1": "de26bea2a35b3d854649f771575dcc86ee8a4bdd"
+    },
+    {
+      "title": "Elementalist Elite Luxon armor",
+      "pageid": 11905,
+      "revid": 2389870,
+      "revisedAt": "2011-10-03T23:35:22Z",
+      "sha1": "aeec39655070bc6d9c7e07481a4335f31fe512ee"
+    },
+    {
+      "title": "Fendi Nin (Zaishen quest)",
+      "pageid": 214255,
+      "revid": 2393080,
+      "revisedAt": "2011-10-11T01:04:21Z",
+      "sha1": "56b487b1ef615c20bcdfc5e783494657b30553f1"
+    },
+    {
+      "title": "Boreas Seabed (Zaishen quest)",
+      "pageid": 201055,
+      "revid": 2393959,
+      "revisedAt": "2011-10-12T17:37:57Z",
+      "sha1": "4b33071afc9cf13682047a4628607c84c407e352"
+    },
+    {
+      "title": "Ssuns, Blessed of Dwayna (Zaishen quest)",
+      "pageid": 213797,
+      "revid": 2394021,
+      "revisedAt": "2011-10-12T18:01:01Z",
+      "sha1": "24074ac590bda54f7f927087005c04f9828feafb"
+    },
+    {
+      "title": "Urgoz (Zaishen quest)",
+      "pageid": 206564,
+      "revid": 2394098,
+      "revisedAt": "2011-10-12T18:26:17Z",
+      "sha1": "46d855c62a7c50d4a30cb09ae384fb354d578b03"
+    },
+    {
+      "title": "The Eternal Grove (Zaishen quest)",
+      "pageid": 202698,
+      "revid": 2394104,
+      "revisedAt": "2011-10-12T18:28:13Z",
+      "sha1": "1a343232b87e9d4b3495331833a58da89d75afe1"
+    },
+    {
+      "title": "The Dragon's Lair (Zaishen quest)",
+      "pageid": 201640,
+      "revid": 2394455,
+      "revisedAt": "2011-10-13T15:04:30Z",
+      "sha1": "ce85d883b1576466d638eaf0c60af638ae6c4a7f"
     },
     {
       "title": "Collector Terra",
@@ -2515,6 +4042,34 @@
       "revid": 2398671,
       "revisedAt": "2011-10-22T10:24:52Z",
       "sha1": "b56c2f74723aab1934203283873f379dc5d4902a"
+    },
+    {
+      "title": "Ranger Elite Luxon armor",
+      "pageid": 8590,
+      "revid": 2399474,
+      "revisedAt": "2011-10-23T21:04:10Z",
+      "sha1": "e1d9f3b6b2b41eae675bc73bdf637588efaeae2b"
+    },
+    {
+      "title": "Ranger Elite Kurzick armor",
+      "pageid": 8589,
+      "revid": 2399475,
+      "revisedAt": "2011-10-23T21:04:17Z",
+      "sha1": "c71b099b5db392e50a3cf5c27b8ccdce2e6f8280"
+    },
+    {
+      "title": "Necromancer Elite Luxon armor",
+      "pageid": 18200,
+      "revid": 2405180,
+      "revisedAt": "2011-11-05T18:58:20Z",
+      "sha1": "a98f8133624da26246484bb57a64d88b8ee55c3e"
+    },
+    {
+      "title": "Ranger Asuran armor",
+      "pageid": 67540,
+      "revid": 2406222,
+      "revisedAt": "2011-11-08T23:51:48Z",
+      "sha1": "8a993e1880be1058290f7184acd4960440e6e29e"
     },
     {
       "title": "Redemptor Kurcheck",
@@ -2580,11 +4135,25 @@
       "sha1": "ef8418d868afe2ed49919eb71e3bc33518b51bd5"
     },
     {
+      "title": "Iron Mines of Moladune (Zaishen quest)",
+      "pageid": 204684,
+      "revid": 2407487,
+      "revisedAt": "2011-11-12T18:50:33Z",
+      "sha1": "1784df73f876bb0cee47004db57be3db7332dd90"
+    },
+    {
       "title": "Kehmak the Tranquil",
       "pageid": 38668,
       "revid": 2407644,
       "revisedAt": "2011-11-12T23:58:57Z",
       "sha1": "f4ce6730c0bdcfd393770ce7b96414b33b2d58d4"
+    },
+    {
+      "title": "Monk Labyrinthine armor",
+      "pageid": 30260,
+      "revid": 2408452,
+      "revisedAt": "2011-11-14T03:15:18Z",
+      "sha1": "11f5ffab93c595329a9498dca03f02466eaab7b6"
     },
     {
       "title": "Soulwhisper, Elder Guardian",
@@ -2678,6 +4247,13 @@
       "sha1": "e7fd6845104e2d7fc37a8657259c09e5463494a7"
     },
     {
+      "title": "Monk Star armor",
+      "pageid": 5834,
+      "revid": 2414016,
+      "revisedAt": "2011-11-25T22:20:23Z",
+      "sha1": "704587206bddffc9f531333da777414f16cb7f1e"
+    },
+    {
       "title": "Nandet, Glass Weaver",
       "pageid": 23847,
       "revid": 2414483,
@@ -2718,6 +4294,13 @@
       "revid": 2414946,
       "revisedAt": "2011-11-28T12:31:50Z",
       "sha1": "f3f3091145fb3cbff07fa2f44a549e464a30f0bf"
+    },
+    {
+      "title": "Dervish Elite Sunspear armor",
+      "pageid": 7358,
+      "revid": 2415027,
+      "revisedAt": "2011-11-28T18:38:51Z",
+      "sha1": "b9befa073d01ca44d151c8e34d65bb3bf4fd1694"
     },
     {
       "title": "Deeproot's Sorrow",
@@ -2797,11 +4380,81 @@
       "sha1": "0a4dc20675038c092ddf22d8209fe4d3f1401595"
     },
     {
+      "title": "Mungri Magicbox (Zaishen quest)",
+      "pageid": 201494,
+      "revid": 2419520,
+      "revisedAt": "2011-12-08T04:02:54Z",
+      "sha1": "a409f97ade47992019a42aa9a3738b28698c56f2"
+    },
+    {
       "title": "Saevio Proelium",
       "pageid": 26077,
       "revid": 2420409,
       "revisedAt": "2011-12-09T23:13:08Z",
       "sha1": "5976fb89500695c76c6477c5f7d43a9c25e32e7c"
+    },
+    {
+      "title": "Abaddon's Gate (Zaishen quest)",
+      "pageid": 211562,
+      "revid": 2420736,
+      "revisedAt": "2011-12-10T05:55:29Z",
+      "sha1": "c36c2da78287470a29fac5374b23273d33d4888c"
+    },
+    {
+      "title": "Droajam, Mage of the Sands (Zaishen quest)",
+      "pageid": 201652,
+      "revid": 2420813,
+      "revisedAt": "2011-12-10T09:14:22Z",
+      "sha1": "26d3853fce83443b3b986cdcd61a77ee6c7e9cd3"
+    },
+    {
+      "title": "Gate of Desolation (Zaishen quest)",
+      "pageid": 212707,
+      "revid": 2420814,
+      "revisedAt": "2011-12-10T09:14:38Z",
+      "sha1": "de4a5d7ac8d7aca6f81a3849ce44b13dad8d25b3"
+    },
+    {
+      "title": "Gate of Madness (Zaishen quest)",
+      "pageid": 208557,
+      "revid": 2420815,
+      "revisedAt": "2011-12-10T09:15:01Z",
+      "sha1": "62c3e8c8dc668fe4b946ed48ea818fbfffb58037"
+    },
+    {
+      "title": "Gate of Pain (Zaishen quest)",
+      "pageid": 203548,
+      "revid": 2420816,
+      "revisedAt": "2011-12-10T09:15:10Z",
+      "sha1": "1c393ab3f4bbd15e69458aecaca6c20297164672"
+    },
+    {
+      "title": "Grand Court of Sebelkeh (Zaishen quest)",
+      "pageid": 203750,
+      "revid": 2420817,
+      "revisedAt": "2011-12-10T09:15:20Z",
+      "sha1": "b14709264f0fb96f941ed721d97c140c7583f450"
+    },
+    {
+      "title": "Jennur's Horde (Zaishen quest)",
+      "pageid": 206563,
+      "revid": 2420818,
+      "revisedAt": "2011-12-10T09:15:36Z",
+      "sha1": "c496fa85c376ce8e2e728c1f7f54dd05b1c036d4"
+    },
+    {
+      "title": "Nundu Bay (Zaishen quest)",
+      "pageid": 204217,
+      "revid": 2420822,
+      "revisedAt": "2011-12-10T09:23:01Z",
+      "sha1": "3a859f11bb96c582cc631daba5a08968bb241292"
+    },
+    {
+      "title": "The Black Beast of Arrgh (Zaishen quest)",
+      "pageid": 205425,
+      "revid": 2420828,
+      "revisedAt": "2011-12-10T09:24:57Z",
+      "sha1": "47e6d0c9a75defb5a2d16d4e6e036b769532883c"
     },
     {
       "title": "Moles Quibus",
@@ -2818,6 +4471,13 @@
       "sha1": "0806881d1691824a98cbafe3c4957ce0da99dc59"
     },
     {
+      "title": "Arborstone (Zaishen quest)",
+      "pageid": 205337,
+      "revid": 2425451,
+      "revisedAt": "2011-12-21T14:10:04Z",
+      "sha1": "0c1f4e6a5fc7ea2dd6e60921408157332c78e5c6"
+    },
+    {
       "title": "Zalnax",
       "pageid": 69588,
       "revid": 2426110,
@@ -2830,6 +4490,13 @@
       "revid": 2426539,
       "revisedAt": "2011-12-24T15:28:48Z",
       "sha1": "f2eb04cbfa2995e6cdfef1c79ed8e56dff9c888d"
+    },
+    {
+      "title": "Monk Dragon armor",
+      "pageid": 5762,
+      "revid": 2426942,
+      "revisedAt": "2011-12-26T10:10:26Z",
+      "sha1": "628dda138be427add6e2e516ad5099652045a54b"
     },
     {
       "title": "Facet of Strength",
@@ -2858,6 +4525,13 @@
       "revid": 2428312,
       "revisedAt": "2011-12-30T17:34:51Z",
       "sha1": "f059eafc192f99a8a62b0d53cb795859e38b9b8b"
+    },
+    {
+      "title": "Vengeful Aatxe (Zaishen quest)",
+      "pageid": 202175,
+      "revid": 2428693,
+      "revisedAt": "2012-01-01T04:13:04Z",
+      "sha1": "c24e0bf2c88fae066488596118ed49f2efb57b79"
     },
     {
       "title": "Vabbi Trade Official/Collector",
@@ -2923,6 +4597,13 @@
       "sha1": "a4cd69bdd18644e0d6e909dbc27345cb6a249e16"
     },
     {
+      "title": "Elementalist Vabbian armor",
+      "pageid": 11940,
+      "revid": 2430399,
+      "revisedAt": "2012-01-04T21:47:58Z",
+      "sha1": "d4b3d139dcac8b84a58fd941baf71ebb4c7dfe2c"
+    },
+    {
       "title": "Shak-Jarin the Justicebringer",
       "pageid": 38623,
       "revid": 2431382,
@@ -2944,6 +4625,13 @@
       "sha1": "a4cf16b03aa34eb1ddee5ef4e192faddbe783ca4"
     },
     {
+      "title": "Minister Cho's Estate (Zaishen quest)",
+      "pageid": 203908,
+      "revid": 2433256,
+      "revisedAt": "2012-01-10T22:02:15Z",
+      "sha1": "53c4b850b5817ca57b0fbd05251e7a1e41ac86e9"
+    },
+    {
       "title": "Overseer Boktek",
       "pageid": 24581,
       "revid": 2433852,
@@ -2956,6 +4644,55 @@
       "revid": 2434765,
       "revisedAt": "2012-01-14T20:17:33Z",
       "sha1": "2c8fbd719b9da935bd15695536addbc425a68973"
+    },
+    {
+      "title": "Paragon Monument armor",
+      "pageid": 67144,
+      "revid": 2435469,
+      "revisedAt": "2012-01-16T19:21:06Z",
+      "sha1": "96809e27bbaac59cdeca722f861449af37cc1672"
+    },
+    {
+      "title": "Ritualist Monument armor",
+      "pageid": 67576,
+      "revid": 2435734,
+      "revisedAt": "2012-01-17T12:56:53Z",
+      "sha1": "e5ac4812607fc155a9d8b011cfedb031c435097f"
+    },
+    {
+      "title": "Monk Monument armor",
+      "pageid": 67568,
+      "revid": 2435740,
+      "revisedAt": "2012-01-17T13:37:21Z",
+      "sha1": "8a40108b53265fe3eb3f51f71f4d426065882ff2"
+    },
+    {
+      "title": "Dunes of Despair (Zaishen quest)",
+      "pageid": 207584,
+      "revid": 2435793,
+      "revisedAt": "2012-01-17T18:30:14Z",
+      "sha1": "3049120b0f5a4c40146b0da427cadb7e777b00e6"
+    },
+    {
+      "title": "Dervish Light Breastplate",
+      "pageid": 71382,
+      "revid": 2435794,
+      "revisedAt": "2012-01-17T18:41:38Z",
+      "sha1": "5de06ca07c29aa014ecb7a2a4ca90886f6af1665"
+    },
+    {
+      "title": "Assassin Monument armor",
+      "pageid": 67574,
+      "revid": 2436003,
+      "revisedAt": "2012-01-18T17:09:11Z",
+      "sha1": "651ba4f03ced7ab19a5a3a085270dee1b04bedc3"
+    },
+    {
+      "title": "The Great Northern Wall (Zaishen quest)",
+      "pageid": 213796,
+      "revid": 2436254,
+      "revisedAt": "2012-01-19T01:44:47Z",
+      "sha1": "72870d4c1372aedb40fb05268b75a21610f3b000"
     },
     {
       "title": "Amadis, Wind of the Sea",
@@ -3014,6 +4751,13 @@
       "sha1": "0ecf6a12c420e48731c8066b85ab76d2dc27f839"
     },
     {
+      "title": "Dervish Norn armor",
+      "pageid": 64620,
+      "revid": 2441352,
+      "revisedAt": "2012-01-31T11:56:47Z",
+      "sha1": "2f69b3e607b5c2bbe7490dbdc30a1c07a2f96fb8"
+    },
+    {
       "title": "Breaker Hollow",
       "pageid": 10475,
       "revid": 2444488,
@@ -3026,6 +4770,13 @@
       "revid": 2447373,
       "revisedAt": "2012-02-10T13:15:46Z",
       "sha1": "75a31270f04b3ee0d224676e4bccd6d1d382cff9"
+    },
+    {
+      "title": "Monk Aureate Pants",
+      "pageid": 70145,
+      "revid": 2448920,
+      "revisedAt": "2012-02-11T21:30:21Z",
+      "sha1": "63d506aa1e94608b7858bddf8d3158c5cae86766"
     },
     {
       "title": "Captain Alsin",
@@ -3054,6 +4805,13 @@
       "revid": 2450313,
       "revisedAt": "2012-02-13T09:36:31Z",
       "sha1": "5d5677d74e8d0630dda60317e7917029c680b431"
+    },
+    {
+      "title": "Raisu Palace (Zaishen quest)",
+      "pageid": 199793,
+      "revid": 2451699,
+      "revisedAt": "2012-02-15T08:21:50Z",
+      "sha1": "015761898b7874340e94e3bc45e580eab51e25de"
     },
     {
       "title": "Murakai's Chest",
@@ -3091,11 +4849,25 @@
       "sha1": "aa3e29086fe189a839888d6c811b5f907c9507da"
     },
     {
+      "title": "Necromancer Asuran armor",
+      "pageid": 67546,
+      "revid": 2459267,
+      "revisedAt": "2012-03-04T13:00:54Z",
+      "sha1": "66a3a43419947f683ed8d0bc988ae9e7a1f61343"
+    },
+    {
       "title": "Zoldark's Chest",
       "pageid": 68719,
       "revid": 2460924,
       "revisedAt": "2012-03-09T20:09:36Z",
       "sha1": "1de907e41bd028009490637ca285340c6cf98dc0"
+    },
+    {
+      "title": "Necromancer Primeval armor",
+      "pageid": 16691,
+      "revid": 2462798,
+      "revisedAt": "2012-03-14T19:59:34Z",
+      "sha1": "6f3492c5f01715428af76d7591584b98706eaea9"
     },
     {
       "title": "Spiritgarden's Repose",
@@ -3392,11 +5164,32 @@
       "sha1": "d388aa0a1d25529cf419b9d655787cfb1f9aef30"
     },
     {
+      "title": "Ritualist Obsidian armor",
+      "pageid": 16529,
+      "revid": 2474576,
+      "revisedAt": "2012-04-11T10:25:37Z",
+      "sha1": "28489236fbb649dff12cc5e4845bc30b9d1e1c56"
+    },
+    {
+      "title": "Remnant of Antiquities (Zaishen quest)",
+      "pageid": 204062,
+      "revid": 2475197,
+      "revisedAt": "2012-04-13T09:05:07Z",
+      "sha1": "780f70bcafa082c9678591cc48e5125640d9db9f"
+    },
+    {
       "title": "Yammiron, Ether Lord",
       "pageid": 38629,
       "revid": 2475862,
       "revisedAt": "2012-04-15T14:46:02Z",
       "sha1": "c2367a6ddc02a2c26ac0c257c5f99dcde0b6fb42"
+    },
+    {
+      "title": "Gyala Hatchery (Zaishen quest)",
+      "pageid": 205872,
+      "revid": 2476546,
+      "revisedAt": "2012-04-17T19:36:55Z",
+      "sha1": "57d729c17a69d3c7276c0adf7dfa2664064f9170"
     },
     {
       "title": "Dorn Stonebreaker",
@@ -3441,11 +5234,32 @@
       "sha1": "a68ff129b71db457d58a7f1fc294f614d8e5fa31"
     },
     {
+      "title": "Imperial Sanctum (Zaishen quest)",
+      "pageid": 216502,
+      "revid": 2484020,
+      "revisedAt": "2012-05-09T01:53:20Z",
+      "sha1": "d5173ae6a84d0ce5c93a2ad273e3bd12c73b6ea2"
+    },
+    {
       "title": "Virag Bladestone",
       "pageid": 76837,
       "revid": 2484146,
       "revisedAt": "2012-05-09T13:54:44Z",
       "sha1": "b687fb8f9bd3fcca9695628d43dd0d7a0a00d5cf"
+    },
+    {
+      "title": "G.O.L.E.M. (Zaishen quest)",
+      "pageid": 201353,
+      "revid": 2484228,
+      "revisedAt": "2012-05-09T19:50:32Z",
+      "sha1": "437707507061d71de3557461a324505b317f2544"
+    },
+    {
+      "title": "Aurora Glade (Zaishen quest)",
+      "pageid": 203642,
+      "revid": 2484448,
+      "revisedAt": "2012-05-10T13:56:55Z",
+      "sha1": "803f8deaf263cfb660c24c378ba781c06f26933b"
     },
     {
       "title": "Guardsman Ayoki/Collector armor",
@@ -3537,6 +5351,13 @@
       "revid": 2484966,
       "revisedAt": "2012-05-11T19:24:00Z",
       "sha1": "89a558821867073a7ae99d74e4fe610287174261"
+    },
+    {
+      "title": "Necromancer Elite Scar Pattern armor",
+      "pageid": 18189,
+      "revid": 2484978,
+      "revisedAt": "2012-05-11T20:07:26Z",
+      "sha1": "d7de2b38b645a92ad2fd4f144c722994525da996"
     },
     {
       "title": "Keotah/Collector",
@@ -5002,11 +6823,25 @@
       "sha1": "b37ee2a2d1630082ce962129df0cbc7068fa98bc"
     },
     {
+      "title": "Ranger Elite Sunspear armor",
+      "pageid": 8597,
+      "revid": 2488238,
+      "revisedAt": "2012-05-17T15:29:01Z",
+      "sha1": "0ed401b7a3187263e2df684c3d16d37f43aa5d13"
+    },
+    {
       "title": "Hyena",
       "pageid": 14006,
       "revid": 2489782,
       "revisedAt": "2012-05-22T17:06:11Z",
       "sha1": "de3e3f57e45ec4f18ccb22b2e864c3205017bf2e"
+    },
+    {
+      "title": "Assassin Elite Kurzick armor",
+      "pageid": 15836,
+      "revid": 2490045,
+      "revisedAt": "2012-05-23T17:52:20Z",
+      "sha1": "65b45f101d1375d847684e7ba34141bac3159cd1"
     },
     {
       "title": "Sehlon, Beautiful Water",
@@ -5044,6 +6879,20 @@
       "sha1": "2b22110aef9d5313e44b28de4adf02cf1e54baed"
     },
     {
+      "title": "Mesmer Silken Footwear",
+      "pageid": 70153,
+      "revid": 2493370,
+      "revisedAt": "2012-06-06T07:31:09Z",
+      "sha1": "46bcf6fcedf135a14b22609f0d1dadc76b62ae6b"
+    },
+    {
+      "title": "Codex Arena (Zaishen quest)",
+      "pageid": 227517,
+      "revid": 2495202,
+      "revisedAt": "2012-06-15T08:11:40Z",
+      "sha1": "5c6c9bb8425b70bf1915fe82188ea0eb11d117b5"
+    },
+    {
       "title": "Hanjuu Towerfist",
       "pageid": 105750,
       "revid": 2495804,
@@ -5056,6 +6905,27 @@
       "revid": 2498048,
       "revisedAt": "2012-06-25T00:09:22Z",
       "sha1": "7c06612baf0f949a307b780ba3e3e226c4b7b6d4"
+    },
+    {
+      "title": "Elementalist Elite Iceforged armor",
+      "pageid": 11835,
+      "revid": 2498098,
+      "revisedAt": "2012-06-25T05:34:21Z",
+      "sha1": "36a1b8ebdc6dc326babdb1277464b36ded41fbf8"
+    },
+    {
+      "title": "Elementalist Elite Flameforged armor",
+      "pageid": 11827,
+      "revid": 2498099,
+      "revisedAt": "2012-06-25T05:35:27Z",
+      "sha1": "d9570eaa201fc60676a0e8b0e9a145ecd67f0330"
+    },
+    {
+      "title": "Elementalist Elite Stoneforged armor",
+      "pageid": 11844,
+      "revid": 2498100,
+      "revisedAt": "2012-06-25T05:36:03Z",
+      "sha1": "6c6e88e865f77ae1551db0768a6710cda24647c6"
     },
     {
       "title": "Olunoss Windwalker",
@@ -5107,6 +6977,34 @@
       "sha1": "1258ce5e575e6301a7b557a8a41dc53e527f549c"
     },
     {
+      "title": "Paragon Primeval armor",
+      "pageid": 9072,
+      "revid": 2499112,
+      "revisedAt": "2012-06-28T00:26:06Z",
+      "sha1": "881ea9bf10c096d680c70af0539199e30ef3f366"
+    },
+    {
+      "title": "Ranger Primeval armor",
+      "pageid": 8600,
+      "revid": 2499113,
+      "revisedAt": "2012-06-28T00:26:38Z",
+      "sha1": "b36fa6e591fd72f76784c1499f9d9c8e06d156dd"
+    },
+    {
+      "title": "Dervish Primeval armor",
+      "pageid": 7383,
+      "revid": 2499115,
+      "revisedAt": "2012-06-28T00:26:43Z",
+      "sha1": "bb9cf17e6ec8fe5f91411956210452aec4ea722f"
+    },
+    {
+      "title": "Monk Primeval armor",
+      "pageid": 5968,
+      "revid": 2499116,
+      "revisedAt": "2012-06-28T00:26:49Z",
+      "sha1": "b45c4b2c29184dcf197bfcd4e9097c67097cf4f2"
+    },
+    {
       "title": "Kaolin Protection Staff",
       "pageid": 11788,
       "revid": 2499181,
@@ -5119,6 +7017,83 @@
       "revid": 2499189,
       "revisedAt": "2012-06-28T00:52:21Z",
       "sha1": "57de2506908422f389099675368bff03e0768b37"
+    },
+    {
+      "title": "Necromancer Elite Canthan armor",
+      "pageid": 18202,
+      "revid": 2499195,
+      "revisedAt": "2012-06-28T00:53:44Z",
+      "sha1": "c49f5422bf02abad785aff5471bb2e7872399675"
+    },
+    {
+      "title": "Ritualist Elite Canthan armor",
+      "pageid": 16524,
+      "revid": 2499196,
+      "revisedAt": "2012-06-28T00:53:56Z",
+      "sha1": "cc2dd4eaa489cffa8e9116110179b382b057d463"
+    },
+    {
+      "title": "Ritualist Elite Exotic armor",
+      "pageid": 16523,
+      "revid": 2499197,
+      "revisedAt": "2012-06-28T00:54:06Z",
+      "sha1": "81cd726351ea6efcf00fb863130e5af440febb3f"
+    },
+    {
+      "title": "Ritualist Elite Imperial armor",
+      "pageid": 16522,
+      "revid": 2499198,
+      "revisedAt": "2012-06-28T00:54:17Z",
+      "sha1": "01c9dc672989f54ad1108b09c8a6ea09f9048b83"
+    },
+    {
+      "title": "Ranger Elite Canthan armor",
+      "pageid": 8587,
+      "revid": 2499199,
+      "revisedAt": "2012-06-28T00:54:35Z",
+      "sha1": "05822114aa7d35cb2e99dcdd0235fcc38e979a95"
+    },
+    {
+      "title": "Elementalist Elite Canthan armor",
+      "pageid": 11899,
+      "revid": 2499200,
+      "revisedAt": "2012-06-28T00:54:42Z",
+      "sha1": "79f49e4be334862c5ace2ec35d1f809a6992540e"
+    },
+    {
+      "title": "Assassin Elite Exotic armor",
+      "pageid": 15834,
+      "revid": 2499202,
+      "revisedAt": "2012-06-28T00:55:04Z",
+      "sha1": "5fcf576096303803c6f44792fe90227ee81aab92"
+    },
+    {
+      "title": "Assassin Elite Canthan armor",
+      "pageid": 15831,
+      "revid": 2499203,
+      "revisedAt": "2012-06-28T00:55:09Z",
+      "sha1": "d29ec0e4a587b07964bb4f05e9f001e5775728bb"
+    },
+    {
+      "title": "Warrior Elite Canthan armor",
+      "pageid": 12472,
+      "revid": 2499204,
+      "revisedAt": "2012-06-28T00:55:15Z",
+      "sha1": "478280e496e6d31869fd7d058177038ab918b835"
+    },
+    {
+      "title": "Monk Elite Canthan armor",
+      "pageid": 5941,
+      "revid": 2499205,
+      "revisedAt": "2012-06-28T00:55:23Z",
+      "sha1": "c787ec2569fb8df9661f2c66a8cb65dd6056924a"
+    },
+    {
+      "title": "Mesmer Elite Canthan armor",
+      "pageid": 5744,
+      "revid": 2499206,
+      "revisedAt": "2012-06-28T00:55:29Z",
+      "sha1": "491fafe138d5e08410aef22be3595a300f636c7d"
     },
     {
       "title": "Ghial the Bone Dancer",
@@ -5149,6 +7124,13 @@
       "sha1": "e448f7eee406a136a3221689f842705da413967b"
     },
     {
+      "title": "Bloodstone Fen (Zaishen quest)",
+      "pageid": 211064,
+      "revid": 2502710,
+      "revisedAt": "2012-07-06T22:55:58Z",
+      "sha1": "6cbf9ddcc6be2dfb03e327d9bb5b1b24d4fe0cc3"
+    },
+    {
       "title": "Goldhorn Staff",
       "pageid": 85559,
       "revid": 2503987,
@@ -5161,6 +7143,41 @@
       "revid": 2505111,
       "revisedAt": "2012-07-16T09:45:34Z",
       "sha1": "3e9be524dc4fe8ce308d97003b516fa29d75e4f4"
+    },
+    {
+      "title": "Elementalist Everlasting Aura",
+      "pageid": 34902,
+      "revid": 2508128,
+      "revisedAt": "2012-07-25T04:23:05Z",
+      "sha1": "a07b418799432a0e4efd40585dfb792d57da1df1"
+    },
+    {
+      "title": "Elementalist Flame Aura",
+      "pageid": 38640,
+      "revid": 2508129,
+      "revisedAt": "2012-07-25T04:23:34Z",
+      "sha1": "f28976b3c2d66f6db6dda87daea3a0fef6ee152c"
+    },
+    {
+      "title": "Elementalist Glacial Aura",
+      "pageid": 38641,
+      "revid": 2508130,
+      "revisedAt": "2012-07-25T04:23:48Z",
+      "sha1": "377dfec68262209ab2f7994b22415c19559e473c"
+    },
+    {
+      "title": "Elementalist Stone Aura",
+      "pageid": 38642,
+      "revid": 2508131,
+      "revisedAt": "2012-07-25T04:24:04Z",
+      "sha1": "deb1169c9ff0760d03fee7b28034d334eb720489"
+    },
+    {
+      "title": "Elementalist Storm Aura",
+      "pageid": 38643,
+      "revid": 2508132,
+      "revisedAt": "2012-07-25T04:24:31Z",
+      "sha1": "b79f33d9e095a9b82cc0d23c78f8f00b4de91aec"
     },
     {
       "title": "Captain Nebo",
@@ -5177,6 +7194,13 @@
       "sha1": "bf3b0316cddc499860a01c501f504f2975fab081"
     },
     {
+      "title": "Necromancer Krytan armor",
+      "pageid": 17059,
+      "revid": 2508715,
+      "revisedAt": "2012-07-27T09:47:59Z",
+      "sha1": "7acf2ef908bfd74ae691ff4e03381605356bfb10"
+    },
+    {
       "title": "Bramble Everthorn",
       "pageid": 23805,
       "revid": 2510028,
@@ -5184,11 +7208,32 @@
       "sha1": "103c0e6af2c1e04cfd5908f564a43d955a368f0c"
     },
     {
+      "title": "Paragon Elonian armor",
+      "pageid": 8645,
+      "revid": 2510317,
+      "revisedAt": "2012-08-01T20:55:50Z",
+      "sha1": "9d321f784f441f48d6cc30c2619b1af7689c3a7a"
+    },
+    {
       "title": "Gallow Nooseknitter",
       "pageid": 70884,
       "revid": 2511019,
       "revisedAt": "2012-08-04T09:09:01Z",
       "sha1": "030073730652b6c0559e610f9c9ce8fb57d2ece7"
+    },
+    {
+      "title": "Elementalist Kurzick armor",
+      "pageid": 11881,
+      "revid": 2511280,
+      "revisedAt": "2012-08-05T16:27:13Z",
+      "sha1": "3e22e4122098e561529bb9791738e4cb52bcfe9b"
+    },
+    {
+      "title": "Lord Jadoth (Zaishen quest)",
+      "pageid": 211063,
+      "revid": 2511303,
+      "revisedAt": "2012-08-05T18:47:51Z",
+      "sha1": "43a8dae8ea6b25c0b2542413722e91e86053de42"
     },
     {
       "title": "Seafarer's Rest",
@@ -5233,6 +7278,13 @@
       "sha1": "d582028546911f9bc869b705a0cdc4b4ea4c1ce7"
     },
     {
+      "title": "Monk Sunspear armor",
+      "pageid": 5958,
+      "revid": 2513664,
+      "revisedAt": "2012-08-17T01:45:37Z",
+      "sha1": "2e097cde155db7825c83b07f272509ebb9bb75e5"
+    },
+    {
       "title": "Elsnil Frigidheart",
       "pageid": 63446,
       "revid": 2515633,
@@ -5240,11 +7292,25 @@
       "sha1": "88a1d66e75e595d00ff528cb3d326d1b2d444781"
     },
     {
+      "title": "Warrior Ancient armor",
+      "pageid": 12379,
+      "revid": 2515978,
+      "revisedAt": "2012-08-23T10:29:33Z",
+      "sha1": "d52ebb93b64bac04f774fe108c678bb8948733bb"
+    },
+    {
       "title": "Dvalinn Stonebreaker",
       "pageid": 64688,
       "revid": 2516603,
       "revisedAt": "2012-08-26T17:45:33Z",
       "sha1": "350794c9917a1eebfae668cfd36b4c507b5adc90"
+    },
+    {
+      "title": "Necromancer Profane armor",
+      "pageid": 18184,
+      "revid": 2518029,
+      "revisedAt": "2012-09-09T22:34:21Z",
+      "sha1": "f95779ec078c082aa1830ed00d8a1fe0a377102b"
     },
     {
       "title": "Elwynn Kirby",
@@ -5282,6 +7348,13 @@
       "sha1": "fdcb5c3402381514a39270671a6f6c53b238a480"
     },
     {
+      "title": "Mesmer Elite Sunspear armor",
+      "pageid": 5760,
+      "revid": 2524375,
+      "revisedAt": "2012-11-25T05:27:21Z",
+      "sha1": "8fe95ccc8509a9333df4111202ea17b7a1d50296"
+    },
+    {
       "title": "Nayl Klaw Tuthan",
       "pageid": 10035,
       "revid": 2527551,
@@ -5310,6 +7383,27 @@
       "sha1": "c76d9ba148dbc5c31a79f5ac18ddbb146cdd6985"
     },
     {
+      "title": "Mobrin, Lord of the Marsh (Zaishen quest)",
+      "pageid": 211725,
+      "revid": 2530207,
+      "revisedAt": "2013-01-19T21:08:41Z",
+      "sha1": "cea310b82dfdca310a7318f32ff3a9367aa98b1c"
+    },
+    {
+      "title": "Assassin Asuran armor",
+      "pageid": 67550,
+      "revid": 2531178,
+      "revisedAt": "2013-01-26T10:46:35Z",
+      "sha1": "79961ce2fdab1290b1ce43420404becfd2fbbd50"
+    },
+    {
+      "title": "Assassin Winged Shoes",
+      "pageid": 71364,
+      "revid": 2531238,
+      "revisedAt": "2013-01-26T14:53:07Z",
+      "sha1": "540c597bb394acd9f6e308c01488cdfc135f6e0a"
+    },
+    {
       "title": "Froth Stonereap",
       "pageid": 82663,
       "revid": 2532055,
@@ -5336,6 +7430,13 @@
       "revid": 2534033,
       "revisedAt": "2013-02-11T21:18:20Z",
       "sha1": "336dffd459ad5a8fc13d7d25659e892eb4113638"
+    },
+    {
+      "title": "Magmus (Zaishen quest)",
+      "pageid": 203643,
+      "revid": 2534929,
+      "revisedAt": "2013-02-22T08:10:24Z",
+      "sha1": "3aaa55757954db1eda4617bc88949ff240bc3b9a"
     },
     {
       "title": "Adept of the Elements",
@@ -5520,6 +7621,13 @@
       "sha1": "834d63f2320f79c922d21c67d7c9e436cc2e4b06"
     },
     {
+      "title": "Jade Quarry (Zaishen quest)",
+      "pageid": 199792,
+      "revid": 2535940,
+      "revisedAt": "2013-03-03T00:16:15Z",
+      "sha1": "39867514626a0c39c854c829cc22eaaa270e2d23"
+    },
+    {
       "title": "Chkkr Locust Lord",
       "pageid": 23788,
       "revid": 2536915,
@@ -5574,6 +7682,20 @@
       "revid": 2537812,
       "revisedAt": "2013-03-19T21:53:57Z",
       "sha1": "631abd63423cbcfbc8bafc5788c72e29aa55e936"
+    },
+    {
+      "title": "Ghial the Bone Dancer (Zaishen quest)",
+      "pageid": 202345,
+      "revid": 2538291,
+      "revisedAt": "2013-03-24T21:29:54Z",
+      "sha1": "1c3b7fc35b6ccd4fff58c738177af5bbb6281866"
+    },
+    {
+      "title": "Priest of Menzies (Zaishen quest)",
+      "pageid": 201359,
+      "revid": 2538805,
+      "revisedAt": "2013-03-29T00:24:33Z",
+      "sha1": "f54402c57a42d34cbaa2a15315977eeac2f918a7"
     },
     {
       "title": "Root Behemoth",
@@ -5842,6 +7964,251 @@
       "sha1": "29216a82a334073b697a0a2eed6d2afa36966a1e"
     },
     {
+      "title": "Giygas",
+      "pageid": 7173,
+      "revid": 2547644,
+      "revisedAt": "2013-05-25T03:40:56Z",
+      "sha1": "721842322fd59be505c6d54f334f0469f7381acc"
+    },
+    {
+      "title": "Banoit",
+      "pageid": 6887,
+      "revid": 2547648,
+      "revisedAt": "2013-05-25T03:43:59Z",
+      "sha1": "62b9d84163888caa1f58aea520877512556ffd92"
+    },
+    {
+      "title": "Harlan",
+      "pageid": 6889,
+      "revid": 2547649,
+      "revisedAt": "2013-05-25T03:44:09Z",
+      "sha1": "d4460a2b165a9897f7c957814d40c123a8c47783"
+    },
+    {
+      "title": "Corwen",
+      "pageid": 6888,
+      "revid": 2547650,
+      "revisedAt": "2013-05-25T03:44:22Z",
+      "sha1": "e53224c1a915af97ce1c7e5e3d8714afb10bacdf"
+    },
+    {
+      "title": "Breyshaw",
+      "pageid": 6890,
+      "revid": 2547651,
+      "revisedAt": "2013-05-25T03:44:30Z",
+      "sha1": "d402ea5f270ef140c65aad9835b5dc66300dcf56"
+    },
+    {
+      "title": "Samuka",
+      "pageid": 6891,
+      "revid": 2547652,
+      "revisedAt": "2013-05-25T03:44:55Z",
+      "sha1": "74e1d99643408ad59d3c725891ade30921991a62"
+    },
+    {
+      "title": "Kailan",
+      "pageid": 6892,
+      "revid": 2547653,
+      "revisedAt": "2013-05-25T03:45:16Z",
+      "sha1": "6936663bb524acfa5120f1bb1713d9a94749a3e6"
+    },
+    {
+      "title": "Shada",
+      "pageid": 6894,
+      "revid": 2547654,
+      "revisedAt": "2013-05-25T03:45:27Z",
+      "sha1": "13602383b9f156ea87fd7206fd44ff2bb01293f6"
+    },
+    {
+      "title": "Hanita",
+      "pageid": 6903,
+      "revid": 2547655,
+      "revisedAt": "2013-05-25T03:45:38Z",
+      "sha1": "c686b2c9973bfca68155066759794d0505299343"
+    },
+    {
+      "title": "Alemeth",
+      "pageid": 6923,
+      "revid": 2547658,
+      "revisedAt": "2013-05-25T03:48:52Z",
+      "sha1": "91a4e0a99ed2a08cc9930197129b242dd1da6ab6"
+    },
+    {
+      "title": "Kathir",
+      "pageid": 6966,
+      "revid": 2547660,
+      "revisedAt": "2013-05-25T03:49:13Z",
+      "sha1": "ff668e5386eb44c83eac7c2ddfebbb15724972af"
+    },
+    {
+      "title": "Morgren",
+      "pageid": 6967,
+      "revid": 2547661,
+      "revisedAt": "2013-05-25T03:49:20Z",
+      "sha1": "b949fc2d8f83e6ac76408695ca5530cf86b1c8c0"
+    },
+    {
+      "title": "Karl",
+      "pageid": 6975,
+      "revid": 2547664,
+      "revisedAt": "2013-05-25T03:49:42Z",
+      "sha1": "bd10a45d58c28e79e4ef5f1ad27ae5481a5d9e4c"
+    },
+    {
+      "title": "Kambei",
+      "pageid": 6980,
+      "revid": 2547665,
+      "revisedAt": "2013-05-25T03:49:50Z",
+      "sha1": "d33926401812dfd47dc04d4e764271e7d9cbd0a9"
+    },
+    {
+      "title": "Moon Ahn",
+      "pageid": 6981,
+      "revid": 2547666,
+      "revisedAt": "2013-05-25T03:49:57Z",
+      "sha1": "6732e2f4b956b389a38b90651c97abc88935960e"
+    },
+    {
+      "title": "Nu Leng",
+      "pageid": 7045,
+      "revid": 2547667,
+      "revisedAt": "2013-05-25T03:50:42Z",
+      "sha1": "2146c2e806e4c3905ace8df1bd740374892e281c"
+    },
+    {
+      "title": "Maeko",
+      "pageid": 6724,
+      "revid": 2547668,
+      "revisedAt": "2013-05-25T03:50:50Z",
+      "sha1": "3fcfcc310f3dd3479976e1c18aae4b4d01414c76"
+    },
+    {
+      "title": "Seiji",
+      "pageid": 7046,
+      "revid": 2547669,
+      "revisedAt": "2013-05-25T03:50:56Z",
+      "sha1": "ed4d5ba3346a79d517611fd1633eb78944575577"
+    },
+    {
+      "title": "Taura",
+      "pageid": 7047,
+      "revid": 2547670,
+      "revisedAt": "2013-05-25T03:51:05Z",
+      "sha1": "b440c409c6caae74ff92d902f6c904afbf65df3b"
+    },
+    {
+      "title": "Fugui Ge",
+      "pageid": 7048,
+      "revid": 2547671,
+      "revisedAt": "2013-05-25T03:51:15Z",
+      "sha1": "deffbb31b7acd98b9011e9b850af92e6089a7393"
+    },
+    {
+      "title": "Lain",
+      "pageid": 7049,
+      "revid": 2547672,
+      "revisedAt": "2013-05-25T03:51:27Z",
+      "sha1": "11a1a7e60710078856aec2d0d35f018006946d52"
+    },
+    {
+      "title": "Kakumei",
+      "pageid": 7053,
+      "revid": 2547674,
+      "revisedAt": "2013-05-25T03:52:41Z",
+      "sha1": "771dae8c70b735c261f645726356085999c7af0a"
+    },
+    {
+      "title": "Ryoko",
+      "pageid": 7054,
+      "revid": 2547675,
+      "revisedAt": "2013-05-25T03:52:50Z",
+      "sha1": "a36014f9cdaf4c295f575e5afe8ebe05e18ca6aa"
+    },
+    {
+      "title": "Suki",
+      "pageid": 7055,
+      "revid": 2547676,
+      "revisedAt": "2013-05-25T03:53:18Z",
+      "sha1": "d574a8237f9074c18fa0019a65a3f74be698ff31"
+    },
+    {
+      "title": "Voldo the Exotic",
+      "pageid": 7071,
+      "revid": 2547678,
+      "revisedAt": "2013-05-25T03:53:45Z",
+      "sha1": "0c1a5cb6315159eff04fb1734800d7933f68b33f"
+    },
+    {
+      "title": "Koumei",
+      "pageid": 25810,
+      "revid": 2547679,
+      "revisedAt": "2013-05-25T03:54:04Z",
+      "sha1": "612d0e0d157bdad74abf17d16841872551b2b939"
+    },
+    {
+      "title": "Maiya",
+      "pageid": 25811,
+      "revid": 2547683,
+      "revisedAt": "2013-05-25T03:57:26Z",
+      "sha1": "be8d6ede258663262f61638c6536be8e1d41c664"
+    },
+    {
+      "title": "Burreh",
+      "pageid": 34679,
+      "revid": 2547689,
+      "revisedAt": "2013-05-25T03:59:12Z",
+      "sha1": "960ce4030ee52f2b0986236041a096b508f728d9"
+    },
+    {
+      "title": "Palmod",
+      "pageid": 13891,
+      "revid": 2547693,
+      "revisedAt": "2013-05-25T04:00:24Z",
+      "sha1": "aab45b5967edc7d43c02a6ebeabb3a73941ad0bf"
+    },
+    {
+      "title": "Keeper of Armor",
+      "pageid": 27022,
+      "revid": 2547694,
+      "revisedAt": "2013-05-25T04:00:31Z",
+      "sha1": "5c83756591fc287b354630ccec2c250083e3ec8c"
+    },
+    {
+      "title": "Jolvor Stoneforge",
+      "pageid": 94302,
+      "revid": 2547695,
+      "revisedAt": "2013-05-25T04:00:38Z",
+      "sha1": "a28aca5e7549324b0ba6d077b41d1a42161def56"
+    },
+    {
+      "title": "Brett",
+      "pageid": 63869,
+      "revid": 2547696,
+      "revisedAt": "2013-05-25T04:01:54Z",
+      "sha1": "0a689535d6c19ef27bc27e11e14c248b17715e37"
+    },
+    {
+      "title": "Radi",
+      "pageid": 63269,
+      "revid": 2547697,
+      "revisedAt": "2013-05-25T04:03:12Z",
+      "sha1": "bfe2d5caf284739477634992556d3248494a1e32"
+    },
+    {
+      "title": "Gobrech Stonefoot",
+      "pageid": 67020,
+      "revid": 2547699,
+      "revisedAt": "2013-05-25T04:04:16Z",
+      "sha1": "c53828a40ade0cc1a03c1a0b67a4248d15932c69"
+    },
+    {
+      "title": "Klub",
+      "pageid": 68415,
+      "revid": 2547700,
+      "revisedAt": "2013-05-25T04:04:36Z",
+      "sha1": "aca0d4d1b07f1f4b8a559d1f83367a4c47b228c7"
+    },
+    {
       "title": "Leviathan Pits",
       "pageid": 10483,
       "revid": 2547709,
@@ -5849,11 +8216,46 @@
       "sha1": "7ea84ed788fcec7b205ac96c087ede5e9bf9255b"
     },
     {
+      "title": "Tateos",
+      "pageid": 7085,
+      "revid": 2548137,
+      "revisedAt": "2013-05-29T03:46:31Z",
+      "sha1": "6f65d98a71410bb735237abff741758fc01fb62d"
+    },
+    {
+      "title": "Mikolas",
+      "pageid": 7175,
+      "revid": 2548138,
+      "revisedAt": "2013-05-29T03:46:51Z",
+      "sha1": "0266a710f47d94ffe85c0a0762add5406962014f"
+    },
+    {
       "title": "Droajam, Mage of the Sands",
       "pageid": 33343,
       "revid": 2548328,
       "revisedAt": "2013-06-02T17:43:01Z",
       "sha1": "6ac883287dcf151322c07ef15aabc99d305fb83c"
+    },
+    {
+      "title": "Sol Pyrrhus",
+      "pageid": 6955,
+      "revid": 2548620,
+      "revisedAt": "2013-06-07T02:03:33Z",
+      "sha1": "bfd479350a20e0ab8e7b8e74f8d3ab81d467d5ec"
+    },
+    {
+      "title": "Rotscale (Zaishen quest)",
+      "pageid": 201058,
+      "revid": 2548951,
+      "revisedAt": "2013-06-13T07:32:02Z",
+      "sha1": "67172bcc82417832aaee7c24fb3f229896dd993c"
+    },
+    {
+      "title": "Saphir",
+      "pageid": 6899,
+      "revid": 2549687,
+      "revisedAt": "2013-06-25T22:57:04Z",
+      "sha1": "bf82d7800d981dfd6499b1d07810e8ad9827826b"
     },
     {
       "title": "Attendant Chien",
@@ -5982,6 +8384,13 @@
       "sha1": "dc7d495d736ceee264eefa96ea526fe7f0248194"
     },
     {
+      "title": "Ranger Tyrian armor",
+      "pageid": 6552,
+      "revid": 2551798,
+      "revisedAt": "2013-08-03T08:23:42Z",
+      "sha1": "2a41410eeec1ad90144ed293f8bb9823a8b99a8c"
+    },
+    {
       "title": "Gate of the Nightfallen Lands",
       "pageid": 8969,
       "revid": 2552038,
@@ -5994,6 +8403,13 @@
       "revid": 2552549,
       "revisedAt": "2013-08-18T07:05:58Z",
       "sha1": "9155f682a9e62a3f85d3158a14c303d66d709f99"
+    },
+    {
+      "title": "Mesmer Kurzick armor",
+      "pageid": 5738,
+      "revid": 2552557,
+      "revisedAt": "2013-08-18T11:14:41Z",
+      "sha1": "c4d46ee91209d41ab71192cf714127487b54a98e"
     },
     {
       "title": "Jacado the Putrid",
@@ -6029,6 +8445,13 @@
       "revid": 2555288,
       "revisedAt": "2013-09-24T08:10:53Z",
       "sha1": "ddab273538e9b2adc24867d980d6e66933dc254f"
+    },
+    {
+      "title": "Korshek the Immolated (Zaishen quest)",
+      "pageid": 203120,
+      "revid": 2555496,
+      "revisedAt": "2013-09-27T06:53:53Z",
+      "sha1": "3f8b365fafc24b14c7c2f563a7e5c3b4d08a2102"
     },
     {
       "title": "Mungri Magicbox",
@@ -6073,6 +8496,13 @@
       "sha1": "66232c7d3266a47f4f4a750550fb4db68b63fb45"
     },
     {
+      "title": "Elementalist Flame Eye",
+      "pageid": 34920,
+      "revid": 2558356,
+      "revisedAt": "2013-11-11T10:28:29Z",
+      "sha1": "d7d6c86b017a180b9cd8b33b703de8052e468b45"
+    },
+    {
       "title": "Afflicted Guardsman Chun",
       "pageid": 9683,
       "revid": 2558626,
@@ -6113,6 +8543,27 @@
       "revid": 2559328,
       "revisedAt": "2013-11-28T07:33:13Z",
       "sha1": "c6f3c71c5c72fa6b59db0907e0eecfeb0572b1ff"
+    },
+    {
+      "title": "Template:Cycle/ZVanquish",
+      "pageid": 275651,
+      "revid": 2559667,
+      "revisedAt": "2013-12-02T21:38:17Z",
+      "sha1": "666fe6bbaadf93bc1c44ad4cf2b10941ea7e5ff1"
+    },
+    {
+      "title": "Template:Cycle/ZMission",
+      "pageid": 262476,
+      "revid": 2559668,
+      "revisedAt": "2013-12-02T21:38:35Z",
+      "sha1": "61211bac6c592b4eb31797ec1d8e88bac29a7724"
+    },
+    {
+      "title": "Template:Cycle/ZCombat",
+      "pageid": 262478,
+      "revid": 2559669,
+      "revisedAt": "2013-12-02T21:38:47Z",
+      "sha1": "6b3e10b6f05aa0f18f0157a21fc46d498103ef8d"
     },
     {
       "title": "Baglorag Grumblesnort",
@@ -6260,6 +8711,13 @@
       "revid": 2562780,
       "revisedAt": "2014-01-21T07:59:21Z",
       "sha1": "b18b686d30562d091e67b1fa24dca244df9714d3"
+    },
+    {
+      "title": "Seifred",
+      "pageid": 6968,
+      "revid": 2563253,
+      "revisedAt": "2014-01-25T17:13:38Z",
+      "sha1": "4a3952924b02e63dcf7b06106f588480d36c4a8b"
     },
     {
       "title": "Adept of Spirits/Collector",
@@ -6444,6 +8902,13 @@
       "sha1": "19efa2fde7fff6c21615dc7d4290921938580206"
     },
     {
+      "title": "Guild Versus Guild (Zaishen quest)",
+      "pageid": 199265,
+      "revid": 2568474,
+      "revisedAt": "2014-05-07T02:09:12Z",
+      "sha1": "11e2e8e66dcd2b0b7da55a30b2a95ead57476468"
+    },
+    {
       "title": "Yammirvu, Ether Guardian",
       "pageid": 16111,
       "revid": 2568637,
@@ -6472,6 +8937,20 @@
       "sha1": "723209b19f48e76ee90a6fcc31a85232ce18c591"
     },
     {
+      "title": "Baubao Wavewrath (Zaishen quest)",
+      "pageid": 203387,
+      "revid": 2569238,
+      "revisedAt": "2014-05-25T21:01:55Z",
+      "sha1": "3462f70c01830e8567438425f7a42dd5e8f45d11"
+    },
+    {
+      "title": "Rragar Maneater (Zaishen quest)",
+      "pageid": 199796,
+      "revid": 2569253,
+      "revisedAt": "2014-05-25T22:26:14Z",
+      "sha1": "acc43c94ac5e43abc106d144f7cc160f37b64d53"
+    },
+    {
       "title": "Andru Pitrak",
       "pageid": 31363,
       "revid": 2569259,
@@ -6491,6 +8970,13 @@
       "revid": 2569547,
       "revisedAt": "2014-05-28T19:10:17Z",
       "sha1": "70cd358ad5fc3dfc8f2705faeac57b35c452285a"
+    },
+    {
+      "title": "Tahnnakai Temple (Zaishen quest)",
+      "pageid": 201791,
+      "revid": 2569690,
+      "revisedAt": "2014-06-02T04:19:44Z",
+      "sha1": "ff54da1ba7f7dfc230f6749124964197deec2ebd"
     },
     {
       "title": "Mragga",
@@ -6528,11 +9014,39 @@
       "sha1": "f351b9d38569c3545b7424e63b027ba7fe4b1c11"
     },
     {
+      "title": "Ranger Ancient armor",
+      "pageid": 8599,
+      "revid": 2571904,
+      "revisedAt": "2014-07-18T08:05:36Z",
+      "sha1": "39d1ddfd7130b7078502b4ae2f1a818bb5cb7584"
+    },
+    {
+      "title": "Ranger Elite Druid armor",
+      "pageid": 6785,
+      "revid": 2571905,
+      "revisedAt": "2014-07-18T08:06:45Z",
+      "sha1": "3fedd169beb15741cf8f428ae12b8348e0b2a7ea"
+    },
+    {
       "title": "The Skill Eater (boss)",
       "pageid": 40988,
       "revid": 2572153,
       "revisedAt": "2014-07-19T08:17:01Z",
       "sha1": "a7c66835c2ae8573e8d593a9bc15cecf04d6d76e"
+    },
+    {
+      "title": "Kepkhet Marrowfeast (Zaishen quest)",
+      "pageid": 200414,
+      "revid": 2572306,
+      "revisedAt": "2014-07-20T22:13:54Z",
+      "sha1": "a90fd4d37fc3056935131864e9a16c976db68cc4"
+    },
+    {
+      "title": "Ranger Krytan armor",
+      "pageid": 6316,
+      "revid": 2572446,
+      "revisedAt": "2014-07-23T03:34:34Z",
+      "sha1": "00a2de927c82b07b85db2217ffc0b1fc75fdc02b"
     },
     {
       "title": "Defiant Ancient Sseer",
@@ -6570,6 +9084,27 @@
       "sha1": "9e371779dcfd76849223429b7fbc7a759aad0165"
     },
     {
+      "title": "Warrior Elite Platemail armor",
+      "pageid": 12168,
+      "revid": 2572920,
+      "revisedAt": "2014-07-30T03:22:21Z",
+      "sha1": "6e98aa342d61d72cbcd2330145efeb1c570af1a7"
+    },
+    {
+      "title": "Elementalist Asuran armor",
+      "pageid": 66945,
+      "revid": 2572951,
+      "revisedAt": "2014-07-30T09:45:40Z",
+      "sha1": "906a9c8ff42b3d93c3bf45b1d9f2b3452e4c5f86"
+    },
+    {
+      "title": "Chung, the Attuned (Zaishen quest)",
+      "pageid": 200551,
+      "revid": 2573027,
+      "revisedAt": "2014-07-31T19:18:04Z",
+      "sha1": "b0d1f63f1213d5488840de3c04d50f2b88899af5"
+    },
+    {
       "title": "Timberland Guardian",
       "pageid": 74221,
       "revid": 2573181,
@@ -6603,6 +9138,13 @@
       "revid": 2574061,
       "revisedAt": "2014-08-16T19:19:10Z",
       "sha1": "4f0c8992c654133ea215bc5fccbee873875a2387"
+    },
+    {
+      "title": "Nahpui Quarter (Zaishen quest)",
+      "pageid": 200552,
+      "revid": 2574157,
+      "revisedAt": "2014-08-20T02:01:39Z",
+      "sha1": "e67f03968d8e0be2a115e635382fa19472dab2fb"
     },
     {
       "title": "The Big Unfriendly Jotun",
@@ -6673,6 +9215,13 @@
       "revid": 2576678,
       "revisedAt": "2014-10-11T22:10:24Z",
       "sha1": "cbcf0ed8135ca9855ec2d4839f991ff6c79dd2d9"
+    },
+    {
+      "title": "The Four Horsemen (Zaishen quest)",
+      "pageid": 203910,
+      "revid": 2576849,
+      "revisedAt": "2014-10-18T05:06:41Z",
+      "sha1": "9dde2dd3fb159847a7bb38ac96adab55ce5d07aa"
     },
     {
       "title": "Whispering Ritual Lord",
@@ -6766,6 +9315,13 @@
       "sha1": "839d4370692f48b34bc0cf46dc48056d7e12f947"
     },
     {
+      "title": "The Darknesses (Zaishen quest)",
+      "pageid": 203549,
+      "revid": 2579558,
+      "revisedAt": "2014-12-03T09:13:28Z",
+      "sha1": "532bd7670068b22a6f9fe366b5ae81701e8050fc"
+    },
+    {
       "title": "Lenn Giantsbane",
       "pageid": 17414,
       "revid": 2580371,
@@ -6780,11 +9336,39 @@
       "sha1": "06b9eb2948c72415121feab59118c2ffa6294939"
     },
     {
+      "title": "Ranger Traveler Mask",
+      "pageid": 37677,
+      "revid": 2580564,
+      "revisedAt": "2015-01-02T06:52:28Z",
+      "sha1": "d71df11074dcb596fa48197abd7c2ad641661069"
+    },
+    {
       "title": "Eshekibeh Longneck",
       "pageid": 21110,
       "revid": 2580678,
       "revisedAt": "2015-01-06T06:40:18Z",
       "sha1": "31a3f057cfdb4984f4afdad97bba46c1f68d5681"
+    },
+    {
+      "title": "The Iron Forgeman (Zaishen quest)",
+      "pageid": 204375,
+      "revid": 2580902,
+      "revisedAt": "2015-01-11T09:58:52Z",
+      "sha1": "8f3dfa159f78cb0fa9bc2354807381ba6979fc25"
+    },
+    {
+      "title": "The Stygian Lords (Zaishen quest)",
+      "pageid": 200275,
+      "revid": 2580904,
+      "revisedAt": "2015-01-11T10:02:34Z",
+      "sha1": "75f8183027decd8e83182df54b0d91b778e05cf8"
+    },
+    {
+      "title": "The Stygian Underlords (Zaishen quest)",
+      "pageid": 212525,
+      "revid": 2580905,
+      "revisedAt": "2015-01-11T10:02:53Z",
+      "sha1": "121b68ab106bef2eb41d71cea76941045696081e"
     },
     {
       "title": "Thul Boulderrain",
@@ -6794,11 +9378,25 @@
       "sha1": "f5d7ea44cc8ab521eeb738d7483fa2cb4553c88e"
     },
     {
+      "title": "Wei Qi",
+      "pageid": 25808,
+      "revid": 2582365,
+      "revisedAt": "2015-02-07T00:08:49Z",
+      "sha1": "986a42d22e911225e9e9190ff27abcea325560b5"
+    },
+    {
       "title": "Sinbi/Collector",
       "pageid": 49865,
       "revid": 2583597,
       "revisedAt": "2015-02-28T18:50:31Z",
       "sha1": "0f7f225e72da6a56620f7d692f3a9f8a6246c75e"
+    },
+    {
+      "title": "Prismatic Ooze (Zaishen quest)",
+      "pageid": 205973,
+      "revid": 2583624,
+      "revisedAt": "2015-03-01T17:44:03Z",
+      "sha1": "5a2358e5cb0eebe80b7d95d51a0539fc9d18a10f"
     },
     {
       "title": "Kristoffir Roi/Collector",
@@ -6857,6 +9455,13 @@
       "sha1": "390f33af841ef8d4f8f5bca54a9ccbbff037d87d"
     },
     {
+      "title": "Heroes' Ascent (Zaishen quest)",
+      "pageid": 199992,
+      "revid": 2584638,
+      "revisedAt": "2015-04-11T08:24:14Z",
+      "sha1": "d7252e8a5e1ff38b519cda5a643fe1883750f4ed"
+    },
+    {
       "title": "Ehiyah/Collector",
       "pageid": 63027,
       "revid": 2584641,
@@ -6890,6 +9495,13 @@
       "revid": 2586994,
       "revisedAt": "2015-05-05T00:00:43Z",
       "sha1": "28a9f08be949907d81e58607c2340939fbc05f53"
+    },
+    {
+      "title": "Dervish Sunspear armor",
+      "pageid": 13059,
+      "revid": 2587366,
+      "revisedAt": "2015-05-13T09:09:17Z",
+      "sha1": "aa00fa5f64858d170871770a22cabf59ad55e5a7"
     },
     {
       "title": "Droknar",
@@ -6976,6 +9588,13 @@
       "sha1": "2b1d83f43b03ff88e8f3380c4bcc27d6c843db00"
     },
     {
+      "title": "Ranger Druid armor",
+      "pageid": 6627,
+      "revid": 2591197,
+      "revisedAt": "2015-07-17T01:56:49Z",
+      "sha1": "7d68f79cddaebf322277a816657afe8318d350d9"
+    },
+    {
       "title": "Facet of Spirit",
       "pageid": 77894,
       "revid": 2591482,
@@ -6988,6 +9607,20 @@
       "revid": 2592688,
       "revisedAt": "2015-08-07T06:53:36Z",
       "sha1": "7b1adbfded9dd1ce30e40c8236f5b8eed54ed4b1"
+    },
+    {
+      "title": "Monk Elite Saintly armor",
+      "pageid": 5840,
+      "revid": 2593179,
+      "revisedAt": "2015-08-19T11:09:04Z",
+      "sha1": "59a765aacd48fbffd8bb8ead7072d4e90aa76e7a"
+    },
+    {
+      "title": "Myish, Lady of the Lake (Zaishen quest)",
+      "pageid": 205873,
+      "revid": 2593611,
+      "revisedAt": "2015-08-30T09:14:42Z",
+      "sha1": "26c0deae27973d3238b26b7837eef7d6cf935363"
     },
     {
       "title": "Nundak The Archer",
@@ -7193,6 +9826,13 @@
       "sha1": "05a3f8450668f1096cc0bf1b111f27c9fbec9d5a"
     },
     {
+      "title": "Rand Stormweaver (Zaishen quest)",
+      "pageid": 216404,
+      "revid": 2598000,
+      "revisedAt": "2015-11-02T21:55:52Z",
+      "sha1": "2a8cde3a7fd6799c31711b65ed071c3208c008dd"
+    },
+    {
       "title": "Senkai, Lord of the 1,000 Daggers Guild",
       "pageid": 21493,
       "revid": 2598174,
@@ -7319,6 +9959,13 @@
       "sha1": "8671cbe0f28364b9659fc13aeb29c1b158a3ddf4"
     },
     {
+      "title": "Quansong Spiritspeak (Zaishen quest)",
+      "pageid": 203752,
+      "revid": 2600767,
+      "revisedAt": "2016-01-31T14:44:24Z",
+      "sha1": "bf98ff76d4dfd9f0cd079a150ff77f25b2911af9"
+    },
+    {
       "title": "Keotah",
       "pageid": 43097,
       "revid": 2600774,
@@ -7373,6 +10020,13 @@
       "revid": 2602225,
       "revisedAt": "2016-03-01T14:55:40Z",
       "sha1": "11276f30372454a9dead2ed08684a62304365537"
+    },
+    {
+      "title": "Alliance Battles (Zaishen quest)",
+      "pageid": 199404,
+      "revid": 2602398,
+      "revisedAt": "2016-03-07T23:45:04Z",
+      "sha1": "d8965943561375547c7f14641dfaa194253af8c1"
     },
     {
       "title": "Torment Weaver",
@@ -7431,11 +10085,32 @@
       "sha1": "36aaa5fd2e6630466712ba43bd0d3abbfe10ff1f"
     },
     {
+      "title": "Pasu",
+      "pageid": 34709,
+      "revid": 2603623,
+      "revisedAt": "2016-03-28T22:39:26Z",
+      "sha1": "ed1607ecc30e128c91bee9c81c54476903a4bd9f"
+    },
+    {
+      "title": "Vatundo",
+      "pageid": 34673,
+      "revid": 2603635,
+      "revisedAt": "2016-03-28T22:43:03Z",
+      "sha1": "6345d7918549fb361a7a5ceda3c1d4a563a59189"
+    },
+    {
       "title": "Oath of Profanity",
       "pageid": 17492,
       "revid": 2603705,
       "revisedAt": "2016-03-29T17:26:40Z",
       "sha1": "9aceed0bef2a1a2752caa5af7cf20fe53233b533"
+    },
+    {
+      "title": "Ahamid",
+      "pageid": 34717,
+      "revid": 2603724,
+      "revisedAt": "2016-03-30T06:15:34Z",
+      "sha1": "60be545778939dabe232e1473f75af0dd738c78e"
     },
     {
       "title": "Sunspear Quartermaster",
@@ -7478,6 +10153,27 @@
       "revid": 2603916,
       "revisedAt": "2016-03-31T18:33:19Z",
       "sha1": "c313c345baa223a60513dfb28aee9cca65dd3732"
+    },
+    {
+      "title": "The Greater Darkness (Zaishen quest)",
+      "pageid": 202700,
+      "revid": 2603936,
+      "revisedAt": "2016-03-31T19:54:32Z",
+      "sha1": "e28624148c71d98d17aa5355d32f70e6de9a2568"
+    },
+    {
+      "title": "Mehinu",
+      "pageid": 16649,
+      "revid": 2604085,
+      "revisedAt": "2016-04-01T22:43:51Z",
+      "sha1": "eab44c877c0af0cd546db575f709dc51417a76a6"
+    },
+    {
+      "title": "Sulee",
+      "pageid": 34713,
+      "revid": 2604088,
+      "revisedAt": "2016-04-01T22:44:21Z",
+      "sha1": "d4d64247ee53e5fb5bc49c0a9a115dfcd7f61fdf"
     },
     {
       "title": "Timahr",
@@ -7725,6 +10421,13 @@
       "sha1": "ccc8b46cf4f96fe636949e67f87c29fd2276545f"
     },
     {
+      "title": "Ranger Monument armor",
+      "pageid": 67147,
+      "revid": 2606808,
+      "revisedAt": "2016-06-06T22:47:23Z",
+      "sha1": "05599b4e4e213bf05203ada277a73316b13eb4b0"
+    },
+    {
       "title": "Jarimiya the Unmerciful",
       "pageid": 38622,
       "revid": 2607002,
@@ -7781,6 +10484,13 @@
       "sha1": "10c234d4c339e9a745b78171a673c475c75df41c"
     },
     {
+      "title": "Assassin Elite Luxon armor",
+      "pageid": 15838,
+      "revid": 2611468,
+      "revisedAt": "2016-09-04T02:44:14Z",
+      "sha1": "7187a6c5fbe906abdd6680b6b1d5665baeb5ef1c"
+    },
+    {
       "title": "Dabineh Deathbringer",
       "pageid": 8308,
       "revid": 2611471,
@@ -7793,6 +10503,13 @@
       "revid": 2611544,
       "revisedAt": "2016-09-09T09:45:17Z",
       "sha1": "410bc448c59671094757d9e8ece9d576c665b39b"
+    },
+    {
+      "title": "Warrior Heavy Breastplate",
+      "pageid": 70133,
+      "revid": 2611760,
+      "revisedAt": "2016-09-20T11:52:47Z",
+      "sha1": "548da5740633abfbc5dc08e0ede0fa30cf0b0a35"
     },
     {
       "title": "The Cipher of Balthazar",
@@ -7844,11 +10561,25 @@
       "sha1": "a8af840ff9bf52979b447b7c2dd0601d405d3898"
     },
     {
+      "title": "Mesmer Ascalon armor",
+      "pageid": 5301,
+      "revid": 2612298,
+      "revisedAt": "2016-10-21T13:26:31Z",
+      "sha1": "cd3346fafc868734394d89dc19ae6adeb9353a5a"
+    },
+    {
       "title": "Lady Engelram",
       "pageid": 47423,
       "revid": 2612578,
       "revisedAt": "2016-11-05T20:25:17Z",
       "sha1": "656f5fab52a608b56cc4c68faf79af34c70b7c19"
+    },
+    {
+      "title": "Necromancer Sunspear armor",
+      "pageid": 18205,
+      "revid": 2612619,
+      "revisedAt": "2016-11-08T13:21:56Z",
+      "sha1": "d697ea254d9e04c26b4ff4d80c282454fafb0f1a"
     },
     {
       "title": "Incetol, Devout of Depths",
@@ -7970,6 +10701,125 @@
       "sha1": "566b9caa4789aa2492986d3ca319d0e7174e84e8"
     },
     {
+      "title": "Armorer",
+      "pageid": 4507,
+      "revid": 2619187,
+      "revisedAt": "2017-06-24T23:24:49Z",
+      "sha1": "87933869a8075bcf573271b54035ac67fcbe819e"
+    },
+    {
+      "title": "Admiral Kantoh (Zaishen quest)",
+      "pageid": 209242,
+      "revid": 2619741,
+      "revisedAt": "2017-06-28T22:12:14Z",
+      "sha1": "8011fab985dffecd1d772a2c959c1af755081cf3"
+    },
+    {
+      "title": "Blacktide Den (Zaishen quest)",
+      "pageid": 199395,
+      "revid": 2619751,
+      "revisedAt": "2017-06-28T22:12:39Z",
+      "sha1": "e0f3aa3188636510cba7600a79868482b43da392"
+    },
+    {
+      "title": "Chahbek Village (Zaishen quest)",
+      "pageid": 204575,
+      "revid": 2619758,
+      "revisedAt": "2017-06-28T22:12:55Z",
+      "sha1": "c7a02d075668a42f5a820dcd9f9084ea092dea71"
+    },
+    {
+      "title": "Consulate Docks (Zaishen quest)",
+      "pageid": 200279,
+      "revid": 2619761,
+      "revisedAt": "2017-06-28T22:13:02Z",
+      "sha1": "44c598940aa3a0351396b5317b52343eb90bff6e"
+    },
+    {
+      "title": "Dzagonur Bastion (Zaishen quest)",
+      "pageid": 200881,
+      "revid": 2619770,
+      "revisedAt": "2017-06-28T22:13:27Z",
+      "sha1": "550795754c219905708d6fce334a7d5f00507f78"
+    },
+    {
+      "title": "Jarimiya the Unmerciful (Zaishen quest)",
+      "pageid": 205329,
+      "revid": 2619789,
+      "revisedAt": "2017-06-28T22:14:13Z",
+      "sha1": "26e4b7717eb0495b6ac173fd7827eafd052b27a5"
+    },
+    {
+      "title": "Jedeh the Mighty (Zaishen quest)",
+      "pageid": 205612,
+      "revid": 2619790,
+      "revisedAt": "2017-06-28T22:14:15Z",
+      "sha1": "bc4e8f572e42294841453263218886733fffe6fb"
+    },
+    {
+      "title": "Jokanur Diggings (Zaishen quest)",
+      "pageid": 203119,
+      "revid": 2619792,
+      "revisedAt": "2017-06-28T22:14:18Z",
+      "sha1": "cb30610454ae6edcbea99e4ecac612c50d612382"
+    },
+    {
+      "title": "Kodonur Crossroads (Zaishen quest)",
+      "pageid": 205730,
+      "revid": 2619794,
+      "revisedAt": "2017-06-28T22:14:21Z",
+      "sha1": "f31caf912c7f22fc7d6d7e052fc3c57370a544f3"
+    },
+    {
+      "title": "Moddok Crevice (Zaishen quest)",
+      "pageid": 202816,
+      "revid": 2619810,
+      "revisedAt": "2017-06-28T22:14:54Z",
+      "sha1": "cc89ff78036991fcbff49f20593a728584448721"
+    },
+    {
+      "title": "Pogahn Passage (Zaishen quest)",
+      "pageid": 275616,
+      "revid": 2619815,
+      "revisedAt": "2017-06-28T22:15:06Z",
+      "sha1": "9d2b366c7f9c5c225635a03bab0ba9fef374d8ad"
+    },
+    {
+      "title": "Rilohn Refuge (Zaishen quest)",
+      "pageid": 216074,
+      "revid": 2619822,
+      "revisedAt": "2017-06-28T22:15:25Z",
+      "sha1": "6472f151b3dd8becc67c6ed40f8a7548d10bd1b7"
+    },
+    {
+      "title": "Tihark Orchard (Zaishen quest)",
+      "pageid": 204891,
+      "revid": 2619846,
+      "revisedAt": "2017-06-28T22:16:28Z",
+      "sha1": "c5051cf6dc2ff6d9ae62eac7da261e62a4bdd54e"
+    },
+    {
+      "title": "Venta Cemetery (Zaishen quest)",
+      "pageid": 201491,
+      "revid": 2619854,
+      "revisedAt": "2017-06-28T22:16:51Z",
+      "sha1": "fbfe3b454a9546f3fd77d3085875df65dc4bfcf9"
+    },
+    {
+      "title": "Necromancer Elite Profane armor",
+      "pageid": 18190,
+      "revid": 2620073,
+      "revisedAt": "2017-07-07T21:26:49Z",
+      "sha1": "18a0d226f87552af5e470bd49fa0ff15813dc37a"
+    },
+    {
+      "title": "Elementalist Elite Stormforged armor",
+      "pageid": 11841,
+      "revid": 2620074,
+      "revisedAt": "2017-07-07T21:37:01Z",
+      "sha1": "5b9aca255bf61eaad7819dab7ead5d5ed50f4e79"
+    },
+    {
       "title": "Roland le Moisson",
       "pageid": 14844,
       "revid": 2620130,
@@ -7982,6 +10832,20 @@
       "revid": 2620224,
       "revisedAt": "2017-07-11T00:11:29Z",
       "sha1": "1444e00a49234327e4bbe68cbf09cd876720e6ec"
+    },
+    {
+      "title": "Mesmer Elite Elegant armor",
+      "pageid": 5718,
+      "revid": 2620594,
+      "revisedAt": "2017-07-17T10:31:12Z",
+      "sha1": "e7b852fb9d1d71ebc5a03ae2e5e96066d4bcc3c9"
+    },
+    {
+      "title": "Warrior Elite Gladiator armor",
+      "pageid": 12161,
+      "revid": 2620607,
+      "revisedAt": "2017-07-17T14:43:56Z",
+      "sha1": "8a0ab14ffd7f0a40b1c96e36b1a92fe81c0820f5"
     },
     {
       "title": "Eye of the North (outpost)",
@@ -8003,6 +10867,104 @@
       "revid": 2621246,
       "revisedAt": "2017-08-11T19:19:02Z",
       "sha1": "824352c1c773e4d3daef84442f8f723e0bee91e7"
+    },
+    {
+      "title": "Warrior Silver Eagle armor",
+      "pageid": 68227,
+      "revid": 2621336,
+      "revisedAt": "2017-08-15T15:03:50Z",
+      "sha1": "13a83ed0ccb1f7a2237c28879575d4c271798e4b"
+    },
+    {
+      "title": "Warrior Kurzick armor",
+      "pageid": 12628,
+      "revid": 2621353,
+      "revisedAt": "2017-08-15T15:25:55Z",
+      "sha1": "4f00f75d6b0ff86edf48118cd0bdf230e9527ce7"
+    },
+    {
+      "title": "Warrior Ascalon armor",
+      "pageid": 6014,
+      "revid": 2621354,
+      "revisedAt": "2017-08-15T15:26:16Z",
+      "sha1": "cf88344942e374598d5257f2a50b93cd5e7a09bf"
+    },
+    {
+      "title": "Warrior Krytan armor",
+      "pageid": 6017,
+      "revid": 2621355,
+      "revisedAt": "2017-08-15T15:26:27Z",
+      "sha1": "01a41856260ddcf80c2eb94642a6df14e5c7a653"
+    },
+    {
+      "title": "Warrior Charr Hide armor",
+      "pageid": 12155,
+      "revid": 2621359,
+      "revisedAt": "2017-08-15T15:27:54Z",
+      "sha1": "42819fe18473606529cd7d8e69d8a1db01557666"
+    },
+    {
+      "title": "Warrior Tyrian armor",
+      "pageid": 6045,
+      "revid": 2621360,
+      "revisedAt": "2017-08-15T15:28:14Z",
+      "sha1": "fd87c191e5fe4ce9ab2760f20e4fb275824b3190"
+    },
+    {
+      "title": "Warrior Gladiator armor",
+      "pageid": 7735,
+      "revid": 2621361,
+      "revisedAt": "2017-08-15T15:29:06Z",
+      "sha1": "2ed2bc07fbc1546fce2f3c776bca6ecde1e09860"
+    },
+    {
+      "title": "Warrior Platemail armor",
+      "pageid": 12170,
+      "revid": 2621363,
+      "revisedAt": "2017-08-15T15:30:57Z",
+      "sha1": "4f5f15f004e7237c23878e152dca436a13c1c3d4"
+    },
+    {
+      "title": "Warrior Shing Jea armor",
+      "pageid": 12636,
+      "revid": 2621365,
+      "revisedAt": "2017-08-15T15:33:19Z",
+      "sha1": "b22f9da087841f9faa59972b2e8533a3a6864ac4"
+    },
+    {
+      "title": "Warrior Wyvern armor",
+      "pageid": 12166,
+      "revid": 2621366,
+      "revisedAt": "2017-08-15T15:33:46Z",
+      "sha1": "a621967ac343cd78ce3958efbcc80ee1f730d9d3"
+    },
+    {
+      "title": "Warrior Canthan armor",
+      "pageid": 12634,
+      "revid": 2621368,
+      "revisedAt": "2017-08-15T15:34:50Z",
+      "sha1": "77619361318b6fbe56083a5e8962074511603f5b"
+    },
+    {
+      "title": "Warrior Luxon armor",
+      "pageid": 12625,
+      "revid": 2621369,
+      "revisedAt": "2017-08-15T15:35:26Z",
+      "sha1": "5805eeaa1dd0413bad5bb1487bb15a4f772b593d"
+    },
+    {
+      "title": "Warrior Istani armor",
+      "pageid": 12383,
+      "revid": 2621370,
+      "revisedAt": "2017-08-15T15:35:48Z",
+      "sha1": "32a62370d90c1ea2433eb72f52b521d94690a130"
+    },
+    {
+      "title": "Warrior Sunspear armor",
+      "pageid": 12384,
+      "revid": 2621371,
+      "revisedAt": "2017-08-15T15:36:10Z",
+      "sha1": "7e5215ee97cce522412911c02840b1875f328b2e"
     },
     {
       "title": "The Granite Citadel",
@@ -8222,6 +11184,34 @@
       "sha1": "1b93dd00785401a7423b3be8ee9d456fadf91f9c"
     },
     {
+      "title": "Blood Washes Blood (Zaishen quest)",
+      "pageid": 199371,
+      "revid": 2622764,
+      "revisedAt": "2017-10-13T16:09:39Z",
+      "sha1": "6783b21244deb474247d5245d017635fca4513a9"
+    },
+    {
+      "title": "Abaddon's Mouth (Zaishen quest)",
+      "pageid": 213189,
+      "revid": 2622813,
+      "revisedAt": "2017-10-14T21:13:40Z",
+      "sha1": "448775da082794aafda8c1789ebff12160a041af"
+    },
+    {
+      "title": "Arachni (Zaishen quest)",
+      "pageid": 212999,
+      "revid": 2622829,
+      "revisedAt": "2017-10-16T00:09:58Z",
+      "sha1": "b78956689d906d89cfc7c69582984098143fba37"
+    },
+    {
+      "title": "Justiciar Thommis (Zaishen quest)",
+      "pageid": 206398,
+      "revid": 2622830,
+      "revisedAt": "2017-10-16T03:52:19Z",
+      "sha1": "29222b3edafbe5d68c81f4ec0ce1dff05cbd7102"
+    },
+    {
       "title": "Mihanu Township",
       "pageid": 8917,
       "revid": 2623020,
@@ -8241,6 +11231,13 @@
       "revid": 2623412,
       "revisedAt": "2017-11-04T09:21:46Z",
       "sha1": "1abbe22b7655357abebb5b775327180ce4d161a8"
+    },
+    {
+      "title": "Template:Automated weekly bonuses",
+      "pageid": 304846,
+      "revid": 2623413,
+      "revisedAt": "2017-11-04T12:52:17Z",
+      "sha1": "b09b0cd19b5f284ff3732842945b81c2881edbab"
     },
     {
       "title": "Keeper of Light",
@@ -8269,6 +11266,13 @@
       "revid": 2624380,
       "revisedAt": "2018-01-10T00:50:18Z",
       "sha1": "fe08fb908a847f859bc616c82234d96a33c2c370"
+    },
+    {
+      "title": "Ritualist Imperial armor",
+      "pageid": 16514,
+      "revid": 2624677,
+      "revisedAt": "2018-01-19T22:24:14Z",
+      "sha1": "d47dffb465bd4680379e156ba6e97cafe944d85b"
     },
     {
       "title": "Ekimeel Trueshot/Collector armor",
@@ -8313,11 +11317,872 @@
       "sha1": "998126d05e059d8310ec0afa105e9fca4d8374a5"
     },
     {
+      "title": "Zen Daijun (Zaishen vanquish)",
+      "pageid": 279998,
+      "revid": 2626802,
+      "revisedAt": "2018-05-05T01:55:21Z",
+      "sha1": "862ed882ac23290527541a47d44f2b9152cea60e"
+    },
+    {
+      "title": "Zehlon Reach (Zaishen vanquish)",
+      "pageid": 279863,
+      "revid": 2626803,
+      "revisedAt": "2018-05-05T01:55:26Z",
+      "sha1": "10b15b5c310047578cd9160f9b6e5e0a15663193"
+    },
+    {
+      "title": "Yatendi Canyons (Zaishen vanquish)",
+      "pageid": 279687,
+      "revid": 2626804,
+      "revisedAt": "2018-05-05T01:55:28Z",
+      "sha1": "bbcc83b4b2bf67669bd99ce78b287f1d2e779417"
+    },
+    {
+      "title": "Xaquang Skyway (Zaishen vanquish)",
+      "pageid": 279824,
+      "revid": 2626805,
+      "revisedAt": "2018-05-05T01:55:30Z",
+      "sha1": "36db5107bd53e972ff0db434d74ddd3f8a0c36eb"
+    },
+    {
+      "title": "Witman's Folly (Zaishen vanquish)",
+      "pageid": 281664,
+      "revid": 2626806,
+      "revisedAt": "2018-05-05T01:55:32Z",
+      "sha1": "83e5531c3da0ce94785cf4588766272fc92f2f0e"
+    },
+    {
+      "title": "Watchtower Coast (Zaishen vanquish)",
+      "pageid": 282154,
+      "revid": 2626808,
+      "revisedAt": "2018-05-05T01:55:42Z",
+      "sha1": "5c72fe2b0539423c91108fac99b57c2bfdee267c"
+    },
+    {
+      "title": "Wajjun Bazaar (Zaishen vanquish)",
+      "pageid": 279636,
+      "revid": 2626809,
+      "revisedAt": "2018-05-05T01:55:46Z",
+      "sha1": "80461337dc038d02c1f06c88e58bd13c7826e48e"
+    },
+    {
+      "title": "Vulture Drifts (Zaishen vanquish)",
+      "pageid": 281042,
+      "revid": 2626810,
+      "revisedAt": "2018-05-05T01:55:49Z",
+      "sha1": "ca47a9596d4a0452d467fce218ac7d19b483aa35"
+    },
+    {
+      "title": "Verdant Cascades (Zaishen vanquish)",
+      "pageid": 277277,
+      "revid": 2626811,
+      "revisedAt": "2018-05-05T01:55:50Z",
+      "sha1": "f84f470dd20ad8607b562a9af8017c871bcbd761"
+    },
+    {
+      "title": "Vehtendi Valley (Zaishen vanquish)",
+      "pageid": 281283,
+      "revid": 2626812,
+      "revisedAt": "2018-05-05T01:55:52Z",
+      "sha1": "c0c02207241d3fa259088ae4215f45c3a4839560"
+    },
+    {
+      "title": "Vehjin Mines (Zaishen vanquish)",
+      "pageid": 278726,
+      "revid": 2626813,
+      "revisedAt": "2018-05-05T01:55:54Z",
+      "sha1": "9a5fc68d19f4e3fb1be0a9b9ce6a1afcd5723eae"
+    },
+    {
+      "title": "Varajar Fells (Zaishen vanquish)",
+      "pageid": 277050,
+      "revid": 2626814,
+      "revisedAt": "2018-05-05T01:56:02Z",
+      "sha1": "47d300d30114a4bfd3c3ddc3e3f0fda8b6af18a1"
+    },
+    {
+      "title": "Twin Serpent Lakes (Zaishen vanquish)",
+      "pageid": 279738,
+      "revid": 2626816,
+      "revisedAt": "2018-05-05T01:56:06Z",
+      "sha1": "a587c7b8456363c16f0f783a09850cc15a34b911"
+    },
+    {
+      "title": "Turai's Procession (Zaishen vanquish)",
+      "pageid": 278507,
+      "revid": 2626817,
+      "revisedAt": "2018-05-05T01:56:09Z",
+      "sha1": "60dfaa57089441a676d5683f284a1d21c36768cd"
+    },
+    {
+      "title": "Traveler's Vale (Zaishen vanquish)",
+      "pageid": 280493,
+      "revid": 2626818,
+      "revisedAt": "2018-05-05T01:56:10Z",
+      "sha1": "d6756b03baec01853600187f31c756a135b5753a"
+    },
+    {
+      "title": "The Sulfurous Wastes (Zaishen vanquish)",
+      "pageid": 278348,
+      "revid": 2626819,
+      "revisedAt": "2018-05-05T01:56:12Z",
+      "sha1": "672f5e8dd3fd56589ec64b946c142f30b82bc9f3"
+    },
+    {
+      "title": "The Shattered Ravines (Zaishen vanquish)",
+      "pageid": 278115,
+      "revid": 2626820,
+      "revisedAt": "2018-05-05T01:56:13Z",
+      "sha1": "756575ea4107f03d6fca7d6e7371b7718819f611"
+    },
+    {
+      "title": "The Scar (Zaishen vanquish)",
+      "pageid": 280217,
+      "revid": 2626821,
+      "revisedAt": "2018-05-05T01:56:14Z",
+      "sha1": "d230a094dee8be0c0aebd16bf5b8b6b0fe189a41"
+    },
+    {
+      "title": "The Ruptured Heart (Zaishen vanquish)",
+      "pageid": 277938,
+      "revid": 2626822,
+      "revisedAt": "2018-05-05T01:56:15Z",
+      "sha1": "f543ba74b43d26d1976dcfd41e6350d1c6180575"
+    },
+    {
+      "title": "The Mirror of Lyss (Zaishen vanquish)",
+      "pageid": 277743,
+      "revid": 2626823,
+      "revisedAt": "2018-05-05T01:56:17Z",
+      "sha1": "0fbf6910c7b5bcf66e1d57a05e40866d121ec10e"
+    },
+    {
+      "title": "The Floodplain of Mahnkelon (Zaishen vanquish)",
+      "pageid": 277211,
+      "revid": 2626825,
+      "revisedAt": "2018-05-05T01:56:21Z",
+      "sha1": "a45d0f73a54479ef138ac77dd760878051914f83"
+    },
+    {
+      "title": "The Breach (Zaishen vanquish)",
+      "pageid": 280547,
+      "revid": 2626828,
+      "revisedAt": "2018-05-05T01:56:25Z",
+      "sha1": "117a730295106aa4c64872cd2f58daf5cd8031f9"
+    },
+    {
+      "title": "The Black Curtain (Zaishen vanquish)",
+      "pageid": 280277,
+      "revid": 2626829,
+      "revisedAt": "2018-05-05T01:56:27Z",
+      "sha1": "03f5b187b78218c793bf876c8162cde8b47f9ea5"
+    },
+    {
+      "title": "The Arid Sea (Zaishen vanquish)",
+      "pageid": 280048,
+      "revid": 2626830,
+      "revisedAt": "2018-05-05T01:56:28Z",
+      "sha1": "f5eb5e1caee95ab1bb4327a2cc4b42d5254fa0e0"
+    },
+    {
+      "title": "The Alkali Pan (Zaishen vanquish)",
+      "pageid": 277010,
+      "revid": 2626831,
+      "revisedAt": "2018-05-05T01:56:30Z",
+      "sha1": "2942db772b31b7ded1be6c2408a4fdabb9b47b07"
+    },
+    {
+      "title": "Tasca's Demise (Zaishen vanquish)",
+      "pageid": 279054,
+      "revid": 2626833,
+      "revisedAt": "2018-05-05T01:56:33Z",
+      "sha1": "7731e9d10d2d434471472a8f670aa14258450873"
+    },
+    {
+      "title": "Tangle Root (Zaishen vanquish)",
+      "pageid": 279928,
+      "revid": 2626834,
+      "revisedAt": "2018-05-05T01:56:34Z",
+      "sha1": "c924a9e2308ca413a350a738abfbf7f7d50d6ca0"
+    },
+    {
+      "title": "Talus Chute (Zaishen vanquish)",
+      "pageid": 281416,
+      "revid": 2626835,
+      "revisedAt": "2018-05-05T01:56:36Z",
+      "sha1": "16081390c78ba3096f88b1eb26c65d506bc5b1e2"
+    },
+    {
+      "title": "Talmark Wilderness (Zaishen vanquish)",
+      "pageid": 281139,
+      "revid": 2626836,
+      "revisedAt": "2018-05-05T01:56:38Z",
+      "sha1": "67279aa25f38065be6669004418730807d8b417d"
+    },
+    {
+      "title": "Sunward Marches (Zaishen vanquish)",
+      "pageid": 279502,
+      "revid": 2626838,
+      "revisedAt": "2018-05-05T01:56:42Z",
+      "sha1": "65f6fced1ff445518ce5eb1856339416534abbef"
+    },
+    {
+      "title": "Sunqua Vale (Zaishen vanquish)",
+      "pageid": 278481,
+      "revid": 2626839,
+      "revisedAt": "2018-05-05T01:56:43Z",
+      "sha1": "1aaf9a077f33dc4d86515d2f1dfcec6a3f24ced2"
+    },
+    {
+      "title": "Sunjiang District (Zaishen vanquish)",
+      "pageid": 278224,
+      "revid": 2626840,
+      "revisedAt": "2018-05-05T01:56:45Z",
+      "sha1": "e7f7699577aa3e16dbc38dc00e7ca8819c1880d2"
+    },
+    {
+      "title": "Spearhead Peak (Zaishen vanquish)",
+      "pageid": 280732,
+      "revid": 2626842,
+      "revisedAt": "2018-05-05T01:56:50Z",
+      "sha1": "307ca5f48ef072c1c17393ffc342effcaeba23cb"
+    },
+    {
+      "title": "Sparkfly Swamp (Zaishen vanquish)",
+      "pageid": 276821,
+      "revid": 2626843,
+      "revisedAt": "2018-05-05T01:56:52Z",
+      "sha1": "7114df15c02440df0be28d12a6dc160f22452d20"
+    },
+    {
+      "title": "Snake Dance (Zaishen vanquish)",
+      "pageid": 280431,
+      "revid": 2626844,
+      "revisedAt": "2018-05-05T01:56:55Z",
+      "sha1": "69bd3e3f35bdfc230bde4c75577d2b96a9441f3b"
+    },
+    {
+      "title": "Skyward Reach (Zaishen vanquish)",
+      "pageid": 280143,
+      "revid": 2626845,
+      "revisedAt": "2018-05-05T01:56:57Z",
+      "sha1": "f59e59224f6aef80665b7ac14164ea6a08fecb4d"
+    },
+    {
+      "title": "Silverwood (Zaishen vanquish)",
+      "pageid": 279970,
+      "revid": 2626846,
+      "revisedAt": "2018-05-05T01:56:58Z",
+      "sha1": "2947aa6301ddb0ef3cc24e5fcd7d0e5369d8147a"
+    },
+    {
+      "title": "Silent Surf (Zaishen vanquish)",
+      "pageid": 278028,
+      "revid": 2626847,
+      "revisedAt": "2018-05-05T01:57:00Z",
+      "sha1": "85c199651a8f55d25cfa78f81e6aab412bf6dc83"
+    },
+    {
+      "title": "Shenzun Tunnels (Zaishen vanquish)",
+      "pageid": 277903,
+      "revid": 2626848,
+      "revisedAt": "2018-05-05T01:57:01Z",
+      "sha1": "07af12cf4f1e0244b6df2b79e2b4e353fd474389"
+    },
+    {
+      "title": "Shadow's Passage (Zaishen vanquish)",
+      "pageid": 277646,
+      "revid": 2626849,
+      "revisedAt": "2018-05-05T01:57:03Z",
+      "sha1": "4f620bb2f0afafc9f93566568908677f1873dc44"
+    },
+    {
+      "title": "Scoundrel's Rise (Zaishen vanquish)",
+      "pageid": 278158,
+      "revid": 2626850,
+      "revisedAt": "2018-05-05T01:57:05Z",
+      "sha1": "d35094d3c48fb25463ab567f021e3fcda54653b5"
+    },
+    {
+      "title": "Saoshang Trail (Zaishen vanquish)",
+      "pageid": 277795,
+      "revid": 2626851,
+      "revisedAt": "2018-05-05T01:57:08Z",
+      "sha1": "34fe04d879f36454760c05cd6a97a4e022aef2b0"
+    },
+    {
+      "title": "Salt Flats (Zaishen vanquish)",
+      "pageid": 277978,
+      "revid": 2626852,
+      "revisedAt": "2018-05-05T01:57:10Z",
+      "sha1": "cc34b0d23edc4d7d6488035083b799f4bcf1def2"
+    },
+    {
+      "title": "Sage Lands (Zaishen vanquish)",
+      "pageid": 279774,
+      "revid": 2626853,
+      "revisedAt": "2018-05-05T01:57:11Z",
+      "sha1": "2f88506bb30a819030a40ee1be209db0c29b1263"
+    },
+    {
+      "title": "Sacnoth Valley (Zaishen vanquish)",
+      "pageid": 276617,
+      "revid": 2626854,
+      "revisedAt": "2018-05-05T01:57:14Z",
+      "sha1": "3b8636f4b9025275cbd9e4928e6ae752c910b18e"
+    },
+    {
+      "title": "Riven Earth (Zaishen vanquish)",
+      "pageid": 276380,
+      "revid": 2626855,
+      "revisedAt": "2018-05-05T01:57:16Z",
+      "sha1": "109c1ff6a4a2765b41600476f81475717c8a57d6"
+    },
+    {
+      "title": "Rhea's Crater (Zaishen vanquish)",
+      "pageid": 277488,
+      "revid": 2626856,
+      "revisedAt": "2018-05-05T01:57:17Z",
+      "sha1": "35c5f55a23b4b838b1fcbc6635d5b61b708289a3"
+    },
+    {
+      "title": "Resplendent Makuun (Zaishen vanquish)",
+      "pageid": 279168,
+      "revid": 2626857,
+      "revisedAt": "2018-05-05T01:57:19Z",
+      "sha1": "96d464af50f1604ae7ef90d42966180f49a4d7c3"
+    },
+    {
+      "title": "Regent Valley (Zaishen vanquish)",
+      "pageid": 279573,
+      "revid": 2626858,
+      "revisedAt": "2018-05-05T01:57:21Z",
+      "sha1": "df99e8a28a23437d0589f2494bb3249951b33399"
+    },
+    {
+      "title": "Reed Bog (Zaishen vanquish)",
+      "pageid": 279270,
+      "revid": 2626859,
+      "revisedAt": "2018-05-05T01:57:22Z",
+      "sha1": "ba3319c9301c23c54ab076f69bcaaca3c400df46"
+    },
+    {
+      "title": "Raisu Palace (Zaishen vanquish)",
+      "pageid": 277355,
+      "revid": 2626860,
+      "revisedAt": "2018-05-05T01:57:24Z",
+      "sha1": "aaf6f8afa060cf98f1b913f0dc67efffef5b0431"
+    },
+    {
+      "title": "Prophet's Path (Zaishen vanquish)",
+      "pageid": 278866,
+      "revid": 2626861,
+      "revisedAt": "2018-05-05T01:57:26Z",
+      "sha1": "86eac74e643a8d149aaa6ee984a382d277fd2d49"
+    },
+    {
+      "title": "Pongmei Valley (Zaishen vanquish)",
+      "pageid": 277150,
+      "revid": 2626862,
+      "revisedAt": "2018-05-05T01:57:27Z",
+      "sha1": "569d9ece961161a979645b4a7163f2138fba6d8f"
+    },
+    {
+      "title": "Poisoned Outcrops (Zaishen vanquish)",
+      "pageid": 278835,
+      "revid": 2626863,
+      "revisedAt": "2018-05-05T01:57:29Z",
+      "sha1": "646dc72c9b58b762f7d8147c72139c0c6bfe43cc"
+    },
+    {
+      "title": "Pockmark Flats (Zaishen vanquish)",
+      "pageid": 278625,
+      "revid": 2626864,
+      "revisedAt": "2018-05-05T01:57:31Z",
+      "sha1": "0acdd4bdb08c248197d62f54e9b4cc1dde20337c"
+    },
+    {
+      "title": "Plains of Jarin (Zaishen vanquish)",
+      "pageid": 276774,
+      "revid": 2626865,
+      "revisedAt": "2018-05-05T01:57:34Z",
+      "sha1": "7fa33f907b33d0ff0af321956fcb119c3a69edd6"
+    },
+    {
+      "title": "Perdition Rock (Zaishen vanquish)",
+      "pageid": 278457,
+      "revid": 2626866,
+      "revisedAt": "2018-05-05T01:57:37Z",
+      "sha1": "472461990a6fb0b1f73cf694af4c7874df2d8c54"
+    },
+    {
+      "title": "Panjiang Peninsula (Zaishen vanquish)",
+      "pageid": 280328,
+      "revid": 2626867,
+      "revisedAt": "2018-05-05T01:57:39Z",
+      "sha1": "9a9e0870dd61bd70db6404c6dc11231f65e13677"
+    },
+    {
+      "title": "Old Ascalon (Zaishen vanquish)",
+      "pageid": 278201,
+      "revid": 2626868,
+      "revisedAt": "2018-05-05T01:57:41Z",
+      "sha1": "b9fe7ee0548b31eb3fedb6efadc8bf1290deb88f"
+    },
+    {
+      "title": "Norrhart Domains (Zaishen vanquish)",
+      "pageid": 278583,
+      "revid": 2626870,
+      "revisedAt": "2018-05-05T01:57:45Z",
+      "sha1": "70d36ca6264b4b037514d66c79bab6ea909e9805"
+    },
+    {
+      "title": "Nahpui Quarter (Zaishen vanquish)",
+      "pageid": 280089,
+      "revid": 2626872,
+      "revisedAt": "2018-05-05T01:57:49Z",
+      "sha1": "b432947c34b7f1436130986acf3f175e9ff95b61"
+    },
+    {
+      "title": "Mourning Veil Falls (Zaishen vanquish)",
+      "pageid": 276929,
+      "revid": 2626873,
+      "revisedAt": "2018-05-05T01:57:51Z",
+      "sha1": "683c65faf5065a47c117c8c434e99ea743ef7843"
+    },
+    {
+      "title": "Mount Qinkai (Zaishen vanquish)",
+      "pageid": 280767,
+      "revid": 2626874,
+      "revisedAt": "2018-05-05T01:57:52Z",
+      "sha1": "87aba960d8f6073dbf7c12695a7c8a36d8049d1e"
+    },
+    {
+      "title": "Morostav Trail (Zaishen vanquish)",
+      "pageid": 276736,
+      "revid": 2626875,
+      "revisedAt": "2018-05-05T01:57:54Z",
+      "sha1": "25577fb5e869a65149ce13a98448fdae949d16a0"
+    },
+    {
+      "title": "Minister Cho's Estate (Zaishen vanquish)",
+      "pageid": 276518,
+      "revid": 2626876,
+      "revisedAt": "2018-05-05T01:57:55Z",
+      "sha1": "4bc9ea386bf1bececb4cddcb3638ce315f73842f"
+    },
+    {
+      "title": "Mineral Springs (Zaishen vanquish)",
+      "pageid": 281481,
+      "revid": 2626877,
+      "revisedAt": "2018-05-05T01:57:57Z",
+      "sha1": "8128976c00ebd37b89771253ff84fac4bd3ac52e"
+    },
+    {
+      "title": "Melandru's Hope (Zaishen vanquish)",
+      "pageid": 280880,
+      "revid": 2626878,
+      "revisedAt": "2018-05-05T01:57:59Z",
+      "sha1": "18b7052f9f5a63e31936fce2b682fbeaa9b4fc9b"
+    },
+    {
+      "title": "Mehtani Keys (Zaishen vanquish)",
+      "pageid": 276561,
+      "revid": 2626879,
+      "revisedAt": "2018-05-05T01:58:01Z",
+      "sha1": "4e7b2b4d333ba83100041d32bf2b1721a798e6f4"
+    },
+    {
+      "title": "Marga Coast (Zaishen vanquish)",
+      "pageid": 280802,
+      "revid": 2626880,
+      "revisedAt": "2018-05-05T01:58:02Z",
+      "sha1": "ce0931c90a166624b5084f796cd6704b48f93cbf"
+    },
+    {
+      "title": "Mamnoon Lagoon (Zaishen vanquish)",
+      "pageid": 277617,
+      "revid": 2626881,
+      "revisedAt": "2018-05-05T01:58:04Z",
+      "sha1": "417d769383ad9a60140513a30fcc1df08d9fdb3b"
+    },
+    {
+      "title": "Majesty's Rest (Zaishen vanquish)",
+      "pageid": 277328,
+      "revid": 2626882,
+      "revisedAt": "2018-05-05T01:58:06Z",
+      "sha1": "c872fded0568dafb14e447d530f303e982007549"
+    },
+    {
+      "title": "Maishang Hills (Zaishen vanquish)",
+      "pageid": 276176,
+      "revid": 2626883,
+      "revisedAt": "2018-05-05T01:58:07Z",
+      "sha1": "080c5b887057cf61efca21ba614acd87e09067e1"
+    },
+    {
+      "title": "Magus Stones (Zaishen vanquish)",
+      "pageid": 278410,
+      "revid": 2626884,
+      "revisedAt": "2018-05-05T01:58:10Z",
+      "sha1": "788600076e31016d258b9684ea91049bd4213822"
+    },
+    {
+      "title": "Lornar's Pass (Zaishen vanquish)",
+      "pageid": 277115,
+      "revid": 2626885,
+      "revisedAt": "2018-05-05T01:58:13Z",
+      "sha1": "649def8040d1e2092115b249b3035c637df9dd54"
+    },
+    {
+      "title": "Lahtenda Bog (Zaishen vanquish)",
+      "pageid": 280639,
+      "revid": 2626886,
+      "revisedAt": "2018-05-05T01:58:15Z",
+      "sha1": "cd1169fe9836a15d05e6e4c05a5d00bc352ab350"
+    },
+    {
+      "title": "Kessex Peak (Zaishen vanquish)",
+      "pageid": 276873,
+      "revid": 2626888,
+      "revisedAt": "2018-05-05T01:58:19Z",
+      "sha1": "cd93cd3b0c2b1b6b382c6e76a391edc70cccf6fe"
+    },
+    {
+      "title": "Joko's Domain (Zaishen vanquish)",
+      "pageid": 281004,
+      "revid": 2626889,
+      "revisedAt": "2018-05-05T01:58:20Z",
+      "sha1": "63c45ca884cfbd64da5b682e4a412d7de9218391"
+    },
+    {
+      "title": "Jaya Bluffs (Zaishen vanquish)",
+      "pageid": 275670,
+      "revid": 2626890,
+      "revisedAt": "2018-05-05T01:58:23Z",
+      "sha1": "0926679beb7baf23e5358fae5dc99ad0badb5a31"
+    },
+    {
+      "title": "Jahai Bluffs (Zaishen vanquish)",
+      "pageid": 276283,
+      "revid": 2626891,
+      "revisedAt": "2018-05-05T01:58:24Z",
+      "sha1": "2f1ad6dd3cec35d45bb89511feab409b99efef47"
+    },
+    {
+      "title": "Jaga Moraine (Zaishen vanquish)",
+      "pageid": 276046,
+      "revid": 2626892,
+      "revisedAt": "2018-05-05T01:58:27Z",
+      "sha1": "80d7b9163eb80cb504c652a79deceb9a79dc76ad"
+    },
+    {
+      "title": "Issnur Isles (Zaishen vanquish)",
+      "pageid": 275971,
+      "revid": 2626893,
+      "revisedAt": "2018-05-05T01:58:29Z",
+      "sha1": "264ccf282ce9fca0685e846b2dda5257a063eded"
+    },
+    {
+      "title": "Iron Horse Mine (Zaishen vanquish)",
+      "pageid": 276657,
+      "revid": 2626894,
+      "revisedAt": "2018-05-05T01:58:31Z",
+      "sha1": "e00fc7f87b587f2ca4ba495bfc01cf220165866c"
+    },
+    {
+      "title": "Icedome (Zaishen vanquish)",
+      "pageid": 276434,
+      "revid": 2626895,
+      "revisedAt": "2018-05-05T01:58:33Z",
+      "sha1": "13d1774bc9b5f915de22a2ef68a8e35dfccfaf42"
+    },
+    {
+      "title": "Ice Floe (Zaishen vanquish)",
+      "pageid": 276108,
+      "revid": 2626896,
+      "revisedAt": "2018-05-05T01:58:35Z",
+      "sha1": "9c652d07162ee159b23d752d73556fa30e42223a"
+    },
+    {
+      "title": "Ice Cliff Chasms (Zaishen vanquish)",
+      "pageid": 275750,
+      "revid": 2626897,
+      "revisedAt": "2018-05-05T01:58:37Z",
+      "sha1": "e918c4689263bb52c27ccff42168c3f026f36f59"
+    },
+    {
+      "title": "Holdings of Chokhin (Zaishen vanquish)",
+      "pageid": 275671,
+      "revid": 2626898,
+      "revisedAt": "2018-05-05T01:58:38Z",
+      "sha1": "41fbfbc05bc4d4af4434b8f7114d99bfb4a7b10a"
+    },
+    {
+      "title": "Haiju Lagoon (Zaishen vanquish)",
+      "pageid": 284504,
+      "revid": 2626899,
+      "revisedAt": "2018-05-05T01:58:40Z",
+      "sha1": "e1a93f454f0639ed926c94506e9ea88b368eb516"
+    },
+    {
+      "title": "Gyala Hatchery (Zaishen vanquish)",
+      "pageid": 283630,
+      "revid": 2626900,
+      "revisedAt": "2018-05-05T01:58:42Z",
+      "sha1": "68fa19e493b1dd4c2e16300f474726a91786aaae"
+    },
+    {
+      "title": "Grothmar Wardowns (Zaishen vanquish)",
+      "pageid": 284010,
+      "revid": 2626901,
+      "revisedAt": "2018-05-05T01:58:44Z",
+      "sha1": "c4bb91a8cdd0fa84f0368e15e3f8a1ad7d29aa0b"
+    },
+    {
+      "title": "Griffon's Mouth (Zaishen vanquish)",
+      "pageid": 275830,
+      "revid": 2626902,
+      "revisedAt": "2018-05-05T01:58:45Z",
+      "sha1": "919a9f5f69b6ef6ba2e10a7800f770c235a5d386"
+    },
+    {
+      "title": "Grenth's Footprint (Zaishen vanquish)",
+      "pageid": 284884,
+      "revid": 2626903,
+      "revisedAt": "2018-05-05T01:58:47Z",
+      "sha1": "966373de6a524a07009bd2ce9864a10b1920d4cc"
+    },
+    {
+      "title": "Garden of Seborhin (Zaishen vanquish)",
+      "pageid": 284735,
+      "revid": 2626904,
+      "revisedAt": "2018-05-05T01:58:49Z",
+      "sha1": "d5be8aa5f2a164eabcb10230f0065254913d05ad"
+    },
+    {
+      "title": "Gandara, the Moon Fortress (Zaishen vanquish)",
+      "pageid": 283883,
+      "revid": 2626905,
+      "revisedAt": "2018-05-05T01:58:51Z",
+      "sha1": "c7a320355158ae388bf3e927aef4c5ee482fd1a7"
+    },
+    {
+      "title": "Frozen Forest (Zaishen vanquish)",
+      "pageid": 284733,
+      "revid": 2626906,
+      "revisedAt": "2018-05-05T01:58:52Z",
+      "sha1": "d37ed11feffb919ebafbb82c3cff11329162be08"
+    },
+    {
+      "title": "Forum Highlands (Zaishen vanquish)",
+      "pageid": 283041,
+      "revid": 2626907,
+      "revisedAt": "2018-05-05T01:58:54Z",
+      "sha1": "ab295b19fb61a2cb41b1412b58b247fb62b86ed5"
+    },
+    {
+      "title": "Flame Temple Corridor (Zaishen vanquish)",
+      "pageid": 284113,
+      "revid": 2626908,
+      "revisedAt": "2018-05-05T01:58:56Z",
+      "sha1": "fa2136520b55d595e6a8dc4f42480c826eed6fd4"
+    },
+    {
+      "title": "Ferndale (Zaishen vanquish)",
+      "pageid": 282967,
+      "revid": 2626909,
+      "revisedAt": "2018-05-05T01:58:58Z",
+      "sha1": "31bdba6539e03b58be7ffc5526fe80c50b5efb9b"
+    },
+    {
+      "title": "Fahranur, the First City (Zaishen vanquish)",
+      "pageid": 282849,
+      "revid": 2626910,
+      "revisedAt": "2018-05-05T01:59:00Z",
+      "sha1": "c1bbc1d6918a2ab5134dbc5a74f96cbcb9399983"
+    },
+    {
+      "title": "Ettin's Back (Zaishen vanquish)",
+      "pageid": 283758,
+      "revid": 2626911,
+      "revisedAt": "2018-05-05T01:59:01Z",
+      "sha1": "08670a92cd6239239470885d88d1a68e60fb29e2"
+    },
+    {
+      "title": "Eastern Frontier (Zaishen vanquish)",
+      "pageid": 282082,
+      "revid": 2626912,
+      "revisedAt": "2018-05-05T01:59:03Z",
+      "sha1": "8d17c59f4a16c14c2a595ddcad97733e5f50e1ba"
+    },
+    {
+      "title": "Dreadnought's Drift (Zaishen vanquish)",
+      "pageid": 283084,
+      "revid": 2626914,
+      "revisedAt": "2018-05-05T01:59:06Z",
+      "sha1": "b0a05c538d522beba16fe26bcb3fe3c80525aab9"
+    },
+    {
+      "title": "Drakkar Lake (Zaishen vanquish)",
+      "pageid": 283204,
+      "revid": 2626916,
+      "revisedAt": "2018-05-05T01:59:10Z",
+      "sha1": "5434d0e2041258895058f5144aea975aafe6396f"
+    },
+    {
+      "title": "Dragon's Gullet (Zaishen vanquish)",
+      "pageid": 282898,
+      "revid": 2626917,
+      "revisedAt": "2018-05-05T01:59:12Z",
+      "sha1": "82e415fc35d66fa4b95423b227d5e9e73246d5cc"
+    },
+    {
+      "title": "Diviner's Ascent (Zaishen vanquish)",
+      "pageid": 282697,
+      "revid": 2626918,
+      "revisedAt": "2018-05-05T01:59:13Z",
+      "sha1": "e16f7951e474c82f9e9923394b5f0cb1db67ebe9"
+    },
+    {
+      "title": "Diessa Lowlands (Zaishen vanquish)",
+      "pageid": 282548,
+      "revid": 2626919,
+      "revisedAt": "2018-05-05T01:59:23Z",
+      "sha1": "5471dda0e35e1e2d847104c5d494befecd502e54"
+    },
+    {
+      "title": "Deldrimor Bowl (Zaishen vanquish)",
+      "pageid": 282340,
+      "revid": 2626920,
+      "revisedAt": "2018-05-05T01:59:24Z",
+      "sha1": "d9594b1406a304c4fadad47ae166ebe0b8c625b0"
+    },
+    {
+      "title": "Dejarin Estate (Zaishen vanquish)",
+      "pageid": 282114,
+      "revid": 2626921,
+      "revisedAt": "2018-05-05T01:59:26Z",
+      "sha1": "8dbfff1e57107f074534d5f4796b61ba3a6ecd4f"
+    },
+    {
+      "title": "Dalada Uplands (Zaishen vanquish)",
+      "pageid": 282733,
+      "revid": 2626922,
+      "revisedAt": "2018-05-05T01:59:28Z",
+      "sha1": "261dfb7a3a7812e7d1b3f9ae137fce51cd14cebc"
+    },
+    {
+      "title": "Cursed Lands (Zaishen vanquish)",
+      "pageid": 281859,
+      "revid": 2626923,
+      "revisedAt": "2018-05-05T01:59:29Z",
+      "sha1": "3268fea380c984447cfa5466de4fe5ae78c15575"
+    },
+    {
+      "title": "Crystal Overlook (Zaishen vanquish)",
+      "pageid": 282635,
+      "revid": 2626924,
+      "revisedAt": "2018-05-05T01:59:31Z",
+      "sha1": "a8fe00ba3f6dbb566849135145f8a5f534872115"
+    },
+    {
+      "title": "Cliffs of Dohjok (Zaishen vanquish)",
+      "pageid": 282482,
+      "revid": 2626925,
+      "revisedAt": "2018-05-05T01:59:33Z",
+      "sha1": "c1f19f9e9809c9492c1aab3b8e7e0f7dab94faa9"
+    },
+    {
+      "title": "Boreas Seabed (Zaishen vanquish)",
+      "pageid": 282419,
+      "revid": 2626927,
+      "revisedAt": "2018-05-05T01:59:36Z",
+      "sha1": "97e386608c489d017aaef19f667396f8868acb8b"
+    },
+    {
+      "title": "Bjora Marches (Zaishen vanquish)",
+      "pageid": 282604,
+      "revid": 2626928,
+      "revisedAt": "2018-05-05T01:59:37Z",
+      "sha1": "a130a27f27bc8626bc342b88c43348eda0ff1ab8"
+    },
+    {
+      "title": "Barbarous Shore (Zaishen vanquish)",
+      "pageid": 282276,
+      "revid": 2626929,
+      "revisedAt": "2018-05-05T01:59:39Z",
+      "sha1": "dff0c0aa2007cbe04166a916a1053bc2703ed6be"
+    },
+    {
+      "title": "Ascalon Foothills (Zaishen vanquish)",
+      "pageid": 281769,
+      "revid": 2626931,
+      "revisedAt": "2018-05-05T01:59:41Z",
+      "sha1": "6a3bec6009a98523dd5a4f2f6f4f91ba5e7021a9"
+    },
+    {
+      "title": "Arkjok Ward (Zaishen vanquish)",
+      "pageid": 281722,
+      "revid": 2626932,
+      "revisedAt": "2018-05-05T01:59:43Z",
+      "sha1": "fccfa2bb548a3b4f2bbb6044acde85078a0280c8"
+    },
+    {
+      "title": "Archipelagos (Zaishen vanquish)",
+      "pageid": 282018,
+      "revid": 2626933,
+      "revisedAt": "2018-05-05T01:59:44Z",
+      "sha1": "147dd1b76e25aa77dc269a9f0f35a529f6d6bb62"
+    },
+    {
+      "title": "Arborstone (Zaishen vanquish)",
+      "pageid": 281604,
+      "revid": 2626934,
+      "revisedAt": "2018-05-05T01:59:47Z",
+      "sha1": "d9f7aacb6872073e38096bee6ceb4f77c3424505"
+    },
+    {
+      "title": "Arbor Bay (Zaishen vanquish)",
+      "pageid": 282211,
+      "revid": 2626935,
+      "revisedAt": "2018-05-05T01:59:53Z",
+      "sha1": "8442706e7c1e56cf75575effbf9249482c521668"
+    },
+    {
+      "title": "Anvil Rock (Zaishen vanquish)",
+      "pageid": 281557,
+      "revid": 2626936,
+      "revisedAt": "2018-05-05T01:59:55Z",
+      "sha1": "3d8caa6c1bcc020e9d4a649cf6b94cbc8fb371f1"
+    },
+    {
+      "title": "Alcazia Tangle (Zaishen vanquish)",
+      "pageid": 281916,
+      "revid": 2626937,
+      "revisedAt": "2018-05-05T01:59:58Z",
+      "sha1": "8ec5b65fc4c2ce6410ab6836666902b61ce945f1"
+    },
+    {
+      "title": "Nebo Terrace (Zaishen vanquish)",
+      "pageid": 277846,
+      "revid": 2626938,
+      "revisedAt": "2018-05-05T02:15:54Z",
+      "sha1": "d5aa96c6feb8050797b8fe77731450706135d886"
+    },
+    {
       "title": "List of Eye of the North missions and primary quests",
       "pageid": 65014,
       "revid": 2627449,
       "revisedAt": "2018-05-24T04:04:51Z",
       "sha1": "55dd85dd2abc501ecf24c6d696ac3ff448e93bb0"
+    },
+    {
+      "title": "Ranger Vabbian armor",
+      "pageid": 8598,
+      "revid": 2627944,
+      "revisedAt": "2018-06-02T06:03:15Z",
+      "sha1": "8e6c1147df874cee50cce75268f47afc6d3f68ce"
     },
     {
       "title": "Gharaz the Glutton",
@@ -8628,6 +12493,13 @@
       "sha1": "78f93d39dab93feec5b15479508329de41533569"
     },
     {
+      "title": "Wilderness of Bahdza (Zaishen vanquish)",
+      "pageid": 281100,
+      "revid": 2634917,
+      "revisedAt": "2018-11-11T20:45:32Z",
+      "sha1": "049d22dd7fdf62dd4f7e8d3db39b4ae42046f8c1"
+    },
+    {
       "title": "Flamingo",
       "pageid": 12329,
       "revid": 2635054,
@@ -8677,11 +12549,39 @@
       "sha1": "fc223fd210a8767f0a2a644c263127972699bb3a"
     },
     {
+      "title": "Template:Cycle/Nicholas",
+      "pageid": 306072,
+      "revid": 2637088,
+      "revisedAt": "2019-02-25T10:40:39Z",
+      "sha1": "a2cf968cd8a33095fffa8cf3d7e319d366199be5"
+    },
+    {
       "title": "The Kodash Bazaar",
       "pageid": 8907,
       "revid": 2637784,
       "revisedAt": "2019-03-28T19:12:48Z",
       "sha1": "d53f2d7054d166483dd7308f7828d760fbc30e4f"
+    },
+    {
+      "title": "Ruins of Morah (Zaishen quest)",
+      "pageid": 206289,
+      "revid": 2637934,
+      "revisedAt": "2019-04-04T19:10:21Z",
+      "sha1": "bd6d91f812adbc863dbbb3f5b83b2c967bcdc037"
+    },
+    {
+      "title": "Molotov Rocktail (Zaishen quest)",
+      "pageid": 199400,
+      "revid": 2638046,
+      "revisedAt": "2019-04-13T05:21:53Z",
+      "sha1": "cb0b0cec435faf951580051d36b9644b38302549"
+    },
+    {
+      "title": "Kanaxai (Zaishen quest)",
+      "pageid": 199318,
+      "revid": 2638047,
+      "revisedAt": "2019-04-13T05:22:08Z",
+      "sha1": "09d871c72ca58559d3cc1b009c02e6cd5ce224e4"
     },
     {
       "title": "The Afflicted Li Yun",
@@ -8908,6 +12808,20 @@
       "sha1": "a5ec338c442b0ee59fa4362f82cf67dd5769dbae"
     },
     {
+      "title": "Dervish Monument armor",
+      "pageid": 67578,
+      "revid": 2642469,
+      "revisedAt": "2019-10-11T18:52:27Z",
+      "sha1": "caae6ea7cdaabd91764b0d3e84c80cf39f34f4be"
+    },
+    {
+      "title": "Frostmaw the Kinslayer (Zaishen quest)",
+      "pageid": 201794,
+      "revid": 2642555,
+      "revisedAt": "2019-10-13T15:15:39Z",
+      "sha1": "b5502a73c6afa0b0fc8d2ea957f6155d5993fe14"
+    },
+    {
       "title": "Ghast Ashpyre",
       "pageid": 36344,
       "revid": 2642586,
@@ -9034,11 +12948,32 @@
       "sha1": "cc80520126e7a9dd7012b6c5e69e13499f261007"
     },
     {
+      "title": "Curse of the Nornbear (Zaishen quest)",
+      "pageid": 200756,
+      "revid": 2646542,
+      "revisedAt": "2019-12-22T09:22:33Z",
+      "sha1": "7bbb747c37a8e27a47c6bf7eccbe58745e0b3a7d"
+    },
+    {
+      "title": "TPS Regulator Golem (Zaishen quest)",
+      "pageid": 203201,
+      "revid": 2646574,
+      "revisedAt": "2019-12-22T23:04:07Z",
+      "sha1": "52293b8c0d5706fe1840500cbedad020fb3401a7"
+    },
+    {
       "title": "Magebane Shot",
       "pageid": 3642,
       "revid": 2646587,
       "revisedAt": "2019-12-25T01:48:33Z",
       "sha1": "80963797f24b312706aeabc1b6fb962bdfc868e0"
+    },
+    {
+      "title": "Monk Elite Sunspear armor",
+      "pageid": 5965,
+      "revid": 2646661,
+      "revisedAt": "2019-12-31T06:15:00Z",
+      "sha1": "91971d7f23e962788ea5609dd9642ed9bbe1f7c7"
     },
     {
       "title": "The Afflicted Pana",
@@ -9053,6 +12988,13 @@
       "revid": 2646676,
       "revisedAt": "2019-12-31T06:31:10Z",
       "sha1": "550ea78516915bf1191ab91da743518598c011ed"
+    },
+    {
+      "title": "Warrior Primeval armor",
+      "pageid": 12414,
+      "revid": 2646680,
+      "revisedAt": "2019-12-31T08:23:44Z",
+      "sha1": "4c4e67a62ea8ac360614afce7284f9adafb32ca6"
     },
     {
       "title": "The Afflicted Huan (necromancer)",
@@ -9118,6 +13060,20 @@
       "sha1": "1bc2120a4589ccd91b80725ba166ff1891008271"
     },
     {
+      "title": "Zen Daijun (Zaishen quest)",
+      "pageid": 202499,
+      "revid": 2647158,
+      "revisedAt": "2020-01-29T18:34:50Z",
+      "sha1": "1b17c49ac652179bdaf4243561de7af5e9ca8904"
+    },
+    {
+      "title": "Random Arena (Zaishen quest)",
+      "pageid": 200336,
+      "revid": 2647750,
+      "revisedAt": "2020-02-28T15:50:08Z",
+      "sha1": "1a6488ec7558feffa826a48bc544226755120e9f"
+    },
+    {
       "title": "Bansheh, Gatherer of Branches",
       "pageid": 18583,
       "revid": 2648153,
@@ -9132,11 +13088,25 @@
       "sha1": "ea092ef026bab36490cf22a086c81455c403b41d"
     },
     {
+      "title": "The Eternal Grove (Zaishen vanquish)",
+      "pageid": 278910,
+      "revid": 2648921,
+      "revisedAt": "2020-04-05T12:59:44Z",
+      "sha1": "825f106d826ff79b22ec0288284a9f0ecd52c631"
+    },
+    {
       "title": "Thunderfist's Brass Knuckles",
       "pageid": 63179,
       "revid": 2648993,
       "revisedAt": "2020-04-06T14:49:02Z",
       "sha1": "ba847d4e7e516dfd5ab9bbb8b75433c4f378ff8e"
+    },
+    {
+      "title": "Mateneh",
+      "pageid": 34722,
+      "revid": 2649279,
+      "revisedAt": "2020-04-12T21:59:21Z",
+      "sha1": "b2630c12a866b354f9ab8c505178804b4684f88a"
     },
     {
       "title": "Destructive Was Glaive (PvP)",
@@ -9279,6 +13249,13 @@
       "sha1": "83cdc4ee6852cedc9273b3266a490dcf7c95fddd"
     },
     {
+      "title": "The Falls (Zaishen vanquish)",
+      "pageid": 280955,
+      "revid": 2661631,
+      "revisedAt": "2020-06-03T20:50:14Z",
+      "sha1": "68d4961514761fbee0fce866769a683bf9e5a848"
+    },
+    {
       "title": "Arcane Languor",
       "pageid": 1516,
       "revid": 2661871,
@@ -9307,6 +13284,258 @@
       "sha1": "bc65795095694a1fcab8446402ba8804b4e2cc6f"
     },
     {
+      "title": "Template:Bone",
+      "pageid": 61328,
+      "revid": 2662939,
+      "revisedAt": "2020-06-24T19:12:07Z",
+      "sha1": "5fe19de613d758756e502c34f4843fbc8f9efec0"
+    },
+    {
+      "title": "Template:Charcoal",
+      "pageid": 67689,
+      "revid": 2662940,
+      "revisedAt": "2020-06-24T19:12:10Z",
+      "sha1": "f820edcdb680b34536ffb5a9fde00b21319405c2"
+    },
+    {
+      "title": "Template:Chitin",
+      "pageid": 61320,
+      "revid": 2662941,
+      "revisedAt": "2020-06-24T19:12:13Z",
+      "sha1": "4f2fea616b0cf21100f587da7fed184c7121c802"
+    },
+    {
+      "title": "Template:Cloth",
+      "pageid": 55495,
+      "revid": 2662942,
+      "revisedAt": "2020-06-24T19:12:15Z",
+      "sha1": "da925d2de2fa1467d7c470ecd014cdc889537c54"
+    },
+    {
+      "title": "Template:Damask",
+      "pageid": 60649,
+      "revid": 2662943,
+      "revisedAt": "2020-06-24T19:12:18Z",
+      "sha1": "e0aef64dba2136647debcef21a848d682254783a"
+    },
+    {
+      "title": "Template:Deldrimor Steel",
+      "pageid": 55523,
+      "revid": 2662944,
+      "revisedAt": "2020-06-24T19:12:22Z",
+      "sha1": "1e2ffa786f9db1d5333cd16f899bf26804b159b3"
+    },
+    {
+      "title": "Template:Diamond",
+      "pageid": 65251,
+      "revid": 2662945,
+      "revisedAt": "2020-06-24T19:12:25Z",
+      "sha1": "3c12d318ccd471fafda7c409beb4e319428033de"
+    },
+    {
+      "title": "Template:Dust",
+      "pageid": 60655,
+      "revid": 2662946,
+      "revisedAt": "2020-06-24T19:12:27Z",
+      "sha1": "3d799f07112cbf7983bc4ea6ff47cc53ab64e5f4"
+    },
+    {
+      "title": "Template:Ecto",
+      "pageid": 61331,
+      "revid": 2662947,
+      "revisedAt": "2020-06-24T19:12:29Z",
+      "sha1": "599b2ed4cf4437e0b92b1674cb8ea4668efe0f75"
+    },
+    {
+      "title": "Template:Elonian Leather",
+      "pageid": 44465,
+      "revid": 2662948,
+      "revisedAt": "2020-06-24T19:12:32Z",
+      "sha1": "6db0552ede37e36fa1759bb130231983483388bb"
+    },
+    {
+      "title": "Template:Feather",
+      "pageid": 60654,
+      "revid": 2662949,
+      "revisedAt": "2020-06-24T19:12:34Z",
+      "sha1": "c7fcc946d23f876d2e6ee12b4f03673e6eb11013"
+    },
+    {
+      "title": "Template:Fiber",
+      "pageid": 61485,
+      "revid": 2662950,
+      "revisedAt": "2020-06-24T19:12:37Z",
+      "sha1": "d78ef39bbac29d6674bec804e872acbc5bcf9045"
+    },
+    {
+      "title": "Template:Fur",
+      "pageid": 60958,
+      "revid": 2662951,
+      "revisedAt": "2020-06-24T19:12:40Z",
+      "sha1": "6b8e0172f39d21fb1db7c289ffe39bb94945e161"
+    },
+    {
+      "title": "Template:Glass Vial",
+      "pageid": 62085,
+      "revid": 2662952,
+      "revisedAt": "2020-06-24T19:12:42Z",
+      "sha1": "83f7999835af5ad74c755b0b7b4abafa09639715"
+    },
+    {
+      "title": "Template:Granite",
+      "pageid": 62028,
+      "revid": 2662953,
+      "revisedAt": "2020-06-24T19:12:44Z",
+      "sha1": "5e009c3f1c27029ff573d399b81998b8ce7612a0"
+    },
+    {
+      "title": "Template:Hide",
+      "pageid": 60651,
+      "revid": 2662954,
+      "revisedAt": "2020-06-24T19:12:46Z",
+      "sha1": "552d3a6bee65d4e4f60463d2b2af35bf94cf2aa8"
+    },
+    {
+      "title": "Template:Ink",
+      "pageid": 61208,
+      "revid": 2662955,
+      "revisedAt": "2020-06-24T19:12:50Z",
+      "sha1": "3e39a16849bfa9ac6f2b0757335900c8763c86ed"
+    },
+    {
+      "title": "Template:Iron",
+      "pageid": 44464,
+      "revid": 2662956,
+      "revisedAt": "2020-06-24T19:12:53Z",
+      "sha1": "9538b9563367036ac41772c1f9182885698b9692"
+    },
+    {
+      "title": "Template:Jadeite",
+      "pageid": 61210,
+      "revid": 2662957,
+      "revisedAt": "2020-06-24T19:12:56Z",
+      "sha1": "36386d7da1e13444dad3165eb2a66d34d69db252"
+    },
+    {
+      "title": "Template:Leather",
+      "pageid": 60960,
+      "revid": 2662958,
+      "revisedAt": "2020-06-24T19:12:59Z",
+      "sha1": "080f0220ad2a4c28a50d3b271b7101bb6f6e01d1"
+    },
+    {
+      "title": "Template:Linen",
+      "pageid": 55496,
+      "revid": 2662959,
+      "revisedAt": "2020-06-24T19:13:02Z",
+      "sha1": "cb0d7fe8943cb0a4820e110fb5dea20348cbaa20"
+    },
+    {
+      "title": "Template:Monstrous Claw",
+      "pageid": 61994,
+      "revid": 2662960,
+      "revisedAt": "2020-06-24T19:13:05Z",
+      "sha1": "9353f1f8ec537a1e8ea06b0471e3fe6b660087a9"
+    },
+    {
+      "title": "Template:Monstrous Eye",
+      "pageid": 64168,
+      "revid": 2662961,
+      "revisedAt": "2020-06-24T19:16:09Z",
+      "sha1": "9164ad2014880a3c242f6b52446e4f11561269c8"
+    },
+    {
+      "title": "Template:Monstrous Fang",
+      "pageid": 61996,
+      "revid": 2662962,
+      "revisedAt": "2020-06-24T19:16:12Z",
+      "sha1": "456f92afef92f8537b3b5b9efc08dcc3a8d10659"
+    },
+    {
+      "title": "Template:Onyx",
+      "pageid": 71874,
+      "revid": 2662963,
+      "revisedAt": "2020-06-24T19:16:14Z",
+      "sha1": "897318fb89d80135260b7f80137becb2e8956ed8"
+    },
+    {
+      "title": "Template:Parchment",
+      "pageid": 60653,
+      "revid": 2662964,
+      "revisedAt": "2020-06-24T19:16:17Z",
+      "sha1": "8530dc916c330bcc47393be0fe2d101bf49430f1"
+    },
+    {
+      "title": "Template:Ruby",
+      "pageid": 44466,
+      "revid": 2662966,
+      "revisedAt": "2020-06-24T19:16:27Z",
+      "sha1": "5d04a600ceeb69ccb4f0a952dc44b6759719ef68"
+    },
+    {
+      "title": "Template:Sapphire",
+      "pageid": 44467,
+      "revid": 2662967,
+      "revisedAt": "2020-06-24T19:16:30Z",
+      "sha1": "4bb173069eb454448ccca157e20a05bde845fa9e"
+    },
+    {
+      "title": "Template:Scale",
+      "pageid": 60959,
+      "revid": 2662968,
+      "revisedAt": "2020-06-24T19:16:32Z",
+      "sha1": "0b73d5375ff1fd1df7caee76c077ccc3a3499536"
+    },
+    {
+      "title": "Template:Shard",
+      "pageid": 61493,
+      "revid": 2662969,
+      "revisedAt": "2020-06-24T19:16:35Z",
+      "sha1": "092bb0cd2b02c944ef98ead95d8253f1b4f7fe52"
+    },
+    {
+      "title": "Template:Silk",
+      "pageid": 61474,
+      "revid": 2662970,
+      "revisedAt": "2020-06-24T19:16:38Z",
+      "sha1": "d2df24711bfb4541b38f2e306e0b81c4d2f58353"
+    },
+    {
+      "title": "Template:Steel",
+      "pageid": 60652,
+      "revid": 2662973,
+      "revisedAt": "2020-06-24T19:16:49Z",
+      "sha1": "23fdbc5ad92aa191f45bed1d20313d618afea137"
+    },
+    {
+      "title": "Template:Vellum",
+      "pageid": 61263,
+      "revid": 2662974,
+      "revisedAt": "2020-06-24T19:16:52Z",
+      "sha1": "df07491648f42e827c9c0805074bbc5d357a1c5d"
+    },
+    {
+      "title": "Template:Wood",
+      "pageid": 61475,
+      "revid": 2662975,
+      "revisedAt": "2020-06-24T19:16:54Z",
+      "sha1": "70e10271b84df3cd6163a639cc44ae255db2e63c"
+    },
+    {
+      "title": "Template:Amber",
+      "pageid": 61209,
+      "revid": 2662977,
+      "revisedAt": "2020-06-24T19:20:59Z",
+      "sha1": "3910174e4e92c9180e1dbe26742d2cab8924d74f"
+    },
+    {
+      "title": "Template:Spiritwood",
+      "pageid": 70552,
+      "revid": 2662979,
+      "revisedAt": "2020-06-24T19:21:49Z",
+      "sha1": "d6599ffa7b530a2197fc701967cdf84ced9bdf98"
+    },
+    {
       "title": "Koren Wildrunner",
       "pageid": 63441,
       "revid": 2663090,
@@ -9319,6 +13548,13 @@
       "revid": 2663173,
       "revisedAt": "2020-06-28T03:59:04Z",
       "sha1": "87c6c865c4807ba3e3510cf7930a2368f7b3a700"
+    },
+    {
+      "title": "Elementalist Stoneforged armor",
+      "pageid": 11816,
+      "revid": 2663437,
+      "revisedAt": "2020-07-08T15:02:53Z",
+      "sha1": "93c015f5af7901d3c5aab02dc4571d936f39b6b0"
     },
     {
       "title": "Keystone Signet",
@@ -9566,6 +13802,13 @@
       "sha1": "e8dbb67deb61ca7135c888df79a98cda580279a7"
     },
     {
+      "title": "Kunvie Firewing (Zaishen quest)",
+      "pageid": 200140,
+      "revid": 2666273,
+      "revisedAt": "2020-09-19T01:59:56Z",
+      "sha1": "c5e78e147050fd45366bc10312bd769ab8751653"
+    },
+    {
       "title": "The Great Norn Alemoot",
       "pageid": 63592,
       "revid": 2666451,
@@ -9578,6 +13821,13 @@
       "revid": 2666605,
       "revisedAt": "2020-10-03T16:58:43Z",
       "sha1": "573d17d3aab331c76d6425279a96c49a0b9a0d8a"
+    },
+    {
+      "title": "Oroku",
+      "pageid": 7084,
+      "revid": 2666646,
+      "revisedAt": "2020-10-04T18:15:39Z",
+      "sha1": "a1d7a036ebc9fb3a8042c7e83f0128aa262536bd"
     },
     {
       "title": "Umbral Grotto",
@@ -9650,6 +13900,13 @@
       "sha1": "d18fa1b5228bbc091fc7f0c16cc34aa48776393c"
     },
     {
+      "title": "Monk Ocher Sandals",
+      "pageid": 70146,
+      "revid": 2666979,
+      "revisedAt": "2020-10-15T02:19:59Z",
+      "sha1": "834aadb4899f339b918593dbebc045be577602f1"
+    },
+    {
       "title": "Rampage as One",
       "pageid": 3950,
       "revid": 2667420,
@@ -9685,6 +13942,13 @@
       "sha1": "e2c12048c7a9e55e1caf84ff25cc6c55102c22d2"
     },
     {
+      "title": "Hagen",
+      "pageid": 6977,
+      "revid": 2667676,
+      "revisedAt": "2020-10-23T22:32:02Z",
+      "sha1": "2819f7e9aa3621925d56a098c592218a8652acd1"
+    },
+    {
       "title": "A Hunter's Pride",
       "pageid": 63651,
       "revid": 2667756,
@@ -9704,6 +13968,27 @@
       "revid": 2668270,
       "revisedAt": "2020-11-03T01:47:57Z",
       "sha1": "f9fae3776a437f095d0bfe89f484bcd6c398f3e3"
+    },
+    {
+      "title": "Template:Armor art infobox",
+      "pageid": 4622,
+      "revid": 2668293,
+      "revisedAt": "2020-11-03T09:01:28Z",
+      "sha1": "176c896fd1299771d7757ffd2754b125a3c7b631"
+    },
+    {
+      "title": "Unwaking Waters (Zaishen vanquish)",
+      "pageid": 279380,
+      "revid": 2668636,
+      "revisedAt": "2020-11-13T17:57:15Z",
+      "sha1": "c70f403ccf0e691e63e0b0e81f4d9624617e4b4e"
+    },
+    {
+      "title": "Unwaking Waters (Zaishen quest)",
+      "pageid": 206186,
+      "revid": 2668641,
+      "revisedAt": "2020-11-13T17:59:05Z",
+      "sha1": "fd48c21b1f894974f5efb29fa3c2efc721ae1b8f"
     },
     {
       "title": "Leader of the Pack",
@@ -9760,6 +14045,13 @@
       "revid": 2669086,
       "revisedAt": "2020-11-30T23:53:29Z",
       "sha1": "297afe2e1697871e0ba331feb51556e080e54a52"
+    },
+    {
+      "title": "Fort Aspenwood (Zaishen quest)",
+      "pageid": 200550,
+      "revid": 2669111,
+      "revisedAt": "2020-12-02T07:40:38Z",
+      "sha1": "fb34f8e0178df931bf8ccd472cb744c23eb87803"
     },
     {
       "title": "Fort Aspenwood (Luxon)",
@@ -9853,6 +14145,13 @@
       "sha1": "d107fddd0ef244816123c76d181df1fd0960f706"
     },
     {
+      "title": "The Elusive Golemancer (Zaishen quest)",
+      "pageid": 200044,
+      "revid": 2671467,
+      "revisedAt": "2021-04-05T14:50:37Z",
+      "sha1": "d0a9657c96b412fb8a7fae3aefee46f277d22b8f"
+    },
+    {
       "title": "Nulfastu Earthbound",
       "pageid": 64111,
       "revid": 2671887,
@@ -9874,6 +14173,13 @@
       "sha1": "9631591df9339ff2c9feac4cb67146794b06f8e5"
     },
     {
+      "title": "Commander Wahli (Zaishen quest)",
+      "pageid": 199994,
+      "revid": 2672538,
+      "revisedAt": "2021-05-05T19:29:05Z",
+      "sha1": "945ed1d20cf49b79cb9e8231c045fce69bb31157"
+    },
+    {
       "title": "Spell Breaker",
       "pageid": 1135,
       "revid": 2672556,
@@ -9886,6 +14192,13 @@
       "revid": 2672796,
       "revisedAt": "2021-05-08T15:37:48Z",
       "sha1": "7edd196231a55e6c98502f15631fdf4dd32d46e9"
+    },
+    {
+      "title": "North Kryta Province (Zaishen vanquish)",
+      "pageid": 278005,
+      "revid": 2672944,
+      "revisedAt": "2021-05-12T15:46:53Z",
+      "sha1": "d6bacba6524e402ffa58c217b4071bd49e1ec70f"
     },
     {
       "title": "Falling Out",
@@ -10084,6 +14397,20 @@
       "sha1": "af69030b9e8f345aa0d4157c0278953d06832e5d"
     },
     {
+      "title": "Charged Blackness (Zaishen quest)",
+      "pageid": 202581,
+      "revid": 2675940,
+      "revisedAt": "2021-11-17T19:26:11Z",
+      "sha1": "3eaea80ba59c0d331769602b9bd8848f5224c526"
+    },
+    {
+      "title": "Borrguus Blisterbark (Zaishen quest)",
+      "pageid": 203266,
+      "revid": 2676118,
+      "revisedAt": "2021-11-25T08:12:40Z",
+      "sha1": "9c892e60e1e0f6ec05aae6d332312c6ad0426860"
+    },
+    {
       "title": "Gustov the Silent/Collector armor",
       "pageid": 63726,
       "revid": 2676125,
@@ -10187,6 +14514,13 @@
       "revid": 2676539,
       "revisedAt": "2021-12-27T19:14:16Z",
       "sha1": "4733ae3a549fee4046215e64b8e4879d2e390ad1"
+    },
+    {
+      "title": "Assassin Obsidian armor",
+      "pageid": 15843,
+      "revid": 2676852,
+      "revisedAt": "2022-01-26T19:17:10Z",
+      "sha1": "85ff1e51724852f3e97a0c933793c081848db99a"
     },
     {
       "title": "Command Post",
@@ -10294,6 +14628,13 @@
       "sha1": "62097d5c1f7ffc59338d9515d98dba58dccde442"
     },
     {
+      "title": "Chaos Gloves",
+      "pageid": 66982,
+      "revid": 2678245,
+      "revisedAt": "2022-05-27T07:33:49Z",
+      "sha1": "35c249cc1908dd5844e5a845ce602075845424d4"
+    },
+    {
       "title": "Poison Arrow",
       "pageid": 4103,
       "revid": 2678681,
@@ -10341,6 +14682,13 @@
       "revid": 2679103,
       "revisedAt": "2022-07-16T00:08:39Z",
       "sha1": "33cf26d3df287e0108005874d57980c0245953e5"
+    },
+    {
+      "title": "Mesmer Monument armor",
+      "pageid": 67329,
+      "revid": 2679207,
+      "revisedAt": "2022-07-22T22:13:20Z",
+      "sha1": "dafefe36fb97b4c7fb987fc3519e0ef36a14614b"
     },
     {
       "title": "Alkar's Alchemical Acid",
@@ -10756,6 +15104,20 @@
       "sha1": "0459cc981ea807255722ab12c45c6850160263ea"
     },
     {
+      "title": "Ring of Fire (Zaishen quest)",
+      "pageid": 200144,
+      "revid": 2688261,
+      "revisedAt": "2023-07-05T19:32:04Z",
+      "sha1": "226f80fe14dcac0db6403543e7d78745f5675221"
+    },
+    {
+      "title": "Dasha Vestibule (Zaishen quest)",
+      "pageid": 201968,
+      "revid": 2688270,
+      "revisedAt": "2023-07-05T19:48:48Z",
+      "sha1": "31d58fe0adb461ec1e9477f90d10cfc6a1d1a2eb"
+    },
+    {
       "title": "Mountain Eagle",
       "pageid": 61798,
       "revid": 2688339,
@@ -10812,11 +15174,88 @@
       "sha1": "d0268d02cdbd61a2a39baddd640923c5da944346"
     },
     {
+      "title": "Highlander Woad",
+      "pageid": 64354,
+      "revid": 2690427,
+      "revisedAt": "2023-09-12T10:18:55Z",
+      "sha1": "67f537574f8d6d053ad1ea7fca7ac976b6c40329"
+    },
+    {
+      "title": "Norn Woad",
+      "pageid": 64357,
+      "revid": 2690429,
+      "revisedAt": "2023-09-12T10:19:16Z",
+      "sha1": "88cd6787b74b6c59898c8b1c9e543031f832b2eb"
+    },
+    {
+      "title": "Slim Spectacles",
+      "pageid": 67660,
+      "revid": 2690430,
+      "revisedAt": "2023-09-12T10:19:27Z",
+      "sha1": "f2a5c2a232d347c98e9299c8f0cdf62c4b1d7177"
+    },
+    {
+      "title": "Spectacles",
+      "pageid": 67659,
+      "revid": 2690431,
+      "revisedAt": "2023-09-12T10:19:37Z",
+      "sha1": "4fc4b9cd319c102813a7612a9e8ac0833e04d011"
+    },
+    {
+      "title": "Tinted Spectacles",
+      "pageid": 67661,
+      "revid": 2690432,
+      "revisedAt": "2023-09-12T10:19:45Z",
+      "sha1": "35990e780d15f70e6ebd04c260c819131cb4f983"
+    },
+    {
+      "title": "Mesmer Vabbian armor",
+      "pageid": 5765,
+      "revid": 2690567,
+      "revisedAt": "2023-09-17T17:39:28Z",
+      "sha1": "f7e0c82126ace4eb81085702d4636ad357056911"
+    },
+    {
       "title": "Zukesha/Collector armor",
       "pageid": 69596,
       "revid": 2690668,
       "revisedAt": "2023-09-20T17:54:46Z",
       "sha1": "7e65c0b9c24833b51addeb8b1cf47b0339e39aee"
+    },
+    {
+      "title": "Elementalist Istani armor",
+      "pageid": 11918,
+      "revid": 2690673,
+      "revisedAt": "2023-09-20T18:42:05Z",
+      "sha1": "50aaad99e24792630f18f40650dda026a8eb2d88"
+    },
+    {
+      "title": "Monk Istani armor",
+      "pageid": 5951,
+      "revid": 2690674,
+      "revisedAt": "2023-09-20T18:44:24Z",
+      "sha1": "52b5dc693ff5cf4b7f39fcf1c961271cbd71e9e2"
+    },
+    {
+      "title": "Mesmer Istani armor",
+      "pageid": 5747,
+      "revid": 2690676,
+      "revisedAt": "2023-09-20T18:45:50Z",
+      "sha1": "fb154d5ad1046fb362cf8bddc485cfebd2ad2a9b"
+    },
+    {
+      "title": "Necromancer Istani armor",
+      "pageid": 18204,
+      "revid": 2690677,
+      "revisedAt": "2023-09-20T18:46:20Z",
+      "sha1": "c5dcfc65cdcc88aeead2f0807a35918e9cb2bc34"
+    },
+    {
+      "title": "Eldritch Ettin (Zaishen quest)",
+      "pageid": 202502,
+      "revid": 2690763,
+      "revisedAt": "2023-09-23T21:23:42Z",
+      "sha1": "0943e2d5de7dbe58318dec173a53bfa3efea4039"
     },
     {
       "title": "Cobalt Staff",
@@ -10859,6 +15298,13 @@
       "revid": 2691030,
       "revisedAt": "2023-10-09T17:46:09Z",
       "sha1": "85a228196e16b9cad121af6a168b82b5892a89b1"
+    },
+    {
+      "title": "Ritualist Seitung armor",
+      "pageid": 16510,
+      "revid": 2691157,
+      "revisedAt": "2023-10-27T21:10:43Z",
+      "sha1": "60111a13ebadfeeee06d8136c3ba7d694b17fbfb"
     },
     {
       "title": "Vow of Strength",
@@ -11015,6 +15461,20 @@
       "sha1": "7848ef8d6eb75d0764bbaa5a7debd5ae2aa3fa1a"
     },
     {
+      "title": "Bahdok Caverns (Zaishen vanquish)",
+      "pageid": 281819,
+      "revid": 2694329,
+      "revisedAt": "2024-04-07T15:32:41Z",
+      "sha1": "06a6b0c414ca156a91659e0fcbb425f58f71b5a8"
+    },
+    {
+      "title": "The Hidden City of Ahdashim (Zaishen vanquish)",
+      "pageid": 277416,
+      "revid": 2694330,
+      "revisedAt": "2024-04-07T15:33:09Z",
+      "sha1": "67f93c36511cb739ebab2f3a5fe0d36229ee3caa"
+    },
+    {
       "title": "Jerneh Nightbringer",
       "pageid": 17744,
       "revid": 2694358,
@@ -11036,6 +15496,27 @@
       "sha1": "b29283e1675e51bc97c83090a037c96d894e056a"
     },
     {
+      "title": "Assassin Elite Imperial armor",
+      "pageid": 15835,
+      "revid": 2694593,
+      "revisedAt": "2024-04-19T16:07:43Z",
+      "sha1": "dcd6a9b93b7bdf58da8b572ecde7ab74bd44703b"
+    },
+    {
+      "title": "Zaishen Combat",
+      "pageid": 199221,
+      "revid": 2694735,
+      "revisedAt": "2024-04-22T19:54:42Z",
+      "sha1": "e50a037f7cb249c9125580985b8fb4c4df69a26e"
+    },
+    {
+      "title": "Zaishen Bounty",
+      "pageid": 199218,
+      "revid": 2694736,
+      "revisedAt": "2024-04-22T19:55:03Z",
+      "sha1": "29ed4da92012fc84475d6e43f06ae154ac1d652a"
+    },
+    {
       "title": "Cultist Rajazan",
       "pageid": 42516,
       "revid": 2694789,
@@ -11043,11 +15524,25 @@
       "sha1": "20a94462b3b278dd0443a9716c9964ef51870ae5"
     },
     {
+      "title": "Nulfastu, Earthbound (Zaishen quest)",
+      "pageid": 201196,
+      "revid": 2694903,
+      "revisedAt": "2024-04-27T19:55:47Z",
+      "sha1": "3a176b09ad8ed5a95919691fd3c5b4f3754ce5bd"
+    },
+    {
       "title": "Inscribed Ettin",
       "pageid": 79460,
       "revid": 2695054,
       "revisedAt": "2024-05-05T11:31:56Z",
       "sha1": "228cca9043346e1b2c5b049f2cd95c6a1d36205d"
+    },
+    {
+      "title": "Template:Cycle/ZBounty",
+      "pageid": 262477,
+      "revid": 2695099,
+      "revisedAt": "2024-05-05T22:53:55Z",
+      "sha1": "0354c2c672647e8c1fa945d38a94d0e86fe96f38"
     },
     {
       "title": "Kurzick Bureaucrat",
@@ -11442,6 +15937,13 @@
       "sha1": "28696371e2f752dd4a2abe13c78eead070247d05"
     },
     {
+      "title": "Dry Top (Zaishen vanquish)",
+      "pageid": 283251,
+      "revid": 2700035,
+      "revisedAt": "2024-10-07T15:34:54Z",
+      "sha1": "171e7c9dce90642e7cea626a5df0a46402a0ac26"
+    },
+    {
       "title": "Lornar's Pass",
       "pageid": 10003,
       "revid": 2700038,
@@ -11461,6 +15963,13 @@
       "revid": 2700280,
       "revisedAt": "2024-10-25T18:53:17Z",
       "sha1": "eb326552a4f5f8e92a4fa99ce9d13ac9581ebc45"
+    },
+    {
+      "title": "Harn and Maxine Coldstone (Zaishen quest)",
+      "pageid": 199595,
+      "revid": 2700568,
+      "revisedAt": "2024-11-11T21:07:43Z",
+      "sha1": "923c6bbfc3223d703c2e3d845ee92ead0d4e102c"
     },
     {
       "title": "Ashford",
@@ -11771,6 +16280,20 @@
       "sha1": "f5cb0bfab038b3fe8f812bdbd9daaf099034c707"
     },
     {
+      "title": "Tahnnakai Temple (Zaishen vanquish)",
+      "pageid": 278668,
+      "revid": 2702540,
+      "revisedAt": "2025-02-02T17:49:31Z",
+      "sha1": "779f79dea3cde8f17667038442190d4aec38c7a2"
+    },
+    {
+      "title": "Mesmer Discreet Mask",
+      "pageid": 5785,
+      "revid": 2702674,
+      "revisedAt": "2025-02-05T01:02:36Z",
+      "sha1": "0c597c5d06d7cd113545d34bab7917364521f3e0"
+    },
+    {
       "title": "Slayton Redblade/Collector armor",
       "pageid": 45045,
       "revid": 2702692,
@@ -11869,6 +16392,13 @@
       "sha1": "38cd3bcfabc7911d5dd5d3b5d76987fb8d06c193"
     },
     {
+      "title": "Bukdek Byway (Zaishen vanquish)",
+      "pageid": 282577,
+      "revid": 2703424,
+      "revisedAt": "2025-03-01T15:15:23Z",
+      "sha1": "585d94c122677bb2f50a2605982217e8a43f0f75"
+    },
+    {
       "title": "Hamri",
       "pageid": 51288,
       "revid": 2703465,
@@ -11909,6 +16439,27 @@
       "revid": 2703640,
       "revisedAt": "2025-03-17T13:07:50Z",
       "sha1": "7ed4a0a6e3c154a982d7abe9198fb02ddbc2d0cb"
+    },
+    {
+      "title": "Verata (Zaishen quest)",
+      "pageid": 201957,
+      "revid": 2703812,
+      "revisedAt": "2025-03-25T15:28:18Z",
+      "sha1": "c0213face5a7cd203641f9fbea209e35d93e4343"
+    },
+    {
+      "title": "Zaishen Challenge Quest",
+      "pageid": 196750,
+      "revid": 2703915,
+      "revisedAt": "2025-04-02T16:48:19Z",
+      "sha1": "f0584a6700c250a82383df5c8366a976e350e1db"
+    },
+    {
+      "title": "Fort Ranik (Zaishen quest)",
+      "pageid": 202578,
+      "revid": 2703928,
+      "revisedAt": "2025-04-02T16:58:13Z",
+      "sha1": "530128ddcb0aea4ccb50b110b2d2e2a962beacff"
     },
     {
       "title": "Vehjin Mines",
@@ -11993,6 +16544,20 @@
       "revid": 2705484,
       "revisedAt": "2025-04-27T16:07:28Z",
       "sha1": "becb40debc9d7bb5691a45b0e5b45be5bfc42e99"
+    },
+    {
+      "title": "Dragon Gauntlets",
+      "pageid": 67442,
+      "revid": 2705609,
+      "revisedAt": "2025-04-29T14:28:20Z",
+      "sha1": "08e70c41c2dcf10f717674623c958d364e69d453"
+    },
+    {
+      "title": "Stone Gauntlets",
+      "pageid": 67693,
+      "revid": 2705613,
+      "revisedAt": "2025-04-29T14:29:20Z",
+      "sha1": "82d22f2a59db577c0d70ba83eccc4b2f6a2a062c"
     },
     {
       "title": "Turlo Oakenspear/Collector armor",
@@ -12121,6 +16686,13 @@
       "sha1": "1ff7855d16a12cd5b26ec2966255c7b417ccf907"
     },
     {
+      "title": "Weekly bonuses",
+      "pageid": 304610,
+      "revid": 2707003,
+      "revisedAt": "2025-05-22T17:55:09Z",
+      "sha1": "350cf6e98f4c8ca0684bc070bc2af342838b444b"
+    },
+    {
       "title": "The Floodplain of Mahnkelon",
       "pageid": 8887,
       "revid": 2707047,
@@ -12133,6 +16705,13 @@
       "revid": 2707290,
       "revisedAt": "2025-05-25T22:42:52Z",
       "sha1": "67d117036938e0eef314330d34ceaeb6d5d868cf"
+    },
+    {
+      "title": "Tsukare",
+      "pageid": 7050,
+      "revid": 2707303,
+      "revisedAt": "2025-05-26T13:10:59Z",
+      "sha1": "6ed856409a79cfc870aee5f0e81a092d6bc093b9"
     },
     {
       "title": "Oola's Chest",
@@ -14410,6 +18989,20 @@
       "sha1": "86fbd605fbf114bfd146d3e0f5c67ee1220f141e"
     },
     {
+      "title": "Zaishen Mission",
+      "pageid": 199213,
+      "revid": 2709726,
+      "revisedAt": "2025-07-01T04:55:06Z",
+      "sha1": "bcd8637d07f36dbc9e55b12da9aa734773f70788"
+    },
+    {
+      "title": "Necromancer Ragged Scar Pattern",
+      "pageid": 39215,
+      "revid": 2709741,
+      "revisedAt": "2025-07-01T04:55:20Z",
+      "sha1": "c5137a15fd7044aaf0403954771903f7a1117a41"
+    },
+    {
       "title": "Sir Pohl Sanbert/Collector",
       "pageid": 45560,
       "revid": 2709748,
@@ -14459,6 +19052,13 @@
       "sha1": "58f86cf5a0f7abb0c62d7110f74f9cefe2dcd518"
     },
     {
+      "title": "Morbach",
+      "pageid": 1312,
+      "revid": 2709838,
+      "revisedAt": "2025-07-01T04:57:05Z",
+      "sha1": "4ee990004718cf7358e7c9f926e4fef259794112"
+    },
+    {
       "title": "Chumab the Prideful",
       "pageid": 38618,
       "revid": 2709848,
@@ -14499,6 +19099,20 @@
       "revid": 2709901,
       "revisedAt": "2025-07-01T04:58:32Z",
       "sha1": "4509c0f5c3e1a17e7dfaccbe8f8bd473d01fd006"
+    },
+    {
+      "title": "Stingray Strand (Zaishen vanquish)",
+      "pageid": 279434,
+      "revid": 2709914,
+      "revisedAt": "2025-07-01T04:58:42Z",
+      "sha1": "8150aad2136744da106678a6bf73a7ea7d6b316b"
+    },
+    {
+      "title": "Warrior Elite Dragon armor",
+      "pageid": 12167,
+      "revid": 2709920,
+      "revisedAt": "2025-07-01T04:58:46Z",
+      "sha1": "e10544d6d843f0a415505816bb57bbc0f29c57a0"
     },
     {
       "title": "Churahm's Wand",
@@ -14947,6 +19561,13 @@
       "revid": 2710723,
       "revisedAt": "2025-07-27T13:34:42Z",
       "sha1": "72dee6de878f39bfafb8d86f6a0fd20c64a7ccb4"
+    },
+    {
+      "title": "Warrior Templar armor",
+      "pageid": 12174,
+      "revid": 2710746,
+      "revisedAt": "2025-07-28T22:15:33Z",
+      "sha1": "7e801b1af8cda5b19c0f1abdc7e6260798a0dc1c"
     },
     {
       "title": "Byzzr Wingmender",
@@ -16300,6 +20921,13 @@
       "sha1": "87a2eb318fa597b9f59f43d63bd57e35e18921e1"
     },
     {
+      "title": "Royen Beastkeeper (Zaishen quest)",
+      "pageid": 206749,
+      "revid": 2712302,
+      "revisedAt": "2025-09-16T19:26:54Z",
+      "sha1": "b7ff14e228df87d0edccc6dd23af97b5df4d44f8"
+    },
+    {
       "title": "Brightclaw",
       "pageid": 22424,
       "revid": 2712336,
@@ -16622,6 +21250,13 @@
       "sha1": "889a042774c9ff2651d5e3106a53977e653a3743"
     },
     {
+      "title": "Monk Krytan armor",
+      "pageid": 5367,
+      "revid": 2713003,
+      "revisedAt": "2025-11-06T12:57:01Z",
+      "sha1": "222edd171216e09cb27528639991a194791bb4a4"
+    },
+    {
       "title": "Sarss, Stormscale",
       "pageid": 21638,
       "revid": 2713042,
@@ -16699,6 +21334,13 @@
       "sha1": "f13c0d032b7f4bd67116d79ce8ee35032f95a0ac"
     },
     {
+      "title": "Mohby Windbeak (Zaishen quest)",
+      "pageid": 202972,
+      "revid": 2713548,
+      "revisedAt": "2025-11-29T08:45:53Z",
+      "sha1": "85ae42e93a50a6bcac1ddb3d0357c60d2e7eff4f"
+    },
+    {
       "title": "Earthbound Staff",
       "pageid": 63598,
       "revid": 2713605,
@@ -16725,6 +21367,13 @@
       "revid": 2714159,
       "revisedAt": "2025-12-06T18:33:55Z",
       "sha1": "8c2e70216d7001e60b00e5800cc859fec506ac1e"
+    },
+    {
+      "title": "Elementalist Krytan armor",
+      "pageid": 10584,
+      "revid": 2714215,
+      "revisedAt": "2025-12-07T13:03:51Z",
+      "sha1": "db47fbdae545bcc2a767c4251fa1b57eb22c67db"
     },
     {
       "title": "Jennur's Horde",
@@ -16979,6 +21628,13 @@
       "sha1": "13a9f75f040a2ee6ce4676b43a9d1e6f4f8391d8"
     },
     {
+      "title": "Arbor Earthcall (Zaishen quest)",
+      "pageid": 206294,
+      "revid": 2717272,
+      "revisedAt": "2026-01-03T15:07:19Z",
+      "sha1": "424b9e566a34a2aab5fafa7134b01eb10ada9d2d"
+    },
+    {
       "title": "Captain Mhedi",
       "pageid": 11156,
       "revid": 2717281,
@@ -16991,6 +21647,20 @@
       "revid": 2717290,
       "revisedAt": "2026-01-03T22:36:20Z",
       "sha1": "d3625480f3ee36572e5fab7f87624c9fd086ad13"
+    },
+    {
+      "title": "Pywatt the Swift (Zaishen quest)",
+      "pageid": 204218,
+      "revid": 2717556,
+      "revisedAt": "2026-01-08T17:14:17Z",
+      "sha1": "c539d84cb8c38450c32af5a72802bdf68d2c0653"
+    },
+    {
+      "title": "Drazach Thicket (Zaishen vanquish)",
+      "pageid": 282796,
+      "revid": 2717566,
+      "revisedAt": "2026-01-08T19:09:47Z",
+      "sha1": "36cd24aecd21bdfc2844be0d896280586ec8d221"
     },
     {
       "title": "Discord",
@@ -17061,6 +21731,13 @@
       "revid": 2717920,
       "revisedAt": "2026-01-14T01:51:19Z",
       "sha1": "ea851f67187a8e5b7cfe858469aaf9b50b3b5f46"
+    },
+    {
+      "title": "Zaishen Vanquish",
+      "pageid": 275551,
+      "revid": 2717922,
+      "revisedAt": "2026-01-14T02:13:52Z",
+      "sha1": "f41520526c0d342f17f27c7aa14167a935ffbe9e"
     },
     {
       "title": "Tears of the Fallen",
@@ -17257,6 +21934,20 @@
       "revid": 2719105,
       "revisedAt": "2026-01-28T03:29:54Z",
       "sha1": "cc4cc6d58b95029f7918ba40679985a4f8e97353"
+    },
+    {
+      "title": "Kinya Province (Zaishen vanquish)",
+      "pageid": 275904,
+      "revid": 2719187,
+      "revisedAt": "2026-01-28T23:22:44Z",
+      "sha1": "abd7db29a33bb16812e1856792b5cb4ed6d7d4d6"
+    },
+    {
+      "title": "Tears of the Fallen (Zaishen vanquish)",
+      "pageid": 283343,
+      "revid": 2719189,
+      "revisedAt": "2026-01-28T23:25:29Z",
+      "sha1": "8be1d51522119bcff50000636af978678b0f49c3"
     },
     {
       "title": "Kinya Province",
@@ -17553,6 +22244,13 @@
       "sha1": "22f8f34c98fe0236d292ad8d31694929956c2442"
     },
     {
+      "title": "Elementalist Elite Kurzick armor",
+      "pageid": 11903,
+      "revid": 2721763,
+      "revisedAt": "2026-02-25T00:45:08Z",
+      "sha1": "612fd73bc4c255211c7831a274b7e90fee8f29af"
+    },
+    {
       "title": "Crystal Core Maul",
       "pageid": 68792,
       "revid": 2722240,
@@ -17644,6 +22342,13 @@
       "sha1": "092a8541f987aebd011c54aabde08832ee1ebeb4"
     },
     {
+      "title": "Ilsundur, Lord of Fire (Zaishen quest)",
+      "pageid": 200753,
+      "revid": 2723102,
+      "revisedAt": "2026-03-19T16:42:08Z",
+      "sha1": "fe03cc6ce3c085332fd1afe4df072b0828a160cb"
+    },
+    {
       "title": "Avatar of Grenth",
       "pageid": 2024,
       "revid": 2723117,
@@ -17670,6 +22375,20 @@
       "revid": 2723150,
       "revisedAt": "2026-03-21T15:22:05Z",
       "sha1": "6769c20d9d9beb017edbfec09f0e6c4369a136ce"
+    },
+    {
+      "title": "Khabuus (Zaishen quest)",
+      "pageid": 204594,
+      "revid": 2723164,
+      "revisedAt": "2026-03-22T01:45:04Z",
+      "sha1": "e4bf72d12b8d811f55a8b2143a703cb00405bde9"
+    },
+    {
+      "title": "Havok Soulwail (Zaishen quest)",
+      "pageid": 215794,
+      "revid": 2723213,
+      "revisedAt": "2026-03-23T23:12:35Z",
+      "sha1": "64dab302198ab57ba6a18d68b2a43ba07b7cd79a"
     },
     {
       "title": "Kessex Peak",
@@ -18666,6 +23385,13 @@
       "sha1": "5820fe97f27b96c548f83d585a6ecad420e9ec9c"
     },
     {
+      "title": "Warrior Vabbian armor",
+      "pageid": 12366,
+      "revid": 2730386,
+      "revisedAt": "2026-06-15T12:06:34Z",
+      "sha1": "4f5a7670a3045362c7dbd6a700e57049711f122b"
+    },
+    {
       "title": "Charr Bag",
       "pageid": 9108,
       "revid": 2730535,
@@ -18692,6 +23418,13 @@
       "revid": 2730726,
       "revisedAt": "2026-06-20T16:14:57Z",
       "sha1": "7f026bd7b0bc81e6825157a1db67269e914065a4"
+    },
+    {
+      "title": "Ranger Studded Leather armor",
+      "pageid": 6629,
+      "revid": 2730758,
+      "revisedAt": "2026-06-21T13:04:04Z",
+      "sha1": "b917463af8fcd955e711c868562d75e5e43ff1b9"
     },
     {
       "title": "Lynx",
@@ -19653,6 +24386,13 @@
       "sha1": "ab1f932d846f21a059d30aae840fd8372a55b660"
     },
     {
+      "title": "Nicholas the Traveler",
+      "pageid": 199208,
+      "revid": 2734405,
+      "revisedAt": "2026-07-14T20:15:16Z",
+      "sha1": "0e02898a528426b17a237c2f65359ad12a1bbe12"
+    },
+    {
       "title": "Jagged Bones",
       "pageid": 4321,
       "revid": 2734456,
@@ -19700,6 +24440,13 @@
       "revid": 2735286,
       "revisedAt": "2026-07-22T14:00:12Z",
       "sha1": "f96e1515c4e72b79abdba4ad7d268dd7de8ebfaa"
+    },
+    {
+      "title": "Bandana",
+      "pageid": 67434,
+      "revid": 2735334,
+      "revisedAt": "2026-07-22T20:32:17Z",
+      "sha1": "e9964efeb62f219e8993eb0bb4e41ebfbcab28fe"
     },
     {
       "title": "Divine Path",
@@ -19938,6 +24685,13 @@
       "revid": 2737201,
       "revisedAt": "2026-08-06T23:21:07Z",
       "sha1": "0fb8875dad5e189a70c19125102e879b52d5439f"
+    },
+    {
+      "title": "Eternal Forgemaster",
+      "pageid": 25813,
+      "revid": 2737233,
+      "revisedAt": "2026-08-07T17:20:36Z",
+      "sha1": "b7f6c3aadb394b8088df9b148d1a4a2cd66916c3"
     },
     {
       "title": "Forgotten Relics",

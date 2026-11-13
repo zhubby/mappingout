@@ -1,0 +1,11 @@
+{
+  "title": "Ascalon Foothills (Zaishen vanquish)",
+  "pageid": 281769,
+  "revid": 2626931,
+  "revisedAt": "2018-05-05T01:59:41Z",
+  "sha1": "6a3bec6009a98523dd5a4f2f6f4f91ba5e7021a9",
+  "url": "https://wiki.guildwars.com/wiki/Ascalon_Foothills_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ascalon%20Foothills%20(Zaishen%20vanquish)&oldid=2626931",
+  "retrievedAt": "2026-11-13T05:29:50.258Z",
+  "wikitext": "{{Quest infobox\n| id = 1195\n| name = Ascalon Foothills\n| section = Zaishen Vanquish\n| image = [[File:Ascalon Foothills.jpg|200px]]\n| map = [[File:Ascalon Foothills map.jpg|200px|link=Ascalon Foothills/Map]]\n| map1text = Vanquish the [[Ascalon Foothills]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Ascalon Foothills]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear the Ascalon Foothills of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 50 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Ascalon Foothills of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]"
+}

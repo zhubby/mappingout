@@ -1,0 +1,11 @@
+{
+  "title": "Drakkar Lake (Zaishen vanquish)",
+  "pageid": 283204,
+  "revid": 2626916,
+  "revisedAt": "2018-05-05T01:59:10Z",
+  "sha1": "5434d0e2041258895058f5144aea975aafe6396f",
+  "url": "https://wiki.guildwars.com/wiki/Drakkar_Lake_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Drakkar%20Lake%20(Zaishen%20vanquish)&oldid=2626916",
+  "retrievedAt": "2026-11-13T05:29:51.527Z",
+  "wikitext": "{{Quest infobox\n| id = 1220\n| name = Drakkar Lake\n| section = Zaishen Vanquish\n| image = [[File:Drakkar Lake.jpg|200px]]\n| map = [[File:Drakkar Lake map.jpg|200px|link=Drakkar Lake/Map]]\n| map1text = Vanquish [[Drakkar Lake]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Drakkar Lake]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Drakkar Lake in the [[Far Shiverpeaks]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 15,000 [[Experience]]\n* 2,000 [[Gold]]\n* 5,000 [[Norn rank|Norn reputation point]]s\n* Complete the Base Objective for 250 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Drakkar Lake in the Far Shiverpeaks of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Norn reputation points]]"
+}

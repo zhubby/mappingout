@@ -1,0 +1,11 @@
+{
+  "title": "Ranger Elite Kurzick armor",
+  "pageid": 8589,
+  "revid": 2399475,
+  "revisedAt": "2011-10-23T21:04:17Z",
+  "sha1": "c71b099b5db392e50a3cf5c27b8ccdce2e6f8280",
+  "url": "https://wiki.guildwars.com/wiki/Ranger_Elite_Kurzick_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ranger%20Elite%20Kurzick%20armor&oldid=2399475",
+  "retrievedAt": "2026-11-13T05:28:24.393Z",
+  "wikitext": "{{Armor art infobox\n| profession = Ranger\n| campaign = [[Factions]]\n| pvp = Elite Kurzick\n| pvpreward = Fancy\n| maleimage = [[Image:Ranger Elite Kurzick armor m.jpg|135px]]\n| gallery = ranger Elite Kurzick \n}}\n'''Ranger Elite [[Kurzick armor]]''' is a [[prestige armor|prestige]] art type available in the Factions campaign.\n\nThe standard version of this armor is [[Ranger Kurzick armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{R-color|border}}; border-collapse:collapse; font-size: 90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background: {{R-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background: {{R-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n| align=\"center\" | '''[[Vasburg Armory]]'''\n| align=\"center\" | '''[[Giygas]]'''\n| align=\"center\" | '''70'''\n| 15 {{plat}}\n| 50 {{Cloth}}<br>5 {{Linen}}<br>10 {{Amber}}\n| 150 {{Cloth}}<br>15 {{Linen}}<br>30 {{Amber}}\n| 50 {{Cloth}}<br>5 {{Linen}}<br>10 {{Amber}}\n| 100 {{Cloth}}<br>10 {{Linen}}<br>20 {{Amber}}\n| 50 {{Cloth}}<br>5 {{Linen}}<br>10 {{Amber}}\n| 75 {{plat}}\n| 400 {{Cloth}}<br>40 {{Linen}}<br>80 {{Amber}}\n|}\n\n== Notes ==\n{{bug|The female version has serious issues with the hands during the /violin emote. Your hand will become skeleton like.}}\n{{bug|On the male version, the skirt is not visible from behind, between his legs.}}\n{{bug|On the female version, the fins on the gloves have a light coloured box around them - invisible without a cape.}}\n\n{{Ranger armor nav}}\n\n[[Category:Ranger armor|Elite Kurzick]]\n[[Category:Kurzick armor]]\n[[Category:Prestige armor]]"
+}

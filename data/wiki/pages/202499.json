@@ -1,0 +1,11 @@
+{
+  "title": "Zen Daijun (Zaishen quest)",
+  "pageid": 202499,
+  "revid": 2647158,
+  "revisedAt": "2020-01-29T18:34:50Z",
+  "sha1": "1b17c49ac652179bdaf4243561de7af5e9ca8904",
+  "url": "https://wiki.guildwars.com/wiki/Zen_Daijun_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Zen%20Daijun%20(Zaishen%20quest)&oldid=2647158",
+  "retrievedAt": "2026-11-13T05:29:27.676Z",
+  "wikitext": "{{Location disambiguation 2|Zen Daijun}}\n\n{{Quest infobox\n| id = 961\n| name = Zen Daijun\n| section = Zaishen Mission\n| map = [[File:Zen Daijun map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 1000\n}}__NOTOC__\nComplete [[Zen Daijun]].\n\n==Quest information==\n===Objectives===\n* Search [[Zen Daijun (explorable area)|Zen Daijun]] for the source of the infection.\n* *BONUS* Complete the mission in under 20 minutes.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Zen Daijun#Walkthrough|Zen Daijun]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"A dangerous [[Afflicted|affliction]] covers eastern [[Shing Jea Island]]. [[Master Togo]] seeks assistance in Zen Daijun to find the affliction's source.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

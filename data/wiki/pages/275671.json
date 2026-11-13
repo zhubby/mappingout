@@ -1,0 +1,11 @@
+{
+  "title": "Holdings of Chokhin (Zaishen vanquish)",
+  "pageid": 275671,
+  "revid": 2626898,
+  "revisedAt": "2018-05-05T01:58:38Z",
+  "sha1": "41fbfbc05bc4d4af4434b8f7114d99bfb4a7b10a",
+  "url": "https://wiki.guildwars.com/wiki/Holdings_of_Chokhin_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Holdings%20of%20Chokhin%20(Zaishen%20vanquish)&oldid=2626898",
+  "retrievedAt": "2026-11-13T05:29:43.059Z",
+  "wikitext": "{{Quest infobox\n| id = 1233\n| name = Holdings of Chokhin\n| section = Zaishen Vanquish\n| image = [[Image:Holdings of Chokhin.jpg|200px]]]\n| map = [[File:Holdings of Chokhin map.jpg|200px|link=Holdings of Chokhin/Map]]\n| map1text = Vanquish [[Holdings of Chokhin]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Holdings of Chokhin]].\n\n== Quest information ==\n=== Objectives ===\n* Clear the Holdings of Chokhin in [[Vabbi]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 750 [[Sunspear Promotion Points]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Holdings of Chokhin in Vabbi of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:High XP Reward]]\n[[Category:Rewards Platinum]]\n[[Category:Rewards Sunspear promotion points]]"
+}

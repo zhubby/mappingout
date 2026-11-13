@@ -1,0 +1,11 @@
+{
+  "title": "The Dragon's Lair (Zaishen quest)",
+  "pageid": 201640,
+  "revid": 2394455,
+  "revisedAt": "2011-10-13T15:04:30Z",
+  "sha1": "ce85d883b1576466d638eaf0c60af638ae6c4a7f",
+  "url": "https://wiki.guildwars.com/wiki/The_Dragon%27s_Lair_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Dragon's%20Lair%20(Zaishen%20quest)&oldid=2394455",
+  "retrievedAt": "2026-11-13T05:29:29.544Z",
+  "wikitext": "{{Quest infobox\n| id = 954\n| name = Dragon's Lair\n| section = Zaishen Mission\n| map = [[file:The_Dragon's_Lair_map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n| experience reward = 3000\n}}__NOTOC__\nComplete [[the Dragon's Lair]].\n\n==Quest information==\n===Objectives===\n*Talk to [[Glint]] in the Dragon's Lair.\n* *BONUS* Defeat Glint.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* Complete the Base Objective for 20 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per [[the Dragon's Lair#Walkthrough|Dragon's Lair]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;[[Zaishen Mission]]\n:''\"Are you ready to know destiny? Seek an audience with Glint in the Dragon's Lair and glean wisdom from the ancient prophet.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

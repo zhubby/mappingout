@@ -1,0 +1,11 @@
+{
+  "title": "Codex Arena (Zaishen quest)",
+  "pageid": 227517,
+  "revid": 2495202,
+  "revisedAt": "2012-06-15T08:11:40Z",
+  "sha1": "5c6c9bb8425b70bf1915fe82188ea0eb11d117b5",
+  "url": "https://wiki.guildwars.com/wiki/Codex_Arena_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Codex%20Arena%20(Zaishen%20quest)&oldid=2495202",
+  "retrievedAt": "2026-11-13T05:29:41.701Z",
+  "wikitext": "{{ Quest infobox\n| id = 1128\n| name = Codex Arena\n| campaign = Core\n| section = Zaishen Combat\n| type = Secondary\n| repeatable = y\n| given by = [[Zaishen Combat]]\n| given at = [[Great Temple of Balthazar]]\n}}__NOTOC__\nWin in [[Codex Arena]].\n\n==Quest information==\n===Objectives===\n* Win 3 battles in Codex Arena.\n* *BONUS* 5 battles in a row in Codex Arena.\n* *BONUS* Win 9 battles in Codex Arena.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen Challenge Quests|Zaishen Challenge]]] for your reward.\n\n===Reward===\n* 1,000 [[Gold]]\n* 6,000 [[Balthazar Faction]]\n* Complete the Base Objective for 25 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 100 Zaishen Copper Coins.\n\n==Walkthrough==\n{{section-stub}}\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Combat\n:''\"Balthazar favors the clever as well as the strong. Prove your worth by winning at least three battles in the Codex Arena before returning to Zehnchu.\"''\n{{ Offer dialog\n| accept = I can do that!\n| decline = No, I'm way too busy today.\n| ask = More competitors needed to prove their mettle in combat. Travel to the battlegrounds if you have what it takes to triumph.\n}}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Trivia==\n*Was first introduced on 23 October   2009.\n\n{{Combat Quest nav}}\n\n[[Category:Rewards Platinum]]"
+}

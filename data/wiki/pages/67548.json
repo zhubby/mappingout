@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Asuran armor",
+  "pageid": 67548,
+  "revid": 2380077,
+  "revisedAt": "2011-09-14T17:17:23Z",
+  "sha1": "2701ae9c24deb28ed50587cba6b26a7900b1dc0f",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Asuran_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Asuran%20armor&oldid=2380077",
+  "retrievedAt": "2026-11-13T05:28:35.669Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Eye of the North]]\n| pvp = Asuran\n| pvpreward = Basic\n| femaleimage = [[Image:Mesmer Asuran armor f.jpg|95px]]\n| maleimage = [[Image:Mesmer Asuran armor m.jpg|137px]]\n| gallery = mesmer Asuran\n}}\n'''Mesmer [[Asuran armor]]''' is a prestige art type available in the Eye of the North expansion. You need to be at least rank 5 (Not Too Annoying) in the [[Asura rank|Asura title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Rata Sum]]\n! [[Klub]]\n! 60\n| {{Cost|10000}}\n| 50 {{Cloth}}<br>5 {{Silk}}\n| 150 {{Cloth}}<br>15 {{Silk}}\n| 50 {{Cloth}}<br>5 {{Silk}}\n| 100 {{Cloth}}<br>10 {{Silk}}\n| 50 {{Cloth}}<br>5 {{Silk}}\n| {{Cost|50000}}\n| 400 {{Cloth}}<br>40 {{Silk}}\n|}\n\n==Notes==\n* When zooming out viewing the female armor, the dye on the dress will always have red accents, regardless of the color of the dye applied.\n* The earrings on the female armor have clipping issues with some hairstyles.\n* The Female version of this armor seems to be a reskin of [[Mesmer Elite Noble armor|Female Mesmer Elite Noble]] armor. The male seems to be a reskin of [[Mesmer Enchanter armor|Enchanter]] armor.\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Asuran]]\n[[Category:Asuran armor]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Old Ascalon (Zaishen vanquish)",
+  "pageid": 278201,
+  "revid": 2626868,
+  "revisedAt": "2018-05-05T01:57:41Z",
+  "sha1": "b9fe7ee0548b31eb3fedb6efadc8bf1290deb88f",
+  "url": "https://wiki.guildwars.com/wiki/Old_Ascalon_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Old%20Ascalon%20(Zaishen%20vanquish)&oldid=2626868",
+  "retrievedAt": "2026-11-13T05:29:46.264Z",
+  "wikitext": "{{Quest infobox\n| id = 1275\n| name = Old Ascalon\n| section = Zaishen Vanquish\n| image = [[File:Old Ascalon.jpg|200px]]\n| map = [[File:Old Ascalon map.jpg|200px|link=Old Ascalon/Map]]\n| map1text = Vanquish [[Old Ascalon]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Old Ascalon]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Old Ascalon of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Old Ascalon of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

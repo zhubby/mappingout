@@ -1,0 +1,11 @@
+{
+  "title": "Arborstone (Zaishen quest)",
+  "pageid": 205337,
+  "revid": 2425451,
+  "revisedAt": "2011-12-21T14:10:04Z",
+  "sha1": "0c1f4e6a5fc7ea2dd6e60921408157332c78e5c6",
+  "url": "https://wiki.guildwars.com/wiki/Arborstone_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Arborstone%20(Zaishen%20quest)&oldid=2425451",
+  "retrievedAt": "2026-11-13T05:29:33.221Z",
+  "wikitext": "{{Quest infobox\n| id =\n| name = Arborstone\n| section = Zaishen Mission\n| map = [[File:Arborstone map.jpg|275px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Arborstone]].\n\n==Quest information==\n===Objectives===\n* Retrieve the [[Urn of Saint Viktor]] from the cathedral in [[Arborstone (outpost)|Arborstone]].\n* *BONUS* Complete the mission in under 30 minutes.\n* *BONUS* Complete the mission in Hard Mode.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 2,500 [[Kurzick Faction]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Arborstone#Walkthrough|Arborstone]] mission.\n\n==Dialogue==\n\n===Initial dialogue===\n;Zaishen Mission\n:''\"[[Master Togo]] seeks an artifact of [[Saint Viktor]]. Contact Brother [[Mhenlo]] and retrieve the sacred urn from the [[zu Heltzer]]s of Arborstone.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*This quest was first offered on June 1st, 2009.\n\n[[Category:Rewards Kurzick faction]]\n[[Category:Rewards Platinum]]"
+}

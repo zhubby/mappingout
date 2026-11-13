@@ -1,0 +1,11 @@
+{
+  "title": "Ranger Krytan armor",
+  "pageid": 6316,
+  "revid": 2572446,
+  "revisedAt": "2014-07-23T03:34:34Z",
+  "sha1": "00a2de927c82b07b85db2217ffc0b1fc75fdc02b",
+  "url": "https://wiki.guildwars.com/wiki/Ranger_Krytan_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ranger%20Krytan%20armor&oldid=2572446",
+  "retrievedAt": "2026-11-13T05:28:24.386Z",
+  "wikitext": "{{armor art infobox\n| profession = Ranger\n| campaign = [[Prophecies]], [[Factions]]\n| pvp = Krytan (also [[PvP reward]])\n| maleimage= [[Image:Ranger Krytan armor m.jpg|135px]]\n| gallery = ranger Krytan }}\n'''Ranger [[Krytan armor]]''' is an art type introduced in the Prophecies campaign as [[Ranger collector armor|collector armor]] and is also available for crafting in the Factions campaign.\n\n'''Note:''' Ranger Krytan armor uses a unique mask art in Factions, not available in Prophecies.\n\nThere is no [[Prestige armor|prestige]] version of Krytan armor.\n\n{| style=\"margin:0.5em; border:1px solid {{R-color|border}}; border-collapse:collapse; font-size: 90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background: {{R-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"12\" | Crafting - Factions\n|- style=\"background: {{R-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Vest || Gloves || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Bukdek Byway]]\n! align=\"center\"|[[Oroku]]\n! align=\"center\"|70\n| 1 {{plat}}\n| 25 {{Hide}}<br>25 {{Bone}}\n| 75 {{Hide}}<br>75 {{Bone}}\n| 25 {{Hide}}<br>25 {{Bone}}\n| 50 {{Hide}}<br>50 {{Bone}}\n| 25 {{Hide}}<br>25 {{Bone}}\n| 5 {{plat}}\n| 200 {{Hide}}<br>200 {{Bone}}\n|}\n\n{{:Ranger Krytan armor/Collector}}\n==Notes==\n*[[Ranger Monument armor]] uses an adaptation of the vest for male rangers\n{{bug|The male version of the armor has [[clipping]] issues when in various animations.}}\n{{bug|Has clipping issues with [[cape]]s.}}\n{{Ranger armor nav}}\n\n[[Category:Ranger armor|Krytan]]\n[[Category:Prophecies armor]]\n[[Category:Factions armor]]\n[[Category:PvP armor]]\n[[Category:Krytan armor]]\n[[Category:Ranger collector armor|Krytan]]\n[[Category:PvP reward armor]]"
+}

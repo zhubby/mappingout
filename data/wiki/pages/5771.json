@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Primeval armor",
+  "pageid": 5771,
+  "revid": 2377720,
+  "revisedAt": "2011-09-09T15:19:38Z",
+  "sha1": "8aee7bb9e2613158eb221d2266632b848f4ec90c",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Primeval_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Primeval%20armor&oldid=2377720",
+  "retrievedAt": "2026-11-13T05:28:36.282Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Nightfall]]\n| pvp = Primeval\n| pvpreward = Fancy\n| gallery = mesmer Primeval\n}}\n'''Mesmer [[Primeval armor]]''' is a [[Prestige armor|prestige]] art type available in the Nightfall campaign.\n\nThis armor is only available in the [[Throne of Secrets]], an [[explorable area]] only accessible by completing [[Abaddon's Gate|the final mission]] in Nightfall. If you plan on buying this armor make sure you take all of the required crafting materials and money into the mission with you, as there are no [[Xunlai Agent]]s, [[material trader]]s, or [[rare material trader]]s available in the zone.\n\nThere is no standard version of Primeval armor.\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Attire || Gloves || Hose || Footwear || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Throne of Secrets]]\n! [[Keeper of Armor]]\n! 60\n| {{Cost|15000}}\n| 50 {{Cloth}}<br>5 {{Fur}}\n| 150 {{Cloth}}<br>15 {{Fur}}\n| 50 {{Cloth}}<br>5 {{Fur}}\n| 100 {{Cloth}}<br>10 {{Fur}}\n| 50 {{Cloth}}<br>5 {{Fur}}\n| {{Cost|75000}}\n| 400 {{Cloth}}<br>40 {{Fur}}\n|}\n\n==Notes==\n* The female top clips between the corset and 'fur'.\n* Parts of the armor disappear when underwater.<ref>[[:Image:Mesmer Primeval armor Underwater f.jpg|Female Mesmer Primeval Armor underwater]]</ref>\n* Footwear has clipping issues when sitting.\n\n==References==\n<references/>\n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Primeval]]\n[[Category:Primeval armor]]\n[[Category:Prestige armor]]"
+}

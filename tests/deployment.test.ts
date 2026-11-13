@@ -75,6 +75,15 @@ describe('bundled deployment data', () => {
     await editCatalog(dir, data => { delete data.records.find((record: any) => record.wiki).wiki; });
     await expect(validateDeploymentData(dir)).rejects.toThrow('核对数量与报告不一致');
   });
+  it('requires the feature catalogs and validates their recipes and cycles',async()=>{
+    const dir=await fixture();await fs.unlink(path.join(dir,'data/armor.json'));await expect(validateDeploymentData(dir)).rejects.toThrow('armor.json');
+    await fs.copyFile('public/data/armor.json',path.join(dir,'data/armor.json'));
+    const file=path.join(dir,'data/calendar.json'),data=JSON.parse(await fs.readFile(file,'utf8'));data.rotations[0].sequence.pop();await fs.writeFile(file,JSON.stringify(data));await expect(validateDeploymentData(dir)).rejects.toThrow('轮换序列不完整');
+  });
+  it('includes both feature data catalogs and lazy chunks in offline precaching',async()=>{
+    const dir=await buildFixture();await fs.writeFile(path.join(dir,'data/armor.json'),'{}');await fs.writeFile(path.join(dir,'data/calendar.json'),'{}');await fs.writeFile(path.join(dir,'build/armor-123.js'),'lazy');
+    expect((await finalizeBuild(dir)).precache).toEqual(expect.arrayContaining(['data/armor.json','data/calendar.json','build/armor-123.js']));
+  });
 });
 
 async function buildFixture() {

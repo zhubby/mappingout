@@ -1,0 +1,11 @@
+{
+  "title": "Pongmei Valley (Zaishen vanquish)",
+  "pageid": 277150,
+  "revid": 2626862,
+  "revisedAt": "2018-05-05T01:57:27Z",
+  "sha1": "569d9ece961161a979645b4a7163f2138fba6d8f",
+  "url": "https://wiki.guildwars.com/wiki/Pongmei_Valley_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pongmei%20Valley%20(Zaishen%20vanquish)&oldid=2626862",
+  "retrievedAt": "2026-11-13T05:29:44.680Z",
+  "wikitext": "{{Quest infobox\n| id = 1256\n| name = Pongmei Valley\n| section = Zaishen Vanquish\n| image = [[File:Pongmei Valley.jpg|200px]]\n| map = [[File:Pongmei Valley map.jpg|200px|link=Pongmei Valley/Map]]\n| map1text = Vanquish [[Pongmei Valley]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Pongmei Valley]].\n\n== Quest information ==\n=== Objectives ===\n* Clear Pongmei Valley near [[Kaineng City]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Pongmei Valley near Kaineng City of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

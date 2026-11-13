@@ -1,0 +1,11 @@
+{
+  "title": "Raisu Palace (Zaishen quest)",
+  "pageid": 199793,
+  "revid": 2451699,
+  "revisedAt": "2012-02-15T08:21:50Z",
+  "sha1": "015761898b7874340e94e3bc45e580eab51e25de",
+  "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Raisu%20Palace%20(Zaishen%20quest)&oldid=2451699",
+  "retrievedAt": "2026-11-13T05:29:27.674Z",
+  "wikitext": "{{Quest infobox\n| id = 971\n| name = Raisu Palace\n| section = Zaishen Mission\n| image =\n| map = [[File:Raisu_Palace_map.jpg|200px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Raisu Palace]].\n\n==Quest information==\n===Objectives===\n* Protect [[Emperor Kisu]] from [[Shiro'ken]].\n* *BONUS* Complete the mission in under 20 minutes (26 minutes in [[Hard Mode]]).\n* *BONUS* Complete the mission in Hard Mode.\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Raisu_Palace#Walkthrough|Raisu Palace]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"The Emperor is in danger. Contact Brother [[Mhenlo]] and meet [[Master Togo]] at [[Raisu Palace (outpost)|Raisu Palace]] to protect the Emperor.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*This quest was first offered on April 26, 2009.\n\n[[Category:Rewards Platinum]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Dasha Vestibule (Zaishen quest)",
+  "pageid": 201968,
+  "revid": 2688270,
+  "revisedAt": "2023-07-05T19:48:48Z",
+  "sha1": "31d58fe0adb461ec1e9477f90d10cfc6a1d1a2eb",
+  "url": "https://wiki.guildwars.com/wiki/Dasha_Vestibule_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dasha%20Vestibule%20(Zaishen%20quest)&oldid=2688270",
+  "retrievedAt": "2026-11-13T05:29:27.675Z",
+  "wikitext": "{{Quest infobox\n| id = \n| name = Dasha Vestibule\n| section = Zaishen Mission\n| image =\n| map = [[File:Dasha Vestibule map.jpg|275px]]\n| required hero = Margrid the Sly\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Dasha Vestibule]].\n\n==Quest information==\n===Objectives===\n* Complete the three trials and defeat the three [[djinn]] in the Dasha Vestibule.\n* *BONUS* Collect three treasures of [[Ahdashim]] for [[Margrid]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 500 [[Sunspear Promotion Point]]s\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Dasha Vestibule]] mission.\n\n==Dialogue==\n===Initial dialogue===\n;Zaishen Mission\n:''\"The [[Sunspears]] need the aid of the [[Princes of Vabbi]].  They hide within their secret refuge.  Contact Margrid the Sly and navigate the Dasha Vestibule to reach them.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*This quest was first offered on May 10, 2009.\n\n[[Category:Rewards Sunspear promotion points]]\n[[Category:Rewards Platinum]]"
+}

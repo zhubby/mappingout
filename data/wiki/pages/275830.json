@@ -1,0 +1,11 @@
+{
+  "title": "Griffon's Mouth (Zaishen vanquish)",
+  "pageid": 275830,
+  "revid": 2626902,
+  "revisedAt": "2018-05-05T01:58:45Z",
+  "sha1": "919a9f5f69b6ef6ba2e10a7800f770c235a5d386",
+  "url": "https://wiki.guildwars.com/wiki/Griffon%27s_Mouth_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Griffon's%20Mouth%20(Zaishen%20vanquish)&oldid=2626902",
+  "retrievedAt": "2026-11-13T05:29:43.059Z",
+  "wikitext": "{{Quest infobox\n| id = 1235\n| name = Griffon's Mouth\n| section = Zaishen Vanquish\n| image = [[Image:Griffon's Mouth.jpg|200px]]\n| map = [[File:Griffon's Mouth map.jpg|200px|link=Griffon's Mouth/Map]]\n| map1text = Vanquish [[Griffon's Mouth]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Griffon's Mouth]].\n\n== Quest information ==\n=== Objectives ===\n* Clear the Griffon's Mouth in the [[Northern Shiverpeaks]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 50 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Griffon's Mouth in the Northern Shiverpeaks of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]"
+}

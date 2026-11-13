@@ -1,0 +1,11 @@
+{
+  "title": "Dervish Norn armor",
+  "pageid": 64620,
+  "revid": 2441352,
+  "revisedAt": "2012-01-31T11:56:47Z",
+  "sha1": "2f69b3e607b5c2bbe7490dbdc30a1c07a2f96fb8",
+  "url": "https://wiki.guildwars.com/wiki/Dervish_Norn_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dervish%20Norn%20armor&oldid=2441352",
+  "retrievedAt": "2026-11-13T05:28:52.071Z",
+  "wikitext": "{{Armor art infobox\n| profession = Dervish\n| campaign = [[Eye of the North]]\n| pvp = Norn\n| pvpreward = Basic\n| gallery = dervish Norn\n}}\n'''Dervish [[Norn armor]]''' is a prestige art type available in the Eye of the North expansion. You need to be at least rank 5 (Slayer of Wurms) in the [[Norn rank|Norn title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{d-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{d-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{d-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Hood || Robes || Vambraces || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Gunnar's Hold]]\n! [[Radi]]\n! 70\n| 10 {{plat}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 150 {{Hide}}<br>15 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 100 {{Hide}}<br>10 {{Fur}}\n| 50 {{Hide}}<br>5 {{Fur}}\n| 50 {{plat}} \n| 400 {{Hide}}<br>40 {{Fur}}\n|}\n\n{{dervish armor nav}}\n\n[[Category:Dervish armor|Norn]]\n[[Category:Prestige armor]]\n[[Category:Norn armor]]"
+}

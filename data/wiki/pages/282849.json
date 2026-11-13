@@ -1,0 +1,11 @@
+{
+  "title": "Fahranur, the First City (Zaishen vanquish)",
+  "pageid": 282849,
+  "revid": 2626910,
+  "revisedAt": "2018-05-05T01:59:00Z",
+  "sha1": "c1bbc1d6918a2ab5134dbc5a74f96cbcb9399983",
+  "url": "https://wiki.guildwars.com/wiki/Fahranur,_the_First_City_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fahranur%2C%20the%20First%20City%20(Zaishen%20vanquish)&oldid=2626910",
+  "retrievedAt": "2026-11-13T05:29:51.522Z",
+  "wikitext": "{{Quest infobox\n| id = 1215\n| name = Fahranur, the First City\n| section = Zaishen Vanquish\n| image = [[File:Nightfall screenshot 3.jpg|200px]]\n| map = [[File:Fahranur, The First City map.jpg|200px|link=Fahranur, The First City/Map]]\n| map1text = Vanquish [[Fahranur, The First City]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] [[Fahranur, The First City]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear Fahranur, the {{sic}} First City in [[Istan]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 500 [[Sunspear rank|Sunspear Promotion Point]]s\n* Complete the Base Objective for 50 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear Fahranur, the {{sic}} First City in Istan of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:Rewards Sunspear promotion points]]"
+}

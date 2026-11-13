@@ -1,0 +1,11 @@
+{
+  "title": "Consulate Docks (Zaishen quest)",
+  "pageid": 200279,
+  "revid": 2619761,
+  "revisedAt": "2017-06-28T22:13:02Z",
+  "sha1": "44c598940aa3a0351396b5317b52343eb90bff6e",
+  "url": "https://wiki.guildwars.com/wiki/Consulate_Docks_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Consulate%20Docks%20(Zaishen%20quest)&oldid=2619761",
+  "retrievedAt": "2026-11-13T05:29:29.539Z",
+  "wikitext": "{{Quest infobox\n| id = 981\n| name = Consulate Docks\n| section = Zaishen Mission\n| image =\n| map = [[File:Consulate Docks map.jpg|275px]]\n| required hero = Dunkoro\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Consulate Docks]].\n\n==Quest information==\n===Objectives===\n* Take [[Dunkoro]] and join the assault on [[Gandara]].\n* *BONUS* Eliminate the [[Kourna]]n field marshal groups.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* 100 [[Sunspear Promotion Points]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Consulate Docks]] mission.\n\n==Dialogues==\n===Initial dialogue===\n;Zaishen Mission\n:''\"[[Abaddon]]'s prophet has retreated to Gandara. Contact Dunkoro and join [[Kormir]] and the [[Sunspears]] at the [[Consulate Docks (outpost)|Consulate Docks]] for the showdown.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n==Notes==\n*In order to receive credit for the first bonus objective, you must complete the mission.\n\n[[Category:Rewards Sunspear promotion points]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Mesmer Obsidian armor",
+  "pageid": 5777,
+  "revid": 2377393,
+  "revisedAt": "2011-09-08T19:02:47Z",
+  "sha1": "a04d15e297b5db4b48b77cefd9fa422b9f04194f",
+  "url": "https://wiki.guildwars.com/wiki/Mesmer_Obsidian_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mesmer%20Obsidian%20armor&oldid=2377393",
+  "retrievedAt": "2026-11-13T05:28:36.283Z",
+  "wikitext": "{{armor art infobox\n| profession = Mesmer\n| campaign = [[Core]]\n| pvpreward = Fancy\n| gallery = mesmer Obsidian\n}}\n'''Mesmer [[Obsidian armor]]''' is a [[Prestige armor|prestige]] art type available to players from all campaigns. There is no Obsidian headgear for Mesmers.\n\n{| style=\"margin:0.5em; border:1px solid {{Me-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{Me-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background:{{Me-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Attire || Gloves || Hose || Footwear ||rowspan=\"2\"| &nbsp; ||colspan=2| Total cost\n|-\n! [[Fissure of Woe|Fissure<br>of Woe]]\n! [[Eternal Forgemaster|Eternal<br>Forgemaster]]\n! 60\n| 15  {{plat}}\n| 150 {{Cloth}}<br>15 {{Elonian Leather}}<br>45 {{Ecto}}<br>45 {{Shard}}\n| 50 {{Cloth}}<br>5  {{Elonian Leather}}<br>15 {{Ecto}}<br>15 {{Shard}}\n| 100 {{Cloth}}<br>10 {{Elonian Leather}}<br>30 {{Ecto}}<br>30 {{Shard}}\n| 50 {{Cloth}}<br>5  {{Elonian Leather}}<br>15 {{Ecto}}<br>15 {{Shard}}\n| 60 {{plat}}\n| 350 {{Cloth}}<br>35 {{Elonian Leather}}<br>105 {{Ecto}}<br>105 {{Shard}}\n|}\n\n==Notes==\n* In order for the [[Eternal Forgemaster]] to appear in [[The Fissure of Woe]], players must complete the following quests:\n** [[The Eternal Forgemaster]]\n** [[Defend the Temple of War]]\n** [[Restore the Temple of War]]\n{{bug|The female variation of the armor has [[clipping]] issues on the back of the skirt & boots during the walking animation, and sometimes in stationary standing positions depending on camera views.}}\n\n{{mesmer armor nav}}\n\n[[Category:Mesmer armor|Obsidian]]\n[[Category:Obsidian armor]]\n[[Category:Prestige armor]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Minister Cho's Estate (Zaishen quest)",
+  "pageid": 203908,
+  "revid": 2433256,
+  "revisedAt": "2012-01-10T22:02:15Z",
+  "sha1": "53c4b850b5817ca57b0fbd05251e7a1e41ac86e9",
+  "url": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Minister%20Cho's%20Estate%20(Zaishen%20quest)&oldid=2433256",
+  "retrievedAt": "2026-11-13T05:29:33.220Z",
+  "wikitext": "{{Location disambiguation 2}}\n{{Quest infobox\n| id = \n| name = Minister Cho's Estate\n| section = Zaishen Mission\n| map = [[File:Minister Cho's Estate map.jpg|200px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]] \n| experience reward = 1000\n}}__NOTOC__\nComplete [[Minister Cho's Estate]].\n\n== Quest information ==\n=== Objectives ===\n* Neutralize the danger to [[Minister Cho]].\n* *BONUS* Complete the mission in under 20 minutes.\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 1,000 [[Experience]]\n* 250 [[Gold]]\n* Complete the Base Objective for 15 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per the [[Minister Cho's Estate#Walkthrough|Minister Cho's Estate]] mission.\n\n== Dialogue ==\n=== Initial dialogue ===\n;Zaishen Mission\n: ''\"A strange disease has beset [[Minister Cho's Estate (outpost)|Minister Cho's estate]]. {{sic|\"estate\" is lowercase}} [[Master Togo]] requests able-bodied heroes to help investigate and neutralize the danger.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''"
+}

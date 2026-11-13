@@ -1,0 +1,11 @@
+{
+  "title": "Eastern Frontier (Zaishen vanquish)",
+  "pageid": 282082,
+  "revid": 2626912,
+  "revisedAt": "2018-05-05T01:59:03Z",
+  "sha1": "8d17c59f4a16c14c2a595ddcad97733e5f50e1ba",
+  "url": "https://wiki.guildwars.com/wiki/Eastern_Frontier_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Eastern%20Frontier%20(Zaishen%20vanquish)&oldid=2626912",
+  "retrievedAt": "2026-11-13T05:29:50.263Z",
+  "wikitext": "{{Quest infobox\n| id = 1200\n| name = Eastern Frontier\n| section = Zaishen Vanquish\n| image = [[File:Eastern Frontier.jpg|200px]]\n| map = [[File:Eastern Frontier map.jpg|200px|link=Eastern Frontier/Map]]\n| map1text = Vanquish the [[Eastern Frontier]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Eastern Frontier]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear the Eastern Frontier in [[Ascalon]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,000 [[Gold]]\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Eastern Frontier in Ascalon of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]"
+}

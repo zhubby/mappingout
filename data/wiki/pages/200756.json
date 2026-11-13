@@ -1,0 +1,11 @@
+{
+  "title": "Curse of the Nornbear (Zaishen quest)",
+  "pageid": 200756,
+  "revid": 2646542,
+  "revisedAt": "2019-12-22T09:22:33Z",
+  "sha1": "7bbb747c37a8e27a47c6bf7eccbe58745e0b3a7d",
+  "url": "https://wiki.guildwars.com/wiki/Curse_of_the_Nornbear_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Curse%20of%20the%20Nornbear%20(Zaishen%20quest)&oldid=2646542",
+  "retrievedAt": "2026-11-13T05:29:33.217Z",
+  "wikitext": "{{Quest infobox\n| id = 1006\n| name = Curse of the Nornbear\n| section = Zaishen Mission\n| map = [[Image:Curse of the Nornbear map.jpg|250px]]\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = 3000\n}}__NOTOC__\nComplete [[Curse of the Nornbear]].\n\n== Quest information ==\n=== Objectives ===\n* Help [[Jora]] track and defeat the [[Nornbear]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 1,500 [[Norn reputation point]]s\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough == \nAs per [[Curse of the Nornbear]].\n\n== Dialogue ==\n=== Initial Dialogue ===\n;Zaishen Mission\n:''\"Jora seeks to break the Curse of the Nornbear. Join her in the [[Far Shiverpeaks]].\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Norn reputation points]]"
+}

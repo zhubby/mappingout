@@ -1,0 +1,11 @@
+{
+  "title": "Assault on the Stronghold (Zaishen quest)",
+  "pageid": 202174,
+  "revid": 2100371,
+  "revisedAt": "2010-07-29T06:32:31Z",
+  "sha1": "d223970d8a43a46616ebd61c6c2634d614189fa1",
+  "url": "https://wiki.guildwars.com/wiki/Assault_on_the_Stronghold_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Assault%20on%20the%20Stronghold%20(Zaishen%20quest)&oldid=2100371",
+  "retrievedAt": "2026-11-13T05:29:29.544Z",
+  "wikitext": "{{Quest infobox\n| id = 1005\n| name = Assault on the Stronghold\n| section = Zaishen Mission\n| map = [[Image:Assault on the Stronghold map.jpg|250px]]\n| given by =[[Zaishen Mission]]\n| given at =[[Great Temple of Balthazar]] \n}}__NOTOC__\nComplete [[Assault on the Stronghold]].\n\n==Quest information==\n===Objectives===\n* Assault the Stronghold and free the [[Ebon Vanguard]] captives from [[Hierophant Burntsoul]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n===Reward===\n* 5,000 [[Experience]]\n* 1,000 [[Gold]]\n* 2,500 [[Vanguard reputation point]]s\n* Complete the Base Objective for 40 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 100 Zaishen Copper Coins.\n\n==Walkthrough==\nAs per the [[Assault on the Stronghold]] quest.\n\n==Dialogues==\n===Initial dialogue===\n;Zaishen Mission\n:''\"The [[Charr]] hierophant has captured Ebon Vanguard soldiers. Seek [[Roan Fierceheart]] to partake in any assault on the stronghold. We are the fierce.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n===Reward dialogue===\n;Zehnchu\n:''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Vanguard reputation points]]\n[[Category:Rewards Platinum]]"
+}

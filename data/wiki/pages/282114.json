@@ -1,0 +1,11 @@
+{
+  "title": "Dejarin Estate (Zaishen vanquish)",
+  "pageid": 282114,
+  "revid": 2626921,
+  "revisedAt": "2018-05-05T01:59:26Z",
+  "sha1": "8dbfff1e57107f074534d5f4796b61ba3a6ecd4f",
+  "url": "https://wiki.guildwars.com/wiki/Dejarin_Estate_(Zaishen_vanquish)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dejarin%20Estate%20(Zaishen%20vanquish)&oldid=2626921",
+  "retrievedAt": "2026-11-13T05:29:50.264Z",
+  "wikitext": "{{Quest infobox\n| id = 1201\n| name = Dejarin Estate\n| section = Zaishen Vanquish\n| image = [[File:Dejarin Estate.jpg|200px]]\n| map = [[File:Dejarin Estate map.jpg|200px|link=Dejarin Estate/Map]]\n| map1text = Vanquish the [[Dejarin Estate]]\n| given by = [[Zaishen Vanquish]]\n| given at = [[Embark Beach]]\n| experience reward = EP reward\n}}__NOTOC__\n[[Vanquisher|Vanquish]] the [[Dejarin Estate]]. \n\n== Quest information ==\n=== Objectives ===\n* Clear the Dejarin Estate in [[Kourna]] of all enemies in [[hard mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 10,000 [[Experience]]\n* 1,500 [[Gold]]\n* 750 [[Sunspear rank|Sunspear Promotion Point]]s\n* Complete the Base Objective for 150 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n\n== Dialogues ==\n=== Initial dialogue ===\n; [[Zaishen Vanquish]]\n: ''\"Clear the Dejarin Estate in Kourna of all enemies in hard mode.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = There are still threats that remain. Return when you have slain all of the foes that await you at your destination.}}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Platinum]]\n[[Category:High XP Reward]]\n[[Category:Rewards Sunspear promotion points]]"
+}

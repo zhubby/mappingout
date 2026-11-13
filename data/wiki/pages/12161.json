@@ -1,0 +1,11 @@
+{
+  "title": "Warrior Elite Gladiator armor",
+  "pageid": 12161,
+  "revid": 2620607,
+  "revisedAt": "2017-07-17T14:43:56Z",
+  "sha1": "8a0ab14ffd7f0a40b1c96e36b1a92fe81c0820f5",
+  "url": "https://wiki.guildwars.com/wiki/Warrior_Elite_Gladiator_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warrior%20Elite%20Gladiator%20armor&oldid=2620607",
+  "retrievedAt": "2026-11-13T05:28:19.393Z",
+  "wikitext": "{{armor art infobox\n| profession = Warrior\n| campaign = [[Prophecies]]\n| pvp = Elite Gladiator\n| pvpreward = Fancy\n| maleimage = [[Image:Warrior Elite Gladiator armor m.jpg|127px]]\n| gallery = warrior Elite Gladiator \n}}\n[[Warrior Elite Gladiator armor]] is a [[prestige armor|prestige]] art type introduced in the Prophecies campaign.\n\nThe standard version of this armor is [[Warrior Gladiator armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{W-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{W-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{W-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Helm || Hauberk || Gauntlets || Leggings || Boots || rowspan=\"2\" | &nbsp; ||colspan=\"2\"| Total cost\n|- align=\"right\"\n! align=\"center\"|[[Marhan's Grotto]]\n! align=\"center\"|[[Karl]]\n! align=\"center\"|80\n| {{Cost|15000}}\n| 50  {{Iron}}<br>16 {{Hide}}\n| 150 {{Iron}}<br>48 {{Hide}}\n| 50  {{Iron}}<br>16 {{Hide}}\n| 100 {{Iron}}<br>32 {{Hide}}\n| 50  {{Iron}}<br>16 {{Hide}}\n| {{Cost|75000}}\n| 400 {{Iron}}<br>128 {{Hide}}\n|}\n\n== Notes ==\n* This armor is labeled [[Marhan's Grotto armor#Marhan's Grotto Exclusive Armor|Marhan's Grotto Exclusive Armor]] in the [[\"Resilience\"]] monument in the [[Hall of Monuments]].\n* The leggings on the male version of this armor wrap around the leg incorrectly, causing clipping with itself.\n\n== Trivia ==\n*Unlike other prestige warrior armor sets from Prophecies, this one did not have a head piece for a long time. The helm was finally added with [[Game updates/20070405|April 5th 2007 update]].\n\n{{warrior armor nav}}\n\n[[Category:Warrior armor|Elite Gladiator]]\n[[Category:Prestige armor]]"
+}

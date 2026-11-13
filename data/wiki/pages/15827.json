@@ -1,0 +1,11 @@
+{
+  "title": "Assassin Kurzick armor",
+  "pageid": 15827,
+  "revid": 2379737,
+  "revisedAt": "2011-09-13T17:57:02Z",
+  "sha1": "42e158dd91be7d0872baa84e5a1f3bda6c46c329",
+  "url": "https://wiki.guildwars.com/wiki/Assassin_Kurzick_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Assassin%20Kurzick%20armor&oldid=2379737",
+  "retrievedAt": "2026-11-13T05:28:46.948Z",
+  "wikitext": "{{Armor art infobox\n| profession = Assassin\n| campaign = [[Factions]]\n| pvp = Kurzick\n| pvpreward = Basic\n| maleimage = [[Image:Assassin Kurzick armor m.jpg|125px]]\n| gallery = assassin Kurzick \n}}\n'''Assassin [[Kurzick armor]]''' is an art type available in the Factions campaign.\n \nThe [[Prestige armor|prestige]] version of this armor is [[Assassin Elite Kurzick armor]].\n\n{| style=\"margin:0.5em; border:1px solid {{A-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{A-color|background}};\"\n!style=\"font-size:120%;\" colspan=\"12\" | Crafting\n|- style=\"background:{{A-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Mask || Guise || Gloves || Leggings || Shoes || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[House zu Heltzer]]\n! [[Morbach]]\n! 70\n| align=\"right\" | 1 {{plat}}\n| 25 {{Hide}}<br>4 {{Steel}}<br>3 {{Amber}}\n| 75 {{Hide}}<br>12 {{Steel}}<br>9 {{Amber}}\n| 25 {{Hide}}<br>4 {{Steel}}<br>3 {{Amber}}\n| 50 {{Hide}}<br>8 {{Steel}}<br>6 {{Amber}}\n| 25 {{Hide}}<br>4 {{Steel}}<br>3 {{Amber}}\n| align=\"right\" | 5 {{plat}}\n| 200 {{Hide}}<br>32 {{Steel}}<br>24 {{Amber}}\n|}\n\n{{Bug|The mask does not dye properly on the back, leaving blue on the rear despite the color dye applied.}}\n{{Bug|The blades on the gloves clip through some shields.}}\n\n{{Assassin armor nav}}\n\n[[Category:Assassin armor|Kurzick]]\n[[Category:Kurzick armor]]"
+}

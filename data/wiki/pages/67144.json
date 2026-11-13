@@ -1,0 +1,11 @@
+{
+  "title": "Paragon Monument armor",
+  "pageid": 67144,
+  "revid": 2435469,
+  "revisedAt": "2012-01-16T19:21:06Z",
+  "sha1": "96809e27bbaac59cdeca722f861449af37cc1672",
+  "url": "https://wiki.guildwars.com/wiki/Paragon_Monument_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Paragon%20Monument%20armor&oldid=2435469",
+  "retrievedAt": "2026-11-13T05:28:49.683Z",
+  "wikitext": "{{Armor art infobox\n| profession = Paragon\n| campaign = [[Eye of the North]]\n| pvp = Monument\n| pvpreward = Basic\n| gallery = paragon Monument\n}}\n'''Paragon [[Monument armor]]''' is a prestige art type available in the Eye of the North expansion. You need to be at least rank 5 (Shadow Agent) in the [[Ebon Vanguard rank|Ebon Vanguard title track]] to be able to craft this armor.\n\n{| style=\"margin:0.5em; border:1px solid {{p-color|border}}; border-collapse:collapse; font-size:90%;\" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:{{p-color|background}};\"\n! style=\"font-size:120%;\" colspan=\"11\" | Crafting\n|- style=\"background:{{p-color|tint}};\"\n! Location || Armorer || [[Armor rating|AR]] || Cost\n! Raiment || Armguards || Leggings || Sandals || rowspan=\"2\" | &nbsp; ||colspan=2| Total cost\n|-\n! [[Eye of the North (outpost)|Eye of the North]]\n! [[Brett]]\n! 80\n| {{Cost|10000}}\n| 150 {{Iron}}<br>15 {{Leather}}\n| 50 {{Iron}}<br>5 {{Leather}}\n| 100 {{Iron}}<br>10 {{Leather}}\n| 50 {{Iron}}<br>5 {{Leather}}\n| {{Cost|40000}}\n| 350 {{Iron}}<br>35 {{Leather}}\n|}\n==Notes==\n* The individual armor components are similar to components from previously released armor sets.\n{| style=\"margin:0.5em; border:1px solid {{p-color|border}}; border-collapse:collapse; \" cellpadding=\"2\" cellspacing=\"0\" rules=\"all\"\n|- style=\"text-align:center; background:{{p-color|background}};\"\n|'''Armor Component''' || {{male}} || {{female}}\n|-\n|'''Raiment''' || [[Paragon Vabbian armor]] || [[Paragon Elonian armor]]\n|-\n|'''Armguards''' || [[Paragon Elonian armor]] || New Model\n|-\n|'''Leggings''' || [[Paragon Sunspear armor]] || [[Paragon Elite Sunspear armor]]\n|-\n|'''Sandals''' || [[Paragon Vabbian armor]] || New Model\n|-\n|}\n{{Paragon armor nav}}\n\n[[Category:Paragon armor|Monument]]\n[[Category:Monument armor]]\n[[Category:Prestige armor]]"
+}

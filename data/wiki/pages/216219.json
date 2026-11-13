@@ -1,0 +1,11 @@
+{
+  "title": "Warband of Brothers (Zaishen quest)",
+  "pageid": 216219,
+  "revid": 2100370,
+  "revisedAt": "2010-07-29T06:32:03Z",
+  "sha1": "e53c13b001ea664d1dc639256b42d178afe218aa",
+  "url": "https://wiki.guildwars.com/wiki/Warband_of_Brothers_(Zaishen_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Warband%20of%20Brothers%20(Zaishen%20quest)&oldid=2100370",
+  "retrievedAt": "2026-11-13T05:29:29.549Z",
+  "wikitext": "{{Quest infobox\n| id =\n| name = Warband of Brothers\n| section = Zaishen Mission\n| image =\n| given by = [[Zaishen Mission]]\n| given at = [[Great Temple of Balthazar]]\n| experience reward = EP reward\n}}__NOTOC__\nComplete [[Warband of Brothers]].\n\n== Quest information ==\n=== Objectives ===\n* Rescue three warband members from the [[Cathedral of Flames]] in the [[Charr Homelands|Charr homelands]].\n* *BONUS* Complete the mission in [[Hard Mode]].\n* See [[Zehnchu]] <nowiki>[</nowiki>[[Zaishen]] Challenge] for your reward.\n\n=== Reward ===\n* 3,000 [[Experience]]\n* 500 [[Gold]]\n* 1,500 [[Vanguard reputation point]]s\n* Complete the Base Objective for 30 [[Copper Zaishen Coin|Zaishen Copper Coins]].\n* Complete the *BONUS* Objective for an additional 75 Zaishen Copper Coins.\n\n== Walkthrough ==\nAs per [[Warband of Brothers#Walkthrough|Warband of Brothers]] quest.\n\n== Dialogue ==\n=== Initial dialogue ===\n; [[Zaishen Mission]]\n: ''\"Progressive-thinking [[Charr]] ranger seeks extra firepower of any race.  Support [[Pyre Fierceshot]] as he plans the release of his warband from captivity at the shaman's hands in the Cathedral of Flames.\"''\n{{offer dialogue\n|accept = I can do that!\n|decline = No, I'm way too busy today.\n|ask = The battle rages on! All able-bodied heroes should hasten to defend those bravely protecting [[Tyria (world)|Tyria]]. }}\n\n=== Reward dialogue ===\n; Zehnchu\n: ''\"Excellent work! The Zaishen admire your dedication.\"''\n\n[[Category:Rewards Vanguard reputation points]]"
+}

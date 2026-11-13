@@ -3,7 +3,7 @@ import type { FormEvent } from 'react';
 import { ArrowDownToLine, ArrowUpFromLine, ArrowUpRight, BookOpen, Check, ChevronDown, ChevronRight, Compass, Download, Filter, Layers, MapPin, Menu, Pencil, Plus, Search, Shield, SlidersHorizontal, Sparkles, Trash2, UserRound, Users, X } from 'lucide-react';
 import { AtlasMap } from './AtlasMap';
 import { StoryGuides, WikiDetails } from './WikiDetails';
-import { assetUrl, completed, deleteCharacter, filtersSearch, normalizeFilters, preferredPlace, query, readFilters, setProgress, trackable } from './domain';
+import { assetUrl, belongsToRegion, completed, deleteCharacter, filtersSearch, normalizeFilters, preferredPlace, query, readFilters, setProgress, trackable } from './domain';
 import { emptyPersonal, makeBackup, parseBackup, personalStore } from './storage';
 import { kindNames, kindSymbols } from './types';
 import type { Backup, Catalog, Entry, Filters, Kind, Note, Personal, Place } from './types';
@@ -69,7 +69,7 @@ export default function App() {
   const character = state.characters.find(c => c.id === state.preferences.characterId);
   const skillDone = catalog?.records.filter(e => e.kind === 'skill' && completed(state,e.id)?.done).length || 0;
   const campaignRegions = catalog?.regions.filter(r => !filters.campaign || r.campaign === Number(filters.campaign)) || [];
-  const zones = catalog?.records.filter(e => e.kind === 'zone' && (!filters.campaign || e.campaign === Number(filters.campaign)) && (!filters.region || e.locations.some(l => l.region === filters.region))) || [];
+  const zones = catalog?.records.filter(e => e.kind === 'zone' && (!filters.campaign || e.campaign === Number(filters.campaign)) && (!filters.region || belongsToRegion(e, filters.region))) || [];
   const attrs = [...new Set(catalog?.records.filter(e => e.kind === 'skill' && (!filters.profession || e.profession === Number(filters.profession))).map(e => e.attribute).filter(Boolean))].sort() as string[];
   const regionName = (id: string) => catalog?.regions.find(r => r.id === id)?.name || '未知地区';
   const zoneName = (id?: string) => catalog?.records.find(e => e.id === `zone:${id}`)?.name;
@@ -117,7 +117,7 @@ export default function App() {
         <div className="kind-tabs" aria-label="资料类型"><button className={!filters.kind ? 'active' : ''} onClick={() => patch({kind:''})}>全部</button>{kinds.map(k => <button key={k} className={`${filters.kind === k ? 'active' : ''} tab-${k}`} onClick={() => patch({kind:k})}>{kindNames[k]}</button>)}</div>
         <div className="filters"><div className="section-label"><SlidersHorizontal size={13}/><span>筛选探索目标</span><button onClick={() => setFilters(f => ({...f,q:'',campaign:'',region:'',zone:'',profession:'',attribute:'',incomplete:false}))}>重置</button></div>
           <div className="filter-grid"><label>篇章<select aria-label="篇章筛选" value={filters.campaign} onChange={e => patch({campaign:e.target.value,region:'',zone:''})}><option value="">所有篇章</option>{catalog.campaigns.map(c => <option key={c.id} value={c.id}>{c.shortName}</option>)}</select></label><label>地区<select aria-label="地区筛选" value={filters.region} onChange={e => patch({region:e.target.value,zone:'',...(e.target.value ? {map:e.target.value} : {})})}><option value="">所有地区</option>{campaignRegions.map(r => <option key={r.id} value={r.id}>{r.name}</option>)}</select></label>
-          <label>区域<select aria-label="区域筛选" value={filters.zone} onChange={e => patch({zone:e.target.value})}><option value="">所有区域</option>{zones.map(z => <option key={z.id} value={`${z.campaign}:${Number(z.code)}`}>{z.name}</option>)}</select></label>{(!filters.kind || filters.kind === 'skill' || filters.kind === 'boss') && <label>职业<select aria-label="职业筛选" value={filters.profession} onChange={e => patch({profession:e.target.value,attribute:''})}><option value="">所有职业</option>{catalog.professions.map(p => <option key={p.id} value={p.id}>{p.name}</option>)}</select></label>}</div>
+          <label>区域<select aria-label="区域筛选" value={filters.zone} onChange={e => patch({zone:e.target.value})}><option value="">所有区域</option>{zones.map(z => <option key={z.id} value={z.id.slice(5)}>{z.name}</option>)}</select></label>{(!filters.kind || filters.kind === 'skill' || filters.kind === 'boss') && <label>职业<select aria-label="职业筛选" value={filters.profession} onChange={e => patch({profession:e.target.value,attribute:''})}><option value="">所有职业</option>{catalog.professions.map(p => <option key={p.id} value={p.id}>{p.name}</option>)}</select></label>}</div>
           {(!filters.kind || filters.kind === 'skill') && <label className="attribute-filter">技能属性<select aria-label="技能属性筛选" value={filters.attribute} onChange={e => patch({attribute:e.target.value})}><option value="">所有属性</option>{attrs.map(a => <option key={a}>{a}</option>)}</select></label>}
           <label className="checkbox-label"><input type="checkbox" checked={filters.incomplete} onChange={e => patch({incomplete:e.target.checked})}/><span>仅显示可追踪的未完成目标</span></label>
         </div>

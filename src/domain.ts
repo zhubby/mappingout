@@ -31,13 +31,16 @@ export function deleteCharacter(state: Personal, id: string): Personal {
   const characters = state.characters.filter(c => c.id !== id);
   return { ...state, characters, progress: state.progress.filter(p => p.characterId !== id), notes: state.notes.filter(n => n.characterId !== id), preferences: { ...state.preferences, characterId: state.preferences.characterId === id ? characters[0]?.id || '' : state.preferences.characterId } };
 }
+export function belongsToRegion(entry: Entry, region: string) {
+  return entry.locations.some(place => place.region === region) || (entry.kind === 'zone' && entry.area?.atlasRegion === region);
+}
 export function query(data: Catalog, f: Filters, state: Personal): Entry[] {
   f = normalizeFilters(f);
   const terms = f.q.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
   return data.records.filter(e => {
     if (f.kind && e.kind !== f.kind) return false;
     if (f.campaign && e.campaign !== Number(f.campaign) && !e.locations.some(l => l.region.startsWith(`${f.campaign}:`))) return false;
-    if (f.region && !e.locations.some(l => l.region === f.region)) return false;
+    if (f.region && !belongsToRegion(e, f.region)) return false;
     if (f.zone && e.id !== `zone:${f.zone}` && !e.locations.some(l => l.zone === f.zone)) return false;
     if (f.profession && e.profession !== Number(f.profession)) return false;
     if (f.attribute && e.attribute !== f.attribute) return false;

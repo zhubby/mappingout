@@ -13,7 +13,7 @@ if (mode === 'skills') titles = [...Object.values(skills), ...await category('Ca
 else if (mode === 'collectors') titles = catalog.records.filter(r => r.kind === 'collector').map(collectorTitle);
 else if (mode === 'story') titles = ['Storyline', 'Storyline of Prophecies', 'Storyline of Factions', 'Storyline of Nightfall', 'Storyline of Eye of the North', 'Storyline of Beyond', 'List of Prophecies missions and primary quests', 'List of Factions missions and primary quests', 'List of Nightfall missions and primary quests', 'List of Eye of the North primary quests', 'Treasure', 'Animal companion'];
 else if (mode === 'collector-aliases') titles = catalog.records.filter(r => r.kind === 'collector').map(collectorTitle);
-else if (mode === 'areas') titles = Object.values(JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/zone-titles.json'), 'utf8'))).flat();
+else if (mode === 'areas') titles = [...Object.values(JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/zone-titles.json'), 'utf8'))).flat(), ...JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/zone-reviews.json'), 'utf8')).map(review => review.title), 'Raisu Palace (explorable area)', 'Vanquisher'];
 else if (mode === 'titles') titles = JSON.parse(await fs.readFile(process.argv[3], 'utf8'));
 else if (mode === 'category-pages') titles = Object.values(JSON.parse(await fs.readFile(path.join(evidenceDir, 'categories.json'), 'utf8'))).flat();
 else if (mode === 'area-npcs') {

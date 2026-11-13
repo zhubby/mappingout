@@ -636,7 +636,7 @@
   ],
   "counts": {
     "skill": 381,
-    "zone": 366,
+    "zone": 367,
     "boss": 1183,
     "green": 697,
     "collector": 350,
@@ -1245,8 +1245,17 @@
       }
     }
   ],
+  "legacyCounts": {
+    "skill": 381,
+    "zone": 366,
+    "boss": 1183,
+    "green": 697,
+    "collector": 350,
+    "pet": 32,
+    "treasure": 12
+  },
   "wiki": {
-    "referenceVersion": "gww-2026-11-13",
+    "referenceVersion": "gww-2026-11-13-areas",
     "coverage": {
       "skills": 381,
       "chineseDescriptions": 31,
@@ -1257,6 +1266,8 @@
       "storylines": 4,
       "pets": 32,
       "treasures": 12,
+      "zones": 367,
+      "vanquishableAreas": 136,
       "unresolvedIdentities": 2
     },
     "scope": "按字段审查现有游戏资料及 Wiki 修订；两条旧身份无法确认，见问题清单。不是游戏实测，地图坐标仍为旧资料。",

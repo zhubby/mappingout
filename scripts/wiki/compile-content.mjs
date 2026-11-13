@@ -8,6 +8,7 @@ import { skillFacts } from './skill-facts.mjs';
 import { assertBossEvidence } from './boss-evidence.mjs';
 import { legacyWeaponProfile, matchingWeaponProfile } from './weapon-evidence.mjs';
 import { questFacts, questPages, chestFacts } from './source-facts.mjs';
+import { locationFacts } from './location-facts.mjs';
 
 const index = await readIndex();
 const reviewed = JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/reviewed-content.json'), 'utf8'));
@@ -20,9 +21,10 @@ const quests = JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/quest-r
 const rewards = JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/reward-reviews.json'), 'utf8'));
 const specials = JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/special-reviews.json'), 'utf8'));
 const additionalItems = JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/additional-item-reviews.json'), 'utf8'));
+const locations = JSON.parse(await fs.readFile(path.join(web, 'scripts/wiki/zone-reviews.json'), 'utf8'));
 const catalog = JSON.parse(await fs.readFile(path.join(web, 'public/data/catalog.json'), 'utf8'));
 const records = new Map(catalog.records.map(r => [r.id, r]));
-const output = { format: 1, entries: {}, locationNotes: {}, stories: [] };
+const output = { format: 1, entries: {}, additions: [], locationNotes: {}, stories: [] };
 const review = { format: 1, coverage: {}, entries: [], issues: [] };
 async function pinned(title, revision) {
   const page = await loadPage(title, index);
@@ -206,6 +208,49 @@ for (const value of collectors) {
     collector: { amount: facts.amount, material: facts.material, location: facts.location, armor: facts.armor, rewards: facts.rewards }
   }, ['NPC 身份与篇章', '兑换组', '兑换材料与数量', '奖励与属性'], [reference(table)]);
 }
+const vanquisher = await pinned('Vanquisher', 2738774);
+const locationTypes = { 'Explorable area': '探索区域', Outpost: '前哨站', Landmark: '地标', Cooperative: '主线任务', Town: '城镇', Port: '港口城镇', 'Mission outpost': '任务前哨站', Challenge: '挑战任务', Elite: '精英区域', Dungeon: '地下城', Arena: 'PvP 竞技场', Quest: '主线任务' };
+const locationNotes = {
+  'zone:1:91': '旧库另有 zone:1:90“天际流域”。此重复标记没有独立地图实例的证据，不作为第二个清剿目标；保留旧编号，暂停绘制此重复位置。',
+  'zone:2:146': '此条是 Raisu Palace 主线任务。清剿只适用于独立的探索版本；探索版本需完成主线后从 Imperial Sanctum 前哨站进入，已单独收录。',
+  'zone:2:147': 'Divine Path 是完成 Imperial Sanctum 后进入的通关奖励区域，不能清剿。',
+  'zone:2:165': '旧名“申赞通道（任务）”有误：主线任务是 Sunjiang District，Shenzun Tunnels 是相邻的探索区域。',
+  'zone:3:217': 'Churrhir Fields 是训练区域，不计入 Elonian Vanquisher；不提供清剿进度。',
+  'zone:4:330': 'Battledepths 的 Wiki 备注明确说明此地下探索区域不能清剿。',
+  'zone:4:352': 'Shards of Orr 是三层地下城，完成地下城与清剿是不同目标。',
+  'zone:4:364': '“四章通关”是旧版自定义进度标记，不是可清剿区域。北方之眼的最终主线为 A Time for Heroes，完成后进入 Epilogue；旧标记的位置未能对应到一个已确认的地图实例。'
+};
+if (locations.length !== 366 || new Set(locations.map(value => value.id)).size !== locations.length) throw new Error('Incomplete legacy location review');
+for (const value of locations) {
+  const record = records.get(value.id), original = record?.legacy || record;
+  const page = await pinned(value.title, value.revid), facts = locationFacts(page);
+  if (!record || original.name !== value.name || original.vanquishable !== value.legacyVanquishable || record.campaign !== value.campaign || facts.type !== value.type || facts.region !== value.region || facts.vanquishable !== value.vanquishable || !locationTypes[facts.type]) throw new Error(`Location review changed: ${value.id}`);
+  const repeated = value.id === 'zone:1:91', completion = value.id === 'zone:4:364';
+  const vanquishable = facts.vanquishable && !repeated && !completion;
+  const details = [`Wiki 类型：${locationTypes[facts.type]}${facts.levels ? ` · ${facts.levels} 层` : ''}`, `所属地区（英文）：${facts.region}`, vanquishable ? '支持困难模式清剿；记录的是探索区域清剿，不是主线任务完成。' : '此条不作为清剿目标。'];
+  if (facts.exits.length) details.push(`相邻出入口（英文）：${facts.exits.join(' / ')}`);
+  if (locationNotes[value.id]) details.push(locationNotes[value.id]);
+  patch(value.id, 'zone', page, {
+    ...(value.id === 'zone:2:165' ? { name: '孙江行政区（任务）' } : {}),
+    description: `${completion ? '旧版通关标记' : repeated ? '旧版重复区域标记' : locationTypes[facts.type]} · ${page.title}。${facts.region ? `Wiki 所属地区：${facts.region}。` : ''}`,
+    details, vanquishable, area: { ...facts, atlasRegion: record.locations[0]?.region, legacyMarker: repeated || completion }
+  }, ['区域或标记身份', '地图实例类型', 'Wiki 所属地区', '清剿资格', '相邻出入口'], [reference(vanquisher), ...(completion ? [reference(await pinned('Epilogue', 2689660))] : [])]);
+  if (repeated || completion) for (const place of record.locations) output.locationNotes[place.id] = { text: locationNotes[value.id], unconfirmed: true, reference: reference(page) };
+}
+const raisuPage = await pinned('Raisu Palace (explorable area)', 2699046), raisu = locationFacts(raisuPage);
+if (raisuPage.pageid !== 10970 || raisu.type !== 'Explorable area' || !raisu.vanquishable) throw new Error('Raisu explorable review changed');
+const raisuEntry = {
+  id: `zone:gww:${raisuPage.pageid}`, kind: 'zone', name: '莱苏皇宫（探索区域）', campaign: 2, origin: 'wiki',
+  code: `gww-${raisuPage.pageid}`, englishName: raisuPage.title, descriptionLanguage: 'zh',
+  description: '独立于 Raisu Palace 主线任务的探索版本，可进行困难模式清剿。',
+  details: ['完成 Raisu Palace 主线任务后，从 Imperial Sanctum 前哨站进入；Raisu Palace 前哨站一侧为单向出口，不能由此进入探索版本。', '清剿进度与主线任务完成分别记录。', '旧地图未提供此版本独立的已确认标记，资料查询保留，暂不绘制推测位置。'],
+  vanquishable: true, locations: [], source: { file: `data/wiki/pages/${raisuPage.pageid}.json`, line: 1 }, area: { ...raisu, atlasRegion: '2:1' },
+  wiki: { ...reference(raisuPage), fields: ['探索版本身份', '所属地区', '清剿资格', '进入条件与单向出口'], coordinateStatus: 'legacy-unverified', translation: 'reviewed', references: [reference(vanquisher)] }
+};
+output.additions.push(raisuEntry);
+records.set(raisuEntry.id, raisuEntry);
+review.entries.push({ id: raisuEntry.id, title: raisuPage.title, revid: raisuPage.revid, fields: raisuEntry.wiki.fields, relatedRevisions: [{ title: vanquisher.title, revid: vanquisher.revid }] });
+review.issues.push({ kind: 'legacy-area-markers', detail: '五个错误清剿目标已停用；Skyward Reach 的额外旧标记保留编号但不作为第二个目标，四章通关标记不再绘制。莱苏皇宫探索版本独立补入，不复用主线任务 ID 或推测地图坐标。' });
 const charm = await pinned('Charm Animal', 2730833);
 for (const value of reviewed.pets) {
   const page = await pinned(value.title, value.revid), facts = npcFacts(page);
@@ -242,7 +287,8 @@ for (const input of storyInputs) {
   for (const [title, revision] of Object.entries(input.sources)) references.push(reference(await pinned(title, revision)));
   output.stories.push({ campaign: input.campaign, title: input.title, introduction: input.introduction, arcs: input.arcs, references });
 }
-review.coverage = Object.fromEntries(['boss', 'green', 'collector', 'pet', 'treasure'].map(kind => [kind, review.entries.filter(e => records.get(e.id).kind === kind).length]));
+review.coverage = Object.fromEntries(['boss', 'green', 'collector', 'pet', 'treasure', 'zone'].map(kind => [kind, review.entries.filter(e => records.get(e.id).kind === kind).length]));
+review.coverage.vanquishableAreas = Object.values(output.entries).filter(entry => entry.vanquishable).length + output.additions.filter(entry => entry.vanquishable).length;
 review.coverage.storylines = output.stories.length;
 review.coverage.unresolvedIdentities = Object.values(output.entries).filter(entry => entry.wiki.identityStatus === 'unresolved').length;
 review.issues.push({ kind: 'review-scope', detail: '全部旧资料条目已完成本轮来源审查；两条身份无法确认，另见逐条问题。旧地图坐标未逐点核验，矛盾和未确认的来源标记已停用。350 条技能效果及部分物品属性保留当前英文，未完成中文翻译。' });

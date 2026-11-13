@@ -24,7 +24,7 @@ async function editCatalog(dir: string, edit: (data: any) => void) {
 }
 describe('bundled deployment data', () => {
   it('validates all shipped chapters and images without original Campaign files', async () => {
-    expect(await validateDeploymentData()).toMatchObject({ campaigns: 4, maps: 20, records: 3021, sourceIssues: 74 });
+    expect(await validateDeploymentData()).toMatchObject({ campaigns: 4, maps: 20, records: 3022, sourceIssues: 74 });
   });
   it('rejects missing JSON with an actionable error', async () => {
     await expect(validateDeploymentData(await directory())).rejects.toThrow(/catalog.json.*public\/data/);

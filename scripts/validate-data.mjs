@@ -57,10 +57,13 @@ export async function validateDeploymentData(publicDir = path.join(web, 'public'
     if (e.wiki) {
       reference(e.wiki);
       for (const source of e.wiki.references || []) reference(source);
-      if (!e.legacy || !Array.isArray(e.legacy.details) || !e.englishName || !['zh', 'en'].includes(e.descriptionLanguage) || !e.wiki.fields?.length || e.wiki.coordinateStatus !== 'legacy-unverified') fail(`Wiki 校订信息不完整 ${e.id}`);
+      const wikiAddition = e.origin === 'wiki' && e.kind === 'zone' && e.id === `zone:gww:${e.wiki.pageid}` && e.source?.file === `data/wiki/pages/${e.wiki.pageid}.json` && e.locations.length === 0;
+      if (e.origin === 'wiki' && !wikiAddition) fail(`Wiki 新增资料身份无效 ${e.id}`);
+      if ((!wikiAddition && (!e.legacy || !Array.isArray(e.legacy.details))) || !e.englishName || !['zh', 'en'].includes(e.descriptionLanguage) || !e.wiki.fields?.length || e.wiki.coordinateStatus !== 'legacy-unverified') fail(`Wiki 校订信息不完整 ${e.id}`);
       if (e.skill?.pvp) reference(e.skill.pvp.reference);
     }
     if (e.image) await image(e.image);
+    if (e.area?.atlasRegion && (!regions.has(e.area.atlasRegion) || regions.get(e.area.atlasRegion).campaign !== e.campaign)) fail(`区域 ${e.id} 的地图分组引用不存在或篇章不符`);
     for (const id of e.related || []) if (!entries.has(id)) fail(`资料 ${e.id} 的关联 ${id} 不存在`);
     for (const loc of e.locations) {
       const region = regions.get(loc.region);
@@ -75,9 +78,10 @@ export async function validateDeploymentData(publicDir = path.join(web, 'public'
   if (catalog.referenceVersion) {
     const review = await json('wiki-review.json');
     if (review.referenceVersion !== catalog.referenceVersion || report.wiki?.referenceVersion !== catalog.referenceVersion) fail('Wiki 校订版本与报告不一致');
-    const coverage = { skills: 'skill', bosses: 'boss', weapons: 'green', collectors: 'collector', pets: 'pet', treasures: 'treasure' };
+    const coverage = { skills: 'skill', bosses: 'boss', weapons: 'green', collectors: 'collector', pets: 'pet', treasures: 'treasure', zones: 'zone' };
     for (const [key, kind] of Object.entries(coverage)) if (review.coverage[key] !== catalog.records.filter(e => e.kind === kind && e.wiki).length) fail(`Wiki ${kind} 核对数量与报告不一致`);
     if (review.coverage.unresolvedIdentities !== catalog.records.filter(e => e.wiki?.identityStatus === 'unresolved').length) fail('Wiki 未确认身份数量与报告不一致');
+    if (review.coverage.vanquishableAreas !== catalog.records.filter(e => e.kind === 'zone' && e.vanquishable).length) fail('Wiki 清剿目标数量与报告不一致');
     if (catalog.stories?.length !== 4 || review.coverage.storylines !== 4) fail('剧情指南必须覆盖四个篇章');
     unique(catalog.stories.map(story => story.campaign), '剧情篇章');
     for (const story of catalog.stories) {

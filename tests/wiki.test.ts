@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { plainText, templates } from '../scripts/wiki/wikitext.mjs';
 import { skillFacts } from '../scripts/wiki/skill-facts.mjs';
 import { npcFacts, weaponFacts, itemFacts } from '../scripts/wiki/content-facts.mjs';
+import { locationFacts } from '../scripts/wiki/location-facts.mjs';
 import { chestFacts, questFacts, questPages } from '../scripts/wiki/source-facts.mjs';
 import { reviewedTranslation } from '../scripts/wiki/translations.mjs';
 import { collectorTableFacts, assertCollectorIdentity } from '../scripts/wiki/collector-facts.mjs';
@@ -130,9 +131,57 @@ describe('Wiki extraction uses the meaning of the source templates', () => {
 describe('corrected catalog and existing character compatibility', () => {
   it('preserves every original record ID and every original map coordinate', async () => {
     const baseline = await json('data/wiki/legacy-identities.json');
-    const identities = data.records.map(record => ({ id: record.id, locations: record.locations.map(place => ({ id: place.id, region: place.region, zone: place.zone, x: place.x, y: place.y })) }));
-    expect(data.records).toHaveLength(baseline.recordCount);
+    const legacy = data.records.filter(record => record.origin !== 'wiki');
+    const identities = legacy.map(record => ({ id: record.id, locations: record.locations.map(place => ({ id: place.id, region: place.region, zone: place.zone, x: place.x, y: place.y })) }));
+    expect(legacy).toHaveLength(baseline.recordCount);
     expect(createHash('sha256').update(JSON.stringify(identities)).digest('hex')).toBe(baseline.idsAndCoordinates);
+  });
+  it('uses actual vanquishing evidence instead of the explorable-area label', async () => {
+    expect(locationFacts(await page('Battledepths'))).toMatchObject({ type: 'Explorable area', vanquishable: false });
+    expect(locationFacts(await page('Churrhir Fields'))).toMatchObject({ type: 'Explorable area', vanquishable: false });
+    expect(locationFacts(await page('Shards of Orr'))).toMatchObject({ type: 'Dungeon', vanquishable: false });
+    expect(locationFacts(await page('Raisu Palace (explorable area)'))).toMatchObject({ type: 'Explorable area', vanquishable: true });
+    expect(locationFacts(await page('Raisu Palace'))).toMatchObject({ type: 'Cooperative', vanquishable: false });
+  });
+  it('corrects five false targets and preserves separate legacy markers without duplicate vanquishes', async () => {
+    for (const id of ['zone:2:147', 'zone:3:217', 'zone:4:330', 'zone:4:352', 'zone:4:364']) {
+      expect(entry(id).vanquishable, id).toBe(false);
+      expect(entry(id).legacy?.vanquishable, id).toBe(true);
+      expect(trackable(entry(id)), id).toBe(false);
+    }
+    expect(entry('zone:1:90').vanquishable).toBe(true);
+    expect(entry('zone:1:91').vanquishable).toBe(false);
+    expect(entry('zone:1:91').locations.every(place => !place.valid)).toBe(true);
+    expect(entry('zone:4:364').locations.every(place => !place.valid)).toBe(true);
+    const totals = [1, 2, 3, 4].map(campaign => data.records.filter(record => record.kind === 'zone' && record.campaign === campaign && record.vanquishable).length);
+    expect(totals).toEqual([54, 33, 34, 15]);
+    const areas = await Promise.all(data.records.filter(record => record.kind === 'zone' && record.vanquishable).map(record => page(record.englishName!)));
+    expect(new Set(areas.map(source => source.pageid)).size).toBe(136);
+    for (const source of areas) expect(templates(source.wikitext, 'Vanquisher'), source.title).toHaveLength(1);
+  });
+  it('adds the missing Raisu explorable version with its own identity and no invented coordinates', () => {
+    const area = entry('zone:gww:10970'), mission = entry('zone:2:146');
+    expect(mission.englishName).toBe('Raisu Palace');
+    expect(trackable(mission)).toBe(false);
+    expect(area).toMatchObject({ origin: 'wiki', kind: 'zone', vanquishable: true, locations: [], englishName: 'Raisu Palace (explorable area)' });
+    expect(area.legacy).toBeUndefined();
+    expect(area.details.join(' ')).toContain('Imperial Sanctum');
+    expect(query(data, { ...defaultFilters, kind: 'zone', q: 'Raisu Palace' }, emptyPersonal()).map(record => record.id)).toContain(area.id);
+    expect(query(data, { ...defaultFilters, kind: 'zone', campaign: '2', region: '2:1', q: 'Raisu Palace (explorable area)' }, emptyPersonal()).map(record => record.id)).toEqual([area.id]);
+    expect(query(data, { ...defaultFilters, kind: 'zone', region: '2:2', q: 'Raisu Palace (explorable area)' }, emptyPersonal())).toHaveLength(0);
+    expect(query(data, { ...defaultFilters, kind: 'zone', zone: 'gww:10970' }, emptyPersonal()).map(record => record.id)).toEqual([area.id]);
+    expect(query(data, { ...defaultFilters, kind: 'zone', zone: '3:301:line-98' }, emptyPersonal()).map(record => record.id)).toEqual(['zone:3:301:line-98']);
+    expect(data.records.filter(record => record.origin === 'wiki').map(record => record.id)).toEqual([area.id]);
+  });
+  it('retains historical personal records when an old target loses vanquishing eligibility', () => {
+    const state = emptyPersonal();
+    state.characters = [{ id: 'legacy-player', name: '旧角色' }];
+    state.preferences.characterId = 'legacy-player';
+    state.progress = [{ characterId: 'legacy-player', entryId: 'zone:4:330', done: true }];
+    const restored = parseBackup(JSON.stringify(makeBackup(state))).data;
+    expect(restored.progress).toEqual(state.progress);
+    expect(query(data, { ...defaultFilters, kind: 'zone', incomplete: true }, restored).some(record => record.id === 'zone:4:330')).toBe(false);
+    expect(query(data, { ...defaultFilters, kind: 'zone', incomplete: true }, restored)).toHaveLength(136);
   });
   it('hides uncertain positions in skills and linked source entries while retaining legacy search', () => {
     const skill = entry('skill:4:338'), source = entry('boss:4:d7559ebaf4f6df63');

@@ -1,5 +1,36 @@
 import { expect, test } from '@playwright/test';
 
+test('area review separates missions, dungeons and genuine vanquishing targets', async ({ page }) => {
+  await page.goto('/?kind=zone&selected=zone%3A4%3A330');
+  await expect(page.locator('.english-name')).toHaveText('Battledepths');
+  await expect(page.locator('.progress-section')).toHaveCount(0);
+  await expect(page.locator('.detail-stat').filter({ hasText: '不能清剿' })).toBeVisible();
+  await page.goto('/?kind=zone&selected=zone%3A4%3A352');
+  await expect(page.locator('.english-name')).toHaveText('Shards of Orr');
+  await expect(page.locator('.progress-section')).toHaveCount(0);
+  await page.goto('/?kind=zone&selected=zone%3A2%3A146');
+  await expect(page.locator('.english-name')).toHaveText('Raisu Palace');
+  await expect(page.locator('.progress-section')).toHaveCount(0);
+  await page.getByLabel('篇章筛选').selectOption('2');
+  await page.getByLabel('地区筛选').selectOption('2:1');
+  await page.getByRole('textbox', { name: '搜索资料' }).fill('Raisu Palace (explorable area)');
+  await page.locator('.result').first().click();
+  await expect(page.locator('.english-name')).toHaveText('Raisu Palace (explorable area)');
+  await page.getByLabel('区域筛选').selectOption('gww:10970');
+  await expect(page.locator('.result')).toHaveCount(1);
+  await expect(page.getByRole('button', { name: '标记已清剿', exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: /定位地点/ })).toHaveCount(0);
+  await page.getByRole('button', { name: '标记已清剿', exact: true }).click();
+  await page.getByRole('textbox', { name: '角色名' }).fill('区域核对者');
+  await page.getByRole('button', { name: '创建探索者', exact: true }).last().click();
+  await page.getByRole('button', { name: '关闭弹窗' }).click();
+  await page.getByRole('button', { name: '标记已清剿', exact: true }).click();
+  await page.reload();
+  await expect(page.getByRole('button', { name: '已完成 · 点击撤销', exact: true })).toBeVisible();
+  await expect(page.locator('.english-name')).toHaveText('Raisu Palace (explorable area)');
+  await expect(page.getByLabel('区域筛选')).toHaveValue('gww:10970');
+});
+
 test('quest sources retain legacy search and suppress unconfirmed map targets', async ({ page }) => {
   await page.goto('/?kind=boss&selected=boss%3A4%3Ad7559ebaf4f6df63');
   await expect(page.locator('.detail-title-row h2')).toContainText('技能获取');

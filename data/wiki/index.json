@@ -54720,7 +54720,7 @@
       "sha1": "bc5efb85c95b8aea606928ca741d75b0f7af9495",
       "url": "https://wiki.guildwars.com/wiki/Dzagonur_Bastion",
       "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dzagonur%20Bastion&oldid=2741865",
-      "retrievedAt": "2026-11-13T02:35:13.156Z"
+      "retrievedAt": "2026-11-13T03:59:41.902Z"
     },
     "Dasha Vestibule": {
       "title": "Dasha Vestibule",
@@ -58581,6 +58581,1976 @@
       "url": "https://wiki.guildwars.com/wiki/Club_of_a_Thousand_Bears_(weapon)",
       "revisionUrl": "https://wiki.guildwars.com/index.php?title=Club%20of%20a%20Thousand%20Bears%20(weapon)&oldid=2624380",
       "retrievedAt": "2026-11-13T03:24:58.104Z"
+    },
+    "Vanquisher": {
+      "title": "Vanquisher",
+      "pageid": 15894,
+      "revid": 2738774,
+      "revisedAt": "2026-08-27T12:28:19Z",
+      "sha1": "3c10ef1d57ef8ccc092abf7743b43e507517306a",
+      "url": "https://wiki.guildwars.com/wiki/Vanquisher",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vanquisher&oldid=2738774",
+      "retrievedAt": "2026-11-13T03:54:35.063Z"
+    },
+    "Template:Location infobox": {
+      "title": "Template:Location infobox",
+      "pageid": 4381,
+      "revid": 2671074,
+      "revisedAt": "2021-03-10T14:04:54Z",
+      "sha1": "4041e29000ffc27a58b7e00669b3052e9513398b",
+      "url": "https://wiki.guildwars.com/wiki/Template:Location_infobox",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3ALocation%20infobox&oldid=2671074",
+      "retrievedAt": "2026-11-13T03:55:04.720Z"
+    },
+    "A Time for Heroes": {
+      "title": "A Time for Heroes",
+      "pageid": 68265,
+      "revid": 2705484,
+      "revisedAt": "2025-04-27T16:07:28Z",
+      "sha1": "becb40debc9d7bb5691a45b0e5b45be5bfc42e99",
+      "url": "https://wiki.guildwars.com/wiki/A_Time_for_Heroes",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=A%20Time%20for%20Heroes&oldid=2705484",
+      "retrievedAt": "2026-11-13T03:55:04.722Z"
+    },
+    "Template:Vanquisher count": {
+      "title": "Template:Vanquisher count",
+      "pageid": 313995,
+      "revid": 2679269,
+      "revisedAt": "2022-07-24T03:47:41Z",
+      "sha1": "ab8bc8168936b75848b867c00cf81753cc5158e3",
+      "url": "https://wiki.guildwars.com/wiki/Template:Vanquisher_count",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3AVanquisher%20count&oldid=2679269",
+      "retrievedAt": "2026-11-13T03:55:04.722Z"
+    },
+    "Augury Rock": {
+      "title": "Augury Rock",
+      "pageid": 4071,
+      "revid": 2719406,
+      "revisedAt": "2026-01-29T23:32:08Z",
+      "sha1": "bbc74bc2bc9627ff94cc56101e0b9ae67336cbe2",
+      "url": "https://wiki.guildwars.com/wiki/Augury_Rock",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Augury%20Rock&oldid=2719406",
+      "retrievedAt": "2026-11-13T03:55:52.070Z"
+    },
+    "Augury Rock (outpost)": {
+      "title": "Augury Rock (outpost)",
+      "pageid": 6932,
+      "revid": 2645760,
+      "revisedAt": "2019-11-10T19:14:34Z",
+      "sha1": "6c878bc92ad36c5d96b28d2954ca7dd87a824c87",
+      "url": "https://wiki.guildwars.com/wiki/Augury_Rock_(outpost)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Augury%20Rock%20(outpost)&oldid=2645760",
+      "retrievedAt": "2026-11-13T03:55:52.071Z"
+    },
+    "Gate of Desolation (outpost)": {
+      "title": "Gate of Desolation (outpost)",
+      "pageid": 6958,
+      "revid": 2730658,
+      "revisedAt": "2026-06-18T16:12:36Z",
+      "sha1": "7aef1ddd8edd978445ac088e69a5944e041e8fa0",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Desolation_(outpost)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gate%20of%20Desolation%20(outpost)&oldid=2730658",
+      "retrievedAt": "2026-11-13T03:55:52.072Z"
+    },
+    "Basalt Grotto": {
+      "title": "Basalt Grotto",
+      "pageid": 8911,
+      "revid": 2666680,
+      "revisedAt": "2020-10-05T09:31:03Z",
+      "sha1": "9b1f276c983c9272d4c9127978e495380315416d",
+      "url": "https://wiki.guildwars.com/wiki/Basalt_Grotto",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Basalt%20Grotto&oldid=2666680",
+      "retrievedAt": "2026-11-13T03:55:52.072Z"
+    },
+    "Central Transfer Chamber": {
+      "title": "Central Transfer Chamber",
+      "pageid": 63704,
+      "revid": 2732606,
+      "revisedAt": "2026-07-04T11:32:01Z",
+      "sha1": "c9ffc8f041635566f0e04c3573b6d6dd448729f5",
+      "url": "https://wiki.guildwars.com/wiki/Central_Transfer_Chamber",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Central%20Transfer%20Chamber&oldid=2732606",
+      "retrievedAt": "2026-11-13T03:55:52.072Z"
+    },
+    "Ascalon Academy": {
+      "title": "Ascalon Academy",
+      "pageid": 3376,
+      "revid": 2742806,
+      "revisedAt": "2026-10-16T14:49:35Z",
+      "sha1": "1c2a0341072851a9fcb3813a2bd1cf4b22f1ce61",
+      "url": "https://wiki.guildwars.com/wiki/Ascalon_Academy",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ascalon%20Academy&oldid=2742806",
+      "retrievedAt": "2026-11-13T03:58:10.677Z"
+    },
+    "The Great Northern Wall": {
+      "title": "The Great Northern Wall",
+      "pageid": 5154,
+      "revid": 2741820,
+      "revisedAt": "2026-09-29T11:20:43Z",
+      "sha1": "55649bf2ca606eca9b0c9cb143e645001475b223",
+      "url": "https://wiki.guildwars.com/wiki/The_Great_Northern_Wall",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Great%20Northern%20Wall&oldid=2741820",
+      "retrievedAt": "2026-11-13T03:58:10.679Z"
+    },
+    "Grendich Courthouse": {
+      "title": "Grendich Courthouse",
+      "pageid": 6793,
+      "revid": 2719522,
+      "revisedAt": "2026-01-30T20:03:36Z",
+      "sha1": "56b85ff329ed857e3fbc197530d6f27ca88e87f7",
+      "url": "https://wiki.guildwars.com/wiki/Grendich_Courthouse",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Grendich%20Courthouse&oldid=2719522",
+      "retrievedAt": "2026-11-13T03:58:10.679Z"
+    },
+    "Piken Square": {
+      "title": "Piken Square",
+      "pageid": 6797,
+      "revid": 2740986,
+      "revisedAt": "2026-09-16T19:29:45Z",
+      "sha1": "060db67400ecabd63da70b5b1f8f75d830eb0c71",
+      "url": "https://wiki.guildwars.com/wiki/Piken_Square",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Piken%20Square&oldid=2740986",
+      "retrievedAt": "2026-11-13T03:58:10.680Z"
+    },
+    "Frontier Gate": {
+      "title": "Frontier Gate",
+      "pageid": 6851,
+      "revid": 2719507,
+      "revisedAt": "2026-01-30T17:52:44Z",
+      "sha1": "512d9673383a45e6450847a83fc084eb6005ad49",
+      "url": "https://wiki.guildwars.com/wiki/Frontier_Gate",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Frontier%20Gate&oldid=2719507",
+      "retrievedAt": "2026-11-13T03:58:10.680Z"
+    },
+    "Ruins of Surmia": {
+      "title": "Ruins of Surmia",
+      "pageid": 8564,
+      "revid": 2729714,
+      "revisedAt": "2026-06-04T11:47:58Z",
+      "sha1": "fe63a65ca080fc64a711fad20992edfb37a093c7",
+      "url": "https://wiki.guildwars.com/wiki/Ruins_of_Surmia",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ruins%20of%20Surmia&oldid=2729714",
+      "retrievedAt": "2026-11-13T03:58:10.681Z"
+    },
+    "Ashford Abbey": {
+      "title": "Ashford Abbey",
+      "pageid": 9199,
+      "revid": 2715745,
+      "revisedAt": "2025-12-18T23:44:05Z",
+      "sha1": "c620e9722aa3687670b2e9ed8a7405de89c608c5",
+      "url": "https://wiki.guildwars.com/wiki/Ashford_Abbey",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ashford%20Abbey&oldid=2715745",
+      "retrievedAt": "2026-11-13T03:58:10.681Z"
+    },
+    "Foible's Fair": {
+      "title": "Foible's Fair",
+      "pageid": 9202,
+      "revid": 2715744,
+      "revisedAt": "2025-12-18T23:43:57Z",
+      "sha1": "d7b15eae811995fcfd47c2486eb8f526f0da8134",
+      "url": "https://wiki.guildwars.com/wiki/Foible%27s_Fair",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Foible's%20Fair&oldid=2715744",
+      "retrievedAt": "2026-11-13T03:58:10.681Z"
+    },
+    "The Barradin Estate": {
+      "title": "The Barradin Estate",
+      "pageid": 9210,
+      "revid": 2715742,
+      "revisedAt": "2025-12-18T23:43:45Z",
+      "sha1": "a065e1819adad88d56388b6c26924843fba96ee4",
+      "url": "https://wiki.guildwars.com/wiki/The_Barradin_Estate",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Barradin%20Estate&oldid=2715742",
+      "retrievedAt": "2026-11-13T03:58:10.682Z"
+    },
+    "Green Hills County": {
+      "title": "Green Hills County",
+      "pageid": 9219,
+      "revid": 2700855,
+      "revisedAt": "2024-11-15T12:45:46Z",
+      "sha1": "9d9206f99593e877a56d7f9bba95594168acaee7",
+      "url": "https://wiki.guildwars.com/wiki/Green_Hills_County",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Green%20Hills%20County&oldid=2700855",
+      "retrievedAt": "2026-11-13T03:58:10.682Z"
+    },
+    "The Catacombs": {
+      "title": "The Catacombs",
+      "pageid": 9233,
+      "revid": 2700764,
+      "revisedAt": "2024-11-13T22:48:38Z",
+      "sha1": "a105537ac84e9a113e7c89876e50e8a1409923df",
+      "url": "https://wiki.guildwars.com/wiki/The_Catacombs",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Catacombs&oldid=2700764",
+      "retrievedAt": "2026-11-13T03:58:10.682Z"
+    },
+    "Wizard's Folly": {
+      "title": "Wizard's Folly",
+      "pageid": 9234,
+      "revid": 2702468,
+      "revisedAt": "2025-01-30T22:08:40Z",
+      "sha1": "70da9409be478580b780c302fe500cc9b70c7645",
+      "url": "https://wiki.guildwars.com/wiki/Wizard%27s_Folly",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Wizard's%20Folly&oldid=2702468",
+      "retrievedAt": "2026-11-13T03:58:10.683Z"
+    },
+    "Lakeside County": {
+      "title": "Lakeside County",
+      "pageid": 9235,
+      "revid": 2741449,
+      "revisedAt": "2026-09-22T13:32:40Z",
+      "sha1": "bbcf4b9d6afb3f14744f7f474cee5e0ef7c20b6c",
+      "url": "https://wiki.guildwars.com/wiki/Lakeside_County",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lakeside%20County&oldid=2741449",
+      "retrievedAt": "2026-11-13T03:58:10.683Z"
+    },
+    "Nolani Academy": {
+      "title": "Nolani Academy",
+      "pageid": 9906,
+      "revid": 2729866,
+      "revisedAt": "2026-06-05T09:38:50Z",
+      "sha1": "0918d66198ad3c2e73264795a4055db6681ea789",
+      "url": "https://wiki.guildwars.com/wiki/Nolani_Academy",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Nolani%20Academy&oldid=2729866",
+      "retrievedAt": "2026-11-13T03:58:10.684Z"
+    },
+    "Ascalon Foothills": {
+      "title": "Ascalon Foothills",
+      "pageid": 10623,
+      "revid": 2697572,
+      "revisedAt": "2024-06-08T22:01:03Z",
+      "sha1": "b34e96c3123e6a57aed092ed6f3e0557574a32c0",
+      "url": "https://wiki.guildwars.com/wiki/Ascalon_Foothills",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ascalon%20Foothills&oldid=2697572",
+      "retrievedAt": "2026-11-13T03:58:10.684Z"
+    },
+    "Diessa Lowlands": {
+      "title": "Diessa Lowlands",
+      "pageid": 10624,
+      "revid": 2741875,
+      "revisedAt": "2026-09-30T05:44:12Z",
+      "sha1": "0bf2c9655c49d178e34b5852055ed888711622fd",
+      "url": "https://wiki.guildwars.com/wiki/Diessa_Lowlands",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Diessa%20Lowlands&oldid=2741875",
+      "retrievedAt": "2026-11-13T03:58:10.684Z"
+    },
+    "The Breach": {
+      "title": "The Breach",
+      "pageid": 10634,
+      "revid": 2740978,
+      "revisedAt": "2026-09-16T19:23:09Z",
+      "sha1": "77b18456fa9f874a116bcbedd237f7b8dc7ee7f6",
+      "url": "https://wiki.guildwars.com/wiki/The_Breach",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Breach&oldid=2740978",
+      "retrievedAt": "2026-11-13T03:58:10.685Z"
+    },
+    "Fort Ranik (pre-Searing)": {
+      "title": "Fort Ranik (pre-Searing)",
+      "pageid": 40627,
+      "revid": 2715743,
+      "revisedAt": "2025-12-18T23:43:51Z",
+      "sha1": "a55b0f8158310385094ffac770db66c4dde30360",
+      "url": "https://wiki.guildwars.com/wiki/Fort_Ranik_(pre-Searing)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fort%20Ranik%20(pre-Searing)&oldid=2715743",
+      "retrievedAt": "2026-11-13T03:58:10.685Z"
+    },
+    "Regent Valley (pre-Searing)": {
+      "title": "Regent Valley (pre-Searing)",
+      "pageid": 40629,
+      "revid": 2702532,
+      "revisedAt": "2025-02-02T15:35:58Z",
+      "sha1": "f5cb0bfab038b3fe8f812bdbd9daaf099034c707",
+      "url": "https://wiki.guildwars.com/wiki/Regent_Valley_(pre-Searing)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Regent%20Valley%20(pre-Searing)&oldid=2702532",
+      "retrievedAt": "2026-11-13T03:58:10.685Z"
+    },
+    "Ashford": {
+      "title": "Ashford",
+      "pageid": 55887,
+      "revid": 2700739,
+      "revisedAt": "2024-11-13T15:38:07Z",
+      "sha1": "d2a7a53fbe63b809ef4230aa7f82c2e034decfd1",
+      "url": "https://wiki.guildwars.com/wiki/Ashford",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ashford&oldid=2700739",
+      "retrievedAt": "2026-11-13T03:58:10.686Z"
+    },
+    "Ascalon City": {
+      "title": "Ascalon City",
+      "pageid": 1709,
+      "revid": 2740983,
+      "revisedAt": "2026-09-16T19:27:16Z",
+      "sha1": "781ea6f1ce5bfbd6e91351a7d7386a1a338cf1f1",
+      "url": "https://wiki.guildwars.com/wiki/Ascalon_City",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ascalon%20City&oldid=2740983",
+      "retrievedAt": "2026-11-13T03:58:11.941Z"
+    },
+    "Yak's Bend": {
+      "title": "Yak's Bend",
+      "pageid": 6761,
+      "revid": 2719532,
+      "revisedAt": "2026-01-30T21:20:34Z",
+      "sha1": "e61d115cf27a122203165763bb209e02c0fc6159",
+      "url": "https://wiki.guildwars.com/wiki/Yak%27s_Bend",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Yak's%20Bend&oldid=2719532",
+      "retrievedAt": "2026-11-13T03:58:11.942Z"
+    },
+    "Beacon's Perch": {
+      "title": "Beacon's Perch",
+      "pageid": 6791,
+      "revid": 2669020,
+      "revisedAt": "2020-11-29T15:58:59Z",
+      "sha1": "c4bb13fedb4595debe6b1c976fa3505e63cd449d",
+      "url": "https://wiki.guildwars.com/wiki/Beacon%27s_Perch",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Beacon's%20Perch&oldid=2669020",
+      "retrievedAt": "2026-11-13T03:58:11.942Z"
+    },
+    "Sardelac Sanitarium": {
+      "title": "Sardelac Sanitarium",
+      "pageid": 6795,
+      "revid": 2719486,
+      "revisedAt": "2026-01-30T14:37:16Z",
+      "sha1": "b803b41fd63381a5595d42e0acf1f645840947ef",
+      "url": "https://wiki.guildwars.com/wiki/Sardelac_Sanitarium",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sardelac%20Sanitarium&oldid=2719486",
+      "retrievedAt": "2026-11-13T03:58:11.943Z"
+    },
+    "Serenity Temple": {
+      "title": "Serenity Temple",
+      "pageid": 6853,
+      "revid": 2725750,
+      "revisedAt": "2026-04-20T17:12:54Z",
+      "sha1": "ea4ae79f62cc68ca51e6049045bf98013f54f433",
+      "url": "https://wiki.guildwars.com/wiki/Serenity_Temple",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Serenity%20Temple&oldid=2725750",
+      "retrievedAt": "2026-11-13T03:58:11.943Z"
+    },
+    "Ice Tooth Cave": {
+      "title": "Ice Tooth Cave",
+      "pageid": 6863,
+      "revid": 2669021,
+      "revisedAt": "2020-11-29T15:59:50Z",
+      "sha1": "f40da9b9e813b75c4bc1993a5628d2268d840fa6",
+      "url": "https://wiki.guildwars.com/wiki/Ice_Tooth_Cave",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ice%20Tooth%20Cave&oldid=2669021",
+      "retrievedAt": "2026-11-13T03:58:11.943Z"
+    },
+    "Scoundrel's Rise": {
+      "title": "Scoundrel's Rise",
+      "pageid": 10168,
+      "revid": 2669075,
+      "revisedAt": "2020-11-30T22:19:51Z",
+      "sha1": "a3366cd77b68eaebfd621adbee2de47dab81776c",
+      "url": "https://wiki.guildwars.com/wiki/Scoundrel%27s_Rise",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Scoundrel's%20Rise&oldid=2669075",
+      "retrievedAt": "2026-11-13T03:58:11.944Z"
+    },
+    "Anvil Rock": {
+      "title": "Anvil Rock",
+      "pageid": 10175,
+      "revid": 2711217,
+      "revisedAt": "2025-08-08T01:00:19Z",
+      "sha1": "429f97c0f211dd0c8c99cd13ceca40ba0451a22e",
+      "url": "https://wiki.guildwars.com/wiki/Anvil_Rock",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Anvil%20Rock&oldid=2711217",
+      "retrievedAt": "2026-11-13T03:58:11.944Z"
+    },
+    "Griffon's Mouth": {
+      "title": "Griffon's Mouth",
+      "pageid": 10176,
+      "revid": 2712242,
+      "revisedAt": "2025-09-12T22:47:41Z",
+      "sha1": "87a2eb318fa597b9f59f43d63bd57e35e18921e1",
+      "url": "https://wiki.guildwars.com/wiki/Griffon%27s_Mouth",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Griffon's%20Mouth&oldid=2712242",
+      "retrievedAt": "2026-11-13T03:58:11.944Z"
+    },
+    "Iron Horse Mine": {
+      "title": "Iron Horse Mine",
+      "pageid": 10177,
+      "revid": 2740508,
+      "revisedAt": "2026-09-11T06:48:54Z",
+      "sha1": "a27fc1cb815038ec68a6e4cd22247e6345057aa4",
+      "url": "https://wiki.guildwars.com/wiki/Iron_Horse_Mine",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Iron%20Horse%20Mine&oldid=2740508",
+      "retrievedAt": "2026-11-13T03:58:11.945Z"
+    },
+    "Traveler's Vale": {
+      "title": "Traveler's Vale",
+      "pageid": 10178,
+      "revid": 2723007,
+      "revisedAt": "2026-03-16T16:08:15Z",
+      "sha1": "3858c56bdcf59f9aed73a266d2d90a0a5b2f93ec",
+      "url": "https://wiki.guildwars.com/wiki/Traveler%27s_Vale",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Traveler's%20Vale&oldid=2723007",
+      "retrievedAt": "2026-11-13T03:58:11.945Z"
+    },
+    "Deldrimor Bowl": {
+      "title": "Deldrimor Bowl",
+      "pageid": 10179,
+      "revid": 2723069,
+      "revisedAt": "2026-03-18T03:33:47Z",
+      "sha1": "4f2c31d813d2aac129affd32efaca3ce9fc48953",
+      "url": "https://wiki.guildwars.com/wiki/Deldrimor_Bowl",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Deldrimor%20Bowl&oldid=2723069",
+      "retrievedAt": "2026-11-13T03:58:11.945Z"
+    },
+    "Eastern Frontier": {
+      "title": "Eastern Frontier",
+      "pageid": 10626,
+      "revid": 2722968,
+      "revisedAt": "2026-03-15T02:39:52Z",
+      "sha1": "c53989362fb8031389873e55406e6f6ca48c11ea",
+      "url": "https://wiki.guildwars.com/wiki/Eastern_Frontier",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Eastern%20Frontier&oldid=2722968",
+      "retrievedAt": "2026-11-13T03:58:11.946Z"
+    },
+    "Old Ascalon": {
+      "title": "Old Ascalon",
+      "pageid": 10628,
+      "revid": 2740992,
+      "revisedAt": "2026-09-16T19:36:56Z",
+      "sha1": "e0c3986f46503a11004f68ffe5a75e363802481a",
+      "url": "https://wiki.guildwars.com/wiki/Old_Ascalon",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Old%20Ascalon&oldid=2740992",
+      "retrievedAt": "2026-11-13T03:58:11.946Z"
+    },
+    "Regent Valley": {
+      "title": "Regent Valley",
+      "pageid": 10632,
+      "revid": 2673448,
+      "revisedAt": "2021-06-06T16:25:32Z",
+      "sha1": "1371d1af0b74b5c05f7a6510f80142747a27b685",
+      "url": "https://wiki.guildwars.com/wiki/Regent_Valley",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Regent%20Valley&oldid=2673448",
+      "retrievedAt": "2026-11-13T03:58:11.946Z"
+    },
+    "Pockmark Flats": {
+      "title": "Pockmark Flats",
+      "pageid": 10633,
+      "revid": 2723610,
+      "revisedAt": "2026-03-31T16:26:30Z",
+      "sha1": "863cdf606f280662abe0dd1f260897e8e9076904",
+      "url": "https://wiki.guildwars.com/wiki/Pockmark_Flats",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pockmark%20Flats&oldid=2723610",
+      "retrievedAt": "2026-11-13T03:58:11.947Z"
+    },
+    "Borlis Pass": {
+      "title": "Borlis Pass",
+      "pageid": 12032,
+      "revid": 2729947,
+      "revisedAt": "2026-06-07T11:24:24Z",
+      "sha1": "91c9e33edeed1b9dd50dac64ea6765c3478c3a16",
+      "url": "https://wiki.guildwars.com/wiki/Borlis_Pass",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Borlis%20Pass&oldid=2729947",
+      "retrievedAt": "2026-11-13T03:58:11.947Z"
+    },
+    "The Frost Gate": {
+      "title": "The Frost Gate",
+      "pageid": 12260,
+      "revid": 2729948,
+      "revisedAt": "2026-06-07T12:08:49Z",
+      "sha1": "93bc0e26d77b530facc9f4cf0e2590e51cca456f",
+      "url": "https://wiki.guildwars.com/wiki/The_Frost_Gate",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Frost%20Gate&oldid=2729948",
+      "retrievedAt": "2026-11-13T03:58:11.948Z"
+    },
+    "Gates of Kryta": {
+      "title": "Gates of Kryta",
+      "pageid": 12284,
+      "revid": 2729953,
+      "revisedAt": "2026-06-07T14:00:25Z",
+      "sha1": "58b3def59a3447e115b393cf904d067de574605e",
+      "url": "https://wiki.guildwars.com/wiki/Gates_of_Kryta",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gates%20of%20Kryta&oldid=2729953",
+      "retrievedAt": "2026-11-13T03:58:11.948Z"
+    },
+    "Fort Ranik": {
+      "title": "Fort Ranik",
+      "pageid": 14679,
+      "revid": 2742391,
+      "revisedAt": "2026-10-08T07:32:04Z",
+      "sha1": "1ba9e31ac2287e800d078a42ebe87ebe20d4ad53",
+      "url": "https://wiki.guildwars.com/wiki/Fort_Ranik",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fort%20Ranik&oldid=2742391",
+      "retrievedAt": "2026-11-13T03:58:11.948Z"
+    },
+    "Lion's Arch": {
+      "title": "Lion's Arch",
+      "pageid": 475,
+      "revid": 2740991,
+      "revisedAt": "2026-09-16T19:33:50Z",
+      "sha1": "4a767bad53b3569093d4713ac418cf5b4572a100",
+      "url": "https://wiki.guildwars.com/wiki/Lion%27s_Arch",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lion's%20Arch&oldid=2740991",
+      "retrievedAt": "2026-11-13T03:58:12.826Z"
+    },
+    "Bergen Hot Springs": {
+      "title": "Bergen Hot Springs",
+      "pageid": 6876,
+      "revid": 2723710,
+      "revisedAt": "2026-04-01T18:54:58Z",
+      "sha1": "4e4b8a1b89ae26e1450528749a7ff8918a8721b9",
+      "url": "https://wiki.guildwars.com/wiki/Bergen_Hot_Springs",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bergen%20Hot%20Springs&oldid=2723710",
+      "retrievedAt": "2026-11-13T03:58:12.827Z"
+    },
+    "Beetletun": {
+      "title": "Beetletun",
+      "pageid": 6883,
+      "revid": 2666666,
+      "revisedAt": "2020-10-05T08:30:51Z",
+      "sha1": "dbd13936ae68715ea0cf8d642f98bc7868597dfe",
+      "url": "https://wiki.guildwars.com/wiki/Beetletun",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Beetletun&oldid=2666666",
+      "retrievedAt": "2026-11-13T03:58:12.827Z"
+    },
+    "Temple of the Ages": {
+      "title": "Temple of the Ages",
+      "pageid": 6884,
+      "revid": 2725722,
+      "revisedAt": "2026-04-19T16:30:27Z",
+      "sha1": "a942041f8d72b2211c94aee19b91a6dd48041d27",
+      "url": "https://wiki.guildwars.com/wiki/Temple_of_the_Ages",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Temple%20of%20the%20Ages&oldid=2725722",
+      "retrievedAt": "2026-11-13T03:58:12.828Z"
+    },
+    "Fishermen's Haven": {
+      "title": "Fishermen's Haven",
+      "pageid": 6885,
+      "revid": 2727439,
+      "revisedAt": "2026-05-06T09:42:12Z",
+      "sha1": "12be01342a8e214917bac2b6cb596d19089fec9c",
+      "url": "https://wiki.guildwars.com/wiki/Fishermen%27s_Haven",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fishermen's%20Haven&oldid=2727439",
+      "retrievedAt": "2026-11-13T03:58:12.828Z"
+    },
+    "Sage Lands": {
+      "title": "Sage Lands",
+      "pageid": 10017,
+      "revid": 2665175,
+      "revisedAt": "2020-08-23T21:58:02Z",
+      "sha1": "994eda8283ff77f715adcd682b38a7c2d06dbc32",
+      "url": "https://wiki.guildwars.com/wiki/Sage_Lands",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sage%20Lands&oldid=2665175",
+      "retrievedAt": "2026-11-13T03:58:12.828Z"
+    },
+    "Cursed Lands": {
+      "title": "Cursed Lands",
+      "pageid": 10163,
+      "revid": 2697849,
+      "revisedAt": "2024-06-22T20:54:12Z",
+      "sha1": "5de9a886148e827eb8882386b79d2d0c770cebe9",
+      "url": "https://wiki.guildwars.com/wiki/Cursed_Lands",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Cursed%20Lands&oldid=2697849",
+      "retrievedAt": "2026-11-13T03:58:12.829Z"
+    },
+    "Kessex Peak": {
+      "title": "Kessex Peak",
+      "pageid": 10164,
+      "revid": 2723291,
+      "revisedAt": "2026-03-25T21:11:17Z",
+      "sha1": "5325325c0707af8c80f6d32d09f41cfbf44ccf9b",
+      "url": "https://wiki.guildwars.com/wiki/Kessex_Peak",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kessex%20Peak&oldid=2723291",
+      "retrievedAt": "2026-11-13T03:58:12.829Z"
+    },
+    "Nebo Terrace": {
+      "title": "Nebo Terrace",
+      "pageid": 10166,
+      "revid": 2712555,
+      "revisedAt": "2025-10-01T21:59:27Z",
+      "sha1": "24cc3d8ed795675b6e1f9ec32972e9593112612b",
+      "url": "https://wiki.guildwars.com/wiki/Nebo_Terrace",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Nebo%20Terrace&oldid=2712555",
+      "retrievedAt": "2026-11-13T03:58:12.830Z"
+    },
+    "North Kryta Province": {
+      "title": "North Kryta Province",
+      "pageid": 10167,
+      "revid": 2723577,
+      "revisedAt": "2026-03-30T17:10:54Z",
+      "sha1": "7bacb646164fbd0a331511da93fc38f85b4dba06",
+      "url": "https://wiki.guildwars.com/wiki/North_Kryta_Province",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=North%20Kryta%20Province&oldid=2723577",
+      "retrievedAt": "2026-11-13T03:58:12.830Z"
+    },
+    "Watchtower Coast": {
+      "title": "Watchtower Coast",
+      "pageid": 10169,
+      "revid": 2673462,
+      "revisedAt": "2021-06-06T16:48:37Z",
+      "sha1": "14a7a8bc9f8af5a6bb8db0cf8ce2fa48442d4ea5",
+      "url": "https://wiki.guildwars.com/wiki/Watchtower_Coast",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Watchtower%20Coast&oldid=2673462",
+      "retrievedAt": "2026-11-13T03:58:12.830Z"
+    },
+    "Stingray Strand": {
+      "title": "Stingray Strand",
+      "pageid": 10170,
+      "revid": 2673457,
+      "revisedAt": "2021-06-06T16:38:53Z",
+      "sha1": "38bb968720e1b4dc43a2a56af1397fa3fc41d95f",
+      "url": "https://wiki.guildwars.com/wiki/Stingray_Strand",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Stingray%20Strand&oldid=2673457",
+      "retrievedAt": "2026-11-13T03:58:12.831Z"
+    },
+    "Tears of the Fallen": {
+      "title": "Tears of the Fallen",
+      "pageid": 10172,
+      "revid": 2717983,
+      "revisedAt": "2026-01-14T16:10:05Z",
+      "sha1": "7e9dbe4e5e2b1e7f6859673f51bc9dff95e67c98",
+      "url": "https://wiki.guildwars.com/wiki/Tears_of_the_Fallen",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tears%20of%20the%20Fallen&oldid=2717983",
+      "retrievedAt": "2026-11-13T03:58:12.831Z"
+    },
+    "The Black Curtain": {
+      "title": "The Black Curtain",
+      "pageid": 10173,
+      "revid": 2722578,
+      "revisedAt": "2026-03-05T13:02:51Z",
+      "sha1": "54dbc2fea1b2745e032216de4d1ec9b48aa231df",
+      "url": "https://wiki.guildwars.com/wiki/The_Black_Curtain",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Black%20Curtain&oldid=2722578",
+      "retrievedAt": "2026-11-13T03:58:12.831Z"
+    },
+    "Twin Serpent Lakes": {
+      "title": "Twin Serpent Lakes",
+      "pageid": 10174,
+      "revid": 2717920,
+      "revisedAt": "2026-01-14T01:51:19Z",
+      "sha1": "ea851f67187a8e5b7cfe858469aaf9b50b3b5f46",
+      "url": "https://wiki.guildwars.com/wiki/Twin_Serpent_Lakes",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Twin%20Serpent%20Lakes&oldid=2717920",
+      "retrievedAt": "2026-11-13T03:58:12.832Z"
+    },
+    "D'Alessio Seaboard": {
+      "title": "D'Alessio Seaboard",
+      "pageid": 12181,
+      "revid": 2729996,
+      "revisedAt": "2026-06-08T11:06:17Z",
+      "sha1": "3de1453f00e84f5876787e93cc3796feae2972f1",
+      "url": "https://wiki.guildwars.com/wiki/D%27Alessio_Seaboard",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=D'Alessio%20Seaboard&oldid=2729996",
+      "retrievedAt": "2026-11-13T03:58:12.832Z"
+    },
+    "Sanctum Cay": {
+      "title": "Sanctum Cay",
+      "pageid": 12263,
+      "revid": 2730003,
+      "revisedAt": "2026-06-08T15:15:32Z",
+      "sha1": "dc56e6afafbbc564ba3bdd72af4714463d97688c",
+      "url": "https://wiki.guildwars.com/wiki/Sanctum_Cay",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sanctum%20Cay&oldid=2730003",
+      "retrievedAt": "2026-11-13T03:58:12.833Z"
+    },
+    "Riverside Province": {
+      "title": "Riverside Province",
+      "pageid": 12264,
+      "revid": 2742594,
+      "revisedAt": "2026-10-12T20:19:26Z",
+      "sha1": "82e57568f2469d434c99dfe690231c652f197aa0",
+      "url": "https://wiki.guildwars.com/wiki/Riverside_Province",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Riverside%20Province&oldid=2742594",
+      "retrievedAt": "2026-11-13T03:58:12.833Z"
+    },
+    "Divinity Coast": {
+      "title": "Divinity Coast",
+      "pageid": 15265,
+      "revid": 2723626,
+      "revisedAt": "2026-03-31T23:06:44Z",
+      "sha1": "5282ad4bceabb270fe2dfc7f76b55e8c520a4430",
+      "url": "https://wiki.guildwars.com/wiki/Divinity_Coast",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Divinity%20Coast&oldid=2723626",
+      "retrievedAt": "2026-11-13T03:58:12.833Z"
+    },
+    "Talmark Wilderness": {
+      "title": "Talmark Wilderness",
+      "pageid": 247998,
+      "revid": 2700248,
+      "revisedAt": "2024-10-22T01:37:36Z",
+      "sha1": "6920d99601da16c05cebd1727e17ecb6c58d2fce",
+      "url": "https://wiki.guildwars.com/wiki/Talmark_Wilderness",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Talmark%20Wilderness&oldid=2700248",
+      "retrievedAt": "2026-11-13T03:58:12.834Z"
+    },
+    "Henge of Denravi": {
+      "title": "Henge of Denravi",
+      "pageid": 4501,
+      "revid": 2742086,
+      "revisedAt": "2026-10-01T23:26:24Z",
+      "sha1": "99a484e84e69ff4cd141935c1ee0b3dcdabf1117",
+      "url": "https://wiki.guildwars.com/wiki/Henge_of_Denravi",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Henge%20of%20Denravi&oldid=2742086",
+      "retrievedAt": "2026-11-13T03:58:13.902Z"
+    },
+    "The Amnoon Oasis": {
+      "title": "The Amnoon Oasis",
+      "pageid": 4504,
+      "revid": 2742240,
+      "revisedAt": "2026-10-04T21:11:01Z",
+      "sha1": "168d23626df276e791ff6e307a91803e5df485de",
+      "url": "https://wiki.guildwars.com/wiki/The_Amnoon_Oasis",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Amnoon%20Oasis&oldid=2742240",
+      "retrievedAt": "2026-11-13T03:58:13.903Z"
+    },
+    "Druid's Overlook": {
+      "title": "Druid's Overlook",
+      "pageid": 6914,
+      "revid": 2697575,
+      "revisedAt": "2024-06-08T22:17:39Z",
+      "sha1": "df654cbcc2bc9485df50e16169933c527ee20235",
+      "url": "https://wiki.guildwars.com/wiki/Druid%27s_Overlook",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Druid's%20Overlook&oldid=2697575",
+      "retrievedAt": "2026-11-13T03:58:13.903Z"
+    },
+    "Maguuma Stade": {
+      "title": "Maguuma Stade",
+      "pageid": 6916,
+      "revid": 2131614,
+      "revisedAt": "2010-09-13T14:39:28Z",
+      "sha1": "9c6f308f72c0b94d937dc5047b3b5bd5cfb61b16",
+      "url": "https://wiki.guildwars.com/wiki/Maguuma_Stade",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maguuma%20Stade&oldid=2131614",
+      "retrievedAt": "2026-11-13T03:58:13.904Z"
+    },
+    "Quarrel Falls": {
+      "title": "Quarrel Falls",
+      "pageid": 6919,
+      "revid": 2666675,
+      "revisedAt": "2020-10-05T09:05:11Z",
+      "sha1": "645f84f2eb05b5ef0e1145be3414bbd0c7a90909",
+      "url": "https://wiki.guildwars.com/wiki/Quarrel_Falls",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Quarrel%20Falls&oldid=2666675",
+      "retrievedAt": "2026-11-13T03:58:13.904Z"
+    },
+    "Ventari's Refuge": {
+      "title": "Ventari's Refuge",
+      "pageid": 6921,
+      "revid": 2697579,
+      "revisedAt": "2024-06-08T22:21:55Z",
+      "sha1": "96ee83a1a452c90c9ed1fdaa9b4d84e7c5613e6e",
+      "url": "https://wiki.guildwars.com/wiki/Ventari%27s_Refuge",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ventari's%20Refuge&oldid=2697579",
+      "retrievedAt": "2026-11-13T03:58:13.904Z"
+    },
+    "Destiny's Gorge": {
+      "title": "Destiny's Gorge",
+      "pageid": 6934,
+      "revid": 2622344,
+      "revisedAt": "2017-09-29T03:04:26Z",
+      "sha1": "1b93dd00785401a7423b3be8ee9d456fadf91f9c",
+      "url": "https://wiki.guildwars.com/wiki/Destiny%27s_Gorge",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Destiny's%20Gorge&oldid=2622344",
+      "retrievedAt": "2026-11-13T03:58:13.905Z"
+    },
+    "Heroes' Audience": {
+      "title": "Heroes' Audience",
+      "pageid": 6936,
+      "revid": 2666677,
+      "revisedAt": "2020-10-05T09:20:21Z",
+      "sha1": "c29d3b98e3fcfe25adfdb1f936e0cb3809c24d6b",
+      "url": "https://wiki.guildwars.com/wiki/Heroes%27_Audience",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Heroes'%20Audience&oldid=2666677",
+      "retrievedAt": "2026-11-13T03:58:13.907Z"
+    },
+    "Seeker's Passage": {
+      "title": "Seeker's Passage",
+      "pageid": 6939,
+      "revid": 2621246,
+      "revisedAt": "2017-08-11T19:19:02Z",
+      "sha1": "824352c1c773e4d3daef84442f8f723e0bee91e7",
+      "url": "https://wiki.guildwars.com/wiki/Seeker%27s_Passage",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Seeker's%20Passage&oldid=2621246",
+      "retrievedAt": "2026-11-13T03:58:13.908Z"
+    },
+    "Diviner's Ascent": {
+      "title": "Diviner's Ascent",
+      "pageid": 9934,
+      "revid": 2724925,
+      "revisedAt": "2026-04-08T01:44:01Z",
+      "sha1": "2bf2b3e26efc1cbb85766428392d61c7da8b400b",
+      "url": "https://wiki.guildwars.com/wiki/Diviner%27s_Ascent",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Diviner's%20Ascent&oldid=2724925",
+      "retrievedAt": "2026-11-13T03:58:13.908Z"
+    },
+    "Skyward Reach": {
+      "title": "Skyward Reach",
+      "pageid": 9937,
+      "revid": 2665183,
+      "revisedAt": "2020-08-23T22:02:44Z",
+      "sha1": "3532f38ca38fda5ce7ba80faf6fccec952ca3f71",
+      "url": "https://wiki.guildwars.com/wiki/Skyward_Reach",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Skyward%20Reach&oldid=2665183",
+      "retrievedAt": "2026-11-13T03:58:13.908Z"
+    },
+    "The Scar": {
+      "title": "The Scar",
+      "pageid": 9939,
+      "revid": 2673624,
+      "revisedAt": "2021-06-16T22:27:25Z",
+      "sha1": "c6944e76fa4d4d11f8bdcbca3f4665217e9a7f51",
+      "url": "https://wiki.guildwars.com/wiki/The_Scar",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Scar&oldid=2673624",
+      "retrievedAt": "2026-11-13T03:58:13.909Z"
+    },
+    "Dry Top": {
+      "title": "Dry Top",
+      "pageid": 10011,
+      "revid": 2700034,
+      "revisedAt": "2024-10-07T15:24:38Z",
+      "sha1": "28696371e2f752dd4a2abe13c78eead070247d05",
+      "url": "https://wiki.guildwars.com/wiki/Dry_Top",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dry%20Top&oldid=2700034",
+      "retrievedAt": "2026-11-13T03:58:13.909Z"
+    },
+    "Ettin's Back": {
+      "title": "Ettin's Back",
+      "pageid": 10012,
+      "revid": 2725241,
+      "revisedAt": "2026-04-11T11:30:30Z",
+      "sha1": "3376b9051e0ffd38d5405490370298262560c544",
+      "url": "https://wiki.guildwars.com/wiki/Ettin%27s_Back",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ettin's%20Back&oldid=2725241",
+      "retrievedAt": "2026-11-13T03:58:13.909Z"
+    },
+    "Silverwood": {
+      "title": "Silverwood",
+      "pageid": 10018,
+      "revid": 2724968,
+      "revisedAt": "2026-04-08T16:36:59Z",
+      "sha1": "9537813b8d98993476cb68c70554a26ad36e9e2a",
+      "url": "https://wiki.guildwars.com/wiki/Silverwood",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Silverwood&oldid=2724968",
+      "retrievedAt": "2026-11-13T03:58:13.910Z"
+    },
+    "Mamnoon Lagoon": {
+      "title": "Mamnoon Lagoon",
+      "pageid": 10019,
+      "revid": 2697577,
+      "revisedAt": "2024-06-08T22:18:37Z",
+      "sha1": "cc42e080584745ca9b07bcdb99e92d6757248809",
+      "url": "https://wiki.guildwars.com/wiki/Mamnoon_Lagoon",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mamnoon%20Lagoon&oldid=2697577",
+      "retrievedAt": "2026-11-13T03:58:13.910Z"
+    },
+    "Reed Bog": {
+      "title": "Reed Bog",
+      "pageid": 10020,
+      "revid": 2699289,
+      "revisedAt": "2024-09-09T16:14:59Z",
+      "sha1": "31635196aff9023c8d029555042f8911070ded25",
+      "url": "https://wiki.guildwars.com/wiki/Reed_Bog",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Reed%20Bog&oldid=2699289",
+      "retrievedAt": "2026-11-13T03:58:13.910Z"
+    },
+    "Aurora Glade": {
+      "title": "Aurora Glade",
+      "pageid": 12183,
+      "revid": 2741937,
+      "revisedAt": "2026-09-30T20:22:58Z",
+      "sha1": "c0d43b24cf139e06845c2bb2d769e6ab5f720d15",
+      "url": "https://wiki.guildwars.com/wiki/Aurora_Glade",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Aurora%20Glade&oldid=2741937",
+      "retrievedAt": "2026-11-13T03:58:13.911Z"
+    },
+    "Bloodstone Fen": {
+      "title": "Bloodstone Fen",
+      "pageid": 15266,
+      "revid": 2725862,
+      "revisedAt": "2026-04-21T18:23:21Z",
+      "sha1": "b2f126f6d277815aecb30bb8effa65093cc0e2d5",
+      "url": "https://wiki.guildwars.com/wiki/Bloodstone_Fen",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bloodstone%20Fen&oldid=2725862",
+      "retrievedAt": "2026-11-13T03:58:13.911Z"
+    },
+    "The Wilds": {
+      "title": "The Wilds",
+      "pageid": 15268,
+      "revid": 2724866,
+      "revisedAt": "2026-04-07T14:18:27Z",
+      "sha1": "4132b94cacba637154eab1d91076380c9f1bb04b",
+      "url": "https://wiki.guildwars.com/wiki/The_Wilds",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Wilds&oldid=2724866",
+      "retrievedAt": "2026-11-13T03:58:13.911Z"
+    },
+    "Ember Light Camp": {
+      "title": "Ember Light Camp",
+      "pageid": 2650,
+      "revid": 2543697,
+      "revisedAt": "2013-04-28T02:05:17Z",
+      "sha1": "3ba0485ae0ac3443d6d12e1f2e8f4a2008a7c4b2",
+      "url": "https://wiki.guildwars.com/wiki/Ember_Light_Camp",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ember%20Light%20Camp&oldid=2543697",
+      "retrievedAt": "2026-11-13T03:58:15.382Z"
+    },
+    "Shing Jea Monastery": {
+      "title": "Shing Jea Monastery",
+      "pageid": 3166,
+      "revid": 2705865,
+      "revisedAt": "2025-05-02T22:08:45Z",
+      "sha1": "2cc8cff70a1cc7caf00eddc911d63b67bc72ada4",
+      "url": "https://wiki.guildwars.com/wiki/Shing_Jea_Monastery",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shing%20Jea%20Monastery&oldid=2705865",
+      "retrievedAt": "2026-11-13T03:58:15.383Z"
+    },
+    "Droknar's Forge": {
+      "title": "Droknar's Forge",
+      "pageid": 4140,
+      "revid": 2693307,
+      "revisedAt": "2024-03-02T22:31:33Z",
+      "sha1": "5f7addb9ff63001ee23dba70375e501bb40be025",
+      "url": "https://wiki.guildwars.com/wiki/Droknar%27s_Forge",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Droknar's%20Forge&oldid=2693307",
+      "retrievedAt": "2026-11-13T03:58:15.383Z"
+    },
+    "Minister Cho's Estate": {
+      "title": "Minister Cho's Estate",
+      "pageid": 6265,
+      "revid": 2709092,
+      "revisedAt": "2025-06-16T06:18:37Z",
+      "sha1": "8d9b96e63e47933b28f424943b88b3b931b5ac24",
+      "url": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Minister%20Cho's%20Estate&oldid=2709092",
+      "retrievedAt": "2026-11-13T03:58:15.384Z"
+    },
+    "Seitung Harbor": {
+      "title": "Seitung Harbor",
+      "pageid": 6413,
+      "revid": 2674798,
+      "revisedAt": "2021-09-11T19:54:22Z",
+      "sha1": "f1cf36996e656e18657bbca4812994da16829a71",
+      "url": "https://wiki.guildwars.com/wiki/Seitung_Harbor",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Seitung%20Harbor&oldid=2674798",
+      "retrievedAt": "2026-11-13T03:58:15.384Z"
+    },
+    "Ran Musu Gardens": {
+      "title": "Ran Musu Gardens",
+      "pageid": 6756,
+      "revid": 2195845,
+      "revisedAt": "2010-12-09T21:30:14Z",
+      "sha1": "d58cfc41214973f1ff36538c0512f172419b34e2",
+      "url": "https://wiki.guildwars.com/wiki/Ran_Musu_Gardens",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ran%20Musu%20Gardens&oldid=2195845",
+      "retrievedAt": "2026-11-13T03:58:15.384Z"
+    },
+    "Camp Rankor": {
+      "title": "Camp Rankor",
+      "pageid": 6800,
+      "revid": 2688429,
+      "revisedAt": "2023-07-14T15:12:09Z",
+      "sha1": "dae3baaed71b1795f874af190626968b899d92ff",
+      "url": "https://wiki.guildwars.com/wiki/Camp_Rankor",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Camp%20Rankor&oldid=2688429",
+      "retrievedAt": "2026-11-13T03:58:15.385Z"
+    },
+    "Port Sledge": {
+      "title": "Port Sledge",
+      "pageid": 6806,
+      "revid": 2688424,
+      "revisedAt": "2023-07-14T13:35:34Z",
+      "sha1": "40260abe48d5839845a451a505aa9850fb063964",
+      "url": "https://wiki.guildwars.com/wiki/Port_Sledge",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Port%20Sledge&oldid=2688424",
+      "retrievedAt": "2026-11-13T03:58:15.385Z"
+    },
+    "Copperhammer Mines": {
+      "title": "Copperhammer Mines",
+      "pageid": 6807,
+      "revid": 2680484,
+      "revisedAt": "2022-08-26T08:49:33Z",
+      "sha1": "38b9deb9d80d656569313cb96c9c61b9730367a4",
+      "url": "https://wiki.guildwars.com/wiki/Copperhammer_Mines",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Copperhammer%20Mines&oldid=2680484",
+      "retrievedAt": "2026-11-13T03:58:15.385Z"
+    },
+    "Deldrimor War Camp": {
+      "title": "Deldrimor War Camp",
+      "pageid": 6808,
+      "revid": 2658456,
+      "revisedAt": "2020-05-13T21:03:31Z",
+      "sha1": "c984eb146b7e4454117e213ee4ec30e4ea4a92a7",
+      "url": "https://wiki.guildwars.com/wiki/Deldrimor_War_Camp",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Deldrimor%20War%20Camp&oldid=2658456",
+      "retrievedAt": "2026-11-13T03:58:15.386Z"
+    },
+    "Marhan's Grotto": {
+      "title": "Marhan's Grotto",
+      "pageid": 6818,
+      "revid": 2707290,
+      "revisedAt": "2025-05-25T22:42:52Z",
+      "sha1": "67d117036938e0eef314330d34ceaeb6d5d868cf",
+      "url": "https://wiki.guildwars.com/wiki/Marhan%27s_Grotto",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Marhan's%20Grotto&oldid=2707290",
+      "retrievedAt": "2026-11-13T03:58:15.386Z"
+    },
+    "The Granite Citadel": {
+      "title": "The Granite Citadel",
+      "pageid": 6829,
+      "revid": 2621418,
+      "revisedAt": "2017-08-17T09:48:44Z",
+      "sha1": "941fa32726000c33055ad89f7b97fa87a7d5c055",
+      "url": "https://wiki.guildwars.com/wiki/The_Granite_Citadel",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Granite%20Citadel&oldid=2621418",
+      "retrievedAt": "2026-11-13T03:58:15.386Z"
+    },
+    "Tsumei Village": {
+      "title": "Tsumei Village",
+      "pageid": 7295,
+      "revid": 2635977,
+      "revisedAt": "2019-01-26T15:41:56Z",
+      "sha1": "fc223fd210a8767f0a2a644c263127972699bb3a",
+      "url": "https://wiki.guildwars.com/wiki/Tsumei_Village",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tsumei%20Village&oldid=2635977",
+      "retrievedAt": "2026-11-13T03:58:15.387Z"
+    },
+    "The Arid Sea": {
+      "title": "The Arid Sea",
+      "pageid": 9938,
+      "revid": 2724851,
+      "revisedAt": "2026-04-06T23:09:07Z",
+      "sha1": "b01ea0369645bfbf2ffbf7c810f289339f13c417",
+      "url": "https://wiki.guildwars.com/wiki/The_Arid_Sea",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Arid%20Sea&oldid=2724851",
+      "retrievedAt": "2026-11-13T03:58:15.387Z"
+    },
+    "Vulture Drifts": {
+      "title": "Vulture Drifts",
+      "pageid": 9940,
+      "revid": 2737895,
+      "revisedAt": "2026-08-19T04:15:55Z",
+      "sha1": "18c6b3b2ddf6f55579a76163239c0fc12a690214",
+      "url": "https://wiki.guildwars.com/wiki/Vulture_Drifts",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vulture%20Drifts&oldid=2737895",
+      "retrievedAt": "2026-11-13T03:58:15.388Z"
+    },
+    "Icedome": {
+      "title": "Icedome",
+      "pageid": 10002,
+      "revid": 2742438,
+      "revisedAt": "2026-10-09T10:18:21Z",
+      "sha1": "19021be296b0bba4ab67d1706655ccfe633eac28",
+      "url": "https://wiki.guildwars.com/wiki/Icedome",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Icedome&oldid=2742438",
+      "retrievedAt": "2026-11-13T03:58:15.388Z"
+    },
+    "Tasca's Demise": {
+      "title": "Tasca's Demise",
+      "pageid": 10008,
+      "revid": 2698134,
+      "revisedAt": "2024-07-08T20:42:03Z",
+      "sha1": "3eda5735e810f6cfdbc037931e34bd0055f1d227",
+      "url": "https://wiki.guildwars.com/wiki/Tasca%27s_Demise",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tasca's%20Demise&oldid=2698134",
+      "retrievedAt": "2026-11-13T03:58:15.388Z"
+    },
+    "Monastery Overlook": {
+      "title": "Monastery Overlook",
+      "pageid": 10423,
+      "revid": 2685121,
+      "revisedAt": "2023-03-19T04:42:46Z",
+      "sha1": "5fa01f0ec84c5465cb885045d152508dcd71fb8e",
+      "url": "https://wiki.guildwars.com/wiki/Monastery_Overlook",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Monastery%20Overlook&oldid=2685121",
+      "retrievedAt": "2026-11-13T03:58:15.389Z"
+    },
+    "Linnok Courtyard": {
+      "title": "Linnok Courtyard",
+      "pageid": 10425,
+      "revid": 2710180,
+      "revisedAt": "2025-07-04T21:45:55Z",
+      "sha1": "422066a5f024f8798003894948c9dab570bde20e",
+      "url": "https://wiki.guildwars.com/wiki/Linnok_Courtyard",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Linnok%20Courtyard&oldid=2710180",
+      "retrievedAt": "2026-11-13T03:58:15.389Z"
+    },
+    "Minister Cho's Estate (explorable area)": {
+      "title": "Minister Cho's Estate (explorable area)",
+      "pageid": 10429,
+      "revid": 2731049,
+      "revisedAt": "2026-06-24T19:15:47Z",
+      "sha1": "0f447461f314a8184ea05966a718d179e7f2af36",
+      "url": "https://wiki.guildwars.com/wiki/Minister_Cho%27s_Estate_(explorable_area)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Minister%20Cho's%20Estate%20(explorable%20area)&oldid=2731049",
+      "retrievedAt": "2026-11-13T03:58:15.389Z"
+    },
+    "Kaineng Center": {
+      "title": "Kaineng Center",
+      "pageid": 3030,
+      "revid": 2738670,
+      "revisedAt": "2026-08-27T04:44:36Z",
+      "sha1": "fc8254b230a4405a7b848abb693c12a0662018ae",
+      "url": "https://wiki.guildwars.com/wiki/Kaineng_Center",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kaineng%20Center&oldid=2738670",
+      "retrievedAt": "2026-11-13T03:58:16.234Z"
+    },
+    "Zen Daijun": {
+      "title": "Zen Daijun",
+      "pageid": 6576,
+      "revid": 2708007,
+      "revisedAt": "2025-05-30T02:25:26Z",
+      "sha1": "825cfb3174fee077b40d19a574e8128da2dc4357",
+      "url": "https://wiki.guildwars.com/wiki/Zen_Daijun",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Zen%20Daijun&oldid=2708007",
+      "retrievedAt": "2026-11-13T03:58:16.235Z"
+    },
+    "Senji's Corner": {
+      "title": "Senji's Corner",
+      "pageid": 6802,
+      "revid": 2565292,
+      "revisedAt": "2014-02-20T08:58:55Z",
+      "sha1": "fb6d53180102f99945dabf8be21f5d46f3c7a3d2",
+      "url": "https://wiki.guildwars.com/wiki/Senji%27s_Corner",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Senji's%20Corner&oldid=2565292",
+      "retrievedAt": "2026-11-13T03:58:16.235Z"
+    },
+    "The Marketplace": {
+      "title": "The Marketplace",
+      "pageid": 7070,
+      "revid": 2723692,
+      "revisedAt": "2026-04-01T18:35:14Z",
+      "sha1": "82515329f0bd74a8cccfa72a8649f85935c5491d",
+      "url": "https://wiki.guildwars.com/wiki/The_Marketplace",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Marketplace&oldid=2723692",
+      "retrievedAt": "2026-11-13T03:58:16.236Z"
+    },
+    "Zin Ku Corridor": {
+      "title": "Zin Ku Corridor",
+      "pageid": 7073,
+      "revid": 2639003,
+      "revisedAt": "2019-06-05T00:34:00Z",
+      "sha1": "d1abf57d2e19064a9541e382a8d26b7d4a329140",
+      "url": "https://wiki.guildwars.com/wiki/Zin_Ku_Corridor",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Zin%20Ku%20Corridor&oldid=2639003",
+      "retrievedAt": "2026-11-13T03:58:16.236Z"
+    },
+    "Maatu Keep": {
+      "title": "Maatu Keep",
+      "pageid": 7075,
+      "revid": 2723711,
+      "revisedAt": "2026-04-01T18:56:02Z",
+      "sha1": "7383985186846d7b2d3753d70d2134526b9fa5c3",
+      "url": "https://wiki.guildwars.com/wiki/Maatu_Keep",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maatu%20Keep&oldid=2723711",
+      "retrievedAt": "2026-11-13T03:58:16.237Z"
+    },
+    "Divine Path": {
+      "title": "Divine Path",
+      "pageid": 8950,
+      "revid": 2735350,
+      "revisedAt": "2026-07-23T02:30:31Z",
+      "sha1": "54608e795d606552ee9fd13eb6b93567e3d5ac14",
+      "url": "https://wiki.guildwars.com/wiki/Divine_Path",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Divine%20Path&oldid=2735350",
+      "retrievedAt": "2026-11-13T03:58:16.238Z"
+    },
+    "Zos Shivros Channel": {
+      "title": "Zos Shivros Channel",
+      "pageid": 9855,
+      "revid": 2713611,
+      "revisedAt": "2025-12-02T00:44:58Z",
+      "sha1": "dddd84cea4cf75744e2d20dc1fb9c5aecb881161",
+      "url": "https://wiki.guildwars.com/wiki/Zos_Shivros_Channel",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Zos%20Shivros%20Channel&oldid=2713611",
+      "retrievedAt": "2026-11-13T03:58:16.239Z"
+    },
+    "Zen Daijun (explorable area)": {
+      "title": "Zen Daijun (explorable area)",
+      "pageid": 10422,
+      "revid": 2709012,
+      "revisedAt": "2025-06-13T21:57:14Z",
+      "sha1": "a5fcbf2797c803f747ffa2e0935c254b2758e412",
+      "url": "https://wiki.guildwars.com/wiki/Zen_Daijun_(explorable_area)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Zen%20Daijun%20(explorable%20area)&oldid=2709012",
+      "retrievedAt": "2026-11-13T03:58:16.240Z"
+    },
+    "Aspenwood Gate (Luxon)": {
+      "title": "Aspenwood Gate (Luxon)",
+      "pageid": 10470,
+      "revid": 2566232,
+      "revisedAt": "2014-03-11T18:46:27Z",
+      "sha1": "68cb19d28c240c8fe19df3f204560292914e8a3f",
+      "url": "https://wiki.guildwars.com/wiki/Aspenwood_Gate_(Luxon)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Aspenwood%20Gate%20(Luxon)&oldid=2566232",
+      "retrievedAt": "2026-11-13T03:58:16.240Z"
+    },
+    "Bai Paasu Reach": {
+      "title": "Bai Paasu Reach",
+      "pageid": 10472,
+      "revid": 2565286,
+      "revisedAt": "2014-02-20T08:00:31Z",
+      "sha1": "d849afbe125ba7507e14aa112374a34665469ec0",
+      "url": "https://wiki.guildwars.com/wiki/Bai_Paasu_Reach",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bai%20Paasu%20Reach&oldid=2565286",
+      "retrievedAt": "2026-11-13T03:58:16.240Z"
+    },
+    "Breaker Hollow": {
+      "title": "Breaker Hollow",
+      "pageid": 10475,
+      "revid": 2444488,
+      "revisedAt": "2012-02-06T03:15:49Z",
+      "sha1": "c592e440e66f3c0ed3e8984330d0dc2ff2941f42",
+      "url": "https://wiki.guildwars.com/wiki/Breaker_Hollow",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Breaker%20Hollow&oldid=2444488",
+      "retrievedAt": "2026-11-13T03:58:16.241Z"
+    },
+    "Eredon Terrace": {
+      "title": "Eredon Terrace",
+      "pageid": 10478,
+      "revid": 2728993,
+      "revisedAt": "2026-05-26T08:40:34Z",
+      "sha1": "1dcb4f87e17fb2b145cebbf9e04c5ec9a9d55cee",
+      "url": "https://wiki.guildwars.com/wiki/Eredon_Terrace",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Eredon%20Terrace&oldid=2728993",
+      "retrievedAt": "2026-11-13T03:58:16.241Z"
+    },
+    "Fort Aspenwood (Luxon)": {
+      "title": "Fort Aspenwood (Luxon)",
+      "pageid": 10502,
+      "revid": 2669114,
+      "revisedAt": "2020-12-02T07:40:45Z",
+      "sha1": "768d06d6c1323babca4444c778863060203fd45b",
+      "url": "https://wiki.guildwars.com/wiki/Fort_Aspenwood_(Luxon)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fort%20Aspenwood%20(Luxon)&oldid=2669114",
+      "retrievedAt": "2026-11-13T03:58:16.241Z"
+    },
+    "Kaineng Docks": {
+      "title": "Kaineng Docks",
+      "pageid": 10962,
+      "revid": 2647018,
+      "revisedAt": "2020-01-20T05:10:46Z",
+      "sha1": "f1746b440eced539a67b84768ee4ee4e3fa50d55",
+      "url": "https://wiki.guildwars.com/wiki/Kaineng_Docks",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kaineng%20Docks&oldid=2647018",
+      "retrievedAt": "2026-11-13T03:58:16.242Z"
+    },
+    "Raisu Pavilion": {
+      "title": "Raisu Pavilion",
+      "pageid": 10966,
+      "revid": 2646853,
+      "revisedAt": "2020-01-09T18:34:43Z",
+      "sha1": "a49596415327ea2b208a9de5d4138c52408bc1d0",
+      "url": "https://wiki.guildwars.com/wiki/Raisu_Pavilion",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Raisu%20Pavilion&oldid=2646853",
+      "retrievedAt": "2026-11-13T03:58:16.242Z"
+    },
+    "Imperial Sanctum": {
+      "title": "Imperial Sanctum",
+      "pageid": 13702,
+      "revid": 2697824,
+      "revisedAt": "2024-06-20T18:25:29Z",
+      "sha1": "d9810b6017b36f96f997c90b0379c1bb3dd19c2b",
+      "url": "https://wiki.guildwars.com/wiki/Imperial_Sanctum",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Imperial%20Sanctum&oldid=2697824",
+      "retrievedAt": "2026-11-13T03:58:16.242Z"
+    },
+    "Chahbek Village": {
+      "title": "Chahbek Village",
+      "pageid": 4569,
+      "revid": 2726169,
+      "revisedAt": "2026-04-26T21:52:54Z",
+      "sha1": "cf6c53ff7038781bdbd89f72af76cbc1ce2424e4",
+      "url": "https://wiki.guildwars.com/wiki/Chahbek_Village",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Chahbek%20Village&oldid=2726169",
+      "retrievedAt": "2026-11-13T03:58:17.359Z"
+    },
+    "Vasburg Armory": {
+      "title": "Vasburg Armory",
+      "pageid": 6708,
+      "revid": 2730726,
+      "revisedAt": "2026-06-20T16:14:57Z",
+      "sha1": "7f026bd7b0bc81e6825157a1db67269e914065a4",
+      "url": "https://wiki.guildwars.com/wiki/Vasburg_Armory",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vasburg%20Armory&oldid=2730726",
+      "retrievedAt": "2026-11-13T03:58:17.359Z"
+    },
+    "Brauer Academy": {
+      "title": "Brauer Academy",
+      "pageid": 6748,
+      "revid": 2724830,
+      "revisedAt": "2026-04-06T16:47:28Z",
+      "sha1": "ab39292ffd1c0e5ca81d4d5b936b6c7164194be4",
+      "url": "https://wiki.guildwars.com/wiki/Brauer_Academy",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Brauer%20Academy&oldid=2724830",
+      "retrievedAt": "2026-11-13T03:58:17.360Z"
+    },
+    "Aspenwood Gate (Kurzick)": {
+      "title": "Aspenwood Gate (Kurzick)",
+      "pageid": 7153,
+      "revid": 2129293,
+      "revisedAt": "2010-09-09T16:02:46Z",
+      "sha1": "cc2a727395348e752116ca66b79e75cdc0bcacfc",
+      "url": "https://wiki.guildwars.com/wiki/Aspenwood_Gate_(Kurzick)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Aspenwood%20Gate%20(Kurzick)&oldid=2129293",
+      "retrievedAt": "2026-11-13T03:58:17.360Z"
+    },
+    "Jade Flats (Kurzick)": {
+      "title": "Jade Flats (Kurzick)",
+      "pageid": 7601,
+      "revid": 2365041,
+      "revisedAt": "2011-08-17T07:33:49Z",
+      "sha1": "be7e80df695c83ee0bbde51b3a3883307e219d46",
+      "url": "https://wiki.guildwars.com/wiki/Jade_Flats_(Kurzick)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Jade%20Flats%20(Kurzick)&oldid=2365041",
+      "retrievedAt": "2026-11-13T03:58:17.361Z"
+    },
+    "Lutgardis Conservatory": {
+      "title": "Lutgardis Conservatory",
+      "pageid": 7603,
+      "revid": 2709829,
+      "revisedAt": "2025-07-01T04:56:57Z",
+      "sha1": "4167cb3a14f6febe482acc0f94e865719d2bc90c",
+      "url": "https://wiki.guildwars.com/wiki/Lutgardis_Conservatory",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lutgardis%20Conservatory&oldid=2709829",
+      "retrievedAt": "2026-11-13T03:58:17.361Z"
+    },
+    "Tanglewood Copse": {
+      "title": "Tanglewood Copse",
+      "pageid": 7607,
+      "revid": 2609766,
+      "revisedAt": "2016-07-07T00:51:43Z",
+      "sha1": "33ab3a8d1e213f2282a5ec8e95e2624844120c04",
+      "url": "https://wiki.guildwars.com/wiki/Tanglewood_Copse",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tanglewood%20Copse&oldid=2609766",
+      "retrievedAt": "2026-11-13T03:58:17.361Z"
+    },
+    "Durheim Archives": {
+      "title": "Durheim Archives",
+      "pageid": 7609,
+      "revid": 2708749,
+      "revisedAt": "2025-06-08T21:42:42Z",
+      "sha1": "deaede8fb961164001804de63190c2d9b1122c50",
+      "url": "https://wiki.guildwars.com/wiki/Durheim_Archives",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Durheim%20Archives&oldid=2708749",
+      "retrievedAt": "2026-11-13T03:58:17.362Z"
+    },
+    "The Aurios Mines": {
+      "title": "The Aurios Mines",
+      "pageid": 8559,
+      "revid": 2631110,
+      "revisedAt": "2018-06-23T17:14:55Z",
+      "sha1": "5397474ab4479e22b4db3d7fc8af726e918a19c5",
+      "url": "https://wiki.guildwars.com/wiki/The_Aurios_Mines",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Aurios%20Mines&oldid=2631110",
+      "retrievedAt": "2026-11-13T03:58:17.362Z"
+    },
+    "Amatz Basin": {
+      "title": "Amatz Basin",
+      "pageid": 8568,
+      "revid": 2716534,
+      "revisedAt": "2025-12-24T03:37:45Z",
+      "sha1": "479933966bd84602c0257bd06806234a970284ff",
+      "url": "https://wiki.guildwars.com/wiki/Amatz_Basin",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Amatz%20Basin&oldid=2716534",
+      "retrievedAt": "2026-11-13T03:58:17.362Z"
+    },
+    "Churrhir Fields": {
+      "title": "Churrhir Fields",
+      "pageid": 8829,
+      "revid": 2666694,
+      "revisedAt": "2020-10-05T10:07:19Z",
+      "sha1": "d18fa1b5228bbc091fc7f0c16cc34aa48776393c",
+      "url": "https://wiki.guildwars.com/wiki/Churrhir_Fields",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Churrhir%20Fields&oldid=2666694",
+      "retrievedAt": "2026-11-13T03:58:17.363Z"
+    },
+    "Unwaking Waters (Kurzick)": {
+      "title": "Unwaking Waters (Kurzick)",
+      "pageid": 10455,
+      "revid": 2732588,
+      "revisedAt": "2026-07-04T11:21:54Z",
+      "sha1": "960442220027de43adfada5a40c1c638958279bd",
+      "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters_(Kurzick)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unwaking%20Waters%20(Kurzick)&oldid=2732588",
+      "retrievedAt": "2026-11-13T03:58:17.363Z"
+    },
+    "Fort Aspenwood (Kurzick)": {
+      "title": "Fort Aspenwood (Kurzick)",
+      "pageid": 10465,
+      "revid": 2681487,
+      "revisedAt": "2022-10-25T02:08:31Z",
+      "sha1": "77f85d22855c895527406705f758ce0c8ba8ec63",
+      "url": "https://wiki.guildwars.com/wiki/Fort_Aspenwood_(Kurzick)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fort%20Aspenwood%20(Kurzick)&oldid=2681487",
+      "retrievedAt": "2026-11-13T03:58:17.363Z"
+    },
+    "Jade Flats (Luxon)": {
+      "title": "Jade Flats (Luxon)",
+      "pageid": 10481,
+      "revid": 2312387,
+      "revisedAt": "2011-06-05T16:12:15Z",
+      "sha1": "c9b5d703ad37e0c7aaa4413b51a1ee2c8b342c0c",
+      "url": "https://wiki.guildwars.com/wiki/Jade_Flats_(Luxon)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Jade%20Flats%20(Luxon)&oldid=2312387",
+      "retrievedAt": "2026-11-13T03:58:17.364Z"
+    },
+    "Leviathan Pits": {
+      "title": "Leviathan Pits",
+      "pageid": 10483,
+      "revid": 2547709,
+      "revisedAt": "2013-05-25T04:18:37Z",
+      "sha1": "7ea84ed788fcec7b205ac96c087ede5e9bf9255b",
+      "url": "https://wiki.guildwars.com/wiki/Leviathan_Pits",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Leviathan%20Pits&oldid=2547709",
+      "retrievedAt": "2026-11-13T03:58:17.364Z"
+    },
+    "Seafarer's Rest": {
+      "title": "Seafarer's Rest",
+      "pageid": 10484,
+      "revid": 2511790,
+      "revisedAt": "2012-08-08T08:17:27Z",
+      "sha1": "1b0e0664802618ca52c0b20ea0a9cdcef18883bb",
+      "url": "https://wiki.guildwars.com/wiki/Seafarer%27s_Rest",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Seafarer's%20Rest&oldid=2511790",
+      "retrievedAt": "2026-11-13T03:58:17.364Z"
+    },
+    "Harvest Temple": {
+      "title": "Harvest Temple",
+      "pageid": 10486,
+      "revid": 2689522,
+      "revisedAt": "2023-08-09T20:02:08Z",
+      "sha1": "58ca2c440a1e10daec32003ed62623244e5f35ef",
+      "url": "https://wiki.guildwars.com/wiki/Harvest_Temple",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Harvest%20Temple&oldid=2689522",
+      "retrievedAt": "2026-11-13T03:58:17.365Z"
+    },
+    "Unwaking Waters (Luxon)": {
+      "title": "Unwaking Waters (Luxon)",
+      "pageid": 10491,
+      "revid": 2732589,
+      "revisedAt": "2026-07-04T11:22:00Z",
+      "sha1": "295c54208055367d0b1fbea87824144c1bbc8750",
+      "url": "https://wiki.guildwars.com/wiki/Unwaking_Waters_(Luxon)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unwaking%20Waters%20(Luxon)&oldid=2732589",
+      "retrievedAt": "2026-11-13T03:58:17.365Z"
+    },
+    "The Jade Quarry (Luxon)": {
+      "title": "The Jade Quarry (Luxon)",
+      "pageid": 10499,
+      "revid": 2681489,
+      "revisedAt": "2022-10-25T02:10:53Z",
+      "sha1": "ac103349dd5633c3b28bf5b9b69ecf99b877daa7",
+      "url": "https://wiki.guildwars.com/wiki/The_Jade_Quarry_(Luxon)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Jade%20Quarry%20(Luxon)&oldid=2681489",
+      "retrievedAt": "2026-11-13T03:58:17.365Z"
+    },
+    "The Jade Quarry (Kurzick)": {
+      "title": "The Jade Quarry (Kurzick)",
+      "pageid": 10519,
+      "revid": 2583958,
+      "revisedAt": "2015-03-14T22:20:16Z",
+      "sha1": "095147547ba3c4c11bbcdbbdfd74ac4cc5249d0b",
+      "url": "https://wiki.guildwars.com/wiki/The_Jade_Quarry_(Kurzick)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Jade%20Quarry%20(Kurzick)&oldid=2583958",
+      "retrievedAt": "2026-11-13T03:58:17.366Z"
+    },
+    "Venta Cemetery": {
+      "title": "Venta Cemetery",
+      "pageid": 3180,
+      "revid": 2692983,
+      "revisedAt": "2024-02-16T15:23:45Z",
+      "sha1": "589c65008cc760b1695c71b218528e8a4cd1a206",
+      "url": "https://wiki.guildwars.com/wiki/Venta_Cemetery",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Venta%20Cemetery&oldid=2692983",
+      "retrievedAt": "2026-11-13T03:58:18.404Z"
+    },
+    "Rilohn Refuge": {
+      "title": "Rilohn Refuge",
+      "pageid": 3580,
+      "revid": 2703640,
+      "revisedAt": "2025-03-17T13:07:50Z",
+      "sha1": "7ed4a0a6e3c154a982d7abe9198fb02ddbc2d0cb",
+      "url": "https://wiki.guildwars.com/wiki/Rilohn_Refuge",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rilohn%20Refuge&oldid=2703640",
+      "retrievedAt": "2026-11-13T03:58:18.404Z"
+    },
+    "Tihark Orchard": {
+      "title": "Tihark Orchard",
+      "pageid": 3963,
+      "revid": 2728545,
+      "revisedAt": "2026-05-21T01:12:22Z",
+      "sha1": "ad13eb2f45f1499e4f07f03b5b0d7f2ce658de78",
+      "url": "https://wiki.guildwars.com/wiki/Tihark_Orchard",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tihark%20Orchard&oldid=2728545",
+      "retrievedAt": "2026-11-13T03:58:18.405Z"
+    },
+    "Jokanur Diggings": {
+      "title": "Jokanur Diggings",
+      "pageid": 4388,
+      "revid": 2708009,
+      "revisedAt": "2025-05-30T02:25:55Z",
+      "sha1": "38f2b3ce39132f117eb2113065fb38d39e7dcc63",
+      "url": "https://wiki.guildwars.com/wiki/Jokanur_Diggings",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Jokanur%20Diggings&oldid=2708009",
+      "retrievedAt": "2026-11-13T03:58:18.405Z"
+    },
+    "Grand Court of Sebelkeh": {
+      "title": "Grand Court of Sebelkeh",
+      "pageid": 4505,
+      "revid": 2698661,
+      "revisedAt": "2024-08-02T21:59:48Z",
+      "sha1": "34377fd953fbb3be113b41203a7d9e3f24b41d4f",
+      "url": "https://wiki.guildwars.com/wiki/Grand_Court_of_Sebelkeh",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Grand%20Court%20of%20Sebelkeh&oldid=2698661",
+      "retrievedAt": "2026-11-13T03:58:18.406Z"
+    },
+    "Blacktide Den": {
+      "title": "Blacktide Den",
+      "pageid": 4572,
+      "revid": 2708010,
+      "revisedAt": "2025-05-30T02:26:05Z",
+      "sha1": "1b578236d72ee08cd82ff2964b45f74d770cdd39",
+      "url": "https://wiki.guildwars.com/wiki/Blacktide_Den",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Blacktide%20Den&oldid=2708010",
+      "retrievedAt": "2026-11-13T03:58:18.406Z"
+    },
+    "Sunspear Great Hall": {
+      "title": "Sunspear Great Hall",
+      "pageid": 6993,
+      "revid": 2719021,
+      "revisedAt": "2026-01-26T08:02:03Z",
+      "sha1": "66b9db642ca58f455eb95ee6e1947b216647b6c3",
+      "url": "https://wiki.guildwars.com/wiki/Sunspear_Great_Hall",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sunspear%20Great%20Hall&oldid=2719021",
+      "retrievedAt": "2026-11-13T03:58:18.406Z"
+    },
+    "The Astralarium": {
+      "title": "The Astralarium",
+      "pageid": 6997,
+      "revid": 2723696,
+      "revisedAt": "2026-04-01T18:37:57Z",
+      "sha1": "a1743f4d5cc60db9cd20fabbf3c50619556a7a15",
+      "url": "https://wiki.guildwars.com/wiki/The_Astralarium",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Astralarium&oldid=2723696",
+      "retrievedAt": "2026-11-13T03:58:18.407Z"
+    },
+    "Beknur Harbor": {
+      "title": "Beknur Harbor",
+      "pageid": 7000,
+      "revid": 1853702,
+      "revisedAt": "2009-12-31T20:18:35Z",
+      "sha1": "be6ea2488e2112a8c916dbc3d48b3ab091229bbe",
+      "url": "https://wiki.guildwars.com/wiki/Beknur_Harbor",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Beknur%20Harbor&oldid=1853702",
+      "retrievedAt": "2026-11-13T03:58:18.407Z"
+    },
+    "Kodlonu Hamlet": {
+      "title": "Kodlonu Hamlet",
+      "pageid": 7002,
+      "revid": 2327614,
+      "revisedAt": "2011-06-30T22:22:13Z",
+      "sha1": "8662d91e5d66572240cec4306275b6f3666d17e9",
+      "url": "https://wiki.guildwars.com/wiki/Kodlonu_Hamlet",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kodlonu%20Hamlet&oldid=2327614",
+      "retrievedAt": "2026-11-13T03:58:18.407Z"
+    },
+    "Sunspear Arena": {
+      "title": "Sunspear Arena",
+      "pageid": 7289,
+      "revid": 2665468,
+      "revisedAt": "2020-08-26T13:10:26Z",
+      "sha1": "df8d752493bc174eda7054f66a54619d767ae9a6",
+      "url": "https://wiki.guildwars.com/wiki/Sunspear_Arena",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sunspear%20Arena&oldid=2665468",
+      "retrievedAt": "2026-11-13T03:58:18.408Z"
+    },
+    "Sun Docks": {
+      "title": "Sun Docks",
+      "pageid": 8830,
+      "revid": 2662875,
+      "revisedAt": "2020-06-22T21:48:13Z",
+      "sha1": "bc65795095694a1fcab8446402ba8804b4e2cc6f",
+      "url": "https://wiki.guildwars.com/wiki/Sun_Docks",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sun%20Docks&oldid=2662875",
+      "retrievedAt": "2026-11-13T03:58:18.408Z"
+    },
+    "Consulate": {
+      "title": "Consulate",
+      "pageid": 8833,
+      "revid": 2658817,
+      "revisedAt": "2020-05-17T08:15:29Z",
+      "sha1": "c717a9d1f5035157e28d79667468d24af78fa4cc",
+      "url": "https://wiki.guildwars.com/wiki/Consulate",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Consulate&oldid=2658817",
+      "retrievedAt": "2026-11-13T03:58:18.409Z"
+    },
+    "Camp Hojanu": {
+      "title": "Camp Hojanu",
+      "pageid": 8874,
+      "revid": 2675266,
+      "revisedAt": "2021-10-14T08:58:47Z",
+      "sha1": "e5acc13d6806febc09eb75f465d98e80ebd58923",
+      "url": "https://wiki.guildwars.com/wiki/Camp_Hojanu",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Camp%20Hojanu&oldid=2675266",
+      "retrievedAt": "2026-11-13T03:58:18.409Z"
+    },
+    "Yohlon Haven": {
+      "title": "Yohlon Haven",
+      "pageid": 8878,
+      "revid": 2631749,
+      "revisedAt": "2018-07-02T08:46:50Z",
+      "sha1": "c8191bea0d9c1975dddbbd6740dbc630047d4523",
+      "url": "https://wiki.guildwars.com/wiki/Yohlon_Haven",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Yohlon%20Haven&oldid=2631749",
+      "retrievedAt": "2026-11-13T03:58:18.409Z"
+    },
+    "The Kodash Bazaar": {
+      "title": "The Kodash Bazaar",
+      "pageid": 8907,
+      "revid": 2637784,
+      "revisedAt": "2019-03-28T19:12:48Z",
+      "sha1": "d53f2d7054d166483dd7308f7828d760fbc30e4f",
+      "url": "https://wiki.guildwars.com/wiki/The_Kodash_Bazaar",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Kodash%20Bazaar&oldid=2637784",
+      "retrievedAt": "2026-11-13T03:58:18.410Z"
+    },
+    "Mihanu Township": {
+      "title": "Mihanu Township",
+      "pageid": 8917,
+      "revid": 2623020,
+      "revisedAt": "2017-10-21T01:53:55Z",
+      "sha1": "f96817041adcc041fc5d80c46880c6a36d527936",
+      "url": "https://wiki.guildwars.com/wiki/Mihanu_Township",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mihanu%20Township&oldid=2623020",
+      "retrievedAt": "2026-11-13T03:58:18.426Z"
+    },
+    "Dajkah Inlet": {
+      "title": "Dajkah Inlet",
+      "pageid": 15636,
+      "revid": 2712677,
+      "revisedAt": "2025-10-11T12:54:29Z",
+      "sha1": "7033c84a51b17c0080912de36739836475c34d25",
+      "url": "https://wiki.guildwars.com/wiki/Dajkah_Inlet",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dajkah%20Inlet&oldid=2712677",
+      "retrievedAt": "2026-11-13T03:58:18.427Z"
+    },
+    "Abaddon's Gate": {
+      "title": "Abaddon's Gate",
+      "pageid": 1304,
+      "revid": 2739035,
+      "revisedAt": "2026-08-28T20:45:09Z",
+      "sha1": "1b402c3a03626217943428cb8295891ac6eaf1b2",
+      "url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Gate",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Abaddon's%20Gate&oldid=2739035",
+      "retrievedAt": "2026-11-13T03:58:20.080Z"
+    },
+    "Ruins of Morah": {
+      "title": "Ruins of Morah",
+      "pageid": 2042,
+      "revid": 2737900,
+      "revisedAt": "2026-08-19T08:16:20Z",
+      "sha1": "6e031be602799f169896d052f5d1b573c141930a",
+      "url": "https://wiki.guildwars.com/wiki/Ruins_of_Morah",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ruins%20of%20Morah&oldid=2737900",
+      "retrievedAt": "2026-11-13T03:58:20.081Z"
+    },
+    "Throne of Secrets": {
+      "title": "Throne of Secrets",
+      "pageid": 3969,
+      "revid": 2728547,
+      "revisedAt": "2026-05-21T01:12:54Z",
+      "sha1": "eb274c0607272654949895a3f35cebffe8148c56",
+      "url": "https://wiki.guildwars.com/wiki/Throne_of_Secrets",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Throne%20of%20Secrets&oldid=2728547",
+      "retrievedAt": "2026-11-13T03:58:20.081Z"
+    },
+    "Bone Palace": {
+      "title": "Bone Palace",
+      "pageid": 6755,
+      "revid": 2676269,
+      "revisedAt": "2021-12-06T17:23:42Z",
+      "sha1": "170296e82b3cea6bae32b2cb570f2a754b7f8539",
+      "url": "https://wiki.guildwars.com/wiki/Bone_Palace",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bone%20Palace&oldid=2676269",
+      "retrievedAt": "2026-11-13T03:58:20.082Z"
+    },
+    "The Mouth of Torment": {
+      "title": "The Mouth of Torment",
+      "pageid": 6956,
+      "revid": 2724828,
+      "revisedAt": "2026-04-06T16:45:41Z",
+      "sha1": "1ab04d0481cd0b25a909cb96b6181a1a35115a08",
+      "url": "https://wiki.guildwars.com/wiki/The_Mouth_of_Torment",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Mouth%20of%20Torment&oldid=2724828",
+      "retrievedAt": "2026-11-13T03:58:20.082Z"
+    },
+    "Wehhan Terraces": {
+      "title": "Wehhan Terraces",
+      "pageid": 8876,
+      "revid": 2218594,
+      "revisedAt": "2011-01-11T10:48:47Z",
+      "sha1": "784f7a45ba9825752554bcbb5a7152a5a50d4603",
+      "url": "https://wiki.guildwars.com/wiki/Wehhan_Terraces",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Wehhan%20Terraces&oldid=2218594",
+      "retrievedAt": "2026-11-13T03:58:20.082Z"
+    },
+    "Honur Hill": {
+      "title": "Honur Hill",
+      "pageid": 8915,
+      "revid": 2723705,
+      "revisedAt": "2026-04-01T18:44:44Z",
+      "sha1": "96d1aefcabe654efb84d464184d1ecfbede77eff",
+      "url": "https://wiki.guildwars.com/wiki/Honur_Hill",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Honur%20Hill&oldid=2723705",
+      "retrievedAt": "2026-11-13T03:58:20.083Z"
+    },
+    "Yahnur Market": {
+      "title": "Yahnur Market",
+      "pageid": 8919,
+      "revid": 2724824,
+      "revisedAt": "2026-04-06T16:42:43Z",
+      "sha1": "67e370d2c5daca34cd375c539706b85e5f6563bb",
+      "url": "https://wiki.guildwars.com/wiki/Yahnur_Market",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Yahnur%20Market&oldid=2724824",
+      "retrievedAt": "2026-11-13T03:58:20.083Z"
+    },
+    "Bokka Amphitheatre": {
+      "title": "Bokka Amphitheatre",
+      "pageid": 8932,
+      "revid": 2631152,
+      "revisedAt": "2018-06-23T17:17:08Z",
+      "sha1": "c511a441fce2a1d8325eabae098b5a35283ec17b",
+      "url": "https://wiki.guildwars.com/wiki/Bokka_Amphitheatre",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bokka%20Amphitheatre&oldid=2631152",
+      "retrievedAt": "2026-11-13T03:58:20.083Z"
+    },
+    "Gate of Torment": {
+      "title": "Gate of Torment",
+      "pageid": 8968,
+      "revid": 2699986,
+      "revisedAt": "2024-10-03T14:20:28Z",
+      "sha1": "361bca12bc5264e0a902fb5b3a6b83ce00755696",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Torment",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gate%20of%20Torment&oldid=2699986",
+      "retrievedAt": "2026-11-13T03:58:20.084Z"
+    },
+    "Gate of Fear": {
+      "title": "Gate of Fear",
+      "pageid": 8973,
+      "revid": 2576596,
+      "revisedAt": "2014-10-10T05:20:55Z",
+      "sha1": "2e9fc0b4a066cb95d9dd06e6626afa20e9c37469",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Fear",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gate%20of%20Fear&oldid=2576596",
+      "retrievedAt": "2026-11-13T03:58:20.084Z"
+    },
+    "Gate of Secrets": {
+      "title": "Gate of Secrets",
+      "pageid": 8975,
+      "revid": 2722601,
+      "revisedAt": "2026-03-06T06:51:40Z",
+      "sha1": "b4556b0bb73e3c15667b252f14b9802625dedf46",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Secrets",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gate%20of%20Secrets&oldid=2722601",
+      "retrievedAt": "2026-11-13T03:58:20.085Z"
+    },
+    "Gate of Anguish": {
+      "title": "Gate of Anguish",
+      "pageid": 8992,
+      "revid": 2733733,
+      "revisedAt": "2026-07-09T16:48:55Z",
+      "sha1": "4ec2292dd9c0e36c352719fa241d3b6840c6547d",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_Anguish",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gate%20of%20Anguish&oldid=2733733",
+      "retrievedAt": "2026-11-13T03:58:20.085Z"
+    },
+    "Dynastic Tombs": {
+      "title": "Dynastic Tombs",
+      "pageid": 8998,
+      "revid": 2631213,
+      "revisedAt": "2018-06-23T17:19:28Z",
+      "sha1": "03ac8447b23e1a9230b889516221dc6d68005f71",
+      "url": "https://wiki.guildwars.com/wiki/Dynastic_Tombs",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dynastic%20Tombs&oldid=2631213",
+      "retrievedAt": "2026-11-13T03:58:20.085Z"
+    },
+    "Remains of Sahlahja": {
+      "title": "Remains of Sahlahja",
+      "pageid": 16562,
+      "revid": 2742797,
+      "revisedAt": "2026-10-16T00:04:01Z",
+      "sha1": "535ba0fd73d35adf08bd5b6ca8f31755b5471b99",
+      "url": "https://wiki.guildwars.com/wiki/Remains_of_Sahlahja",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Remains%20of%20Sahlahja&oldid=2742797",
+      "retrievedAt": "2026-11-13T03:58:20.086Z"
+    },
+    "The Shadow Nexus": {
+      "title": "The Shadow Nexus",
+      "pageid": 67948,
+      "revid": 2735882,
+      "revisedAt": "2026-07-26T20:26:14Z",
+      "sha1": "6c5c33d628f63508752ad6b6401a303379f7e915",
+      "url": "https://wiki.guildwars.com/wiki/The_Shadow_Nexus",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Shadow%20Nexus&oldid=2735882",
+      "retrievedAt": "2026-11-13T03:58:20.086Z"
+    },
+    "Hall of Monuments": {
+      "title": "Hall of Monuments",
+      "pageid": 8586,
+      "revid": 2739649,
+      "revisedAt": "2026-09-05T21:53:57Z",
+      "sha1": "e1c703b9ce3150415c46a7576fdc4a676b264d7f",
+      "url": "https://wiki.guildwars.com/wiki/Hall_of_Monuments",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hall%20of%20Monuments&oldid=2739649",
+      "retrievedAt": "2026-11-13T03:58:21.072Z"
+    },
+    "Doomlore Shrine": {
+      "title": "Doomlore Shrine",
+      "pageid": 62723,
+      "revid": 2732599,
+      "revisedAt": "2026-07-04T11:28:14Z",
+      "sha1": "b8ca9cbfa6534e5280d8c43b9a49c32bf2c47566",
+      "url": "https://wiki.guildwars.com/wiki/Doomlore_Shrine",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Doomlore%20Shrine&oldid=2732599",
+      "retrievedAt": "2026-11-13T03:58:21.072Z"
+    },
+    "Boreal Station": {
+      "title": "Boreal Station",
+      "pageid": 63050,
+      "revid": 2626692,
+      "revisedAt": "2018-05-02T17:30:40Z",
+      "sha1": "998126d05e059d8310ec0afa105e9fca4d8374a5",
+      "url": "https://wiki.guildwars.com/wiki/Boreal_Station",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Boreal%20Station&oldid=2626692",
+      "retrievedAt": "2026-11-13T03:58:21.073Z"
+    },
+    "Catacombs of Kathandrax": {
+      "title": "Catacombs of Kathandrax",
+      "pageid": 66627,
+      "revid": 2718920,
+      "revisedAt": "2026-01-25T01:36:21Z",
+      "sha1": "a43f5f835c55cbca8ff183389789dd5e9a85d299",
+      "url": "https://wiki.guildwars.com/wiki/Catacombs_of_Kathandrax",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Catacombs%20of%20Kathandrax&oldid=2718920",
+      "retrievedAt": "2026-11-13T03:58:21.073Z"
+    },
+    "Lair of the Forgotten": {
+      "title": "Lair of the Forgotten",
+      "pageid": 6953,
+      "revid": 2676157,
+      "revisedAt": "2021-11-29T06:16:17Z",
+      "sha1": "cfb6aca6d985a0ec1dddaa073a2f8918ea684936",
+      "url": "https://wiki.guildwars.com/wiki/Lair_of_the_Forgotten",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lair%20of%20the%20Forgotten&oldid=2676157",
+      "retrievedAt": "2026-11-13T03:59:41.904Z"
+    },
+    "Sunjiang District (outpost)": {
+      "title": "Sunjiang District (outpost)",
+      "pageid": 6985,
+      "revid": 2732585,
+      "revisedAt": "2026-07-04T11:21:00Z",
+      "sha1": "cf4683ae8cd73df29c2fe1cdce61fef99227dabd",
+      "url": "https://wiki.guildwars.com/wiki/Sunjiang_District_(outpost)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sunjiang%20District%20(outpost)&oldid=2732585",
+      "retrievedAt": "2026-11-13T03:59:41.904Z"
+    },
+    "Champion's Dawn": {
+      "title": "Champion's Dawn",
+      "pageid": 6995,
+      "revid": 2723703,
+      "revisedAt": "2026-04-01T18:43:27Z",
+      "sha1": "da9909510a716c1ecb8a3c84b156878673368c3b",
+      "url": "https://wiki.guildwars.com/wiki/Champion%27s_Dawn",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Champion's%20Dawn&oldid=2723703",
+      "retrievedAt": "2026-11-13T03:59:41.905Z"
+    },
+    "Vizunah Square (Foreign Quarter)": {
+      "title": "Vizunah Square (Foreign Quarter)",
+      "pageid": 7066,
+      "revid": 2732590,
+      "revisedAt": "2026-07-04T11:22:14Z",
+      "sha1": "6e6691560cb2a967976bbeacce96a26aa6277c4b",
+      "url": "https://wiki.guildwars.com/wiki/Vizunah_Square_(Foreign_Quarter)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vizunah%20Square%20(Foreign%20Quarter)&oldid=2732590",
+      "retrievedAt": "2026-11-13T03:59:41.905Z"
+    },
+    "Saint Anjeka's Shrine": {
+      "title": "Saint Anjeka's Shrine",
+      "pageid": 7605,
+      "revid": 2678205,
+      "revisedAt": "2022-05-22T22:38:48Z",
+      "sha1": "62097d5c1f7ffc59338d9515d98dba58dccde442",
+      "url": "https://wiki.guildwars.com/wiki/Saint_Anjeka%27s_Shrine",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Saint%20Anjeka's%20Shrine&oldid=2678205",
+      "retrievedAt": "2026-11-13T03:59:41.905Z"
+    },
+    "Gate of the Nightfallen Lands": {
+      "title": "Gate of the Nightfallen Lands",
+      "pageid": 8969,
+      "revid": 2552038,
+      "revisedAt": "2013-08-09T13:30:34Z",
+      "sha1": "0a8db3a0f30523c838ad0336d914e108872d376d",
+      "url": "https://wiki.guildwars.com/wiki/Gate_of_the_Nightfallen_Lands",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gate%20of%20the%20Nightfallen%20Lands&oldid=2552038",
+      "retrievedAt": "2026-11-13T03:59:41.906Z"
+    },
+    "Vortex": {
+      "title": "Vortex",
+      "pageid": 19762,
+      "revid": 2606472,
+      "revisedAt": "2016-05-31T23:18:28Z",
+      "sha1": "96c88c735353591989a845ff6bf05ca3fc52d4d1",
+      "url": "https://wiki.guildwars.com/wiki/Vortex",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vortex&oldid=2606472",
+      "retrievedAt": "2026-11-13T03:59:41.906Z"
+    },
+    "Jahai": {
+      "title": "Jahai",
+      "pageid": 117500,
+      "revid": 2546624,
+      "revisedAt": "2013-05-18T20:45:01Z",
+      "sha1": "55f863ab87235a3f432db80ef1e5f6a3d46ec0e8",
+      "url": "https://wiki.guildwars.com/wiki/Jahai",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Jahai&oldid=2546624",
+      "retrievedAt": "2026-11-13T03:59:41.907Z"
+    },
+    "Raisu Palace (outpost)": {
+      "title": "Raisu Palace (outpost)",
+      "pageid": 7077,
+      "revid": 2732584,
+      "revisedAt": "2026-07-04T11:20:34Z",
+      "sha1": "9e8aa260b07efde820117634786b8bffc84c6c06",
+      "url": "https://wiki.guildwars.com/wiki/Raisu_Palace_(outpost)",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Raisu%20Palace%20(outpost)&oldid=2732584",
+      "retrievedAt": "2026-11-13T04:00:18.594Z"
+    },
+    "Bejunkan Pier": {
+      "title": "Bejunkan Pier",
+      "pageid": 10959,
+      "revid": 2723147,
+      "revisedAt": "2026-03-21T12:54:31Z",
+      "sha1": "e8293bbcf2ede0b2637572349afece3e982ea6c0",
+      "url": "https://wiki.guildwars.com/wiki/Bejunkan_Pier",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bejunkan%20Pier&oldid=2723147",
+      "retrievedAt": "2026-11-13T04:00:18.595Z"
+    },
+    "Fortress of Jahai": {
+      "title": "Fortress of Jahai",
+      "pageid": 17097,
+      "revid": 2634112,
+      "revisedAt": "2018-09-27T02:17:02Z",
+      "sha1": "946944be9299fb747d23929260dcdb53fa3f5eb9",
+      "url": "https://wiki.guildwars.com/wiki/Fortress_of_Jahai",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fortress%20of%20Jahai&oldid=2634112",
+      "retrievedAt": "2026-11-13T04:00:18.596Z"
+    },
+    "Citadel of Dzagon": {
+      "title": "Citadel of Dzagon",
+      "pageid": 29536,
+      "revid": 2700031,
+      "revisedAt": "2024-10-07T13:10:44Z",
+      "sha1": "e9000f459fca8a9a7e94074b014ffd422f80ced0",
+      "url": "https://wiki.guildwars.com/wiki/Citadel_of_Dzagon",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Citadel%20of%20Dzagon&oldid=2700031",
+      "retrievedAt": "2026-11-13T04:00:18.596Z"
+    },
+    "Halls of Chokhin": {
+      "title": "Halls of Chokhin",
+      "pageid": 34612,
+      "revid": 2603311,
+      "revisedAt": "2016-03-26T21:44:37Z",
+      "sha1": "f845b408e5360ef64314fe2c2b711f122399d357",
+      "url": "https://wiki.guildwars.com/wiki/Halls_of_Chokhin",
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Halls%20of%20Chokhin&oldid=2603311",
+      "retrievedAt": "2026-11-13T04:00:18.597Z"
     }
   },
   "aliases": {
@@ -58645,6 +60615,11 @@
     "Bone Charm (Trophy)": "Bone Charm (trophy)",
     "Bolts of Cloth": "Bolt of Cloth",
     "Charcoal": "Lump of Charcoal",
-    "Bison Cup": "The Bison Cup"
+    "Bison Cup": "The Bison Cup",
+    "Ashford Village": "Ashford",
+    "Barradin Estate": "The Barradin Estate",
+    "Amnoon Oasis": "The Amnoon Oasis",
+    "Kodash Bazaar": "The Kodash Bazaar",
+    "Dzagonur": "Dzagonur Bastion"
   }
 }

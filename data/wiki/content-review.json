@@ -6,6 +6,8 @@
     "collector": 350,
     "pet": 32,
     "treasure": 12,
+    "zone": 367,
+    "vanquishableAreas": 136,
     "storylines": 4,
     "unresolvedIdentities": 2
   },
@@ -43727,6 +43729,6615 @@
       ]
     },
     {
+      "id": "zone:1:1",
+      "title": "The Catacombs",
+      "revid": 2700764,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:2",
+      "title": "Green Hills County",
+      "revid": 2700855,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:3",
+      "title": "The Barradin Estate",
+      "revid": 2715742,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:4",
+      "title": "The Northlands",
+      "revid": 2727159,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:5",
+      "title": "Lakeside County",
+      "revid": 2741449,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:6",
+      "title": "Ashford Abbey",
+      "revid": 2715745,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:7",
+      "title": "Ashford",
+      "revid": 2700739,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:8",
+      "title": "Ascalon Academy",
+      "revid": 2742806,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:9",
+      "title": "Wizard's Folly",
+      "revid": 2702468,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:10",
+      "title": "Foible's Fair",
+      "revid": 2715744,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:11",
+      "title": "Fort Ranik (pre-Searing)",
+      "revid": 2715743,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:12",
+      "title": "Regent Valley (pre-Searing)",
+      "revid": 2702532,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:13",
+      "title": "Ascalon Foothills",
+      "revid": 2697572,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:14",
+      "title": "Diessa Lowlands",
+      "revid": 2741875,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:15",
+      "title": "Grendich Courthouse",
+      "revid": 2719522,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:16",
+      "title": "Nolani Academy",
+      "revid": 2729866,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:18",
+      "title": "Flame Temple Corridor",
+      "revid": 2697842,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:17",
+      "title": "Dragon's Gullet",
+      "revid": 2718176,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:19",
+      "title": "The Breach",
+      "revid": 2740978,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:20",
+      "title": "Piken Square",
+      "revid": 2740986,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:26",
+      "title": "Old Ascalon",
+      "revid": 2740992,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:27",
+      "title": "Sardelac Sanitarium",
+      "revid": 2719486,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:22",
+      "title": "Ruins of Surmia",
+      "revid": 2729714,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:23",
+      "title": "Frontier Gate",
+      "revid": 2719507,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:21",
+      "title": "The Great Northern Wall",
+      "revid": 2741820,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:24",
+      "title": "Eastern Frontier",
+      "revid": 2722968,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:25",
+      "title": "Ascalon City",
+      "revid": 2740983,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:30",
+      "title": "Serenity Temple",
+      "revid": 2725750,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:29",
+      "title": "Fort Ranik",
+      "revid": 2742391,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:31",
+      "title": "Pockmark Flats",
+      "revid": 2723610,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:28",
+      "title": "Regent Valley",
+      "revid": 2673448,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:32",
+      "title": "Griffon's Mouth",
+      "revid": 2712242,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:33",
+      "title": "Deldrimor Bowl",
+      "revid": 2723069,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:34",
+      "title": "Beacon's Perch",
+      "revid": 2669020,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:37",
+      "title": "Ice Tooth Cave",
+      "revid": 2669021,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:36",
+      "title": "Anvil Rock",
+      "revid": 2711217,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:35",
+      "title": "The Frost Gate",
+      "revid": 2729948,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:38",
+      "title": "Iron Horse Mine",
+      "revid": 2740508,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:39",
+      "title": "Borlis Pass",
+      "revid": 2729947,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:41",
+      "title": "Yak's Bend",
+      "revid": 2719532,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:40",
+      "title": "Traveler's Vale",
+      "revid": 2723007,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:57",
+      "title": "Majesty's Rest",
+      "revid": 2723657,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:56",
+      "title": "Talmark Wilderness",
+      "revid": 2700248,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:52",
+      "title": "Divinity Coast",
+      "revid": 2723626,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:58",
+      "title": "Tears of the Fallen",
+      "revid": 2717983,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:53",
+      "title": "The Black Curtain",
+      "revid": 2722578,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:54",
+      "title": "Temple of the Ages",
+      "revid": 2725722,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:61",
+      "title": "Fishermen's Haven",
+      "revid": 2727439,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:55",
+      "title": "Kessex Peak",
+      "revid": 2723291,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:50",
+      "title": "Cursed Lands",
+      "revid": 2697849,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:49",
+      "title": "Beetletun",
+      "revid": 2666666,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:59",
+      "title": "Twin Serpent Lakes",
+      "revid": 2717920,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:63",
+      "title": "Riverside Province",
+      "revid": 2742594,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:60",
+      "title": "Stingray Strand",
+      "revid": 2673457,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:62",
+      "title": "Sanctum Cay",
+      "revid": 2730003,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:46",
+      "title": "D'Alessio Seaboard",
+      "revid": 2729996,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:47",
+      "title": "Bergen Hot Springs",
+      "revid": 2723710,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:45",
+      "title": "Lion's Arch",
+      "revid": 2740991,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:48",
+      "title": "Nebo Terrace",
+      "revid": 2712555,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:44",
+      "title": "North Kryta Province",
+      "revid": 2723577,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:43",
+      "title": "Gates of Kryta",
+      "revid": 2729953,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:42",
+      "title": "Scoundrel's Rise",
+      "revid": 2669075,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:51",
+      "title": "Watchtower Coast",
+      "revid": 2673462,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:69",
+      "title": "Bloodstone Fen",
+      "revid": 2725862,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:70",
+      "title": "Quarrel Falls",
+      "revid": 2666675,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:68",
+      "title": "Silverwood",
+      "revid": 2724968,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:67",
+      "title": "The Wilds",
+      "revid": 2724866,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:66",
+      "title": "Mamnoon Lagoon",
+      "revid": 2697577,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:73",
+      "title": "Ventari's Refuge",
+      "revid": 2697579,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:72",
+      "title": "Ettin's Back",
+      "revid": 2725241,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:74",
+      "title": "The Falls",
+      "revid": 2742632,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:71",
+      "title": "Reed Bog",
+      "revid": 2699289,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:76",
+      "title": "Dry Top",
+      "revid": 2700034,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:77",
+      "title": "Tangle Root",
+      "revid": 2709834,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:78",
+      "title": "Maguuma Stade",
+      "revid": 2131614,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:79",
+      "title": "Henge of Denravi",
+      "revid": 2742086,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:75",
+      "title": "Aurora Glade",
+      "revid": 2741937,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:65",
+      "title": "Druid's Overlook",
+      "revid": 2697575,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:64",
+      "title": "Sage Lands",
+      "revid": 2665175,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:80",
+      "title": "Tomb of the Primeval Kings",
+      "revid": 2720790,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:81",
+      "title": "The Dragon's Lair",
+      "revid": 2728086,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:84",
+      "title": "Elona Reach",
+      "revid": 2701539,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:85",
+      "title": "Diviner's Ascent",
+      "revid": 2724925,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:83",
+      "title": "Seeker's Passage",
+      "revid": 2621246,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:82",
+      "title": "Salt Flats",
+      "revid": 2665182,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:86",
+      "title": "The Amnoon Oasis",
+      "revid": 2742240,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:88",
+      "title": "Heroes' Audience",
+      "revid": 2666677,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:87",
+      "title": "Prophet's Path",
+      "revid": 2723150,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:89",
+      "title": "Augury Rock",
+      "revid": 2719406,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:90",
+      "title": "Skyward Reach",
+      "revid": 2665183,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:91",
+      "title": "Skyward Reach",
+      "revid": 2665183,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:92",
+      "title": "Destiny's Gorge",
+      "revid": 2622344,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:93",
+      "title": "The Scar",
+      "revid": 2673624,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:94",
+      "title": "Dunes of Despair",
+      "revid": 2743447,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:95",
+      "title": "Vulture Drifts",
+      "revid": 2737895,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:96",
+      "title": "The Arid Sea",
+      "revid": 2724851,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:97",
+      "title": "Thirsty River",
+      "revid": 2743336,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:104",
+      "title": "Lornar's Pass",
+      "revid": 2700038,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:103",
+      "title": "Beacon's Perch",
+      "revid": 2669020,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:105",
+      "title": "Dreadnought's Drift",
+      "revid": 2665188,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:106",
+      "title": "Snake Dance",
+      "revid": 2708946,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:107",
+      "title": "Camp Rankor",
+      "revid": 2688429,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:108",
+      "title": "Sorrow's Furnace",
+      "revid": 2737666,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:109",
+      "title": "Grenth's Footprint",
+      "revid": 2742633,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:110",
+      "title": "Deldrimor War Camp",
+      "revid": 2658456,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:111",
+      "title": "Talus Chute",
+      "revid": 2715115,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:112",
+      "title": "Droknar's Forge",
+      "revid": 2693307,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:113",
+      "title": "Witman's Folly",
+      "revid": 2666654,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:114",
+      "title": "Port Sledge",
+      "revid": 2688424,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:115",
+      "title": "Ice Caves of Sorrow",
+      "revid": 2743295,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:116",
+      "title": "Icedome",
+      "revid": 2742438,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:117",
+      "title": "Ice Floe",
+      "revid": 2671443,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:118",
+      "title": "Marhan's Grotto",
+      "revid": 2707290,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:119",
+      "title": "Thunderhead Keep",
+      "revid": 2725641,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:120",
+      "title": "Frozen Forest",
+      "revid": 2742437,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:121",
+      "title": "Copperhammer Mines",
+      "revid": 2680484,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:122",
+      "title": "Iron Mines of Moladune",
+      "revid": 2736865,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:123",
+      "title": "Spearhead Peak",
+      "revid": 2666652,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:124",
+      "title": "The Granite Citadel",
+      "revid": 2621418,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:125",
+      "title": "Mineral Springs",
+      "revid": 2740746,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:317",
+      "title": "Tasca's Demise",
+      "revid": 2698134,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:99",
+      "title": "Ember Light Camp",
+      "revid": 2543697,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:100",
+      "title": "Ring of Fire",
+      "revid": 2728548,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:101",
+      "title": "Abaddon's Mouth",
+      "revid": 2706352,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:98",
+      "title": "Perdition Rock",
+      "revid": 2727579,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:1:102",
+      "title": "Hell's Precipice",
+      "revid": 2737871,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:130",
+      "title": "Ran Musu Gardens",
+      "revid": 2195845,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:129",
+      "title": "Kinya Province",
+      "revid": 2719190,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:126",
+      "title": "Panjiang Peninsula",
+      "revid": 2710218,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:127",
+      "title": "Tsumei Village",
+      "revid": 2635977,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:128",
+      "title": "Sunqua Vale",
+      "revid": 2710183,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:131",
+      "title": "Minister Cho's Estate (explorable area)",
+      "revid": 2731049,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:132",
+      "title": "Minister Cho's Estate",
+      "revid": 2709092,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:133",
+      "title": "Shing Jea Monastery",
+      "revid": 2705865,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:138",
+      "title": "Seitung Harbor",
+      "revid": 2674798,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:137",
+      "title": "Saoshang Trail",
+      "revid": 2665211,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:136",
+      "title": "Jaya Bluffs",
+      "revid": 2678018,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:135",
+      "title": "Linnok Courtyard",
+      "revid": 2710180,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:134",
+      "title": "Monastery Overlook",
+      "revid": 2685121,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:139",
+      "title": "Zen Daijun (explorable area)",
+      "revid": 2709012,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:140",
+      "title": "Zen Daijun",
+      "revid": 2708007,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:141",
+      "title": "Haiju Lagoon",
+      "revid": 2710224,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:144",
+      "title": "Kaineng Center",
+      "revid": 2738670,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:142",
+      "title": "The Undercity",
+      "revid": 2712979,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:146",
+      "title": "Raisu Palace",
+      "revid": 2697823,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:145",
+      "title": "Raisu Pavilion",
+      "revid": 2646853,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:143",
+      "title": "Bejunkan Pier",
+      "revid": 2723147,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:147",
+      "title": "Divine Path",
+      "revid": 2735350,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:148",
+      "title": "Imperial Sanctum",
+      "revid": 2697824,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:149",
+      "title": "Bukdek Byway",
+      "revid": 2717174,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:155",
+      "title": "Vizunah Square (Local Quarter)",
+      "revid": 2735286,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:150",
+      "title": "Vizunah Square (Foreign Quarter)",
+      "revid": 2732590,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:157",
+      "title": "Xaquang Skyway",
+      "revid": 2665235,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:158",
+      "title": "Nahpui Quarter",
+      "revid": 2709901,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:159",
+      "title": "Nahpui Quarter (explorable area)",
+      "revid": 2713389,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:160",
+      "title": "Senji's Corner",
+      "revid": 2565292,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:161",
+      "title": "Shenzun Tunnels",
+      "revid": 2683614,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:165",
+      "title": "Sunjiang District",
+      "revid": 2706396,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:163",
+      "title": "Tahnnakai Temple",
+      "revid": 2703540,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:162",
+      "title": "Tahnnakai Temple (explorable area)",
+      "revid": 2665233,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:166",
+      "title": "Sunjiang District (explorable area)",
+      "revid": 2741269,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:151",
+      "title": "Dragon's Throat",
+      "revid": 2721632,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:152",
+      "title": "Shadow's Passage",
+      "revid": 2665229,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:156",
+      "title": "Wajjun Bazaar",
+      "revid": 2673342,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:154",
+      "title": "The Marketplace",
+      "revid": 2723692,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:153",
+      "title": "Kaineng Docks",
+      "revid": 2647018,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:164",
+      "title": "Zin Ku Corridor",
+      "revid": 2639003,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:167",
+      "title": "Maatu Keep",
+      "revid": 2723711,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:168",
+      "title": "Pongmei Valley",
+      "revid": 2702005,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:193",
+      "title": "Tanglewood Copse",
+      "revid": 2609766,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:194",
+      "title": "Arborstone",
+      "revid": 2730001,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:195",
+      "title": "Arborstone (explorable area)",
+      "revid": 2742630,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:196",
+      "title": "Altrumm Ruins",
+      "revid": 2664717,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:198",
+      "title": "Ferndale",
+      "revid": 2678203,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:197",
+      "title": "House zu Heltzer",
+      "revid": 2679441,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:199",
+      "title": "Aspenwood Gate (Kurzick)",
+      "revid": 2129293,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:200",
+      "title": "Fort Aspenwood (Kurzick)",
+      "revid": 2681487,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:201",
+      "title": "Jade Flats (Kurzick)",
+      "revid": 2365041,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:202",
+      "title": "The Jade Quarry (Kurzick)",
+      "revid": 2583958,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:203",
+      "title": "Saint Anjeka's Shrine",
+      "revid": 2678205,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:204",
+      "title": "Lutgardis Conservatory",
+      "revid": 2709829,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:205",
+      "title": "Melandru's Hope",
+      "revid": 2706151,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:206",
+      "title": "Drazach Thicket",
+      "revid": 2665242,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:207",
+      "title": "Brauer Academy",
+      "revid": 2724830,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:208",
+      "title": "The Eternal Grove",
+      "revid": 2740958,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:209",
+      "title": "The Eternal Grove (explorable area)",
+      "revid": 2666605,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:210",
+      "title": "Vasburg Armory",
+      "revid": 2730726,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:211",
+      "title": "Morostav Trail",
+      "revid": 2730189,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:212",
+      "title": "Unwaking Waters (Kurzick)",
+      "revid": 2732588,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:213",
+      "title": "Mourning Veil Falls",
+      "revid": 2674812,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:214",
+      "title": "Durheim Archives",
+      "revid": 2708749,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:215",
+      "title": "Amatz Basin",
+      "revid": 2716534,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:313",
+      "title": "Urgoz's Warren",
+      "revid": 2737667,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:169",
+      "title": "Boreas Seabed",
+      "revid": 2735399,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:170",
+      "title": "Boreas Seabed (explorable area)",
+      "revid": 2695369,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:171",
+      "title": "Mount Qinkai",
+      "revid": 2665255,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:172",
+      "title": "Aspenwood Gate (Luxon)",
+      "revid": 2566232,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:173",
+      "title": "Fort Aspenwood (Luxon)",
+      "revid": 2669114,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:174",
+      "title": "Breaker Hollow",
+      "revid": 2444488,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:175",
+      "title": "Zos Shivros Channel",
+      "revid": 2713611,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:176",
+      "title": "Cavalon",
+      "revid": 2639010,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:177",
+      "title": "Bai Paasu Reach",
+      "revid": 2565286,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:178",
+      "title": "Eredon Terrace",
+      "revid": 2728993,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:179",
+      "title": "Maishang Hills",
+      "revid": 2665354,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:183",
+      "title": "Gyala Hatchery",
+      "revid": 2728544,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:184",
+      "title": "Gyala Hatchery (explorable area)",
+      "revid": 2669086,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:185",
+      "title": "Leviathan Pits",
+      "revid": 2547709,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:180",
+      "title": "Archipelagos",
+      "revid": 2665251,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:181",
+      "title": "Jade Flats (Luxon)",
+      "revid": 2312387,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:182",
+      "title": "The Jade Quarry (Luxon)",
+      "revid": 2681489,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:186",
+      "title": "Rhea's Crater",
+      "revid": 2721690,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:187",
+      "title": "Silent Surf",
+      "revid": 2679068,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:188",
+      "title": "Seafarer's Rest",
+      "revid": 2511790,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:189",
+      "title": "The Aurios Mines",
+      "revid": 2631110,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:190",
+      "title": "Unwaking Waters (Luxon)",
+      "revid": 2732589,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:191",
+      "title": "Unwaking Waters (explorable area)",
+      "revid": 2742776,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:192",
+      "title": "Harvest Temple",
+      "revid": 2689522,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:2:314",
+      "title": "The Deep",
+      "revid": 2737665,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:230",
+      "title": "Fahranur, The First City",
+      "revid": 2720733,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:229",
+      "title": "Jokanur Diggings",
+      "revid": 2708009,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:231",
+      "title": "Blacktide Den",
+      "revid": 2708010,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:315",
+      "title": "Lahtenda Bog",
+      "revid": 2702190,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:227",
+      "title": "Cliffs of Dohjok",
+      "revid": 2702196,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:228",
+      "title": "Zehlon Reach",
+      "revid": 2702193,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:226",
+      "title": "The Astralarium",
+      "revid": 2723696,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:224",
+      "title": "Sunspear Great Hall",
+      "revid": 2719021,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:232",
+      "title": "Beknur Harbor",
+      "revid": 1853702,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:233",
+      "title": "Issnur Isles",
+      "revid": 2702194,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:223",
+      "title": "Plains of Jarin",
+      "revid": 2702192,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:222",
+      "title": "Sunspear Arena",
+      "revid": 2665468,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:221",
+      "title": "Consulate Docks",
+      "revid": 2742302,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:219",
+      "title": "Consulate",
+      "revid": 2658817,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:220",
+      "title": "Sun Docks",
+      "revid": 2662875,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:216",
+      "title": "Chahbek Village",
+      "revid": 2726169,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:217",
+      "title": "Churrhir Fields",
+      "revid": 2666694,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:218",
+      "title": "Kamadan, Jewel of Istan",
+      "revid": 2741194,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:225",
+      "title": "Champion's Dawn",
+      "revid": 2723703,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:235",
+      "title": "Mehtani Keys",
+      "revid": 2702191,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:234",
+      "title": "Kodlonu Hamlet",
+      "revid": 2327614,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:236",
+      "title": "Yohlon Haven",
+      "revid": 2631749,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:237",
+      "title": "Marga Coast",
+      "revid": 2665274,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:238",
+      "title": "Nundu Bay",
+      "revid": 2703504,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:239",
+      "title": "Dajkah Inlet",
+      "revid": 2712677,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:240",
+      "title": "Arkjok Ward",
+      "revid": 2665268,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:241",
+      "title": "Sunspear Sanctuary",
+      "revid": 2633833,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:242",
+      "title": "Sunward Marches",
+      "revid": 2665275,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:243",
+      "title": "Venta Cemetery",
+      "revid": 2692983,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:244",
+      "title": "Turai's Procession",
+      "revid": 2702458,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:245",
+      "title": "Jahai Bluffs",
+      "revid": 2706109,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:246",
+      "title": "Kodonur Crossroads",
+      "revid": 2738156,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:247",
+      "title": "Rilohn Refuge",
+      "revid": 2703640,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:248",
+      "title": "The Floodplain of Mahnkelon",
+      "revid": 2707047,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:249",
+      "title": "Moddok Crevice",
+      "revid": 2715097,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:250",
+      "title": "Bahdok Caverns",
+      "revid": 2665269,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:251",
+      "title": "Dejarin Estate",
+      "revid": 2676415,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:252",
+      "title": "Camp Hojanu",
+      "revid": 2675266,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:253",
+      "title": "Pogahn Passage",
+      "revid": 2710723,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:254",
+      "title": "Barbarous Shore",
+      "revid": 2665270,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:255",
+      "title": "Gandara, the Moon Fortress",
+      "revid": 2726095,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:311",
+      "title": "Command Post",
+      "revid": 2677172,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:256",
+      "title": "Basalt Grotto",
+      "revid": 2666680,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:257",
+      "title": "Vehjin Mines",
+      "revid": 2703983,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:258",
+      "title": "Jennur's Horde",
+      "revid": 2714383,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:259",
+      "title": "Tihark Orchard",
+      "revid": 2728545,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:260",
+      "title": "Garden of Seborhin",
+      "revid": 2737101,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:261",
+      "title": "Mihanu Township",
+      "revid": 2623020,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:262",
+      "title": "Holdings of Chokhin",
+      "revid": 2665280,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:263",
+      "title": "Halls of Chokhin",
+      "revid": 2603311,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:264",
+      "title": "The Kodash Bazaar",
+      "revid": 2637784,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:265",
+      "title": "Forum Highlands",
+      "revid": 2665278,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:266",
+      "title": "Dasha Vestibule",
+      "revid": 2704096,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:267",
+      "title": "The Hidden City of Ahdashim",
+      "revid": 2739195,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:268",
+      "title": "Grand Court of Sebelkeh",
+      "revid": 2698661,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:269",
+      "title": "Dzagonur Bastion",
+      "revid": 2741865,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:270",
+      "title": "Wilderness of Bahdza",
+      "revid": 2665286,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:271",
+      "title": "Citadel of Dzagon",
+      "revid": 2700031,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:272",
+      "title": "The Mirror of Lyss",
+      "revid": 2712732,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:273",
+      "title": "Honur Hill",
+      "revid": 2723705,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:274",
+      "title": "Vehtendi Valley",
+      "revid": 2666684,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:275",
+      "title": "Resplendent Makuun",
+      "revid": 2675333,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:276",
+      "title": "Bokka Amphitheatre",
+      "revid": 2631152,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:277",
+      "title": "Chantry of Secrets",
+      "revid": 2723701,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:278",
+      "title": "Yatendi Canyons",
+      "revid": 2666690,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:279",
+      "title": "Wehhan Terraces",
+      "revid": 2218594,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:280",
+      "title": "Fortress of Jahai",
+      "revid": 2634112,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:318",
+      "title": "Yahnur Market",
+      "revid": 2724824,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:281",
+      "title": "Crystal Overlook",
+      "revid": 2711817,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:282",
+      "title": "Ruins of Morah",
+      "revid": 2737900,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:283",
+      "title": "The Ruptured Heart",
+      "revid": 2717794,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:284",
+      "title": "Poisoned Outcrops",
+      "revid": 2732292,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:285",
+      "title": "Lair of the Forgotten",
+      "revid": 2676157,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:286",
+      "title": "The Shattered Ravines",
+      "revid": 2723086,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:287",
+      "title": "The Alkali Pan",
+      "revid": 2677730,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:288",
+      "title": "Bone Palace",
+      "revid": 2676269,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:289",
+      "title": "Basalt Grotto",
+      "revid": 2666680,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:290",
+      "title": "Joko's Domain",
+      "revid": 2665289,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:291",
+      "title": "Remains of Sahlahja",
+      "revid": 2742797,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:292",
+      "title": "Dynastic Tombs",
+      "revid": 2631213,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:293",
+      "title": "The Sulfurous Wastes",
+      "revid": 2718201,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:294",
+      "title": "Gate of Desolation",
+      "revid": 2717145,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:297",
+      "title": "Domain of Pain",
+      "revid": 2709000,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:296",
+      "title": "Vortex",
+      "revid": 2606472,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:295",
+      "title": "Nightfallen Jahai",
+      "revid": 2631256,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:298",
+      "title": "Depths of Madness",
+      "revid": 2709767,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:299",
+      "title": "Domain of Anguish",
+      "revid": 2738008,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:300",
+      "title": "Domain of Secrets",
+      "revid": 2740921,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:301",
+      "title": "Domain of Fear",
+      "revid": 2631206,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:301:line-98",
+      "title": "The Shadow Nexus",
+      "revid": 2735882,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:302",
+      "title": "Throne of Secrets",
+      "revid": 2728547,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:303",
+      "title": "Abaddon's Gate",
+      "revid": 2739035,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:304",
+      "title": "Gate of Madness",
+      "revid": 2734870,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:305",
+      "title": "Gate of Anguish",
+      "revid": 2733733,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:306",
+      "title": "Gate of Secrets",
+      "revid": 2722601,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:307",
+      "title": "Gate of Fear",
+      "revid": 2576596,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:308",
+      "title": "Gate of Torment",
+      "revid": 2699986,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:309",
+      "title": "Gate of the Nightfallen Lands",
+      "revid": 2552038,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:310",
+      "title": "Gate of Pain",
+      "revid": 2710232,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:316",
+      "title": "The Ebony Citadel of Mallyx",
+      "revid": 2738009,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:3:317",
+      "title": "The Mouth of Torment",
+      "revid": 2724828,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:325",
+      "title": "Sifhalla",
+      "revid": 2732604,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:339",
+      "title": "Doomlore Shrine",
+      "revid": 2732599,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:323",
+      "title": "Gunnar's Hold",
+      "revid": 2428253,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:354",
+      "title": "Rata Sum",
+      "revid": 2666178,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:320",
+      "title": "Eye of the North (outpost)",
+      "revid": 2620834,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:337",
+      "title": "Longeye's Ledge",
+      "revid": 2641353,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:328",
+      "title": "Olafstead",
+      "revid": 2732597,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:318",
+      "title": "Boreal Station",
+      "revid": 2626692,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:356",
+      "title": "Umbral Grotto",
+      "revid": 2666648,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:351",
+      "title": "Vlox's Falls",
+      "revid": 2660769,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:361",
+      "title": "Gadd's Encampment",
+      "revid": 2666181,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:347",
+      "title": "Umbral Grotto",
+      "revid": 2666648,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:319",
+      "title": "Ice Cliff Chasms",
+      "revid": 2695202,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:321",
+      "title": "Hall of Monuments",
+      "revid": 2739649,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:330",
+      "title": "Battledepths",
+      "revid": 2743443,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:322",
+      "title": "Norrhart Domains",
+      "revid": 2665300,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:324",
+      "title": "Drakkar Lake",
+      "revid": 2740732,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:327",
+      "title": "Varajar Fells",
+      "revid": 2732212,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:333",
+      "title": "Jaga Moraine",
+      "revid": 2725681,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:335",
+      "title": "Bjora Marches",
+      "revid": 2698004,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:336",
+      "title": "Darkrime Delves",
+      "revid": 2718926,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:326",
+      "title": "Sepulchre of Dragrimmar",
+      "revid": 2718929,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:329",
+      "title": "Raven's Point",
+      "revid": 2718930,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:334",
+      "title": "Frostmaw's Burrows",
+      "revid": 2718928,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:332",
+      "title": "Heart of the Shiverpeaks",
+      "revid": 2718940,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:346",
+      "title": "Verdant Cascades",
+      "revid": 2733366,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:341",
+      "title": "Grothmar Wardowns",
+      "revid": 2732612,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:338",
+      "title": "Dalada Uplands",
+      "revid": 2732610,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:343",
+      "title": "Sacnoth Valley",
+      "revid": 2717906,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:340",
+      "title": "Cathedral of Flames",
+      "revid": 2718923,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:345",
+      "title": "Rragar's Menagerie",
+      "revid": 2718921,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:344",
+      "title": "Catacombs of Kathandrax",
+      "revid": 2718920,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:342",
+      "title": "Ooze Pit",
+      "revid": 2718925,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:357",
+      "title": "Magus Stones",
+      "revid": 2732614,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:358",
+      "title": "Oola's Lab",
+      "revid": 2718935,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:353",
+      "title": "Riven Earth",
+      "revid": 2706482,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:355",
+      "title": "Alcazia Tangle",
+      "revid": 2697301,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:350",
+      "title": "Arbor Bay",
+      "revid": 2691427,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:352",
+      "title": "Shards of Orr",
+      "revid": 2719594,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:360",
+      "title": "Sparkfly Swamp",
+      "revid": 2732616,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:362",
+      "title": "Bloodstone Caves",
+      "revid": 2718941,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:331",
+      "title": "Central Transfer Chamber",
+      "revid": 2732606,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:348",
+      "title": "Vloxen Excavations",
+      "revid": 2723065,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:349",
+      "title": "Slavers' Exile",
+      "revid": 2718937,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:359",
+      "title": "Arachni's Haunt",
+      "revid": 2718936,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:363",
+      "title": "Bogroot Growths",
+      "revid": 2728894,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
+      "id": "zone:4:364",
+      "title": "A Time for Heroes",
+      "revid": 2705484,
+      "fields": [
+        "区域或标记身份",
+        "地图实例类型",
+        "Wiki 所属地区",
+        "清剿资格",
+        "相邻出入口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        },
+        {
+          "title": "Epilogue",
+          "revid": 2689660
+        }
+      ]
+    },
+    {
+      "id": "zone:gww:10970",
+      "title": "Raisu Palace (explorable area)",
+      "revid": 2699046,
+      "fields": [
+        "探索版本身份",
+        "所属地区",
+        "清剿资格",
+        "进入条件与单向出口"
+      ],
+      "relatedRevisions": [
+        {
+          "title": "Vanquisher",
+          "revid": 2738774
+        }
+      ]
+    },
+    {
       "id": "pet:1:1",
       "title": "Wolf",
       "revid": 2667634,
@@ -44465,6 +51076,10 @@
       "id": "green:4:fa6b4893b980e1a7",
       "kind": "unresolved-identity",
       "detail": "火之刃：旧名称、类型与来源不足以确认具体 Wiki 物品；未猜测其属性或位置。"
+    },
+    {
+      "kind": "legacy-area-markers",
+      "detail": "五个错误清剿目标已停用；Skyward Reach 的额外旧标记保留编号但不作为第二个目标，四章通关标记不再绘制。莱苏皇宫探索版本独立补入，不复用主线任务 ID 或推测地图坐标。"
     },
     {
       "kind": "review-scope",

@@ -12,6 +12,7 @@
 | 收藏家 | 350 | 350 | NPC 身份与篇章、实际兑换子表、材料数量、护甲 / 武器 / 物品分组及英文奖励属性 |
 | 宠物 | 32 | 32 | 对应物种、等级与特殊驯服条件；旧地点并未全部确认 |
 | 宝藏 | 12 | 12 | 类型、所在区域、钥匙需求、奖励衰减及重开间隔的不确定性 |
+| 区域 | 367 | 366 | 逐条身份与实例类型、所属地区、相邻出入口、清剿资格；另补入独立的莱苏皇宫探索版本 |
 | 剧情 | 4 篇章 | 原库未收录 | 中文摘要、关键任务、替代路线和并列流程，按章节折叠以隐藏剧透 |
 
 技能中 31 条已接入经修订号约束的中文效果，其余 350 条优先显示当前英文原文并标注语言。旧中文说明和名称保留在详情折叠区并参与搜索。本轮核对的是应用展示的资料字段，不是游戏内实测、中文翻译全覆盖或地图像素坐标核验。
@@ -28,6 +29,10 @@
 
 收藏家采用固定来源修订的结构化核对。Kaya 区分三章收藏家与二章任务 NPC；三个 Smuggler 按职业及 1 / 3 / 5 个 Kournan Coin 分开对应。兑换表按材料数量、实际表头及旧记录奖励组匹配，保留 Innis the White 的护甲 / 武器混合表、Monastery Quartermaster 同价但不同奖励的分组，以及价值列为空的武器加成。收藏家奖励未全部翻译为中文，以 Wiki 英文属性为准。
 
+区域校订修正五个旧清剿目标：Divine Path 是通关奖励区域，Churrhir Fields 是训练区域，Battledepths 明确不能清剿，Shards of Orr 是地下城，“四章通关”是旧版自定义标记。Skyward Reach 的额外旧标记没有独立实例证据，继续保留旧 ID，暂停绘制且不另设第二个清剿目标。旧名“申赞通道（任务）”修正为孙江行政区任务；Shenzun Tunnels 的探索区域单独保留。地标、港口、PvP 竞技场、主线任务与地下城分别显示其实际类型。
+
+Raisu Palace 主线任务和探索版本是不同实例。旧库仅单列任务，因此补入 `zone:gww:10970` 探索版本，引用页面 ID 10970、修订 2699046。该版本需完成主线后由 Imperial Sanctum 前哨站进入，不能从 Raisu Palace 前哨站逆向进入；只有探索版本提供清剿进度。新增资料有所属地图分组，支持地区筛选，但没有经过核对的旧地图坐标，保持无位置。当前 136 个清剿目标对应 136 个不同 Wiki 区域页：预言 54、盟与敌 33、黑暗逆袭 34、北方之眼 15。旧角色中曾对错误目标记录的个人数据不会删除或改写，仍可备份。
+
 ## 证据与修正
 
 - `data/wiki/pages/<pageid>.json` 保存标题、页面 ID、修订号、修订时间、原始 Wikitext、抓取时间与固定修订链接。
@@ -39,12 +44,14 @@
 - `supplemental-reviews.json`、`quest-reviews.json`、`reward-reviews.json` 与 `special-reviews.json` 固定其他 NPC、任务分支、宝箱和组合来源；`additional-item-identities.json` / `additional-item-reviews.json` 固定补充物品身份、来源、版本与旧属性差异。新增快照不会自动更改这些映射。
 - `data/wiki/skill-icon-comparison.json` 用于技能身份辅助比对。58 像素旧图对应 64 像素 Wiki 图的内部区域；周年、旧图不匹配及重复记录的例外另有说明。图像相似度本身不证明游戏机制。
 - `public/data/wiki-review.json` 是随网站发布的覆盖报告；未核对的条目在详情中明确标注。`public/data/catalog.json` 将资料和个人数据分开，个人备份格式仍是版本 1。
+- `scripts/wiki/zone-reviews.json` 固定全部 366 条旧区域的身份、修订、类型、所属地区与清剿证据。`location-facts.mjs` 读取实际模板，不把所有探索区域、地下城或主线任务当作可清剿区域。
+- `data/wiki/source-audit.json` 记录 3,027 个实际引用修订的原文哈希：先将本地 Wikitext 与快照 SHA-1 比较，再通过 Wiki API 逐条比较页面 ID、标题、修订号、时间与 SHA-1。哈希核验验证原文真实性，不等于游戏内实测或对每段翻译的独立证明。
 
 本轮修正包括 Hundred Blades 的冷却、Energy Surge 的范围伤害比例、Devastating Hammer 的攻击类型、Flint 长杖对所有咒文的回复加成、七彩凤凰初始等级、鹤的等级、狮群任务条件，以及红色 Lurker 和蓝色 Reef Lurker 的身份区别。Flint 旧备注中的十个出生点改为 Wiki 记录的四个；旧备注继续保留。
 
 NPC 提取保留主、副及第三职业，覆盖周年精英技能 Boss；`NPC infobox` 中的 `boss` 标记、大小写职业名及单数 Mission 标题按实际含义处理。Krak Flamewhip 的旧 Dwarven Battle Stance 关联与现有资料冲突，详情已说明其 Jaga Moraine 版本实际使用 Devastating Hammer，且没有 Boss 光环。跨区域 / 模式的技能分组保留英文条件，避免把不同版本的技能当成同一套配置。
 
-所有记录 ID、地点 ID、章节与像素坐标均保持兼容。`data/wiki/legacy-identities.json` 保存校订前 ID 与坐标的 SHA-256 指纹，测试比较全部记录。地点出现条件的文字修正不会被解释成像素坐标已经核验。
+所有旧记录 ID、地点 ID、章节与像素坐标均保持兼容。`data/wiki/legacy-identities.json` 保存校订前 ID 与坐标的 SHA-256 指纹，测试比较全部旧记录；新增 Wiki 区域采用独立 ID，且不借用旧实例坐标。地点出现条件的文字修正不会被解释成像素坐标已经核验。
 
 ## 更新与构建
 
@@ -66,6 +73,8 @@ npm.cmd test
 npm.cmd run build
 npm.cmd run test:e2e:worker
 ```
+
+重新核验引用的快照原文，可运行 `node scripts/wiki/audit-references.mjs`；加 `--remote` 会通过 `WIKI_PROXY` 指定的代理逐批与 Wiki API 比较，并在全部通过后更新 `data/wiki/source-audit.json`。普通构建和测试不联网。
 
 `wiki:compile` 从快照编译已核对内容，不联网；`wiki:apply` 应用到部署资料并生成覆盖报告。`build:data` 在原始转换后应用同一组修正。普通 `build` 使用已提交的 `public`，不依赖原始 Campaign 文件或联网补全。
 

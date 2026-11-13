@@ -54,3 +54,11 @@ Wrangler HTTP 验证结果：
 已从代码提交 `15bf329` 部署至 [mappingout-web.zhubby.workers.dev](https://mappingout-web.zhubby.workers.dev)。Cloudflare 版本：`000ff2bb-4ef4-41fb-9ec9-39323f6bd603`；离线缓存版本：`mappingout-a484100a7a26cef5e516ba66`。本次通过 Wrangler 本地命令发布，未配置 Git 自动部署。
 
 正式域名复核通过：13 项 HTTP 请求覆盖首页、中文查询链接、JSON、地图、Service Worker、实际 JS/CSS 及四种缺失路径；缓存头与内容类型符合预期，缺失路径返回 404。线上首页、Service Worker、资料库及 Wiki 报告的 SHA-256 与本地构建一致。Edge 浏览器完成中英文搜索、PvP 详情、地图定位和四篇章剧情折叠；访问 JSON 报告后断网刷新，选中资料与已访问地图仍可加载，使用本次缓存版本且无页面脚本错误。
+
+## 2026-11-13 区域校订补全
+
+补核全部 366 条旧区域，另以独立 ID 补入莱苏皇宫探索版本。当前 3,022 条资料全部带本轮字段审查来源；136 个清剿目标对应 136 个独立 Wiki 区域，篇章分布为 54 / 33 / 34 / 15。五个错误清剿目标已停用，旧 ID、原始坐标与个人备份格式保留。
+
+`npm run wiki:compile`、`npm run build:data`、78 项单元测试、16 项 Wrangler 浏览器测试，以及 `npm run check:worker` 全部通过。新增浏览器流程验证地下城和非清剿区域不显示清剿按钮、莱苏任务与探索版本分开，以及无确认坐标区域的篇章 / 地区 / 区域筛选、角色记录和刷新恢复。
+
+`node scripts/wiki/audit-references.mjs --remote` 通过系统代理与 Wiki API 核验全部 3,027 个实际引用修订的页面 ID、标题、修订号、时间及原文 SHA-1；本地快照原文哈希全部一致。核验记录保存在 `data/wiki/source-audit.json`。两处无法确认的旧 NPC / 物品身份继续明确标注，不补造属性或位置。

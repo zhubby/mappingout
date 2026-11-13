@@ -1,17 +1,13 @@
-MappingOut Windows 离线客户端首次发布。
+MappingOut Desktop 1.1.0：仅提供完整离线客户端。
 
-- 完整内置 20 张地图和查询资料，安装后首次启动即可离线使用。
-- 保留多角色进度、地图笔记、护甲制作计划和活动记录。
-- 原生 JSON 导入导出，与 Web 版备份互通。
-- 自动本地备份；恢复前先保存现有记录，保存失败则阻止覆盖。
-- 客户端设置中可查看、预览和恢复本地备份。
-- 保存窗口位置与尺寸，支持单实例运行和系统浏览器外链。
-- 支持从 GitHub Releases 检查签名更新；由用户选择安装重启时间。
+- Windows x86（32 位）与 x64：安装包内含相应架构 WebView2 运行时，安装时无需联网。
+- macOS arm64：面向 Apple Silicon，macOS 11 或更新版本，使用系统 WKWebView。
+- 全平台完整内置 20 张地图、查询资料及许可文本，无需服务器或账号。
+- 个人记录保存在本机，支持 JSON 导入导出、自动备份和恢复前备份。
+- 取消需要联网补装运行时的普通 Windows 安装包；Windows 更新同样使用完整离线包。
 
-下载 `MappingOut_*_x64-setup.exe` 安装。Windows 需要 WebView2；普通安装包在运行时缺失时下载它。安装完成后地图和资料无需联网。
+Windows 选择对应架构的 offline-setup.exe。Mac 初次安装使用 DMG，将应用拖入 Applications；app.tar.gz 与 .sig 用于更新验证。检查更新需要联网，日常地图和个人记录可持续离线使用。
 
-完全断网安装请选择 `MappingOut_*_x64-offline-setup.exe`，其中包含 Microsoft WebView2 离线运行时，体积约 227 MiB。普通版约 20 MiB；两者功能和个人数据目录相同。
+Windows 应用尚无 Authenticode 发布者证书。macOS 使用 ad-hoc 签名，尚无 Apple Developer ID 签名或公证，Gatekeeper 可能阻止打开。Tauri 更新签名只用于更新完整性校验，不能代替系统发布者签名。
 
-此安装包包含 Tauri 更新签名，但尚未使用 Windows Authenticode 证书签名。Windows 可能显示未知发布者。`SHA256SUMS.txt` 提供安装包校验值。
-
-网页与客户端数据独立，请在原环境导出 JSON 后，在客户端“数据备份”中导入。升级保留本地个人记录，建议定期将备份另存到其他磁盘。
+网页、Windows 和 Mac 的个人记录相互独立，通过 JSON 备份迁移。升级前会保存本地备份；Windows 安装器需要确认语言，Mac 安装更新后自动重新启动。建议定期将备份另存到其他磁盘。

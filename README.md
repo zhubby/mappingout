@@ -77,4 +77,4 @@ Vitest 检查编码、字段与来源、图片尺寸、编号关联、查询、�
 - `src/AtlasMap.tsx`：Leaflet 图片地图；`src/App.tsx`：界面及交互。
 - `tests/`、`e2e/`：单元与浏览器测试。
 
-原始地图、图片、文字的版权归各自权利人。公开分发素材前需确认授权。此工程未自动发布到外网。
+原始地图、图片、文字的版权归各自权利人。公开分发素材前需确认授权。当前站点：[MappingOut Web](https://mappingout-web.zhubby.workers.dev)。

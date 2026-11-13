@@ -1,5 +1,43 @@
 import { expect, test } from '@playwright/test';
 
+test('the first map stays available offline when it loads before worker activation', async ({ page, context }) => {
+  await page.addInitScript(() => {
+    const register = navigator.serviceWorker.register.bind(navigator.serviceWorker);
+    const gate = new Promise<void>(resolve => {
+      (window as any).allowWorkerRegistration = resolve;
+    });
+    navigator.serviceWorker.register = async (...args) => {
+      await gate;
+      return register(...args);
+    };
+  });
+  await page.goto('/');
+  await expect(page.locator('.result').first()).toBeVisible();
+  await page.waitForFunction(() => {
+    const image = document.querySelector<HTMLImageElement>('.leaflet-image-layer');
+    return image?.complete && image.naturalWidth > 0;
+  });
+  expect(await page.evaluate(() => navigator.serviceWorker.controller)).toBeNull();
+  await page.evaluate(() => (window as any).allowWorkerRegistration());
+  await page.evaluate(async () => {
+    await navigator.serviceWorker.ready;
+    if (!navigator.serviceWorker.controller) {
+      await new Promise<void>(resolve => navigator.serviceWorker.addEventListener('controllerchange', () => resolve(), { once: true }));
+    }
+  });
+  await expect.poll(() => page.evaluate(async () => {
+    const image = document.querySelector<HTMLImageElement>('.leaflet-image-layer')!;
+    return !!await caches.match(image.src);
+  })).toBe(true);
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.locator('.result').first()).toBeVisible();
+  await page.waitForFunction(() => {
+    const image = document.querySelector<HTMLImageElement>('.leaflet-image-layer');
+    return image?.complete && image.naturalWidth > 0;
+  });
+});
+
 test('Workers serves query routes, typed assets, revalidation headers and real 404s', async ({ request }) => {
   for (const url of ['/', '/?kind=skill&map=2%3A2&q=%E5%8A%88%E5%87%BB']) {
     const response = await request.get(url);

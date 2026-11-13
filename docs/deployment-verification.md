@@ -50,3 +50,7 @@ Wrangler HTTP 验证结果：
 本轮全部 74 项单元测试及 15 项 Wrangler 浏览器测试通过，`npm run check:worker` 的生产构建与部署 dry-run 通过。浏览器覆盖中英文检索、来源修订、PvP 差异、技能学习分类、任务来源、随机及独特装备、收藏家兑换版本、剧情折叠，以及角色隔离、备份恢复、跨标签页同步、地图定位、离线刷新、旧缓存清理和真实 404。
 
 构建校验仍覆盖四篇章、20 张地图、3,021 条资料和 399 张引用图片。原始资料的 74 条诊断保留；两条无法确认身份的旧记录继续明确标注。个人数据结构与备份版本不变。Wiki 内容核对范围与证据见 [校订记录](wiki-data-review.md)。
+
+已从代码提交 `15bf329` 部署至 [mappingout-web.zhubby.workers.dev](https://mappingout-web.zhubby.workers.dev)。Cloudflare 版本：`000ff2bb-4ef4-41fb-9ec9-39323f6bd603`；离线缓存版本：`mappingout-a484100a7a26cef5e516ba66`。本次通过 Wrangler 本地命令发布，未配置 Git 自动部署。
+
+正式域名复核通过：13 项 HTTP 请求覆盖首页、中文查询链接、JSON、地图、Service Worker、实际 JS/CSS 及四种缺失路径；缓存头与内容类型符合预期，缺失路径返回 404。线上首页、Service Worker、资料库及 Wiki 报告的 SHA-256 与本地构建一致。Edge 浏览器完成中英文搜索、PvP 详情、地图定位和四篇章剧情折叠；访问 JSON 报告后断网刷新，选中资料与已访问地图仍可加载，使用本次缓存版本且无页面脚本错误。

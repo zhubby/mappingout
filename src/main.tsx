@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import './styles.css';
 import './features.css';
 createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
-if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+if (import.meta.env.PROD && import.meta.env.MODE !== 'desktop' && 'serviceWorker' in navigator) {
   const worker = navigator.serviceWorker;
   worker.addEventListener('controllerchange', () => {
     if (!worker.controller) return;

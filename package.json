@@ -24,9 +24,21 @@
     "deploy:assets": "wrangler deploy",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "test:e2e:worker": "playwright test --config playwright.worker.config.ts"
+    "test:e2e:worker": "playwright test --config playwright.worker.config.ts",
+    "desktop:dev": "node scripts/desktop.mjs dev",
+    "desktop:build": "node scripts/desktop.mjs build",
+    "desktop:build:offline": "node scripts/desktop.mjs build --config src-tauri/tauri.offline.conf.json",
+    "desktop:frontend:dev": "vite --mode desktop",
+    "desktop:frontend:build": "npm run validate:data && tsc -b && vite build --mode desktop && node scripts/desktop-finalize.mjs",
+    "desktop:release": "node scripts/desktop-release.mjs",
+    "test:desktop": "node scripts/desktop-smoke.mjs",
+    "desktop:build:release": "node scripts/desktop-signed.mjs",
+    "test:desktop:installed": "node scripts/desktop-installed-smoke.mjs"
   },
   "dependencies": {
+    "@tauri-apps/api": "^2.12.4",
+    "@tauri-apps/plugin-opener": "^2.7.3",
+    "@tauri-apps/plugin-updater": "^2.14.1",
     "idb": "^8.0.3",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.468.0",
@@ -36,6 +48,7 @@
   "devDependencies": {
     "@playwright/test": "^1.56.0",
     "@tailwindcss/vite": "^4.1.0",
+    "@tauri-apps/cli": "^2.12.4",
     "@types/leaflet": "^1.9.21",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",

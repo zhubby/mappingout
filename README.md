@@ -2,6 +2,8 @@
 
 基于 MappingOut 4.00 本地资料重新实现的中文地图工具。React + TypeScript + Vite + Tailwind CSS + Leaflet；无需后端或账号。
 
+Windows 离线客户端采用 Tauri 2，复用同一套界面和资料。开发、安装包、备份和签名更新见 [客户端说明](docs/desktop.md)。
+
 ## 运行
 
 使用 Node.js 24（`.node-version` 固定云端主版本；也支持更新的 Node.js）。在此目录执行：

@@ -57,6 +57,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           $version = (Get-Content src-tauri/tauri.conf.json | ConvertFrom-Json).version
+          $publishedDraft = gh release view $env:GITHUB_REF_NAME --json isDraft --jq .isDraft 2>$null
+          if ($LASTEXITCODE -eq 0 -and $publishedDraft -eq 'false') {
+            Write-Output 'Release is already published; preserving its validated assets'
+            exit 0
+          }
           gh release create $env:GITHUB_REF_NAME --verify-tag --draft --title "MappingOut Desktop $version" --notes-file docs/desktop-release-notes.md
           if ($LASTEXITCODE -ne 0) { throw 'Could not create draft release' }
           $assets = (Get-ChildItem "releases/$version" -File).FullName

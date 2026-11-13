@@ -50,10 +50,13 @@ export default function DesktopPanel({ preview, beforeRestart, backupStatus }: {
     await beforeRestart();
     setMessage('备份已保存，正在启动安装程序…');
     await updateRef.current.install({ restartAfterInstall: true });
+    // Windows exits during install; macOS returns after replacing the application.
+    const { invoke } = await import('@tauri-apps/api/core');
+    await invoke('restart_desktop');
   }
   return <div className="desktop-panel">
     <span className="eyebrow">MAPPINGOUT DESKTOP</span><h2>客户端设置</h2>
-    <p>版本 {info?.version || '…'} · Windows 离线客户端</p>
+    <p>版本 {info?.version || '…'} · 离线客户端</p>
     <section><h3>本地备份</h3>
       <p>记录变更后自动备份，间隔最多 10 分钟。自动备份和恢复前备份各保留最近 20 份。</p>
       <p role="status">{backupStatus.error ? `自动备份失败，将重试：${backupStatus.error}` : backupStatus.savedAt ? `最近自动备份：${new Date(backupStatus.savedAt).toLocaleString('zh-CN')}` : '等待首次自动备份…'}</p>

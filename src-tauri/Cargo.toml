@@ -1,6 +1,6 @@
 [package]
 name = "mappingout-desktop"
-version = "1.0.0"
+version = "1.1.0"
 description = "MappingOut — 泰瑞亚探索志"
 edition = "2021"
 rust-version = "1.77.2"

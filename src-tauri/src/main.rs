@@ -146,6 +146,9 @@ fn desktop_info(app: tauri::AppHandle) -> Result<DesktopInfo> {
     })
 }
 
+#[tauri::command]
+fn restart_desktop(app: tauri::AppHandle) { app.restart(); }
+
 fn main() {
     tauri::Builder::default()
         .plugin(tauri_plugin_single_instance::init(|app, _, _| {
@@ -158,7 +161,7 @@ fn main() {
         .plugin(tauri_plugin_opener::init())
         .manage(BackupLock::default())
         .invoke_handler(tauri::generate_handler![save_backup, pick_backup, write_local_backup,
-            list_local_backups, read_local_backup, open_backup_directory, desktop_info])
+            list_local_backups, read_local_backup, open_backup_directory, desktop_info, restart_desktop])
         .setup(|app| {
             if app.config().plugins.0.contains_key("updater") {
                 app.handle().plugin(tauri_plugin_updater::Builder::new().build())?;

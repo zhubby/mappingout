@@ -34,3 +34,12 @@ buffers.forEach((buffer, i) => {
   offset += buffer.length;
 });
 await fs.writeFile(path.join(dir, 'icon.ico'), Buffer.concat([header, ...buffers]));
+// ICNS container with PNG representations supported by modern macOS.
+const chunks = [];
+for (const [type, size] of [['ic07',128],['ic08',256],['ic09',512],['ic10',1024]]) {
+  const png = await sharp(Buffer.from(svg)).resize(size,size).png().toBuffer();
+  const chunk = Buffer.alloc(8); chunk.write(type,0,4,'ascii'); chunk.writeUInt32BE(png.length+8,4);
+  chunks.push(chunk,png);
+}
+const icnsHeader = Buffer.alloc(8); icnsHeader.write('icns'); icnsHeader.writeUInt32BE(8+chunks.reduce((n,c)=>n+c.length,0),4);
+await fs.writeFile(path.join(dir,'icon.icns'),Buffer.concat([icnsHeader,...chunks]));

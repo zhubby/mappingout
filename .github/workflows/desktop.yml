@@ -1,71 +1,97 @@
-name: Windows desktop release
-
+name: Desktop release
 on:
   push:
     tags: ['desktop-v*']
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
-  windows:
-    runs-on: windows-latest
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            arch: x64
+          - os: windows-latest
+            target: i686-pc-windows-msvc
+            arch: x86
+          - os: macos-14
+            target: aarch64-apple-darwin
+            arch: arm64
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: npm
-      - name: Install Rust
-        run: rustup update stable --no-self-update
+      - run: rustup target add ${{ matrix.target }}
       - run: npm ci
       - run: npm test
       - run: npm run build
-      - name: Build signed Windows installer
-        run: npm run desktop:build:release
+      - name: Build Windows
+        if: runner.os == 'Windows'
+        run: npm run desktop:build:release -- --target ${{ matrix.target }}
         env:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
-      - name: Test native backup operations
-        run: cargo test --release --manifest-path src-tauri/Cargo.toml
-      - name: Preserve standard installer before offline build
+      - name: Preserve offline installer
+        if: runner.os == 'Windows'
         shell: pwsh
         run: |
-          New-Item -ItemType Directory -Force staging-normal | Out-Null
-          Copy-Item src-tauri/target/release/bundle/nsis/*-setup.exe* staging-normal/
-      - name: Build signed offline Windows installer
-        run: npm run desktop:build:release -- --config src-tauri/tauri.offline.conf.json
+          New-Item -ItemType Directory -Force release-assets | Out-Null
+          Get-ChildItem src-tauri/target/${{ matrix.target }}/release/bundle/nsis/*-setup.exe* | ForEach-Object {
+            Copy-Item $_.FullName (Join-Path release-assets ($_.Name.Replace('-setup.exe','-offline-setup.exe')))
+          }
+      - name: Build macOS
+        if: runner.os == 'macOS'
+        run: npm run desktop:build:release -- --target aarch64-apple-darwin --config src-tauri/tauri.macos.conf.json
         env:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
-      - name: Prepare release artifacts
-        shell: pwsh
+          APPLE_SIGNING_IDENTITY: '-'
+      - name: Preserve macOS artifacts
+        if: runner.os == 'macOS'
         run: |
-          $version = (Get-Content src-tauri/tauri.conf.json | ConvertFrom-Json).version
-          if ($env:GITHUB_REF_TYPE -eq 'tag' -and $env:GITHUB_REF_NAME -ne "desktop-v$version") { throw 'Tag and application version differ' }
-          npm run desktop:release -- --bundle-dir staging-normal --offline-installer "src-tauri/target/release/bundle/nsis/MappingOut_${version}_x64-setup.exe" --base-url "https://github.com/$env:GITHUB_REPOSITORY/releases/download/desktop-v$version/" --notes docs/desktop-release-notes.md
+          mkdir -p release-assets
+          cp src-tauri/target/aarch64-apple-darwin/release/bundle/dmg/*.dmg release-assets/
+          cp src-tauri/target/aarch64-apple-darwin/release/bundle/macos/*.app.tar.gz* release-assets/
+      - name: Native tests
+        run: cargo test --release --manifest-path src-tauri/Cargo.toml --target ${{ matrix.target }}
       - uses: actions/upload-artifact@v4
         with:
-          name: mappingout-windows
-          path: releases/*/*
+          name: desktop-${{ matrix.arch }}
+          path: release-assets/*
           if-no-files-found: error
-      - name: Publish GitHub Release
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: desktop-*
+          path: downloaded
+      - name: Merge platform manifest
+        run: |
+          VERSION=$(node -p "require('./src-tauri/tauri.conf.json').version")
+          if [ "$GITHUB_REF_TYPE" = tag ] && [ "$GITHUB_REF_NAME" != "desktop-v$VERSION" ]; then exit 1; fi
+          node scripts/desktop-merge-release.mjs --input downloaded --output release-assets --base-url "https://github.com/$GITHUB_REPOSITORY/releases/download/desktop-v$VERSION/"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-combined
+          path: release-assets/*
+      - name: Publish
         if: startsWith(github.ref, 'refs/tags/desktop-v')
-        shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          $version = (Get-Content src-tauri/tauri.conf.json | ConvertFrom-Json).version
-          $publishedDraft = gh release view $env:GITHUB_REF_NAME --json isDraft --jq .isDraft 2>$null
-          if ($LASTEXITCODE -eq 0 -and $publishedDraft -eq 'false') {
-            Write-Output 'Release is already published; preserving its validated assets'
-            exit 0
-          }
-          gh release create $env:GITHUB_REF_NAME --verify-tag --draft --title "MappingOut Desktop $version" --notes-file docs/desktop-release-notes.md
-          if ($LASTEXITCODE -ne 0) { throw 'Could not create draft release' }
-          $assets = (Get-ChildItem "releases/$version" -File).FullName
-          gh release upload $env:GITHUB_REF_NAME @assets
-          if ($LASTEXITCODE -ne 0) { throw 'Could not upload release assets' }
-          gh release edit $env:GITHUB_REF_NAME --draft=false --latest
-          if ($LASTEXITCODE -ne 0) { throw 'Could not publish release' }
+          if gh release view "$GITHUB_REF_NAME" --json isDraft --jq .isDraft | grep -qx false; then exit 0; fi
+          gh release create "$GITHUB_REF_NAME" --verify-tag --draft --title "MappingOut Desktop ${GITHUB_REF_NAME#desktop-v}" --notes-file docs/desktop-release-notes.md
+          gh release upload "$GITHUB_REF_NAME" release-assets/*
+          gh release edit "$GITHUB_REF_NAME" --draft=false --latest

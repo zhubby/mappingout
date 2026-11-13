@@ -8,7 +8,7 @@ CI 在 Windows 和 Apple Silicon macOS runner 上分别构建并运行原生测�
 
 macOS 最低版本 11.0。目前 macOS 使用 ad-hoc 本地签名，尚无 Apple Developer ID 签名或公证，不能承诺双击即可绕过 Gatekeeper。Windows 尚无 Authenticode 应用证书。Tauri 更新签名用于验证更新完整性，不等同于这些系统发布者签名。
 
-本次新增架构尚需 CI 编译结果和实机验收，不能将现有 Windows x64 验收结果套用于 x86 或 macOS。构建命令：
+Windows x86、Windows x64、macOS arm64 已在 [三平台构建任务](https://github.com/zhubby/mappingout/actions/runs/43437493163) 中分别通过安装包构建与原生测试，离线发布清单合并通过。Windows x86 和 macOS 尚未进行完整图形界面的实机验收，不能将历史 Windows x64 的界面验收结果套用到这两个平台。构建命令：
 
 ```sh
 npm run desktop:build:release -- --target i686-pc-windows-msvc

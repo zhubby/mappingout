@@ -2,7 +2,7 @@
 
 基于 MappingOut 4.00 本地资料重新实现的中文地图工具。React + TypeScript + Vite + Tailwind CSS + Leaflet；无需后端或账号。
 
-Windows 离线客户端采用 Tauri 2，复用同一套界面和资料。开发、安装包、备份和签名更新见 [客户端说明](docs/desktop.md)。
+Windows / macOS 离线客户端采用 Tauri 2，复用同一套界面和资料。开发、安装包、备份和签名更新见 [客户端说明](docs/desktop.md)。
 
 安装离线客户端：[GitHub Releases 下载](https://github.com/zhubby/mappingout/releases/latest)。仅提供完整离线版，Windows x86/x64 内含 WebView2；macOS arm64 使用 DMG。新增架构验证进度见 [平台支持](docs/desktop-platforms.md)。网页与客户端的个人记录通过 JSON 备份迁移。
 

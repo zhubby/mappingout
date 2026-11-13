@@ -1,5 +1,7 @@
 # Windows 客户端交付验收
 
+本文记录 1.0.0 的历史验收。按后续“只保留离线版”的要求，普通 Windows 安装包已从 Release 撤下，1.0.0 更新清单已切换至离线包。当前平台范围与 1.1.0 验证结果见 [平台支持](desktop-platforms.md)。
+
 验收日期：2026-11-13。技术方案为 Tauri 2 + React / TypeScript，Windows x64，版本 1.0.0，应用标识 `dev.zhubby.mappingout`。
 
 ## 已通过

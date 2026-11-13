@@ -71,6 +71,8 @@ npm.cmd run desktop:release -- --base-url https://github.com/zhubby/mappingout/r
 
 更新界面由用户主动检查、下载安装，并选择重启。下载前和重启前保存最新本地备份，签名校验由 Tauri updater 执行。更新签名不等同于 Windows Authenticode 代码签名；未配 Windows 代码签名证书的安装包可能显示未知发布者。
 
+当前 NSIS 安装器启用了语言选择。更新已下载并校验后，点击“保存备份并安装重启”，在安装器中确认语言即可继续安装并重启；该流程包含原生确认窗口，并非全程静默。GitHub 访问受网络环境影响，下载失败时可以重试，地图和现有记录仍可离线使用。
+
 版本同时维护 `package.json`、`src-tauri/Cargo.toml` 和 `src-tauri/tauri.conf.json`。每次发布递增语义版本。不要更换应用标识、公钥或生产 origin；更换公钥需另行设计迁移。
 
 GitHub Actions 工作流 `.github/workflows/desktop.yml` 在推送 `desktop-v<版本>` tag 后构建、测试、上传并发布；手动触发只生成构建产物。使用前在仓库 Actions secrets 配置 `TAURI_SIGNING_PRIVATE_KEY`（私钥文件内容），若私钥设置密码则额外配置 `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`。密钥必须与已发布客户端内的公钥匹配。

@@ -2,6 +2,8 @@
 
 目标平台：Windows x86（32 位）、Windows x64（兼容已有用户）、macOS arm64（Apple Silicon）。只发布完整离线安装包，不提供安装时联网下载运行时的版本。
 
+1.1.0 已正式发布：[下载页面](https://github.com/zhubby/mappingout/releases/tag/desktop-v1.1.0)。Windows x86 离线安装包 213806959 字节，Windows x64 离线安装包 238498566 字节，Mac arm64 DMG 20969858 字节。安装包、签名、校验文件与三平台更新清单均已上传；[正式发布工作流](https://github.com/zhubby/mappingout/actions/runs/43438711930) 四个任务全部成功。
+
 Windows 安装包内含对应架构的 Microsoft WebView2 离线安装器。macOS 使用系统 WKWebView，提供 DMG 安装盘和用于签名更新的 app.tar.gz。所有平台内置完整地图、查询资料及许可文本，无需账号或服务器即可使用。
 
 CI 在 Windows 和 Apple Silicon macOS runner 上分别构建并运行原生测试；发布任务等待全部架构成功后生成统一清单。更新清单键为 windows-i686、windows-x86_64、darwin-aarch64，Windows 更新同样下载完整离线安装包。检查更新是可选联网操作，不影响离线功能。

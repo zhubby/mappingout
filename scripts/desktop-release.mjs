@@ -10,17 +10,29 @@ const baseUrl = arg('--base-url');
 if (!baseUrl || new URL(baseUrl).protocol !== 'https:') throw Error('需要 --base-url https://你的下载域名/desktop/');
 const config = JSON.parse(await fs.readFile(path.join(root, 'src-tauri/tauri.conf.json'), 'utf8'));
 const bundle = path.resolve(root, arg('--bundle-dir') || 'src-tauri/target/release/bundle/nsis');
-const candidates = (await fs.readdir(bundle)).filter(name => name.endsWith('-setup.exe') && name.includes(`_${config.version}_`));
+const candidates = (await fs.readdir(bundle)).filter(name => name.endsWith('-setup.exe') && !name.endsWith('-offline-setup.exe') && name.includes(`_${config.version}_`));
 if (candidates.length !== 1) throw Error(`需要且只能有一个 ${config.version} 安装包，实际：${candidates.join(', ')}`);
 const name = candidates[0];
 const source = path.join(bundle, name);
 const signature = (await fs.readFile(`${source}.sig`, 'utf8')).trim();
 if (!signature) throw Error('缺少更新签名，请使用签名构建。');
 const bytes = await fs.readFile(source);
+const offlineSource = arg('--offline-installer') ? path.resolve(root, arg('--offline-installer')) : undefined;
+const offlineName = name.replace('-setup.exe', '-offline-setup.exe');
+let offlineBytes, offlineSignature;
+if (offlineSource) {
+  offlineBytes = await fs.readFile(offlineSource);
+  offlineSignature = (await fs.readFile(`${offlineSource}.sig`, 'utf8')).trim();
+  if (!offlineSignature) throw Error('离线安装包缺少签名。');
+}
 const out = path.join(root, 'releases', config.version);
 await fs.mkdir(out, { recursive: true });
 await fs.copyFile(source, path.join(out, name));
 await fs.copyFile(`${source}.sig`, path.join(out, `${name}.sig`));
+if (offlineSource) {
+  await fs.writeFile(path.join(out, offlineName), offlineBytes);
+  await fs.writeFile(path.join(out, `${offlineName}.sig`), offlineSignature + '\n');
+}
 const notesFile = arg('--notes');
 const notes = notesFile ? await fs.readFile(path.resolve(notesFile), 'utf8') : `MappingOut ${config.version}：离线地图、角色记录与本地备份。`;
 const url = new URL(encodeURIComponent(name), baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`).href;
@@ -29,5 +41,7 @@ const manifest = {
   platforms: { 'windows-x86_64': { signature, url } },
 };
 await fs.writeFile(path.join(out, 'latest.json'), JSON.stringify(manifest, null, 2) + '\n');
-await fs.writeFile(path.join(out, 'SHA256SUMS.txt'), `${createHash('sha256').update(bytes).digest('hex')}  ${name}\n`);
+let checksums = `${createHash('sha256').update(bytes).digest('hex')}  ${name}\n`;
+if (offlineBytes) checksums += `${createHash('sha256').update(offlineBytes).digest('hex')}  ${offlineName}\n`;
+await fs.writeFile(path.join(out, 'SHA256SUMS.txt'), checksums);
 console.log(`签名发布目录：${out}\n更新清单：${url.substring(0, url.lastIndexOf('/') + 1)}latest.json`);

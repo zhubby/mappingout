@@ -29,12 +29,22 @@ jobs:
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
       - name: Test native backup operations
         run: cargo test --release --manifest-path src-tauri/Cargo.toml
+      - name: Preserve standard installer before offline build
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force staging-normal | Out-Null
+          Copy-Item src-tauri/target/release/bundle/nsis/*-setup.exe* staging-normal/
+      - name: Build signed offline Windows installer
+        run: npm run desktop:build:release -- --config src-tauri/tauri.offline.conf.json
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
       - name: Prepare release artifacts
         shell: pwsh
         run: |
           $version = (Get-Content src-tauri/tauri.conf.json | ConvertFrom-Json).version
           if ($env:GITHUB_REF_TYPE -eq 'tag' -and $env:GITHUB_REF_NAME -ne "desktop-v$version") { throw 'Tag and application version differ' }
-          npm run desktop:release -- --base-url "https://github.com/$env:GITHUB_REPOSITORY/releases/download/desktop-v$version/"
+          npm run desktop:release -- --bundle-dir staging-normal --offline-installer "src-tauri/target/release/bundle/nsis/MappingOut_${version}_x64-setup.exe" --base-url "https://github.com/$env:GITHUB_REPOSITORY/releases/download/desktop-v$version/" --notes docs/desktop-release-notes.md
       - uses: actions/upload-artifact@v4
         with:
           name: mappingout-windows

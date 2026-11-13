@@ -90,4 +90,4 @@ npm.cmd run desktop:frontend:build
 
 实际验收结果与尚未完成的发布检查见 [desktop-verification.md](desktop-verification.md)。
 
-当前 CI 默认发布普通安装包。需要完整离线版时，先将普通版及签名复制到独立发布目录，再用更新配置与离线配置共同构建：`npm run desktop:build:release -- --config src-tauri/tauri.offline.conf.json`。离线构建会覆盖同名 NSIS 输出，因此必须先保留普通版；将离线版及签名分别重命名为 `MappingOut_<版本>_x64-offline-setup.exe` 与对应 `.sig`，并补充到 `SHA256SUMS.txt`。完整离线版发布目录共六个文件，自动更新清单仍指向普通版。
+CI 同时构建普通版和完整离线版。手动构建时，先将普通版及签名复制到独立目录，再运行 `npm run desktop:build:release -- --config src-tauri/tauri.offline.conf.json`。离线构建会覆盖同名 NSIS 输出，因此必须先保留普通版。发布脚本的 `--bundle-dir` 指向保留普通版的目录，`--offline-installer` 指向新生成的离线安装包；脚本自动重命名离线版及签名，并为两个安装包生成校验值。完整发布目录共六个文件，自动更新清单仍指向普通版。

@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Protection Prayers unique items",
+  "pageid": 221871,
+  "revid": 1685524,
+  "revisedAt": "2009-09-17T08:57:21Z",
+  "sha1": "2e56a8aaef16f4084d50c92e7a525dd8269ad4cb",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Protection_Prayers_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Protection%20Prayers%20unique%20items&oldid=1685524",
+  "retrievedAt": "2026-11-13T02:27:59.349Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Protection Prayers unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Protection Prayers unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Protection Prayers unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by attribute|Protection Prayers]]\n[[Category:Monk unique items|+]]"
+}

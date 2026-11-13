@@ -1,0 +1,11 @@
+{
+  "title": "Gardock's Staff",
+  "pageid": 14626,
+  "revid": 2677871,
+  "revisedAt": "2022-05-08T11:10:17Z",
+  "sha1": "2a06fca9f599dfc94aec5659f0081f85e7d52a23",
+  "url": "https://wiki.guildwars.com/wiki/Gardock%27s_Staff",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gardock's%20Staff&oldid=2677871",
+  "retrievedAt": "2026-11-13T02:20:54.374Z",
+  "wikitext": "{{Weapon infobox\n| type = [[Staff]]\n| campaign = [[Prophecies]]\n| attribute = [[Divine Favor]]\n| damagetype = [[Fire damage]]\n| unique = yes\n}}\n[[Gardock's Staff]] is a [[unique item|unique]] [[staff]] dropped by [[Gardock Stonesoul]], a [[boss]] who can be found in [[Sorrow's Furnace]].\n\n==Stats==\n:[[Energy]] +10\n:[[Fire damage]]: 11-22 (Requires 9 [[Divine Favor]])\n:Reduces [[Poison]] duration on you by 20%\n:Halves skill recharge of spells (Chance: 20%)\n:Energy +5\n:[[Enchantment]]s last 20% longer\n\n==Replica==\nThis item cannot be replicated by using inscribable staves. The [[inscription]] \"Pure of Heart\", which reduces [[poison]], can only be applied to [[shield]]s and [[focus item]]s.\n* However, it is possible to create an exact technical replica for this item with:\n** A [[perfect]] [[staff]] drop with an [[Inherent modifier|inherent]] 20% Poison reduction\n** [[Staff Wrapping]] [[of Enchanting]]\n** [[Insightful]] [[Staff Head]]\n\n==Notes==\n* Other items with this appearance:\n**{{mo}} [[Ascalon Battle Staff]]\n**{{mo}} [[Nifling's Staff]] ([[Unique item|unique]])\n**{{mo}} [[PvP Smiting Staff]]\n**{{mo}} [[Smiting Staff]]\n**{{mo}} [[Ziinjuu's Sanctuary]] (unique)\n\n[[Category:Divine Favor unique items]]\n[[Category:Sorrow's Furnace unique items]]\n[[category:Unreplicable unique items]]"
+}

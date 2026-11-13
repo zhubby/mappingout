@@ -1,0 +1,11 @@
+{
+  "title": "Guardsman Zui",
+  "pageid": 46654,
+  "revid": 2466789,
+  "revisedAt": "2012-03-25T14:19:13Z",
+  "sha1": "b677fbe9374c59ed4a87f14949522076c9df724a",
+  "url": "https://wiki.guildwars.com/wiki/Guardsman_Zui",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Guardsman%20Zui&oldid=2466789",
+  "retrievedAt": "2026-11-13T02:14:37.260Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Canthan guard m.jpg|150px]]\n| type = Human\n| affiliation = Imperial Guard\n| profession = Warrior\n| level = 20\n| service = Gatekeeper\n| campaign = Factions\n}}\n[[Guardsman Zui]] guards the gate to [[Minister Cho's Estate (outpost)|Minister Cho's Estate]], and will inform the player character what it needs to do to gain entry.\n\n==Locations==\n*[[Shing Jea Island]]\n**{{NPC location|Sunqua Vale}}\n\n==Dialogue==\n;Before [[Choose Your Secondary Profession (Factions quest)|Choose Your Secondary Profession]]:\n:''\"I cannot let just anyone into the Minister's Estate! <character name> should complete more training at the [[Shing Jea Monastery|monastery]]. Start by speaking to the headmasters. What else do you want?\"''\n\n;Before [[A Formal Introduction]]:\n:''\"Normally, [[Master Togo]] brings his top students to meet the minister. I am sorry, but I cannot let you through without him here. [Character Name] should speak with Master Togo in [[Linnok Courtyard]], that should take care of it. Was there something else you wanted to discuss?\"''\n\n;During A Formal Introduction, Togo not present:\n:''\"I do not see Master Togo anywhere. No Togo, no entry. Was there something else you wanted to discuss?\"''\n\n;During A Formal Introduction, Togo present:\n:''\"What is it? The Minister is very busy and does not see anyone without an appointment.\"''\n\n;After A Formal Introduction:\n:''\"Are you going in or not? We really need all the help we can get in there. Well? What are you waiting for?\"''\n\n==Trivia==\n*Nicknamed \"Ol' Zui\" by [[Guard Tsukaro]]."
+}

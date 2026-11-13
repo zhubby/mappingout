@@ -1,0 +1,11 @@
+{
+  "title": "Elder Casta",
+  "pageid": 36216,
+  "revid": 2686939,
+  "revisedAt": "2023-05-17T09:06:49Z",
+  "sha1": "ca685694b75a4a76139fd7ec88dc799cb69f92c7",
+  "url": "https://wiki.guildwars.com/wiki/Elder_Casta",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Elder%20Casta&oldid=2686939",
+  "retrievedAt": "2026-11-13T02:14:56.193Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Luxon elder.jpg|120px]][[Image:Luxon necromancer.jpg|150px]]<br>Appearance in the outpost (left) and mission (right)\n| affiliation = Luxons\n| type = Human\n| level = 10, 20\n| profession = n\n| campaign = Factions\n}}\n[[Elder Casta]] is the elder of the [[Luxon]] [[Serpent Clan]], with [[Captain Lexis]] as the clan leader and [[Aurora]] as their champion.\n\n==Locations==\n*[[The Jade Sea]]\n**{{NPC location|Boreas Seabed|outpost}} (level 10)\n\n==Missions==\n*The Jade Sea\n**{{NPC location|Boreas Seabed}} (level 20)\n\n==Skills==\n*{{skill icon|Lingering Curse}} (elite)\n\n==Dialogue==\nIn the outpost and mission before defeating the three Champions:\n:''\"[[Zhu Hanuku]] was a legendary sea spirit until it first appeared two hundred years ago in jade flesh. Each year our strongest venture out to defeat him before he destroys the Mighty Armada. We show we are more powerful than the sea itself.\"''\n\nIn the mission after defeating the three Champions:\n:''\"Many Luxons will be angry, but you have earned the right to wield the spear, and none can question that. Do so with pride. When the [[Spear of Archemorus]] has reached its maximum degree of power, it can be used to interrupt Zhu Hanuku's spellcasting. Make sure it is fully infused before you challenge him directly.\"''\n\n==Notes==\n{{bug|In the outpost, Elder Casta uses a female [[skin]]; however, a male skin is used during the mission. This is similar to [[Elder Cleo]].}}"
+}

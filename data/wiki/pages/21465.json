@@ -1,0 +1,11 @@
+{
+  "title": "Zaishen Mage",
+  "pageid": 21465,
+  "revid": 2675996,
+  "revisedAt": "2021-11-17T23:39:17Z",
+  "sha1": "089582592f6d318af036e9a941afabf35a2a8ac9",
+  "url": "https://wiki.guildwars.com/wiki/Zaishen_Mage",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Zaishen%20Mage&oldid=2675996",
+  "retrievedAt": "2026-11-13T02:14:26.026Z",
+  "wikitext": "__NOTOC__{{NPC infobox \n| type = Human\n| image = [[Image:Kisai.jpg|150px]]\n| affiliation = Zaishen Order\n| profession = e\n| service = Henchman\n| level = 20\n| campaign = Core\n| campaign2 = Prophecies\n}}\n[[Zaishen Mage]]s are [[Elementalist]] Zaishen Henchmen found in [[PvP]] areas involving the [[Zaishen]]. They can also be found in the [[PvE]] outpost [[Tomb of the Primeval Kings]], since it used to be the lobby for the [[Heroes' Ascent]].\n\n==Locations==\n*[[Core]]\n**[[The Battle Isles]]\n***{{NPC location|Heroes' Ascent}} (one of the [[List of Zaishen Challenges henchmen|possible replacements]] if you enter a match with less than eight [[party]] members)\n***{{NPC location|Training Arena}} (if you enter with no other party members)\n***{{NPC location|Zaishen Challenge|outpost}}\n***{{NPC location|Zaishen Elite|outpost}}\n*[[Guild Wars Prophecies|Prophecies]]\n**[[Crystal Desert]]\n***{{NPC location|Tomb of the Primeval Kings}}\n\n==Skills==\n13 [[Fire Magic]]\n*{{skill icon|Aura of Restoration}}\n*{{skill icon|Fire Attunement}}\n*{{skill icon|Fire Storm}}\n*{{skill icon|Fireball}}\n*{{skill icon|Incendiary Bonds}}\n*{{skill icon|Mind Burn}}  ([[elite]])\n*{{skill icon|Resurrection Signet}}\n\n==Notes==\n{{bug|Uses Aura of Restoration instead of [[Aura of Restoration (PvP)]].}}\n\n==Trivia==\n*She shares the same model as [[Kisai]].\n\n{{Henchmen nav|Core|Prophecies}}\n[[Category:Elementalist henchmen]]\n[[Category:Core henchmen]]"
+}

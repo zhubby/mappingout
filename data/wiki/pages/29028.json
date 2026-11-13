@@ -1,0 +1,11 @@
+{
+  "title": "Stygian Fiend",
+  "pageid": 29028,
+  "revid": 2466065,
+  "revisedAt": "2012-03-24T20:51:46Z",
+  "sha1": "d35c7374c1f454228b22d09fe4476536ac287eb4",
+  "url": "https://wiki.guildwars.com/wiki/Stygian_Fiend",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Stygian%20Fiend&oldid=2466065",
+  "retrievedAt": "2026-11-13T02:15:39.627Z",
+  "wikitext": "__NOTOC__{{NPC infobox \n| affiliation = Domain of Anguish wildlife\n| type = Demon\n| profession = R\n| image = [[File:Bone Fiend.jpg|150px]]\n| level = 28 (30)\n| campaign = Nightfall\n}}\n[[Stygian Fiend]]s are enemies found in the [[Domain of Anguish]]. They look like larger [[Bone Fiend]]s, but are not [[minion]]s.\n\n==Locations==\n*[[Realm of Torment]]\n**[[Domain of Anguish]]\n***{{NPC location|Stygian Veil}}\n\n==Missions==\n*[[Realm of Torment]]\n**[[Domain of Anguish]]\n***{{NPC location|The Ebony Citadel of Mallyx}}\n\n==Skills==\n*{{skill icon|Choking Gas}}\n*{{skill icon|Concussion Shot}}\n*{{skill icon|Crippling Shot}} ([[elite]])\n*{{skill icon|Distracting Shot}}\n*{{skill icon|Lightning Reflexes}}\n*{{skill icon|Savage Shot}}\n*{{monster skill icon|Enraged}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = r\n| blunt = 100\n| piercing = 100\n| slashing = 100\n| cold = 130\n| earth = 130\n| fire = 130\n| lightning = 130\n}}\n\n==Items dropped==\n*[[Stygian Gemstone]]"
+}

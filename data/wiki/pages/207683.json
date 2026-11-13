@@ -1,0 +1,11 @@
+{
+  "title": "Preservation (PvP)",
+  "pageid": 207683,
+  "revid": 2675918,
+  "revisedAt": "2021-11-16T02:34:48Z",
+  "sha1": "af69030b9e8f345aa0d4157c0278953d06832e5d",
+  "url": "https://wiki.guildwars.com/wiki/Preservation_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Preservation%20(PvP)&oldid=2675918",
+  "retrievedAt": "2026-11-13T01:08:09.127Z",
+  "wikitext": "{{Pveversion|Preservation}}\n{{Skill infobox\n| name = Preservation (PvP)\n| id = 3011\n| campaign = Factions\n| profession = Ritualist\n| attribute = Restoration Magic\n| type = Binding Ritual\n| elite = y\n| energy = 5\n| activation = 3\n| recharge = 20\n| causes1 = Spirit\n| causes2 = Healing\n| description = [[Elite]] [[Binding Ritual]]. Create a level {{gr|1|10}} [[spirit]]. Every 4 seconds, this spirit [[heal]]s one non-spirit [[ally]] [[in the area]] for {{gr|10|115}} Health. This spirit dies after 90 seconds.\n| concise description = Elite Binding Ritual. Creates a level {{gr|1|10}} Spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{gr|10|115}}.\n| is-pvp = y\n| aoe = in the area\n}}\n\n{{Skill progression\n| attribute = [[Restoration Magic]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 10\n| var2 name = [[Heal]]ing\n| var2 at0 = 10\n| var2 at15 = 115}}\n\n== Notes ==\n* This skill creates a [[Spirit of Preservation]].\n* The spirit heals one random ally in the area, including allies with full health.\n* The healing is a passive effect; the spirit does not use any skills, so it cannot be [[interrupt]]ed; however, the healing will still trigger [[Scourge Healing]].\n\n== Trivia ==\n* The [[skill icon]] for this skill shows a figure holding a glowing [[w:Ankh|ankh]], the Egyptian symbol of life.\n\n[[Category:Skills that affect allies]]\n\n[[de:Erhaltung (PvP)]]"
+}

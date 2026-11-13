@@ -1,0 +1,11 @@
+{
+  "title": "Jiangpo",
+  "pageid": 88305,
+  "revid": 2711576,
+  "revisedAt": "2025-08-19T04:45:07Z",
+  "sha1": "83d5784e5da445710564df40229ce816f81c3da8",
+  "url": "https://wiki.guildwars.com/wiki/Jiangpo",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Jiangpo&oldid=2711576",
+  "retrievedAt": "2026-11-13T01:10:36.194Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Canthan peasant f red.jpg|150px]]\n| type = Human\n| affiliation = Canthans\n| service = Collector\n| level = 10\n| campaign = Factions\n| map1 = [[File: Jiangpo map.jpg|150px]]\n| map1-text = Location in Wajjun Bazaar\n| map2 = [[File:Wajjun Bazaar collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Jiangpo]] is a [[collector]], an NPC that trades [[trophy|trophies]] for armor or weapons.\n\n==Locations==\n*[[Kaineng City]]\n**{{NPC location|Wajjun Bazaar}}\n\n==Dialogue==\n:''\"Have you ever tried mantid pincer soup? Now, now, do not make that face unless you have tasted it. I know it sounds unappetizing, but it is actually quite a delicacy. I am looking for some pincers right now for a large batch I am going to make this evening. Perhaps you could help me out? If you bring me 5 Venerable Mantid Pincers, I will give you this in return:\"''\n\n{{collector no armor trade dialogue|Venerable Mantid Pincers}}\n\n==Collector items==\n{{:Jiangpo/Collector armor}}"
+}

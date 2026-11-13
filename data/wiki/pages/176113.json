@@ -1,0 +1,11 @@
+{
+  "title": "Signet of Spirits (PvP)",
+  "pageid": 176113,
+  "revid": 2729057,
+  "revisedAt": "2026-05-27T19:29:42Z",
+  "sha1": "749bcca38adbd2f34054fef3416cd10fd45cb947",
+  "url": "https://wiki.guildwars.com/wiki/Signet_of_Spirits_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Signet%20of%20Spirits%20(PvP)&oldid=2729057",
+  "retrievedAt": "2026-11-13T01:08:10.020Z",
+  "wikitext": "{{Pveversion|Signet of Spirits}}\n{{Skill infobox\n| name = Signet of Spirits (PvP)\n| id = 2965\n| campaign = Factions\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Signet\n| elite = y\n| activation = 1\n| recharge = 20\n| target = self\n| causes1 = Energy Gain\n| description = [[Elite]] [[Signet]]. You gain {{gr|3|12}} [[Energy]] if you are within [[earshot]] of a [[spirit]].\n| concise description = Elite Signet. You gain {{gr|3|12}} Energy. {{gray|No effect unless you are within earshot of a spirit.}}\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Channeling Magic]]\n| var1 name = [[Energy]] gain\n| var1 at0 = 3\n| var1 at15 = 12}}\n\n== Related skills ==\n* {{skill icon|Offering of Spirit}} ([[elite]])\n* {{skill icon|Signet of Creation}}\n* {{skill icon|Spirit Channeling}} (elite)\n* {{skill icon|Spirit Siphon}}\n\n== Notes ==\n* The main difference of this skill compared to its related elite counterparts is the fact that it is a [[signet]]. [[Offering of Spirit]] is a [[spell]] which has a faster activation time, grants more energy, and has a shorter recharge (especially if using weapons providing [[HCT]] and [[HSR]]), on top of that it also ensures energy gain even when not within earshot of a spirit. [[Spirit Channeling]] can return much more energy but is an [[enchantment]] and requires investment in [[Spawning Power]].\n* [[Spirit Siphon]] in particular, but also [[Signet of Creation]] and [[Boon of Creation]] (both in Spawning Power) are good, non-elite alternatives if your build uses several spirits.\n\n== Trivia ==\n* The functionality of this skill has changed since its introduction; see its [[Signet of Spirits/Skill history|PvE]] and [[Signet of Spirits (PvP)/Skill history|PvP]] skill revision history for details.\n\n[[de:Siegel der Geister (PvP)]]"
+}

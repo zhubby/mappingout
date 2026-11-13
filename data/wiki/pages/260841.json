@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Forgotten weapons",
+  "pageid": 260841,
+  "revid": 2097478,
+  "revisedAt": "2010-07-25T23:16:17Z",
+  "sha1": "1167c34d0f8bc8909d3568ae10fa2e22127c0568",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Forgotten_weapons",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Forgotten%20weapons&oldid=2097478",
+  "retrievedAt": "2026-11-13T02:27:38.163Z",
+  "wikitext": "<dpl>\n  category = *Forgotten weapons\n  notcategory = weapon types\n  allowcachedresults = true\n  format = <gallery>\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Weapon family galleries|Forgotten weapons]]\n[[Category:Forgotten weapons|+]]"
+}

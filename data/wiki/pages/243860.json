@@ -1,0 +1,11 @@
+{
+  "title": "Heal as One (PvP)",
+  "pageid": 243860,
+  "revid": 2655971,
+  "revisedAt": "2020-04-25T23:14:25Z",
+  "sha1": "570e2442d5db0802800aff463587b561144d1085",
+  "url": "https://wiki.guildwars.com/wiki/Heal_as_One_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Heal%20as%20One%20(PvP)&oldid=2655971",
+  "retrievedAt": "2026-11-13T01:08:08.213Z",
+  "wikitext": "{{pveversion|Heal as One}}\n{{Skill infobox\n| id = 3144\n| name = Heal as One (PvP)\n| campaign = Factions\n| profession = Ranger\n| attribute = Beast Mastery\n| type = Skill\n| elite = y\n| energy = 5\n| activation = 1\n| recharge = 8\n| special = Resurrection\n| causes1 = Healing\n| description = [[Elite]] [[Skill (skill type)|Skill]]. If you or your [[animal companion]] are below 75% [[Health]], you are both [[heal]]ed for {{gr|25|145}} Health. If your companion is dead, it is [[resurrection|resurrected]] with 50% Health.\n| concise description = Elite Skill. Heals you and your pet for {{gr|25|145}}. If your pet is dead, it is resurrected with 50% Health. {{gray|No effect if neither you nor your pet are below 75% Health.}} \n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Beast Mastery]]\n|var1 name = [[Heal]]ing\n|var1 at0 = 25\n|var1 at15 = 145}}\n\n== Related skills ==\n* {{skill icon|Comfort Animal (PvP)}}\n* {{skill icon|Companionship}}\n* {{skill icon|Revive Animal}}\n\n== Notes ==\n* Consider using this to replace both [[Troll Unguent]] and [[Comfort Animal (PvP)]], effectively saving a slot on your [[skill bar]].\n* This skill's [[range]] is somewhere beyond the [[compass]] edge.\n\n== Trivia ==\n* The woman in the [[skill icon]] appears to be the same one in the [[Predatory Bond]] icon.\n* This skill has changed since its introduction; see its [[Heal as One/Skill history|PvE]] and [[Heal as One (PvP)/Skill history|PvP]] skill histories for details.\n\n[[Category:Pet skills]]\n[[Category:Resurrection skills]]\n\n[[de:Gemeinsame Heilung (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Rocius",
+  "pageid": 103145,
+  "revid": 2599043,
+  "revisedAt": "2015-11-16T11:48:39Z",
+  "sha1": "1effcdc23821c6252aba7542951e66a50ac2cf2a",
+  "url": "https://wiki.guildwars.com/wiki/Rocius",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rocius&oldid=2599043",
+  "retrievedAt": "2026-11-13T02:14:26.030Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| name = Rocius\n| affiliation = Zaishen Order\n| image= [[File:Ghostly Hero.png|150px]]\n| type = Ghost\n| campaign = Prophecies\n| level = 20\n}}\n[[Rocius]] is a [[Priest of Balthazar]] without dialogue. \n\n==Locations==\n*[[Crystal Desert]]\n**{{NPC location|Tomb of the Primeval Kings}}\n\n==Notes==\n*This is the only Priest of Balthazar that doesn't use the model of a [[Zaishen Order|Zaishen]] priest, and the only one in a PvE area without competitive elements.\n{{bug|Rocius has no dialogue and the PvP unlock panel won't open, making it impossible to spend any [[Balthazar faction]].}}\n\n==Trivia==\n*Rocius was once a working priest, when Tomb of the Primeval Kings was an outpost for the Global Tournament. When that was moved to the [[Battle Isles]], the PvP oriented NPCs were removed, including Rocius. Later, a mistake in an update reintroduced all the PvP NPCs to Tombs, which was later rectified in another update, subsequently removing them. However, Rocius remained and has been a part of it since then."
+}

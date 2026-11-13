@@ -1,0 +1,6384 @@
+[
+  {
+    "id": "green:1:8906c0e24205649c",
+    "name": "加利戈德的石卷轴",
+    "campaign": 1,
+    "title": "Galigord's Stone Scroll",
+    "revid": 2707778,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "requirement": 9
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Galigord Stonestrike",
+        "revid": 2684428,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:6586604b40275bbe",
+    "name": "拉戈的火焰法杖",
+    "campaign": 1,
+    "title": "Rago's Flame Staff",
+    "revid": 2708378,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Rago Kindlerock",
+        "revid": 2466549,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:e0276fcd5a35d620",
+    "name": "拉戈的火焰魔杖",
+    "campaign": 1,
+    "title": "Rago's Flame Wand",
+    "revid": 2708154,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Rago Kindlerock",
+        "revid": 2466549,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:ae50d4b49342063f",
+    "name": "金德勒克",
+    "campaign": 1,
+    "title": "The Kindlerock",
+    "revid": 2622088,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "requirement": 9
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Rago Kindlerock",
+        "revid": 2466549,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:be0f7aefa53e8639",
+    "name": "鲁纳尔的硫磺法杖",
+    "campaign": 1,
+    "title": "Runar's Brimstone Staff",
+    "revid": 2708382,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Air Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Runar Brimstone",
+        "revid": 2684432,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:1f38c63d4b520970",
+    "name": "布罗恩的圣杖",
+    "campaign": 1,
+    "title": "Brohn's Holy Rod",
+    "revid": 2622051,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Healing Prayers",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Brohn Stoneheart",
+        "revid": 2684430,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:65da6e62b2695c3d",
+    "name": "艾弗的图标",
+    "campaign": 1,
+    "title": "Ivor's Icon",
+    "revid": 2723548,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Divine Favor",
+      "requirement": 9
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Ivor Helmhewer",
+        "revid": 2634438,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:0a1299c07d0b049c",
+    "name": "维尔纳尔的法杖",
+    "campaign": 1,
+    "title": "Villnar's Staff",
+    "revid": 2694303,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Curses",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Villnar Painforge",
+        "revid": 2684433,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:89e35c9c447f62e1",
+    "name": "食人魔屠刀",
+    "campaign": 1,
+    "title": "Ogre-Slaying Knife",
+    "revid": 2598378,
+    "classification": "unique-weapon",
+    "profile": {
+      "damage": "1-4"
+    },
+    "mismatches": [
+      "type",
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "The Darkness (boss)",
+        "revid": 2737555,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:5b38e6c1def5e126",
+    "name": "旋翼反曲弓",
+    "campaign": 1,
+    "title": "Rotwing Recurve Bow",
+    "revid": 2710962,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Rotscale",
+        "revid": 2717713,
+        "type": "npc"
+      },
+      {
+        "title": "Rotting Dragon",
+        "revid": 2571103,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:748aa615c7ffeca9",
+    "name": "夏尔包",
+    "campaign": 1,
+    "title": "Charr Bag",
+    "revid": 2730535,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Blaze Bloodbane",
+        "revid": 2413688,
+        "type": "npc"
+      },
+      {
+        "title": "Red Eye the Unholy",
+        "revid": 2413739,
+        "type": "npc"
+      },
+      {
+        "title": "Ghast Ashpyre",
+        "revid": 2642586,
+        "type": "npc"
+      },
+      {
+        "title": "Jaw Smokeskin",
+        "revid": 2700748,
+        "type": "npc"
+      },
+      {
+        "title": "Charr Patrol Leader",
+        "revid": 2727232,
+        "type": "npc"
+      },
+      {
+        "title": "Wyle Brimscourge",
+        "revid": 2740717,
+        "type": "npc"
+      },
+      {
+        "title": "Maz Scourgeheart",
+        "revid": 2741398,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:1:8c5c9f712b06ef37",
+    "name": "夏尔打捞套件",
+    "campaign": 1,
+    "title": "Charr Salvage Kit",
+    "revid": 2741961,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Blaze Bloodbane",
+        "revid": 2413688,
+        "type": "npc"
+      },
+      {
+        "title": "Red Eye the Unholy",
+        "revid": 2413739,
+        "type": "npc"
+      },
+      {
+        "title": "Ghast Ashpyre",
+        "revid": 2642586,
+        "type": "npc"
+      },
+      {
+        "title": "Jaw Smokeskin",
+        "revid": 2700748,
+        "type": "npc"
+      },
+      {
+        "title": "Charr Patrol Leader",
+        "revid": 2727232,
+        "type": "npc"
+      },
+      {
+        "title": "Wyle Brimscourge",
+        "revid": 2740717,
+        "type": "npc"
+      },
+      {
+        "title": "Maz Scourgeheart",
+        "revid": 2741398,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:c65eba6d6e1714fd",
+    "name": "裴氏之刃",
+    "campaign": 2,
+    "title": "Pei's Blades",
+    "revid": 2712410,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Dagger Mastery",
+      "requirement": 5,
+      "damage": "5-10"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Pei the Skull Blade",
+        "revid": 2697758,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:f528bb16255bf9e7",
+    "name": "塔卡云的钳子",
+    "campaign": 2,
+    "title": "Tahkayun's Pincers",
+    "revid": 2712415,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Dagger Mastery",
+      "requirement": 5,
+      "damage": "5-10"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Tahkayun Tsi",
+        "revid": 2554978,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:5943a5b045b15ea3",
+    "name": "奥里的魔杖",
+    "campaign": 2,
+    "title": "Auri's Wand",
+    "revid": 2712388,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Air Magic",
+      "requirement": 5,
+      "damage": "7-11"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Auri the Skull Wand",
+        "revid": 2697754,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:b7f0eb3b65008870",
+    "name": "三汉的法杖",
+    "campaign": 2,
+    "title": "Sanhan's Staff",
+    "revid": 2712781,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Earth Magic",
+      "requirement": 6,
+      "damage": "8-13"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Sanhan Tall Earth",
+        "revid": 2602114,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:97d9c1f3095978d6",
+    "name": "巴佐的魔杖",
+    "campaign": 2,
+    "title": "Baozo's Wand",
+    "revid": 2556460,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Domination Magic",
+      "requirement": 6,
+      "damage": "8-13"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Baozo Evilbranch",
+        "revid": 2550517,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:c8b0f8b884b5d83d",
+    "name": "苏尔蒙的法杖",
+    "campaign": 2,
+    "title": "Sulmeng's Staff",
+    "revid": 2712414,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Illusion Magic",
+      "requirement": 5,
+      "damage": "7-11"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Sulmeng the Skull Staff",
+        "revid": 2697789,
+        "type": "npc"
+      },
+      {
+        "title": "Chae Plan",
+        "revid": 2564064,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:03cfaddbe8f262bf",
+    "name": "冯的焦点",
+    "campaign": 2,
+    "title": "Feng's Focus",
+    "revid": 2712390,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Divine Favor",
+      "requirement": 4
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Feng the Skull Symbol",
+        "revid": 2697752,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:8bfb346b6e808d1a",
+    "name": "Ziinjuu 的庇护所",
+    "campaign": 2,
+    "title": "Ziinjuu's Sanctuary",
+    "revid": 2712423,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Smiting Prayers",
+      "requirement": 5,
+      "damage": "7-10"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Ziinjuu Life Crawler",
+        "revid": 2703527,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:176c0db47ac899a6",
+    "name": "死亡守护者",
+    "campaign": 2,
+    "title": "The Deathkeeper",
+    "revid": 2707474,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Death Magic",
+      "requirement": 5,
+      "damage": "7-10"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Yunlai Deathkeeper",
+        "revid": 2616471,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:e569ad638ec7d09b",
+    "name": "莺歌之爪",
+    "campaign": 2,
+    "title": "Yingko's Claw",
+    "revid": 2708189,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Curses",
+      "requirement": 5,
+      "damage": "7-11"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Yingko the Skull Claw",
+        "revid": 2134461,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:c71b2baa21bfeea9",
+    "name": "阿瓦哈的长弓",
+    "campaign": 2,
+    "title": "Ahvha's Longbow",
+    "revid": 2710967,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Marksmanship",
+      "requirement": 6,
+      "damage": "11-17"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Ahvha Sankii",
+        "revid": 2361938,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:690afdad8a7bc400",
+    "name": "金的角弓",
+    "campaign": 2,
+    "title": "Jin's Hornbow",
+    "revid": 2712405,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Marksmanship",
+      "requirement": 5,
+      "damage": "10-16"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Jin the Skull Bow",
+        "revid": 2697767,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:e9002a201a709860",
+    "name": "三木的法杖",
+    "campaign": 2,
+    "title": "Miki's Staff",
+    "revid": 2712408,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Channeling Magic",
+      "requirement": 5,
+      "damage": "8-13"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Miki the Skull Spirit",
+        "revid": 2584383,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:d5df0a1315d49d31",
+    "name": "天岛法杖",
+    "campaign": 2,
+    "title": "Tin Dao's Staff",
+    "revid": 2712421,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Channeling Magic",
+      "requirement": 6,
+      "damage": "8-13"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Tin Dao Kaineng",
+        "revid": 2677432,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:c4f4b3b8d794cf86",
+    "name": "曹伟的斧头",
+    "campaign": 2,
+    "title": "Cho Wei's Axe",
+    "revid": 2708462,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Axe Mastery",
+      "requirement": 5,
+      "damage": "6-15"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Cho Wei the Skull Axe",
+        "revid": 2710213,
+        "type": "npc"
+      },
+      {
+        "title": "Captain Quimang",
+        "revid": 2621806,
+        "type": "npc"
+      },
+      {
+        "title": "Pah Pei",
+        "revid": 2564063,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:fcc7c90bfa824780",
+    "name": "韩九的大棒槌",
+    "campaign": 2,
+    "title": "Hanjuu's Bludgeoner",
+    "revid": 2712399,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Hammer Mastery",
+      "requirement": 6,
+      "damage": "13-19"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Hanjuu Towerfist",
+        "revid": 2495804,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:b751480664fc8182",
+    "name": "高岭土统治法杖",
+    "campaign": 2,
+    "title": "Kaolin Domination Staff",
+    "revid": 2712769,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Domination Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mesmer's Construct",
+        "revid": 2679098,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:e804e4646c7f64b0",
+    "name": "菲的智慧",
+    "campaign": 2,
+    "title": "Phi's Wisdom",
+    "revid": 2677854,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Domination Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arcane Ancient Phi",
+        "revid": 2622009,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:075b1d1a6296b4e6",
+    "name": "天灾风的分支",
+    "campaign": 2,
+    "title": "Scourgewind's Branch",
+    "revid": 2712768,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Smiting Prayers",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Scourgewind, Elder Guardian",
+        "revid": 2361801,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:b1714392c1f64ee8",
+    "name": "莱弗的短弓",
+    "campaign": 2,
+    "title": "Ryver's Shortbow",
+    "revid": 2710995,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Ryver Mossplanter",
+        "revid": 2742236,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:eb34931656a9d9ca",
+    "name": "凯的剑",
+    "campaign": 2,
+    "title": "Kai's Sword",
+    "revid": 2714438,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Sword Ancient Kai",
+        "revid": 2622007,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:dc73574b27cce1e5",
+    "name": "高岭土刀片",
+    "campaign": 2,
+    "title": "Kaolin Blade",
+    "revid": 2714440,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Warrior's Construct",
+        "revid": 2741225,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:77546212a5a117f4",
+    "name": "Ky 的圣杯",
+    "campaign": 2,
+    "title": "Ky's Chalice",
+    "revid": 2708252,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Divine Favor",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Untouched Ancient Ky",
+        "revid": 2621933,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:73dce83b82f1988b",
+    "name": "钟的焦点",
+    "campaign": 2,
+    "title": "Chung's Focus",
+    "revid": 2708209,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Energy Storage",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chung, the Attuned",
+        "revid": 2721293,
+        "type": "npc"
+      },
+      {
+        "title": "Lale the Vindictive",
+        "revid": 2683868,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:dec022ca306f3fd0",
+    "name": "高岭土长弓",
+    "campaign": 2,
+    "title": "Kaolin Longbow",
+    "revid": 2711193,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Ranger's Construct",
+        "revid": 2741267,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:ff58ce8148e907c1",
+    "name": "布尔内的反曲弓",
+    "campaign": 2,
+    "title": "Brrne's Recurve Bow",
+    "revid": 2728071,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Famished Ancient Brrne",
+        "revid": 2621949,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:dc453c19458eeb1c",
+    "name": "高岭土防护人员",
+    "campaign": 2,
+    "title": "Kaolin Protection Staff",
+    "revid": 2499181,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Divine Favor",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Monk's Construct",
+        "revid": 2741268,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:0b082d7efcb7de54",
+    "name": "高岭土诅咒法杖",
+    "campaign": 2,
+    "title": "Kaolin Accursed Staff",
+    "revid": 2708353,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Curses",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Necromancer's Construct",
+        "revid": 2726108,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:a91a1dcd3ec75531",
+    "name": "克拉兹的放纵",
+    "campaign": 2,
+    "title": "Kkraz's Indulgence",
+    "revid": 2499189,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Soul Reaping",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Doomed Ancient Kkraz",
+        "revid": 2621934,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:3f8f1bd5f75d4615",
+    "name": "捕风者",
+    "campaign": 2,
+    "title": "The Windcatcher",
+    "revid": 2708300,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Energy Storage",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Rahse Windcatcher",
+        "revid": 2278368,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:d88bbf6d1cc73a00",
+    "name": "酷顺的消防法杖",
+    "campaign": 2,
+    "title": "Koosun's Fire Staff",
+    "revid": 2708360,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Fire Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Star Ancient Koosun",
+        "revid": 2622010,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:9603dec74c57823d",
+    "name": "高岭土水杖",
+    "campaign": 2,
+    "title": "Kaolin Water Staff",
+    "revid": 2712775,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Water Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Elemental's Construct",
+        "revid": 2679099,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:1aeed0cded82299e",
+    "name": "高岭土匕首",
+    "campaign": 2,
+    "title": "Kaolin Daggers",
+    "revid": 2710365,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "daggers",
+      "attribute": "Dagger Mastery",
+      "requirement": 9,
+      "damage": "7-17"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Assassin's Construct",
+        "revid": 2679094,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:3c364a77b07cef9a",
+    "name": "奥纳塔的碎片",
+    "campaign": 2,
+    "title": "Onata's Shards",
+    "revid": 2710374,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "daggers",
+      "attribute": "Dagger Mastery",
+      "requirement": 9,
+      "damage": "7-17"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Silent Ancient Onata",
+        "revid": 2595934,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:02c896811227cecb",
+    "name": "瑟尔的愿望",
+    "campaign": 2,
+    "title": "Sseer's Wish",
+    "revid": 2415891,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Communing",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Defiant Ancient Sseer",
+        "revid": 2572520,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:30fb79a63904377e",
+    "name": "高岭土魔杖",
+    "campaign": 2,
+    "title": "Kaolin Wand",
+    "revid": 2708131,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Spawning Power",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Ritualist's Construct",
+        "revid": 2726111,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:2:435dcf1ab189b3df",
+    "name": "卡纳西的斧头",
+    "campaign": 2,
+    "title": "Kanaxai's Axe",
+    "revid": 2708471,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "axe",
+      "attribute": "Axe Mastery",
+      "requirement": 9,
+      "damage": "6-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:2:1008af6fe029476e",
+    "name": "卡纳西的边缘",
+    "campaign": 2,
+    "title": "Kanaxai's Edge",
+    "revid": 2714439,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:2:9a53eb80a432c670",
+    "name": "卡纳赛的木槌",
+    "campaign": 2,
+    "title": "Kanaxai's Mallet",
+    "revid": 2708527,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:2:86fc5d7f6bf67c13",
+    "name": "乌尔戈兹的平弓",
+    "campaign": 2,
+    "title": "Urgoz's Flatbow",
+    "revid": 2710549,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:2:addc5df0dd8f4099",
+    "name": "乌尔戈兹的长弓",
+    "campaign": 2,
+    "title": "Urgoz's Longbow",
+    "revid": 2710985,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:2:d26e3b0058c5e93b",
+    "name": "乌尔戈兹的短弓",
+    "campaign": 2,
+    "title": "Urgoz's Shortbow",
+    "revid": 2711001,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:3:2988799f0e03579e",
+    "name": "被遗忘者的法杖",
+    "campaign": 3,
+    "title": "Staff of the Forgotten (unique)",
+    "revid": 2708392,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type",
+      "attribute"
+    ],
+    "sources": []
+  },
+  {
+    "id": "green:3:56eb0a1b7d868a9e",
+    "name": "金野猪权杖",
+    "campaign": 3,
+    "title": "Golden Boar Scepter",
+    "revid": 2708123,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": []
+  },
+  {
+    "id": "green:3:19f836bc4926fdf3",
+    "name": "拉赫蒂的法杖",
+    "campaign": 3,
+    "title": "Rahti's Staff",
+    "revid": 2712412,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Illusion Magic",
+      "requirement": 4,
+      "damage": "7-10"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Rahti, Flower of Dread",
+        "revid": 2711693,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:94248ebdf2f61add",
+    "name": "头脑云者",
+    "campaign": 3,
+    "title": "The Mindclouder",
+    "revid": 2707974,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Illusion Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Eshim Mindclouder",
+        "revid": 2361761,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:86360377185d4723",
+    "name": "被遗忘者的勇气",
+    "campaign": 3,
+    "title": "Courage of the Forgotten",
+    "revid": 2711058,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:3:fb1e26f79c8c23a1",
+    "name": "以绍的矛",
+    "campaign": 3,
+    "title": "Eshau's Spear",
+    "revid": 2711060,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Eshau Longspear",
+        "revid": 2588412,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:5c384d75dd24c59e",
+    "name": "被遗忘者的祈祷",
+    "campaign": 3,
+    "title": "Prayer of the Forgotten",
+    "revid": 2711069,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:3:cc9652e27af6fd51",
+    "name": "沙克尔之矛",
+    "campaign": 3,
+    "title": "Shakor's Spear",
+    "revid": 2711071,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Shakor Firespear",
+        "revid": 2704172,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:783dd576d592a8dc",
+    "name": "被遗忘者的灵魂",
+    "campaign": 3,
+    "title": "Spirit of the Forgotten",
+    "revid": 2736400,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:3:809c24571b05e7f6",
+    "name": "哈辛的贝壳",
+    "campaign": 3,
+    "title": "Hassin's Shell",
+    "revid": 2712417,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "No Attribute"
+    },
+    "mismatches": [
+      "type",
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Hassin Softskin",
+        "revid": 2719692,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:e2b61d1f8d24aebc",
+    "name": "埃梅朱的长弓",
+    "campaign": 3,
+    "title": "Emeju's Longbow",
+    "revid": 2712386,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Marksmanship",
+      "requirement": 6,
+      "damage": "12-21"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Emeju Longlegs",
+        "revid": 2721295,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:b7e55b00d5b8b9b3",
+    "name": "莫罗布的斧头",
+    "campaign": 3,
+    "title": "Morrob's Axe",
+    "revid": 2708473,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Axe Mastery",
+      "requirement": 5,
+      "damage": "7-20"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Bloodback Morrob",
+        "revid": 2134535,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:8679019e5359b6f0",
+    "name": "风刃",
+    "campaign": 3,
+    "title": "The Windcutter",
+    "revid": 2708454,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Swordsmanship",
+      "requirement": 5,
+      "damage": "11-15"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Gedoss Windcutter",
+        "revid": 2738149,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:d79920730d1942b4",
+    "name": "破石者",
+    "campaign": 3,
+    "title": "The Rockbreaker",
+    "revid": 2721202,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "10-15"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Tarom Rockbreaker",
+        "revid": 2719694,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:a45c70389cc4ec72",
+    "name": "被遗忘的剑",
+    "campaign": 3,
+    "title": "Forgotten Sword",
+    "revid": 2714432,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:3:1f347f5799aceabd",
+    "name": "昂拉领主的剑",
+    "campaign": 3,
+    "title": "Lord Onrah's Sword",
+    "revid": 2712407,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Swordsmanship",
+      "requirement": 4,
+      "damage": "10-13"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Dread Lord Onrah",
+        "revid": 2738151,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:3299ec1576bcb900",
+    "name": "哈乔克棱镜",
+    "campaign": 3,
+    "title": "Hajok's Prism",
+    "revid": 2708231,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Earth Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hajok Earthguardian (Insect)",
+        "revid": 2702942,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:a19be967a833ea97",
+    "name": "亚米龙的焦点",
+    "campaign": 3,
+    "title": "Yammiron's Focus",
+    "revid": 2708304,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Domination Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Yammiron, Ether Lord",
+        "revid": 2475862,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:b26163d582c64d9a",
+    "name": "费弗博恩法杖",
+    "campaign": 3,
+    "title": "Fervorborn Staff",
+    "revid": 2708334,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Smiting Prayers",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Flame of Fervor",
+        "revid": 2466082,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:df1d05231e021c75",
+    "name": "萨迪的祝福",
+    "campaign": 3,
+    "title": "Sadi's Benediction",
+    "revid": 2736986,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Protection Prayers",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Commander Sadi-Belai",
+        "revid": 2321252,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:b4039e838c89f050",
+    "name": "生命赐予者",
+    "campaign": 3,
+    "title": "The Lifegiver",
+    "revid": 2712424,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Smiting Prayers",
+      "requirement": 4,
+      "damage": "8-12"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Chineh Soaring Light",
+        "revid": 2232254,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:f143a624beb2026c",
+    "name": "贝赫巴的利爪",
+    "campaign": 3,
+    "title": "Behba's Talon",
+    "revid": 2712389,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Scythe Mastery",
+      "requirement": 4,
+      "damage": "9-21"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Behba the Hardheaded",
+        "revid": 2723143,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:b646d57f4486061d",
+    "name": "遗忘者之爪",
+    "campaign": 3,
+    "title": "Claw of the Forgotten",
+    "revid": 2711009,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:3:3af8b18e8a848015",
+    "name": "被遗忘者之眼",
+    "campaign": 3,
+    "title": "Eyes of the Forgotten",
+    "revid": 2711019,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:3:930df11e5a7e724d",
+    "name": "被遗忘者之手",
+    "campaign": 3,
+    "title": "Hand of the Forgotten",
+    "revid": 2711022,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:3:5ca2c5d9465a2d3c",
+    "name": "科尔马布棱镜",
+    "campaign": 3,
+    "title": "Kormab's Prism",
+    "revid": 2708247,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Fire Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Kormab, Burning Heart",
+        "revid": 2702789,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:413b43ac75e896d3",
+    "name": "博赫达比尖塔",
+    "campaign": 3,
+    "title": "Bohdabi's Spire",
+    "revid": 2708316,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Death Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Bohdabi the Destructive",
+        "revid": 1815609,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:67b7991a5ff5b2e9",
+    "name": "谢尔克的妖术吞噬者",
+    "campaign": 3,
+    "title": "Shelkeh's Hex Eater",
+    "revid": 2709180,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Domination Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Shelkeh the Hungry",
+        "revid": 2378420,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:e6f7aaf502979d97",
+    "name": "绝望法杖",
+    "campaign": 3,
+    "title": "Staff of Despair",
+    "revid": 2708390,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Domination Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Vision of Despair",
+        "revid": 2466083,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:37b82e170ddfe69c",
+    "name": "博赫达尔兹之怒",
+    "campaign": 3,
+    "title": "Bohdalz's Fury",
+    "revid": 2708318,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Channeling Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Bohdalz the Furious",
+        "revid": 2646874,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:e32056fad9419555",
+    "name": "阿莱姆的补救措施",
+    "campaign": 3,
+    "title": "Alem's Remedy",
+    "revid": 2708994,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Restoration Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Alem the Unclean",
+        "revid": 1454211,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:fa454cf0e407a26c",
+    "name": "马里克斯的边缘",
+    "campaign": 3,
+    "title": "Mallyx's Edge",
+    "revid": 2714442,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:eebec7f81ee992b9",
+    "name": "马里克斯的神性",
+    "campaign": 3,
+    "title": "Mallyx's Divinity",
+    "revid": 2708257,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Divine Favor",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:9edbcdb63fe03ea0",
+    "name": "马里克斯的防御",
+    "campaign": 3,
+    "title": "Mallyx's Defense",
+    "revid": 2711141,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Tactics",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:05944423cd086e98",
+    "name": "马里克斯的残酷",
+    "campaign": 3,
+    "title": "Mallyx's Cruelty",
+    "revid": 2711065,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:600173deb7c50941",
+    "name": "马里克斯的创造",
+    "campaign": 3,
+    "title": "Mallyx's Creation",
+    "revid": 2708256,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Spawning Power",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:83460ac1b2611acd",
+    "name": "马里克斯的勇气",
+    "campaign": 3,
+    "title": "Mallyx's Courage",
+    "revid": 2711120,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Strength",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:5c11ac67e9d0e4c5",
+    "name": "马里克斯之槌",
+    "campaign": 3,
+    "title": "Mallyx's Maul",
+    "revid": 2708530,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:bd0c600743edce8b",
+    "name": "马里克斯的耐力",
+    "campaign": 3,
+    "title": "Mallyx's Endurance",
+    "revid": 2708137,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Energy Storage",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:aa282f229e695d00",
+    "name": "马里克斯的信仰",
+    "campaign": 3,
+    "title": "Mallyx's Faith",
+    "revid": 2708138,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Divine Favor",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:6f4404548344ea4a",
+    "name": "马里克斯的仇恨",
+    "campaign": 3,
+    "title": "Mallyx's Hatred",
+    "revid": 2711026,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:e48caa925196c567",
+    "name": "马里克斯的灵感",
+    "campaign": 3,
+    "title": "Mallyx's Inspiration",
+    "revid": 2708258,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Inspiration Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:e8ebd2982495b4f9",
+    "name": "马里克斯的长弓",
+    "campaign": 3,
+    "title": "Mallyx's Longbow",
+    "revid": 2710982,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:75614a074bb24dcf",
+    "name": "马里克斯的制作",
+    "campaign": 3,
+    "title": "Mallyx's Making",
+    "revid": 2708139,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Spawning Power",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:f8bc9332be652b47",
+    "name": "马里克斯的恶意",
+    "campaign": 3,
+    "title": "Mallyx's Malice",
+    "revid": 2708140,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Soul Reaping",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:016f3be0aa471a14",
+    "name": "马里克斯的激励",
+    "campaign": 3,
+    "title": "Mallyx's Motivation",
+    "revid": 2711166,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Motivation",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:882e53692c647772",
+    "name": "马里克斯的永恒",
+    "campaign": 3,
+    "title": "Mallyx's Perpetuity",
+    "revid": 2708259,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Energy Storage",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:3eda65cfa7df8058",
+    "name": "马里克斯的掠夺者",
+    "campaign": 3,
+    "title": "Mallyx's Reaver",
+    "revid": 2708472,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "axe",
+      "attribute": "Axe Mastery",
+      "requirement": 9,
+      "damage": "6-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:886b184ab60b3030",
+    "name": "马里克斯的反曲弓",
+    "campaign": 3,
+    "title": "Mallyx's Recurve Bow",
+    "revid": 2710957,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:8ac87cca75f719e1",
+    "name": "马里克斯的野蛮",
+    "campaign": 3,
+    "title": "Mallyx's Savagery",
+    "revid": 2711030,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:14f70f61316df737",
+    "name": "马里克斯的怨恨",
+    "campaign": 3,
+    "title": "Mallyx's Spite",
+    "revid": 2708260,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Soul Reaping",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:216268176c20d21a",
+    "name": "马里克斯的纷争",
+    "campaign": 3,
+    "title": "Mallyx's Strife",
+    "revid": 2711066,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:84591eb04133dca6",
+    "name": "马里克斯的至高无上",
+    "campaign": 3,
+    "title": "Mallyx's Supremacy",
+    "revid": 2711158,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Command",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:541b01072f8b65ac",
+    "name": "马里克斯的突发奇想",
+    "campaign": 3,
+    "title": "Mallyx's Whim",
+    "revid": 2708141,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Inspiration Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:8fa2c58019646a0d",
+    "name": "马里克斯的热情",
+    "campaign": 3,
+    "title": "Mallyx's Zeal",
+    "revid": 2710414,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "daggers",
+      "attribute": "Dagger Mastery",
+      "requirement": 9,
+      "damage": "7-17"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Citadel Chest",
+        "revid": 1997149,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:3:5c47ffd7a7ca54fe",
+    "name": "海奥斯的祝福",
+    "campaign": 3,
+    "title": "Haioss' Blessing",
+    "revid": 2712393,
+    "classification": "unique-weapon",
+    "profile": {
+      "attribute": "Scythe Mastery",
+      "requirement": 6,
+      "damage": "9-29"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Haioss, Blessed Wind",
+        "revid": 2575647,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:46246ffd0cbc029a",
+    "name": "斯泰吉亚防御者",
+    "campaign": 3,
+    "title": "Stygian Defender",
+    "revid": 2736808,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Command",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Stygian Lord (monk)",
+        "revid": 2712962,
+        "type": "npc"
+      },
+      {
+        "title": "Stygian Lord (elementalist)",
+        "revid": 2268561,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:31c63156bedeb887",
+    "name": "斯泰吉亚矛",
+    "campaign": 3,
+    "title": "Stygian Spear",
+    "revid": 2711076,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Stygian Lord (mesmer)",
+        "revid": 2712964,
+        "type": "npc"
+      },
+      {
+        "title": "Stygian Lord (monk)",
+        "revid": 2712962,
+        "type": "npc"
+      },
+      {
+        "title": "Stygian Lord (necromancer)",
+        "revid": 2712963,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:23118eb49776ad92",
+    "name": "斯泰吉亚神盾",
+    "campaign": 3,
+    "title": "Stygian Aegis",
+    "revid": 2736810,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Motivation",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Stygian Lord (mesmer)",
+        "revid": 2712964,
+        "type": "npc"
+      },
+      {
+        "title": "Stygian Lord (necromancer)",
+        "revid": 2712963,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:95bfc51ba2086090",
+    "name": "灵感幽灵法杖",
+    "campaign": 3,
+    "title": "Inspired Ghostly Staff",
+    "revid": 2708348,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Inspiration Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "The Fury",
+        "revid": 2712965,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:a708afaf1df8d059",
+    "name": "永恒的幽灵法杖",
+    "campaign": 3,
+    "title": "Everlasting Ghostly Staff",
+    "revid": 2708329,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Energy Storage",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "The Fury",
+        "revid": 2712965,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:6d89cf3253d28917",
+    "name": "神鬼杖",
+    "campaign": 3,
+    "title": "Divine Ghostly Staff",
+    "revid": 2708323,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Divine Favor",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "The Fury",
+        "revid": 2712965,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:f005a8c0a161711f",
+    "name": "严峻的幽灵法杖",
+    "campaign": 3,
+    "title": "Grim Ghostly Staff",
+    "revid": 2708340,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Soul Reaping",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "The Fury",
+        "revid": 2712965,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:3:e5f4a115e258d271",
+    "name": "仪式鬼杖",
+    "campaign": 3,
+    "title": "Ritualistic Ghostly Staff",
+    "revid": 2708380,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Spawning Power",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "The Fury",
+        "revid": 2712965,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:c5e66b7fd2c430a9",
+    "name": "耶梦刚德的雷霆",
+    "campaign": 4,
+    "title": "Jormungand's Thunder",
+    "revid": 2708526,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Jormungand",
+        "revid": 2602225,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:7d2051d309323cdd",
+    "name": "千熊俱乐部（武器）",
+    "campaign": 4,
+    "title": "Club of a Thousand Bears (weapon)",
+    "revid": 2624380,
+    "classification": "variable-weapon",
+    "profile": {
+      "damage": "15-15"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Bear Club for Women",
+        "revid": 2662213,
+        "type": "quest"
+      },
+      {
+        "title": "Bear Club for Men",
+        "revid": 2728568,
+        "type": "quest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:ae07a6a704693b83",
+    "name": "尼夫林的法杖",
+    "campaign": 4,
+    "title": "Nifling's Staff",
+    "revid": 2708374,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Smiting Prayers",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Nifling the Chained",
+        "revid": 2709885,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:4cdc69b68268e152",
+    "name": "地缚法杖",
+    "campaign": 4,
+    "title": "Earthbound Staff",
+    "revid": 2713605,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Inspiration Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:f74e3e2e3153f2a9",
+    "name": "格温的长笛",
+    "campaign": 4,
+    "title": "Gwen's Flute (unique)",
+    "revid": 2708230,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Inspiration Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:17ef09fbda321e3b",
+    "name": "玫瑰焦点",
+    "campaign": 4,
+    "title": "Rose Focus",
+    "revid": 2634098,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Fast Casting",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:9f4ec0c5429741b8",
+    "name": "爱迪尔的焦点",
+    "campaign": 4,
+    "title": "Edielh's Focus",
+    "revid": 2708218,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Air Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Edielh Shockhunter",
+        "revid": 2306804,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:c62907e07d70f734",
+    "name": "雷拳的指节铜套",
+    "campaign": 4,
+    "title": "Thunderfist's Brass Knuckles",
+    "revid": 2648993,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "The Throwdown in a Norn Town",
+        "revid": 2595115,
+        "type": "quest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:900296d30577e97b",
+    "name": "野牛杯",
+    "campaign": 4,
+    "title": "The Bison Cup",
+    "revid": 2691273,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Final Round: Fight!",
+        "revid": 2595113,
+        "type": "quest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:aabb362be5ced9d0",
+    "name": "泽图卡的号角",
+    "campaign": 4,
+    "title": "Zehtuka's Horn",
+    "revid": 2708305,
+    "classification": "unique-weapon",
+    "profile": {},
+    "mismatches": [
+      "type",
+      "attribute"
+    ],
+    "sources": []
+  },
+  {
+    "id": "green:4:807c63a0e47956d7",
+    "name": "布雷迪斯的法杖",
+    "campaign": 4,
+    "title": "Bredyss' Staff",
+    "revid": 2708320,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Curses",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Bredyss Longstride",
+        "revid": 2646676,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:86d1a90ab97c3cb0",
+    "name": "剥颅者",
+    "campaign": 4,
+    "title": "The Skullflayer",
+    "revid": 2707978,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Illusion Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Waray Skullflayer",
+        "revid": 2659090,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:238e838fbbc53a8b",
+    "name": "克尔什的法杖",
+    "campaign": 4,
+    "title": "Kerrsh's Staff",
+    "revid": 2708358,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "The Path to Revelations",
+        "revid": 2728556,
+        "type": "quest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:f53e6e76568ab727",
+    "name": "护翼者",
+    "campaign": 4,
+    "title": "The Wingshielder",
+    "revid": 2707983,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Healing Prayers",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Horai Wingshielder",
+        "revid": 2562767,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:eaa1ba3526258908",
+    "name": "噬血者",
+    "campaign": 4,
+    "title": "The Bloodburner",
+    "revid": 2707969,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Blood Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Katye Bloodburner",
+        "revid": 2562759,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:446cd3ee2498a9bd",
+    "name": "骗子",
+    "campaign": 4,
+    "title": "The Trickster",
+    "revid": 2707982,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Domination Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Anmat the Trickster",
+        "revid": 2267438,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:97e16f57d250c735",
+    "name": "泡树皮的法杖",
+    "campaign": 4,
+    "title": "Blisterbark's Staff",
+    "revid": 2708314,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Fire Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Borrguus Blisterbark",
+        "revid": 2601151,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:6f30fb1f2b5e4dfc",
+    "name": "德里卡德之杖",
+    "campaign": 4,
+    "title": "Drikard's Rod",
+    "revid": 2708115,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Water Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Drikard the Foggy",
+        "revid": 2070482,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:2022ebceb043e8e9",
+    "name": "雷吼",
+    "campaign": 4,
+    "title": "The Thundermaw",
+    "revid": 2707981,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Air Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Thraexis Thundermaw",
+        "revid": 2299273,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:f4736adc14a49f41",
+    "name": "昆虫镰刀(稀有)",
+    "campaign": 4,
+    "title": "Insectoid Scythe",
+    "revid": 2418476,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:f79756c1e977e62f",
+    "name": "昆虫法杖",
+    "campaign": 4,
+    "title": "Insectoid Staff",
+    "revid": 2562687,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:0053c7cd106f523f",
+    "name": "螳螂战斗仿旗",
+    "campaign": 4,
+    "title": "Mantis Dreamweaver Polymock Piece",
+    "revid": 2586730,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      },
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      },
+      {
+        "title": "Zoldark's Chest",
+        "revid": 2460924,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:2e5c7007da6e47b4",
+    "name": "阿拉克尼的长弓",
+    "campaign": 4,
+    "title": "Arachni's Longbow",
+    "revid": 2710968,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:a97a27d3d5456c80",
+    "name": "女族长的毒刺",
+    "campaign": 4,
+    "title": "The Matriarch's Stinger",
+    "revid": 2711079,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Spider Matriarch",
+        "revid": 2285122,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:5ad72fb571c9aa78",
+    "name": "阿拉克尼的法杖",
+    "campaign": 4,
+    "title": "Arachni's Staff",
+    "revid": 2708310,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Blood Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:82e0b266d59d2350",
+    "name": "阿拉克尼的镰刀",
+    "campaign": 4,
+    "title": "Arachni's Scythe",
+    "revid": 2711003,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:03f488f463e98d75",
+    "name": "洛克的权杖",
+    "campaign": 4,
+    "title": "Lok's Scepter",
+    "revid": 2708135,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Fire Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Lok The Mischievous",
+        "revid": 2413515,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:2b40ba930ad4e238",
+    "name": "艾廷俱乐部",
+    "campaign": 4,
+    "title": "Ettin Club",
+    "revid": 2725743,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Paranoia Ettin",
+        "revid": 2725738,
+        "type": "npc"
+      },
+      {
+        "title": "Crystal Ettin",
+        "revid": 2725739,
+        "type": "npc"
+      },
+      {
+        "title": "Eldritch Ettin",
+        "revid": 2725741,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:dc6c7f2f897574e1",
+    "name": "远古法杖",
+    "campaign": 4,
+    "title": "Ancient Moss Staff",
+    "revid": 2562678,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:ea3ac4c524b7b9af",
+    "name": "黄玉权杖",
+    "campaign": 4,
+    "title": "Topaz Scepter",
+    "revid": 2697661,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:6210244b97af9d66",
+    "name": "螳螂战斗仿旗",
+    "campaign": 4,
+    "title": "Mantis Dreamweaver Polymock Piece",
+    "revid": 2586730,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      },
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      },
+      {
+        "title": "Zoldark's Chest",
+        "revid": 2460924,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:f4a0e8da1803e262",
+    "name": "恐怖之剑",
+    "campaign": 4,
+    "title": "Eldritch Sword",
+    "revid": 2714431,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:bb76eda3b824970a",
+    "name": "恐怖之槌",
+    "campaign": 4,
+    "title": "Eldritch Maul",
+    "revid": 2708515,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:5e309d303e40648a",
+    "name": "恐怖法杖",
+    "campaign": 4,
+    "title": "Eldritch Staff",
+    "revid": 2708327,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Divine Favor",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:4b06f434dcd0b479",
+    "name": "水晶焦点",
+    "campaign": 4,
+    "title": "Crystal Focus",
+    "revid": 2708211,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Water Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Crystal Ettin",
+        "revid": 2725739,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:4dbf8728c1eaa358",
+    "name": "青蛙权杖(稀有)",
+    "campaign": 4,
+    "title": "Frog Scepter",
+    "revid": 2705413,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Bogroot Chest",
+        "revid": 2192593,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:73c24a580070e507",
+    "name": "翡翠宝石刀",
+    "campaign": 4,
+    "title": "Emerald Edge",
+    "revid": 2725847,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Bogroot Chest",
+        "revid": 2192593,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:5bac9e80cc65aee7",
+    "name": "摩尔达法杖",
+    "campaign": 4,
+    "title": "Moldavite Staff",
+    "revid": 2562688,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Bogroot Chest",
+        "revid": 2192593,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:642e51e42f48141c",
+    "name": "娜迦战斗仿旗",
+    "campaign": 4,
+    "title": "Naga Shaman Polymock Piece",
+    "revid": 2130747,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mountain Heart Chest",
+        "revid": 2698186,
+        "type": "chest"
+      },
+      {
+        "title": "Bogroot Chest",
+        "revid": 2192593,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:0faafe1dcc973f36",
+    "name": "博格鲁特棒",
+    "campaign": 4,
+    "title": "Bogroot Rod",
+    "revid": 2712695,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Inspiration Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Bogroot Chest",
+        "revid": 2192593,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:b757374ca84fa1cc",
+    "name": "博格鲁特法杖",
+    "campaign": 4,
+    "title": "Bogroot Staff",
+    "revid": 2708315,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Restoration Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Bogroot Chest",
+        "revid": 2192593,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:ad1e77971701d500",
+    "name": "博格鲁特焦点",
+    "campaign": 4,
+    "title": "Bogroot Focus",
+    "revid": 2708200,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Channeling Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Bogroot Chest",
+        "revid": 2192593,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:69def034f9ff67c4",
+    "name": "绿宝石刀(稀有)",
+    "campaign": 4,
+    "title": "Emerald Blade",
+    "revid": 2681145,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Kathandrax",
+        "revid": 2304108,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:d987dad9f622893d",
+    "name": "星界法杖",
+    "campaign": 4,
+    "title": "Astral Staff",
+    "revid": 2562681,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Kathandrax",
+        "revid": 2304108,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:0e82215cbb12bce0",
+    "name": "卡山锤子(开箱必得)",
+    "campaign": 4,
+    "title": "Hammer of Kathandrax",
+    "revid": 2669558,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Kathandrax",
+        "revid": 2304108,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:97e6a007a8f31236",
+    "name": "伊尔桑杜尔的焦点",
+    "campaign": 4,
+    "title": "Ilsundur's Focus",
+    "revid": 2708238,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Energy Storage",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Kathandrax",
+        "revid": 2304108,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:aa53bc390a5767e8",
+    "name": "伊尔桑杜尔之杖",
+    "campaign": 4,
+    "title": "Ilsundur's Rod",
+    "revid": 2708128,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Fire Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Kathandrax",
+        "revid": 2304108,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:fb1a58e8a8428063",
+    "name": "伊尔桑杜尔的法杖",
+    "campaign": 4,
+    "title": "Ilsundur's Staff",
+    "revid": 2708346,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Fire Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Kathandrax",
+        "revid": 2304108,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:070f978d941a2c43",
+    "name": "被谴责者的庇护",
+    "campaign": 4,
+    "title": "Aegis of the Condemned",
+    "revid": 2711128,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Tactics",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Vraxx the Condemned",
+        "revid": 2550554,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:070f978d941a2c43:line-88",
+    "name": "被谴责者的庇护",
+    "campaign": 4,
+    "title": "Aegis of the Condemned",
+    "revid": 2711128,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Tactics",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Vraxx the Condemned",
+        "revid": 2550554,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:fba6e47ad5063a31",
+    "name": "缺口刀片(稀有)",
+    "campaign": 4,
+    "title": "Notched Blade",
+    "revid": 2725324,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Murakai's Chest",
+        "revid": 2452131,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:30b02210db2394f1",
+    "name": "驭风战斗仿旗",
+    "campaign": 4,
+    "title": "Wind Rider Polymock Piece",
+    "revid": 2155564,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      },
+      {
+        "title": "Murakai's Chest",
+        "revid": 2452131,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:8ce52759dff3d24d",
+    "name": "红宝石精灵战斗仿旗",
+    "campaign": 4,
+    "title": "Ruby Djinn Polymock Piece",
+    "revid": 2130748,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Murakai's Chest",
+        "revid": 2452131,
+        "type": "chest"
+      },
+      {
+        "title": "Hidesplitter's Chest",
+        "revid": 2482146,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:fff35cfe5de88fa3",
+    "name": "村凯之刃",
+    "campaign": 4,
+    "title": "Murakai's Blade",
+    "revid": 2714444,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Murakai's Chest",
+        "revid": 2452131,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:72c43deeed12b5d3",
+    "name": "村凯之槌",
+    "campaign": 4,
+    "title": "Murakai's Maul",
+    "revid": 2708533,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Murakai's Chest",
+        "revid": 2452131,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:7c40ac0843d45346",
+    "name": "村凯的掠夺者",
+    "campaign": 4,
+    "title": "Murakai's Reaver",
+    "revid": 2708474,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "axe",
+      "attribute": "Axe Mastery",
+      "requirement": 9,
+      "damage": "6-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Murakai's Chest",
+        "revid": 2452131,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:a0ac5813f6f39e00",
+    "name": "守护者权杖",
+    "campaign": 4,
+    "title": "Scepter of the Keeper",
+    "revid": 2708157,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Blood Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "The Keeper",
+        "revid": 2540835,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:1c9183cb71b5a41a",
+    "name": "大师的焦点",
+    "campaign": 4,
+    "title": "Focus of the Master",
+    "revid": 2708222,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "requirement": 9
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "The Master",
+        "revid": 2625646,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:fdabfdd46ad7fd3b",
+    "name": "法师杀手",
+    "campaign": 4,
+    "title": "The Magekiller",
+    "revid": 2707972,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Domination Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Faze Magekiller",
+        "revid": 2578505,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:57e9dfa790d26465",
+    "name": "贾达姆之矛",
+    "campaign": 4,
+    "title": "Jadam's Spear",
+    "revid": 2711063,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Jadam Spearspinner",
+        "revid": 2267830,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:de2ce93e4304afda",
+    "name": "被谴责者之盾",
+    "campaign": 4,
+    "title": "Shield of the Condemned",
+    "revid": 2711160,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "requirement": 9
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Vraxx the Condemned",
+        "revid": 2550554,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:953211809d9724e0",
+    "name": "被谴责者的堡垒",
+    "campaign": 4,
+    "title": "Bastion of the Condemned",
+    "revid": 2711161,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Motivation",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Vraxx the Condemned",
+        "revid": 2550554,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:df0d14ab2be83ed9",
+    "name": "格雷克之锤",
+    "campaign": 4,
+    "title": "Grelk's Hammer",
+    "revid": 2708617,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Grelk Icelash",
+        "revid": 2718959,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:a2441bb0df61d316",
+    "name": "紫罗兰刀",
+    "campaign": 4,
+    "title": "Violet Edge",
+    "revid": 2562325,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Havok's Chest",
+        "revid": 1863919,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:b8898de8b939b1cc",
+    "name": "Cobalt法杖",
+    "campaign": 4,
+    "title": "Cobalt Staff",
+    "revid": 2690973,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Havok's Chest",
+        "revid": 1863919,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:252cd7aab815791d",
+    "name": "哈沃克之槌",
+    "campaign": 4,
+    "title": "Havok's Maul",
+    "revid": 2708523,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Havok's Chest",
+        "revid": 1863919,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:3724ed756692502d",
+    "name": "冲击波之盾",
+    "campaign": 4,
+    "title": "Havok's Shield",
+    "revid": 2711135,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Tactics",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Havok's Chest",
+        "revid": 1863919,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:79bca2565be1ad83",
+    "name": "哀魂者",
+    "campaign": 4,
+    "title": "The Soulwailer",
+    "revid": 2711045,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Havok's Chest",
+        "revid": 1863919,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:1dbf2eaa5cb3d20a",
+    "name": "银翼反曲弓(稀有)",
+    "campaign": 4,
+    "title": "Silverwing Recurve Bow",
+    "revid": 2626102,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:85b07bd0f3a41429",
+    "name": "恶魔毒牙(稀有)",
+    "campaign": 4,
+    "title": "Demon Fangs",
+    "revid": 2615760,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:7b9386f35d7ca447",
+    "name": "骨牢镰刀",
+    "campaign": 4,
+    "title": "Bonecage Scythe",
+    "revid": 2561482,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:76d8b37a64005808",
+    "name": "触手镰刀",
+    "campaign": 4,
+    "title": "Tentacle Scythe",
+    "revid": 2361934,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:9e76795b38f28e25",
+    "name": "浮冰法杖",
+    "campaign": 4,
+    "title": "Icicle Staff",
+    "revid": 2669989,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:9e2fbd18baa4f119",
+    "name": "恶魔之矛",
+    "campaign": 4,
+    "title": "Demoncrest Spear",
+    "revid": 2439731,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:978a7350bfc4a272",
+    "name": "驭风战斗仿旗",
+    "campaign": 4,
+    "title": "Wind Rider Polymock Piece",
+    "revid": 2155564,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      },
+      {
+        "title": "Murakai's Chest",
+        "revid": 2452131,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:7ffbb96afd5c6c5d",
+    "name": "弑亲者之斧",
+    "campaign": 4,
+    "title": "Axe of the Kinslayer",
+    "revid": 2708459,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "axe",
+      "attribute": "Axe Mastery",
+      "requirement": 9,
+      "damage": "6-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:96717de21f5baf4c",
+    "name": "弑亲者之剑",
+    "campaign": 4,
+    "title": "Sword of the Kinslayer",
+    "revid": 2714453,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:3c685852c5aa9db7",
+    "name": "弑亲者之槌",
+    "campaign": 4,
+    "title": "Maul of the Kinslayer",
+    "revid": 2709775,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:4504c234867dd0b3",
+    "name": "弑亲者之盾",
+    "campaign": 4,
+    "title": "Shield of the Kinslayer",
+    "revid": 2711124,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Strength",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:75e0b0702cbc7f91",
+    "name": "弑亲者之弓",
+    "campaign": 4,
+    "title": "Bow of the Kinslayer",
+    "revid": 2710946,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:88bbb0dabd35cebb",
+    "name": "弑亲者权杖",
+    "campaign": 4,
+    "title": "Scepter of the Kinslayer",
+    "revid": 2708158,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Divine Favor",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:5c20c8addc20b528",
+    "name": "弑亲者之心",
+    "campaign": 4,
+    "title": "Heart of the Kinslayer",
+    "revid": 2708236,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Divine Favor",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:442852b0ff32f9ed",
+    "name": "弑亲者法杖",
+    "campaign": 4,
+    "title": "Staff of the Kinslayer",
+    "revid": 2708394,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type",
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:d68cf1a873b89f64",
+    "name": "弑亲者之爪",
+    "campaign": 4,
+    "title": "Claws of the Kinslayer",
+    "revid": 2710400,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "daggers",
+      "attribute": "Dagger Mastery",
+      "requirement": 9,
+      "damage": "7-17"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:787bb52131d0631f",
+    "name": "弑亲者之矛",
+    "campaign": 4,
+    "title": "Spear of the Kinslayer",
+    "revid": 2711074,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:add4c7ae2522d1ec",
+    "name": "弑亲者之镰",
+    "campaign": 4,
+    "title": "Scythe of the Kinslayer",
+    "revid": 2711036,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Chest of Burrows",
+        "revid": 2229748,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:13bec054495cb875",
+    "name": "琥珀冠法杖",
+    "campaign": 4,
+    "title": "Embercrest Staff",
+    "revid": 2562685,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mountain Heart Chest",
+        "revid": 2698186,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:32051c77ef2f3916",
+    "name": "畅游之刃",
+    "campaign": 4,
+    "title": "Singing Blade",
+    "revid": 2725353,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mountain Heart Chest",
+        "revid": 2698186,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:b37425732faa1e40",
+    "name": "娜迦战斗仿旗",
+    "campaign": 4,
+    "title": "Naga Shaman Polymock Piece",
+    "revid": 2130747,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mountain Heart Chest",
+        "revid": 2698186,
+        "type": "chest"
+      },
+      {
+        "title": "Bogroot Chest",
+        "revid": 2192593,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:182444e3ffb85c22",
+    "name": "辛德尔的边缘",
+    "campaign": 4,
+    "title": "Cyndr's Edge",
+    "revid": 2714458,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mountain Heart Chest",
+        "revid": 2698186,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:31cf64af11dbbb99",
+    "name": "剥皮者",
+    "campaign": 4,
+    "title": "The Skinflayer",
+    "revid": 2708297,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Smiting Prayers",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Gorlos Skinflayer",
+        "revid": 2685730,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:4f6e3ec4026b7d95",
+    "name": "杰卡多的法杖",
+    "campaign": 4,
+    "title": "Jacado's Staff",
+    "revid": 2708350,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Death Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Jacado the Putrid",
+        "revid": 2554307,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:4ce91a2a8afdadd7",
+    "name": "辛德尔之心",
+    "campaign": 4,
+    "title": "Cyndr's Heart",
+    "revid": 2708212,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Fire Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mountain Heart Chest",
+        "revid": 2698186,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:3f74164dca83d16e",
+    "name": "玛格穆斯的法杖",
+    "campaign": 4,
+    "title": "Magmus' Staff",
+    "revid": 2708366,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Energy Storage",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Mountain Heart Chest",
+        "revid": 2698186,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:9f3e3d4b363e69a9",
+    "name": "伊拉斯克利翁之矛",
+    "campaign": 4,
+    "title": "Erasklion's Spear",
+    "revid": 2711057,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Erasklion the Prolific",
+        "revid": 2685731,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:b9aa7d17e5245bb1",
+    "name": "辛德尔的神盾",
+    "campaign": 4,
+    "title": "Cyndr's Aegis",
+    "revid": 2711163,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Motivation",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mountain Heart Chest",
+        "revid": 2698186,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:e2e0c33cf783f6cd",
+    "name": "水晶核心槌",
+    "campaign": 4,
+    "title": "Crystal Core Maul",
+    "revid": 2722240,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Malfunctioning Shield Golem",
+        "revid": 2325171,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:11e07c18f9530ab7",
+    "name": "风暴匕首(稀有)",
+    "campaign": 4,
+    "title": "Storm Daggers",
+    "revid": 2336990,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:1d262e6e6b398f66",
+    "name": "机械镰刀(稀有)",
+    "campaign": 4,
+    "title": "Clockwork Scythe",
+    "revid": 2589812,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:7f229a16afec850e",
+    "name": "钢头镰刀",
+    "campaign": 4,
+    "title": "Steelhead Scythe",
+    "revid": 2589813,
+    "classification": "variable-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:eb8fc6e623ce0bc1",
+    "name": "火晶法杖",
+    "campaign": 4,
+    "title": "Crystal Flame Staff",
+    "revid": 2562684,
+    "classification": "variable-weapon",
+    "profile": {
+      "type": "wand",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:94993ad99cabd813",
+    "name": "印记盾牌",
+    "campaign": 4,
+    "title": "Signet Shield",
+    "revid": 2711087,
+    "classification": "variable-weapon",
+    "profile": {
+      "type": "shield",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:94764863a905f3c3",
+    "name": "石之雨战斗仿旗",
+    "campaign": 4,
+    "title": "Stone Rain Polymock Piece",
+    "revid": 2155562,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Fendi's Chest",
+        "revid": 2232205,
+        "type": "chest"
+      },
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      },
+      {
+        "title": "Prismatic Chest",
+        "revid": 2364830,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:b5d9d84c54a8e4ef",
+    "name": "乌拉的焦点",
+    "campaign": 4,
+    "title": "Oola's Focus",
+    "revid": 2708273,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Restoration Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:df5661dd4f8ee6cf",
+    "name": "乌拉的魔杖",
+    "campaign": 4,
+    "title": "Oola's Wand",
+    "revid": 2708148,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Restoration Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:6dcdee2c1cc85c28",
+    "name": "乌拉的法杖",
+    "campaign": 4,
+    "title": "Oola's Staff",
+    "revid": 2708375,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Restoration Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:a740edd7a277f7f6",
+    "name": "格洛普的焦点",
+    "campaign": 4,
+    "title": "Gloop's Focus",
+    "revid": 2708229,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Air Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Gloop",
+        "revid": 2537792,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:d3daec469f6b6699",
+    "name": "蓝宝石刀",
+    "campaign": 4,
+    "title": "Cerulean Edge",
+    "revid": 2673594,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Prismatic Chest",
+        "revid": 2364830,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:866053bfcbcaf04e",
+    "name": "Chrysocola法杖",
+    "campaign": 4,
+    "title": "Chrysocola Staff",
+    "revid": 2695277,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Prismatic Chest",
+        "revid": 2364830,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:dadda54ec2d03153",
+    "name": "螳螂战斗仿旗",
+    "campaign": 4,
+    "title": "Mantis Dreamweaver Polymock Piece",
+    "revid": 2586730,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      },
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      },
+      {
+        "title": "Zoldark's Chest",
+        "revid": 2460924,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:52c91a091c068178",
+    "name": "棱镜焦点",
+    "campaign": 4,
+    "title": "Prismatic Focus",
+    "revid": 2708275,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Energy Storage",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Prismatic Chest",
+        "revid": 2364830,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:a6e64c8da404f89a",
+    "name": "棱柱棒",
+    "campaign": 4,
+    "title": "Prismatic Rod",
+    "revid": 2708152,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Energy Storage",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Prismatic Chest",
+        "revid": 2364830,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:4c8c0a00208230d9",
+    "name": "棱柱法杖",
+    "campaign": 4,
+    "title": "Prismatic Staff",
+    "revid": 2708377,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "attribute": "Energy Storage",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Prismatic Chest",
+        "revid": 2364830,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:ecf1ba7c4a1af6ae",
+    "name": "骨笼镰刀",
+    "campaign": 4,
+    "title": "Bonecage Scythe (unique)",
+    "revid": 2711006,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Mutant Ooze",
+        "revid": 2527731,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:5bf04f3c4486c280",
+    "name": "鹰冠斧(稀有)",
+    "campaign": 4,
+    "title": "Eaglecrest Axe",
+    "revid": 2407241,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Destroyer Chest",
+        "revid": 1863891,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:74fbb8bbae5a4af2",
+    "name": "刀片之刃",
+    "campaign": 4,
+    "title": "Aureate Blade",
+    "revid": 2725288,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Destroyer Chest",
+        "revid": 1863891,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:e783d008c9008138",
+    "name": "莫尔锤",
+    "campaign": 4,
+    "title": "Wingcrest Maul",
+    "revid": 2601179,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Destroyer Chest",
+        "revid": 1863891,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:c16df2d15bf08e1b",
+    "name": "毁灭之刃",
+    "campaign": 4,
+    "title": "Destructive Blade",
+    "revid": 2714429,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Destroyer Chest",
+        "revid": 1863891,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:92dec342e28f99cf",
+    "name": "破坏性护盾",
+    "campaign": 4,
+    "title": "Destructive Shield",
+    "revid": 2736796,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Strength",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Destroyer Chest",
+        "revid": 1863891,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:00f30e7c787bbf4a",
+    "name": "破坏性焦点",
+    "campaign": 4,
+    "title": "Destructive Focus",
+    "revid": 2708215,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Curses",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Destroyer Chest",
+        "revid": 1863891,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:9742e53909f133dd",
+    "name": "森精灵弓(稀有)",
+    "campaign": 4,
+    "title": "Dryad Bow",
+    "revid": 2702819,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hidesplitter's Chest",
+        "revid": 2482146,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:fb5962c4950b3d9d",
+    "name": "金角法杖",
+    "campaign": 4,
+    "title": "Goldhorn Staff",
+    "revid": 2503987,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hidesplitter's Chest",
+        "revid": 2482146,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:b157920dddf9ba02",
+    "name": "红宝石精灵战斗仿旗",
+    "campaign": 4,
+    "title": "Ruby Djinn Polymock Piece",
+    "revid": 2130748,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Murakai's Chest",
+        "revid": 2452131,
+        "type": "chest"
+      },
+      {
+        "title": "Hidesplitter's Chest",
+        "revid": 2482146,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:fdbfa1a47a5d7cba",
+    "name": "劈皮者之盾",
+    "campaign": 4,
+    "title": "Hidesplitter's Shield",
+    "revid": 2711136,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Tactics",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hidesplitter's Chest",
+        "revid": 2482146,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:36368e8492927de5",
+    "name": "科格的反曲弓",
+    "campaign": 4,
+    "title": "Korg's Recurve Bow",
+    "revid": 2710955,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Beastmaster Korg",
+        "revid": 2413701,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:348c11c7038155f2",
+    "name": "食人者",
+    "campaign": 4,
+    "title": "The Maneater",
+    "revid": 2707973,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Divine Favor",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Hidesplitter's Chest",
+        "revid": 2482146,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:a6ddc7f00b027712",
+    "name": "食肉者",
+    "campaign": 4,
+    "title": "The Flesheater",
+    "revid": 2707971,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Death Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Flesheater",
+        "revid": 2044494,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:60c67c15a15e4c24",
+    "name": "劈皮者的匕首",
+    "campaign": 4,
+    "title": "Hidesplitter's Daggers",
+    "revid": 2710411,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "daggers",
+      "attribute": "Dagger Mastery",
+      "requirement": 9,
+      "damage": "7-17"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hidesplitter's Chest",
+        "revid": 2482146,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:9f2e5824aa2e7060",
+    "name": "劈皮者之矛",
+    "campaign": 4,
+    "title": "Hidesplitter's Spear",
+    "revid": 2711061,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hidesplitter's Chest",
+        "revid": 2482146,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:380f1b01e39799b4",
+    "name": "绿松法杖",
+    "campaign": 4,
+    "title": "Turquoise Staff",
+    "revid": 2562691,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Dragrimmar Chest",
+        "revid": 1863899,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:ec93829a389bcdeb",
+    "name": "Gaki战斗仿旗",
+    "campaign": 4,
+    "title": "Gaki Polymock Piece",
+    "revid": 2194053,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Destroyer Chest",
+        "revid": 1863891,
+        "type": "chest"
+      },
+      {
+        "title": "Dragrimmar Chest",
+        "revid": 1863899,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:01da659c70a78c66",
+    "name": "陈旧的法杖",
+    "campaign": 4,
+    "title": "Antiquated Staff",
+    "revid": 2708309,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Water Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Dragrimmar Chest",
+        "revid": 1863899,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:76d31bcc901995b1",
+    "name": "陈旧的棒",
+    "campaign": 4,
+    "title": "Antiquated Rod",
+    "revid": 2708106,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Water Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Dragrimmar Chest",
+        "revid": 1863899,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:b0f6dc0801e4e501",
+    "name": "过时的焦点",
+    "campaign": 4,
+    "title": "Antiquated Focus",
+    "revid": 2708196,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Water Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Dragrimmar Chest",
+        "revid": 1863899,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:14a12d5635485c49",
+    "name": "骸骨龙法杖(昂贵)",
+    "campaign": 4,
+    "title": "Bone Dragon Staff",
+    "revid": 2572899,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Fendi's Chest",
+        "revid": 2232205,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:19992b638dad4e74",
+    "name": "光触法杖",
+    "campaign": 4,
+    "title": "Suntouched Staff",
+    "revid": 2702806,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Fendi's Chest",
+        "revid": 2232205,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:6216af668c451c8f",
+    "name": "黄金锤",
+    "campaign": 4,
+    "title": "Golden Hammer",
+    "revid": 2589811,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Fendi's Chest",
+        "revid": 2232205,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:3a3a8e3129e7a7e0",
+    "name": "石之雨战斗仿旗",
+    "campaign": 4,
+    "title": "Stone Rain Polymock Piece",
+    "revid": 2155562,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Fendi's Chest",
+        "revid": 2232205,
+        "type": "chest"
+      },
+      {
+        "title": "Oola's Chest",
+        "revid": 2707313,
+        "type": "chest"
+      },
+      {
+        "title": "Prismatic Chest",
+        "revid": 2364830,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:de5b5a9a4a6c69c3",
+    "name": "梵帝的焦点",
+    "campaign": 4,
+    "title": "Fendi's Focus",
+    "revid": 2708219,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Death Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Fendi's Chest",
+        "revid": 2232205,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:c7a826e407b1aff2",
+    "name": "梵帝的棒",
+    "campaign": 4,
+    "title": "Fendi's Rod",
+    "revid": 2708119,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Death Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Fendi's Chest",
+        "revid": 2232205,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:bf3b487797e91908",
+    "name": "梵帝的员工",
+    "campaign": 4,
+    "title": "Fendi's Staff",
+    "revid": 2708333,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Fendi's Chest",
+        "revid": 2232205,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:d1b4f9d1d05b9491",
+    "name": "电流之矛(稀有)",
+    "campaign": 4,
+    "title": "Voltaic Spear",
+    "revid": 2690206,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:99026ff718dd4b85",
+    "name": "紫水晶盾",
+    "campaign": 4,
+    "title": "Amethyst Aegis",
+    "revid": 2736714,
+    "classification": "variable-weapon",
+    "profile": {},
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:0cc279e0990ebd43",
+    "name": "戴尔迪莫防具零料",
+    "campaign": 4,
+    "title": "Deldrimor Armor Remnant",
+    "revid": 2601617,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:80288d27b486baf8",
+    "name": "马塞特战斗仿旗",
+    "campaign": 4,
+    "title": "Mursaat Elementalist Polymock Piece",
+    "revid": 2130746,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:64d6c0087203ccf7",
+    "name": "圣职者之斧",
+    "campaign": 4,
+    "title": "Axe of the Hierophant",
+    "revid": 2708458,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "axe",
+      "attribute": "Axe Mastery",
+      "requirement": 9,
+      "damage": "6-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:cbd2f9cbfe78362a",
+    "name": "圣职者之刃",
+    "campaign": 4,
+    "title": "Blade of the Hierophant",
+    "revid": 2714457,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:6bc7e0e8836090ce",
+    "name": "圣职者之盾",
+    "campaign": 4,
+    "title": "Shield of the Hierophant",
+    "revid": 2711143,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "shield",
+      "attribute": "Tactics",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:f14862f6970057ca",
+    "name": "圣职者之槌",
+    "campaign": 4,
+    "title": "Maul of the Hierophant",
+    "revid": 2708531,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:e954791acd663972",
+    "name": "圣职者之弓",
+    "campaign": 4,
+    "title": "Bow of the Hierophant",
+    "revid": 2710945,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:8ba0e3b1ead08e8a",
+    "name": "圣职者的焦点",
+    "campaign": 4,
+    "title": "Focus of the Hierophant",
+    "revid": 2708221,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "requirement": 9
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:4476824894ffaee9",
+    "name": "圣职者法杖",
+    "campaign": 4,
+    "title": "Staff of the Hierophant",
+    "revid": 2708393,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:d9e8ccfc40123489",
+    "name": "圣职者匕首",
+    "campaign": 4,
+    "title": "Daggers of the Hierophant",
+    "revid": 2710401,
+    "classification": "unique-weapon",
+    "profile": {},
+    "mismatches": [
+      "type",
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Hierophant's Chest",
+        "revid": 2590085,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:c4a618abe3261d20",
+    "name": "螳螂战斗仿旗",
+    "campaign": 4,
+    "title": "Mantis Dreamweaver Polymock Piece",
+    "revid": 2586730,
+    "classification": "item",
+    "profile": {},
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Arachni's Spoils",
+        "revid": 1861515,
+        "type": "chest"
+      },
+      {
+        "title": "Eldritch Chest",
+        "revid": 2725742,
+        "type": "chest"
+      },
+      {
+        "title": "Zoldark's Chest",
+        "revid": 2460924,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:7865488d56bd11c1",
+    "name": "杜尔衮之槌",
+    "campaign": 4,
+    "title": "Durgon's Maul",
+    "revid": 2708514,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Taskmaster Durgon",
+        "revid": 2466556,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:5a1befa68eac5c0c",
+    "name": "萨纳克斯的命运",
+    "campaign": 4,
+    "title": "Xalnax's Destiny",
+    "revid": 2711002,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Zalnax",
+        "revid": 2426110,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:fb556395e5f766cc",
+    "name": "贝洛克的法杖",
+    "campaign": 4,
+    "title": "Bellok's Staff",
+    "revid": 2708313,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Blood Magic",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Taskmaster Bellok",
+        "revid": 2714159,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:7e1711b39d26538a",
+    "name": "佐尔达克的发掘",
+    "campaign": 4,
+    "title": "Zoldark's Focus",
+    "revid": 2415993,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "requirement": 9
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": []
+  },
+  {
+    "id": "green:4:c0f4a79eb70cc4a7",
+    "name": "佐尔达克之杖",
+    "campaign": 4,
+    "title": "Zoldark's Rod",
+    "revid": 2708192,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Zoldark's Chest",
+        "revid": 2460924,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:5e0d47444f827880",
+    "name": "佐尔达克的法杖",
+    "campaign": 4,
+    "title": "Zoldark's Staff",
+    "revid": 2707993,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type",
+      "attribute"
+    ],
+    "sources": [
+      {
+        "title": "Zoldark's Chest",
+        "revid": 2460924,
+        "type": "chest"
+      }
+    ]
+  },
+  {
+    "id": "green:4:c460f88f7fafc161",
+    "name": "库尔格的焦点",
+    "campaign": 4,
+    "title": "Kurg's Focus",
+    "revid": 2708251,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "attribute": "Illusion Magic",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [
+      {
+        "title": "Taskmaster Kurg",
+        "revid": 2679699,
+        "type": "npc"
+      }
+    ]
+  },
+  {
+    "id": "green:4:7a7c5ba1a594319e",
+    "name": "卓克纳尔的斧头",
+    "campaign": 4,
+    "title": "Droknar's Axe",
+    "revid": 2708467,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "axe",
+      "attribute": "Axe Mastery",
+      "requirement": 9,
+      "damage": "6-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:d4a9c71481471861",
+    "name": "卓克纳尔之槌",
+    "campaign": 4,
+    "title": "Droknar's Maul",
+    "revid": 2708507,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "hammer",
+      "attribute": "Hammer Mastery",
+      "requirement": 9,
+      "damage": "19-35"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:2f1f676b2d4ab48f",
+    "name": "卓克纳尔之盾",
+    "campaign": 4,
+    "title": "Droknar's Strength Shield",
+    "revid": 2711116,
+    "classification": "weapon-family",
+    "profile": {
+      "type": "shield",
+      "attribute": "Strength",
+      "requirement": 9
+    },
+    "mismatches": [],
+    "sources": [],
+    "variants": [
+      {
+        "title": "Droknar's Strength Shield",
+        "revid": 2711116
+      },
+      {
+        "title": "Droknar's Tactics Shield",
+        "revid": 2711132
+      },
+      {
+        "title": "Droknar's Command Shield",
+        "revid": 2711154
+      },
+      {
+        "title": "Droknar's Motivation Shield",
+        "revid": 2711164
+      }
+    ]
+  },
+  {
+    "id": "green:4:68c42b4a0407e34c",
+    "name": "卓克纳尔之剑",
+    "campaign": 4,
+    "title": "Droknar's Sword",
+    "revid": 2714430,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "sword",
+      "attribute": "Swordsmanship",
+      "requirement": 9,
+      "damage": "15-22"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:1a6e439801abc802",
+    "name": "卓克纳尔的扁弓",
+    "campaign": 4,
+    "title": "Droknar's Flatbow",
+    "revid": 2710540,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:a4862b90e92bc864",
+    "name": "卓克纳尔的角弓",
+    "campaign": 4,
+    "title": "Droknar's Hornbow",
+    "revid": 2713403,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:dba7e24389bcaaf3",
+    "name": "卓克纳尔的长弓",
+    "campaign": 4,
+    "title": "Droknar's Longbow",
+    "revid": 2710974,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:9f9a722af672182f",
+    "name": "卓克纳尔的反曲弓",
+    "campaign": 4,
+    "title": "Droknar's Recurve Bow",
+    "revid": 2710949,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:0536c64f87cbef95",
+    "name": "卓克纳尔的短弓",
+    "campaign": 4,
+    "title": "Droknar's Shortbow",
+    "revid": 2710991,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "bow",
+      "attribute": "Marksmanship",
+      "requirement": 9,
+      "damage": "15-28"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:a756d1c2631a9ab2",
+    "name": "卓克纳尔的焦点",
+    "campaign": 4,
+    "title": "Droknar's Focus",
+    "revid": 2708217,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "focus item",
+      "requirement": 9
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": []
+  },
+  {
+    "id": "green:4:56d871a8899db966",
+    "name": "卓克纳尔的权杖",
+    "campaign": 4,
+    "title": "Droknar's Scepter",
+    "revid": 2712694,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": []
+  },
+  {
+    "id": "green:4:fe36cb3486e25708",
+    "name": "卓克纳尔的法杖",
+    "campaign": 4,
+    "title": "Droknar's Staff",
+    "revid": 2708325,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "staff",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "attribute"
+    ],
+    "sources": []
+  },
+  {
+    "id": "green:4:0f26fbec4b2f2677",
+    "name": "卓克纳尔之刃",
+    "campaign": 4,
+    "title": "Droknar's Blades",
+    "revid": 2710405,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "daggers",
+      "attribute": "Dagger Mastery",
+      "requirement": 9,
+      "damage": "7-17"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:b9a915982d919354",
+    "name": "卓克纳尔的匕首",
+    "campaign": 4,
+    "title": "Droknar's Daggers",
+    "revid": 2710406,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "daggers",
+      "attribute": "Dagger Mastery",
+      "requirement": 9,
+      "damage": "7-17"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:f4df98e59a0ae20c",
+    "name": "卓克纳尔的刀",
+    "campaign": 4,
+    "title": "Droknar's Knives",
+    "revid": 2710407,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "daggers",
+      "attribute": "Dagger Mastery",
+      "requirement": 9,
+      "damage": "7-17"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:534cf857a3f44ba3",
+    "name": "卓克纳尔的勇气",
+    "campaign": 4,
+    "title": "Droknar's Courage",
+    "revid": 2711054,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:ed7ec3a7e8fb4cb4",
+    "name": "卓克纳尔的长矛",
+    "campaign": 4,
+    "title": "Droknar's Spear",
+    "revid": 2711055,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:9932324ef5ead73c",
+    "name": "卓克纳尔的力量",
+    "campaign": 4,
+    "title": "Droknar's Strength",
+    "revid": 2711056,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "spear",
+      "attribute": "Spear Mastery",
+      "requirement": 9,
+      "damage": "14-27"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:b466c0c1e758f6df",
+    "name": "卓克纳尔边缘",
+    "campaign": 4,
+    "title": "Droknar's Edge",
+    "revid": 2711014,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:36a6ffce31be434a",
+    "name": "卓克纳尔的收割者",
+    "campaign": 4,
+    "title": "Droknar's Reaper",
+    "revid": 2711015,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:f6c1add15ef9323d",
+    "name": "卓克纳尔的镰刀",
+    "campaign": 4,
+    "title": "Droknar's Scythe",
+    "revid": 2711016,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "scythe",
+      "attribute": "Scythe Mastery",
+      "requirement": 9,
+      "damage": "9-41"
+    },
+    "mismatches": [],
+    "sources": []
+  },
+  {
+    "id": "green:4:09965045e0bd835c",
+    "name": "柴尔斯的法杖",
+    "campaign": 4,
+    "title": "Chaelse's Staff",
+    "revid": 2708321,
+    "classification": "unique-weapon",
+    "profile": {
+      "type": "wand",
+      "attribute": "Protection Prayers",
+      "requirement": 9,
+      "damage": "11-22"
+    },
+    "mismatches": [
+      "type"
+    ],
+    "sources": [
+      {
+        "title": "Chaelse Flameshielder",
+        "revid": 2702145,
+        "type": "npc"
+      }
+    ]
+  }
+]

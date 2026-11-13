@@ -1,0 +1,11 @@
+{
+  "title": "Glass Arrows (PvP)",
+  "pageid": 240761,
+  "revid": 2738437,
+  "revisedAt": "2026-08-26T20:57:32Z",
+  "sha1": "2288d1fcd9a91ee0848e1c87e6321dace9b47fea",
+  "url": "https://wiki.guildwars.com/wiki/Glass_Arrows_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Glass%20Arrows%20(PvP)&oldid=2738437",
+  "retrievedAt": "2026-11-13T01:08:08.212Z",
+  "wikitext": "{{pveversion|Glass Arrows}}\n{{Skill infobox\n| name = Glass Arrows (PvP)\n| id = 3145\n| campaign = Factions\n| profession = Ranger\n| attribute = Expertise\n| type = Preparation\n| elite = y\n| is-pvp = y\n| energy = 5\n| activation = 2\n| recharge = 12\n| target =\n| range =\n| aoe =\n| causes1 = Block Punishment\n| causes2 = Bleeding\n| description = [[Elite]] [[Preparation]]. For {{gr|10|35}} seconds, your [[bow attack|arrow]]s strike for {{gr|6|18|+}} [[damage]] if they hit and cause [[Bleeding]] for {{gr|10|20}} seconds if they are [[block]]ed.\n| concise description = Elite Preparation. ({{gr|10|35}} seconds.) Your arrows deal {{gr|6|18|+}} damage. Inflicts Bleeding condition if blocked ({{gr|10|20}} seconds).\n}}\n\n{{Skill progression\n|attribute = [[Expertise]]\n|var1 name = [[Duration]]\n|var1 at0 = 10\n|var1 at15 = 35\n|var2 name = + [[Damage]]\n|var2 at0 = 6\n|var2 at15 = 18\n|var3 name = [[Bleeding]] duration\n|var3 at0 = 10\n|var3 at15 = 20}}\n\n== Related skills ==\n*{{skill icon|Melandru's Arrows}} ([[elite]])\n\n[[de:Glaspfeile (PvP)]]"
+}

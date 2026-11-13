@@ -1,0 +1,11 @@
+{
+  "title": "Shadow Shroud (PvP)",
+  "pageid": 321732,
+  "revid": 2738509,
+  "revisedAt": "2026-08-26T21:38:31Z",
+  "sha1": "e7f07b6de635e2e60ee6560d47447a177e489a74",
+  "url": "https://wiki.guildwars.com/wiki/Shadow_Shroud_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shadow%20Shroud%20(PvP)&oldid=2738509",
+  "retrievedAt": "2026-11-13T01:08:10.024Z",
+  "wikitext": "{{Pveversion|Shadow Shroud}}\n{{Skill infobox\n| id = 3452\n| name = Shadow Shroud (PvP)\n| campaign = Factions\n| profession = Assassin\n| attribute = Shadow Arts\n| type = Hex Spell\n| elite = y\n| energy = 5\n| activation = {{1/4}}\n| recharge = 20\n| description = [[Elite]] [[Hex Spell]]. For {{gr|2|7}} seconds, [[target]] [[foe]] cannot be the target of [[enchantment]]s.\n| concise description = Elite Hex Spell. ({{gr|2|7}} seconds.) Target foe cannot be the target of enchantments.\n| animation = [[File:Shadow Shroud animation.gif|Click to view]]\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Shadow Arts]]\n|var1 name = [[Duration]]\n|var1 at0 = 2\n|var1 at15 = 7}}\n\n== Notes ==\n* [[Creature]]s affected by the shroud can still cast enchantments that do not require targeting (e.g. [[Shadow Form]] or [[Conjure Flame]]).\n* Foes with this hex cannot be targeted by [[Enchantment spell#Characteristics|enchantment spells that target a foe]], like [[Ice Spear]].\n\n[[de:Schattenschleier (PvP)]]"
+}

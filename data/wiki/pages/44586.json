@@ -1,0 +1,11 @@
+{
+  "title": "Second Spear Binah",
+  "pageid": 44586,
+  "revid": 2604081,
+  "revisedAt": "2016-04-01T22:42:36Z",
+  "sha1": "1c15810d5d7708664edd7792e37e4b0c008e9176",
+  "url": "https://wiki.guildwars.com/wiki/Second_Spear_Binah",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Second%20Spear%20Binah&oldid=2604081",
+  "retrievedAt": "2026-11-13T02:15:20.059Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Sunspear officer f.jpg|x400px]]\n| type = Human\n| level = 15\n| affiliation = Order of the Sunspears\n| service = Gatekeeper\n| campaign = Nightfall\n| map1 = [[File:Second Spear Binah map.jpg|150px]]\n| map1-text = Location in [[Churrhir Fields]]\n}}\n\n[[Second Spear Binah]] offers passage between [[Churrhir Fields]] and [[Kamadan, Jewel of Istan]].\n\n== Locations ==\n* [[Istan]]\n** {{NPC location|Churrhir Fields}}\n** {{NPC location|Kamadan, Jewel of Istan}}\n\n== Dialogue ==\nKamadan:\n: ''\"We've established a camp just outside Chahbek Village in Churrhir Fields. We hope to train new recruits there to help protect the village from further attacks when we rebuild.\"''\n:: '''Can you take me to the Sunspear encampment in Churrhir Fields?'''\n:: ''\"Certainly. Let me know when you are ready.\"''\n::: {{yes|ingame}} '''We are ready.''' (sent to Churrhir Fields)\n::: {{no|ingame}} '''We are not ready yet.'''\n:: '''I'll be on my way.'''\n\nChurrhir Fields:\n: ''\"Whenever you want to go back to Kamadan, just let me know.\"''\n:: '''Can you take me to Kamadan?'''\n:: ''\"Certainly. Let me know when you are ready.\"''\n::: {{yes|ingame}} '''We are ready.''' (sent to Kamadan)\n::: {{no|ingame}} '''We are not ready yet.'''\n:: '''I'll be on my way.'''\n\nChurrhir Fields, alternate:\n(For Nightfall characters, if [[Honing your Skills]] is not active or complete.)\n: ''\"[[First Spear Dehvad]] still has more to teach [Character Name]. I can't let you into Kamadan until [Character Name] speaks to the First Spear again.\"''\n\n== Notes ==\n{{anomaly| Even though there is no associated quest, Binah has a [[quest giver|quest icon]] over her head while in Churrhir Fields.}}"
+}

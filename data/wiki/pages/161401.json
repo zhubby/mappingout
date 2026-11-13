@@ -1,0 +1,11 @@
+{
+  "title": "Attendant to the Prince",
+  "pageid": 161401,
+  "revid": 2577309,
+  "revisedAt": "2014-10-24T22:28:07Z",
+  "sha1": "bf7aa21a258a5e7d7b83637d82e3b86d19630a54",
+  "url": "https://wiki.guildwars.com/wiki/Attendant_to_the_Prince",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Attendant%20to%20the%20Prince&oldid=2577309",
+  "retrievedAt": "2026-11-13T02:15:36.886Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Vabbian Commoner m blue.jpg|150px]]\n| type = Human\n| affiliation = Vabbians\n| level = 10 (20)\n| campaign = Nightfall\n}}\nA personal [[Attendant to the Prince|attendant]] to [[Prince Bokka the Magnificent]].\n\n==Location==\n*[[Vabbi]]\n**{{NPC location|Resplendent Makuun}} (only before completion of [[Deactivating N.O.X.]]) \n\n==Quests==\n'''Quests involved in:'''\n*Deactivating N.O.X.\n\n==Dialogue==\n''I hope this is important. Prince Bokka keeps me quite busy, so ask yourself if your little distractions are more important then my tasks.''\n;Attendant to the Prince\n:'''Prince Bokka is in grave danger. You must tell me where he is at once!'''\n:''Danger? Ridiculous! Prince Bokka is loved by all. No one would ever think of harming him. Now be gone and speak no more of this supposed danger.''\n::'''The prince's new toy, N.O.X., is programmed to assassinate him. Take me to Bokka before it's too late!'''\n::''You mean that golem that arrived this morning? Preposterous! It came from a most reputable source, the great Asuran inventor [[Zinn]]. I assure you, Prince Bokka is quite safe.''\n:::'''Zinn sent me to protect Prince Bokka. Take me to him NOW unless you want to be blamed for his death.'''\n:::''Alright, I'll take you to Prince Bokka. Are you ready to leave?''\n::::{{yes|ingame}}  '''We were ready when we got here. If you're finally ready, we're ready.''' (sent to [[Bokka Amphitheatre (N.O.X.)]])\n::::{{no|ingame}} '''Wait, I won? You'll take me to Bokka? I wasn't ready for that...'''\n:::{{no|ingame}} '''Thanks for the chat, but I have to run.'''\n::{{no|ingame}} '''Thanks for the chat, but I have to run.'''"
+}

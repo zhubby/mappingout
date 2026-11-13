@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Droknar's weapons",
+  "pageid": 90699,
+  "revid": 2573936,
+  "revisedAt": "2014-08-13T16:41:24Z",
+  "sha1": "020affb79b349f4922d47185e9b1106bcdd02015",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Droknar%27s_weapons",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Droknar's%20weapons&oldid=2573936",
+  "retrievedAt": "2026-11-13T02:27:35.419Z",
+  "wikitext": "[[Droknar]]'s weapons are the items obtained from the profession chests in [[Epilogue]], after completing [[A Time for Heroes]]. These items are all [[Perfect|perfect]]. If the profession uses only one type of weapon, like [[Dervish]] or [[Assassin]], they will have different names and different stats.\n<dpl>\n  category = Droknar's weapons\n  allowcachedresults = true\n  format = <gallery perrow=\"6\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n==Notes==\n*All Droknar's weapons are [[skin|reskin]]s of other weapons, dyed a unique blueish green to indicate they have undergone the [[Rite of the Great Dwarf]] and were turned to stone.\n\n[[Category:Weapon family galleries|Droknar's weapons]]\n[[Category:Droknar's weapons|+{{PAGENAME}}]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "The Yakslapper",
+  "pageid": 10866,
+  "revid": 2678064,
+  "revisedAt": "2022-05-15T18:57:46Z",
+  "sha1": "e31d681f7ac78c34b66c0c04824b2bc7f1f9236a",
+  "url": "https://wiki.guildwars.com/wiki/The_Yakslapper",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Yakslapper&oldid=2678064",
+  "retrievedAt": "2026-11-13T02:02:17.580Z",
+  "wikitext": "{{Weapon infobox\n| type = [[Staff]]\n| campaign = [[Prophecies]]\n| attribute = [[Divine Favor]]\n| damagetype = [[Fire damage]]\n| unique = yes\n}}\n'''The Yakslapper''' is a [[unique item|unique]] [[staff]] dropped by [[Wroth Yakslapper]], a [[boss]] in [[Grenth's Footprint]].\n\n==Stats==\n:[[Energy]] +10\n:[[Fire damage]]: 11-22 (Requires 9 [[Divine Favor]])\n:Halves skill recharge of [[spell]]s (Chance: 20%)\n:Reduces [[Deep Wound]] duration on you by 20% (Stacking)\n:[[Enchantments]] last 20% longer\n:[[Energy]] +5\n\n==Replica==\nThis item cannot be replicated by using inscribable staves. The [[inscription]] \"Strength of Body\", which reduces [[deep wound]], can only be applied to [[shield]]s and [[focus item]]s.\n* However, it is possible to create an exact technical replica for this item with:\n** A [[perfect]] [[staff]] drop with an [[Inherent modifier|inherent]] 20% Deep Wound reduction\n** [[Staff Wrapping]] [[of Enchanting]]\n** [[Insightful]] [[Staff Head]]\n\n==Notes==\n*Other weapons with this appearance:\n**{{any}} [[Sacred Staff]]\n<!-- and possibly a quest reward staff from an Ascalon quest-->\n\n[[category:Unreplicable unique items]]"
+}

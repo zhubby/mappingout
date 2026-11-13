@@ -1,0 +1,11 @@
+{
+  "title": "Kailona",
+  "pageid": 12141,
+  "revid": 2161231,
+  "revisedAt": "2010-10-27T20:21:24Z",
+  "sha1": "7a33a2437d92eb457db9614c1acf15a94a580fac",
+  "url": "https://wiki.guildwars.com/wiki/Kailona",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kailona&oldid=2161231",
+  "retrievedAt": "2026-11-13T02:15:18.444Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Istani commoner f.jpg|150px]]\n| type = Human\n| affiliation = Istani\n| level = 10\n| service = Rune trader\n| campaign = Nightfall\n}}\n[[Kailona]] is a [[rune trader]], a type of [[NPC]] that buys and sells [[rune]]s with prices that are based on supply and demand.\n\n==Locations==\n*[[Istan]]\n**{{NPC location|Kamadan, Jewel of Istan}}\n\n==Quests==\n'''Quests given:'''\n*[[Istan]]\n**[[Missing Shipment]]\n\n==Dialogue==\nBefore completion of the quest Missing Shipment:\n:''\"Hello! I'm Kailona. I buy and sell runes. You can apply a rune to your armor and receive its inherent bonuses for as long as you wear that piece of armor. Would you like to buy a rune today?\"''\n::'''What services do you offer?'''\n\nAfter completion of the quest Missing Shipment:\n{{trader dialogue}}\n\n==Notes==\n*Kailona will not buy the [[Rune of Minor Vigor]] she gives to you after completing [[Missing Shipment]], instead a message will appear that says \"The trader refuses to buy that item\".\n\n[[Category:Nightfall quest givers]]"
+}

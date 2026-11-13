@@ -1,0 +1,11 @@
+{
+  "title": "Slayton Redblade",
+  "pageid": 45043,
+  "revid": 2535374,
+  "revisedAt": "2013-02-25T09:12:18Z",
+  "sha1": "19cff94655bb8614a17768b5628ac2f2416c4b45",
+  "url": "https://wiki.guildwars.com/wiki/Slayton_Redblade",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Slayton%20Redblade&oldid=2535374",
+  "retrievedAt": "2026-11-13T01:10:36.190Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| type = Human\n| affiliation = Shining Blade\n| image = [[File:Shining Blade warrior.jpg|150px]]\n| service = Collector\n| level = 15\n| campaign = Prophecies\n| map1 = [[File:The Falls Collectors.jpg|150px]]\n| map1-text = Location\n| map2 = [[File:The Falls collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Slayton Redblade]] is a [[collector]], a type of [[Non-player character|NPC]] that exchanges [[Trophy|trophies]] for items.\n\n==Locations==\n*[[Maguuma Jungle]]\n**{{NPC location|The Falls}}\n\n==Dialogue==\n:''\"I'm searching for 5 Tangled Seeds. I can offer you one of the following items in exchange. Can you help me?\"''\n\n{{collector no armor trade dialogue|Tangled Seeds}}\n\n==Collector items==\n{{:Slayton Redblade/Collector armor}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Crypt Banshee",
+  "pageid": 67644,
+  "revid": 2462308,
+  "revisedAt": "2012-03-13T22:25:34Z",
+  "sha1": "8d48b5c5a868ca169779f2b1900c97b87da593d7",
+  "url": "https://wiki.guildwars.com/wiki/Crypt_Banshee",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Crypt%20Banshee&oldid=2462308",
+  "retrievedAt": "2026-11-13T02:16:05.572Z",
+  "wikitext": "{{NPC infobox \n| image = [[File:Wraith.jpg|150px]]\n| type = Ghost\n| affiliation = Undead\n| profession = Mo\n| level = 20..24 (26)\n| campaign = Eye of the North\n}}__NOTOC__\n[[Crypt Banshee]]s are Smiters that will rip through a [[minion master]]'s army, as well as unwary players. They cannot heal, unlike traditional monks.\n\n==Locations== \n*[[Depths of Tyria]]\n**{{NPC location|Cathedral of Flames}}: all levels.\n\n==Skills==\n15 [[Smiting Prayers]] (20 Smiting Prayers in [[Hard mode]])\n*{{skill icon|Banish}}\n*{{skill icon|Ray of Judgment}} ([[elite]])\n*{{skill icon|Reversal of Damage}}\n*{{skill icon|Scourge Enchantment}}\n*{{Skill icon|Scourge Healing}}\n*{{skill icon|Signet of Rage}}\n\n==Armor ratings==\n{{NPC statistics\n| level = 20\n| prof = mo\n| blunt = 100\n| piercing = 100\n| slashing = 100\n| cold = 60\n| earth = 60\n| fire = 60\n| lightning = 60\n}}\n\n==Items dropped==\n*[[Bone]]\n*[[Dead Bow]]\n\n[[Category:Drops bone]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Shadow Form (PvP)",
+  "pageid": 136070,
+  "revid": 2629963,
+  "revisedAt": "2018-06-18T17:46:49Z",
+  "sha1": "d548f48a12f8efd1aace72354d47edf628354ba6",
+  "url": "https://wiki.guildwars.com/wiki/Shadow_Form_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shadow%20Form%20(PvP)&oldid=2629963",
+  "retrievedAt": "2026-11-13T01:08:10.018Z",
+  "wikitext": "{{Pveversion|Shadow Form}}\n{{Skill infobox\n| name = Shadow Form (PvP)\n| id = 2862\n| campaign = Factions\n| profession = Assassin\n| attribute = Shadow Arts\n| type = Enchantment Spell\n| elite = y\n| energy = 10\n| activation = 1\n| recharge = 60\n| causes1 = Miss\n| causes2 = Health Loss\n| description = [[Elite]] [[Enchantment Spell]]. For {{gr|5|15}} seconds, all hostile [[spell]]s that [[target]] you [[fail]] and all [[attack]]s against you [[miss]]. When Shadow Form ends, [[Health loss|lose]] all but {{gr|5|50}} [[Health]].\n| concise description = Elite Enchantment Spell. ({{gr|5|15}} seconds.) Hostile spells targeting you fail, and attacks against you miss. {{grey|End effect: lose all but {{gr|5|50}} Health.}}\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Shadow Arts]]\n| var1 name = [[Duration]]\n| var1 at0 = 5\n| var1 at15 = 15\n| var2 name = [[Health]] at end\n| var2 at0 = 5\n| var2 at15 = 50}}\n\n== Related skills ==\n* {{skill icon|Aegis (PvP)}}\n* {{skill icon|Obsidian Flesh}} ([[elite]])\n* {{skill icon|Spell Breaker}} (elite)\n* {{skill icon|Spell Shield}}\n* {{skill icon|Vow of Silence}} (elite)\n\n==Notes==\n*As the [[recharge time]] of spells can never be reduced by more than 50%, there is no way to permanently maintain this skill without outside assistance due to its short duration. While [[Deadly Paradox]], [[Arcane Echo]] and [[Arcane Mimicry]] can be used to prolong the duration, they are insufficient to maintain Shadow Form.\n\n[[de:Schattenform (PvP)]]"
+}

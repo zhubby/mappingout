@@ -1,0 +1,11 @@
+{
+  "title": "Chained Soul",
+  "pageid": 42543,
+  "revid": 2578372,
+  "revisedAt": "2014-11-11T22:22:51Z",
+  "sha1": "58fade8133fa045d89c9b9a9de8643661b33ff6b",
+  "url": "https://wiki.guildwars.com/wiki/Chained_Soul",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Chained%20Soul&oldid=2578372",
+  "retrievedAt": "2026-11-13T02:14:27.483Z",
+  "wikitext": "{{NPC infobox\n| name = Chained Soul\n| image = [[File:Zombie monk.jpg|150px]]\n| affiliation = Underworld army\n| type = Zombie\n| profession = n\n| level = 22 (26)\n| campaign = Core\n| campaign2 = Prophecies\n}}__NOTOC__\n\n[[Chained Soul]]s are bound souls in [[the Underworld]] that are tormented by [[Dead Collector]]s and [[Dead Thresher|Threshers]], providing the Collectors with bodies for their [[corpse]] [[Corpse#Exploiting a Corpse|exploitation]] spells.\n\n==Locations==\n*[[Core]]\n**[[The Underworld]]\n***{{NPC location|Bone Pits}}\n*[[Guild Wars Prophecies|Prophecies]]\n**[[The Mists]]\n***{{NPC location|The Underworld (explorable area)}}\n***{{NPC location|Scarred Earth}}\n***{{NPC location|The Courtyard}}\n***{{NPC location|The Hall of Heroes}}\n\n==Skills==\n*{{skill icon|Rend Enchantments}}\n*{{monster skill icon|Health Drain}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = n\n| blunt = 1\n| piercing = 1\n| slashing = 1\n| cold = 1\n| earth = 1\n| fire = 1\n| lightning = 1\n}}\n\n==Items dropped==\n*[[Glob of Ectoplasm]]\n*[[Pile of Glittering Dust]]\n\n== Notes ==\n* Chained Souls have an innate [[health degeneration]]: left on their own, they die in approximately 70 seconds and [[Spawn|respawn]] in 120 seconds.\n* Similar to most other PvE foes, they only [[drop]] items the ''first'' time they die, making it nearly impossible for players to obtain loot from them in the Underworld. In contrast, they are easier to kill in the [[Ruins of the Tomb of the Primeval Kings]], particularly in the first room.\n\n== Trivia ==\n* Some players believe these foes were introduced to reduce [[farming]].\n\n[[Category:Drops dust]]\n[[Category:Drops ectoplasm]]"
+}

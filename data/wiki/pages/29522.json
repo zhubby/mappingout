@@ -1,0 +1,11 @@
+{
+  "title": "Fury Titan",
+  "pageid": 29522,
+  "revid": 2677365,
+  "revisedAt": "2022-03-26T22:49:29Z",
+  "sha1": "10d764e3230609d1083960e1d282a0251dd07e0e",
+  "url": "https://wiki.guildwars.com/wiki/Fury_Titan",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fury%20Titan&oldid=2677365",
+  "retrievedAt": "2026-11-13T02:15:41.298Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Fist of the Titans.jpg|200px]]\n|affiliation = Titans\n|profession = a\n|campaign = Nightfall\n|species = Titan\n|level = 28 (30)\n}}\n[[Fury Titan]]s spawn when a [[Despair Titan]] is killed. There is a single \"special\" Fury Titan which is larger than the others.\n\n==Locations==\n*[[Realm of Torment]]\n**[[Domain of Anguish]]\n***{{NPC location|The Foundry of Failed Creations}}\n\n==Missions==\n*[[Realm of Torment]]\n**[[Domain of Anguish]]\n***{{NPC location|The Ebony Citadel of Mallyx}}\n\n==Skills==\n15 [[Shadow Arts]] (20 Shadow Arts in [[Hard mode]])\n*{{skill icon|Black Spider Strike}}\n*{{skill icon|Death Blossom}}\n*{{skill icon|Moebius Strike}} ([[elite]])\n*{{skill icon|Shadowy Burden}}\n*{{skill icon|Twisting Fangs}}\n*{{skill icon|Way of Perfection}}\n*{{monster skill icon|Enraged}}\n*{{monster skill icon|Stun Immunity}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = a\n| blunt = 123\n| piercing = 123\n| slashing = 123\n| cold = 103\n| earth = 103\n| fire = 143\n| lightning = 103\n}}\n\n==Items dropped==\n*[[Nihil's Daggers]] (Only drops from the \"special-sized\" Fury Titan)\n*[[Titan Gemstone]]"
+}

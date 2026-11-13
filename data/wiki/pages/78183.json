@@ -1,0 +1,11 @@
+{
+  "title": "Insectoid Scythe",
+  "pageid": 78183,
+  "revid": 2418476,
+  "revisedAt": "2011-12-06T03:21:26Z",
+  "sha1": "0a4dc20675038c092ddf22d8209fe4d3f1401595",
+  "url": "https://wiki.guildwars.com/wiki/Insectoid_Scythe",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Insectoid%20Scythe&oldid=2418476",
+  "retrievedAt": "2026-11-13T03:11:06.421Z",
+  "wikitext": "{{Weapon infobox\n| type = [[Scythe]]\n| campaign = [[Eye of the North]]\n| attribute = [[Scythe Mastery]]\n| damagetype = [[Slashing damage]]\n| pvpreward = Fancy\n| commonsalvage = unknown\n| raresalvage = unknown\n}}\n[[Image:Insectoid_Scythe_head.jpg|right|thumb|199px|A closer view of the head of the Insectoid Scythe showing the insect perched on top.]]\n\nThe [[Insectoid Scythe]] is a very large [[scythe]] that somewhat resembles the leg of an insect. A winged insect appears to be perched on top of the head.\n\n==Acquisition==\n;[[Eye of the North]]\n*[[Depths of Tyria]]\n**[[Arachni's Haunt]]\n***[[Arachni's Spoils]]\n\n==Dye==\n[[Dye]] affects the entire scythe, dyeing everything except the insect's wings to the color specified. The wings will dye to the inverse color of the dye. The default color can be closely replicated using yellow dye.\n{{dye chart}}\n\n==Notes==\n* Other items with this appearance:\n**{{d}} [[Arachni's Scythe]] ([[Unique item|unique]])\n**{{d}} [[Taameh's Scythe]] (unique)\n{{bug|This scythe is held at a peculiar angle by the male [[dervish]] model, with the blade of the scythe tilted at an angle to face towards the wielder's back rather than slightly towards their front.}}"
+}

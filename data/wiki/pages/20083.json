@@ -1,0 +1,11 @@
+{
+  "title": "Ember Whisperwind",
+  "pageid": 20083,
+  "revid": 2562027,
+  "revisedAt": "2014-01-17T03:09:39Z",
+  "sha1": "fa7efaa6be8ac8c93c313af3531692a4607c28de",
+  "url": "https://wiki.guildwars.com/wiki/Ember_Whisperwind",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ember%20Whisperwind&oldid=2562027",
+  "retrievedAt": "2026-11-13T01:10:25.325Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Shining Blade ranger.jpg|150px]]\n| type = Human\n| affiliation = Krytans\n| service = Collector\n| level = 15\n| campaign = Prophecies\n| map1 = [[File:Ember Whisperwind map.jpg|150px]]\n| map1-text = Location \n| map2 = [[File:Secret River Passage location.jpg|150px]]\n| map2-text = Route from [[Temple of the Ages]]\n}}\n[[Ember Whisperwind]] is a [[collector]], a type of [[NPC]] that exchanges [[Trophy|trophies]] for [[armor]].\n\n==Locations==\n*[[Kryta]]\n**{{NPC location|Talmark Wilderness}}\n\n==Dialogue==\n:''\"I'm searching for 5 Forest Minotaur Horns. I can offer you one of the following items in exchange. Can you help me?\"''\n\n{{collector no armor trade dialogue|Forest Minotaur Horns}}\n\n==Collector items==\n{{:Ember Whisperwind/Collector armor}}"
+}

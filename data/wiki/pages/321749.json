@@ -1,0 +1,11 @@
+{
+  "title": "Tease (PvP)",
+  "pageid": 321749,
+  "revid": 2739065,
+  "revisedAt": "2026-08-29T00:32:56Z",
+  "sha1": "a8e265818c77d98b1dabfb708f7ff9cdb8c48564",
+  "url": "https://wiki.guildwars.com/wiki/Tease_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tease%20(PvP)&oldid=2739065",
+  "retrievedAt": "2026-11-13T01:08:10.948Z",
+  "wikitext": "{{pveversion|Tease}}\n{{Skill infobox\n| id = 3463\n| name = Tease (PvP)\n| campaign = Nightfall\n| profession = Mesmer\n| attribute = Inspiration Magic\n| type = Spell\n| elite = y\n| energy = 5\n| activation = {{1/4}}\n| recharge = 20\n| target = foes\n| range = \n| is-pvp = y\n| aoe = in the area\n| causes1 = Interrupt\n| causes2 = Energy Stealing\n| description = [[Elite]] [[Spell]]. If [[target]] [[foe]] is using a [[skill]], that foe and other foes [[in the area]] are [[interrupt]]ed and you steal {{gr|0|5}} [[Energy]] from all foes in the area.\n| concise description = Elite Spell. Interrupts a skill. Interruption effect: also interrupts other foes in the area, and you steal {{gr|0|5}} Energy from all foes in the area.\n}}\n\n{{Skill progression\n|attribute = [[Inspiration Magic]]\n|var1 name = [[Energy]] stolen\n|var1 at0 = 0\n|var1 at15 = 5}}\n\n== Related skills ==\n* {{skill icon|Cry of Frustration}}\n* {{skill icon|Cry of Pain}}\n* {{skill icon|Panic}} ([[elite]])\n\n== Notes ==\n* Steals energy from target and foes in the area even if interruption is prevented.\n\n[[de:Reizen (PvP)]]"
+}

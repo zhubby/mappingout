@@ -1,0 +1,11 @@
+{
+  "title": "Gratian",
+  "pageid": 38080,
+  "revid": 2548146,
+  "revisedAt": "2013-05-29T03:56:16Z",
+  "sha1": "1522686038df70e810248eb86d723c64e8e5865b",
+  "url": "https://wiki.guildwars.com/wiki/Gratian",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gratian&oldid=2548146",
+  "retrievedAt": "2026-11-13T02:14:56.981Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Luxon ambassador.jpg|150px]]\n| affiliation = Luxons\n| type = Human\n| service = Material trader\n| level = 20\n| campaign = Factions\n}}\n[[Gratian]] is a material trader, a type of [[NPC]] that buys and sells [[common crafting material]]s.\n\n==Locations==\n*[[The Jade Sea]]\n**{{NPC location|Cavalon}}\n\n==Dialogue==\n{{Luxon-only service NPC dialogue|skill trainer=n}}\n{{trader dialogue}}"
+}

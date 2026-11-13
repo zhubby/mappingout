@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of unique swords",
+  "pageid": 89204,
+  "revid": 2703999,
+  "revisedAt": "2025-04-08T13:36:56Z",
+  "sha1": "11f50e6d22ae467b026d852c9b9edde993ab946e",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_unique_swords",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20unique%20swords&oldid=2703999",
+  "retrievedAt": "2026-11-13T02:28:01.949Z",
+  "wikitext": "<dpl>\n  category = Unique swords\n  category = Swordsmanship unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by type|Swords]]\n[[Category:Unique item galleries by attribute|Swordsmanship]]\n[[Category:Unique swords|+]]"
+}

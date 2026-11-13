@@ -1,0 +1,11 @@
+{
+  "title": "Taste of Undeath",
+  "pageid": 290576,
+  "revid": 2630125,
+  "revisedAt": "2018-06-18T17:52:47Z",
+  "sha1": "8955246d2e22d00a7d60b8171c394ab962c2ee2e",
+  "url": "https://wiki.guildwars.com/wiki/Taste_of_Undeath",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Taste%20of%20Undeath&oldid=2630125",
+  "retrievedAt": "2026-11-13T01:08:10.947Z",
+  "wikitext": "{{skill-stub}}\n{{Skill infobox\n| name = Taste of Undeath\n| id = 2765\n| profession = Monster\n| special = Monster\n| type = Spell\n| elite = y\n| campaign = Prophecies\n| campaign2 = Nightfall\n| energy = 10\n| activation = {{1/4}}\n| recharge = 4\n| target = ally\n| range = Casting\n| aoe = none\n| causes1 = Life Stealing\n| description = \n| concise description = Elite Spell. [[Life stealing|Steal]] up to 500 [[health]] from [[target]] [[ally]].\n}}\n\n== Related skills ==\n* {{skill icon|Taste of Death}}\n\n==Notes==\n*This skill is used by [[Palawa Joko]] during [[Scarred Psyche]].\n\n[[de:Geschmack des Untodes]]"
+}

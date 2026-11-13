@@ -1,0 +1,11 @@
+{
+  "title": "Crippling Anguish (PvP)",
+  "pageid": 253947,
+  "revid": 2731217,
+  "revisedAt": "2026-06-25T05:08:57Z",
+  "sha1": "509eadcfca8fc46ca7649e21e7841393b4aa50af",
+  "url": "https://wiki.guildwars.com/wiki/Crippling_Anguish_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Crippling%20Anguish%20(PvP)&oldid=2731217",
+  "retrievedAt": "2026-11-13T01:08:06.013Z",
+  "wikitext": "{{pveversion|Crippling Anguish}}\n\n{{Skill infobox\n| id = 3152\n| name = Crippling Anguish (PvP)\n| campaign = Core\n| profession = Mesmer\n| attribute = Illusion Magic\n| type = Hex Spell\n| elite = yes\n| is-pvp = y\n| energy = 10\n| activation = 1\n| recharge = 20\n| causes1 = Decreased Movement Speed\n| causes2 = Health Degeneration\n| description = [[Elite]] [[Hex Spell]]. For {{gr|5|20}} seconds, [[target]] [[Snare (tactic)|moves 50% slower]] and suffers {{gr|2|6|-}} [[Health degeneration]].\n| concise description = Elite Hex Spell. ({{gr|5|20}} seconds.) Target foe moves 50% slower and has {{gr|2|6|-}} Health degeneration.\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 20\n|var2 name = [[Health degeneration]]\n|var2 at0 = 2\n|var2 at15 = 6}}\n\n== Related skills ==\n* {{duplicate skill icon|Ethereal Burden|Kitah's Burden}}\n* {{skill icon|Imagined Burden}}\n* {{skill icon|Winter's Embrace}}\n\n== Trivia ==\n* The [[functionality]] of this skill has changed since its introduction; see its [[Crippling Anguish (PvP)/Skill history|skill history]] for details.\n\n[[de:Verkrüppelnde Qual (PvP)]]"
+}

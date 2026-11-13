@@ -1,0 +1,11 @@
+{
+  "title": "Iguana",
+  "pageid": 66360,
+  "revid": 2597707,
+  "revisedAt": "2015-10-29T09:49:55Z",
+  "sha1": "bc31d7ce2b7a510d5da80a8172c9b413b77711bd",
+  "url": "https://wiki.guildwars.com/wiki/Iguana",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Iguana&oldid=2597707",
+  "retrievedAt": "2026-11-13T01:39:10.765Z",
+  "wikitext": "{{NPC infobox\n| image = [[File:Iguana.jpg|300px]]\n| type = Charmable animal\n| level = 5\n| passive = yes\n| campaign = Eye of the North\n| affiliation = Tarnished Coast wildlife\n| map1 = [[File:Possible iguana spawns in Arbor Bay.jpg|175px]]\n| map1-text = Possible locations in [[Arbor Bay]]\n| map2 = [[File:Iguana location in Riven Earth.jpg|175px]]\n| map2-text = Iguanas outside of [[Rata Sum]]\n}}__NOTOC__\n{{otheruses|the charmable animal|the collector during Farewell to Gaile|Iguana (collector)}}\nThe [[Iguana]] is a [[charmable animal]] found in the [[Tarnished Coast]]. The tail is the Iguana's strongest muscle and is used both for defense and for propelling the reptile in water.\n\n==Locations==\n*[[Core]]\n**[[The Battle Isles]]\n***{{NPC location|Zaishen Menagerie Grounds}} (levels 5, 12, 15, and 20, depending on unlock progress)\n*[[Eye of the North]]\n**[[Tarnished Coast]]\n***{{NPC location|Arbor Bay}}\n***{{NPC location|Riven Earth}} (northeast of [[Rata Sum]], near the [[Golem Foundry]])\n***{{NPC location|Magus Stones}}\n\n==Notes==\n*It uses a similar model to [[Dune Lizard]] but with a slightly different [[skin]].\n*Evolved Iguanas deal [[slashing damage]], while Unevolved Iguanas deal [[piercing damage]].\n*[[Zaishen_Menagerie_Grounds/Service_costs|Unlocking cost]]: 1{{zsilver}} plus 100{{gold}} or 1,000 [[Balthazar Faction]] ''(Common, Tyria)''\n\n{{Charmable animal nav}}"
+}

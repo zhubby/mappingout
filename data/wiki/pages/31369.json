@@ -1,0 +1,11 @@
+{
+  "title": "Gretchen",
+  "pageid": 31369,
+  "revid": 2547634,
+  "revisedAt": "2013-05-25T03:31:24Z",
+  "sha1": "50d5fc45231c24d4d1151ecad130d4ce17e17443",
+  "url": "https://wiki.guildwars.com/wiki/Gretchen",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gretchen&oldid=2547634",
+  "retrievedAt": "2026-11-13T02:14:52.879Z",
+  "wikitext": "{{otheruses|a Kurzick material trader|the [[Shining Blade]] ranger|Elder Gretchen}}\n__NOTOC__{{NPC infobox\n| image = [[Image:Kurzick noble f blue.jpg|150px]]\n| affiliation = Kurzicks\n| type = Human\n| service = Material trader\n| level = 20\n| campaign = Factions\n}}\n[[Gretchen]] is a material trader, a type of [[NPC]] that buys and sells [[common crafting material]]s.\n\n==Locations==\n*[[Echovald Forest]]\n**{{NPC location|House zu Heltzer}}\n\n==Dialogue==\n{{Kurzick-only service NPC dialogue|skill trainer=n}}\n{{trader dialogue}}"
+}

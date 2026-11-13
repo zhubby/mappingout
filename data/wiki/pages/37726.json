@@ -1,0 +1,11 @@
+{
+  "title": "Guardsman Ayoki",
+  "pageid": 37726,
+  "revid": 2711583,
+  "revisedAt": "2025-08-19T05:00:03Z",
+  "sha1": "d22930d838610e7b01742decacfca329077ffd48",
+  "url": "https://wiki.guildwars.com/wiki/Guardsman_Ayoki",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Guardsman%20Ayoki&oldid=2711583",
+  "retrievedAt": "2026-11-13T01:11:03.933Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Canthan guard m.jpg|150px]]\n| type = Human\n| affiliation = Imperial Guard\n| service = Collector\n| level = 20\n| campaign = Factions\n| map1 = [[Image:Panjiang Peninsula collectors map.jpg|150px]]\n| map1-text = Location\n}}\n[[Guardsman Ayoki]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for items.\n\n==Locations==\n*[[Shing Jea Island]]\n**{{NPC location|Panjiang Peninsula}} (not during [[Track Down Weng Gha]] and [[The Crop Thieves]])''\n\n==Dialogue==\n:''\"Good day. No doubt you have heard of the notorious Crimson Skull? Members of this unsavory guild have been declared outlaws by the emperor himself for acts of murder, banditry, arson, and sedition against the Empire. Any who hunt down the Crimson Skull will be rewarded. If you bring me 3 Copper Crimson Skull Coins as proof that you have rid this world of some of these outlaws, I will give you this in return:\"''\n\n{{collector no armor trade dialogue|Copper Crimson Skull Coins}}\n\n==Collector items==\n{{:Guardsman Ayoki/Collector armor}}\n\n==Notes==\n*Ayoki is the only collector to offer a piece of armor with 35-55 AR prior to reaching [[Seitung Harbor]]. \n** Although his armor reduces damage taken by an average 4% compared to the armorers in [[Shing Jea Monastery]] (since the 20 AR difference leads to ~30% damage reduction, and the head piece is hit 1 time out of 8), it does not come with an attribute bonus."
+}

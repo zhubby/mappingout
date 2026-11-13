@@ -1244,5 +1244,23 @@
         "notes": "Representative zone positions inspected on original image; not an in-game survey."
       }
     }
-  ]
+  ],
+  "wiki": {
+    "referenceVersion": "gww-2026-11-13",
+    "coverage": {
+      "skills": 381,
+      "chineseDescriptions": 31,
+      "pvpVariants": 54,
+      "bosses": 1183,
+      "weapons": 697,
+      "collectors": 350,
+      "storylines": 4,
+      "pets": 32,
+      "treasures": 12,
+      "unresolvedIdentities": 2
+    },
+    "scope": "按字段审查现有游戏资料及 Wiki 修订；两条旧身份无法确认，见问题清单。不是游戏实测，地图坐标仍为旧资料。",
+    "source": "https://wiki.guildwars.com",
+    "review": "data/wiki-review.json"
+  }
 }

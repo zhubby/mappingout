@@ -1,0 +1,11 @@
+{
+  "title": "Enraged Smash (PvP)",
+  "pageid": 294250,
+  "revid": 2738490,
+  "revisedAt": "2026-08-26T21:24:38Z",
+  "sha1": "a9a4b43f3200d3789a8832d0eafb65e42e227fdc",
+  "url": "https://wiki.guildwars.com/wiki/Enraged_Smash_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Enraged%20Smash%20(PvP)&oldid=2738490",
+  "retrievedAt": "2026-11-13T01:08:08.214Z",
+  "wikitext": "{{Pveversion|Enraged Smash}}\n{{Skill infobox\n| id = 2808\n| name = Enraged Smash (PvP)\n| is-pvp = y\n| campaign = Factions\n| profession = Warrior\n| attribute = Hammer Mastery\n| type = Hammer Attack\n| elite = y\n| energy = 5\n| recharge = 10\n| causes1 = Adrenaline Gain\n| causes2 = Knockdown\n| description = [[Elite]] [[Hammer Attack]]. If Enraged Smash hits, you gain {{gr|1|3}} strike[s] of [[adrenaline]]. If you hit a [[Movement|moving]] [[foe]], you strike for {{gr|10|40|+}} [[damage]], and [[target]] foe is [[Knock down|knocked down]].\n| concise description = Elite Hammer Attack. Gives you {{gr|1|3}} strike[s] of adrenaline if you hit. Deals {{gr|10|40|+}} damage and causes knockdown if target foe was moving.\n}}\n\n{{Skill progression\n|attribute = [[Hammer Mastery]]\n|var1 name = [[Adrenaline]] gain\n|var1 at0 = 1\n|var1 at15 = 3\n|var2 name = + [[Damage]]<br>(on moving foe)\n|var2 at0 = 10\n|var2 at15 = 40}}\n\n== Related skills ==\n* {{skill icon|Bull's Strike}}\n* {{skill icon|Mokele Smash}}\n\n[[de:Erzürnter Schlag (PvP)]]"
+}

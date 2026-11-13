@@ -1,0 +1,11 @@
+{
+  "title": "Magistrate Wakai",
+  "pageid": 41691,
+  "revid": 2535364,
+  "revisedAt": "2013-02-25T09:10:23Z",
+  "sha1": "99982c506f775fcf04e801c00c68828d2b53ac86",
+  "url": "https://wiki.guildwars.com/wiki/Magistrate_Wakai",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Magistrate%20Wakai&oldid=2535364",
+  "retrievedAt": "2026-11-13T01:10:36.189Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Canthan guard captain m.jpg|150px]]\n| type = Human\n| affiliation = Celestial Ministry\n| service = Collector\n| level = 20\n| campaign = Factions\n| map1 = [[File:Wajjun Bazaar collectors map.jpg|150px]]\n| map1-text = Location in [[Wajjun Bazaar]]\n}}\n[[Magistrate Wakai]] is a [[collector]], a type of [[NPC]] that exchanges [[Trophy|trophies]] for items.\n\n== Locations ==\n* [[Kaineng City]]\n** {{NPC location|Wajjun Bazaar}}\n\n== Dialogue ==\n: ''\"The [[Emperor Kisu|emperor]] has declared all members of the [[Jade Brotherhood]] enemies of the empire.  Put an end to these criminals and return to me for a bounty!  If you being me 5 [[Jade Bracelet]]s as proof of their demise, I will give you this in return:\"''\n\n{{collector no armor trade dialogue|Jade Bracelets}}\n\n== Collector items ==\n{{:Magistrate Wakai/Collector armor}}"
+}

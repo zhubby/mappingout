@@ -1,0 +1,11 @@
+{
+  "title": "Winfield Michelson",
+  "pageid": 48704,
+  "revid": 2597928,
+  "revisedAt": "2015-11-01T17:39:54Z",
+  "sha1": "05a3f8450668f1096cc0bf1b111f27c9fbec9d5a",
+  "url": "https://wiki.guildwars.com/wiki/Winfield_Michelson",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winfield%20Michelson&oldid=2597928",
+  "retrievedAt": "2026-11-13T01:10:04.175Z",
+  "wikitext": "{{NPC infobox\n| affiliation = \n| type = Ghost\n| service = Collector\n| level = 15\n| image = [[File:Ascalonian ghost m.png|150px]]\n| campaign = Prophecies\n| map1 = [[Image:Winfield Michelson Location.jpg|150px]]\n| map1-text = Route to his location in Prophet's Path\n| map2 = [[Image:Prophet's Path collectors map.jpg|150px]]\n| map2-text = Collectors in Prophet's Path\n}}__NOTOC__\n[[Winfield Michelson]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for [[armor]].\n\n==Locations==\n*[[Crystal Desert]]\n**{{NPC location|Prophet's Path}}\n\n==Dialogue==\n:''\"I'm searching for 5 [[Bleached Carapace]]s. I can offer you one of the following items in exchange. Can you help me?\"''\n{{Collector no armor trade dialogue|Bleached Carapaces}}\n\n==Collector items==\n{{:Winfield Michelson/Collector armor}}"
+}

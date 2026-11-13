@@ -1,0 +1,11 @@
+{
+  "title": "Hylas (Factions)",
+  "pageid": 108707,
+  "revid": 2537936,
+  "revisedAt": "2013-03-21T04:11:15Z",
+  "sha1": "dc7af50481187c3a47fde097172e72a76ca466b8",
+  "url": "https://wiki.guildwars.com/wiki/Hylas_(Factions)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hylas%20(Factions)&oldid=2537936",
+  "retrievedAt": "2026-11-13T02:15:02.516Z",
+  "wikitext": "{{otheruses|a [[Luxon]] guard in [[Guild Wars Factions]]|the [[weaponsmith]] in [[Guild Wars Prophecies]]|Hylas}}\n__NOTOC__{{NPC infobox\n| name = Hylas\n| image = [[File:Luxon warrior.jpg|150px]]\n| affiliation = Luxons\n| type = Human\n| profession = w\n| service = Gatekeeper\n| level = 20\n| campaign = Factions\n| map1 = [[File:Location of Hylas (Factions).jpg|150px]]\n| map1-text = Location in Unwaking Waters.\n}}\n[[Hylas (Factions)|Hylas]] guards the entrance into the [[Unwaking Waters (Luxon)]].\n\n==Locations==\n*[[The Jade Sea]]\n**{{NPC location|Unwaking Waters|explorable area}}\n\n==Dialogue==\n:''\"Oh no you don't. I can't let you pass. As a [[Kurzick]], <[[character]] name> is not allowed into the Jade Sea, not to mention she {{sic}} wouldn't last a turn of the sun out there. Yeah, I know all about the \"truce,\" but my captain says we still must not allow Kurzicks to travel unchecked through our lands. I'm sorry, but I have my orders.\"''\n:{{ask|gold}} '''We have business in Unwaking Waters.''' (if your character has completed [[Befriending the Luxons]])\n::''\"The strong will take from the weak. It is the way of the sea. I will take you to Unwaking Waters when you are ready.\"''\n{{offer dialog\n|accept = We are ready.\n|decline = We are not ready yet.}}\n:::''\"Your entire [[party]] is about to be moved to the next area. Make sure all party members are ready first. Do you wish to continue?\"''\n{{offer dialog\n|accept = Yes.\n|decline = No.\n|indent = :::}}\n:{{x}} '''I'll be on my way.'''\n\n== Notes ==\n* His dialogue will refer to your character as being a Kurzick even if your character has more unspent Luxon faction and/or is in a Luxon [[guild]], which is similar to [[Gatekeeper Dedrick]] who refers to every character as being a Luxon.\n\n{{research needed|Does he have different dialgoe if your character isn't in a guild or in a guild that is not aligned with Kurzick or Luxon?}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Air Magic unique items",
+  "pageid": 221859,
+  "revid": 1685488,
+  "revisedAt": "2009-09-17T08:10:55Z",
+  "sha1": "d4891b0e9ce97d03822770dd1b4582f7cbe005b5",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Air_Magic_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Air%20Magic%20unique%20items&oldid=1685488",
+  "retrievedAt": "2026-11-13T02:27:56.385Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Air Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Air Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Air Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by attribute|Air Magic]]\n[[Category:Elementalist unique items|+]]"
+}

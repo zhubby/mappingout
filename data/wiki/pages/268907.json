@@ -1,0 +1,11 @@
+{
+  "title": "Visions of Regret (PvP)",
+  "pageid": 268907,
+  "revid": 2630200,
+  "revisedAt": "2018-06-18T17:55:29Z",
+  "sha1": "cddf4967e8c791856f1d623926a2616e66207cc3",
+  "url": "https://wiki.guildwars.com/wiki/Visions_of_Regret_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Visions%20of%20Regret%20(PvP)&oldid=2630200",
+  "retrievedAt": "2026-11-13T01:08:10.946Z",
+  "wikitext": "{{Pveversion|Visions of Regret}}\n{{Skill infobox\n| name = Visions of Regret (PvP)\n| id = 3234\n| campaign = Nightfall\n| profession = Mesmer\n| attribute = Domination Magic\n| type = Hex Spell\n| energy = 10\n| activation = 2\n| recharge = 30\n| elite = y\n| description = [[Elite]] [[Hex Spell]]. For 10 seconds, [[target]] [[foe]] and [[adjacent]] foes take {{gr|10|30}} [[damage]] whenever they use a [[skill]] and {{gr|5|40}} additional damage if not under the effects of another Mesmer hex.\n| concise description = Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take {{gr|10|30}} damage whenever they use a skill and {{gr|5|40}} additional damage if not under the effects of another Mesmer hex.\n| is-pvp = y\n| aoe = adjacent\n}}\n\n{{Skill progression\n| attribute = [[Domination Magic]]\n| var1 name = [[Damage]]\n| var1 at0 = 10\n| var1 at15 = 30\n| var2 name = Conditional damage\n| var2 at0 = 5\n| var2 at15 = 40}}\n\n== Related skills ==\n* {{skill icon|Backfire}}\n* {{skill icon|Cacophony}}\n* {{skill icon|Soul Leech}} ([[elite]])\n* {{skill icon|Spiteful Spirit}} (elite)\n\n== Notes ==\n* [[NPC]]s will [[cancel]] skills if casting it would cause them to die from this hex's effect, and afterwards they will not use skills until the hex expires or is removed.\n* This skill is on the restricted list for the [[Codex Arena]].\n\n[[de:Visionen des Bedauerns (PvP)]]"
+}

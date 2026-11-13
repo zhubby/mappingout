@@ -1,0 +1,11 @@
+{
+  "title": "Falhurst",
+  "pageid": 20041,
+  "revid": 2189123,
+  "revisedAt": "2010-11-28T01:02:29Z",
+  "sha1": "d7b19b01bca6feddc3091e6c9bb863ccd0c41d24",
+  "url": "https://wiki.guildwars.com/wiki/Falhurst",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Falhurst&oldid=2189123",
+  "retrievedAt": "2026-11-13T01:10:25.320Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Ascalon merchant untattered m.jpg|150px]]\n| type = Human\n| affiliation = Krytans\n| service = Collector\n| level = 2\n| campaign = Prophecies\n| map1 = [[Image:Falhurst map.jpg|150px]]\n| map1-text = Location in Twin Serpent Lakes\n| map2 = [[Image:Twin Serpent Lakes collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Falhurst]] is a [[collector]], a type of [[NPC]] that exchanges [[Trophy|trophies]] for [[armor]].\n\n== Location ==\n* [[Kryta]]\n** {{NPC location|Twin Serpent Lakes}} (outside [[Riverside Province]] on the right)\n\n== Dialogue ==\n: ''\"I'm searching for 5 [[Mergoyle Skull]]s. I can offer you one of the following items in exchange. Can you help me?\"''\n{{Nosale dialogue|Mergoyle Skulls}}\n\n== Collector items ==\n{{:Falhurst/Collector armor}}"
+}

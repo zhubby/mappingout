@@ -1,0 +1,11 @@
+{
+  "title": "Chormar/Collector armor",
+  "pageid": 62987,
+  "revid": 2485132,
+  "revisedAt": "2012-05-11T22:45:58Z",
+  "sha1": "5bd4a6d5bb26aad12c75591ea0786dac1aca519c",
+  "url": "https://wiki.guildwars.com/wiki/Chormar/Collector_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Chormar%2FCollector%20armor&oldid=2485132",
+  "retrievedAt": "2026-11-13T01:52:36.524Z",
+  "wikitext": "====[[Chormar]]====\n'''Location:''' [[Lahtenda Bog]]<br>\n'''Collecting:''' 2 [[Mandragor Swamproot]]s\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! [[Profession]] || Item || [[Armor rating|AR]] || [[Armor bonus]] || Value\n|-\n| {{w}} [[Warrior]] || [[Warrior Istani armor|Istani Leggings]] || 65 || [[Armor]] +20 (vs. [[physical damage]]) || 30 {{gold}}\n|-\n| {{r}} [[Ranger]] || [[Ranger Istani armor|Istani Leggings]] || 55 || [[Energy recovery]] +1, Armor +30 (vs. [[elemental damage]]) || 30 {{gold}}\n|-\n| {{mo}} [[Monk]] || [[Monk Istani armor|Istani Pants]] || 45 || Energy recovery +1 || 30 {{gold}}\n|-\n| {{n}} [[Necromancer]] || [[Necromancer Istani armor|Istani Leggings]] || 45 || Energy recovery +1 || 30 {{gold}}\n|-\n| {{me}} [[Mesmer]] || [[Mesmer Istani armor|Istani Hose]] || 45 || Energy recovery +1 || 30 {{gold}}\n|-\n| {{e}} [[Elementalist]] || [[Elementalist Istani armor|Istani Leggings]] || 45 || Energy recovery +1 || 30 {{gold}}\n|-\n| {{p}} [[Paragon]] || [[Paragon Elonian armor|Elonian Leggings]] || 65 || ''none'' || 30 {{gold}}\n|-\n| {{d}} [[Dervish]] || [[Dervish Elonian armor|Elonian Leggings]] || 55 || Energy recovery +1 || 30 {{gold}}\n|}<noinclude>\n[[Category:Armor collector subpages]]\n</noinclude>"
+}

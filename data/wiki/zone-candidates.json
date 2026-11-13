@@ -1,0 +1,2708 @@
+[
+  {
+    "id": "zone:1:18",
+    "name": "夏尔火焰神殿",
+    "skills": 1,
+    "best": [
+      {
+        "area": "Flame Temple Corridor",
+        "common": 1,
+        "total": 2
+      },
+      {
+        "area": "Hell's Precipice",
+        "common": 1,
+        "total": 6
+      },
+      {
+        "area": "Sorrow's Furnace",
+        "common": 1,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:1:17",
+    "name": "巨龙峡湾",
+    "skills": 7,
+    "best": [
+      {
+        "area": "The Titan Source",
+        "common": 7,
+        "total": 7
+      },
+      {
+        "area": "Dragon's Gullet",
+        "common": 7,
+        "total": 8
+      },
+      {
+        "area": "Hell's Precipice",
+        "common": 3,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:1:77",
+    "name": "纠结之根",
+    "skills": 1,
+    "best": [
+      {
+        "area": "Defend Droknar's Forge",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Defend North Kryta Province",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Tangle Root",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:1:80",
+    "name": "先王之墓",
+    "skills": 1,
+    "best": [
+      {
+        "area": "The Hall of Heroes (explorable area)",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Riverside Assassination",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Tunnels of the Forsaken",
+        "common": 1,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:1:81",
+    "name": "龙穴",
+    "skills": 6,
+    "best": [
+      {
+        "area": "The Dragon's Lair",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "The Hero's Challenge",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Nebo Terrace",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:1:84",
+    "name": "伊洛那流域",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Dunes of Despair",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Elona Reach",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Thirsty River",
+        "common": 6,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:1:82",
+    "name": "盐滩",
+    "skills": 1,
+    "best": [
+      {
+        "area": "Unspeakable, Unknowable",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Salt Flats",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "The Ranger's Path",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:1:87",
+    "name": "先知之路",
+    "skills": 1,
+    "best": [
+      {
+        "area": "Prophet's Path",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Kilroy Stonekin (quest)",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "The Forge Heart",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:1:94",
+    "name": "绝望沙丘",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Dunes of Despair",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Elona Reach",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Thirsty River",
+        "common": 6,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:1:97",
+    "name": "干枯河流",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Dunes of Despair",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Elona Reach",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Thirsty River",
+        "common": 6,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:1:104",
+    "name": "洛拿斯通道",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Lornar's Pass",
+        "common": 5,
+        "total": 6
+      },
+      {
+        "area": "Frozen Forest",
+        "common": 5,
+        "total": 11
+      },
+      {
+        "area": "Ice Caves of Sorrow",
+        "common": 3,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:1:105",
+    "name": "无惧者之丘",
+    "skills": 1,
+    "best": [
+      {
+        "area": "Dreadnought's Drift",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Lornar's Pass",
+        "common": 1,
+        "total": 6
+      },
+      {
+        "area": "Grenth's Footprint",
+        "common": 1,
+        "total": 7
+      }
+    ]
+  },
+  {
+    "id": "zone:1:106",
+    "name": "蛇舞",
+    "skills": 13,
+    "best": [
+      {
+        "area": "Snake Dance",
+        "common": 13,
+        "total": 14
+      },
+      {
+        "area": "Talus Chute",
+        "common": 6,
+        "total": 12
+      },
+      {
+        "area": "Iron Mines of Moladune",
+        "common": 4,
+        "total": 13
+      }
+    ]
+  },
+  {
+    "id": "zone:1:108",
+    "name": "哀伤熔炉",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Sorrow's Furnace",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Grenth's Footprint",
+        "common": 4,
+        "total": 7
+      },
+      {
+        "area": "Frozen Forest",
+        "common": 3,
+        "total": 11
+      }
+    ]
+  },
+  {
+    "id": "zone:1:109",
+    "name": "古兰斯的足迹",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Grenth's Footprint",
+        "common": 6,
+        "total": 7
+      },
+      {
+        "area": "Frozen Forest",
+        "common": 5,
+        "total": 11
+      },
+      {
+        "area": "Thunderhead Keep",
+        "common": 5,
+        "total": 12
+      }
+    ]
+  },
+  {
+    "id": "zone:1:111",
+    "name": "碎石坡道",
+    "skills": 11,
+    "best": [
+      {
+        "area": "Talus Chute",
+        "common": 11,
+        "total": 12
+      },
+      {
+        "area": "Snake Dance",
+        "common": 6,
+        "total": 14
+      },
+      {
+        "area": "Witman's Folly",
+        "common": 5,
+        "total": 7
+      }
+    ]
+  },
+  {
+    "id": "zone:1:113",
+    "name": "威特曼的怪异建筑",
+    "skills": 7,
+    "best": [
+      {
+        "area": "Witman's Folly",
+        "common": 7,
+        "total": 7
+      },
+      {
+        "area": "Spearhead Peak",
+        "common": 7,
+        "total": 11
+      },
+      {
+        "area": "Talus Chute",
+        "common": 5,
+        "total": 12
+      }
+    ]
+  },
+  {
+    "id": "zone:1:115",
+    "name": "哀伤冰谷",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Ice Caves of Sorrow",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Frozen Forest",
+        "common": 5,
+        "total": 11
+      },
+      {
+        "area": "Thunderhead Keep",
+        "common": 5,
+        "total": 12
+      }
+    ]
+  },
+  {
+    "id": "zone:1:117",
+    "name": "伏兵",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Ice Floe",
+        "common": 9,
+        "total": 9
+      },
+      {
+        "area": "Abaddon's Mouth",
+        "common": 6,
+        "total": 11
+      },
+      {
+        "area": "Thunderhead Keep",
+        "common": 6,
+        "total": 12
+      }
+    ]
+  },
+  {
+    "id": "zone:1:119",
+    "name": "雷云要塞",
+    "skills": 12,
+    "best": [
+      {
+        "area": "Thunderhead Keep",
+        "common": 12,
+        "total": 12
+      },
+      {
+        "area": "Iron Mines of Moladune",
+        "common": 7,
+        "total": 13
+      },
+      {
+        "area": "Ice Floe",
+        "common": 6,
+        "total": 9
+      }
+    ]
+  },
+  {
+    "id": "zone:1:120",
+    "name": "冰冻森林",
+    "skills": 11,
+    "best": [
+      {
+        "area": "Frozen Forest",
+        "common": 11,
+        "total": 11
+      },
+      {
+        "area": "Thunderhead Keep",
+        "common": 6,
+        "total": 12
+      },
+      {
+        "area": "Ice Caves of Sorrow",
+        "common": 5,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:1:122",
+    "name": "莫拉登矿山",
+    "skills": 13,
+    "best": [
+      {
+        "area": "Iron Mines of Moladune",
+        "common": 13,
+        "total": 13
+      },
+      {
+        "area": "Abaddon's Mouth",
+        "common": 7,
+        "total": 11
+      },
+      {
+        "area": "Thunderhead Keep",
+        "common": 7,
+        "total": 12
+      }
+    ]
+  },
+  {
+    "id": "zone:1:123",
+    "name": "枪尖山",
+    "skills": 10,
+    "best": [
+      {
+        "area": "Spearhead Peak",
+        "common": 10,
+        "total": 11
+      },
+      {
+        "area": "Witman's Folly",
+        "common": 7,
+        "total": 7
+      },
+      {
+        "area": "Talus Chute",
+        "common": 5,
+        "total": 12
+      }
+    ]
+  },
+  {
+    "id": "zone:1:125",
+    "name": "矿物源泉",
+    "skills": 8,
+    "best": [
+      {
+        "area": "Mineral Springs",
+        "common": 8,
+        "total": 9
+      },
+      {
+        "area": "Defend Droknar's Forge",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Defend North Kryta Province",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:1:100",
+    "name": "火环群岛",
+    "skills": 13,
+    "best": [
+      {
+        "area": "Ring of Fire",
+        "common": 13,
+        "total": 13
+      },
+      {
+        "area": "Abaddon's Mouth",
+        "common": 7,
+        "total": 11
+      },
+      {
+        "area": "Ice Floe",
+        "common": 6,
+        "total": 9
+      }
+    ]
+  },
+  {
+    "id": "zone:1:101",
+    "name": "地域隘口",
+    "skills": 11,
+    "best": [
+      {
+        "area": "Abaddon's Mouth",
+        "common": 11,
+        "total": 11
+      },
+      {
+        "area": "Iron Mines of Moladune",
+        "common": 7,
+        "total": 13
+      },
+      {
+        "area": "Ring of Fire",
+        "common": 7,
+        "total": 13
+      }
+    ]
+  },
+  {
+    "id": "zone:1:98",
+    "name": "破灭石",
+    "skills": 18,
+    "best": [
+      {
+        "area": "Perdition Rock",
+        "common": 18,
+        "total": 19
+      },
+      {
+        "area": "Proof of Triumph",
+        "common": 2,
+        "total": 2
+      },
+      {
+        "area": "Divinity Coast (explorable area)",
+        "common": 2,
+        "total": 4
+      }
+    ]
+  },
+  {
+    "id": "zone:1:102",
+    "name": "地域悬崖",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Hell's Precipice",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "The Titan Source",
+        "common": 3,
+        "total": 7
+      },
+      {
+        "area": "Dragon's Gullet",
+        "common": 3,
+        "total": 8
+      }
+    ]
+  },
+  {
+    "id": "zone:2:142",
+    "name": "地下城",
+    "skills": 8,
+    "best": [
+      {
+        "area": "The Undercity",
+        "common": 8,
+        "total": 9
+      },
+      {
+        "area": "Shenzun Tunnels",
+        "common": 2,
+        "total": 5
+      },
+      {
+        "area": "A Chance Encounter",
+        "common": 2,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:2:146",
+    "name": "莱苏皇宫",
+    "skills": 12,
+    "best": [
+      {
+        "area": "Raisu Palace (explorable area)",
+        "common": 9,
+        "total": 10
+      },
+      {
+        "area": "Tahnnakai Temple",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Raisu Palace",
+        "common": 8,
+        "total": 8
+      }
+    ]
+  },
+  {
+    "id": "zone:2:149",
+    "name": "巴德克小径",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Bukdek Byway",
+        "common": 5,
+        "total": 6
+      },
+      {
+        "area": "Eliminate the Am Fah",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "The Afflicted Guard",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:155",
+    "name": "薇如广场 (本地区域)",
+    "skills": 8,
+    "best": [
+      {
+        "area": "Vizunah Square",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Dragon's Throat",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Unwaking Waters",
+        "common": 8,
+        "total": 8
+      }
+    ]
+  },
+  {
+    "id": "zone:2:157",
+    "name": "夏安便道",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Xaquang Skyway",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Capturing the Orrian Tome",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Tsumei Village (mission 2)",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:159",
+    "name": "纳普区",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Nahpui Quarter",
+        "common": 4,
+        "total": 5
+      },
+      {
+        "area": "Nahpui Quarter (explorable area)",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Cleansing Zen Daijun",
+        "common": 1,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:2:161",
+    "name": "申赞通道",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Shenzun Tunnels",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Shenzun Tunnels (Winds of Change)",
+        "common": 2,
+        "total": 2
+      },
+      {
+        "area": "A Chance Encounter",
+        "common": 2,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:2:162",
+    "name": "谭纳凯神殿",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Tahnnakai Temple",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Raisu Palace",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Raisu Palace (explorable area)",
+        "common": 6,
+        "total": 10
+      }
+    ]
+  },
+  {
+    "id": "zone:2:166",
+    "name": "孙江行政区",
+    "skills": 10,
+    "best": [
+      {
+        "area": "Sunjiang District (explorable area)",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Sunjiang District",
+        "common": 7,
+        "total": 8
+      },
+      {
+        "area": "Boreas Seabed",
+        "common": 2,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:2:151",
+    "name": "龙喉",
+    "skills": 8,
+    "best": [
+      {
+        "area": "Vizunah Square",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Dragon's Throat",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Unwaking Waters",
+        "common": 8,
+        "total": 8
+      }
+    ]
+  },
+  {
+    "id": "zone:2:152",
+    "name": "阴暗通道",
+    "skills": 1,
+    "best": [
+      {
+        "area": "The Afflicted Guard",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "The Drunken Master",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Shadow's Passage",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:156",
+    "name": "瓦江市场",
+    "skills": 3,
+    "best": [
+      {
+        "area": "Wajjun Bazaar",
+        "common": 3,
+        "total": 3
+      },
+      {
+        "area": "Straight to the Top",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Chasing Zenmai",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:168",
+    "name": "朋美谷",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Pongmei Valley",
+        "common": 4,
+        "total": 5
+      },
+      {
+        "area": "Pongmei Valley (Winds of Change)",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Cleansing Bukdek Byway",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:194",
+    "name": "亭石 (任务)",
+    "skills": 7,
+    "best": [
+      {
+        "area": "Arborstone (explorable area)",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Arborstone",
+        "common": 4,
+        "total": 5
+      },
+      {
+        "area": "Altrumm Ruins",
+        "common": 3,
+        "total": 4
+      }
+    ]
+  },
+  {
+    "id": "zone:2:196",
+    "name": "奥楚兰废墟",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Altrumm Ruins",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Arborstone (explorable area)",
+        "common": 3,
+        "total": 6
+      },
+      {
+        "area": "Arborstone",
+        "common": 1,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:2:198",
+    "name": "蕨谷",
+    "skills": 8,
+    "best": [
+      {
+        "area": "Ferndale",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Temple of the Dredge",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Revolt of the Dredge",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:197",
+    "name": "凤荷议院",
+    "skills": 10,
+    "best": [
+      {
+        "area": "Capturing the Orrian Tome",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Tsumei Village (mission 2)",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Seitung Harbor (mission 2)",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:205",
+    "name": "梅兰朵的盼望",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Melandru's Hope",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Altrumm Ruins",
+        "common": 1,
+        "total": 4
+      },
+      {
+        "area": "Capturing the Orrian Tome",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:206",
+    "name": "德瑞扎灌木林",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Drazach Thicket",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Boreas Seabed",
+        "common": 1,
+        "total": 6
+      },
+      {
+        "area": "Redemption for the Lost",
+        "common": 1,
+        "total": 7
+      }
+    ]
+  },
+  {
+    "id": "zone:2:208",
+    "name": "永恒之林 (任务)",
+    "skills": 11,
+    "best": [
+      {
+        "area": "The Eternal Grove (explorable area)",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "The Eternal Grove",
+        "common": 3,
+        "total": 3
+      },
+      {
+        "area": "Vizunah Square",
+        "common": 3,
+        "total": 8
+      }
+    ]
+  },
+  {
+    "id": "zone:2:211",
+    "name": "摩洛神秘通道",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Morostav Trail",
+        "common": 8,
+        "total": 10
+      },
+      {
+        "area": "Gyala Hatchery (explorable area)",
+        "common": 5,
+        "total": 10
+      },
+      {
+        "area": "Unwaking Waters (explorable area)",
+        "common": 2,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:2:213",
+    "name": "哀伤之幕瀑布",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Mourning Veil Falls",
+        "common": 9,
+        "total": 12
+      },
+      {
+        "area": "Rhea's Crater",
+        "common": 4,
+        "total": 8
+      },
+      {
+        "area": "Silent Surf",
+        "common": 3,
+        "total": 9
+      }
+    ]
+  },
+  {
+    "id": "zone:2:169",
+    "name": "风神海床 (任务)",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Boreas Seabed",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Boreas Seabed (explorable area)",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "A Chance Encounter",
+        "common": 2,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:2:171",
+    "name": "今凱山",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Mount Qinkai",
+        "common": 3,
+        "total": 4
+      },
+      {
+        "area": "Ever Closer to the Edge",
+        "common": 1,
+        "total": 2
+      },
+      {
+        "area": "Pongmei Valley",
+        "common": 1,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:2:176",
+    "name": "卡瓦隆",
+    "skills": 10,
+    "best": [
+      {
+        "area": "Capturing the Orrian Tome",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Tsumei Village (mission 2)",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Seitung Harbor (mission 2)",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:179",
+    "name": "麦尚山丘",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Maishang Hills",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Nahpui Quarter",
+        "common": 2,
+        "total": 5
+      },
+      {
+        "area": "Night Raiders",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:183",
+    "name": "盖拉孵化所 (任务)",
+    "skills": 8,
+    "best": [
+      {
+        "area": "Gyala Hatchery (explorable area)",
+        "common": 8,
+        "total": 10
+      },
+      {
+        "area": "Morostav Trail",
+        "common": 5,
+        "total": 10
+      },
+      {
+        "area": "The Eternal Grove (explorable area)",
+        "common": 2,
+        "total": 8
+      }
+    ]
+  },
+  {
+    "id": "zone:2:180",
+    "name": "群島",
+    "skills": 7,
+    "best": [
+      {
+        "area": "Archipelagos",
+        "common": 7,
+        "total": 7
+      },
+      {
+        "area": "Night Raiders",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Architect of Corruption",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:2:186",
+    "name": "席亚火山口",
+    "skills": 8,
+    "best": [
+      {
+        "area": "Rhea's Crater",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Mourning Veil Falls",
+        "common": 4,
+        "total": 12
+      },
+      {
+        "area": "The Eternal Grove (explorable area)",
+        "common": 2,
+        "total": 8
+      }
+    ]
+  },
+  {
+    "id": "zone:2:187",
+    "name": "寂静之浪",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Silent Surf",
+        "common": 9,
+        "total": 9
+      },
+      {
+        "area": "The Eternal Grove (explorable area)",
+        "common": 3,
+        "total": 8
+      },
+      {
+        "area": "Mourning Veil Falls",
+        "common": 3,
+        "total": 12
+      }
+    ]
+  },
+  {
+    "id": "zone:2:191",
+    "name": "沉睡之水",
+    "skills": 11,
+    "best": [
+      {
+        "area": "Vizunah Square",
+        "common": 6,
+        "total": 8
+      },
+      {
+        "area": "Dragon's Throat",
+        "common": 6,
+        "total": 8
+      },
+      {
+        "area": "Unwaking Waters",
+        "common": 6,
+        "total": 8
+      }
+    ]
+  },
+  {
+    "id": "zone:3:227",
+    "name": "杜夏悬崖",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Cliffs of Dohjok",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "A Land of Heroes",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Barbarous Shore",
+        "common": 3,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:3:233",
+    "name": "伊斯诺岛",
+    "skills": 2,
+    "best": [
+      {
+        "area": "Issnur Isles",
+        "common": 2,
+        "total": 2
+      },
+      {
+        "area": "Moa'vu'Kaal, Awakened",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Jahai Bluffs",
+        "common": 1,
+        "total": 6
+      }
+    ]
+  },
+  {
+    "id": "zone:3:218",
+    "name": "卡玛丹·艾斯坦之钻",
+    "skills": 10,
+    "best": [
+      {
+        "area": "The Great Escape",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "To the Rescue (Nightfall quest)",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "A Deal's a Deal",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:237",
+    "name": "马加海岸",
+    "skills": 12,
+    "best": [
+      {
+        "area": "Marga Coast",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Nundu Bay",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Dzagonur Bastion",
+        "common": 3,
+        "total": 4
+      }
+    ]
+  },
+  {
+    "id": "zone:3:240",
+    "name": "阿尔科监禁区",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Arkjok Ward",
+        "common": 9,
+        "total": 9
+      },
+      {
+        "area": "The Great Escape",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Koss's Elixir",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:241",
+    "name": "日戟避难所",
+    "skills": 1,
+    "best": [
+      {
+        "area": "Secure the Refuge",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Moddok Crevice",
+        "common": 1,
+        "total": 3
+      },
+      {
+        "area": "Arkjok Ward",
+        "common": 1,
+        "total": 9
+      }
+    ]
+  },
+  {
+    "id": "zone:3:242",
+    "name": "向阳边境",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Sunward Marches",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Norn Catering",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Koss's Elixir",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:244",
+    "name": "托雷长廊",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Turai's Procession",
+        "common": 4,
+        "total": 7
+      },
+      {
+        "area": "Battle of Turai's Procession",
+        "common": 2,
+        "total": 2
+      },
+      {
+        "area": "The Sulfurous Wastes",
+        "common": 2,
+        "total": 7
+      }
+    ]
+  },
+  {
+    "id": "zone:3:245",
+    "name": "夏亥峭壁",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Jahai Bluffs",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Moa'vu'Kaal, Awakened",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Issnur Isles",
+        "common": 1,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:3:248",
+    "name": "曼克隆泛滥平原",
+    "skills": 9,
+    "best": [
+      {
+        "area": "The Floodplain of Mahnkelon",
+        "common": 8,
+        "total": 9
+      },
+      {
+        "area": "Rilohn Refuge",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Drakes on the Plain",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:250",
+    "name": "巴多克洞穴",
+    "skills": 8,
+    "best": [
+      {
+        "area": "Bahdok Caverns",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Moddok Crevice",
+        "common": 2,
+        "total": 3
+      },
+      {
+        "area": "Cliffs of Dohjok",
+        "common": 2,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:3:251",
+    "name": "达贾林庄园",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Dejarin Estate",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Kodonur Crossroads",
+        "common": 4,
+        "total": 5
+      },
+      {
+        "area": "Consulate Docks",
+        "common": 3,
+        "total": 4
+      }
+    ]
+  },
+  {
+    "id": "zone:3:254",
+    "name": "野蛮河岸",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Barbarous Shore",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Cliffs of Dohjok",
+        "common": 3,
+        "total": 5
+      },
+      {
+        "area": "A Land of Heroes",
+        "common": 3,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:3:255",
+    "name": "弦月要塞·干达拉",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Consulate Docks",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Pogahn Passage",
+        "common": 3,
+        "total": 3
+      },
+      {
+        "area": "Kodonur Crossroads",
+        "common": 2,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:3:257",
+    "name": "威金矿坑",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Vehjin Mines",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "To the Rescue (Nightfall quest)",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "A Deal's a Deal",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:260",
+    "name": "希伯欣花园",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Garden of Seborhin",
+        "common": 4,
+        "total": 5
+      },
+      {
+        "area": "Extinction",
+        "common": 1,
+        "total": 2
+      },
+      {
+        "area": "Desperate Measures",
+        "common": 1,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:3:262",
+    "name": "舟克辛卷藏室",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Holdings of Chokhin",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Koss's Elixir",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Sunward Marches",
+        "common": 1,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:3:265",
+    "name": "高地广场",
+    "skills": 7,
+    "best": [
+      {
+        "area": "Forum Highlands",
+        "common": 6,
+        "total": 7
+      },
+      {
+        "area": "Extinction",
+        "common": 2,
+        "total": 2
+      },
+      {
+        "area": "Desperate Measures",
+        "common": 2,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:3:267",
+    "name": "隐藏之城·哈达辛",
+    "skills": 6,
+    "best": [
+      {
+        "area": "The Hidden City of Ahdashim",
+        "common": 5,
+        "total": 6
+      },
+      {
+        "area": "Dasha Vestibule",
+        "common": 2,
+        "total": 3
+      },
+      {
+        "area": "The Sulfurous Wastes",
+        "common": 2,
+        "total": 7
+      }
+    ]
+  },
+  {
+    "id": "zone:3:270",
+    "name": "巴萨荒野",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Wilderness of Bahdza",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Dzagonur Bastion",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Nundu Bay",
+        "common": 3,
+        "total": 4
+      }
+    ]
+  },
+  {
+    "id": "zone:3:272",
+    "name": "丽之镜湖",
+    "skills": 4,
+    "best": [
+      {
+        "area": "The Mirror of Lyss",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Warning Kehanni",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "The Cold Touch of the Past",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:274",
+    "name": "巍天帝峡谷",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Vehtendi Valley",
+        "common": 4,
+        "total": 5
+      },
+      {
+        "area": "Norn Catering",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Garden of Seborhin",
+        "common": 1,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:3:275",
+    "name": "奢华之城·莫肯",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Resplendent Makuun",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "A Flickering Flame",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Gift of the Djinn",
+        "common": 1,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:3:277",
+    "name": "隐秘教堂",
+    "skills": 1,
+    "best": [
+      {
+        "area": "The Great Escape",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "To the Rescue (Nightfall quest)",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "A Deal's a Deal",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:278",
+    "name": "亚天帝峡谷",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Yatendi Canyons",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "A Show of Force",
+        "common": 2,
+        "total": 3
+      },
+      {
+        "area": "Consulate Docks",
+        "common": 2,
+        "total": 4
+      }
+    ]
+  },
+  {
+    "id": "zone:3:281",
+    "name": "水晶高地",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Crystal Overlook",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Open Season",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Domain of Secrets",
+        "common": 1,
+        "total": 7
+      }
+    ]
+  },
+  {
+    "id": "zone:3:283",
+    "name": "破裂之心",
+    "skills": 8,
+    "best": [
+      {
+        "area": "The Ruptured Heart",
+        "common": 8,
+        "total": 8
+      },
+      {
+        "area": "Proof of Triumph",
+        "common": 3,
+        "total": 3
+      },
+      {
+        "area": "Invasion From Within",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:284",
+    "name": "剧毒地表",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Poisoned Outcrops",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Rilohn Refuge",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Gate of Pain",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:286",
+    "name": "碎裂沟谷",
+    "skills": 5,
+    "best": [
+      {
+        "area": "The Shattered Ravines",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Horde of Darkness",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "They Only Come Out at Night",
+        "common": 1,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:3:287",
+    "name": "金属熔炉",
+    "skills": 4,
+    "best": [
+      {
+        "area": "The Alkali Pan",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "Gate of Desolation",
+        "common": 1,
+        "total": 5
+      },
+      {
+        "area": "The Great Escape",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:290",
+    "name": "杰格领地",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Joko's Domain",
+        "common": 5,
+        "total": 6
+      },
+      {
+        "area": "Gate of Desolation",
+        "common": 2,
+        "total": 5
+      },
+      {
+        "area": "The Great Escape",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:293",
+    "name": "硫磺荒地",
+    "skills": 11,
+    "best": [
+      {
+        "area": "The Sulfurous Wastes",
+        "common": 6,
+        "total": 7
+      },
+      {
+        "area": "Gate of Desolation",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "A Show of Force",
+        "common": 3,
+        "total": 3
+      }
+    ]
+  },
+  {
+    "id": "zone:3:297",
+    "name": "惩罚领地",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Domain of Pain",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "The Great Escape",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Bad Fortune",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:295",
+    "name": "夜蚀暗殒·夏亥",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Nightfallen Jahai",
+        "common": 9,
+        "total": 10
+      },
+      {
+        "area": "Breaking the Broken",
+        "common": 2,
+        "total": 2
+      },
+      {
+        "area": "They Only Come Out at Night",
+        "common": 2,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:3:298",
+    "name": "疯狂深渊",
+    "skills": 7,
+    "best": [
+      {
+        "area": "Depths of Madness",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Dzagonur Bastion",
+        "common": 3,
+        "total": 4
+      },
+      {
+        "area": "Breaking the Broken",
+        "common": 2,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:3:299",
+    "name": "悲难领地",
+    "skills": 2,
+    "best": [
+      {
+        "area": "Warning Kehanni",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "The Cold Touch of the Past",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Nundu Bay",
+        "common": 1,
+        "total": 4
+      }
+    ]
+  },
+  {
+    "id": "zone:3:300",
+    "name": "奥秘领地",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Domain of Secrets",
+        "common": 5,
+        "total": 7
+      },
+      {
+        "area": "Blueprint of the Fall",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "A Tasty Morsel",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:301",
+    "name": "恐惧领地",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Domain of Fear",
+        "common": 4,
+        "total": 8
+      },
+      {
+        "area": "The Great Escape",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "To the Rescue (Nightfall quest)",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:3:301:line-98",
+    "name": "阴暗核心",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Domain of Fear",
+        "common": 4,
+        "total": 8
+      },
+      {
+        "area": "The Great Escape",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "To the Rescue (Nightfall quest)",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:325",
+    "name": "袭哈拉",
+    "skills": 4,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:323",
+    "name": "甘拿的占领地",
+    "skills": 7,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:354",
+    "name": "洛达顶点",
+    "skills": 4,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:320",
+    "name": "极地之眼",
+    "skills": 4,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:337",
+    "name": "长眼岩脉",
+    "skills": 3,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:328",
+    "name": "欧拉夫之地",
+    "skills": 3,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:356",
+    "name": "灰暗避难所",
+    "skills": 6,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:351",
+    "name": "佛洛克斯瀑布",
+    "skills": 1,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:347",
+    "name": "阴影石穴",
+    "skills": 1,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:319",
+    "name": "冰崖裂口",
+    "skills": 2,
+    "best": [
+      {
+        "area": "Ice Cliff Chasms",
+        "common": 2,
+        "total": 3
+      },
+      {
+        "area": "Ooze Pit",
+        "common": 1,
+        "total": 2
+      },
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:330",
+    "name": "战斗深渊",
+    "skills": 4,
+    "best": [
+      {
+        "area": "In the Service of Revenge",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 0,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 0,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:322",
+    "name": "诺恩之心领地",
+    "skills": 2,
+    "best": [
+      {
+        "area": "Norrhart Domains",
+        "common": 2,
+        "total": 3
+      },
+      {
+        "area": "The Big Unfriendly Jotun",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Nornhood",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:324",
+    "name": "卓卡湖",
+    "skills": 9,
+    "best": [
+      {
+        "area": "Drakkar Lake",
+        "common": 6,
+        "total": 6
+      },
+      {
+        "area": "Norrhart Domains",
+        "common": 2,
+        "total": 3
+      },
+      {
+        "area": "In the Service of Revenge",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:327",
+    "name": "维拉戛阵地",
+    "skills": 8,
+    "best": [
+      {
+        "area": "Varajar Fells",
+        "common": 4,
+        "total": 9
+      },
+      {
+        "area": "Bjora Marches",
+        "common": 2,
+        "total": 5
+      },
+      {
+        "area": "Norn Catering",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:333",
+    "name": "亚加 摩瑞音",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Jaga Moraine",
+        "common": 3,
+        "total": 5
+      },
+      {
+        "area": "Battledepths",
+        "common": 2,
+        "total": 3
+      },
+      {
+        "area": "Attack on Jalis's Camp",
+        "common": 2,
+        "total": 4
+      }
+    ]
+  },
+  {
+    "id": "zone:4:335",
+    "name": "碧拉边境",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Bjora Marches",
+        "common": 3,
+        "total": 5
+      },
+      {
+        "area": "Blood Washes Blood",
+        "common": 2,
+        "total": 4
+      },
+      {
+        "area": "Forbidden Fruit",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:346",
+    "name": "原野瀑布",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Verdant Cascades",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "The Cipher of Balthazar",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Sparkfly Swamp",
+        "common": 1,
+        "total": 5
+      }
+    ]
+  },
+  {
+    "id": "zone:4:341",
+    "name": "古斯玛战争丘陵地",
+    "skills": 7,
+    "best": [
+      {
+        "area": "Against the Charr",
+        "common": 3,
+        "total": 4
+      },
+      {
+        "area": "Flame Temple Corridor",
+        "common": 2,
+        "total": 2
+      },
+      {
+        "area": "Special Ops: Flame Temple Corridor",
+        "common": 2,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:4:338",
+    "name": "达拉达山地",
+    "skills": 6,
+    "best": [
+      {
+        "area": "Dalada Uplands",
+        "common": 4,
+        "total": 4
+      },
+      {
+        "area": "The Cipher of Dwayna",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Forgotten Relics",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:343",
+    "name": "圣诺谷",
+    "skills": 13,
+    "best": [
+      {
+        "area": "Sacnoth Valley",
+        "common": 10,
+        "total": 11
+      },
+      {
+        "area": "Assault on the Stronghold",
+        "common": 2,
+        "total": 2
+      },
+      {
+        "area": "Proof of Triumph",
+        "common": 2,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:4:357",
+    "name": "玛古斯之石",
+    "skills": 7,
+    "best": [
+      {
+        "area": "Magus Stones",
+        "common": 7,
+        "total": 7
+      },
+      {
+        "area": "The Cipher of Lyssa",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Lab Space",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:353",
+    "name": "撕裂大地",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Riven Earth",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Frostmaw's Burrow",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "The Cipher of Dwayna",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  },
+  {
+    "id": "zone:4:355",
+    "name": "纠结之艾卡滋亚",
+    "skills": 4,
+    "best": [
+      {
+        "area": "Alcazia Tangle",
+        "common": 4,
+        "total": 5
+      },
+      {
+        "area": "The Cipher of Melandru",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "The Hunting of the Charr",
+        "common": 1,
+        "total": 2
+      }
+    ]
+  },
+  {
+    "id": "zone:4:350",
+    "name": "安博湾",
+    "skills": 3,
+    "best": [
+      {
+        "area": "Arbor Bay",
+        "common": 3,
+        "total": 4
+      },
+      {
+        "area": "Spoiler-related Cipher",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Battledepths",
+        "common": 1,
+        "total": 3
+      }
+    ]
+  },
+  {
+    "id": "zone:4:360",
+    "name": "火星蝇沼泽",
+    "skills": 5,
+    "best": [
+      {
+        "area": "Sparkfly Swamp",
+        "common": 5,
+        "total": 5
+      },
+      {
+        "area": "Krak's Cavalry",
+        "common": 1,
+        "total": 1
+      },
+      {
+        "area": "Finding Gadd",
+        "common": 1,
+        "total": 1
+      }
+    ]
+  }
+]

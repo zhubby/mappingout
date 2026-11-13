@@ -1,0 +1,11 @@
+{
+  "title": "Unyielding Aura (PvP)",
+  "pageid": 154794,
+  "revid": 2630185,
+  "revisedAt": "2018-06-18T17:54:59Z",
+  "sha1": "9db9e10117f52028e30cf528c188ce935ab0614a",
+  "url": "https://wiki.guildwars.com/wiki/Unyielding_Aura_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unyielding%20Aura%20(PvP)&oldid=2630185",
+  "retrievedAt": "2026-11-13T01:08:10.945Z",
+  "wikitext": "{{Pveversion|Unyielding Aura}}\n{{Skill infobox\n| name = Unyielding Aura (PvP)\n| id = 2891\n| campaign = Prophecies\n| profession = Monk\n| attribute = Divine Favor\n| type = Enchantment Spell\n| elite = y\n| upkeep = -1\n| energy = 5\n| activation = 3\n| recharge = 15\n| description = [[Elite]] [[Enchantment Spell]]. Bring [[target]] [[Death|dead]] [[party]] member [[Resurrection|back to life]] at full [[Health]] and full [[Energy]]. If you stop [[Upkeep|maintaining]] this enchantment or if this enchantment is removed, that party member dies and leaves an exploited [[corpse]]. Deaths while enchanted with Unyielding Aura do not incur a [[death penalty]]. (50% [[fail]]ure chance with [[Divine Favor]] 4 or less.)\n| concise description = Elite Enchantment Spell. Resurrects target party member (full Health, full Energy). End effect: this ally dies and leaves an exploited corpse. Does not incur a death penalty. {{gray|50% failure chance unless Divine Favor 5 or more.}}\n| is-pvp = y\n| target = dead party members\n}}\n\n==Related skills==\n* {{skill icon|Vengeance}}\n\n==Notes==\n*Make sure the target has a [[cover]] enchantment, since a well-placed [[List of enchantment removal skills|enchantment removal]] from a [[foe]] will cause your party member to die.\n*Dying while enchanted by this skill does not count as a [[death]]; teams on [[Kill Count]] and [[Alliance Battle]] maps will not be awarded points for deaths of players under the effects of Unyielding Aura.\n\n[[Category:Resurrection skills]]\n[[Category:Skills with a failure rate linked to an attribute]]\n\n[[de:Unnachgiebige Aura (PvP)]]"
+}

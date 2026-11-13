@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Sorrow's Furnace unique items",
+  "pageid": 295799,
+  "revid": 2619700,
+  "revisedAt": "2017-06-28T22:02:50Z",
+  "sha1": "20f0fb4d6b66c6dd45e3c890687b40575653dfed",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Sorrow%27s_Furnace_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Sorrow's%20Furnace%20unique%20items&oldid=2619700",
+  "retrievedAt": "2026-11-13T02:27:40.573Z",
+  "wikitext": "{{TOCright}}\n<dpl>\ncategory = Sorrow's Furnace unique items\n  uses = Template:Weapon infobox\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by source|Sorrow's Furnace]]\n[[Category:Sorrow's Furnace unique items|+]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Hember",
+  "pageid": 57513,
+  "revid": 2535351,
+  "revisedAt": "2013-02-25T09:04:23Z",
+  "sha1": "bff9816d574d30247190cc63e0cc3397c4587e06",
+  "url": "https://wiki.guildwars.com/wiki/Hember",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hember&oldid=2535351",
+  "retrievedAt": "2026-11-13T01:10:36.192Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Ascalon merchant untattered m.jpg|150px]]\n| type = Human\n| affiliation = Tyrians\n| service = Collector\n| level = 2\n| campaign = Prophecies\n| map1 = [[File:Hember map.jpg|150px]]\n| map1-text = Location in [[Ettin's Back]]\n| map2 = [[File:Ettin's Back collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Hember]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for items.\n\n==Locations==\n*[[Maguuma Jungle]]\n**{{NPC location|Ettin's Back}}\n\n==Dialogue==\nIf you are one of the [[core]] professions:\n:''\"I'm searching for 5 [[Thorny Carapace]]s. I can offer you one of the following items in exchange. Can you help me?\"''\n\n{{collector no armor trade dialogue|Thorny Carapaces}}\n\n==Collector items==\n{{:Hember/Collector armor}}"
+}

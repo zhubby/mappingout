@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of unique spears",
+  "pageid": 89210,
+  "revid": 2460635,
+  "revisedAt": "2012-03-08T19:54:17Z",
+  "sha1": "1e592724cd65fb2783f4303361ea84e155e3c7f8",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_unique_spears",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20unique%20spears&oldid=2460635",
+  "retrievedAt": "2026-11-13T02:28:00.494Z",
+  "wikitext": "<dpl>\n  category = Unique spears\n  category = Spear Mastery unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by type|Spears]]\n[[Category:Unique item galleries by attribute|Spear Mastery]]\n[[Category:Unique spears|+]]"
+}

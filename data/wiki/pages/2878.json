@@ -1,0 +1,11 @@
+{
+  "title": "Maddened Spirit Warden",
+  "pageid": 2878,
+  "revid": 2425700,
+  "revisedAt": "2011-12-21T23:04:33Z",
+  "sha1": "3296bccd2e3f4308f584a53ef37931a91bd00498",
+  "url": "https://wiki.guildwars.com/wiki/Maddened_Spirit_Warden",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maddened%20Spirit%20Warden&oldid=2425700",
+  "retrievedAt": "2026-11-13T02:14:55.584Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| type = Warden\n| profession = rt\n| level = 28 (30)\n| campaign = Factions\n| image = [[Image:Warden of the Tree.jpg|150px]]\n}}\n[[Maddened Spirit Warden]]s support their allies with healing and damage.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n16 [[Restoration Magic]], 0 [[Spawning Power]]\n*{{skill icon|Consume Soul}} ([[elite]])\n*{{skill icon|Recuperation}}\n*{{skill icon|Resilient Weapon}}\n*{{skill icon|Spirit Light}}\n*{{skill icon|Splinter Weapon}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = rt\n| blunt = 84\n| piercing = 84\n| slashing = 84\n| cold = 84\n| earth = 84\n| fire = 84\n| lightning = 84\n}}\n\n==Items dropped==\n*[[Amber Chunk]]\n*[[Warden Vestments]]\n\n[[Category:Drops amber]]"
+}

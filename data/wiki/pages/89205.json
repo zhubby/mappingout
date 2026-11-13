@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of unique hammers",
+  "pageid": 89205,
+  "revid": 2460640,
+  "revisedAt": "2012-03-08T19:56:25Z",
+  "sha1": "63e84ac4a76447ea4fe2c5e1357efa8886601ad7",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_unique_hammers",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20unique%20hammers&oldid=2460640",
+  "retrievedAt": "2026-11-13T02:28:00.493Z",
+  "wikitext": "<dpl>\n  category = Unique hammers\n  category = Hammer Mastery unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by type|Hammers]]\n[[Category:Unique item galleries by attribute|Hammer Mastery]]\n[[Category:Unique hammers|+]]"
+}

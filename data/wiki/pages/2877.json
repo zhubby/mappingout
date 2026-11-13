@@ -1,0 +1,11 @@
+{
+  "title": "Maddened Thorn Warden",
+  "pageid": 2877,
+  "revid": 2255610,
+  "revisedAt": "2011-03-05T21:28:57Z",
+  "sha1": "1db24b9b82efa44fbd8e8c763e5d647e4fa61ab3",
+  "url": "https://wiki.guildwars.com/wiki/Maddened_Thorn_Warden",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maddened%20Thorn%20Warden&oldid=2255610",
+  "retrievedAt": "2026-11-13T02:14:55.584Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| type = Warden\n| profession = Assassin\n| level = 28 (30)\n| campaign = Factions\n| image = [[Image:Warden of the Tree.jpg|150px]]\n}}\n[[Maddened Thorn Warden]]s use [[condition]]s and [[hex]]es to kill their foes.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n16 [[Critical Strikes]], 0 [[Deadly Arts]]\n*{{skill icon|Entangling Asp}}\n*{{skill icon|Iron Palm}}\n*{{skill icon|Seeping Wound}} ([[elite]])\n*{{skill icon|Shameful Fear}}\n*{{skill icon|Sharpen Daggers}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = a\n| blunt = 94\n| piercing = 94\n| slashing = 94\n| cold = 94\n| earth = 94\n| fire = 94\n| lightning = 94\n}}\n\n==Items dropped==\n*[[Warden Vestments]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Skye",
+  "pageid": 31364,
+  "revid": 2547636,
+  "revisedAt": "2013-05-25T03:31:49Z",
+  "sha1": "783d4c1d0d660e14b1bab4eceba9e5b829610988",
+  "url": "https://wiki.guildwars.com/wiki/Skye",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Skye&oldid=2547636",
+  "retrievedAt": "2026-11-13T02:14:52.878Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Kurzick noble f blue.jpg|150px]]\n| affiliation = Kurzicks\n| type = Human\n| service = Rune trader\n| level = 20\n| campaign = Factions\n}}\n[[Skye]] is a [[rune trader]], a type of [[NPC]] that buys and sells [[rune]]s with prices that are based on supply and demand.\n\n==Locations==\n*[[Echovald Forest]]\n**{{NPC location|House zu Heltzer}}\n\n==Dialogue==\n{{Kurzick-only service NPC dialogue|skill trainer=n}}\n{{trader dialogue}}"
+}

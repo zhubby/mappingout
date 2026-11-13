@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Communing unique items",
+  "pageid": 221875,
+  "revid": 1685530,
+  "revisedAt": "2009-09-17T09:01:53Z",
+  "sha1": "b39dcb4d8b3fba37aedaae3f33bca5a8cda36796",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Communing_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Communing%20unique%20items&oldid=1685530",
+  "retrievedAt": "2026-11-13T02:28:00.497Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Communing unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Communing unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Communing unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by attribute|Communing]]\n[[Category:Ritualist unique items|+]]"
+}

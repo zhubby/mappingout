@@ -1,0 +1,11 @@
+{
+  "title": "Ulron Foffson",
+  "pageid": 75422,
+  "revid": 2241394,
+  "revisedAt": "2011-02-17T10:09:44Z",
+  "sha1": "995fa47a4d145f6e40449d01f4a095878ad55751",
+  "url": "https://wiki.guildwars.com/wiki/Ulron_Foffson",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ulron%20Foffson&oldid=2241394",
+  "retrievedAt": "2026-11-13T02:15:53.481Z",
+  "wikitext": "{{npc-stub}}\n__NOTOC__{{NPC infobox\n| affiliation = Norn\n| campaign = Eye of the North\n| profession = p\n| species = Norn\n| map1 = [[image:{{PAGENAME}} map.jpg|150px]]\n| map1-text = Location in [[Varajar Fells]]\n}}\n[[{{PAGENAME}}]] offers [[Norn Hunting Party]] after being defeated. He uses [[paragon]] [[skill]]s, unlike other Norns, who are mostly [[warrior]]s.\n\n==Locations==\n*[[Far Shiverpeaks]]\n**{{NPC location|Varajar Fells}} (near the entrance to [[Battledepths]])\n\n==Skills==\n*{{skill icon|\"Find Their Weakness!\"}}\n*{{skill icon|\"Never Surrender!\"}}\n*{{skill icon|\"Never Give Up!\"}}\n*{{skill icon|Crippling Anthem}} ([[elite]])\n*{{skill icon|Mighty Throw}}\n*{{monster skill icon|Bear Form}}\n\n==Dialogue==\n{{dialogue needed}}\n;Before defeat:\n: ''\"Impress me in battle, then we talk!\"''\n{{ Offer dialog\n| accept = Bring it!  (Fight.)\n| decline = Maybe some other time.\n}}\n\n;After defeat:\n: ''\"I'm the best. Don't even try. There's NO WAY you'll slaughter more monsters than me.\"''\n{{ Offer dialog\n| accept = We'll see about that.\n| decline = You're right. I stink.\n| accepticon = [[File:Norn Hunting Party.jpg|23px]]\n}}\n\n;After being defeated, with a blessing\n:''\"You are an accomplished hunter. Walk with Bear.\"''\n\n;Under [[Norn Hunting Party]] with less than 25 kills\n: ''\"Hmm. <b>(0..24)</b> kills?  Come back when you've got a few more.\"''\n\n;After reaching rank 1, before receiving the [[Heart of the Norn]]:\n:''\"You are earning a powerful reputation among Norn. The renowned [[Tyr the Skaald]] [Norn Storyteller] of [[Gunnar's Hold]] wishes to discuss your famous deeds.\"''\n\n\n\n[[Category:Offers Eye of the North bounty-like blessing]] [[Category:Norn]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Stolen Goods",
+  "pageid": 16678,
+  "revid": 2649003,
+  "revisedAt": "2020-04-06T15:28:17Z",
+  "sha1": "2191082bfcd7cb3d0bcc97f4f836aadc9d6f44ef",
+  "url": "https://wiki.guildwars.com/wiki/Stolen_Goods",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Stolen%20Goods&oldid=2649003",
+  "retrievedAt": "2026-11-13T03:15:35.746Z",
+  "wikitext": "{{Item infobox\n| rarity = white\n| campaign = [[Nightfall]]\n| type = [[Salvage item]]\n| stackable = Yes\n| value = 20 {{gold}}\n| commonsalvage = 4-5 [[Bolt of Cloth|Bolts of Cloth]]<br>4-5 [[Tanned Hide Square]]s\n| raresalvage = 1 [[Tempered Glass Vial]]<br>1 [[Vial of Ink]]\n}}\n\n==Acquisition==\n*[[Istan]]\n**[[Corsair]] ([[level]] 15 or above in [[normal mode]]; level 25 in [[hard mode]])\n*[[Kourna]]\n**Corsair\n\n{{ongoing item research}}\n\n[[Category:Stackable salvage items]]"
+}

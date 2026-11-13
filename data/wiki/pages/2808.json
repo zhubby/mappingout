@@ -1,0 +1,11 @@
+{
+  "title": "Maddened Dredge Savage",
+  "pageid": 2808,
+  "revid": 2598449,
+  "revisedAt": "2015-11-08T16:57:59Z",
+  "sha1": "9848d0123dd641346af3ae61dc5b4a8564a12b33",
+  "url": "https://wiki.guildwars.com/wiki/Maddened_Dredge_Savage",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maddened%20Dredge%20Savage&oldid=2598449",
+  "retrievedAt": "2026-11-13T02:14:55.579Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Dredge ranger.jpg|150px]]\n| type = Dredge\n| profession = Ranger\n| level = 28 (30)\n| campaign = Factions\n}}\n[[Maddened Dredge Savage]]s apply long-lasting [[condition]]s.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n*{{skill icon|Apply Poison}}\n*{{skill icon|Archer's Signet}} ([[elite]])\n*{{skill icon|Pin Down}}\n*{{skill icon|Savage Shot}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = r\n| blunt = 94\n| piercing = 94\n| slashing = 94\n| cold = 124\n| earth = 124\n| fire = 124\n| lightning = 124\n}}\n\n==Items dropped==\n*[[Dredge Spaulder]]"
+}

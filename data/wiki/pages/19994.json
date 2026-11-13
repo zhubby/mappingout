@@ -1,0 +1,11 @@
+{
+  "title": "Zaishen Healer",
+  "pageid": 19994,
+  "revid": 2675993,
+  "revisedAt": "2021-11-17T23:37:29Z",
+  "sha1": "e49adda89b1d8f548c4644b53244553e464f69aa",
+  "url": "https://wiki.guildwars.com/wiki/Zaishen_Healer",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Zaishen%20Healer&oldid=2675993",
+  "retrievedAt": "2026-11-13T02:14:26.025Z",
+  "wikitext": "{{NPC infobox \n| type = Human\n| affiliation = Zaishen Order\n| profession = mo\n| service = Henchman\n| level = 20\n| campaign = Core\n| campaign2 = Prophecies\n}}\n[[Zaishen Healer]]s are [[Monk]] Zaishen Henchmen found in PvP areas involving the [[Zaishen]]. They can also be found in the previous PvP outpost [[Tomb of the Primeval Kings]], since it used to be the lobby for the [[Heroes' Ascent]].\n\n==Locations==\n*[[Core]]\n**[[The Battle Isles]]\n***{{NPC location|Heroes' Ascent}} (one of the [[List of Zaishen Challenges henchmen|possible replacements]] if you enter a match with less than eight [[party]] members)\n***{{NPC location|Training Arena}} (if you enter with a party that has three or less members)\n***{{NPC location|Zaishen Challenge|outpost}}\n***{{NPC location|Zaishen Elite|outpost}}\n*[[Guild Wars Prophecies|Prophecies]]\n**[[Crystal Desert]]\n***{{NPC location|Tomb of the Primeval Kings}}\n\n==Skills==\n13 [[Divine Favor]], 13 [[Healing Prayers]]\n*{{skill icon|Heal Other}}\n*{{skill icon|Healing Breeze}}\n*{{skill icon|Healing Seed}}\n*{{skill icon|Healing Touch}}\n*{{skill icon|Orison of Healing}}\n*{{skill icon|Remove Hex}}\n*{{skill icon|Restore Life}}\n*{{skill icon|Word of Healing}} ([[elite]])\n\n{{Henchmen nav|Core|Prophecies}}\n[[Category:Monk henchmen]]\n[[Category:Core henchmen]]"
+}

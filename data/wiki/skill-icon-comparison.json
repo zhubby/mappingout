@@ -1,0 +1,7581 @@
+[
+  {
+    "id": "skill:0:1",
+    "name": "劈击",
+    "proposed": "Cleave",
+    "proposedError": 9.459,
+    "candidates": [
+      {
+        "title": "Cleave",
+        "error": 9.459
+      },
+      {
+        "title": "Gladiator's Defense",
+        "error": 49.865
+      },
+      {
+        "title": "Battle Rage",
+        "error": 51.474
+      }
+    ]
+  },
+  {
+    "id": "skill:0:2",
+    "name": "毁灭之鎚",
+    "proposed": "Devastating Hammer",
+    "proposedError": 10.12,
+    "candidates": [
+      {
+        "title": "Devastating Hammer",
+        "error": 10.12
+      },
+      {
+        "title": "Gladiator's Defense",
+        "error": 45.245
+      },
+      {
+        "title": "Focused Anger",
+        "error": 50.778
+      }
+    ]
+  },
+  {
+    "id": "skill:0:3",
+    "name": "战斗愤怒",
+    "proposed": "Battle Rage",
+    "proposedError": 9.993,
+    "candidates": [
+      {
+        "title": "Battle Rage",
+        "error": 9.993
+      },
+      {
+        "title": "Rage of the Ntouka",
+        "error": 46.065
+      },
+      {
+        "title": "\"Incoming!\"",
+        "error": 46.641
+      }
+    ]
+  },
+  {
+    "id": "skill:0:4",
+    "name": "快速剑",
+    "proposed": "Hundred Blades",
+    "proposedError": 12.051,
+    "candidates": [
+      {
+        "title": "Hundred Blades",
+        "error": 12.051
+      },
+      {
+        "title": "Hundred Blades (PvP)",
+        "error": 12.051
+      },
+      {
+        "title": "Incendiary Arrows",
+        "error": 58.095
+      }
+    ]
+  },
+  {
+    "id": "skill:0:5",
+    "name": "【突击!】",
+    "proposed": "\"Charge!\"",
+    "proposedError": 10.626,
+    "candidates": [
+      {
+        "title": "\"Charge!\"",
+        "error": 10.626
+      },
+      {
+        "title": "Charging Strike",
+        "error": 47.072
+      },
+      {
+        "title": "Charging Strike (PvP)",
+        "error": 47.072
+      }
+    ]
+  },
+  {
+    "id": "skill:0:6",
+    "name": "凶猛冲击",
+    "proposed": "Ferocious Strike",
+    "proposedError": 11.121,
+    "candidates": [
+      {
+        "title": "Ferocious Strike",
+        "error": 11.121
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 46.827
+      },
+      {
+        "title": "Smoke Trap",
+        "error": 48.281
+      }
+    ]
+  },
+  {
+    "id": "skill:0:7",
+    "name": "脱逃",
+    "proposed": "Escape",
+    "proposedError": 10.318,
+    "candidates": [
+      {
+        "title": "Escape",
+        "error": 10.318
+      },
+      {
+        "title": "Escape (PvP)",
+        "error": 10.318
+      },
+      {
+        "title": "Archer's Signet",
+        "error": 46.626
+      }
+    ]
+  },
+  {
+    "id": "skill:0:8",
+    "name": "齐射",
+    "proposed": "Barrage",
+    "proposedError": 10.493,
+    "candidates": [
+      {
+        "title": "Barrage",
+        "error": 10.493
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 56.327
+      },
+      {
+        "title": "Ferocious Strike",
+        "error": 61.266
+      }
+    ]
+  },
+  {
+    "id": "skill:0:9",
+    "name": "尖刺陷阱",
+    "proposed": "Spike Trap",
+    "proposedError": 11.565,
+    "candidates": [
+      {
+        "title": "Spike Trap",
+        "error": 11.565
+      },
+      {
+        "title": "Triple Chop",
+        "error": 40.003
+      },
+      {
+        "title": "Quicksand",
+        "error": 41.303
+      }
+    ]
+  },
+  {
+    "id": "skill:0:10",
+    "name": "风速之箭",
+    "proposed": "Quick Shot",
+    "proposedError": 10.433,
+    "candidates": [
+      {
+        "title": "Quick Shot",
+        "error": 10.433
+      },
+      {
+        "title": "Dragon Slash",
+        "error": 60.63
+      },
+      {
+        "title": "Dragon Slash (Turai Ossa)",
+        "error": 60.63
+      }
+    ]
+  },
+  {
+    "id": "skill:0:11",
+    "name": "魔法粉碎",
+    "proposed": "Spell Breaker",
+    "proposedError": 12.259,
+    "candidates": [
+      {
+        "title": "Spell Breaker",
+        "error": 12.259
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 48.778
+      },
+      {
+        "title": "Soul Twisting",
+        "error": 50.523
+      }
+    ]
+  },
+  {
+    "id": "skill:0:12",
+    "name": "治疗文字",
+    "proposed": "Word of Healing",
+    "proposedError": 11.33,
+    "candidates": [
+      {
+        "title": "Word of Healing",
+        "error": 11.33
+      },
+      {
+        "title": "Mark of Protection",
+        "error": 61.277
+      },
+      {
+        "title": "Boon Signet",
+        "error": 62.992
+      }
+    ]
+  },
+  {
+    "id": "skill:0:13",
+    "name": "回复之盾",
+    "proposed": "Shield of Regeneration",
+    "proposedError": 11.643,
+    "candidates": [
+      {
+        "title": "Shield of Regeneration",
+        "error": 11.643
+      },
+      {
+        "title": "Divert Hexes",
+        "error": 62.346
+      },
+      {
+        "title": "Illusionary Weaponry",
+        "error": 62.874
+      }
+    ]
+  },
+  {
+    "id": "skill:0:14",
+    "name": "制裁纹章",
+    "proposed": "Signet of Judgment",
+    "proposedError": 8.258,
+    "candidates": [
+      {
+        "title": "Signet of Judgment",
+        "error": 8.258
+      },
+      {
+        "title": "Signet of Judgment (PvP)",
+        "error": 8.258
+      },
+      {
+        "title": "Keystone Signet",
+        "error": 45.324
+      }
+    ]
+  },
+  {
+    "id": "skill:0:15",
+    "name": "殉教",
+    "proposed": "Martyr",
+    "proposedError": 10.304,
+    "candidates": [
+      {
+        "title": "Martyr",
+        "error": 10.304
+      },
+      {
+        "title": "Balthazar's Pendulum",
+        "error": 56.313
+      },
+      {
+        "title": "Mark of Protection",
+        "error": 60.333
+      }
+    ]
+  },
+  {
+    "id": "skill:0:16",
+    "name": "血之权能",
+    "proposed": "Blood is Power",
+    "proposedError": 13.958,
+    "candidates": [
+      {
+        "title": "Blood is Power",
+        "error": 13.958
+      },
+      {
+        "title": "Lingering Curse",
+        "error": 55.382
+      },
+      {
+        "title": "Weaken Knees",
+        "error": 56.963
+      }
+    ]
+  },
+  {
+    "id": "skill:0:17",
+    "name": "强力诅咒",
+    "proposed": "Lingering Curse",
+    "proposedError": 12.527,
+    "candidates": [
+      {
+        "title": "Lingering Curse",
+        "error": 12.527
+      },
+      {
+        "title": "Destructive Was Glaive",
+        "error": 48.596
+      },
+      {
+        "title": "Destructive Was Glaive (PvP)",
+        "error": 48.596
+      }
+    ]
+  },
+  {
+    "id": "skill:0:18",
+    "name": "疫病纹章",
+    "proposed": "Plague Signet",
+    "proposedError": 10.103,
+    "candidates": [
+      {
+        "title": "Plague Signet",
+        "error": 10.103
+      },
+      {
+        "title": "Signet of Judgment",
+        "error": 45.322
+      },
+      {
+        "title": "Signet of Judgment (PvP)",
+        "error": 45.322
+      }
+    ]
+  },
+  {
+    "id": "skill:0:19",
+    "name": "腐败肉体",
+    "proposed": "Tainted Flesh",
+    "proposedError": 11.893,
+    "candidates": [
+      {
+        "title": "Tainted Flesh",
+        "error": 11.893
+      },
+      {
+        "title": "Aura of the Lich",
+        "error": 52.667
+      },
+      {
+        "title": "Ravenous Gaze",
+        "error": 53.059
+      }
+    ]
+  },
+  {
+    "id": "skill:0:20",
+    "name": "古兰斯的平衡",
+    "proposed": "Grenth's Balance",
+    "proposedError": 13.909,
+    "candidates": [
+      {
+        "title": "Grenth's Balance",
+        "error": 13.909
+      },
+      {
+        "title": "Quicksand",
+        "error": 49.486
+      },
+      {
+        "title": "Ravenous Gaze",
+        "error": 50.549
+      }
+    ]
+  },
+  {
+    "id": "skill:0:21",
+    "name": "能量震荡",
+    "proposed": "Energy Surge",
+    "proposedError": 10.508,
+    "candidates": [
+      {
+        "title": "Energy Surge",
+        "error": 10.508
+      },
+      {
+        "title": "Caretaker's Charge",
+        "error": 56.541
+      },
+      {
+        "title": "Glimmer of Light",
+        "error": 57.756
+      }
+    ]
+  },
+  {
+    "id": "skill:0:22",
+    "name": "回复颂歌",
+    "proposed": "Mantra of Recovery",
+    "proposedError": 12.329,
+    "candidates": [
+      {
+        "title": "Mantra of Recovery",
+        "error": 12.329
+      },
+      {
+        "title": "Mantra of Recall",
+        "error": 27.897
+      },
+      {
+        "title": "Shared Burden",
+        "error": 51.153
+      }
+    ]
+  },
+  {
+    "id": "skill:0:23",
+    "name": "残废苦痛",
+    "proposed": "Crippling Anguish",
+    "proposedError": 9.877,
+    "candidates": [
+      {
+        "title": "Crippling Anguish",
+        "error": 9.877
+      },
+      {
+        "title": "Crippling Anguish (PvP)",
+        "error": 9.877
+      },
+      {
+        "title": "Arcane Zeal",
+        "error": 52.674
+      }
+    ]
+  },
+  {
+    "id": "skill:0:24",
+    "name": "能量吸收",
+    "proposed": "Energy Drain",
+    "proposedError": 11.008,
+    "candidates": [
+      {
+        "title": "Energy Drain",
+        "error": 11.008
+      },
+      {
+        "title": "Panic",
+        "error": 47.251
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 49.992
+      }
+    ]
+  },
+  {
+    "id": "skill:0:25",
+    "name": "回音",
+    "proposed": "Echo",
+    "proposedError": 9.343,
+    "candidates": [
+      {
+        "title": "Echo",
+        "error": 9.343
+      },
+      {
+        "title": "Seeping Wound",
+        "error": 51.837
+      },
+      {
+        "title": "Way of the Empty Palm",
+        "error": 52.002
+      }
+    ]
+  },
+  {
+    "id": "skill:0:26",
+    "name": "闪电震荡",
+    "proposed": "Lightning Surge",
+    "proposedError": 10.667,
+    "candidates": [
+      {
+        "title": "Lightning Surge",
+        "error": 10.667
+      },
+      {
+        "title": "Water Trident",
+        "error": 40.388
+      },
+      {
+        "title": "Glimmering Mark",
+        "error": 44.504
+      }
+    ]
+  },
+  {
+    "id": "skill:0:27",
+    "name": "黑曜石肉体",
+    "proposed": "Obsidian Flesh",
+    "proposedError": 12.479,
+    "candidates": [
+      {
+        "title": "Obsidian Flesh",
+        "error": 12.479
+      },
+      {
+        "title": "Mad King Pony Support",
+        "error": 48.246
+      },
+      {
+        "title": "Maddening Laughter",
+        "error": 48.246
+      }
+    ]
+  },
+  {
+    "id": "skill:0:28",
+    "name": "元素调和",
+    "proposed": "Elemental Attunement",
+    "proposedError": 10.911,
+    "candidates": [
+      {
+        "title": "Elemental Attunement",
+        "error": 10.911
+      },
+      {
+        "title": "Mad King Pony Support",
+        "error": 50.99
+      },
+      {
+        "title": "Maddening Laughter",
+        "error": 50.99
+      }
+    ]
+  },
+  {
+    "id": "skill:0:29",
+    "name": "心灵燃烧",
+    "proposed": "Mind Burn",
+    "proposedError": 11.527,
+    "candidates": [
+      {
+        "title": "Mind Burn",
+        "error": 11.527
+      },
+      {
+        "title": "Mind Shock",
+        "error": 37.46
+      },
+      {
+        "title": "Mind Shock (PvP)",
+        "error": 37.46
+      }
+    ]
+  },
+  {
+    "id": "skill:0:30",
+    "name": "心灵冻结",
+    "proposed": "Mind Freeze",
+    "proposedError": 7.899,
+    "candidates": [
+      {
+        "title": "Mind Freeze",
+        "error": 7.899
+      },
+      {
+        "title": "Mind Freeze (PvP)",
+        "error": 7.899
+      },
+      {
+        "title": "Ebon Dust Aura",
+        "error": 55.038
+      }
+    ]
+  },
+  {
+    "id": "skill:1:141",
+    "name": "剖臓",
+    "proposed": "Eviscerate",
+    "proposedError": 8.736,
+    "candidates": [
+      {
+        "title": "Eviscerate",
+        "error": 8.736
+      },
+      {
+        "title": "Whirling Axe",
+        "error": 47.881
+      },
+      {
+        "title": "Ether Renewal",
+        "error": 48.126
+      }
+    ]
+  },
+  {
+    "id": "skill:1:142",
+    "name": "背击",
+    "proposed": "Backbreaker",
+    "proposedError": 9.703,
+    "candidates": [
+      {
+        "title": "Backbreaker",
+        "error": 9.703
+      },
+      {
+        "title": "Focused Anger",
+        "error": 60.102
+      },
+      {
+        "title": "Headbutt",
+        "error": 60.339
+      }
+    ]
+  },
+  {
+    "id": "skill:1:143",
+    "name": "震动大地",
+    "proposed": "Earth Shaker",
+    "proposedError": 9.781,
+    "candidates": [
+      {
+        "title": "Earth Shaker",
+        "error": 9.781
+      },
+      {
+        "title": "Seven Weapons Stance",
+        "error": 54.711
+      },
+      {
+        "title": "Battle Rage",
+        "error": 55.17
+      }
+    ]
+  },
+  {
+    "id": "skill:1:144",
+    "name": "公牛突击态势",
+    "proposed": "Bull's Charge",
+    "proposedError": 9.719,
+    "candidates": [
+      {
+        "title": "Bull's Charge",
+        "error": 9.719
+      },
+      {
+        "title": "Cautery Signet",
+        "error": 53.699
+      },
+      {
+        "title": "Defy Pain",
+        "error": 53.989
+      }
+    ]
+  },
+  {
+    "id": "skill:1:145",
+    "name": "无视痛苦",
+    "proposed": "Defy Pain",
+    "proposedError": 9.368,
+    "candidates": [
+      {
+        "title": "Defy Pain",
+        "error": 9.368
+      },
+      {
+        "title": "Defy Pain (PvP)",
+        "error": 9.368
+      },
+      {
+        "title": "Rage of the Ntouka",
+        "error": 52.702
+      }
+    ]
+  },
+  {
+    "id": "skill:1:146",
+    "name": "矮人战斗态势",
+    "proposed": "Dwarven Battle Stance",
+    "proposedError": 9.532,
+    "candidates": [
+      {
+        "title": "Dwarven Battle Stance",
+        "error": 9.532
+      },
+      {
+        "title": "Warrior's Endurance",
+        "error": 58.852
+      },
+      {
+        "title": "Warrior's Endurance (PvP)",
+        "error": 58.852
+      }
+    ]
+  },
+  {
+    "id": "skill:1:147",
+    "name": "洗练的战技",
+    "proposed": "Flourish",
+    "proposedError": 8.817,
+    "candidates": [
+      {
+        "title": "Flourish",
+        "error": 8.817
+      },
+      {
+        "title": "Rage of the Ntouka",
+        "error": 51.65
+      },
+      {
+        "title": "Enraged Smash",
+        "error": 52.933
+      }
+    ]
+  },
+  {
+    "id": "skill:1:148",
+    "name": "战士忍耐态势",
+    "proposed": "Warrior's Endurance",
+    "proposedError": 7.294,
+    "candidates": [
+      {
+        "title": "Warrior's Endurance",
+        "error": 7.294
+      },
+      {
+        "title": "Warrior's Endurance (PvP)",
+        "error": 7.294
+      },
+      {
+        "title": "Decapitate",
+        "error": 57.457
+      }
+    ]
+  },
+  {
+    "id": "skill:1:149",
+    "name": "斗士防御态势",
+    "proposed": "Gladiator's Defense",
+    "proposedError": 7.686,
+    "candidates": [
+      {
+        "title": "Gladiator's Defense",
+        "error": 7.686
+      },
+      {
+        "title": "Devastating Hammer",
+        "error": 45.365
+      },
+      {
+        "title": "Cleave",
+        "error": 48.405
+      }
+    ]
+  },
+  {
+    "id": "skill:1:150",
+    "name": "【胜利在我！】",
+    "proposed": "\"Victory Is Mine!\"",
+    "proposedError": 9.819,
+    "candidates": [
+      {
+        "title": "\"Victory Is Mine!\"",
+        "error": 9.819
+      },
+      {
+        "title": "Charging Strike",
+        "error": 54.625
+      },
+      {
+        "title": "Charging Strike (PvP)",
+        "error": 54.625
+      }
+    ]
+  },
+  {
+    "id": "skill:1:151",
+    "name": "碎颚",
+    "proposed": "Skull Crack",
+    "proposedError": 9.993,
+    "candidates": [
+      {
+        "title": "Skull Crack",
+        "error": 9.993
+      },
+      {
+        "title": "Cry of Madness",
+        "error": 57.337
+      },
+      {
+        "title": "Dragon Slash",
+        "error": 58.237
+      }
+    ]
+  },
+  {
+    "id": "skill:1:152",
+    "name": "弓手的赌注",
+    "proposed": "Marksman's Wager",
+    "proposedError": 8.056,
+    "candidates": [
+      {
+        "title": "Marksman's Wager",
+        "error": 8.056
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 55.098
+      },
+      {
+        "title": "Incendiary Arrows",
+        "error": 56.826
+      }
+    ]
+  },
+  {
+    "id": "skill:1:153",
+    "name": "誓言之箭",
+    "proposed": "Oath Shot",
+    "proposedError": 9.038,
+    "candidates": [
+      {
+        "title": "Oath Shot",
+        "error": 9.038
+      },
+      {
+        "title": "Cry of Madness",
+        "error": 52.638
+      },
+      {
+        "title": "Rampage as One",
+        "error": 53.224
+      }
+    ]
+  },
+  {
+    "id": "skill:1:154",
+    "name": "熟练态势",
+    "proposed": "Practiced Stance",
+    "proposedError": 9.188,
+    "candidates": [
+      {
+        "title": "Practiced Stance",
+        "error": 9.188
+      },
+      {
+        "title": "Archer's Signet",
+        "error": 49.949
+      },
+      {
+        "title": "Quicksand",
+        "error": 50.898
+      }
+    ]
+  },
+  {
+    "id": "skill:1:155",
+    "name": "致残之箭",
+    "proposed": "Crippling Shot",
+    "proposedError": 9.771,
+    "candidates": [
+      {
+        "title": "Crippling Shot",
+        "error": 9.771
+      },
+      {
+        "title": "Crippling Shot (PvP)",
+        "error": 9.771
+      },
+      {
+        "title": "Magebane Shot",
+        "error": 53.831
+      }
+    ]
+  },
+  {
+    "id": "skill:1:156",
+    "name": "惩罚之箭",
+    "proposed": "Punishing Shot",
+    "proposedError": 10.337,
+    "candidates": [
+      {
+        "title": "Punishing Shot",
+        "error": 10.337
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 52.777
+      },
+      {
+        "title": "Eviscerate",
+        "error": 53.798
+      }
+    ]
+  },
+  {
+    "id": "skill:1:157",
+    "name": "大火",
+    "proposed": "Greater Conflagration",
+    "proposedError": 10.596,
+    "candidates": [
+      {
+        "title": "Greater Conflagration",
+        "error": 10.596
+      },
+      {
+        "title": "Ether Renewal",
+        "error": 51.156
+      },
+      {
+        "title": "Ether Renewal (PvP)",
+        "error": 51.156
+      }
+    ]
+  },
+  {
+    "id": "skill:1:158",
+    "name": "燃烧之箭",
+    "proposed": "Incendiary Arrows",
+    "proposedError": 8.803,
+    "candidates": [
+      {
+        "title": "Incendiary Arrows",
+        "error": 8.803
+      },
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 48.962
+      },
+      {
+        "title": "Glass Arrows",
+        "error": 49.013
+      }
+    ]
+  },
+  {
+    "id": "skill:1:159",
+    "name": "梅兰朵之箭",
+    "proposed": "Melandru's Arrows",
+    "proposedError": 8.541,
+    "candidates": [
+      {
+        "title": "Melandru's Arrows",
+        "error": 8.541
+      },
+      {
+        "title": "Ferocious Strike",
+        "error": 45.913
+      },
+      {
+        "title": "Prepared Shot",
+        "error": 47.308
+      }
+    ]
+  },
+  {
+    "id": "skill:1:160",
+    "name": "梅兰朵的元气",
+    "proposed": "Melandru's Resilience",
+    "proposedError": 10.861,
+    "candidates": [
+      {
+        "title": "Melandru's Resilience",
+        "error": 10.861
+      },
+      {
+        "title": "Spike Trap",
+        "error": 43.735
+      },
+      {
+        "title": "Quicksand",
+        "error": 46.326
+      }
+    ]
+  },
+  {
+    "id": "skill:1:161",
+    "name": "毒箭",
+    "proposed": "Poison Arrow",
+    "proposedError": 8.581,
+    "candidates": [
+      {
+        "title": "Poison Arrow",
+        "error": 8.581
+      },
+      {
+        "title": "Spike Trap",
+        "error": 50.514
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 53.694
+      }
+    ]
+  },
+  {
+    "id": "skill:1:162",
+    "name": "信仰灵气",
+    "proposed": "Aura of Faith",
+    "proposedError": 9.02,
+    "candidates": [
+      {
+        "title": "Aura of Faith",
+        "error": 9.02
+      },
+      {
+        "title": "Restore Condition",
+        "error": 74.203
+      },
+      {
+        "title": "Judgment Strike",
+        "error": 77.299
+      }
+    ]
+  },
+  {
+    "id": "skill:1:163",
+    "name": "平静与和谐",
+    "proposed": "Peace and Harmony",
+    "proposedError": 10.534,
+    "candidates": [
+      {
+        "title": "Peace and Harmony",
+        "error": 10.534
+      },
+      {
+        "title": "Peace and Harmony (PvP)",
+        "error": 10.534
+      },
+      {
+        "title": "Divert Hexes",
+        "error": 51.379
+      }
+    ]
+  },
+  {
+    "id": "skill:1:164",
+    "name": "坚毅灵气",
+    "proposed": "Unyielding Aura",
+    "proposedError": 9.709,
+    "candidates": [
+      {
+        "title": "Unyielding Aura",
+        "error": 9.709
+      },
+      {
+        "title": "Unyielding Aura (PvP)",
+        "error": 9.709
+      },
+      {
+        "title": "Plague Signet",
+        "error": 69.168
+      }
+    ]
+  },
+  {
+    "id": "skill:1:165",
+    "name": "治疗之手",
+    "proposed": "Healing Hands",
+    "proposedError": 11.637,
+    "candidates": [
+      {
+        "title": "Healing Hands",
+        "error": 11.637
+      },
+      {
+        "title": "Blessed Light",
+        "error": 46.001
+      },
+      {
+        "title": "Restore Condition",
+        "error": 50.802
+      }
+    ]
+  },
+  {
+    "id": "skill:1:166",
+    "name": "友好",
+    "proposed": "Amity",
+    "proposedError": 9.518,
+    "candidates": [
+      {
+        "title": "Amity",
+        "error": 9.518
+      },
+      {
+        "title": "Illusionary Weaponry",
+        "error": 53.842
+      },
+      {
+        "title": "Illusionary Weaponry (PvP)",
+        "error": 53.842
+      }
+    ]
+  },
+  {
+    "id": "skill:1:167",
+    "name": "生命屏障",
+    "proposed": "Life Barrier",
+    "proposedError": 9.727,
+    "candidates": [
+      {
+        "title": "Life Barrier",
+        "error": 9.727
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 54.066
+      },
+      {
+        "title": "Consume Soul",
+        "error": 55.086
+      }
+    ]
+  },
+  {
+    "id": "skill:1:168",
+    "name": "守护印记",
+    "proposed": "Mark of Protection",
+    "proposedError": 11.162,
+    "candidates": [
+      {
+        "title": "Mark of Protection",
+        "error": 11.162
+      },
+      {
+        "title": "Healing Hands",
+        "error": 53.091
+      },
+      {
+        "title": "Blessed Light",
+        "error": 56.043
+      }
+    ]
+  },
+  {
+    "id": "skill:1:169",
+    "name": "回复病症",
+    "proposed": "Restore Condition",
+    "proposedError": 13.247,
+    "candidates": [
+      {
+        "title": "Restore Condition",
+        "error": 13.247
+      },
+      {
+        "title": "Healing Hands",
+        "error": 51.066
+      },
+      {
+        "title": "Blessed Light",
+        "error": 52.807
+      }
+    ]
+  },
+  {
+    "id": "skill:1:170",
+    "name": "回避之盾",
+    "proposed": "Shield of Deflection",
+    "proposedError": 8.433,
+    "candidates": [
+      {
+        "title": "Shield of Deflection",
+        "error": 8.433
+      },
+      {
+        "title": "Illusionary Weaponry",
+        "error": 44.06
+      },
+      {
+        "title": "Illusionary Weaponry (PvP)",
+        "error": 44.06
+      }
+    ]
+  },
+  {
+    "id": "skill:1:171",
+    "name": "审判之盾",
+    "proposed": "Shield of Judgment",
+    "proposedError": 9.733,
+    "candidates": [
+      {
+        "title": "Shield of Judgment",
+        "error": 9.733
+      },
+      {
+        "title": "Healing Burst",
+        "error": 58.025
+      },
+      {
+        "title": "Light of Deliverance",
+        "error": 58.471
+      }
+    ]
+  },
+  {
+    "id": "skill:1:172",
+    "name": "生命转移",
+    "proposed": "Life Transfer",
+    "proposedError": 11.812,
+    "candidates": [
+      {
+        "title": "Life Transfer",
+        "error": 11.812
+      },
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 54.823
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 54.929
+      }
+    ]
+  },
+  {
+    "id": "skill:1:173",
+    "name": "血之献祭",
+    "proposed": "Offering of Blood",
+    "proposedError": 12.349,
+    "candidates": [
+      {
+        "title": "Offering of Blood",
+        "error": 12.349
+      },
+      {
+        "title": "Ravenous Gaze",
+        "error": 48.149
+      },
+      {
+        "title": "Spirit Channeling",
+        "error": 53.106
+      }
+    ]
+  },
+  {
+    "id": "skill:1:174",
+    "name": "吸血鬼命令",
+    "proposed": "Order of the Vampire",
+    "proposedError": 10.523,
+    "candidates": [
+      {
+        "title": "Order of the Vampire",
+        "error": 10.523
+      },
+      {
+        "title": "Weapon of Quickening",
+        "error": 47.717
+      },
+      {
+        "title": "Preservation",
+        "error": 47.792
+      }
+    ]
+  },
+  {
+    "id": "skill:1:175",
+    "name": "榨取灵魂",
+    "proposed": "Soul Leech",
+    "proposedError": 11.837,
+    "candidates": [
+      {
+        "title": "Soul Leech",
+        "error": 11.837
+      },
+      {
+        "title": "Shield of Deflection",
+        "error": 48.337
+      },
+      {
+        "title": "Weapon of Fury",
+        "error": 48.58
+      }
+    ]
+  },
+  {
+    "id": "skill:1:176",
+    "name": "魔力之池",
+    "proposed": "Well of Power",
+    "proposedError": 11.251,
+    "candidates": [
+      {
+        "title": "Well of Power",
+        "error": 11.251
+      },
+      {
+        "title": "Arcane Zeal",
+        "error": 51.869
+      },
+      {
+        "title": "Contagion",
+        "error": 54.66
+      }
+    ]
+  },
+  {
+    "id": "skill:1:177",
+    "name": "堕落飨宴",
+    "proposed": "Feast of Corruption",
+    "proposedError": 10.622,
+    "candidates": [
+      {
+        "title": "Feast of Corruption",
+        "error": 10.622
+      },
+      {
+        "title": "Spirit Light Weapon",
+        "error": 42.066
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 42.808
+      }
+    ]
+  },
+  {
+    "id": "skill:1:178",
+    "name": "恶灵附身",
+    "proposed": "Spiteful Spirit",
+    "proposedError": 8.106,
+    "candidates": [
+      {
+        "title": "Spiteful Spirit",
+        "error": 8.106
+      },
+      {
+        "title": "Soul Taker",
+        "error": 39.01
+      },
+      {
+        "title": "Order of Undeath",
+        "error": 39.179
+      }
+    ]
+  },
+  {
+    "id": "skill:1:179",
+    "name": "孱弱",
+    "proposed": "Wither",
+    "proposedError": 11.174,
+    "candidates": [
+      {
+        "title": "Wither",
+        "error": 11.174
+      },
+      {
+        "title": "Animate Flesh Golem",
+        "error": 48.145
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 48.708
+      }
+    ]
+  },
+  {
+    "id": "skill:1:180",
+    "name": "巫妖灵气",
+    "proposed": "Aura of the Lich",
+    "proposedError": 9.949,
+    "candidates": [
+      {
+        "title": "Aura of the Lich",
+        "error": 9.949
+      },
+      {
+        "title": "Order of Undeath",
+        "error": 39.4
+      },
+      {
+        "title": "Spirit Light Weapon",
+        "error": 40.847
+      }
+    ]
+  },
+  {
+    "id": "skill:1:181",
+    "name": "恶毒",
+    "proposed": "Virulence",
+    "proposedError": 10.268,
+    "candidates": [
+      {
+        "title": "Virulence",
+        "error": 10.268
+      },
+      {
+        "title": "Shield of Deflection",
+        "error": 48.681
+      },
+      {
+        "title": "Corrupt Enchantment",
+        "error": 51.833
+      }
+    ]
+  },
+  {
+    "id": "skill:1:182",
+    "name": "恐慌",
+    "proposed": "Panic",
+    "proposedError": 7.874,
+    "candidates": [
+      {
+        "title": "Panic",
+        "error": 7.874
+      },
+      {
+        "title": "Keystone Signet",
+        "error": 44.808
+      },
+      {
+        "title": "Shatter Storm",
+        "error": 46.263
+      }
+    ]
+  },
+  {
+    "id": "skill:1:183",
+    "name": "强力封锁",
+    "proposed": "Power Block",
+    "proposedError": 11.639,
+    "candidates": [
+      {
+        "title": "Power Block",
+        "error": 11.639
+      },
+      {
+        "title": "Air of Disenchantment",
+        "error": 52.504
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 52.956
+      }
+    ]
+  },
+  {
+    "id": "skill:1:184",
+    "name": "恶梦传染",
+    "proposed": "Fevered Dreams",
+    "proposedError": 9.293,
+    "candidates": [
+      {
+        "title": "Fevered Dreams",
+        "error": 9.293
+      },
+      {
+        "title": "Fevered Dreams (PvP)",
+        "error": 9.293
+      },
+      {
+        "title": "Panic",
+        "error": 53.348
+      }
+    ]
+  },
+  {
+    "id": "skill:1:185",
+    "name": "幻象武器",
+    "proposed": "Illusionary Weaponry",
+    "proposedError": 10.868,
+    "candidates": [
+      {
+        "title": "Illusionary Weaponry",
+        "error": 10.868
+      },
+      {
+        "title": "Illusionary Weaponry (PvP)",
+        "error": 10.868
+      },
+      {
+        "title": "Shield of Deflection",
+        "error": 43.608
+      }
+    ]
+  },
+  {
+    "id": "skill:1:186",
+    "name": "愚蠢",
+    "proposed": "Ineptitude",
+    "proposedError": 10.2,
+    "candidates": [
+      {
+        "title": "Ineptitude",
+        "error": 10.2
+      },
+      {
+        "title": "Hex Eater Vortex",
+        "error": 46.296
+      },
+      {
+        "title": "Extend Conditions",
+        "error": 48.055
+      }
+    ]
+  },
+  {
+    "id": "skill:1:187",
+    "name": "头痛",
+    "proposed": "Migraine",
+    "proposedError": 9.955,
+    "candidates": [
+      {
+        "title": "Migraine",
+        "error": 9.955
+      },
+      {
+        "title": "Migraine (PvP)",
+        "error": 9.955
+      },
+      {
+        "title": "Panic",
+        "error": 43.814
+      }
+    ]
+  },
+  {
+    "id": "skill:1:188",
+    "name": "楔石纹章",
+    "proposed": "Keystone Signet",
+    "proposedError": 8.669,
+    "candidates": [
+      {
+        "title": "Keystone Signet",
+        "error": 8.669
+      },
+      {
+        "title": "Panic",
+        "error": 44.559
+      },
+      {
+        "title": "Signet of Judgment",
+        "error": 45.06
+      }
+    ]
+  },
+  {
+    "id": "skill:1:189",
+    "name": "回归颂歌",
+    "proposed": "Mantra of Recall",
+    "proposedError": 10.501,
+    "candidates": [
+      {
+        "title": "Mantra of Recall",
+        "error": 10.501
+      },
+      {
+        "title": "Mantra of Recovery",
+        "error": 28.093
+      },
+      {
+        "title": "Shared Burden",
+        "error": 54.315
+      }
+    ]
+  },
+  {
+    "id": "skill:1:190",
+    "name": "幽暗纹章",
+    "proposed": "Signet of Midnight",
+    "proposedError": 9.075,
+    "candidates": [
+      {
+        "title": "Signet of Midnight",
+        "error": 9.075
+      },
+      {
+        "title": "Keystone Signet",
+        "error": 48.47
+      },
+      {
+        "title": "Panic",
+        "error": 49.195
+      }
+    ]
+  },
+  {
+    "id": "skill:1:191",
+    "name": "闪光印记",
+    "proposed": "Glimmering Mark",
+    "proposedError": 9.361,
+    "candidates": [
+      {
+        "title": "Glimmering Mark",
+        "error": 9.361
+      },
+      {
+        "title": "Lightning Surge",
+        "error": 44.531
+      },
+      {
+        "title": "Water Trident",
+        "error": 45.486
+      }
+    ]
+  },
+  {
+    "id": "skill:1:192",
+    "name": "心灵震暴",
+    "proposed": "Mind Shock",
+    "proposedError": 8.682,
+    "candidates": [
+      {
+        "title": "Mind Shock",
+        "error": 8.682
+      },
+      {
+        "title": "Mind Shock (PvP)",
+        "error": 8.682
+      },
+      {
+        "title": "Mind Burn",
+        "error": 38.511
+      }
+    ]
+  },
+  {
+    "id": "skill:1:193",
+    "name": "雷鸣",
+    "proposed": "Thunderclap",
+    "proposedError": 7.612,
+    "candidates": [
+      {
+        "title": "Thunderclap",
+        "error": 7.612
+      },
+      {
+        "title": "Eviscerate",
+        "error": 49.675
+      },
+      {
+        "title": "Ether Renewal",
+        "error": 50.019
+      }
+    ]
+  },
+  {
+    "id": "skill:1:194",
+    "name": "非凡魔力",
+    "proposed": "Ether Prodigy",
+    "proposedError": 8.675,
+    "candidates": [
+      {
+        "title": "Ether Prodigy",
+        "error": 8.675
+      },
+      {
+        "title": "Water Trident",
+        "error": 43.349
+      },
+      {
+        "title": "Invoke Lightning",
+        "error": 44.354
+      }
+    ]
+  },
+  {
+    "id": "skill:1:195",
+    "name": "魔力复原",
+    "proposed": "Ether Renewal",
+    "proposedError": 7.322,
+    "candidates": [
+      {
+        "title": "Ether Renewal",
+        "error": 7.322
+      },
+      {
+        "title": "Ether Renewal (PvP)",
+        "error": 7.322
+      },
+      {
+        "title": "Ether Prodigy",
+        "error": 48.598
+      }
+    ]
+  },
+  {
+    "id": "skill:1:196",
+    "name": "迷雾",
+    "proposed": "Mist Form",
+    "proposedError": 8.053,
+    "candidates": [
+      {
+        "title": "Mist Form",
+        "error": 8.053
+      },
+      {
+        "title": "Mist Form (PvP)",
+        "error": 8.053
+      },
+      {
+        "title": "Ether Prodigy",
+        "error": 53.825
+      }
+    ]
+  },
+  {
+    "id": "skill:1:197",
+    "name": "守护结界",
+    "proposed": "Ward Against Harm",
+    "proposedError": 8.844,
+    "candidates": [
+      {
+        "title": "Ward Against Harm",
+        "error": 8.844
+      },
+      {
+        "title": "Ward Against Harm (PvP)",
+        "error": 8.844
+      },
+      {
+        "title": "Cautery Signet",
+        "error": 47.231
+      }
+    ]
+  },
+  {
+    "id": "skill:1:198",
+    "name": "水之三叉戟",
+    "proposed": "Water Trident",
+    "proposedError": 8.804,
+    "candidates": [
+      {
+        "title": "Water Trident",
+        "error": 8.804
+      },
+      {
+        "title": "Lightning Surge",
+        "error": 40.215
+      },
+      {
+        "title": "Ether Prodigy",
+        "error": 42.824
+      }
+    ]
+  },
+  {
+    "id": "skill:1:199",
+    "name": "能量符号",
+    "proposed": "Glyph of Energy",
+    "proposedError": 9.725,
+    "candidates": [
+      {
+        "title": "Glyph of Energy",
+        "error": 9.725
+      },
+      {
+        "title": "Glyph of Renewal",
+        "error": 19.318
+      },
+      {
+        "title": "Headbutt",
+        "error": 55.468
+      }
+    ]
+  },
+  {
+    "id": "skill:1:200",
+    "name": "再生符号",
+    "proposed": "Glyph of Renewal",
+    "proposedError": 9.841,
+    "candidates": [
+      {
+        "title": "Glyph of Renewal",
+        "error": 9.841
+      },
+      {
+        "title": "Glyph of Energy",
+        "error": 19.373
+      },
+      {
+        "title": "Enraged Smash",
+        "error": 56.059
+      }
+    ]
+  },
+  {
+    "id": "skill:1:343",
+    "name": "透支(15周年精英)",
+    "proposed": "Over the Limit",
+    "proposedError": 33.14,
+    "candidates": [
+      {
+        "title": "Over the Limit",
+        "error": 33.14
+      },
+      {
+        "title": "Enraged Lunge",
+        "error": 51.817
+      },
+      {
+        "title": "Enraged Lunge (PvP)",
+        "error": 51.817
+      }
+    ]
+  },
+  {
+    "id": "skill:1:346",
+    "name": "夺魄者(15周年精英)",
+    "proposed": "Soul Taker",
+    "proposedError": 39.358,
+    "candidates": [
+      {
+        "title": "Soul Taker",
+        "error": 39.358
+      },
+      {
+        "title": "Ravenous Gaze",
+        "error": 40.264
+      },
+      {
+        "title": "Spiteful Spirit",
+        "error": 41.989
+      }
+    ]
+  },
+  {
+    "id": "skill:2:201",
+    "name": "三重砍击",
+    "proposed": "Triple Chop",
+    "proposedError": 8.483,
+    "candidates": [
+      {
+        "title": "Triple Chop",
+        "error": 8.483
+      },
+      {
+        "title": "Spike Trap",
+        "error": 39.864
+      },
+      {
+        "title": "Crippling Slash",
+        "error": 46.428
+      }
+    ]
+  },
+  {
+    "id": "skill:2:202",
+    "name": "狂风斧",
+    "proposed": "Whirling Axe",
+    "proposedError": 10.208,
+    "candidates": [
+      {
+        "title": "Whirling Axe",
+        "error": 10.208
+      },
+      {
+        "title": "Eviscerate",
+        "error": 46.546
+      },
+      {
+        "title": "Dragon Slash",
+        "error": 47.549
+      }
+    ]
+  },
+  {
+    "id": "skill:2:203",
+    "name": "愤怒猛击",
+    "proposed": "Enraged Smash",
+    "proposedError": 9.452,
+    "candidates": [
+      {
+        "title": "Enraged Smash",
+        "error": 9.452
+      },
+      {
+        "title": "Enraged Smash (PvP)",
+        "error": 9.452
+      },
+      {
+        "title": "Crippling Slash",
+        "error": 48.269
+      }
+    ]
+  },
+  {
+    "id": "skill:2:204",
+    "name": "威力打击",
+    "proposed": "Forceful Blow",
+    "proposedError": 10.791,
+    "candidates": [
+      {
+        "title": "Forceful Blow",
+        "error": 10.791
+      },
+      {
+        "title": "Quivering Blade",
+        "error": 47.929
+      },
+      {
+        "title": "Triple Chop",
+        "error": 50.815
+      }
+    ]
+  },
+  {
+    "id": "skill:2:205",
+    "name": "盛怒",
+    "proposed": "Primal Rage",
+    "proposedError": 13.207,
+    "candidates": [
+      {
+        "title": "Primal Rage",
+        "error": 13.207
+      },
+      {
+        "title": "Primal Rage (PvP)",
+        "error": 13.207
+      },
+      {
+        "title": "Whirling Axe",
+        "error": 47.995
+      }
+    ]
+  },
+  {
+    "id": "skill:2:206",
+    "name": "龙斩",
+    "proposed": "Dragon Slash",
+    "proposedError": 11.131,
+    "candidates": [
+      {
+        "title": "Dragon Slash",
+        "error": 11.131
+      },
+      {
+        "title": "Dragon Slash (Turai Ossa)",
+        "error": 11.131
+      },
+      {
+        "title": "Quivering Blade",
+        "error": 47.002
+      }
+    ]
+  },
+  {
+    "id": "skill:2:207",
+    "name": "颤动之刃",
+    "proposed": "Quivering Blade",
+    "proposedError": 10.706,
+    "candidates": [
+      {
+        "title": "Quivering Blade",
+        "error": 10.706
+      },
+      {
+        "title": "Cry of Madness",
+        "error": 45.768
+      },
+      {
+        "title": "Dragon Slash",
+        "error": 46.895
+      }
+    ]
+  },
+  {
+    "id": "skill:2:208",
+    "name": "幸运回避",
+    "proposed": "Auspicious Parry",
+    "proposedError": 9.289,
+    "candidates": [
+      {
+        "title": "Auspicious Parry",
+        "error": 9.289
+      },
+      {
+        "title": "Magehunter's Smash",
+        "error": 46.467
+      },
+      {
+        "title": "Cry of Madness",
+        "error": 52.103
+      }
+    ]
+  },
+  {
+    "id": "skill:2:209",
+    "name": "撞击",
+    "proposed": "Shove",
+    "proposedError": 11.026,
+    "candidates": [
+      {
+        "title": "Shove",
+        "error": 11.026
+      },
+      {
+        "title": "Magehunter's Smash",
+        "error": 50.863
+      },
+      {
+        "title": "\"Charge!\"",
+        "error": 52.135
+      }
+    ]
+  },
+  {
+    "id": "skill:2:210",
+    "name": "【懦夫!】",
+    "proposed": "\"Coward!\"",
+    "proposedError": 10.864,
+    "candidates": [
+      {
+        "title": "\"Coward!\"",
+        "error": 10.864
+      },
+      {
+        "title": "\"Coward!\" (PvP)",
+        "error": 10.864
+      },
+      {
+        "title": "Eviscerate",
+        "error": 61.471
+      }
+    ]
+  },
+  {
+    "id": "skill:2:211",
+    "name": "暴怒冲刺",
+    "proposed": "Enraged Lunge",
+    "proposedError": 10.305,
+    "candidates": [
+      {
+        "title": "Enraged Lunge",
+        "error": 10.305
+      },
+      {
+        "title": "Enraged Lunge (PvP)",
+        "error": 10.305
+      },
+      {
+        "title": "\"Charge!\"",
+        "error": 45.964
+      }
+    ]
+  },
+  {
+    "id": "skill:2:212",
+    "name": "治疗合一",
+    "proposed": "Heal as One",
+    "proposedError": 13.561,
+    "candidates": [
+      {
+        "title": "Heal as One",
+        "error": 13.561
+      },
+      {
+        "title": "Heal as One (PvP)",
+        "error": 13.561
+      },
+      {
+        "title": "Enraged Lunge",
+        "error": 51.54
+      }
+    ]
+  },
+  {
+    "id": "skill:2:213",
+    "name": "撕裂",
+    "proposed": "Lacerate",
+    "proposedError": 14.107,
+    "candidates": [
+      {
+        "title": "Lacerate",
+        "error": 14.107
+      },
+      {
+        "title": "Enraged Lunge",
+        "error": 49.579
+      },
+      {
+        "title": "Enraged Lunge (PvP)",
+        "error": 49.579
+      }
+    ]
+  },
+  {
+    "id": "skill:2:214",
+    "name": "射手纹章",
+    "proposed": "Archer's Signet",
+    "proposedError": 57.59,
+    "candidates": [
+      {
+        "title": "\"The Power Is Yours!\"",
+        "error": 42.049
+      },
+      {
+        "title": "Enraged Lunge",
+        "error": 44.081
+      },
+      {
+        "title": "Enraged Lunge (PvP)",
+        "error": 44.081
+      }
+    ]
+  },
+  {
+    "id": "skill:2:215",
+    "name": "玻璃箭",
+    "proposed": "Glass Arrows",
+    "proposedError": 11.431,
+    "candidates": [
+      {
+        "title": "Glass Arrows",
+        "error": 11.431
+      },
+      {
+        "title": "Glass Arrows (PvP)",
+        "error": 11.431
+      },
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 44.676
+      }
+    ]
+  },
+  {
+    "id": "skill:2:216",
+    "name": "设陷者的专注",
+    "proposed": "Trapper's Focus",
+    "proposedError": 17.032,
+    "candidates": [
+      {
+        "title": "Trapper's Focus",
+        "error": 17.032
+      },
+      {
+        "title": "Archer's Signet",
+        "error": 44.091
+      },
+      {
+        "title": "Quicksand",
+        "error": 44.26
+      }
+    ]
+  },
+  {
+    "id": "skill:2:217",
+    "name": "阔首箭",
+    "proposed": "Broad Head Arrow",
+    "proposedError": 11.972,
+    "candidates": [
+      {
+        "title": "Broad Head Arrow",
+        "error": 11.972
+      },
+      {
+        "title": "Ether Renewal",
+        "error": 50.229
+      },
+      {
+        "title": "Ether Renewal (PvP)",
+        "error": 50.229
+      }
+    ]
+  },
+  {
+    "id": "skill:2:218",
+    "name": "梅兰朵射击",
+    "proposed": "Melandru's Shot",
+    "proposedError": 12.925,
+    "candidates": [
+      {
+        "title": "Melandru's Shot",
+        "error": 12.925
+      },
+      {
+        "title": "Melandru's Shot (PvP)",
+        "error": 12.925
+      },
+      {
+        "title": "Scavenger's Focus",
+        "error": 54.362
+      }
+    ]
+  },
+  {
+    "id": "skill:2:219",
+    "name": "昼夜",
+    "proposed": "Equinox",
+    "proposedError": 11.281,
+    "candidates": [
+      {
+        "title": "Equinox",
+        "error": 11.281
+      },
+      {
+        "title": "Burning Arrow",
+        "error": 48.622
+      },
+      {
+        "title": "Archer's Signet",
+        "error": 52.66
+      }
+    ]
+  },
+  {
+    "id": "skill:2:220",
+    "name": "饥荒",
+    "proposed": "Famine",
+    "proposedError": 11.584,
+    "candidates": [
+      {
+        "title": "Famine",
+        "error": 11.584
+      },
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 55.316
+      },
+      {
+        "title": "Glass Arrows",
+        "error": 56.274
+      }
+    ]
+  },
+  {
+    "id": "skill:2:221",
+    "name": "祝福圣光",
+    "proposed": "Blessed Light",
+    "proposedError": 11.354,
+    "candidates": [
+      {
+        "title": "Blessed Light",
+        "error": 11.354
+      },
+      {
+        "title": "Healing Burst",
+        "error": 32.022
+      },
+      {
+        "title": "Healing Light",
+        "error": 35.864
+      }
+    ]
+  },
+  {
+    "id": "skill:2:222",
+    "name": "恩赐纹章",
+    "proposed": "Boon Signet",
+    "proposedError": 16.552,
+    "candidates": [
+      {
+        "title": "Boon Signet",
+        "error": 16.552
+      },
+      {
+        "title": "Signet of Ghostly Might",
+        "error": 43.03
+      },
+      {
+        "title": "Signet of Ghostly Might (PvP)",
+        "error": 43.03
+      }
+    ]
+  },
+  {
+    "id": "skill:2:223",
+    "name": "降咒退散",
+    "proposed": "Withdraw Hexes",
+    "proposedError": 12.361,
+    "candidates": [
+      {
+        "title": "Withdraw Hexes",
+        "error": 12.361
+      },
+      {
+        "title": "Weapon of Fury",
+        "error": 49.694
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 50.508
+      }
+    ]
+  },
+  {
+    "id": "skill:2:224",
+    "name": "爆裂治疗",
+    "proposed": "Healing Burst",
+    "proposedError": 12.146,
+    "candidates": [
+      {
+        "title": "Healing Burst",
+        "error": 12.146
+      },
+      {
+        "title": "Blessed Light",
+        "error": 30.55
+      },
+      {
+        "title": "Healing Light",
+        "error": 38.238
+      }
+    ]
+  },
+  {
+    "id": "skill:2:225",
+    "name": "治疗圣光",
+    "proposed": "Healing Light",
+    "proposedError": 10.813,
+    "candidates": [
+      {
+        "title": "Healing Light",
+        "error": 10.813
+      },
+      {
+        "title": "Blessed Light",
+        "error": 37.423
+      },
+      {
+        "title": "Healing Burst",
+        "error": 41.379
+      }
+    ]
+  },
+  {
+    "id": "skill:2:226",
+    "name": "微风加持",
+    "proposed": "Air of Enchantment",
+    "proposedError": 11.482,
+    "candidates": [
+      {
+        "title": "Air of Enchantment",
+        "error": 11.482
+      },
+      {
+        "title": "Glimmer of Light",
+        "error": 47.1
+      },
+      {
+        "title": "Healing Hands",
+        "error": 50.456
+      }
+    ]
+  },
+  {
+    "id": "skill:2:227",
+    "name": "生命保护",
+    "proposed": "Life Sheath",
+    "proposedError": 12.547,
+    "candidates": [
+      {
+        "title": "Life Sheath",
+        "error": 12.547
+      },
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 42.946
+      },
+      {
+        "title": "Spirit Light Weapon",
+        "error": 43.684
+      }
+    ]
+  },
+  {
+    "id": "skill:2:228",
+    "name": "制裁目光",
+    "proposed": "Ray of Judgment",
+    "proposedError": 11.761,
+    "candidates": [
+      {
+        "title": "Ray of Judgment",
+        "error": 11.761
+      },
+      {
+        "title": "Balthazar's Pendulum",
+        "error": 60.587
+      },
+      {
+        "title": "Jagged Bones",
+        "error": 60.939
+      }
+    ]
+  },
+  {
+    "id": "skill:2:229",
+    "name": "谴责文字",
+    "proposed": "Word of Censure",
+    "proposedError": 63.115,
+    "candidates": [
+      {
+        "title": "Word of Censure",
+        "error": 63.115
+      },
+      {
+        "title": "Judgment Strike",
+        "error": 66.625
+      },
+      {
+        "title": "Withdraw Hexes",
+        "error": 68.786
+      }
+    ]
+  },
+  {
+    "id": "skill:2:230",
+    "name": "情感移除",
+    "proposed": "Empathic Removal",
+    "proposedError": 11.968,
+    "candidates": [
+      {
+        "title": "Empathic Removal",
+        "error": 11.968
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 59.521
+      },
+      {
+        "title": "Life Barrier",
+        "error": 60.142
+      }
+    ]
+  },
+  {
+    "id": "skill:2:231",
+    "name": "异教仪式",
+    "proposed": "Cultist's Fervor",
+    "proposedError": 10.989,
+    "candidates": [
+      {
+        "title": "Cultist's Fervor",
+        "error": 10.989
+      },
+      {
+        "title": "Wail of Doom",
+        "error": 50.935
+      },
+      {
+        "title": "Vengeful Was Khanhei",
+        "error": 52.187
+      }
+    ]
+  },
+  {
+    "id": "skill:2:232",
+    "name": "胜者的掠夺",
+    "proposed": "Spoil Victor",
+    "proposedError": 10.874,
+    "candidates": [
+      {
+        "title": "Spoil Victor",
+        "error": 10.874
+      },
+      {
+        "title": "Spoil Victor (PvP)",
+        "error": 10.874
+      },
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 49.237
+      }
+    ]
+  },
+  {
+    "id": "skill:2:233",
+    "name": "吸血之灵",
+    "proposed": "Vampiric Spirit",
+    "proposedError": 10.787,
+    "candidates": [
+      {
+        "title": "Vampiric Spirit",
+        "error": 10.787
+      },
+      {
+        "title": "Divert Hexes",
+        "error": 58.719
+      },
+      {
+        "title": "Incendiary Arrows",
+        "error": 61.52
+      }
+    ]
+  },
+  {
+    "id": "skill:2:234",
+    "name": "背叛命令",
+    "proposed": "Order of Apostasy",
+    "proposedError": 11.996,
+    "candidates": [
+      {
+        "title": "Order of Apostasy",
+        "error": 11.996
+      },
+      {
+        "title": "Wail of Doom",
+        "error": 51.565
+      },
+      {
+        "title": "Clamor of Souls",
+        "error": 53.998
+      }
+    ]
+  },
+  {
+    "id": "skill:2:235",
+    "name": "灵魂束缚",
+    "proposed": "Soul Bind",
+    "proposedError": 9.329,
+    "candidates": [
+      {
+        "title": "Soul Bind",
+        "error": 9.329
+      },
+      {
+        "title": "Reaper's Mark",
+        "error": 44.335
+      },
+      {
+        "title": "Spiteful Spirit",
+        "error": 45.906
+      }
+    ]
+  },
+  {
+    "id": "skill:2:236",
+    "name": "消弱膝盖",
+    "proposed": "Weaken Knees",
+    "proposedError": 10.844,
+    "candidates": [
+      {
+        "title": "Weaken Knees",
+        "error": 10.844
+      },
+      {
+        "title": "Avatar of Lyssa",
+        "error": 46.378
+      },
+      {
+        "title": "Avatar of Melandru",
+        "error": 49.73
+      }
+    ]
+  },
+  {
+    "id": "skill:2:237",
+    "name": "操纵血肉高仑",
+    "proposed": "Animate Flesh Golem",
+    "proposedError": 11.485,
+    "candidates": [
+      {
+        "title": "Animate Flesh Golem",
+        "error": 11.485
+      },
+      {
+        "title": "Spirit Channeling",
+        "error": 48.263
+      },
+      {
+        "title": "Wither",
+        "error": 48.518
+      }
+    ]
+  },
+  {
+    "id": "skill:2:238",
+    "name": "协调破坏",
+    "proposed": "Discord",
+    "proposedError": 9.963,
+    "candidates": [
+      {
+        "title": "Discord",
+        "error": 9.963
+      },
+      {
+        "title": "Discord (PvP)",
+        "error": 9.963
+      },
+      {
+        "title": "Weapon of Fury",
+        "error": 55.9
+      }
+    ]
+  },
+  {
+    "id": "skill:2:239",
+    "name": "冰冷纹理",
+    "proposed": "Icy Veins",
+    "proposedError": 9.819,
+    "candidates": [
+      {
+        "title": "Icy Veins",
+        "error": 9.819
+      },
+      {
+        "title": "Reaper's Mark",
+        "error": 46.296
+      },
+      {
+        "title": "Wail of Doom",
+        "error": 49.587
+      }
+    ]
+  },
+  {
+    "id": "skill:2:240",
+    "name": "毁灭哀嚎",
+    "proposed": "Wail of Doom",
+    "proposedError": 8.494,
+    "candidates": [
+      {
+        "title": "Wail of Doom",
+        "error": 8.494
+      },
+      {
+        "title": "Clamor of Souls",
+        "error": 43.237
+      },
+      {
+        "title": "Spirit Light Weapon",
+        "error": 44.847
+      }
+    ]
+  },
+  {
+    "id": "skill:2:241",
+    "name": "心灵错乱",
+    "proposed": "Psychic Distraction",
+    "proposedError": 16.714,
+    "candidates": [
+      {
+        "title": "Psychic Distraction",
+        "error": 16.714
+      },
+      {
+        "title": "Lyssa's Aura",
+        "error": 46.731
+      },
+      {
+        "title": "Shared Burden",
+        "error": 47.12
+      }
+    ]
+  },
+  {
+    "id": "skill:2:242",
+    "name": "精神失衡",
+    "proposed": "Psychic Instability",
+    "proposedError": 13.276,
+    "candidates": [
+      {
+        "title": "Psychic Instability",
+        "error": 13.276
+      },
+      {
+        "title": "Psychic Instability (PvP)",
+        "error": 13.276
+      },
+      {
+        "title": "Lyssa's Aura",
+        "error": 54.228
+      }
+    ]
+  },
+  {
+    "id": "skill:2:243",
+    "name": "魔法耗尽",
+    "proposed": "Arcane Languor",
+    "proposedError": 18.083,
+    "candidates": [
+      {
+        "title": "Arcane Languor",
+        "error": 18.083
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 42.113
+      },
+      {
+        "title": "Symbols of Inspiration",
+        "error": 46.834
+      }
+    ]
+  },
+  {
+    "id": "skill:2:244",
+    "name": "速度窃取",
+    "proposed": "Stolen Speed",
+    "proposedError": 11.914,
+    "candidates": [
+      {
+        "title": "Stolen Speed",
+        "error": 11.914
+      },
+      {
+        "title": "Stolen Speed (PvP)",
+        "error": 11.914
+      },
+      {
+        "title": "Ineptitude",
+        "error": 47.326
+      }
+    ]
+  },
+  {
+    "id": "skill:2:245",
+    "name": "危险循环",
+    "proposed": "Recurring Insecurity",
+    "proposedError": 13.001,
+    "candidates": [
+      {
+        "title": "Recurring Insecurity",
+        "error": 13.001
+      },
+      {
+        "title": "Wastrel's Collapse",
+        "error": 41.474
+      },
+      {
+        "title": "Shattering Assault",
+        "error": 44.304
+      }
+    ]
+  },
+  {
+    "id": "skill:2:246",
+    "name": "共享负荷",
+    "proposed": "Shared Burden",
+    "proposedError": 13.081,
+    "candidates": [
+      {
+        "title": "Shared Burden",
+        "error": 13.081
+      },
+      {
+        "title": "Shared Burden (Gwen)",
+        "error": 13.081
+      },
+      {
+        "title": "Shared Burden (PvP)",
+        "error": 13.081
+      }
+    ]
+  },
+  {
+    "id": "skill:2:247",
+    "name": "丽莎灵气",
+    "proposed": "Lyssa's Aura",
+    "proposedError": 13.469,
+    "candidates": [
+      {
+        "title": "Lyssa's Aura",
+        "error": 13.469
+      },
+      {
+        "title": "Recurring Insecurity",
+        "error": 46.69
+      },
+      {
+        "title": "Seeping Wound",
+        "error": 46.785
+      }
+    ]
+  },
+  {
+    "id": "skill:2:248",
+    "name": "强力榨取",
+    "proposed": "Power Leech",
+    "proposedError": 13.866,
+    "candidates": [
+      {
+        "title": "Power Leech",
+        "error": 13.866
+      },
+      {
+        "title": "Power Flux",
+        "error": 38.402
+      },
+      {
+        "title": "Dark Apostasy",
+        "error": 51.021
+      }
+    ]
+  },
+  {
+    "id": "skill:2:249",
+    "name": "降咒驱逐",
+    "proposed": "Expel Hexes",
+    "proposedError": 15.134,
+    "candidates": [
+      {
+        "title": "Expel Hexes",
+        "error": 15.134
+      },
+      {
+        "title": "Siphon Strength",
+        "error": 56.145
+      },
+      {
+        "title": "Shared Burden",
+        "error": 56.604
+      }
+    ]
+  },
+  {
+    "id": "skill:2:250",
+    "name": "粉碎风暴",
+    "proposed": "Shatter Storm",
+    "proposedError": 14.188,
+    "candidates": [
+      {
+        "title": "Shatter Storm",
+        "error": 14.188
+      },
+      {
+        "title": "Panic",
+        "error": 41.794
+      },
+      {
+        "title": "Tease",
+        "error": 46.493
+      }
+    ]
+  },
+  {
+    "id": "skill:2:251",
+    "name": "喷发",
+    "proposed": "Gust",
+    "proposedError": 11.804,
+    "candidates": [
+      {
+        "title": "Gust",
+        "error": 11.804
+      },
+      {
+        "title": "Unsteady Ground",
+        "error": 50.013
+      },
+      {
+        "title": "Shattering Assault",
+        "error": 50.538
+      }
+    ]
+  },
+  {
+    "id": "skill:2:252",
+    "name": "闪电传送",
+    "proposed": "Ride the Lightning",
+    "proposedError": 8.537,
+    "candidates": [
+      {
+        "title": "Ride the Lightning",
+        "error": 8.537
+      },
+      {
+        "title": "Ride the Lightning (PvP)",
+        "error": 8.537
+      },
+      {
+        "title": "Shadow Prison",
+        "error": 48.743
+      }
+    ]
+  },
+  {
+    "id": "skill:2:253",
+    "name": "冲击波",
+    "proposed": "Shockwave",
+    "proposedError": 13.41,
+    "candidates": [
+      {
+        "title": "Shockwave",
+        "error": 13.41
+      },
+      {
+        "title": "Crippling Slash",
+        "error": 45.411
+      },
+      {
+        "title": "Ether Prodigy",
+        "error": 46.987
+      }
+    ]
+  },
+  {
+    "id": "skill:2:254",
+    "name": "地动山摇",
+    "proposed": "Unsteady Ground",
+    "proposedError": 9.186,
+    "candidates": [
+      {
+        "title": "Unsteady Ground",
+        "error": 9.186
+      },
+      {
+        "title": "Crippling Slash",
+        "error": 45.498
+      },
+      {
+        "title": "Stone Sheath",
+        "error": 45.548
+      }
+    ]
+  },
+  {
+    "id": "skill:2:255",
+    "name": "能量恩赐",
+    "proposed": "Energy Boon",
+    "proposedError": 11.93,
+    "candidates": [
+      {
+        "title": "Energy Boon",
+        "error": 11.93
+      },
+      {
+        "title": "Flourish",
+        "error": 52.82
+      },
+      {
+        "title": "Eviscerate",
+        "error": 55.833
+      }
+    ]
+  },
+  {
+    "id": "skill:2:256",
+    "name": "双龙",
+    "proposed": "Double Dragon",
+    "proposedError": 15.811,
+    "candidates": [
+      {
+        "title": "Double Dragon",
+        "error": 15.811
+      },
+      {
+        "title": "Whirling Axe",
+        "error": 56.229
+      },
+      {
+        "title": "Shockwave",
+        "error": 57.096
+      }
+    ]
+  },
+  {
+    "id": "skill:2:257",
+    "name": "星爆",
+    "proposed": "Star Burst",
+    "proposedError": 12.718,
+    "candidates": [
+      {
+        "title": "Star Burst",
+        "error": 12.718
+      },
+      {
+        "title": "Skull Crack",
+        "error": 59.565
+      },
+      {
+        "title": "Shockwave",
+        "error": 60.1
+      }
+    ]
+  },
+  {
+    "id": "skill:2:258",
+    "name": "冰镜",
+    "proposed": "Mirror of Ice",
+    "proposedError": 11.13,
+    "candidates": [
+      {
+        "title": "Mirror of Ice",
+        "error": 11.13
+      },
+      {
+        "title": "Shattering Assault",
+        "error": 57.562
+      },
+      {
+        "title": "Shatterstone",
+        "error": 62.089
+      }
+    ]
+  },
+  {
+    "id": "skill:2:259",
+    "name": "碎裂冰石",
+    "proposed": "Shatterstone",
+    "proposedError": 13.533,
+    "candidates": [
+      {
+        "title": "Shatterstone",
+        "error": 13.533
+      },
+      {
+        "title": "Shadow Prison",
+        "error": 45.231
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 46.572
+      }
+    ]
+  },
+  {
+    "id": "skill:2:260",
+    "name": "援助之风",
+    "proposed": "Second Wind",
+    "proposedError": 10.637,
+    "candidates": [
+      {
+        "title": "Second Wind",
+        "error": 10.637
+      },
+      {
+        "title": "\"The Power Is Yours!\"",
+        "error": 48.728
+      },
+      {
+        "title": "Mind Shock",
+        "error": 49.274
+      }
+    ]
+  },
+  {
+    "id": "skill:2:261",
+    "name": "黑暗变节",
+    "proposed": "Dark Apostasy",
+    "proposedError": 14.019,
+    "candidates": [
+      {
+        "title": "Dark Apostasy",
+        "error": 14.019
+      },
+      {
+        "title": "Panic",
+        "error": 46.952
+      },
+      {
+        "title": "Power Leech",
+        "error": 48.071
+      }
+    ]
+  },
+  {
+    "id": "skill:2:262",
+    "name": "蝗虫暴怒",
+    "proposed": "Locust's Fury",
+    "proposedError": 15.319,
+    "candidates": [
+      {
+        "title": "Locust's Fury",
+        "error": 15.319
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 42.647
+      },
+      {
+        "title": "Wastrel's Collapse",
+        "error": 44.127
+      }
+    ]
+  },
+  {
+    "id": "skill:2:263",
+    "name": "劫杀掌",
+    "proposed": "Palm Strike",
+    "proposedError": 17.966,
+    "candidates": [
+      {
+        "title": "Palm Strike",
+        "error": 17.966
+      },
+      {
+        "title": "Seeping Wound",
+        "error": 39.762
+      },
+      {
+        "title": "Temple Strike",
+        "error": 44.79
+      }
+    ]
+  },
+  {
+    "id": "skill:2:264",
+    "name": "渗透伤口",
+    "proposed": "Seeping Wound",
+    "proposedError": 19.696,
+    "candidates": [
+      {
+        "title": "Seeping Wound",
+        "error": 19.696
+      },
+      {
+        "title": "Palm Strike",
+        "error": 42.025
+      },
+      {
+        "title": "Way of the Empty Palm",
+        "error": 43.369
+      }
+    ]
+  },
+  {
+    "id": "skill:2:265",
+    "name": "闪光剑刃",
+    "proposed": "Flashing Blades",
+    "proposedError": 12.546,
+    "candidates": [
+      {
+        "title": "Flashing Blades",
+        "error": 12.546
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 40.302
+      },
+      {
+        "title": "Shadow Prison",
+        "error": 45.815
+      }
+    ]
+  },
+  {
+    "id": "skill:2:266",
+    "name": "莫比斯狙杀",
+    "proposed": "Moebius Strike",
+    "proposedError": 16.145,
+    "candidates": [
+      {
+        "title": "Moebius Strike",
+        "error": 16.145
+      },
+      {
+        "title": "Panic",
+        "error": 42.965
+      },
+      {
+        "title": "Symbols of Inspiration",
+        "error": 49.72
+      }
+    ]
+  },
+  {
+    "id": "skill:2:267",
+    "name": "太阳穴狙杀",
+    "proposed": "Temple Strike",
+    "proposedError": 16.839,
+    "candidates": [
+      {
+        "title": "Temple Strike",
+        "error": 16.839
+      },
+      {
+        "title": "Seeping Wound",
+        "error": 44.575
+      },
+      {
+        "title": "Palm Strike",
+        "error": 44.877
+      }
+    ]
+  },
+  {
+    "id": "skill:2:268",
+    "name": "暗杀者誓言",
+    "proposed": "Assassin's Promise",
+    "proposedError": 12.96,
+    "candidates": [
+      {
+        "title": "Assassin's Promise",
+        "error": 12.96
+      },
+      {
+        "title": "Wastrel's Collapse",
+        "error": 50.575
+      },
+      {
+        "title": "Migraine",
+        "error": 52.791
+      }
+    ]
+  },
+  {
+    "id": "skill:2:269",
+    "name": "寂静遮蔽",
+    "proposed": "Shroud of Silence",
+    "proposedError": 17.372,
+    "candidates": [
+      {
+        "title": "Shroud of Silence",
+        "error": 17.372
+      },
+      {
+        "title": "Palm Strike",
+        "error": 49.272
+      },
+      {
+        "title": "Mark of Insecurity",
+        "error": 50.402
+      }
+    ]
+  },
+  {
+    "id": "skill:2:270",
+    "name": "吸取力量",
+    "proposed": "Siphon Strength",
+    "proposedError": 20.06,
+    "candidates": [
+      {
+        "title": "Siphon Strength",
+        "error": 20.06
+      },
+      {
+        "title": "Shadow Prison",
+        "error": 42.403
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 42.73
+      }
+    ]
+  },
+  {
+    "id": "skill:2:271",
+    "name": "无道",
+    "proposed": "Way of the Empty Palm",
+    "proposedError": 13.006,
+    "candidates": [
+      {
+        "title": "Way of the Empty Palm",
+        "error": 13.006
+      },
+      {
+        "title": "Seeping Wound",
+        "error": 42.915
+      },
+      {
+        "title": "Mark of Insecurity",
+        "error": 44.344
+      }
+    ]
+  },
+  {
+    "id": "skill:2:272",
+    "name": "阴霾薄雾",
+    "proposed": "Beguiling Haze",
+    "proposedError": 15.604,
+    "candidates": [
+      {
+        "title": "Beguiling Haze",
+        "error": 15.604
+      },
+      {
+        "title": "Cry of Madness",
+        "error": 50.39
+      },
+      {
+        "title": "Palm Strike",
+        "error": 51.678
+      }
+    ]
+  },
+  {
+    "id": "skill:2:273",
+    "name": "暗影形态",
+    "proposed": "Shadow Form",
+    "proposedError": 16.57,
+    "candidates": [
+      {
+        "title": "Shadow Form",
+        "error": 16.57
+      },
+      {
+        "title": "Shadow Form (PvP)",
+        "error": 16.57
+      },
+      {
+        "title": "Seeping Wound",
+        "error": 42.051
+      }
+    ]
+  },
+  {
+    "id": "skill:2:274",
+    "name": "暗影遮蔽",
+    "proposed": "Shadow Shroud",
+    "proposedError": 16.399,
+    "candidates": [
+      {
+        "title": "Shadow Shroud",
+        "error": 16.399
+      },
+      {
+        "title": "Shadow Shroud (PvP)",
+        "error": 16.399
+      },
+      {
+        "title": "Master of Magic",
+        "error": 54.877
+      }
+    ]
+  },
+  {
+    "id": "skill:2:275",
+    "name": "位移灵气",
+    "proposed": "Aura of Displacement",
+    "proposedError": 14.613,
+    "candidates": [
+      {
+        "title": "Aura of Displacement",
+        "error": 14.613
+      },
+      {
+        "title": "Extend Conditions",
+        "error": 49.822
+      },
+      {
+        "title": "Mark of Insecurity",
+        "error": 51.138
+      }
+    ]
+  },
+  {
+    "id": "skill:2:276",
+    "name": "喧闹之灵",
+    "proposed": "Clamor of Souls",
+    "proposedError": 11.175,
+    "candidates": [
+      {
+        "title": "Clamor of Souls",
+        "error": 11.175
+      },
+      {
+        "title": "Spirit Channeling",
+        "error": 35.06
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 35.71
+      }
+    ]
+  },
+  {
+    "id": "skill:2:277",
+    "name": "贪婪者古朗",
+    "proposed": "Grasping Was Kuurong",
+    "proposedError": 12.545,
+    "candidates": [
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 12.545
+      },
+      {
+        "title": "Vengeful Was Khanhei",
+        "error": 29.86
+      },
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 30.62
+      }
+    ]
+  },
+  {
+    "id": "skill:2:278",
+    "name": "缚灵纹章",
+    "proposed": "Signet of Spirits",
+    "proposedError": 16.538,
+    "candidates": [
+      {
+        "title": "Signet of Spirits",
+        "error": 16.538
+      },
+      {
+        "title": "Signet of Spirits (PvP)",
+        "error": 16.538
+      },
+      {
+        "title": "Signet of Ghostly Might",
+        "error": 42.181
+      }
+    ]
+  },
+  {
+    "id": "skill:2:279",
+    "name": "反抗军欣雷",
+    "proposed": "Defiant Was Xinrae",
+    "proposedError": 19.012,
+    "candidates": [
+      {
+        "title": "Defiant Was Xinrae",
+        "error": 19.012
+      },
+      {
+        "title": "Vengeful Was Khanhei",
+        "error": 33.968
+      },
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 34.268
+      }
+    ]
+  },
+  {
+    "id": "skill:2:280",
+    "name": "流浪",
+    "proposed": "Wanderlust",
+    "proposedError": 14.955,
+    "candidates": [
+      {
+        "title": "Wanderlust",
+        "error": 14.955
+      },
+      {
+        "title": "Wanderlust (PvP)",
+        "error": 14.955
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 39.502
+      }
+    ]
+  },
+  {
+    "id": "skill:2:281",
+    "name": "复生武装",
+    "proposed": "Weapon of Quickening",
+    "proposedError": 16.617,
+    "candidates": [
+      {
+        "title": "Weapon of Quickening",
+        "error": 16.617
+      },
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 42.656
+      },
+      {
+        "title": "Order of the Vampire",
+        "error": 44.835
+      }
+    ]
+  },
+  {
+    "id": "skill:2:282",
+    "name": "保护",
+    "proposed": "Preservation",
+    "proposedError": 14.378,
+    "candidates": [
+      {
+        "title": "Preservation",
+        "error": 14.378
+      },
+      {
+        "title": "Preservation (PvP)",
+        "error": 14.378
+      },
+      {
+        "title": "Soul Twisting",
+        "error": 40.299
+      }
+    ]
+  },
+  {
+    "id": "skill:2:283",
+    "name": "灵光武装",
+    "proposed": "Spirit Light Weapon",
+    "proposedError": 11.747,
+    "candidates": [
+      {
+        "title": "Spirit Light Weapon",
+        "error": 11.747
+      },
+      {
+        "title": "Weapon of Fury",
+        "error": 33.816
+      },
+      {
+        "title": "Spirit Channeling",
+        "error": 34.146
+      }
+    ]
+  },
+  {
+    "id": "skill:2:284",
+    "name": "沉静者谭纳辛",
+    "proposed": "Tranquil Was Tanasen",
+    "proposedError": 17.766,
+    "candidates": [
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 17.766
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 31.217
+      },
+      {
+        "title": "Vengeful Was Khanhei",
+        "error": 32.626
+      }
+    ]
+  },
+  {
+    "id": "skill:2:285",
+    "name": "复仇者汉何",
+    "proposed": "Vengeful Was Khanhei",
+    "proposedError": 15.762,
+    "candidates": [
+      {
+        "title": "Vengeful Was Khanhei",
+        "error": 15.762
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 29.633
+      },
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 33.037
+      }
+    ]
+  },
+  {
+    "id": "skill:2:286",
+    "name": "缓和者松凯",
+    "proposed": "Attuned Was Songkai",
+    "proposedError": 15.792,
+    "candidates": [
+      {
+        "title": "Attuned Was Songkai",
+        "error": 15.792
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 32.094
+      },
+      {
+        "title": "Defiant Was Xinrae",
+        "error": 37.901
+      }
+    ]
+  },
+  {
+    "id": "skill:2:287",
+    "name": "灵魂毁灭",
+    "proposed": "Consume Soul",
+    "proposedError": 14.318,
+    "candidates": [
+      {
+        "title": "Consume Soul",
+        "error": 14.318
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 36.502
+      },
+      {
+        "title": "Weapon of Fury",
+        "error": 36.554
+      }
+    ]
+  },
+  {
+    "id": "skill:2:288",
+    "name": "祭祀之主",
+    "proposed": "Ritual Lord",
+    "proposedError": 13.165,
+    "candidates": [
+      {
+        "title": "Ritual Lord",
+        "error": 13.165
+      },
+      {
+        "title": "Contagion",
+        "error": 43.347
+      },
+      {
+        "title": "Weapon of Quickening",
+        "error": 45.331
+      }
+    ]
+  },
+  {
+    "id": "skill:2:289",
+    "name": "导引之灵",
+    "proposed": "Spirit Channeling",
+    "proposedError": 10.498,
+    "candidates": [
+      {
+        "title": "Spirit Channeling",
+        "error": 10.498
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 32.461
+      },
+      {
+        "title": "Spirit Light Weapon",
+        "error": 33.461
+      }
+    ]
+  },
+  {
+    "id": "skill:2:290",
+    "name": "生灵扭转",
+    "proposed": "Soul Twisting",
+    "proposedError": 13.688,
+    "candidates": [
+      {
+        "title": "Soul Twisting",
+        "error": 13.688
+      },
+      {
+        "title": "Soul Twisting (PvP)",
+        "error": 13.688
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 35.935
+      }
+    ]
+  },
+  {
+    "id": "skill:2:344",
+    "name": "七械态势(15周年精英)",
+    "proposed": "Seven Weapons Stance",
+    "proposedError": 44.49,
+    "candidates": [
+      {
+        "title": "Seven Weapons Stance",
+        "error": 44.49
+      },
+      {
+        "title": "\"It's Just a Flesh Wound.\"",
+        "error": 45.201
+      },
+      {
+        "title": "Rage of the Ntouka",
+        "error": 45.527
+      }
+    ]
+  },
+  {
+    "id": "skill:2:345",
+    "name": "暗影窃取(15周年精英)",
+    "proposed": "Shadow Theft",
+    "proposedError": 50.762,
+    "candidates": [
+      {
+        "title": "Hidden Caltrops",
+        "error": 50.522
+      },
+      {
+        "title": "Shadow Theft",
+        "error": 50.762
+      },
+      {
+        "title": "Palm Strike",
+        "error": 53.152
+      }
+    ]
+  },
+  {
+    "id": "skill:2:349",
+    "name": "三坊之器(15周年精英)",
+    "proposed": "Weapons of Three Forges",
+    "proposedError": 60.248,
+    "candidates": [
+      {
+        "title": "Judgment Strike",
+        "error": 55.857
+      },
+      {
+        "title": "Defiant Was Xinrae",
+        "error": 56.37
+      },
+      {
+        "title": "Ravenous Gaze",
+        "error": 56.687
+      }
+    ]
+  },
+  {
+    "id": "skill:2:351",
+    "name": "巴萨泽之怒(库兹柯)",
+    "proposed": "Aura of Holy Might (Kurzick)",
+    "proposedError": 57.986,
+    "candidates": [
+      {
+        "title": "Aura of Holy Might (Kurzick)",
+        "error": 22.564
+      },
+      {
+        "title": "Alkar's Alchemical Acid",
+        "error": 53.415
+      },
+      {
+        "title": "Wail of Doom",
+        "error": 55.769
+      }
+    ]
+  },
+  {
+    "id": "skill:2:352",
+    "name": "巴萨泽之怒(勒克森)",
+    "proposed": "Aura of Holy Might (Luxon)",
+    "proposedError": 61.282,
+    "candidates": [
+      {
+        "title": "Aura of Holy Might (Luxon)",
+        "error": 39.19
+      },
+      {
+        "title": "Enraged Lunge",
+        "error": 58.396
+      },
+      {
+        "title": "Enraged Lunge (PvP)",
+        "error": 58.396
+      }
+    ]
+  },
+  {
+    "id": "skill:2:353",
+    "name": "能力调和(库兹柯)",
+    "proposed": "Elemental Lord (Kurzick)",
+    "proposedError": 65.37,
+    "candidates": [
+      {
+        "title": "Elemental Lord (Kurzick)",
+        "error": 25.718
+      },
+      {
+        "title": "Ether Nightmare (Kurzick)",
+        "error": 58.429
+      },
+      {
+        "title": "Aura of Holy Might",
+        "error": 58.916
+      }
+    ]
+  },
+  {
+    "id": "skill:2:354",
+    "name": "能力调和(勒克森)",
+    "proposed": "Elemental Lord (Luxon)",
+    "proposedError": 54.393,
+    "candidates": [
+      {
+        "title": "Elemental Lord (Luxon)",
+        "error": 23.609
+      },
+      {
+        "title": "\"Save Yourselves!\" (Luxon)",
+        "error": 52.07
+      },
+      {
+        "title": "Shadow Sanctuary (Luxon)",
+        "error": 53.836
+      }
+    ]
+  },
+  {
+    "id": "skill:2:355",
+    "name": "魔力衰退(库兹柯)",
+    "proposed": "Ether Nightmare (Kurzick)",
+    "proposedError": 79.088,
+    "candidates": [
+      {
+        "title": "Ether Nightmare (Kurzick)",
+        "error": 29.806
+      },
+      {
+        "title": "Ineptitude",
+        "error": 57.432
+      },
+      {
+        "title": "Critical Agility",
+        "error": 59.189
+      }
+    ]
+  },
+  {
+    "id": "skill:2:356",
+    "name": "魔力衰退(勒克森)",
+    "proposed": "Ether Nightmare (Luxon)",
+    "proposedError": 77.645,
+    "candidates": [
+      {
+        "title": "Ether Nightmare (Luxon)",
+        "error": 33.127
+      },
+      {
+        "title": "Panic",
+        "error": 62.682
+      },
+      {
+        "title": "Signet of Binding",
+        "error": 63.061
+      }
+    ]
+  },
+  {
+    "id": "skill:2:357",
+    "name": "狂热精神(库兹柯)",
+    "proposed": "Selfless Spirit (Kurzick)",
+    "proposedError": 75.367,
+    "candidates": [
+      {
+        "title": "Selfless Spirit (Kurzick)",
+        "error": 34.048
+      },
+      {
+        "title": "Alkar's Alchemical Acid",
+        "error": 63.341
+      },
+      {
+        "title": "Summon Spirits",
+        "error": 63.981
+      }
+    ]
+  },
+  {
+    "id": "skill:2:358",
+    "name": "狂热精神(勒克森)",
+    "proposed": "Selfless Spirit (Luxon)",
+    "proposedError": 76.341,
+    "candidates": [
+      {
+        "title": "Selfless Spirit (Luxon)",
+        "error": 43.739
+      },
+      {
+        "title": "Seed of Life",
+        "error": 56.496
+      },
+      {
+        "title": "Mark of Protection",
+        "error": 58.389
+      }
+    ]
+  },
+  {
+    "id": "skill:2:359",
+    "name": "暗影慰藉(库兹柯)",
+    "proposed": "Shadow Sanctuary (Kurzick)",
+    "proposedError": 56.585,
+    "candidates": [
+      {
+        "title": "Shadow Sanctuary (Kurzick)",
+        "error": 30.022
+      },
+      {
+        "title": "Siphon Strength",
+        "error": 56.5
+      },
+      {
+        "title": "Shadow Sanctuary",
+        "error": 56.585
+      }
+    ]
+  },
+  {
+    "id": "skill:2:360",
+    "name": "暗影慰藉(勒克森)",
+    "proposed": "Shadow Sanctuary (Luxon)",
+    "proposedError": 56.786,
+    "candidates": [
+      {
+        "title": "Shadow Sanctuary (Luxon)",
+        "error": 26.687
+      },
+      {
+        "title": "Critical Agility",
+        "error": 45.47
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 50.786
+      }
+    ]
+  },
+  {
+    "id": "skill:2:361",
+    "name": "腐化纹章(库兹柯)",
+    "proposed": "Signet of Corruption (Kurzick)",
+    "proposedError": 55.941,
+    "candidates": [
+      {
+        "title": "Signet of Corruption (Kurzick)",
+        "error": 45.238
+      },
+      {
+        "title": "Signet of Corruption",
+        "error": 55.941
+      },
+      {
+        "title": "Aura of Holy Might (Kurzick)",
+        "error": 57.053
+      }
+    ]
+  },
+  {
+    "id": "skill:2:362",
+    "name": "腐化纹章(勒克森)",
+    "proposed": "Signet of Corruption (Luxon)",
+    "proposedError": 48.806,
+    "candidates": [
+      {
+        "title": "Signet of Corruption (Luxon)",
+        "error": 34.856
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 44.165
+      },
+      {
+        "title": "Signet of Corruption",
+        "error": 48.806
+      }
+    ]
+  },
+  {
+    "id": "skill:2:363",
+    "name": "命运之矛(库兹柯)",
+    "proposed": "Spear of Fury (Kurzick)",
+    "proposedError": 70.923,
+    "candidates": [
+      {
+        "title": "Spear of Fury (Kurzick)",
+        "error": 30.424
+      },
+      {
+        "title": "Shadow Sanctuary (Kurzick)",
+        "error": 54.931
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 56.328
+      }
+    ]
+  },
+  {
+    "id": "skill:2:364",
+    "name": "命运之矛(勒克森)",
+    "proposed": "Spear of Fury (Luxon)",
+    "proposedError": 73.122,
+    "candidates": [
+      {
+        "title": "Spear of Fury (Luxon)",
+        "error": 38.436
+      },
+      {
+        "title": "Volfen Blessing",
+        "error": 61.798
+      },
+      {
+        "title": "Raven Blessing",
+        "error": 62.118
+      }
+    ]
+  },
+  {
+    "id": "skill:2:365",
+    "name": "移动炮台(库兹柯)",
+    "proposed": "Summon Spirits (Kurzick)",
+    "proposedError": 65.085,
+    "candidates": [
+      {
+        "title": "Summon Spirits (Kurzick)",
+        "error": 23.278
+      },
+      {
+        "title": "Ether Nightmare (Kurzick)",
+        "error": 59.734
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 62.35
+      }
+    ]
+  },
+  {
+    "id": "skill:2:366",
+    "name": "移动炮台(勒克森)",
+    "proposed": "Summon Spirits (Luxon)",
+    "proposedError": 68.34,
+    "candidates": [
+      {
+        "title": "Summon Spirits (Luxon)",
+        "error": 35.236
+      },
+      {
+        "title": "Spirit Light Weapon",
+        "error": 52.919
+      },
+      {
+        "title": "Signet of Binding",
+        "error": 55.269
+      }
+    ]
+  },
+  {
+    "id": "skill:2:367",
+    "name": "拯救自己吧(库兹柯)",
+    "proposed": "\"Save Yourselves!\" (Kurzick)",
+    "proposedError": 56.165,
+    "candidates": [
+      {
+        "title": "\"Save Yourselves!\" (Kurzick)",
+        "error": 27.941
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 54.131
+      },
+      {
+        "title": "\"Save Yourselves!\"",
+        "error": 56.165
+      }
+    ]
+  },
+  {
+    "id": "skill:2:368",
+    "name": "拯救自己吧(勒克森)",
+    "proposed": "\"Save Yourselves!\" (Luxon)",
+    "proposedError": 50.73,
+    "candidates": [
+      {
+        "title": "\"Save Yourselves!\" (Luxon)",
+        "error": 30.767
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 48.283
+      },
+      {
+        "title": "Intensity",
+        "error": 50.488
+      }
+    ]
+  },
+  {
+    "id": "skill:2:369",
+    "name": "三重箭(库兹柯)",
+    "proposed": "Triple Shot (Kurzick)",
+    "proposedError": 61.612,
+    "candidates": [
+      {
+        "title": "Triple Shot (Kurzick)",
+        "error": 28.626
+      },
+      {
+        "title": "Burning Arrow",
+        "error": 58.201
+      },
+      {
+        "title": "Alkar's Alchemical Acid",
+        "error": 58.758
+      }
+    ]
+  },
+  {
+    "id": "skill:2:370",
+    "name": "三重箭(勒克森)",
+    "proposed": "Triple Shot (Luxon)",
+    "proposedError": 55.422,
+    "candidates": [
+      {
+        "title": "Triple Shot (Luxon)",
+        "error": 33.14
+      },
+      {
+        "title": "Prepared Shot",
+        "error": 49.035
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 51.206
+      }
+    ]
+  },
+  {
+    "id": "skill:3:31",
+    "name": "破坏砍击",
+    "proposed": "Decapitate",
+    "proposedError": 9.002,
+    "candidates": [
+      {
+        "title": "Decapitate",
+        "error": 9.002
+      },
+      {
+        "title": "Magehunter's Smash",
+        "error": 47.448
+      },
+      {
+        "title": "\"The Power Is Yours!\"",
+        "error": 49.373
+      }
+    ]
+  },
+  {
+    "id": "skill:3:32",
+    "name": "猎魔者猛击",
+    "proposed": "Magehunter's Smash",
+    "proposedError": 8.347,
+    "candidates": [
+      {
+        "title": "Magehunter's Smash",
+        "error": 8.347
+      },
+      {
+        "title": "\"You're All Alone!\"",
+        "error": 45.891
+      },
+      {
+        "title": "Auspicious Parry",
+        "error": 47.389
+      }
+    ]
+  },
+  {
+    "id": "skill:3:33",
+    "name": "急速攻击",
+    "proposed": "Charging Strike",
+    "proposedError": 10.735,
+    "candidates": [
+      {
+        "title": "Charging Strike",
+        "error": 10.735
+      },
+      {
+        "title": "Charging Strike (PvP)",
+        "error": 10.735
+      },
+      {
+        "title": "Rage of the Ntouka",
+        "error": 46.937
+      }
+    ]
+  },
+  {
+    "id": "skill:3:34",
+    "name": "头鎚",
+    "proposed": "Headbutt",
+    "proposedError": 10.66,
+    "candidates": [
+      {
+        "title": "Headbutt",
+        "error": 10.66
+      },
+      {
+        "title": "Lightning Surge",
+        "error": 50.587
+      },
+      {
+        "title": "Cautery Signet",
+        "error": 51.078
+      }
+    ]
+  },
+  {
+    "id": "skill:3:35",
+    "name": "猎魔者攻击",
+    "proposed": "Magehunter Strike",
+    "proposedError": 9.571,
+    "candidates": [
+      {
+        "title": "Magehunter Strike",
+        "error": 9.571
+      },
+      {
+        "title": "Soldier's Stance",
+        "error": 46.798
+      },
+      {
+        "title": "Soldier's Stance (PvP)",
+        "error": 46.798
+      }
+    ]
+  },
+  {
+    "id": "skill:3:36",
+    "name": "恩多卡之怒",
+    "proposed": "Rage of the Ntouka",
+    "proposedError": 10.334,
+    "candidates": [
+      {
+        "title": "Rage of the Ntouka",
+        "error": 10.334
+      },
+      {
+        "title": "Battle Rage",
+        "error": 47.254
+      },
+      {
+        "title": "\"It's Just a Flesh Wound.\"",
+        "error": 48.398
+      }
+    ]
+  },
+  {
+    "id": "skill:3:37",
+    "name": "致残斩击",
+    "proposed": "Crippling Slash",
+    "proposedError": 8.161,
+    "candidates": [
+      {
+        "title": "Crippling Slash",
+        "error": 8.161
+      },
+      {
+        "title": "Stunning Strike",
+        "error": 44.629
+      },
+      {
+        "title": "Shockwave",
+        "error": 45.475
+      }
+    ]
+  },
+  {
+    "id": "skill:3:38",
+    "name": "士兵态势",
+    "proposed": "Soldier's Stance",
+    "proposedError": 8.764,
+    "candidates": [
+      {
+        "title": "Soldier's Stance",
+        "error": 8.764
+      },
+      {
+        "title": "Soldier's Stance (PvP)",
+        "error": 8.764
+      },
+      {
+        "title": "Magehunter Strike",
+        "error": 46.86
+      }
+    ]
+  },
+  {
+    "id": "skill:3:39",
+    "name": "坚定态势",
+    "proposed": "Steady Stance",
+    "proposedError": 10.259,
+    "candidates": [
+      {
+        "title": "Steady Stance",
+        "error": 10.259
+      },
+      {
+        "title": "Ward Against Harm",
+        "error": 51.01
+      },
+      {
+        "title": "Ward Against Harm (PvP)",
+        "error": 51.01
+      }
+    ]
+  },
+  {
+    "id": "skill:3:40",
+    "name": "【你落单了！】",
+    "proposed": "\"You're All Alone!\"",
+    "proposedError": 7.887,
+    "candidates": [
+      {
+        "title": "\"You're All Alone!\"",
+        "error": 7.887
+      },
+      {
+        "title": "Magehunter's Smash",
+        "error": 45.493
+      },
+      {
+        "title": "\"It's Good to Be King!\"",
+        "error": 45.68
+      }
+    ]
+  },
+  {
+    "id": "skill:3:41",
+    "name": "暴冲合一",
+    "proposed": "Rampage as One",
+    "proposedError": 11,
+    "candidates": [
+      {
+        "title": "Rampage as One",
+        "error": 11
+      },
+      {
+        "title": "Oath Shot",
+        "error": 51.378
+      },
+      {
+        "title": "Ferocious Strike",
+        "error": 61.134
+      }
+    ]
+  },
+  {
+    "id": "skill:3:42",
+    "name": "冲击合一",
+    "proposed": "Strike as One",
+    "proposedError": 9.79,
+    "candidates": [
+      {
+        "title": "Strike as One",
+        "error": 9.79
+      },
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 45.865
+      },
+      {
+        "title": "Stunning Strike",
+        "error": 47.936
+      }
+    ]
+  },
+  {
+    "id": "skill:3:43",
+    "name": "专精者灵巧",
+    "proposed": "Expert's Dexterity",
+    "proposedError": 10.713,
+    "candidates": [
+      {
+        "title": "Expert's Dexterity",
+        "error": 10.713
+      },
+      {
+        "title": "Expert's Dexterity (PvP)",
+        "error": 10.713
+      },
+      {
+        "title": "Incendiary Arrows",
+        "error": 48.388
+      }
+    ]
+  },
+  {
+    "id": "skill:3:44",
+    "name": "怒火",
+    "proposed": "Infuriating Heat",
+    "proposedError": 9.72,
+    "candidates": [
+      {
+        "title": "Infuriating Heat",
+        "error": 9.72
+      },
+      {
+        "title": "Infuriating Heat (PvP)",
+        "error": 9.72
+      },
+      {
+        "title": "Soldier's Stance",
+        "error": 49.31
+      }
+    ]
+  },
+  {
+    "id": "skill:3:45",
+    "name": "燃烧箭",
+    "proposed": "Burning Arrow",
+    "proposedError": 9.825,
+    "candidates": [
+      {
+        "title": "Burning Arrow",
+        "error": 9.825
+      },
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 39.089
+      },
+      {
+        "title": "Quicksand",
+        "error": 46.19
+      }
+    ]
+  },
+  {
+    "id": "skill:3:46",
+    "name": "完备射击",
+    "proposed": "Prepared Shot",
+    "proposedError": 9.778,
+    "candidates": [
+      {
+        "title": "Prepared Shot",
+        "error": 9.778
+      },
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 40.475
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 45.749
+      }
+    ]
+  },
+  {
+    "id": "skill:3:47",
+    "name": "流沙",
+    "proposed": "Quicksand",
+    "proposedError": 8.718,
+    "candidates": [
+      {
+        "title": "Quicksand",
+        "error": 8.718
+      },
+      {
+        "title": "Scavenger's Focus",
+        "error": 38.381
+      },
+      {
+        "title": "Archer's Signet",
+        "error": 41.497
+      }
+    ]
+  },
+  {
+    "id": "skill:3:48",
+    "name": "食腐者的专注",
+    "proposed": "Scavenger's Focus",
+    "proposedError": 8.596,
+    "candidates": [
+      {
+        "title": "Scavenger's Focus",
+        "error": 8.596
+      },
+      {
+        "title": "Quicksand",
+        "error": 38.91
+      },
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 43.421
+      }
+    ]
+  },
+  {
+    "id": "skill:3:49",
+    "name": "烟雾陷阱",
+    "proposed": "Smoke Trap",
+    "proposedError": 8.769,
+    "candidates": [
+      {
+        "title": "Smoke Trap",
+        "error": 8.769
+      },
+      {
+        "title": "Ferocious Strike",
+        "error": 48.534
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 54.368
+      }
+    ]
+  },
+  {
+    "id": "skill:3:50",
+    "name": "马格班射击",
+    "proposed": "Magebane Shot",
+    "proposedError": 9.723,
+    "candidates": [
+      {
+        "title": "Magebane Shot",
+        "error": 9.723
+      },
+      {
+        "title": "Archer's Signet",
+        "error": 47.267
+      },
+      {
+        "title": "Escape",
+        "error": 49.84
+      }
+    ]
+  },
+  {
+    "id": "skill:3:51",
+    "name": "铭刻者洞察",
+    "proposed": "Scribe's Insight",
+    "proposedError": 8.855,
+    "candidates": [
+      {
+        "title": "Scribe's Insight",
+        "error": 8.855
+      },
+      {
+        "title": "Reaper's Mark",
+        "error": 42.022
+      },
+      {
+        "title": "Spirit Light Weapon",
+        "error": 46.533
+      }
+    ]
+  },
+  {
+    "id": "skill:3:52",
+    "name": "治愈者恩赐",
+    "proposed": "Healer's Boon",
+    "proposedError": 9.01,
+    "candidates": [
+      {
+        "title": "Healer's Boon",
+        "error": 9.01
+      },
+      {
+        "title": "Scribe's Insight",
+        "error": 48.058
+      },
+      {
+        "title": "Reaper's Mark",
+        "error": 48.654
+      }
+    ]
+  },
+  {
+    "id": "skill:3:53",
+    "name": "灿光",
+    "proposed": "Glimmer of Light",
+    "proposedError": 8.007,
+    "candidates": [
+      {
+        "title": "Glimmer of Light",
+        "error": 8.007
+      },
+      {
+        "title": "Air of Enchantment",
+        "error": 49.845
+      },
+      {
+        "title": "Energy Drain",
+        "error": 55.694
+      }
+    ]
+  },
+  {
+    "id": "skill:3:54",
+    "name": "治疗者契约",
+    "proposed": "Healer's Covenant",
+    "proposedError": 8.701,
+    "candidates": [
+      {
+        "title": "Healer's Covenant",
+        "error": 8.701
+      },
+      {
+        "title": "Signet of Judgment",
+        "error": 53.563
+      },
+      {
+        "title": "Signet of Judgment (PvP)",
+        "error": 53.563
+      }
+    ]
+  },
+  {
+    "id": "skill:3:55",
+    "name": "拯救圣光",
+    "proposed": "Light of Deliverance",
+    "proposedError": 9.42,
+    "candidates": [
+      {
+        "title": "Light of Deliverance",
+        "error": 9.42
+      },
+      {
+        "title": "Light of Deliverance (PvP)",
+        "error": 9.42
+      },
+      {
+        "title": "Healing Burst",
+        "error": 48.951
+      }
+    ]
+  },
+  {
+    "id": "skill:3:56",
+    "name": "降咒转向",
+    "proposed": "Divert Hexes",
+    "proposedError": 10.382,
+    "candidates": [
+      {
+        "title": "Divert Hexes",
+        "error": 10.382
+      },
+      {
+        "title": "Illusionary Weaponry",
+        "error": 48.574
+      },
+      {
+        "title": "Illusionary Weaponry (PvP)",
+        "error": 48.574
+      }
+    ]
+  },
+  {
+    "id": "skill:3:57",
+    "name": "狂热祝福",
+    "proposed": "Zealous Benediction",
+    "proposedError": 9.222,
+    "candidates": [
+      {
+        "title": "Zealous Benediction",
+        "error": 9.222
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 53.655
+      },
+      {
+        "title": "Word of Censure",
+        "error": 54.571
+      }
+    ]
+  },
+  {
+    "id": "skill:3:58",
+    "name": "巴萨泽震荡",
+    "proposed": "Balthazar's Pendulum",
+    "proposedError": 9.036,
+    "candidates": [
+      {
+        "title": "Balthazar's Pendulum",
+        "error": 9.036
+      },
+      {
+        "title": "Divert Hexes",
+        "error": 55.056
+      },
+      {
+        "title": "Martyr",
+        "error": 56.741
+      }
+    ]
+  },
+  {
+    "id": "skill:3:59",
+    "name": "防御者狂热",
+    "proposed": "Defender's Zeal",
+    "proposedError": 9.845,
+    "candidates": [
+      {
+        "title": "Defender's Zeal",
+        "error": 9.845
+      },
+      {
+        "title": "Signet of Spirits",
+        "error": 54.876
+      },
+      {
+        "title": "Signet of Spirits (PvP)",
+        "error": 54.876
+      }
+    ]
+  },
+  {
+    "id": "skill:3:60",
+    "name": "破除纹章",
+    "proposed": "Signet of Removal",
+    "proposedError": 10.767,
+    "candidates": [
+      {
+        "title": "Signet of Removal",
+        "error": 10.767
+      },
+      {
+        "title": "Scribe's Insight",
+        "error": 46.694
+      },
+      {
+        "title": "Soul Twisting",
+        "error": 47.287
+      }
+    ]
+  },
+  {
+    "id": "skill:3:61",
+    "name": "贪婪凝视",
+    "proposed": "Ravenous Gaze",
+    "proposedError": 9.42,
+    "candidates": [
+      {
+        "title": "Ravenous Gaze",
+        "error": 9.42
+      },
+      {
+        "title": "Spiteful Spirit",
+        "error": 43.597
+      },
+      {
+        "title": "Reaper's Mark",
+        "error": 44.892
+      }
+    ]
+  },
+  {
+    "id": "skill:3:62",
+    "name": "加持腐化",
+    "proposed": "Corrupt Enchantment",
+    "proposedError": 17.128,
+    "candidates": [
+      {
+        "title": "Corrupt Enchantment",
+        "error": 17.128
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 47.111
+      },
+      {
+        "title": "Avatar of Dwayna",
+        "error": 47.673
+      }
+    ]
+  },
+  {
+    "id": "skill:3:63",
+    "name": "邪恶",
+    "proposed": "Depravity",
+    "proposedError": 10.924,
+    "candidates": [
+      {
+        "title": "Depravity",
+        "error": 10.924
+      },
+      {
+        "title": "Spiteful Spirit",
+        "error": 46.984
+      },
+      {
+        "title": "Pain of Disenchantment",
+        "error": 49.02
+      }
+    ]
+  },
+  {
+    "id": "skill:3:64",
+    "name": "觉醒苦痛",
+    "proposed": "Pain of Disenchantment",
+    "proposedError": 11.073,
+    "candidates": [
+      {
+        "title": "Pain of Disenchantment",
+        "error": 11.073
+      },
+      {
+        "title": "Reaper's Mark",
+        "error": 40.015
+      },
+      {
+        "title": "Ravenous Gaze",
+        "error": 42.817
+      }
+    ]
+  },
+  {
+    "id": "skill:3:65",
+    "name": "苦难纹章",
+    "proposed": "Signet of Suffering",
+    "proposedError": 15.401,
+    "candidates": [
+      {
+        "title": "Signet of Suffering",
+        "error": 15.401
+      },
+      {
+        "title": "Quicksand",
+        "error": 47.618
+      },
+      {
+        "title": "Soldier's Stance",
+        "error": 48.063
+      }
+    ]
+  },
+  {
+    "id": "skill:3:66",
+    "name": "病症蔓延",
+    "proposed": "Contagion",
+    "proposedError": 12.03,
+    "candidates": [
+      {
+        "title": "Contagion",
+        "error": 12.03
+      },
+      {
+        "title": "Ritual Lord",
+        "error": 47.07
+      },
+      {
+        "title": "Soul Twisting",
+        "error": 51.471
+      }
+    ]
+  },
+  {
+    "id": "skill:3:67",
+    "name": "锯齿骸骨",
+    "proposed": "Jagged Bones",
+    "proposedError": 16.586,
+    "candidates": [
+      {
+        "title": "Jagged Bones",
+        "error": 16.586
+      },
+      {
+        "title": "Shield of Deflection",
+        "error": 47.456
+      },
+      {
+        "title": "Illusionary Weaponry",
+        "error": 51.638
+      }
+    ]
+  },
+  {
+    "id": "skill:3:68",
+    "name": "不死命令",
+    "proposed": "Order of Undeath",
+    "proposedError": 10.126,
+    "candidates": [
+      {
+        "title": "Order of Undeath",
+        "error": 10.126
+      },
+      {
+        "title": "Aura of the Lich",
+        "error": 37.691
+      },
+      {
+        "title": "Spiteful Spirit",
+        "error": 38.966
+      }
+    ]
+  },
+  {
+    "id": "skill:3:69",
+    "name": "剧毒严寒",
+    "proposed": "Toxic Chill",
+    "proposedError": 13.47,
+    "candidates": [
+      {
+        "title": "Toxic Chill",
+        "error": 13.47
+      },
+      {
+        "title": "Signet of Judgment",
+        "error": 49.898
+      },
+      {
+        "title": "Signet of Judgment (PvP)",
+        "error": 49.898
+      }
+    ]
+  },
+  {
+    "id": "skill:3:70",
+    "name": "索命印记",
+    "proposed": "Reaper's Mark",
+    "proposedError": 11.653,
+    "candidates": [
+      {
+        "title": "Reaper's Mark",
+        "error": 11.653
+      },
+      {
+        "title": "Scribe's Insight",
+        "error": 40.139
+      },
+      {
+        "title": "Consume Soul",
+        "error": 41.676
+      }
+    ]
+  },
+  {
+    "id": "skill:3:71",
+    "name": "附魔者之谜",
+    "proposed": "Enchanter's Conundrum",
+    "proposedError": 9.297,
+    "candidates": [
+      {
+        "title": "Enchanter's Conundrum",
+        "error": 9.297
+      },
+      {
+        "title": "Enchanter's Conundrum (PvP)",
+        "error": 9.297
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 41.276
+      }
+    ]
+  },
+  {
+    "id": "skill:3:72",
+    "name": "食咒涡流",
+    "proposed": "Hex Eater Vortex",
+    "proposedError": 9.993,
+    "candidates": [
+      {
+        "title": "Hex Eater Vortex",
+        "error": 9.993
+      },
+      {
+        "title": "Ineptitude",
+        "error": 46.572
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 47.005
+      }
+    ]
+  },
+  {
+    "id": "skill:3:73",
+    "name": "强力流失",
+    "proposed": "Power Flux",
+    "proposedError": 10.172,
+    "candidates": [
+      {
+        "title": "Power Flux",
+        "error": 10.172
+      },
+      {
+        "title": "Power Leech",
+        "error": 42.484
+      },
+      {
+        "title": "Dark Apostasy",
+        "error": 56.256
+      }
+    ]
+  },
+  {
+    "id": "skill:3:74",
+    "name": "简易窍取",
+    "proposed": "Simple Thievery",
+    "proposedError": 10.185,
+    "candidates": [
+      {
+        "title": "Simple Thievery",
+        "error": 10.185
+      },
+      {
+        "title": "Onslaught",
+        "error": 62.762
+      },
+      {
+        "title": "Onslaught (PvP)",
+        "error": 62.762
+      }
+    ]
+  },
+  {
+    "id": "skill:3:75",
+    "name": "懊悔幻想",
+    "proposed": "Visions of Regret",
+    "proposedError": 11.244,
+    "candidates": [
+      {
+        "title": "Visions of Regret",
+        "error": 11.244
+      },
+      {
+        "title": "Visions of Regret (PvP)",
+        "error": 11.244
+      },
+      {
+        "title": "Tease",
+        "error": 40.859
+      }
+    ]
+  },
+  {
+    "id": "skill:3:76",
+    "name": "灵感标志",
+    "proposed": "Symbols of Inspiration",
+    "proposedError": 9.706,
+    "candidates": [
+      {
+        "title": "Symbols of Inspiration",
+        "error": 9.706
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 41.479
+      },
+      {
+        "title": "Tease",
+        "error": 44.586
+      }
+    ]
+  },
+  {
+    "id": "skill:3:77",
+    "name": "反加持气息",
+    "proposed": "Air of Disenchantment",
+    "proposedError": 9.213,
+    "candidates": [
+      {
+        "title": "Air of Disenchantment",
+        "error": 9.213
+      },
+      {
+        "title": "Invoke Lightning",
+        "error": 50.65
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 50.739
+      }
+    ]
+  },
+  {
+    "id": "skill:3:78",
+    "name": "病症延长",
+    "proposed": "Extend Conditions",
+    "proposedError": 10.55,
+    "candidates": [
+      {
+        "title": "Extend Conditions",
+        "error": 10.55
+      },
+      {
+        "title": "Visions of Regret",
+        "error": 41.015
+      },
+      {
+        "title": "Visions of Regret (PvP)",
+        "error": 41.015
+      }
+    ]
+  },
+  {
+    "id": "skill:3:79",
+    "name": "嘲弄",
+    "proposed": "Tease",
+    "proposedError": 10.641,
+    "candidates": [
+      {
+        "title": "Tease",
+        "error": 10.641
+      },
+      {
+        "title": "Tease (PvP)",
+        "error": 10.641
+      },
+      {
+        "title": "Visions of Regret",
+        "error": 40.871
+      }
+    ]
+  },
+  {
+    "id": "skill:3:80",
+    "name": "幻术纹章",
+    "proposed": "Signet of Illusions",
+    "proposedError": 19.076,
+    "candidates": [
+      {
+        "title": "Signet of Illusions",
+        "error": 19.076
+      },
+      {
+        "title": "Mark of Insecurity",
+        "error": 47.776
+      },
+      {
+        "title": "Recurring Insecurity",
+        "error": 49.368
+      }
+    ]
+  },
+  {
+    "id": "skill:3:81",
+    "name": "盲目震荡",
+    "proposed": "Blinding Surge",
+    "proposedError": 9.875,
+    "candidates": [
+      {
+        "title": "Blinding Surge",
+        "error": 9.875
+      },
+      {
+        "title": "Mark of Insecurity",
+        "error": 52.963
+      },
+      {
+        "title": "Dark Apostasy",
+        "error": 55.976
+      }
+    ]
+  },
+  {
+    "id": "skill:3:82",
+    "name": "闪电祈祷",
+    "proposed": "Invoke Lightning",
+    "proposedError": 8.736,
+    "candidates": [
+      {
+        "title": "Invoke Lightning",
+        "error": 8.736
+      },
+      {
+        "title": "Ether Prodigy",
+        "error": 43.718
+      },
+      {
+        "title": "Water Trident",
+        "error": 46.225
+      }
+    ]
+  },
+  {
+    "id": "skill:3:83",
+    "name": "沙尘暴",
+    "proposed": "Sandstorm",
+    "proposedError": 8.36,
+    "candidates": [
+      {
+        "title": "Sandstorm",
+        "error": 8.36
+      },
+      {
+        "title": "Master of Magic",
+        "error": 54.423
+      },
+      {
+        "title": "Gladiator's Defense",
+        "error": 55.913
+      }
+    ]
+  },
+  {
+    "id": "skill:3:84",
+    "name": "硬石刃鞘",
+    "proposed": "Stone Sheath",
+    "proposedError": 10.001,
+    "candidates": [
+      {
+        "title": "Stone Sheath",
+        "error": 10.001
+      },
+      {
+        "title": "Unsteady Ground",
+        "error": 46.141
+      },
+      {
+        "title": "Ether Prodigy",
+        "error": 47.032
+      }
+    ]
+  },
+  {
+    "id": "skill:3:85",
+    "name": "精神凌镜",
+    "proposed": "Ether Prism",
+    "proposedError": 10.264,
+    "candidates": [
+      {
+        "title": "Ether Prism",
+        "error": 10.264
+      },
+      {
+        "title": "Elemental Attunement",
+        "error": 53.991
+      },
+      {
+        "title": "Ether Prodigy",
+        "error": 54.028
+      }
+    ]
+  },
+  {
+    "id": "skill:3:86",
+    "name": "魔法大师",
+    "proposed": "Master of Magic",
+    "proposedError": 9.616,
+    "candidates": [
+      {
+        "title": "Master of Magic",
+        "error": 9.616
+      },
+      {
+        "title": "Eviscerate",
+        "error": 45.71
+      },
+      {
+        "title": "Thunderclap",
+        "error": 49.014
+      }
+    ]
+  },
+  {
+    "id": "skill:3:87",
+    "name": "心灵轰击",
+    "proposed": "Mind Blast",
+    "proposedError": 8.268,
+    "candidates": [
+      {
+        "title": "Mind Blast",
+        "error": 8.268
+      },
+      {
+        "title": "Water Trident",
+        "error": 47.515
+      },
+      {
+        "title": "Savannah Heat",
+        "error": 49.256
+      }
+    ]
+  },
+  {
+    "id": "skill:3:88",
+    "name": "燎原之火",
+    "proposed": "Savannah Heat",
+    "proposedError": 9.66,
+    "candidates": [
+      {
+        "title": "Savannah Heat",
+        "error": 9.66
+      },
+      {
+        "title": "Savannah Heat (PvP)",
+        "error": 9.66
+      },
+      {
+        "title": "Water Trident",
+        "error": 46.732
+      }
+    ]
+  },
+  {
+    "id": "skill:3:89",
+    "name": "爆裂火焰",
+    "proposed": "Searing Flames",
+    "proposedError": 9.844,
+    "candidates": [
+      {
+        "title": "Searing Flames",
+        "error": 9.844
+      },
+      {
+        "title": "Crippling Slash",
+        "error": 62.135
+      },
+      {
+        "title": "Ether Renewal",
+        "error": 62.48
+      }
+    ]
+  },
+  {
+    "id": "skill:3:90",
+    "name": "冰冷束缚",
+    "proposed": "Icy Shackles",
+    "proposedError": 11.649,
+    "candidates": [
+      {
+        "title": "Icy Shackles",
+        "error": 11.649
+      },
+      {
+        "title": "Melandru's Resilience",
+        "error": 52.495
+      },
+      {
+        "title": "Fox's Promise",
+        "error": 53.386
+      }
+    ]
+  },
+  {
+    "id": "skill:3:91",
+    "name": "冲击强化",
+    "proposed": "Assault Enchantments",
+    "proposedError": 10.218,
+    "candidates": [
+      {
+        "title": "Assault Enchantments",
+        "error": 10.218
+      },
+      {
+        "title": "Shattering Assault",
+        "error": 34.277
+      },
+      {
+        "title": "Shadow Prison",
+        "error": 38.038
+      }
+    ]
+  },
+  {
+    "id": "skill:3:92",
+    "name": "狐狸誓言",
+    "proposed": "Fox's Promise",
+    "proposedError": 10.885,
+    "candidates": [
+      {
+        "title": "Fox's Promise",
+        "error": 10.885
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 41.906
+      },
+      {
+        "title": "Enchanter's Conundrum",
+        "error": 44.339
+      }
+    ]
+  },
+  {
+    "id": "skill:3:93",
+    "name": "杀道",
+    "proposed": "Way of the Assassin",
+    "proposedError": 11.725,
+    "candidates": [
+      {
+        "title": "Way of the Assassin",
+        "error": 11.725
+      },
+      {
+        "title": "Siphon Strength",
+        "error": 48.546
+      },
+      {
+        "title": "Hidden Caltrops",
+        "error": 51.845
+      }
+    ]
+  },
+  {
+    "id": "skill:3:94",
+    "name": "粉碎突袭",
+    "proposed": "Shattering Assault",
+    "proposedError": 12.729,
+    "candidates": [
+      {
+        "title": "Shattering Assault",
+        "error": 12.729
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 34.391
+      },
+      {
+        "title": "Wastrel's Collapse",
+        "error": 42.464
+      }
+    ]
+  },
+  {
+    "id": "skill:3:95",
+    "name": "金钳狙杀",
+    "proposed": "Golden Skull Strike",
+    "proposedError": 11.541,
+    "candidates": [
+      {
+        "title": "Golden Skull Strike",
+        "error": 11.541
+      },
+      {
+        "title": "Shadow Prison",
+        "error": 50.494
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 50.587
+      }
+    ]
+  },
+  {
+    "id": "skill:3:96",
+    "name": "惊恐印记",
+    "proposed": "Mark of Insecurity",
+    "proposedError": 11.806,
+    "candidates": [
+      {
+        "title": "Mark of Insecurity",
+        "error": 11.806
+      },
+      {
+        "title": "Way of the Empty Palm",
+        "error": 45.288
+      },
+      {
+        "title": "Visions of Regret",
+        "error": 46.617
+      }
+    ]
+  },
+  {
+    "id": "skill:3:97",
+    "name": "暗影拘禁",
+    "proposed": "Shadow Prison",
+    "proposedError": 13.199,
+    "candidates": [
+      {
+        "title": "Shadow Prison",
+        "error": 13.199
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 35.374
+      },
+      {
+        "title": "Wastrel's Collapse",
+        "error": 37.79
+      }
+    ]
+  },
+  {
+    "id": "skill:3:98",
+    "name": "神秘蒺藜",
+    "proposed": "Hidden Caltrops",
+    "proposedError": 12.292,
+    "candidates": [
+      {
+        "title": "Hidden Caltrops",
+        "error": 12.292
+      },
+      {
+        "title": "Siphon Strength",
+        "error": 48.245
+      },
+      {
+        "title": "Palm Strike",
+        "error": 48.584
+      }
+    ]
+  },
+  {
+    "id": "skill:3:99",
+    "name": "暗影结合",
+    "proposed": "Shadow Meld",
+    "proposedError": 14.943,
+    "candidates": [
+      {
+        "title": "Shadow Meld",
+        "error": 14.943
+      },
+      {
+        "title": "Seeping Wound",
+        "error": 40.556
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 40.998
+      }
+    ]
+  },
+  {
+    "id": "skill:3:100",
+    "name": "偷袭",
+    "proposed": "Wastrel's Collapse",
+    "proposedError": 10.836,
+    "candidates": [
+      {
+        "title": "Wastrel's Collapse",
+        "error": 10.836
+      },
+      {
+        "title": "Assault Enchantments",
+        "error": 38.254
+      },
+      {
+        "title": "Shadow Prison",
+        "error": 39.023
+      }
+    ]
+  },
+  {
+    "id": "skill:3:101",
+    "name": "照看者充能",
+    "proposed": "Caretaker's Charge",
+    "proposedError": 21.041,
+    "candidates": [
+      {
+        "title": "Caretaker's Charge",
+        "error": 21.041
+      },
+      {
+        "title": "Destructive Was Glaive",
+        "error": 40.842
+      },
+      {
+        "title": "Destructive Was Glaive (PvP)",
+        "error": 40.842
+      }
+    ]
+  },
+  {
+    "id": "skill:3:102",
+    "name": "毁灭者葛雷薇",
+    "proposed": "Destructive Was Glaive",
+    "proposedError": 11.958,
+    "candidates": [
+      {
+        "title": "Destructive Was Glaive",
+        "error": 11.958
+      },
+      {
+        "title": "Destructive Was Glaive (PvP)",
+        "error": 11.958
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 44.755
+      }
+    ]
+  },
+  {
+    "id": "skill:3:103",
+    "name": "生灵奉献",
+    "proposed": "Offering of Spirit",
+    "proposedError": 17.255,
+    "candidates": [
+      {
+        "title": "Offering of Spirit",
+        "error": 17.255
+      },
+      {
+        "title": "Offering of Spirit (Togo)",
+        "error": 17.255
+      },
+      {
+        "title": "Shield of Deflection",
+        "error": 46.241
+      }
+    ]
+  },
+  {
+    "id": "skill:3:104",
+    "name": "狂暴武装",
+    "proposed": "Weapon of Fury",
+    "proposedError": 10.226,
+    "candidates": [
+      {
+        "title": "Weapon of Fury",
+        "error": 10.226
+      },
+      {
+        "title": "Spirit Light Weapon",
+        "error": 34.976
+      },
+      {
+        "title": "Consume Soul",
+        "error": 38.908
+      }
+    ]
+  },
+  {
+    "id": "skill:3:105",
+    "name": "生灵神力纹章",
+    "proposed": "Signet of Ghostly Might",
+    "proposedError": 14.84,
+    "candidates": [
+      {
+        "title": "Signet of Ghostly Might",
+        "error": 14.84
+      },
+      {
+        "title": "Signet of Ghostly Might (PvP)",
+        "error": 14.84
+      },
+      {
+        "title": "Consume Soul",
+        "error": 42.505
+      }
+    ]
+  },
+  {
+    "id": "skill:3:106",
+    "name": "欣雷武装",
+    "proposed": "Xinrae's Weapon",
+    "proposedError": 10.68,
+    "candidates": [
+      {
+        "title": "Xinrae's Weapon",
+        "error": 10.68
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 42.615
+      },
+      {
+        "title": "Spirit Channeling",
+        "error": 44.445
+      }
+    ]
+  },
+  {
+    "id": "skill:3:107",
+    "name": "治疗武装",
+    "proposed": "Weapon of Remedy",
+    "proposedError": 10.356,
+    "candidates": [
+      {
+        "title": "Weapon of Remedy",
+        "error": 10.356
+      },
+      {
+        "title": "Reclaim Essence",
+        "error": 46.724
+      },
+      {
+        "title": "Wielder's Zeal",
+        "error": 47.209
+      }
+    ]
+  },
+  {
+    "id": "skill:3:108",
+    "name": "本质回收",
+    "proposed": "Reclaim Essence",
+    "proposedError": 9.159,
+    "candidates": [
+      {
+        "title": "Reclaim Essence",
+        "error": 9.159
+      },
+      {
+        "title": "Spirit Channeling",
+        "error": 34.318
+      },
+      {
+        "title": "Clamor of Souls",
+        "error": 38.014
+      }
+    ]
+  },
+  {
+    "id": "skill:3:109",
+    "name": "灵之力",
+    "proposed": "Spirit's Strength",
+    "proposedError": 12.145,
+    "candidates": [
+      {
+        "title": "Spirit's Strength",
+        "error": 12.145
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 45.478
+      },
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 47.219
+      }
+    ]
+  },
+  {
+    "id": "skill:3:110",
+    "name": "指挥者狂热",
+    "proposed": "Wielder's Zeal",
+    "proposedError": 11.924,
+    "candidates": [
+      {
+        "title": "Wielder's Zeal",
+        "error": 11.924
+      },
+      {
+        "title": "Weapon of Fury",
+        "error": 40.57
+      },
+      {
+        "title": "Grasping Was Kuurong",
+        "error": 42.567
+      }
+    ]
+  },
+  {
+    "id": "skill:3:111",
+    "name": "【敌人来袭！】",
+    "proposed": "\"Incoming!\"",
+    "proposedError": 13.862,
+    "candidates": [
+      {
+        "title": "\"Incoming!\"",
+        "error": 13.862
+      },
+      {
+        "title": "\"Incoming!\" (PvP)",
+        "error": 13.862
+      },
+      {
+        "title": "Angelic Bond",
+        "error": 45.728
+      }
+    ]
+  },
+  {
+    "id": "skill:3:112",
+    "name": "指导圣歌",
+    "proposed": "Anthem of Guidance",
+    "proposedError": 25.665,
+    "candidates": [
+      {
+        "title": "Anthem of Guidance",
+        "error": 25.665
+      },
+      {
+        "title": "Anthem of Fury",
+        "error": 32.281
+      },
+      {
+        "title": "Crippling Anthem",
+        "error": 34.22
+      }
+    ]
+  },
+  {
+    "id": "skill:3:113",
+    "name": "致残圣歌",
+    "proposed": "Crippling Anthem",
+    "proposedError": 24.75,
+    "candidates": [
+      {
+        "title": "Crippling Anthem",
+        "error": 24.75
+      },
+      {
+        "title": "Anthem of Fury",
+        "error": 31.771
+      },
+      {
+        "title": "Anthem of Guidance",
+        "error": 37.196
+      }
+    ]
+  },
+  {
+    "id": "skill:3:114",
+    "name": "天使连结",
+    "proposed": "Angelic Bond",
+    "proposedError": 14.102,
+    "candidates": [
+      {
+        "title": "Angelic Bond",
+        "error": 14.102
+      },
+      {
+        "title": "\"Incoming!\"",
+        "error": 44.309
+      },
+      {
+        "title": "\"Incoming!\" (PvP)",
+        "error": 44.309
+      }
+    ]
+  },
+  {
+    "id": "skill:3:115",
+    "name": "狂暴圣歌",
+    "proposed": "Anthem of Fury",
+    "proposedError": 24.138,
+    "candidates": [
+      {
+        "title": "Anthem of Fury",
+        "error": 24.138
+      },
+      {
+        "title": "Crippling Anthem",
+        "error": 33.685
+      },
+      {
+        "title": "Anthem of Guidance",
+        "error": 38.023
+      }
+    ]
+  },
+  {
+    "id": "skill:3:116",
+    "name": "防御圣歌",
+    "proposed": "Defensive Anthem",
+    "proposedError": 24.849,
+    "candidates": [
+      {
+        "title": "Defensive Anthem",
+        "error": 24.849
+      },
+      {
+        "title": "Defensive Anthem (PvP)",
+        "error": 24.849
+      },
+      {
+        "title": "Anthem of Fury",
+        "error": 36.807
+      }
+    ]
+  },
+  {
+    "id": "skill:3:117",
+    "name": "集聚怒气",
+    "proposed": "Focused Anger",
+    "proposedError": 14.185,
+    "candidates": [
+      {
+        "title": "Focused Anger",
+        "error": 14.185
+      },
+      {
+        "title": "Devastating Hammer",
+        "error": 50.125
+      },
+      {
+        "title": "Magebane Shot",
+        "error": 53.201
+      }
+    ]
+  },
+  {
+    "id": "skill:3:118",
+    "name": "士兵的狂暴",
+    "proposed": "Soldier's Fury",
+    "proposedError": 14.172,
+    "candidates": [
+      {
+        "title": "Soldier's Fury",
+        "error": 14.172
+      },
+      {
+        "title": "\"It's Good to Be King!\"",
+        "error": 44.248
+      },
+      {
+        "title": "\"Incoming!\"",
+        "error": 48.459
+      }
+    ]
+  },
+  {
+    "id": "skill:3:119",
+    "name": "【不过是皮肉伤】",
+    "proposed": "\"It's Just a Flesh Wound.\"",
+    "proposedError": 12.169,
+    "candidates": [
+      {
+        "title": "\"It's Just a Flesh Wound.\"",
+        "error": 12.169
+      },
+      {
+        "title": "Battle Rage",
+        "error": 46.687
+      },
+      {
+        "title": "Rage of the Ntouka",
+        "error": 46.813
+      }
+    ]
+  },
+  {
+    "id": "skill:3:120",
+    "name": "【力量在我】",
+    "proposed": "\"The Power Is Yours!\"",
+    "proposedError": 14.192,
+    "candidates": [
+      {
+        "title": "\"The Power Is Yours!\"",
+        "error": 14.192
+      },
+      {
+        "title": "Magehunter's Smash",
+        "error": 45.715
+      },
+      {
+        "title": "Mind Burn",
+        "error": 47.851
+      }
+    ]
+  },
+  {
+    "id": "skill:3:121",
+    "name": "净化之歌",
+    "proposed": "Song of Purification",
+    "proposedError": 19.592,
+    "candidates": [
+      {
+        "title": "Song of Purification",
+        "error": 19.592
+      },
+      {
+        "title": "Defensive Anthem",
+        "error": 32.692
+      },
+      {
+        "title": "Defensive Anthem (PvP)",
+        "error": 32.692
+      }
+    ]
+  },
+  {
+    "id": "skill:3:122",
+    "name": "复原之歌",
+    "proposed": "Song of Restoration",
+    "proposedError": 26.778,
+    "candidates": [
+      {
+        "title": "Song of Restoration",
+        "error": 26.778
+      },
+      {
+        "title": "Song of Restoration (PvP)",
+        "error": 26.778
+      },
+      {
+        "title": "Anthem of Fury",
+        "error": 35.611
+      }
+    ]
+  },
+  {
+    "id": "skill:3:123",
+    "name": "残酷之矛",
+    "proposed": "Cruel Spear",
+    "proposedError": 11.91,
+    "candidates": [
+      {
+        "title": "Cruel Spear",
+        "error": 11.91
+      },
+      {
+        "title": "\"It's Good to Be King!\"",
+        "error": 49.995
+      },
+      {
+        "title": "Battle Rage",
+        "error": 50.015
+      }
+    ]
+  },
+  {
+    "id": "skill:3:124",
+    "name": "震晕攻击",
+    "proposed": "Stunning Strike",
+    "proposedError": 13.352,
+    "candidates": [
+      {
+        "title": "Stunning Strike",
+        "error": 13.352
+      },
+      {
+        "title": "Crippling Slash",
+        "error": 43.896
+      },
+      {
+        "title": "Strike as One",
+        "error": 48.908
+      }
+    ]
+  },
+  {
+    "id": "skill:3:125",
+    "name": "净洁纹章",
+    "proposed": "Cautery Signet",
+    "proposedError": 11.816,
+    "candidates": [
+      {
+        "title": "Cautery Signet",
+        "error": 11.816
+      },
+      {
+        "title": "\"It's Good to Be King!\"",
+        "error": 42.441
+      },
+      {
+        "title": "Lightning Surge",
+        "error": 44.448
+      }
+    ]
+  },
+  {
+    "id": "skill:3:126",
+    "name": "乌尘灵气",
+    "proposed": "Ebon Dust Aura",
+    "proposedError": 14.789,
+    "candidates": [
+      {
+        "title": "Ebon Dust Aura",
+        "error": 14.789
+      },
+      {
+        "title": "Soul Taker",
+        "error": 44.259
+      },
+      {
+        "title": "Order of Undeath",
+        "error": 46.478
+      }
+    ]
+  },
+  {
+    "id": "skill:3:127",
+    "name": "力量誓约",
+    "proposed": "Vow of Strength",
+    "proposedError": 12.616,
+    "candidates": [
+      {
+        "title": "Vow of Strength",
+        "error": 12.616
+      },
+      {
+        "title": "Soldier's Stance",
+        "error": 49.09
+      },
+      {
+        "title": "Soldier's Stance (PvP)",
+        "error": 49.09
+      }
+    ]
+  },
+  {
+    "id": "skill:3:128",
+    "name": "神秘热诚",
+    "proposed": "Arcane Zeal",
+    "proposedError": 12.948,
+    "candidates": [
+      {
+        "title": "Arcane Zeal",
+        "error": 12.948
+      },
+      {
+        "title": "Crippling Anguish",
+        "error": 51.909
+      },
+      {
+        "title": "Crippling Anguish (PvP)",
+        "error": 51.909
+      }
+    ]
+  },
+  {
+    "id": "skill:3:129",
+    "name": "巴萨泽化身",
+    "proposed": "Avatar of Balthazar",
+    "proposedError": 13.77,
+    "candidates": [
+      {
+        "title": "Avatar of Balthazar",
+        "error": 13.77
+      },
+      {
+        "title": "Avatar of Grenth",
+        "error": 35.486
+      },
+      {
+        "title": "Avatar of Melandru",
+        "error": 42.307
+      }
+    ]
+  },
+  {
+    "id": "skill:3:130",
+    "name": "薇娜化身",
+    "proposed": "Avatar of Dwayna",
+    "proposedError": 13.581,
+    "candidates": [
+      {
+        "title": "Avatar of Dwayna",
+        "error": 13.581
+      },
+      {
+        "title": "Avatar of Dwayna (PvP)",
+        "error": 13.581
+      },
+      {
+        "title": "Avatar of Lyssa",
+        "error": 38.61
+      }
+    ]
+  },
+  {
+    "id": "skill:3:131",
+    "name": "古兰斯化身",
+    "proposed": "Avatar of Grenth",
+    "proposedError": 13.221,
+    "candidates": [
+      {
+        "title": "Avatar of Grenth",
+        "error": 13.221
+      },
+      {
+        "title": "Avatar of Lyssa",
+        "error": 35.578
+      },
+      {
+        "title": "Avatar of Balthazar",
+        "error": 36.114
+      }
+    ]
+  },
+  {
+    "id": "skill:3:132",
+    "name": "丽莎化身",
+    "proposed": "Avatar of Lyssa",
+    "proposedError": 13.346,
+    "candidates": [
+      {
+        "title": "Avatar of Lyssa",
+        "error": 13.346
+      },
+      {
+        "title": "Avatar of Grenth",
+        "error": 38.453
+      },
+      {
+        "title": "Avatar of Dwayna",
+        "error": 39.336
+      }
+    ]
+  },
+  {
+    "id": "skill:3:133",
+    "name": "梅兰朵化身",
+    "proposed": "Avatar of Melandru",
+    "proposedError": 13.791,
+    "candidates": [
+      {
+        "title": "Avatar of Melandru",
+        "error": 13.791
+      },
+      {
+        "title": "Avatar of Melandru (PvP)",
+        "error": 13.791
+      },
+      {
+        "title": "Avatar of Dwayna",
+        "error": 37.934
+      }
+    ]
+  },
+  {
+    "id": "skill:3:134",
+    "name": "神性修补",
+    "proposed": "Pious Renewal",
+    "proposedError": 16.056,
+    "candidates": [
+      {
+        "title": "Pious Renewal",
+        "error": 16.056
+      },
+      {
+        "title": "Plague Signet",
+        "error": 47.432
+      },
+      {
+        "title": "Scribe's Insight",
+        "error": 48.379
+      }
+    ]
+  },
+  {
+    "id": "skill:3:135",
+    "name": "沉静誓约",
+    "proposed": "Vow of Silence",
+    "proposedError": 13.239,
+    "candidates": [
+      {
+        "title": "Vow of Silence",
+        "error": 13.239
+      },
+      {
+        "title": "Spirit Channeling",
+        "error": 44.918
+      },
+      {
+        "title": "Soul Taker",
+        "error": 45.41
+      }
+    ]
+  },
+  {
+    "id": "skill:3:136",
+    "name": "收割者扫荡",
+    "proposed": "Reaper's Sweep",
+    "proposedError": 17.066,
+    "candidates": [
+      {
+        "title": "Reaper's Sweep",
+        "error": 17.066
+      },
+      {
+        "title": "Sandstorm",
+        "error": 55.088
+      },
+      {
+        "title": "Melandru's Arrows",
+        "error": 58.635
+      }
+    ]
+  },
+  {
+    "id": "skill:3:137",
+    "name": "创伤攻击",
+    "proposed": "Wounding Strike",
+    "proposedError": 16.168,
+    "candidates": [
+      {
+        "title": "Wounding Strike",
+        "error": 16.168
+      },
+      {
+        "title": "Wounding Strike (PvP)",
+        "error": 16.168
+      },
+      {
+        "title": "Scribe's Insight",
+        "error": 51.841
+      }
+    ]
+  },
+  {
+    "id": "skill:3:138",
+    "name": "古兰斯之爪",
+    "proposed": "Grenth's Grasp",
+    "proposedError": 14.189,
+    "candidates": [
+      {
+        "title": "Grenth's Grasp",
+        "error": 14.189
+      },
+      {
+        "title": "Cry of Madness",
+        "error": 47.773
+      },
+      {
+        "title": "Magehunter's Smash",
+        "error": 50.387
+      }
+    ]
+  },
+  {
+    "id": "skill:3:139",
+    "name": "猛攻",
+    "proposed": "Onslaught",
+    "proposedError": 13.46,
+    "candidates": [
+      {
+        "title": "Onslaught",
+        "error": 13.46
+      },
+      {
+        "title": "Onslaught (PvP)",
+        "error": 13.46
+      },
+      {
+        "title": "Ferocious Strike",
+        "error": 51.923
+      }
+    ]
+  },
+  {
+    "id": "skill:3:140",
+    "name": "狂热誓言",
+    "proposed": "Zealous Vow",
+    "proposedError": 16.781,
+    "candidates": [
+      {
+        "title": "Zealous Vow",
+        "error": 16.781
+      },
+      {
+        "title": "Grenth's Grasp",
+        "error": 53.172
+      },
+      {
+        "title": "Plague Signet",
+        "error": 56.001
+      }
+    ]
+  },
+  {
+    "id": "skill:3:291",
+    "name": "光明使者纹章",
+    "proposed": "Lightbringer Signet",
+    "proposedError": 19.519,
+    "candidates": [
+      {
+        "title": "Lightbringer Signet",
+        "error": 19.519
+      },
+      {
+        "title": "Keystone Signet",
+        "error": 59.818
+      },
+      {
+        "title": "Signet of Judgment",
+        "error": 60.107
+      }
+    ]
+  },
+  {
+    "id": "skill:3:292",
+    "name": "巨奴虫之射击",
+    "proposed": "Junundu Siege",
+    "candidates": [
+      {
+        "title": "Unknown Junundu Ability",
+        "error": 44.197
+      },
+      {
+        "title": "Mind Blast",
+        "error": 45.843
+      },
+      {
+        "title": "Cautery Signet",
+        "error": 47.334
+      }
+    ]
+  },
+  {
+    "id": "skill:3:341",
+    "name": "英豪叱咤(15周年精英)",
+    "proposed": "Heroic Refrain",
+    "proposedError": 12.656,
+    "candidates": [
+      {
+        "title": "Heroic Refrain",
+        "error": 12.656
+      },
+      {
+        "title": "\"Charge!\"",
+        "error": 48.495
+      },
+      {
+        "title": "Crippling Slash",
+        "error": 49.688
+      }
+    ]
+  },
+  {
+    "id": "skill:3:342",
+    "name": "判决之击(15周年精英)",
+    "proposed": "Judgment Strike",
+    "proposedError": 16.421,
+    "candidates": [
+      {
+        "title": "Judgment Strike",
+        "error": 16.421
+      },
+      {
+        "title": "Defiant Was Xinrae",
+        "error": 47.829
+      },
+      {
+        "title": "Tranquil Was Tanasen",
+        "error": 48.413
+      }
+    ]
+  },
+  {
+    "id": "skill:3:348",
+    "name": "革命誓言(15周年精英)",
+    "proposed": "Vow of Revolution",
+    "proposedError": 78.145,
+    "candidates": [
+      {
+        "title": "\"It's Just a Flesh Wound.\"",
+        "error": 46.881
+      },
+      {
+        "title": "Enraged Smash",
+        "error": 46.97
+      },
+      {
+        "title": "Enraged Smash (PvP)",
+        "error": 46.97
+      }
+    ]
+  },
+  {
+    "id": "skill:3:371",
+    "name": "薄暮之速(日戟)",
+    "proposed": "Critical Agility",
+    "proposedError": 26.922,
+    "candidates": [
+      {
+        "title": "Critical Agility",
+        "error": 26.922
+      },
+      {
+        "title": "Shadow Sanctuary (Luxon)",
+        "error": 46.195
+      },
+      {
+        "title": "Technobabble",
+        "error": 46.526
+      }
+    ]
+  },
+  {
+    "id": "skill:3:372",
+    "name": "痛苦哭喊(日戟)",
+    "proposed": "Cry of Pain",
+    "proposedError": 39.222,
+    "candidates": [
+      {
+        "title": "Cry of Pain",
+        "error": 39.222
+      },
+      {
+        "title": "Signet of Binding",
+        "error": 53.534
+      },
+      {
+        "title": "Snow Storm",
+        "error": 57.044
+      }
+    ]
+  },
+  {
+    "id": "skill:3:373",
+    "name": "诸神祝福(日戟)",
+    "proposed": "Eternal Aura",
+    "proposedError": 45.731,
+    "candidates": [
+      {
+        "title": "Eternal Aura",
+        "error": 45.731
+      },
+      {
+        "title": "Shadow Sanctuary (Luxon)",
+        "error": 59.964
+      },
+      {
+        "title": "Cry of Pain",
+        "error": 61.327
+      }
+    ]
+  },
+  {
+    "id": "skill:3:374",
+    "name": "强光(日戟)",
+    "proposed": "Intensity",
+    "proposedError": 25.105,
+    "candidates": [
+      {
+        "title": "Intensity",
+        "error": 25.105
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 47.651
+      },
+      {
+        "title": "\"Save Yourselves!\" (Luxon)",
+        "error": 51.07
+      }
+    ]
+  },
+  {
+    "id": "skill:3:375",
+    "name": "冲突(日戟)",
+    "proposed": "Necrosis",
+    "proposedError": 33.414,
+    "candidates": [
+      {
+        "title": "Necrosis",
+        "error": 33.414
+      },
+      {
+        "title": "Snow Storm",
+        "error": 50.671
+      },
+      {
+        "title": "Alkar's Alchemical Acid",
+        "error": 52.136
+      }
+    ]
+  },
+  {
+    "id": "skill:3:376",
+    "name": "狂暴一体(日戟)",
+    "proposed": "Never Rampage Alone",
+    "proposedError": 26.025,
+    "candidates": [
+      {
+        "title": "Never Rampage Alone",
+        "error": 26.025
+      },
+      {
+        "title": "Signet of Corruption (Luxon)",
+        "error": 43.857
+      },
+      {
+        "title": "Critical Agility",
+        "error": 44.036
+      }
+    ]
+  },
+  {
+    "id": "skill:3:377",
+    "name": "生命种子(日戟)",
+    "proposed": "Seed of Life",
+    "proposedError": 57.518,
+    "candidates": [
+      {
+        "title": "Seed of Life",
+        "error": 57.518
+      },
+      {
+        "title": "Selfless Spirit (Luxon)",
+        "error": 68.894
+      },
+      {
+        "title": "Restore Condition",
+        "error": 74.951
+      }
+    ]
+  },
+  {
+    "id": "skill:3:378",
+    "name": "沥血(日戟)",
+    "proposed": "Vampirism",
+    "proposedError": 39.52,
+    "candidates": [
+      {
+        "title": "Vampirism",
+        "error": 39.52
+      },
+      {
+        "title": "Signet of Binding",
+        "error": 60.506
+      },
+      {
+        "title": "Cry of Pain",
+        "error": 61.451
+      }
+    ]
+  },
+  {
+    "id": "skill:3:379",
+    "name": "疾风打击(日戟)",
+    "proposed": "Whirlwind Attack",
+    "proposedError": 43.652,
+    "candidates": [
+      {
+        "title": "Whirlwind Attack",
+        "error": 43.652
+      },
+      {
+        "title": "\"Save Yourselves!\" (Luxon)",
+        "error": 64.898
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 65.988
+      }
+    ]
+  },
+  {
+    "id": "skill:3:380",
+    "name": "无所畏惧(日戟)",
+    "proposed": "\"There's Nothing to Fear!\"",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "\"There's Nothing to Fear!\"",
+        "error": 0
+      },
+      {
+        "title": "\"You Are All Weaklings!\"",
+        "error": 48.15
+      },
+      {
+        "title": "Feel No Pain",
+        "error": 48.646
+      }
+    ]
+  },
+  {
+    "id": "skill:4:293",
+    "name": "无痛(诺恩)",
+    "proposed": "Feel No Pain",
+    "proposedError": 40.206,
+    "candidates": [
+      {
+        "title": "Feel No Pain",
+        "error": 40.206
+      },
+      {
+        "title": "\"I Am the Strongest!\"",
+        "error": 54.103
+      },
+      {
+        "title": "\"You Are All Weaklings!\"",
+        "error": 55.645
+      }
+    ]
+  },
+  {
+    "id": "skill:4:294",
+    "name": "乌鸦祝福(诺恩)",
+    "proposed": "Raven Blessing",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Raven Blessing",
+        "error": 0
+      },
+      {
+        "title": "Volfen Blessing",
+        "error": 25.607
+      },
+      {
+        "title": "Ursan Blessing",
+        "error": 44.948
+      }
+    ]
+  },
+  {
+    "id": "skill:4:295",
+    "name": "乌尔桑祝福(诺恩)",
+    "proposed": "Ursan Blessing",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Ursan Blessing",
+        "error": 0
+      },
+      {
+        "title": "Volfen Blessing",
+        "error": 32.599
+      },
+      {
+        "title": "\"Charge!\"",
+        "error": 39.145
+      }
+    ]
+  },
+  {
+    "id": "skill:4:296",
+    "name": "沃尔芬祝福(诺恩)",
+    "proposed": "Volfen Blessing",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Volfen Blessing",
+        "error": 0
+      },
+      {
+        "title": "Raven Blessing",
+        "error": 25.607
+      },
+      {
+        "title": "Ursan Blessing",
+        "error": 32.599
+      }
+    ]
+  },
+  {
+    "id": "skill:4:297",
+    "name": "优越气息(阿苏拉)",
+    "proposed": "Air of Superiority",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Air of Superiority",
+        "error": 0
+      },
+      {
+        "title": "Smooth Criminal",
+        "error": 41.092
+      },
+      {
+        "title": "Critical Agility",
+        "error": 42.231
+      }
+    ]
+  },
+  {
+    "id": "skill:4:298",
+    "name": "阿苏拉之掠(阿苏拉)",
+    "proposed": "Asuran Scan",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Asuran Scan",
+        "error": 0
+      },
+      {
+        "title": "Pain Inverter",
+        "error": 50.84
+      },
+      {
+        "title": "Summon Mursaat",
+        "error": 54.535
+      }
+    ]
+  },
+  {
+    "id": "skill:4:299",
+    "name": "精神隔绝(阿苏拉)",
+    "proposed": "Mental Block",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Mental Block",
+        "error": 0
+      },
+      {
+        "title": "Smooth Criminal",
+        "error": 53.82
+      },
+      {
+        "title": "Air of Superiority",
+        "error": 54.674
+      }
+    ]
+  },
+  {
+    "id": "skill:4:300",
+    "name": "扭曲心智(阿苏拉)",
+    "proposed": "Mindbender",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Mindbender",
+        "error": 0
+      },
+      {
+        "title": "Summon Ruby Djinn",
+        "error": 45.342
+      },
+      {
+        "title": "Radiation Field",
+        "error": 49.061
+      }
+    ]
+  },
+  {
+    "id": "skill:4:301",
+    "name": "痛苦倒转(阿苏拉)",
+    "proposed": "Pain Inverter",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Pain Inverter",
+        "error": 0
+      },
+      {
+        "title": "Critical Agility",
+        "error": 46.195
+      },
+      {
+        "title": "Air of Superiority",
+        "error": 47.166
+      }
+    ]
+  },
+  {
+    "id": "skill:4:302",
+    "name": "辐射之层(阿苏拉)",
+    "proposed": "Radiation Field",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Radiation Field",
+        "error": 0
+      },
+      {
+        "title": "Critical Agility",
+        "error": 35.093
+      },
+      {
+        "title": "Technobabble",
+        "error": 38.963
+      }
+    ]
+  },
+  {
+    "id": "skill:4:303",
+    "name": "圆滑罪犯(阿苏拉)",
+    "proposed": "Smooth Criminal",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Smooth Criminal",
+        "error": 0
+      },
+      {
+        "title": "Critical Agility",
+        "error": 37.113
+      },
+      {
+        "title": "Technobabble",
+        "error": 39.474
+      }
+    ]
+  },
+  {
+    "id": "skill:4:304",
+    "name": "召唤冰小恶魔(阿苏拉)",
+    "proposed": "Summon Ice Imp",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Summon Ice Imp",
+        "error": 0
+      },
+      {
+        "title": "Summon Mursaat",
+        "error": 43.033
+      },
+      {
+        "title": "Critical Agility",
+        "error": 46.489
+      }
+    ]
+  },
+  {
+    "id": "skill:4:305",
+    "name": "召唤马塞特(阿苏拉)",
+    "proposed": "Summon Mursaat",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Summon Mursaat",
+        "error": 0
+      },
+      {
+        "title": "Summon Ice Imp",
+        "error": 43.033
+      },
+      {
+        "title": "Summon Naga Shaman",
+        "error": 44.36
+      }
+    ]
+  },
+  {
+    "id": "skill:4:306",
+    "name": "召唤那迦巫医(阿苏拉)",
+    "proposed": "Summon Naga Shaman",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Summon Naga Shaman",
+        "error": 0
+      },
+      {
+        "title": "Smooth Criminal",
+        "error": 43.297
+      },
+      {
+        "title": "Summon Mursaat",
+        "error": 44.36
+      }
+    ]
+  },
+  {
+    "id": "skill:4:307",
+    "name": "召唤红宝石巨灵(阿苏拉)",
+    "proposed": "Summon Ruby Djinn",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Summon Ruby Djinn",
+        "error": 0
+      },
+      {
+        "title": "Radiation Field",
+        "error": 42.346
+      },
+      {
+        "title": "Technobabble",
+        "error": 43.938
+      }
+    ]
+  },
+  {
+    "id": "skill:4:308",
+    "name": "嘈杂(阿苏拉)",
+    "proposed": "Technobabble",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Technobabble",
+        "error": 0
+      },
+      {
+        "title": "Critical Agility",
+        "error": 36.167
+      },
+      {
+        "title": "Radiation Field",
+        "error": 38.963
+      }
+    ]
+  },
+  {
+    "id": "skill:4:309",
+    "name": "阿尔卡的炼金药剂(矮人)",
+    "proposed": "Alkar's Alchemical Acid",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Alkar's Alchemical Acid",
+        "error": 0
+      },
+      {
+        "title": "Snow Storm",
+        "error": 38.372
+      },
+      {
+        "title": "Necrosis",
+        "error": 38.4
+      }
+    ]
+  },
+  {
+    "id": "skill:4:310",
+    "name": "黑火药地雷(矮人)",
+    "proposed": "Black Powder Mine",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Black Powder Mine",
+        "error": 0
+      },
+      {
+        "title": "Snow Storm",
+        "error": 39.872
+      },
+      {
+        "title": "Alkar's Alchemical Acid",
+        "error": 43.642
+      }
+    ]
+  },
+  {
+    "id": "skill:4:311",
+    "name": "喧哗头击(矮人)",
+    "proposed": "Brawling Headbutt",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Brawling Headbutt",
+        "error": 0
+      },
+      {
+        "title": "Signet of Binding",
+        "error": 45.485
+      },
+      {
+        "title": "Snow Storm",
+        "error": 46.483
+      }
+    ]
+  },
+  {
+    "id": "skill:4:312",
+    "name": "伟大矮人的气息(矮人)",
+    "proposed": "Breath of the Great Dwarf",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Breath of the Great Dwarf",
+        "error": 0
+      },
+      {
+        "title": "Selfless Spirit (Luxon)",
+        "error": 41.402
+      },
+      {
+        "title": "Seed of Life",
+        "error": 50.269
+      }
+    ]
+  },
+  {
+    "id": "skill:4:313",
+    "name": "醉酒大师(矮人)",
+    "proposed": "Drunken Master",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Drunken Master",
+        "error": 0
+      },
+      {
+        "title": "Great Dwarf Weapon",
+        "error": 47.2
+      },
+      {
+        "title": "Triple Shot (Luxon)",
+        "error": 51.379
+      }
+    ]
+  },
+  {
+    "id": "skill:4:314",
+    "name": "矮人坚定(矮人)",
+    "proposed": "Dwarven Stability",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Dwarven Stability",
+        "error": 0
+      },
+      {
+        "title": "Snow Storm",
+        "error": 39.111
+      },
+      {
+        "title": "Signet of Binding",
+        "error": 43.787
+      }
+    ]
+  },
+  {
+    "id": "skill:4:315",
+    "name": "咬耳(矮人)",
+    "proposed": "Ear Bite",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Ear Bite",
+        "error": 0
+      },
+      {
+        "title": "Dwarven Stability",
+        "error": 43.885
+      },
+      {
+        "title": "Signet of Binding",
+        "error": 45.396
+      }
+    ]
+  },
+  {
+    "id": "skill:4:316",
+    "name": "伟大矮人武力(矮人)",
+    "proposed": "Great Dwarf Weapon",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Great Dwarf Weapon",
+        "error": 0
+      },
+      {
+        "title": "Snow Storm",
+        "error": 44.232
+      },
+      {
+        "title": "Dwarven Stability",
+        "error": 45.777
+      }
+    ]
+  },
+  {
+    "id": "skill:4:317",
+    "name": "戴尔狄摩之光(矮人)",
+    "proposed": "Light of Deldrimor",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Light of Deldrimor",
+        "error": 0
+      },
+      {
+        "title": "Brawling Headbutt",
+        "error": 50.466
+      },
+      {
+        "title": "Signet of Corruption (Kurzick)",
+        "error": 52.354
+      }
+    ]
+  },
+  {
+    "id": "skill:4:318",
+    "name": "雪风暴(矮人)",
+    "proposed": "Snow Storm",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Snow Storm",
+        "error": 0
+      },
+      {
+        "title": "Alkar's Alchemical Acid",
+        "error": 38.372
+      },
+      {
+        "title": "Necrosis",
+        "error": 38.982
+      }
+    ]
+  },
+  {
+    "id": "skill:4:319",
+    "name": "灵巧之击(黑檀)",
+    "proposed": "Deft Strike",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Deft Strike",
+        "error": 0
+      },
+      {
+        "title": "Ebon Battle Standard of Wisdom",
+        "error": 54.254
+      },
+      {
+        "title": "\"Dodge This!\"",
+        "error": 57.135
+      }
+    ]
+  },
+  {
+    "id": "skill:4:320",
+    "name": "黑檀战斗荣誉规范(黑檀)",
+    "proposed": "Ebon Battle Standard of Honor",
+    "proposedError": 63.184,
+    "candidates": [
+      {
+        "title": "Ebon Battle Standard of Honor",
+        "error": 63.184
+      },
+      {
+        "title": "Cry of Madness",
+        "error": 78.647
+      },
+      {
+        "title": "Battle Rage",
+        "error": 78.841
+      }
+    ]
+  },
+  {
+    "id": "skill:4:321",
+    "name": "黑檀脱逃(黑檀)",
+    "proposed": "Ebon Escape",
+    "proposedError": 44.782,
+    "candidates": [
+      {
+        "title": "Ebon Escape",
+        "error": 44.782
+      },
+      {
+        "title": "Windborne Speed",
+        "error": 67.554
+      },
+      {
+        "title": "Mark of Insecurity",
+        "error": 67.818
+      }
+    ]
+  },
+  {
+    "id": "skill:4:322",
+    "name": "黑檀先锋队狙击手(黑檀)",
+    "proposed": "Ebon Vanguard Sniper Support",
+    "proposedError": 63.658,
+    "candidates": [
+      {
+        "title": "Ebon Vanguard Sniper Support",
+        "error": 63.658
+      },
+      {
+        "title": "Cry of Madness",
+        "error": 73.898
+      },
+      {
+        "title": "Searing Flames",
+        "error": 75.2
+      }
+    ]
+  },
+  {
+    "id": "skill:4:323",
+    "name": "镇定纹章(黑檀)",
+    "proposed": "Tryptophan Signet",
+    "proposedError": 50.425,
+    "candidates": [
+      {
+        "title": "Tryptophan Signet",
+        "error": 50.425
+      },
+      {
+        "title": "Signet of Infection",
+        "error": 70.924
+      },
+      {
+        "title": "Shockwave",
+        "error": 71.685
+      }
+    ]
+  },
+  {
+    "id": "skill:4:324",
+    "name": "虚弱困境(黑檀)",
+    "proposed": "Weakness Trap",
+    "proposedError": 47.087,
+    "candidates": [
+      {
+        "title": "Weakness Trap",
+        "error": 47.087
+      },
+      {
+        "title": "Sneak Attack",
+        "error": 73.964
+      },
+      {
+        "title": "Energy Boon",
+        "error": 76.033
+      }
+    ]
+  },
+  {
+    "id": "skill:4:325",
+    "name": "风(黑檀)",
+    "proposed": "Winds",
+    "proposedError": 51.268,
+    "candidates": [
+      {
+        "title": "Winds",
+        "error": 51.268
+      },
+      {
+        "title": "Power Flux",
+        "error": 72.637
+      },
+      {
+        "title": "Skull Crack",
+        "error": 73.164
+      }
+    ]
+  },
+  {
+    "id": "skill:4:326",
+    "name": "黑檀勇气规范(黑檀)",
+    "proposed": "Ebon Battle Standard of Courage",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Ebon Battle Standard of Courage",
+        "error": 0
+      },
+      {
+        "title": "Ebon Battle Standard of Honor",
+        "error": 52.761
+      },
+      {
+        "title": "\"There's Nothing to Fear!\"",
+        "error": 61.477
+      }
+    ]
+  },
+  {
+    "id": "skill:4:327",
+    "name": "黑檀智慧规范(黑檀)",
+    "proposed": "Ebon Battle Standard of Wisdom",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Ebon Battle Standard of Wisdom",
+        "error": 0
+      },
+      {
+        "title": "Ebon Escape",
+        "error": 52.536
+      },
+      {
+        "title": "Deft Strike",
+        "error": 54.254
+      }
+    ]
+  },
+  {
+    "id": "skill:4:328",
+    "name": "黑檀先锋队支援(黑檀)",
+    "proposed": "Ebon Vanguard Assassin Support",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Ebon Vanguard Assassin Support",
+        "error": 0
+      },
+      {
+        "title": "Signet of Infection",
+        "error": 54.531
+      },
+      {
+        "title": "Windborne Speed",
+        "error": 58.077
+      }
+    ]
+  },
+  {
+    "id": "skill:4:329",
+    "name": "感染印记(黑檀)",
+    "proposed": "Signet of Infection",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Signet of Infection",
+        "error": 0
+      },
+      {
+        "title": "Windborne Speed",
+        "error": 41.346
+      },
+      {
+        "title": "Tryptophan Signet",
+        "error": 43.521
+      }
+    ]
+  },
+  {
+    "id": "skill:4:330",
+    "name": "偷袭(黑檀)",
+    "proposed": "Sneak Attack",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Sneak Attack",
+        "error": 0
+      },
+      {
+        "title": "Weakness Trap",
+        "error": 53.406
+      },
+      {
+        "title": "\"Finish Him!\"",
+        "error": 57.426
+      }
+    ]
+  },
+  {
+    "id": "skill:4:331",
+    "name": "锁定纹章(黑檀)",
+    "proposed": "Tryptophan Signet",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Tryptophan Signet",
+        "error": 0
+      },
+      {
+        "title": "Signet of Infection",
+        "error": 43.521
+      },
+      {
+        "title": "A Touch of Guile",
+        "error": 53.911
+      }
+    ]
+  },
+  {
+    "id": "skill:4:332",
+    "name": "狡诈之为(诺恩)",
+    "proposed": "A Touch of Guile",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "A Touch of Guile",
+        "error": 0
+      },
+      {
+        "title": "\"You Are All Weaklings!\"",
+        "error": 45.134
+      },
+      {
+        "title": "\"Finish Him!\"",
+        "error": 47.537
+      }
+    ]
+  },
+  {
+    "id": "skill:4:333",
+    "name": "千熊之锤(诺恩)",
+    "proposed": "Club of a Thousand Bears",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "Club of a Thousand Bears",
+        "error": 0
+      },
+      {
+        "title": "Spear of Fury (Luxon)",
+        "error": 52.894
+      },
+      {
+        "title": "\"I Am Unstoppable!\"",
+        "error": 53.692
+      }
+    ]
+  },
+  {
+    "id": "skill:4:334",
+    "name": "躲开这个(诺恩)",
+    "proposed": "\"Dodge This!\"",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "\"Dodge This!\"",
+        "error": 0
+      },
+      {
+        "title": "\"Save Yourselves!\" (Luxon)",
+        "error": 51.685
+      },
+      {
+        "title": "\"You Are All Weaklings!\"",
+        "error": 54.064
+      }
+    ]
+  },
+  {
+    "id": "skill:4:335",
+    "name": "结束他(诺恩)",
+    "proposed": "\"Finish Him!\"",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "\"Finish Him!\"",
+        "error": 0
+      },
+      {
+        "title": "A Touch of Guile",
+        "error": 47.537
+      },
+      {
+        "title": "\"You Are All Weaklings!\"",
+        "error": 49.375
+      }
+    ]
+  },
+  {
+    "id": "skill:4:336",
+    "name": "我最强壮(诺恩)",
+    "proposed": "\"I Am the Strongest!\"",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "\"I Am the Strongest!\"",
+        "error": 0
+      },
+      {
+        "title": "Feel No Pain",
+        "error": 37.929
+      },
+      {
+        "title": "\"You Are All Weaklings!\"",
+        "error": 43.755
+      }
+    ]
+  },
+  {
+    "id": "skill:4:337",
+    "name": "无人能敌(诺恩)",
+    "proposed": "\"I Am Unstoppable!\"",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "\"I Am Unstoppable!\"",
+        "error": 0
+      },
+      {
+        "title": "Spear of Fury (Luxon)",
+        "error": 50.337
+      },
+      {
+        "title": "A Touch of Guile",
+        "error": 53.193
+      }
+    ]
+  },
+  {
+    "id": "skill:4:338",
+    "name": "懦弱的人们(诺恩)",
+    "proposed": "\"You Are All Weaklings!\"",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "\"You Are All Weaklings!\"",
+        "error": 0
+      },
+      {
+        "title": "Feel No Pain",
+        "error": 38.419
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 42.896
+      }
+    ]
+  },
+  {
+    "id": "skill:4:339",
+    "name": "你的动作像个矮人(诺恩)",
+    "proposed": "\"You Move Like a Dwarf!\"",
+    "proposedError": 0,
+    "candidates": [
+      {
+        "title": "\"You Move Like a Dwarf!\"",
+        "error": 0
+      },
+      {
+        "title": "Never Rampage Alone",
+        "error": 43.025
+      },
+      {
+        "title": "Feel No Pain",
+        "error": 47.497
+      }
+    ]
+  },
+  {
+    "id": "skill:4:340",
+    "name": "合二为一(15周年精英)",
+    "proposed": "\"Together as One!\"",
+    "proposedError": 29.353,
+    "candidates": [
+      {
+        "title": "\"Together as One!\"",
+        "error": 29.353
+      },
+      {
+        "title": "Strike as One",
+        "error": 46.775
+      },
+      {
+        "title": "Triple Chop",
+        "error": 48.797
+      }
+    ]
+  },
+  {
+    "id": "skill:4:347",
+    "name": "时间结界(15周年精英)",
+    "proposed": "Time Ward",
+    "proposedError": 53.399,
+    "candidates": [
+      {
+        "title": "Assault Enchantments",
+        "error": 52.801
+      },
+      {
+        "title": "Signet of Judgment",
+        "error": 52.805
+      },
+      {
+        "title": "Signet of Judgment (PvP)",
+        "error": 52.805
+      }
+    ]
+  }
+]

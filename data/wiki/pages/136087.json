@@ -1,0 +1,11 @@
+{
+  "title": "\"Incoming!\" (PvP)",
+  "pageid": 136087,
+  "revid": 2645987,
+  "revisedAt": "2019-11-29T14:53:27Z",
+  "sha1": "cc80520126e7a9dd7012b6c5e69e13499f261007",
+  "url": "https://wiki.guildwars.com/wiki/%22Incoming!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Incoming!%22%20(PvP)&oldid=2645987",
+  "retrievedAt": "2026-11-13T01:08:08.210Z",
+  "wikitext": "{{pveversion|\"Incoming!\"}}\n\n{{Skill infobox\n| id = 2879\n| name = \"Incoming!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| elite = y\n| energy = 10\n| recharge = 25\n| causes1 = Increased Movement Speed\n| causes2 = Health Gain\n| description = [[Elite]] [[Shout]]. For {{gr|4|10}} seconds, all [[ally|allies]] within [[earshot]] [[Speed boost|move 33% faster]], and [[Health gain|gain]] {{gr|5|15}} [[Health]] while [[Movement|moving]].\n| concise description = Elite Shout. ({{gr|4|10}} seconds) Allies in earshot move 33% faster and gain {{gr|5|15}} Health while moving.\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| var1 name = [[Duration]]\n| var1 at0 = 4\n| var1 at15 = 10\n| var2 name = [[Health gain]]\n| var2 at0 = 5\n| var2 at15 = 15}}\n\n==Related skills==\n*{{skill icon|\"Charge!\"}} ([[elite]])\n*{{skill icon|\"Fall Back!\" (PvP)}}\n\n==Notes==\n{{speed|4|10|33|25}}\n\n{{DEFAULTSORT:Incoming!}}\n[[Category:Skills that affect allies]]\n\n[[de:\"Schon unterwegs!\" (PvP)]]"
+}

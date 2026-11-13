@@ -43,15 +43,28 @@ export async function validateDeploymentData(publicDir = path.join(web, 'public'
   }
   const entries = new Map(catalog.records.map(e => [e.id, e]));
   unique(catalog.records.map(e => e.id), '资料');
+  function reference(value) {
+    try {
+      const url = new URL(value.revisionUrl);
+      if (url.origin !== 'https://wiki.guildwars.com' || url.pathname !== '/index.php' || url.searchParams.get('oldid') !== String(value.revid) || !Number.isInteger(value.revid) || value.revid <= 0 || !Number.isInteger(value.pageid) || !value.title || !Number.isFinite(Date.parse(value.revisedAt))) throw new Error();
+    } catch { fail('Wiki 修订来源无效'); }
+  }
   const counts = Object.fromEntries(kinds.map(kind => [kind, 0]));
   for (const e of catalog.records) {
     if (!e.id || !kinds.includes(e.kind) || typeof e.name !== 'string' || !Array.isArray(e.locations) || !Array.isArray(e.details)) fail(`资料结构无效 ${e.id}`);
     if (!requiredCampaigns.includes(e.campaign) && !(e.kind === 'skill' && e.campaign === 0)) fail(`资料 ${e.id} 引用未知章节`);
     counts[e.kind]++;
+    if (e.wiki) {
+      reference(e.wiki);
+      for (const source of e.wiki.references || []) reference(source);
+      if (!e.legacy || !Array.isArray(e.legacy.details) || !e.englishName || !['zh', 'en'].includes(e.descriptionLanguage) || !e.wiki.fields?.length || e.wiki.coordinateStatus !== 'legacy-unverified') fail(`Wiki 校订信息不完整 ${e.id}`);
+      if (e.skill?.pvp) reference(e.skill.pvp.reference);
+    }
     if (e.image) await image(e.image);
     for (const id of e.related || []) if (!entries.has(id)) fail(`资料 ${e.id} 的关联 ${id} 不存在`);
     for (const loc of e.locations) {
       const region = regions.get(loc.region);
+      if (loc.positionStatus === 'unconfirmed' && (loc.valid || typeof loc.legacyValid !== 'boolean' || !loc.wiki)) fail(`未确认的地点 ${loc.id} 不能显示为有效坐标`);
       if (loc.bossId && !entries.has(loc.bossId)) fail(`地点 ${loc.id} 的 Boss 引用不存在`);
       if (loc.valid && (!region || !Number.isFinite(loc.x) || !Number.isFinite(loc.y) || loc.x < 0 || loc.y < 0 || loc.x > region.width || loc.y > region.height)) fail(`地点 ${loc.id} 的地图或坐标无效`);
       if (loc.zone && !entries.has(`zone:${loc.zone}`)) fail(`地点 ${loc.id} 的区域引用不存在`);
@@ -59,6 +72,21 @@ export async function validateDeploymentData(publicDir = path.join(web, 'public'
   }
   for (const kind of kinds) if (!counts[kind] || counts[kind] !== report.counts?.[kind]) fail(`${kind} 数量与报告不一致或为空`);
   for (const id of requiredCampaigns) if (!catalog.records.some(e => e.campaign === id)) fail(`章节 ${id} 资料为空`);
+  if (catalog.referenceVersion) {
+    const review = await json('wiki-review.json');
+    if (review.referenceVersion !== catalog.referenceVersion || report.wiki?.referenceVersion !== catalog.referenceVersion) fail('Wiki 校订版本与报告不一致');
+    const coverage = { skills: 'skill', bosses: 'boss', weapons: 'green', collectors: 'collector', pets: 'pet', treasures: 'treasure' };
+    for (const [key, kind] of Object.entries(coverage)) if (review.coverage[key] !== catalog.records.filter(e => e.kind === kind && e.wiki).length) fail(`Wiki ${kind} 核对数量与报告不一致`);
+    if (review.coverage.unresolvedIdentities !== catalog.records.filter(e => e.wiki?.identityStatus === 'unresolved').length) fail('Wiki 未确认身份数量与报告不一致');
+    if (catalog.stories?.length !== 4 || review.coverage.storylines !== 4) fail('剧情指南必须覆盖四个篇章');
+    unique(catalog.stories.map(story => story.campaign), '剧情篇章');
+    for (const story of catalog.stories) {
+      if (!requiredCampaigns.includes(story.campaign) || !story.arcs?.length || !story.references?.length) fail('剧情资料不完整');
+      for (const source of story.references) reference(source);
+    }
+    try { if (!(await fs.readFile(path.join(publicDir, 'licenses/gfdl-1.3.txt'), 'utf8')).includes('GNU Free Documentation License')) throw new Error(); }
+    catch { fail('缺少 Wiki 原创文字的 GFDL 许可证'); }
+  }
   return { campaigns: catalog.campaigns.length, maps: regions.size, records: entries.size, images: images.size, sourceIssues: report.issues.length, counts };
 }
 

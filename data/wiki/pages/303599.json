@@ -1,0 +1,11 @@
+{
+  "title": "Racing Beetle",
+  "pageid": 303599,
+  "revid": 2735011,
+  "revisedAt": "2026-07-20T21:58:09Z",
+  "sha1": "5d47899145cd2be5cf12398062d16fced479736e",
+  "url": "https://wiki.guildwars.com/wiki/Racing_Beetle",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Racing%20Beetle&oldid=2735011",
+  "retrievedAt": "2026-11-13T02:28:01.953Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| type = Charmable animal\n| level = 5\n| passive = 1\n| campaign = Core\n| map1 = [[File:Location - Racing Beetle.png|250px]]\n| map1-text = Location in the [[Zaishen Menagerie Grounds]] once unlocked.\n}}\n[[Racing Beetle]]s are [[charmable animal]]s encountered in the [[Zaishen Menagerie]].\n\n==Locations==\n*[[Core]]\n**[[The Battle Isles]]\n***{{NPC location|Zaishen Menagerie Grounds}} (levels 5, 12, 15, and 20, depending on unlock progress)\n\n==Skills==\n*[[File:Rollerbeetle Racer.jpg|25px|link=Rolling Start]] [[Rolling Start]]\n\n==Acquisition==\n* [[Kenichi]] will unlock this charmable animal in exchange for 100 [[Racing Medal]]s which can be obtained through [[Rollerbeetle Racing]] (only available during [[Shing Jea Boardwalk]] events)\n* [[Zaishen Menagerie Grounds/Service costs|Unlocking cost]]: 1{{zgold}} plus 100{{gold}} or 10,000 [[Balthazar Faction]] ''(Prestige, Exotic)''\n\n==Notes==\n* Racing Beetles deal [[slashing damage]].\n* A [[character]]'s [[Rollerbeetle Racer]] and their Racing Beetle have the same design, which is changed by talking to [[Hokusai]]. The color changes randomly each time an [[instance]] is entered; there's no way to fix it.\n*On the Menagerie grounds, the adult Racing Beetles have a different color and pattern each time the instance is loaded, but the juveniles always look like plain [[Rock Beetle]]s.\n{{anomaly|\n* Racing Beetles [[Attack speed|attack faster]] than other pets (1.33 versus 2). However, they move at the same speed as players - other pets move 25% faster.\n* The color of the beetle in the instance doesn't match the color in its portrait on the [[Pet Commander]].}}\n\n== Trivia ==\n* Introduced in [[Canthan New Year 2013]].\n* This is the only pet that utilizes a [[disguise]].\n\n{{Charmable animal nav}}"
+}

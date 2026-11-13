@@ -1,0 +1,11 @@
+{
+  "title": "R.O.X.",
+  "pageid": 160188,
+  "revid": 2709075,
+  "revisedAt": "2025-06-14T20:08:15Z",
+  "sha1": "119ff74bc6494b1e891973715ff354fb6f95894d",
+  "url": "https://wiki.guildwars.com/wiki/R.O.X.",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=R.O.X.&oldid=2709075",
+  "retrievedAt": "2026-11-13T02:27:21.407Z",
+  "wikitext": "{{NPC infobox\n| image = [[File:Sinister Golem warrior aura.jpg|172px]]\n| type = Golem\n| profession = w\n| level = 29 (29)\n| boss = y\n| campaign = Beyond\n| required = Prophecies\n}}__NOTOC__\n[[R.O.X.]] is one of the golems created by [[Zinn]].\n\n==Locations==\n*[[Kryta]]\n**[[Deactivating R.O.X.#NPCs|Temple of the Ages (explorable area)]] (only during [[Deactivating R.O.X.]])\n\n==Skills==\n*{{skill icon|Cyclone Axe}}\n*{{skill icon|Furious Axe}}\n*{{skill icon|Triple Chop}} ([[elite]])\n*{{monster skill icon|Golem Strike}}\n*{{monster skill icon|Stun Immunity}}\n\n==Dialogue==\n:''\"*...fzzt...*\"''\n==Armor ratings==\n{{NPC statistics\n| prof = w\n| blunt = 121\n| piercing = 121\n| slashing = 121\n| cold = 80\n| earth = 80\n| fire = 80\n| lightning = 80\n}}\n\n==Notes== \n*R.O.X cannot be killed (it becomes friendly at 20% health). Thus, capturing skills from it is not possible.\n\n[[Category:Zinn's Task NPCs]]"
+}

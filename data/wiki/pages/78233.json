@@ -1,0 +1,11 @@
+{
+  "title": "Boss Key",
+  "pageid": 78233,
+  "revid": 2727847,
+  "revisedAt": "2026-05-10T18:14:32Z",
+  "sha1": "a3d4a18832b64a40193bd3b035570f29c904f5a9",
+  "url": "https://wiki.guildwars.com/wiki/Boss_Key",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Boss%20Key&oldid=2727847",
+  "retrievedAt": "2026-11-13T02:16:07.239Z",
+  "wikitext": "{{item infobox\n| name = Boss Key\n| image = \n| rarity = common\n| type = [[Quest Item]]\n| stackable = disappears\n| campaign = [[Prophecies]]<br>[[Eye of the North]]\n| render = [[Image:Boss_Key.jpg|150px]]\n}}\nMany Eye of the North [[Dungeon]]s have a [[Boss Lock]] that requires a [[Boss Key]] to open.  These keys will drop from a specific boss when killed.  The location of the boss with the key and the corresponding lock it opens are indicated by red icons on the mini-map if an [[Area Map]] or [[Dungeon Map]] have been used.\n\n==Acquisition==\n*[[Depths of Tyria]]\n**[[Bogroot Growths]] Level 2: [[Gokir Patriarch|Gokir]] or [[Ophil Patriarch|Ophil]] Patriarch\n**[[Catacombs of Kathandrax]] Level 3: [[Flame Djinn]]\n**[[Cathedral of Flames]] Level 3: [[Murakai's Steward]]\n**[[Darkrime Delves]] Level 1: [[Havok-kin]]. Level 2: [[Grelk Icelash]]\n**[[Forsaken Tunnels]] Level 3: On the ground in the northwest\n**[[Ooze Pit]]: [[Gloop]]\n**[[Rragar's Menagerie]] Level 2: [[Rragar Maneater]]. Level 3: [[Flesheater]]\n**[[Secret Lair of the Snowmen]]: [[Freezie]]\n**[[Tunnels of the Forsaken]] Level 3: [[Enraged Phantom]]\n**[[Vloxen Excavations]] Level 1: [[Taskmaster Durgon]]. Level 3: [[Sotanaht the Tomb Guardian]]\n\n==Notes==\n*One open inventory slot is required to pick up the boss key, although it doesn't actually show up in your inventory.\n*Once a boss key is acquired, the words \"Boss Key retrieved\" and a red boss key icon will appear on the right side of the UI's Mission Goals overlay.\n*Any party member can use the key on the lock for which it is required, regardless of who picked it up.\n*See also: [[Dungeon Key]]\n{{anomaly|The message ''Boss Key retrieved'' and the image of the key cannot be switched off even if you have cleared all the interface options on the Options pane (F11).}}"
+}

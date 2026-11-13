@@ -1,0 +1,11 @@
+{
+  "title": "Kurzick Gatekeeper",
+  "pageid": 205717,
+  "revid": 2560783,
+  "revisedAt": "2013-12-25T21:52:18Z",
+  "sha1": "58b41a5417d6cd851b23cd96c6ed1409c3012e63",
+  "url": "https://wiki.guildwars.com/wiki/Kurzick_Gatekeeper",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kurzick%20Gatekeeper&oldid=2560783",
+  "retrievedAt": "2026-11-13T02:14:52.882Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Kurzick noble m young.jpg|150px]] [[File:Kurzick noble f blue.jpg|150px]]\n| affiliation = Kurzicks\n| type = Human\n| service = Gatekeeper\n| service2 = Alliance service\n| level = 10\n| campaign = Factions }}\nThe [[Kurzick Gatekeeper]]s allow members of the [[alliance]] who own the [[outpost]] or [[town]] to enter an exclusive area.\n\n==Locations==\n*[[Echovald Forest]]\n**{{NPC location|Altrumm Ruins|outpost}}\n**{{NPC location|Amatz Basin|outpost}}\n**{{NPC location|Brauer Academy}}\n**{{NPC location|Durheim Archives}}\n**{{NPC location|House zu Heltzer}}\n**{{NPC location|Lutgardis Conservatory}}\n**{{NPC location|Saint Anjeka's Shrine}}\n**{{NPC location|Tanglewood Copse}}\n**{{NPC location|Vasburg Armory}}\n\n==Dialogue==\nIf your alliance does not own the outpost or town:\n:''\"The <alliance that owns the outpost or town> controls this area.\"''\n\nIf your alliance does own the outpost or town:\n:''\"This area belongs to your alliance, the <alliance name>.\"''\n:{{yes|ingame}} '''We have business in the exclusive area.'''\n::''\"When you are ready to travel, I will take you to the exclusive area.\"''\n::{{yes|ingame}} '''I am ready.'''\n::{{no|ingame}} '''I am not ready.'''\n\nWhen trying to leave the exclusive area:\n:''\"I will let you pass. Just tell me when you're ready.\"''\n:{{yes|ingame}} '''Let's go!'''\n:{{no|ingame}} '''Maybe another time.'''\n\n==Notes==\n*The Gatekeeper on the outside of the exclusive area is always a male, while the gatekeeper on the inside is always a female.\n\n==See also==\n*[[Luxon Sentry]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Shared Burden (PvP)",
+  "pageid": 253810,
+  "revid": 2721219,
+  "revisedAt": "2026-02-12T07:07:27Z",
+  "sha1": "53e44512a3c6a5eae690a8c6bac9e5a2a67292f5",
+  "url": "https://wiki.guildwars.com/wiki/Shared_Burden_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shared%20Burden%20(PvP)&oldid=2721219",
+  "retrievedAt": "2026-11-13T01:08:10.022Z",
+  "wikitext": "{{pveversion|Shared Burden}}\n{{Skill infobox\n| id = 3186\n| name = Shared Burden (PvP)\n| campaign = Factions\n| profession = Mesmer\n| is-pvp = y\n| elite = y\n| attribute = Illusion Magic\n| type = Hex Spell\n| energy = 10\n| recharge = 20\n| activation = 2\n| range = Casting\n| aoe = in the area\n| causes1 = Decreased Attack Speed\n| causes2 = Increased Activation Time\n| causes3 = Decreased Movement Speed\n| description = [[Elite]] [[Hex Spell]]. For {{gr|5|20}} seconds, [[target]] [[foe]] and all foes [[in the area]] [[Attack speed|attack]], [[Activation time|cast]] [[spell]]s, and [[Snare (tactic)|move 33% slower]].\n| concise description = Elite Hex Spell. Also hexes foes in the area of your target ({{gr|5|20}} seconds). These foes attack, cast spells, and move 33% slower.\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 20\n}}\n\n==Related skills==\n*{{skill icon|Arcane Conundrum}}\n*{{skill icon|Sum of All Fears}}\n\n== Trivia ==\n{{Skill change}}\n\n[[de:Geteilte Bürde (PvP)]]"
+}

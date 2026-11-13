@@ -1,0 +1,11 @@
+{
+  "title": "Defy Pain (PvP)",
+  "pageid": 257109,
+  "revid": 2733316,
+  "revisedAt": "2026-07-05T17:39:14Z",
+  "sha1": "048ce34ddbf46429ec71b2ad9e6fb7ea147e4159",
+  "url": "https://wiki.guildwars.com/wiki/Defy_Pain_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Defy%20Pain%20(PvP)&oldid=2733316",
+  "retrievedAt": "2026-11-13T01:08:06.013Z",
+  "wikitext": "{{pveversion|Defy Pain}}\n{{Skill infobox\n| id = 3204\n| name = Defy Pain (PvP)\n| campaign = Prophecies\n| profession = Warrior\n| attribute = Strength\n| type = Stance\n| elite = y\n| adrenaline = 5\n| is-pvp = y\n| causes1 = Increased Maximum Health\n| causes2 = Increased Armor Rating\n| description = [[Elite]] [[Stance]]. For 20 seconds you have an additional {{gr|90|300}} [[Health]] and an additional 20 [[armor rating|armor]].\n| concise description = Elite Stance. (20 seconds.) You have {{gr|90|300|+}} maximum Health and +20 armor.\n}}\n\n{{Skill progression\n|attribute = [[Strength]]\n|var1 name = + Maximum [[health]]\n|var1 at0 = 90\n|var1 at15 = 300}}\n\n== Related skills ==\n* {{skill icon|Endure Pain}} \n* {{skill icon|Dwarven Battle Stance}} ([[elite]])\n\n[[de:Schmerz trotzen (PvP)]]"
+}

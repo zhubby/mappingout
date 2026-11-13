@@ -1,0 +1,11 @@
+{
+  "title": "Maddened Earth Warden",
+  "pageid": 2876,
+  "revid": 2255602,
+  "revisedAt": "2011-03-05T21:25:24Z",
+  "sha1": "9877bfdd14b3627983f13de02bc6dc86a29f2a9b",
+  "url": "https://wiki.guildwars.com/wiki/Maddened_Earth_Warden",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maddened%20Earth%20Warden&oldid=2255602",
+  "retrievedAt": "2026-11-13T02:14:55.584Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| type = Warden\n| profession = Elementalist\n| level = 28 (30)\n| campaign = Factions\n| image = [[Image:Warden of the Spirit.jpg|150px]]\n}}\n[[Maddened Earth Warden]]s use dangerous [[area of effect]] spells that should be [[interrupt]]ed or avoided.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n*{{skill icon|Aura of Restoration}}\n*{{skill icon|Churning Earth}}\n*{{skill icon|Glyph of Lesser Energy}}\n*{{skill icon|Shockwave}} ([[elite]])\n*{{skill icon|Stoning}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = e\n| blunt = 84\n| piercing = 84\n| slashing = 84\n| cold = 84\n| earth = 84\n| fire = 84\n| lightning = 84\n}}"
+}

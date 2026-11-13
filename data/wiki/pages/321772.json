@@ -1,0 +1,11 @@
+{
+  "title": "Infuriating Heat (PvP)",
+  "pageid": 321772,
+  "revid": 2738647,
+  "revisedAt": "2026-08-27T01:12:07Z",
+  "sha1": "615a7af5ca771267191b56b88c9d59043fdbbcac",
+  "url": "https://wiki.guildwars.com/wiki/Infuriating_Heat_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Infuriating%20Heat%20(PvP)&oldid=2738647",
+  "retrievedAt": "2026-11-13T01:08:08.215Z",
+  "wikitext": "{{pveversion|Infuriating Heat}}\n{{Skill infobox\n| name = Infuriating Heat (PvP)\n| id = 3466\n| campaign = Nightfall\n| profession = Ranger\n| attribute = Expertise\n| type = Nature Ritual\n| elite = y\n| energy = 5\n| is-pvp = y\n| activation = 2\n| recharge = 30\n| causes1 = Spirit\n| causes2 = Increased Adrenaline Build Rate\n| description = [[Elite]] [[Nature Ritual]]. Create a level {{gr|1|10}} [[spirit]]. Non-spirit [[creature]]s within its [[Spirit range|range]] gain [[adrenaline]] {{gr|33|66||%}}  as fast. This spirit dies after {{gr|30|120}} seconds.\n| concise description = Elite Nature Ritual. Creates a level {{gr|1|10}} spirit ({{gr|30|120}} second lifespan). Adrenaline gain increases by {{gr|33|66||%}}  for creatures in range.\n| aoe = large spirit\n}}\n\n{{Skill progression\n|attribute = [[Expertise]]\n|var1 name = Level\n|var1 at0 = 1\n|var1 at15 = 10\n|var2 name = [[Duration]]\n|var2 at0 = 30\n|var2 at15 = 120\n|var3 name = Increased Adrenaline %\n|var3 at0 = 33\n|var3 at15 = 66\n}}\n\n== Notes ==\n* This skill creates a [[Spirit of Infuriating Heat]].\n*[[Soothing]] can be used to stop foes gaining the advantage of Infuriating Heat.\n*At 30 seconds with zero rank in [[Expertise]], it can be maintained by any profession.\n\n[[de:Irritierende Hitze]]"
+}

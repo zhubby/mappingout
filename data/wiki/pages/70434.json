@@ -1,0 +1,11 @@
+{
+  "title": "Cobalt Staff",
+  "pageid": 70434,
+  "revid": 2690973,
+  "revisedAt": "2023-10-05T15:43:58Z",
+  "sha1": "dd037f84ea7e80355f31ebdb145eecdf57003982",
+  "url": "https://wiki.guildwars.com/wiki/Cobalt_Staff",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Cobalt%20Staff&oldid=2690973",
+  "retrievedAt": "2026-11-13T03:11:15.523Z",
+  "wikitext": "{{Weapon infobox\n| type = [[Staff]]\n| image = [[File:Cobalt Staff.jpg|175px]]\n| campaign = [[Eye of the North]]\n| attribute = inscribable\n| damagetype = Various\n| pvpreward = Basic\n| commonsalvage = [[Pile of Glittering Dust|Piles of Glittering Dust]]<br/>[[Wood Plank]]s\n| raresalvage = \n}}\n\n==Acquisition==\n;[[Eye of the North]]\n*[[Darkrime Delves]]\n**[[Havok's Chest]]\n\n==Dye==\n[[Dye]] affects the entire staff. The metallic details dye to the color specified, while the shaft becomes an inverse of the dye color. The exception to this is black and white dyes which will change the entire staff to black or white. The default color can be closely replicated using yellow dye.\n{{dye chart}}"
+}

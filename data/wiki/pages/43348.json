@@ -1,0 +1,11 @@
+{
+  "title": "Dredge Scout",
+  "pageid": 43348,
+  "revid": 2598447,
+  "revisedAt": "2015-11-08T16:57:47Z",
+  "sha1": "4174ddc1de6b82a87165a071799c35946ba647e0",
+  "url": "https://wiki.guildwars.com/wiki/Dredge_Scout",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dredge%20Scout&oldid=2598447",
+  "retrievedAt": "2026-11-13T02:14:33.212Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Dredge ranger.jpg|150px]]\n| type = Dredge\n| profession = Ranger\n| level = 24 (26)\n| campaign = Prophecies\n}}\n[[Dredge Scout]]s are [[ranger]]s found in [[Sorrow's Furnace]].\n\n==Locations==\n*[[Southern Shiverpeaks]]\n**{{NPC location|Sorrow's Furnace}}\n\n==Skills==\n*{{skill icon|Apply Poison}}\n*{{skill icon|Savage Shot}}\n*{{skill icon|Spike Trap}} ([[elite]])\n\n==Armor ratings==\n{{NPC statistics\n| prof = r\n| blunt = 82\n| piercing = 82\n| slashing = 82\n| cold = 112\n| earth = 112\n| fire = 112\n| lightning = 112\n}}\n\n==Items dropped==\n*[[Dredge Manifesto]]"
+}

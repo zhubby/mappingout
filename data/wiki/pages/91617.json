@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of necromancer unique items",
+  "pageid": 91617,
+  "revid": 1685423,
+  "revisedAt": "2009-09-17T07:24:05Z",
+  "sha1": "1445b114d8a91c186298bce0961514ba00c040eb",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_necromancer_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20necromancer%20unique%20items&oldid=1685423",
+  "retrievedAt": "2026-11-13T02:27:59.344Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Blood Magic unique items | Curses unique items | Death Magic unique items | Soul Reaping unique items | Necromancer unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Blood Magic unique items | Curses unique items | Death Magic unique items | Soul Reaping unique items | Necromancer unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Blood Magic unique items | Curses unique items | Death Magic unique items | Soul Reaping unique items | Necromancer unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by profession|Necromancer]]\n[[Category:Necromancer unique items|+]]"
+}

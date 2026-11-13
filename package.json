@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=24.0.0" },
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "convert": "node scripts/convert.mjs",
+    "wiki:compile": "node scripts/wiki/compile.mjs",
+    "wiki:apply": "node scripts/wiki/apply.mjs",
     "dev": "vite --host 127.0.0.1",
     "validate:data": "node scripts/validate-data.mjs",
     "build": "npm run validate:data && tsc -b && vite build && node scripts/finalize-build.mjs",
@@ -34,8 +38,10 @@
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.1.0",
     "fake-indexeddb": "^6.2.0",
+    "sharp": "0.35.5",
     "tailwindcss": "^4.1.0",
     "typescript": "~5.9.3",
+    "undici": "8.12.4",
     "vite": "^7.2.0",
     "vitest": "^5.1.0",
     "wrangler": "4.160.1"

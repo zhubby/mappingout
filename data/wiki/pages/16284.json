@@ -1,0 +1,11 @@
+{
+  "title": "Way of the Fox",
+  "pageid": 16284,
+  "revid": 2733054,
+  "revisedAt": "2026-07-05T13:20:55Z",
+  "sha1": "d3c27de6be779d85044cd25454d76b0ce3d53449",
+  "url": "https://wiki.guildwars.com/wiki/Way_of_the_Fox",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Way%20of%20the%20Fox&oldid=2733054",
+  "retrievedAt": "2026-11-13T01:07:45.325Z",
+  "wikitext": "{{Skill infobox\n| id = 949\n| name = Way of the Fox\n| campaign = Factions\n| profession = Assassin\n| attribute = Shadow Arts\n| type = Enchantment Spell\n| energy = 5\n| activation = {{1/4}}\n| recharge = 30\n| causes1 = Unblockable\n| description = [[Enchantment Spell]].  For {{gr|10|35}} seconds, your next {{gr|1|6}} [[attack]][s] cannot be [[block]]ed.\n| concise description = Enchantment Spell. ({{gr|10|35}} seconds.) Your attacks are unblockable. {{gray|Ends after {{gr|1|6}} attack[s].}}\n}}\n\n{{Skill progression\n| attribute = [[Shadow Arts]]\n| var1 name = [[Duration]]\n| var1 at0 = 10\n| var1 at15 = 35\n| var2 name = Subsequent [[attack]]s\n| var2 at0 = 1\n| var2 at15 = 6}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Michiko]] ([[Kaineng Center]])\n\n== Related skills ==\n* {{skill icon|Guiding Hands}}\n* {{skill icon|Fox's Promise}} ([[elite]])"
+}

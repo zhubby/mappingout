@@ -1,0 +1,11 @@
+{
+  "title": "Shared Burden (Gwen)",
+  "pageid": 177666,
+  "revid": 2623132,
+  "revisedAt": "2017-10-23T16:23:40Z",
+  "sha1": "2aad4935525ff7b1ca785b6cc15491ceafb27d22",
+  "url": "https://wiki.guildwars.com/wiki/Shared_Burden_(Gwen)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shared%20Burden%20(Gwen)&oldid=2623132",
+  "retrievedAt": "2026-11-13T01:08:10.021Z",
+  "wikitext": "{{Skill infobox\n| id = 2681\n| name = Shared Burden (Gwen)\n| image = [[File:Shared Burden (Gwen).jpg]]\n| campaign = Bonus Mission Pack\n| attribute = Illusion Magic\n| type = Hex Spell\n| special = Bonus Mission Pack\n| energy = 10\n| recharge = 25\n| activation = 2\n| elite = y\n| description = [[Elite]] [[Hex Spell]]. For '''<font color=green>21</font>''' seconds, [[target]] [[foe]] and all [[nearby]] foes [[Snare (tactic)|move 50% slower]].\n| concise description = Elite Hex Spell. Also hexes foes near your target ('''<font color=green>21</font>''' seconds). These foes move 50% slower.\n| aoe = nearby\n}}\n==Acquisition==\nBecomes part of [[Gwen (disguise)|Gwen's]] replacement [[skill bar]] during [[The Flight North]] mission after interacting with a [[Research Journal]].\n\n==Related skills==\n*{{skill icon|Shared Burden}} ([[elite]])\n\n==Notes== \n*Although Gwen's disguise has a 12 in [[Illusion Magic]], this skill uses the equivalent of a 16 in Illusion Magic because [[Shared Burden]] functions differently."
+}

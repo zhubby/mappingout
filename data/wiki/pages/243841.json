@@ -1,0 +1,11 @@
+{
+  "title": "Destructive Was Glaive (PvP)",
+  "pageid": 243841,
+  "revid": 2649291,
+  "revisedAt": "2020-04-13T10:46:02Z",
+  "sha1": "9b6d9ef988206400ab7a389fcb4063b427f20ec0",
+  "url": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Destructive%20Was%20Glaive%20(PvP)&oldid=2649291",
+  "retrievedAt": "2026-11-13T01:08:08.212Z",
+  "wikitext": "{{pveversion|Destructive Was Glaive}}\n\n{{Skill infobox\n| name = Destructive Was Glaive (PvP)\n| id = 3157\n| campaign = Nightfall\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Item Spell\n| elite = y\n| energy = 10\n| activation = 1\n| recharge = 10\n| is-pvp = y\n| causes1 = Armor Penetration\n| causes2 = Lightning Damage\n| description = [[Elite]] [[Item Spell]]. [[Hold]] Glaive's ashes for up to {{gr|30|60}} seconds. While you hold her ashes, all Ritualist skills have 10% [[armor penetration]]. When you drop her ashes, all [[foe]]s [[in the area]] are struck for {{gr|15|85}} [[lightning damage]].\n| concise description = Elite Item Spell. ({{gr|30|60}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{gr|15|85}} lightning damage to all foes in the area.\n| aoe = in the area\n}}\n\n{{Skill progression\n|attribute = [[Channeling Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 30\n|var1 at15 = 60\n|var2 name = [[Lightning damage]]\n|var2 at0 = 15\n|var2 at15 = 85}}\n\n== Related skills ==\n* {{skill icon|Cruel Was Daoshen}}\n* {{skill icon|Grasping Was Kuurong}} ([[elite]])\n\n== Notes ==\n* The damage caused when the ashes are dropped benefits from the 10% armor penetration effect.\n\n[[Category:PvP versions of skills]]\n\n[[de:Vernichtend war Glaive (PvP)]]"
+}

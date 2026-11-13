@@ -1,0 +1,11 @@
+{
+  "title": "Fevered Dreams (PvP)",
+  "pageid": 276651,
+  "revid": 2738376,
+  "revisedAt": "2026-08-26T20:26:47Z",
+  "sha1": "1a1785702dab5add59f4fb3a3bef420c90176dae",
+  "url": "https://wiki.guildwars.com/wiki/Fevered_Dreams_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fevered%20Dreams%20(PvP)&oldid=2738376",
+  "retrievedAt": "2026-11-13T01:08:08.214Z",
+  "wikitext": "{{Pveversion|Fevered Dreams}}\n\n{{Skill infobox\n| id = 3289\n| name = Fevered Dreams (PvP)\n| campaign = Prophecies\n| profession = Mesmer\n| attribute = Illusion Magic\n| type = Hex Spell\n| elite = y\n| energy = 5\n| recharge = 15\n| activation = 1\n| causes1 = Condition\n| description = [[Elite]] [[Hex Spell]]. For {{gr|5|15}} seconds, whenever [[target]] [[foe]] suffers from a new [[condition]], all foes [[in the area]] suffer from that condition as well.\n| concise description = Elite Hex Spell. ({{gr|5|15}} seconds.) Foes in the area also have any new conditions that target foe acquires. \n| is-pvp = y\n| aoe = in the area\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 15\n}}\n\n== Related skills ==\n* {{skill icon|Contagion}} ([[elite]])\n* {{skill icon|Epidemic}}\n* {{skill icon|Extend Conditions}} (elite)\n\n== Notes ==\n* Only triggers on new conditions, re-applying a condition will not trigger the hex.\n\n== Trivia ==\n{{Skill change}}\n\n[[de:Fieberträume (PvP)]]"
+}

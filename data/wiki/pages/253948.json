@@ -1,0 +1,11 @@
+{
+  "title": "Enchanter's Conundrum (PvP)",
+  "pageid": 253948,
+  "revid": 2732854,
+  "revisedAt": "2026-07-04T20:40:58Z",
+  "sha1": "6f9d0c37dcfa178a3e1cee8638735ebbd4118227",
+  "url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Enchanter's%20Conundrum%20(PvP)&oldid=2732854",
+  "retrievedAt": "2026-11-13T01:08:08.214Z",
+  "wikitext": "{{pveversion|Enchanter's Conundrum}}\n{{Skill infobox\n| id = 3192\n| name = Enchanter's Conundrum (PvP)\n| campaign = Nightfall\n| profession = Mesmer\n| attribute = Domination Magic\n| type = Hex Spell\n| is-pvp = y\n| elite = y\n| energy = 10\n| activation = 2\n| recharge = 20\n| causes1 = Increased Activation Time\n| description = | description = [[Elite]] [[Hex Spell]]. For 10 seconds, [[target]] [[foe]] [[Activation time|casts]] [[enchantment]]s {{gr|100|200||%}} slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes {{gr|10|100}} [[damage]] and all adjacent foes take 75% of that damage.\n| concise description = Elite Hex Spell. Causes {{gr|100|200||%}} slower enchantment casting (10 seconds). Initial effect: if target foe is not enchanted{{sic}} deals {{gr|10|100}} damage to target and 75% of that damage to adjacent foes.\n| aoe = adjacent\n}}\n\n{{Skill progression\n|attribute = [[Domination Magic]]\n|var1 name = [[Activation time|Cast time]] % increase\n|var1 at0 = 100\n|var1 at15 = 200\n|var2 name = Target damage\n|var2 at0 = 10\n|var2 at15 = 100\n|var3 name = Area damage\n|var3 at0 = 8\n|var3 at15 = 75}}\n\n== Related skills ==\n* {{skill icon|Arcane Conundrum}}\n* {{skill icon|Migraine (PvP)}} ([[elite]])\n\n[[de:Rätsel des Verzauberers (PvP)]]"
+}

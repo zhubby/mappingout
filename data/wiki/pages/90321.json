@@ -1,0 +1,11 @@
+{
+  "title": "Pietro/Collector",
+  "pageid": 90321,
+  "revid": 2485390,
+  "revisedAt": "2012-05-12T01:43:51Z",
+  "sha1": "0ce22e476784fc83e862d26a75d92ffece3b1d31",
+  "url": "https://wiki.guildwars.com/wiki/Pietro/Collector",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pietro%2FCollector&oldid=2485390",
+  "retrievedAt": "2026-11-13T01:52:25.792Z",
+  "wikitext": "====[[Pietro]]====\n'''Location:''' [[Gyala Hatchery (explorable area)|Gyala Hatchery]] outside the northern exit of [[Leviathan Pits]]<br>\n'''Collecting:''' 5 [[Black Pearl]]s\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! Item !! Stats !! Reqs. !! Mods !! Value\n|-\n| [[Hypnotic Scepter]] || [[Chaos damage]]: 11-22 || 9 [[Illusion Magic]] || Halves skill recharge of [[Inspiration Magic]] spells (Chance: 20%) <br> [[Energy]] +5 (while [[Health]] is below 50%) || {{cost|125}}\n|-\n| [[Evil Eye Staff]] || [[Energy]] +10 <br> [[Dark damage]]: 11-22 || 9 [[Blood Magic]] || Halves casting time of [[Blood Magic]] spells (Chance: 20%) <br> Halves skill recharge of spells (Chance: 20%) || {{cost|125}}\n|-\n| [[Frost Artifact]] || [[Energy]] +12 || 9 [[Water Magic]] || Halves casting time of [[Water Magic]] spells (Chance: 20%) <br> Halves skill recharge of [[Water Magic]] spells (Chance: 20%) || {{cost|125}}\n|-\n| [[Smiting Rod]] || [[Holy damage]]: 11-22 || 9 [[Smiting Prayers]] || Halves skill recharge of [[Smiting Prayers]] spells (Chance: 20%) <br> [[Energy]] +5 (while [[Health]] is below 50%) || {{cost|125}}\n|-\n| [[Cleaver_(Canthan)|Cleaver]] || [[Slashing damage]]: 6-28 || 9 [[Axe Mastery]] || [[Damage]] +15% (while in a [[Stance]]) || {{cost|125}}\n|-\n| [[Hornbow]] || [[Piercing damage]]: 15-28 || 9 [[Marksmanship]] || [[Damage]] +20% (while hexed) || {{cost|125}}\n|-\n|}<noinclude>\n[[Category:Collector subpages]]\n</noinclude>"
+}

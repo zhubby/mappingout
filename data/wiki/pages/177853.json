@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Deldrimor weapons",
+  "pageid": 177853,
+  "revid": 1249094,
+  "revisedAt": "2008-12-14T23:20:09Z",
+  "sha1": "114cf02114daadc9eaa3ff7b8faef3e3e7d4577a",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Deldrimor_weapons",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Deldrimor%20weapons&oldid=1249094",
+  "retrievedAt": "2026-11-13T02:27:31.503Z",
+  "wikitext": "<dpl>\n  category = Deldrimor weapons\n  notcategory = weapon types\n  allowcachedresults = true\n  format = <gallery>\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Weapon family galleries|Deldrimor weapons]]\n[[Category:Deldrimor weapons|+]]"
+}

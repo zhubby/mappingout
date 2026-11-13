@@ -65,6 +65,16 @@ describe('bundled deployment data', () => {
   it('refuses conversion before writes in a checkout without legacy files', async () => {
     await expect(requireLegacyInputs(await directory())).rejects.toThrow(/原始资料不完整.*npm run build/);
   });
+  it('rejects Wiki references without a permanent revision on the source site', async () => {
+    const dir = await fixture();
+    await editCatalog(dir, data => { data.records.find((record: any) => record.wiki).wiki.revisionUrl = 'https://example.com/index.php?oldid=1'; });
+    await expect(validateDeploymentData(dir)).rejects.toThrow('Wiki 修订来源无效');
+  });
+  it('rejects a catalog that silently loses reviewed provenance', async () => {
+    const dir = await fixture();
+    await editCatalog(dir, data => { delete data.records.find((record: any) => record.wiki).wiki; });
+    await expect(validateDeploymentData(dir)).rejects.toThrow('核对数量与报告不一致');
+  });
 });
 
 async function buildFixture() {
@@ -95,6 +105,13 @@ describe('release-specific offline worker', () => {
     expect((await finalizeBuild(dir, template)).version).not.toBe(first.version);
     await fs.rename(path.join(dir, 'build/main-123.js'), path.join(dir, 'build/main-456.js'));
     expect((await finalizeBuild(dir)).version).not.toBe(first.version);
+  });
+  it('keeps bundled review and license available when offline', async () => {
+    const dir = await buildFixture();
+    await fs.mkdir(path.join(dir, 'licenses'));
+    await fs.writeFile(path.join(dir, 'licenses/gfdl-1.3.txt'), 'license');
+    await fs.writeFile(path.join(dir, 'data/wiki-review.json'), '{}');
+    expect((await finalizeBuild(dir)).precache).toEqual(expect.arrayContaining(['data/wiki-review.json', 'licenses/gfdl-1.3.txt']));
   });
 });
 

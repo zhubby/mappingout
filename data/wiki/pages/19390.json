@@ -1,0 +1,11 @@
+{
+  "title": "Veldrunner Centaur (boss)",
+  "pageid": 19390,
+  "revid": 2414467,
+  "revisedAt": "2011-11-26T22:59:25Z",
+  "sha1": "1dfb65e8972aaab9f1e08d7ac4586442f6fec58a",
+  "url": "https://wiki.guildwars.com/wiki/Veldrunner_Centaur_(boss)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Veldrunner%20Centaur%20(boss)&oldid=2414467",
+  "retrievedAt": "2026-11-13T01:16:02.478Z",
+  "wikitext": "{{NPC infobox\n| image = [[File:Caza Windedcalf.jpg|150px]]\n| name = Veldrunner Centaur\n| type = Centaur\n| affiliation = Veldrunner\n| profession = r\n| boss = y\n| level = 24\n| campaign = Nightfall\n| map1 = [[File:Veldrunner Centaur (boss) map.jpg|150px]]\n| map1-text = Location in [[Kodonur Crossroads]]\n}}__NOTOC__\n[[Veldrunner Centaur (boss)|Veldrunner Centaur]] is a [[Centaur]] who allies with you in the [[Kodonur Crossroads]] mission, after you have freed him from a prison cell. He has the same name as other [[Veldrunner Centaur]]s who join you during the mission, but he's level 24 instead of 20 and has the ranger [[Boss#Aura|boss aura]].\n\n== Missions ==\n* [[Kourna]]\n** {{NPC location|Kodonur Crossroads}}\n\n== Skills ==\n* {{skill icon|Barbed Trap}}\n* {{skill icon|Flame Trap}}\n* {{skill icon|Natural Stride}}\n* {{skill icon|Smoke Trap}} ([[elite]])\n* {{skill icon|Troll Unguent}}\n\n== Notes ==\n* Getting this boss ally killed can allow you to [[Signet of Capture|capture]] the [[Smoke Trap]] well before it becomes available from an enemy boss. The easiest way to accomplish this is to have one member of the party run to the cell where he is locked and open it. Then the party member runs away, leaving the Veldrunner Centaur to be killed by the enemy [[mob]]s.\n* If this allied boss dies, your party will still receive a 2% [[Morale Boost]].\n\n[[Category:Anonymous bosses]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Maddened Dredge",
+  "pageid": 2807,
+  "revid": 2598439,
+  "revisedAt": "2015-11-08T16:36:43Z",
+  "sha1": "53a21fc60e984d8d9b046e1437f4f3736655ea0f",
+  "url": "https://wiki.guildwars.com/wiki/Maddened_Dredge",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maddened%20Dredge&oldid=2598439",
+  "retrievedAt": "2026-11-13T02:14:55.579Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Dredge melee.jpg|190px]]\n| type = Dredge\n| profession = Warrior\n| affiliation = Urgoz\n| level = 28 (30)\n| campaign = Factions\n}}\n[[Maddened Dredge]] are [[sword]] [[warrior]]s.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n*{{skill icon|\"Shields Up!\"}}\n*{{skill icon|Final Thrust}}\n*{{skill icon|Hundred Blades}} ([[elite]])\n\n==Armor ratings==\n{{NPC statistics\n| prof = w\n| blunt = 140\n| piercing = 140\n| slashing = 140\n| cold = 120\n| earth = 120\n| fire = 120\n| lightning = 120\n}}\n\n==Items dropped==\n*[[Dredge Plating]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Savannah Heat (PvP)",
+  "pageid": 207517,
+  "revid": 2640758,
+  "revisedAt": "2019-08-30T04:12:49Z",
+  "sha1": "020e744d340bc6f25b3ee0958b95ddfb81c04b53",
+  "url": "https://wiki.guildwars.com/wiki/Savannah_Heat_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Savannah%20Heat%20(PvP)&oldid=2640758",
+  "retrievedAt": "2026-11-13T01:08:09.127Z",
+  "wikitext": "__NOTOC__\n{{pveversion|Savannah Heat}}\n{{Skill infobox\n| name = Savannah Heat (PvP)\n| id = 3021\n| campaign = Nightfall\n| profession = Elementalist\n| attribute = Fire Magic\n| type = Spell\n| elite = y\n| energy = 15\n| activation = 2\n| recharge = 25\n| causes1 = Fire Damage\n| description = [[Elite]] [[Spell]]. You create Savannah Heat at [[target]] [[foe]]'s location. For 5 seconds, all [[nearby]] foes take {{gr|5|20}} [[fire damage]] for each second this spell has been in effect.\n| concise description = Elite Spell. Deals {{gr|5|20}} fire damage for each second since casting this spell (5 seconds). Hits foes near target's initial location.\n| aoe = nearby \n| target = foes\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Fire Magic]]\n| var1 name = [[Fire damage]]\n| var1 at0 = 5\n| var1 at15 = 20\n| var2 name = + Fire damage\n| var2 at0 = 5\n| var2 at15 = 20\n| var3 name = Maximum damage\n| var3 at0 = 75\n| var3 at15 = 300}}\n\n== Related skills ==\n* {{skill icon|Searing Heat}}\n\n[[de:Hitze der Savanne (PvP)]]"
+}

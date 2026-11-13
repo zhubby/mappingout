@@ -1,0 +1,188 @@
+[
+  {
+    "id": "boss:1:3c964ee95362f720",
+    "legacyName": "查尔老板",
+    "name": "查尔 Boss 掉落来源",
+    "type": "group",
+    "notes": [
+      "旧名称指一组查尔 Boss，不是名为“查尔老板”的单一 NPC。两个物品的来源列表分别保留；资料也列出了 Forsaken Tunnels 的后续来源。",
+      "Charr Bag 为容器；Charr Salvage Kit 为金色打捞工具，不能统一归为独特武器。"
+    ],
+    "sources": [
+      {
+        "title": "Charr Bag",
+        "revid": 2730535
+      },
+      {
+        "title": "Charr Salvage Kit",
+        "revid": 2741961
+      }
+    ]
+  },
+  {
+    "id": "boss:3:38ce36ddf0adb5d6",
+    "legacyName": "低语探索者",
+    "name": "光明使者技能导师：Seeker of Whispers",
+    "type": "service",
+    "notes": [
+      "在 Chantry of Secrets 与 Seeker of Whispers 对话，达到 Brave Lightbringer（等级 3，1,000 点）后获得 Lightbringer Signet。",
+      "这位 NPC 提供称号技能，与野外提供祝福的 Whispers Informant 不同。"
+    ],
+    "sources": [
+      {
+        "title": "Seeker of Whispers",
+        "revid": 1975253
+      },
+      {
+        "title": "Lightbringer Signet",
+        "revid": 2706570
+      }
+    ]
+  },
+  {
+    "id": "boss:3:b3b71b05e9ff7f63",
+    "legacyName": "老亚龙",
+    "name": "临时技能：Junundu Siege",
+    "type": "temporary",
+    "notes": [
+      "通过 Horde of Darkness 任务解锁巨奴虫的攻城技能；任务从 Bone Palace 的 Priest Kehmtut 接取。",
+      "技能在骑乘 Junundu 时使用，不能作为普通职业精英捕获。任务过程和完成奖励均可解锁，具体条件见英文来源。"
+    ],
+    "sources": [
+      {
+        "title": "Horde of Darkness",
+        "revid": 2676158
+      },
+      {
+        "title": "Junundu Siege",
+        "revid": 2629505
+      }
+    ]
+  },
+  {
+    "id": "boss:3:88b8bb7965eba2a1",
+    "legacyName": "未知",
+    "name": "旧捕获来源身份待核实：百刃斩",
+    "type": "unresolved",
+    "notes": [
+      "旧库只写“未知”，无法确认具体 NPC 身份；不把同技能或同区域敌人自动视为同一实体。",
+      "请使用 Hundred Blades 技能详情中列出的当前捕获来源；旧地图标记暂停显示。"
+    ],
+    "sources": [
+      {
+        "title": "Hundred Blades",
+        "revid": 2738456
+      }
+    ]
+  },
+  {
+    "id": "boss:3:43a563fd303dc942",
+    "legacyName": "斯泰吉亚领主",
+    "name": "Stygian Lord 来源组",
+    "type": "group",
+    "notes": [
+      "此记录汇总 Stygian Veil 的四种 Stygian Lord，职业不同，分别保留各自技能与掉落。旧地图标记不代表四个 NPC 共享一个精确位置。"
+    ],
+    "sources": [
+      {
+        "title": "Stygian Lord (monk)",
+        "revid": 2712962
+      },
+      {
+        "title": "Stygian Lord (necromancer)",
+        "revid": 2712963
+      },
+      {
+        "title": "Stygian Lord (mesmer)",
+        "revid": 2712964
+      },
+      {
+        "title": "Stygian Lord (elementalist)",
+        "revid": 2268561
+      }
+    ]
+  },
+  {
+    "id": "boss:3:f3df665f400a395b",
+    "legacyName": "科玛利亚之怒或守护者",
+    "name": "The Fury / Guardian of Komalie 来源组",
+    "type": "group",
+    "notes": [
+      "旧记录合并了 The Fury 和不同职业的 Guardian of Komalie；它们是不同实体，资料分组列出。The Fury 的其他活动版本不等同于铸造厂版本。"
+    ],
+    "sources": [
+      {
+        "title": "The Fury",
+        "revid": 2712965
+      },
+      {
+        "title": "Guardian of Komalie (mesmer)",
+        "revid": 2712966
+      },
+      {
+        "title": "Guardian of Komalie (elementalist)",
+        "revid": 2727096
+      }
+    ]
+  },
+  {
+    "id": "boss:4:63c9087966a68da2",
+    "legacyName": "通关NPC",
+    "name": "通关兑换：Droknar’s Key",
+    "type": "exchange",
+    "notes": [
+      "每个角色完成 A Time for Heroes 后，可在 Epilogue 从 Droknar 领取一次 Droknar’s Key。",
+      "凭证交给 Epilogue 中对应职业的宝箱收藏家，兑换一件独特武器。并非由 Droknar 直接掉落，也不是在旧 Battledepths 标记处兑换。"
+    ],
+    "sources": [
+      {
+        "title": "Droknar's Key",
+        "revid": 2537012
+      },
+      {
+        "title": "Droknar",
+        "revid": 2588193
+      },
+      {
+        "title": "Warrior's Chest",
+        "revid": 1809302
+      },
+      {
+        "title": "Ranger's Chest",
+        "revid": 1176247
+      },
+      {
+        "title": "Monk's Chest",
+        "revid": 1176252
+      },
+      {
+        "title": "Necromancer's Chest",
+        "revid": 1176246
+      },
+      {
+        "title": "Mesmer's Chest",
+        "revid": 1176244
+      },
+      {
+        "title": "Elementalist's Chest",
+        "revid": 1176250
+      },
+      {
+        "title": "Assassin's Chest",
+        "revid": 2586994
+      },
+      {
+        "title": "Ritualist's Chest",
+        "revid": 1176242
+      },
+      {
+        "title": "Paragon's Chest",
+        "revid": 1176241
+      },
+      {
+        "title": "Dervish's Chest",
+        "revid": 2058300
+      }
+    ]
+  }
+]

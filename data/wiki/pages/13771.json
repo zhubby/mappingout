@@ -1,0 +1,11 @@
+{
+  "title": "Lightbringer Signet",
+  "pageid": 13771,
+  "revid": 2706570,
+  "revisedAt": "2025-05-13T20:20:53Z",
+  "sha1": "fa15db244f1a95e04bdacc987ab75efbb2ca1a45",
+  "url": "https://wiki.guildwars.com/wiki/Lightbringer_Signet",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lightbringer%20Signet&oldid=2706570",
+  "retrievedAt": "2026-11-13T01:07:59.984Z",
+  "wikitext": "{{Skill infobox\n| id = 1815\n| name = Lightbringer Signet\n| campaign = Nightfall\n| type = Signet\n| attribute = Lightbringer rank\n| pve-only = y\n| activation = {{1/4}}\n| recharge = 25\n| target = self\n| causes1 = Adrenaline Gain\n| causes2 = Energy Gain\n| description = [[Signet]]. If you are [[within the area]] of a demonic servant of [[Abaddon]], you gain {{gr2|4|5}} strikes of [[adrenaline]] and {{gr2|22|24}} [[Energy]].\n| concise description = Signet. You gain {{gr2|4|5}} strikes of adrenaline and {{gr2|22|24}} Energy if you are within the area of a demonic servant of Abaddon.\n}}\n\n{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"7\" |'''Progression'''\n|- style=\"background:#DFD;\" \n![[Lightbringer rank]]\n|'''3'''||'''4'''||5||6||7||8\n|-\n! [[Adrenaline]] gain\n|'''4'''||'''5'''||5||5||5||5\n|-\n! [[Energy]] gain\n|'''22'''||'''24'''||24||24||24||24\n|}\n\n==Acquisition==\nSpeak to the [[Seeker of Whispers]] in [[Chantry of Secrets]] after achieving [[Lightbringer rank|Brave Lightbringer]] (1,000 points/rank 3) in the Lightbringer title rank.\n\n== Notes ==\n*Works with all [[Lightbringer#Demonic Servants of Abaddon|demonic servants of Abaddon]], excluding the [[spirit]]s they summon.\n\n== Trivia ==\n\n* Lightbringer Signet was an elite until the August 7, 2008 update. Until it was fixed in the [[Feedback:Game updates/20110714|July 14, 2011 update]], this skill counted toward the [[Elonian Skill Hunter]] title track, allowing up to 141/140 elite skills captured.\n* The Seeker of Whispers calls this skill ''\"Lightbringer's Focus\"''."
+}

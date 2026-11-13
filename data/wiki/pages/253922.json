@@ -1,0 +1,11 @@
+{
+  "title": "Migraine (PvP)",
+  "pageid": 253922,
+  "revid": 2731245,
+  "revisedAt": "2026-06-25T05:23:45Z",
+  "sha1": "879491add686846c068214d9902bfadba5692c9d",
+  "url": "https://wiki.guildwars.com/wiki/Migraine_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Migraine%20(PvP)&oldid=2731245",
+  "retrievedAt": "2026-11-13T01:08:09.129Z",
+  "wikitext": "{{pveversion|Migraine}}\n{{Skill infobox\n| id = 3183\n| name = Migraine (PvP)\n| campaign = Prophecies\n| profession = Mesmer\n| attribute = Illusion Magic\n| type = Hex Spell\n| is-pvp = y\n| elite = y\n| energy = 10\n| activation = 2\n| recharge = 12\n| causes1 = Health Degeneration\n| causes2 = Increased Activation Time\n| description = [[Elite]] [[Hex Spell]]. For {{gr|4|16}} seconds, [[target]] [[foe]] suffers {{gr|1|8|-}} [[Health degeneration]] and takes 100% longer to [[Activation time|activate]] [[skill]]s.\n| concise description = Elite Hex Spell. ({{gr|4|16}} seconds.) Causes {{gr|1|8|-}} Health degeneration and doubles skill activation time.}}\n\n{{Skill progression\n| attribute = [[Illusion Magic]]\n| var1 name = [[Duration]]\n| var1 at0 = 4\n| var1 at15 = 16\n| var2 name = [[Health degeneration]]\n| var2 at0 = 1\n| var2 at15 = 8}}\n\n== Related skills ==\n* {{skill icon|Arcane Conundrum}}\n* {{skill icon|Confusing Images}}\n* {{skill icon|Enchanter's Conundrum (PvP)}} ([[elite]])\n* {{skill icon|Frustration (PvP)}}\n* {{skill icon|Stolen Speed (PvP)}} (elite)\n\n[[de:Migräne (PvP)]]"
+}

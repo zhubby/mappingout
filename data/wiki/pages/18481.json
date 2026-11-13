@@ -1,0 +1,11 @@
+{
+  "title": "Willcrusher",
+  "pageid": 18481,
+  "revid": 2677869,
+  "revisedAt": "2022-05-08T11:10:00Z",
+  "sha1": "1d8450b0b92737215a24844047beaf3df92decd2",
+  "url": "https://wiki.guildwars.com/wiki/Willcrusher",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Willcrusher&oldid=2677869",
+  "retrievedAt": "2026-11-13T02:02:17.592Z",
+  "wikitext": "{{weapon infobox\n| type = [[Staff]]\n| campaign = [[Prophecies]]\n| damagetype = [[Chaos Damage]]\n| attribute = [[Domination Magic]]\n| unique = yes\n}}\nThe '''Willcrusher''' is a [[unique item|unique]] [[staff]] dropped by [[Korvald Willcrusher]], a [[boss]] in [[Sorrow's Furnace]].\n\n== Stats ==\n:[[Energy]] +15\n:[[Chaos damage]]: 11-22 (Requires 9 [[Domination Magic]])\n:Halves skill recharge of [[spell]]s (Chance: 20%)\n:Reduces [[Dazed]] duration on you by 20% (Stacking)\n:[[Health]] +30\n\n==Skin==\nThis item uses the same skin as the [[Willcrusher Staff]].\n\n==Replica==\nThis item cannot be replicated by using inscribable staves. The [[inscription]] \"Soundness of Mind\", which reduces [[dazed]], can only be applied to [[shield]]s and [[focus item]]s.\n* However, it is possible to create an exact technical replica for this item with:\n** A [[perfect]] [[staff]] drop with an [[Inherent modifier|inherent]] 20% Daze reduction\n** [[Staff Wrapping]] [[of Fortitude]]\n** [[Insightful]] [[Staff Head]]\n\n==Notes==\n* Other items with this appearance:\n**{{any}} [[Willcrusher Staff]]\n\n[[Category:Domination Magic unique items]]\n[[Category:Sorrow's Furnace unique items]]\n[[Category:Unreplicable unique items]]"
+}

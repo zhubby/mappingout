@@ -1,0 +1,444 @@
+{
+  "bosses": [
+    {
+      "id": "boss:1:441023cf86ad3728",
+      "title": "Flint Fleshcleaver",
+      "revid": 2413505,
+      "description": "石峰元素使 Boss，出现在 Grenth's Footprint。Wiki 记录有四处可能出生点；旧地图坐标仅用于指引，尚未逐点核验。",
+      "details": [
+        "等级：普通模式 28；困难模式 30",
+        "技能：Deep Freeze、Ice Spikes、Rust、Water Trident（精英）",
+        "独特掉落：Flint's Artifact、Flint's Fleshcleaver、Flint's Wand"
+      ]
+    },
+    {
+      "id": "boss:1:0a3e3895b601d21a",
+      "title": "Arlak Stoneleaf",
+      "revid": 2605231,
+      "description": "石峰矮人战士 Boss，位于 Ice Caves of Sorrow 主线任务。",
+      "details": [
+        "等级：普通模式 28；困难模式 30",
+        "技能：Cleave（精英）、For Great Justice!、Disrupting Chop、Healing Signet",
+        "掉落列表：Dwarven Armor、Stone Summit Badge、Summit Warlord Shield。"
+      ]
+    },
+    {
+      "id": "boss:3:a1ab2da4240ee0c1",
+      "title": "Chor the Bladed",
+      "revid": 2611228,
+      "description": "昆虫战士 Boss，出现在 Marga Coast。",
+      "details": [
+        "等级：普通模式 24；困难模式 30",
+        "技能：Cleave（精英）、Frenzy、Power Attack、Swift Chop",
+        "独特掉落：Chor's Axe",
+        "旧资料注明 Nundu Bay 主线期间不出现；这条出现条件尚未从当前 NPC 页面确认。"
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "id": "green:1:b445f54209589ad0",
+      "title": "Flint's Fleshcleaver",
+      "revid": 2708336,
+      "boss": "Flint Fleshcleaver",
+      "description": "Flint Fleshcleaver 在 Grenth's Footprint 掉落的独特水系长杖。",
+      "details": [
+        "冰冻伤害：11–22；需求：水系魔法 9",
+        "能量 +10",
+        "所有咒文的技能回复时间减半（几率 20%）",
+        "水系魔法咒文的施放时间减半（几率 20%）",
+        "能量 +5",
+        "体力 +30"
+      ]
+    },
+    {
+      "id": "green:1:21366c344f558c86",
+      "title": "Flint's Wand",
+      "revid": 2740733,
+      "boss": "Flint Fleshcleaver",
+      "description": "Flint Fleshcleaver 在 Grenth's Footprint 掉落的独特水系魔杖。",
+      "details": [
+        "冰冻伤害：11–22；需求：水系魔法 9",
+        "水系魔法咒文的技能回复时间减半（几率 20%）",
+        "体力高于 50% 时能量 +5"
+      ]
+    },
+    {
+      "id": "green:1:e6e696c84e6f4b60",
+      "title": "Flint's Artifact",
+      "revid": 2622113,
+      "boss": "Flint Fleshcleaver",
+      "description": "Flint Fleshcleaver 在 Grenth's Footprint 掉落的独特水系法器。",
+      "details": [
+        "能量 +12；需求：水系魔法 9",
+        "使用技能时水系魔法 +1（几率 20%）",
+        "水系魔法咒文的技能回复时间减半（几率 20%）"
+      ]
+    },
+    {
+      "id": "green:3:2f4caf8a533e5e98",
+      "title": "Chor's Axe",
+      "revid": 2708463,
+      "boss": "Chor the Bladed",
+      "description": "Chor the Bladed 在 Marga Coast 掉落的独特斧头。",
+      "details": [
+        "土系伤害：6–28；需求：精通斧术 9",
+        "体力高于 50% 时伤害 +15%",
+        "体力 +30"
+      ]
+    }
+  ],
+  "collectors": [
+    {
+      "id": "collector:1:1",
+      "title": "Arliss Vaughn",
+      "revid": 2115381,
+      "table": "Arliss Vaughn/Collector",
+      "tableRevid": 2485191,
+      "description": "位于 Skyward Reach 的收藏家，每次兑换需要 5 个 Iridescent Griffon Wing。",
+      "details": [
+        "镶宝圆环 Jeweled Chakram：能量 +12；需求幻术魔法 9；幻术咒文的施放与回复时间各有 20% 几率减半。",
+        "短杖 Truncheon：冰冻伤害 11–22；需求死亡魔法 9；死亡魔法咒文的回复时间有 20% 几率减半。",
+        "冰霜法器 Frost Artifact：能量 +12；需求水系魔法 9；水系咒文的施放与回复时间各有 20% 几率减半。",
+        "惩戒法杖 Smiting Rod：神圣伤害 11–22；需求惩戒祈祷 9；惩戒咒文的施放时间有 20% 几率减半。",
+        "奖励为四选一；旧资料中的 Light damage 在 Wiki 表格中为 Holy Dmg（神圣伤害）。"
+      ]
+    }
+  ],
+  "pets": [
+    {
+      "ids": [
+        "pet:1:1"
+      ],
+      "title": "Wolf",
+      "level": "毁灭前的狼为 2 级。",
+      "notes": [
+        "毁灭前的狼会主动攻击，仍可使用 Charm Animal 驯服。"
+      ],
+      "revid": 2667634
+    },
+    {
+      "ids": [
+        "pet:1:2"
+      ],
+      "title": "Wolf",
+      "level": "席娃山脉的 Snow Wolf 为 5 级。",
+      "notes": [
+        "雪狼是 Wolf 页面的地区变体；保留旧资料的独立编号。"
+      ],
+      "revid": 2667634
+    },
+    {
+      "ids": [
+        "pet:1:3"
+      ],
+      "title": "Wolf",
+      "level": "Spearhead Peak 的 Elder Wolf 为 15 级。",
+      "notes": [
+        "出现在 Thul The Bull 附近；可能先被石峰怪物驯服。旧名“狼王”对应此地区变体。"
+      ],
+      "revid": 2667634
+    },
+    {
+      "ids": [
+        "pet:1:4"
+      ],
+      "title": "Black Bear",
+      "level": "毁灭前为 3 级，毁灭后为 5 级。",
+      "notes": [
+        "Brutal Mauling 的攻击较慢，会降低持续伤害；不能据此认为所有熊都与其他宠物输出相同。",
+        "毁灭前的驯服方式较特殊，应参考 Wiki 专门指南。"
+      ],
+      "revid": 2742838
+    },
+    {
+      "ids": [
+        "pet:1:5"
+      ],
+      "title": "Lynx",
+      "level": "野外初始等级为 5，修正旧资料的 3 级。",
+      "notes": [],
+      "revid": 2730771
+    },
+    {
+      "ids": [
+        "pet:1:6"
+      ],
+      "title": "Moa Bird",
+      "level": "毁灭前的 Strider 通常为 1 级。",
+      "notes": [
+        "与毁灭后的 Moa Bird 属于同一 Wiki 条目，但不是同一处地图记录。"
+      ],
+      "revid": 2740516
+    },
+    {
+      "ids": [
+        "pet:1:7"
+      ],
+      "title": "Moa Bird",
+      "level": "毁灭后的阿斯卡隆恐鸟为 3 级。",
+      "notes": [
+        "北方之眼 Verdant Cascades 还存在 8 级个体；旧资料并未涵盖所有出现区域。"
+      ],
+      "revid": 2740516
+    },
+    {
+      "ids": [
+        "pet:1:8"
+      ],
+      "title": "Melandru's Stalker",
+      "level": "野外初始等级为 5。",
+      "notes": [],
+      "revid": 2730686
+    },
+    {
+      "ids": [
+        "pet:1:9",
+        "pet:3:9"
+      ],
+      "title": "Warthog",
+      "level": "页面记录初始等级 2、5，依地点而异。",
+      "notes": [
+        "未进化野猪造成钝击伤害，进化后造成砍劈伤害。"
+      ],
+      "revid": 2710868
+    },
+    {
+      "ids": [
+        "pet:1:10"
+      ],
+      "title": "Dune Lizard",
+      "level": "野外初始等级为 5。",
+      "notes": [
+        "造成穿刺伤害。"
+      ],
+      "revid": 2291773
+    },
+    {
+      "ids": [
+        "pet:2:12"
+      ],
+      "title": "Tiger",
+      "level": "一般野外个体为 3 级；Pongmei Valley 可出现 15 级 Elder Tiger。",
+      "notes": [
+        "旧资料的单一 3 级不能覆盖所有地点；节庆个体还可能为其他等级。"
+      ],
+      "revid": 2672328
+    },
+    {
+      "ids": [
+        "pet:2:13"
+      ],
+      "title": "White Tiger",
+      "level": "一般为 5 级；Melandru's Hope 可出现 15 级 Elder White Tiger。",
+      "notes": [],
+      "revid": 2706711
+    },
+    {
+      "ids": [
+        "pet:2:14"
+      ],
+      "title": "Lurker",
+      "level": "野外初始等级为 5。",
+      "notes": [
+        "Pongmei Valley 的红色 Lurker，与玉海的蓝色 Reef Lurker 不同；旧资料把两者都命名为“暗礁蟹”，本次保留两个编号。"
+      ],
+      "revid": 2610236
+    },
+    {
+      "ids": [
+        "pet:2:15"
+      ],
+      "title": "Reef Lurker",
+      "level": "一般为 5 级；Boreas Seabed 探索区可出现 15 级 Elder Crab。",
+      "notes": [
+        "这是蓝色的玉海蟹，与红色 Lurker 分开保留。"
+      ],
+      "revid": 2711237
+    },
+    {
+      "ids": [
+        "pet:2:16"
+      ],
+      "title": "Crane",
+      "level": "页面记录 3、5、15 级，依地点而异；旧资料的 6 级不正确。",
+      "notes": [
+        "Pongmei Valley 与 Nahpui Quarter 探索区有 15 级 Elder Crane。"
+      ],
+      "revid": 2693624
+    },
+    {
+      "ids": [
+        "pet:2:17"
+      ],
+      "title": "Black Moa",
+      "level": "Ferndale 的野外黑恐鸟为 20 级。",
+      "notes": [
+        "队伍至少一人完成或接近完成 The Beak of Darkness 时可出现；驯服也可以完成任务，不必击杀。"
+      ],
+      "revid": 2667469
+    },
+    {
+      "ids": [
+        "pet:2:18"
+      ],
+      "title": "Phoenix (pet)",
+      "level": "Divine Path 的凤凰为 5 级。",
+      "notes": [
+        "在完成 Imperial Sanctum 后的 Divine Path 驯服；这是 Imperial Phoenix，与 Rainbow Phoenix 不同。"
+      ],
+      "revid": 2710864
+    },
+    {
+      "ids": [
+        "pet:3:24"
+      ],
+      "title": "Flamingo",
+      "level": "页面记录 3、5 级，依地点而异。",
+      "notes": [],
+      "revid": 2635054
+    },
+    {
+      "ids": [
+        "pet:3:23",
+        "pet:4:23"
+      ],
+      "title": "Crocodile",
+      "level": "初始等级为 5。",
+      "notes": [
+        "进化后造成砍劈伤害，未进化时为穿刺伤害。旧备注“造成巨大伤害”缺乏此页面支持；本次不据此断言有额外伤害加成。",
+        "当前 Wiki 的地点列表标为未完成，旧地图地点仍需逐项复核。"
+      ],
+      "revid": 2710870
+    },
+    {
+      "ids": [
+        "pet:3:22"
+      ],
+      "title": "Lioness",
+      "level": "通常为 5 级；Jahai Bluffs 的可驯服敌对个体为 12 级。",
+      "notes": [
+        "Jahai Bluffs 的狮群只在完成 The Great Zehtuka 之前出现；旧资料把条件写反了。"
+      ],
+      "revid": 2683922
+    },
+    {
+      "ids": [
+        "pet:3:21"
+      ],
+      "title": "Lion",
+      "level": "通常为 5 级；Jahai Bluffs 的可驯服敌对个体为 12 级。",
+      "notes": [
+        "Jahai Bluffs 的狮群只在完成 The Great Zehtuka 之前出现；旧资料把条件写反了。"
+      ],
+      "revid": 2353634
+    },
+    {
+      "ids": [
+        "pet:3:20"
+      ],
+      "title": "Jahai Rat",
+      "level": "页面记录初始等级 3、5，依地点而异。",
+      "notes": [
+        "此处对应可驯服的 Jahai Rat；不是历史装饰 NPC Rat，也不是白化鼠 Albino Rat。"
+      ],
+      "revid": 2232408
+    },
+    {
+      "ids": [
+        "pet:3:19"
+      ],
+      "title": "Hyena",
+      "level": "可驯服野外个体为 5 级。",
+      "notes": [
+        "野外名为 Elder Hyena 的敌人不能驯服，不能仅凭外观视为宠物。"
+      ],
+      "revid": 2489782
+    },
+    {
+      "ids": [
+        "pet:4:34"
+      ],
+      "title": "Raven",
+      "level": "野外初始等级为 5。",
+      "notes": [
+        "Sacnoth Valley 有两处个体；高台上的乌鸦可能需要等待它进入 Charm Animal 的施放范围。"
+      ],
+      "revid": 2697981
+    },
+    {
+      "ids": [
+        "pet:4:31"
+      ],
+      "title": "Iguana",
+      "level": "野外初始等级为 5。",
+      "notes": [
+        "旧名“蜥蜴”在 Arbor Bay、Riven Earth、Magus Stones 的地点组合对应 Iguana，而不是水晶沙漠的 Dune Lizard。"
+      ],
+      "revid": 2597707
+    },
+    {
+      "ids": [
+        "pet:4:27"
+      ],
+      "title": "White Wolf",
+      "level": "野外初始等级为 5。",
+      "notes": [
+        "Drakkar Lake 的狼灵圣所随机出现 White Wolf 或 Black Wolf。"
+      ],
+      "revid": 2658863
+    },
+    {
+      "ids": [
+        "pet:4:29"
+      ],
+      "title": "White Moa",
+      "level": "野外初始等级为 5。",
+      "notes": [
+        "群体出现概率很低，可能需要多次重新进入区域。白恐鸟的攻击速度没有普通 Moa Bird 的额外优势。"
+      ],
+      "revid": 2742209
+    },
+    {
+      "ids": [
+        "pet:4:26"
+      ],
+      "title": "Polar Bear",
+      "level": "可驯服野外个体为 5 级。",
+      "notes": [
+        "不使用黑熊的 Brutal Mauling。A Hunter's Pride 中的 20 级（困难模式 26 级）个体不能驯服。"
+      ],
+      "revid": 2710871
+    },
+    {
+      "ids": [
+        "pet:4:25"
+      ],
+      "title": "Mountain Eagle",
+      "level": "野外初始等级为 5。",
+      "notes": [],
+      "revid": 2688339
+    },
+    {
+      "ids": [
+        "pet:4:32"
+      ],
+      "title": "Rainbow Phoenix",
+      "level": "纪念碑殿堂出现的七彩凤凰初始为 5 级，修正旧资料的 20 级。",
+      "notes": [
+        "纪念碑殿堂：单独进入，不带英雄、佣兵或其他玩家；挂上四幅挂毯，完成 A Time for Heroes。",
+        "Wiki 列出 People Know Me（10 个满级称号）路径；也列出 Kind of a Big Deal（5 个）加上大量纪念碑进度的路径，但后者准确门槛未知。",
+        "Wiki 另有不满足所列条件却出现的异常报告，因此这些不是已在游戏内验证的完整充分必要条件。",
+        "还可通过战承动物园解锁；七彩凤凰不能由英雄驯服。"
+      ],
+      "revid": 2710865
+    }
+  ],
+  "locationNotes": {
+    "loc:4d3780c7905069d1": {
+      "title": "Flint Fleshcleaver",
+      "revid": 2413505,
+      "text": "Wiki 记录在 Grenth's Footprint 的四处可能出生点之一出现。旧图标记仅用于指引，尚未逐点核验。"
+    }
+  }
+}

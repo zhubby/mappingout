@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Inspiration Magic unique items",
+  "pageid": 221867,
+  "revid": 1685519,
+  "revisedAt": "2009-09-17T08:50:03Z",
+  "sha1": "bb0f5dca1bfdda2733db156c44741b569d87be69",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Inspiration_Magic_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Inspiration%20Magic%20unique%20items&oldid=1685519",
+  "retrievedAt": "2026-11-13T02:27:59.347Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Inspiration Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Inspiration Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Inspiration Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by attribute|Inspiration Magic]]\n[[Category:Mesmer unique items|+]]"
+}

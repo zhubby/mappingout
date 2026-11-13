@@ -1,0 +1,11 @@
+{
+  "title": "Spoil Victor (PvP)",
+  "pageid": 268912,
+  "revid": 2630088,
+  "revisedAt": "2018-06-18T17:51:24Z",
+  "sha1": "5ef1395b2446ee593310b7348334985298883eca",
+  "url": "https://wiki.guildwars.com/wiki/Spoil_Victor_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Spoil%20Victor%20(PvP)&oldid=2630088",
+  "retrievedAt": "2026-11-13T01:08:10.023Z",
+  "wikitext": "{{pveversion|Spoil Victor}}\n{{Skill infobox\n| id = 3233\n| name = Spoil Victor (PvP)\n| campaign = Factions\n| profession = Necromancer\n| attribute = Blood Magic\n| type = Hex Spell\n| elite = y\n| energy = 10\n| activation = 1\n| recharge = 10\n| causes1 = Health Loss\n| description = [[Elite]] [[Hex Spell]]. For {{gr|3|15}} seconds, whenever [[target]] [[foe]] [[attack]]s or casts a [[spell]] on a [[creature]] with less [[Health]] that foe [[Health loss|loses]] {{gr|15|75}} Health.\n| concise description = Elite Hex Spell. ({{gr|3|15}} seconds.) Causes {{gr|15|75}} Health loss whenever target foe attacks or casts spells on a creature with less Health.\n| is-pvp = y \n}}\n\n{{Skill progression\n| attribute = [[Blood Magic]]\n| var1 name = [[Duration]]\n| var1 at0 = 3\n| var1 at15 = 15\n| var2 name = [[Health loss]]\n| var2 at0 = 15\n| var2 at15 = 75}}\n\n== Related skills ==\n* {{skill icon|Backfire}}\n* {{skill icon|Empathy (PvP)}}\n* {{skill icon|Insidious Parasite}}\n* {{skill icon|Soul Leech}} ([[elite]])\n* {{skill icon|Spiteful Spirit}} (elite)\n\n== Notes ==\n* This skill will trigger when a healer casts a [[heal]]ing spell on an [[ally]] with less health; however, self-targeting a healing spell will not cause health loss. [[Resurrection|Resurrecting]] an ally with a spell will also trigger Spoil Victor.\n\n== Trivia ==\n* This skill's name seems to be a pun on the saying \"to the victor go the spoils\", which is derived from the \"to the victor belong the spoils\", a quote from 19th century US Senator [[w:William L. Marcy|William L. Marcy]].\n\n[[de:Sieger plündern (PvP)]]"
+}

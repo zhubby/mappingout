@@ -1,0 +1,11 @@
+{
+  "title": "Kournan Siege Engineer",
+  "pageid": 19100,
+  "revid": 2680575,
+  "revisedAt": "2022-08-27T22:45:32Z",
+  "sha1": "1fbc1c0e3c168508de8e293f9c2f4d6a212868ee",
+  "url": "https://wiki.guildwars.com/wiki/Kournan_Siege_Engineer",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kournan%20Siege%20Engineer&oldid=2680575",
+  "retrievedAt": "2026-11-13T02:15:27.866Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| affiliation = Kournan military\n| type = Human\n| image = [[File:Kournan Guard m.jpg|x400px]]\n| profession = Mesmer\n| level = 20 (26)\n| campaign = Nightfall\n}}\n[[Kournan Siege Engineer]]s are members of the [[Kournan military]]. They operate the defensive siege equipment, such as the [[firespitter]]s, in the [[Consulate Docks]] mission.\n\n==Missions==\n*[[Kourna]]\n**{{NPC location|Consulate Docks}}\n\n==Skills==\n*{{skill icon|Ether Feast}}\n*{{skill icon|Leech Signet}}\n*{{skill icon|Mantra of Inscriptions}}\n*{{skill icon|Signet of Humility}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = me\n| blunt = 60\n| piercing = 60\n| slashing = 60\n| cold = 60\n| earth = 60\n| fire = 60\n| lightning = 60\n}}"
+}

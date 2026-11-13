@@ -1,0 +1,11 @@
+{
+  "title": "Secret Keeper",
+  "pageid": 49933,
+  "revid": 1017946,
+  "revisedAt": "2008-07-28T13:40:32Z",
+  "sha1": "99a00fc3d5d8215c46526bea39ca1d2bab89dc53",
+  "url": "https://wiki.guildwars.com/wiki/Secret_Keeper",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Secret%20Keeper&oldid=1017946",
+  "retrievedAt": "2026-11-13T01:12:16.097Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Tormented Soul f.jpg|150px]]\n| type = Ghost\n| service = Collector\n| level = 20\n| campaign = Nightfall\n}}\nThe [[Secret Keeper]]s are [[collectors]] found in the [[Gate of Torment]]. There are three Secret Keepers, and while each collect [[Inscribed Secret]]s, the items offered and the number of Inscribed Secrets requested for vary.\n\n==Location==\n*[[Realm of Torment]]\n**{{NPC location|Gate of Torment}}\n\n==Dialogue==\n:''\"Tell me a secret. For <FONT COLOR=\"#cc0000\">X</FONT> Inscribed Secrets, I will give you this in return:\"''\n\n==Collector items==\n{{:Secret Keeper/Collector}}"
+}

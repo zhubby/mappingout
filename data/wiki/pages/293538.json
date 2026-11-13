@@ -1,0 +1,11 @@
+{
+  "title": "Mind Freeze (PvP)",
+  "pageid": 293538,
+  "revid": 2733294,
+  "revisedAt": "2026-07-05T17:26:27Z",
+  "sha1": "9e6d855c40886c7f7605f52eb792fc3b72ff6cf1",
+  "url": "https://wiki.guildwars.com/wiki/Mind_Freeze_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mind%20Freeze%20(PvP)&oldid=2733294",
+  "retrievedAt": "2026-11-13T01:08:09.133Z",
+  "wikitext": "{{Pveversion|Mind Freeze}}\n__NOTOC__{{Skill infobox\n| id = 2803\n| name = Mind Freeze (PvP)\n| is-pvp = y\n| campaign = Core\n| profession = Elementalist\n| attribute = Water Magic\n| type = Hex Spell\n| elite = y\n| energy = 10\n| recharge = 5\n| activation = 1\n| overcast = 5\n| causes1 = Cold Damage\n| causes2 = Decreased Movement Speed\n| description = [[Elite]] [[Hex Spell]]. [[Target]] [[foe]] takes {{gr|10|60}} [[cold damage]]. If you have more [[Energy]] than target foe, that foe suffers an additional {{gr|10|60}} cold damage and [[Snare (tactic)|moves 90% slower]] for {{gr|1|5}} seconds.\n| concise description = Elite Hex Spell. Deals {{gr|10|60}} cold damage. If you have more Energy than target foe, deals {{gr|10|60|+}} cold damage and causes 90% slower movement ({{gr|1|5}} second[s]).\n}}\n\n{{Skill progression\n|attribute = [[Water Magic]]\n|var1 name = [[Cold damage]]\n|var1 at0 = 10\n|var1 at15 = 60\n|var2 name = + Cold damage\n|var2 at0 = 10\n|var2 at15 = 60\n|var3 name = [[Duration]]\n|var3 at0 = 1\n|var3 at15 = 5}}\n\n== Related skills ==\n* {{skill icon|Mind Burn}} ([[elite]])\n* {{skill icon|Mind Shock (PvP)}} (elite)\n\n== Notes ==\n* Temporarily swap to a [[weapon swap#Energy|high-energy set]] if you think you'll need the boost to have more energy than your target.\n\n== Trivia ==\n{{Skill change}}\n\n[[de:Geistige Erfrierung (PvP)]]"
+}

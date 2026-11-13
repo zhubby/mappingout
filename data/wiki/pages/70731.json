@@ -1,0 +1,11 @@
+{
+  "title": "G.O.L.E.M. 1.0",
+  "pageid": 70731,
+  "revid": 2633903,
+  "revisedAt": "2018-09-18T13:47:25Z",
+  "sha1": "3d7038f6a2c3ac3774c78530e7a4d3859c520a75",
+  "url": "https://wiki.guildwars.com/wiki/G.O.L.E.M._1.0",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=G.O.L.E.M.%201.0&oldid=2633903",
+  "retrievedAt": "2026-11-13T02:16:08.388Z",
+  "wikitext": "{{NPC infobox\n|image = [[Image:Golem.jpg|150px]]\n| type = Golem\n| affiliation = Asura\n| profession = d\n| level = 20\n| campaign = Eye of the North\n}}__NOTOC__\n\n[[G.O.L.E.M. 1.0]]s are summoned by dropping an [[Asuran Beacon]]. During [[Genius Operated Living Enchanted Manifestation]] your party can summon up to 2 golems, in [[Riven Earth]] you can only summon one.\n\n== Locations ==\n* [[Tarnished Coast]]\n** {{NPC location|Riven Earth}} (after [[Genius Operated Living Enchanted Manifestation]])\n\n==Missions==\n*Tarnished Coast\n**{{NPC location|Genius Operated Living Enchanted Manifestation}}\n\n== Skills ==\n* {{monster skill icon|Bloodstone Slash}}\n* {{monster skill icon|Energy Blast (golem)}}\n* {{monster skill icon|Golem Boosters}}\n* {{monster skill icon|Vitality Transfer}}\n\n== Dialogue ==\nWhen \"talking\" to the Golem, you will alternately get one of two responses.\n: ''\"I'll wait here until you're ready.\"''\n: ''\"<Character Name>, I'll follow you.\"''\n\n== Notes ==\n*The golem is considerably slower than players and will stop moving if its leader goes out of compass range."
+}

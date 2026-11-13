@@ -1,0 +1,11 @@
+{
+  "title": "Vardis",
+  "pageid": 52193,
+  "revid": 2535376,
+  "revisedAt": "2013-02-25T09:13:46Z",
+  "sha1": "834d63f2320f79c922d21c67d7c9e436cc2e4b06",
+  "url": "https://wiki.guildwars.com/wiki/Vardis",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vardis&oldid=2535376",
+  "retrievedAt": "2026-11-13T01:10:25.332Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| affiliation = Tyrians\n| image = [[File:Ascalon m hatless.jpg|150px]]\n| type = Human\n| service = Collector\n| level = 1 (20)\n| campaign = Prophecies\n| map1 = [[File:Vardis map.jpg|150px]]\n| map1-text = Location in Stingray Strand\n| map2 = [[File:Stingray Strand collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Vardis]] is an armor collector, a type of [[Non-player character|NPC]] that trades [[Trophy|trophies]] for [[armor]].\n\n==Locations==\n*[[Kryta]]\n**{{NPC location|Stingray Strand}}\n\n==Dialogue==\n:''\"I'm searching for 5 Spiked Crests. I can offer you one of the following items in exchange. Can you help me?\"''\n\n{{collector no armor trade dialogue|Spiked Crests}}\n\n==Collector items==\n{{:Vardis/Collector armor}}"
+}

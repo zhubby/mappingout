@@ -1,0 +1,11 @@
+{
+  "title": "Leopold",
+  "pageid": 31367,
+  "revid": 2547637,
+  "revisedAt": "2013-05-25T03:32:02Z",
+  "sha1": "850a07d562505cbea2fd855bb863849744d95421",
+  "url": "https://wiki.guildwars.com/wiki/Leopold",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Leopold&oldid=2547637",
+  "retrievedAt": "2026-11-13T02:14:52.878Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Kurzick priest.jpg|150px]]\n| affiliation = Kurzicks\n| type = Human\n| service = Rare scroll trader\n| level = 20\n| campaign = Factions\n}}\n[[Leopold]] is a [[rare scroll trader]], a type of [[NPC]] that buys and sells rare [[scroll]]s.\n\n==Locations==\n*[[Echovald Forest]]\n**{{NPC location|House zu Heltzer}}\n\n==Dialogue==\n{{Kurzick-only service NPC dialogue|skill trainer=n}}\n{{trader dialogue}}\n\n==Scrolls offered==\n{| {{STDT}}\n! Scroll || Description || Value\n|-\n| [[Scroll of Hero's Insight]] || For 10 minutes your party gains double XP from combat. || 400 {{gold}}\n|-\n| [[Scroll of Berserker's Insight]] || Your party gains triple XP from combat. Berserker's Insight ends if your party fails to kill a foe for 30 seconds. || 400 {{gold}}\n|-\n| [[Scroll of Slayer's Insight]] || Your party gains 250% XP from combat. Slayer's Insight ends if your party fails to kill a boss for 5 minutes. || 400 {{gold}}\n|-\n| [[Scroll of the Lightbringer]] || For 10 minutes your party gains triple XP from combat || 800 {{gold}}\n|-\n| [[Passage Scroll to Urgoz's Warren]] || Double-click to teleport yourself to Urgoz's Warren. || 100 {{gold}}\n|-\n| [[Passage Scroll to the Underworld]] || Double-click to teleport your party to the Underworld. || 500 {{gold}}\n|-\n| [[Passage Scroll to the Deep]] || Double-click to teleport yourself to the Deep. || 100 {{gold}}\n|-\n| [[Passage Scroll to the Fissure of Woe]] || Double-click to teleport your party to the Fissure of Woe || 500 {{gold}}\n|}"
+}

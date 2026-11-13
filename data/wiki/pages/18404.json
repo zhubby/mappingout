@@ -1,0 +1,11 @@
+{
+  "title": "Ian Borish",
+  "pageid": 18404,
+  "revid": 2535353,
+  "revisedAt": "2013-02-25T09:05:48Z",
+  "sha1": "72057792da8d34555dddddc4457c67ba48411cda",
+  "url": "https://wiki.guildwars.com/wiki/Ian_Borish",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ian%20Borish&oldid=2535353",
+  "retrievedAt": "2026-11-13T01:10:16.446Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File: Ascalon crafter m.jpg|120px]]\n| type = Human\n| affiliation = Tyrians\n| service = Collector\n| level = 2 (20)\n| campaign = Prophecies\n| map1 = [[File:Ian Borish map.jpg|150px]]\n| map1-text = Location in the Black Curtain\n| map2 = [[File:The Black Curtain collectors map.jpg|150px]]\n| map2-text = Location }}\n[[Ian Borish]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for armor.\n\n== Locations ==\n*[[Kryta]]\n**{{NPC location|The Black Curtain}}\n\n==Dialogue==\n:''\"I'm searching for 5 [[Shadowy Remnants]]. I can offer you one of the following items in exchange. Can you help me?\"''\n\n{{collector no armor trade dialogue|Shadowy Remnants}}\n\n==Collector items==\n{{:Ian Borish/Collector armor}}"
+}

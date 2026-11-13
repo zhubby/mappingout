@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of monk unique items",
+  "pageid": 91557,
+  "revid": 1696813,
+  "revisedAt": "2009-09-23T17:50:30Z",
+  "sha1": "3eaadb4323e122c06516edd13e0776b1a5868cd1",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_monk_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20monk%20unique%20items&oldid=1696813",
+  "retrievedAt": "2026-11-13T02:27:59.343Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Divine Favor unique items | Healing Prayers unique items | Protection Prayers unique items | Smiting Prayers unique items | Variable attribute unique items | Monk unique items \n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Divine Favor unique items | Healing Prayers unique items | Protection Prayers unique items | Smiting Prayers unique items | Variable attribute unique items | Monk unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Divine Favor unique items | Healing Prayers unique items | Protection Prayers unique items | Smiting Prayers unique items | Variable attribute unique items | Monk unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by profession|Monk]]\n[[Category:Monk unique items|+]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Healing Prayers unique items",
+  "pageid": 221870,
+  "revid": 1685523,
+  "revisedAt": "2009-09-17T08:56:21Z",
+  "sha1": "1b31bc404ef2acc462b85402b5e0b1fe9ac13c48",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Healing_Prayers_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Healing%20Prayers%20unique%20items&oldid=1685523",
+  "retrievedAt": "2026-11-13T02:27:59.348Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Healing Prayers unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Healing Prayers unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Healing Prayers unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by attribute|Healing Prayers]]\n[[Category:Monk unique items|+]]"
+}

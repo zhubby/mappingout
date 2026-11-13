@@ -1,0 +1,11 @@
+{
+  "title": "Mind Shock (PvP)",
+  "pageid": 293537,
+  "revid": 2733295,
+  "revisedAt": "2026-07-05T17:26:56Z",
+  "sha1": "f058229e5a3a2d60bbd038dd0134d3bcceaaf79b",
+  "url": "https://wiki.guildwars.com/wiki/Mind_Shock_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mind%20Shock%20(PvP)&oldid=2733295",
+  "retrievedAt": "2026-11-13T01:08:09.133Z",
+  "wikitext": "{{Pveversion|Mind Shock}}\n__NOTOC__{{Skill infobox\n| id = 2804\n| name = Mind Shock (PvP)\n| is-pvp = y\n| campaign = Prophecies\n| profession = Elementalist\n| attribute = Air Magic\n| type = Spell\n| elite = y\n| energy = 5\n| recharge = 8\n| activation = 1\n| overcast = 10\n| target = foes\n| range = Casting\n| aoe = none\n| causes1 = Lightning Damage\n| causes2 = Knockdown\n| causes3 = Armor Penetration\n| description = [[Elite]] [[Spell]]. [[Target]] [[foe]] suffers {{gr|10|50}} [[lightning damage]]. If you have more [[Energy]] than target foe, that foe suffers {{gr|10|50}} more lightning damage and is [[knocked down]]. This spell has 25% [[armor penetration]].\n| concise description = Elite Spell. Deals {{gr|10|50}} lightning damage. If you have more Energy than target foe, deals {{gr|10|50|+}} lightning damage and causes knockdown. 25% armor penetration.\n}}\n\n{{Skill progression\n|attribute = [[Air Magic]]\n|var1 name = [[Lightning damage]]\n|var1 at0 = 10\n|var1 at15 = 50\n|var2 name = + Lightning damage\n|var2 at0 = 10\n|var2 at15 = 50}}\n\n== Related skills ==\n* {{skill icon|Mind Burn}} ([[elite]])\n* {{skill icon|Mind Freeze (PvP)}} (elite)\n\n== Notes ==\n* Temporarily swap to a [[weapon swap#Energy|high-energy set]] if you think you'll need the boost to have more energy than your target. \n* Especially potent in environments with opportunities to clear exhaustion ([[flag running]], [[splitting]]) and [[Random Arenas]] - since matches tend to be short, you'll often kill the other team or lose before exhausting out)\n\n==Trivia==\n*This skill has changed since its introduction; see its [[Mind Shock/Skill history|PvE skill history]] and its [[Mind Shock (PvP)/Skill history|PvP skill history]] for details.\n\n[[de:Geistiger Schock (PvP)]]"
+}

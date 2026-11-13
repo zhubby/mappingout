@@ -1,0 +1,11 @@
+{
+  "title": "Template:Gr",
+  "pageid": 8043,
+  "revid": 2732768,
+  "revisedAt": "2026-07-04T18:25:54Z",
+  "sha1": "014ab3295b8733ebb87729417c8a84e4ad736133",
+  "url": "https://wiki.guildwars.com/wiki/Template:Gr",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3AGr&oldid=2732768",
+  "retrievedAt": "2026-11-13T01:08:10.944Z",
+  "wikitext": "<includeonly>{{#switch:{{{3}}}|-=&#45;|+=&#43;|}}<span style=\"color: green; font-weight: bold;\">{{{1|0}}}...{{ #expr: ( {{{1|0}}} + 12 * ( {{{2|0}}} - {{{1|0}}} ) / 15 ) round 0 }}...{{{2|0}}}</span>{{#ifeq:{{{4}}}|%|&#37;|}}</includeonly><noinclude>\n== Usage ==\nTo simplify the insertion of green number ranges within skill descriptions. The output of this template will provide green numbers for attribute ranks 0, 12 & 15, each separated by ellipses. For skills which do not follow the 0...12...15 progression, such as [[Spectral Agony]] or [[Turtle Shell]], use {{tl|gr2}}.\n\n<pre>{{gr|<rank 0 value>|<rank 15 value>}}</pre>\n\n; ''(unnamed parameter 1)''\n: Skill progression at attribute rank 0\n; ''(unnamed parameter 2)''\n: Skill progression at attribute rank 15\n; ''(unnamed parameter 3)''\n: If set to <code>-</code> or <code>+</code>, inserts the respective sign before the progression.\n; ''(unnamed parameter 4)''\n: If set to <code>%</code>, inserts a percent sign after the progression.\n\n== Example ==\n<code><nowiki>{{gr|10|100}}</nowiki></code> will parse to {{gr|10|100}}.\n\n<code><nowiki>{{gr|10|100|-}}</nowiki></code> will parse to {{gr|10|100|-}}.\n\n<code><nowiki>{{gr|10|100|+}}</nowiki></code> will parse to {{gr|10|100|+}}.\n\n<code><nowiki>{{gr|10|100||%}}</nowiki></code> will parse to {{gr|10|100||%}}.\n\n<code><nowiki>{{gr|10|100|+|%}}</nowiki></code> will parse to {{gr|10|100|+|%}}.\n\n<code><nowiki>{{gr|10|100|whatever|nope}}</nowiki></code> will ignore the 3rd and 4th parameter and parse to {{gr|10|100|whatever|nope}}.\n\n[[Category:Formatting templates|Gr]]\n[[Category:Skill templates|Gr]]</noinclude>"
+}

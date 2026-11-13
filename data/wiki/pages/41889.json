@@ -1,0 +1,11 @@
+{
+  "title": "Phoebe",
+  "pageid": 41889,
+  "revid": 2723847,
+  "revisedAt": "2026-04-01T23:07:57Z",
+  "sha1": "402317134e9a8832c67058dde50329c256880063",
+  "url": "https://wiki.guildwars.com/wiki/Phoebe",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Phoebe&oldid=2723847",
+  "retrievedAt": "2026-11-13T02:14:56.982Z",
+  "wikitext": "{{Otheruses 2|the rare scroll trader|the pet|Phoebe (pet)}}\n__NOTOC__{{NPC infobox\n| image = [[Image:Luxon elementalist.jpg|150px]]\n| affiliation = Luxons\n| type = Human\n| service = Rare scroll trader\n| level = 20\n| campaign = Factions\n}}\n[[Phoebe]] is a [[rare scroll trader]], a type of [[NPC]] that buys and sells rare [[scroll]]s.\n\n==Locations==\n*[[The Jade Sea]]\n**{{NPC location|Cavalon}}\n\n==Dialogue==\n{{Luxon-only service NPC dialogue|skill trainer=n}}\n{{trader dialogue}}\n\n==Scrolls offered==\n{| {{STDT}}\n! Scroll || Description || Value\n|-\n| [[Scroll of Hero's Insight]] || For 10 minutes your party gains double XP from combat. || 400 {{gold}}\n|-\n| [[Scroll of Berserker's Insight]] || Your party gains triple XP from combat. Berserker's Insight ends if your party fails to kill a foe for 30 seconds. || 400 {{gold}}\n|-\n| [[Scroll of Slayer's Insight]] || Your party gains 250% XP from combat. Slayer's Insight ends if your party fails to kill a boss for 5 minutes. || 400 {{gold}}\n|-\n| [[Scroll of the Lightbringer]] || For 10 minutes your party gains triple XP from combat || 800 {{gold}}\n|-\n| [[Passage Scroll to Urgoz's Warren]] || Double-click to teleport yourself to Urgoz's Warren. || 100 {{gold}}\n|-\n| [[Passage Scroll to the Underworld]] || Double-click to teleport your party to the Underworld. || 500 {{gold}}\n|-\n| [[Passage Scroll to the Deep]] || Double-click to teleport yourself to the Deep. || 100 {{gold}}\n|-\n| [[Passage Scroll to the Fissure of Woe]] || Double-click to teleport your party to the Fissure of Woe || 500 {{gold}}\n|}"
+}

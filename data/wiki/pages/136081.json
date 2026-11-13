@@ -1,0 +1,11 @@
+{
+  "title": "Light of Deliverance (PvP)",
+  "pageid": 136081,
+  "revid": 2738566,
+  "revisedAt": "2026-08-26T21:59:09Z",
+  "sha1": "6f93567fdb1ba35b09f5adf7add3cdcf1dca1200",
+  "url": "https://wiki.guildwars.com/wiki/Light_of_Deliverance_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Light%20of%20Deliverance%20(PvP)&oldid=2738566",
+  "retrievedAt": "2026-11-13T01:08:09.126Z",
+  "wikitext": "{{Pveversion|Light of Deliverance}}\n{{Skill infobox\n| name = Light of Deliverance (PvP)\n| id = 2871\n| campaign = Nightfall\n| profession = Monk\n| attribute = Healing Prayers\n| type = Spell\n| elite = y\n| is-pvp = y\n| energy = 5\n| activation = 1\n| recharge = 8\n| causes1 = Healing\n| causes2 = Disable\n| description = [[Elite]] [[Spell]]. All [[party]] members are [[heal]]ed for {{gr|5|70}} [[Health]]. All your [[Smiting Prayers]] are [[disable]]d for 20 seconds.\n| concise description = Elite Spell. Heals entire party for {{gr|5|70}}. {{gray|Disables your Smiting Prayers (20 seconds).}}\n| aoe = party\n| target = self\n}}\n\n{{Skill progression\n| attribute = [[Healing Prayers]]\n| var1 name = [[Heal]]ing\n| var1 at0 = 5\n| var1 at15 = 70}}\n\n== Related skills ==\n*{{duplicate skill icon|Divine Healing|Heaven's Delight}}\n*{{skill icon|Heal Party (PvP)}}\n*{{skill icon|Protective Was Kaolai}}\n*{{skill icon|Mystic Healing (PvP)}}\n\n== See also ==\n*[[Party healing]]\n\n[[de:Licht der Erlösung (PvP)]]"
+}

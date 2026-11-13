@@ -1,0 +1,11 @@
+{
+  "title": "Indestructible Golem",
+  "pageid": 81406,
+  "revid": 2709073,
+  "revisedAt": "2025-06-14T20:06:22Z",
+  "sha1": "b2a283ce5acd5d268be5ae93d61b62cec6077e83",
+  "url": "https://wiki.guildwars.com/wiki/Indestructible_Golem",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Indestructible%20Golem&oldid=2709073",
+  "retrievedAt": "2026-11-13T01:16:11.968Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Sinister Golem warrior aura.jpg|172px]]\n| type = Golem\n| profession = Warrior\n| level = 24 (30)\n| boss = y\n| campaign = Eye of the North\n}}\nThe [[Indestructible Golem]] is [[Oola]]'s creation and her last line of defense before the heroes reach her lab. It cannot take damage from most sources because of [[Temporal Sheen]]. To defeat the Indestructible Golem, pick up the nearby [[Flux Matrix]], charge it at the [[Unstable Magical Energy Storage]], and drop it near the Golem. The Golem will take significant damage; repeat this until it is destroyed.\n\n==Missions==\n*[[Depths of Tyria]]\n**{{NPC location|The Elusive Golemancer}}\n\n==Skills==\n*{{Skill icon|Auspicious Blow}}\n*{{Skill icon|Enraged Smash}} ([[elite]])\n*{{Skill icon|Fierce Blow}}\n*{{Skill icon|Irresistible Blow}}\n*{{Skill icon|Mighty Blow}}\n*{{Skill icon|Staggering Blow}}\n*{{monster skill icon|Temporal Sheen}}\n\n==Items dropped==\n*[[Golem Runestone]]\n\n==Notes==\n*The golem has an aggro bubble of spirit range, and will pull a full compass range from its spawn point.\n*The golem does not regenerate health.\n*The golem is immune to damage and degeneration, but is vulnerable to life steal and direct health loss, and can have its health lowered by a [[Deep Wound]].\n\n== See also ==\n* [[Malfunctioning Enduring Golem]]"
+}

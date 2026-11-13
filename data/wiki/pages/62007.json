@@ -1,0 +1,11 @@
+{
+  "title": "Damak/Collector armor",
+  "pageid": 62007,
+  "revid": 2484951,
+  "revisedAt": "2012-05-11T19:13:05Z",
+  "sha1": "046e8a19d71b1bef052f321010def507d38b45c4",
+  "url": "https://wiki.guildwars.com/wiki/Damak/Collector_armor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Damak%2FCollector%20armor&oldid=2484951",
+  "retrievedAt": "2026-11-13T01:52:36.523Z",
+  "wikitext": "==== [[Damak]] ====\n'''Location:''' [[Lahtenda Bog]], just North of the tip of the inlet on the East coast.<br>\n'''Collecting:''' 3 [[Silver Bullion Coin]]s\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! [[Profession]] !! Item Name !! [[Armor rating|AR]] !! Other Modifiers !! Value\n|-\n| {{w}} [[Warrior]] || [[Warrior Istani armor|Istani Cuirass]] || 65 || [[Armor]] +20 (vs. [[physical damage]]) || 30 {{gold}}\n|-\n| {{r}} [[Ranger]] || [[Ranger Istani armor|Istani Vest]] || 55 || Armor +30 (vs. [[elemental damage]]) || 30 {{gold}}\n|-\n| {{mo}} [[Monk]] || [[Monk Istani armor|Istani Vestments]] || 45 || [[Energy]] +5 || 30 {{gold}}\n|-\n| {{n}} [[Necromancer]] || [[Necromancer Istani armor|Istani Tunic]] || 45 || Energy +5 || 30 {{gold}}\n|-\n| {{me}} [[Mesmer]] || [[Mesmer Istani armor|Istani Attire]] || 45 || Energy +5 || 30 {{gold}}\n|-\n| {{e}} [[Elementalist]] || [[Elementalist Istani armor|Istani Robes]]  || 45 || Energy +5 || 30 {{gold}}\n|-\n| {{p}} [[Paragon]] || [[Paragon Elonian armor|Elonian Raiment]] || 65 || Energy +5 || 30 {{gold}}\n|-\n| {{d}} [[Dervish]] || [[Dervish Elonian armor|Elonian Robes]] || 55 || [[Health]] +25 || 30 {{gold}}\n|}<noinclude>\n[[Category:Armor collector subpages]]\n</noinclude>"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Fire Magic unique items",
+  "pageid": 221862,
+  "revid": 1685491,
+  "revisedAt": "2009-09-17T08:13:37Z",
+  "sha1": "6e6b8f7debd2ad1a30ccb87a30dde14d45c6ca4d",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Fire_Magic_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Fire%20Magic%20unique%20items&oldid=1685491",
+  "retrievedAt": "2026-11-13T02:27:59.346Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Fire Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Fire Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Fire Magic unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by attribute|Fire Magic]]\n[[Category:Necromancer unique items|+]]"
+}

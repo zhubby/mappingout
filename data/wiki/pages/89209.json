@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of unique daggers",
+  "pageid": 89209,
+  "revid": 2586117,
+  "revisedAt": "2015-04-26T22:08:07Z",
+  "sha1": "d945ffe16589d22422e40bc14c86a8ab43bc7ca4",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_unique_daggers",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20unique%20daggers&oldid=2586117",
+  "retrievedAt": "2026-11-13T02:27:56.383Z",
+  "wikitext": "<dpl>\n  category = Unique daggers\n  category = Dagger Mastery unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by type|Daggers]]\n[[Category:Unique item galleries by attribute|Dagger Mastery]]\n[[Category:Unique daggers|+]]\n[[Category:Unique item galleries by profession|Assassin]]\n[[Category:Assassin unique items|+]]"
+}

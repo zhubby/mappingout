@@ -1,0 +1,11 @@
+{
+  "title": "Scourge of Candy",
+  "pageid": 290432,
+  "revid": 2721714,
+  "revisedAt": "2026-02-23T16:01:01Z",
+  "sha1": "72af6f181fe0db0d0d2dfe8e036a065e1886cb97",
+  "url": "https://wiki.guildwars.com/wiki/Scourge_of_Candy",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Scourge%20of%20Candy&oldid=2721714",
+  "retrievedAt": "2026-11-13T01:08:10.023Z",
+  "wikitext": "{{skill-stub}}\n{{Skill infobox\n| name = Scourge of Candy\n| id = 2766\n| profession = Monster\n| special = Monster\n| campaign = Prophecies\n| campaign2 = Nightfall\n| type = Spell\n| elite = y\n| energy = 5\n| activation = {{1/4}}\n| recharge = 5\n| target = foes\n| range = Casting\n| causes1 = Dazed\n| aoe = nearby\n| description = \n| concise description = Elite Spell. Target foe and nearby foes are struck for 200 damage and suffer from Dazed for 5 seconds.\n}}\n\n==Related skills==\n*{{monster skill icon|Maddening Laughter}} ([[elite]])\n\n==Notes==\n*This skill is used by [[Palawa Joko]] during [[Scarred Psyche]].\n\n[[de:Geißel des Kandis]]"
+}

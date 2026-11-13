@@ -1,0 +1,11 @@
+{
+  "title": "Mad King Pony Support",
+  "pageid": 290220,
+  "revid": 2629664,
+  "revisedAt": "2018-06-18T17:36:15Z",
+  "sha1": "5e3e1ad3071cd93647f2c9a7bf3c232163a7444e",
+  "url": "https://wiki.guildwars.com/wiki/Mad_King_Pony_Support",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mad%20King%20Pony%20Support&oldid=2629664",
+  "retrievedAt": "2026-11-13T01:08:09.131Z",
+  "wikitext": "{{Skill infobox\n| name = Mad King Pony Support\n| id = 2768\n| campaign = Prophecies\n| campaign2 = Nightfall\n| type = Spell\n| elite = y\n| profession = Monster\n| special = Monster\n| energy = 10\n| activation = {{1/2}}\n| recharge = 60\n| target = foes\n| causes1 = Summoned Creature\n| description = [[Elite]] [[Spell]]. [[Summon]] a [[level]] 20 [[Gum Drops, the Noble Steed|Invisible Pony]]. This summoned pony [[shadow step|prances]] to [[target]] [[foe]]. This pony lasts 60 seconds.\n| concise description = Elite Spell. Summon a level 20 Invisible Pony. This summoned pony prances to target foe. {{gray|This pony lasts 60 seconds.}}\n}}\n\n==Notes==\n*This skill is used by [[Mad King Thorn]] during [[Scarred Psyche]].\n\n[[de:Pony-Unterstützung]]"
+}

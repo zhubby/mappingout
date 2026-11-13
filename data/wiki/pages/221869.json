@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Divine Favor unique items",
+  "pageid": 221869,
+  "revid": 1685521,
+  "revisedAt": "2009-09-17T08:54:29Z",
+  "sha1": "9145a2a3a7339fbd8ef75c75f4e948a1cf39f9cf",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Divine_Favor_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Divine%20Favor%20unique%20items&oldid=1685521",
+  "retrievedAt": "2026-11-13T02:27:59.348Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Divine Favor unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Divine Favor unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Divine Favor unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by attribute|Divine Favor]]\n[[Category:Monk unique items|+]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Inscription Stone",
+  "pageid": 81752,
+  "revid": 2732615,
+  "revisedAt": "2026-07-04T11:35:14Z",
+  "sha1": "d82fdcdfb2a3a70929d343180e102a56a85bfebf",
+  "url": "https://wiki.guildwars.com/wiki/Inscription_Stone",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Inscription%20Stone&oldid=2732615",
+  "retrievedAt": "2026-11-13T02:16:09.684Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Inscription Stone.jpg|210px]]\n| name = Inscription Stone\n| type = Interactive object\n| level = 0\n| campaign = Eye of the North\n| service = Mission starter\n| map1 = [[Image:Inscription Stone Map.jpg|250px]]\n| map1-text = Path to inscription stone in Sparkfly Swamp\n}}\n[[Inscription Stone]]s are found in [[Sparkfly Swamp]] during the quest [[Finding Gadd]] and in [[Finding the Bloodstone]]. During Finding the Bloodstone, when you kill an [[Inscribed Ettin]], you return the inscription from the ettin to the Inscription Stone in order to access the next level of the cave.\n\n==Locations==\n*[[Tarnished Coast]]\n**{{NPC location|Sparkfly Swamp}} (as an [[ally]])\n\n==Missions==\n*Tarnished Coast\n**[[Finding the Bloodstone]] (as an interactive object)\n\n==Quests==\n'''Quests given:'''\n*Tarnished Coast\n**[[Finding the Bloodstone]] {{quest icon|primary}} {{quest icon|repeatable}}\n'''Quests involved in:'''\n*Tarnished Coast\n**[[Finding Gadd]] {{quest icon|primary}}\n\n==Dialogue==\n;Sparkfly Swamp\nBefore completing Finding Gadd\n:''The inscription stone resonates with a quiet power.''\nAfter completing Finding Gadd\n:''Examine the inscription lock.''\n\n:'''{{yes}} Yes.''' ([[Gadd (cinematic)|Gadd]] plays)\n:'''{{no|ingame}} No.'''\n\n[[Category:Eye of the North quest givers]]"
+}

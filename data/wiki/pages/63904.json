@@ -1,0 +1,11 @@
+{
+  "title": "Glacial Griffon",
+  "pageid": 63904,
+  "revid": 2576996,
+  "revisedAt": "2014-10-21T08:02:40Z",
+  "sha1": "617da3cf289938c37b54876f6cab1e6d1ae99885",
+  "url": "https://wiki.guildwars.com/wiki/Glacial_Griffon",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Glacial%20Griffon&oldid=2576996",
+  "retrievedAt": "2026-11-13T01:16:11.963Z",
+  "wikitext": "__NOTOC__{{NPC infobox \n| type = Griffon\n| affiliation = Far Shiverpeaks wildlife\n| profession = Rt\n| level = 28 (30)\n| boss = y\n| campaign = Eye of the North\n}}\nThe [[Glacial Griffon]] is a [[Spirit spammer|spirit lord]] [[Griffon]] [[boss]] that you have to fight solo for the [[Cold as Ice]] [[quest]]. It brings a combination of [[spirit]]s that can shut down a wide variety of builds and deal plenty of damage, and it has continuous, inherent regeneration.\n\n==Locations==\n*[[Far Shiverpeaks]]\n**{{NPC location|Sifhalla}} (only during  [[Cold as Ice]])\n\n==Skills==\n14 [[Channeling Magic]], 16 [[Communing]] (20 Channeling Magic, 20 Communing in [[hard mode]])\n*{{Skill icon|Bloodsong}}\n*{{Skill icon|Dissonance}}\n*{{Skill icon|Pain}}\n*{{Skill icon|Ritual Lord}} ([[elite]])\n*{{Skill icon|Shadowsong}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = rt\n| blunt = 83\n| piercing = 83\n| slashing = 83\n| cold = 83\n| earth = 83\n| fire = 83\n| lightning = 83\n}}\n\n==Notes==\n* The quest and talk pages of [[Cold As Ice]] show multiple ways on how to defeat the Glacial Griffon.\n* In hard mode, Ritual Lord does not increase its Channeling Magic nor Communing ranks, since [[attribute]]s are [[Effect stacking|capped]] at rank 20."
+}

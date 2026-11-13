@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Spawning Power unique items",
+  "pageid": 221876,
+  "revid": 1685531,
+  "revisedAt": "2009-09-17T09:02:51Z",
+  "sha1": "735fdd732eb5786a6cb24bd77479ed88aa0ae126",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Spawning_Power_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Spawning%20Power%20unique%20items&oldid=1685531",
+  "retrievedAt": "2026-11-13T02:28:00.498Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Spawning Power unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Spawning Power unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Spawning Power unique items | Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by attribute|Spawning Power]]\n[[Category:Ritualist unique items|+]]"
+}

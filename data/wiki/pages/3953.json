@@ -1,0 +1,11 @@
+{
+  "title": "Cautery Signet",
+  "pageid": 3953,
+  "revid": 2645486,
+  "revisedAt": "2019-11-09T13:19:46Z",
+  "sha1": "bea161ee07306fea2a35eee5be19b02c4424d468",
+  "url": "https://wiki.guildwars.com/wiki/Cautery_Signet",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Cautery%20Signet&oldid=2645486",
+  "retrievedAt": "2026-11-13T01:07:48.452Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| id = 1588\n| name = Cautery Signet\n| campaign = Nightfall\n| profession = Paragon\n| type = Signet\n| elite = y\n| activation = 2\n| recharge = 15\n| aoe = party\n| causes1 = Burning\n| removes1 = Condition\n| description = [[Elite]] [[Signet]]. All [[party]] members lose all [[condition]]s. You are set [[Burning|on Fire]] {{sic|\"Fire\" is capitalized, unlike other descriptions which state \"set on fire\"}}  for 1 second for each condition removed in this way.\n| concise description = Elite Signet. All party members lose all conditions. {{gray|You begin Burning (one second for each condition removed).}}\n}}\n\n== Acquisition ==\n'''[[Signet of Capture]]'''\n*[[Captain Lumanda]] ([[Consulate Docks]])\n*[[Corporal Luluh]] ([[Dejarin Estate]])\n*[[Overseer Boktek]] ([[Kodonur Crossroads]])\n*[[Colonel Kajo]] ([[Pogahn Passage]])\n\n==Related skills==\n*{{skill icon|Martyr}} ([[elite]])\n*{{skill icon|Song of Purification}} (elite)\n\n== Notes ==\n* Combine with a [[List of condition removal skills|condition removal skill]], e.g. [[Remedy Signet]] or [[Mending Touch]].\n* Unlike [[Martyr]], this skill has infinite range.\n\n{{anomaly|Although the effect extends beyond [[party range]], the [[AI]] only considers [[ally|allies]] within the expected range.}}\n\n==Trivia==\n*[[W:Cauterization|Cauterization]] is a medical process in which heat is used to remove or close a part of the body.\n\n[[de:Siegel der Verätzung]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Hound of Balthazar",
+  "pageid": 298342,
+  "revid": 2699153,
+  "revisedAt": "2024-08-31T03:48:53Z",
+  "sha1": "76796e296fa7e30a55607aa397fd4276695f3aa6",
+  "url": "https://wiki.guildwars.com/wiki/Hound_of_Balthazar",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hound%20of%20Balthazar&oldid=2699153",
+  "retrievedAt": "2026-11-13T02:28:01.952Z",
+  "wikitext": "{{NPC infobox\n| type = Charmable animal\n| level = 5\n| passive = 1\n| campaign = Core\n| map1 = [[File:Hound of Balthazar burning Varient.jpg|200px]]\n| map1-text = The burning animation.\n}}__NOTOC__\n[[Hound of Balthazar|Hounds of Balthazar]] are [[charmable animal]]s encountered in the [[Zaishen Menagerie]].\n==Locations==\n*[[Core]]\n**[[The Battle Isles]]\n***{{NPC location|Zaishen Menagerie Grounds}} (levels 5, 12, 15, and 20, depending on unlock progress)\n\n==Acquisition==\n* [[Ceira, Sworn to Fire]] will unlock this pet if you talk to her during [[Anniversary Celebration]]s.\n* Can be unlocked by [[Helena]] (Zaishen Keeper) by paying their [[Zaishen_Menagerie_Grounds/Service_costs|''Prestige, Exotic'' Unlocking cost]]:\n** 20{{zgold}} plus 100{{gold}} ''or''\n** 100,000 [[Balthazar Faction]]\n\n== Notes ==\n* Once unlocked, the hound will be located in [[:File:Zaishen Menagerie Animals Locations.png|the caves to the northeast]] (the same location as the [[Black Moa]]).\n* This pet cannot be displayed in the [[Hall of Monuments]].\n* This pet is the only animal companion that deals [[fire damage]] (instead of [[piercing damage|piercing]] or [[slashing damage]]).\n** Its attack will therefore trigger the burning from [[Mark of Rodgort]]. \n* Despite their appearance, they are ''not'' immune to [[burning]]: \n** The only way to tell if they are on fire is to look at the Pet Control panel.\n* The burning visual effect continues even if the pet is [[death|dead]].\n\n{{bug|Like other animated effects, the hounds sometimes fail to display their flames when entering a new area.}}\n\n==Trivia==\n*Introduced in the [[Seventh Year Anniversary Celebration]] ([[Feedback:Game updates/20120424|April 24, 2012 update]]).\n\n{{Charmable animal nav}}\n\n[[Category:Balthazar]]"
+}

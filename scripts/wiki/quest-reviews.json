@@ -1,0 +1,1126 @@
+[
+  {
+    "id": "boss:4:5a53454f6ce62212",
+    "name": "奥伦·奥拉夫多蒂尔",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:293",
+      "title": "Feel No Pain",
+      "revid": 2732702
+    },
+    "acquisition": [
+      {
+        "title": "The Great Norn Alemoot",
+        "revid": 2666451
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Great Norn Alemoot",
+        "revid": 2666451
+      }
+    ]
+  },
+  {
+    "id": "boss:4:a1ce485ec0c8759a",
+    "name": "奥拉夫·奥拉夫森",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:293",
+      "title": "Feel No Pain",
+      "revid": 2732702
+    },
+    "acquisition": [
+      {
+        "title": "The Great Norn Alemoot",
+        "revid": 2666451
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Great Norn Alemoot",
+        "revid": 2666451
+      }
+    ]
+  },
+  {
+    "id": "boss:4:c2d07a5b1a85a590",
+    "name": "真理探索者",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:294",
+      "title": "Raven Blessing",
+      "revid": 2707357
+    },
+    "acquisition": [
+      {
+        "title": "Shadows in the Night",
+        "revid": 2718931
+      }
+    ],
+    "sources": [
+      {
+        "title": "Shadows in the Night",
+        "revid": 2718931
+      }
+    ]
+  },
+  {
+    "id": "boss:4:ca756de051c63d71",
+    "name": "真理探索者",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:295",
+      "title": "Ursan Blessing",
+      "revid": 2742159
+    },
+    "acquisition": [
+      {
+        "title": "A Hunter's Pride",
+        "revid": 2667756
+      }
+    ],
+    "sources": [
+      {
+        "title": "A Hunter's Pride",
+        "revid": 2667756
+      }
+    ]
+  },
+  {
+    "id": "boss:4:a407bc6d7eb14433",
+    "name": "真理探索者",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:296",
+      "title": "Volfen Blessing",
+      "revid": 2707358
+    },
+    "acquisition": [
+      {
+        "title": "Leader of the Pack",
+        "revid": 2668660
+      }
+    ],
+    "sources": [
+      {
+        "title": "Leader of the Pack",
+        "revid": 2668660
+      }
+    ]
+  },
+  {
+    "id": "boss:4:2b4583ad57271f59",
+    "name": "Tarnished Haven",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:297",
+      "title": "Air of Superiority",
+      "revid": 2680287
+    },
+    "acquisition": [
+      {
+        "title": "The Path to Revelations",
+        "revid": 2728556
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Path to Revelations",
+        "revid": 2728556
+      }
+    ]
+  },
+  {
+    "id": "boss:4:c818282d1be15534",
+    "name": "库尔许",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:298",
+      "title": "Asuran Scan",
+      "revid": 2727152
+    },
+    "acquisition": [
+      {
+        "title": "The Cipher of Grenth",
+        "revid": 2674159
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Cipher of Grenth",
+        "revid": 2674159
+      }
+    ]
+  },
+  {
+    "id": "boss:4:2ea18d720beb1609",
+    "name": "库尔许",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:299",
+      "title": "Mental Block",
+      "revid": 2647105
+    },
+    "acquisition": [
+      {
+        "title": "The Cipher of Balthazar",
+        "revid": 2612062
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Cipher of Balthazar",
+        "revid": 2612062
+      }
+    ]
+  },
+  {
+    "id": "boss:4:1a939d551a9922f8",
+    "name": "布奥夫",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:300",
+      "title": "Mindbender",
+      "revid": 2680288
+    },
+    "acquisition": [
+      {
+        "title": "O Brave New World",
+        "revid": 2682490
+      }
+    ],
+    "sources": [
+      {
+        "title": "O Brave New World",
+        "revid": 2682490
+      }
+    ]
+  },
+  {
+    "id": "boss:4:2a93907b77bbd55e",
+    "name": "库尔许",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:301",
+      "title": "Pain Inverter",
+      "revid": 2728795
+    },
+    "acquisition": [
+      {
+        "title": "The Cipher of Kormir",
+        "revid": 2699724
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Cipher of Kormir",
+        "revid": 2699724
+      }
+    ]
+  },
+  {
+    "id": "boss:4:8d4e1599869baea4",
+    "name": "库尔许",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:302",
+      "title": "Radiation Field",
+      "revid": 2734338
+    },
+    "acquisition": [
+      {
+        "title": "The Cipher of Dwayna",
+        "revid": 2698220
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Cipher of Dwayna",
+        "revid": 2698220
+      }
+    ]
+  },
+  {
+    "id": "boss:4:4a2d717d4a86125d",
+    "name": "库尔许",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:303",
+      "title": "Smooth Criminal",
+      "revid": 2723310
+    },
+    "acquisition": [
+      {
+        "title": "The Cipher of Melandru",
+        "revid": 2728565
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Cipher of Melandru",
+        "revid": 2728565
+      }
+    ]
+  },
+  {
+    "id": "boss:4:2183e41c7702d25f",
+    "name": "河夫",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:304",
+      "title": "Summon Ice Imp",
+      "revid": 2680291
+    },
+    "acquisition": [
+      {
+        "title": "Polymock: Defeat Necromancer Volumandus",
+        "revid": 2383752
+      }
+    ],
+    "sources": [
+      {
+        "title": "Polymock: Defeat Necromancer Volumandus",
+        "revid": 2383752
+      }
+    ]
+  },
+  {
+    "id": "boss:4:4e3e0582e644a003",
+    "name": "河夫",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:305",
+      "title": "Summon Mursaat",
+      "revid": 2681413
+    },
+    "acquisition": [
+      {
+        "title": "Polymock: Defeat Master Hoff",
+        "revid": 2383753
+      }
+    ],
+    "sources": [
+      {
+        "title": "Polymock: Defeat Master Hoff",
+        "revid": 2383753
+      }
+    ]
+  },
+  {
+    "id": "boss:4:c41ea5df681dc098",
+    "name": "河夫",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:306",
+      "title": "Summon Naga Shaman",
+      "revid": 2680293
+    },
+    "acquisition": [
+      {
+        "title": "Polymock: Defeat Dune Teardrinker",
+        "revid": 2549839
+      }
+    ],
+    "sources": [
+      {
+        "title": "Polymock: Defeat Dune Teardrinker",
+        "revid": 2549839
+      }
+    ]
+  },
+  {
+    "id": "boss:4:13cccf5677a1dcd8",
+    "name": "河夫",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:307",
+      "title": "Summon Ruby Djinn",
+      "revid": 2706550
+    },
+    "acquisition": [
+      {
+        "title": "Polymock: Defeat Grulhammer Silverfist",
+        "revid": 2383751
+      }
+    ],
+    "sources": [
+      {
+        "title": "Polymock: Defeat Grulhammer Silverfist",
+        "revid": 2383751
+      }
+    ]
+  },
+  {
+    "id": "boss:4:8af9d959bae26926",
+    "name": "库尔许",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:308",
+      "title": "Technobabble",
+      "revid": 2680290
+    },
+    "acquisition": [
+      {
+        "title": "The Cipher of Lyssa",
+        "revid": 2574061
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Cipher of Lyssa",
+        "revid": 2574061
+      }
+    ]
+  },
+  {
+    "id": "boss:4:6fa6639a71003269",
+    "name": "大祭司",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:309",
+      "title": "Alkar's Alchemical Acid",
+      "revid": 2679312
+    },
+    "acquisition": [
+      {
+        "title": "The Destroyer Challenge",
+        "revid": 2595804
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Destroyer Challenge",
+        "revid": 2595804
+      }
+    ]
+  },
+  {
+    "id": "boss:4:eea321768d3fb6e7",
+    "name": "奥罗",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:310",
+      "title": "Black Powder Mine",
+      "revid": 2684371
+    },
+    "acquisition": [
+      {
+        "title": "In the Service of Revenge",
+        "revid": 2705305
+      }
+    ],
+    "sources": [
+      {
+        "title": "In the Service of Revenge",
+        "revid": 2705305
+      }
+    ]
+  },
+  {
+    "id": "boss:4:d25c3c2cd444bf7e",
+    "name": "基尔罗伊",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:311",
+      "title": "Brawling Headbutt",
+      "revid": 2741786
+    },
+    "acquisition": [
+      {
+        "title": "Punch the Clown",
+        "revid": 2552549
+      }
+    ],
+    "sources": [
+      {
+        "title": "Punch the Clown",
+        "revid": 2552549
+      }
+    ]
+  },
+  {
+    "id": "boss:4:11940aca14bef6c2",
+    "name": "大祭司",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:312",
+      "title": "Breath of the Great Dwarf",
+      "revid": 2679970
+    },
+    "acquisition": [
+      {
+        "title": "Destructive Research",
+        "revid": 2625535
+      }
+    ],
+    "sources": [
+      {
+        "title": "Destructive Research",
+        "revid": 2625535
+      }
+    ]
+  },
+  {
+    "id": "boss:4:51dd5ec0fc9560ea",
+    "name": "科里斯",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:313",
+      "title": "Drunken Master",
+      "revid": 2721144
+    },
+    "acquisition": [
+      {
+        "title": "Deeprunner's Map",
+        "revid": 2600401
+      }
+    ],
+    "sources": [
+      {
+        "title": "Deeprunner's Map",
+        "revid": 2600401
+      }
+    ]
+  },
+  {
+    "id": "boss:4:d53295e69807c926",
+    "name": "Undrath Blastrock",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:314",
+      "title": "Dwarven Stability",
+      "revid": 2645603
+    },
+    "acquisition": [
+      {
+        "title": "The Big Unfriendly Jotun",
+        "revid": 2574645
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Big Unfriendly Jotun",
+        "revid": 2574645
+      }
+    ]
+  },
+  {
+    "id": "boss:4:057e92d5ba0adee5",
+    "name": "基尔罗伊",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:315",
+      "title": "Ear Bite",
+      "revid": 2711214
+    },
+    "acquisition": [
+      {
+        "title": "The Throwdown in a Norn Town",
+        "revid": 2595115
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Throwdown in a Norn Town",
+        "revid": 2595115
+      }
+    ]
+  },
+  {
+    "id": "boss:4:93d1777976b994ff",
+    "name": "奥罗扎尔海斯通",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:316",
+      "title": "Great Dwarf Weapon",
+      "revid": 2732696
+    },
+    "acquisition": [
+      {
+        "title": "Attack on Jalis's Camp",
+        "revid": 2625524
+      }
+    ],
+    "sources": [
+      {
+        "title": "Attack on Jalis's Camp",
+        "revid": 2625524
+      }
+    ]
+  },
+  {
+    "id": "boss:4:2cc43ef1962fea0e",
+    "name": "大祭司",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:317",
+      "title": "Light of Deldrimor",
+      "revid": 2684506
+    },
+    "acquisition": [
+      {
+        "title": "Destructive Research",
+        "revid": 2625535
+      }
+    ],
+    "sources": [
+      {
+        "title": "Destructive Research",
+        "revid": 2625535
+      }
+    ]
+  },
+  {
+    "id": "boss:4:b3b44e33807787ae",
+    "name": "Undrath爆破岩",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:318",
+      "title": "Snow Storm",
+      "revid": 2733887
+    },
+    "acquisition": [
+      {
+        "title": "The Big Unfriendly Jotun",
+        "revid": 2574645
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Big Unfriendly Jotun",
+        "revid": 2574645
+      }
+    ]
+  },
+  {
+    "id": "boss:4:4cb8b3f3e48b702f",
+    "name": "巧匠",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:319",
+      "title": "Deft Strike",
+      "revid": 2740687
+    },
+    "acquisition": [
+      {
+        "title": "Mano a Norn-o",
+        "revid": 2704658
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mano a Norn-o",
+        "revid": 2704658
+      }
+    ]
+  },
+  {
+    "id": "boss:4:ac641083acade519",
+    "name": "队长连玛",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:320",
+      "title": "Ebon Battle Standard of Honor",
+      "revid": 2732698
+    },
+    "acquisition": [
+      {
+        "title": "The Smell of Titan in the Morning",
+        "revid": 2609189
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Smell of Titan in the Morning",
+        "revid": 2609189
+      }
+    ]
+  },
+  {
+    "id": "boss:4:a1e766b2c36087c3",
+    "name": "巧匠",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:321",
+      "title": "Ebon Escape",
+      "revid": 2645614
+    },
+    "acquisition": [
+      {
+        "title": "Service: In Defense of the Eye",
+        "revid": 2641075
+      }
+    ],
+    "sources": [
+      {
+        "title": "Service: In Defense of the Eye",
+        "revid": 2641075
+      }
+    ]
+  },
+  {
+    "id": "boss:4:36bd20389731eace",
+    "name": "布恩的尸体",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:322",
+      "title": "Ebon Vanguard Sniper Support",
+      "revid": 2732699
+    },
+    "acquisition": [
+      {
+        "title": "Falling Out",
+        "revid": 2672973
+      }
+    ],
+    "sources": [
+      {
+        "title": "Falling Out",
+        "revid": 2672973
+      }
+    ]
+  },
+  {
+    "id": "boss:4:15001164b0c77e14",
+    "name": "队长连玛",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:323",
+      "title": "Tryptophan Signet",
+      "revid": 2645619
+    },
+    "acquisition": [
+      {
+        "title": "Forbidden Fruit",
+        "revid": 2718193
+      }
+    ],
+    "sources": [
+      {
+        "title": "Forbidden Fruit",
+        "revid": 2718193
+      }
+    ]
+  },
+  {
+    "id": "boss:4:f7c37edebf7312d1",
+    "name": "卫儿",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:324",
+      "title": "Weakness Trap",
+      "revid": 2645620
+    },
+    "acquisition": [
+      {
+        "title": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon",
+        "revid": 2701824
+      }
+    ],
+    "sources": [
+      {
+        "title": "Single Ugly Grawl Seeks Same for Mindless Destruction in Ascalon",
+        "revid": 2701824
+      }
+    ]
+  },
+  {
+    "id": "boss:4:ede7e5d9de7e98f2",
+    "name": "巧匠",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:325",
+      "title": "Winds",
+      "revid": 2720905
+    },
+    "acquisition": [
+      {
+        "title": "Charr Invaders",
+        "revid": 2730822
+      }
+    ],
+    "sources": [
+      {
+        "title": "Charr Invaders",
+        "revid": 2730822
+      }
+    ]
+  },
+  {
+    "id": "boss:4:4165ff8b614baf82",
+    "name": "卫儿",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:326",
+      "title": "Ebon Battle Standard of Courage",
+      "revid": 2647106
+    },
+    "acquisition": [
+      {
+        "title": "Be Very, Very Quiet...",
+        "revid": 2742746
+      }
+    ],
+    "sources": [
+      {
+        "title": "Be Very, Very Quiet...",
+        "revid": 2742746
+      }
+    ]
+  },
+  {
+    "id": "boss:4:d8709d45755af0bd",
+    "name": "中士",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:327",
+      "title": "Ebon Battle Standard of Wisdom",
+      "revid": 2711462
+    },
+    "acquisition": [
+      {
+        "title": "Forgotten Relics",
+        "revid": 2737255
+      }
+    ],
+    "sources": [
+      {
+        "title": "Forgotten Relics",
+        "revid": 2737255
+      }
+    ]
+  },
+  {
+    "id": "boss:4:b76b55a7e16fc3ed",
+    "name": "巧匠",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:328",
+      "title": "Ebon Vanguard Assassin Support",
+      "revid": 2669008
+    },
+    "acquisition": [
+      {
+        "title": "Service: Practice, Dummy",
+        "revid": 2672103
+      }
+    ],
+    "sources": [
+      {
+        "title": "Service: Practice, Dummy",
+        "revid": 2672103
+      }
+    ]
+  },
+  {
+    "id": "boss:4:fd036facf0167e75",
+    "name": "中士",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:329",
+      "title": "Signet of Infection",
+      "revid": 2645617
+    },
+    "acquisition": [
+      {
+        "title": "The Hunting of the Charr",
+        "revid": 2718922
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hunting of the Charr",
+        "revid": 2718922
+      }
+    ]
+  },
+  {
+    "id": "boss:4:1c95ae6a1243f1b0",
+    "name": "队长连玛",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:330",
+      "title": "Sneak Attack",
+      "revid": 2667609
+    },
+    "acquisition": [
+      {
+        "title": "Plan A",
+        "revid": 2638688
+      }
+    ],
+    "sources": [
+      {
+        "title": "Plan A",
+        "revid": 2638688
+      }
+    ]
+  },
+  {
+    "id": "boss:4:39fefdb7dc9886e4",
+    "name": "队长连玛",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:331",
+      "title": "Tryptophan Signet",
+      "revid": 2645619
+    },
+    "acquisition": [
+      {
+        "title": "Forbidden Fruit",
+        "revid": 2718193
+      }
+    ],
+    "sources": [
+      {
+        "title": "Forbidden Fruit",
+        "revid": 2718193
+      }
+    ]
+  },
+  {
+    "id": "boss:4:53d709f44a6a7f46",
+    "name": "曼尼拜森",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:332",
+      "title": "A Touch of Guile",
+      "revid": 2674048
+    },
+    "acquisition": [
+      {
+        "title": "Final Round: Fight!",
+        "revid": 2595113
+      }
+    ],
+    "sources": [
+      {
+        "title": "Final Round: Fight!",
+        "revid": 2595113
+      }
+    ]
+  },
+  {
+    "id": "boss:4:656089447c28c2c5",
+    "name": "奥伦·奥拉夫多蒂尔",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:333",
+      "title": "Club of a Thousand Bears",
+      "revid": 2732703
+    },
+    "acquisition": [
+      {
+        "title": "Bear Club for Men",
+        "revid": 2728568
+      },
+      {
+        "title": "Bear Club for Women",
+        "revid": 2662213
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bear Club for Men",
+        "revid": 2728568
+      },
+      {
+        "title": "Bear Club for Women",
+        "revid": 2662213
+      }
+    ]
+  },
+  {
+    "id": "boss:4:9841ecbb23b5a92d",
+    "name": "奥拉夫·奥拉夫森",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:333",
+      "title": "Club of a Thousand Bears",
+      "revid": 2732703
+    },
+    "acquisition": [
+      {
+        "title": "Bear Club for Men",
+        "revid": 2728568
+      },
+      {
+        "title": "Bear Club for Women",
+        "revid": 2662213
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bear Club for Men",
+        "revid": 2728568
+      },
+      {
+        "title": "Bear Club for Women",
+        "revid": 2662213
+      }
+    ]
+  },
+  {
+    "id": "boss:4:f256a3b2119c7850",
+    "name": "曼尼拜森",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:334",
+      "title": "\"Dodge This!\"",
+      "revid": 2732700
+    },
+    "acquisition": [
+      {
+        "title": "Final Round: Fight!",
+        "revid": 2595113
+      }
+    ],
+    "sources": [
+      {
+        "title": "Final Round: Fight!",
+        "revid": 2595113
+      }
+    ]
+  },
+  {
+    "id": "boss:4:1e5aabaed4bc8a25",
+    "name": "曼尼拜森",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:335",
+      "title": "\"Finish Him!\"",
+      "revid": 2633672
+    },
+    "acquisition": [
+      {
+        "title": "Final Round: Fight!",
+        "revid": 2595113
+      }
+    ],
+    "sources": [
+      {
+        "title": "Final Round: Fight!",
+        "revid": 2595113
+      }
+    ]
+  },
+  {
+    "id": "boss:4:98054fc75c202253",
+    "name": "甘南铁拳",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:336",
+      "title": "\"I Am the Strongest!\"",
+      "revid": 2732701
+    },
+    "acquisition": [
+      {
+        "title": "Truthseeker",
+        "revid": 2565466
+      }
+    ],
+    "sources": [
+      {
+        "title": "Truthseeker",
+        "revid": 2565466
+      }
+    ]
+  },
+  {
+    "id": "boss:4:f36e13c6decd634d",
+    "name": "暗影猎人",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:337",
+      "title": "\"I Am Unstoppable!\"",
+      "revid": 2716553
+    },
+    "acquisition": [
+      {
+        "title": "Cold as Ice",
+        "revid": 2673053
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cold as Ice",
+        "revid": 2673053
+      }
+    ]
+  },
+  {
+    "id": "boss:4:d7559ebaf4f6df63",
+    "name": "奥伦·奥拉夫多蒂尔",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:338",
+      "title": "\"You Are All Weaklings!\"",
+      "revid": 2719028
+    },
+    "acquisition": [
+      {
+        "title": "Prenuptial Disagreement",
+        "revid": 1639727
+      }
+    ],
+    "sources": [
+      {
+        "title": "Prenuptial Disagreement (female)",
+        "revid": 2183959
+      },
+      {
+        "title": "Prenuptial Disagreement (male)",
+        "revid": 2315539
+      }
+    ]
+  },
+  {
+    "id": "boss:4:873c558a14a62a08",
+    "name": "奥拉夫·奥拉夫森",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:338",
+      "title": "\"You Are All Weaklings!\"",
+      "revid": 2719028
+    },
+    "acquisition": [
+      {
+        "title": "Prenuptial Disagreement",
+        "revid": 1639727
+      }
+    ],
+    "sources": [
+      {
+        "title": "Prenuptial Disagreement (female)",
+        "revid": 2183959
+      },
+      {
+        "title": "Prenuptial Disagreement (male)",
+        "revid": 2315539
+      }
+    ]
+  },
+  {
+    "id": "boss:4:4bc06dc69e77a512",
+    "name": "暗影猎人",
+    "campaign": 4,
+    "skill": {
+      "id": "skill:4:339",
+      "title": "\"You Move Like a Dwarf!\"",
+      "revid": 2667948
+    },
+    "acquisition": [
+      {
+        "title": "Worthy Deeds (Done Dirt Cheap)",
+        "revid": 2681381
+      }
+    ],
+    "sources": [
+      {
+        "title": "Worthy Deeds (Done Dirt Cheap)",
+        "revid": 2681381
+      }
+    ]
+  }
+]

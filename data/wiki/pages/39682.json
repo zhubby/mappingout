@@ -1,0 +1,11 @@
+{
+  "title": "Axton/Collector",
+  "pageid": 39682,
+  "revid": 2485183,
+  "revisedAt": "2012-05-11T23:01:57Z",
+  "sha1": "bd3e0da1680a343d5b254f5941754ce90898cd69",
+  "url": "https://wiki.guildwars.com/wiki/Axton/Collector",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Axton%2FCollector&oldid=2485183",
+  "retrievedAt": "2026-11-13T01:52:25.788Z",
+  "wikitext": "====[[Axton]]====\n'''Location:''' [[Archipelagos]]<br>\n'''Collecting:''' 5 [[Archaic Kappa Shell]]s\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! Item || Stats || Requirement || [[Weapon bonus]]es || Value\n|-\n| [[Dirks]] || [[Piercing damage]]: 7-17 || 9 [[Dagger Mastery]] || [[Damage]] +20% (while [[Health]] is below 50%) || 125 {{gold}}\n|-\n| [[Inscribed Chakram (metal)|Inscribed Chakram]] || [[Energy]] +12 || 9 [[Domination Magic]] || Halves casting time of [[Domination Magic]] spells (Chance: 20%) <br> Halves skill recharge of [[Domination Magic]] spells (Chance: 20%) || 125 {{gold}}\n|-\n| [[Wailing Wand]] || [[Cold damage]]: 11-22 || 9 [[Curses]] || Halves skill recharge of [[Curses]] spells (Chance: 20%) <br> [[Energy]] +5 (while [[Health]] is below 50%) || 125 {{gold}}\n|-\n| [[Wooden Buckler]] || [[Armor]]: 16 || 9 [[Tactics]] || [[Health]] +45 (while in a [[Stance]]) <br> Received [[physical damage]] -2 (while in a [[Stance]]) || 125 {{gold}}\n|-\n| [[Recurve Bow]] || [[Piercing damage]]: 15-28 || 9 [[Marksmanship]] || [[Damage]] +15% (vs. Hexed foes) || 125 {{gold}}\n|-\n| [[Ceremonial Cauldron]] || [[Energy]] +12 || 9 [[Spawning Power]] || [[Armor]] +5 (while Enchanted) <br> [[Health]] +45 (while Enchanted) || 125 {{gold}}\n|}<noinclude>\n[[Category:Collector subpages]]\n</noinclude>"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Llourdes the Arcane",
+  "pageid": 45046,
+  "revid": 2535361,
+  "revisedAt": "2013-02-25T09:09:27Z",
+  "sha1": "0780b9cd739f660bbf8a3297fcff3ceb1ef66337",
+  "url": "https://wiki.guildwars.com/wiki/Llourdes_the_Arcane",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Llourdes%20the%20Arcane&oldid=2535361",
+  "retrievedAt": "2026-11-13T01:10:36.190Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Shining Blade ranger.jpg|150px]]\n| type = Human\n| affiliation = Shining Blade\n| service = Collector\n| level = 15\n| campaign = Prophecies\n| map1 = [[File:Llourdes the Arcane map.jpg|150px]]\n| map1-text = Location in [[the Falls]]\n| map2 = [[File:The Falls collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Llourdes the Arcane]] is a [[collector]], a type of [[NPC]] that exchanges [[trophies]] for [[armor]].\n\n==Locations==\n*[[Maguuma Jungle]]\n**{{NPC location|The Falls}}\n\n==Dialogue==\n:''\"I'm searching for 5 [[Jungle Skale Fin]]s. I can offer you one of the following items in exchange. Can you help me?\"''\n{{collector no armor trade dialogue|Jungle Skale Fins}}\n\n==Collector items==\n{{:Llourdes the Arcane/Collector armor}}"
+}

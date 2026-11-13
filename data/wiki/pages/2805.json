@@ -1,0 +1,11 @@
+{
+  "title": "Maddened Dredge Seer",
+  "pageid": 2805,
+  "revid": 2255595,
+  "revisedAt": "2011-03-05T21:21:13Z",
+  "sha1": "039a89d5b87a130de0a957efb0677679ed0834e8",
+  "url": "https://wiki.guildwars.com/wiki/Maddened_Dredge_Seer",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maddened%20Dredge%20Seer&oldid=2255595",
+  "retrievedAt": "2026-11-13T02:14:55.578Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Dredge caster.jpg|150px]]\n| type = Dredge\n| affiliation = \n| profession = rt\n| level = 28 (30)\n| campaign = Factions\n}}__NOTOC__\n[[Maddened Dredge Seer]]s are maddened [[Dredge]] [[ritualist]]s, serving [[Urgoz]].\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n15 [[Channeling Magic]], 16 [[Communing]], 16 [[Restoration Magic]]\n*{{skill icon|Disenchantment}}\n*{{skill icon|Grasping Was Kuurong}} ([[elite]])\n*{{skill icon|Recuperation}}\n*{{skill icon|Spirit Light}}\n*{{skill icon|Splinter Weapon}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = rt\n| blunt = 84\n| piercing = 84\n| slashing = 84\n| cold = 84\n| earth = 84\n| fire = 84\n| lightning = 84\n}}\n\n==Items dropped==\n*[[Dredge Garment]]"
+}

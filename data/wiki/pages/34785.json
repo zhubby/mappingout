@@ -1,0 +1,11 @@
+{
+  "title": "Monastery Quartermaster",
+  "pageid": 34785,
+  "revid": 2207579,
+  "revisedAt": "2010-12-25T09:34:14Z",
+  "sha1": "d972ba5c0d068aa07df4b2f90e9b0ee0792b8e47",
+  "url": "https://wiki.guildwars.com/wiki/Monastery_Quartermaster",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Monastery%20Quartermaster&oldid=2207579",
+  "retrievedAt": "2026-11-13T01:12:16.094Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Canthan guard f.jpg|100px]][[File:Canthan guard m.jpg|100px]]\n| type = Human\n| affiliation = Canthans\n| service = Collector\n| level = 20\n| campaign = Factions\n}}\n[[Monastery Quartermaster]]s are the [[collector]]s that trade the [[Monastery Credit]]s. The ones in [[Shing Jea Monastery]] offer items found in the merchant. The ones in [[Seitung Harbor]] offer different low-end weapons.\n\n==Locations==\n*[[Shing Jea Island]]\n**{{NPC location|Seitung Harbor}}\n**{{NPC location|Shing Jea Monastery}}\n\n==Dialogue==\n:''\"You may on occasion be rewarded for your service to an inhabitant of Shing Jea Island with a monastery credit. If you bring me X Monastery Credits as proof of your good deeds, I will give you this in return:\"''\n\n==Collector items==\n{{:Monastery Quartermaster/Collector}}"
+}

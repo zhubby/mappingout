@@ -1,0 +1,11 @@
+{
+  "title": "Water Lord",
+  "pageid": 16107,
+  "revid": 2711810,
+  "revisedAt": "2025-08-27T11:25:50Z",
+  "sha1": "2bccd6bf41d75f3121621729c7858062acb4be14",
+  "url": "https://wiki.guildwars.com/wiki/Water_Lord",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Water%20Lord&oldid=2711810",
+  "retrievedAt": "2026-11-13T01:16:00.920Z",
+  "wikitext": "{{NPC infobox\n| type = Elemental\n| affiliation = Vabbi wildlife\n| image = [[File:Water Djinn.jpg|180px]]\n| profession = Dervish          \n| level = 28 (30)\n| boss = y\n| campaign = Nightfall\n| map1 = [[Image:Water Lord map.jpg|146px]]\n| map1-text = Location in the Hidden City of Ahdashim\n}}__NOTOC__\nThe [[Water Lord]] is a [[Djinn]] [[boss]]  that must be defeated to acquire its essence for [[Library Envoy Chukeht]].\n\n==Locations==\n* [[Vabbi]]\n** {{NPC location|The Hidden City of Ahdashim}} (only during [[Gift of the Djinn]])\n\n==Skills==\n* {{Skill icon|Balthazar's Rage}}\n* {{Skill icon|Crippling Sweep}}\n* {{Skill icon|Eremite's Attack}}\n* {{Skill icon|Lyssa's Assault}}\n* {{Skill icon|Vow of Silence}} ([[elite]])\n\n== Notes ==\n* The djinn does not actually drop an essence that needs to be picked up. Killing it will immediately update the quest."
+}

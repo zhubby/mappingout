@@ -1,0 +1,11 @@
+{
+  "title": "Ivor's Staff",
+  "pageid": 11556,
+  "revid": 2668270,
+  "revisedAt": "2020-11-03T01:47:57Z",
+  "sha1": "f9fae3776a437f095d0bfe89f484bcd6c398f3e3",
+  "url": "https://wiki.guildwars.com/wiki/Ivor%27s_Staff",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ivor's%20Staff&oldid=2668270",
+  "retrievedAt": "2026-11-13T02:02:17.583Z",
+  "wikitext": "{{Weapon infobox\n| campaign = [[Prophecies]]\n| attribute = [[Smiting Prayers]]\n| damagetype = [[Holy damage]]\n| type = [[staff]]\n| unique = yes\n}}\n'''Ivor's Staff''' is a [[unique item|unique]] [[staff]] dropped by [[Ivor Helmhewer]], a [[boss]] in [[Sorrow's Furnace]].\n\n==Stats==\n:[[Energy]] +10\n:[[Holy damage]]: 11-22 (Requires 9 [[Smiting Prayers]])\n:Halves skill recharge of [[spell]]s (Chance: 20%)\n:Reduces [[Dazed]] duration on you by 20% (Stacking)\n:[[Enchantment]]s last 20% longer\n:[[Armor rating|Armor]] +5\n: Two-handed\n\n==Skin==\nThis item uses the same [[skin]] as the [[Holy Staff]].\n\n==Replica==\n* This item cannot be replicated by using inscribable staves. The [[inscription]] \"Soundness of Mind\", which reduces [[dazed]], can only be applied to [[shield]]s and [[focus item]]s. \n* However, it is possible to create an exact technical replica for this item with:\n** A [[perfect]] [[staff]] drop with an [[Inherent modifier|inherent]] 20% Daze reduction.\n** [[Staff Wrapping]] [[of Enchanting]]\n** [[Defensive]] [[Staff Head]]\n\n[[Category:Smiting Prayers unique items]]\n[[Category:Prophecies unique items]]\n[[Category:Sorrow's Furnace unique items]]\n[[Category:Unreplicable unique items]]"
+}

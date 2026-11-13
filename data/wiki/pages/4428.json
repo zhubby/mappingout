@@ -1,0 +1,11 @@
+{
+  "title": "Assault Enchantments",
+  "pageid": 4428,
+  "revid": 2628517,
+  "revisedAt": "2018-06-18T17:19:00Z",
+  "sha1": "1f08579c5adbd405044e49f37db8f73877645e50",
+  "url": "https://wiki.guildwars.com/wiki/Assault_Enchantments",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Assault%20Enchantments&oldid=2628517",
+  "retrievedAt": "2026-11-13T01:08:06.008Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = Assault Enchantments\n| id = 1643\n| campaign = Nightfall\n| profession = Assassin\n| type = Skill\n| elite = y\n| energy = 5\n| activation = {{1/4}}\n| recharge = 8\n| target = foes\n| removes1 = Enchantment\n| description = [[Elite]] [[Skill (skill type)|Skill]]. Must follow a [[dual attack]]. [[Target]] [[foe]] loses all [[enchantment]]s.\n| requires = dual\n| concise description = Elite Skill. Removes all enchantments. {{gray|Must follow a dual attack.}}\n}}\n\n== Acquisition ==\n'''[[Signet of Capture]]'''\n* [[Faveo Aggredior]] ([[Nightfallen Jahai]])\n\n== Related skills ==\n* {{Skill icon|Shattering Assault}} ([[elite]])\n\n== Trivia ==\n* This skill was originally the only elite skill that was taught by a  [[hero skill trainer]] (specifically [[Shiloh]], in [[Sunspear Great Hall]]). \n* The weapons portrayed in the [[skill icon]] resemble [[Steel Daggers]].\n\n[[de:Verzauberungen angreifen]]"
+}

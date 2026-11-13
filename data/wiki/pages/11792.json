@@ -1,0 +1,11 @@
+{
+  "title": "Stormray",
+  "pageid": 11792,
+  "revid": 2658472,
+  "revisedAt": "2020-05-13T21:26:30Z",
+  "sha1": "7d83f5bb060c305d74cdd59b1d0a51734c4e7f90",
+  "url": "https://wiki.guildwars.com/wiki/Stormray",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Stormray&oldid=2658472",
+  "retrievedAt": "2026-11-13T02:02:25.084Z",
+  "wikitext": "{{Weapon infobox\n| campaign = [[Factions]]\n| type = [[wand]]\n| attribute = [[Divine Favor]]\n| damagetype = [[Holy damage]]\n| unique = yes\n}}\n[[Stormray]] is a [[unique item|unique]] [[wand]] dropped by [[KaySey Stormray]], a [[boss]] in the [[Archipelagos]].\n\n== Stats ==\n: [[Holy damage]]: 11-22 (Requires 9 [[Divine Favor]])\n: [[HCT|Halves casting time]] of [[Healing Prayers]] [[spell]]s (Chance: 20%)\n: [[Energy]] +5 (while [[Health]] is above 50%)\n\n== Skin == \nThis item uses the same [[skin]] as the [[Jellyfish Wand]].\n\n== Replica ==\nThis item cannot be replicated, as it: \n* Effectively holds two [[inscription]]s (\"Hale and Hearty\" and \"Aptitude not Attitude\") and the latter would instead halve the casting time of Divine Favor spells.\n* Is the only Divine Favor wand that deals holy damage. Divine Favor wands usually deal [[fire damage]]. [[Sheco]]'s [[Healing Rod]] for instance, has the same stats as Stormray but deals fire damage.\n\n[[Category:Unique wands]]\n[[Category:Divine Favor unique items]]\n[[Category:Factions unique items]]\n[[Category:Holy Damage weapons]]\n[[Category:Unreplicable unique items]]"
+}

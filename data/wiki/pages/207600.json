@@ -1,0 +1,11 @@
+{
+  "title": "Dragon Slash (Turai Ossa)",
+  "pageid": 207600,
+  "revid": 2589391,
+  "revisedAt": "2015-06-08T15:03:09Z",
+  "sha1": "43ae243cd078814d62dc1f29d12a1dffd7d94ff4",
+  "url": "https://wiki.guildwars.com/wiki/Dragon_Slash_(Turai_Ossa)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dragon%20Slash%20(Turai%20Ossa)&oldid=2589391",
+  "retrievedAt": "2026-11-13T01:08:08.211Z",
+  "wikitext": "{{Skill infobox\n| id = 2685\n| image = [[File:Dragon Slash (Turai Ossa).jpg]]\n| name = Dragon Slash (Turai Ossa)\n| campaign = Bonus Mission Pack\n| attribute = Swordsmanship\n| type = Sword Attack\n| special = Bonus Mission Pack\n| elite = y\n| adrenaline = 10\n| description = [[Elite]] [[Sword Attack]]. If Dragon Slash hits, you strike for +{{gr Bonus Mission Pack|10|40|14}} [[damage]] and gain {{gr Bonus Mission Pack|1|5|14}} strikes of [[adrenaline]].\n| concise description = Elite Sword Attack. Deals +{{gr Bonus Mission Pack|10|40|14}} damage. You gain {{gr Bonus Mission Pack|1|5|14}} strikes of adrenaline if it hits.\n}}\n\n{{Skill progression Bonus Mission Pack\n| attribute rank = 14\n| attribute = [[Swordsmanship]]\n| var1 name = + [[Damage]]\n| var1 at0 = 10\n| var1 at15 = 40\n| var2 name = [[Adrenaline]] gain\n| var2 at0 = 1\n| var2 at15 = 5}}\n\n== Acquisition ==\nPart of [[Turai Ossa (disguise)|Turai Ossa]]'s replacement [[skill bar]] during [[The Battle of Jahai]] mission.\n\n== Related skills ==\n* {{skill icon|Dragon Slash}} ([[elite]])\n\n== Notes ==\n* This skill is normally used with 14 in [[Swordsmanship]], but the attribute rank can be affected by [[Weakness]] and a sword pommel [[Of Attribute|of Swordsmanship]].\n* When combined with [[\"For Great Justice!\" (Turai Ossa)|\"For Great Justice!\"]] it is possible to hit with a Dragon Slash constantly for 20 seconds."
+}

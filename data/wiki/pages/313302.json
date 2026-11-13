@@ -1,0 +1,11 @@
+{
+  "title": "Proof of Triumph",
+  "pageid": 313302,
+  "revid": 2743413,
+  "revisedAt": "2026-11-09T17:47:47Z",
+  "sha1": "6cac9f11bb96dc138f22bd87c98550d340b306cf",
+  "url": "https://wiki.guildwars.com/wiki/Proof_of_Triumph",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Proof%20of%20Triumph&oldid=2743413",
+  "retrievedAt": "2026-11-13T02:40:17.167Z",
+  "wikitext": "{{Item infobox\n| rarity = 3\n| type = [[Reward trophy]]\n| value = Can't be sold\n| campaign = [[Core]]\n}}\n{{quotation|game|A record of your many deeds. Carrying this relic causes an extra boss to spawn in [[Perdition Rock]], [[Raisu Palace]], [[the Ruptured Heart]], or [[Sacnoth Valley]].  {{gray|This item cannot be [[trade]]d or sold.}}}}\n\n==Effect==\nWhile this item is carried by a [[party]] member, the following bosses will spawn (in addition to existing spawns for their associated zones). These bosses possess unique [[List of PvE-only skills|PvE-only]] [[elite skill]]s that can only be [[capture]]d from them this way: \n*[[Abaddon's Cursed]] in [[Perdition Rock]]\n** {{n}} {{skill icon|Soul Taker}}\n** {{e}} {{skill icon|Over the Limit}}\n*[[Blade Ancient Syu-Shai]] in [[Raisu Palace (explorable area)]]\n** {{w}} {{skill icon|Seven Weapons Stance}}\n** {{a}} {{skill icon|Shadow Theft}}\n** {{rt}} {{skill icon|Weapons of Three Forges}}\n*[[Fureyst Sharpsight]] in [[Sacnoth Valley]]\n** {{r}} {{skill icon|\"Together as One!\"}}\n** {{me}} {{skill icon|Time Ward}}\n*[[Yoannh the Rebuilder]] in [[The Ruptured Heart]]\n** {{mo}} {{skill icon|Judgment Strike}}\n** {{p}} {{skill icon|Heroic Refrain}}\n** {{d}} {{skill icon|Vow of Revolution}}\n\n==Acquisition==\n* One in exchange for 5 [[Proof of Legend|Proofs of Legend]] with the [[Ancient Anniversary Weaponsmith]].\n\n== Notes ==\n* The Proof of Triumph is not \"consumed\" by capturing any of these skills and will remain in the inventory.\n* The elite skills count toward all three [[skill hunter]] titles.\n\n== Trivia ==\n* These are the only PvE-only Elite skills that are linked to a profession's [[attribute]].\n* Until the addition of [[Soul Ignition]], these were also the only PvE-only skills that were linked to a profession's [[attribute]].\n\n{{Reward trophies nav}}\n\n[[Category:Anniversary Celebration items]]\n[[Category:Rare trophies]]\n[[Category:Non-tradeable items]]"
+}

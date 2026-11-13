@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of mesmer unique items",
+  "pageid": 91555,
+  "revid": 1685421,
+  "revisedAt": "2009-09-17T07:23:09Z",
+  "sha1": "638c18f6c1aa2a854ae5014578bbbd751f1c9869",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_mesmer_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20mesmer%20unique%20items&oldid=1685421",
+  "retrievedAt": "2026-11-13T02:27:59.340Z",
+  "wikitext": "==[[Wand]]s==\n<dpl>\n  category = Unique wands\n  category = Domination Magic unique items | Fast Casting unique items | Illusion Magic unique items | Inspiration Magic unique items | Mesmer unique items |Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Staff|Staves]]==\n<dpl>\n  category = Unique staves\n  category = Domination Magic unique items | Fast Casting unique items | Illusion Magic unique items | Inspiration Magic unique items | Mesmer unique items |Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Focus item]]s==\n<dpl>\n  category = Unique focus items\n  category = Domination Magic unique items | Fast Casting unique items | Illusion Magic unique items | Inspiration Magic unique items | Mesmer unique items |Variable attribute unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by profession|Mesmer]]\n[[Category:Mesmer unique items|+]]"
+}

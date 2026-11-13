@@ -1,0 +1,11 @@
+{
+  "title": "Outcast Spellstorm",
+  "pageid": 102034,
+  "revid": 2600326,
+  "revisedAt": "2016-01-09T17:51:28Z",
+  "sha1": "fd5f0476303a0afb3fdba31cb02afdd2ff8e78b1",
+  "url": "https://wiki.guildwars.com/wiki/Outcast_Spellstorm",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Outcast%20Spellstorm&oldid=2600326",
+  "retrievedAt": "2026-11-13T02:15:04.555Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| affiliation = Outcasts\n| type = Human\n| profession = e\n| level = 28 (30)\n| campaign = Factions\n| image = [[File:Outcast f.jpg|105px]]\n}}\n[[Outcast Spellstorm]]s control the forces of [[Air Magic|air]] and [[Water Magic|water]].\n\n==Missions==\n*[[The Jade Sea]]\n**{{NPC location|The Aurios Mines}}\n**{{NPC location|The Deep}}\n\n==Skills==\n16 [[Air Magic]], 16 [[Water Magic]]\n*{{Skill icon|Arc Lightning}}\n*{{Skill icon|Blurred Vision}}\n*{{Skill icon|Gust}} ([[elite]])\n*{{Skill icon|Maelstrom}}\n*{{Skill icon|Teinai's Wind}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = e\n| blunt = 84 (90)\n| piercing = 84 (90)\n| slashing = 84 (90)\n| cold = 84 (90)\n| earth = 84 (90)\n| fire = 84 (90)\n| lightning = 84 (90)\n}}"
+}

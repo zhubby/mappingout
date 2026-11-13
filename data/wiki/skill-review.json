@@ -1,0 +1,4792 @@
+{
+  "format": 1,
+  "reviewedFields": [
+    "description",
+    "type",
+    "profession",
+    "attribute",
+    "energy",
+    "adrenaline",
+    "activation",
+    "recharge",
+    "upkeep",
+    "sacrifice",
+    "overcast",
+    "elite",
+    "pveOnly",
+    "acquisition"
+  ],
+  "coverage": {
+    "skills": 381,
+    "chineseDescriptions": 31,
+    "pvpVariants": 54,
+    "bosses": 0,
+    "weapons": 0,
+    "collectors": 0,
+    "storylines": 0
+  },
+  "issues": [
+    {
+      "id": "skill:0:293",
+      "kind": "identity-note",
+      "detail": "旧核心条目没有图片；与四章 Feel No Pain 的同名说明、效果与冷却一致，保留两个旧 ID。"
+    },
+    {
+      "id": "skill:2:214",
+      "kind": "identity-note",
+      "detail": "旧图标不匹配；依据弓条件延长效果、专精属性、施放 1 秒、冷却 12 秒和 Nundak The Archer 获取来源对应 Archer’s Signet。"
+    },
+    {
+      "id": "skill:2:345",
+      "kind": "identity-note",
+      "detail": "旧周年图标不匹配；依据暗影步、目标属性窃取与周年刺客技能说明对应 Shadow Theft。"
+    },
+    {
+      "id": "skill:2:349",
+      "kind": "identity-note",
+      "detail": "旧周年图标不匹配；依据为宠物和召唤生物赋予随机武装的周年祭祀技能说明对应 Weapons of Three Forges。"
+    },
+    {
+      "id": "skill:3:292",
+      "kind": "identity-note",
+      "detail": "依据巨奴虫、400 土系投射伤害、近距限制与 5 能量 / 2 秒 / 8 秒冷却，确认 Junundu Siege；属于临时技能，不是普通捕获技能。"
+    },
+    {
+      "id": "skill:3:348",
+      "kind": "identity-note",
+      "detail": "旧周年图标不匹配；依据结束加持时获得能量的周年神唤技能说明对应 Vow of Revolution。"
+    },
+    {
+      "id": "skill:4:1",
+      "kind": "identity-note",
+      "detail": "旧四章条目没有图片；与核心 Cleave 同名同效果，并有独立四章获取地点，保留旧 ID。"
+    },
+    {
+      "id": "skill:4:347",
+      "kind": "identity-note",
+      "detail": "旧周年图标不匹配；依据提高攻击、施法和技能回复速度的周年幻术结界说明对应 Time Ward。"
+    }
+  ],
+  "entries": [
+    {
+      "id": "skill:0:1",
+      "title": "Cleave",
+      "revid": 2733878,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.459,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:2",
+      "title": "Devastating Hammer",
+      "revid": 2686524,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.12,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:3",
+      "title": "Battle Rage",
+      "revid": 2736499,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.993,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:4",
+      "title": "Hundred Blades",
+      "revid": 2738456,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.051,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:5",
+      "title": "\"Charge!\"",
+      "revid": 2725606,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.626,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:6",
+      "title": "Ferocious Strike",
+      "revid": 2733136,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.121,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:7",
+      "title": "Escape",
+      "revid": 2695828,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.318,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:8",
+      "title": "Barrage",
+      "revid": 2733120,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.493,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:0:9",
+      "title": "Spike Trap",
+      "revid": 2684961,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.565,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:10",
+      "title": "Quick Shot",
+      "revid": 2727143,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.433,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:11",
+      "title": "Spell Breaker",
+      "revid": 2672556,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.259,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:12",
+      "title": "Word of Healing",
+      "revid": 2687573,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.33,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:13",
+      "title": "Shield of Regeneration",
+      "revid": 2733086,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.643,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:14",
+      "title": "Signet of Judgment",
+      "revid": 2718879,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.258,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:15",
+      "title": "Martyr",
+      "revid": 2726518,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.304,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:16",
+      "title": "Blood is Power",
+      "revid": 2733073,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.958,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:17",
+      "title": "Lingering Curse",
+      "revid": 2732023,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.527,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:18",
+      "title": "Plague Signet",
+      "revid": 2732797,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.103,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:19",
+      "title": "Tainted Flesh",
+      "revid": 2727552,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.893,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:20",
+      "title": "Grenth's Balance",
+      "revid": 2695710,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.909,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:21",
+      "title": "Energy Surge",
+      "revid": 2731241,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.508,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:22",
+      "title": "Mantra of Recovery",
+      "revid": 2717989,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.329,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:23",
+      "title": "Crippling Anguish",
+      "revid": 2674624,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.877,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:24",
+      "title": "Energy Drain",
+      "revid": 2731190,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.008,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:25",
+      "title": "Echo",
+      "revid": 2725892,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.343,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:26",
+      "title": "Lightning Surge",
+      "revid": 2738685,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.667,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:27",
+      "title": "Obsidian Flesh",
+      "revid": 2719786,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.479,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:28",
+      "title": "Elemental Attunement",
+      "revid": 2740296,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.911,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:29",
+      "title": "Mind Burn",
+      "revid": 2688422,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.527,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:30",
+      "title": "Mind Freeze",
+      "revid": 2733080,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 7.899,
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:0:293",
+      "title": "Feel No Pain",
+      "revid": 2732702,
+      "identity": "旧核心条目没有图片；与四章 Feel No Pain 的同名说明、效果与冷却一致，保留两个旧 ID。",
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:1:141",
+      "title": "Eviscerate",
+      "revid": 2733102,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.736,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:142",
+      "title": "Backbreaker",
+      "revid": 2733112,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.703,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:143",
+      "title": "Earth Shaker",
+      "revid": 2724977,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.781,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:144",
+      "title": "Bull's Charge",
+      "revid": 2726445,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.719,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:145",
+      "title": "Defy Pain",
+      "revid": 2733091,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.368,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:146",
+      "title": "Dwarven Battle Stance",
+      "revid": 2734347,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.532,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:147",
+      "title": "Flourish",
+      "revid": 2730585,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.817,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:148",
+      "title": "Warrior's Endurance",
+      "revid": 2695816,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 7.294,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:149",
+      "title": "Gladiator's Defense",
+      "revid": 2731229,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 7.686,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:150",
+      "title": "\"Victory Is Mine!\"",
+      "revid": 2726455,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.819,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:151",
+      "title": "Skull Crack",
+      "revid": 2728735,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.993,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:152",
+      "title": "Marksman's Wager",
+      "revid": 2720389,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.056,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:153",
+      "title": "Oath Shot",
+      "revid": 2712716,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.038,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:154",
+      "title": "Practiced Stance",
+      "revid": 2732830,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.188,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:155",
+      "title": "Crippling Shot",
+      "revid": 2739054,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.771,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:1:156",
+      "title": "Punishing Shot",
+      "revid": 2733125,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.337,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:1:157",
+      "title": "Greater Conflagration",
+      "revid": 2731263,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.596,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:158",
+      "title": "Incendiary Arrows",
+      "revid": 2727141,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.803,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:159",
+      "title": "Melandru's Arrows",
+      "revid": 2733128,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.541,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:160",
+      "title": "Melandru's Resilience",
+      "revid": 2718854,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.861,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:161",
+      "title": "Poison Arrow",
+      "revid": 2678681,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.581,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:162",
+      "title": "Aura of Faith",
+      "revid": 2732819,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.02,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:163",
+      "title": "Peace and Harmony",
+      "revid": 2738315,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.534,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:164",
+      "title": "Unyielding Aura",
+      "revid": 2732821,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.709,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:165",
+      "title": "Healing Hands",
+      "revid": 2731195,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.637,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:166",
+      "title": "Amity",
+      "revid": 2720116,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.518,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:167",
+      "title": "Life Barrier",
+      "revid": 2732822,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.727,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:168",
+      "title": "Mark of Protection",
+      "revid": 2723536,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.162,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:169",
+      "title": "Restore Condition",
+      "revid": 2695694,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.247,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:170",
+      "title": "Shield of Deflection",
+      "revid": 2733085,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.433,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:171",
+      "title": "Shield of Judgment",
+      "revid": 2657163,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.733,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:172",
+      "title": "Life Transfer",
+      "revid": 2733074,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.812,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:173",
+      "title": "Offering of Blood",
+      "revid": 2695843,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.349,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:174",
+      "title": "Order of the Vampire",
+      "revid": 2695755,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.523,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:175",
+      "title": "Soul Leech",
+      "revid": 2728010,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.837,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:176",
+      "title": "Well of Power",
+      "revid": 2739038,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.251,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:177",
+      "title": "Feast of Corruption",
+      "revid": 2732022,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.622,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:178",
+      "title": "Spiteful Spirit",
+      "revid": 2739086,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.106,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:179",
+      "title": "Wither",
+      "revid": 2731998,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.174,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:180",
+      "title": "Aura of the Lich",
+      "revid": 2731950,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.949,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:181",
+      "title": "Virulence",
+      "revid": 2658751,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.268,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:182",
+      "title": "Panic",
+      "revid": 2695691,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 7.874,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:183",
+      "title": "Power Block",
+      "revid": 2666055,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.639,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:184",
+      "title": "Fevered Dreams",
+      "revid": 2722582,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.293,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:185",
+      "title": "Illusionary Weaponry",
+      "revid": 2738384,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.868,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:186",
+      "title": "Ineptitude",
+      "revid": 2723542,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.2,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:187",
+      "title": "Migraine",
+      "revid": 2661567,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.955,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:188",
+      "title": "Keystone Signet",
+      "revid": 2664408,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.669,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:189",
+      "title": "Mantra of Recall",
+      "revid": 2698105,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.501,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:190",
+      "title": "Signet of Midnight",
+      "revid": 2674044,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.075,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:191",
+      "title": "Glimmering Mark",
+      "revid": 2742766,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.361,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:192",
+      "title": "Mind Shock",
+      "revid": 2733082,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.682,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:193",
+      "title": "Thunderclap",
+      "revid": 2731208,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 7.612,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:194",
+      "title": "Ether Prodigy",
+      "revid": 2695774,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.675,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:195",
+      "title": "Ether Renewal",
+      "revid": 2695769,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 7.322,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:196",
+      "title": "Mist Form",
+      "revid": 2732815,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.053,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:197",
+      "title": "Ward Against Harm",
+      "revid": 2739368,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.844,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:198",
+      "title": "Water Trident",
+      "revid": 2718948,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.804,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:199",
+      "title": "Glyph of Energy",
+      "revid": 2738822,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.725,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:200",
+      "title": "Glyph of Renewal",
+      "revid": 2737743,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.841,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:1:343",
+      "title": "Over the Limit",
+      "revid": 2740788,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 33.14,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:1:346",
+      "title": "Soul Taker",
+      "revid": 2733320,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 39.358,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:201",
+      "title": "Triple Chop",
+      "revid": 2733179,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.483,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:202",
+      "title": "Whirling Axe",
+      "revid": 2733163,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.208,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:203",
+      "title": "Enraged Smash",
+      "revid": 2733180,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.452,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:204",
+      "title": "Forceful Blow",
+      "revid": 2733164,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.791,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:205",
+      "title": "Primal Rage",
+      "revid": 2738525,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.207,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:206",
+      "title": "Dragon Slash",
+      "revid": 2739609,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.131,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:207",
+      "title": "Quivering Blade",
+      "revid": 2738486,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.706,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:208",
+      "title": "Auspicious Parry",
+      "revid": 2735665,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.289,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:209",
+      "title": "Shove",
+      "revid": 2739599,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.026,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:210",
+      "title": "\"Coward!\"",
+      "revid": 2738450,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.864,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:211",
+      "title": "Enraged Lunge",
+      "revid": 2733201,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.305,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:212",
+      "title": "Heal as One",
+      "revid": 2686555,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.561,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:213",
+      "title": "Lacerate",
+      "revid": 2731265,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.107,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:214",
+      "title": "Archer's Signet",
+      "revid": 2726468,
+      "identity": "旧图标不匹配；依据弓条件延长效果、专精属性、施放 1 秒、冷却 12 秒和 Nundak The Archer 获取来源对应 Archer’s Signet。",
+      "iconError": 42.049,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:215",
+      "title": "Glass Arrows",
+      "revid": 2738438,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.431,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:216",
+      "title": "Trapper's Focus",
+      "revid": 2733174,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 17.032,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:217",
+      "title": "Broad Head Arrow",
+      "revid": 2731328,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.972,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:218",
+      "title": "Melandru's Shot",
+      "revid": 2738341,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.925,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:219",
+      "title": "Equinox",
+      "revid": 2731258,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.281,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:220",
+      "title": "Famine",
+      "revid": 2731259,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.584,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:221",
+      "title": "Blessed Light",
+      "revid": 2741255,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.354,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:222",
+      "title": "Boon Signet",
+      "revid": 2735648,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.552,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:223",
+      "title": "Withdraw Hexes",
+      "revid": 2727139,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.361,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:224",
+      "title": "Healing Burst",
+      "revid": 2731300,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.146,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:225",
+      "title": "Healing Light",
+      "revid": 2738561,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.813,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:226",
+      "title": "Air of Enchantment",
+      "revid": 2726359,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.482,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:227",
+      "title": "Life Sheath",
+      "revid": 2670903,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.547,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:228",
+      "title": "Ray of Judgment",
+      "revid": 2731490,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.761,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:229",
+      "title": "Word of Censure",
+      "revid": 2725883,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 63.115,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:230",
+      "title": "Empathic Removal",
+      "revid": 2658741,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.968,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:231",
+      "title": "Cultist's Fervor",
+      "revid": 2738924,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.989,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:232",
+      "title": "Spoil Victor",
+      "revid": 2726257,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.874,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:233",
+      "title": "Vampiric Spirit",
+      "revid": 2733157,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.787,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:234",
+      "title": "Order of Apostasy",
+      "revid": 2732837,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.996,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:235",
+      "title": "Soul Bind",
+      "revid": 2661885,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.329,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:236",
+      "title": "Weaken Knees",
+      "revid": 2726486,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.844,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:237",
+      "title": "Animate Flesh Golem",
+      "revid": 2743404,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.485,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:238",
+      "title": "Discord",
+      "revid": 2717610,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.963,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:239",
+      "title": "Icy Veins",
+      "revid": 2680396,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.819,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:240",
+      "title": "Wail of Doom",
+      "revid": 2738220,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.494,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:241",
+      "title": "Psychic Distraction",
+      "revid": 2733190,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.714,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:242",
+      "title": "Psychic Instability",
+      "revid": 2736364,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.276,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:243",
+      "title": "Arcane Languor",
+      "revid": 2661871,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 18.083,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:244",
+      "title": "Stolen Speed",
+      "revid": 2630098,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.914,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:245",
+      "title": "Recurring Insecurity",
+      "revid": 2726529,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.001,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:246",
+      "title": "Shared Burden",
+      "revid": 2720383,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.081,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:247",
+      "title": "Lyssa's Aura",
+      "revid": 2733155,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.469,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:248",
+      "title": "Power Leech",
+      "revid": 2731694,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.866,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:249",
+      "title": "Expel Hexes",
+      "revid": 2628833,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 15.134,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:250",
+      "title": "Shatter Storm",
+      "revid": 2629978,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.188,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:251",
+      "title": "Gust",
+      "revid": 2732015,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.804,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:252",
+      "title": "Ride the Lightning",
+      "revid": 2740379,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.537,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:253",
+      "title": "Shockwave",
+      "revid": 2733053,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.41,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:254",
+      "title": "Unsteady Ground",
+      "revid": 2667441,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.186,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:255",
+      "title": "Energy Boon",
+      "revid": 2726540,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.93,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:256",
+      "title": "Double Dragon",
+      "revid": 2731192,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 15.811,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:257",
+      "title": "Star Burst",
+      "revid": 2680193,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.718,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:258",
+      "title": "Mirror of Ice",
+      "revid": 2697537,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.13,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:259",
+      "title": "Shatterstone",
+      "revid": 2740609,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.533,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:260",
+      "title": "Second Wind",
+      "revid": 2691022,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.637,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:261",
+      "title": "Dark Apostasy",
+      "revid": 2720685,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.019,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:262",
+      "title": "Locust's Fury",
+      "revid": 2731174,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 15.319,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:263",
+      "title": "Palm Strike",
+      "revid": 2629776,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 17.966,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:264",
+      "title": "Seeping Wound",
+      "revid": 2739091,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 19.696,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:265",
+      "title": "Flashing Blades",
+      "revid": 2709272,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.546,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:266",
+      "title": "Moebius Strike",
+      "revid": 2733151,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.145,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:267",
+      "title": "Temple Strike",
+      "revid": 2692444,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.839,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:268",
+      "title": "Assassin's Promise",
+      "revid": 2712717,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.96,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:269",
+      "title": "Shroud of Silence",
+      "revid": 2720289,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 17.372,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:270",
+      "title": "Siphon Strength",
+      "revid": 2720686,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 20.06,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:271",
+      "title": "Way of the Empty Palm",
+      "revid": 2736113,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.006,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:272",
+      "title": "Beguiling Haze",
+      "revid": 2731170,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 15.604,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:273",
+      "title": "Shadow Form",
+      "revid": 2640623,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.57,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:274",
+      "title": "Shadow Shroud",
+      "revid": 2738319,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.399,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:275",
+      "title": "Aura of Displacement",
+      "revid": 2738262,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.613,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:276",
+      "title": "Clamor of Souls",
+      "revid": 2697474,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.175,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:277",
+      "title": "Grasping Was Kuurong",
+      "revid": 2726597,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.545,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:278",
+      "title": "Signet of Spirits",
+      "revid": 2686605,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.538,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:279",
+      "title": "Defiant Was Xinrae",
+      "revid": 2742096,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 19.012,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:280",
+      "title": "Wanderlust",
+      "revid": 2630210,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.955,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:281",
+      "title": "Weapon of Quickening",
+      "revid": 2731225,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.617,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:282",
+      "title": "Preservation",
+      "revid": 2729186,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.378,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:283",
+      "title": "Spirit Light Weapon",
+      "revid": 2732017,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.747,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:284",
+      "title": "Tranquil Was Tanasen",
+      "revid": 2733172,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 17.766,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:285",
+      "title": "Vengeful Was Khanhei",
+      "revid": 2732342,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 15.762,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:286",
+      "title": "Attuned Was Songkai",
+      "revid": 2732769,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 15.792,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:287",
+      "title": "Consume Soul",
+      "revid": 2732231,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.318,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:288",
+      "title": "Ritual Lord",
+      "revid": 2733061,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.165,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:289",
+      "title": "Spirit Channeling",
+      "revid": 2733203,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.498,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:2:290",
+      "title": "Soul Twisting",
+      "revid": 2738380,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.688,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:344",
+      "title": "Seven Weapons Stance",
+      "revid": 2733322,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 44.49,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:345",
+      "title": "Shadow Theft",
+      "revid": 2723543,
+      "identity": "旧周年图标不匹配；依据暗影步、目标属性窃取与周年刺客技能说明对应 Shadow Theft。",
+      "iconError": 50.522,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:349",
+      "title": "Weapons of Three Forges",
+      "revid": 2734325,
+      "identity": "旧周年图标不匹配；依据为宠物和召唤生物赋予随机武装的周年祭祀技能说明对应 Weapons of Three Forges。",
+      "iconError": 55.857,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:351",
+      "title": "Aura of Holy Might",
+      "revid": 2739490,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 22.564,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:352",
+      "title": "Aura of Holy Might",
+      "revid": 2739490,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 39.19,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:353",
+      "title": "Elemental Lord",
+      "revid": 2691933,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 25.718,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:354",
+      "title": "Elemental Lord",
+      "revid": 2691933,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 23.609,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:355",
+      "title": "Ether Nightmare",
+      "revid": 2740810,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 29.806,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:356",
+      "title": "Ether Nightmare",
+      "revid": 2740810,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 33.127,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:357",
+      "title": "Selfless Spirit",
+      "revid": 2645390,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 34.048,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:358",
+      "title": "Selfless Spirit",
+      "revid": 2645390,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 43.739,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:359",
+      "title": "Shadow Sanctuary",
+      "revid": 2732691,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 30.022,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:360",
+      "title": "Shadow Sanctuary",
+      "revid": 2732691,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 26.687,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:361",
+      "title": "Signet of Corruption",
+      "revid": 2645392,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 45.238,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:362",
+      "title": "Signet of Corruption",
+      "revid": 2645392,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 34.856,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:363",
+      "title": "Spear of Fury",
+      "revid": 2732692,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 30.424,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:364",
+      "title": "Spear of Fury",
+      "revid": 2732692,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 38.436,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:365",
+      "title": "Summon Spirits",
+      "revid": 2658492,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 23.278,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:366",
+      "title": "Summon Spirits",
+      "revid": 2658492,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 35.236,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:367",
+      "title": "\"Save Yourselves!\"",
+      "revid": 2706908,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 27.941,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:368",
+      "title": "\"Save Yourselves!\"",
+      "revid": 2706908,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 30.767,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:369",
+      "title": "Triple Shot",
+      "revid": 2710816,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 28.626,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:2:370",
+      "title": "Triple Shot",
+      "revid": 2710816,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 33.14,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:31",
+      "title": "Decapitate",
+      "revid": 2738488,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.002,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:32",
+      "title": "Magehunter's Smash",
+      "revid": 2686568,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.347,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:33",
+      "title": "Charging Strike",
+      "revid": 2738445,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.735,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:34",
+      "title": "Headbutt",
+      "revid": 2740391,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.66,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:35",
+      "title": "Magehunter Strike",
+      "revid": 2733263,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.571,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:36",
+      "title": "Rage of the Ntouka",
+      "revid": 2734324,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.334,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:37",
+      "title": "Crippling Slash",
+      "revid": 2738481,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.161,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:38",
+      "title": "Soldier's Stance",
+      "revid": 2739566,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.764,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:39",
+      "title": "Steady Stance",
+      "revid": 2726454,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.259,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:40",
+      "title": "\"You're All Alone!\"",
+      "revid": 2721604,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 7.887,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:41",
+      "title": "Rampage as One",
+      "revid": 2667420,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:42",
+      "title": "Strike as One",
+      "revid": 2684882,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.79,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:43",
+      "title": "Expert's Dexterity",
+      "revid": 2628838,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.713,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:44",
+      "title": "Infuriating Heat",
+      "revid": 2738735,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.72,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:45",
+      "title": "Burning Arrow",
+      "revid": 2739057,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.825,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:46",
+      "title": "Prepared Shot",
+      "revid": 2733220,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.778,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:47",
+      "title": "Quicksand",
+      "revid": 2731272,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.718,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:48",
+      "title": "Scavenger's Focus",
+      "revid": 2726462,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.596,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:49",
+      "title": "Smoke Trap",
+      "revid": 2726460,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.769,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:50",
+      "title": "Magebane Shot",
+      "revid": 2646587,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.723,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:51",
+      "title": "Scribe's Insight",
+      "revid": 2629955,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.855,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:52",
+      "title": "Healer's Boon",
+      "revid": 2629266,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.01,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:53",
+      "title": "Glimmer of Light",
+      "revid": 2657831,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.007,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:54",
+      "title": "Healer's Covenant",
+      "revid": 2726520,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.701,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:55",
+      "title": "Light of Deliverance",
+      "revid": 2708605,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.42,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:56",
+      "title": "Divert Hexes",
+      "revid": 2731209,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.382,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:57",
+      "title": "Zealous Benediction",
+      "revid": 2686644,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.222,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:58",
+      "title": "Balthazar's Pendulum",
+      "revid": 2742808,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.036,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:59",
+      "title": "Defender's Zeal",
+      "revid": 2738556,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.845,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:60",
+      "title": "Signet of Removal",
+      "revid": 2726515,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.767,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:61",
+      "title": "Ravenous Gaze",
+      "revid": 2732025,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.42,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:62",
+      "title": "Corrupt Enchantment",
+      "revid": 2738602,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 17.128,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:63",
+      "title": "Depravity",
+      "revid": 2726493,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.924,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:64",
+      "title": "Pain of Disenchantment",
+      "revid": 2629775,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.073,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:65",
+      "title": "Signet of Suffering",
+      "revid": 2735647,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 15.401,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:66",
+      "title": "Contagion",
+      "revid": 2739202,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.03,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:67",
+      "title": "Jagged Bones",
+      "revid": 2734456,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.586,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:68",
+      "title": "Order of Undeath",
+      "revid": 2733209,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.126,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:69",
+      "title": "Toxic Chill",
+      "revid": 2630152,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.47,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:70",
+      "title": "Reaper's Mark",
+      "revid": 2738609,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.653,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:71",
+      "title": "Enchanter's Conundrum",
+      "revid": 2732799,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.297,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:72",
+      "title": "Hex Eater Vortex",
+      "revid": 2724087,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.993,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:73",
+      "title": "Power Flux",
+      "revid": 2731200,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.172,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:74",
+      "title": "Simple Thievery",
+      "revid": 2723308,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.185,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:75",
+      "title": "Visions of Regret",
+      "revid": 2659890,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.244,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:76",
+      "title": "Symbols of Inspiration",
+      "revid": 2739301,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.706,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:77",
+      "title": "Air of Disenchantment",
+      "revid": 2733062,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.213,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:78",
+      "title": "Extend Conditions",
+      "revid": 2732798,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.55,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:79",
+      "title": "Tease",
+      "revid": 2738391,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.641,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:80",
+      "title": "Signet of Illusions",
+      "revid": 2740644,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 19.076,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:81",
+      "title": "Blinding Surge",
+      "revid": 2723541,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.875,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:82",
+      "title": "Invoke Lightning",
+      "revid": 2629431,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.736,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:83",
+      "title": "Sandstorm",
+      "revid": 2731207,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.36,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:84",
+      "title": "Stone Sheath",
+      "revid": 2733210,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.001,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:85",
+      "title": "Ether Prism",
+      "revid": 2726539,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.264,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:86",
+      "title": "Master of Magic",
+      "revid": 2738738,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.616,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:87",
+      "title": "Mind Blast",
+      "revid": 2629703,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 8.268,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:88",
+      "title": "Savannah Heat",
+      "revid": 2640757,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.66,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:89",
+      "title": "Searing Flames",
+      "revid": 2629958,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.844,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:90",
+      "title": "Icy Shackles",
+      "revid": 2629333,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.649,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:91",
+      "title": "Assault Enchantments",
+      "revid": 2628517,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.218,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:92",
+      "title": "Fox's Promise",
+      "revid": 2629035,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.885,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:93",
+      "title": "Way of the Assassin",
+      "revid": 2732884,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.725,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:94",
+      "title": "Shattering Assault",
+      "revid": 2720676,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.729,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:95",
+      "title": "Golden Skull Strike",
+      "revid": 2727430,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.541,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:96",
+      "title": "Mark of Insecurity",
+      "revid": 2732831,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.806,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:97",
+      "title": "Shadow Prison",
+      "revid": 2738363,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.199,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:98",
+      "title": "Hidden Caltrops",
+      "revid": 2720688,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.292,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:99",
+      "title": "Shadow Meld",
+      "revid": 2738345,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.943,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:100",
+      "title": "Wastrel's Collapse",
+      "revid": 2743328,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.836,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:101",
+      "title": "Caretaker's Charge",
+      "revid": 2739060,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 21.041,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:102",
+      "title": "Destructive Was Glaive",
+      "revid": 2686523,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.958,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:103",
+      "title": "Offering of Spirit",
+      "revid": 2726424,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 17.255,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:104",
+      "title": "Weapon of Fury",
+      "revid": 2738733,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.226,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:105",
+      "title": "Signet of Ghostly Might",
+      "revid": 2733269,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.84,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:106",
+      "title": "Xinrae's Weapon",
+      "revid": 2742097,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.68,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:107",
+      "title": "Weapon of Remedy",
+      "revid": 2740841,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 10.356,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:108",
+      "title": "Reclaim Essence",
+      "revid": 2640704,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 9.159,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:109",
+      "title": "Spirit's Strength",
+      "revid": 2733268,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.145,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:110",
+      "title": "Wielder's Zeal",
+      "revid": 2720395,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.924,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:111",
+      "title": "\"Incoming!\"",
+      "revid": 2733390,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.862,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:112",
+      "title": "Anthem of Guidance",
+      "revid": 2720692,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 25.665,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:113",
+      "title": "Crippling Anthem",
+      "revid": 2738755,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 24.75,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:114",
+      "title": "Angelic Bond",
+      "revid": 2739144,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.102,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:115",
+      "title": "Anthem of Fury",
+      "revid": 2738945,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 24.138,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:116",
+      "title": "Defensive Anthem",
+      "revid": 2738947,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 24.849,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:117",
+      "title": "Focused Anger",
+      "revid": 2739323,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.185,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:118",
+      "title": "Soldier's Fury",
+      "revid": 2706293,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.172,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:119",
+      "title": "\"It's Just a Flesh Wound.\"",
+      "revid": 2733924,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.169,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:120",
+      "title": "\"The Power Is Yours!\"",
+      "revid": 2732018,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.192,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:121",
+      "title": "Song of Purification",
+      "revid": 2730269,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 19.592,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:122",
+      "title": "Song of Restoration",
+      "revid": 2731054,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 26.778,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:123",
+      "title": "Cruel Spear",
+      "revid": 2733244,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.91,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:124",
+      "title": "Stunning Strike",
+      "revid": 2733256,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.352,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:125",
+      "title": "Cautery Signet",
+      "revid": 2645486,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 11.816,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:126",
+      "title": "Ebon Dust Aura",
+      "revid": 2733271,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.789,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:127",
+      "title": "Vow of Strength",
+      "revid": 2691165,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.616,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:128",
+      "title": "Arcane Zeal",
+      "revid": 2737290,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.948,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:129",
+      "title": "Avatar of Balthazar",
+      "revid": 2693176,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.77,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:130",
+      "title": "Avatar of Dwayna",
+      "revid": 2715539,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.581,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:131",
+      "title": "Avatar of Grenth",
+      "revid": 2723117,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.221,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:132",
+      "title": "Avatar of Lyssa",
+      "revid": 2664510,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.346,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:133",
+      "title": "Avatar of Melandru",
+      "revid": 2693177,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.791,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:134",
+      "title": "Pious Renewal",
+      "revid": 2691197,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.056,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:135",
+      "title": "Vow of Silence",
+      "revid": 2721018,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.239,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:136",
+      "title": "Reaper's Sweep",
+      "revid": 2726548,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 17.066,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:137",
+      "title": "Wounding Strike",
+      "revid": 2733239,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.168,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:138",
+      "title": "Grenth's Grasp",
+      "revid": 2738881,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 14.189,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:139",
+      "title": "Onslaught",
+      "revid": 2733587,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 13.46,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:140",
+      "title": "Zealous Vow",
+      "revid": 2726541,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.781,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:291",
+      "title": "Lightbringer Signet",
+      "revid": 2706570,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 19.519,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:292",
+      "title": "Junundu Siege",
+      "revid": 2629505,
+      "identity": "依据巨奴虫、400 土系投射伤害、近距限制与 5 能量 / 2 秒 / 8 秒冷却，确认 Junundu Siege；属于临时技能，不是普通捕获技能。",
+      "iconError": 44.197,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:3:341",
+      "title": "Heroic Refrain",
+      "revid": 2740457,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 12.656,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:342",
+      "title": "Judgment Strike",
+      "revid": 2733321,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 16.421,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:348",
+      "title": "Vow of Revolution",
+      "revid": 2733324,
+      "identity": "旧周年图标不匹配；依据结束加持时获得能量的周年神唤技能说明对应 Vow of Revolution。",
+      "iconError": 46.881,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:371",
+      "title": "Critical Agility",
+      "revid": 2742816,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 26.922,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:372",
+      "title": "Cry of Pain",
+      "revid": 2658272,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 39.222,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:373",
+      "title": "Eternal Aura",
+      "revid": 2664529,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 45.731,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:374",
+      "title": "Intensity",
+      "revid": 2740702,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 25.105,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:375",
+      "title": "Necrosis",
+      "revid": 2640672,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 33.414,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:376",
+      "title": "Never Rampage Alone",
+      "revid": 2732695,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 26.025,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:377",
+      "title": "Seed of Life",
+      "revid": 2665972,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 57.518,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:378",
+      "title": "Vampirism",
+      "revid": 2645581,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 39.52,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:379",
+      "title": "Whirlwind Attack",
+      "revid": 2732694,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 43.652,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:3:380",
+      "title": "\"There's Nothing to Fear!\"",
+      "revid": 2657131,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:1",
+      "title": "Cleave",
+      "revid": 2733878,
+      "identity": "旧四章条目没有图片；与核心 Cleave 同名同效果，并有独立四章获取地点，保留旧 ID。",
+      "translated": true,
+      "changedFields": [
+        "description",
+        "details"
+      ]
+    },
+    {
+      "id": "skill:4:293",
+      "title": "Feel No Pain",
+      "revid": 2732702,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 40.206,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:294",
+      "title": "Raven Blessing",
+      "revid": 2707357,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:295",
+      "title": "Ursan Blessing",
+      "revid": 2742159,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:296",
+      "title": "Volfen Blessing",
+      "revid": 2707358,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:297",
+      "title": "Air of Superiority",
+      "revid": 2680287,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:298",
+      "title": "Asuran Scan",
+      "revid": 2727152,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:299",
+      "title": "Mental Block",
+      "revid": 2647105,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:300",
+      "title": "Mindbender",
+      "revid": 2680288,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:301",
+      "title": "Pain Inverter",
+      "revid": 2728795,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:302",
+      "title": "Radiation Field",
+      "revid": 2734338,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:303",
+      "title": "Smooth Criminal",
+      "revid": 2723310,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:304",
+      "title": "Summon Ice Imp",
+      "revid": 2680291,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:305",
+      "title": "Summon Mursaat",
+      "revid": 2681413,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:306",
+      "title": "Summon Naga Shaman",
+      "revid": 2680293,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:307",
+      "title": "Summon Ruby Djinn",
+      "revid": 2706550,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:308",
+      "title": "Technobabble",
+      "revid": 2680290,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:309",
+      "title": "Alkar's Alchemical Acid",
+      "revid": 2679312,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:310",
+      "title": "Black Powder Mine",
+      "revid": 2684371,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:311",
+      "title": "Brawling Headbutt",
+      "revid": 2741786,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:312",
+      "title": "Breath of the Great Dwarf",
+      "revid": 2679970,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:313",
+      "title": "Drunken Master",
+      "revid": 2721144,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:314",
+      "title": "Dwarven Stability",
+      "revid": 2645603,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:315",
+      "title": "Ear Bite",
+      "revid": 2711214,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:316",
+      "title": "Great Dwarf Weapon",
+      "revid": 2732696,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:317",
+      "title": "Light of Deldrimor",
+      "revid": 2684506,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:318",
+      "title": "Snow Storm",
+      "revid": 2733887,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:319",
+      "title": "Deft Strike",
+      "revid": 2740687,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:320",
+      "title": "Ebon Battle Standard of Honor",
+      "revid": 2732698,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 63.184,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:321",
+      "title": "Ebon Escape",
+      "revid": 2645614,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 44.782,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:322",
+      "title": "Ebon Vanguard Sniper Support",
+      "revid": 2732699,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 63.658,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:323",
+      "title": "Tryptophan Signet",
+      "revid": 2645619,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 50.425,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:324",
+      "title": "Weakness Trap",
+      "revid": 2645620,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 47.087,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:325",
+      "title": "Winds",
+      "revid": 2720905,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 51.268,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:326",
+      "title": "Ebon Battle Standard of Courage",
+      "revid": 2647106,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:327",
+      "title": "Ebon Battle Standard of Wisdom",
+      "revid": 2711462,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:328",
+      "title": "Ebon Vanguard Assassin Support",
+      "revid": 2669008,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:329",
+      "title": "Signet of Infection",
+      "revid": 2645617,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:330",
+      "title": "Sneak Attack",
+      "revid": 2667609,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:331",
+      "title": "Tryptophan Signet",
+      "revid": 2645619,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:332",
+      "title": "A Touch of Guile",
+      "revid": 2674048,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:333",
+      "title": "Club of a Thousand Bears",
+      "revid": 2732703,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:334",
+      "title": "\"Dodge This!\"",
+      "revid": 2732700,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:335",
+      "title": "\"Finish Him!\"",
+      "revid": 2633672,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:336",
+      "title": "\"I Am the Strongest!\"",
+      "revid": 2732701,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:337",
+      "title": "\"I Am Unstoppable!\"",
+      "revid": 2716553,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:338",
+      "title": "\"You Are All Weaklings!\"",
+      "revid": 2719028,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:339",
+      "title": "\"You Move Like a Dwarf!\"",
+      "revid": 2667948,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 0,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "profession",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:340",
+      "title": "\"Together as One!\"",
+      "revid": 2737986,
+      "identity": "英文技能名称 / 描述、技能图标独立比对一致",
+      "iconError": 29.353,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    },
+    {
+      "id": "skill:4:347",
+      "title": "Time Ward",
+      "revid": 2738635,
+      "identity": "旧周年图标不匹配；依据提高攻击、施法和技能回复速度的周年幻术结界说明对应 Time Ward。",
+      "iconError": 52.801,
+      "translated": false,
+      "changedFields": [
+        "description",
+        "details",
+        "attribute"
+      ]
+    }
+  ]
+}

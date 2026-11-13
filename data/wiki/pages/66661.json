@@ -1,0 +1,11 @@
+{
+  "title": "Volatile Ooze",
+  "pageid": 66661,
+  "revid": 2734952,
+  "revisedAt": "2026-07-20T07:06:36Z",
+  "sha1": "87f6afe360be8bd347398212b9b0f72c68abec1e",
+  "url": "https://wiki.guildwars.com/wiki/Volatile_Ooze",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Volatile%20Ooze&oldid=2734952",
+  "retrievedAt": "2026-11-13T02:16:07.234Z",
+  "wikitext": "{{NPC infobox\n| type = Jelly\n| affiliation = Depths of Tyria wildlife\n| image = [[Image:Earthbound Ooze.jpg|150px]]\n| level = 20 (26)\n| campaign = Eye of the North\n}}__NOTOC__\n[[Volatile Ooze]] are much smaller than regular [[jelly]] and only have low health. Despite that fact they use a devastating suicide [[area of effect]] [[touch skill]] that deals 133 damage.\n\n==Locations==\n*[[Depths of Tyria]]\n**{{NPC location|Ooze Pit}}\n\n==Skills==\n*{{monster skill icon|Unstable Ooze Explosion}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = e\n| blunt = 60\n| piercing = 60\n| slashing = 60\n| cold = 60\n| earth = 60\n| fire = 60\n| lightning = 60\n}}\n\n==Notes==\n*Three of them can also be created by [[Ooze Devourer]]s with the [[corpse]] exploitation skill [[Gelatinous Corpse Consumption]]; therefore, it's advisable to take out Ooze Devourers first to prevent them from summoning these dangerous foes."
+}

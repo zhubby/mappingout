@@ -1,0 +1,11 @@
+{
+  "title": "Charging Strike (PvP)",
+  "pageid": 321771,
+  "revid": 2738929,
+  "revisedAt": "2026-08-28T04:08:03Z",
+  "sha1": "a065ff197056b0a6b1feb00bd2446feb74876169",
+  "url": "https://wiki.guildwars.com/wiki/Charging_Strike_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Charging%20Strike%20(PvP)&oldid=2738929",
+  "retrievedAt": "2026-11-13T01:08:06.015Z",
+  "wikitext": "__NOTOC__{{Pveversion|Charging Strike}}\n{{Skill infobox\n| id = 3465\n| name = Charging Strike (PvP)\n| campaign = Nightfall\n| profession = Warrior\n| attribute = Strength\n| type = Stance\n| elite = y\n| energy = 5\n| recharge = 5\n| causes1 = Increased Movement Speed\n| description = [[Elite]] [[Stance]]. For {{gr|1|10}} second[s], you [[Speed boost|run 33% faster]]. Your next successful [[Melee attack|melee]] hit does {{gr|10|80|+}} [[damage]] and this stance ends. This stance ends if you use a [[skill]].\n| concise description = Elite Stance. ({{gr|1|10}} second[s].) You move 33% faster and deal {{gr|10|80|+}} damage with your next melee hit. {{gray|Ends when you hit or if you use a skill.}}\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Strength]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 10\n|var2 name = + [[Damage]]\n|var2 at0 = 10\n|var2 at15 = 80}}\n\n== Related skills ==\n* {{skill icon|Volfen Pounce}}\n* {{skill icon|Whirling Charge}}\n\n== Notes ==\n*[[Melee attack]] skills will cancel the stance before it would apply bonus damage.\n* If attacking multiple enemies using a scythe, only one enemy (which will not be the target) takes the bonus damage from this skill.\n\n== Trivia ==\n*The warrior in the [[skill icon]] is wearing [[Warrior Sunspear armor|Sunspear armor]].\n\n[[de:Angreifender Schlag (PvP)]]"
+}

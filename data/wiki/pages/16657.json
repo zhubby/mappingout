@@ -1,0 +1,11 @@
+{
+  "title": "Yahir",
+  "pageid": 16657,
+  "revid": 2109516,
+  "revisedAt": "2010-08-09T22:20:53Z",
+  "sha1": "18bc32f0af100cebdaaec021fcf664208af14661",
+  "url": "https://wiki.guildwars.com/wiki/Yahir",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Yahir&oldid=2109516",
+  "retrievedAt": "2026-11-13T02:15:18.451Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Sunspear f armored.jpg|150px]]\n| affiliation = Order of the Sunspears\n| type = Human\n| service = Arena Guard\n| level = 20\n| campaign = Nightfall\n}}\n[[Yahir]] allows the player access to the [[Sunspear Arena]].\n\n==Locations==\n* [[Istan]]\n** {{NPC location|Kamadan, Jewel of Istan}}\n\n==Dialogue==\n:''\"I can take you to the Sunspear Arena where teams assemble to fight against one another. Would you like to go?\"''\n::{{yes}} '''Yes.'''\n::{{no|red}} '''No, thank you.'''"
+}

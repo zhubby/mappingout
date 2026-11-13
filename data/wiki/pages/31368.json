@@ -1,0 +1,11 @@
+{
+  "title": "Ryszard",
+  "pageid": 31368,
+  "revid": 2603247,
+  "revisedAt": "2016-03-26T16:23:35Z",
+  "sha1": "0e1b76e8556bff56376a30dc6a008042948029de",
+  "url": "https://wiki.guildwars.com/wiki/Ryszard",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ryszard&oldid=2603247",
+  "retrievedAt": "2026-11-13T02:14:52.878Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Kurzick elementalist.jpg|x350px]]\n| affiliation = Kurzicks\n| type = Human\n| service = Rare material trader\n| level = 20\n| campaign = Factions\n}}\n[[Ryszard]] is a material trader, a type of [[NPC]] that buys and sells [[rare crafting material]]s.\n\n==Locations==\n*[[Echovald Forest]]\n**{{NPC location|House zu Heltzer}}\n\n==Dialogue==\n{{Kurzick-only service NPC dialogue|skill trainer=n}}\n{{trader dialogue}}"
+}

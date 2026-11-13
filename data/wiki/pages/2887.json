@@ -1,0 +1,11 @@
+{
+  "title": "Explosive Growth (NPC)",
+  "pageid": 2887,
+  "revid": 2522533,
+  "revisedAt": "2012-10-28T00:32:46Z",
+  "sha1": "c69276d343353a8bea29ead580970039354b9b74",
+  "url": "https://wiki.guildwars.com/wiki/Explosive_Growth_(NPC)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Explosive%20Growth%20(NPC)&oldid=2522533",
+  "retrievedAt": "2026-11-13T02:14:55.585Z",
+  "wikitext": "__NOTOC__{{otheruses|the creature|the skill|Explosive Growth}}\n{{NPC infobox\n| type = Plant\n| affiliation = Urgoz\n| image = [[File:Stalker.jpg|125px]]\n| level = 10 (24)\n| campaign = Factions\n}}\n[[Explosive Growth (NPC)|Explosive Growths]] spawn in the final room of [[Urgoz's Warren]] wherever a character stands for 2 seconds while within [[Urgoz]]'s aggro range and explode with [[Exploding Spores]] effect after a few seconds.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n*{{monster skill icon|Exploding Spores}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = e\n| blunt = 30\n| piercing = 30\n| slashing = 30\n| cold = 30\n| earth = 30\n| fire = 30\n| lightning = 30\n}}"
+}

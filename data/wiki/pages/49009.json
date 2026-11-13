@@ -1,0 +1,11 @@
+{
+  "title": "Phantom (NPC)",
+  "pageid": 49009,
+  "revid": 2570719,
+  "revisedAt": "2014-06-29T07:47:32Z",
+  "sha1": "9593ee85ad3d3e40d05d00751fa850b77c768332",
+  "url": "https://wiki.guildwars.com/wiki/Phantom_(NPC)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Phantom%20(NPC)&oldid=2570719",
+  "retrievedAt": "2026-11-13T02:14:35.853Z",
+  "wikitext": "{{NPC infobox\n| name = Phantom\n| type = Ghost\n| affiliation = Undead\n| profession = me\n| level = 24 (26)\n| campaign = Prophecies\n}}__NOTOC__\n[[Phantom (NPC)|Phantom]]s are [[mesmer]]s that can be found on the [[Ring of Fire Islands]]. Although they do little damage, they are quite proficient at shutting down your team, often [[popup|popping up]] at inopportune times.\n\n==Locations==\n*[[Ring of Fire Islands]]\n**{{NPC location|Perdition Rock}}\n\n==Missions==\n*Ring of Fire Islands\n**{{NPC location|Ring of Fire}}\n\n==Skills==\n15 [[Domination Magic]] (20 Domination Magic in [[Hard mode]])\n*{{skill icon|Cry of Frustration}}\n*{{skill icon|Drain Enchantment}}\n*{{skill icon|Power Drain}}\n*{{skill icon|Power Leak}}\n*{{skill icon|Signet of Midnight}} ([[elite]])\n\n==Armor ratings==\n{{NPC statistics\n| prof = me\n| blunt = 111\n| piercing = 111\n| slashing = 111\n| cold = 71\n| earth = 71\n| fire = 71\n| lightning = 71\n}}\n\n==Items dropped==\n*[[Unctuous Remains]]\n\n==Notes==\n*Unlike most ghosts, [[holy damage]] is doubled against Phantoms.\n\n==Trivia==\n* The appearance of the Phantoms was inspired by [[w:H. P. Lovecraft|H. P. Lovecraft]] works and were originally intended for [[creature]]s of the [[Maguuma Jungle]]."
+}

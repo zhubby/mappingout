@@ -1,0 +1,11 @@
+{
+  "title": "Unknown Junundu Ability",
+  "pageid": 32885,
+  "revid": 2630172,
+  "revisedAt": "2018-06-18T17:54:33Z",
+  "sha1": "e00c5595aa85a25a1b62a09b0eaba9c15e6adb73",
+  "url": "https://wiki.guildwars.com/wiki/Unknown_Junundu_Ability",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unknown%20Junundu%20Ability&oldid=2630172",
+  "retrievedAt": "2026-11-13T01:08:10.944Z",
+  "wikitext": "{{Skill infobox\n| id = 1876\n| name = Unknown Junundu Ability\n| campaign = Nightfall\n| type = Skill\n| elite = y\n| energy = 5\n| activation = 2\n| recharge = 8\n| special = Junundu\n| description = [[Elite]] [[Skill (skill type)|Skill]]. You have not taught your [[junundu]] to perform this skill.\n| concise description = Elite Skill. You have not taught your junundu to perform this skill.\n}}\n\n==Acquisition ==\nThis skill is available whenever your character is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] until the point where [[Junundu Siege]] is available for use.\n\n==Notes==\n* This skill shares recharge, activation, and energy cost with Junundu Siege. However, it cannot actually be activated.\n* After killing the [[Elder Siege Wurm]]s as part of the primary quest [[Horde of Darkness]], this skill will be replaced permanently with [[Junundu Siege]].\n* This skill will not count toward the [[Skill Hunter]] title.\n* Mesmer foes in Desolation like [[Awakened Thought Leech]] may use their [[Signet of Humility]] to disable this skill without any advantage for themselves. It's not clear whether they mistakenly count this skill as harmful or simply use to disable any elite skill on their foes.\n\n[[de:Unbekannte Junundu-Fertigkeit]]"
+}

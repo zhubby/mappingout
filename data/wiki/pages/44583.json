@@ -1,0 +1,11 @@
+{
+  "title": "Luci/Collector",
+  "pageid": 44583,
+  "revid": 2485120,
+  "revisedAt": "2012-05-11T22:43:14Z",
+  "sha1": "58d810bbe8779c7d5f6a7f5749c33f5f5ffd5438",
+  "url": "https://wiki.guildwars.com/wiki/Luci/Collector",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Luci%2FCollector&oldid=2485120",
+  "retrievedAt": "2026-11-13T01:52:25.149Z",
+  "wikitext": "====[[Luci]]====\n'''Location:''' [[Pongmei Valley]]<br>\n'''Collecting:''' 2 [[Guardian Moss]]\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! Item || Stats || Requirement || [[Weapon bonus]]es || Value\n|-\n| [[Butterfly Knives]] || [[Slashing damage]]: 7-17 || 9 [[Dagger Mastery]] || [[Damage]] +15% (while [[Health]] is above 50%) || 125 {{Gold}}\n|-\n| [[Gazing Scepter]] || [[Chaos damage]]: 11-22 || 9 [[Domination Magic]] || Halves skill recharge of Domination Magic spells (Chance: 20%)<br>[[Energy]] +5 (while Health is below 50%) || 125 {{Gold}}\n|-\n| [[Bone Idol]] || Energy +12 || 9 [[Curses]] || Curses +1 (20% chance while using skills) <br> Health +30 || 125 {{Gold}}\n|-\n| [[Wooden Buckler]] || [[Armor]] 16 || 9 [[Tactics]] || Health +45 (while enchanted)<br />Received [[physical damage]] -2 (while enchanted) || 125 {{Gold}}\n|-\n| [[Shortbow]] || [[Piercing damage]]: 15-28 || 9 [[Marksmanship]] || Damage +15% (vs. hexed foes) || 125 {{Gold}}\n|-\n| [[Ritualist Cane]] || [[Lightning damage]]: 11-22 || 9 [[Channeling Magic]] || Halves skill recharge of Channeling Magic spells (Chance: 20%)<br />Energy +5 (while Health is below 50%) || 125 {{Gold}}\n|-\n|}<noinclude>\n[[Category:Collector subpages]]\n</noinclude>"
+}

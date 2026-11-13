@@ -1,0 +1,11 @@
+{
+  "title": "Dai Waeng/Collector",
+  "pageid": 90758,
+  "revid": 2697595,
+  "revisedAt": "2024-06-09T22:46:14Z",
+  "sha1": "395dd10f80da5207b298df8f84b474aa6972ce1b",
+  "url": "https://wiki.guildwars.com/wiki/Dai_Waeng/Collector",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dai%20Waeng%2FCollector&oldid=2697595",
+  "retrievedAt": "2026-11-13T01:52:25.152Z",
+  "wikitext": "====[[Dai Waeng]]====\n'''Location:''' [[Zin Ku Corridor]]<br>\n'''Collecting:''' 5 [[Pulsating Growth]]s\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! Item || Stats || Requirement || [[Weapon bonus]]es || Value\n|-\n| [[Dirks]] || [[Piercing damage|Piercing Dmg]]: 7-17 || 9 [[Dagger Mastery]] || [[Damage]] +20% (while [[Hex spell|Hexed]]) || 125 {{Gold}}\n|-\n| [[Bleached Skull]] || [[Energy]] +12 || 9 [[Death Magic]] || Death Magic +1 (20% chance while using [[skill]]s)<br />[[Health]] +30 || 125 {{Gold}}\n|-\n| [[Fire Wand]] || [[Fire damage|Fire Dmg]]: 11-22  || 9 [[Fire Magic]] || [[HSR|Halves skill recharge]] of Fire Magic [[spell]]s (Chance: 20%)<br />Energy +5 (while Health is below 50%) || 125 {{Gold}}\n|-\n| [[Divine Symbol (loop)|Divine Symbol]] || Energy +12 || 9 [[Divine Favor]] || [[HCT|Halves casting time]] of Divine Favor spells (Chance: 20%)<br>Halves skill recharge of Divine Favor spells (Chance: 20%) || 125 {{Gold}}\n|-\n| [[Cleaver (Canthan)|Cleaver]] || [[Slashing damage|Slashing Dmg]]: 6-28 || 9 [[Axe Mastery]] || Damage +15% (while Health is above 50%) || 125 {{Gold}}\n|-\n| [[Ceremonial Cauldron]] || Energy +12 || 9 [[Spawning Power]] || Spawning Power +1 (20% chance while using skills)<br />Health +30 || 125 {{Gold}}\n|-\n|}<noinclude>\n[[Category:Collector subpages]]\n</noinclude>"
+}

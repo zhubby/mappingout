@@ -1,0 +1,11 @@
+{
+  "title": "Silverwing Recurve Bow",
+  "pageid": 71710,
+  "revid": 2626102,
+  "revisedAt": "2018-03-22T18:24:57Z",
+  "sha1": "0118f8e2ef0a218cb619cf8592dad84695e16bee",
+  "url": "https://wiki.guildwars.com/wiki/Silverwing_Recurve_Bow",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Silverwing%20Recurve%20Bow&oldid=2626102",
+  "retrievedAt": "2026-11-13T03:11:15.524Z",
+  "wikitext": "{{Weapon infobox\n| type = [[Bow]]\n| campaign = [[Eye of the North]]\n| attribute = [[Marksmanship]]\n| damagetype = [[Piercing damage]]\n| bowclass = [[Recurve Bow]]\n| commonsalvage = [[Wood Plank]]s\n| pvpreward = Exotic\n}}\n\nA [[Silverwing Recurve Bow]] is a rare bow found only in a specific dungeon in [[Eye of the North]].  The bow is animated: the \"spikes\" around the bow fade in and out when not attacking; when attacking, the spikes brighten as the character pulls back the string and fade out when the arrow is released.\n\n==Acquisition==\n\n'''[[Eye of the North]]'''\n*[[Depths of Tyria]]\n**[[Frostmaw's Burrows]]\n***[[Chest of Burrows]]\n\n==Dye==\nDye affects the whole bow except for the fading spines. The curves at the ends of the bow and the grip dye to the color applied, the body of the bow dyes to a color [[Wikipedia:Complementary color|complementary]] to the color applied. The bow is slightly lighter than yellow dyed by default.\n\n{{dye chart}}\n\n==Notes==\nOther items with this appearance:\n*[[Bow of the Hierophant]] ([[Unique item|unique]])\n*[[Bow of the Kinslayer]] ([[Unique item|unique]])\n\n{{bug|When using skills, the spikes around the bow do not fade in or out, and the bow does not bend.}}\n\n==External links==\n*[https://www.youtube.com/watch?v=1rWjTxieMfQ&NR The bow's animation on YouTube].\n\n<!--Categories below this line--->\n[[Category:Bows]]\n[[Category:Recurve bows]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Sunspear Quartermaster/Collector",
+  "pageid": 48643,
+  "revid": 2429063,
+  "revisedAt": "2012-01-01T22:23:16Z",
+  "sha1": "9a4fae33b1079c89dbe53acd94af860cae436b3c",
+  "url": "https://wiki.guildwars.com/wiki/Sunspear_Quartermaster/Collector",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sunspear%20Quartermaster%2FCollector&oldid=2429063",
+  "retrievedAt": "2026-11-13T01:52:32.878Z",
+  "wikitext": "====[[Sunspear Quartermaster]] (1)====\n'''Location:''' [[Sunspear Great Hall]]<br>\n'''Collecting:''' 1 [[Battle Commendation]]\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! Item || Stats || Value\n|-\n| [[Istani Key]] || &nbsp; || {{cost|40}}\n|-\n| [[Identification Kit]] || Uses remaining: 25<br>Double-click to identify another item in your inventory. || {{cost|50}}\n|-\n| [[Salvage Kit]] || Uses remaining: 25<br>Double-click to salvage common crafting materials from an item. || {{cost|50}}\n|-\n| [[Hunter's Ale]] || Uses remaining: 1<br>Double-click to drink. Excessive alcohol consumption will result in intoxication. || {{cost|5}}\n|-\n| [[Bag]] || Holds 5 items || {{cost|50}}\n|-\n| [[Dye|Vial of Dye [Gray]]] || Double-click to apply to another item. || {{cost|25}}\n|-\n| [[Scroll of Adventurer's Insight]] || For 10 minutes your party gains +50% [[XP]] from combat.<br>Double-click to activate. One use only. || {{cost|100}}\n|}\n\n====Sunspear Quartermaster (2)====\n'''Location:''' [[Sunspear Great Hall]]<br>\n'''Collecting:''' 3 [[Battle Commendation]]s\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! Item || Stats || Value\n|-\n| [[Rune of Holding]] || Double-click to increase the size of a bag from 5 to 10 slots. || {{cost|250}}\n|-\n| [[Expert Salvage Kit]] || Uses remaining: 25<br>Double-click to salvage upgrade components and crafting materials (rare or common) from an item. || {{cost|200}}\n|-\n|}<noinclude>\n[[Category:Collector subpages]]\n</noinclude>"
+}

@@ -13,7 +13,7 @@ export function filtersSearch(f: Filters) {
   const p = new URLSearchParams(); Object.entries(f).forEach(([k,v]) => { if (typeof v === 'boolean') { if (v) p.set(k, '1'); } else if (v !== '') p.set(k,v); }); return `?${p}`;
 }
 export function completed(state: Personal, id: string) { return state.progress.find(p => p.characterId === state.preferences.characterId && p.entryId === id); }
-export function trackable(e: Entry) { return e.kind === 'skill' || e.kind === 'treasure' || (e.kind === 'zone' && e.vanquishable); }
+export function trackable(e: Entry) { return (e.kind === 'skill' && !e.skill?.special) || e.kind === 'treasure' || (e.kind === 'zone' && e.vanquishable); }
 export function toggleProgress(state: Personal, entryId: string, date?: string): Personal {
   const characterId = state.preferences.characterId; if (!state.characters.some(c => c.id === characterId)) return state;
   const old = completed(state, entryId);
@@ -42,7 +42,9 @@ export function query(data: Catalog, f: Filters, state: Personal): Entry[] {
     if (f.profession && e.profession !== Number(f.profession)) return false;
     if (f.attribute && e.attribute !== f.attribute) return false;
     if (f.incomplete && (!trackable(e) || completed(state, e.id)?.done)) return false;
-    const text = `${e.name} ${e.description} ${e.attribute || ''} ${e.details.join(' ')} ${e.locations.map(l => `${l.boss || ''} ${l.note}`).join(' ')}`.toLocaleLowerCase();
+    const text = [e.name, e.englishName, e.description, e.attribute, e.details.join(' '), e.skill?.description,
+      e.skill?.acquisition?.map(s => s.text).join(' '), e.legacy?.name, e.legacy?.description, e.legacy?.details.join(' '),
+      e.locations.map(l => `${l.boss || ''} ${l.note}`).join(' ')].filter(Boolean).join(' ').toLocaleLowerCase();
     return terms.every(t => text.includes(t));
   });
 }

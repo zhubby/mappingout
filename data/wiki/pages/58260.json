@@ -1,0 +1,11 @@
+{
+  "title": "Lintao",
+  "pageid": 58260,
+  "revid": 2535359,
+  "revisedAt": "2013-02-25T09:07:05Z",
+  "sha1": "656639d0553238fa0643475b0a0a87ec65589faf",
+  "url": "https://wiki.guildwars.com/wiki/Lintao",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lintao&oldid=2535359",
+  "retrievedAt": "2026-11-13T01:10:36.193Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Canthan peasant m bandana.jpg|150px]]\n| type = Human\n| affiliation = Canthans\n| service = Collector\n| level = 10\n| campaign = Factions\n| map1 = [[File: Lintao map.jpg|150px]]\n| map1-text = Location in Wajjun Bazaar\n| map2 = [[File:Wajjun Bazaar collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Lintao]] is a [[collector]], an [[NPC]] that trades [[trophy|trophies]] for [[armor]] or weapons.\n\n== Locations ==\n* [[Kaineng City]]\n** {{NPC location|Wajjun Bazaar}}\n\n== Dialogue ==\n: ''\"Greetings! Allow me to introduce myself.  I am Lintao, owner of Lintao Curatives and Keepsakes.  I have come up with an idea for an ingenious new product!  It will make me richer than rich, I am sure of it!  Here is what I am thinking:  when this plague dies down, everyone is going to want a souvenir to remember these crazy times.  Am I right, or am I right?  Those putrid cysts from the afflicted victims can be bronzed and made into some nice keepsakes, eh?  What do you think?  I know, I know, it is brilliant.  If you want to help by bringing me 5 Putrid Cysts, I will give you this for your trouble:\"''\n\n{{collector no armor trade dialogue|Putrid Cysts}}\n\n== Collector items ==\n{{:Lintao/Collector armor}}"
+}

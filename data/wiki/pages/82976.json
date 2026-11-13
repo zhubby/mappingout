@@ -1,0 +1,11 @@
+{
+  "title": "Area Map",
+  "pageid": 82976,
+  "revid": 1805809,
+  "revisedAt": "2009-11-30T04:28:14Z",
+  "sha1": "bb9fa6d6b90b81c487355c23e9e85bd515b7c421",
+  "url": "https://wiki.guildwars.com/wiki/Area_Map",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Area%20Map&oldid=1805809",
+  "retrievedAt": "2026-11-13T02:16:07.239Z",
+  "wikitext": "{{Interactive object infobox\n| campaign = Eye of the North\n}}\nThe [[Area Map]] is an interactive object found in the [[dungeon]]s of [[Eye of the North]]. Interacting with it will reveal the location of keys, doors, cracked walls and bosses on the current dungeon level.\n\n==Locations==\n* [[Depths of Tyria]]\n** All floors of all [[dungeon]]s.\n\n==Text==\n''Pressing \"U\" will now reveal important locations for this level.''\n\n==Notes==\n* Rather than searching for the Area Map of the accordant dungeon level, one can also use a [[Dungeon Map]] obtained from a collector that will have the same effect on use."
+}

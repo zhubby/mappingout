@@ -1,0 +1,11 @@
+{
+  "title": "Jamora the Wise",
+  "pageid": 20109,
+  "revid": 2711567,
+  "revisedAt": "2025-08-19T04:04:17Z",
+  "sha1": "0b75688aafd7014db8ca18bb765cc2bf9b22ec01",
+  "url": "https://wiki.guildwars.com/wiki/Jamora_the_Wise",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Jamora%20the%20Wise&oldid=2711567",
+  "retrievedAt": "2026-11-13T01:10:25.326Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Ascalonian townsfolk f.jpg|130px]]\n| type = Human\n| affiliation = Ascalonians\n| service = Collector\n| level = 1 (20)\n| campaign = Prophecies\n| map1 = [[File:Jamora the Wise map.jpg|150px]]\n| map1-text = Location in Stingray Strand\n| map2 = [[File:Stingray Strand collectors map.jpg|150px]]\n| map2-text = Collectors in Stingray Strand\n}}\n[[Jamora the Wise]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for armor.\n\n==Locations==\n*[[Kryta]]\n**{{NPC location|Stingray Strand}}\n\n==Dialogue==\n:''\"I'm searching for 5 [[Glowing Heart]]s. I can offer you one of the following items in exchange. Can you help me?\"''\n\n{{collector no armor trade dialogue|Glowing Hearts}}\n\n==Collector items==\n{{:Jamora the Wise/Collector armor}}"
+}

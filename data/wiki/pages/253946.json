@@ -1,0 +1,11 @@
+{
+  "title": "Psychic Instability (PvP)",
+  "pageid": 253946,
+  "revid": 2731206,
+  "revisedAt": "2026-06-25T05:07:00Z",
+  "sha1": "e4a6086a8a1a0029c8de14a4beb02d701324bf2b",
+  "url": "https://wiki.guildwars.com/wiki/Psychic_Instability_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Psychic%20Instability%20(PvP)&oldid=2731206",
+  "retrievedAt": "2026-11-13T01:08:09.129Z",
+  "wikitext": "{{pveversion|Psychic Instability}}\n{{Skill infobox\n| id = 3185\n| name = Psychic Instability (PvP)\n| campaign = Factions\n| profession = Mesmer\n| attribute = Fast Casting\n| type = Spell\n| elite = y\n| energy = 5\n| activation = {{1/4}}\n| recharge = 20\n| is-pvp = y\n| causes1 = Interrupt\n| causes2 = Knockdown\n| description = [[Elite]] [[Spell]]. [[Interrupt]]s the [[target]] [[foe]]'s [[action]]. If that action is a [[skill]], that foe and all [[adjacent]] foes are [[knocked down]] for {{gr|2|3}} seconds. (50% [[fail]]ure chance with [[Fast Casting]] 4 or less.)\n| concise description = Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, causes knockdown for {{gr|2|3}} seconds on target foe and all adjacent foes. {{gray|50% failure chance unless Fast Casting 5 or higher.}}\n| aoe = adjacent\n| target = foes\n}}\n\n{{Skill progression\n|attribute = [[Fast Casting]]\n|var1 name = [[Duration]]\n|var1 at0 = 2\n|var1 at15 = 3}}\n\n== Notes ==\n* The knockdown will not occur if the interruption is prevented.\n\n==Trivia==\n*This is one of the few skills having the concise description longer than the normal one.\n\n[[Category:Skills with a failure rate linked to an attribute]]\n\n[[de:Übernatürliche Labilität (PvP)]]"
+}

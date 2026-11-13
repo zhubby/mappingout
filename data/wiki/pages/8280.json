@@ -1,0 +1,11 @@
+{
+  "title": "Junundu Siege",
+  "pageid": 8280,
+  "revid": 2629505,
+  "revisedAt": "2018-06-18T17:34:29Z",
+  "sha1": "4ceea03b8c57d63d07b0710ccddb96758cc2e465",
+  "url": "https://wiki.guildwars.com/wiki/Junundu_Siege",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Junundu%20Siege&oldid=2629505",
+  "retrievedAt": "2026-11-13T01:07:59.984Z",
+  "wikitext": "{{Skill infobox\n| name = Junundu Siege\n| campaign = Nightfall\n| type = Skill\n| special = Junundu \n| elite = y\n| target = foes\n| range = \n| aoe = \n| energy = 5\n| activation = 2\n| recharge = 8\n| description = [[Elite]] [[Skill (skill type)|Skill]]. Spit a [[projectile]] at [[target]] [[foe]]. It strikes for 400 [[earth damage]] and [[Knock down|knocks down]] target foe if it hits. This skill cannot be used on [[nearby]] foes.\n| concise description = Elite Skill. Projectile: deals 400 earth damage and causes knock-down. Cannot be used on nearby foes.\n}}\n\n==Acquisition==\n;[[Skill quest]]s\n*[[Horde of Darkness]] ([[Bone Palace]])\n\n==Related skills==\n*{{monster skill icon|Queen Siege}}\n*{{monster skill icon|Siege Turtle Attack}}\n*{{monster skill icon|Wurm Siege (Core)}}\n*{{monster skill icon|Wurm Siege (Dunes of Despair)}}\n*{{monster skill icon|Wurm Siege (Eye of the North)}}\n\n==Notes==\n*This skill is initially the {{skill icon|Unknown Junundu Ability}}.\n**After completing the [[List of skill acquisition quests|skill acquisition quest]], this skill will be available whenever your character is riding a [[Junundu]] in [[the Desolation]]. Even if you skipped the first half of the quest, the skill will become available after accepting the reward.\n*This skill cannot be copied with [[Arcane Mimicry]].\n*This is the only skill apart from [[Burning Breath]] that can damage the [[Horde of Darkness (NPC)|Horde of Darkness]].\n\n[[Category:Skills that cannot be used on nearby foes]]\n\n[[de:Junundus Belagerung]]"
+}

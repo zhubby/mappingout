@@ -1,0 +1,11 @@
+{
+  "title": "Offering of Spirit (Togo)",
+  "pageid": 244934,
+  "revid": 2623136,
+  "revisedAt": "2017-10-23T17:32:25Z",
+  "sha1": "4e93e4cafa3490d017ce05a4673ed530d021f695",
+  "url": "https://wiki.guildwars.com/wiki/Offering_of_Spirit_(Togo)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Offering%20of%20Spirit%20(Togo)&oldid=2623136",
+  "retrievedAt": "2026-11-13T01:08:09.128Z",
+  "wikitext": "{{Skill infobox\n| id = 2690\n| image = [[File:Offering of Spirit (Togo).jpg]]\n| name = Offering of Spirit (Togo)\n| campaign = Bonus Mission Pack\n| attribute = Channeling Magic\n| type = Spell\n| special = Bonus Mission Pack\n| elite = y\n| sacrifice = 17%\n| energy = 5\n| activation = {{1/4}}\n| recharge = 15\n| description = [[Elite]] [[Spell]]. Gain {{gr Bonus Mission Pack|8|17|14}} [[Energy]]. If any [[spirit]]s are within [[earshot]], you do not sacrifice [[Health]].\n| concise description = Elite Spell. You gain {{gr Bonus Mission Pack|8|17|14}} Energy. You do not sacrifice Health if any spirits are within earshot.\n}}\n\n{{Skill progression Bonus Mission Pack\n| attribute rank = 14\n| attribute = [[Channeling Magic]]\n| var1 name = [[Energy]] gain\n| var1 at0 = 8\n| var1 at15 = 17}}\n\n==Acquisition==\nPart of [[Togo (disguise)|Togo's]] replacement [[skill bar]] during [[The Tengu Accords]] mission.\n\n==Related skills==\n*{{skill icon|Offering of Spirit}} ([[elite]])\n\n==Notes==\n*This skill is normally used with 14 in [[Channeling Magic]], but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Channeling Magic]] or [[of Mastery]].\n{{anomaly|There is no separate version of Offering of Spirit. Instead, the actual skill is used during the mission.}}"
+}

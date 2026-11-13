@@ -1,0 +1,11 @@
+{
+  "title": "Greater Serpent",
+  "pageid": 2909,
+  "revid": 2605809,
+  "revisedAt": "2016-05-14T14:40:11Z",
+  "sha1": "e86f94ff3d0a69d9e4396a9307f83a75c411b109",
+  "url": "https://wiki.guildwars.com/wiki/Greater_Serpent",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Greater%20Serpent&oldid=2605809",
+  "retrievedAt": "2026-11-13T02:14:56.190Z",
+  "wikitext": "{{NPC infobox\n| image = [[File:Plant Wurm.jpg|x350px]]\n| type = Wurm\n| affiliation = Urgoz\n| profession = Monk\n| level = 30 (32)\n| campaign = Factions\n}}\n[[Greater Serpent]]s are huge [[wurm]]s that heal their master, [[Urgoz]]. There is one on either side of Urgoz.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n17 [[Smiting Prayers]]\n*{{skill icon|Healing Touch}}\n*{{skill icon|Jamei's Gaze}}\n*{{skill icon|Scourge Healing}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = mo\n| blunt = 120\n| piercing = 120\n| slashing = 120\n| cold = 120\n| earth = 120\n| fire = 120\n| lightning = 120\n}}"
+}

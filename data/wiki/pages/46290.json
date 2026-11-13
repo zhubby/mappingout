@@ -1,0 +1,11 @@
+{
+  "title": "Haibir/Collector",
+  "pageid": 46290,
+  "revid": 2484954,
+  "revisedAt": "2012-05-11T19:16:50Z",
+  "sha1": "9d634e8c870e612923b99502a7168463abd40fcb",
+  "url": "https://wiki.guildwars.com/wiki/Haibir/Collector",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Haibir%2FCollector&oldid=2484954",
+  "retrievedAt": "2026-11-13T01:52:28.826Z",
+  "wikitext": "====[[Haibir]]====\n'''Location:''' [[Barbarous Shore]] outside of the Corsair outpost/caves.<br />\n'''Collecting:''' 5 [[Gold Doubloon]]s\n{| {{STDT}} class=\"sortable\"\n|-style=\"background:#FDA;\"\n! Item || Stats || Requirement || [[Weapon bonus]]es || Value\n|-\n| [[Adamantine Shield]] || [[Armor]] 16 || 9 [[Tactics]] || Received [[physical damage]] -2 ([[while Enchanted]])<br /> [[Health]] +45 (while Enchanted) || {{cost|100}}\n|-\n| [[Earth Staff]] || [[Energy]] +10<br />[[Earth damage]]: 11-22 || 9 [[Earth Magic]] || Halves skill recharge of spells (chance 20%)<br /> Damage +15% (while Enchanted) || {{cost|100}}\n|-\n| [[Air Wand]] || [[Lightning damage]]: 11-22 || 9 [[Air Magic]] ||Halves skill recharge of Air Magic spells (Chance: 20%)<br />Damage +15% (while Enchanted) || {{cost|100}}\n|-\n| [[Inscribed Chakram]] || Energy+12 || 9 [[Domination Magic]] || Received physical damage -2 (while Enchanted)<br />Health +45 (while Enchanted) || {{cost|100}}\n|-\n| [[Golden Chalice]] || Energy +12 || 9 [[Energy Storage]] || Received physical damage -2 (while Enchanted)<br>Health +45 (while Enchanted) || {{cost|100}}\n|}<noinclude>\n[[Category:Collector subpages]]\n</noinclude>"
+}

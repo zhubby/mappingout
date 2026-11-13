@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of paragon unique items",
+  "pageid": 91622,
+  "revid": 1685581,
+  "revisedAt": "2009-09-17T10:13:27Z",
+  "sha1": "947e554fc314d8d8c9aa9229c73a719fd53b5604",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_paragon_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20paragon%20unique%20items&oldid=1685581",
+  "retrievedAt": "2026-11-13T02:28:00.496Z",
+  "wikitext": "{{TOCright}}\n==[[Spear]]s==\n<dpl>\n  category = Unique spears\n  category = Spear Mastery unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Shield|Command shields]]==\n<dpl>\n  category = Unique shields\n  category = Command unique items \n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n==[[Shield|Motivation shields]]==\n<dpl>\n  category = Unique shields\n  category = Motivation unique items \n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by profession|Paragon]]\n[[Category:Paragon unique items|+]]"
+}

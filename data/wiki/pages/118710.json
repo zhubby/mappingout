@@ -1,0 +1,11 @@
+{
+  "title": "Worm (NPC)",
+  "pageid": 118710,
+  "revid": 2272925,
+  "revisedAt": "2011-03-29T22:22:36Z",
+  "sha1": "a49b0bc189aa15083eef54409ca0c48a8f9be415",
+  "url": "https://wiki.guildwars.com/wiki/Worm_(NPC)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Worm%20(NPC)&oldid=2272925",
+  "retrievedAt": "2026-11-13T02:16:03.758Z",
+  "wikitext": "{{NPC infobox\n | name = Worm\n | type = Worm\n | affiliation = Charr Homelands wildlife\n | level = 20 (30)\n | campaign = Eye of the North\n}}\n[[Worm (NPC)|Worm]]s behave very similarly to other [[Worm]]s in the game. By default they won't attack and are stationary.\n\n==Locations==\n*[[Charr Homelands]]\n**{{NPC location|Sacnoth Valley}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = w\n| blunt = 140\n| piercing = 140\n| slashing = 140\n| cold = 80\n| earth = 80\n| fire = 80\n| lightning = 80\n}}"
+}

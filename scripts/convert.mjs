@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { decode, rows, jpegSize, stableId } from './format.mjs';
 import { requireLegacyInputs } from './legacy-inputs.mjs';
+import { applyWikiCorrections, writeWikiReview } from './wiki/apply.mjs';
 const web = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const root = path.resolve(web, '..'), out = path.join(web, 'public');
 const campaigns = await requireLegacyInputs(root);
@@ -128,6 +129,8 @@ for (const r of data.records) {
 // Deduplicate repeated diagnostics from shared locations while preserving distinct source lines.
 report.issues = [...new Map(report.issues.map(i => [JSON.stringify(i), i])).values()];
 data.professions.forEach(p => { if (p.id === 9) p.name = '圣言者'; if (p.id === 10) p.name = '神唤'; });
+await applyWikiCorrections(data, report);
+await writeWikiReview(path.join(out, 'data/wiki-review.json'));
 await fs.writeFile(path.join(out, 'data/catalog.json'), JSON.stringify(data));
 await fs.writeFile(path.join(out, 'data/report.json'), JSON.stringify(report, null, 2));
 console.log(JSON.stringify({ counts: report.counts, issues: report.issues.length, verifiedMaps: data.regions.filter(r => r.verified).length, totalMaps: data.regions.length }, null, 2));

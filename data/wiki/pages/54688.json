@@ -1,0 +1,11 @@
+{
+  "title": "Dwarven Prospector",
+  "pageid": 54688,
+  "revid": 2563264,
+  "revisedAt": "2014-01-25T21:12:30Z",
+  "sha1": "a3774e8d40e6eb5e6047c2abbeec99a70b6ad235",
+  "url": "https://wiki.guildwars.com/wiki/Dwarven_Prospector",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dwarven%20Prospector&oldid=2563264",
+  "retrievedAt": "2026-11-13T02:14:33.217Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| type = Dwarf\n| image = [[Image:Deldrimor caster.jpg|150px]]\n| affiliation = Deldrimor\n| profession = mo\n| level = 20\n| campaign = Prophecies\n}}\n[[Dwarven Prospector]]s stand at each of the entrances to [[Grenth's Footprint]] (except [[Sorrow's Furnace]]).  They are searching for their comrades-in-arms, who are elsewhere in Grenth's Footprint.\n\n==Locations==\n* [[Southern Shiverpeaks]]\n** {{NPC location|Grenth's Footprint}}\n\n==Quests==\n'''Quests given:'''\n* [[Southern Shiverpeaks]]\n** [[To Sorrow's Furnace]]\n** [[The Final Assault]]\n\n==Skills==\n* {{skill icon|Guardian}}\n* {{skill icon|Heal Other}}\n* {{skill icon|Infuse Health}}\n* {{skill icon|Orison of Healing}}\n\n==Dialogue==\n''Many's the Dwarf who lost his life in Sorrow's Furnace.''\n\n''What's on your mind?''\n:'''&rarr; Where are the dwarves and the human who need my aid?'''\n::''\"Who are you interested in finding?\"''\n::'''&rarr; Galen Trask'''\n:::''\"Galen Trask can be found here\"''\n::'''&rarr; Kilroy Stonekin'''\n:::''\"Kilroy Stonekin can be found here\"''\n::'''&rarr; High Priest Alkar'''\n:::''\"High Priest Alkar can be found here\"''\n::'''&rarr; Orozar Highstone'''\n:::''\"Orozar Highstone can be found here\"''\n\n== Notes ==\n* Like many neutral [[NPC]]s with healing skills, the Dwarven Prospector will attempt to heal everything within range, including foes as well as allies.\n\n[[Category:Prophecies quest givers]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Twisted Bark",
+  "pageid": 2828,
+  "revid": 2422345,
+  "revisedAt": "2011-12-12T23:23:48Z",
+  "sha1": "10226b7af654166bd73b3964220855feea241236",
+  "url": "https://wiki.guildwars.com/wiki/Twisted_Bark",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Twisted%20Bark&oldid=2422345",
+  "retrievedAt": "2026-11-13T02:14:55.580Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| affiliation = Urgoz\n| type = Plant\n| image = [[Image:Island Guardian.jpg|150px]]\n| profession = Monk\n| level = 30 (32)\n| campaign = Factions\n}}\n[[Twisted Bark]]s emit [[environment effect]]s that cease when they die.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n0 [[Smiting Prayers]]\n*{{skill icon|Healing Touch}}\n*{{skill icon|Life Sheath}} ([[elite]])\n*{{skill icon|Scourge Healing}}\n*{{skill icon|Shield Guardian}}\n*{{monster skill icon|Stun Immunity}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = mo\n| blunt = 89\n| piercing = 89\n| slashing = 49\n| cold = 89\n| earth = 89\n| fire = 49\n| lightning = 89\n}}\n\n==Items dropped==\n*[[Plant Fiber]]\n*[[Spiritwood Plank]]\n\n[[Category:Drops fiber]]\n[[Category:Drops spiritwood]]"
+}

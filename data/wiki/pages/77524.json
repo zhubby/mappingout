@@ -1,0 +1,11 @@
+{
+  "title": "Carrion Feeder",
+  "pageid": 77524,
+  "revid": 2193654,
+  "revisedAt": "2010-12-05T15:22:20Z",
+  "sha1": "622ce03177e0f5b7994d83878455827ea66f2540",
+  "url": "https://wiki.guildwars.com/wiki/Carrion_Feeder",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Carrion%20Feeder&oldid=2193654",
+  "retrievedAt": "2026-11-13T02:16:02.817Z",
+  "wikitext": "{{NPC infobox\n| image = [[Image:Raven.jpg|150px]]\n| type = Beast\n| affiliation = Charr Homelands wildlife\n| profession = r\n| level = 20 (26)\n| campaign = Eye of the North\n}}__NOTOC__\nA [[Raven]] feeding on the remains of a unit from the [[Ebon Vanguard]].\n\n==Locations== \n*[[Charr Homelands]]\n**{{NPC location|Grothmar Wardowns}}\n\n==Skills==\n(14..16 [[Expertise]] in [[Hard Mode]])\n*{{skill icon|Lightning Reflexes}}\n*{{skill icon|Scavenger's Focus}} ([[elite]])\n*{{skill icon|Throw Dirt}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = r\n| blunt = 80\n| piercing = 80\n| slashing = 80\n| cold = 80\n| earth = 80\n| fire = 80\n| lightning = 80\n}}\n\n==Notes==\n*They look like [[Raven]]s.\n*They use melee attacks, despite their ranger profession."
+}

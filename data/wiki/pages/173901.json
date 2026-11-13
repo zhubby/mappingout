@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Tomb of the Primeval Kings unique items",
+  "pageid": 173901,
+  "revid": 2619698,
+  "revisedAt": "2017-06-28T22:02:41Z",
+  "sha1": "ea9ac7fcd52a7bb22f985d0127840654c0957ef5",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Tomb_of_the_Primeval_Kings_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Tomb%20of%20the%20Primeval%20Kings%20unique%20items&oldid=2619698",
+  "retrievedAt": "2026-11-13T02:27:40.568Z",
+  "wikitext": "<dpl>\n  category = Tomb_of_the_Primeval_Kings_unique_items\n  notcategory = weapon types\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by source|Tomb_of_the_Primeval_Kings_unique_items]]\n[[Category:Tomb of the Primeval Kings unique items|+]]"
+}

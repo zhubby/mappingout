@@ -1,0 +1,11 @@
+{
+  "title": "Chasm",
+  "pageid": 112075,
+  "revid": 2574969,
+  "revisedAt": "2014-09-01T00:31:10Z",
+  "sha1": "5f58a02709f6b207d19c425132ce6ba4f17698c6",
+  "url": "https://wiki.guildwars.com/wiki/Chasm",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Chasm&oldid=2574969",
+  "retrievedAt": "2026-11-13T02:14:42.809Z",
+  "wikitext": "{{NPC infobox\n| type = Interactive object\n| campaign = Factions\n| level = 1 (20)\n| map1 = [[Image:I Feel the Earth Move Under Cantha's Feet map.jpg|150px]]\n| map1-text = Route from [[Kaineng Center]]\n}}__NOTOC__\nRecent earthquakes opened up a large [[chasm]] in Bukdek Byway near [[Kaineng Center]].\n\n==Location==\n*[[Kaineng City]]\n**{{NPC location|Bukdek Byway}} (during [[I Feel the Earth Move Under Cantha's Feet]]. Once that quest, [[What Lies Beneath]] or [[Hole of Istan]] has been completed, the chasm becomes a permanent interactive object in Bukdek Byway.)\n\n==Dialogue==\n:''\"Before you is a massive crack in the street that leads into the earth.\"''\n:{{ask|gold}} '''Explore the chasm.''' (During I Feel the Earth Move Under Cantha's Feet or after the completion of that quest, What Lies Beneath or Hole of Istan.)\n::''\"Your entire party will be moved to the next area. Make sure all party members are ready. Do you wish to continue?\"''\n::'''{{yes|ingame}} Yes.''' (Sent to [[Tunnels Below Cantha]] if all party members have I Feel the Earth Move Under Cantha's Feet active or have completed that quest, What Lies Beneath or Hole of Istan.)\n:::''\"One or more members of your party are not eligible to travel to the Eye of the North. You will need to remove those party members to enter the chasm.\"'' (If so.)\n::'''{{no|ingame}} No.'''\n\n==Notes==\n* The [[crevasse]] and [[fissure]] are similar interactive objects for the [[Prophecies]] and [[Nightfall]] campaign respectively."
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "campaign": 1,
+    "title": "预言 · Prophecies",
+    "sources": { "Storyline of Prophecies": 2691300, "List of Prophecies missions and primary quests": 2736041 },
+    "introduction": "由阿斯卡隆的毁灭出发，追查白斗篷、马赛特与寻火者预言。其他篇章的角色从狮子拱门一段加入主线。",
+    "arcs": [
+      { "title": "阿斯卡隆与流亡", "text": "毁灭前的训练结束后，角色来到两年后的阿斯卡隆。鲁里克王子在夏尔入侵中组织抵抗，随后率难民越过席娃山脉；他在霜门的撤离途中牺牲。", "missions": ["The Great Northern Wall", "Nolani Academy", "Borlis Pass", "The Frost Gate"] },
+      { "title": "白斗篷的秘密", "text": "抵达科瑞塔后，英雄最初协助白斗篷抵御亡灵。追查获选者的去向时，他们发现白斗篷献祭无辜者，转而与光刃并肩作战；马基斯的背叛迫使众人撤离。", "missions": ["Gates of Kryta", "Divinity Coast", "Bloodstone Fen", "Aurora Glade", "Riverside Province", "Sanctum Cay"] },
+      { "title": "水晶沙漠的飞升", "text": "在图瑞·欧萨的指引下，英雄通过三项试炼与镜像之战，进入巨龙格琳特的巢穴。格琳特揭示白斗篷主人是马赛特，并解释寻火者预言。", "missions": ["Dunes of Despair", "Thirsty River", "Elona Reach", "Augury Rock", "The Dragon's Lair"], "note": "前三项沙漠任务可按任意顺序完成，但飞升流程需要全部完成；这里并非三条互斥分支。" },
+      { "title": "南席娃山脉的反攻", "text": "英雄营救光刃，与先知接触并获得灌注以抵御马赛特的幽灵痛苦，随后帮助矮人夺回雷云要塞。", "missions": ["Ice Caves of Sorrow", "Iron Mines of Moladune", "Thunderhead Keep"] },
+      { "title": "火环群岛的背叛", "text": "基尔布隆引导英雄破坏科马里之门的封印，释放泰坦。他随后暴露巫妖身份，试图借欧尔权杖控制泰坦。英雄最终击败巫妖，再次封闭大门。", "missions": ["Ring of Fire", "Abaddon's Mouth", "Hell's Precipice"] },
+      { "title": "尾声", "text": "主线结束后，格琳特指引英雄阻止失控泰坦袭击各地，并追击北方的泰坦首领。这是后续任务，不能与最终主线任务混为一项。", "missions": [], "note": "预言允许跳过部分前段任务；上述内容是剧情脉络，不表示每个任务都是通关必做条件。" }
+    ]
+  },
+  {
+    "campaign": 2,
+    "title": "盟与敌 · Factions",
+    "sources": { "Storyline of Factions": 2728891, "List of Factions missions and primary quests": 2702199 },
+    "introduction": "瘟疫侵袭凯珊，东悟与明月带领英雄追查白影的阴谋。凯珊新角色由星岬寺开始；其他篇章角色从北方码头进入凯宁城的剧情。",
+    "arcs": [
+      { "title": "星岬岛的瘟疫", "text": "东悟与学生在曹大臣庄园发现瘟疫，追查至善台郡后辨认出白影的标记，随后赴凯宁城求援。", "missions": ["Minister Cho's Estate", "Zen Daijun"] },
+      { "title": "成为仰望星辰者", "text": "英雄在薇茹广场被白影杀死，又由使者复活。为对抗灵魂与白影，他们完成纳普区的试炼，成为 Weh no Su，并在谭纳凯神殿释放古代英雄。", "missions": ["Vizunah Square", "Nahpui Quarter", "Tahnnakai Temple"] },
+      { "title": "两件圣物", "text": "英雄分别取得圣维克特骨灰瓮与阿克摩如斯长矛，在孙江行政区关闭裂隙，却得知圣物只能暂时阻止白影。", "missions": ["Arborstone", "Boreas Seabed", "Sunjiang District"] },
+      { "title": "库兹柯或勒克森路线", "text": "英雄可协助库兹柯守护永恒之林，或协助勒克森保护盖拉孵化所的幼龟。面对共同的瘟疫威胁，两方形成合作，故事在沉睡之水重新汇合。", "missions": ["The Eternal Grove", "Gyala Hatchery", "Unwaking Waters"], "note": "永恒之林与盖拉孵化所属于替代路线；继续主线不要求依次完成两条阵营路线。" },
+      { "title": "皇宫决战", "text": "英雄解除白影对盐蛟昆纳维的控制，攻入莱苏皇宫。东悟为救皇帝牺牲，白影借皇族之血重返人间；英雄随后在帝国圣所击败他。", "missions": ["Raisu Palace", "Imperial Sanctum"] }
+    ]
+  },
+  {
+    "campaign": 3,
+    "title": "黑暗逆袭 · Nightfall",
+    "sources": { "Storyline of Nightfall": 2694531, "List of Nightfall missions and primary quests": 2704989 },
+    "introduction": "伊洛那日戟军对抗瓦蕾丝与阿巴顿的势力。伊洛那角色从伊斯坦训练开始；外来角色通过 Battle Preparations 等任务加入，随后衔接领事馆码头。",
+    "arcs": [
+      { "title": "伊斯坦的调查", "text": "日戟新兵抵御海盗，追查古代遗迹中的恶兆，发现科瑞纳将领卡叶特与海盗合作，并得知瓦蕾丝试图释放阿巴顿。", "missions": ["Chahbek Village", "Jokanur Diggings", "Blacktide Den"], "note": "三项任务分别要求 Koss、Melonni、Tahlkora 随队。" },
+      { "title": "科瑞纳的败退与反攻", "text": "日戟军在领事馆码头遭重创，转入地下抵抗。英雄救出同伴，穿过科瑞纳进入瓦比；一段任务取决于选择玛格丽特或密语大师。", "missions": ["Consulate Docks", "Venta Cemetery", "Kodonur Crossroads", "Pogahn Passage", "Rilohn Refuge", "Moddok Crevice"], "note": "Pogahn Passage 与 Rilohn Refuge 是替代路线，分别要求 Margrid the Sly 与 Master of Whispers。Consulate Docks 和 Moddok Crevice 要求 Dunkoro；Venta Cemetery 要求 Koss；Kodonur Crossroads 要求 Zhed Shadowhoof。" },
+      { "title": "瓦比的两处分歧", "text": "瓦比王侯面临暗影军团侵袭。先前选择的英雄决定达沙前庭或卓坎诺要塞路线；之后可选择救援罗鳩村，或夺回瑟伯欣花园。", "missions": ["Tihark Orchard", "Dasha Vestibule", "Dzagonur Bastion", "Grand Court of Sebelkeh", "Jennur's Horde", "Nundu Bay"], "note": "Dasha Vestibule / Dzagonur Bastion 二选一；Jennur's Horde / Nundu Bay 也只需一项继续主线，后两者并非永久互斥。分别检查 Margrid / Master of Whispers、Koss / Melonni 的随队要求；Grand Court of Sebelkeh 要求 Tahlkora。" },
+      { "title": "穿越硫磺荒原", "text": "英雄与帕拉瓦·约克交易，学会搭乘巨奴虫穿越致命的硫磺地带，并在摩拉废墟击败瓦蕾丝；此时黑暗逆袭已经侵入现实。", "missions": ["Gate of Desolation", "Ruins of Morah"], "note": "分别要求 Zhed Shadowhoof 与 General Morgahn 随队。" },
+      { "title": "折磨领域与新神", "text": "英雄在折磨领域重遇寇米尔，解放受困灵魂，并在疯狂之门击败巫妖与白影。阿巴顿被击败后，逸散的力量威胁整个领域；寇米尔承接这股力量，成为掌管真相、知识与秘密的新神。", "missions": ["Gate of Pain", "Gate of Madness", "Abaddon's Gate"] }
+    ]
+  },
+  {
+    "campaign": 4,
+    "title": "北方之眼 · Eye of the North",
+    "sources": { "Storyline of Eye of the North": 2568000, "List of Eye of the North primary quests": 2627449 },
+    "introduction": "地震与毁灭者威胁席卷泰瑞亚。英雄经地下通道逃至北方之眼，联合阿苏拉、诺恩和黑檀先锋队，对抗大毁灭者。",
+    "arcs": [
+      { "title": "第一幕：末日的开端", "text": "角色从各自大陆的地震调查任务进入地下，结识奥格登与维克，并抵达北方之眼，与关及黑檀先锋队会合。", "missions": ["The Beginning of the End"] },
+      { "title": "阿苏拉盟友", "text": "英雄召集乌拉、盖德与伦克等阿苏拉学者，保护魔像计划，并利用魔像突袭毁灭者巢穴。", "missions": ["Finding the Bloodstone", "The Elusive Golemancer", "Genius Operated Living Enchanted Manifestation"] },
+      { "title": "失踪的先锋队", "text": "关与英雄寻找失踪的黑檀先锋队，与反抗萨满阶层的夏尔烈焰战士皮雷合作，最终突袭要塞并解救兰玛队长等人。", "missions": ["Against the Charr", "Warband of Brothers", "Assault on the Stronghold"] },
+      { "title": "北方盟友", "text": "英雄协助乔拉终结变为诺恩熊的兄长，夺回家园并保护诺恩的圣地，赢得诺恩的支持。", "missions": ["Curse of the Nornbear", "Blood Washes Blood", "A Gate Too Far"], "note": "第二幕的阿苏拉、先锋队、诺恩三条故事线可以按任意顺序推进，最终需要全部完成；诺恩线中的后两条任务也有并列前置关系。" },
+      { "title": "第三幕：群山深处", "text": "盟友集结后，英雄在席娃之心取得古老神器。贾里斯举行大矮人仪式，让多数矮人化为石矮人。联军深入中央传送室，击败大毁灭者，瓦解毁灭者的协同行动。", "missions": ["Heart of the Shiverpeaks", "Destruction's Depths", "A Time for Heroes"] }
+    ]
+  }
+]

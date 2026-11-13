@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of unique scythes",
+  "pageid": 89211,
+  "revid": 2586119,
+  "revisedAt": "2015-04-26T22:09:39Z",
+  "sha1": "c170887b16436dfc45caf49c5b84f33113382c3d",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_unique_scythes",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20unique%20scythes&oldid=2586119",
+  "retrievedAt": "2026-11-13T02:27:56.384Z",
+  "wikitext": "<dpl>\n  category = Unique scythes\n  category = Scythe Mastery unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by type|Scythes]]\n[[Category:Unique item galleries by attribute|Scythe mastery]]\n[[Category:Unique scythes|+]]\n[[Category:Unique item galleries by profession|Dervish]]\n[[Category:Dervish unique items|+]]"
+}

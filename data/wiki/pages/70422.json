@@ -1,0 +1,11 @@
+{
+  "title": "Astral Staff",
+  "pageid": 70422,
+  "revid": 2562681,
+  "revisedAt": "2014-01-20T08:36:15Z",
+  "sha1": "9a1c14e5dc5cd87a77b344fabf3d312606e2f875",
+  "url": "https://wiki.guildwars.com/wiki/Astral_Staff",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Astral%20Staff&oldid=2562681",
+  "retrievedAt": "2026-11-13T03:11:11.377Z",
+  "wikitext": "{{Weapon infobox\n| campaign = [[Eye of the North]]\n| type = [[Staff]]\n| attribute = inscribable\n| damagetype = [[Cold damage|Cold]], [[Earth damage|Earth]], [[Fire damage|Fire]], <br>[[Chaos damage|Chaos]], [[Dark damage|Dark]]\n| commonsalvage = [[Pile of Glittering Dust|Piles of Glittering Dust]]\n| raresalvage = unknown{{research needed|Does it salvage into a rare crafting material?}}\n| pvpreward = Exotic\n}}\n\nThe [[Astral Staff]] is a type of semi-universal staff, requiring the primary attribute of its respective caster profession, except for [[Mesmer]] where it is linked to [[Inspiration Magic]]. It has a straight shaft which tapers to a point, around which is a worm-like wrapping. The staff is animated, the animation being a highlight or glow in the wrapping that travels from the base to the head of the staff. <!--Which way it *seems* to travel seems to depend on the angle you are viewing it from-->\n\n==Acquisition==\n'''[[Eye of the North]]'''\n*[[Dungeon]]\n**[[Catacombs of Kathandrax]]\n***[[Chest of Kathandrax]]\n\n==Dye==\nDye affects the whole staff. The shaft dyes very darkly to the color applied but the worm-like wrapping usually dyes to near the opposite color to the one applied. It is dyed yellow by default.\n{{dye chart}}\n\n==Notes==\n*You must have your shader quality set to high in your Guild Wars graphics settings to see the animation.\n*Other items with this appearance:\n**{{e}} [[Iceblood's Warstaff]] ([[Unique item|unique]])\n**{{me}} [[The Rapture]] (unique)"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Illusionary Weaponry (PvP)",
+  "pageid": 253807,
+  "revid": 2738386,
+  "revisedAt": "2026-08-26T20:30:01Z",
+  "sha1": "c82418284ae485f2048cc1e0fd82cc4acb653b55",
+  "url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Illusionary%20Weaponry%20(PvP)&oldid=2738386",
+  "retrievedAt": "2026-11-13T01:08:08.213Z",
+  "wikitext": "{{pveversion|Illusionary Weaponry}}\n{{Skill infobox\n| id = 3181\n| name = Illusionary Weaponry (PvP)\n| campaign = Prophecies\n| profession = Mesmer\n| is-pvp = y\n| attribute = Illusion Magic\n| type = Enchantment Spell\n| elite = y\n| energy = 5\n| activation = 1\n| recharge = 10\n| description = [[Elite]] [[Enchantment Spell]]. For 30 seconds, your [[melee attack]]s neither hit nor fail to hit. Instead, Illusionary Weaponry deals {{gr|20|60}} [[damage]] to your [[target]]s for each melee attack.\n| concise description = Elite Enchantment Spell. (30 seconds.) Deals {{gr|20|60}} damage to foes in place of other damage or effects from melee attacks. {{gray|Your melee attacks neither hit nor fail to hit.}}\n| target = self\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Damage]]\n|var1 at0 = 20\n|var1 at15 = 60}}\n\n[[de:Illusion der Waffen (PvP)]]"
+}

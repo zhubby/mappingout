@@ -1,0 +1,11 @@
+{
+  "title": "Sheco",
+  "pageid": 26024,
+  "revid": 2547291,
+  "revisedAt": "2013-05-23T02:40:10Z",
+  "sha1": "9711e75d2cff02db26e9eec1cf14669ca190f887",
+  "url": "https://wiki.guildwars.com/wiki/Sheco",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sheco&oldid=2547291",
+  "retrievedAt": "2026-11-13T02:14:41.881Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Canthan weaponsmith m.jpg|150px]]\n| type = Human\n| affiliation = Canthans\n| service = Weaponsmith\n| level = 20 (20)\n| campaign = Factions\n| map1 = [[File:Sheco Map.jpg|150px]]\n| map1-text = Location in [[Bukdek Byway]]\n}}\n[[Sheco]] is a [[weaponsmith]], a type of [[Non-player character|NPC]] that [[craft]]s weapons in exchange for [[crafting material]]s and [[gold]] and/or [[customize]]s weapons. It costs 10 gold to get a weapon customized.\n\n==Locations==\n*[[Kaineng City]]\n**{{NPC location|Bukdek Byway}} (does not [[spawn]] during or after [[Winds of Change]])\n\n==Dialogue==\n{{weaponsmith dialogue}}\n\n==Weapons offered==\n{{:Sheco/Weapons}}\n\n==Notes==\n{{bug|Sheco does not spawn during or after completion of the [[Winds of Change]] quest line. If that is the case, you need to have [[Memories of Purity]] active to make him spawn.}}"
+}

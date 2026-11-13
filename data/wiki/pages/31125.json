@@ -1,0 +1,11 @@
+{
+  "title": "Barton Smallwood",
+  "pageid": 31125,
+  "revid": 2597880,
+  "revisedAt": "2015-11-01T17:28:14Z",
+  "sha1": "d0694c53b5244f08b34785123d11e3aa24a2e4e2",
+  "url": "https://wiki.guildwars.com/wiki/Barton_Smallwood",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Barton%20Smallwood&oldid=2597880",
+  "retrievedAt": "2026-11-13T01:10:10.365Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Ascalonian ghost m.png|150px]]\n| type = Ghost\n| service = Collector\n| level = 15\n| campaign = Prophecies\n}}\n[[Barton Smallwood]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for items.\n\n==Locations==\n*[[Crystal Desert]]\n**{{NPC location|Destiny's Gorge}}\n\n==Dialogue==\n:''\"I'm searching for 5 [[Shriveled Eye]]s. I can offer you one of the following items in exchange. Can you help me?\"''\n\n{{collector no armor trade dialogue|Shriveled Eyes}}\n\n==Collector items==\n{{:Barton Smallwood/Collector armor}}"
+}

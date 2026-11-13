@@ -1,0 +1,11 @@
+{
+  "title": "Escape (PvP)",
+  "pageid": 221968,
+  "revid": 2645353,
+  "revisedAt": "2019-11-09T01:59:12Z",
+  "sha1": "63508458feca64598afd7161822225b5df28bc87",
+  "url": "https://wiki.guildwars.com/wiki/Escape_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Escape%20(PvP)&oldid=2645353",
+  "retrievedAt": "2026-11-13T01:08:08.212Z",
+  "wikitext": "{{pveversion|Escape}}\n\n{{Skill infobox\n| name = Escape (PvP)\n| id = 3060\n| campaign = Core\n| profession = Ranger\n| attribute = Expertise\n| type = Stance\n| elite = yes\n| energy = 5\n| is-pvp = y\n| recharge = 12\n| causes1 = Increased Movement Speed\n| causes2 = Block\n|description = [[Elite]] [[Stance]]. For {{gr|1|8}} second[s], you [[Speed boost|move 33% faster]] and have a 75% chance to [[block]] [[attack]]s. Escape ends if you make a [[melee attack]].\n| concise description = Elite Stance. ({{gr|1|8}} second[s].) You move 33% faster and have 75% chance to block. {{gray|Ends if you make a melee attack.}}\n}}\n\n{{Skill progression\n|attribute = [[Expertise]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 8}}\n\n== Notes ==\n*This skill is initially usable on [[PvP-only character|PvP-only]] primary Rangers, even if Escape is not [[unlock]]ed.\n\n[[de:Flucht (PvP)]]"
+}

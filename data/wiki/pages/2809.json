@@ -1,0 +1,11 @@
+{
+  "title": "Guardian Serpent",
+  "pageid": 2809,
+  "revid": 2605810,
+  "revisedAt": "2016-05-14T14:40:18Z",
+  "sha1": "21425edc7172eedc27193cf85d587e37297646af",
+  "url": "https://wiki.guildwars.com/wiki/Guardian_Serpent",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Guardian%20Serpent&oldid=2605810",
+  "retrievedAt": "2026-11-13T02:14:55.579Z",
+  "wikitext": "{{NPC infobox\n| image = [[File:Plant Wurm.jpg|x350px]]\n| affiliation = Urgoz\n| type = Wurm\n| profession = Monk\n| level = 28 (30)\n| campaign = Factions\n}}__NOTOC__\n\n[[Guardian Serpent]]s are colossal [[Wurm]]s guarding the ancient forest spirit [[Urgoz]]. Killing them opens doors leading to the next area.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n7 [[Smiting Prayers]]\n*{{skill icon|Healing Touch}}\n*{{skill icon|Scourge Healing}}\n*{{monster skill icon|Stun Immunity}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = mo\n| blunt = 94\n| piercing = 94\n| slashing = 94\n| cold = 124\n| earth = 124\n| fire = 124\n| lightning = 124\n}}\n\n==Notes==\n*They have +4 [[health regeneration]] in [[hard mode]]."
+}

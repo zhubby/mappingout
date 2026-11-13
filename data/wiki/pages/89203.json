@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of unique axes",
+  "pageid": 89203,
+  "revid": 2460630,
+  "revisedAt": "2012-03-08T19:53:36Z",
+  "sha1": "622a46295299875fc97ce868dea1748ac523e6fe",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_unique_axes",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20unique%20axes&oldid=2460630",
+  "retrievedAt": "2026-11-13T02:28:00.493Z",
+  "wikitext": "<dpl>\n  category = Unique axes\n  category = Axe Mastery unique items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by type|Axes]]\n[[Category:Unique item galleries by attribute|Axe Mastery]]\n[[Category:Unique axes|+]]"
+}

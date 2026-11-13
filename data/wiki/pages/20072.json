@@ -1,0 +1,11 @@
+{
+  "title": "Julianna Furst",
+  "pageid": 20072,
+  "revid": 2535356,
+  "revisedAt": "2013-02-25T09:06:24Z",
+  "sha1": "8b6e8bc49df43a9f8fb50c0fc7785d32137bc5ff",
+  "url": "https://wiki.guildwars.com/wiki/Julianna_Furst",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Julianna%20Furst&oldid=2535356",
+  "retrievedAt": "2026-11-13T01:10:25.322Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Krytan f.jpg|150px]]\n| type = Human\n| affiliation = Krytans\n| service = Collector\n| level = 10\n| campaign = Prophecies\n| map1 = [[File:Julianna Furst map.jpg|150px]]\n| map1-text = Location in Talmark Wilderness\n| map2 = [[File:Talmark Wilderness collectors map.jpg|150px]]\n| map2-text = Location }}\n[[Julianna Furst]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for armor.\n\n==Locations==\n*[[Kryta]]\n**{{NPC location|Talmark Wilderness}}\n\n==Dialogue==\n:''\"I'm searching for 5 [[Glowing Heart]]s. I can offer you one of the following items in exchange. Can you help me?\"''\n{{collector no armor trade dialogue|Glowing Hearts}}\n\n==Collector items==\n{{:Julianna Furst/Collector armor}}"
+}

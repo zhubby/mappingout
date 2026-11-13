@@ -1,0 +1,11 @@
+{
+  "title": "Flesh Tormentor",
+  "pageid": 44903,
+  "revid": 2603854,
+  "revisedAt": "2016-03-31T05:31:24Z",
+  "sha1": "a404cd86740ffdba323141e496ba898092b3f026",
+  "url": "https://wiki.guildwars.com/wiki/Flesh_Tormentor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Flesh%20Tormentor&oldid=2603854",
+  "retrievedAt": "2026-11-13T02:15:39.629Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Torment warrior.jpg|x350px]]\n| affiliation = Torment creatures\n| type = Demon\n| profession = w\n| level = 28 (30)\n| campaign = Nightfall\n}}\n[[Flesh Tormentor]]s inflict [[condition]]s on foes, and provide [[armor rating|armor]] boosts to their allies.\n\n==Locations== \n*[[Realm of Torment]]\n**[[Domain of Anguish]]\n***{{NPC location|Ravenheart Gloom}}\n***{{NPC location|Stygian Veil}}\n\n==Missions==\n*[[Realm of Torment]]\n**[[Domain of Anguish]]\n***{{NPC location|The Ebony Citadel of Mallyx}}\n\n==Skills==\n*{{skill_icon|\"Shields Up!\"}}\n*{{skill icon|\"Watch Yourself!\"}}\n*{{skill icon|Crippling Slash}} ([[elite]])\n*{{skill icon|Gash}}\n*{{skill icon|Protector's Defense}}\n*{{skill icon|Sever Artery}}\n*{{monster skill icon|Call to the Torment}}\n*{{monster skill icon|Enraged}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = w\n| blunt = 140\n| piercing = 140\n| slashing = 140\n| cold = 120\n| earth = 120\n| fire = 120\n| lightning = 120\n}}\n\n==Items dropped==\n*[[Aegis of Terror]] ([[unique]], only in Ravenheart Gloom)\n*[[Stygian Gemstone]] (Stygian Veil)\n*[[Torment Gemstone]] \n\n[[Category:Non-boss NPCs with Unique Items]]"
+}

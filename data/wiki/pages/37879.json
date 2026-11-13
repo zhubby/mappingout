@@ -1,0 +1,11 @@
+{
+  "title": "Keeper of Light",
+  "pageid": 37879,
+  "revid": 2623847,
+  "revisedAt": "2017-12-01T20:16:10Z",
+  "sha1": "614f2444c074604972dbd18b6f00401ea91e013c",
+  "url": "https://wiki.guildwars.com/wiki/Keeper_of_Light",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Keeper%20of%20Light&oldid=2623847",
+  "retrievedAt": "2026-11-13T01:11:10.242Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Forgotten dark.jpg|150px]]\n| affiliation = Forgotten\n| type = Forgotten\n| service = Collector\n| level = 20\n| campaign = Nightfall\n| map1 = [[Image:Keeper of Light map.jpg|150px]]\n| map1-text = Location in Throne of Secrets\n}}\nThe [[Keeper of Light]] is one of the [[Forgotten]] collectors who award [[Forgotten weapon]]s in exchange for a [[Book of Secrets]], the [[Nightfall]] end-game reward item. \n\n==Location==\n*[[Realm of Torment]]\n**{{NPC location|Throne of Secrets}}\n\n==Dialogue==\n:''\"Ah, yes, I am sorry. I did not see you coming. I am blind, you see. My eyes were seared in the light of the First Sun. Though my sight is clouded, my magic is strong. I can help you on your path. If you bring me 1 Book of Secrets, I will craft an ancient magic for you... one, I think, that will show you what I cannot.\"''\n\n==Collector items==\n{{:Keeper of Light/Collector}}\n\n==Notes==\n*The Keeper mentions an event called \"First Sun,\" but neither the game itself, nor the [[Gw.dat]] file has any further information or [[lore]] about it."
+}

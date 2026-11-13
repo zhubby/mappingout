@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Imperial Dragon weapons",
+  "pageid": 295635,
+  "revid": 2508696,
+  "revisedAt": "2012-07-27T08:41:05Z",
+  "sha1": "9bfe8f86e47afcd78a5111fe9b8c4eb49384f65b",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Imperial_Dragon_weapons",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Imperial%20Dragon%20weapons&oldid=2508696",
+  "retrievedAt": "2026-11-13T02:27:39.189Z",
+  "wikitext": "{{TOCright}}\n<dpl>\ncategory = Imperial Dragon weapons\n  uses = Template:Weapon infobox\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n[[Category:Weapon family galleries|Imperial Dragon weapons]]\n[[Category:Imperial Dragon weapons|*]]"
+}

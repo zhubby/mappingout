@@ -1,0 +1,11 @@
+{
+  "title": "\"Coward!\" (PvP)",
+  "pageid": 321774,
+  "revid": 2738529,
+  "revisedAt": "2026-08-26T21:44:31Z",
+  "sha1": "9f0471702302905483e3ad5bd9300d17e23c1712",
+  "url": "https://wiki.guildwars.com/wiki/%22Coward!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Coward!%22%20(PvP)&oldid=2738529",
+  "retrievedAt": "2026-11-13T01:08:06.016Z",
+  "wikitext": "__NOTOC__{{Pveversion|\"Coward!\"}}\n{{Skill infobox\n| id = 3456\n| name = \"Coward!\" (PvP)\n| campaign = Factions\n| profession = Warrior\n| type = Shout\n| elite = y\n| adrenaline = 4\n| recharge = 4\n| target = foes\n| aoe = none\n| causes1 = Knockdown\n| description = [[Elite]] [[Shout]]. If [[target]] [[foe]] is [[Movement|moving]], that foe is [[knock down|knocked down]].\n| concise description = Elite Shout. Causes knock-down if target foe is moving.\n| is-pvp = y\n}}\n\n== Related skills ==\n* {{skill icon|\"None Shall Pass!\"}}\n* {{skill icon|Bull's Strike}}\n* {{skill icon|Enraged Smash}} ([[elite]])\n* {{skill icon|Water Trident}} (elite)\n\n{{DEFAULTSORT:Coward! (PvP)}}\n\n[[de:\"Feigling!\" (PvP)]]"
+}

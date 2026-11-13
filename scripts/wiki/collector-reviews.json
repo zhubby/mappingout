@@ -1,0 +1,3502 @@
+[
+  {
+    "id": "collector:1:1",
+    "title": "Arliss Vaughn",
+    "revid": 2115381,
+    "table": "Arliss Vaughn/Collector",
+    "tableRevid": 2485191,
+    "amount": 5,
+    "material": "Iridescent Griffon Wing",
+    "armor": false
+  },
+  {
+    "id": "collector:1:2",
+    "title": "John Verado",
+    "revid": 2597898,
+    "table": "John Verado/Collector",
+    "tableRevid": 2485264,
+    "amount": 5,
+    "material": "Topaz Crest",
+    "armor": false
+  },
+  {
+    "id": "collector:1:3",
+    "title": "Mourn Drakespur",
+    "revid": 2597913,
+    "table": "Mourn Drakespur/Collector",
+    "tableRevid": 2485379,
+    "amount": 5,
+    "material": "Dessicated Hydra Claw",
+    "armor": false
+  },
+  {
+    "id": "collector:1:4",
+    "title": "Rylan Paval",
+    "revid": 2701019,
+    "table": "Rylan Paval/Collector",
+    "tableRevid": 2485481,
+    "amount": 5,
+    "material": "Spiny Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:1:5",
+    "title": "Lord Dorn Lendrigen",
+    "revid": 2701018,
+    "table": "Lord Dorn Lendrigen/Collector",
+    "tableRevid": 2485030,
+    "amount": 2,
+    "material": "Bleached Shell",
+    "armor": false
+  },
+  {
+    "id": "collector:1:6",
+    "title": "Sir Pohl Sanbert",
+    "revid": 2700955,
+    "table": "Sir Pohl Sanbert/Collector",
+    "tableRevid": 2709748,
+    "amount": 5,
+    "material": "Dune Burrower Jaw",
+    "armor": false
+  },
+  {
+    "id": "collector:1:7",
+    "title": "Uderit Ignis",
+    "revid": 2701017,
+    "table": "Uderit Ignis/Collector",
+    "tableRevid": 2702355,
+    "amount": 5,
+    "material": "Jade Mandible",
+    "armor": false
+  },
+  {
+    "id": "collector:1:8",
+    "title": "Karl Jakobs",
+    "revid": 2493107,
+    "table": "Karl Jakobs/Collector",
+    "tableRevid": 2616479,
+    "amount": 5,
+    "material": "Massive Jawbone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:9",
+    "title": "Kraviec the Cursed",
+    "revid": 2597906,
+    "table": "Kraviec the Cursed/Collector",
+    "tableRevid": 2485192,
+    "amount": 5,
+    "material": "Iridescent Griffon Wing",
+    "armor": false
+  },
+  {
+    "id": "collector:1:10",
+    "title": "Brandon Harlin",
+    "revid": 2597884,
+    "table": "Brandon Harlin/Collector",
+    "tableRevid": 2703000,
+    "amount": 5,
+    "material": "Encrusted Lodestone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:11",
+    "title": "Luven Underwood",
+    "revid": 2597911,
+    "table": "Luven Underwood/Collector",
+    "tableRevid": 2485345,
+    "amount": 5,
+    "material": "Minotaur Horn",
+    "armor": false
+  },
+  {
+    "id": "collector:1:12",
+    "title": "Ornhelm Brightaxe",
+    "revid": 2511920,
+    "table": "Ornhelm Brightaxe/Collector",
+    "tableRevid": 2485105,
+    "amount": 5,
+    "material": "Stone Summit Badge",
+    "armor": false
+  },
+  {
+    "id": "collector:1:13",
+    "title": "Volsung Stoneketil",
+    "revid": 2113625,
+    "table": "Volsung Stoneketil/Collector",
+    "tableRevid": 2485060,
+    "amount": 5,
+    "material": "Feathered Avicara Scalp",
+    "armor": false
+  },
+  {
+    "id": "collector:1:14",
+    "title": "Cember Goreaxe",
+    "revid": 2137909,
+    "table": "Cember Goreaxe/Collector",
+    "tableRevid": 2485064,
+    "amount": 5,
+    "material": "Frigid Heart",
+    "armor": false
+  },
+  {
+    "id": "collector:1:15",
+    "title": "Nord Stonegrimm",
+    "revid": 2193684,
+    "table": "Nord Stonegrimm/Collector",
+    "tableRevid": 2703014,
+    "amount": 2,
+    "material": "Frozen Shell",
+    "armor": false
+  },
+  {
+    "id": "collector:1:16",
+    "title": "Hoknil the Lesser",
+    "revid": 2691029,
+    "table": "Hoknil the Lesser/Collector",
+    "tableRevid": 2485027,
+    "amount": 5,
+    "material": "Azure Remains",
+    "armor": false
+  },
+  {
+    "id": "collector:1:17",
+    "title": "Merin Trollsbane",
+    "revid": 2691030,
+    "table": "Merin Trollsbane/Collector",
+    "tableRevid": 2702354,
+    "amount": 5,
+    "material": "Mountain Troll Tusk",
+    "armor": false
+  },
+  {
+    "id": "collector:1:18",
+    "title": "Radamon",
+    "revid": 2127079,
+    "table": "Radamon/Collector",
+    "tableRevid": 2485141,
+    "amount": 5,
+    "material": "Huge Jawbone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:19",
+    "title": "Hagnon Warblade",
+    "revid": 2691028,
+    "table": "Hagnon Warblade/Collector",
+    "tableRevid": 2485067,
+    "amount": 5,
+    "material": "Frosted Griffon Wing",
+    "armor": false
+  },
+  {
+    "id": "collector:1:20",
+    "title": "Yorik Warblade",
+    "revid": 1810793,
+    "table": "Yorik Warblade/Collector",
+    "tableRevid": 721339,
+    "amount": 1,
+    "material": "Emboldened Carapace Shield",
+    "armor": false
+  },
+  {
+    "id": "collector:1:21",
+    "title": "Mag Ironwall",
+    "revid": 2198996,
+    "table": "Mag Ironwall/Collector",
+    "tableRevid": 2485140,
+    "amount": 5,
+    "material": "Intricate Grawl Necklace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:22",
+    "title": "Trego Stonebreaker",
+    "revid": 1019325,
+    "table": "Trego Stonebreaker/Collector",
+    "tableRevid": 2485128,
+    "amount": 5,
+    "material": "Mountain Troll Tusk",
+    "armor": false
+  },
+  {
+    "id": "collector:1:23",
+    "title": "Goran Grimyak",
+    "revid": 978917,
+    "table": "Goran Grimyak/Collector",
+    "tableRevid": 2485061,
+    "amount": 5,
+    "material": "Feathered Avicara Scalp",
+    "armor": false
+  },
+  {
+    "id": "collector:1:24",
+    "title": "Bariel Darkroot",
+    "revid": 2108832,
+    "table": "Bariel Darkroot/Collector",
+    "tableRevid": 2492374,
+    "amount": 5,
+    "material": "Alpine Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:1:25",
+    "title": "Collector Corbis",
+    "revid": 2597888,
+    "table": "Collector Corbis/Collector",
+    "tableRevid": 2485098,
+    "amount": 12,
+    "material": "Seared Ribcage",
+    "armor": false
+  },
+  {
+    "id": "collector:1:26",
+    "title": "Collector Gabrian",
+    "revid": 2597889,
+    "table": "Collector Gabrian/Collector",
+    "tableRevid": 2485131,
+    "amount": 3,
+    "material": "Mahgo Claw",
+    "armor": false
+  },
+  {
+    "id": "collector:1:27",
+    "title": "Collector Terra",
+    "revid": 2394783,
+    "table": "Collector Terra/Collector",
+    "tableRevid": 2485095,
+    "amount": 7,
+    "material": "Unctuous Remains",
+    "armor": false
+  },
+  {
+    "id": "collector:1:28",
+    "title": "Hagnon Warblade",
+    "revid": 2691028,
+    "table": "Hagnon Warblade/Collector armor",
+    "tableRevid": 2485066,
+    "amount": 5,
+    "material": "Frosted Griffon Wing",
+    "armor": true
+  },
+  {
+    "id": "collector:1:29",
+    "title": "Hoknil the Greater",
+    "revid": 2535352,
+    "table": "Hoknil the Greater/Collector armor",
+    "tableRevid": 2705856,
+    "amount": 7,
+    "material": "Huge Jawbone",
+    "armor": true
+  },
+  {
+    "id": "collector:1:30",
+    "title": "Vania Sewell",
+    "revid": 2535375,
+    "table": "Vania Sewell/Collector armor",
+    "tableRevid": 2705855,
+    "amount": 7,
+    "material": "Azure Remains",
+    "armor": true
+  },
+  {
+    "id": "collector:1:31",
+    "title": "Kagan Treesplitter",
+    "revid": 2182682,
+    "table": "Kagan Treesplitter/Collector armor",
+    "tableRevid": 2705858,
+    "amount": 7,
+    "material": "Alpine Seed",
+    "armor": true
+  },
+  {
+    "id": "collector:1:32",
+    "title": "Turlo Oakenspear",
+    "revid": 2182736,
+    "table": "Turlo Oakenspear/Collector armor",
+    "tableRevid": 2705854,
+    "amount": 7,
+    "material": "Frigid Heart",
+    "armor": true
+  },
+  {
+    "id": "collector:1:33",
+    "title": "Trego Stonebreaker",
+    "revid": 1019325,
+    "table": "Trego Stonebreaker/Collector armor",
+    "tableRevid": 2485127,
+    "amount": 5,
+    "material": "Mountain Troll Tusk",
+    "armor": true
+  },
+  {
+    "id": "collector:1:34",
+    "title": "Ardenoth Oakenshield",
+    "revid": 2575974,
+    "table": "Ardenoth Oakenshield/Collector armor",
+    "tableRevid": 2485029,
+    "amount": 2,
+    "material": "Bleached Shell",
+    "armor": true
+  },
+  {
+    "id": "collector:1:35",
+    "title": "Ekimeel Trueshot",
+    "revid": 2597892,
+    "table": "Ekimeel Trueshot/Collector armor",
+    "tableRevid": 2624740,
+    "amount": 5,
+    "material": "Forgotten Seal",
+    "armor": true
+  },
+  {
+    "id": "collector:1:36",
+    "title": "Kyle the Rich",
+    "revid": 2711572,
+    "table": "Kyle the Rich/Collector armor",
+    "tableRevid": 2485457,
+    "amount": 5,
+    "material": "Losaru Mane",
+    "armor": true
+  },
+  {
+    "id": "collector:1:37",
+    "title": "Gustov the Silent",
+    "revid": 2711571,
+    "table": "Gustov the Silent/Collector armor",
+    "tableRevid": 2676125,
+    "amount": 5,
+    "material": "Dune Burrower Jaw",
+    "armor": true
+  },
+  {
+    "id": "collector:1:38",
+    "title": "Fenster the Golden",
+    "revid": 2535347,
+    "table": "Fenster the Golden/Collector armor",
+    "tableRevid": 2485346,
+    "amount": 5,
+    "material": "Minotaur Horn",
+    "armor": true
+  },
+  {
+    "id": "collector:1:39",
+    "title": "Winfield Michelson",
+    "revid": 2597928,
+    "table": "Winfield Michelson/Collector armor",
+    "tableRevid": 2594273,
+    "amount": 5,
+    "material": "Bleached Carapace",
+    "armor": true
+  },
+  {
+    "id": "collector:1:40",
+    "title": "Sir Kaufman",
+    "revid": 2711573,
+    "table": "Sir Kaufman/Collector armor",
+    "tableRevid": 2485351,
+    "amount": 5,
+    "material": "Massive Jawbone",
+    "armor": true
+  },
+  {
+    "id": "collector:1:41",
+    "title": "Cedric Rogers",
+    "revid": 2535342,
+    "table": "Cedric Rogers/Collector armor",
+    "tableRevid": 2511938,
+    "amount": 5,
+    "material": "Losaru Mane",
+    "armor": true
+  },
+  {
+    "id": "collector:1:42",
+    "title": "Jamie the Wanderer",
+    "revid": 2711574,
+    "table": "Jamie the Wanderer/Collector armor",
+    "tableRevid": 2698279,
+    "amount": 5,
+    "material": "Dune Burrower Jaw",
+    "armor": true
+  },
+  {
+    "id": "collector:1:43",
+    "title": "Barton Smallwood",
+    "revid": 2597880,
+    "table": "Barton Smallwood/Collector armor",
+    "tableRevid": 2539336,
+    "amount": 5,
+    "material": "Shriveled Eye",
+    "armor": true
+  },
+  {
+    "id": "collector:1:44",
+    "title": "Kelsay Pradist",
+    "revid": 2701903,
+    "table": "Kelsay Pradist/Collector armor",
+    "tableRevid": 2594918,
+    "amount": 5,
+    "material": "Jade Mandible",
+    "armor": true
+  },
+  {
+    "id": "collector:1:45",
+    "title": "Sir Norrington",
+    "revid": 2575512,
+    "table": "Sir Norrington/Collector armor",
+    "tableRevid": 2575508,
+    "amount": 5,
+    "material": "Shriveled Eye",
+    "armor": true
+  },
+  {
+    "id": "collector:1:46",
+    "title": "Cinder Linnwood",
+    "revid": 2576678,
+    "table": "Cinder Linnwood/Collector",
+    "tableRevid": 2702353,
+    "amount": 5,
+    "material": "Bleached Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:243",
+    "title": "Brownlow",
+    "revid": 2134166,
+    "table": "Brownlow/Collector",
+    "tableRevid": 2485490,
+    "amount": 5,
+    "material": "Skale Fin (pre-Searing)",
+    "armor": false
+  },
+  {
+    "id": "collector:1:244",
+    "title": "Humphreys",
+    "revid": 2145522,
+    "table": "Humphreys/Collector",
+    "tableRevid": 2703003,
+    "amount": 5,
+    "material": "Worn Belt",
+    "armor": false
+  },
+  {
+    "id": "collector:1:245",
+    "title": "Jacobs",
+    "revid": 2149654,
+    "table": "Jacobs/Collector",
+    "tableRevid": 2485405,
+    "amount": 3,
+    "material": "Baked Husk",
+    "armor": false
+  },
+  {
+    "id": "collector:1:246",
+    "title": "Kaylee",
+    "revid": 2162743,
+    "table": "Kaylee/Collector",
+    "tableRevid": 2485429,
+    "amount": 3,
+    "material": "Grawl Necklace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:247",
+    "title": "Walden",
+    "revid": 2221871,
+    "table": "Walden/Collector",
+    "tableRevid": 2703015,
+    "amount": 3,
+    "material": "Unnatural Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:1:248",
+    "title": "Rownan",
+    "revid": 2537790,
+    "table": "Rownan/Collector",
+    "tableRevid": 2642819,
+    "amount": 3,
+    "material": "Dull Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:249",
+    "title": "Gwynn",
+    "revid": 2136072,
+    "table": "Gwynn/Collector",
+    "tableRevid": 2642820,
+    "amount": 3,
+    "material": "Skeletal Limb",
+    "armor": false
+  },
+  {
+    "id": "collector:1:250",
+    "title": "Mindle",
+    "revid": 2206365,
+    "table": "Mindle/Collector",
+    "tableRevid": 2727253,
+    "amount": 3,
+    "material": "Enchanted Lodestone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:251",
+    "title": "Gwynn",
+    "revid": 2136072,
+    "table": "Gwynn/Collector armor",
+    "tableRevid": 2728816,
+    "amount": 3,
+    "material": "Skeletal Limb",
+    "armor": true
+  },
+  {
+    "id": "collector:1:252",
+    "title": "Karleen",
+    "revid": 2590054,
+    "table": "Karleen/Collector armor",
+    "tableRevid": 2612198,
+    "amount": 5,
+    "material": "Gargoyle Skull",
+    "armor": true
+  },
+  {
+    "id": "collector:1:253",
+    "title": "Hatcher",
+    "revid": 2140715,
+    "table": "Hatcher/Collector armor",
+    "tableRevid": 2612195,
+    "amount": 5,
+    "material": "Unnatural Seed",
+    "armor": true
+  },
+  {
+    "id": "collector:1:254",
+    "title": "Hatcher",
+    "revid": 2140715,
+    "table": "Hatcher/Collector armor",
+    "tableRevid": 2612195,
+    "amount": 5,
+    "material": "Unnatural Seed",
+    "armor": true
+  },
+  {
+    "id": "collector:1:255",
+    "title": "Jacobs",
+    "revid": 2149654,
+    "table": "Jacobs/Collector armor",
+    "tableRevid": 2728814,
+    "amount": 3,
+    "material": "Baked Husk",
+    "armor": true
+  },
+  {
+    "id": "collector:1:256",
+    "title": "Kaylee",
+    "revid": 2162743,
+    "table": "Kaylee/Collector armor",
+    "tableRevid": 2728815,
+    "amount": 3,
+    "material": "Grawl Necklace",
+    "armor": true
+  },
+  {
+    "id": "collector:1:257",
+    "title": "Mindle",
+    "revid": 2206365,
+    "table": "Mindle/Collector armor",
+    "tableRevid": 2728817,
+    "amount": 3,
+    "material": "Enchanted Lodestone",
+    "armor": true
+  },
+  {
+    "id": "collector:1:258",
+    "title": "Savich",
+    "revid": 2218479,
+    "table": "Savich/Collector armor",
+    "tableRevid": 2612200,
+    "amount": 3,
+    "material": "Icy Lodestone",
+    "armor": true
+  },
+  {
+    "id": "collector:1:259",
+    "title": "Varis",
+    "revid": 2132264,
+    "table": "Varis/Collector armor",
+    "tableRevid": 2612196,
+    "amount": 3,
+    "material": "Spider Leg",
+    "armor": true
+  },
+  {
+    "id": "collector:1:260",
+    "title": "Innis the White",
+    "revid": 2346826,
+    "table": "Innis the White/Collector",
+    "tableRevid": 2485176,
+    "amount": 4,
+    "material": "Singed Gargoyle Skull",
+    "armor": true
+  },
+  {
+    "id": "collector:1:261",
+    "title": "Dreaz Bowem",
+    "revid": 2122722,
+    "table": "Dreaz Bowem/Collector armor",
+    "tableRevid": 2485370,
+    "amount": 3,
+    "material": "Fetid Carapace",
+    "armor": true
+  },
+  {
+    "id": "collector:1:262",
+    "title": "Palben Tunne",
+    "revid": 2734966,
+    "table": "Palben Tunne/Collector armor",
+    "tableRevid": 2485170,
+    "amount": 4,
+    "material": "Ornate Grawl Necklace",
+    "armor": true
+  },
+  {
+    "id": "collector:1:263",
+    "title": "Gil Moriddan",
+    "revid": 2711568,
+    "table": "Gil Moriddan/Collector armor",
+    "tableRevid": 2485138,
+    "amount": 4,
+    "material": "Leathery Claw",
+    "armor": true
+  },
+  {
+    "id": "collector:1:264",
+    "title": "Graine Hathorn",
+    "revid": 2727900,
+    "table": "Graine Hathorn/Collector armor",
+    "tableRevid": 2485368,
+    "amount": 4,
+    "material": "Fetid Carapace",
+    "armor": true
+  },
+  {
+    "id": "collector:1:265",
+    "title": "Calissa Sedgwick",
+    "revid": 2249831,
+    "table": "Calissa Sedgwick/Collector",
+    "tableRevid": 2485381,
+    "amount": 4,
+    "material": "Charr Hide",
+    "armor": false
+  },
+  {
+    "id": "collector:1:266",
+    "title": "Sally Kaugie",
+    "revid": 2701021,
+    "table": "Sally Kaugie/Collector",
+    "tableRevid": 2485463,
+    "amount": 3,
+    "material": "Scorched Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:1:267",
+    "title": "Fytch",
+    "revid": 2346802,
+    "table": "Fytch/Collector",
+    "tableRevid": 2485369,
+    "amount": 3,
+    "material": "Fetid Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:268",
+    "title": "Guardsman Noell",
+    "revid": 2620920,
+    "table": "Guardsman Noell/Collector",
+    "tableRevid": 2677230,
+    "amount": 3,
+    "material": "Ornate Grawl Necklace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:269",
+    "title": "Paige Osbourne",
+    "revid": 2432105,
+    "table": "Paige Osbourne/Collector",
+    "tableRevid": 2485038,
+    "amount": 3,
+    "material": "Charr Carving",
+    "armor": false
+  },
+  {
+    "id": "collector:1:270",
+    "title": "Raymon Elsworth",
+    "revid": 2623906,
+    "table": "Raymon Elsworth/Collector",
+    "tableRevid": 2485173,
+    "amount": 3,
+    "material": "Stormy Eye",
+    "armor": false
+  },
+  {
+    "id": "collector:1:271",
+    "title": "Ouran Odwin",
+    "revid": 2523309,
+    "table": "Ouran Odwin/Collector",
+    "tableRevid": 2577167,
+    "amount": 3,
+    "material": "Stormy Eye",
+    "armor": false
+  },
+  {
+    "id": "collector:1:272",
+    "title": "Nicanor Gannel",
+    "revid": 2669680,
+    "table": "Nicanor Gannel/Collector",
+    "tableRevid": 2485306,
+    "amount": 3,
+    "material": "Scorched Lodestone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:273",
+    "title": "Corwin Luceinne",
+    "revid": 2616509,
+    "table": "Corwin Luceinne/Collector",
+    "tableRevid": 2485171,
+    "amount": 3,
+    "material": "Ornate Grawl Necklace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:274",
+    "title": "Valeria Benes",
+    "revid": 2346822,
+    "table": "Valeria Benes/Collector",
+    "tableRevid": 2485177,
+    "amount": 3,
+    "material": "Singed Gargoyle Skull",
+    "armor": false
+  },
+  {
+    "id": "collector:1:275",
+    "title": "Sir Nyman",
+    "revid": 2221583,
+    "table": "Sir Nyman/Collector",
+    "tableRevid": 2485461,
+    "amount": 3,
+    "material": "Rawhide Belt",
+    "armor": false
+  },
+  {
+    "id": "collector:1:276",
+    "title": "Innis the White",
+    "revid": 2346826,
+    "table": "Innis the White/Collector",
+    "tableRevid": 2485176,
+    "amount": 4,
+    "material": "Singed Gargoyle Skull",
+    "armor": false
+  },
+  {
+    "id": "collector:1:277",
+    "title": "Dreaz Bowem",
+    "revid": 2122722,
+    "table": "Dreaz Bowem/Collector",
+    "tableRevid": 2485371,
+    "amount": 3,
+    "material": "Fetid Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:278",
+    "title": "Saba Blackstone",
+    "revid": 2346801,
+    "table": "Saba Blackstone/Collector",
+    "tableRevid": 2485308,
+    "amount": 3,
+    "material": "Scorched Lodestone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:279",
+    "title": "Penelope Hoode",
+    "revid": 2701011,
+    "table": "Penelope Hoode/Collector",
+    "tableRevid": 2485464,
+    "amount": 3,
+    "material": "Scorched Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:1:280",
+    "title": "Louise Haup",
+    "revid": 2735746,
+    "table": "Louise Haup/Collector",
+    "tableRevid": 2735747,
+    "amount": 3,
+    "material": "Charr Carving",
+    "armor": false
+  },
+  {
+    "id": "collector:1:281",
+    "title": "Lenerd Aberold",
+    "revid": 2535360,
+    "table": "Lenerd Aberold/Collector",
+    "tableRevid": 2485178,
+    "amount": 3,
+    "material": "Singed Gargoyle Skull",
+    "armor": false
+  },
+  {
+    "id": "collector:1:282",
+    "title": "Martel Bastions",
+    "revid": 2346839,
+    "table": "Martel Bastions/Collector",
+    "tableRevid": 2485307,
+    "amount": 3,
+    "material": "Scorched Lodestone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:283",
+    "title": "Wain Hughes",
+    "revid": 2726190,
+    "table": "Wain Hughes/Collector",
+    "tableRevid": 2485037,
+    "amount": 3,
+    "material": "Charr Carving",
+    "armor": false
+  },
+  {
+    "id": "collector:1:284",
+    "title": "Dael",
+    "revid": 2562083,
+    "table": "Dael/Collector",
+    "tableRevid": 2485139,
+    "amount": 3,
+    "material": "Leathery Claw",
+    "armor": false
+  },
+  {
+    "id": "collector:1:285",
+    "title": "Nazag Fenn",
+    "revid": 2172367,
+    "table": "Nazag Fenn/Collector",
+    "tableRevid": 2484963,
+    "amount": 9,
+    "material": "Gruesome Ribcage",
+    "armor": false
+  },
+  {
+    "id": "collector:1:286",
+    "title": "Ashram Fenn",
+    "revid": 2346846,
+    "table": "Ashram Fenn/Collector",
+    "tableRevid": 2485465,
+    "amount": 3,
+    "material": "Scar Behemoth Jaw",
+    "armor": false
+  },
+  {
+    "id": "collector:1:287",
+    "title": "Sadira Powell",
+    "revid": 2535373,
+    "table": "Sadira Powell/Collector armor",
+    "tableRevid": 2484966,
+    "amount": 5,
+    "material": "Alpine Seed",
+    "armor": true
+  },
+  {
+    "id": "collector:1:288",
+    "title": "Pyrs Harven",
+    "revid": 2213411,
+    "table": "Pyrs Harven/Collector armor",
+    "tableRevid": 2485313,
+    "amount": 5,
+    "material": "Shiverpeak Mane",
+    "armor": true
+  },
+  {
+    "id": "collector:1:289",
+    "title": "Asgrim Brightaxe",
+    "revid": 1795358,
+    "table": "Asgrim Brightaxe/Collector armor",
+    "tableRevid": 2485104,
+    "amount": 5,
+    "material": "Stone Summit Badge",
+    "armor": true
+  },
+  {
+    "id": "collector:1:290",
+    "title": "Norin Stonegrimm",
+    "revid": 2535368,
+    "table": "Norin Stonegrimm/Collector armor",
+    "tableRevid": 2485319,
+    "amount": 5,
+    "material": "Frostfire Fang",
+    "armor": true
+  },
+  {
+    "id": "collector:1:291",
+    "title": "Maccus Ironjaw",
+    "revid": 2554990,
+    "table": "Maccus Ironjaw/Collector armor",
+    "tableRevid": 2485411,
+    "amount": 5,
+    "material": "Curved Minotaur Horn",
+    "armor": true
+  },
+  {
+    "id": "collector:1:292",
+    "title": "Sander the Gray",
+    "revid": 2570710,
+    "table": "Sander the Gray/Collector_armor",
+    "tableRevid": 2485321,
+    "amount": 5,
+    "material": "Frostfire Fang",
+    "armor": true
+  },
+  {
+    "id": "collector:1:293",
+    "title": "Rothgar Hoofsplitter",
+    "revid": 2580372,
+    "table": "Rothgar Hoofsplitter/Collector armor",
+    "tableRevid": 2485312,
+    "amount": 5,
+    "material": "Shiverpeak Mane",
+    "armor": true
+  },
+  {
+    "id": "collector:1:294",
+    "title": "Lenn Giantsbane",
+    "revid": 2580371,
+    "table": "Lenn Giantsbane/Collector armor",
+    "tableRevid": 2742044,
+    "amount": 5,
+    "material": "Icy Hump",
+    "armor": true
+  },
+  {
+    "id": "collector:1:295",
+    "title": "Ian Sturmme",
+    "revid": 2704899,
+    "table": "Ian Sturmme/Collector armor",
+    "tableRevid": 2702696,
+    "amount": 5,
+    "material": "Feathered Caromi Scalp",
+    "armor": true
+  },
+  {
+    "id": "collector:1:296",
+    "title": "Tenlach Silverhand",
+    "revid": 2224722,
+    "table": "Tenlach Silverhand/Collector armor",
+    "tableRevid": 2485223,
+    "amount": 5,
+    "material": "Abnormal Seed",
+    "armor": true
+  },
+  {
+    "id": "collector:1:297",
+    "title": "Ian Borish",
+    "revid": 2535353,
+    "table": "Ian Borish/Collector armor",
+    "tableRevid": 2485169,
+    "amount": 5,
+    "material": "Shadowy Remnants",
+    "armor": true
+  },
+  {
+    "id": "collector:1:298",
+    "title": "Ember Whisperwind",
+    "revid": 2562027,
+    "table": "Ember Whisperwind/Collector armor",
+    "tableRevid": 2485364,
+    "amount": 5,
+    "material": "Forest Minotaur Horn",
+    "armor": true
+  },
+  {
+    "id": "collector:1:299",
+    "title": "Galstaff the Light",
+    "revid": 2598377,
+    "table": "Galstaff the Light/Collector armor",
+    "tableRevid": 2485350,
+    "amount": 5,
+    "material": "Mergoyle Skull",
+    "armor": true
+  },
+  {
+    "id": "collector:1:300",
+    "title": "Julianna Furst",
+    "revid": 2535356,
+    "table": "Julianna Furst/Collector armor",
+    "tableRevid": 2485215,
+    "amount": 5,
+    "material": "Glowing Heart",
+    "armor": true
+  },
+  {
+    "id": "collector:1:301",
+    "title": "Robin Neils",
+    "revid": 2535372,
+    "table": "Robin Neils/Collector armor",
+    "tableRevid": 2719449,
+    "amount": 5,
+    "material": "Shadowy Remnants",
+    "armor": true
+  },
+  {
+    "id": "collector:1:302",
+    "title": "Falhurst",
+    "revid": 2189123,
+    "table": "Falhurst/Collector armor",
+    "tableRevid": 2485349,
+    "amount": 5,
+    "material": "Mergoyle Skull",
+    "armor": true
+  },
+  {
+    "id": "collector:1:303",
+    "title": "Gruhn the Fisher",
+    "revid": 2701015,
+    "table": "Gruhn the Fisher/Collector armor",
+    "tableRevid": 2542458,
+    "amount": 5,
+    "material": "Bog Skale Fin",
+    "armor": true
+  },
+  {
+    "id": "collector:1:304",
+    "title": "Jamora the Wise",
+    "revid": 2711567,
+    "table": "Jamora the Wise/Collector armor",
+    "tableRevid": 2485216,
+    "amount": 5,
+    "material": "Glowing Heart",
+    "armor": true
+  },
+  {
+    "id": "collector:1:305",
+    "title": "Vardis",
+    "revid": 2535376,
+    "table": "Vardis/Collector armor",
+    "tableRevid": 2485269,
+    "amount": 5,
+    "material": "Spiked Crest",
+    "armor": true
+  },
+  {
+    "id": "collector:1:306",
+    "title": "Delves the Dodgy",
+    "revid": 2711569,
+    "table": "Delves the Dodgy/Collector armor",
+    "tableRevid": 2719380,
+    "amount": 5,
+    "material": "Gargantuan Jawbone",
+    "armor": true
+  },
+  {
+    "id": "collector:1:307",
+    "title": "Camryn Jamison",
+    "revid": 2125071,
+    "table": "Camryn Jamison/Collector",
+    "tableRevid": 2485152,
+    "amount": 4,
+    "material": "Decayed Orr Emblem",
+    "armor": false
+  },
+  {
+    "id": "collector:1:308",
+    "title": "Alton Thorne",
+    "revid": 2101230,
+    "table": "Alton Thorne/Collector",
+    "tableRevid": 2485459,
+    "amount": 4,
+    "material": "Leather Belt",
+    "armor": false
+  },
+  {
+    "id": "collector:1:309",
+    "title": "Leighton Cranford",
+    "revid": 2701160,
+    "table": "Leighton Cranford/Collector",
+    "tableRevid": 2703013,
+    "amount": 4,
+    "material": "Bog Skale Fin",
+    "armor": false
+  },
+  {
+    "id": "collector:1:310",
+    "title": "Wintun the Black",
+    "revid": 2583991,
+    "table": "Wintun the Black/Collector",
+    "tableRevid": 2583993,
+    "amount": 4,
+    "material": "Feathered Caromi Scalp",
+    "armor": false
+  },
+  {
+    "id": "collector:1:311",
+    "title": "Helton Wills",
+    "revid": 2584005,
+    "table": "Helton Wills/Collector",
+    "tableRevid": 2485160,
+    "amount": 4,
+    "material": "Hardened Hump",
+    "armor": false
+  },
+  {
+    "id": "collector:1:312",
+    "title": "Kira Thorne",
+    "revid": 2165329,
+    "table": "Kira Thorne/Collector",
+    "tableRevid": 2485217,
+    "amount": 4,
+    "material": "Glowing Heart",
+    "armor": false
+  },
+  {
+    "id": "collector:1:313",
+    "title": "Beldon the Blade",
+    "revid": 2346961,
+    "table": "Beldon the Blade/Collector",
+    "tableRevid": 2485348,
+    "amount": 4,
+    "material": "Mergoyle Skull",
+    "armor": false
+  },
+  {
+    "id": "collector:1:314",
+    "title": "Milny Samhammil",
+    "revid": 2137580,
+    "table": "Milny Samhammil/Collector",
+    "tableRevid": 2485347,
+    "amount": 4,
+    "material": "Mergoyle Skull",
+    "armor": false
+  },
+  {
+    "id": "collector:1:315",
+    "title": "Kolleen Redstone",
+    "revid": 2543106,
+    "table": "Kolleen Redstone/Collector",
+    "tableRevid": 2485153,
+    "amount": 4,
+    "material": "Decayed Orr Emblem",
+    "armor": false
+  },
+  {
+    "id": "collector:1:316",
+    "title": "Liris the Sage",
+    "revid": 2107142,
+    "table": "Liris the Sage/Collector",
+    "tableRevid": 2485394,
+    "amount": 4,
+    "material": "Bog Skale Fin",
+    "armor": false
+  },
+  {
+    "id": "collector:1:317",
+    "title": "Sir Robert",
+    "revid": 2120219,
+    "table": "Sir Robert/Collector",
+    "tableRevid": 2485225,
+    "amount": 4,
+    "material": "Abnormal Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:1:318",
+    "title": "Brion Elston",
+    "revid": 2109731,
+    "table": "Brion Elston/Collector",
+    "tableRevid": 2485365,
+    "amount": 4,
+    "material": "Forest Minotaur Horn",
+    "armor": false
+  },
+  {
+    "id": "collector:1:319",
+    "title": "William Pennington",
+    "revid": 2229955,
+    "table": "William Pennington/Collector",
+    "tableRevid": 2564956,
+    "amount": 4,
+    "material": "Ivory Troll Tusk",
+    "armor": false
+  },
+  {
+    "id": "collector:1:320",
+    "title": "Brynden Cromwell",
+    "revid": 2162502,
+    "table": "Brynden Cromwell/Collector",
+    "tableRevid": 2673501,
+    "amount": 4,
+    "material": "Gargantuan Jawbone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:321",
+    "title": "Arris Weston",
+    "revid": 2623917,
+    "table": "Arris Weston/Collector",
+    "tableRevid": 2485268,
+    "amount": 4,
+    "material": "Spiked Crest",
+    "armor": false
+  },
+  {
+    "id": "collector:1:322",
+    "title": "Daved Logsdon",
+    "revid": 2121054,
+    "table": "Daved Logsdon/Collector",
+    "tableRevid": 2485224,
+    "amount": 4,
+    "material": "Abnormal Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:1:323",
+    "title": "Adam Solstrum",
+    "revid": 2710602,
+    "table": "Adam Solstrum/Collector",
+    "tableRevid": 2492953,
+    "amount": 5,
+    "material": "White Mantle Emblem",
+    "armor": false
+  },
+  {
+    "id": "collector:1:324",
+    "title": "Loreen Cranford",
+    "revid": 2710611,
+    "table": "Loreen Cranford/Collector",
+    "tableRevid": 2485334,
+    "amount": 5,
+    "material": "Jungle Troll Tusk",
+    "armor": false
+  },
+  {
+    "id": "collector:1:325",
+    "title": "Thyfir Greenleaf",
+    "revid": 2710597,
+    "table": "Thyfir Greenleaf/Collector",
+    "tableRevid": 2485056,
+    "amount": 5,
+    "material": "White Mantle Emblem",
+    "armor": false
+  },
+  {
+    "id": "collector:1:326",
+    "title": "Isabaeux Navarre",
+    "revid": 2710648,
+    "table": "Isabaeux Navarre/Collector",
+    "tableRevid": 2485290,
+    "amount": 5,
+    "material": "Thorny Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:1:327",
+    "title": "Vargil the White",
+    "revid": 2538981,
+    "table": "Vargil the White/Collector",
+    "tableRevid": 2485397,
+    "amount": 5,
+    "material": "Ancient Eye",
+    "armor": false
+  },
+  {
+    "id": "collector:1:328",
+    "title": "Ingrid Larson",
+    "revid": 2148064,
+    "table": "Ingrid Larson/Collector",
+    "tableRevid": 2485358,
+    "amount": 5,
+    "material": "Mossy Mandible",
+    "armor": false
+  },
+  {
+    "id": "collector:1:329",
+    "title": "Crispin Bryllis",
+    "revid": 2701016,
+    "table": "Crispin Bryllis/Collector",
+    "tableRevid": 2703012,
+    "amount": 5,
+    "material": "Jungle Troll Tusk",
+    "armor": false
+  },
+  {
+    "id": "collector:1:330",
+    "title": "Farmer Conklin",
+    "revid": 2128687,
+    "table": "Farmer Conklin/Collector",
+    "tableRevid": 2485359,
+    "amount": 5,
+    "material": "Mossy Mandible",
+    "armor": false
+  },
+  {
+    "id": "collector:1:331",
+    "title": "Lady Engelram",
+    "revid": 2612578,
+    "table": "Lady Engelram/Collector",
+    "tableRevid": 2485212,
+    "amount": 5,
+    "material": "Maguuma Mane",
+    "armor": false
+  },
+  {
+    "id": "collector:1:332",
+    "title": "Orson Cooper",
+    "revid": 2569547,
+    "table": "Orson Cooper/Collector",
+    "tableRevid": 2485398,
+    "amount": 5,
+    "material": "Ancient Eye",
+    "armor": false
+  },
+  {
+    "id": "collector:1:333",
+    "title": "Serah Shaes",
+    "revid": 2220143,
+    "table": "Serah Shaes/Collector",
+    "tableRevid": 2485450,
+    "amount": 5,
+    "material": "Jungle Skale Fin",
+    "armor": false
+  },
+  {
+    "id": "collector:1:334",
+    "title": "Tully Blackvine",
+    "revid": 2226433,
+    "table": "Tully Blackvine/Collector",
+    "tableRevid": 2616495,
+    "amount": 5,
+    "material": "Tangled Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:1:335",
+    "title": "Seris the Red",
+    "revid": 2220195,
+    "table": "Seris the Red/Collector",
+    "tableRevid": 2485387,
+    "amount": 5,
+    "material": "Behemoth Jaw",
+    "armor": false
+  },
+  {
+    "id": "collector:1:336",
+    "title": "Mosreh the Exile",
+    "revid": 2710595,
+    "table": "Mosreh the Exile/Collector armor",
+    "tableRevid": 2485188,
+    "amount": 5,
+    "material": "Ebon Spider Leg",
+    "armor": true
+  },
+  {
+    "id": "collector:1:337",
+    "title": "Aaron Fletcher",
+    "revid": 2711570,
+    "table": "Aaron Fletcher/Collector armor",
+    "tableRevid": 2485396,
+    "amount": 5,
+    "material": "Ancient Eye",
+    "armor": true
+  },
+  {
+    "id": "collector:1:338",
+    "title": "Elwynn Kirby",
+    "revid": 2521239,
+    "table": "Elwynn Kirby/Collector armor",
+    "tableRevid": 2485193,
+    "amount": 5,
+    "material": "Tangled Seed",
+    "armor": true
+  },
+  {
+    "id": "collector:1:339",
+    "title": "Hember",
+    "revid": 2535351,
+    "table": "Hember/Collector armor",
+    "tableRevid": 2485289,
+    "amount": 5,
+    "material": "Thorny Carapace",
+    "armor": true
+  },
+  {
+    "id": "collector:1:340",
+    "title": "Jaden Fletcher",
+    "revid": 2535355,
+    "table": "Jaden Fletcher/Collector armor",
+    "tableRevid": 2485399,
+    "amount": 5,
+    "material": "Ancient Eye",
+    "armor": true
+  },
+  {
+    "id": "collector:1:341",
+    "title": "Slayton Redblade",
+    "revid": 2535374,
+    "table": "Slayton Redblade/Collector armor",
+    "tableRevid": 2702692,
+    "amount": 5,
+    "material": "Tangled Seed",
+    "armor": true
+  },
+  {
+    "id": "collector:1:342",
+    "title": "Lord Engelram",
+    "revid": 2535362,
+    "table": "Lord Engelram/Collector armor",
+    "tableRevid": 2485213,
+    "amount": 5,
+    "material": "Maguuma Mane",
+    "armor": true
+  },
+  {
+    "id": "collector:1:343",
+    "title": "Horton Longsnout",
+    "revid": 2698243,
+    "table": "Horton Longsnout/Collector armor",
+    "tableRevid": 2485057,
+    "amount": 5,
+    "material": "White Mantle Emblem",
+    "armor": true
+  },
+  {
+    "id": "collector:1:344",
+    "title": "Meghan the Bright",
+    "revid": 2577009,
+    "table": "Meghan the Bright/Collector armor",
+    "tableRevid": 2719383,
+    "amount": 5,
+    "material": "Jungle Troll Tusk",
+    "armor": true
+  },
+  {
+    "id": "collector:1:345",
+    "title": "Elene the Vigilant",
+    "revid": 2535345,
+    "table": "Elene the Vigilant/Collector armor",
+    "tableRevid": 2485189,
+    "amount": 5,
+    "material": "Ebon Spider Leg",
+    "armor": true
+  },
+  {
+    "id": "collector:1:346",
+    "title": "Llourdes the Arcane",
+    "revid": 2535361,
+    "table": "Llourdes the Arcane/Collector armor",
+    "tableRevid": 2485451,
+    "amount": 5,
+    "material": "Jungle Skale Fin",
+    "armor": true
+  },
+  {
+    "id": "collector:1:347",
+    "title": "Agrippa Stonehands",
+    "revid": 2700280,
+    "table": "Agrippa Stonehands/Collector armor",
+    "tableRevid": 2485388,
+    "amount": 5,
+    "material": "Behemoth Jaw",
+    "armor": true
+  },
+  {
+    "id": "collector:1:348",
+    "title": "Molenin",
+    "revid": 2598573,
+    "table": "Molenin/Collector",
+    "tableRevid": 2542494,
+    "amount": 5,
+    "material": "Enslavement Stone",
+    "armor": false
+  },
+  {
+    "id": "collector:1:349",
+    "title": "Makar Thoughtslayer",
+    "revid": 2691027,
+    "table": "Makar Thoughtslayer/Collector",
+    "tableRevid": 2542507,
+    "amount": 5,
+    "material": "Dredge Manifesto",
+    "armor": false
+  },
+  {
+    "id": "collector:1:350",
+    "title": "Varis",
+    "revid": 2132264,
+    "table": "Varis/Collector armor",
+    "tableRevid": 2612196,
+    "amount": 3,
+    "material": "Spider Leg",
+    "armor": true
+  },
+  {
+    "id": "collector:2:47",
+    "title": "Magistrate Wakai",
+    "revid": 2535364,
+    "table": "Magistrate Wakai/Collector armor",
+    "tableRevid": 2659896,
+    "amount": 5,
+    "material": "Jade Bracelet",
+    "armor": true
+  },
+  {
+    "id": "collector:2:48",
+    "title": "Lintao",
+    "revid": 2535359,
+    "table": "Lintao/Collector armor",
+    "tableRevid": 2485279,
+    "amount": 5,
+    "material": "Putrid Cyst",
+    "armor": true
+  },
+  {
+    "id": "collector:2:49",
+    "title": "Jiangpo",
+    "revid": 2711576,
+    "table": "Jiangpo/Collector armor",
+    "tableRevid": 2485470,
+    "amount": 5,
+    "material": "Venerable Mantid Pincer",
+    "armor": true
+  },
+  {
+    "id": "collector:2:50",
+    "title": "Kyuzo",
+    "revid": 2711575,
+    "table": "Kyuzo/Collector armor",
+    "tableRevid": 2485469,
+    "amount": 5,
+    "material": "Venerable Mantid Pincer",
+    "armor": true
+  },
+  {
+    "id": "collector:2:51",
+    "title": "Magistrate Raisung",
+    "revid": 2535363,
+    "table": "Magistrate Raisung/Collector armor",
+    "tableRevid": 2485287,
+    "amount": 5,
+    "material": "Plague Idol",
+    "armor": true
+  },
+  {
+    "id": "collector:2:52",
+    "title": "Attendant Nashu",
+    "revid": 2277648,
+    "table": "Attendant Nashu/Collector",
+    "tableRevid": 2643006,
+    "amount": 5,
+    "material": "Putrid Cyst",
+    "armor": false
+  },
+  {
+    "id": "collector:2:53",
+    "title": "Kegai",
+    "revid": 2162770,
+    "table": "Kegai/Collector",
+    "tableRevid": 2485285,
+    "amount": 5,
+    "material": "Plague Idol",
+    "armor": false
+  },
+  {
+    "id": "collector:2:54",
+    "title": "Ohtah",
+    "revid": 2209367,
+    "table": "Ohtah/Collector",
+    "tableRevid": 2485288,
+    "amount": 5,
+    "material": "Plague Idol",
+    "armor": false
+  },
+  {
+    "id": "collector:2:55",
+    "title": "Sakai",
+    "revid": 2177808,
+    "table": "Sakai/Collector",
+    "tableRevid": 2485034,
+    "amount": 5,
+    "material": "Celestial Essence",
+    "armor": false
+  },
+  {
+    "id": "collector:2:56",
+    "title": "Dye Master Franjek",
+    "revid": 2173990,
+    "table": "Dye Master Franjek/Collector",
+    "tableRevid": 2576498,
+    "amount": 5,
+    "material": "Pulsating Growth",
+    "armor": false
+  },
+  {
+    "id": "collector:2:57",
+    "title": "Yu Lae",
+    "revid": 2317394,
+    "table": "Yu Lae/Collector",
+    "tableRevid": 2485073,
+    "amount": 5,
+    "material": "Vermin Hide",
+    "armor": false
+  },
+  {
+    "id": "collector:2:58",
+    "title": "Claw Tallfeather",
+    "revid": 1018610,
+    "table": "Claw Tallfeather/Collector",
+    "tableRevid": 2485339,
+    "amount": 5,
+    "material": "Jade Bracelet",
+    "armor": false
+  },
+  {
+    "id": "collector:2:59",
+    "title": "Jung Zeng",
+    "revid": 2314604,
+    "table": "Jung Zeng/Collector",
+    "tableRevid": 2485340,
+    "amount": 5,
+    "material": "Jade Bracelet",
+    "armor": false
+  },
+  {
+    "id": "collector:2:60",
+    "title": "Kiishen",
+    "revid": 2491630,
+    "table": "Kiishen/Collector",
+    "tableRevid": 2709718,
+    "amount": 5,
+    "material": "Plague Idol",
+    "armor": false
+  },
+  {
+    "id": "collector:2:61",
+    "title": "Leijo",
+    "revid": 2187453,
+    "table": "Leijo/Collector",
+    "tableRevid": 2485395,
+    "amount": 5,
+    "material": "Ancient Kappa Shell",
+    "armor": false
+  },
+  {
+    "id": "collector:2:62",
+    "title": "Yohei",
+    "revid": 2230716,
+    "table": "Yohei/Collector",
+    "tableRevid": 2485278,
+    "amount": 5,
+    "material": "Putrid Cyst",
+    "armor": false
+  },
+  {
+    "id": "collector:2:63",
+    "title": "Luci",
+    "revid": 2709955,
+    "table": "Luci/Collector",
+    "tableRevid": 2485120,
+    "amount": 2,
+    "material": "Guardian Moss",
+    "armor": false
+  },
+  {
+    "id": "collector:2:64",
+    "title": "Adept Bishu",
+    "revid": 2100498,
+    "table": "Adept Bishu/Collector",
+    "tableRevid": 2485300,
+    "amount": 5,
+    "material": "Soul Stone",
+    "armor": false
+  },
+  {
+    "id": "collector:2:65",
+    "title": "Dai Waeng",
+    "revid": 2119609,
+    "table": "Dai Waeng/Collector",
+    "tableRevid": 2697595,
+    "amount": 5,
+    "material": "Pulsating Growth",
+    "armor": false
+  },
+  {
+    "id": "collector:2:66",
+    "title": "Yiwong",
+    "revid": 2230714,
+    "table": "Yiwong/Collector",
+    "tableRevid": 2485299,
+    "amount": 5,
+    "material": "Soul Stone",
+    "armor": false
+  },
+  {
+    "id": "collector:2:67",
+    "title": "Bae Kwon",
+    "revid": 2107816,
+    "table": "Bae Kwon/Collector",
+    "tableRevid": 2485071,
+    "amount": 3,
+    "material": "Vermin Hide",
+    "armor": false
+  },
+  {
+    "id": "collector:2:68",
+    "title": "Adept of the Elements",
+    "revid": 2535201,
+    "table": "Adept of the Elements/Collector",
+    "tableRevid": 2542474,
+    "amount": 1,
+    "material": "Amulet of the Mists",
+    "armor": false
+  },
+  {
+    "id": "collector:2:69",
+    "title": "Adept of Steel",
+    "revid": 2100515,
+    "table": "Adept of Steel/Collector",
+    "tableRevid": 2542473,
+    "amount": 1,
+    "material": "Amulet of the Mists",
+    "armor": false
+  },
+  {
+    "id": "collector:2:70",
+    "title": "Adept of Shadows",
+    "revid": 2100511,
+    "table": "Adept of Shadows/Collector",
+    "tableRevid": 2542470,
+    "amount": 1,
+    "material": "Amulet of the Mists",
+    "armor": false
+  },
+  {
+    "id": "collector:2:71",
+    "title": "Adept of Nature",
+    "revid": 2100507,
+    "table": "Adept of Nature/Collector",
+    "tableRevid": 2542468,
+    "amount": 1,
+    "material": "Amulet of the Mists",
+    "armor": false
+  },
+  {
+    "id": "collector:2:72",
+    "title": "Adept of Illusion",
+    "revid": 2100505,
+    "table": "Adept of Illusion/Collector",
+    "tableRevid": 2542466,
+    "amount": 1,
+    "material": "Amulet of the Mists",
+    "armor": false
+  },
+  {
+    "id": "collector:2:73",
+    "title": "Adept of Spirits",
+    "revid": 2709186,
+    "table": "Adept of Spirits/Collector",
+    "tableRevid": 2563737,
+    "amount": 1,
+    "material": "Amulet of the Mists",
+    "armor": false
+  },
+  {
+    "id": "collector:2:74",
+    "title": "Adept of Bone",
+    "revid": 2134385,
+    "table": "Adept of Bone/Collector",
+    "tableRevid": 2542465,
+    "amount": 1,
+    "material": "Amulet of the Mists",
+    "armor": false
+  },
+  {
+    "id": "collector:2:75",
+    "title": "Adept of Light",
+    "revid": 2100506,
+    "table": "Adept of Light/Collector",
+    "tableRevid": 2563738,
+    "amount": 1,
+    "material": "Amulet of the Mists",
+    "armor": false
+  },
+  {
+    "id": "collector:2:76",
+    "title": "Elder Pomona",
+    "revid": 2599210,
+    "table": "Elder Pomona/Collector",
+    "tableRevid": 2485199,
+    "amount": 5,
+    "material": "Kraken Eye",
+    "armor": false
+  },
+  {
+    "id": "collector:2:77",
+    "title": "Kristo Trilios",
+    "revid": 2701162,
+    "table": "Kristo Trilios/Collector",
+    "tableRevid": 2485357,
+    "amount": 5,
+    "material": "Moon Shell",
+    "armor": false
+  },
+  {
+    "id": "collector:2:78",
+    "title": "Catrine Embolom",
+    "revid": 2701253,
+    "table": "Catrine Embolom/Collector",
+    "tableRevid": 2603838,
+    "amount": 5,
+    "material": "Rot Wallow Tusk",
+    "armor": false
+  },
+  {
+    "id": "collector:2:79",
+    "title": "Dauv Merishahl",
+    "revid": 2701135,
+    "table": "Dauv Merishahl/Collector",
+    "tableRevid": 2485143,
+    "amount": 2,
+    "material": "Keen Oni Talon",
+    "armor": false
+  },
+  {
+    "id": "collector:2:80",
+    "title": "Maddison",
+    "revid": 2600305,
+    "table": "Maddison/Collector",
+    "tableRevid": 2485317,
+    "amount": 5,
+    "material": "Naga Skin",
+    "armor": false
+  },
+  {
+    "id": "collector:2:81",
+    "title": "Amina",
+    "revid": 2599194,
+    "table": "Amina/Collector",
+    "tableRevid": 2485318,
+    "amount": 5,
+    "material": "Naga Skin",
+    "armor": false
+  },
+  {
+    "id": "collector:2:82",
+    "title": "Axton",
+    "revid": 2457408,
+    "table": "Axton/Collector",
+    "tableRevid": 2485183,
+    "amount": 5,
+    "material": "Archaic Kappa Shell",
+    "armor": false
+  },
+  {
+    "id": "collector:2:83",
+    "title": "Losi Hapatu",
+    "revid": 2701023,
+    "table": "Losi Hapatu/Collector",
+    "tableRevid": 2603839,
+    "amount": 5,
+    "material": "Rot Wallow Tusk",
+    "armor": false
+  },
+  {
+    "id": "collector:2:84",
+    "title": "Leon",
+    "revid": 1782624,
+    "table": "Leon/Collector",
+    "tableRevid": 2485482,
+    "amount": 5,
+    "material": "Stolen Provisions",
+    "armor": false
+  },
+  {
+    "id": "collector:2:85",
+    "title": "Farrer",
+    "revid": 2128771,
+    "table": "Farrer/Collector",
+    "tableRevid": 2485025,
+    "amount": 5,
+    "material": "Azure Crest",
+    "armor": false
+  },
+  {
+    "id": "collector:2:86",
+    "title": "Jefri Whylir",
+    "revid": 2701276,
+    "table": "Jefri Whylir/Collector",
+    "tableRevid": 2485384,
+    "amount": 5,
+    "material": "Bone Charm (trophy)",
+    "armor": false
+  },
+  {
+    "id": "collector:2:87",
+    "title": "Pietro",
+    "revid": 2545583,
+    "table": "Pietro/Collector",
+    "tableRevid": 2485390,
+    "amount": 5,
+    "material": "Black Pearl",
+    "armor": false
+  },
+  {
+    "id": "collector:2:88",
+    "title": "Jahn Pitz",
+    "revid": 2701256,
+    "table": "Jahn Pitz/Collector",
+    "tableRevid": 2485391,
+    "amount": 5,
+    "material": "Black Pearl",
+    "armor": false
+  },
+  {
+    "id": "collector:2:89",
+    "title": "Keotah",
+    "revid": 2600774,
+    "table": "Keotah/Collector",
+    "tableRevid": 2485024,
+    "amount": 4,
+    "material": "Azure Crest",
+    "armor": false
+  },
+  {
+    "id": "collector:2:90",
+    "title": "Tarena",
+    "revid": 1783737,
+    "table": "Tarena/Collector",
+    "tableRevid": 2485454,
+    "amount": 5,
+    "material": "Kirin Horn",
+    "armor": false
+  },
+  {
+    "id": "collector:2:91",
+    "title": "Elder Ezio",
+    "revid": 2109740,
+    "table": "Elder Ezio/Collector",
+    "tableRevid": 2485200,
+    "amount": 5,
+    "material": "Kraken Eye",
+    "armor": false
+  },
+  {
+    "id": "collector:2:92",
+    "title": "Artor Bobani Kiroz",
+    "revid": 2710646,
+    "table": "Artor Bobani Kiroz/Collector",
+    "tableRevid": 2699730,
+    "amount": 5,
+    "material": "Warden Horn",
+    "armor": false
+  },
+  {
+    "id": "collector:2:93",
+    "title": "Peltsman Jiri",
+    "revid": 2212360,
+    "table": "Peltsman Jiri/Collector",
+    "tableRevid": 2485410,
+    "amount": 5,
+    "material": "Blood Drinker Pelt",
+    "armor": false
+  },
+  {
+    "id": "collector:2:94",
+    "title": "Andru Pitrak",
+    "revid": 2569259,
+    "table": "Andru Pitrak/Collector",
+    "tableRevid": 2485150,
+    "amount": 2,
+    "material": "Keen Oni Claw",
+    "armor": false
+  },
+  {
+    "id": "collector:2:95",
+    "title": "Jaun Stumi",
+    "revid": 2704900,
+    "table": "Jaun Stumi/Collector",
+    "tableRevid": 2485070,
+    "amount": 4,
+    "material": "Vampiric Fang",
+    "armor": false
+  },
+  {
+    "id": "collector:2:96",
+    "title": "Master Architect Wright",
+    "revid": 2406776,
+    "table": "Master Architect Wright/Collector",
+    "tableRevid": 2687159,
+    "amount": 5,
+    "material": "Stone Carving",
+    "armor": false
+  },
+  {
+    "id": "collector:2:97",
+    "title": "Buk Dirayne",
+    "revid": 2110308,
+    "table": "Buk Dirayne/Collector",
+    "tableRevid": 2485103,
+    "amount": 3,
+    "material": "Skull Juju",
+    "armor": false
+  },
+  {
+    "id": "collector:2:98",
+    "title": "Guard Captain Mirkoz",
+    "revid": 2133572,
+    "table": "Guard Captain Mirkoz/Collector",
+    "tableRevid": 2485376,
+    "amount": 5,
+    "material": "Dredge Incisor",
+    "armor": false
+  },
+  {
+    "id": "collector:2:99",
+    "title": "Kristoffir Roi",
+    "revid": 2603245,
+    "table": "Kristoffir Roi/Collector",
+    "tableRevid": 2583860,
+    "amount": 5,
+    "material": "Dredge Incisor",
+    "armor": false
+  },
+  {
+    "id": "collector:2:100",
+    "title": "Wilhelm Joseph",
+    "revid": 2229869,
+    "table": "Wilhelm Joseph/Collector",
+    "tableRevid": 2717662,
+    "amount": 5,
+    "material": "Mantis Pincer",
+    "armor": false
+  },
+  {
+    "id": "collector:2:101",
+    "title": "Denos Makaluum",
+    "revid": 2701136,
+    "table": "Denos Makaluum/Collector",
+    "tableRevid": 2485477,
+    "amount": 5,
+    "material": "Stone Horn",
+    "armor": false
+  },
+  {
+    "id": "collector:2:102",
+    "title": "Healer Silja",
+    "revid": 2406879,
+    "table": "Healer Silja/Collector",
+    "tableRevid": 2485184,
+    "amount": 5,
+    "material": "Dragon Root",
+    "armor": false
+  },
+  {
+    "id": "collector:2:103",
+    "title": "Gerlinda Korbauch",
+    "revid": 2602111,
+    "table": "Gerlinda Korbauch/Collector",
+    "tableRevid": 2717663,
+    "amount": 5,
+    "material": "Mantis Pincer",
+    "armor": false
+  },
+  {
+    "id": "collector:2:104",
+    "title": "Chef Armand",
+    "revid": 2406791,
+    "table": "Chef Armand/Collector",
+    "tableRevid": 2485202,
+    "amount": 5,
+    "material": "Truffle",
+    "armor": false
+  },
+  {
+    "id": "collector:2:105",
+    "title": "Dmitri Scharkoff",
+    "revid": 2664669,
+    "table": "Dmitri Scharkoff/Collector",
+    "tableRevid": 2485473,
+    "amount": 5,
+    "material": "Warden Horn",
+    "armor": false
+  },
+  {
+    "id": "collector:2:106",
+    "title": "Jonn Tertehl",
+    "revid": 2700970,
+    "table": "Jonn Tertehl/Collector",
+    "tableRevid": 2485476,
+    "amount": 5,
+    "material": "Stone Horn",
+    "armor": false
+  },
+  {
+    "id": "collector:2:178",
+    "title": "Imperial Quartermaster",
+    "revid": 2117369,
+    "table": "Imperial Quartermaster/Collector",
+    "tableRevid": 2440886,
+    "amount": 1,
+    "material": "Imperial Commendation",
+    "armor": false
+  },
+  {
+    "id": "collector:2:179",
+    "title": "Imperial Quartermaster",
+    "revid": 2117369,
+    "table": "Imperial Quartermaster/Collector",
+    "tableRevid": 2440886,
+    "amount": 3,
+    "material": "Imperial Commendation",
+    "armor": false
+  },
+  {
+    "id": "collector:2:180",
+    "title": "Imperial Quartermaster",
+    "revid": 2117369,
+    "table": "Imperial Quartermaster/Collector",
+    "tableRevid": 2440886,
+    "amount": 5,
+    "material": "Imperial Commendation",
+    "armor": false
+  },
+  {
+    "id": "collector:2:181",
+    "title": "Zaviar Merkanah",
+    "revid": 2701134,
+    "table": "Zaviar Merkanah/Collector",
+    "tableRevid": 2485145,
+    "amount": 5,
+    "material": "Kurzick Bauble",
+    "armor": false
+  },
+  {
+    "id": "collector:2:182",
+    "title": "Luxon Quartermaster",
+    "revid": 1829573,
+    "table": "Luxon Quartermaster/Collector",
+    "tableRevid": 2429076,
+    "amount": 1,
+    "material": "Luxon Totem",
+    "armor": false
+  },
+  {
+    "id": "collector:2:183",
+    "title": "Luxon Quartermaster",
+    "revid": 1829573,
+    "table": "Luxon Quartermaster/Collector",
+    "tableRevid": 2429076,
+    "amount": 3,
+    "material": "Luxon Totem",
+    "armor": false
+  },
+  {
+    "id": "collector:2:184",
+    "title": "Luxon Quartermaster",
+    "revid": 1829573,
+    "table": "Luxon Quartermaster/Collector",
+    "tableRevid": 2429076,
+    "amount": 5,
+    "material": "Luxon Totem",
+    "armor": false
+  },
+  {
+    "id": "collector:2:185",
+    "title": "Redemptor Kurcheck",
+    "revid": 2406740,
+    "table": "Redemptor Kurcheck/Collector",
+    "tableRevid": 2485456,
+    "amount": 5,
+    "material": "Luxon Pendant",
+    "armor": false
+  },
+  {
+    "id": "collector:2:186",
+    "title": "Kurzick Quartermaster",
+    "revid": 2174597,
+    "table": "Kurzick Quartermaster/Collector",
+    "tableRevid": 2440889,
+    "amount": 1,
+    "material": "Equipment Requisition",
+    "armor": false
+  },
+  {
+    "id": "collector:2:187",
+    "title": "Kurzick Quartermaster",
+    "revid": 2174597,
+    "table": "Kurzick Quartermaster/Collector",
+    "tableRevid": 2440889,
+    "amount": 3,
+    "material": "Equipment Requisition",
+    "armor": false
+  },
+  {
+    "id": "collector:2:188",
+    "title": "Kurzick Quartermaster",
+    "revid": 2174597,
+    "table": "Kurzick Quartermaster/Collector",
+    "tableRevid": 2440889,
+    "amount": 5,
+    "material": "Equipment Requisition",
+    "armor": false
+  },
+  {
+    "id": "collector:2:189",
+    "title": "Hao Zhang",
+    "revid": 2140020,
+    "table": "Hao Zhang/Collector",
+    "tableRevid": 2485124,
+    "amount": 1,
+    "material": "Oni Talon",
+    "armor": false
+  },
+  {
+    "id": "collector:2:190",
+    "title": "Monastery Quartermaster",
+    "revid": 2207579,
+    "table": "Monastery Quartermaster/Collector",
+    "tableRevid": 2670630,
+    "amount": 1,
+    "material": "Monastery Credit",
+    "armor": false
+  },
+  {
+    "id": "collector:2:191",
+    "title": "Monastery Quartermaster",
+    "revid": 2207579,
+    "table": "Monastery Quartermaster/Collector",
+    "tableRevid": 2670630,
+    "amount": 3,
+    "material": "Monastery Credit",
+    "armor": false
+  },
+  {
+    "id": "collector:2:192",
+    "title": "Monastery Quartermaster",
+    "revid": 2207579,
+    "table": "Monastery Quartermaster/Collector",
+    "tableRevid": 2670630,
+    "amount": 5,
+    "material": "Monastery Credit",
+    "armor": false
+  },
+  {
+    "id": "collector:2:193",
+    "title": "Monastery Quartermaster",
+    "revid": 2207579,
+    "table": "Monastery Quartermaster/Collector",
+    "tableRevid": 2670630,
+    "amount": 5,
+    "material": "Monastery Credit",
+    "armor": false
+  },
+  {
+    "id": "collector:2:194",
+    "title": "Monastery Quartermaster",
+    "revid": 2207579,
+    "table": "Monastery Quartermaster/Collector",
+    "tableRevid": 2670630,
+    "amount": 5,
+    "material": "Monastery Credit",
+    "armor": false
+  },
+  {
+    "id": "collector:2:195",
+    "title": "Marik Kuri",
+    "revid": 2701138,
+    "table": "Marik Kuri/Collector",
+    "tableRevid": 2485135,
+    "amount": 3,
+    "material": "Mantid Pincer",
+    "armor": false
+  },
+  {
+    "id": "collector:2:196",
+    "title": "Debiro Kuri",
+    "revid": 2710589,
+    "table": "Debiro Kuri/Collector",
+    "tableRevid": 2616476,
+    "amount": 5,
+    "material": "Naga Hide",
+    "armor": false
+  },
+  {
+    "id": "collector:2:197",
+    "title": "Hai Lae",
+    "revid": 2564061,
+    "table": "Hai Lae/Collector",
+    "tableRevid": 2485151,
+    "amount": 3,
+    "material": "Kappa Hatchling Shell",
+    "armor": false
+  },
+  {
+    "id": "collector:2:198",
+    "title": "Seung Kim",
+    "revid": 2466799,
+    "table": "Seung Kim/Collector",
+    "tableRevid": 2616477,
+    "amount": 5,
+    "material": "Feathered Scalp",
+    "armor": false
+  },
+  {
+    "id": "collector:2:199",
+    "title": "Guardsman Kenji",
+    "revid": 2466778,
+    "table": "Guardsman Kenji/Collector",
+    "tableRevid": 2484948,
+    "amount": 3,
+    "material": "Silver Crimson Skull Coin",
+    "armor": false
+  },
+  {
+    "id": "collector:2:200",
+    "title": "Losai Hapatu",
+    "revid": 2701022,
+    "table": "Losai Hapatu/Collector",
+    "tableRevid": 2485455,
+    "amount": 4,
+    "material": "Kappa Shell",
+    "armor": false
+  },
+  {
+    "id": "collector:2:201",
+    "title": "Teizhan",
+    "revid": 2142381,
+    "table": "Teizhan/Collector",
+    "tableRevid": 2485366,
+    "amount": 5,
+    "material": "Feathered Scalp",
+    "armor": false
+  },
+  {
+    "id": "collector:2:202",
+    "title": "Shenzun",
+    "revid": 2711580,
+    "table": "Shenzun/Collector armor",
+    "tableRevid": 2485403,
+    "amount": 3,
+    "material": "Augmented Flesh",
+    "armor": true
+  },
+  {
+    "id": "collector:2:203",
+    "title": "Guardsman Keiko",
+    "revid": 2711579,
+    "table": "Guardsman Keiko/Collector armor",
+    "tableRevid": 2484946,
+    "amount": 3,
+    "material": "Copper Crimson Skull Coin",
+    "armor": true
+  },
+  {
+    "id": "collector:2:204",
+    "title": "Chen Po Chin",
+    "revid": 2711578,
+    "table": "Chen Po Chin/Collector armor",
+    "tableRevid": 2485134,
+    "amount": 3,
+    "material": "Mantid Pincer",
+    "armor": true
+  },
+  {
+    "id": "collector:2:205",
+    "title": "Craw Razorbeak",
+    "revid": 2711581,
+    "table": "Craw Razorbeak/Collector armor",
+    "tableRevid": 2485197,
+    "amount": 3,
+    "material": "Naga Hide",
+    "armor": true
+  },
+  {
+    "id": "collector:2:206",
+    "title": "Mi Fai",
+    "revid": 2711577,
+    "table": "Mi Fai/Collector armor",
+    "tableRevid": 2485361,
+    "amount": 3,
+    "material": "Forgotten Trinket Box",
+    "armor": true
+  },
+  {
+    "id": "collector:2:207",
+    "title": "Guardsman Ayoki",
+    "revid": 2711583,
+    "table": "Guardsman Ayoki/Collector armor",
+    "tableRevid": 2484945,
+    "amount": 3,
+    "material": "Copper Crimson Skull Coin",
+    "armor": true
+  },
+  {
+    "id": "collector:2:208",
+    "title": "Attendant Chien",
+    "revid": 2549726,
+    "table": "Attendant Chien/Collector armor",
+    "tableRevid": 2485123,
+    "amount": 1,
+    "material": "Oni Claw",
+    "armor": true
+  },
+  {
+    "id": "collector:2:209",
+    "title": "Gruut Snowfoot",
+    "revid": 2535350,
+    "table": "Gruut Snowfoot/Collector armor",
+    "tableRevid": 2485423,
+    "amount": 3,
+    "material": "Feathered Crest",
+    "armor": true
+  },
+  {
+    "id": "collector:2:210",
+    "title": "Rei Ming",
+    "revid": 2535371,
+    "table": "Rei Ming/Collector armor",
+    "tableRevid": 2484949,
+    "amount": 3,
+    "material": "Silver Crimson Skull Coin",
+    "armor": true
+  },
+  {
+    "id": "collector:2:211",
+    "title": "Morokam",
+    "revid": 2711582,
+    "table": "Morokam/Collector armor",
+    "tableRevid": 2485267,
+    "amount": 3,
+    "material": "Stolen Supplies",
+    "armor": true
+  },
+  {
+    "id": "collector:2:212",
+    "title": "Gorobei",
+    "revid": 2549730,
+    "table": "Gorobei/Collector armor",
+    "tableRevid": 2485125,
+    "amount": 3,
+    "material": "Naga Pelt",
+    "armor": true
+  },
+  {
+    "id": "collector:2:213",
+    "title": "Junsu",
+    "revid": 2549729,
+    "table": "Junsu/Collector armor",
+    "tableRevid": 2485031,
+    "amount": 2,
+    "material": "Bonesnap Shell",
+    "armor": true
+  },
+  {
+    "id": "collector:2:214",
+    "title": "Mirko",
+    "revid": 2535367,
+    "table": "Mirko/Collector armor",
+    "tableRevid": 2485054,
+    "amount": 3,
+    "material": "Enchanted Vine",
+    "armor": true
+  },
+  {
+    "id": "collector:2:215",
+    "title": "Guardsman Kikuchiyo",
+    "revid": 2549728,
+    "table": "Guardsman Kikuchiyo/Collector armor",
+    "tableRevid": 2484947,
+    "amount": 1,
+    "material": "Gold Crimson Skull Coin",
+    "armor": true
+  },
+  {
+    "id": "collector:2:216",
+    "title": "Xi Gai",
+    "revid": 2549727,
+    "table": "Xi Gai/Collector armor",
+    "tableRevid": 2485053,
+    "amount": 3,
+    "material": "Elder Kappa Shell",
+    "armor": true
+  },
+  {
+    "id": "collector:3:107",
+    "title": "Helenah",
+    "revid": 2532808,
+    "table": "Helenah/Collector",
+    "tableRevid": 2485149,
+    "amount": 5,
+    "material": "Kournan Pendant",
+    "armor": false
+  },
+  {
+    "id": "collector:3:108",
+    "title": "Apida",
+    "revid": 2101327,
+    "table": "Apida/Collector",
+    "tableRevid": 2707511,
+    "amount": 1,
+    "material": "Chunk of Drake Flesh",
+    "armor": false
+  },
+  {
+    "id": "collector:3:109",
+    "title": "Yajide",
+    "revid": 2109525,
+    "table": "Yajide/Collector",
+    "tableRevid": 2542498,
+    "amount": 3,
+    "material": "Mandragor Root",
+    "armor": false
+  },
+  {
+    "id": "collector:3:110",
+    "title": "Tohsedi",
+    "revid": 2226056,
+    "table": "Tohsedi/Collector",
+    "tableRevid": 2485332,
+    "amount": 5,
+    "material": "Insect Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:3:111",
+    "title": "Munashe",
+    "revid": 2208229,
+    "table": "Munashe/Collector",
+    "tableRevid": 2488102,
+    "amount": 5,
+    "material": "Kuskale Claw",
+    "armor": false
+  },
+  {
+    "id": "collector:3:112",
+    "title": "Mubata",
+    "revid": 2208225,
+    "table": "Mubata/Collector",
+    "tableRevid": 2485148,
+    "amount": 5,
+    "material": "Kournan Pendant",
+    "armor": false
+  },
+  {
+    "id": "collector:3:113",
+    "title": "Sinbi",
+    "revid": 2221566,
+    "table": "Sinbi/Collector",
+    "tableRevid": 2583597,
+    "amount": 10,
+    "material": "Kournan Pendant",
+    "armor": false
+  },
+  {
+    "id": "collector:3:114",
+    "title": "Talmehinu",
+    "revid": 2224274,
+    "table": "Talmehinu/Collector",
+    "tableRevid": 2485302,
+    "amount": 5,
+    "material": "Sunward Marches",
+    "armor": false
+  },
+  {
+    "id": "collector:3:115",
+    "title": "Gamyuka",
+    "revid": 2558251,
+    "table": "Gamyuka/Collector",
+    "tableRevid": 2558249,
+    "amount": 5,
+    "material": "Immolated Djinn Essence",
+    "armor": false
+  },
+  {
+    "id": "collector:3:116",
+    "title": "Kehtu",
+    "revid": 2162781,
+    "table": "Kehtu/Collector",
+    "tableRevid": 2485309,
+    "amount": 5,
+    "material": "Sentient Lodestone",
+    "armor": false
+  },
+  {
+    "id": "collector:3:117",
+    "title": "Hlengiwe",
+    "revid": 2440145,
+    "table": "Hlengiwe/Collector",
+    "tableRevid": 2697158,
+    "amount": 5,
+    "material": "Heket Tongue",
+    "armor": false
+  },
+  {
+    "id": "collector:3:118",
+    "title": "Poti",
+    "revid": 2212404,
+    "table": "Poti/Collector",
+    "tableRevid": 2485331,
+    "amount": 5,
+    "material": "Insect Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:3:119",
+    "title": "Ajambo",
+    "revid": 2100936,
+    "table": "Ajambo/Collector",
+    "tableRevid": 2485310,
+    "amount": 5,
+    "material": "Sentient Lodestone",
+    "armor": false
+  },
+  {
+    "id": "collector:3:120",
+    "title": "Dalzbeh",
+    "revid": 2713156,
+    "table": "Dalzbeh/Collector",
+    "tableRevid": 2485325,
+    "amount": 5,
+    "material": "Heket Tongue",
+    "armor": false
+  },
+  {
+    "id": "collector:3:121",
+    "title": "Haibir",
+    "revid": 2592688,
+    "table": "Haibir/Collector",
+    "tableRevid": 2484954,
+    "amount": 5,
+    "material": "Gold Doubloon",
+    "armor": false
+  },
+  {
+    "id": "collector:3:122",
+    "title": "Nihanu",
+    "revid": 2283192,
+    "table": "Nihanu/Collector",
+    "tableRevid": 2484955,
+    "amount": 5,
+    "material": "Gold Doubloon",
+    "armor": false
+  },
+  {
+    "id": "collector:3:123",
+    "title": "Pehtigam",
+    "revid": 2595924,
+    "table": "Pehtigam/Collector",
+    "tableRevid": 2484961,
+    "amount": 5,
+    "material": "Gold Doubloon",
+    "armor": false
+  },
+  {
+    "id": "collector:3:124",
+    "title": "Pobehr",
+    "revid": 2212391,
+    "table": "Pobehr/Collector",
+    "tableRevid": 2485328,
+    "amount": 5,
+    "material": "Heket Tongue",
+    "armor": false
+  },
+  {
+    "id": "collector:3:125",
+    "title": "Shashi",
+    "revid": 2220595,
+    "table": "Shashi/Collector",
+    "tableRevid": 2577265,
+    "amount": 5,
+    "material": "Cobalt Talon",
+    "armor": false
+  },
+  {
+    "id": "collector:3:126",
+    "title": "Hamri",
+    "revid": 2703465,
+    "table": "Hamri/Collector",
+    "tableRevid": 2485382,
+    "amount": 5,
+    "material": "Cobalt Talon",
+    "armor": false
+  },
+  {
+    "id": "collector:3:127",
+    "title": "Ahoj",
+    "revid": 2100880,
+    "table": "Ahoj/Collector",
+    "tableRevid": 2542503,
+    "amount": 5,
+    "material": "Sentient Spore",
+    "armor": false
+  },
+  {
+    "id": "collector:3:128",
+    "title": "Kaya (collector)",
+    "revid": 2162740,
+    "table": "Kaya (collector)/Collector",
+    "tableRevid": 2485327,
+    "amount": 5,
+    "material": "Heket Tongue",
+    "armor": false
+  },
+  {
+    "id": "collector:3:129",
+    "title": "Peyema",
+    "revid": 2212379,
+    "table": "Peyema/Collector",
+    "tableRevid": 2485272,
+    "amount": 5,
+    "material": "Forum Highlands",
+    "armor": false
+  },
+  {
+    "id": "collector:3:130",
+    "title": "Vabbi Trade Official",
+    "revid": 2604105,
+    "table": "Vabbi Trade Official/Collector",
+    "tableRevid": 2429059,
+    "amount": 1,
+    "material": "Trade Contract",
+    "armor": false
+  },
+  {
+    "id": "collector:3:131",
+    "title": "Vabbi Trade Official",
+    "revid": 2604105,
+    "table": "Vabbi Trade Official/Collector",
+    "tableRevid": 2429059,
+    "amount": 3,
+    "material": "Trade Contract",
+    "armor": false
+  },
+  {
+    "id": "collector:3:132",
+    "title": "Vabbi Trade Official",
+    "revid": 2604105,
+    "table": "Vabbi Trade Official/Collector",
+    "tableRevid": 2429059,
+    "amount": 5,
+    "material": "Trade Contract",
+    "armor": false
+  },
+  {
+    "id": "collector:3:133",
+    "title": "Vabbi Trade Official",
+    "revid": 2604105,
+    "table": "Vabbi Trade Official/Collector",
+    "tableRevid": 2429059,
+    "amount": 7,
+    "material": "Trade Contract",
+    "armor": false
+  },
+  {
+    "id": "collector:3:134",
+    "title": "Kurmauzeh",
+    "revid": 2171128,
+    "table": "Kurmauzeh/Collector",
+    "tableRevid": 2485322,
+    "amount": 5,
+    "material": "Geode",
+    "armor": false
+  },
+  {
+    "id": "collector:3:135",
+    "title": "Nuwisha",
+    "revid": 2232279,
+    "table": "Nuwisha/Collector",
+    "tableRevid": 2547456,
+    "amount": 5,
+    "material": "Resplendent Makuun",
+    "armor": false
+  },
+  {
+    "id": "collector:3:136",
+    "title": "Dahwan",
+    "revid": 2569533,
+    "table": "Dahwan/Collector",
+    "tableRevid": 2485276,
+    "amount": 5,
+    "material": "The Mirror of Lyss",
+    "armor": false
+  },
+  {
+    "id": "collector:3:137",
+    "title": "Gahnlar",
+    "revid": 2210865,
+    "table": "Gahnlar/Collector",
+    "tableRevid": 2485324,
+    "amount": 5,
+    "material": "Heket Tongue",
+    "armor": false
+  },
+  {
+    "id": "collector:3:138",
+    "title": "Wekekuda",
+    "revid": 2228788,
+    "table": "Wekekuda/Collector",
+    "tableRevid": 2485378,
+    "amount": 5,
+    "material": "Diamond Djinn Essence",
+    "armor": false
+  },
+  {
+    "id": "collector:3:139",
+    "title": "Behruseh",
+    "revid": 2108870,
+    "table": "Behruseh/Collector",
+    "tableRevid": 2485032,
+    "amount": 2,
+    "material": "Wilderness of Bahdza",
+    "armor": false
+  },
+  {
+    "id": "collector:3:140",
+    "title": "Hermehinu",
+    "revid": 2142570,
+    "table": "Hermehinu/Collector",
+    "tableRevid": 2485435,
+    "amount": 5,
+    "material": "Wilderness of Bahdza",
+    "armor": false
+  },
+  {
+    "id": "collector:3:141",
+    "title": "Endah",
+    "revid": 2127048,
+    "table": "Endah/Collector",
+    "tableRevid": 2547455,
+    "amount": 5,
+    "material": "Wilderness of Bahdza",
+    "armor": false
+  },
+  {
+    "id": "collector:3:142",
+    "title": "Olujime",
+    "revid": 2209383,
+    "table": "Olujime/Collector",
+    "tableRevid": 2602975,
+    "amount": 5,
+    "material": "Holdings of Chokhin",
+    "armor": false
+  },
+  {
+    "id": "collector:3:143",
+    "title": "Awadur",
+    "revid": 2102597,
+    "table": "Awadur/Collector",
+    "tableRevid": 2485386,
+    "amount": 5,
+    "material": "Behemoth Hide",
+    "armor": false
+  },
+  {
+    "id": "collector:3:144",
+    "title": "Bahlbahs",
+    "revid": 2107819,
+    "table": "Bahlbahs/Collector",
+    "tableRevid": 2485385,
+    "amount": 5,
+    "material": "Behemoth Hide",
+    "armor": false
+  },
+  {
+    "id": "collector:3:145",
+    "title": "Kwesi",
+    "revid": 2174619,
+    "table": "Kwesi/Collector",
+    "tableRevid": 2485303,
+    "amount": 5,
+    "material": "Sandblasted Lodestone",
+    "armor": false
+  },
+  {
+    "id": "collector:3:146",
+    "title": "Rahvu",
+    "revid": 2214393,
+    "table": "Rahvu/Collector",
+    "tableRevid": 2485360,
+    "amount": 5,
+    "material": "Mummy Wrapping",
+    "armor": false
+  },
+  {
+    "id": "collector:3:147",
+    "title": "Nikun",
+    "revid": 2597914,
+    "table": "Nikun/Collector",
+    "tableRevid": 2485356,
+    "amount": 5,
+    "material": "Margonite Mask",
+    "armor": false
+  },
+  {
+    "id": "collector:3:148",
+    "title": "Chinwe",
+    "revid": 2597887,
+    "table": "Chinwe/Collector",
+    "tableRevid": 2485415,
+    "amount": 5,
+    "material": "Dusty Insect Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:3:149",
+    "title": "Fumeai",
+    "revid": 2578301,
+    "table": "Fumeai/Collector",
+    "tableRevid": 2578303,
+    "amount": 5,
+    "material": "The Alkali Pan",
+    "armor": false
+  },
+  {
+    "id": "collector:3:150",
+    "title": "Dayoesh",
+    "revid": 2597890,
+    "table": "Dayoesh/Collector",
+    "tableRevid": 2710020,
+    "amount": 5,
+    "material": "Inscribed Shard",
+    "armor": false
+  },
+  {
+    "id": "collector:3:151",
+    "title": "Juba",
+    "revid": 2597899,
+    "table": "Juba/Collector",
+    "tableRevid": 2485443,
+    "amount": 5,
+    "material": "Mandragor Husk",
+    "armor": false
+  },
+  {
+    "id": "collector:3:152",
+    "title": "Lahati",
+    "revid": 2122242,
+    "table": "Lahati/Collector",
+    "tableRevid": 2485294,
+    "amount": 5,
+    "material": "Sapphire Djinn Essence",
+    "armor": false
+  },
+  {
+    "id": "collector:3:153",
+    "title": "Charmamani",
+    "revid": 2112699,
+    "table": "Charmamani/Collector",
+    "tableRevid": 2722958,
+    "amount": 5,
+    "material": "Giant Tusk",
+    "armor": false
+  },
+  {
+    "id": "collector:3:154",
+    "title": "Roland le Moisson",
+    "revid": 2620130,
+    "table": "Roland le Moisson/Collector",
+    "tableRevid": 2616213,
+    "amount": 5,
+    "material": "Margonite Mask",
+    "armor": false
+  },
+  {
+    "id": "collector:3:155",
+    "title": "Seung",
+    "revid": 2220203,
+    "table": "Seung/Collector",
+    "tableRevid": 2485380,
+    "amount": 5,
+    "material": "Demonic Relic",
+    "armor": false
+  },
+  {
+    "id": "collector:3:156",
+    "title": "Keeper of Bone",
+    "revid": 1563831,
+    "table": "Keeper of Bone/Collector",
+    "tableRevid": 2486006,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:157",
+    "title": "Keeper of Illusion",
+    "revid": 1287439,
+    "table": "Keeper of Illusion/Collector",
+    "tableRevid": 2486015,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:158",
+    "title": "Keeper of Light",
+    "revid": 2623847,
+    "table": "Keeper of Light/Collector",
+    "tableRevid": 2486014,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:159",
+    "title": "Keeper of Nature",
+    "revid": 2222900,
+    "table": "Keeper of Nature/Collector",
+    "tableRevid": 2486013,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:160",
+    "title": "Keeper of Shadows",
+    "revid": 1167129,
+    "table": "Keeper of Shadows/Collector",
+    "tableRevid": 2486012,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:161",
+    "title": "Keeper of Spirits",
+    "revid": 1287434,
+    "table": "Keeper of Spirits/Collector",
+    "tableRevid": 2486011,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:162",
+    "title": "Keeper of Steel",
+    "revid": 1287372,
+    "table": "Keeper of Steel/Collector",
+    "tableRevid": 2689011,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:163",
+    "title": "Keeper of the Elements",
+    "revid": 1287385,
+    "table": "Keeper of the Elements/Collector",
+    "tableRevid": 2486009,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:164",
+    "title": "Keeper of the Scythe",
+    "revid": 1287443,
+    "table": "Keeper of the Scythe/Collector",
+    "tableRevid": 2486008,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:165",
+    "title": "Keeper of the Spear",
+    "revid": 1287454,
+    "table": "Keeper of the Spear/Collector",
+    "tableRevid": 2486007,
+    "amount": 1,
+    "material": "Book of Secrets",
+    "armor": false
+  },
+  {
+    "id": "collector:3:166",
+    "title": "Deacon of Whispers",
+    "revid": 1829918,
+    "table": "Deacon of Whispers/Collector",
+    "tableRevid": 2458065,
+    "amount": 1,
+    "material": "Armbrace of Truth",
+    "armor": false
+  },
+  {
+    "id": "collector:3:167",
+    "title": "Secret Keeper",
+    "revid": 1017946,
+    "table": "Secret Keeper/Collector",
+    "tableRevid": 2429061,
+    "amount": 1,
+    "material": "Inscribed Secret",
+    "armor": false
+  },
+  {
+    "id": "collector:3:168",
+    "title": "Secret Keeper",
+    "revid": 1017946,
+    "table": "Secret Keeper/Collector",
+    "tableRevid": 2429061,
+    "amount": 3,
+    "material": "Inscribed Secret",
+    "armor": false
+  },
+  {
+    "id": "collector:3:169",
+    "title": "Secret Keeper",
+    "revid": 1017946,
+    "table": "Secret Keeper/Collector",
+    "tableRevid": 2429061,
+    "amount": 5,
+    "material": "Inscribed Secret",
+    "armor": false
+  },
+  {
+    "id": "collector:3:170",
+    "title": "Sunspear Quartermaster",
+    "revid": 2603771,
+    "table": "Sunspear Quartermaster/Collector",
+    "tableRevid": 2429063,
+    "amount": 1,
+    "material": "Battle Commendation",
+    "armor": false
+  },
+  {
+    "id": "collector:3:171",
+    "title": "Sunspear Quartermaster",
+    "revid": 2603771,
+    "table": "Sunspear Quartermaster/Collector",
+    "tableRevid": 2429063,
+    "amount": 3,
+    "material": "Battle Commendation",
+    "armor": false
+  },
+  {
+    "id": "collector:3:172",
+    "title": "Wandering Scribe",
+    "revid": 2406874,
+    "table": "Wandering Scribe/Collector",
+    "tableRevid": 2429060,
+    "amount": 1,
+    "material": "Ancient Artifact",
+    "armor": false
+  },
+  {
+    "id": "collector:3:173",
+    "title": "Wandering Scribe",
+    "revid": 2406874,
+    "table": "Wandering Scribe/Collector",
+    "tableRevid": 2429060,
+    "amount": 3,
+    "material": "Ancient Artifact",
+    "armor": false
+  },
+  {
+    "id": "collector:3:174",
+    "title": "Wandering Scribe",
+    "revid": 2406874,
+    "table": "Wandering Scribe/Collector",
+    "tableRevid": 2429060,
+    "amount": 5,
+    "material": "Ancient Artifact",
+    "armor": false
+  },
+  {
+    "id": "collector:3:175",
+    "title": "Smuggler (mesmer)",
+    "revid": 2573199,
+    "table": "Smuggler (mesmer)/Collector",
+    "tableRevid": 2429067,
+    "amount": 1,
+    "material": "Kournan Coin",
+    "armor": false
+  },
+  {
+    "id": "collector:3:176",
+    "title": "Smuggler (monk)",
+    "revid": 2573201,
+    "table": "Smuggler (monk)/Collector",
+    "tableRevid": 2429066,
+    "amount": 3,
+    "material": "Kournan Coin",
+    "armor": false
+  },
+  {
+    "id": "collector:3:177",
+    "title": "Smuggler (ranger)",
+    "revid": 2573200,
+    "table": "Smuggler (ranger)/Collector",
+    "tableRevid": 2477312,
+    "amount": 5,
+    "material": "Kournan Coin",
+    "armor": false
+  },
+  {
+    "id": "collector:3:217",
+    "title": "Chef Lonbahn",
+    "revid": 2406790,
+    "table": "Chef Lonbahn/Collector",
+    "tableRevid": 2707510,
+    "amount": 1,
+    "material": "Chunk of Drake Flesh",
+    "armor": false
+  },
+  {
+    "id": "collector:3:218",
+    "title": "Nenah",
+    "revid": 2208556,
+    "table": "Nenah/Collector",
+    "tableRevid": 2542501,
+    "amount": 2,
+    "material": "Juvenile Termite Leg",
+    "armor": false
+  },
+  {
+    "id": "collector:3:219",
+    "title": "Adhitok",
+    "revid": 2466686,
+    "table": "Adhitok/Collector",
+    "tableRevid": 2485099,
+    "amount": 3,
+    "material": "Sentient Root",
+    "armor": false
+  },
+  {
+    "id": "collector:3:220",
+    "title": "Timahr",
+    "revid": 2604101,
+    "table": "Timahr/Collector",
+    "tableRevid": 2485211,
+    "amount": 3,
+    "material": "Mandragor Carapace",
+    "armor": false
+  },
+  {
+    "id": "collector:3:221",
+    "title": "Kushau",
+    "revid": 2120100,
+    "table": "Kushau/Collector",
+    "tableRevid": 2485162,
+    "amount": 3,
+    "material": "Plains of Jarin",
+    "armor": false
+  },
+  {
+    "id": "collector:3:222",
+    "title": "Sehyal",
+    "revid": 2120098,
+    "table": "Sehyal/Collector",
+    "tableRevid": 2485101,
+    "amount": 3,
+    "material": "Sentient Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:3:223",
+    "title": "Chef Panjoh",
+    "revid": 2406789,
+    "table": "Chef Panjoh/Collector",
+    "tableRevid": 2542505,
+    "amount": 2,
+    "material": "Skale Fin",
+    "armor": false
+  },
+  {
+    "id": "collector:3:224",
+    "title": "Chef Volon",
+    "revid": 2406788,
+    "table": "Chef Volon/Collector",
+    "tableRevid": 2542506,
+    "amount": 2,
+    "material": "Iboga Petal",
+    "armor": false
+  },
+  {
+    "id": "collector:3:225",
+    "title": "Danton",
+    "revid": 2603592,
+    "table": "Danton/Collector",
+    "tableRevid": 2485102,
+    "amount": 3,
+    "material": "Skeleton Bone",
+    "armor": false
+  },
+  {
+    "id": "collector:3:226",
+    "title": "Paljab",
+    "revid": 2210032,
+    "table": "Paljab/Collector",
+    "tableRevid": 2485100,
+    "amount": 3,
+    "material": "Sentient Seed",
+    "armor": false
+  },
+  {
+    "id": "collector:3:227",
+    "title": "Jidun",
+    "revid": 2617160,
+    "table": "Jidun/Collector",
+    "tableRevid": 2485059,
+    "amount": 1,
+    "material": "Water Djinn Essence",
+    "armor": false
+  },
+  {
+    "id": "collector:3:228",
+    "title": "Iyemab",
+    "revid": 2122214,
+    "table": "Iyemab/Collector",
+    "tableRevid": 2485442,
+    "amount": 3,
+    "material": "Insect Appendage",
+    "armor": false
+  },
+  {
+    "id": "collector:3:229",
+    "title": "Lohfihau",
+    "revid": 2193469,
+    "table": "Lohfihau/Collector",
+    "tableRevid": 2485439,
+    "amount": 3,
+    "material": "Insect Appendage",
+    "armor": false
+  },
+  {
+    "id": "collector:3:230",
+    "title": "Hoanjo",
+    "revid": 2603610,
+    "table": "Hoanjo/Collector",
+    "tableRevid": 2485487,
+    "amount": 3,
+    "material": "Skale Claw",
+    "armor": false
+  },
+  {
+    "id": "collector:3:231",
+    "title": "Ehiyah",
+    "revid": 2125200,
+    "table": "Ehiyah/Collector",
+    "tableRevid": 2584641,
+    "amount": 3,
+    "material": "Silver Bullion Coin",
+    "armor": false
+  },
+  {
+    "id": "collector:3:232",
+    "title": "Sheltah",
+    "revid": 2612175,
+    "table": "Sheltah/Collector",
+    "tableRevid": 2485041,
+    "amount": 1,
+    "material": "Chunk of Drake Flesh",
+    "armor": false
+  },
+  {
+    "id": "collector:3:233",
+    "title": "Dzajo",
+    "revid": 2375020,
+    "table": "Dzajo/Collector armor",
+    "tableRevid": 2485483,
+    "amount": 3,
+    "material": "Skale Tooth",
+    "armor": true
+  },
+  {
+    "id": "collector:3:234",
+    "title": "Mau",
+    "revid": 2535365,
+    "table": "Mau/Collector armor",
+    "tableRevid": 2486240,
+    "amount": 3,
+    "material": "Fledgling Skree Wing",
+    "armor": true
+  },
+  {
+    "id": "collector:3:235",
+    "title": "Uhisheh",
+    "revid": 2231327,
+    "table": "Uhisheh/Collector armor",
+    "tableRevid": 2485108,
+    "amount": 1,
+    "material": "Rinkhal Talon",
+    "armor": true
+  },
+  {
+    "id": "collector:3:236",
+    "title": "Yahya",
+    "revid": 2279813,
+    "table": "Yahya/Collector armor",
+    "tableRevid": 2484959,
+    "amount": 3,
+    "material": "Copper Shilling",
+    "armor": true
+  },
+  {
+    "id": "collector:3:237",
+    "title": "Zukesha",
+    "revid": 2604106,
+    "table": "Zukesha/Collector armor",
+    "tableRevid": 2690668,
+    "amount": 1,
+    "material": "Mandragor Swamproot",
+    "armor": true
+  },
+  {
+    "id": "collector:3:238",
+    "title": "Ahchin",
+    "revid": 2231319,
+    "table": "Ahchin/Collector armor",
+    "tableRevid": 2484958,
+    "amount": 3,
+    "material": "Copper Shilling",
+    "armor": true
+  },
+  {
+    "id": "collector:3:239",
+    "title": "Chormar",
+    "revid": 2231320,
+    "table": "Chormar/Collector armor",
+    "tableRevid": 2485132,
+    "amount": 2,
+    "material": "Mandragor Swamproot",
+    "armor": true
+  },
+  {
+    "id": "collector:3:240",
+    "title": "Damak",
+    "revid": 2231321,
+    "table": "Damak/Collector armor",
+    "tableRevid": 2484951,
+    "amount": 3,
+    "material": "Silver Bullion Coin",
+    "armor": true
+  },
+  {
+    "id": "collector:3:241",
+    "title": "Gundok",
+    "revid": 2231323,
+    "table": "Gundok/Collector armor",
+    "tableRevid": 2485441,
+    "amount": 3,
+    "material": "Insect Appendage",
+    "armor": true
+  },
+  {
+    "id": "collector:3:242",
+    "title": "Pehrub",
+    "revid": 2535370,
+    "table": "Pehrub/Collector armor",
+    "tableRevid": 2486239,
+    "amount": 3,
+    "material": "Fledgling Skree Wing",
+    "armor": true
+  }
+]

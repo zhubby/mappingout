@@ -1,0 +1,11 @@
+{
+  "title": "Roan Fierceheart",
+  "pageid": 70821,
+  "revid": 2734864,
+  "revisedAt": "2026-07-18T23:36:07Z",
+  "sha1": "20779a2bd5e3a55d0ba3d796933ba4bb431bd24f",
+  "url": "https://wiki.guildwars.com/wiki/Roan_Fierceheart",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Roan%20Fierceheart&oldid=2734864",
+  "retrievedAt": "2026-11-13T02:16:03.755Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| type = Charr\n| affiliation = Fierce Warband\n| image = [[File:Charr elementalist.jpg|200px]]\n| profession = mo\n| profession2 = me\n| level = 20\n| service = Mission starter\n| campaign = Eye of the North\n}}\n[[Roan Fierceheart]] is a member of [[Pyre Fierceshot]]'s warband.\n\n==Locations==\n* [[Charr Homelands]]\n** {{NPC location|Dalada Uplands}} (after [[What Must Be Done]])\n* [[Far Shiverpeaks]]\n** {{NPC location|Epilogue}}\n\n==Missions==\n* Charr Homelands\n** {{NPC location|Assault on the Stronghold}}\n* [[Depths of Tyria]]\n** {{NPC location|Warband of Brothers}}\n\n== Quests ==\n'''Quests given:'''\n* [[Charr Homelands]]\n** [[Assault on the Stronghold]]\n'''Quests involved in:'''\n* [[Charr Homelands]]\n** [[What Must Be Done]]\n* [[Depths of Tyria]]\n** [[Warband of Brothers]]\n\n== Skills ==\n14 [[Divine Favor]], 15 [[Smiting Prayers]] (20 Divine Favor in [[Hard mode]])\n* {{skill icon|Blessed Light}} ([[elite]])\n* {{skill icon|Reversal of Damage}}\n* {{skill icon|Smite Condition}}\n* {{skill icon|Smite Hex}}\n* {{skill icon|Smiter's Boon}}\n* {{skill icon|Inspired Enchantment}}\n* {{skill icon|Inspired Hex}}\n\n== Dialogue ==\nDuring Warband of Brothers and in the [[Epilogue]]:\n:''\"Human, your odor is like a frogman's on a humid afternoon. My nose, my eyes... they burn!\"''\n\nDalada Uplands:\n:''Did you have something to say to me, human? I didn't think so.''\n::{{yes}}'''I am ready to attack the hierophants stronghold.'''\n::''The assault command has been given. We must take the armored saurus into Sacnoth Valley posthaste! The warband awaits you there. Are you ready to attack the hierophant's stronghold?''\n:::{{yes}}'''Burntsoul's reign ends today.''' (sent to [[Assault on the Stronghold|The Hierophant's Stronghold]])\n:::{{no|red}}'''I'm not ready yet.'''\n\nDuring Assault on the Stronghold:\n:''\"We are the fierce! We are Charr!\"''\n\n{{Fierce Warband nav}}\n[[Category:Charr]]"
+}

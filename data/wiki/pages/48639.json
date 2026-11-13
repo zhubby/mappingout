@@ -1,0 +1,11 @@
+{
+  "title": "Sir Norrington",
+  "pageid": 48639,
+  "revid": 2575512,
+  "revisedAt": "2014-09-12T23:27:37Z",
+  "sha1": "a53e0cda152b4be2c4d70e8c7e75ceec8ca6f752",
+  "url": "https://wiki.guildwars.com/wiki/Sir_Norrington",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sir%20Norrington&oldid=2575512",
+  "retrievedAt": "2026-11-13T01:10:10.373Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Restless spirit.jpg|150px]]\n| species = Ghost\n| service = Collector\n| level = 10\n| campaign = Prophecies\n| map1 = [[Image:Sir Norrington map.jpg|150px]]\n| map1-text = Location from [[Seeker's Passage]]\n| map2 = [[Image:Salt Flats collectors map.jpg|150px]]\n| map2-text = Salt Flats collector locations\n}}\n[[Sir Norrington]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for armor.\n\n==Location==\n*[[Crystal Desert]]\n**{{NPC location|Salt Flats}}\n\n==Dialogue==\n:''\"I'm searching for 5 [[Shriveled Eye]]s. I can offer you one of the following items in exchange. Can you help me?\"''\n{{Collector no armor trade dialogue|Shriveled Eyes}}\n\n==Collector items==\n{{:Sir Norrington/Collector armor}}\n\n[[Category:Prophecies collectors]]"
+}

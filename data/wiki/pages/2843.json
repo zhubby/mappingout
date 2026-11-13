@@ -1,0 +1,11 @@
+{
+  "title": "Thorn Wolf",
+  "pageid": 2843,
+  "revid": 2659268,
+  "revisedAt": "2020-05-20T21:33:26Z",
+  "sha1": "1a25f7d553a1de0c6bd12aae33b1fd4249a3474f",
+  "url": "https://wiki.guildwars.com/wiki/Thorn_Wolf",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Thorn%20Wolf&oldid=2659268",
+  "retrievedAt": "2026-11-13T02:14:55.581Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Plant Wolf.jpg|250px]]\n| type = Plant\n| affiliation = Urgoz\n| profession = a\n| level = 28 (30)\n| campaign = Factions\n}}\n[[Thorn Wolf|Thorn Wolves]] are powerful [[plant]] [[assassin]]s, expert at shutting down casters and spiking unsuspecting players.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n*{{skill icon|Desperate Strike}}\n*{{skill icon|Impale}}\n*{{skill icon|Shroud of Silence}} ([[elite]])\n*{{skill icon|Twisting Fangs}}\n*{{skill icon|Wild Strike}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = a\n| blunt = 94\n| piercing = 94\n| slashing = 94\n| cold = 94\n| earth = 94\n| fire = 94\n| lightning = 94\n}}\n\n==Items dropped==\n*[[Plant Fiber]]\n*[[Ruby]]\n*[[Spiritwood Plank]]\n*[[Wood Plank]]\n\n==Notes==\n*The Thorn Wolf is available as a [[miniature]] for the second birthday.\n*The [[AI]] of the Thorn Wolf causes it not to cast [[Shroud of Silence]] on characters equipped with melee weapons, even if the character is a [[spellcaster]].\n\n[[Category:Drops fiber]]\n[[Category:Drops ruby]]\n[[Category:Drops spiritwood]]\n[[Category:Drops wood]]"
+}

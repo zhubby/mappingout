@@ -1,0 +1,11 @@
+{
+  "title": "Enraged Lunge (PvP)",
+  "pageid": 215073,
+  "revid": 2738428,
+  "revisedAt": "2026-08-26T20:49:46Z",
+  "sha1": "dc9853d0da0b94e46dbae77f6089268268e5a6e2",
+  "url": "https://wiki.guildwars.com/wiki/Enraged_Lunge_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Enraged%20Lunge%20(PvP)&oldid=2738428",
+  "retrievedAt": "2026-11-13T01:08:08.211Z",
+  "wikitext": "{{pveversion|Enraged Lunge}}\n\n{{Skill infobox\n| name = Enraged Lunge (PvP)\n| id = 3051\n| campaign = Factions\n| profession = Ranger\n| attribute = Beast Mastery\n| type = Pet Attack\n| elite = y\n| energy = 5\n| recharge = 5\n| is-pvp = y\n| description = [[Elite]] [[Pet Attack]]. Your [[animal companion]] attempts an Enraged Lunge that deals {{gr|3|23|+}} [[damage]] (maximum bonus 60) for each [[Recharge time|recharging]] [[Beast Mastery]] [[skill]].\n| concise description = Elite Pet Attack. Deals {{gr|3|23|+}} damage (maximum 60) for each of your recharging Beast Mastery skills.\n}}\n\n{{Skill progression\n|attribute = [[Beast Mastery]]\n|var1 name = + [[Damage]]\n|var1 at0 = 3\n|var1 at15 = 23}}\n\n==Related skills==\n*{{skill icon|Blades of Steel}}\n*{{skill icon|Doom}}\n\n==Notes==\n* Skills that [[disable]] non-attack skills ([[Tiger's Fury]] or [[Marauder's Shot]] for example) synergize well with this skill as it also deals extra damage for skills such as [[Charm Animal]] and [[Comfort Animal]].\n* Damage from this skill is calculated at the time of activation on the [[skill bar]], not when the animal companion uses it.\n* Enraged Lunge counts itself as a recharging Beast Mastery skill upon activation.\n* These are the number of recharging Beast Mastery skills required for maximum damage:\n:{| {{STDT}}\n|- style=\"background:#ADA;\"\n! Beast Mastery !! Recharging Beast Mastery skills \n|- align=\"center\"\n| 0-6 || 8\n|- align=\"center\"\n| 7 || 7\n|- align=\"center\"\n| 8-9 || 6\n|- align=\"center\"\n| 10-12 || 5\n|- align=\"center\"\n| 13-17 || 4\n|- align=\"center\"\n| 18+ || 3\n|}\n\n[[de:Erzürnter Ausfall (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Outcast Raider",
+  "pageid": 102031,
+  "revid": 2175254,
+  "revisedAt": "2010-11-11T21:53:48Z",
+  "sha1": "90923982fdde8ec15a7546968351d98bb18170d4",
+  "url": "https://wiki.guildwars.com/wiki/Outcast_Raider",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Outcast%20Raider&oldid=2175254",
+  "retrievedAt": "2026-11-13T02:15:04.554Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| affiliation = Outcasts\n| type = Human\n| profession = r\n| level = 28 (30)\n| campaign = Factions\n| image = [[File:Outcast m.jpg|200px]]\n}}\n[[Outcast Raider]]s are [[ranger]]s driven mad by [[Kanaxai]].\n\n==Missions==\n*[[The Jade Sea]]\n**{{NPC location|The Aurios Mines}}\n**{{NPC location|The Deep}}\n\n==Skills==\n16 [[Marksmanship]]\n*{{skill icon|Antidote Signet}}\n*{{skill icon|Dual Shot}}\n*{{skill icon|Favorable Winds}}\n*{{skill icon|Glass Arrows}} ([[elite]])\n*{{skill icon|Needling Shot}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = r\n| blunt = 94 (100)\n| piercing = 94 (100)\n| slashing = 94 (100)\n| cold = 124 (130)\n| earth = 124 (130)\n| fire = 124 (130)\n| lightning = 124 (130)\n}}"
+}

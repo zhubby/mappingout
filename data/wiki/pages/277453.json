@@ -1,0 +1,11 @@
+{
+  "title": "\"Tango Down!\"",
+  "pageid": 277453,
+  "revid": 2723841,
+  "revisedAt": "2026-04-01T22:59:19Z",
+  "sha1": "c12840b69ce103631fa3590f7e6c866401399531",
+  "url": "https://wiki.guildwars.com/wiki/%22Tango_Down!%22",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Tango%20Down!%22&oldid=2723841",
+  "retrievedAt": "2026-11-13T01:08:10.023Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = \"Tango Down!\"\n| id = 3297\n| special = Going Commando\n| campaign = Core\n| type = Shout\n| energy = 5\n| recharge = 15\n| elite = yes\n| removes1 = Condition\n| removes2 = Hex spell\n| causes1 = Health Regeneration\n| causes2 = Energy Regeneration\n| causes3 = Increased Attack Speed\n| description = [[Elite]] [[Shout]]. You lose all [[hex]]es and [[condition]]s. For each dead [[foe]] within [[earshot]], you gain 5 seconds of +6 [[Health regeneration]], 5 seconds of +1 [[Energy regeneration]], and 5 seconds of +25% [[attack speed]].\n| concise description = Elite Shout. You lose all hexes and conditions. For each dead foe within earshot, you gain 5 seconds of +6 Health regeneration, 5 seconds of +1 Energy regeneration, and 5 seconds of +25% attack speed.\n}}\n\n== Acquisition ==\nThis skill is available while under the [[Going Commando]] disguise during the [[April Fools' Day]] quest [[Annihilator]].\n\n== Related skills ==\n*{{skill icon|\"I Will Avenge You!\"}}\n\n== Notes ==\n{{bug|The [[duration]] is also granted for corpses of [[Ally|allies]].}}\n\n{{DEFAULTSORT:Tango Down!}}\n[[de:\"Tango Down!\"]]\n[[fr:\"Tango Down!\"]]"
+}

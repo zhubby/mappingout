@@ -1,0 +1,11 @@
+{
+  "title": "Sergeant Geinrich",
+  "pageid": 28899,
+  "revid": 2676075,
+  "revisedAt": "2021-11-21T16:27:46Z",
+  "sha1": "f70ac79a91ac81fce8a48c1e80862ca16bbbfd4b",
+  "url": "https://wiki.guildwars.com/wiki/Sergeant_Geinrich",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sergeant%20Geinrich&oldid=2676075",
+  "retrievedAt": "2026-11-13T02:14:54.834Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Kurzick Warrior m.jpg|150px]]\n| type = Human\n| affiliation = Kurzicks\n| service = Gatekeeper\n| level = 20\n| campaign = Factions\n}}\n[[Sergeant Geinrich]] guards the entrance to the [[Eternal Grove (outpost)|Eternal Grove]].\n\n==Locations==\n*[[Echovald Forest]]\n**{{NPC location|Drazach Thicket}}\n\n==Quests==\n'''Quests involved in:'''\n*Echovald Forest\n**[[The Defenders of the Forest]]\n\n==Dialogue==\n:''\"Please continue on through.\"''\n\n'''If a character in the party has not completed [[Befriending the Kurzicks]]:'''\n\n:''\"This area beyond is known as the Eternal Grove. It's a sacred place to us Kurzicks, and we don't allow just anyone to enter. <Character name> should first prove to be a true friend to the Kurzicks by helping us in our fight against the Luxons. Go to House zu Heltzer and speak with the count there. I'm sure he'll be able to help you.''\n\n:''Is there anything else you wish to discuss?\"''\n\n'''If a character has not taken The Defenders of the Forest:'''\n:''\"<Character name> should head back to House zu Heltzer and speak with the count there. He would know the best way for you to help the Kurzicks.''\n\n:''Is there anything else you wish to discuss?\"''\n\n'''If a character has not completed The Defenders of the Forest:'''\n:''\"Baron Vasburg is waiting to begin the Awakening ceremony. <Character name> should assist him by finding the candidates who will be participating in the ceremony and escorting them here. As soon as they have all arrived, I will let you into the Eternal Grove.\"''\n\n'''During The Defenders of the Forest with the 3 volunteers in your party:'''\n:''\"I'm sorry, but I cannot permit you to enter the Eternal Grove. It is a sacred place to us Kurzicks, and you must have permission from the Council of Nobles if you wish to gain entry.\"''"
+}

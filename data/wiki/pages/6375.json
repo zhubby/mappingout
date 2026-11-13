@@ -1,0 +1,11 @@
+{
+  "title": "Do Not Touch",
+  "pageid": 6375,
+  "revid": 2691877,
+  "revisedAt": "2023-12-31T13:41:03Z",
+  "sha1": "8c752bbaf61f4f86b7c8698e728b6eebee4f0d0e",
+  "url": "https://wiki.guildwars.com/wiki/Do_Not_Touch",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Do%20Not%20Touch&oldid=2691877",
+  "retrievedAt": "2026-11-13T01:39:31.520Z",
+  "wikitext": "{{interactive object infobox\n| type = Treasure\n| campaign = Nightfall\n}}\n[[Do Not Touch]] is a type of [[interactive object]] that will spawn [[Elemental]]s, drop items, and give gold to its user when activated. \n\n==Locations==\n[[Vabbi]]\n*[[Forum Highlands]]\n[[Kourna]]\n*[[Bahdok Caverns]]\n\n== Notes ==\n\n{{Bug|Whenever a ''Do Not Touch'' is looted, there is a chance that the Elementals protecting the treasure won't spawn at all.}}\n\n* ''Do Not Touch'' objects are a type of [[Treasure]] found in Nightfall. \n* After releasing a treasure, subsequent attempts to get treasure will trigger a message, \"A magical force prevents you from touching the treasure,\" until they are reset (which is thought to take just over a month from the last time they were touched).\n* When they have treasure, touching them will spawn 3-5 fire-based defenders: [[Immolated Djinn]] (in [[Bahdok Caverns]]) or [[Ruby Djinn]] (in [[Forum Highlands]]). <br /> (For safety, scatter your party before touching the objects.)\n\n[[Category:Interactive objects]]"
+}

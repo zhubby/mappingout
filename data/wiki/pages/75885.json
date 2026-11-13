@@ -1,0 +1,11 @@
+{
+  "title": "Nettle Seedling",
+  "pageid": 75885,
+  "revid": 2413398,
+  "revisedAt": "2011-11-24T18:49:50Z",
+  "sha1": "6c60114a503db4e0de3a6e2cd570df2e69b2666d",
+  "url": "https://wiki.guildwars.com/wiki/Nettle_Seedling",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Nettle%20Seedling&oldid=2413398",
+  "retrievedAt": "2026-11-13T02:15:58.160Z",
+  "wikitext": "{{NPC infobox\n| image = [[File:Blooming Nettle.jpg|150px]]\n| affiliation = Depths of Tyria wildlife\n| type = Plant\n| profession = N\n| level = 20 (26)\n| campaign = Eye of the North\n}}\n[[Nettle Seedling]]s are created by [[Nettle Spore]]s after activating [[Spore Explosion]]. Try to get Nettle Spores away from [[Blooming Nettle]]s, or those will be able to heal them, and even themselves with [[Healing Seed]].\n\n==Locations==\n*[[Depths of Tyria]]\n** {{NPC location|Bogroot Growths}}\n** {{NPC location|Heart of the Shiverpeaks}} (level 1)\n\n==Skills==\n14 [[Curses]], 15 [[Death Magic]]\n*{{skill icon|Deathly Swarm}}\n*{{skill icon|Putrid Explosion}}\n*{{skill icon|Suffering}}\n*{{skill icon|Toxic Chill}} ([[elite]])\n*{{monster skill icon|Dormant Husk}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = n\n| blunt = 80\n| piercing = 80\n| slashing = 80\n| cold = 80\n| earth = 80\n| fire = 80\n| lightning = 80\n}}"
+}

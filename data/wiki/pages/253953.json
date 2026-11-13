@@ -1,0 +1,11 @@
+{
+  "title": "Stolen Speed (PvP)",
+  "pageid": 253953,
+  "revid": 2630099,
+  "revisedAt": "2018-06-18T17:51:53Z",
+  "sha1": "cdb19c2660c6d657aecd31609daf0b9b97b353f7",
+  "url": "https://wiki.guildwars.com/wiki/Stolen_Speed_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Stolen%20Speed%20(PvP)&oldid=2630099",
+  "retrievedAt": "2026-11-13T01:08:10.022Z",
+  "wikitext": "{{pveversion|Stolen Speed}}\n{{Skill infobox\n| name = Stolen Speed (PvP)\n| id = 3187\n| campaign = Factions\n| profession = Mesmer\n| attribute = Fast Casting\n| is-pvp = y\n| type = Hex Spell\n| elite = y\n| energy = 5\n| activation = 1\n| recharge = 12\n| causes1 = Increased Activation Time\n| causes2 = Decreased Activation Time\n| description = [[Elite]] [[Hex Spell]]. For {{gr|1|10}} second[s], [[spell]]s cast by the [[target]] [[foe]] and all [[adjacent]] foes take 100% longer to [[Activation time|cast]]. Spells you cast that target these foes take 50% less time to cast.\n| concise description = Elite Hex Spell. Also hexes adjacent foes ({{gr|1|10}} second[s]). Doubles spell casting time. Spells you cast on hexed foes have -50% casting time.\n| aoe = adjacent\n}}\n\n{{Skill progression\n|attribute = [[Fast Casting]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 10}}\n\n== Related skills ==\n* {{skill icon|Arcane Conundrum}}\n* {{skill icon|Frustration (PvP)}}\n* {{skill icon|Migraine (PvP)}} ([[elite]])\n\n[[de:Gestohlene Eile (PvP)]]"
+}

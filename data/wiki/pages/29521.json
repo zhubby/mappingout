@@ -1,0 +1,11 @@
+{
+  "title": "Rage Titan",
+  "pageid": 29521,
+  "revid": 2639509,
+  "revisedAt": "2019-07-10T16:25:53Z",
+  "sha1": "9c02513e2237518a2de561b1c131b7e9959cc983",
+  "url": "https://wiki.guildwars.com/wiki/Rage_Titan",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rage%20Titan&oldid=2639509",
+  "retrievedAt": "2026-11-13T02:15:41.298Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Pain Titan.jpg|150px]]\n| affiliation = Titans\n| profession = e\n| species = Titan\n| level = 28 (30)\n| campaign = Nightfall}}\n[[Rage Titan]]s spawns from slain [[Misery Titan]]s, and a slain Rage Titan will spawn two [[Dementia Titan]]s. They're easily the highest priority enemy in the Foundry to kill due to their powerful area of effect skills.\n\n==Locations==\n*[[Realm of Torment]]\n**[[Domain of Anguish]]\n***{{NPC location|The Foundry of Failed Creations}}\n\n==Missions==\n*[[Realm of Torment]]\n**[[Domain of Anguish]]\n***{{NPC location|The Ebony Citadel of Mallyx}}\n\n==Skills==\n*{{skill icon|Aftershock}}\n*{{skill icon|Churning Earth}}\n*{{skill icon|Earth Attunement}}\n*{{skill icon|Earthquake}}\n*{{skill icon|Eruption}}\n*{{skill icon|Shockwave}} ([[elite]])\n*{{monster skill icon|Enraged}}\n*{{monster skill icon|Stun Immunity}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = e\n| blunt = 123\n| piercing = 123\n| slashing = 123\n| cold = 103\n| earth = 143\n| fire = 103\n| lightning = 103\n}}\n\n==Items dropped==\n*[[Titan Gemstone]]"
+}

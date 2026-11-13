@@ -1,0 +1,11 @@
+{
+  "title": "Attendant Chien",
+  "pageid": 52230,
+  "revid": 2549726,
+  "revisedAt": "2013-06-26T07:27:41Z",
+  "sha1": "e7e991e2ec9d2425ff6bc8ce50a45677be39983a",
+  "url": "https://wiki.guildwars.com/wiki/Attendant_Chien",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Attendant%20Chien&oldid=2549726",
+  "retrievedAt": "2026-11-13T01:11:03.936Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Canthan noble f blue.jpg|150px]]\n| type = Human\n| affiliation = Celestial Ministry\n| service = Collector\n| level = 10\n| campaign = Factions\n}}\n[[Attendant Chien]] is a collector who exchanges [[Trophy|trophies]] for armor.\n\n==Locations==\n*[[Shing Jea Island]]\n**{{NPC location|Seitung Harbor}}\n\n==Dialogue==\n:''\"I have been sent here by the esteemed Canthan Mininstry{{sic}} to find proof of a legendary creature called the oni, which is believed to be involved in several homicide cases across Cantha. The ministry would be most appreciative of anyone who can provide proof of its existence. If you can bring me 1 [[Oni Claw]]s, I will give you this in return:\"''\n{{Collector no armor trade dialogue|Oni Claws}}\n\n==Collector items==\n{{:Attendant Chien/Collector armor}}"
+}

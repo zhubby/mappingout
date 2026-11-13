@@ -1,0 +1,11 @@
+{
+  "title": "Discord (PvP)",
+  "pageid": 136084,
+  "revid": 2701361,
+  "revisedAt": "2024-12-01T15:51:39Z",
+  "sha1": "75a3d021aa9b66b6383b4a3f9eea981ff3de6e78",
+  "url": "https://wiki.guildwars.com/wiki/Discord_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Discord%20(PvP)&oldid=2701361",
+  "retrievedAt": "2026-11-13T01:08:08.209Z",
+  "wikitext": "{{pveversion|Discord}}\n{{Skill infobox\n| name = Discord (PvP)\n| id = 2863\n| campaign = Factions\n| profession = Necromancer\n| attribute = Death Magic\n| type = Spell\n| elite = y\n| energy = 5\n| activation = 2\n| recharge = 2\n| description = [[Elite]] [[Spell]]. If [[target]] [[foe]] is suffering from a [[condition]] and under the effects of a [[hex]] or an [[enchantment]], that foe suffers {{gr|30|110}} [[damage]].\n| concise description = Elite Spell. Deals {{gr|30|110}} damage. {{gray|No effect unless target foe has a condition and is either hexed or enchanted.}}\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Death Magic]]\n|var1 name = [[Damage]]\n|var1 at0 = 30\n|var1 at15 = 110}}\n\n== Trivia ==\n* The face on the skill icon resembles [[w:Werner Herzog|Werner Herzog]].<ref>https://www.alamy.com/stock-photo-release-date-january-24-2005-movie-title-grizzly-man-studio-lions-90154293.html</ref>  \n\n[[de:Zwietracht (PvP)]]"
+}

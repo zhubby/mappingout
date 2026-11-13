@@ -11,3 +11,4 @@ playwright-report/
 !.env.example
 
 # public/data/*.json and public/assets/** are required, committed build inputs.
+.wiki-cache/

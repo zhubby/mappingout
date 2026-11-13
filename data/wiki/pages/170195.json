@@ -1,0 +1,11 @@
+{
+  "title": "Expert's Dexterity (PvP)",
+  "pageid": 170195,
+  "revid": 2628842,
+  "revisedAt": "2018-06-18T17:29:01Z",
+  "sha1": "0a3dde51ab459dea51b5b91eb65aeaaaa51ced84",
+  "url": "https://wiki.guildwars.com/wiki/Expert%27s_Dexterity_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Expert's%20Dexterity%20(PvP)&oldid=2628842",
+  "retrievedAt": "2026-11-13T01:08:08.211Z",
+  "wikitext": "{{pveversion|Expert's Dexterity}}\n{{Skill infobox\n| name = Expert's Dexterity (PvP)\n| id = 2959\n| campaign = Nightfall\n| profession = Ranger\n| attribute = Expertise\n| type = Stance\n| elite = y\n| energy = 5\n| recharge = 20\n| causes1 = Increased Attack Speed\n| causes2 = Increased Attribute\n| description = [[Elite]] [[Stance]]. For {{gr|1|20}} second[s], you [[Attack speed|attack 15% faster]] and your [[Marksmanship]] attribute is increased by 1.\n| concise description = Elite Stance. ({{gr|1|20}} second[s].) You attack 15% faster and you gain +1 to your Marksmanship attribute.\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Expertise]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 20}}\n\n== Related skills ==\n*{{skill icon|Lightning Reflexes (PvP)}}\n*{{skill icon|Rapid Fire}}\n\n[[de:Gewandtheit des Profis (PvP)]]"
+}

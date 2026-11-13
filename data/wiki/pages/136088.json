@@ -1,0 +1,11 @@
+{
+  "title": "Defensive Anthem (PvP)",
+  "pageid": 136088,
+  "revid": 2738948,
+  "revisedAt": "2026-08-28T06:38:40Z",
+  "sha1": "5874cb358658c08e349cd516401ddb1b00f168f0",
+  "url": "https://wiki.guildwars.com/wiki/Defensive_Anthem_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Defensive%20Anthem%20(PvP)&oldid=2738948",
+  "retrievedAt": "2026-11-13T01:08:06.013Z",
+  "wikitext": "{{pveversion|Defensive Anthem}}\n\n{{Skill infobox\n| id = 2876\n| name = Defensive Anthem (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Leadership\n| type = Chant\n| elite = y\n| energy = 15\n| activation = 2\n| recharge = 15\n| causes1 = Block\n| description = [[Elite]] [[Chant]]. For {{gr|4|10}} seconds, each [[party]] member within [[earshot]] has a 50% chance to [[block]] incoming [[attack]]s. This chant ends if that party member hits with an [[attack skill]].\n| concise description = Elite Chant. ({{gr|4|10}} seconds.) Party members in earshot have 50% chance to block. {{gray|Ends when hitting with an attack skill.}}\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Leadership]]\n|var1 name = [[Duration]]\n|var1 at0 = 4\n|var1 at15 = 10}}\n\n[[de:Verteidigungshymne (PvP)]]"
+}

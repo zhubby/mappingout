@@ -1,0 +1,11 @@
+{
+  "title": "Soldier's Stance (PvP)",
+  "pageid": 243866,
+  "revid": 2630045,
+  "revisedAt": "2018-06-18T17:49:48Z",
+  "sha1": "92fc36c9a299bff6f6b6b921be7167bd9799a09a",
+  "url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Soldier's%20Stance%20(PvP)&oldid=2630045",
+  "retrievedAt": "2026-11-13T01:08:10.021Z",
+  "wikitext": "{{pveversion|Soldier's Stance}}{{Skill infobox\n| name = Soldier's Stance (PvP)\n| id = 3156\n| campaign = Nightfall\n| profession = Warrior\n| attribute = Tactics\n| type = Stance\n| elite = y\n| energy = 5\n| recharge = 8\n| causes1 = Increased Attack Speed\n| description = [[Elite]] [[Stance]]. For {{gr|4|10}} seconds, you [[Attack speed|attack 33% faster]] while under the effects of a [[shout]] or [[chant]].\n| concise description = Elite Stance. ({{gr|4|10}} seconds.) You attack 33% faster while under the effects of a shout or chant.\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Tactics]]\n| var1 name = [[Duration]]\n| var1 at0 = 4\n| var1 at15 = 10}}\n\n==Related skills==\n*{{skill icon|Soldier's Defense}}\n*{{skill icon|Soldier's Fury}} ([[elite]])\n\n[[de:Soldaten-Haltung (PvP)]]"
+}

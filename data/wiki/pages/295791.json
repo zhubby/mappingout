@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of Core unique items",
+  "pageid": 295791,
+  "revid": 2619706,
+  "revisedAt": "2017-06-28T22:03:11Z",
+  "sha1": "b89efcc30b44abb7bd4a1ced3408f5904d252811",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_Core_unique_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20Core%20unique%20items&oldid=2619706",
+  "retrievedAt": "2026-11-13T02:27:42.842Z",
+  "wikitext": "{{TOCright}}\n<dpl>\n  category = Core unique items\n  uses = Template:Weapon infobox\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n\n[[Category:Unique item galleries by source|Core]]\n[[Category:Core unique items|+]]"
+}

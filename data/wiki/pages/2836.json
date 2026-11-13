@@ -1,0 +1,11 @@
+{
+  "title": "Brooding Thorns",
+  "pageid": 2836,
+  "revid": 2365522,
+  "revisedAt": "2011-08-18T09:24:20Z",
+  "sha1": "4e3f078dd4507a85c6257d5460dae4338158c38f",
+  "url": "https://wiki.guildwars.com/wiki/Brooding_Thorns",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Brooding%20Thorns&oldid=2365522",
+  "retrievedAt": "2026-11-13T02:14:55.580Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| affiliation = Urgoz\n| type = Plant\n| profession = r\n| level = 28 (30)\n| campaign = Factions\n}}\n[[Brooding Thorns]] are [[trapper]] [[ranger]]s.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n*{{skill icon|Barbed Trap}}\n*{{skill icon|Barrage}} ([[elite]])\n*{{skill icon|Flame Trap}}\n*{{skill icon|Troll Unguent}}\n*{{skill icon|Viper's Nest}}\n*{{skill icon|Whirling Defense}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = r\n| blunt = 94\n| piercing = 94\n| slashing = 94\n| cold = 124\n| earth = 124\n| fire = 124\n| lightning = 124\n}}\n\n==Items dropped==\n*[[Plant Fiber]]\n*[[Spiritwood Plank]]\n\n==Notes==\n*Brooding Thorns are normally stationary, but they will begin moving if [[area damage over time]] scattering behavior is triggered.\n\n==Trivia==\n*Brooding Thorns are among the few [[creature]]s in Guild Wars with a plural name.\n\n[[Category:Drops fiber]]\n[[Category:Drops spiritwood]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Ward Against Harm (PvP)",
+  "pageid": 293522,
+  "revid": 2739029,
+  "revisedAt": "2026-08-28T17:37:39Z",
+  "sha1": "c1a6a07ba28ea14db3b7ebefed5aa16590bd3abb",
+  "url": "https://wiki.guildwars.com/wiki/Ward_Against_Harm_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ward%20Against%20Harm%20(PvP)&oldid=2739029",
+  "retrievedAt": "2026-11-13T01:08:10.948Z",
+  "wikitext": "{{Pveversion|Ward Against Harm}}\n__NOTOC__{{Skill infobox\n| id = 2806\n| name = Ward Against Harm (PvP)\n| is-pvp = y\n| campaign = Prophecies\n| profession = Elementalist\n| attribute = Water Magic\n| type = Ward Spell\n| energy = 15\n| activation = 1\n| recharge = 20\n| elite = y\n| causes1 = Health Regeneration\n| causes2 = Increased Armor Rating\n| description = [[Elite]] [[Ward Spell]]. Create a Ward Against Harm at this location. For {{gr|5|15}} seconds, non-[[spirit]] [[Ally|allies]] [[in the area|in this area]] have {{gr|1|3|+}} [[health regeneration]], {{gr|12|24|+}} [[Armor rating|armor]], and an additional {{gr|12|24|+}} armor against [[elemental damage]]. This spell is [[disable]]d for 30 seconds.\n| concise description = Elite Ward Spell. ({{gr|5|15}} seconds.) Allies in this ward have {{gr|1|3|+}} Health regeneration, {{gr|12|24|+}} armor, and {{gr|12|24|+}} additional armor against elemental damage. {{gray|Spirits are unaffected. This spell is disabled for 30 seconds.}}\n}}\n\n{{Skill progression\n| attribute = [[Water Magic]]\n| var1 name = [[Duration]]\n| var1 at0 = 5\n| var1 at15 = 15\n| var2 name = [[Health regeneration]]\n| var2 at0 = 1\n| var2 at15 = 3\n| var3 name = +[[Armor rating|Armor]]\n| var3 at0 = 12\n| var3 at15 = 24\n| var4 name = +Armor vs [[elemental damage]]\n| var4 at0 = 12\n| var4 at15 = 24\n}}\n\n== Related skills ==\n* {{skill icon|Ward Against Elements}}\n\n== Notes ==\n{{bug|This skill does not actually become disabled, as it can be instantly recharged by [[Glyph of Renewal]], and the recharge reduced by [[Glyph of Swiftness]].}}\n*Though this skill exists separately from [[Ward Against Harm]], they share the same functionality.\n\n== Trivia ==\n{{Skill change}}\n\n[[Category:Skills that affect allies]]\n\n[[de:Abwehr gegen Schaden (PvP)]]"
+}

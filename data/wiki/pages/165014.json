@@ -1,0 +1,11 @@
+{
+  "title": "The Falls (NPC)",
+  "pageid": 165014,
+  "revid": 2603291,
+  "revisedAt": "2016-03-26T21:31:39Z",
+  "sha1": "254f5127d2b72e95a151bd2a88b58d4a08f9aa69",
+  "url": "https://wiki.guildwars.com/wiki/The_Falls_(NPC)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Falls%20(NPC)&oldid=2603291",
+  "retrievedAt": "2026-11-13T02:14:22.612Z",
+  "wikitext": "{{Location disambiguation 2|other=The Falls (NPC)|otherdesc=an [[non-player character|NPC]]}}\n{{NPC infobox\n| name = The Falls\n| image = [[File:The Falls.jpg|250px]]\n| type = Interactive object\n| level = 1 (20)\n| campaign = Prophecies\n| map1 = [[File:The Falls landmark map.jpg|250px]]\n| map1-text = Map to the Falls.\n}}\n[[The Falls (NPC)|The Falls]] is a group of large waterfalls located deep within the [[Maguuma Jungle]]. It is the entrance to [[Zinn]]'s [[Secret Underground Lair]].\n\n==Locations==\n*[[Maguuma Jungle]]\n**{{NPC location|The Falls}}\n\n==Dialogue==\nIf [[M.O.X.]] is not in your [[party]]:\n:''\"Water cascades over the rocks into a pool so deep you can't see the bottom.\"''\n:{{x}} '''I'll be on my way.'''\n\nIf M.O.X. is in your party:\n:''\"This must be it. Zinn's picture clearly shows the falls. Only one way forward: jump. Do you jump?\"''\n:'''{{yes}} Take a deep breath and dive over the edge.''' (Sent to Zinn's Secret Underground Lair)\n:'''{{no|ingame}} I can't swim.'''\n\n{{Landmarks in the Maguuma Jungle}}\n\n[[Category:Landmarks]]\n[[Category:Maguuma Jungle locations]]\n[[Category:Wayfarer's Reverie landmarks]]"
+}

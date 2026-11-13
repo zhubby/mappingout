@@ -1,0 +1,11 @@
+{
+  "title": "Maddened Wind Warden",
+  "pageid": 2873,
+  "revid": 2554310,
+  "revisedAt": "2013-09-11T18:52:01Z",
+  "sha1": "2fe50f277d56f7add10e403fd96fd7792b009b30",
+  "url": "https://wiki.guildwars.com/wiki/Maddened_Wind_Warden",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maddened%20Wind%20Warden&oldid=2554310",
+  "retrievedAt": "2026-11-13T02:14:55.583Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Warden of the Tree.jpg|150px]]\n| affiliation = \n| type = Warden\n| profession = r\n| level = 28 (30)\n| campaign = Factions\n}}\n[[Maddened Wind Warden]]s rely on [[condition]]s to harm their foes.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n*{{skill icon|Apply Poison}}\n*{{skill icon|Barbed Trap}}\n*{{skill icon|Brambles}}\n*{{skill icon|Lacerate}} ([[elite]])\n*{{skill icon|Spike Trap}} (elite)\n\n==Armor ratings==\n{{NPC statistics\n| prof = r\n| blunt = 94\n| piercing = 94\n| slashing = 94\n| cold = 124\n| earth = 124\n| fire = 124\n| lightning = 124\n}}\n\n==Items dropped==\n*[[Warden Armguard]]\n\n==Trivia==\n*They are one of the few [[NPC]]s that possess more than one [[elite skill]].\n\n[[Category:NPCs with multiple elite skills]]"
+}

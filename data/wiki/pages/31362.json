@@ -1,0 +1,11 @@
+{
+  "title": "Aleksy",
+  "pageid": 31362,
+  "revid": 2603243,
+  "revisedAt": "2016-03-26T16:20:41Z",
+  "sha1": "a4880b9876e327ee4f8fbd72f3365412dd586817",
+  "url": "https://wiki.guildwars.com/wiki/Aleksy",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Aleksy&oldid=2603243",
+  "retrievedAt": "2026-11-13T02:14:52.877Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[Image:Kurzick elementalist.jpg|x350px]]\n| affiliation = Kurzicks\n| type = Human\n| service = Dye trader\n| level = 20\n| campaign = Factions\n}}\n[[Aleksy]] is a [[dye trader]], a type of [[NPC]] that buys and sells [[dye]].\n\n==Locations==\n*[[Echovald Forest]]\n**{{NPC location|House zu Heltzer}}\n\n==Dialogue==\n{{Kurzick-only service NPC dialogue|skill trainer=n}}\n{{trader dialogue}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Kyuzo",
+  "pageid": 26025,
+  "revid": 2711575,
+  "revisedAt": "2025-08-19T04:40:37Z",
+  "sha1": "456ffd5c74088a2b5270c4398283044066e1f4bb",
+  "url": "https://wiki.guildwars.com/wiki/Kyuzo",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Kyuzo&oldid=2711575",
+  "retrievedAt": "2026-11-13T01:10:36.187Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Canthan noble m purple.jpg|150px]]\n| type = Human\n| affiliation = Canthans\n| service = Collector\n| level = 10 (20)\n| campaign = Factions\n| map1 = [[File:Kyuzo map.jpg|150px]]\n| map1-text = Location in [[Bukdek Byway]]\n| map2 = [[File:Bukdek Byway collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Kyuzo]] is a [[collector]], an NPC that trades [[trophy|trophies]] for armor or weapons.\n\n==Locations==\n*[[Kaineng City]]\n**{{NPC location|Bukdek Byway}} (does not [[spawn]] during or after [[Winds of Change]]) \n\n==Dialogue==\n:''\"For years I have been telling the [[Celestial Ministry]] that our building practices are unsafe. The dense population...the poor living conditions...it is a recipe for disaster! And disaster, it seems, has finally struck. But I think I might be onto a cure! I noticed that [[mantid]]s do not seem to be affected by this plague. Perhaps it is coincidence, but for all of our sakes, I pray not. You know, if you are not too busy, I could really us your help collecting more mantid pinchers. If you bring me 5 Venerable Mantid Pincers, I can give you this:\"''\n\n{{collector no armor trade dialogue|Venerable Mantid Pincers}}\n\n==Collector items==\n{{:Kyuzo/Collector armor}}\n\n==Notes==\n{{bug|Kyuzo does not spawn during or after completion of the [[Winds of Change]] quest line. If that is the case, you need to have [[Memories of Purity]] active to make him spawn.}}\n\n==Trivia==\n* Kyūzō is also the name of a samurai character in [[w:Seven Samurai|Seven Samurai]]."
+}

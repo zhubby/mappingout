@@ -1,0 +1,11 @@
+{
+  "title": "Hand of the Titans",
+  "pageid": 15979,
+  "revid": 2413288,
+  "revisedAt": "2011-11-24T06:36:34Z",
+  "sha1": "eb9a0b28d280315ab704e6a2b760bab1faaa7b74",
+  "url": "https://wiki.guildwars.com/wiki/Hand_of_the_Titans",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hand%20of%20the%20Titans&oldid=2413288",
+  "retrievedAt": "2026-11-13T02:14:36.572Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Fist of the Titans.jpg|200px]]\n | affiliation = Titans\n | profession = w\n | level = 24, 28 (26, 30)\n | campaign = Prophecies\n | campaign2 = Nightfall\n}}\n[[Hand of the Titans|Hands of the Titans]] spawn along with a [[Fist of the Titans]] when a [[Risen Ashen Hulk]] is killed, though they may also be found roaming on their own. They are powerful and must be eliminated quickly, as too many will quickly overwhelm the party. It is advisable to [[interrupt]] their [[Healing Signet]] skill, as they will use it whenever possible.\n\n==Locations==\n*[[Ascalon]]\n**{{NPC location|Dragon's Gullet}} (level 24 and 28, only during [[The Titan Source]]; not during [[The Titan Source (Hard mode)]])\n**{{NPC location|Eastern Frontier}} (level 28, spawned from slain [[Risen Ashen Hulk]]s only during [[The Last Day Dawns]]; not during [[The Last Day Dawns (Hard mode)]])\n\n==Missions==\n*[[Prophecies]]\n**[[Ring of Fire Islands]]\n***{{NPC location|Hell's Precipice}} (level 24 when alone, level 28 when spawned from slain [[Risen Ashen Hulk]]s)\n*[[Nightfall]]\n**[[Realm of Torment]]\n***{{NPC location|Gate of Madness}} (level 28, spawned from slain Risen Ashen Hulks)\n\n==Skills==\n*{{Skill icon|Axe Rake}}\n*{{Skill icon|Axe Twist}}\n*{{Skill icon|Eviscerate}} ([[elite]])\n*{{Skill icon|Healing Signet}}\n*{{Skill icon|Swift Chop}}\n\n==Armor ratings==\n{{NPC statistics\n| level = 28\n| prof = w\n| blunt = 123\n| piercing = 123\n| slashing = 123\n| cold = 83\n| earth = 103\n| fire = 143\n| lightning = 103\n}}\n\n==Items dropped==\n*[[Molten Claw]]\n*[[Titan Armor]]"
+}

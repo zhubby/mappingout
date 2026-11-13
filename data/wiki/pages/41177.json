@@ -1,0 +1,11 @@
+{
+  "title": "Template:Gr2",
+  "pageid": 41177,
+  "revid": 2732683,
+  "revisedAt": "2026-07-04T16:10:14Z",
+  "sha1": "b0ea049c4ac417aca525884a0ded6a501cd16a52",
+  "url": "https://wiki.guildwars.com/wiki/Template:Gr2",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3AGr2&oldid=2732683",
+  "retrievedAt": "2026-11-13T01:08:10.945Z",
+  "wikitext": "<includeonly>{{#switch:{{{3}}}|-=&#45;|+=&#43;|}}<span style=\"color: green; font-weight: bold;\">{{{1|0}}}...{{{2|0}}}</span></includeonly><noinclude>\n\n== Usage ==\nTo simplify the insertion of green number ranges within skill descriptions. The output of this template will provide two green numbers separated by an ellipsis. It was intended to be used for skills which do not follow the standard 0...15 progression range, for example [[Spectral Agony]], but can also be used for other progressions from value '''val_1''' to '''val_2''', for example [[Adept]].\n\n<pre>{{gr|<rank 0 value>|<rank 15 value>}}</pre>\n\n; ''(unnamed parameter 1)''\n: Skill progression value 1\n; ''(unnamed parameter 2)''\n: Skill progression value 2\n; ''(unnamed parameter 3)''\n: If set to <code>-</code> or <code>+</code>, inserts the respective sign before the progression.\n\n== Example ==\n<code><nowiki>{{gr2|10|100}}</nowiki></code> will parse to {{gr2|10|100}}.\n\n<code><nowiki>{{gr2|10|100|-}}</nowiki></code> will parse to {{gr2|10|100|-}}.\n\n<code><nowiki>{{gr2|10|100|+}}</nowiki></code> will parse to {{gr2|10|100|+}}.\n\n<code><nowiki>{{gr2|10|100|whatever}}</nowiki></code> will ignore the 3rd parameter and parse to {{gr2|10|100|whatever}}.\n\n\n[[Category:Formatting templates|Gr2]]\n[[Category:Skill templates|Gr2]]</noinclude>"
+}

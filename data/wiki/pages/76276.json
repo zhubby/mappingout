@@ -1,0 +1,11 @@
+{
+  "title": "Sokka",
+  "pageid": 76276,
+  "revid": 2537804,
+  "revisedAt": "2013-03-19T21:35:51Z",
+  "sha1": "0e03a3886e5d3721c9bd4ea01c1df8cd5680722d",
+  "url": "https://wiki.guildwars.com/wiki/Sokka",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sokka&oldid=2537804",
+  "retrievedAt": "2026-11-13T02:16:08.391Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Asura dye trader f.jpg|150px]]\n| species = Asura\n| level = 20\n| profession = w\n| campaign = Eye of the North\n| map1 = [[File:G.O.L.E.M. site map.jpg|150px]]\n| map1-text = Location in [[Riven Earth]]\n}}\n[[Sokka]] is an [[asura]] that hands out [[Asuran Beacon]]s.\n\n==Locations==\n* [[Tarnished Coast]]\n** {{NPC location|Riven Earth}} \n\n==Missions==\n*[[Depths of Tyria]]\n** {{NPC location|Destruction's Depths}}\n* Tarnished Coast\n** {{NPC location|Genius Operated Living Enchanted Manifestation}}\n\n==Skills==\n* {{skill icon|Healing Signet}}\n\n==Dialogue==\n;Before G.O.L.E.M.\n:''\"We Asura are hoping to get a work team together to build golems. This place will be part of our golem animation process, so we just need to get some people in who have an idea how ro run it. I hope they arrive soon. It's pretty dull standing around out here.\"''\n\n;During G.O.L.E.M.\n:''\"Wow. This stuff is so cool! Toss me some work! I'm a team player!\"''\n\n;After G.O.L.E.M.\nBefore accepting the Golem beacon:\n:''\"I'm not sure if I told you this, but I helped cast the golem control casing! Most of the golems are busy fighting Destroyers, but I've got a spare beacon here to summon a golem if you need one.\"''\n{{ Offer dialog\n| accept = A golem might come in handy. Sokka, hand me a beacon.\n| decline = Never mind.\n}}\n\nAfter accepting the Golem beacon and during Destruction's Depths:\n:''\"[[Oola]] promoted me after our last encounter. I helped cast the golem's control casing!\"''\n\n==Notes==\n* If you return to him afterwards, in his location in [[Riven Earth]] northeast from the [[Rata Sum]] exit, he can give you a beacon to summon a [[G.O.L.E.M. 1.0]]. This is especially useful with [[The Cipher of Dwayna]] quest or with [[vanquishing]]."
+}

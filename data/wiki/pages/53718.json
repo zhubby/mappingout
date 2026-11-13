@@ -1,0 +1,11 @@
+{
+  "title": "Mau",
+  "pageid": 53718,
+  "revid": 2535365,
+  "revisedAt": "2013-02-25T09:10:42Z",
+  "sha1": "a1efbe1263575af320cd4bd30b904487601064fe",
+  "url": "https://wiki.guildwars.com/wiki/Mau",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mau&oldid=2535365",
+  "retrievedAt": "2026-11-13T01:11:14.261Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| type = Human\n| affiliation = Istani\n| service = Collector\n| level = 2\n| campaign = Nightfall\n| map1 = [[File:Cliffs of Dohjok collectors map.jpg|150px]]\n| map1-text = Location\n}}\n[[Mau]] is a [[collector]], a type of [[Non-player character|NPC]] that exchanges [[Trophy|trophies]] for [[armor]].\n\n== Locations==\n* [[Istan]]\n** {{NPC location|Cliffs of Dohjok}}\n\n== Dialogue ==\n: ''\"My father says I'm not old enough to hunt [[harpy|harpies]] yet, but they have such pretty feathers! It's my birthday today. Won't you get me some feathers? If you bring me 3 [[Fledgling Skree Wing]]s, I'll put my whole allowance together and give you:\"''\n\n{{collector no armor trade dialogue|Fledgling Skree Wings}}\n\n== Collector items ==\n{{:Mau/Collector armor}}"
+}

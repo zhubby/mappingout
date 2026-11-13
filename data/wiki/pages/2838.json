@@ -1,0 +1,11 @@
+{
+  "title": "Burning Brush",
+  "pageid": 2838,
+  "revid": 2610585,
+  "revisedAt": "2016-07-25T08:04:05Z",
+  "sha1": "7b36ffc7d18128fa804250d760b12d05314da9bb",
+  "url": "https://wiki.guildwars.com/wiki/Burning_Brush",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Burning%20Brush&oldid=2610585",
+  "retrievedAt": "2026-11-13T02:14:55.581Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Undergrowth.jpg|250px]]\n| affiliation = Urgoz\n| type = Plant\n| profession = e\n| level = 24 (26)\n| campaign = Factions\n}}\n[[Burning Brush]]es are [[elementalist]]s that use [[point blank area of effect]] [[skill]]s.\n\n==Missions==\n*[[Echovald Forest]]\n**{{NPC location|Urgoz's Warren}}\n\n==Skills==\n*{{skill icon|Aura of Restoration}}\n*{{skill icon|Bed of Coals}}\n*{{skill icon|Burning Speed}}\n*{{skill icon|Double Dragon}} ([[elite]])\n*{{skill icon|Teinai's Wind}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = e\n| blunt = 72\n| piercing = 72\n| slashing = 72\n| cold = 72\n| earth = 72\n| fire = 72\n| lightning = 72\n}}\n\n==Items dropped==\n*[[Plant Fiber]]\n*[[Spiritwood Plank]]\n\n==Notes==\n*While some Burning Brushes start out mobile, others are stationary unless [[area damage over time]] scatter behavior is triggered.\n\n[[Category:Drops fiber]]\n[[Category:Drops spiritwood]]"
+}

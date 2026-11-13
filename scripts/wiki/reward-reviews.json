@@ -1,0 +1,178 @@
+[
+  {
+    "id": "boss:4:4b8f3a98a78d1368",
+    "name": "梵帝宁",
+    "campaign": 4,
+    "title": "Fendi's Chest",
+    "revid": 2232205,
+    "dungeon": "Shards of Orr"
+  },
+  {
+    "id": "boss:4:fd23b56dfbc34f59",
+    "name": "BT高崙机器人",
+    "campaign": 4,
+    "title": "Oola's Chest",
+    "revid": 2707313,
+    "dungeon": "Oola's Lab"
+  },
+  {
+    "id": "boss:4:5910b93162f9a03e",
+    "name": "蜘蛛精",
+    "campaign": 4,
+    "title": "Arachni's Spoils",
+    "revid": 1861515,
+    "dungeon": "Arachni's Haunt"
+  },
+  {
+    "id": "boss:4:7fcf274fb88f6855",
+    "name": "青蛙BOSS",
+    "campaign": 4,
+    "title": "Bogroot Chest",
+    "revid": 2192593,
+    "dungeon": "Bogroot Growths"
+  },
+  {
+    "id": "boss:4:d3146db8a1504808",
+    "name": "水晶警卫",
+    "campaign": 4,
+    "title": "Eldritch Chest",
+    "revid": 2725742,
+    "dungeon": "Bloodstone Caves"
+  },
+  {
+    "id": "boss:4:7cc53d1a1d494da4",
+    "name": "多彩乌兹",
+    "campaign": 4,
+    "title": "Prismatic Chest",
+    "revid": 2364830,
+    "dungeon": "Ooze Pit"
+  },
+  {
+    "id": "boss:4:041ae733d0b9b8c7",
+    "name": "火焰大教堂",
+    "campaign": 4,
+    "title": "Murakai's Chest",
+    "revid": 2452131,
+    "dungeon": "Cathedral of Flames"
+  },
+  {
+    "id": "boss:4:10971f824cdf6636",
+    "name": "食人拉喀",
+    "campaign": 4,
+    "title": "Hidesplitter's Chest",
+    "revid": 2482146,
+    "dungeon": "Rragar's Menagerie"
+  },
+  {
+    "id": "boss:4:51370a1aa8993604",
+    "name": "火王",
+    "campaign": 4,
+    "title": "Chest of Kathandrax",
+    "revid": 2304108,
+    "dungeon": "Catacombs of Kathandrax"
+  },
+  {
+    "id": "boss:4:79c9474425b23e14",
+    "name": "邪恶的佐尔达克",
+    "campaign": 4,
+    "title": "Zoldark's Chest",
+    "revid": 2460924,
+    "dungeon": "Vloxen Excavations"
+  },
+  {
+    "id": "boss:4:d741dc8f8c1afd2f",
+    "name": "唐肯",
+    "campaign": 4,
+    "title": "Hierophant's Chest",
+    "revid": 2590085,
+    "dungeon": "Slavers' Exile"
+  },
+  {
+    "id": "boss:4:b7faead0ccd3d1f6",
+    "name": "毁灭瘟疫",
+    "campaign": 4,
+    "title": "Destroyer Chest",
+    "revid": 1863891,
+    "dungeon": "Raven's Point"
+  },
+  {
+    "id": "boss:4:360f0831970bf705",
+    "name": "亚龙欣德尔",
+    "campaign": 4,
+    "title": "Mountain Heart Chest",
+    "revid": 2698186,
+    "dungeon": "Heart of the Shiverpeaks"
+  },
+  {
+    "id": "boss:4:bd98f0f1414b1c7e",
+    "name": "古迹冰王",
+    "campaign": 4,
+    "title": "Dragrimmar Chest",
+    "revid": 1863899,
+    "dungeon": "Sepulchre of Dragrimmar"
+  },
+  {
+    "id": "boss:4:98a450653846c354",
+    "name": "弑亲者",
+    "campaign": 4,
+    "title": "Chest of Burrows",
+    "revid": 2229748,
+    "dungeon": "Frostmaw's Burrows"
+  },
+  {
+    "id": "boss:4:f8ac56baa9a23bdd",
+    "name": "食人族.哈沃克",
+    "campaign": 4,
+    "title": "Havok's Chest",
+    "revid": 1863919,
+    "dungeon": "Darkrime Delves"
+  },
+  {
+    "id": "boss:3:1accefa28962b870",
+    "name": "不屈的马里克斯 1",
+    "campaign": 3,
+    "title": "Citadel Chest",
+    "revid": 1997149,
+    "dungeon": "The Ebony Citadel of Mallyx"
+  },
+  {
+    "id": "boss:3:073e6cda124327d0",
+    "name": "不屈的马里克斯 2",
+    "campaign": 3,
+    "title": "Citadel Chest",
+    "revid": 1997149,
+    "dungeon": "The Ebony Citadel of Mallyx"
+  },
+  {
+    "id": "boss:3:d0abcbfcebc8b6cd",
+    "name": "不屈的马里克斯 3",
+    "campaign": 3,
+    "title": "Citadel Chest",
+    "revid": 1997149,
+    "dungeon": "The Ebony Citadel of Mallyx"
+  },
+  {
+    "id": "boss:3:da4acb0af21763fa",
+    "name": "不屈的马里克斯 4",
+    "campaign": 3,
+    "title": "Citadel Chest",
+    "revid": 1997149,
+    "dungeon": "The Ebony Citadel of Mallyx"
+  },
+  {
+    "id": "boss:3:8062e8655c811246",
+    "name": "不屈的马里克斯 5",
+    "campaign": 3,
+    "title": "Citadel Chest",
+    "revid": 1997149,
+    "dungeon": "The Ebony Citadel of Mallyx"
+  },
+  {
+    "id": "boss:3:0d452a8c4f9d8e9d",
+    "name": "不屈的马里克斯 6",
+    "campaign": 3,
+    "title": "Citadel Chest",
+    "revid": 1997149,
+    "dungeon": "The Ebony Citadel of Mallyx"
+  }
+]

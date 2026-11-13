@@ -1,0 +1,11 @@
+{
+  "title": "Vania Sewell",
+  "pageid": 18252,
+  "revid": 2535375,
+  "revisedAt": "2013-02-25T09:12:31Z",
+  "sha1": "16a613da4c6e24f968d12454c371c18366fdcef7",
+  "url": "https://wiki.guildwars.com/wiki/Vania_Sewell",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vania%20Sewell&oldid=2535375",
+  "retrievedAt": "2026-11-13T01:10:04.169Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Krytan f.jpg|150px]]\n| affiliation = Krytans\n| type = Human\n| service = Collector\n| level = 10 (20)\n| campaign = Prophecies\n| map1 = [[File:Vania Sewell map.jpg|150px]]\n| map1-text = Location in Witman's Folly\n| map2 = [[File:Witman's Folly collectors map.jpg|150px]]\n| map2-text = Location\n}}\n[[Vania Sewell]] is a collector, a type of [[NPC]] that exchanges [[Trophy|trophies]] for armor.\n\n==Locations==\n*[[Southern Shiverpeaks]]\n**{{NPC location|Witman's Folly}}\n\n==Dialogue==\n:''\"I'm searching for 7 Azure Remains. I can offer you one of the following items in exchange. Can you help me?\"''\n\n{{collector no armor trade dialogue|Azure Remains}}\n\n==Collector items==\n{{:Vania Sewell/Collector armor}}\n\n==Notes==\n*Each of the items Vania offers can be sold for 125 {{gold}}, while selling 7 [[Azure Remain]]s by themselves will only net you 56 {{gold}}."
+}

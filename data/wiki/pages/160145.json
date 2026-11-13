@@ -1,0 +1,11 @@
+{
+  "title": "P.O.X.",
+  "pageid": 160145,
+  "revid": 2542633,
+  "revisedAt": "2013-04-21T21:21:46Z",
+  "sha1": "77dc7d3ad09e2c1c696c3514889969b8b887aa1f",
+  "url": "https://wiki.guildwars.com/wiki/P.O.X.",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=P.O.X.&oldid=2542633",
+  "retrievedAt": "2026-11-13T02:27:06.290Z",
+  "wikitext": "__NOTOC__\n{{NPC infobox\n| type = Golem\n| profession = e\n| level = 29\n| boss = y\n| campaign = Beyond\n| required = Factions\n}}\n[[P.O.X.]] is one of the [[Golem]]s created by [[Zinn]].\n\n== Locations ==\n* [[Kaineng City]]\n** {{NPC location|Wajjun Bazaar}} (only during [[Deactivating P.O.X.]])\n\n== Quests ==\n'''Quests involved in:'''\n* [[Deactivating P.O.X.]]\n\n== Skills ==\n* {{monster skill icon|Bloodstone Slash}}\n* {{monster skill icon|Golem Strike}}\n* {{monster skill icon|Internal Power Engaged}}\n* {{monster skill icon|Reactor Blast}}\n* {{monster skill icon|Reactor Blast Timer}}\n* {{monster skill icon|Stun Immunity}}\n* {{monster skill icon|Target Acquisition}}\n\n==Armor ratings==\n{{NPC statistics\n| prof = e\n| blunt = 120\n| piercing = 120\n| slashing = 120\n| cold = 120\n| earth = 120\n| fire = 120\n| lightning = 120\n}}\n\n== Dialogue ==\n: ''*KILL KI-SU*''\n\n== Notes ==\n* P.O.X. begins casting Reactor Blast soon after using Reactor Blast Timer, which causes a speech bubble counting down from 5 to 0 to appear over the boss. Until the countdown reaches zero, the Reactor Blast skill cannot be interrupted.\n* Because it is a boss, P.O.X.'s Reactor Blast actually does 400 damage instead of the 200 the skill states. It is wise to retreat for a moment right before this skill activates, due to the massive amount of damage this deals. It is also helpful to move away from P.O.X. if you are the target, as this will cause him to move, interrupting the Reactor Blast.\n* None of his skills require [[energy]], making energy denial useless.\n* [[Grenth's Balance]] is very useful against him if you survive the Reactor Blast, and then steal back life.\n* The Asuran Skill [[Pain Inverter]] is rather helpful.\n* Consider bringing a [[hero]] with [[Psychic Distraction]] or other interrupts to interrupt his skills.\n\n==Trivia==\n*Pox is a sickness or plague, likely a reference to the [[Afflicted]].\n\n[[Category:Zinn's Task NPCs]]"
+}

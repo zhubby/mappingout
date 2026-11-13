@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of unique wands",
+  "pageid": 89212,
+  "revid": 2460639,
+  "revisedAt": "2012-03-08T19:54:32Z",
+  "sha1": "cb9f3c49159cc2204d16a45f76c6c0556aa885ba",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_unique_wands",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20unique%20wands&oldid=2460639",
+  "retrievedAt": "2026-11-13T02:28:01.950Z",
+  "wikitext": "<dpl>\n  category = Unique wands\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%,.jpg|[[%PAGE%]]\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by type|Wands]]\n[[Category:Unique wands|+]]"
+}

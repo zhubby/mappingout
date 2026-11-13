@@ -1,0 +1,11 @@
+{
+  "title": "Guardian of Whispers",
+  "pageid": 34556,
+  "revid": 2573049,
+  "revisedAt": "2014-08-01T06:43:01Z",
+  "sha1": "abbb3db9b7ba110871da61835a799d152b41c743",
+  "url": "https://wiki.guildwars.com/wiki/Guardian_of_Whispers",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Guardian%20of%20Whispers&oldid=2573049",
+  "retrievedAt": "2026-11-13T02:15:37.588Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Order of Whispers.jpg|150px]]\n| affiliation = Order of Whispers\n| type = Human\n| service = Gatekeeper\n| level = 20\n| campaign = Nightfall\n}}\nThe [[Guardian of Whispers]] guards the entrance to the innermost area of the Chantry of Secrets. That area is only accessible after completion of the [[Nightfall campaign]] (that is, the [[Abaddon's Gate]] mission), and contains the statue of the [[Goddess of Truth]]. [[Kneel]]ing at that statue summons the [[Seer of Truth]], the goddess' avatar, which in turn grants access to the [[Domain of Anguish]].\n\n==Locations==\n*[[Vabbi]]\n**{{NPC location|Chantry of Secrets}}\n\n==Dialogue==\nOutside the gate, in the general area:\n:''\"The area behind these doors is not yet ready for public access.\"''\n:'''{{yes}} I would like to pay my respects to the new god [[Kormir]].''' (After completion of Abaddon's Gate.)\n::''\"Oh, so you know of the new statue? Well, I guess you can come in to sneak a peak. {{sic|Should be 'peek'}} Let me know when you're ready.\"\n::;{{yes}} I am ready.\n::;{{no|ingame}} I am not ready.\n\nInside the gate, in the inner area:\n:''\"I will let you pass. Tell me when you're ready.\"''\n:;{{yes}} I am ready.\n:;{{no|ingame}} I am not ready."
+}

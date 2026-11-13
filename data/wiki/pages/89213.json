@@ -1,0 +1,11 @@
+{
+  "title": "Gallery of unique focus items",
+  "pageid": 89213,
+  "revid": 2460637,
+  "revisedAt": "2012-03-08T19:54:22Z",
+  "sha1": "d2abb3bb8a0fc4aecb5f6d36b575078aa59e4af3",
+  "url": "https://wiki.guildwars.com/wiki/Gallery_of_unique_focus_items",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gallery%20of%20unique%20focus%20items&oldid=2460637",
+  "retrievedAt": "2026-11-13T02:28:00.494Z",
+  "wikitext": "<dpl>\n  category = Unique focus items\n  allowcachedresults = true\n  format = <gallery perrow=\"5\">\\n,Image:%PAGE%.jpg¦[[%PAGE%]],\\n,</gallery>\n</dpl>\n\n[[Category:Unique item galleries by type|Focus items]]\n[[Category:Unique focus items|+]]"
+}

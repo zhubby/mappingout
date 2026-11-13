@@ -1,0 +1,11 @@
+{
+  "title": "\"Blobby\"",
+  "pageid": 68166,
+  "revid": 2562755,
+  "revisedAt": "2014-01-21T07:33:19Z",
+  "sha1": "4859bd74e57c9759e6ef11ebe86af27241b6b18b",
+  "url": "https://wiki.guildwars.com/wiki/%22Blobby%22",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Blobby%22&oldid=2562755",
+  "retrievedAt": "2026-11-13T02:16:05.573Z",
+  "wikitext": "{{NPC infobox\n| type = Jelly\n| image = [[Image:Shimmering Ooze.jpg|150px]]\n| profession = Mesmer\n| level = 20\n| campaign = Eye of the North\n}}__NOTOC__\n[[\"Blobby\"]] will follow your character around and help you fight if you feed it a [[Fleshreaver Morsel]].\n\n==Locations==\n*[[Depths of Tyria]]\n**{{NPC location|Rragar's Menagerie}}\n**{{NPC location|Epilogue}}\n\n==Skills==\n*{{skill icon|Arcane Larceny}}\n*{{skill icon|Arcane Thievery}}\n*{{skill icon|Inspired Enchantment}}\n*{{skill icon|Inspired Hex}}\n*{{skill icon|Revealed Enchantment}}\n*{{skill icon|Revealed Hex}}\n*{{skill icon|Simple Thievery}}  ([[elite]])\n\n==Dialogue==\n''*This strange creature is currously passive. Perhaps if you feed it....*\n:{{yes|ingame}} '''Feed it a Fleshreaver Morsel.'''\n:''You've made a friend!''\n:{{no|ingame}} '''Mom always said, \"Don't feed the animals.\"'''\n\nEpilogue:\n:''\"*Glop. Glop. Glop.*\"''\n\n==Trivia==\n* Named after [[Bobby Stein]] ([http://wiki.guildwars.com/index.php?title=User_talk:Emily_Diehl/Trivia_archive_2&oldid=447273#Edielh_Shockhunter source]).\n\n{{DEFAULTSORT:Blobby}}\n[[Category:Jellies]]\n[[Category:NPCs named after ArenaNet staff]]"
+}

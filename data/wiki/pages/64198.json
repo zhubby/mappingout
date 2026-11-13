@@ -1,0 +1,11 @@
+{
+  "title": "Keti",
+  "pageid": 64198,
+  "revid": 2413426,
+  "revisedAt": "2011-11-24T19:06:59Z",
+  "sha1": "64bffd5662fe5ae3c686451745e5bdf8af42f1af",
+  "url": "https://wiki.guildwars.com/wiki/Keti",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Keti&oldid=2413426",
+  "retrievedAt": "2026-11-13T02:15:45.905Z",
+  "wikitext": "__NOTOC__{{NPC infobox\n| image = [[File:Valgar Tempestcrafter.jpg|150px]]\n| species = Norn\n| service = Weaponsmith\n| level = 20\n| campaign = Eye of the North\n| map1 = [[File:Keti Map.jpg|150px]]\n| map1-text = Location in [[Gunnar's Hold]]\n}}\n[[Keti]] is a [[weaponsmith]], a type of [[NPC]] that [[craft]]s weapons in exchange for [[crafting material]]s and [[gold]] and/or [[customize]]s weapons. It costs 10 gold to get a weapon customized.\n\n==Locations==\n*[[Far Shiverpeaks]]\n**{{NPC location|Gunnar's Hold}}\n\n==Dialogue==\nIf you have the [[Norn rank]] 3 or less:\n:''\"Well, if it isn't <character name>. We've heard tales of your advertures, traveler, but they are short fiction compared to the epic deeds of the Norn. If you want my help, then you must prove your strength by becoming a [[Norn rank|Slayer of Giants]].\"''\n\nIf you have Norn rank 4 or more:\n{{weaponsmith dialogue}}\n\n==Weapons offered==\n{{:Keti/Weapons}}\n\n==Notes==\n*To use this [[NPC]]'s services, you must obtain [[Norn rank]] 4 (Slayer of Giants)."
+}

@@ -1,0 +1,69 @@
+.profession-token {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(145deg, #29312f, #0b1412);
+  border: 1.5px solid var(--profession-color);
+  border-radius: 50%;
+  box-shadow: 0 2px 5px #000b, 0 0 0 2px #101914c4;
+}
+.profession-token img {
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 1px #000b);
+}
+.atlas-marker .profession-token { position: absolute; left: -2px; top: -2px; }
+.atlas-marker.chosen .profession-token {
+  border: 2px solid #fff6d9;
+  box-shadow: 0 0 0 3px #edd29988, 0 0 0 6px #edd29922, 0 3px 10px #000a;
+  transform: scale(1.15);
+}
+.atlas-marker:focus-visible .profession-token { outline: 2px solid #fff6d9; outline-offset: 4px; }
+.profession-map-legend {
+  position: absolute;
+  bottom: 54px;
+  left: 20px;
+  right: 64px;
+  z-index: 420;
+  border: 1px solid #62705a75;
+  border-radius: 9px;
+  background: #101b17f5;
+  box-shadow: 0 6px 30px #0007;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+.profession-legend-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 14px;
+  color: #d1d6c4;
+  font-size: 11px;
+  text-align: left;
+}
+.profession-legend-toggle i { width: 5px; height: 5px; border-radius: 50%; background: #cbb580; }
+.profession-legend-toggle small { margin-left: auto; font-size: 9px; color: #9ca995; }
+.profession-legend-toggle svg { margin-left: auto; color: #9ca995; }
+.profession-legend-toggle small + svg { margin-left: 2px; }
+.profession-legend-toggle[aria-expanded=true] svg { transform: rotate(180deg); }
+.profession-legend-toggle:focus-visible { outline-offset: -3px; }
+.profession-legend-items {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px 5px;
+  list-style: none;
+  padding: 0 10px 13px;
+  margin: 0;
+}
+.profession-legend-items[hidden] { display: none; }
+.profession-legend-items li { display: flex; flex-direction: column; align-items: center; gap: 7px; color: #c8d0c3; font-size: 10px; }
+.profession-legend-items .profession-token { width: 29px; height: 29px; }
+@media (min-width: 1400px) { .profession-legend-items { grid-template-columns: repeat(10, minmax(0, 1fr)); } }
+@media (max-width: 800px) {
+  .profession-map-legend { left: 12px; bottom: 54px; }
+  .profession-legend-toggle { padding: 10px 11px; font-size: 10px; }
+  .profession-legend-toggle small { display: none; }
+}

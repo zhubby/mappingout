@@ -1,13 +1,17 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import L from 'leaflet';
-import { Crosshair, Minus, Plus, Maximize, Navigation } from 'lucide-react';
+import { ChevronDown, Crosshair, Minus, Plus, Maximize, Navigation } from 'lucide-react';
 import type { Entry, Note, Place, Region } from './types';
 import { kindNames, kindSymbols } from './types';
 import { assetUrl } from './domain';
+import { professionById, professions } from './professions';
+import './profession-markers.css';
 interface Props { region: Region; entries: Entry[]; selected?: Entry; focus?: Place; focusKey: number; notes: Note[]; onSelect(e: Entry, p: Place): void; onNote(x: number, y: number): void; onEditNote(n: Note): void; noteMode: boolean }
 export function AtlasMap({ region, entries, selected, focus, focusKey, notes, onSelect, onNote, onEditNote, noteMode }: Props) {
   const host = useRef<HTMLDivElement>(null), map = useRef<L.Map | null>(null), group = useRef<L.LayerGroup | null>(null);
   const [coords, setCoords] = useState('拖动探索 · 滚轮缩放'), [mapError, setMapError] = useState(false);
+  const [legendOpen, setLegendOpen] = useState(() => window.matchMedia('(min-width: 1200px)').matches);
+  const showProfessions = !noteMode && region.verified && entries.some(entry => entry.kind === 'skill' && professionById.has(entry.profession || 0) && entry.locations.some(place => place.valid && place.region === region.id));
   const callbacks = useRef({ onNote, noteMode }); callbacks.current = { onNote, noteMode };
   const viewState = useRef({ region, focus }); viewState.current = { region, focus };
   useEffect(() => {
@@ -40,10 +44,16 @@ export function AtlasMap({ region, entries, selected, focus, focusKey, notes, on
     if (region.verified) for (const e of entries) for (const p of e.locations) {
       if (p.region !== region.id || !p.valid) continue;
       const isSelected = selected?.id === e.id;
-      const marker = L.marker([-p.y, p.x], { title: `${kindNames[e.kind]}：${e.name}`, alt: e.name, icon: L.divIcon({ className: `atlas-marker ${e.kind} ${isSelected ? 'chosen' : ''}`, html: `<span>${kindSymbols[e.kind]}</span>`, iconSize: [26,26], iconAnchor: [13,13] }), zIndexOffset: isSelected ? 2000 : e.kind === 'zone' ? -200 : 0 });
-      const label = document.createElement('span'); label.textContent = `${e.name} · ${kindNames[e.kind]}`;
+      const profession = e.kind === 'skill' ? professionById.get(e.profession || 0) : undefined;
+      let html: string | HTMLElement = `<span>${kindSymbols[e.kind]}</span>`;
+      if (profession) {
+        const token = document.createElement('div'); token.className = 'profession-token'; token.style.setProperty('--profession-color', profession.color);
+        const image = document.createElement('img'); image.src = profession.icon; image.alt = ''; image.setAttribute('aria-hidden', 'true'); token.append(image); html = token;
+      }
+      const marker = L.marker([-p.y, p.x], { title: `${kindNames[e.kind]}：${e.name}${profession ? ` · ${profession.name}` : ''}`, alt: e.name, icon: L.divIcon({ className: `atlas-marker ${e.kind} ${isSelected ? 'chosen' : ''}`, html, iconSize: [26,26], iconAnchor: [13,13] }), zIndexOffset: isSelected ? 2000 : e.kind === 'zone' ? -200 : 0 });
+      const label = document.createElement('span'); label.textContent = `${e.name} · ${profession ? `${profession.name} / ` : ''}${kindNames[e.kind]}`;
       marker.bindTooltip(label, { direction: 'top', offset: [0,-10] }).on('click', ev => { L.DomEvent.stopPropagation(ev); onSelect(e,p); }).addTo(g);
-      const el = marker.getElement(); if (el) { el.setAttribute('aria-label', `${kindNames[e.kind]}：${e.name}`); el.setAttribute('role','button'); }
+      const el = marker.getElement(); if (el) { el.setAttribute('aria-label', `${kindNames[e.kind]}：${e.name}`); el.setAttribute('role','button'); if (profession) el.dataset.profession = String(profession.id); }
     }
     for (const n of notes) {
       if (n.region !== region.id || n.x > region.width || n.y > region.height) continue;
@@ -63,6 +73,10 @@ export function AtlasMap({ region, entries, selected, focus, focusKey, notes, on
     <div className="map-controls"><button aria-label="放大" onClick={() => map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="缩小" onClick={() => map.current?.zoomOut()}><Minus size={19}/></button><span/><button aria-label="显示完整地图" onClick={() => map.current?.fitBounds([[-region.height,0],[0,region.width]])}><Maximize size={18}/></button></div>
     <div className="map-coordinates"><Crosshair size={13}/><span>{coords}</span></div>
     <div className="map-source">GUILD WARS · ORIGINAL ATLAS</div>
+    {showProfessions && <section className="profession-map-legend" aria-label="技能职业图例">
+      <button type="button" className="profession-legend-toggle" aria-expanded={legendOpen} aria-controls="map-profession-key" onClick={() => setLegendOpen(open => !open)}><i aria-hidden="true"/><span>技能点 · 职业图例</span><small>职业颜色 + 职业图标</small><ChevronDown size={14}/></button>
+      <ul id="map-profession-key" className="profession-legend-items" hidden={!legendOpen}>{professions.map(profession => <li key={profession.id}><div className="profession-token" style={{ '--profession-color': profession.color } as CSSProperties}><img src={profession.icon} alt="" aria-hidden="true"/></div><span>{profession.name}</span></li>)}</ul>
+    </section>}
     {(mapError || !region.image) && <div className="map-alert">地图图片暂不可用；请联网访问此地区后重试。</div>}
     {noteMode && <div className="map-tip">点击地图添加个人笔记</div>}
   </div>;

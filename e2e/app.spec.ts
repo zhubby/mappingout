@@ -1,5 +1,43 @@
 import { expect, test } from '@playwright/test';
 
+test('skill markers match all ten professions and keep their legend available offline on mobile', async ({ page, context, request }) => {
+  const catalog = await (await request.get('/data/catalog.json')).json();
+  const skills = new Map<string, number>(catalog.records.filter((entry: any) => entry.kind === 'skill').map((entry: any) => [entry.name, entry.profession]));
+  await page.goto('/?kind=skill&region=3%3A3&map=3%3A3');
+  await expect(page.locator('.atlas-marker.skill').first()).toBeVisible();
+  const markers = await page.locator('.atlas-marker.skill').evaluateAll(elements => elements.map(element => ({ name: element.getAttribute('aria-label')!.replace(/^技能：/, ''), profession: Number((element as HTMLElement).dataset.profession) })));
+  expect([...new Set(markers.map(marker => marker.profession))].sort((a, b) => a - b)).toEqual([1,2,3,4,5,6,7,8,9,10]);
+  for (const marker of markers) expect(marker.profession, marker.name).toBe(skills.get(marker.name));
+  await page.waitForFunction(() => Array.from(document.querySelectorAll<HTMLImageElement>('.atlas-marker.skill img')).every(image => image.complete && image.naturalWidth > 0));
+  const toggle = page.getByRole('button', { name: /技能点 · 职业图例/ });
+  await expect(toggle).toHaveAttribute('aria-expanded', 'true');
+  await expect(page.locator('.profession-legend-items li')).toHaveCount(10);
+  await toggle.click();
+  await expect(page.locator('.profession-legend-items')).toBeHidden();
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.reload();
+  await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+  await toggle.click();
+  await expect(page.locator('.profession-legend-items')).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.evaluate(async () => {
+    await navigator.serviceWorker.ready;
+    if (!navigator.serviceWorker.controller) await new Promise<void>(resolve => navigator.serviceWorker.addEventListener('controllerchange', () => resolve(), { once: true }));
+  });
+  await expect.poll(() => page.evaluate(async () => {
+    const images = Array.from(document.querySelectorAll<HTMLImageElement>('.profession-legend-items img'));
+    return images.length === 10 && (await Promise.all(images.map(async image => image.src.startsWith('data:') || !!await caches.match(image.src, { ignoreVary: true })))).every(Boolean);
+  })).toBe(true);
+  await context.setOffline(true);
+  await page.reload();
+  await toggle.click();
+  await page.waitForFunction(() => Array.from(document.querySelectorAll<HTMLImageElement>('.profession-legend-items img, .atlas-marker.skill img')).every(image => image.complete && image.naturalWidth > 0));
+  await context.setOffline(false);
+  await page.locator('.legend-items').getByRole('button', { name: '技能', exact: false }).click();
+  await expect(page.locator('.atlas-marker.skill')).toHaveCount(0);
+  await expect(page.getByRole('region', { name: '技能职业图例' })).toHaveCount(0);
+});
+
 test('NPC skills keep mode, mission and level conditions without subsection headings', async ({ page }) => {
   for (const [id, condition] of [
     ['boss:1:18f9e0515f33e488', 'Earth Shaker (elite, Hard mode only)'],

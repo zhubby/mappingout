@@ -59,6 +59,6 @@ Wrangler HTTP 验证结果：
 
 补核全部 366 条旧区域，另以独立 ID 补入莱苏皇宫探索版本。当前 3,022 条资料全部带本轮字段审查来源；136 个清剿目标对应 136 个独立 Wiki 区域，篇章分布为 54 / 33 / 34 / 15。五个错误清剿目标已停用，旧 ID、原始坐标与个人备份格式保留。
 
-`npm run wiki:compile`、`npm run build:data`、78 项单元测试、16 项 Wrangler 浏览器测试，以及 `npm run check:worker` 全部通过。新增浏览器流程验证地下城和非清剿区域不显示清剿按钮、莱苏任务与探索版本分开，以及无确认坐标区域的篇章 / 地区 / 区域筛选、角色记录和刷新恢复。
+`npm run wiki:compile`、`npm run build:data`、78 项单元测试、17 项 Wrangler 浏览器测试，以及生产构建和部署 dry-run 全部通过。新增浏览器流程验证地下城和非清剿区域不显示清剿按钮、莱苏任务与探索版本分开，以及无确认坐标区域的篇章 / 地区 / 区域筛选、角色记录和刷新恢复。NPC 技能列表回归验证 Root Behemoth 的困难模式限定、The Afflicted Senku 的任务限定和 Oni 的等级限定在没有子标题时也能展开查看。
 
 `node scripts/wiki/audit-references.mjs --remote` 通过系统代理与 Wiki API 核验全部 3,027 个实际引用修订的页面 ID、标题、修订号、时间及原文 SHA-1；本地快照原文哈希全部一致。核验记录保存在 `data/wiki/source-audit.json`。两处无法确认的旧 NPC / 物品身份继续明确标注，不补造属性或位置。

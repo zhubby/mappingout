@@ -57,7 +57,7 @@ for (const value of bosses) {
   const names = { 1: '战士', 2: '游侠', 3: '僧侣', 4: '死灵法师', 5: '幻术师', 6: '元素使', 7: '刺客', 8: '祭祀', 9: '圣言使', 10: '神唤者' };
   patch(value.id, 'boss', page, {
     description: `${names[facts.profession]} Boss · ${value.areas.join(' / ')}。技能、等级和掉落按 Wiki 所列资料展示；出现条件另见来源备注。`,
-    details: [`主职业：${names[facts.profession]}${facts.secondaryProfession ? `；副职业：${names[facts.secondaryProfession]}` : ''}${facts.thirdProfession ? ` / ${names[facts.thirdProfession]}` : ''}`, `等级（Wiki 原文）：${facts.level}`, `技能列表（英文）：${facts.skills.join(' · ')}`, ...(facts.drops.length ? [`掉落列表（英文）：${facts.drops.join(' · ')}`] : [])],
+    details: [`主职业：${names[facts.profession]}${facts.secondaryProfession ? `；副职业：${names[facts.secondaryProfession]}` : ''}${facts.thirdProfession ? ` / ${names[facts.thirdProfession]}` : ''}`, `等级（Wiki 原文）：${facts.level}`, `技能汇总（英文，模式与出现条件见完整列表）：${facts.skills.join(' · ')}`, ...(facts.drops.length ? [`掉落列表（英文）：${facts.drops.join(' · ')}`] : [])],
     profession: facts.profession, npc: { ...facts, notes: plainText(section(page.wikitext, 'Notes') || section(page.wikitext, 'Note')) }
   }, ['NPC 身份', '主副职业', '等级', '技能与捕获来源', '所在区域', 'Wiki 所列掉落'], [...skills.map(skill => skill.facts.reference), ...areaReferences]);
 }

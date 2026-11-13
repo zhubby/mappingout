@@ -49,7 +49,7 @@ Raisu Palace 主线任务和探索版本是不同实例。旧库仅单列任务�
 
 本轮修正包括 Hundred Blades 的冷却、Energy Surge 的范围伤害比例、Devastating Hammer 的攻击类型、Flint 长杖对所有咒文的回复加成、七彩凤凰初始等级、鹤的等级、狮群任务条件，以及红色 Lurker 和蓝色 Reef Lurker 的身份区别。Flint 旧备注中的十个出生点改为 Wiki 记录的四个；旧备注继续保留。
 
-NPC 提取保留主、副及第三职业，覆盖周年精英技能 Boss；`NPC infobox` 中的 `boss` 标记、大小写职业名及单数 Mission 标题按实际含义处理。Krak Flamewhip 的旧 Dwarven Battle Stance 关联与现有资料冲突，详情已说明其 Jaga Moraine 版本实际使用 Devastating Hammer，且没有 Boss 光环。跨区域 / 模式的技能分组保留英文条件，避免把不同版本的技能当成同一套配置。
+NPC 提取保留主、副及第三职业，覆盖周年精英技能 Boss；`NPC infobox` 中的 `boss` 标记、大小写职业名及单数 Mission 标题按实际含义处理。Krak Flamewhip 的旧 Dwarven Battle Stance 关联与现有资料冲突，详情已说明其 Jaga Moraine 版本实际使用 Devastating Hammer，且没有 Boss 光环。跨区域 / 模式的技能分组保留英文条件，避免把不同版本的技能当成同一套配置。完整技能与出现条件对有、无子标题的列表均可展开，保留 Root Behemoth 的困难模式限定、The Afflicted Senku 的任务限定和 Oni 的等级限定；汇总列表不表示所有版本同时具有全部技能。
 
 所有旧记录 ID、地点 ID、章节与像素坐标均保持兼容。`data/wiki/legacy-identities.json` 保存校订前 ID 与坐标的 SHA-256 指纹，测试比较全部旧记录；新增 Wiki 区域采用独立 ID，且不借用旧实例坐标。地点出现条件的文字修正不会被解释成像素坐标已经核验。
 

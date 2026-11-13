@@ -1,5 +1,18 @@
 import { expect, test } from '@playwright/test';
 
+test('NPC skills keep mode, mission and level conditions without subsection headings', async ({ page }) => {
+  for (const [id, condition] of [
+    ['boss:1:18f9e0515f33e488', 'Earth Shaker (elite, Hard mode only)'],
+    ['boss:2:11dea906d48da837', 'Shadow Form (elite; only during the Eternal Grove and Unwaking Waters missions)'],
+    ['boss:2:609442ae935712a6', 'Shadow Shroud (elite) (levels 25, 28, and 30 only)']
+  ]) {
+    await page.goto(`/?kind=boss&selected=${encodeURIComponent(id)}`);
+    await page.getByText('完整技能与出现条件（英文）', { exact: true }).click();
+    await expect(page.locator('.npc-skill-source')).toBeVisible();
+    await expect(page.locator('.npc-skill-source')).toContainText(condition);
+  }
+});
+
 test('area review separates missions, dungeons and genuine vanquishing targets', async ({ page }) => {
   await page.goto('/?kind=zone&selected=zone%3A4%3A330');
   await expect(page.locator('.english-name')).toHaveText('Battledepths');

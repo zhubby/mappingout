@@ -76,3 +76,19 @@ Wrangler HTTP 验证结果：
 全部 3,706 个实际引用修订的本地原文 SHA-1、Wiki API 页面身份、修订号、时间及 SHA-1 核验通过。654 行独立金币总计和 654 行材料总计已与计算结果对照；两处 Ranger Drakescale AR 55 的来源算术冲突经过 Armorer 总表交叉核对并在界面说明。未处理的配方解析错误为零。
 
 IndexedDB 升级到版本 2，旧角色、进度和笔记通过事务迁移；备份导出 v2 并接受 v1。数据库升级后不应直接回滚到仅支持 v1 的应用；回退代码时须保留 v2 存储兼容层，操作前导出备份。
+
+### 正式发布与线上验收
+
+代码提交 `9ce29dd` 已推送至 GitHub `main`，并通过 Wrangler 发布到 [正式站点](https://mappingout-web.zhubby.workers.dev)。Cloudflare 版本：`410d4407-99a7-4108-b345-81cbd45c8329`；离线缓存版本：`mappingout-e37952656545f3f4efa16120`。
+
+从该 Git 提交导出仅含 Web 工程的独立临时目录，在 Node.js 24.22.3 下执行 `npm ci` 和 `npm run check:worker` 均通过。构建生成相同的 JS/CSS 文件名与离线缓存版本，部署 dry-run 确认 1,016 个静态文件，无需原始 Campaign 目录。
+
+正式域名验收结果：
+
+- 13 项基础 HTTP 检查通过：首页、查询链接、资料库、地图、Service Worker 与 JS/CSS 的状态、内容类型及缓存头正确；四类缺失资源返回真实 404。首页、Service Worker、资料库及 Wiki 报告的 SHA-256 与本地构建一致。
+- 新增护甲与日历 JSON、所选护甲的男女 WebP 预览图均返回 200，缓存头正确且 SHA-256 与本地一致。
+- Edge 独立浏览器上下文确认战士阿斯卡隆 AR 80 制作费合计 5 白金；保存具名计划、勾选身体部位、刷新后仍保留，剩余四部位计算正常。
+- 完成应用缓存后断网刷新，计划及已访问预览图可读取，首次切换日历页面可离线加载；任务完成记录在断网刷新后保留。UTC 时区及 2027-01-01 日期可从 URL 恢复，未来任务按钮禁用。
+- 浏览器使用本次缓存版本且未出现页面脚本错误。首次线上浏览器验收遇到资料加载超过默认 5 秒断言时限，延长验收等待后完整流程通过；未修改产品逻辑。
+
+入口：[护甲制作](https://mappingout-web.zhubby.workers.dev/?view=armor)、[活动日历](https://mappingout-web.zhubby.workers.dev/?view=calendar)。个人数据继续保存在各自浏览器及域名内，未向服务器写入角色或计划。

@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 const exec = promisify(execFile);
 const executable = path.join(process.env.LOCALAPPDATA, 'MappingOut/mappingout-desktop.exe');
 const version=JSON.parse(await fs.readFile('src-tauri/tauri.conf.json','utf8')).version;
-const installer = path.resolve(`releases/${version}/MappingOut_${version}_x64-setup.exe`);
+const installer = path.resolve(process.env.MAPPINGOUT_TEST_INSTALLER || `releases/${version}/MappingOut_${version}_x64-offline-setup.exe`);
 const checks=[];
 let child, browser, page;
 async function launch(){

@@ -13,7 +13,7 @@ const files=[];
 async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())await walk(p);else files.push(p)}}
 await walk(input);await fs.mkdir(out,{recursive:true});
 const hashes=[];const names=new Set();
-for(const file of files){const name=path.basename(file);if(names.has(name))throw Error(`Duplicate release asset ${name}`);names.add(name);const bytes=await fs.readFile(file);await fs.writeFile(path.join(out,name),bytes);if(!name.endsWith('.sig'))hashes.push(`${createHash('sha256').update(bytes).digest('hex')}  ${name}`)}
+for(const file of files){const name=path.basename(file);if(/-setup\.exe(?:\.sig)?$/.test(name)&&!/-offline-setup\.exe(?:\.sig)?$/.test(name))throw Error(`Online installer is not supported: ${name}`);if(names.has(name))throw Error(`Duplicate release asset ${name}`);names.add(name);const bytes=await fs.readFile(file);await fs.writeFile(path.join(out,name),bytes);if(!name.endsWith('.sig'))hashes.push(`${createHash('sha256').update(bytes).digest('hex')}  ${name}`)}
 const platforms={};
 for(const [platform,match] of Object.entries({'windows-x86_64':/_x64-offline-setup\.exe$/,'windows-i686':/_x86-offline-setup\.exe$/,'darwin-aarch64':/\.app\.tar\.gz$/})){
  const matches=[...names].filter(n=>match.test(n));if(matches.length!==1)throw Error(`Expected one updater for ${platform}: ${matches}`);

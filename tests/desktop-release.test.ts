@@ -20,5 +20,8 @@ test('merges only complete offline platform releases and rejects missing signatu
   expect((await fs.readFile(path.join(output,'SHA256SUMS.txt'),'utf8')).trim().split('\n')).toHaveLength(4);
   await fs.unlink(path.join(input,names[1]+'.sig'));
   await expect(exec(process.execPath,args)).rejects.toThrow();
+  await fs.writeFile(path.join(input,names[1]+'.sig'),'signature');
+  await fs.writeFile(path.join(input,'MappingOut_1.1.0_x86-setup.exe'),'online');
+  await expect(exec(process.execPath,args)).rejects.toThrow();
  }finally{await fs.rm(dir,{recursive:true,force:true})}
 });

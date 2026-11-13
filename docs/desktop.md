@@ -31,7 +31,7 @@ GitHub Actions 分别构建 Windows x86、x64 和 Mac arm64，运行测试后合
 
 版本同步维护 package.json、Cargo.toml 和 tauri.conf.json。平台更新键为 windows-i686、windows-x86_64、darwin-aarch64。Windows 更新下载完整离线安装包；Mac 下载签名 app.tar.gz，用户初装使用 DMG。当前更新入口为 GitHub Releases latest/download/latest.json。
 
-Windows 安装包含语言确认窗口，升级不是完全静默。macOS 更新安装后需要重新启动应用。下载失败不影响离线使用，签名校验失败不得安装。首次 Windows 安装可能提示未知发布者；Mac 尚无开发者公证，应按实际系统提示处理。
+Windows 安装包含语言确认窗口，升级不是完全静默。macOS 更新安装后由客户端重新启动应用。下载失败不影响离线使用，签名校验失败不得安装。首次 Windows 安装可能提示未知发布者；Mac 尚无开发者公证，应按实际系统提示处理。
 
 ```sh
 npm test

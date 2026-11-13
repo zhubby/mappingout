@@ -62,3 +62,7 @@ Wrangler HTTP 验证结果：
 `npm run wiki:compile`、`npm run build:data`、78 项单元测试、17 项 Wrangler 浏览器测试，以及生产构建和部署 dry-run 全部通过。新增浏览器流程验证地下城和非清剿区域不显示清剿按钮、莱苏任务与探索版本分开，以及无确认坐标区域的篇章 / 地区 / 区域筛选、角色记录和刷新恢复。NPC 技能列表回归验证 Root Behemoth 的困难模式限定、The Afflicted Senku 的任务限定和 Oni 的等级限定在没有子标题时也能展开查看。
 
 `node scripts/wiki/audit-references.mjs --remote` 通过系统代理与 Wiki API 核验全部 3,027 个实际引用修订的页面 ID、标题、修订号、时间及原文 SHA-1；本地快照原文哈希全部一致。核验记录保存在 `data/wiki/source-audit.json`。两处无法确认的旧 NPC / 物品身份继续明确标注，不补造属性或位置。
+
+已从代码提交 `bc83322` 发布至 [mappingout-web.zhubby.workers.dev](https://mappingout-web.zhubby.workers.dev)。Cloudflare 版本：`d5799eda-e7a0-4350-ba3b-94b333b4471e`；离线缓存版本：`mappingout-fd6a4bedf6e73e0c9ae904de`。通过系统代理使用 Wrangler 本地命令部署；Git 自动部署尚未关联。
+
+正式域名的 13 项 HTTP 检查全部通过：状态码、内容类型和缓存头符合预期，四种缺失资源返回真实 404；首页、Service Worker、资料库及 Wiki 报告的 SHA-256 与本地构建完全一致。线上 Edge 浏览器确认 NPC 技能限定可展开、Battledepths 不显示清剿操作、莱苏皇宫探索版本可按篇章 / 地区 / 区域筛选并刷新恢复，且不显示未经确认的定位按钮。中英文搜索、PvP 详情、地图定位、四篇章剧情折叠和读取报告后的离线刷新通过，访问过的地图可离线显示；缓存版本正确，未出现页面脚本错误。

@@ -1,16 +1,17 @@
-MappingOut Desktop 1.1.1：全新探索纹章图标，继续仅提供完整离线客户端。
+MappingOut Desktop 1.2.0：新增简体中文 / English 语言选择，继续提供完整离线客户端。
 
-- 更新应用图标：古铜罗盘、赤红水晶与深青底色，呼应奇幻冒险和旧地图风格。
-- Windows 多尺寸 ICO 与 macOS ICNS 同步更新，优化任务栏、桌面和 Dock 的辨识度。
+- 界面与资料使用独立语言包，语言偏好自动保存；切换语言保留地图位置、筛选、时区及角色进度，搜索可使用中英文名称。
+- 英文以 Guild Wars Wiki 引用修订为基准，中文按英文翻译。核对了 3,697 个引用页面的当前修订，修正技能百分比、效果对象及过时说明等已发现的问题。
+- 内置 Friz Quadrata Std 英文字体和霞鹜文楷屏幕阅读版中文字体，无需联网加载。
+- 保留原有 ID、地图坐标、制作材料数量、活动轮换及个人备份格式。
 
-- Windows x86（32 位）与 x64：安装包内含相应架构 WebView2 运行时，安装时无需联网。
-- macOS arm64：面向 Apple Silicon，macOS 11 或更新版本，使用系统 WKWebView。
-- 全平台完整内置 20 张地图、查询资料及许可文本，无需服务器或账号。
-- 个人记录保存在本机，支持 JSON 导入导出、自动备份和恢复前备份。
-- 取消需要联网补装运行时的普通 Windows 安装包；Windows 更新同样使用完整离线包。
+本版本按用户明确要求继续发布，资料校订尚未完成：50,723 个中文字段位置待人工复核，2,026 个英文字段待确认 Wiki 来源，1,380 个中文字段有数值／标记待核对项，6,591 个中文字段含未译拉丁词。统计包含重复位置，待核对不等于已确认错误。已手工复核 85 条独立主技能描述及全部 54 条 PvP 描述，不能据此声称全部资料准确或完全单语。
 
-Windows 选择对应架构的 offline-setup.exe。Mac 初次安装使用 DMG，将应用拖入 Applications；app.tar.gz 与 .sig 用于更新验证。检查更新需要联网，日常地图和个人记录可持续离线使用。
+Friz Quadrata Std 的应用内嵌分发许可仍待用户补充，字体清单保留未批准状态；本次发布例外不代表已取得授权。例外严格绑定 1.2.0 的资料指纹，不会自动延续到其他版本。完整记录见仓库 docs/translation-accuracy-audit.md 和 docs/i18n.md。
 
-Windows 应用尚无 Authenticode 发布者证书。macOS 使用 ad-hoc 签名，尚无 Apple Developer ID 签名或公证，Gatekeeper 可能阻止打开。Tauri 更新签名只用于更新完整性校验，不能代替系统发布者签名。
+- Windows x86（32 位）与 x64：offline-setup.exe 内含对应架构 WebView2，安装无需联网。
+- macOS arm64：Apple Silicon，macOS 11 或更新版本；初次安装使用 DMG，app.tar.gz 与 .sig 用于更新验证。
+- 所有平台内置 20 张地图与资料；日常功能无需服务器或账号。检查更新需要联网，更新包同样为完整离线版。
+- 个人记录保存在本机，支持 JSON 备份迁移、自动备份与恢复前备份。语言偏好不写入个人备份。
 
-网页、Windows 和 Mac 的个人记录相互独立，通过 JSON 备份迁移。升级前会保存本地备份；Windows 安装器需要确认语言，Mac 安装更新后自动重新启动。建议定期将备份另存到其他磁盘。
+Windows 尚无 Authenticode 发布者证书；macOS 使用 ad-hoc 签名，尚无 Apple Developer ID 签名或公证。Tauri 更新签名用于完整性校验，不能代替系统发布者签名。

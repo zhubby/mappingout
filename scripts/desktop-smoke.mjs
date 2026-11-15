@@ -102,6 +102,34 @@ try {
   });
   assert.equal(resources.maps, 20); assert.equal(resources.allLoaded, true); assert.equal(resources.workers, 0);
   checks.push({ check: 'all-maps-and-feature-data-offline-no-service-worker', ...resources, passed: true });
+  await page.getByLabel('Language / 语言').selectOption('en');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+  await page.getByRole('textbox', { name: 'Search information' }).fill('Cleave');
+  await page.getByTestId('results').getByRole('button').first().click();
+  await expect(page.locator('.detail-title-row h2')).toHaveText('Cleave');
+  const fontSession = await context.newCDPSession(page);
+  await fontSession.send('DOM.enable'); await fontSession.send('CSS.enable');
+  for (const [locale, family, title] of [['en', 'Friz Quadrata Std', 'Cleave'], ['zh-CN', 'LXGW WenKai Screen', '劈击']]) {
+    await page.getByLabel('Language / 语言').selectOption(locale);
+    await expect(page.locator('.detail-title-row h2')).toHaveText(title);
+    await page.evaluate(family => document.fonts.load(`16px "${family}"`), family);
+    const {root} = await fontSession.send('DOM.getDocument');
+    const {nodeId} = await fontSession.send('DOM.querySelector', {nodeId: root.nodeId, selector: '.detail-title-row h2'});
+    const {fonts} = await fontSession.send('CSS.getPlatformFontsForNode', {nodeId});
+    assert.ok(fonts.some(font => font.familyName === family && font.isCustomFont), family);
+  }
+  await fontSession.detach();
+  await page.getByLabel('Language / 语言').selectOption('en');
+  await page.getByRole('button', {name: 'Armor crafting', exact: true}).click();
+  await expect(page.locator('.armor-results')).toBeVisible();
+  await page.getByRole('button', {name: 'Activity calendar', exact: true}).click();
+  await expect(page.locator('.current-activities')).toBeVisible();
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+  await expect(page.locator('.current-activities')).toBeVisible();
+  await page.getByLabel('Language / 语言').selectOption('zh-CN');
+  await page.getByRole('button', {name: '世界地图', exact: true}).click();
+  checks.push({check: 'offline-language-switch-fonts-search-feature-pages-and-preference', passed: true});
   await page.getByRole('banner').getByRole('button', { name: '创建探索者', exact: true }).click();
   await page.getByRole('textbox', { name: '角色名', exact: true }).fill('桌面验收 中文角色');
   await page.getByRole('dialog').getByRole('button', { name: '创建探索者', exact: true }).click();

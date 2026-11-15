@@ -1,3 +1,4 @@
+import { t, useLocale } from './i18n';
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import L from 'leaflet';
 import { ChevronDown, Crosshair, Minus, Plus, Maximize, Navigation } from 'lucide-react';
@@ -8,9 +9,11 @@ import { professionById, professions } from './professions';
 import './profession-markers.css';
 interface Props { region: Region; entries: Entry[]; selected?: Entry; focus?: Place; focusKey: number; notes: Note[]; onSelect(e: Entry, p: Place): void; onNote(x: number, y: number): void; onEditNote(n: Note): void; noteMode: boolean }
 export function AtlasMap({ region, entries, selected, focus, focusKey, notes, onSelect, onNote, onEditNote, noteMode }: Props) {
+  const locale = useLocale();
   const host = useRef<HTMLDivElement>(null), map = useRef<L.Map | null>(null), group = useRef<L.LayerGroup | null>(null);
-  const [coords, setCoords] = useState('拖动探索 · 滚轮缩放'), [mapError, setMapError] = useState(false);
+  const [coords, setCoords] = useState(t("拖动探索 · 滚轮缩放")), [mapError, setMapError] = useState(false);
   const [legendOpen, setLegendOpen] = useState(() => window.matchMedia('(min-width: 1200px)').matches);
+  const viewportSize = useRef({ width: window.innerWidth, height: window.innerHeight });
   const showProfessions = !noteMode && region.verified && entries.some(entry => entry.kind === 'skill' && professionById.has(entry.profession || 0) && entry.locations.some(place => place.valid && place.region === region.id));
   const callbacks = useRef({ onNote, noteMode }); callbacks.current = { onNote, noteMode };
   const viewState = useRef({ region, focus }); viewState.current = { region, focus };
@@ -22,10 +25,15 @@ export function AtlasMap({ region, entries, selected, focus, focusKey, notes, on
     m.on('click', e => { if (callbacks.current.noteMode) callbacks.current.onNote(Math.round(e.latlng.lng), Math.round(-e.latlng.lat)); });
     const observer = new ResizeObserver(() => {
       if (!host.current?.clientWidth || !host.current.clientHeight) return;
+      let center: L.LatLng | undefined;
+      try { center = m.getCenter(); } catch { /* The first image may not be ready. */ }
+      const zoom = m.getZoom();
       m.invalidateSize({ pan: false });
-      const { region: r, focus: p } = viewState.current;
-      if (p?.valid && p.region === r.id && r.verified) m.setView([-p.y,p.x],Math.max(m.getZoom(),0),{animate:false});
-      else m.fitBounds([[-r.height,0],[0,r.width]],{padding:[24,24],animate:false});
+      const viewportChanged=viewportSize.current.width!==window.innerWidth||viewportSize.current.height!==window.innerHeight;
+      viewportSize.current={width:window.innerWidth,height:window.innerHeight};
+      const {region:r,focus:p}=viewState.current;
+      if(viewportChanged&&p?.valid&&p.region===r.id&&r.verified)m.setView([-p.y,p.x],Math.max(zoom,0),{animate:false});
+      else if (center) m.setView(center, zoom, { animate: false });
     }); observer.observe(host.current);
     return () => { observer.disconnect(); m.remove(); map.current = null; };
   }, []);
@@ -37,7 +45,7 @@ export function AtlasMap({ region, entries, selected, focus, focusKey, notes, on
     overlay?.on('error', () => setMapError(true));
     m.stop(); m.setMaxBounds([[-region.height - 400, -400], [400, region.width + 400]]); m.fitBounds(bounds, { padding: [24,24], animate: false });
     return () => { overlay?.remove(); };
-  }, [region]);
+  }, [region.id, region.image, region.height, region.width]);
   useEffect(() => {
     const m = map.current; if (!m) return;
     const g = L.layerGroup().addTo(m); group.current = g;
@@ -61,23 +69,23 @@ export function AtlasMap({ region, entries, selected, focus, focusKey, notes, on
       L.marker([-n.y,n.x], { icon: L.divIcon({ className: 'atlas-marker note', html: '<span>✎</span>', iconSize: [26,26] }) }).bindTooltip(label).on('click', ev => { L.DomEvent.stopPropagation(ev); onEditNote(n); }).addTo(g);
     }
     return () => { g.remove(); group.current = null; };
-  }, [entries, region, selected, notes, onSelect, onEditNote]);
+  }, [entries, region, selected, notes, onSelect, onEditNote, locale]);
   useEffect(() => {
     if (focus?.valid && focus.region === region.id && region.verified) map.current?.setView([-focus.y, focus.x], Math.max(map.current.getZoom(),0), { animate: false });
-  }, [focus, focusKey, region]);
+  }, [focus, focusKey, region.id, region.verified]);
   return <div className={`map-stage ${noteMode ? 'placing-note' : ''}`}>
     <div ref={host} className="leaflet-host" data-testid="atlas-map"/>
     <div className="map-vignette"/>
-    <div className="map-heading"><span className="eyebrow">TYRIA CARTOGRAPHY / {region.id.replace(':', '—')}</span><h2>{region.name}</h2><span><span className="live-dot"/> {region.verified ? '原始地图 · 地标已核对' : '地图对应关系待确认'}</span></div>
-    <div className="compass"><Navigation size={24}/><span>N</span></div>
-    <div className="map-controls"><button aria-label="放大" onClick={() => map.current?.zoomIn()}><Plus size={19}/></button><button aria-label="缩小" onClick={() => map.current?.zoomOut()}><Minus size={19}/></button><span/><button aria-label="显示完整地图" onClick={() => map.current?.fitBounds([[-region.height,0],[0,region.width]])}><Maximize size={18}/></button></div>
-    <div className="map-coordinates"><Crosshair size={13}/><span>{coords}</span></div>
-    <div className="map-source">GUILD WARS · ORIGINAL ATLAS</div>
-    {showProfessions && <section className="profession-map-legend" aria-label="技能职业图例">
-      <button type="button" className="profession-legend-toggle" aria-expanded={legendOpen} aria-controls="map-profession-key" onClick={() => setLegendOpen(open => !open)}><i aria-hidden="true"/><span>技能点 · 职业图例</span><small>职业颜色 + 职业图标</small><ChevronDown size={14}/></button>
+    <div className="map-heading"><span className="eyebrow">{t("TYRIA CARTOGRAPHY / ")}{region.id.replace(':', '—')}</span><h2>{region.name}</h2><span><span className="live-dot"/> {region.verified ? t("原始地图 · 地标已核对") : t("地图对应关系待确认")}</span></div>
+    <div className="compass"><Navigation size={24}/><span>{t("N")}</span></div>
+    <div className="map-controls"><button aria-label={t("放大")} onClick={() => map.current?.zoomIn()}><Plus size={19}/></button><button aria-label={t("缩小")} onClick={() => map.current?.zoomOut()}><Minus size={19}/></button><span/><button aria-label={t("显示完整地图")} onClick={() => map.current?.fitBounds([[-region.height,0],[0,region.width]])}><Maximize size={18}/></button></div>
+    <div className="map-coordinates"><Crosshair size={13}/><span>{/[0-9]/.test(coords) ? coords : t("拖动探索 · 滚轮缩放")}</span></div>
+    <div className="map-source">{t("GUILD WARS · ORIGINAL ATLAS")}</div>
+    {showProfessions && <section className="profession-map-legend" aria-label={t("技能职业图例")}>
+      <button type="button" className="profession-legend-toggle" aria-expanded={legendOpen} aria-controls="map-profession-key" onClick={() => setLegendOpen(open => !open)}><i aria-hidden="true"/><span>{t("技能点 · 职业图例")}</span><small>{t("职业颜色 + 职业图标")}</small><ChevronDown size={14}/></button>
       <ul id="map-profession-key" className="profession-legend-items" hidden={!legendOpen}>{professions.map(profession => <li key={profession.id}><div className="profession-token" style={{ '--profession-color': profession.color } as CSSProperties}><img src={profession.icon} alt="" aria-hidden="true"/></div><span>{profession.name}</span></li>)}</ul>
     </section>}
-    {(mapError || !region.image) && <div className="map-alert">地图图片暂不可用；请联网访问此地区后重试。</div>}
-    {noteMode && <div className="map-tip">点击地图添加个人笔记</div>}
+    {(mapError || !region.image) && <div className="map-alert">{t("地图图片暂不可用；请联网访问此地区后重试。")}</div>}
+    {noteMode && <div className="map-tip">{t("点击地图添加个人笔记")}</div>}
   </div>;
 }

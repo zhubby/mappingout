@@ -1,13 +1,19 @@
+import { t, getLocale } from '../i18n';
 import { makeBackup, parseBackup } from '../storage';
 import type { Backup, Personal } from '../types';
 
 export const isDesktop = import.meta.env.MODE === 'desktop';
+export async function syncDesktopLocale() {
+  if(!isDesktop)return;
+  const { getCurrentWindow } = await import('@tauri-apps/api/window');
+  await getCurrentWindow().setTitle(getLocale()==='en'?'MappingOut — Tyria Explorer':'MappingOut · 泰瑞亚探索志');
+}
 export interface LocalBackup { name: string; bytes: number; modified: number; kind: 'auto' | 'restore' }
 export interface DesktopInfo { version: string; backupDirectory: string; updateConfigured: boolean }
 
 async function native<T>(command: string, args?: Record<string, unknown>): Promise<T> {
   const { invoke } = await import('@tauri-apps/api/core');
-  return invoke<T>(command, args);
+  return invoke<T>(command, { ...args, locale: getLocale() });
 }
 
 export async function exportBackup(backup: Backup): Promise<boolean> {
@@ -39,7 +45,7 @@ export async function readLocalBackup(name: string): Promise<Backup> {
 }
 export async function openExternal(url: string): Promise<void> {
   const parsed = new URL(url);
-  if (!['https:', 'http:'].includes(parsed.protocol)) throw Error('不支持此链接类型。');
+  if (!['https:', 'http:'].includes(parsed.protocol)) throw Error(t("不支持此链接类型。"));
   const { openUrl } = await import('@tauri-apps/plugin-opener');
   await openUrl(parsed.href);
 }

@@ -1,0 +1,547 @@
+{
+  "Hundred Blades (PvP)": {
+    "pageid": 321777,
+    "revid": 2738536,
+    "englishHash": "ee68d18c4b3ba090eece9320dc6c71bfb61bc80c3f330292d6c1e9f4672aff76"
+  },
+  "Escape (PvP)": {
+    "pageid": 221968,
+    "revid": 2645353,
+    "englishHash": "fa80e657ae6550a642c6e6775248701c8ac7d39467a0ebe639e19577f82419bf"
+  },
+  "Signet of Judgment (PvP)": {
+    "pageid": 148636,
+    "revid": 2630016,
+    "englishHash": "efdc7e180839b49e2c6cf68d4722a0ef542e40f33b16e5a0192cba96a7faf3d3"
+  },
+  "Crippling Anguish (PvP)": {
+    "pageid": 253947,
+    "revid": 2731217,
+    "englishHash": "db30bda8ceea7fc852a7ee91386a74af08ff80da6c5db6d5dda95d8d7d0c5e25"
+  },
+  "Mind Freeze (PvP)": {
+    "pageid": 293538,
+    "revid": 2733294,
+    "englishHash": "ecd836e075d39718b831038c718ca57cd20618692e49b258f1256c48c04c1e08"
+  },
+  "Feel No Pain": {
+    "pageid": 58323,
+    "revid": 2732702,
+    "englishHash": "9c0791478c6c4473976f8be33f361cc20f1ba416f9d07b70da5424643d4fb6a7"
+  },
+  "Eviscerate": {
+    "pageid": 4067,
+    "revid": 2733102,
+    "englishHash": "c1478636e4a5281db9f457ccf70c6f5585f350b149d2a7cd6bfa5ffcf36be446"
+  },
+  "Backbreaker": {
+    "pageid": 3960,
+    "revid": 2733112,
+    "englishHash": "fbb2d16b5577211fd79f4d75349a7b8ceb08bd69e3e842f937bf2c8e06dbb9ba"
+  },
+  "Earth Shaker": {
+    "pageid": 4069,
+    "revid": 2724977,
+    "englishHash": "d08317e92fa902af50df4d74b47f4009d12123fd7878c8bf45612ab186f90761"
+  },
+  "Bull's Charge": {
+    "pageid": 4070,
+    "revid": 2726445,
+    "englishHash": "f57f42aa319f1e80d8bc43cf8126f2c480b32c1b6fe7fe998f6b9062dc1e5fd6"
+  },
+  "Defy Pain": {
+    "pageid": 4072,
+    "revid": 2733091,
+    "englishHash": "0bd0f8999419ea7f354ecfb039a5a1723ae34b58447155c0025b992c474cabba"
+  },
+  "Defy Pain (PvP)": {
+    "pageid": 257109,
+    "revid": 2733316,
+    "englishHash": "4dc0ce1ca119177f80f28b21fbae5fd092c61fac00b40cacb24eedecee5827ba"
+  },
+  "Dwarven Battle Stance": {
+    "pageid": 4074,
+    "revid": 2734347,
+    "englishHash": "3e29ace7b12623555a0b2527de90716ba5f37840f0ad385a3bf22541b5ad6cb5"
+  },
+  "Flourish": {
+    "pageid": 4076,
+    "revid": 2730585,
+    "englishHash": "b3cb8593f97c630d9e51ed27fe10e70d9b85ef1169ab3acedd576976c969dc4e"
+  },
+  "Warrior's Endurance": {
+    "pageid": 4077,
+    "revid": 2695816,
+    "englishHash": "752e5cc2b4f10c0771e363615668435b7838d53fbe5e195e8687759e83c77d5f"
+  },
+  "Warrior's Endurance (PvP)": {
+    "pageid": 202639,
+    "revid": 2630217,
+    "englishHash": "85ecb6e947517593acab39e6dbd57028e3aa33500df681c86a3633097f4b5a51"
+  },
+  "Gladiator's Defense": {
+    "pageid": 4079,
+    "revid": 2731229,
+    "englishHash": "62cbde301485663799dad94e8514d04098e68d9549e778bca2be6025eb965e52"
+  },
+  "\"Victory Is Mine!\"": {
+    "pageid": 4434,
+    "revid": 2726455,
+    "englishHash": "3c95b6cbd5d5cd19af88ae7913bf4d72500d17722a60b412764091a1d4daa342"
+  },
+  "Skull Crack": {
+    "pageid": 4082,
+    "revid": 2728735,
+    "englishHash": "9969fc7fc57e6695924d6f1e0c61485bc007ed95c6c231b9e2a186967232c60c"
+  },
+  "Marksman's Wager": {
+    "pageid": 4083,
+    "revid": 2720389,
+    "englishHash": "47e9b6abf4b93ffc6f4658c5c606bc368fdabc20264d7389a7dbe7d53e234004"
+  },
+  "Oath Shot": {
+    "pageid": 2694,
+    "revid": 2712716,
+    "englishHash": "9665fc45b7b83077fc55d97a6e7ea28f9dec1aee2cc0451f58ba91238ee42908"
+  },
+  "Practiced Stance": {
+    "pageid": 4086,
+    "revid": 2732830,
+    "englishHash": "e0e6ae1396bdf450741077fe77e89a98e2a0b7863160b896d0a4519858819ce2"
+  },
+  "Crippling Shot": {
+    "pageid": 1952,
+    "revid": 2739054,
+    "englishHash": "2ecd108059334bcdde4bd2568274153da17ae07e8d2d4dd970d0dd71afc31907"
+  },
+  "Crippling Shot (PvP)": {
+    "pageid": 321762,
+    "revid": 2738643,
+    "englishHash": "2ecd108059334bcdde4bd2568274153da17ae07e8d2d4dd970d0dd71afc31907"
+  },
+  "Punishing Shot": {
+    "pageid": 2412,
+    "revid": 2733125,
+    "englishHash": "01834597a0e1070855c6819758ce26a0385e9f15ec8d5b5f716383370c1c653b"
+  },
+  "Greater Conflagration": {
+    "pageid": 4087,
+    "revid": 2731263,
+    "englishHash": "d3d0a49979210c3a498fb9d5685705cca9c6fb98247a7d12d55ffeefc8af81d8"
+  },
+  "Incendiary Arrows": {
+    "pageid": 4092,
+    "revid": 2727141,
+    "englishHash": "f7085a313823ac128e930537e7b2592a5459d0d65b8c1dd165be458d9fd68af8"
+  },
+  "Melandru's Arrows": {
+    "pageid": 4095,
+    "revid": 2733128,
+    "englishHash": "9726d84f3531ed4ef425766b46ac3bbbab166dbc58bea9844ef86afefaa74eef"
+  },
+  "Melandru's Resilience": {
+    "pageid": 4100,
+    "revid": 2718854,
+    "englishHash": "1b92576a401e72d683cd5087037a09c19b039079f7c7bbe6a911890a171eb27e"
+  },
+  "Poison Arrow": {
+    "pageid": 4103,
+    "revid": 2678681,
+    "englishHash": "8cb99f93f57a88c2188075cdbaf7edbddaef3b28426d5a28c28e8e6cc6bbf272"
+  },
+  "Aura of Faith": {
+    "pageid": 2625,
+    "revid": 2732819,
+    "englishHash": "403f60abbe2c38fccee6c55b447d815cfbaffcf3feb02c7a5189ba6527d157e3"
+  },
+  "Peace and Harmony": {
+    "pageid": 2906,
+    "revid": 2738315,
+    "englishHash": "5a78f1d33e8f25e8cf1fcc2ed8e7e6be2a5af31e5309a7a3ea4769c7d25c89fa"
+  },
+  "Peace and Harmony (PvP)": {
+    "pageid": 321731,
+    "revid": 2738515,
+    "englishHash": "a0aa5369b3056651ee3e81b0cc35be94083ebd70e7dc3631021656806ff02239"
+  },
+  "Unyielding Aura": {
+    "pageid": 2913,
+    "revid": 2732821,
+    "englishHash": "0669b260aed685c7141cad5bb2f7699d5c1c041daf00a05bbbc2aa166a1f619b"
+  },
+  "Unyielding Aura (PvP)": {
+    "pageid": 154794,
+    "revid": 2630185,
+    "englishHash": "084129c3c4ee98f110749f65186dfbc1478c2a5b6ff3b2fc0a5a500d8b0e6a95"
+  },
+  "Healing Hands": {
+    "pageid": 2939,
+    "revid": 2731195,
+    "englishHash": "9517694c985411be4eb2b9831e5d0a965a2a0667b6a926d29395fdc686397745"
+  },
+  "Amity": {
+    "pageid": 4104,
+    "revid": 2720116,
+    "englishHash": "08a6e765f0cc20b83a40842b9ab0b3f3b487e09d7168054ab8c8d65e60bc52f0"
+  },
+  "Life Barrier": {
+    "pageid": 4106,
+    "revid": 2732822,
+    "englishHash": "c69c876a67d569f3822ebd4cfe62d07d6fe0468af545c26f2065878b7cb711c5"
+  },
+  "Mark of Protection": {
+    "pageid": 4107,
+    "revid": 2723536,
+    "englishHash": "0a813348eccb56b5dcbad0b2c647b4bf18780fbcd71b8fa223391437489971ee"
+  },
+  "Restore Condition": {
+    "pageid": 4108,
+    "revid": 2695694,
+    "englishHash": "e6830f4d6fa413ba08a286551d0149be23ef066c47b7ebaffcaddc868a9460b7"
+  },
+  "Shield of Deflection": {
+    "pageid": 4110,
+    "revid": 2733085,
+    "englishHash": "2dde90ca004581d903a362c6b7f87e7edac7030b24ed099e340c7f52db32108c"
+  },
+  "Shield of Judgment": {
+    "pageid": 4113,
+    "revid": 2657163,
+    "englishHash": "7b063edd05377a9087259acee0dd62b8a4767e76d7ca7004a255f565849e9404"
+  },
+  "Life Transfer": {
+    "pageid": 1752,
+    "revid": 2733074,
+    "englishHash": "d18657ae4fc3b072e661f8680027f1783c9fd72d0294cbfceb6ef8b337168b0f"
+  },
+  "Offering of Blood": {
+    "pageid": 1758,
+    "revid": 2695843,
+    "englishHash": "125584f76567333772ac09aa3945510d3f1679615c1da870662ab88c47ed9056"
+  },
+  "Order of the Vampire": {
+    "pageid": 1766,
+    "revid": 2695755,
+    "englishHash": "1cc28ba1eca7c826784cfea5ff57404e3a5943b5c3e987d903ed854d027c3b32"
+  },
+  "Soul Leech": {
+    "pageid": 1774,
+    "revid": 2728010,
+    "englishHash": "1ba6d2c79e8fc90bd9d1c1aa7b9b10f95fbc97cf2aa62e8773460bbbb66a0cb1"
+  },
+  "Well of Power": {
+    "pageid": 1786,
+    "revid": 2739038,
+    "englishHash": "da593176ca2559a1dcbcd06e0a058697ac3bb3a1891454b6fecf5f57b2325179"
+  },
+  "Feast of Corruption": {
+    "pageid": 4120,
+    "revid": 2743534,
+    "englishHash": "201525751c76ecb759a57dc95303541b28530bbfa603f2a90c890a4558182a3c"
+  },
+  "Spiteful Spirit": {
+    "pageid": 4776,
+    "revid": 2739086,
+    "englishHash": "b474ab24416f49821b34e5984c220d9deef83613bc5aec16c3a4d9d32ea025c6"
+  },
+  "Wither": {
+    "pageid": 4126,
+    "revid": 2731998,
+    "englishHash": "dc2570fc39ff8397f80a8286dd62899f983dac11678d2ff1123575c3ad0f5800"
+  },
+  "Aura of the Lich": {
+    "pageid": 4128,
+    "revid": 2731950,
+    "englishHash": "3f835612c7e62d6fc1ac65c936804dec40f3c1f43aa63c8d9a0160c1a7d1b0ca"
+  },
+  "Virulence": {
+    "pageid": 4131,
+    "revid": 2658751,
+    "englishHash": "6dbd6cb006e81fd278d05a040d3adf7a9fba9ca172109f0ee4e3711564518e21"
+  },
+  "Panic": {
+    "pageid": 1494,
+    "revid": 2695691,
+    "englishHash": "670409731e539885d3dfe765ceb82e79751a1b9797a0bc55cef8baebd61ad8be"
+  },
+  "Power Block": {
+    "pageid": 1493,
+    "revid": 2666055,
+    "englishHash": "e636c7bfac6138607cc5756f5c62a5546d91c18b96299832fb3c59cba76f9849"
+  },
+  "Fevered Dreams": {
+    "pageid": 1568,
+    "revid": 2722582,
+    "englishHash": "27f7b5e7f7501f5195f071b2f9c52929a9c1d4ad52b7071698c2c0e9402d394c"
+  },
+  "Fevered Dreams (PvP)": {
+    "pageid": 276651,
+    "revid": 2738376,
+    "englishHash": "7795d3a7eb1f91240d23938ecd9d3a763fce96254bc5de633b95e229f6634831"
+  },
+  "Illusionary Weaponry": {
+    "pageid": 1583,
+    "revid": 2738384,
+    "englishHash": "54ddaad2a47a3b0ff983e6258e9ab7a877bf874473dac84f4c2908a7fed2e54d"
+  },
+  "Illusionary Weaponry (PvP)": {
+    "pageid": 253807,
+    "revid": 2738386,
+    "englishHash": "cb36b625695923c671c80d4458f641a1602dd6ddc6209c2db62adf497c5553f9"
+  },
+  "Ineptitude": {
+    "pageid": 1593,
+    "revid": 2723542,
+    "englishHash": "02df1161f305495c80a8bbb1c284b3f4bd9e1f1de6f568db1d57686c1763a244"
+  },
+  "Migraine": {
+    "pageid": 1610,
+    "revid": 2661567,
+    "englishHash": "a8d0467676c11919406e0ba73a0012c12ad9d86190dbbe9525e36860fde5660f"
+  },
+  "Migraine (PvP)": {
+    "pageid": 253922,
+    "revid": 2731245,
+    "englishHash": "39b2b6021b623cb6acbd00bd757aa86a867b052d4aa28ae4c61693400870d246"
+  },
+  "Keystone Signet": {
+    "pageid": 1653,
+    "revid": 2664408,
+    "englishHash": "dac3957196ae9500cfd04c3a0d137a21ce580337ddc78c448d8368d5521de2bb"
+  },
+  "Mantra of Recall": {
+    "pageid": 1661,
+    "revid": 2698105,
+    "englishHash": "42762d580ffcb86eb7a992748de00c5d2d63130b8e139836bca68df1d9e05432"
+  },
+  "Mind Shock (PvP)": {
+    "pageid": 293537,
+    "revid": 2733295,
+    "englishHash": "c38be668120ecde71cdb6e5e3f061757250e656c2aebf2e32c1f1e496c70e29e"
+  },
+  "Ether Renewal (PvP)": {
+    "pageid": 136071,
+    "revid": 2720121,
+    "englishHash": "34a096ba954ef4735bae1e0a51245595374e922fb15da7c50ec678813304247f"
+  },
+  "Mist Form (PvP)": {
+    "pageid": 293542,
+    "revid": 2732867,
+    "englishHash": "9d013eddd14a893bffb6f3b1f81839e77a963e1e948d4f738797bd2a95be0522"
+  },
+  "Ward Against Harm (PvP)": {
+    "pageid": 293522,
+    "revid": 2739029,
+    "englishHash": "31c1846b9183934b7dfa8f20320cf1e6f94320acd061514f09aefd2e4b1a469c"
+  },
+  "Enraged Smash (PvP)": {
+    "pageid": 294250,
+    "revid": 2738490,
+    "englishHash": "767cd1d257ba7f79453d4d71a6f4fb20ed2b3e5805171e7f9884e1e3c5a65149"
+  },
+  "Primal Rage (PvP)": {
+    "pageid": 321797,
+    "revid": 2738645,
+    "englishHash": "893bf49f527fb27ac9dc4fc660f1357b3bac301f501b839fe0a0b20eda39bc99"
+  },
+  "\"Coward!\" (PvP)": {
+    "pageid": 321774,
+    "revid": 2738529,
+    "englishHash": "884accad2582076b2b3a95dbb732a9f0d39d22b4a56b8c7d2050a751aee871db"
+  },
+  "Enraged Lunge (PvP)": {
+    "pageid": 215073,
+    "revid": 2738428,
+    "englishHash": "73bce4eb23733169713a24aab73d62f43c7c32ea7136fe8a71177aea610353e0"
+  },
+  "Heal as One (PvP)": {
+    "pageid": 243860,
+    "revid": 2655971,
+    "englishHash": "0bdf362e7b1de88c2dbdb1c44b6e8164c03184e591e6f2c300168b7dda05a27a"
+  },
+  "Glass Arrows (PvP)": {
+    "pageid": 240761,
+    "revid": 2738437,
+    "englishHash": "ae6d50fd7693103ee35f372045439c20f4f4d5d21bf670bcf660c2d63302b047"
+  },
+  "Melandru's Shot (PvP)": {
+    "pageid": 321737,
+    "revid": 2738521,
+    "englishHash": "7ff0be82477f75088abd5b196c8d2ef1a22732deb72ad9b9395656d64aaa1e66"
+  },
+  "Spoil Victor (PvP)": {
+    "pageid": 268912,
+    "revid": 2630088,
+    "englishHash": "a10786af54aec26332ccf65ee4a8f10661df746dba9a2f988806bf86fbbc2490"
+  },
+  "Discord (PvP)": {
+    "pageid": 136084,
+    "revid": 2701361,
+    "englishHash": "109611b3c5d80c5ca5c81b62127ca4be092f59e761ac57234620af4fef8cec42"
+  },
+  "Psychic Instability (PvP)": {
+    "pageid": 253946,
+    "revid": 2731206,
+    "englishHash": "3fbe1dce50286f828020a04c4ba83d34eddb0955b0a88b46208eada5318273df"
+  },
+  "Stolen Speed (PvP)": {
+    "pageid": 253953,
+    "revid": 2630099,
+    "englishHash": "66fc27742199703ac23f365e07d751ee15f5ec3bb60fb296cbe6a4cf3d5acddc"
+  },
+  "Shared Burden (PvP)": {
+    "pageid": 253810,
+    "revid": 2721219,
+    "englishHash": "bf2b79394347dafb969e5102fefc7941bffd629cab9fa3c03a392c148f99c7db"
+  },
+  "Ride the Lightning (PvP)": {
+    "pageid": 293543,
+    "revid": 2738721,
+    "englishHash": "27186449dabd24dc90cd4df39b41a86feb88ba40ecf66db750399777768e7362"
+  },
+  "Energy Boon": {
+    "pageid": 4328,
+    "revid": 2726540,
+    "englishHash": "2add103f90dff8a95f1bbcf5cb14df73a254875ebeab92d0ae3effc53c2b327a"
+  },
+  "Shadow Form (PvP)": {
+    "pageid": 136070,
+    "revid": 2629963,
+    "englishHash": "cdaf7af495d06b8f878ea70f2a3cc80499fed03e7fa259d5f9af5b3870264ac4"
+  },
+  "Shadow Shroud (PvP)": {
+    "pageid": 321732,
+    "revid": 2738509,
+    "englishHash": "0f54b6b28bf6bce7aa1331b599279a066e1f8612dd613236c8c6771acac70d74"
+  },
+  "Signet of Spirits (PvP)": {
+    "pageid": 176113,
+    "revid": 2729057,
+    "englishHash": "5622eb90e429086831c2c3e70fbcf7e8afffabb0661130761095010525d4c00b"
+  },
+  "Wanderlust (PvP)": {
+    "pageid": 207633,
+    "revid": 2739044,
+    "englishHash": "181fcc47cb97ab516c8badd84f6b2881eb538533f0b9cac4269f107f1122b763"
+  },
+  "Preservation (PvP)": {
+    "pageid": 207683,
+    "revid": 2675918,
+    "englishHash": "e60c9ba351a6345161fd92dfc2ca9464752891a455bdc0e574861ba94c343f46"
+  },
+  "Soul Twisting (PvP)": {
+    "pageid": 321751,
+    "revid": 2738524,
+    "englishHash": "7112baa9a47fe3a9ef4f1dfedb9fed235ec8d901aed601bae57a8c8bbd00fd6f"
+  },
+  "Elemental Lord": {
+    "pageid": 41150,
+    "revid": 2691933,
+    "englishHash": "9cb20e3ff414d8bbbc17d6ab07f6fcc7b7f381c4b7c2c5b50fc631824f945875"
+  },
+  "Charging Strike (PvP)": {
+    "pageid": 321771,
+    "revid": 2738929,
+    "englishHash": "a37e4b1d2115147d3838aba8189ea39eb7d2605d814c9e93a508bd560a4b215b"
+  },
+  "Soldier's Stance (PvP)": {
+    "pageid": 243866,
+    "revid": 2630045,
+    "englishHash": "653a4cfe09711f69e99dee2ed464a597e519a2a46a99614ed0afd97927a37201"
+  },
+  "Expert's Dexterity (PvP)": {
+    "pageid": 170195,
+    "revid": 2628842,
+    "englishHash": "28b6eacc0a056c0855ebb21f4dfb6dbc77436f67acb279957b8c48c99b75b323"
+  },
+  "Infuriating Heat (PvP)": {
+    "pageid": 321772,
+    "revid": 2738647,
+    "englishHash": "247a11a65e81336eb65aed2b29b7f8ee54a9be69334eb4243bcbcecbc56a7a40"
+  },
+  "Light of Deliverance (PvP)": {
+    "pageid": 136081,
+    "revid": 2738566,
+    "englishHash": "b7528c856ef2f5dac061b32e4da0b0d0d55b4147d7c5ca17bf47c6998fb192cb"
+  },
+  "Enchanter's Conundrum (PvP)": {
+    "pageid": 253948,
+    "revid": 2732854,
+    "englishHash": "d4348e3a8b88eb1c1cb5ae8611dea9f4d3769f3412d02aa47c8bf98d056d4b29"
+  },
+  "Visions of Regret (PvP)": {
+    "pageid": 268907,
+    "revid": 2630200,
+    "englishHash": "3e9fa898ef5823ac2eaa654349f2b200abfef3036a865698a2a86b146022aa85"
+  },
+  "Tease (PvP)": {
+    "pageid": 321749,
+    "revid": 2739065,
+    "englishHash": "a8512cb14284bfa6a85c2facf8553a30dc036d059104d68820f73a937c19c4e5"
+  },
+  "Savannah Heat (PvP)": {
+    "pageid": 207517,
+    "revid": 2640758,
+    "englishHash": "0734463860a802dae1dc8a55ecf7c773a272bf4500fa949fb565d4c2eaecdfee"
+  },
+  "Destructive Was Glaive (PvP)": {
+    "pageid": 243841,
+    "revid": 2649291,
+    "englishHash": "0c37f4102b61670851ab59150c3a1bbac93fd88f30dfc1cf64f39540eba07af7"
+  },
+  "Weapon of Fury": {
+    "pageid": 4216,
+    "revid": 2738733,
+    "englishHash": "3044b7cb1ead75bda661fee6efdd59854732be710f03d6f42f6ee45f924eb481"
+  },
+  "Signet of Ghostly Might (PvP)": {
+    "pageid": 176114,
+    "revid": 2733305,
+    "englishHash": "3dd89f76563d9946f7ea0d7b873164ccd269105cf6071e6f8540755932ba31fc"
+  },
+  "\"Incoming!\" (PvP)": {
+    "pageid": 136087,
+    "revid": 2645987,
+    "englishHash": "c6714f819b5c9cc17293c9181f5c0bf1108177dd6f9293e69252d2c7f284cea6"
+  },
+  "Defensive Anthem (PvP)": {
+    "pageid": 136088,
+    "revid": 2738948,
+    "englishHash": "28f21086986e9b85ac47090c48f71720302ba08ea685bb3c488ee50a2f76b117"
+  },
+  "Song of Restoration (PvP)": {
+    "pageid": 136083,
+    "revid": 2731343,
+    "englishHash": "edaf1c26b7bde5e5e12ddd6e98f95d4e032df49caddb16b7e06b38710e0fd694"
+  },
+  "Avatar of Dwayna (PvP)": {
+    "pageid": 274802,
+    "revid": 2645373,
+    "englishHash": "49bde38683d5362008e9a161a14476efb392c02ec4c16d7ceb0c3d76558abff1"
+  },
+  "Avatar of Melandru (PvP)": {
+    "pageid": 274757,
+    "revid": 2645374,
+    "englishHash": "d5c4c97bb08775fc3e8a0aa303d2db7ef30bd099307c33f3a4814db95505ced2"
+  },
+  "Wounding Strike (PvP)": {
+    "pageid": 280169,
+    "revid": 2676419,
+    "englishHash": "7ae5d84696415982f795531f749619e7853f9b0c742ae01a3a4d6ce6e211db7c"
+  },
+  "Onslaught (PvP)": {
+    "pageid": 280568,
+    "revid": 2645384,
+    "englishHash": "211dabba5c370bd89a1e43a30c92ffe293d2585540fe3459fe78920ab44058d1"
+  },
+  "\"There's Nothing to Fear!\"": {
+    "pageid": 41125,
+    "revid": 2657131,
+    "englishHash": "069cf455d292ccfc107a7ff8ab49e500e45411f5ca78b3e788b22f2b9c417b5b"
+  },
+  "Time Ward": {
+    "pageid": 313296,
+    "revid": 2738635,
+    "englishHash": "c89e53c40e1eba5c47e8668b398bf1b6773c13befa9cc1e016a1e5aaaed306f9"
+  }
+}

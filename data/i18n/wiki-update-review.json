@@ -1,0 +1,43 @@
+{
+  "reviewedAt": "2026-11-15T11:01:31.764Z",
+  "updates": [
+    {
+      "title": "Feast of Corruption",
+      "pageid": 4120,
+      "previous": 2732022,
+      "current": 2743534,
+      "englishDescriptionHash": "201525751c76ecb759a57dc95303541b28530bbfa603f2a90c890a4558182a3c",
+      "mechanicsUnchanged": true,
+      "warningsBefore": [],
+      "warningsAfter": [],
+      "reviewer": "Manual English Wiki revision diff review"
+    },
+    {
+      "title": "\"You Move Like a Dwarf!\"",
+      "pageid": 58320,
+      "previous": 2667948,
+      "current": 2743533,
+      "englishDescriptionHash": "beca406b511998357a3d598657a9219b078359924c1880b9ee67ad497ba85d03",
+      "mechanicsUnchanged": true,
+      "warningsBefore": [],
+      "warningsAfter": [],
+      "reviewer": "Manual English Wiki revision diff review"
+    },
+    {
+      "title": "Winds",
+      "pageid": 63118,
+      "previous": 2720905,
+      "current": 2743523,
+      "englishDescriptionHash": "54b890d2c357a7509c32333f36e3ee9d315a8bd18a2af03baf6353da3612652d",
+      "mechanicsUnchanged": true,
+      "warningsBefore": [
+        {
+          "kind": "bug",
+          "text": "Winds does not appear on the effects monitor."
+        }
+      ],
+      "warningsAfter": [],
+      "reviewer": "Manual English Wiki revision diff review"
+    }
+  ]
+}

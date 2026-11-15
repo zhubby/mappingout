@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Friz Quadrata Std';
+  src: url('/fonts/friz/friz-quadrata-std-medium-5870338ec7ef8.woff') format('woff');
+  font-weight: 400 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Friz Quadrata Std';
+  src: url('/fonts/friz/friz-quadrata-std-bold-587034a220f9f.woff') format('woff');
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Friz Quadrata Std';
+  src: url('/fonts/friz/friz-quadrata-std-italic-587033b2c95df.woff') format('woff');
+  font-weight: 400 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Friz Quadrata Std';
+  src: url('/fonts/friz/friz-quadrata-std-bold-italic-587033d6d4298.woff') format('woff');
+  font-weight: 600 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LXGW WenKai Screen';
+  src: url('/fonts/lxgw/LXGWWenKaiScreen.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --app-font: 'Friz Quadrata Std', 'LXGW WenKai Screen', serif;
+  font-family: var(--app-font);
+}
+/* Friz supplies Latin glyphs; LXGW supplies CJK in either locale, including user
+   notes. Font files stay local. Distribution approval is a separate release gate. */
+body, button, input, select, textarea, h1, h2, h3, h4, .brand,
+.panel-intro h1, .detail-title-row h2, .modal h2, .map-heading h2,
+.detail-welcome h2, .leaflet-container, .leaflet-tooltip, .local-document,
+.original-content pre, .reset-clock strong { font-family: var(--app-font); }
+.language-selector { display:flex; align-items:center; gap:6px; white-space:nowrap; font-size:12px; }
+.language-selector select { width:auto; min-width:100px; padding:7px 20px 7px 8px; }
+.original-content pre { white-space:pre-wrap; overflow-wrap:anywhere; font-size:12px; line-height:1.65; }
+.topbar { height:auto; min-height:78px; padding-top:10px; padding-bottom:10px; gap:16px; flex-wrap:wrap; }
+.topbar nav { flex-wrap:wrap; justify-content:flex-end; gap:12px; }
+.topbar .top-title { flex:1; }
+:root:lang(en) .eyebrow { letter-spacing:1px; }
+:root:lang(en) .workspace { grid-template-columns: minmax(275px, 310px) minmax(220px, 1fr) minmax(275px, 320px); }
+.kind-tabs, .map-bottom, .backup-summary, .module-nav { flex-wrap:wrap; }
+.filter-grid label, .feature-filter-grid label { min-width:0; }
+.result-copy, .detail-title-row h2, .activity-card, .saved-plan, .armor-result { overflow-wrap:anywhere; }
+.module-nav button { min-height:40px; }
+@media(max-width:1150px) { .topbar .top-title,.topbar .local-status { display:none; } }
+@media(max-width:900px) {
+  .topbar { padding:10px 14px; min-height:64px; }
+  .topbar .brand { width:auto; }
+  .topbar nav { margin-left:auto; gap:8px; }
+  .language-selector>span { display:none; }
+  .language-selector select { min-width:85px; }
+}
+@media(max-width:800px) { :root:lang(en) .workspace { display:flex; } }
+@media(max-width:500px) {
+  .topbar .brand { flex:1; }
+  .topbar nav { flex:1 1 100%; justify-content:space-between; }
+  .top-divider { display:none; }
+}

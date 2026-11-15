@@ -1,3 +1,4 @@
+import { t } from './i18n';
 import { openDB } from 'idb';
 import type { Backup, Personal } from './types';
 export const emptyPersonal = (): Personal => ({ characters: [], progress: [], notes: [], armorPlans: [], activityProgress: [], preferences: { characterId: '', layers: ['skill', 'boss', 'green', 'collector', 'pet', 'treasure', 'zone'], calendarTimezone:'Asia/Shanghai' } });
@@ -19,7 +20,7 @@ function database() {
     blocked() { if(typeof window!=='undefined') window.dispatchEvent(new Event('mappingout-storage-blocked')); },
     blocking() { void opening.then(db=>db.close()); }
   });
-  return opening.catch(error=>{ if(error?.name==='VersionError') throw Error('本地资料格式已升级，请刷新页面后继续。'); throw error; });
+  return opening.catch(error=>{ if(error?.name==='VersionError') throw Error(t("本地资料格式已升级，请刷新页面后继续。")); throw error; });
 }
 const listeners = new Set<() => void>();
 let channel: BroadcastChannel | undefined;
@@ -60,7 +61,7 @@ const object = (v: unknown): v is Record<string, unknown> => !!v && typeof v ===
 const str = (v: unknown, limit = 1000): v is string => typeof v === 'string' && v.length <= limit;
 const validDate = (v: unknown) => str(v) && /^\d{4}-\d{2}-\d{2}$/.test(v) && !isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10) === v;
 export function validatePersonal(value: unknown): Personal {
-  const fail = (): never => { throw new Error('备份内容无效，原有数据未修改。'); };
+  const fail = (): never => { throw new Error(t("备份内容无效，原有数据未修改。")); };
   if (!object(value) || !Array.isArray(value.characters) || !Array.isArray(value.progress) || !Array.isArray(value.notes) || !object(value.preferences)) return fail();
   const { characters, progress, notes, preferences, armorPlans, activityProgress } = value;
   if(!Array.isArray(armorPlans)||!Array.isArray(activityProgress)||armorPlans.length>10000||activityProgress.length>200000) return fail();
@@ -89,13 +90,13 @@ export function validatePersonal(value: unknown): Personal {
   return { characters: characters.map(c => ({ id: c.id, name: c.name.trim() })), progress: progress.map(p => ({ characterId: p.characterId, entryId: p.entryId, done: p.done, ...(p.date ? { date: p.date } : {}) })), notes: notes.map(n => ({ id: n.id, characterId: n.characterId, region: n.region, x: n.x, y: n.y, text: n.text })), armorPlans:armorPlans.map(p=>({id:p.id,characterId:p.characterId,name:p.name.trim(),offerId:p.offerId,pieceIds:[...p.pieceIds],completedPieceIds:[...p.completedPieceIds]})), activityProgress:activityProgress.map(p=>({characterId:p.characterId,activityId:p.activityId,start:p.start,done:p.done})), preferences: { characterId: preferences.characterId, layers: [...new Set(preferences.layers)], calendarTimezone:preferences.calendarTimezone||'Asia/Shanghai' } } as Personal;
 }
 export function migratePersonalV1(value: unknown): Personal {
-  if(!object(value))throw Error('旧版备份内容无效。');
+  if(!object(value))throw Error(t("旧版备份内容无效。"));
   return validatePersonal({...value,armorPlans:[],activityProgress:[],preferences:object(value.preferences)?{...value.preferences,calendarTimezone:'Asia/Shanghai'}:value.preferences});
 }
 export function parseBackup(text: string): Backup {
-  if (text.length > 20_000_000) throw new Error('备份超过 20 MB。');
-  let v; try { v = JSON.parse(text); } catch { throw new Error('无法读取 JSON 备份。'); }
-  if (!object(v) || v.format !== 'mappingout-backup' || ![1,2].includes(v.version as number) || !str(v.exportedAt) || isNaN(Date.parse(v.exportedAt))) throw new Error('不支持此备份格式或版本。');
+  if (text.length > 20_000_000) throw new Error(t("备份超过 20 MB。"));
+  let v; try { v = JSON.parse(text); } catch { throw new Error(t("无法读取 JSON 备份。")); }
+  if (!object(v) || v.format !== 'mappingout-backup' || ![1,2].includes(v.version as number) || !str(v.exportedAt) || isNaN(Date.parse(v.exportedAt))) throw new Error(t("不支持此备份格式或版本。"));
   return { format: 'mappingout-backup', version: 2, exportedAt: v.exportedAt, data: v.version===1?migratePersonalV1(v.data):validatePersonal(v.data), ...(v.version===1?{migratedFrom:1 as const}:{}) };
 }
 export function makeBackup(data: Personal): Backup { return { format: 'mappingout-backup', version: 2, exportedAt: new Date().toISOString(), data: validatePersonal(data) }; }

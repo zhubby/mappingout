@@ -1,0 +1,12 @@
+{
+  "version": "1.2.0",
+  "reason": "The user explicitly requested publishing this version after the pending accuracy work was disclosed, and previously requested use of Friz pending their license resolution. This exception records that release decision; it does not approve translations or claim a font distribution license.",
+  "fingerprint": "9b35729f51a17dfe08f50281869edf4b984a379b2198e6ce40ad71ae7a24e3cf",
+  "acceptedFindings": [
+    "1380 translated fields require numeric/token review",
+    "2026 English fields still require Wiki source verification",
+    "50723 Chinese fields still require review against English Wiki",
+    "6591 Chinese fields still contain untranslated Latin words",
+    "Font distribution not approved: Friz Quadrata Std"
+  ]
+}

@@ -13,13 +13,13 @@ type Result<T> = std::result::Result<T, String>;
 #[derive(Default)]
 struct BackupLock(Mutex<()>);
 
-fn err(e: impl std::fmt::Display) -> String { e.to_string() }
+fn err(e: impl std::fmt::Display) -> String { format!("native.io:{e}") }
 
 fn validate_content(content: &str) -> Result<()> {
-    if content.len() as u64 > MAX_BACKUP { return Err("备份超过 20 MB。".into()); }
+    if content.len() as u64 > MAX_BACKUP { return Err("native.backup-too-large".into()); }
     let value: serde_json::Value = serde_json::from_str(content).map_err(err)?;
     if value["format"] != "mappingout-backup" || value["version"] != 2 || !value["data"].is_object() {
-        return Err("备份格式无效。".into());
+        return Err("native.invalid-backup".into());
     }
     Ok(())
 }
@@ -32,7 +32,7 @@ fn directory(app: &tauri::AppHandle) -> Result<PathBuf> {
 
 // Temp file and final file share a filesystem; persist replaces the destination atomically.
 fn atomic_write(path: &Path, content: &str) -> Result<()> {
-    let parent = path.parent().ok_or("无效的备份目录。")?;
+    let parent = path.parent().ok_or("native.invalid-directory")?;
     let mut file = tempfile::NamedTempFile::new_in(parent).map_err(err)?;
     file.write_all(content.as_bytes()).map_err(err)?;
     file.as_file().sync_all().map_err(err)?;
@@ -41,12 +41,12 @@ fn atomic_write(path: &Path, content: &str) -> Result<()> {
 }
 
 fn read_limited(path: &Path) -> Result<String> {
-    if fs::metadata(path).map_err(err)?.len() > MAX_BACKUP { return Err("备份超过 20 MB。".into()); }
+    if fs::metadata(path).map_err(err)?.len() > MAX_BACKUP { return Err("native.backup-too-large".into()); }
     // Limit the actual read as well, in case another process grows the selected file.
     use std::io::Read;
     let mut content = String::new();
     fs::File::open(path).map_err(err)?.take(MAX_BACKUP + 1).read_to_string(&mut content).map_err(err)?;
-    if content.len() as u64 > MAX_BACKUP { return Err("备份超过 20 MB。".into()); }
+    if content.len() as u64 > MAX_BACKUP { return Err("native.backup-too-large".into()); }
     Ok(content)
 }
 
@@ -74,11 +74,12 @@ fn backups(dir: &Path) -> Result<Vec<LocalBackup>> {
 }
 
 #[tauri::command]
-async fn save_backup(app: tauri::AppHandle, content: String) -> Result<bool> {
+async fn save_backup(app: tauri::AppHandle, content: String, locale: Option<String>) -> Result<bool> {
     validate_content(&content)?;
     tauri::async_runtime::spawn_blocking(move || {
-        let selected = app.dialog().file().set_title("导出个人数据")
-            .add_filter("MappingOut 备份", &["json"]).set_file_name("mappingout-backup.json").blocking_save_file();
+        let english = locale.as_deref() == Some("en");
+        let selected = app.dialog().file().set_title(if english { "Export personal data" } else { "导出个人数据" })
+            .add_filter(if english { "MappingOut backup" } else { "MappingOut 备份" }, &["json"]).set_file_name("mappingout-backup.json").blocking_save_file();
         let Some(selected) = selected else { return Ok(false); };
         let mut path = selected.into_path().map_err(err)?;
         if path.extension().and_then(|s| s.to_str()) != Some("json") { path.set_extension("json"); }
@@ -88,17 +89,18 @@ async fn save_backup(app: tauri::AppHandle, content: String) -> Result<bool> {
 }
 
 #[tauri::command]
-async fn pick_backup(app: tauri::AppHandle) -> Result<Option<String>> {
+async fn pick_backup(app: tauri::AppHandle, locale: Option<String>) -> Result<Option<String>> {
     tauri::async_runtime::spawn_blocking(move || {
-        let selected = app.dialog().file().set_title("从备份恢复")
-            .add_filter("MappingOut 备份", &["json"]).blocking_pick_file();
+        let english = locale.as_deref() == Some("en");
+        let selected = app.dialog().file().set_title(if english { "Restore from backup" } else { "从备份恢复" })
+            .add_filter(if english { "MappingOut backup" } else { "MappingOut 备份" }, &["json"]).blocking_pick_file();
         selected.map(|p| read_limited(&p.into_path().map_err(err)?)).transpose()
     }).await.map_err(err)?
 }
 
 #[tauri::command]
 fn write_local_backup(app: tauri::AppHandle, lock: State<BackupLock>, content: String, kind: String) -> Result<()> {
-    if kind != "auto" && kind != "restore" { return Err("无效的备份类型。".into()); }
+    if kind != "auto" && kind != "restore" { return Err("native.invalid-kind".into()); }
     validate_content(&content)?;
     let _guard = lock.0.lock().map_err(err)?;
     let dir = directory(&app)?;
@@ -119,10 +121,10 @@ fn list_local_backups(app: tauri::AppHandle, lock: State<BackupLock>) -> Result<
 
 #[tauri::command]
 fn read_local_backup(app: tauri::AppHandle, lock: State<BackupLock>, name: String) -> Result<String> {
-    if !valid_name(&name) { return Err("无效的备份文件名。".into()); }
+    if !valid_name(&name) { return Err("native.invalid-name".into()); }
     let _guard = lock.0.lock().map_err(err)?;
     let path = directory(&app)?.join(name);
-    if fs::symlink_metadata(&path).map_err(err)?.file_type().is_symlink() { return Err("不能读取备份链接。".into()); }
+    if fs::symlink_metadata(&path).map_err(err)?.file_type().is_symlink() { return Err("native.symlink".into()); }
     read_limited(&path)
 }
 

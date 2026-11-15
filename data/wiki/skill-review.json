@@ -879,7 +879,7 @@
     {
       "id": "skill:1:177",
       "title": "Feast of Corruption",
-      "revid": 2732022,
+      "revid": 2743534,
       "identity": "英文技能名称 / 描述、技能图标独立比对一致",
       "iconError": 10.622,
       "translated": false,
@@ -4555,7 +4555,7 @@
     {
       "id": "skill:4:325",
       "title": "Winds",
-      "revid": 2720905,
+      "revid": 2743523,
       "identity": "英文技能名称 / 描述、技能图标独立比对一致",
       "iconError": 51.268,
       "translated": false,
@@ -4751,7 +4751,7 @@
     {
       "id": "skill:4:339",
       "title": "\"You Move Like a Dwarf!\"",
-      "revid": 2667948,
+      "revid": 2743533,
       "identity": "英文技能名称 / 描述、技能图标独立比对一致",
       "iconError": 0,
       "translated": false,

@@ -1,3 +1,4 @@
+import { t, getLocale } from './i18n';
 import type { ActivityCatalog, ActivityProgress, ArmorOffer, ArmorPiece, ArmorPlan, Occurrence } from './feature-types';
 import type { Personal } from './types';
 
@@ -8,12 +9,12 @@ export function armorTotal(pieces: ArmorPiece[]) {
 }
 export function planPieces(plan: ArmorPlan, offer: ArmorOffer, remaining=false) { return offer.pieces.filter(p=>plan.pieceIds.includes(p.id)&&(!remaining||!plan.completedPieceIds.includes(p.id))); }
 export function saveArmorPlan(state: Personal, plan: ArmorPlan): Personal {
-  if (!state.characters.some(c=>c.id===plan.characterId)) throw Error('此角色已在其他页面删除，请重新选择角色。');
+  if (!state.characters.some(c=>c.id===plan.characterId)) throw Error(t("此角色已在其他页面删除，请重新选择角色。"));
   return {...state,armorPlans:[...state.armorPlans.filter(p=>p.id!==plan.id),plan]};
 }
 export function setArmorPiece(state: Personal, planId: string, characterId: string, pieceId: string, done: boolean): Personal {
   const plan=state.armorPlans.find(p=>p.id===planId&&p.characterId===characterId);
-  if (!plan || !plan.pieceIds.includes(pieceId)) throw Error('制作计划已变更，请刷新后重试。');
+  if (!plan || !plan.pieceIds.includes(pieceId)) throw Error(t("制作计划已变更，请刷新后重试。"));
   return saveArmorPlan(state,{...plan,completedPieceIds:[...plan.completedPieceIds.filter(id=>id!==pieceId),...(done?[pieceId]:[])]});
 }
 export function occurrenceAt(data: ActivityCatalog, rotationId: string, instant: number): Occurrence | undefined {
@@ -37,8 +38,8 @@ export function nextOccurrence(data: ActivityCatalog, activityId: string, after:
 }
 export function trackableActivity(kind: string) { return ['mission','bounty','combat','vanquish'].includes(kind); }
 export function setActivityProgress(state: Personal, occurrence: Occurrence, characterId: string, done: boolean, now=Date.now()): Personal {
-  if(!state.characters.some(c=>c.id===characterId)) throw Error('此角色已在其他页面删除，请重新选择角色。');
-  if(!trackableActivity(occurrence.activity.kind)||occurrence.start>now) throw Error('未来活动或展示类活动不能标记完成。');
+  if(!state.characters.some(c=>c.id===characterId)) throw Error(t("此角色已在其他页面删除，请重新选择角色。"));
+  if(!trackableActivity(occurrence.activity.kind)||occurrence.start>now) throw Error(t("未来活动或展示类活动不能标记完成。"));
   const record: ActivityProgress={characterId,activityId:occurrence.activity.id,start:new Date(occurrence.start).toISOString(),done};
   return {...state,activityProgress:[...state.activityProgress.filter(p=>!(p.characterId===characterId&&p.activityId===record.activityId&&p.start===record.start)),record]};
 }
@@ -48,7 +49,7 @@ export function dateInZone(instant: number, zone: string) {
   const value=(type:string)=>parts.find(p=>p.type===type)!.value;
   return `${value('year')}-${value('month')}-${value('day')}`;
 }
-export function formatInstant(instant: number, zone: string) { return new Intl.DateTimeFormat('zh-CN',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(instant); }
+export function formatInstant(instant: number, zone: string) { return new Intl.DateTimeFormat(getLocale(),{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(instant); }
 export function dateStart(date: string, zone: string) {
   const center=Date.parse(`${date}T12:00:00Z`);let low=center-2*86400000, high=center+2*86400000;
   while(high-low>1){const mid=Math.floor((low+high)/2);if(dateInZone(mid,zone)<date)low=mid;else high=mid;}

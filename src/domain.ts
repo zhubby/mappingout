@@ -1,7 +1,9 @@
+import { t } from './i18n';
+import { attributeId } from './i18n/attributes';
 import type { Catalog, Entry, Filters, Personal, Place } from './types';
 export const defaultFilters: Filters = { q: '', campaign: '', region: '', zone: '', kind: 'skill', profession: '', attribute: '', incomplete: false, selected: '', map: '1:1' };
 export function normalizeFilters(f: Filters): Filters {
-  return { ...f, attribute: !f.kind || f.kind === 'skill' ? f.attribute : '', profession: !f.kind || f.kind === 'skill' || f.kind === 'boss' ? f.profession : '' };
+  return { ...f, attribute: !f.kind || f.kind === 'skill' ? attributeId(f.attribute) : '', profession: !f.kind || f.kind === 'skill' || f.kind === 'boss' ? f.profession : '' };
 }
 export function readFilters(search: string): Filters {
   const p = new URLSearchParams(search), result = { ...defaultFilters };
@@ -20,7 +22,7 @@ export function toggleProgress(state: Personal, entryId: string, date?: string):
   return setProgress(state, entryId, characterId, !old?.done, date);
 }
 export function setProgress(state: Personal, entryId: string, characterId: string, done: boolean, date?: string): Personal {
-  if (!state.characters.some(c => c.id === characterId)) throw new Error('此角色已在其他页面删除，请重新选择角色。');
+  if (!state.characters.some(c => c.id === characterId)) throw new Error(t("此角色已在其他页面删除，请重新选择角色。"));
   return { ...state, progress: [...state.progress.filter(p => !(p.entryId === entryId && p.characterId === characterId)), { entryId, characterId, done, ...(date ? { date } : {}) }] };
 }
 export function preferredPlace(entry: Entry, filters: Filters): Place | undefined {
@@ -43,9 +45,9 @@ export function query(data: Catalog, f: Filters, state: Personal): Entry[] {
     if (f.region && !belongsToRegion(e, f.region)) return false;
     if (f.zone && e.id !== `zone:${f.zone}` && !e.locations.some(l => l.zone === f.zone)) return false;
     if (f.profession && e.profession !== Number(f.profession)) return false;
-    if (f.attribute && e.attribute !== f.attribute) return false;
+    if (f.attribute && attributeId(e.attribute) !== f.attribute) return false;
     if (f.incomplete && (!trackable(e) || completed(state, e.id)?.done)) return false;
-    const text = [e.name, e.englishName, e.description, e.attribute, e.details.join(' '), e.skill?.description,
+    const text = [e.name, e.englishName, e.searchAliases?.join(' '), e.description, e.attribute, e.details.join(' '), e.skill?.description,
       e.skill?.acquisition?.map(s => s.text).join(' '), e.legacy?.name, e.legacy?.description, e.legacy?.details.join(' '),
       e.locations.map(l => `${l.boss || ''} ${l.note}`).join(' ')].filter(Boolean).join(' ').toLocaleLowerCase();
     return terms.every(t => text.includes(t));

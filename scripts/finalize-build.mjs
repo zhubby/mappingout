@@ -22,6 +22,7 @@ export async function finalizeBuild(dist = path.join(web, 'dist'), templateFile 
   if (!precache.some(name => name.endsWith('.js')) || !precache.some(name => name.endsWith('.css'))) throw new Error('Missing Vite build assets');
   precache.push('data/catalog.json');
   precache.push(...paths.filter(name => ['data/wiki-review.json','data/armor.json','data/calendar.json','licenses/gfdl-1.3.txt'].includes(name)));
+  precache.push(...paths.filter(name => name.startsWith('data/i18n/') || name.startsWith('fonts/')));
   const hash = createHash('sha256').update(template);
   for (const name of paths) {
     const bytes = await fs.readFile(path.join(dist, name));

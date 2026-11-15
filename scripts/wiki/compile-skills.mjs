@@ -41,7 +41,7 @@ for (const record of catalog.records.filter(r => r.kind === 'skill')) {
   const details = [
     `${facts.elite ? '精英' : ''}${type}${facts.pveOnly ? ' · 仅限 PvE' : ''}${special ? ' · 巨奴虫临时技能' : ''}`,
     `维持：${facts.upkeep} · 怒气：${facts.adrenaline} · 能量：${facts.energy} · 施放：${facts.activation === '0' && /Attack/.test(facts.type) ? '普通攻击速度' : `${facts.activation} 秒`} · 冷却：${facts.recharge} 秒`,
-    ...(facts.sacrifice !== '0' ? [`牺牲体力：${facts.sacrifice}%`] : []),
+    ...(facts.sacrifice !== '0' ? [`牺牲体力：${facts.sacrifice.replace(/%+$/, '')}%`] : []),
     ...(facts.overcast !== '0' ? [`过载：${facts.overcast}`] : []),
     ...(pvpFacts ? ['此技能的 PvE 与 PvP 版本不同；默认展示 PvE，PvP 说明另列。'] : [])
   ];

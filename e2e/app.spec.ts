@@ -1,4 +1,13 @@
-import { expect, test } from '@playwright/test';
+import { expect, test, type Page } from '@playwright/test';
+
+async function expectOriginalName(page:Page,name:string) {
+  const source=page.locator('.detail-scroll .original-content');
+  await source.locator(':scope > summary').click();
+  await expect(source.locator('pre')).toContainText('"englishName": "'+name+'"');
+  await source.locator(':scope > summary').click();
+  await expect(page.locator('.detail-scroll .english-name')).toHaveCount(0);
+}
+
 
 test('skill markers match all ten professions and keep their legend available offline on mobile', async ({ page, context, request }) => {
   const catalog = await (await request.get('/data/catalog.json')).json();
@@ -45,7 +54,8 @@ test('NPC skills keep mode, mission and level conditions without subsection head
     ['boss:2:609442ae935712a6', 'Shadow Shroud (elite) (levels 25, 28, and 30 only)']
   ]) {
     await page.goto(`/?kind=boss&selected=${encodeURIComponent(id)}`);
-    await page.getByText('完整技能与出现条件（英文）', { exact: true }).click();
+    await page.getByLabel('Language / 语言').selectOption('en');
+    await page.getByText('Skills and appearance conditions', { exact: true }).click();
     await expect(page.locator('.npc-skill-source')).toBeVisible();
     await expect(page.locator('.npc-skill-source')).toContainText(condition);
   }
@@ -53,20 +63,20 @@ test('NPC skills keep mode, mission and level conditions without subsection head
 
 test('area review separates missions, dungeons and genuine vanquishing targets', async ({ page }) => {
   await page.goto('/?kind=zone&selected=zone%3A4%3A330');
-  await expect(page.locator('.english-name')).toHaveText('Battledepths');
+  await expectOriginalName(page,'Battledepths');
   await expect(page.locator('.progress-section')).toHaveCount(0);
   await expect(page.locator('.detail-stat').filter({ hasText: '不能清剿' })).toBeVisible();
   await page.goto('/?kind=zone&selected=zone%3A4%3A352');
-  await expect(page.locator('.english-name')).toHaveText('Shards of Orr');
+  await expectOriginalName(page,'Shards of Orr');
   await expect(page.locator('.progress-section')).toHaveCount(0);
   await page.goto('/?kind=zone&selected=zone%3A2%3A146');
-  await expect(page.locator('.english-name')).toHaveText('Raisu Palace');
+  await expectOriginalName(page,'Raisu Palace');
   await expect(page.locator('.progress-section')).toHaveCount(0);
   await page.getByLabel('篇章筛选').selectOption('2');
   await page.getByLabel('地区筛选').selectOption('2:1');
   await page.getByRole('textbox', { name: '搜索资料' }).fill('Raisu Palace (explorable area)');
   await page.locator('.result').first().click();
-  await expect(page.locator('.english-name')).toHaveText('Raisu Palace (explorable area)');
+  await expectOriginalName(page,'Raisu Palace (explorable area)');
   await page.getByLabel('区域筛选').selectOption('gww:10970');
   await expect(page.locator('.result')).toHaveCount(1);
   await expect(page.getByRole('button', { name: '标记已清剿', exact: true })).toBeVisible();
@@ -78,15 +88,17 @@ test('area review separates missions, dungeons and genuine vanquishing targets',
   await page.getByRole('button', { name: '标记已清剿', exact: true }).click();
   await page.reload();
   await expect(page.getByRole('button', { name: '已完成 · 点击撤销', exact: true })).toBeVisible();
-  await expect(page.locator('.english-name')).toHaveText('Raisu Palace (explorable area)');
+  await expectOriginalName(page,'Raisu Palace (explorable area)');
   await expect(page.getByLabel('区域筛选')).toHaveValue('gww:10970');
 });
 
 test('quest sources retain legacy search and suppress unconfirmed map targets', async ({ page }) => {
   await page.goto('/?kind=boss&selected=boss%3A4%3Ad7559ebaf4f6df63');
   await expect(page.locator('.detail-title-row h2')).toContainText('技能获取');
-  await expect(page.locator('.detail-stat').filter({ hasText: 'Prenuptial Disagreement (female)' })).toBeVisible();
-  await expect(page.locator('.detail-stat').filter({ hasText: 'Prenuptial Disagreement (male)' })).toBeVisible();
+  const source=page.locator('.detail-scroll .original-content');
+  await source.locator(':scope > summary').click();
+  await expect(source.locator('pre')).toContainText('Prenuptial Disagreement (female)');
+  await expect(source.locator('pre')).toContainText('Prenuptial Disagreement (male)');
   await expect(page.getByRole('button', { name: '定位地点 1', exact: true })).toBeDisabled();
   await expect(page.locator('.atlas-marker.chosen')).toHaveCount(0);
   await page.getByLabel('搜索资料').fill('奥伦·奥拉夫多蒂尔');
@@ -98,7 +110,7 @@ test('equipment distinguishes random skins, unique versions and unresolved ident
   await expect(page.locator('.description')).toContainText('随机属性装备');
   await expect(page.locator('.detail-stat').filter({ hasText: '没有一套固定需求与词缀' })).toBeVisible();
   await page.goto('/?kind=green&selected=green%3A4%3Aecf1ba7c4a1af6ae');
-  await expect(page.locator('.english-name')).toHaveText('Bonecage Scythe (unique)');
+  await expectOriginalName(page,'Bonecage Scythe (unique)');
   await expect(page.locator('.description')).toContainText('独特武器');
   await page.goto('/?kind=green&selected=green%3A4%3Afa6b4893b980e1a7');
   await expect(page.locator('.wiki-pending')).toContainText('身份尚未确定');
@@ -108,19 +120,19 @@ test('Wiki content supports bilingual search, revisions, PvP differences and ski
   await page.goto('/');
   await page.getByRole('textbox', { name: '搜索资料' }).fill('Tainted Flesh');
   await page.locator('.result').first().click();
-  await expect(page.locator('.english-name')).toHaveText('Tainted Flesh');
-  await expect(page.locator('.wiki-badge')).toContainText('中文校订');
+  await expectOriginalName(page,'Tainted Flesh');
+  await expect(page.locator('.wiki-badge')).toContainText('本地化资料');
   await expect(page.locator('.wiki-provenance a[href*="oldid="]')).toHaveCount(1);
   await page.getByText('查看旧版资料原文', { exact: true }).click();
   await expect(page.locator('.wiki-disclosure[open]')).toContainText('查看旧版资料原文');
   await page.getByRole('textbox', { name: '搜索资料' }).fill('Hundred Blades');
   await page.locator('.result').first().click();
-  await expect(page.getByRole('heading', { name: 'PvP 版本 · 英文原文', exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'PvP 版本', exact: true })).toBeVisible();
   await expect(page.locator('.detail-stat').filter({ hasText: '冷却：20 秒' })).toBeVisible();
   await page.goto('/?kind=skill&selected=skill%3A4%3A295');
   await expect(page.getByRole('button', { name: '标记已学会', exact: true })).toBeVisible();
   await page.goto('/?kind=skill&selected=skill%3A3%3A292');
-  await expect(page.locator('.english-name')).toHaveText('Junundu Siege');
+  await expectOriginalName(page,'Junundu Siege');
   await expect(page.locator('.progress-section')).toHaveCount(0);
 });
 
@@ -131,14 +143,15 @@ test('story guide keeps plot spoilers collapsed and preserves alternative routes
   await expect(page.locator('.story-guide')).toHaveCount(4);
   await expect(page.locator('.story-guide[open]')).toHaveCount(0);
   const nightfall = page.locator('.story-guide').nth(2);
-  await nightfall.locator('summary').click();
+  await nightfall.locator(':scope > summary').click();
   await expect(nightfall.locator('.story-note').filter({ hasText: '二选一' })).toBeVisible();
   await expect(nightfall.locator('a[href*="oldid="]')).toHaveCount(2);
 });
 
 test('collector detail uses the correct NPC and cost-specific trade variant', async ({ page }) => {
   await page.goto('/?kind=collector&selected=collector%3A3%3A128');
-  await expect(page.locator('.english-name')).toHaveText('Kaya (collector)');
+  await page.getByLabel('Language / 语言').selectOption('en');
+  await expectOriginalName(page,'Kaya (collector)');
   await expect(page.locator('.description')).toContainText('Vehtendi Valley');
   await expect(page.locator('.detail-stat').first()).toContainText('5 Heket Tongue');
   await page.goto('/?kind=collector&selected=collector%3A2%3A179');
@@ -146,7 +159,7 @@ test('collector detail uses the correct NPC and cost-specific trade variant', as
   await expect(page.locator('.detail-stat').filter({ hasText: 'Forbidden Key' })).toBeVisible();
   await expect(page.locator('.detail-stat').filter({ hasText: 'Identification Kit · Uses remaining: 25' })).toHaveCount(0);
   await page.goto('/?kind=collector&selected=collector%3A3%3A175');
-  await expect(page.locator('.english-name')).toHaveText('Smuggler (mesmer)');
+  await expectOriginalName(page,'Smuggler (mesmer)');
   await expect(page.locator('.detail-stat').first()).toContainText('1 Kournan Coin');
 });
 
@@ -206,7 +219,7 @@ test('treasure dates, vanquishing, filters and layer switches persist',async({pa
 });
 test('type changes clear hidden filters and regional results locate within their region',async({page})=>{
   await page.goto('/');await page.locator('.result').first().waitFor();
-  await page.getByLabel('职业筛选').selectOption('1');await page.getByLabel('技能属性筛选').selectOption('精通斧术');
+  await page.getByLabel('职业筛选').selectOption('1');await page.getByLabel('技能属性筛选').selectOption('axe-mastery');
   await page.getByRole('button',{name:'Boss / 来源',exact:true}).first().click();
   await expect(page.getByLabel('技能属性筛选')).toHaveCount(0);await expect(page.locator('.result').first()).toBeVisible();
   expect(new URL(page.url()).searchParams.has('attribute')).toBe(false);

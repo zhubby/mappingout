@@ -16,3 +16,5 @@ playwright-report/
 
 # public/data/*.json and public/assets/** are required, committed build inputs.
 .wiki-cache/
+data/i18n/local-drafts.json
+data/i18n/review-queue.json

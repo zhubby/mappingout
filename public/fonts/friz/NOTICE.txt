@@ -1,0 +1,14 @@
+Friz Quadrata Std — local development resources
+
+Downloaded at the user's explicit request for local implementation and testing.
+Source stylesheet: https://fonts.cdnfonts.com/css/friz-quadrata-std
+The originally requested CufonFonts page returned HTTP 403.
+
+The unmodified WOFF name tables identify Friz Quadrata Std / FrizQuadrataStd,
+Regular, Bold, Italic and Bold Italic. Copyright notices in the font files refer
+to Adobe Systems Incorporated and International Typeface Corporation. All rights
+reserved. Font metadata is not an application redistribution license.
+
+This notice does not grant font distribution rights. Authorization covering the
+Windows/macOS offline application must be supplied before publishing a release.
+See docs/i18n.md and public/fonts/manifest.json for the outstanding release gate.

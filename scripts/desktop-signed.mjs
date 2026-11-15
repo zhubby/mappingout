@@ -5,6 +5,10 @@ import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const { checkRelease } = await import('./check-release.mjs');
+const readiness = checkRelease(root);
+if(readiness.errors.length) throw Error(`Release blocked:\n${readiness.errors.slice(0,20).join('\n')}`);
+if(readiness.acceptedFindings.length) console.warn('Version-specific release exception:', readiness.acceptedFindings);
 const key = process.env.TAURI_SIGNING_PRIVATE_KEY || path.join(os.homedir(), '.mappingout/keys/updater.key');
 if (!process.env.TAURI_SIGNING_PRIVATE_KEY) {
   try { await fs.access(key); } catch { throw Error('缺少更新签名私钥；设置 TAURI_SIGNING_PRIVATE_KEY，详见 docs/desktop.md。'); }

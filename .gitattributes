@@ -1,2 +1,4 @@
 # Preserve the upstream font license text verbatim.
 public/fonts/lxgw/OFL.txt -whitespace
+# Source hashes must survive Git's Windows checkout conversion unchanged.
+public/data/*.json text eol=lf

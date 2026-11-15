@@ -1,4 +1,7 @@
-MappingOut Desktop 1.1.0：仅提供完整离线客户端。
+MappingOut Desktop 1.1.1：全新探索纹章图标，继续仅提供完整离线客户端。
+
+- 更新应用图标：古铜罗盘、赤红水晶与深青底色，呼应奇幻冒险和旧地图风格。
+- Windows 多尺寸 ICO 与 macOS ICNS 同步更新，优化任务栏、桌面和 Dock 的辨识度。
 
 - Windows x86（32 位）与 x64：安装包内含相应架构 WebView2 运行时，安装时无需联网。
 - macOS arm64：面向 Apple Silicon，macOS 11 或更新版本，使用系统 WKWebView。

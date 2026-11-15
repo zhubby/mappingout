@@ -6,17 +6,10 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dir = path.join(root, 'src-tauri/icons');
 await fs.mkdir(dir, { recursive: true });
-// Code-native compass matches the application's existing compass visual language.
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-<rect width="1024" height="1024" rx="210" fill="#172219"/>
-<circle cx="512" cy="512" r="355" fill="#22301e" stroke="#b59d69" stroke-width="22"/>
-<circle cx="512" cy="512" r="291" fill="none" stroke="#6d7951" stroke-width="9"/>
-<path d="M512 102v130m0 560v130M102 512h130m560 0h130" stroke="#d5bd84" stroke-width="22"/>
-<path d="M665 359 550 550 359 665 474 474Z" fill="#d5bd84"/>
-<path d="m359 665 115-191 76 76Z" fill="#6d7951"/>
-<circle cx="512" cy="512" r="32" fill="#172219" stroke="#d5bd84" stroke-width="12"/>
-</svg>`;
-const sizes = [32, 128, 256];
+// Editable master artwork shared by all desktop icon formats.
+const svg = await fs.readFile(path.join(dir, 'icon-source.svg'));
+await sharp(svg).resize(1024,1024).png().toFile(path.join(dir,'icon-master.png'));
+const sizes = [16, 24, 32, 48, 64, 128, 256];
 const buffers = [];
 for (const size of sizes) {
   const buffer = await sharp(Buffer.from(svg)).resize(size, size).png().toBuffer();

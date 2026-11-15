@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="stone" x2="0.7" y2="1"><stop stop-color="#303b38"/><stop offset=".55" stop-color="#142423"/><stop offset="1" stop-color="#071316"/></linearGradient>
+    <linearGradient id="gold" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#fff0bc"/><stop offset=".22" stop-color="#d9b66e"/><stop offset=".48" stop-color="#8e6333"/><stop offset=".7" stop-color="#e2bd77"/><stop offset="1" stop-color="#74502b"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffdbb0"/><stop offset=".22" stop-color="#f26c42"/><stop offset=".6" stop-color="#b7282b"/><stop offset="1" stop-color="#521c28"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#526455" stop-opacity=".65"/><stop offset="1" stop-color="#142423" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.6"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity=".7"/></filter>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="210" fill="url(#stone)"/>
+  <rect x="47" y="47" width="930" height="930" rx="196" fill="none" stroke="#ad8950" stroke-opacity=".45" stroke-width="3"/>
+  <circle cx="512" cy="480" r="430" fill="url(#light)"/>
+  <!-- Faint cartographic contours behind the forged emblem. -->
+  <g fill="none" stroke="#96a88b" stroke-opacity=".12" stroke-width="3">
+    <path d="M80 370 174 333 242 359 286 310M75 410 177 377 235 403 284 366M740 670 793 636 875 650 949 602M748 719 809 681 886 695 954 650M166 763 223 713 259 722M787 278 837 243 903 271"/>
+    <circle cx="512" cy="512" r="420" stroke-dasharray="4 22"/>
+  </g>
+  <g filter="url(#shadow)">
+    <!-- The four split points make a distinctive exploration seal silhouette. -->
+    <path d="M512 92 565 196 512 174 459 196ZM932 512 828 565 850 512 828 459ZM512 932 459 828 512 850 565 828ZM92 512 196 459 174 512 196 565Z" fill="url(#gold)" stroke="#e0bd7a" stroke-width="3"/>
+    <circle cx="512" cy="512" r="323" fill="#101e20" stroke="#513b26" stroke-width="34"/>
+    <circle cx="512" cy="512" r="327" fill="none" stroke="url(#gold)" stroke-width="19"/>
+    <circle cx="512" cy="512" r="293" fill="none" stroke="#b08c54" stroke-width="3"/>
+    <g stroke="#d4b072" stroke-width="8">
+      <path d="M512 204v30M512 790v30M204 512h30M790 512h30"/>
+      <path d="m294 294 20 20m396 396 20 20m0-436-20 20M314 710l-20 20"/>
+    </g>
+    <g fill="#b89155"><path d="m386 228 12 28 7-3-10-29Zm240 0-12 28-7-3 10-29ZM228 386l28 12-3 7-29-10Zm0 240 28-12-3-7-29 10Zm570-240-28 12 3 7 29-10Zm0 240-28-12 3-7 29 10ZM386 798l12-28 7 3-10 29Zm240 0-12-28-7 3 10 29Z"/></g>
+    <!-- Broad pale southern blade balances a fiery northern crystal. -->
+    <path d="M512 748 465 557 512 512 559 557Z" fill="url(#gold)" stroke="#e1bc78" stroke-width="5"/>
+    <path d="m512 748 0-236 47 45Z" fill="#785a38"/>
+    <path d="M512 253 593 476 557 561 512 591 467 561 431 476Z" fill="url(#red)" stroke="#efbe83" stroke-width="8"/>
+    <path d="M512 253 512 523 431 476Z" fill="#ffb578" fill-opacity=".65"/>
+    <path d="m512 253 81 223-81 47Z" fill="#b72e2d"/>
+    <path d="m431 476 81 47-45 38Zm162 0-81 47 45 38Z" fill="#701d27"/>
+    <path d="m512 523 45 38-45 30-45-30Z" fill="#ef8954"/>
+    <path d="M512 284v197" stroke="#ffe2ad" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+    <circle cx="512" cy="523" r="18" fill="#fff1c1"/>
+    <path d="m349 505 69-28-25 35 25 35ZM675 505l-69-28 25 35-25 35Z" fill="url(#gold)"/>
+  </g>
+  <path d="M256 863q256 80 512 0" fill="none" stroke="#a78651" stroke-opacity=".25" stroke-width="3"/>
+</svg>

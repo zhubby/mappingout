@@ -33,7 +33,7 @@ GitHub Release 结构：
 
 本次会话固定使用同一资源代号。更新先放入 pending，下次进程启动生效；保留上一代，新的资料加载失败或启动未确认时，仅在上一代完整且兼容时回退。首次导入没有上一代，或程序升级后上一代不兼容时，保留完整的当前资料，允许再次离线启动并确认。启动确认针对固定会话，不等待后台网络操作；后台检查或下载期间刷新界面仍可读取当前资料。设置中的重启先保存个人备份。程序更新安装前也要准备适用于目标版本的资源；为未来版本准备的 pending 资源会保留到兼容的程序启动。
 
-资源位于系统 app-local-data 的 `resources-v1/` 下。Windows 通常是 `%LOCALAPPDATA%/dev.zhubby.mappingout/resources-v1`，macOS 由系统应用数据目录提供。`objects/<sha>/` 保存已验证文件；`manifests/` 保存签名依据；`downloads/` 保留续传；`state.json` 保存 active/previous/pending 与检查时间，`channel.json` 保存签名频道和 ETag。成功安装后清理未引用对象和冗余 ZIP，部分下载超过七天可回收。个人数据库与备份不放在这些目录。
+资源位于系统 app-local-data 的 `resources-v1/` 下。Windows 通常是 `%LOCALAPPDATA%/dev.zhubby.mappingout/resources-v1`，macOS 由系统应用数据目录提供。`objects/<sha>/` 保存已验证文件；`manifests/` 保存签名依据；`downloads/` 保留续传；`state.json` 保存 active/previous/pending、程序更新固定的 update 与检查时间，`channel.json` 保存签名频道和 ETag。延期程序更新所需的资源保留到新程序启动，详见 [自动更新](desktop-updates.md)。成功安装后清理未引用对象和冗余 ZIP，部分下载超过七天可回收。个人数据库与备份不放在这些目录。
 
 从完整内置资源版迁移时首次准备一次外部资源，之后按包复用。不尝试从旧安装 EXE 提取资源，不迁移或重建个人记录。
 

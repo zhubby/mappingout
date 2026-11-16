@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖资料投影、个人记录存储、桌面备份与全局更新。
+ * [OUTPUT]: 提供地图、角色、备份与桌面更新交互。
+ * [POS]: 应用界面编排；所有个人写入经过同一重启屏障。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { displayMessage, t, useLocale, setLocale, dateTime } from './i18n';
 import { loadContent, projectContent, type ContentBundle } from './i18n/content';
 import { attributeId } from './i18n/attributes';
@@ -12,6 +18,10 @@ import { kindNames, kindSymbols } from './types';
 import type { Backup, Catalog, Entry, Filters, Kind, Note, Personal, Place } from './types';
 import { isDesktop, exportBackup, pickBackup, writeLocalBackup, openExternal, syncDesktopLocale } from './platform';
 import { AutoBackup } from './platform/auto-backup';
+import {PersonalQueue} from './platform/restart';
+import {desktopUpdates, useDesktopUpdates} from './platform/desktop-updates';
+import {DesktopUpdateProgress, DesktopUpdatePrompt, updateMessage} from './DesktopUpdates';
+import type {WithBackup} from './platform/update-controller';
 import './desktop.css';
 
 const kinds = Object.keys(kindNames) as Kind[];
@@ -23,6 +33,7 @@ const featureKeys=['view','armor','offer','parts','aProfession','aCampaign','aRa
 function readFeatureParams(){const search=new URLSearchParams(location.search);return Object.fromEntries(featureKeys.filter(k=>search.has(k)).map(k=>[k,search.get(k)!]));}
 type Dialog = { type: 'characters' } | { type: 'backup'; backup?: Backup } | { type: 'note'; note: Note } | { type: 'report' } | { type: 'story' } | { type: 'desktop' } | { type: 'document'; url: string } | null;
 function today() { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; }
+const editingTarget = (target: EventTarget | null) => target instanceof HTMLElement && target.matches('input, textarea, select, [contenteditable]:not([contenteditable="false"])');
 export default function App() {
   const locale = useLocale();
   useEffect(()=>{void syncDesktopLocale().catch(console.error);},[locale]);
@@ -33,11 +44,18 @@ export default function App() {
   const view=featureParams.view==='armor'||featureParams.view==='calendar'?featureParams.view:'atlas';
   const patchFeature=useCallback((values:Record<string,string>)=>setFeatureParams(previous=>({...previous,...values})),[]);
   const [focus,setFocus] = useState<Place>(), [focusKey,setFocusKey] = useState(0), [noteMode,setNoteMode] = useState(false), [mobile,setMobile] = useState<'map'|'search'|'detail'>('map'), [limit,setLimit] = useState(60), [characterName,setCharacterName] = useState(''), [renaming,setRenaming] = useState(''), [treasureDate,setTreasureDate] = useState(today), [storageError,setStorageError] = useState('');
-  const writeQueue = useRef(Promise.resolve()), stateRef = useRef(state), fileInput = useRef<HTMLInputElement>(null);
+  const writeQueue = useRef(new PersonalQueue()), stateRef = useRef(state), fileInput = useRef<HTMLInputElement>(null);
+  const updateStatus = useDesktopUpdates();
+  const [restarting, setRestarting] = useState(false);
+  const [editing, setEditing] = useState(false);
   const [backupStatus, setBackupStatus] = useState<{ error: string; savedAt?: number }>({ error: '' });
   const [restoring, setRestoring] = useState(false);
   const autoBackup = useRef<AutoBackup<Personal> | null>(null);
   const restorePending = useRef(false);
+  useEffect(() => {
+    // 移除有焦点的输入框时，浏览器不会始终触发 blur。
+    if (isDesktop) setEditing(editingTarget(document.activeElement));
+  }, [dialog, view]);
   useEffect(() => {
     if (!isDesktop) return;
     const backup = new AutoBackup<Personal>(data => writeLocalBackup(data, 'auto'), (error, savedAt) => setBackupStatus({ error, savedAt }));
@@ -65,11 +83,11 @@ export default function App() {
   useEffect(() => {
     let live = true;
     const refresh = () => {
-      const pending = writeQueue.current.then(async () => {
+      const pending = writeQueue.current.read(async () => {
         const saved = await personalStore.load();
         if (live) { stateRef.current = saved; setState(saved); }
       });
-      writeQueue.current = pending.catch(e => { if (live) setStorageError(t("读取本地记录失败：{{v0}}", { v0: e.message })); });
+      void pending.catch(e => { if (live) setStorageError(t("读取本地记录失败：{{v0}}", { v0: e.message })); });
       return pending;
     };
     const loaded = refresh();
@@ -83,15 +101,15 @@ export default function App() {
     window.addEventListener('mappingout-storage-blocked',blocked);
     return () => { live = false; unsubscribe(); window.removeEventListener('focus', onChange); document.removeEventListener('visibilitychange', onVisible); window.removeEventListener('mappingout-storage-blocked',blocked); };
   }, []);
+  useEffect(() => { if (ready && isDesktop && import.meta.env.PROD) void desktopUpdates.checkOnLaunch(); }, [ready]);
   useEffect(() => { const pop = () => { setFilters(readFilters(location.search));setFeatureParams(readFeatureParams()); setFocus(undefined); }; window.addEventListener('popstate',pop); return () => window.removeEventListener('popstate',pop); }, []);
   useEffect(() => { const params=new URLSearchParams(filtersSearch(filters));for(const [key,value]of Object.entries(featureParams))if(value||key==='parts')params.set(key,value);history.replaceState(null,'',`${location.pathname}?${params}`); }, [filters,featureParams]);
   useEffect(()=>setLimit(60),[filters]);
   useEffect(() => { if (!message) return; const t = setTimeout(() => setMessage(''),4500); return () => clearTimeout(t); }, [message]);
   const update = (fn: (s: Personal) => Personal) => {
-    const saved = writeQueue.current.then(() => personalStore.update(fn)).then(next => {
+    const saved = writeQueue.current.write(() => personalStore.update(fn)).then(next => {
       stateRef.current = next; setState(next); setStorageError(''); return true;
     }, e => { setStorageError(t("操作未保存，请重试：{{v0}}", { v0: e.message })); return false; });
-    writeQueue.current = saved.then(() => {});
     return saved;
   };
   const patch = useCallback((v: Partial<Filters>) => setFilters(f => normalizeFilters({ ...f,...v })), []);
@@ -125,7 +143,7 @@ export default function App() {
   const toggle = (e: Entry) => { if (!character) { setDialog({type:'characters'}); return; } const done = !completed(state,e.id)?.done; if (e.kind==='treasure' && done && (!treasureDate || treasureDate>today())) { setMessage(t("请选择有效的开启日期")); return; } void update(s => setProgress(s,e.id,character.id,done,e.kind === 'treasure' ? treasureDate : undefined)); };
   async function downloadBackup() {
     try {
-      await writeQueue.current;
+      await writeQueue.current.wait();
       if (await exportBackup(makeBackup(stateRef.current))) setMessage(t("备份已导出"));
     } catch (error) { setMessage(t("导出失败：{{v0}}", { v0: String(error) })); }
   }
@@ -134,10 +152,11 @@ export default function App() {
     try { const backup = await pickBackup(); if (backup) setDialog({ type: 'backup', backup }); }
     catch (error) { setMessage(String(error)); }
   }
-  async function beforeRestart() {
-    await writeQueue.current;
-    await writeLocalBackup(await personalStore.load(), 'auto');
-  }
+  const beforeRestart: WithBackup = async install => {
+    setRestarting(true);
+    try { await writeQueue.current.restart(async () => writeLocalBackup(await personalStore.load(), 'auto'), install); }
+    finally { setRestarting(false); }
+  };
   async function importFile(file?: File) {
     if (!file) return;
     try { if (file.size > 20_000_000) throw Error(t("备份超过 20 MB")); const backup = parseBackup(await file.text()); setDialog({type:'backup',backup}); }
@@ -147,7 +166,7 @@ export default function App() {
   async function restore(backup: Backup) {
     if (restorePending.current) return;
     restorePending.current = true; setRestoring(true);
-    const pending = writeQueue.current.then(async () => {
+    const pending = writeQueue.current.write(async () => {
       // Snapshot the latest committed state inside the write queue before replacement.
       if (isDesktop) await writeLocalBackup(await personalStore.load(), 'restore');
       await personalStore.save(backup.data);
@@ -155,7 +174,6 @@ export default function App() {
       stateRef.current = next; setState(next); setStorageError('');
       setDialog(null); setMessage(t("备份已恢复"));
     });
-    writeQueue.current = pending.catch(() => {});
     try { await pending; }
     catch (error) { setMessage(t("恢复未完成：{{v0}}。请检查现有记录后重试。", { v0: String(error) })); }
     finally { restorePending.current = false; setRestoring(false); }
@@ -181,7 +199,10 @@ export default function App() {
   }
   if (fatal) return <main className="loading"><Compass size={42}/><h1>{t("无法打开探索志")}</h1><p role="alert">{displayMessage(fatal)}</p><button onClick={() => location.reload()}>{t("重新加载")}</button></main>;
   if (!ready || !catalog || !region) return <main className="loading"><Compass size={44}/><h1>{t("正在展开泰瑞亚地图…")}</h1><p>{t("读取本地资料与角色记录")}</p>{storageError&&<p role="alert">{displayMessage(storageError)}</p>}</main>;
-  return <div className="app-shell">
+  const updatePrompt = isDesktop && updateStatus.phase === 'ready' && (!dialog || dialog.type === 'desktop') && !editing && !restoring && !restarting;
+  return <><div className="app-shell" inert={restarting || updatePrompt ? true : undefined}
+    onFocusCapture={isDesktop ? event => setEditing(editingTarget(event.target)) : undefined}
+    onBlurCapture={isDesktop ? event => setEditing(editingTarget(event.relatedTarget)) : undefined}>
     <header className="topbar"><a className="brand" href={import.meta.env.BASE_URL}><span className="brand-mark"><Compass size={28} strokeWidth={1.3}/></span><span><strong>{t("MAPPING")}<span>{t("OUT")}</span></strong><small>{t("泰瑞亚探索志")}</small></span></a><div className="top-divider"/><div className="top-title"><span>{t("GUILD WARS")}</span><span>{t("你的下一段冒险，从这里开始。")}</span></div><nav><label className="language-selector"><span>{t("语言")}</span><select aria-label="Language / 语言" value={locale} onChange={event => setLocale(event.target.value as 'zh-CN' | 'en')}><option value="zh-CN">简体中文</option><option value="en">English</option></select></label>{!!catalog.stories?.length && <button className="quiet" onClick={() => setDialog({type:'story'})}><BookOpen size={16}/><span>{t("剧情指南")}</span></button>}{isDesktop && <button className="quiet" onClick={() => setDialog({type:'desktop'})} aria-label={t("客户端设置")}><SlidersHorizontal size={16}/><span>{t("客户端")}</span></button>}<span className="local-status"><span className="live-dot"/>{t("本地资料库")}</span><button className="quiet" onClick={() => setDialog({type:'backup'})}><Download size={16}/><span>{t("数据备份")}</span></button><button className="character-button" onClick={() => setDialog({type:'characters'})}><UserRound size={16}/>{character?.name || t("创建探索者")}<ChevronDown size={13}/></button></nav></header>
     <nav className="module-nav" aria-label={t("主要功能")}>{[['atlas',t("世界地图")],['armor',t("护甲制作")],['calendar',t("活动日历")]].map(([key,label])=><button key={key} aria-current={view===key?'page':undefined} className={view===key?'active':''} onClick={()=>patchFeature({view:key})}>{label}</button>)}</nav>
     {view!=='atlas'?<Suspense fallback={<div className="feature-status" role="status">{t("正在展开资料…")}</div>}>{view==='armor'?<ArmorWorkshop catalog={catalog} personal={state} update={update} params={featureParams} patch={patchFeature} manageCharacters={()=>setDialog({type:'characters'})} navigateZone={id=>{const entry=catalog.records.find(e=>e.id===id);if(entry){select(entry);patch({kind:'zone',q:'',campaign:'',region:'',zone:'',incomplete:false});patchFeature({view:'atlas'});}}}/>:<ActivityCalendar catalog={catalog} personal={state} update={update} params={featureParams} patch={patchFeature} manageCharacters={()=>setDialog({type:'characters'})} navigateZone={id=>{const entry=catalog.records.find(e=>e.id===id);if(entry){select(entry);patch({kind:'zone',q:'',campaign:'',region:'',zone:'',incomplete:false});patchFeature({view:'atlas'});}}}/>}</Suspense>:<div className="workspace">
@@ -233,5 +254,9 @@ export default function App() {
       {dialog.type==='story' && <StoryGuides stories={catalog.stories || []}/>}
       {dialog.type==='report' && <><span className="eyebrow">{t("ABOUT THIS ATLAS")}</span><h2>{t("一份旧地图，一段新旅程。")}</h2><p>{t("地图与旧资料来自 MappingOut 4.00。已校订的内容附 Guild Wars Wiki 修订来源、核对范围及旧版原文；两条无法确认身份的旧记录单独标注。部分技能和装备资料仍为英文；资料对应所引用的 Wiki 修订，不代表游戏内实测。")}</p><p>{t("20 张底图已核对代表性区域地标。缺失引用、重复编号、无法确认的坐标与图片记录在转换报告中；未确认位置不会推测绘制。")}</p><p>{isDesktop ? t("地图与资料已完整安装，可以离线使用。个人记录保存在本机，请定期导出备份。") : t("图片只在访问时缓存。离线前请先访问需要的地图；浏览器清理网站数据会删除本地角色记录，请定期备份。")}</p><a className="primary full" href={assetUrl('data/report.json')} target="_blank" rel="noreferrer">{t("查看完整数据校验报告")}<ArrowUpRight size={15}/></a><a className="wiki-source" href={assetUrl('data/wiki-review.json')} target="_blank" rel="noreferrer">{t("查看 Wiki 校订覆盖报告")}<ArrowUpRight size={12}/></a><p className="muted">{t("Wiki 原创文字遵循 ")}<a href={assetUrl('licenses/gfdl-1.3.txt')}>{t("GFDL 1.3 或后续版本")}</a>{t("，每项来源提供原文与贡献历史。游戏文字与素材权利归 ArenaNet / NCSOFT 及各自权利人。感谢原作者、汉化与 Wiki 贡献者。")}</p></>}
     </section></div>}
-  </div>;
+  </div>
+    {isDesktop && <DesktopUpdateProgress/>}
+    {updatePrompt && <DesktopUpdatePrompt withBackup={beforeRestart}/>}
+    {restarting && <div className="modal-backdrop desktop-update-backdrop"><section className="modal" role="status"><p>{updateMessage({...updateStatus, phase:'installing'})}</p></section></div>}
+  </>;
 }

@@ -1,7 +1,14 @@
+/**
+ * [INPUT]: 依赖资源命令、资源进度与 App 的备份屏障。
+ * [OUTPUT]: 提供资料检查、导入、修复与备份后重启。
+ * [POS]: 客户端设置内的资源入口；不执行程序更新。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import {useState} from 'react';
 import {invoke} from '@tauri-apps/api/core';
 import {t} from './i18n';
 import {cancelResources, checkResources, downloadResources, importResources, repairResources, useResources} from './platform/resources';
+import type {WithBackup} from './platform/update-controller';
 export function resourceMessage(value:string):string{
   if(value==='checking')return t('正在检查资料更新…');
   if(value==='downloading')return t('正在下载资源…');
@@ -15,7 +22,7 @@ export function resourceMessage(value:string):string{
   if(value.includes('resources.busy'))return t('正在处理，请稍候…');
   return t('资源准备未完成，请检查网络或磁盘空间后重试，也可以离线导入。');
 }
-export default function ResourcePanel({beforeRestart}:{beforeRestart:()=>Promise<void>}){
+export default function ResourcePanel({beforeRestart}:{beforeRestart:WithBackup}){
   const status=useResources();const [busy,setBusy]=useState(false),[message,setMessage]=useState('');
   const working=busy||['checking','downloading','verifying'].includes(status?.phase||'');
   async function run(action:()=>Promise<unknown>){setBusy(true);setMessage('');try{await action();}catch(e){setMessage(String(e));}finally{setBusy(false);}}
@@ -27,6 +34,6 @@ export default function ResourcePanel({beforeRestart}:{beforeRestart:()=>Promise
       <button disabled={working} onClick={()=>void run(importResources)}>{t('导入离线资源')}</button>
       <button disabled={working} onClick={()=>void run(repairResources)}>{t('修复本地资源')}</button>
       {working&&<button onClick={()=>void cancelResources()}>{t('取消下载')}</button>}
-      {status?.pendingGeneration&&<button disabled={working} onClick={()=>void run(async()=>{await beforeRestart();await invoke('restart_desktop');})}>{t('重启使用新资料')}</button>}
+      {status?.pendingGeneration&&<button disabled={working} onClick={()=>void run(()=>beforeRestart(()=>invoke('restart_desktop')))}>{t('重启使用新资料')}</button>}
     </div></section>;
 }

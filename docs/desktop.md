@@ -25,13 +25,17 @@ npm run desktop:build:release -- --target aarch64-apple-darwin --config src-taur
 
 自动备份在应用运行期间执行，首次加载后生成快照，变更最多每十分钟合并一次；失败一分钟后重试。自动备份和恢复前备份各保留二十份。恢复先校验和预览，确认后保存最新数据的原子备份，再替换数据库；备份失败则阻止替换。客户端设置可打开实际备份目录，建议定期导出到其他磁盘。Windows 路径为 %APPDATA%/dev.zhubby.mappingout/backups，Mac 使用系统应用数据目录。
 
+## 自动更新
+
+签名生产构建每次启动自动检查一次，并在后台下载、验证程序包和准备兼容资料。就绪后可选“立即重启更新”或“下次打开时更新”。安装前等待个人写入完成并保存最新备份；延期包持久缓存，资料完整时下次启动可离线安装。安装中断不会自动循环重试。设置保留手动检查，开发构建不自动更新。详见 [自动更新流程](desktop-updates.md)。
+
 ## 发布
 
 GitHub Actions 分别构建 Windows x86、x64 和 Mac arm64，运行测试后合并安装包、更新签名、SHA256SUMS.txt 和 latest.json。三种架构全部成功后才能发布。推送 desktop-v<版本> 标签触发正式发布；手动运行仅归档产物。
 
 版本同步维护 package.json、Cargo.toml 和 tauri.conf.json。平台更新键为 windows-i686、windows-x86_64、darwin-aarch64。Windows 更新下载程序安装包；Mac 下载签名 app.tar.gz，用户初装使用 DMG。安装程序更新前会先准备目标版本兼容的资源。当前更新入口为 GitHub Releases latest/download/latest.json；资源 Release 均设置 latest=false，使用独立频道，不影响程序更新入口。
 
-Windows 安装包含语言确认窗口，升级不是完全静默。macOS 更新安装后由客户端重新启动应用。下载失败不影响离线使用，签名校验失败不得安装。首次 Windows 安装可能提示未知发布者；Mac 尚无开发者公证，应按实际系统提示处理。
+Windows 首次安装包含语言确认窗口；程序内升级使用 quiet 模式并由安装器重新打开应用。macOS 更新安装后由客户端重新启动应用。下载失败不影响离线使用，签名校验失败不得安装。首次 Windows 安装可能提示未知发布者；Mac 尚无开发者公证，应按实际系统提示处理。
 
 ```sh
 npm test

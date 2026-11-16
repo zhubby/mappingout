@@ -1,0 +1,30 @@
+# MappingOut - 泰瑞亚离线地图与个人探索记录
+React 19 + TypeScript 5.9 + Vite 7 + Tauri 2 + Rust 2021。
+
+<directory>
+src/ - 界面、个人记录和桌面平台适配。
+src-tauri/ - 原生备份、签名资源和程序更新。
+scripts/ - 数据转换、构建、签名与发布校验。
+tests/ - 领域、存储、分发与桌面生命周期测试。
+e2e/ - 浏览器交互和部署回归。
+public/ - 必须提交的地图、资料、字体与许可输入。
+data/ - Wiki 引用、翻译基线和复核证据。
+docs/ - 功能说明、平台限制与验收记录。
+.github/ - 三平台构建与签名发布工作流。
+</directory>
+
+<config>
+package.json - Node.js >=24；前端开发、测试和桌面构建入口。
+playwright.updates.config.ts - 生产桌面前端的更新生命周期回归。
+src-tauri/tauri.conf.json - 应用身份、窗口与安装包配置。
+src-tauri/tauri.updater.conf.json - 程序更新公钥与正式频道。
+src-tauri/resources.config.json - 独立资源公钥与兼容频道。
+</config>
+
+应用身份、生产 origin 和更新公钥保持稳定。
+程序更新与资源更新使用独立签名。
+程序更新在启动时或用户手动操作时检查。
+安装前完成资源准备、写入排空与个人备份。
+正式发布遵守现有资料、字体与版本校验。
+新增文件更新模块地图；业务文件维护 INPUT/OUTPUT/POS。
+[PROTOCOL]: Update this header on change, then check AGENTS.md

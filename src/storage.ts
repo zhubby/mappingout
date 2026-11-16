@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 IndexedDB 事务、个人记录类型与错误翻译。
+ * [OUTPUT]: 提供个人记录存储、备份校验和旧数据迁移。
+ * [POS]: 个人数据持久边界；程序更新读取此处的最新提交。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { t } from './i18n';
 import { openDB } from 'idb';
 import type { Backup, Personal } from './types';

@@ -1,24 +1,29 @@
+/**
+ * [INPUT]: 依赖原生备份列表、全局更新状态与 App 的重启屏障。
+ * [OUTPUT]: 提供本地备份、资源入口和手动程序更新。
+ * [POS]: 客户端设置视图；关闭视图不销毁更新任务。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { displayMessage, t, dateTime } from './i18n';
 import { useEffect, useRef, useState } from 'react';
-import type { Update } from '@tauri-apps/plugin-updater';
 import type { Backup } from './types';
 import ResourcePanel from './ResourcePanel';
-import {prepareUpdateResources} from './platform/resources';
+import {desktopUpdates, useDesktopUpdates} from './platform/desktop-updates';
+import type {WithBackup} from './platform/update-controller';
+import {updateMessage} from './DesktopUpdates';
 import { desktopInfo, listLocalBackups, openBackupDirectory, readLocalBackup, type DesktopInfo, type LocalBackup } from './platform';
 
 export default function DesktopPanel({ preview, beforeRestart, backupStatus }: {
   preview(backup: Backup): void;
-  beforeRestart(): Promise<void>;
+  beforeRestart: WithBackup;
   backupStatus: { error: string; savedAt?: number };
 }) {
   const [info, setInfo] = useState<DesktopInfo>();
   const [backups, setBackups] = useState<LocalBackup[]>([]);
   const [message, setMessage] = useState('');
   const [busy, setBusy] = useState(false);
-  const [available, setAvailable] = useState('');
-  const [releaseNotes, setReleaseNotes] = useState('');
-  const [downloaded, setDownloaded] = useState(false);
-  const updateRef = useRef<Update | null>(null);
+  const update = useDesktopUpdates();
+  const updating = ['checking','downloading','preparing','installing'].includes(update.phase);
   const mounted = useRef(false);
   async function refresh() { setBackups(await listLocalBackups()); }
   useEffect(() => {
@@ -26,38 +31,12 @@ export default function DesktopPanel({ preview, beforeRestart, backupStatus }: {
     void Promise.all([desktopInfo(), listLocalBackups()]).then(([value, items]) => {
       if (mounted.current) { setInfo(value); setBackups(items); }
     }).catch(error => { if (mounted.current) setMessage(String(error)); });
-    return () => { mounted.current = false; void updateRef.current?.close().catch(() => {}); };
+    return () => { mounted.current = false; };
   }, []);
   async function run(action: () => Promise<void>) {
     setBusy(true); setMessage('');
     try { await action(); } catch (error) { setMessage(String(error)); }
     finally { setBusy(false); }
-  }
-  async function checkUpdate() {
-    await updateRef.current?.close(); updateRef.current = null;
-    setAvailable(''); setReleaseNotes(''); setDownloaded(false);
-    const { check } = await import('@tauri-apps/plugin-updater');
-    const update = await check({ timeout: 20_000 });
-    if (!mounted.current) { await update?.close(); return; }
-    updateRef.current = update;
-    if (update) { setAvailable(update.version); setReleaseNotes(update.body||''); setMessage(t("新版本已准备好，可以下载更新。")); }
-    else setMessage(t("当前已是最新版本。"));
-  }
-  async function downloadUpdate() {
-    if (!updateRef.current) return;
-    setMessage(t("正在下载更新，请保持应用打开…"));
-    await updateRef.current.download(undefined, { timeout: 600_000 });
-    setDownloaded(true); setMessage(t("更新已下载并校验签名。安装会关闭并重启客户端，请选择合适的时间。"));
-  }
-  async function installUpdate() {
-    if (!updateRef.current) return;
-    await prepareUpdateResources(updateRef.current.version);
-    await beforeRestart();
-    setMessage(t("备份已保存，正在启动安装程序…"));
-    await updateRef.current.install({ restartAfterInstall: true });
-    // Windows exits during install; macOS returns after replacing the application.
-    const { invoke } = await import('@tauri-apps/api/core');
-    await invoke('restart_desktop');
   }
   return <div className="desktop-panel">
     <span className="eyebrow">{t("MAPPINGOUT DESKTOP")}</span><h2>{t("客户端设置")}</h2>
@@ -74,13 +53,14 @@ export default function DesktopPanel({ preview, beforeRestart, backupStatus }: {
     </section>
     <ResourcePanel beforeRestart={beforeRestart}/>
     <section><h3>{t("版本更新")}</h3>
-      {info?.updateConfigured ? <><p>{t("检查更新需要联网，地图和个人记录可持续离线使用。")}</p>
-        <button className="quiet" disabled={busy} onClick={() => void run(checkUpdate)}>{t("检查更新")}</button>
-        {available && !downloaded && <button className="primary full" disabled={busy} onClick={() => void run(downloadUpdate)}>{t("下载更新 ")}{available}</button>}
-        {downloaded && <button className="primary full" disabled={busy} onClick={() => void run(installUpdate)}>{t("保存备份并安装重启")}</button>}
+      {info?.updateConfigured && update.enabled ? <><p>{t('启动时自动检查并下载新版本，完成后由你选择更新时间。')}</p>
+        <p role="status">{updateMessage(update)}</p>
+        {update.phase === 'downloading' && <progress aria-label={t('下载进度')} max={update.total || undefined} value={update.total ? update.downloaded : undefined}/>}
+        <div className="desktop-actions"><button className="quiet" disabled={busy || updating} onClick={() => void desktopUpdates.check()}>{t("检查更新")}</button>
+        {update.version && ['ready','deferred'].includes(update.phase) && <button className="primary" disabled={busy} onClick={() => void desktopUpdates.install(beforeRestart)}>{t('立即重启更新')}</button>}</div>
       </> : <p>{t("此构建使用手动更新。下载安装新版可保留个人记录；更新前建议导出一份备份。")}</p>}
     </section>
-    {releaseNotes&&<details className="original-content wiki-disclosure"><summary>{t('版本说明原文')}</summary><pre>{releaseNotes}</pre></details>}
+    {update.notes&&<details className="original-content wiki-disclosure"><summary>{t('版本说明原文')}</summary><pre>{update.notes}</pre></details>}
     {busy && <p role="status">{t("正在处理，请稍候…")}</p>}{message && <p role="status">{displayMessage(message)}</p>}
   </div>;
 }

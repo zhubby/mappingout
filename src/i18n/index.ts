@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 i18next、双语文案和本机语言偏好。
+ * [OUTPUT]: 提供语言订阅、文案格式化和本机错误翻译。
+ * [POS]: 界面语言边界；用户记录原文不进入错误翻译。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import { useSyncExternalStore } from 'react';

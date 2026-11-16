@@ -1,3 +1,8 @@
+/* [INPUT]: 依赖现有 modal、按钮与桌面色板。
+ * [OUTPUT]: 提供客户端设置、资源准备与程序更新布局。
+ * [POS]: 桌面能力视图样式；复用应用的基本组件。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 .desktop-panel section{border-top:1px solid #4a5b3b;margin-top:20px;padding-top:12px}
 .desktop-panel h3{font-size:14px;color:#d0b77f}
 .desktop-panel .desktop-path{font-family:monospace;font-size:11px;overflow-wrap:anywhere;color:#a5b494}
@@ -13,3 +18,8 @@
 .resource-gate section {max-width:620px;width:100%;padding:32px;border:1px solid #69764b;background:#18251c;border-radius:12px;}
 .resource-gate select {margin:16px 0;max-width:200px;}
 .resource-gate progress,.desktop-panel progress {width:100%;margin:12px 0;}
+.desktop-update-status{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);z-index:900;max-width:calc(100vw - 32px);padding:12px 18px;border:1px solid #69764b;border-radius:8px;background:#18251c;color:#d0b77f;font-size:12px;box-shadow:0 6px 24px #0006}
+.desktop-update-status progress{display:block;width:100%;margin-top:8px}
+.desktop-update-backdrop{z-index:1100}
+.desktop-update-dialog .desktop-actions{margin-top:20px}
+.desktop-update-dialog pre{max-height:30vh;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere}

@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Tauri 本机命令、语言设置和个人备份格式。
+ * [OUTPUT]: 提供平台判断、本机备份、窗口标题和外链入口。
+ * [POS]: 网页与桌面的共享边界；存储仍由 IndexedDB 提供。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { t, getLocale } from '../i18n';
 import { makeBackup, parseBackup } from '../storage';
 import type { Backup, Personal } from '../types';

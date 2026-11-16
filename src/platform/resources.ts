@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Tauri 资源命令、进度事件和当前语言。
+ * [OUTPUT]: 提供资源订阅、启动准备与后台资料更新。
+ * [POS]: 离线资源适配层；程序更新的资源准备由原生执行。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import {invoke} from '@tauri-apps/api/core';
 import {listen} from '@tauri-apps/api/event';
 import {useEffect, useState} from 'react';
@@ -13,7 +19,6 @@ export const downloadResources=()=>invoke<ResourceStatus>('resources_download');
 export const repairResources=()=>invoke<ResourceStatus>('resources_download',{repair:true});
 export const importResources=()=>invoke<ResourceStatus>('resources_import',{locale:getLocale()});
 export const cancelResources=()=>invoke<void>('resources_cancel');
-export const prepareUpdateResources=(version:string)=>invoke<void>('resources_prepare_update',{version});
 export function useResources() {
   const [status,setStatus]=useState<ResourceStatus>();
   useEffect(()=>{

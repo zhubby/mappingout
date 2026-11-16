@@ -24,6 +24,7 @@
     "deploy:assets": "wrangler deploy",
     "test": "vitest run",
     "test:e2e": "playwright test",
+    "test:e2e:updates": "vite build --mode desktop && playwright test --config playwright.updates.config.ts",
     "test:e2e:worker": "playwright test --config playwright.worker.config.ts",
     "desktop:dev": "node scripts/desktop.mjs dev",
     "desktop:build": "node scripts/desktop.mjs build",
@@ -47,7 +48,6 @@
   "dependencies": {
     "@tauri-apps/api": "^2.12.4",
     "@tauri-apps/plugin-opener": "^2.7.3",
-    "@tauri-apps/plugin-updater": "^2.14.1",
     "i18next": "^27.1.2",
     "idb": "^8.0.3",
     "leaflet": "^1.9.4",

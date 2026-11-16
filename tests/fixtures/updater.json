@@ -1,0 +1,26 @@
+{
+  "publicKey": "dW50cnVzdGVkIGNvbW1lbnQ6IHRlc3Qtb25seSB1cGRhdGVyIGtleQpSV1JzZ2R3UFpUUWwrNFVTakhVR2ljVUp6dUhwMXk5NkViT2xTNGRHUFhMOGFBdnZqay9taTJOVgo=",
+  "bytes": "TWFwcGluZ091dCBzaWduZWQgdXBkYXRlIGZpeHR1cmUK",
+  "manifest": {
+    "version": "1.3.0",
+    "notes": "Signed test update",
+    "platforms": {
+      "darwin-aarch64": {
+        "url": "https://example.com/fixture.bin",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHRlc3Qtb25seSB1cGRhdGUKUlVSc2dkd1BaVFFsKysvTkxBNkNMVm1SdEZuZFYwaGlpcmNUZ09CZEhzNTBWYVNKUUVkeTFQVkxIdjZjeDN2SXVLM2FlZ1dXVWhYbENRWi9GNDNOUlBVc3dJYU85V01MM3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzAwMDAwMDAwCWZpbGU6Zml4dHVyZS5iaW4JdmVyc2lvbjoxLjMuMApOYXQ0eXpOYnc3dEFNV0tLSEdXSnZnb2p6cUxEVnU2R0NXT0JUajJHMjFPMm5NQm9Zalp3QndnRkRUK0xCNC9iajU4d3dyYnk3cW4xalNObWE0RDBCdz09Cg=="
+      },
+      "darwin-x86_64": {
+        "url": "https://example.com/fixture.bin",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHRlc3Qtb25seSB1cGRhdGUKUlVSc2dkd1BaVFFsKysvTkxBNkNMVm1SdEZuZFYwaGlpcmNUZ09CZEhzNTBWYVNKUUVkeTFQVkxIdjZjeDN2SXVLM2FlZ1dXVWhYbENRWi9GNDNOUlBVc3dJYU85V01MM3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzAwMDAwMDAwCWZpbGU6Zml4dHVyZS5iaW4JdmVyc2lvbjoxLjMuMApOYXQ0eXpOYnc3dEFNV0tLSEdXSnZnb2p6cUxEVnU2R0NXT0JUajJHMjFPMm5NQm9Zalp3QndnRkRUK0xCNC9iajU4d3dyYnk3cW4xalNObWE0RDBCdz09Cg=="
+      },
+      "windows-i686": {
+        "url": "https://example.com/fixture.bin",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHRlc3Qtb25seSB1cGRhdGUKUlVSc2dkd1BaVFFsKysvTkxBNkNMVm1SdEZuZFYwaGlpcmNUZ09CZEhzNTBWYVNKUUVkeTFQVkxIdjZjeDN2SXVLM2FlZ1dXVWhYbENRWi9GNDNOUlBVc3dJYU85V01MM3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzAwMDAwMDAwCWZpbGU6Zml4dHVyZS5iaW4JdmVyc2lvbjoxLjMuMApOYXQ0eXpOYnc3dEFNV0tLSEdXSnZnb2p6cUxEVnU2R0NXT0JUajJHMjFPMm5NQm9Zalp3QndnRkRUK0xCNC9iajU4d3dyYnk3cW4xalNObWE0RDBCdz09Cg=="
+      },
+      "windows-x86_64": {
+        "url": "https://example.com/fixture.bin",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHRlc3Qtb25seSB1cGRhdGUKUlVSc2dkd1BaVFFsKysvTkxBNkNMVm1SdEZuZFYwaGlpcmNUZ09CZEhzNTBWYVNKUUVkeTFQVkxIdjZjeDN2SXVLM2FlZ1dXVWhYbENRWi9GNDNOUlBVc3dJYU85V01MM3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzAwMDAwMDAwCWZpbGU6Zml4dHVyZS5iaW4JdmVyc2lvbjoxLjMuMApOYXQ0eXpOYnc3dEFNV0tLSEdXSnZnb2p6cUxEVnU2R0NXT0JUajJHMjFPMm5NQm9Zalp3QndnRkRUK0xCNC9iajU4d3dyYnk3cW4xalNObWE0RDBCdz09Cg=="
+      }
+    }
+  }
+}

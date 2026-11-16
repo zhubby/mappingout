@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖签名资源、资料加载、字体和资源命令。
+ * [OUTPUT]: 资源就绪并确认后挂载 App；失败时提供重试和导入。
+ * [POS]: 生产桌面的资料入口；位于延期程序更新之后。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import {useEffect, useRef, useState} from 'react';
 import {invoke} from '@tauri-apps/api/core';
 import {t, useLocale, setLocale} from './i18n';

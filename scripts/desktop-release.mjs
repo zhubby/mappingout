@@ -13,12 +13,12 @@ const bundle = path.resolve(root, arg('--bundle-dir') || 'src-tauri/target/relea
 const candidates = (await fs.readdir(bundle)).filter(name => name.endsWith('-setup.exe') && !name.endsWith('-offline-setup.exe') && name.includes(`_${config.version}_`));
 if (candidates.length !== 1) throw Error(`需要且只能有一个 ${config.version} 安装包，实际：${candidates.join(', ')}`);
 const originalName = candidates[0];
-const name = originalName.replace('-setup.exe', '-offline-setup.exe');
+const name = originalName;
 const source = path.join(bundle, originalName);
 const signature = (await fs.readFile(`${source}.sig`, 'utf8')).trim();
 if (!signature) throw Error('缺少更新签名，请使用签名构建。');
 const bytes = await fs.readFile(source);
-if (arg('--offline-installer')) throw Error('Only offline installers are supported; use --bundle-dir with an offline build.');
+if (arg('--offline-installer')) throw Error('Resources are distributed separately; offline import uses resources.json and its packages.');
 const out = path.join(root, 'releases', config.version);
 await fs.mkdir(out, { recursive: true });
 await fs.copyFile(source, path.join(out, name));

@@ -9,3 +9,7 @@
 .desktop-backup-error{background:#58372b;color:#f2cdab;padding:8px 20px;display:flex;gap:16px;align-items:center;font-size:12px}
 .desktop-backup-error button{text-decoration:underline}
 .desktop-restore-hint{font-size:12px;color:#dbbb83}
+.resource-gate {min-height:100vh;display:grid;place-items:center;padding:24px;font-family:system-ui,sans-serif;}
+.resource-gate section {max-width:620px;width:100%;padding:32px;border:1px solid #69764b;background:#18251c;border-radius:12px;}
+.resource-gate select {margin:16px 0;max-width:200px;}
+.resource-gate progress,.desktop-panel progress {width:100%;margin:12px 0;}

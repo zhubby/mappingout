@@ -4,8 +4,9 @@ import App from './App';
 import 'leaflet/dist/leaflet.css';
 import './styles.css';
 import './features.css';
-import './i18n/fonts.css';
-createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
+import ResourceGate from './ResourceGate';
+if(import.meta.env.MODE!=='desktop'||import.meta.env.DEV)void import('./i18n/fonts.css');
+createRoot(document.getElementById('root')!).render(<React.StrictMode>{import.meta.env.MODE==='desktop'&&import.meta.env.PROD?<ResourceGate/>:<App/>}</React.StrictMode>);
 if (import.meta.env.PROD && import.meta.env.MODE !== 'desktop' && 'serviceWorker' in navigator) {
   const worker = navigator.serviceWorker;
   worker.addEventListener('controllerchange', () => {

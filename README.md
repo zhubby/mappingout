@@ -4,7 +4,7 @@
 
 Windows / macOS 离线客户端采用 Tauri 2，复用同一套界面和资料。开发、安装包、备份和签名更新见 [客户端说明](docs/desktop.md)。
 
-安装离线客户端：[GitHub Releases 下载](https://github.com/zhubby/mappingout/releases/latest)。仅提供完整离线版，Windows x86/x64 内含 WebView2；macOS arm64 使用 DMG。新增架构验证进度见 [平台支持](docs/desktop-platforms.md)。网页与客户端的个人记录通过 JSON 备份迁移。
+安装离线客户端：[GitHub Releases 下载](https://github.com/zhubby/mappingout/releases/latest)。当前正式版 1.2.0 内置完整资源及 Windows WebView2；开发中的版本改为独立下载或离线导入资源包，准备后离线使用，见 [资源分发方案](docs/desktop-resources.md)。Windows 支持 x86/x64，macOS arm64 使用 DMG，验证进度见 [平台支持](docs/desktop-platforms.md)。网页与客户端的个人记录通过 JSON 备份迁移。
 
 ## 运行
 

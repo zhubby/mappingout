@@ -1,5 +1,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
+mod resources;
+
 use serde::Serialize;
 use std::{fs, io::Write, path::{Path, PathBuf}, sync::Mutex, time::{SystemTime, UNIX_EPOCH}};
 use tauri::{Manager, State};
@@ -152,6 +154,10 @@ fn desktop_info(app: tauri::AppHandle) -> Result<DesktopInfo> {
 fn restart_desktop(app: tauri::AppHandle) { app.restart(); }
 
 fn main() {
+    let resources = resources::ResourceManager::new();
+    let mut context = tauri::generate_context!();
+    let inner = context.set_assets(Box::new(resources::EmptyAssets));
+    context.set_assets(Box::new(resources::ResourceAssets {inner, manager: resources.clone()}));
     tauri::Builder::default()
         .plugin(tauri_plugin_single_instance::init(|app, _, _| {
             if let Some(window) = app.get_webview_window("main") {
@@ -162,8 +168,12 @@ fn main() {
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_opener::init())
         .manage(BackupLock::default())
+        .manage(resources)
         .invoke_handler(tauri::generate_handler![save_backup, pick_backup, write_local_backup,
-            list_local_backups, read_local_backup, open_backup_directory, desktop_info, restart_desktop])
+            list_local_backups, read_local_backup, open_backup_directory, desktop_info, restart_desktop,
+            resources::resources_status, resources::resources_check, resources::resources_download,
+            resources::resources_cancel, resources::resources_import, resources::resources_confirm,
+            resources::resources_rollback, resources::resources_prepare_update])
         .setup(|app| {
             if app.config().plugins.0.contains_key("updater") {
                 app.handle().plugin(tauri_plugin_updater::Builder::new().build())?;
@@ -178,7 +188,7 @@ fn main() {
                 .build()?;
             Ok(())
         })
-        .run(tauri::generate_context!())
+        .run(context)
         .expect("无法启动 MappingOut");
 }
 

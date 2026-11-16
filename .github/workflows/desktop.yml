@@ -5,6 +5,9 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: mappingout-resource-channel-v1
+  cancel-in-progress: false
 jobs:
   build:
     strategy:
@@ -36,20 +39,24 @@ jobs:
         if: runner.os == 'Windows'
         run: npm run desktop:build:release -- --target ${{ matrix.target }}
         env:
+          MAPPINGOUT_RESOURCE_PRIVATE_KEY: ${{ secrets.MAPPINGOUT_RESOURCE_PRIVATE_KEY }}
+          MAPPINGOUT_RESOURCE_KEY_PASSWORD: ${{ secrets.MAPPINGOUT_RESOURCE_KEY_PASSWORD }}
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
-      - name: Preserve offline installer
+      - name: Preserve client installer
         if: runner.os == 'Windows'
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force release-assets | Out-Null
           Get-ChildItem src-tauri/target/${{ matrix.target }}/release/bundle/nsis/*-setup.exe* | ForEach-Object {
-            Copy-Item $_.FullName (Join-Path release-assets ($_.Name.Replace('-setup.exe','-offline-setup.exe')))
+            Copy-Item $_.FullName (Join-Path release-assets $_.Name)
           }
       - name: Build macOS
         if: runner.os == 'macOS'
         run: npm run desktop:build:release -- --target aarch64-apple-darwin --config src-tauri/tauri.macos.conf.json
         env:
+          MAPPINGOUT_RESOURCE_PRIVATE_KEY: ${{ secrets.MAPPINGOUT_RESOURCE_PRIVATE_KEY }}
+          MAPPINGOUT_RESOURCE_KEY_PASSWORD: ${{ secrets.MAPPINGOUT_RESOURCE_KEY_PASSWORD }}
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
           APPLE_SIGNING_IDENTITY: '-'
@@ -75,6 +82,18 @@ jobs:
         with:
           node-version: '24'
       - run: npm run check:release
+      - run: npm ci
+      - run: npm run resources:build
+        env:
+          MAPPINGOUT_RESOURCE_PRIVATE_KEY: ${{ secrets.MAPPINGOUT_RESOURCE_PRIVATE_KEY }}
+          MAPPINGOUT_RESOURCE_KEY_PASSWORD: ${{ secrets.MAPPINGOUT_RESOURCE_KEY_PASSWORD }}
+      - name: Publish reusable resource packages
+        if: startsWith(github.ref, 'refs/tags/desktop-v')
+        run: npm run resources:publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MAPPINGOUT_RESOURCE_PRIVATE_KEY: ${{ secrets.MAPPINGOUT_RESOURCE_PRIVATE_KEY }}
+          MAPPINGOUT_RESOURCE_KEY_PASSWORD: ${{ secrets.MAPPINGOUT_RESOURCE_KEY_PASSWORD }}
       - uses: actions/download-artifact@v4
         with:
           pattern: desktop-*
@@ -84,6 +103,7 @@ jobs:
           VERSION=$(node -p "require('./src-tauri/tauri.conf.json').version")
           if [ "$GITHUB_REF_TYPE" = tag ] && [ "$GITHUB_REF_NAME" != "desktop-v$VERSION" ]; then exit 1; fi
           node scripts/desktop-merge-release.mjs --input downloaded --output release-assets --base-url "https://github.com/$GITHUB_REPOSITORY/releases/download/desktop-v$VERSION/"
+          cp releases/resources/resources.json release-assets/resources.json
       - uses: actions/upload-artifact@v4
         with:
           name: desktop-combined

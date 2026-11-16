@@ -1,0 +1,31 @@
+name: Resource release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mappingout-resource-channel-v1
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run check:release
+      - run: npm test
+      - run: npm run validate:data
+      - run: npm run validate:i18n
+      - run: npm run resources:build
+        env:
+          MAPPINGOUT_RESOURCE_PRIVATE_KEY: ${{ secrets.MAPPINGOUT_RESOURCE_PRIVATE_KEY }}
+          MAPPINGOUT_RESOURCE_KEY_PASSWORD: ${{ secrets.MAPPINGOUT_RESOURCE_KEY_PASSWORD }}
+      - run: npm run resources:publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MAPPINGOUT_RESOURCE_PRIVATE_KEY: ${{ secrets.MAPPINGOUT_RESOURCE_PRIVATE_KEY }}
+          MAPPINGOUT_RESOURCE_KEY_PASSWORD: ${{ secrets.MAPPINGOUT_RESOURCE_KEY_PASSWORD }}

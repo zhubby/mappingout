@@ -1,0 +1,17 @@
+{
+  "identifier": "dev.zhubby.mappingout.resourceqa",
+  "productName": "MappingOut Resource QA",
+  "app": {
+    "windows": [{
+      "label": "main",
+      "create": false,
+      "title": "MappingOut Resource QA",
+      "width": 1440,
+      "height": 920,
+      "minWidth": 900,
+      "minHeight": 600,
+      "center": true,
+      "backgroundColor": "#172219"
+    }]
+  }
+}

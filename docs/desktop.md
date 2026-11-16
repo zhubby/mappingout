@@ -2,7 +2,7 @@
 
 Tauri 2 + React / TypeScript。支持目标及限制见 [平台支持](desktop-platforms.md)，历史 1.0.0 验收见 [验收档案](desktop-verification.md)。
 
-只提供完整离线版：Windows x86 / x64 安装包内含对应 WebView2 运行时；macOS Apple Silicon 使用系统 WKWebView。地图与资料全部随安装包提供，不依赖远程服务器。联网检查更新是可选功能。
+客户端完成首次资源准备后离线使用。地图、资料和字体拆为独立签名资源包，在 GitHub Releases 按内容哈希复用；首次可下载，也可从本地导入。Windows x86 / x64 安装包复用已安装的 WebView2，缺失时通过内置小型引导器安装；完全离线的电脑应提前安装对应架构的 WebView2。macOS Apple Silicon 使用系统 WKWebView。详见 [资源分发与离线安装](desktop-resources.md)。已发布的 1.2.0 仍采用原来的完整内置资源方案。
 
 ## 开发构建
 
@@ -17,7 +17,7 @@ npm run desktop:build:release -- --target x86_64-pc-windows-msvc
 npm run desktop:build:release -- --target aarch64-apple-darwin --config src-tauri/tauri.macos.conf.json
 ```
 
-先通过 rustup target add 安装对应目标。签名私钥通过 TAURI_SIGNING_PRIVATE_KEY 提供，不得提交仓库。macOS 的 ad-hoc 应用签名与 Tauri 更新签名不能替代 Apple Developer ID 或公证。
+先通过 rustup target add 安装对应目标。程序更新签名私钥通过 TAURI_SIGNING_PRIVATE_KEY 提供，资源签名通过 MAPPINGOUT_RESOURCE_PRIVATE_KEY 提供，两者独立且不得提交仓库。普通本地构建使用 npm run desktop:build；正式签名构建额外执行资料和字体发布检查。macOS 的 ad-hoc 应用签名与 Tauri 更新签名不能替代 Apple Developer ID 或公证。
 
 ## 数据
 
@@ -29,7 +29,7 @@ npm run desktop:build:release -- --target aarch64-apple-darwin --config src-taur
 
 GitHub Actions 分别构建 Windows x86、x64 和 Mac arm64，运行测试后合并安装包、更新签名、SHA256SUMS.txt 和 latest.json。三种架构全部成功后才能发布。推送 desktop-v<版本> 标签触发正式发布；手动运行仅归档产物。
 
-版本同步维护 package.json、Cargo.toml 和 tauri.conf.json。平台更新键为 windows-i686、windows-x86_64、darwin-aarch64。Windows 更新下载完整离线安装包；Mac 下载签名 app.tar.gz，用户初装使用 DMG。当前更新入口为 GitHub Releases latest/download/latest.json。
+版本同步维护 package.json、Cargo.toml 和 tauri.conf.json。平台更新键为 windows-i686、windows-x86_64、darwin-aarch64。Windows 更新下载程序安装包；Mac 下载签名 app.tar.gz，用户初装使用 DMG。安装程序更新前会先准备目标版本兼容的资源。当前更新入口为 GitHub Releases latest/download/latest.json；资源 Release 均设置 latest=false，使用独立频道，不影响程序更新入口。
 
 Windows 安装包含语言确认窗口，升级不是完全静默。macOS 更新安装后由客户端重新启动应用。下载失败不影响离线使用，签名校验失败不得安装。首次 Windows 安装可能提示未知发布者；Mac 尚无开发者公证，应按实际系统提示处理。
 

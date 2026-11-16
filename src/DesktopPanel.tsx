@@ -2,6 +2,8 @@ import { displayMessage, t, dateTime } from './i18n';
 import { useEffect, useRef, useState } from 'react';
 import type { Update } from '@tauri-apps/plugin-updater';
 import type { Backup } from './types';
+import ResourcePanel from './ResourcePanel';
+import {prepareUpdateResources} from './platform/resources';
 import { desktopInfo, listLocalBackups, openBackupDirectory, readLocalBackup, type DesktopInfo, type LocalBackup } from './platform';
 
 export default function DesktopPanel({ preview, beforeRestart, backupStatus }: {
@@ -49,6 +51,7 @@ export default function DesktopPanel({ preview, beforeRestart, backupStatus }: {
   }
   async function installUpdate() {
     if (!updateRef.current) return;
+    await prepareUpdateResources(updateRef.current.version);
     await beforeRestart();
     setMessage(t("备份已保存，正在启动安装程序…"));
     await updateRef.current.install({ restartAfterInstall: true });
@@ -69,6 +72,7 @@ export default function DesktopPanel({ preview, beforeRestart, backupStatus }: {
       </button>)}</div>
       <p className="muted">{t("恢复前会先显示内容摘要并要求确认。建议定期将备份导出到其他磁盘。")}</p>
     </section>
+    <ResourcePanel beforeRestart={beforeRestart}/>
     <section><h3>{t("版本更新")}</h3>
       {info?.updateConfigured ? <><p>{t("检查更新需要联网，地图和个人记录可持续离线使用。")}</p>
         <button className="quiet" disabled={busy} onClick={() => void run(checkUpdate)}>{t("检查更新")}</button>

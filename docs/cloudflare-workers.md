@@ -2,6 +2,21 @@
 
 本项目使用 Workers Static Assets。React、Leaflet、查询参数路由和浏览器 IndexedDB 均直接运行，无需服务端脚本、数据库绑定或登录系统。Worker 名称为 `mappingout-web`，兼容日期为 `2026-11-12`，默认启用 `workers.dev`。
 
+## 一键部署
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/zhubby/mappingout)
+
+点击按钮，连接 Cloudflare 和 GitHub 账号，确认新仓库和 Worker 名称后部署。
+Cloudflare 将公开源仓库复制到自己的 GitHub 账号，再通过 Workers Builds 构建并发布。
+工程位于仓库根目录；保留 `.node-version` 指定的 Node.js 24。
+此应用不需要数据库绑定或应用密钥。
+
+Cloudflare 自动读取 `package.json` 的 `build` 和 `deploy` 脚本。
+默认部署脚本会再次执行构建；将构建命令设为 `npm run build`、部署命令设为
+`npm run deploy:assets`，即可复用已生成的 `dist/`。
+后续推送到所选分支会触发自动部署。
+个人记录保存在各访问地址的浏览器中；换站点先导出备份。
+
 ## 命令
 
 在 `web` 目录执行；独立 Web 仓库则在仓库根目录执行。使用 Node.js 24；Windows PowerShell 若禁止执行 `npm.ps1`，将下面的 `npm` / `npx` 写成 `npm.cmd` / `npx.cmd`。

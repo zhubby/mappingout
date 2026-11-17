@@ -1,93 +1,115 @@
-# MappingOut · 泰瑞亚探索志
+<p align="center">
+  <img src="src-tauri/icons/128x128@2x.png" alt="MappingOut logo" width="112" height="112">
+</p>
 
-基于 MappingOut 4.00 本地资料重新实现的中文地图工具。React + TypeScript + Vite + Tailwind CSS + Leaflet；无需后端或账号。
+<h1 align="center">MappingOut</h1>
 
-Windows / macOS 离线客户端采用 Tauri 2，复用同一套界面和资料。开发、安装包、备份和签名更新见 [客户端说明](docs/desktop.md)。
+<p align="center">
+  An atlas and personal exploration journal for the original Guild Wars.
+</p>
 
-安装离线客户端：[GitHub Releases 下载](https://github.com/zhubby/mappingout/releases/latest)。当前正式版 1.2.0 内置完整资源及 Windows WebView2；开发中的版本改为独立下载或离线导入资源包，准备后离线使用，见 [资源分发方案](docs/desktop-resources.md)。Windows 支持 x86/x64，macOS arm64 使用 DMG，验证进度见 [平台支持](docs/desktop-platforms.md)。网页与客户端的个人记录通过 JSON 备份迁移。
+<p align="center">
+  <a href="https://mappingout-web.zhubby.workers.dev">Open the web app</a> ·
+  <a href="https://github.com/zhubby/mappingout/releases/latest">Download for Windows &amp; macOS</a> ·
+  <a href="#deploy-to-cloudflare-workers">Deploy your own</a>
+</p>
 
-## 运行
+<p align="center">
+  <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/zhubby/mappingout">
+    <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare">
+  </a>
+</p>
 
-使用 Node.js 24（`.node-version` 固定云端主版本；也支持更新的 Node.js）。在此目录执行：
+Explore Tyria, Cantha, Elona, and the Far North with maps, guides, and character progress.
+Rebuilt from MappingOut 4.00, with English and Simplified Chinese interfaces.
+Use it in your browser or as a Tauri desktop app. No account required.
 
-```powershell
-npm.cmd ci
-npm.cmd run dev
+![English world atlas with profession markers, searchable locations, and skill acquisition details](docs/readme-map.png)
+
+## Features
+
+- **World atlas** — Explore 20 maps with searchable skills, bosses, equipment, collectors, pets, and treasures.
+- **Skill library** — Search 1,319 skills by profession, resources, and effects; compare PvE/PvP versions.
+- **Quest guides** — Browse missions, prerequisites, rewards, and route maps; record progress for each character.
+- **Armor workshop** — Compare armor, calculate materials and costs, and track crafting plans.
+- **Activity calendar** — Follow Zaishen rotations, Nicholas the Traveler, and weekly bonuses across time zones.
+- **Personal journal** — Save skill captures, vanquishes, treasure dates, and map notes locally.
+
+| Skill search and PvE/PvP comparison | Quest guides and character progress |
+| --- | --- |
+| [![English skill library comparing Empathy in PvE and PvP](docs/readme-skills.png)](docs/readme-skills.png) | [![English quest directory with a mission guide and character progress controls](docs/readme-quests.png)](docs/readme-quests.png) |
+
+## Offline use and backups
+
+Open the web app online once to cache the application and reference data.
+Visit each map online to cache its image before going offline.
+Browser offline support requires HTTPS or localhost; browsers can reclaim cached files.
+For desktop use, download or import the resource pack before going offline.
+
+Character records stay in your browser's IndexedDB.
+Export JSON backups to move between browsers, addresses, or desktop installs.
+Different addresses keep separate records. Importing a backup replaces the destination's personal data after confirmation.
+
+## Deploy to Cloudflare Workers
+
+Click **Deploy to Cloudflare** above to launch the official setup flow.
+Connect your Cloudflare and GitHub accounts, then choose your repository and Worker names.
+Cloudflare copies this repository into your GitHub account, builds it, and deploys your own instance.
+No database bindings or application secrets are required.
+
+Use Node.js **24** and the repository root as the project directory.
+Cloudflare detects the `build` and `deploy` scripts automatically; `.node-version` pins Node.js 24.
+For subsequent Git builds, use these settings to avoid building twice:
+
+| Setting | Value |
+| --- | --- |
+| Build command | `npm run build` |
+| Deploy command | `npm run deploy:assets` |
+| Root directory | Repository root |
+
+To deploy from your terminal instead:
+
+```sh
+npm ci
+npx wrangler login
+npm run deploy
 ```
 
-开发地址以终端输出为准，默认 http://127.0.0.1:5173 。PowerShell 禁止运行 npm.ps1 时直接使用上面的 npm.cmd，无需修改系统策略。
+See the [deployment guide](docs/cloudflare-workers.md) for caching, rollbacks, and backup migration.
 
-```powershell
-npm.cmd run build
-npm.cmd run preview:worker
+## Local development
+
+Install Node.js **24 or later**, then run:
+
+```sh
+npm ci
+npm run dev
 ```
 
-构建产物在 `dist/`，Worker 预览地址为 http://127.0.0.1:8787 。使用 **Cloudflare Workers Static Assets** 托管，默认发布到 `workers.dev`；本地发布、Git 自动部署、回滚和角色迁移见 [部署说明](docs/cloudflare-workers.md)。`npm run preview` 仍提供 Vite 静态预览。
+Open the local URL printed by Vite, usually `http://127.0.0.1:5173`.
+On Windows, use `npm.cmd` if PowerShell blocks `npm.ps1`.
 
-不能通过双击 HTML 的 `file://` 方式运行。首次生产加载后 Service Worker 缓存应用与资料，地图和技能图片访问后缓存。离线功能需要 HTTPS 或 localhost，开发模式不注册 Service Worker。
+Validate the production build and Worker configuration without publishing:
 
-## 功能
-
-- 四大章节、20 张地图；技能、Boss、装备、收藏家、宠物、宝藏、区域查询。
-- 名称 / 描述 / Boss 搜索，章节、地区、区域、职业、属性筛选；搜索结果与地图双向定位。
-- 图层开关、图片坐标缩放拖动；URL 保留地图、筛选与选中记录。
-- 多角色独立技能捕获、可清剿区域进度、宝藏日期；个人地图笔记可编辑或删除。
-- IndexedDB 保存；JSON 备份导出、校验预览、明确确认后整体替换。未知备份版本拒绝导入；导入失败不替换已有数据。
-- 手机切换查询 / 地图 / 档案三个视图。
-- 护甲制作：十职业全防御等级与通用部位，制作商、男女外观、单件配方和固定费用合计；按角色保存计划和逐件制作进度。
-- 活动日历：四类每日战承任务、旅者尼古拉斯与 PvE/PvP 周奖励；时区切换、周期预测及按角色记录每次战承完成状态。
-- 桌面自动更新：启动检查并后台下载，备份后立即重启更新，或缓存到下次打开时安装；详见 [更新流程](docs/desktop-updates.md)。
-
-个人数据操作在 IndexedDB 读写事务内基于最新记录执行，避免标签页旧快照覆盖其他页面的修改。支持 BroadcastChannel 的浏览器会同步更新；不支持时在页面重新获得焦点后刷新。角色进度操作绑定点击时的角色，已删除角色的旧操作会被拒绝。完整备份恢复仍按确认后的整份数据替换。
-
-切换资料类型会清除不适用的属性与职业筛选；自动定位优先使用符合当前章节、地区和区域条件的地点。图层关闭后，选中条目的标记也会隐藏。
-
-离线首页仅缓存入口 HTML，查看 JSON 报告不会替换首页。缓存写入失败时仍正常返回网络资源。构建根据产物内容生成离线缓存版本；新版安装成功后清理旧的 MappingOut 缓存，不影响 IndexedDB 中的个人记录。新版发布后，地图需要在线访问一次以加入新版缓存。
-
-## 数据和兼容性
-
-`npm run build` 校验并使用已生成的 `public/data/*.json` 和 `public/assets/**`；这些文件是必须提交的部署输入，独立复制或克隆 `web` 后即可构建。缺失章节、地图、资料或引用图片时构建直接失败，不生成空库。
-
-仅当需要更新原始资料、且保留上一级完整 Campaign 目录时，执行 `npm run build:data`（转换并构建）或 `npm run convert`（仅转换）。转换会先检查原始输入是否完整，再生成 `public/data/catalog.json`、`public/data/report.json` 并复制图片。原 EXE、TXT、JPG 不修改。副本与附件不合并；ASCII / UTF-8 / GB18030 / 带 BOM 的 UTF-16 经明确解码。
-
-资料包含 381 个技能条目、1,183 条 Boss / 获取来源、697 条装备、350 位收藏家、32 组章节宠物、12 处宝藏与 366 条区域记录。这里是原始资料条目数量，不是经过游戏核验的唯一实体数量。少数技能为种族技能或旧资料重复，装备包含固定绿装与随机属性掉落。
-
-Wiki 校订另补入莱苏皇宫的探索版本，使用独立 ID `zone:gww:10970`，与主线任务分开记录，暂不绘制未确认的地图位置。目前为 367 条区域记录、136 个可清剿目标（预言 54、盟与敌 33、黑暗逆袭 34、北方之眼 15）。旧版的五个错误清剿目标已停用，既有个人记录仍随备份保留。
-
-同编号跨章节资料保持独立身份。地点优先引用本篇章技能，再引用核心技能，最后仅在全局编号唯一时跨章节引用。相同名称不用于合并实体。绿装仅在本章节 Boss 名称唯一匹配时显示候选地点，详情明确标注此关联未在游戏中核验；多候选或缺失来源不推测坐标。原始重复行保留并增加来源行后缀，不覆盖其他记录。
-
-20 张地图通过原图与每张前三个区域标记的叠加图进行人工核对；证据在 `scripts/map-verification.json` 与 `docs/map-check-*.jpg`。这是代表性地标核对，不是全量坐标或游戏运行验证。只有已核对底图、且坐标在原图边界内的地点绘制标记。
-
-`public/data/report.json` 保留编码、排除项、缺图、重复编号、缺失引用和无法定位资料的文件 / 行号。转换后应用带来源修订号的 Wiki 校订；未核对内容保留原文，不补造未知字段。旧人物存档、旧更新器、账号云同步均不迁移。
-
-个人备份格式为 `{ format: "mappingout-backup", version: 2, exportedAt, data }`，仍接受 v1 并在预览中说明迁移。IndexedDB 升级到版本 2，保留旧数据并增加护甲计划与活动记录。资料版本与个人备份版本独立。清理网站数据、换浏览器或使用不同网站地址不会共享进度；请通过备份迁移。角色删除会同步删除其进度、笔记、计划和活动记录。新功能、来源核验和升级／回滚说明见 [护甲与日历说明](docs/armor-calendar.md)。
-
-## Wiki 数据校订
-
-本轮已审查全部技能、Boss / 获取来源、装备、收藏家、宠物、宝藏、区域和四篇章剧情。详情显示说明、字段范围、固定修订与旧版原文，支持中英文搜索；任务奖励、宝箱、随机装备和独特武器分别说明。两条旧身份无法确认，显式标注；350 条技能效果及部分物品资料保留英文。未确认来源位置不绘制标记，旧 ID、坐标与个人备份格式保持兼容。3,027 个引用修订已通过 Wiki API 核对原文哈希。覆盖与证据见 [Wiki 校订记录](docs/wiki-data-review.md)。
-
-## 测试
-
-```powershell
-npm.cmd test
-npm.cmd run build
-npm.cmd run test:e2e:worker
-npm.cmd run check:worker
+```sh
+npm run check:worker
 ```
 
-Vitest 检查编码、字段与来源、图片尺寸、编号关联、查询、角色隔离、备份验证、IndexedDB 并发事务，以及部署资料缺失、缓存版本生成、缓存规则、离线首页和缓存故障。Playwright 使用本机 Edge，启动 Wrangler 本地环境，运行原有七项流程并检查 Workers 响应头、404 和缓存更新。请先完成构建，再运行浏览器测试，避免测试期间重建 `dist/`。
+Built assets go into `dist/`. Preview them with `npm run preview:worker` at `http://127.0.0.1:8787`.
+The repository includes generated data and images; building requires no original MappingOut installation.
 
-`npm run test:e2e` 保留原有 Vite 预览测试；`npm run check:worker` 构建后执行 dry-run，不发布到 Cloudflare。
+Run unit tests with `npm test`. After building, run Worker browser tests with `npm run test:e2e:worker`.
+Browser tests use Microsoft Edge through Playwright; see the [test guide](docs/cloudflare-workers.md#验收).
 
-本次适配的命令结果、HTTP 检查和独立构建记录见 [验收记录](docs/deployment-verification.md)。
+Built with React 19, TypeScript, Vite, Leaflet, Tailwind CSS, and Tauri 2.
 
-未安装 Edge 的机器可安装 Playwright Chromium 后，将 `playwright.config.ts` 的 `channel: 'msedge'` 删除；Wrangler 测试会继承此配置。无需运行任何原始 EXE。
+## Documentation and credits
 
-## 工程结构
+Detailed guides are currently in Chinese:
+[desktop app](docs/desktop.md) · [offline resources](docs/desktop-resources.md) ·
+[quest guides](docs/quest-guides.md) · [skill library](docs/skills.md) ·
+[armor and calendar](docs/armor-calendar.md) · [languages and fonts](docs/i18n.md).
 
-- `scripts/`：旧资料转换、地图核对证据；`public/`：资料、素材和离线缓存。
-- `src/domain.ts`：查询和角色进度；`src/storage.ts`：存储接口、备份校验。
-- `src/AtlasMap.tsx`：Leaflet 图片地图；`src/App.tsx`：界面及交互。
-- `tests/`、`e2e/`：单元与浏览器测试。
-
-原始地图、图片、文字的版权归各自权利人。公开分发素材前需确认授权。当前站点：[MappingOut Web](https://mappingout-web.zhubby.workers.dev)。
+Game artwork and text belong to their respective rights holders.
+Wiki revisions and known data gaps remain documented in the [source review](docs/wiki-data-review.md).
+Machine-assisted translations remain marked for review; local license and font notices accompany the assets.

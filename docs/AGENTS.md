@@ -7,7 +7,7 @@ desktop-updates-verification.md: 自动测试、隔离 macOS 安装与发布边�
 desktop-platforms.md: 支持平台、系统签名与历史构建证据。
 desktop-resources.md: 签名资源、缓存、离线导入与发布。
 desktop-resources-verification.md: 资源实施检查与设备验收边界。
-desktop-release-notes.md: 客户端历史版本说明。
+desktop-release-notes.md: 1.3.0 功能、迁移、资源安装与发布例外说明。
 desktop-verification.md: 1.0.0 历史桌面验收。
 desktop-1.2.0-acceptance.md: 1.2.0 历史发布验收。
 cloudflare-workers.md: 网页静态资源部署和回滚。

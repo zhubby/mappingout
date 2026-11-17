@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖四套英文基线与 Wiki 当前修订接口。
+ * [INPUT]: 依赖五套英文基线与 Wiki 当前修订接口。
  * [OUTPUT]: 保存版本变更和来源覆盖报告。
  * [POS]: 正式发布的来源新鲜度检查；不改变固定快照。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md

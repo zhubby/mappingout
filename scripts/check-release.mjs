@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖版本、四套资料的发布输入与既有发布例外。
+ * [INPUT]: 依赖版本、五套资料的发布输入与既有发布例外。
  * [OUTPUT]: 计算发布指纹并执行审校、许可及完整性门禁。
  * [POS]: 正式发布校验；资料变更使旧例外失效。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md

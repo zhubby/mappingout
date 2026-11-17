@@ -6,11 +6,11 @@
 
 | 包 | 内容 | 当前 ZIP 大小 |
 |---|---|---:|
-| media | `public/assets/` 地图及图片 | 16.58 MiB |
-| data | `public/data/`、许可文本，原始资料与中英文语言包共同更新 | 3.04 MiB |
+| media | `public/assets/` 地图及图片 | 75.25 MiB |
+| data | `public/data/`、许可文本，原始资料与中英文语言包共同更新 | 9.01 MiB |
 | fonts | `public/fonts/` 字体与许可声明 | 13.79 MiB |
 
-三种架构共用这三个包。包名为 `<kind>-<sha256>.zip`；ZIP 中顺序、时间和压缩参数固定，Git 文本资源使用 LF。只改翻译时媒体和字体包不变，约下载 3 MiB 资料包。代码变化不要求重新上传相同资源。
+三种架构共用这三个包。包名为 `<kind>-<sha256>.zip`；ZIP 中顺序、时间和压缩参数固定，Git 文本资源使用 LF。只改翻译时媒体和字体包不变，仅下载资料包。代码变化不要求重新上传相同资源。
 
 `resources.json` 是包含 Base64 payload 与 Minisign 签名的单文件封套。payload 包含 schema、客户端兼容范围、资源代号、每包 URL/字节数/SHA256，以及逐文件路径、大小与哈希。公钥固化于客户端 `src-tauri/resources.config.json`；私钥独立于程序更新签名。
 
@@ -76,4 +76,4 @@ npm run resources:build
 npm run resources:publish
 ```
 
-资源发布脚本和 CI 均执行 `check:release`，通过后才上传。资源拆包不代表资料复核完成或获得字体分发许可；已有 1.2.0 发布例外绑定旧指纹，新增界面文案后不再适用，不能自动刷新例外来绕过检查。当前实施与验证记录见 [资源验收](desktop-resources-verification.md)。
+资源发布脚本和 CI 均执行 `check:release`，通过后才上传。资源拆包不代表资料复核完成或获得字体分发许可。1.3.0 按用户本次明确发布要求重新评估并记录限定本版的例外；1.2.0 的旧例外未沿用。版本、资料和待审项变化时重新评估，不能自动刷新例外来绕过检查。当前实施与验证记录见 [资源验收](desktop-resources-verification.md)。

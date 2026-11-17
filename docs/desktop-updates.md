@@ -34,4 +34,4 @@ cargo clippy --manifest-path src-tauri/Cargo.toml --locked --tests -- -D warning
 
 本轮测试结果与真实 macOS 安装证据见 [自动更新验收](desktop-updates-verification.md)。
 
-当前正式版本 1.2.0 不会因本次源码修改获得新行为。需发布包含此实现的新客户端，后续升级才使用此流程。正式发布仍执行现有资料、字体许可和版本校验。
+1.3.0 包含此自动更新流程。1.2.0 用户升级后，后续更新使用此流程。正式发布仍执行现有资料、字体许可和版本校验。

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import fs from 'node:fs';
 import { decode, rows, jpegSize, stableId } from '../scripts/format.mjs';
-import type { Catalog } from '../src/types';
+import type { Catalog } from '../src/shared/contracts/catalog';
 const data: Catalog = JSON.parse(fs.readFileSync('public/data/catalog.json','utf8'));
 describe('legacy conversion', () => {
   it('decodes UTF-8, GB18030 and UTF-16 without corrupting Chinese', () => {

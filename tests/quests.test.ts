@@ -8,10 +8,13 @@ import { describe, expect, it } from 'vitest';
 import { IDBFactory } from 'fake-indexeddb';
 import 'fake-indexeddb/auto';
 import { openDB } from 'idb';
-import { changeQuest, changeQuestProfile, questRecord, requirementState } from '../src/quests-domain';
-import { emptyPersonal, makeBackup, parseBackup, personalStore, validatePersonal } from '../src/storage';
-import { deleteCharacter } from '../src/domain';
-import type { QuestRequirement } from '../src/quest-types';
+import { changeQuest, changeQuestProfile, questRecord, requirementState } from '../src/features/quests/domain';
+import { emptyPersonal } from '../src/storage/defaults';
+import { makeBackup, parseBackup } from '../src/storage/backup';
+import { personalStore } from '../src/storage/store';
+import { validatePersonal } from '../src/storage/validation';
+import { deleteCharacter } from '../src/features/journal/domain';
+import type { QuestRequirement } from '../src/shared/contracts/quests';
 const state = () => ({ ...emptyPersonal(), characters:[{id:'a',name:'甲'},{id:'b',name:'乙'}], preferences:{...emptyPersonal().preferences,characterId:'a'} });
 const done = (id:string):QuestRequirement => ({op:'quest',questId:id});
 

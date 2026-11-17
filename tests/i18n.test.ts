@@ -9,10 +9,12 @@ import fs from 'node:fs';
 import {getLocale,setLocale,t,displayMessage,localeKey} from '../src/i18n';
 import {contentFields,type Dataset} from '../src/i18n/content-fields';
 import {projectContent,originalOf,type ContentBundle} from '../src/i18n/content';
-import {readFilters,query} from '../src/domain';
-import {kindNames,type Catalog} from '../src/types';
-import {emptyPersonal,makeBackup,parseBackup} from '../src/storage';
-import {formatInstant} from '../src/features-domain';
+import { readFilters, query } from '../src/features/atlas/domain';
+import { kindNames } from '../src/shared/game/kinds';
+import { type Catalog } from '../src/shared/contracts/catalog';
+import { emptyPersonal } from '../src/storage/defaults';
+import { makeBackup, parseBackup } from '../src/storage/backup';
+import { formatInstant } from '../src/features/calendar/domain';
 import {validateI18n} from '../scripts/validate-i18n.mjs';
 
 afterEach(()=>{setLocale('zh-CN');vi.unstubAllGlobals();});

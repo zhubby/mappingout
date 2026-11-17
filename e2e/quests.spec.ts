@@ -7,7 +7,7 @@
 import {expect,test,type Page} from '@playwright/test';
 import fs from 'node:fs';
 import {selectOption} from './select';
-import type {QuestCatalog} from '../src/quest-types';
+import type {QuestCatalog} from '../src/shared/contracts/quests';
 const data:QuestCatalog=JSON.parse(fs.readFileSync('public/data/quests.json','utf8'));
 const quest=(title:string)=>data.quests.find(q=>q.englishName===title)!;
 const url=(title:string)=>`/?view=quests&quest=${encodeURIComponent(quest(title).id)}`;

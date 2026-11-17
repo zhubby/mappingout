@@ -5,8 +5,8 @@
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import {describe,expect,it} from 'vitest';
-import {effectValue,parseSkillQuery,searchSkills} from '../src/skill-query';
-import type {SkillCatalog,SkillEffect,SkillVariant} from '../src/skill-types';
+import {effectValue,parseSkillQuery,searchSkills} from '../src/features/skills/query';
+import type {SkillCatalog,SkillEffect,SkillVariant} from '../src/shared/contracts/skills';
 const reference={title:'Test',pageid:1,revid:1,url:'https://wiki.guildwars.com/wiki/Test',revisionUrl:'https://wiki.guildwars.com/index.php?oldid=1',revisedAt:'2026-11-16',retrievedAt:'2026-11-16'};
 const effect=(id:string,values:Record<string,number>,metric='damage',conditional=false):SkillEffect=>({id,label:metric,metric,unit:'points',scope:'single',conditional,condition:conditional?'If target is hexed':'',axis:'Tactics',axisKind:'attribute',values,reference});
 function variant(id:string,energy:number|null,recharge:number|null,effects:SkillEffect[],mode:'pve'|'pvp'='pve'):SkillVariant{

@@ -1,8 +1,11 @@
 import { describe, expect, it, vi } from 'vitest';
 import fs from 'node:fs';
-import { completed, defaultFilters, deleteCharacter, filtersSearch, normalizeFilters, preferredPlace, query, readFilters, setProgress, toggleProgress } from '../src/domain';
-import { emptyPersonal, makeBackup, parseBackup, personalStore } from '../src/storage';
-import type { Catalog } from '../src/types';
+import { completed, defaultFilters, filtersSearch, normalizeFilters, preferredPlace, query, readFilters, setProgress, toggleProgress } from '../src/features/atlas/domain';
+import { deleteCharacter } from '../src/features/journal/domain';
+import { emptyPersonal } from '../src/storage/defaults';
+import { makeBackup, parseBackup } from '../src/storage/backup';
+import { personalStore } from '../src/storage/store';
+import type { Catalog } from '../src/shared/contracts/catalog';
 import 'fake-indexeddb/auto';
 const catalog: Catalog = JSON.parse(fs.readFileSync('public/data/catalog.json','utf8'));
 function personal() { return {...emptyPersonal(),characters:[{id:'a',name:'角色甲'},{id:'b',name:'角色乙'}],preferences:{...emptyPersonal().preferences,characterId:'a'}}; }

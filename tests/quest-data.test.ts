@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import {describe,expect,it} from 'vitest';
 import {cleanQuestText,contentBlocks,mapTitles} from '../scripts/wiki/quest-content.mjs';
 import {validateQuestData} from '../scripts/validate-quests.mjs';
-import type {QuestCatalog,QuestRequirement} from '../src/quest-types';
+import type {QuestCatalog,QuestRequirement} from '../src/shared/contracts/quests';
 const data:QuestCatalog=JSON.parse(fs.readFileSync('public/data/quests.json','utf8'));
 const quest=(title:string)=>data.quests.find(q=>q.englishName===title)!;
 const leaves=(requirement:QuestRequirement):QuestRequirement[]=>'items' in requirement?requirement.items.flatMap(leaves):[requirement];

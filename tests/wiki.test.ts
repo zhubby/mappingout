@@ -11,9 +11,10 @@ import { collectorTableFacts, assertCollectorIdentity } from '../scripts/wiki/co
 import { assertBossEvidence } from '../scripts/wiki/boss-evidence.mjs';
 import { legacyWeaponProfile, matchingWeaponProfile } from '../scripts/wiki/weapon-evidence.mjs';
 import { applyWikiCorrections } from '../scripts/wiki/apply.mjs';
-import { query, defaultFilters, trackable, preferredPlace } from '../src/domain';
-import { emptyPersonal, makeBackup, parseBackup } from '../src/storage';
-import type { Catalog } from '../src/types';
+import { query, defaultFilters, trackable, preferredPlace } from '../src/features/atlas/domain';
+import { emptyPersonal } from '../src/storage/defaults';
+import { makeBackup, parseBackup } from '../src/storage/backup';
+import type { Catalog } from '../src/shared/contracts/catalog';
 
 const json = async (filename: string) => JSON.parse(await fs.readFile(filename, 'utf8'));
 const data: Catalog = await json('public/data/catalog.json');

@@ -6,12 +6,12 @@
  */
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App';
+import App from './app/App';
 import 'leaflet/dist/leaflet.css';
-import './styles.css';
-import './features.css';
-import ResourceGate from './ResourceGate';
-import DesktopStartup from './DesktopUpdates';
+import './app/styles.css';
+import './app/features.css';
+import ResourceGate from './app/desktop/ResourceGate';
+import DesktopStartup from './app/desktop/DesktopStartup';
 if(import.meta.env.MODE!=='desktop'||import.meta.env.DEV)void import('./i18n/fonts.css');
 createRoot(document.getElementById('root')!).render(<React.StrictMode>{import.meta.env.MODE==='desktop'&&import.meta.env.PROD?<DesktopStartup><ResourceGate/></DesktopStartup>:<App/>}</React.StrictMode>);
 if (import.meta.env.PROD && import.meta.env.MODE !== 'desktop' && 'serviceWorker' in navigator) {

@@ -5,8 +5,8 @@
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { t, getLocale } from '../i18n';
-import { makeBackup, parseBackup } from '../storage';
-import type { Backup, Personal } from '../types';
+import { makeBackup, parseBackup } from '../storage/backup';
+import type { Backup, Personal } from '../shared/contracts/personal';
 
 export const isDesktop = import.meta.env.MODE === 'desktop';
 export async function syncDesktopLocale() {

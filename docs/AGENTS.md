@@ -10,8 +10,9 @@ desktop-resources-verification.md: 资源实施检查与设备验收边界。
 desktop-release-notes.md: 1.3.0 功能、迁移、资源安装与发布例外说明。
 desktop-verification.md: 1.0.0 历史桌面验收。
 desktop-1.2.0-acceptance.md: 1.2.0 历史发布验收。
+desktop-1.3.0-acceptance.md: 1.3.0 三平台发布、更新签名与公开资源回读验收。
 cloudflare-workers.md: 网页静态资源部署和回滚。
-deployment-verification.md: 网页构建和 Workers 验证记录。
+deployment-verification.md: 网页构建、Workers 发布及 1.3.0 正式站点验收。
 armor-calendar.md: 护甲、日历、个人记录与回滚说明。
 quest-guides.md: 任务覆盖、来源缺口、角色进度、离线及 v3 迁移说明。
 skills.md: 技能覆盖、查询语法、成长边界、原始图标与离线兼容。

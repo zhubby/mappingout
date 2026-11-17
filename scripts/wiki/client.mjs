@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Wiki API、可选代理和固定快照目录。
+ * [OUTPUT]: 提供限速采集、媒体读取和快照索引。
+ * [POS]: Wiki 维护脚本的网络边界；应用运行时不引用。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

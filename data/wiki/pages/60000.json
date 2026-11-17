@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Sandstorm",
+  "pageid": 60000,
+  "revid": 2629847,
+  "revisedAt": "2018-06-18T17:42:49Z",
+  "sha1": "dc2c81b6cf5294f9f47701fb009920055b787705",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Sandstorm",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Sandstorm&oldid=2629847",
+  "retrievedAt": "2026-11-16T15:41:42.046Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Sandstorm\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 30\n| description = [[Spell]]. Create a Sandstorm at target foe's location. For 10 seconds, target foe is struck for 40 damage each second. If that foe is casting a spell, that foe takes an additional 20 damage each second.\n| concise description = Spell. Deals 40 damage each second at target foe's location (10 seconds). Deals 20 more damage each second if that foe is casting a spell.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Dwarven Arcanist Form]]\n\n==Notes==\n*This skill will continue to damage players even if the piece died during the duration- [[survivor]]s should be cautious.\n\n==Related skills==\n*{{Skill icon|Sandstorm}}\n\n[[de:Polymock-Sandsturm]]"
+}

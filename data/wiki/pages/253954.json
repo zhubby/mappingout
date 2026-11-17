@@ -1,0 +1,11 @@
+{
+  "title": "Wandering Eye (PvP)",
+  "pageid": 253954,
+  "revid": 2646603,
+  "revisedAt": "2019-12-26T04:38:11Z",
+  "sha1": "476edfb02a1e9e9dea55ba460a8cfd6f0d93fd73",
+  "url": "https://wiki.guildwars.com/wiki/Wandering_Eye_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Wandering%20Eye%20(PvP)&oldid=2646603",
+  "retrievedAt": "2026-11-16T15:42:07.261Z",
+  "wikitext": "{{pveversion|Wandering Eye}}\n{{Skill infobox\n| name = Wandering Eye (PvP)\n| id = 3195\n| campaign = Eye of the North\n| profession = Mesmer\n| attribute = Illusion Magic\n| type = Hex Spell\n| is-pvp = y\n| energy = 10\n| activation = 2\n| recharge = 12\n| causes1 = Interrupt\n| description = [[Hex Spell]]. For 4 seconds, the next time [[target]] [[foe]] [[attack]]s, that attack is [[interrupt]]ed and all [[nearby]] foes take {{gr|10|92}} [[damage]].\n| concise description = Hex Spell. (4 seconds.) Interrupts target foe's next attack. Interruption effect: {{gr|10|92}} damage to nearby foes.\n| aoe = nearby\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Damage]]\n|var1 at0 = 10\n|var1 at15 = 92}}\n \n== Related skills ==\n* {{skill icon|Clumsiness}}\n* {{skill icon|Ineptitude}} ([[elite]])\n* {{skill icon|Mistrust (PvP)}}\n* {{skill icon|Signet of Clumsiness (PvP)}}\n\n== Notes ==\n* Very useful against [[assassin]]s, since it can easily break their [[Assassin attack chaining|attack skill chain]].\n{{anomaly|Skills which prevent interruptions will trigger when hexed with Wandering Eye but will not prevent their target from being interrupted nor from taking damage}}\n[[de:Wanderndes Auge (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Illusion of Haste (PvP)",
+  "pageid": 296991,
+  "revid": 2733391,
+  "revisedAt": "2026-07-05T21:57:43Z",
+  "sha1": "d994b74e890d9deb7bdf25ae10b01258cc05e2c5",
+  "url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Illusion%20of%20Haste%20(PvP)&oldid=2733391",
+  "retrievedAt": "2026-11-16T15:41:29.423Z",
+  "wikitext": "__NOTOC__\n{{pveversion|Illusion of Haste}}\n{{Skill infobox\n| id = 3373\n| name = Illusion of Haste (PvP)\n| campaign = Core\n| profession = Mesmer\n| attribute = Illusion Magic\n| type = Enchantment Spell\n| energy = 5\n| activation = 1\n| recharge = 8\n| causes1 = Increased Movement Speed\n| causes2 = Crippled\n| description = [[Enchantment Spell]]. For {{gr|5|11}} seconds, you move 33% faster. When Illusion of Haste ends, you become Crippled for 3 seconds.\n| concise description = Enchantment Spell. ({{gr|5|11}} seconds.) You move 33% faster. {{gray|End effect: you are Crippled (3 seconds).}}\n| target = self\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 11}}\n\n== Notes ==\n* The cripple is applied even when reapplying the skill.\n** However, the cripple duration is reduced to just 1 second if using both a [[\"Swift as the Wind\"]] inscription and [[Rune of Restoration]]. By reactivating Illusion of Haste during this second, the cripple condition will effectively have no impact on your movement. Consider using a weapon of Enchanting simultaneously to maximize the skill's effect.\n\n[[de:Illusion der Eile (PvP)]]"
+}

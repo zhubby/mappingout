@@ -1,0 +1,11 @@
+{
+  "title": "Adventurer's Insight",
+  "pageid": 77062,
+  "revid": 2474814,
+  "revisedAt": "2012-04-11T23:46:37Z",
+  "sha1": "d2fcb0512bf0ebae0199f93cf2a81940570d8121",
+  "url": "https://wiki.guildwars.com/wiki/Adventurer%27s_Insight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Adventurer's%20Insight&oldid=2474814",
+  "retrievedAt": "2026-11-16T15:41:05.434Z",
+  "wikitext": "{{skill infobox\n| id = 857\n| name = Adventurer's Insight\n| campaign = Core\n| type = Party Bonus\n| consumable = Scroll of Adventurer's Insight\n| description = [[Party Bonus]]. For 10 minutes your [[party]] gains +50% [[XP]] from combat.\n| concise description = Party Bonus. (10 minutes.) Your party gains +50% XP from combat.\n}}\n\n==Related skills==\n*{{skill icon|Hero's Insight}}\n*{{skill icon|Lightbringer's Insight}}\n\n==Notes==\n*This bonus can only be gained when a party member uses a [[Scroll of Adventurer's Insight]]."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Union (PvP)",
+  "pageid": 207632,
+  "revid": 2720904,
+  "revisedAt": "2026-02-10T01:31:18Z",
+  "sha1": "c66b271db0badc46c5cd115cb50f34bb32f9fa61",
+  "url": "https://wiki.guildwars.com/wiki/Union_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Union%20(PvP)&oldid=2720904",
+  "retrievedAt": "2026-11-16T15:42:03.619Z",
+  "wikitext": "{{pveversion|Union}}\n\n{{Skill infobox\n| name = Union (PvP)\n| id = 3005\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| energy = 15\n| activation = 3\n| recharge = 45\n| causes1 = Spirit\n| causes2 = Damage Reduction\n| description = [[Binding Ritual]]. Create a level {{gr|1|8}} [[spirit]]. Whenever a non-spirit [[ally]] in its [[Spirit range|range]] takes [[damage]] or [[Life stealing|life steal]], it is reduced by 15 and the spirit takes 15 damage. This spirit dies after {{gr|30|60}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|8}} spirit ({{gr|30|60}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, that damage is reduced by 15 and the spirit takes 15 damage.\n| is-pvp = y\n| aoe = spirit\n}}\n\n{{Skill progression\n| attribute = [[Communing]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 8\n| var2 name = [[Duration]]\n| var2 at0 = 30\n| var2 at15 = 60}}\n\n== Notes ==\n* This skill creates a [[Spirit of Union]].\n* Often used with [[Displacement (PvP)]] and [[Shelter (PvP)]] to provide powerful [[damage reduction]].\n* Also affects allied [[minion]]s, thus making the spirit die almost instantly if there are allied minions taking damage.\n\n== Trivia ==\n* The [[skill icon]] is very similar to the [[Peace and Harmony]] icon and [[Friends List]] [[menu button]].\n\n[[Category:Skills that affect allies]]\n\n[[de:Vereinigung (PvP)]]"
+}

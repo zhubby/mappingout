@@ -1,0 +1,11 @@
+{
+  "title": "Speak with Headmaster Vhang (Elementalist)",
+  "pageid": 13117,
+  "revid": 2627740,
+  "revisedAt": "2018-05-30T16:42:51Z",
+  "sha1": "dacf7f511713ecbc49b8d916a2007b6ae74c81e0",
+  "url": "https://wiki.guildwars.com/wiki/Speak_with_Headmaster_Vhang_(Elementalist)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Speak%20with%20Headmaster%20Vhang%20(Elementalist)&oldid=2627740",
+  "retrievedAt": "2026-11-16T13:47:16.768Z",
+  "wikitext": "{{Quest infobox\n| name = Speak with Headmaster Vhang (Elementalist)\n| map = \n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Master Togo]]\n| given at = [[Linnok Courtyard]]\n| preceded by = [[An Audience with Master Togo]]\n| followed by = [[Locate Ronsu]]\n}}\nSeek out the headmaster for a secondary profession.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n}}\n* No secondary profession\n* Primary profession not an [[Elementalist]]\n\n===Objectives===\n* Speak with Headmaster Vhang in the Shing Jea Monastery.\n\n===Reward===\n* 50 [[Experience]]\n\n==Walkthrough==\nGo to southeastern [[Shing Jea Monastery]]. The headmasters are gathered in one place.\n\n==Dialogue==\n===Initial dialogue===\n;Master Togo\n''If you are interested in taking the Elementalist profession as your secondary field of study, then you will need to speak with [[Headmaster Vhang]].''\n\n''Vhang is a bit arrogant, but he has much skill and can teach you what you need to learn. Seek him out in the [[Shing Jea Monastery]].''\n{{ Offer dialog\n| accept = \"Yes, Master.\n| decline = I'm not sure about this.\n| ask = If you wish to become an Elementalist, find [[Headmaster Vhang]] in the [[Shing Jea Monastery|monastery]]. Now, let me do my work.\n}}\n\n===Reward dialogue===\n;Headmaster Vhang\n''Yes, I am Headmaster Vhang. What do you want? Sent by Master Togo, you say? Well, that is to be expected. I am the best headmaster in his employ, bar none.''\n\n''Well, you cannot hope to achieve my status, but if you choose to become an Elemantalist, I will do what I can to teach you the powers of Fire, Water, Air, and Earth.''"
+}

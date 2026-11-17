@@ -1,0 +1,11 @@
+{
+  "title": "\"Help!\" (PvP)",
+  "pageid": 207521,
+  "revid": 2726866,
+  "revisedAt": "2026-04-29T09:45:28Z",
+  "sha1": "e52071742d12245c29a84e16ed3d9a1c24f8d27f",
+  "url": "https://wiki.guildwars.com/wiki/%22Help!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Help!%22%20(PvP)&oldid=2726866",
+  "retrievedAt": "2026-11-16T15:41:04.640Z",
+  "wikitext": "{{pveversion|\"Help!\"}}\n\n{{Skill infobox\n| id = 3036\n| name = \"Help!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| energy = 5\n| recharge = 15\n| causes1 = Decreased Activation Time\n| causes2 = Health Gain\n| description = [[Shout]]. Target non-[[spirit]] [[ally]] [[Health gain|gain]]s {{gr|5|50}} [[Health]]. For {{gr|1|10}} seconds, other allies' [[spell]]s [[target]]ing that ally [[Activation time|cast]] 50% faster.\n| concise description = Shout. ({{gr|1|10}} seconds.) Target non-spirit ally gains {{gr|5|50}} health, allied spells targeting them cast 50% faster.\n| is-pvp=y\n| aoe = none\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| var1 name = [[Duration]]\n| var1 at0 = 1\n| var1 at15 = 10\n| var2 name = [[Health gain]]\n| var2 at0 = 5\n| var2 at15 = 50}}\n\n==Trivia==\n*The [[skill icon]] resembles the [http://www.guildwars.com/products/guildwars/gallery/poster/e3_2003.php poster art] and the skill [[\"Go for the Eyes!\"]]. Also, the two figures below the paragon in the icon are necromancers wearing [[Necromancer Sunspear armor|Sunspear armor]], the same figure shown in [[\"Never Surrender!\"]].\n{{DEFAULTSORT:Help Me!}}\n\n[[de:\"Helft mir!\" (PvP)]]"
+}

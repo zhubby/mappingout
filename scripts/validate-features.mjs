@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖公共护甲、活动与地图资料及本地图像文件。
+ * [OUTPUT]: 拒绝无效配方、材料图标、来源与周期。
+ * [POS]: 构建资料门禁；不访问网络或个人数据。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -19,6 +25,11 @@ export async function validateFeatureData(publicDir, atlas) {
     for(const image of Object.values(set.images)){if(!/^assets\/armor\/\d+-(?:male|female)\.webp$/.test(image))fail('非法护甲图片引用');let bytes;try{bytes=await fs.readFile(path.join(publicDir,image));}catch{fail(`缺少护甲图片 ${image}`);}if(bytes.toString('ascii',0,4)!=='RIFF'||bytes.toString('ascii',8,12)!=='WEBP')fail(`护甲图片损坏 ${image}`);}
   }
   armor.armorers.forEach(n=>ref(n.reference));armor.references?.forEach(ref);
+  for(const material of armor.materials){
+    if(!/^material:[a-z]+(?:-[a-z]+)*$/.test(material.id)||material.icon!==`assets/materials/${material.id.slice(9)}.png`)fail(`非法材料图标引用 ${material.id}`);
+    let bytes;try{bytes=await fs.readFile(path.join(publicDir,material.icon));}catch{fail(`缺少材料图标 ${material.icon}`);}
+    if(bytes.length<24||!bytes.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]))||!bytes.readUInt32BE(16)||!bytes.readUInt32BE(20))fail(`材料图标损坏 ${material.icon}`);
+  }
   for(const offer of armor.offers){ref(offer.reference);if(!armor.sets.some(s=>s.id===offer.armorId)||!armor.armorers.some(n=>n.id===offer.armorerId)||!integer(offer.armorRating,1)||!integer(offer.campaign)||offer.campaign>4||!offer.location||!Array.isArray(offer.pieces)||!offer.pieces.length||offer.pieces.length>5)fail(`制作方案无效 ${offer.id}`);unique(offer.pieces.map(p=>p.id),'护甲部位');for(const piece of offer.pieces){if(!['head','chest','hands','legs','feet'].includes(piece.slot)||piece.id!==piece.slot||!integer(piece.gold)||!piece.materials.length)fail('护甲部位无效');unique(piece.materials.map(m=>m.materialId),'配方材料');for(const m of piece.materials)if(!integer(m.quantity,1)||!armor.materials.some(v=>v.id===m.materialId))fail('材料数量或引用无效');}}
   if(!Array.isArray(calendar.activities)||!calendar.activities.length||!Array.isArray(calendar.rotations))fail('活动资料为空');
   unique(calendar.activities.map(a=>a.id),'活动');unique(calendar.rotations.map(r=>r.id),'轮换');

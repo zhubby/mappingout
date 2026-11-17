@@ -1,0 +1,11 @@
+{
+  "title": "Burning Breath",
+  "pageid": 26963,
+  "revid": 2638908,
+  "revisedAt": "2019-05-31T20:50:05Z",
+  "sha1": "6b2b0aee54347670a50b03a53f7eef83e397ff9a",
+  "url": "https://wiki.guildwars.com/wiki/Burning_Breath",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Burning%20Breath&oldid=2638908",
+  "retrievedAt": "2026-11-16T15:41:10.392Z",
+  "wikitext": "{{Skill infobox\n| name = Burning Breath\n| special = Junundu\n| campaign = Nightfall\n| type = Skill\n| energy = 5\n| activation = 2\n| recharge = 2\n| description = [[Skill (skill type)|Skill]]. Spit a [[burning]] [[projectile]] at target [[foe]] that strikes for 250 [[fire damage]] and sets that foe [[burning|on fire]] for 5 seconds if it hits. This skill cannot be used on [[nearby]] foes.\n| concise description = Skill. Projectile: deals 250 fire damage and inflicts Burning (5 seconds). Cannot be used on nearby foes.\n| target = foes\n}}\n\n==Acquisition==\nYou have a 33% chance of gaining this skill after using [[Junundu Feast]], which is available whenever your character is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] onward through the rest of [[the Desolation]].\n\n==Notes==\n*This skill is a good alternative to [[Junundu Siege]] and can be used while it is recharging.\n*If you try to activate it targeting a foe in nearby or shorter range, the skill will fail before starting to activate and without warning message.\n{{bug|Though the skill description lists it to have a 2 second [[activation time]], Burning Breath activation actually lasts 3 seconds.}}\n\n[[Category:Skills that cannot be used on nearby foes]]\n\n[[de:Brennender Hauch]]"
+}

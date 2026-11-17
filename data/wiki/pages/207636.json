@@ -1,0 +1,11 @@
+{
+  "title": "Disenchantment (PvP)",
+  "pageid": 207636,
+  "revid": 2738859,
+  "revisedAt": "2026-08-27T15:54:34Z",
+  "sha1": "7cffb424a6392fcb587b7bbbea24a8f59a869cff",
+  "url": "https://wiki.guildwars.com/wiki/Disenchantment_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Disenchantment%20(PvP)&oldid=2738859",
+  "retrievedAt": "2026-11-16T15:41:17.797Z",
+  "wikitext": "{{Pveversion|Disenchantment}}{{Skill infobox\n| name = Disenchantment (PvP)\n| id = 3017\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| energy = 25\n| activation = 3\n| recharge = 30\n| causes1 = Spirit\n| removes1 = Enchantment\n| description = [[Binding Ritual]]. Create a level {{gr|1|8}} [[spirit]]. This spirit deals {{gr|5|20}} [[damage]] and anyone struck by its [[attack]] loses one [[enchantment]]. This spirit dies after {{gr|15|40}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|8}} spirit ({{gr|15|40}} second lifespan). Its attacks deal {{gr|5|20}} damage and remove one enchantment.\n| is-pvp = y\n| target = untargeted\n| aoe = none\n}}\n\n{{Skill progression\n| attribute = [[Communing]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 8\n| var2 name = [[Damage]]\n| var2 at0 = 5\n| var2 at15 = 20\n| var3 name = [[Duration]]\n| var3 at0 = 10\n| var3 at15 = 35}}\n\n== Notes ==\n* This skill creates a [[Spirit of Disenchantment]].\n* Like other spirits, this does not preferentially [[target]] [[foe]]s against which its effect would be useful - in this case, enchanted foes.\n\n[[de:Entzauberung (PvP)]]"
+}

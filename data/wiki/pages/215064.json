@@ -1,0 +1,11 @@
+{
+  "title": "Shroud of Distress (PvP)",
+  "pageid": 215064,
+  "revid": 2733040,
+  "revisedAt": "2026-07-05T13:11:13Z",
+  "sha1": "364456593a84d1bdab4b06fbcf60f004133aebbb",
+  "url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shroud%20of%20Distress%20(PvP)&oldid=2733040",
+  "retrievedAt": "2026-11-16T15:41:52.089Z",
+  "wikitext": "{{Pveversion|Shroud of Distress}}\n{{Skill infobox\n| name = Shroud of Distress (PvP)\n| id = 3048\n| campaign = Factions\n| profession = Assassin\n| attribute = Shadow Arts\n| type = Enchantment Spell\n| energy = 10\n| activation = 1\n| recharge = 45\n| is-pvp = y\n| causes1 = Block\n| description = [[Enchantment Spell]].  For {{gr|30|60}} seconds, if you are below 50% [[Health]], you have a 75% chance to [[block]] [[attack]]s.\n| concise description = Enchantment Spell. ({{gr|30|60}} seconds.) You have 75% chance to block. No effect unless your Health is below 50%.\n| target = self\n}}\n\n{{Skill progression\n|attribute = [[Shadow Arts]]\n|var1 name = [[Duration]]\n|var1 at0 = 30\n|var1 at15 = 60}}\n\n[[de:Schleier des Kummers (PvP)]]"
+}

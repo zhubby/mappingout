@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖本地公共资源、资源配置与独立签名密钥。
+ * [OUTPUT]: 生成三类 ZIP、文件哈希和验签后的资源清单。
+ * [POS]: 桌面资源构建边界；不发布产物或更换公钥。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';

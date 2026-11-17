@@ -1,0 +1,11 @@
+{
+  "title": "Anthem of Envy (PvP)",
+  "pageid": 240758,
+  "revid": 2733314,
+  "revisedAt": "2026-07-05T17:37:50Z",
+  "sha1": "46771f5d5ada7b04c7b1d0585dda061213d92fa0",
+  "url": "https://wiki.guildwars.com/wiki/Anthem_of_Envy_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Anthem%20of%20Envy%20(PvP)&oldid=2733314",
+  "retrievedAt": "2026-11-16T15:41:06.626Z",
+  "wikitext": "{{pveversion|Anthem of Envy}}\n{{Skill infobox\n| id = 3148\n| name = Anthem of Envy (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Chant\n| is-pvp = y\n| adrenaline = 6\n| recharge = 6\n| activation = 1\n| description= [[Chant]]. For 10 seconds, the next [[attack skill]] used by each [[ally]] within [[earshot]] deals {{gr|10|20|+}} [[damage]] against [[foe]]s with more than 50% [[Health]].\n| concise description = Chant. (10 seconds.) Allies in earshot do {{gr|10|20|+}} damage with their next attack skill. {{gray|Damage bonus only applies to foes with more than 50% Health.}}\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| var1 name = [[Damage]]\n| var1 at0 = 10\n| var1 at15 = 20}}\n\n[[Category:Skills that affect allies]]\n\n[[de:Hymne des Neids (PvP)]]"
+}

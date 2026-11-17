@@ -1,0 +1,11 @@
+{
+  "title": "Hero's Insight",
+  "pageid": 77067,
+  "revid": 2474816,
+  "revisedAt": "2012-04-11T23:50:28Z",
+  "sha1": "ed020f697d48ec21c5f8dc199e2c24eff88f836d",
+  "url": "https://wiki.guildwars.com/wiki/Hero%27s_Insight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hero's%20Insight&oldid=2474816",
+  "retrievedAt": "2026-11-16T15:41:28.880Z",
+  "wikitext": "{{skill infobox\n| id = 765\n| name = Hero's Insight\n| campaign = Core\n| type = Party Bonus\n| consumable = Scroll of Hero's Insight\n| description = [[Party Bonus]]. For 10 minutes your [[party]] gains double [[XP]] from combat.\n| concise description = Party Bonus. (10 minutes.) Your party gains double XP from combat.\n}}\n\n== Related skills ==\n* {{skill icon|Adventurer's Insight}}\n* {{skill icon|Lightbringer's Insight}}\n\n== Notes ==\n* This bonus can only be gained when a party member uses a [[Scroll of Hero's Insight]]."
+}

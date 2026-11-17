@@ -1,0 +1,11 @@
+{
+  "title": "Toward the Front Lines",
+  "pageid": 320714,
+  "revid": 2741656,
+  "revisedAt": "2026-09-24T19:33:56Z",
+  "sha1": "a1ed9958d6bd4e3a20bc3fcdc6bac7848623cbb1",
+  "url": "https://wiki.guildwars.com/wiki/Toward_the_Front_Lines",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Toward%20the%20Front%20Lines&oldid=2741656",
+  "retrievedAt": "2026-11-16T13:47:33.019Z",
+  "wikitext": "{{image needed|map}}\n{{ Quest infobox\n| id = 1464\n| name = Toward the Front Lines\n| section = Primary\n| given by = [[Ambassador Zain]]\n| given at = [[Old Ascalon]]\n| region = Ascalon\n| campaign = Prophecies\n| type = Primary\n| experience reward = 500\n| completion reward = 200g ({{reforgedmode}} only)\n| map = [[File:Toward the Front Lines map.jpg|250px]]\n| map1text = The route from [[Ambassador Zain]] to [[Warmaster Tydus]].\n}}\nReport to [[Warmaster Tydus]] in [[Ascalon City]]\n\n==Quest information==\n\n===Objectives===\n* The war with the [[Charr]] is at Ascalon's gates. Report to Warmaster Tydus to join the battle.\n\n===Reward===\n* 500 Experience\n* 200 {{gold}} ({{reforgedmode}} only)\n\n==Walkthrough==\nSince this quest is a simple breadcrumb to point in the direction of the next primary quest, it is marked as completed upon accepting it. Return to Warmaster Tydus in Ascalon City to accept the reward.\n\n==Dialogue==\n\n===Initial dialogue===\n;Ambassador Zain\n:''\"It is a shame that our kingdoms cannot see eye to eye, particularly in times as trying as these. If you and Warmaster Tydus are bound for the front lines of this war, may vigor and resolve be your traveling companions.\"''\n{{ Offer dialog\n| accept = Thank you. I should get back to Tydus.\n| decline = Tydus can wait.\n}}\n\n===Reward dialogue===\n;Warmaster Tydus\n:''\"I am grateful for your quick return. Even now, the war rages outside this haven. I need your help to '''[[Defend the Wall]]'''.\"''\n\n==Notes==\n{{anomaly|Unlike other [[Ascalon]] quests, this quest is available to characters from other campaigns, despite chronologically coming before the Ascalonians' departure from Ascalon.}}\n\n[[Category:Guild Wars Reforged content]]\n[[fr:Vers le front]]"
+}

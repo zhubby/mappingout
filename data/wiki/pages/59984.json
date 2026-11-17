@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Deathly Chill",
+  "pageid": 59984,
+  "revid": 2629806,
+  "revisedAt": "2018-06-18T17:41:26Z",
+  "sha1": "542532ca48db24a423eecdab590ef0489d816eac",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Deathly_Chill",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Deathly%20Chill&oldid=2629806",
+  "retrievedAt": "2026-11-16T15:41:40.102Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Deathly Chill\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 1\n| activation = 1\n| recharge = 1\n| description=[[Spell]]. Target foe is struck for 100 damage. If that foe is above 50% Health, you deal an additional 50 damage.\n| concise description = Spell. Deals 100 damage. Deals 50 more damage if target foe's Health is above 50%.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Skale Form]]\n*[[Bone Dragon Form]]\n\n==Related skills==\n*{{Skill icon|Deathly Chill}}\n\n[[de:Tödliche Polymock-Kühlung]]"
+}

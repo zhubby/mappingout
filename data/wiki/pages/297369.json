@@ -1,0 +1,11 @@
+{
+  "title": "\"I'll Be Back!\"",
+  "pageid": 297369,
+  "revid": 2675407,
+  "revisedAt": "2021-10-25T14:45:14Z",
+  "sha1": "13afbe12660406c830af11ef51d32756fda318de",
+  "url": "https://wiki.guildwars.com/wiki/%22I%27ll_Be_Back!%22",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22I'll%20Be%20Back!%22&oldid=2675407",
+  "retrievedAt": "2026-11-16T15:41:04.641Z",
+  "wikitext": "{{Skill infobox\n| id = 3380\n| name = \"I'll Be Back!\"\n| special = G.O.L.E.M.\n| campaign = Core\n| type =Shout\n| energy = 5\n| recharge = 30\n| description = [[Shout]]. For 10 seconds, the next time you would take [[Death|fatal damage]], that damage is negated and you [[Health gain|gain]] 500 [[Health]].\n| concise description = Shout. (10 seconds) Negates the next fatal damage you take. [[Negation effect]]: you gain 500 Health.\n| target = self\n| aoe = None\n}}\n\n==Acquisition ==\nThis skill is available while under the [[G.O.L.E.M. (disguise)|G.O.L.E.M. disguise]] during the [[April Fools' Day]] quest [[Annihilator 2: Searing Day]].\n\n==Notes==\n* This skill prevents death, regardless how you would die. So it will work with [[health degeneration]], [[health loss]] and [[life stealing]], not just [[damage]].\n* It will trigger before any damage reducing effects (i.e. [[Phase Shield]]).\n\n==Trivia==\n* [[w:I'll be back|\"I'll be back\"]] is a catchphrase that originated from [[w:The Terminator|The Terminator]].\n\n{{DEFAULTSORT:I'll Be Back!}}\n[[Category:References to Terminator]]\n[[de:Ich komme wieder!]]"
+}

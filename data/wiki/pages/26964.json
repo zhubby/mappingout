@@ -1,0 +1,11 @@
+{
+  "title": "Junundu Wail",
+  "pageid": 26964,
+  "revid": 2629522,
+  "revisedAt": "2018-06-18T17:34:37Z",
+  "sha1": "0364bd7268f068323204d8794ccbc602cf42ce03",
+  "url": "https://wiki.guildwars.com/wiki/Junundu_Wail",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Junundu%20Wail&oldid=2629522",
+  "retrievedAt": "2026-11-16T15:41:31.261Z",
+  "wikitext": "{{Skill infobox\n| name = Junundu Wail\n| special = Junundu\n| campaign = Nightfall\n| type = Skill\n| energy = 15\n| activation = 3\n| recharge = 10\n| target = self\n| aoe = earshot\n| description = [[Skill (skill type)|Skill]]. [[Resurrection|Resurrect]] all dead [[junundu]] within [[earshot]]. If there are no [[Foe|enemies]] within earshot, [[Health gain|gain]] 500 [[Health]] for each junundu in range.\n| concise description = Skill. Resurrect all dead junundu in earshot. If there are no enemies in earshot, gain 500 Health for each junundu in range.\n}}\n\n==Acquisition ==\nThis skill is available whenever your character is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] onward through the rest of the [[Desolation]].\n\n==Notes==\n*The user is counted. Dead [[pet]]s and [[hero]]es ''not'' in Junundu form are not counted. [[Junundu Young]] are not counted.\n*Junundu are resurrected at full health and [[energy]].\n\n[[Category:Resurrection skills]]\n\n[[de:Junundus Klage]]"
+}

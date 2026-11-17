@@ -1,0 +1,11 @@
+{
+  "title": "Annihilator Strike",
+  "pageid": 297403,
+  "revid": 2470875,
+  "revisedAt": "2012-04-03T05:30:12Z",
+  "sha1": "1621a7868c4035b618fbaad1d10ed2343f12837e",
+  "url": "https://wiki.guildwars.com/wiki/Annihilator_Strike",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Annihilator%20Strike&oldid=2470875",
+  "retrievedAt": "2026-11-16T15:41:06.626Z",
+  "wikitext": "{{Skill infobox\n| name = Annihilator Strike\n| id = 3381\n| campaign = Core\n| special = G.O.L.E.M.\n| type = Attack\n| activation = 1\n| energy = 5\n| recharge = 5\n| description = [[Attack]]. If this attack hits, it [[Life stealing|steals]] 75 [[Health]]. Steal twice as much Health if it strike {{sic|Should be \"strikes\"}} Sarah.\n| concise description = Attack. Steal 75 Health. If you strike Sarah, steal twice as much Health.\n}}\n\n==Acquisition ==\nThis skill is available while under the [[G.O.L.E.M. (disguise)|G.O.L.E.M. disguise]] during the [[April Fools' Day]] quest [[Annihilator 2: Searing Day]].\n\n==Notes==\n*This attack requires a [[weapon]] to work. Any weapon will do, but even with ranged weapons the attack will still hit in [[melee]] range."
+}

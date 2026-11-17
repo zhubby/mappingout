@@ -1,0 +1,11 @@
+{
+  "title": "The Command Post",
+  "pageid": 15364,
+  "revid": 2619832,
+  "revisedAt": "2017-06-28T22:15:52Z",
+  "sha1": "377e78c1b9643d13b072bd85c46a8e06dec45292",
+  "url": "https://wiki.guildwars.com/wiki/The_Command_Post",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Command%20Post&oldid=2619832",
+  "retrievedAt": "2026-11-16T13:47:22.340Z",
+  "wikitext": "{{Quest infobox\n| name = The Command Post\n| campaign = Nightfall\n| section = Kourna\n| type = Secondary\n| given by = [[Lonai]]\n| given at = [[Sunspear Sanctuary]]\n}}\n[[The Command Post]] provides direction for the various subtasks involved in turning the [[Command Post]] into the equivalent of a [[town]].\n\n==Quest information==\n===Objectives===\n*Establish a stable base of operations in Kourna.\n*Complete \"[[Building the Base: Prisoners of War]].\"\n*Complete \"[[Building the Base: The Interrogation]].\"\n*Complete \"[[Building the Base: The Meeting]].\"\n\n===Reward===\n* 4,000 [[Experience]]\n* 200 [[Gold]]\n* 160 [[Sunspear Promotion Point]]s\n\n==Dialogue==\n===Initial dialogue===\n;Lonai\n:''Though we are battered, we are not broken...so long as we have you to lead us! At the back of the Sunspear Sanctuary is an area called the '''Command Post'''. This is where you can meet with your squad to discuss battle tactics and strategies. It also links to underground passages to other areas of Kourna so we can move about undetected by [[Varesh Ossa|Varesh]]. '''[[Dunkoro]]''' is waiting in the '''Command Post'''. No doubt he has some plans about how we should proceed.\"''\n{{offer dialog\n|accept = Our own secret hideout? Cool. I'm so there.\n|decline = Ummm, are there bats? I don't like...you know...caves with bats.\n|ask = The '''Command Post''' is in the back of the Sunspear Sanctuary. '''Dunkoro''' is already there planning our next move. }}\n\n===Reward dialogue===\n;Lonai\n:''Looks like we are doing well, thanks to you. We have enough supplies to last for quite some time now. Sure, we're still out-numbered and, for all intents and purposes, surrounded. But Varesh hasn't found us and we can hold out for as long we need to finish this once and for all.''\n\n[[Category:Rewards Sunspear promotion points]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Reckless Haste",
+  "pageid": 14864,
+  "revid": 2741844,
+  "revisedAt": "2026-09-29T17:00:27Z",
+  "sha1": "1cd22304390bf33b7d4f07bbc28aab77547f0ba1",
+  "url": "https://wiki.guildwars.com/wiki/Reckless_Haste",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Reckless%20Haste&oldid=2741844",
+  "retrievedAt": "2026-11-16T15:41:44.745Z",
+  "wikitext": "__NOTOC__\n{{Skill infobox\n| id = 834\n| name = Reckless Haste\n| campaign = Factions\n| profession = Necromancer\n| attribute = Curses\n| type = Hex Spell\n| energy = 15\n| activation = 1\n| recharge = 12\n| causes1 = Miss\n| causes2 = Increased Attack Speed\n| description = [[Hex Spell]]. For {{gr|6|12}} seconds, [[target]] [[foe]] and all [[adjacent]] foes are hexed with Reckless Haste. While hexed, they [[Attack speed|attack 25% faster]] but have a 50% chance to [[miss]] with [[attack]]s.\n| concise description = Hex Spell. Also hexes foes adjacent to your target ({{gr|6|12}} seconds). These foes have 50% chance to miss, but attack 25% faster.\n| aoe = adjacent\n}}\n\n{{Skill progression\n| attribute = [[Curses]]\n| var1 name = [[Duration]]\n| var1 at0 = 6\n| var1 at15 = 12}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Factions]]\n** [[Michiko]] ([[Kaineng Center]])\n'''[[Signet of Capture]]'''\n* [[Prophecies]]\n** [[Zaln the Jaded]] ([[D'Alessio Seaboard (explorable area)]])\n* [[Eye of the North]]\n** [[Bredyss Longstride]] ([[Magus Stones]])\n\n== Related skills ==\n* {{skill icon|Blurred Vision}}\n* {{skill icon|Price of Failure}}\n* {{skill icon|Spirit of Failure}}\n\n== Notes ==\n* Expect the affected foes to deal 33% less damage on average.\n* Like blocking, chances to miss [[effect stacking|stack]] multiplicatively, not additively. A foe hexed with both Reckless Haste and [[Price of Failure]] has a 62.5% chance to miss with attacks, not 75%.\n* Good synergy with skills like [[Spiteful Spirit]] and [[Empathy]] in [[normal mode]]; the increased attack speed will trigger these more often.\n* Enemies in [[hard mode]] already attack 25% faster, so this skill's additional increase [[effect stacking|will be less effective]]. Expect this skill to decrease the damage of hard mode foes by 42%.\n\n== Trivia ==\n* The [[skill icon]] is similar to [[Images of Remorse]]."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Spirit Burn (Togo)",
+  "pageid": 244930,
+  "revid": 2589399,
+  "revisedAt": "2015-06-08T15:06:23Z",
+  "sha1": "41210c35fa417bd9b4bf196cb8d1d3a67308aa1e",
+  "url": "https://wiki.guildwars.com/wiki/Spirit_Burn_(Togo)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Spirit%20Burn%20(Togo)&oldid=2589399",
+  "retrievedAt": "2026-11-16T15:41:56.790Z",
+  "wikitext": "{{Skill infobox\n| id = 2687\n| image = [[File:Spirit Burn (Togo).jpg]]\n| name = Spirit Burn (Togo)\n| campaign = Bonus Mission Pack\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Spell\n| special = Bonus Mission Pack\n| energy = 5\n| activation = 1\n| recharge = 6\n| description = [[Spell]]. [[Target]] [[foe]] is struck for {{gr Bonus Mission Pack|5|50|14}} [[lightning damage]]. If any [[spirit]]s are [[within earshot]], Spirit Burn causes [[Burning]] for '''<font color=green>3</font>''' seconds.\n| concise description = Spell. Deals {{gr Bonus Mission Pack|5|50|14}} lightning damage. Inflicts Burning condition ('''<font color=green>3</font>''' seconds) if you are within earshot of a spirit.\n}}\n\n{{Skill progression Bonus Mission Pack\n| attribute rank = 14\n| attribute = [[Channeling Magic]]\n| maximum = 19\n| var1 name = [[Lightning damage]]\n| var1 at0 = 5\n| var1 at15 = 50\n| var2 name =  [[Burning]] [[duration]]\n| var2 at0 = 1\n| var2 at15 = 3}}\n\n== Acquisition ==\nPart of [[Togo (disguise)|Togo's]] replacement [[skill bar]] during [[The Tengu Accords]] mission.\n\n== Related skills ==\n* {{skill icon|Spirit Burn}}\n\n== Notes ==\n* This skill is normally used with 14 in [[Channeling Magic]] (its Burning duration differs from [[Spirit Burn]]), but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Channeling Magic]] or [[of Mastery]]."
+}

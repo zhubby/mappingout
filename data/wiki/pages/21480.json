@@ -1,0 +1,11 @@
+{
+  "title": "Imperial Majesty",
+  "pageid": 21480,
+  "revid": 2629373,
+  "revisedAt": "2018-06-18T17:33:24Z",
+  "sha1": "25d561649368832f052fa7bb27b961ea9b1e67b3",
+  "url": "https://wiki.guildwars.com/wiki/Imperial_Majesty",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Imperial%20Majesty&oldid=2629373",
+  "retrievedAt": "2026-11-16T15:41:29.926Z",
+  "wikitext": "__NOTOC__\n{{Skill infobox\n| id = 1328\n| name = Imperial Majesty\n| campaign = Factions\n| type = Touch skill\n| activation = {{3/4}}\n| recharge = 10\n| special = Dragon Arena\n| range = touch\n| description = [[Skill (skill type)|Skill]]. [[Target]] [[Touch skill|touched]] [[foe]] kowtows before you and takes 80 [[damage]].\n| concise description = Touch Skill. Target foe kowtows before you and takes 80 damage.\n| target = foes\n}}\n\n== Acquisition ==\nAutomatically equipped upon entry to [[Dragon Arena]].\n\n== Related skills ==\n* {{skill icon|Shock}}\n\n== Notes ==\n* This skill [[knock down|knocks down]] the target.\n* This skill activates faster than [[Dragon Blast]], so it is useful at close distances.\n\n== Trivia ==\n* The word [[w:Kowtow|kowtow]] is a Chinese term that refers to kneeling and bowing so low that your head touches the ground.\n\n[[de:Kaiserlicher Majestät]]"
+}

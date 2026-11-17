@@ -1,0 +1,11 @@
+{
+  "title": "Spit Rocks",
+  "pageid": 21629,
+  "revid": 2630081,
+  "revisedAt": "2018-06-18T17:51:09Z",
+  "sha1": "59c26e9880fc76d6b6660beb5fcb62ecfcae1eb2",
+  "url": "https://wiki.guildwars.com/wiki/Spit_Rocks",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Spit%20Rocks&oldid=2630081",
+  "retrievedAt": "2026-11-16T15:41:57.730Z",
+  "wikitext": "{{Skill infobox\n| name = Spit Rocks\n| campaign = Core\n| type = Skill\n| special = Rollerbeetle\n| target = foes\n| description = [[Skill (skill type)|Skill]]. You spit rocks at [[target]] rollerbeetle. If they hit, that target is [[knock down|knocked down]].\n| concise description = Skill. Spit rocks at target rollerbeetle. Causes knock-down if they hit.\n}}\n== Acquisition ==\nAutomatically equipped upon entry into the [[Rollerbeetle Racing (outpost)|Rollerbeetle Racing outpost]].\n\n== Related skills ==\n* {{skill icon|Mega Snowball}}\n* {{skill icon|Water Trident}} ([[elite]])\n\n==Notes==\n*The skill descriptions omit that this skill can only randomly be recharged by hitting a [[Power Up Box]].\n*This skill causes three [[projectile]]s to be shot in succession at the target. Each deals 0 [[damage]]. Only one of the projectiles has to hit to cause a knock down.\n\n[[de:Steinspucker]]"
+}

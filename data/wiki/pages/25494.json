@@ -1,0 +1,11 @@
+{
+  "title": "A New Mesmer Trainer",
+  "pageid": 25494,
+  "revid": 2741588,
+  "revisedAt": "2026-09-23T20:30:37Z",
+  "sha1": "3988e29a2ceaca9fa3b8325d8012a147b3698ebd",
+  "url": "https://wiki.guildwars.com/wiki/A_New_Mesmer_Trainer",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=A%20New%20Mesmer%20Trainer&oldid=2741588",
+  "retrievedAt": "2026-11-16T13:46:34.164Z",
+  "wikitext": "{{ Quest infobox\n| id = 63\n| name = A New Mesmer Trainer\n| given by = [[Haversdan]]\n| given at = [[Lakeside County]]\n| region = Ascalon (pre-Searing)\n| campaign = Prophecies\n| type = Secondary\n| profession = mesmer\n| primary = y\n| nationality = Tyrian\n| preceded by = [[Further Adventures]]\n| map = [[Image:A New Mesmer Trainer map.jpg‎|250px]]\n| map1text = The walk up the hill to [[Lady Althea]].\n| experience reward = 250\n}}\n[[Haversdan]] will direct you to your next profession trainer, [[Lady Althea]], who can be found at the nearby [[Althea's Actors Stage|Actor's Stage]] just up the hill.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| test = n\n| campaign = pre\n| profession = mesmer\n| primary = y\n| complete = [[Further Adventures]]\n}}\n\n===Objectives===\n* Follow the road northwest from town. Talk to Lady Althea at the Actor's Stage.\n\n===Reward===\n* 250 [[Experience]]\n\n==Walkthrough==\nUpon receiving the quest, follow the road to the northwest and head up the hill. The Actor's Stage is on just up this hill next to the city walls, and Lady Althea can be found standing in front of it. Simply talk to her and obtain your reward.\n\n==Dialogue==\n===Initial dialogue===\n;Haversdan\n:''\"If you'd like to become a better [[Mesmer]], I suggest you to talk to '''Lady Althea''' at the '''Actor's Stage''' here in [[Lakeside County]]. Simply follow the road northwest from town to find the stage.\"''\n{{ Offer dialog\n| accept = Thanks for the suggestion.\n| decline = I'll go my own way, thanks.\n| ask = '''Lady Althea''' will be at the Actor's Stage. Simply follow the road northwest from town to find the stage.\n}}\n\n===Reward dialogue===\n;Lady Althea\n:''\"I can teach you more about [[Illusion Magic]]. Once you've learned what I have to teach, however, I recommend you seek out other trainers to learn new skills.\"''\n{{Pre-Searing Quest nav}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Speak with Headmaster Kuju (Necromancer)",
+  "pageid": 25400,
+  "revid": 2627678,
+  "revisedAt": "2018-05-30T15:56:58Z",
+  "sha1": "3b9764c0901722028d53bbcca0b71334a708c1f1",
+  "url": "https://wiki.guildwars.com/wiki/Speak_with_Headmaster_Kuju_(Necromancer)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Speak%20with%20Headmaster%20Kuju%20(Necromancer)&oldid=2627678",
+  "retrievedAt": "2026-11-16T13:47:16.769Z",
+  "wikitext": "{{quest infobox\n| name = Speak with Headmaster Kuju (Necromancer)\n| campaign = Factions\n| nationality = Canthan\n| region =Shing Jea Island\n| type = Primary\n| given by = [[Master Togo]]\n| given at = [[Linnok Courtyard]]\n| preceded by = [[An Audience with Master Togo]]\n| followed by = [[Locate Reng Ku]]\n}}\nSeek out the headmaster for a secondary profession.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n}}\n* No secondary profession\n* Primary profession not a [[Necromancer]]\n\n===Objectives===\n* Speak with [[Headmaster Kuju]] in the [[Shing Jea Monastery|monastery]].\n\n===Reward===\n* 50 [[Experience]]\n\n==Walkthrough==\nGo to southeastern [[Shing Jea Monastery]]. The headmasters are gathered in one place.\n\n==Dialogue==\n===Initial dialogue===\n;Master Togo\n''If you are interested in taking the Necromancer profession as your secondary field of study, then you will need to speak with [[Headmaster Kuju]]. I think you will find her quite pleasant for a Necromancer, and she can certainly teach you all you need to know. Seek her out in the [[Shing Jea Monastery]].''\n{{ Offer dialog\n| accept = Yes, Master\n| decline = I'm not sure about this.\n| ask = If you wish to become a Necromancer, find [[Headmaster Kuju]] in the [[Shing Jea Monastery|monastery]]. In any case, you must leave me to my work now.\n}}\n\n===Reward dialogue===\n;Headmaster Kuju\n:''Well hello there, youngster! Of course I can teach you! It will be my great pleasure to welcome another young Necromancer into the fold. And I cannot wait to introduce you to my grandchildren!''\n\n:''Are you ready to learn the dark magics of Death, Blood, and Curses? Consider your choice carefully.''"
+}

@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖地图资料、剧情概览与固定 Wiki 来源。
+ * [OUTPUT]: 展示来源原文、事实说明及逐篇章任务攻略入口。
+ * [POS]: 地图详情与剧情弹窗的来源边界。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { t } from './i18n';
 import { BookOpen, ArrowUpRight } from 'lucide-react';
 import type { Entry, StoryGuide, WikiReference } from './types';
@@ -27,6 +33,6 @@ export function WikiDetails({ entry }: { entry: Entry }) {
   </>;
 }
 
-export function StoryGuides({ stories }: { stories: StoryGuide[] }) {
-  return <><span className="eyebrow">{t("THE STORIES OF TYRIA")}</span><h2>{t("剧情指南")}</h2><p>{t("包含四大篇章的主要剧情与关键流程。下面的章节展开后包含结局剧透；路线摘要不代替完整任务前置条件。")}</p>{stories.map(story => <details className="story-guide" key={story.campaign}><summary>{story.title}<span>{t("含剧情剧透")}</span></summary><p>{story.introduction}</p>{story.arcs.map((arc, i) => <section key={i}><h3>{arc.title}</h3><p>{arc.text}</p>{!!arc.missions.length && <p className="detail-stat">{t("关键任务：")}{arc.missions.join(' · ')}</p>}{arc.note && <p className="story-note">{arc.note}</p>}</section>)}<div className="story-references">{story.references.map(reference => <SourceLink key={reference.pageid} reference={reference}/>)}</div></details>)}</>;
+export function StoryGuides({ stories, openQuests }: { stories: StoryGuide[]; openQuests?: (campaign:number)=>void }) {
+  return <><span className="eyebrow">{t("THE STORIES OF TYRIA")}</span><h2>{t("剧情指南")}</h2><p>{t("包含四大篇章的主要剧情与关键流程。下面的章节展开后包含结局剧透；路线摘要不代替完整任务前置条件。")}</p>{stories.map(story => <details className="story-guide" key={story.campaign}><summary>{story.title}<span>{t("含剧情剧透")}</span></summary><p>{story.introduction}</p>{story.arcs.map((arc, i) => <section key={i}><h3>{arc.title}</h3><p>{arc.text}</p>{!!arc.missions.length && <p className="detail-stat">{t("关键任务：")}{arc.missions.join(' · ')}</p>}{arc.note && <p className="story-note">{arc.note}</p>}</section>)}{openQuests&&<button className="primary" onClick={()=>openQuests(story.campaign)}>{t('打开本篇章任务攻略')}</button>}<div className="story-references">{story.references.map(reference => <SourceLink key={reference.pageid} reference={reference}/>)}</div></details>)}</>;
 }

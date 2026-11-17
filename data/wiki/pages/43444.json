@@ -1,0 +1,11 @@
+{
+  "title": "Disarm Trap",
+  "pageid": 43444,
+  "revid": 2628710,
+  "revisedAt": "2018-06-18T17:25:35Z",
+  "sha1": "f7e98ced7dd4ce715923e222a87c6254c5791ab0",
+  "url": "https://wiki.guildwars.com/wiki/Disarm_Trap",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Disarm%20Trap&oldid=2628710",
+  "retrievedAt": "2026-11-16T15:41:17.212Z",
+  "wikitext": "{{Skill infobox\n| name = Disarm Trap\n| campaign = Nightfall\n| type = Skill\n| special = Mission\n| activation = 2\n| description = [[Skill (skill type)|Skill]]. You disable an activated [[Sentry Trap|sentry trap]] before it discharges. You are [[easily interrupted]] while using this skill.\n| concise description = Skill. You disable an activated sentry trap before it discharges. {{gray|You are easily interrupted.}}\n| aoe = earshot\n}}\n\n==Acquisition==\nThis is a temporary skill that can only be obtained and used during the [[Venta Cemetery]] mission. It can be accepted from [[Rojis]] at the start of the mission and will remain on the [[skill bar]] until completion of the mission.\n\n==Notes==\n*Disarm Trap is used to disarm the [[area of effect]] damage of the Sentry Traps in the mission.\n*Sentry Traps take 5 seconds to activate, so they are easy to disarm as long as one is careful. This skill has an [[earshot]] range but does not need a [[target]].\n*This skill will take up one slot on your [[skill bar]]. In acquiring the skill, you will be asked to choose the skill to replace if your skill bar is full. Make sure to bear this in mind when selecting your build for the mission.\n**You can replace [[Comfort Animal]] or [[Heal as One]] with this skill and still keep control of your [[pet]].\n\n[[Category:Nightfall PvE-only skills]]\n[[Category:Easily interrupted skills]]\n[[Category:Common skills]]\n[[Category:Mission skills]]\n\n[[de:Falle entschärfen]]"
+}

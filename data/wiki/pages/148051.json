@@ -1,0 +1,11 @@
+{
+  "title": "Northern Health Shrine Bonus",
+  "pageid": 148051,
+  "revid": 2398474,
+  "revisedAt": "2011-10-22T00:53:29Z",
+  "sha1": "30f27593c3feee63297068539cfe4d89b206368e",
+  "url": "https://wiki.guildwars.com/wiki/Northern_Health_Shrine_Bonus",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Northern%20Health%20Shrine%20Bonus&oldid=2398474",
+  "retrievedAt": "2026-11-16T15:41:39.049Z",
+  "wikitext": "{{Skill infobox\n| id = 1668\n| name = Northern Health Shrine Bonus\n| type = Spell\n| description = Spell. Your party members' maximum Health is increased by 120.\n| concise description = Spell. Your party members have +120 maximum Health.\n}}\n\n==Notes==\n*Applied to all party members after capturing the [[Northern Health Shrine]] in [[Whitefury Rapids]] during [[Costume Brawl]]."
+}

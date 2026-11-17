@@ -1,0 +1,11 @@
+{
+  "title": "Hidden Rock",
+  "pageid": 75300,
+  "revid": 2629297,
+  "revisedAt": "2018-06-18T17:32:45Z",
+  "sha1": "d57f53811b04914cfd5b9cecaafac4b2e3ef667c",
+  "url": "https://wiki.guildwars.com/wiki/Hidden_Rock",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hidden%20Rock&oldid=2629297",
+  "retrievedAt": "2026-11-16T15:41:28.880Z",
+  "wikitext": "{{skill infobox\n| id = 1008\n| name = Hidden Rock\n| special = Snow fighting\n| campaign = Core\n| type = Glyph\n| activation = 2\n| recharge = 10\n| causes1 = Dazed\n| causes2 = Knockdown\n| description = [[Glyph]]. Your next snowball knocks down target [[foe]] and causes [[Daze]] for 10 seconds.\n| concise description = Glyph. Your next snowball causes knock-down and inflicts Dazed (10 seconds.)\n}}\n\n== Acquisition ==\nThis skill is given to all players in [[Dwayna Vs Grenth]] and [[The Great Snowball Fight of the Gods (PvP)|The Great Snowball Fight of the Gods]] matches, as well as in repeatable [[Wintersday]] quests.\n\n== Notes ==\n* This skill is only available to players during Wintersday events.\n* This skill is used by [[Grentch (summon)|Grentch]] and [[Snowman (summon)|Snowman]] from summoning stones.\n* In the [[Secret Lair of the Snowmen]], this will activate on contact, whether by Snowball or regular attack.\n\n[[de:Versteckter Stein]]"
+}

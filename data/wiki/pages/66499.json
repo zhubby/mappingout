@@ -1,0 +1,11 @@
+{
+  "title": "Devourer Bite",
+  "pageid": 66499,
+  "revid": 2628703,
+  "revisedAt": "2018-06-18T17:25:21Z",
+  "sha1": "80e71d6d8c9188788c844470c7e951418fae7b07",
+  "url": "https://wiki.guildwars.com/wiki/Devourer_Bite",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Devourer%20Bite&oldid=2628703",
+  "retrievedAt": "2026-11-16T15:41:17.212Z",
+  "wikitext": "{{Skill infobox\n| name = Devourer Bite\n| campaign = Eye of the North\n| type = Touch skill\n| special = Devourer\n| energy = 5\n| activation = 1\n| recharge = 10\n| range = touch\n| description = [[Skill]]. [[Target]] touched [[foe]] is struck for 100 [[piercing damage]].\n| concise description = Touch Skill. Deals 100 piercing damage.\n| target = foes\n}}\n\n[[de:Verschlingerbiss]]"
+}

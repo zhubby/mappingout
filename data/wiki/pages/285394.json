@@ -1,0 +1,11 @@
+{
+  "title": "Mind Wrack (PvP)",
+  "pageid": 285394,
+  "revid": 2629710,
+  "revisedAt": "2018-06-18T17:37:51Z",
+  "sha1": "85226105539d204aefcccaacea688fd7611c03b2",
+  "url": "https://wiki.guildwars.com/wiki/Mind_Wrack_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mind%20Wrack%20(PvP)&oldid=2629710",
+  "retrievedAt": "2026-11-16T15:41:36.878Z",
+  "wikitext": "{{Pveversion|Mind Wrack}}\n{{Skill infobox\n| id = 2734\n| name = Mind Wrack (PvP)\n| campaign = Core\n| profession = Mesmer\n| attribute = Domination Magic\n| type = Hex Spell\n| energy = 5\n| recharge = 7\n| activation = 1\n| causes1 = Energy Loss\n| description = [[Hex Spell]]. For {{gr|5|40}} seconds, whenever this [[foe]] is the [[target]] of one of your non-hex [[Mesmer]] [[skill]]s, that foe loses 1 [[Energy]]. If the target foe's Energy drops to 0, Mind Wrack ends and that foe takes {{gr|15|100}} [[damage]].\n| concise description = Hex Spell. ({{gr|5|40}} seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills.  If target foe's Energy drops to 0, Mind Wrack ends and that foe takes {{gr|15|100}} damage.\n| is-pvp = y\n}}\n{{Skill progression\n|attribute = [[Domination Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 40\n|var2 name = [[Damage]]\n|var2 at0 = 15\n|var2 at15 = 100}}\n\n== Related skills ==\n* {{skill icon|Famine}} ([[elite]])\n* {{skill icon|Malaise}}\n* {{skill icon|Wither}} (elite)\n\n== Notes ==\n* Works well with [[Aneurysm]] because Mind Wrack causes energy loss and notifies you when the target has no energy, also adding damage to the [[spike]].\n* The target's energy must drop to 0 to trigger the effect. Energy lost [[Energy#Regeneration_and_degeneration|while having less than 0 energy]] does not trigger Mind Wrack.\n* This hex will end on the target if the caster [[Death|dies]].\n\n[[de:Geistiges Wrack (PvP)]]"
+}

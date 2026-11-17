@@ -1,0 +1,11 @@
+{
+  "title": "Relentless Assault",
+  "pageid": 269294,
+  "revid": 2608177,
+  "revisedAt": "2016-06-20T21:16:52Z",
+  "sha1": "563f009f0bd24bf3e0331f3cf09d5bcc954c7a84",
+  "url": "https://wiki.guildwars.com/wiki/Relentless_Assault",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Relentless%20Assault&oldid=2608177",
+  "retrievedAt": "2026-11-16T15:41:45.316Z",
+  "wikitext": "{{Skill infobox\n| id = 3238\n| name = Relentless Assault\n| campaign = Hearts of the North\n| type = Bow Attack\n| special = Keiran Thackeray\n| energy = 15\n| recharge = 10\n| description = [[Bow Attack]]. You lose up to 3 [[condition]]s. If this attack hits, you strike for +20 [[piercing damage]] and the target foe suffers [[Poison]] for 20 seconds.\n| concise description = Bow Attack. Lose up to 3 conditions. Deals +20 damage and Poisons target foe (20 seconds) if the attack hits.\n| removes1 = condition\n}}\n\n== Notes ==\n* Part of the [[Keiran Thackeray (disguise)]] replacement skillbar.\n* The condition loss occurs before the attack, so using this skill while blinded will still hit (assuming you have fewer than four conditions).\n\n[[Category:Hearts of the North skills]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Anthem of Disruption (PvP)",
+  "pageid": 207666,
+  "revid": 2645366,
+  "revisedAt": "2019-11-09T12:04:27Z",
+  "sha1": "4153822e40f6496c8f13373f4ebcbb38181857f9",
+  "url": "https://wiki.guildwars.com/wiki/Anthem_of_Disruption_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Anthem%20of%20Disruption%20(PvP)&oldid=2645366",
+  "retrievedAt": "2026-11-16T15:41:06.626Z",
+  "wikitext": "{{pveversion|Anthem of Disruption}}\n{{Skill infobox\n| id = 3040\n| name = Anthem of Disruption (PvP)\n| campaign = Eye of the North\n| profession = Paragon\n| attribute = Command\n| type = Chant\n| energy = 10\n| activation = 2\n| recharge = 15\n| causes1 = Interrupt\n| description = [[Chant]]. For {{gr|1|10}} seconds, the next [[attack skill]] used by each [[ally]] within [[earshot]] also [[interrupt]]s an [[action]].\n| concise description = Chant. ({{gr|1|10}} seconds.) Allies in earshot interrupt an action with their next attack skill.\n| is-pvp = y\n}}\n{{Skill progression\n|attribute = [[Command]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 10}}\n\n== Notes ==\n*This chant is triggered for the first target of the next attack skill, regardless if it hits, [[miss]]es, is [[block]]ed, or [[Line of sight|obstructed]].\n\n[[Category:Skills that affect allies]]\n\n[[de:Hymne der Störung (PvP)]]"
+}

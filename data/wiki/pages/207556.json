@@ -1,0 +1,11 @@
+{
+  "title": "Signet of Return (PvP)",
+  "pageid": 207556,
+  "revid": 2738952,
+  "revisedAt": "2026-08-28T06:42:36Z",
+  "sha1": "16ca17b1c08d0d696fffcec17e11308d0c1b2729",
+  "url": "https://wiki.guildwars.com/wiki/Signet_of_Return_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Signet%20of%20Return%20(PvP)&oldid=2738952",
+  "retrievedAt": "2026-11-16T15:41:52.901Z",
+  "wikitext": "{{pveversion|Signet of Return}}\n{{Skill infobox\n| id = 3030\n| name = Signet of Return (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Leadership\n| type = Signet\n| activation = 4\n| recharge = 20\n| target = dead party members\n| description = [[Signet]]. [[resurrection|Resurrect]] [[target]] [[party]] member with {{gr|5|20||%}} [[Health]] and {{gr|1|4||%}} [[Energy]] for each party member within [[earshot]].\n| concise description = Signet. Resurrects target party member ({{gr|5|20||%}} Health and {{gr|1|4||%}} Energy for each party member in earshot).\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Leadership]]\n| var1 name = % [[Health]]\n| var1 at0 = 5\n| var1 at15 = 15\n| var2 name = % [[Energy]]\n| var2 at0 = 1\n| var2 at15 = 4}}\n\n==Related skills==\n*{{Skill icon|Death Pact Signet (PvP)}}\n\n==Notes==\n* ''Party members within earshot'' only counts living party members, including the user.\n\n[[Category:Resurrection skills]]\n\n[[de:Siegel der Wiederkehr (PvP)]]"
+}

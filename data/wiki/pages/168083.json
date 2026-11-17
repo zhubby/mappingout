@@ -1,0 +1,11 @@
+{
+  "title": "Eastern Health Shrine Bonus",
+  "pageid": 168083,
+  "revid": 2398433,
+  "revisedAt": "2011-10-21T22:52:39Z",
+  "sha1": "6fd0f25c3c14c2ba167648ad4d0f5cc3c6ce8d34",
+  "url": "https://wiki.guildwars.com/wiki/Eastern_Health_Shrine_Bonus",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Eastern%20Health%20Shrine%20Bonus&oldid=2398433",
+  "retrievedAt": "2026-11-16T15:41:19.538Z",
+  "wikitext": "{{Skill infobox\n| id = 2958\n| name = Eastern Health Shrine Bonus\n| type = Spell\n| description = [[Spell]]. Your party members' maximum Health is increased by 120.\n| concise description = Spell. Your party members have +120 maximum Health.\n}}\n\n==Notes==\n*Applied to all party members after capturing the [[Eastern Health Shrine]] in [[Plikkup Works]] during [[Costume Brawl]]."
+}

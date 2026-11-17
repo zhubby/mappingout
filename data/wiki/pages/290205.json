@@ -1,0 +1,11 @@
+{
+  "title": "Rain of Terror (spell)",
+  "pageid": 290205,
+  "revid": 2619346,
+  "revisedAt": "2017-06-25T19:28:53Z",
+  "sha1": "0f17d3579c0aae330bb587244610cda405d715d8",
+  "url": "https://wiki.guildwars.com/wiki/Rain_of_Terror_(spell)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rain%20of%20Terror%20(spell)&oldid=2619346",
+  "retrievedAt": "2026-11-16T15:41:44.120Z",
+  "wikitext": "{{otheruses|the [[Scarred Psyche]] spell|the [[NPC]]|Rain of Terror}}\n{{Skill infobox\n| name = Rain of Terror\n| id = 2760\n| image = [[File:Rain_of_Terror_(spell).jpg]]\n| campaign = Prophecies\n| campaign2 = Nightfall\n| special = Candy Corn Infantry\n| type = Spell\n| energy = 15\n| activation = 2\n| recharge = 30\n| target = foes\n| range = Casting\n| aoe = in the area\n| description = [[Spell]]. Create a Rain of Terror at [[target]] [[foe]]'s location. For 5 seconds, foes [[in the area]] are struck for 30 [[damage]]. This [[Armor-ignoring damage|damage ignores armor]].\n| concise description = Spell. (5 seconds.) Deals 30 damage. Hits foes in the area of the target. Armor Ignoring.\n}}\n\n==Notes==\n*This spell is available during [[Scarred Psyche]].\n\n==Trivia==\n*This spell has a [[skill icon]] similar to [[Fire Storm]].\n\n[[Category:Halloween skills]]"
+}

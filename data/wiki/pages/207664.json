@@ -1,0 +1,11 @@
+{
+  "title": "\"Never Give Up!\" (PvP)",
+  "pageid": 207664,
+  "revid": 2645363,
+  "revisedAt": "2019-11-09T12:03:11Z",
+  "sha1": "230fa7513255f00fd6aabadd3ade0e5d695f3230",
+  "url": "https://wiki.guildwars.com/wiki/%22Never_Give_Up!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Never%20Give%20Up!%22%20(PvP)&oldid=2645363",
+  "retrievedAt": "2026-11-16T15:41:04.641Z",
+  "wikitext": "{{pveversion|\"Never Give Up!\"}}\n{{Skill infobox\n| id = 3035\n| name = \"Never Give Up!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| energy = 5\n| recharge = 20\n| causes1 = Energy Gain\n| description = [[Shout]]. All [[Ally|allies]] within [[earshot]] and below 75% [[Health]] gain {{gr|1|10}} [[Energy]].\n| concise description = Shout. Allies in earshot gain {{gr|1|10}} Energy. {{gray|Only affects allies below 75% Health.}}\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| maximum = 19\n| var1 name = [[Energy]] gain\n| var1 at0 = 1\n| var1 at15 = 10}}\n\n==Related skills==\n*{{skill icon|\"Never Surrender!\" (PvP)}}\n*{{skill icon|\"The Power Is Yours!\"}} ([[elite]])\n\n==Trivia==\n*\"Never Give Up!\" and \"[[Never Surrender!]]\" are references to the catchline of the movie [[w:Galaxy Quest|Galaxy Quest]]: \"Never give up. Never surrender!\"\n* The figure on the left of this [[skill icon]] is seemingly the same as the figure in [[\"Make Your Time!\"]].\n*The figure on the bottom of the icon is a female [[Necromancer Obsidian armor|necromancer wearing Obsidian Armor]].\n*The Paragon in the icon appears to be wearing [[Paragon Elite Sunspear armor|Elite Sunspear armor]].\n\n[[Category:Skills that affect allies]]\n{{DEFAULTSORT:Never Give Up!}}\n\n[[de:\"Gebt nicht auf!\" (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Finale of Restoration (PvP)",
+  "pageid": 221974,
+  "revid": 2726480,
+  "revisedAt": "2026-04-28T18:53:37Z",
+  "sha1": "e48f56bf7e2b6b221e36421d54959db4749bf201",
+  "url": "https://wiki.guildwars.com/wiki/Finale_of_Restoration_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Finale%20of%20Restoration%20(PvP)&oldid=2726480",
+  "retrievedAt": "2026-11-16T15:41:22.673Z",
+  "wikitext": "{{pveversion|Finale of Restoration}}\n\n{{Skill infobox\n| id = 3062\n| name = Finale of Restoration (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Motivation\n| type = Echo\n| energy = 5\n| activation = 1\n| recharge = 10\n| is-pvp = y\n| causes1 = Healing\n| description = [[Echo (skill type)|Echo]]. For {{gr|10|35}} seconds, the next 5 times that a [[chant]] or [[shout]] ends on [[target]] non-[[spirit]] [[ally]], that ally is [[heal]]ed for {{gr|15|75}} [[Health]].\n| concise description = Echo. ({{gr|10|35}} seconds.) Target ally gains {{sic}} {{gr|15|75}} Health the next 5 times a shout or chant ends on that ally. {{gray|Cannot target spirits.}}\n}}\n\n{{Skill progression\n| attribute = [[Motivation]]\n| var1 name = [[Duration]]\n| var1 at0 = 10\n| var1 at15 = 35\n| var2 name = [[Heal]]ing\n| var2 at0 = 15\n| var2 at15 = 75}}\n\n== Notes ==\n*Good synergy with [[\"Go for the Eyes!\" (PvP)]] and [[\"The Power Is Yours!\"]].\n{{bug|Contrary to the concise description, this skill causes healing and not [[health gain]].}}\n\n[[de:Finale der Wiederherstellung (PvP)]]"
+}

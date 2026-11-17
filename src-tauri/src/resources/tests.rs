@@ -49,6 +49,40 @@ fn restart(manager: &ResourceManager, version: &str) -> Arc<ResourceManager> {
         .unwrap();
     next
 }
+#[test]
+fn optional_data_requires_both_locales_while_legacy_resources_remain_valid() {
+    let (_dir, manager, manifests, _source) = fixture();
+    let mut manifest = manifests[0].clone();
+    validate_manifest(&manifest, &manager.config.repository).unwrap();
+    for dataset in ["quests", "skills"] {
+        for (index, path) in [
+            format!("data/{dataset}.json"),
+            format!("data/i18n/en/{dataset}.json"),
+            format!("data/i18n/zh-CN/{dataset}.json"),
+        ]
+        .iter()
+        .enumerate()
+        {
+            manifest
+                .packs
+                .iter_mut()
+                .find(|pack| pack.kind == "data")
+                .unwrap()
+                .files
+                .push(File {
+                    path: path.clone(),
+                    bytes: 1,
+                    sha256: "a".repeat(64),
+                });
+            let result = validate_manifest(&manifest, &manager.config.repository);
+            if index < 2 {
+                assert_eq!(result.unwrap_err(), "resources.incomplete");
+            } else {
+                result.unwrap();
+            }
+        }
+    }
+}
 fn channel_envelope() -> Envelope {
     let fixture: serde_json::Value =
         serde_json::from_str(include_str!("../../../tests/fixtures/resources.json")).unwrap();

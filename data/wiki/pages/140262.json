@@ -1,0 +1,11 @@
+{
+  "title": "Healing Salve",
+  "pageid": 140262,
+  "revid": 2525633,
+  "revisedAt": "2012-12-04T06:24:40Z",
+  "sha1": "1807efd61b1b79bcce28ad3ae353ac7d02d0b3f1",
+  "url": "https://wiki.guildwars.com/wiki/Healing_Salve",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Healing%20Salve&oldid=2525633",
+  "retrievedAt": "2026-11-16T15:41:28.320Z",
+  "wikitext": "{{skill infobox\n| id = 2419\n| name = Healing Salve\n| campaign = Eye of the North\n| type = Signet\n| special = Bundle\n| description = [[Signet]]. When dropped, the invigorating mist is released. It restores 300 [[Health]] to you and all [[adjacent]] [[creature]]s.\n| concise description = Signet. When dropped, the invigorating mist is released. It restores 300 Health to you and all adjacent creatures.\n}}\n\n==Related skills==\n*{{skill icon|Protective Was Kaolai}}\n\n== Notes ==\n* This effect is activated when a [[Jar of Healing Salve]] is dropped."
+}

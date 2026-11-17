@@ -1,0 +1,11 @@
+{
+  "title": "Seek Out Headmaster Greico",
+  "pageid": 25375,
+  "revid": 2692747,
+  "revisedAt": "2024-02-07T20:47:00Z",
+  "sha1": "e7e2c910d1e81971b27d02aaab4599485d655b70",
+  "url": "https://wiki.guildwars.com/wiki/Seek_Out_Headmaster_Greico",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Seek%20Out%20Headmaster%20Greico&oldid=2692747",
+  "retrievedAt": "2026-11-16T13:47:13.096Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Seek Out Headmaster Greico\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Ludo]]\n| given at = [[Monastery Overlook]]\n| preceded by = [[Mantid Hatchlings]]\n| followed by = [[Locate Sujun]]\n| profession = Ranger\n| primary = y\n}}\nSpeak to [[Headmaster Greico]] to begin your [[ranger]] training.\n\n==Quest information==\n=== Requirements ===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Ranger\n| primary = y\n}}\n\n===Objectives===\n* Talk to Ludo to gain entrance to the monastery.\n* Seek out Headmaster Greico in the monastery.\n\n===Reward===\n* 250 [[Experience]]\n* 20 [[Gold]]\n==Walkthrough==\nSpeak to Ludo at the entrance to Shing Jea Monastery to enter. If you skipped the tutorial [[Mantid Hatchlings]], you will learn the [[skill]]s\n* {{skill icon|Power Shot}}\n* {{skill icon|Troll Unguent}}\n* {{skill icon|Resurrection Signet}}\ngain 2,000 experience, and acquire a [[Starter Bow]] after entering the monastery. You would have already received these if you did the tutorial. Speak to Headmaster Greico, who is nearby, for your reward.\n\n==Dialogue==\n===Initial dialogue===\n'''Ludo'''\n:''\"Greetings and welcome, young Ranger. You must be looking for '''Headmaster Greico'''. He is in charge of training all new Ranger students. Look for him in the '''monastery'''. Have a pleasant day!\"''\n{{ Offer dialog\n| accept = I'll seek out Headmaster Greico.\n| decline = I'd like to sped some time exploring, first.\n| ask = '''Headmaster Greico''' is waiting for you in the monastery.\n| indent = ::\n}}\n\n===Reward dialogue===\n'''Headmaster Greico'''\n:''\"Ludo is a good man. He would have made a fine Luxon, were he not so fond of staying in one place.\"''\n\n==Notes==\n*If you abandon this quest, it cannot be retaken, but you can take the following quest immediately."
+}

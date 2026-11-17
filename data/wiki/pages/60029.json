@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Ice Spear",
+  "pageid": 60029,
+  "revid": 2629822,
+  "revisedAt": "2018-06-18T17:41:59Z",
+  "sha1": "e39cf5169ed40f544c4d87bb4ffa7443552ac567",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Ice_Spear",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Ice%20Spear&oldid=2629822",
+  "retrievedAt": "2026-11-16T15:41:40.922Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Ice Spear\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 1\n| activation = 1\n| recharge = 1\n| description = [[Spell]]. Send out an Ice Spear, striking [[target]] [[foe]] for 120 [[damage]] if it hits.\n| concise description = Spell. Projectile: deals 120 damage.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Dredge Form]]\n*[[Ice Elemental Form]]\n*[[Ice Imp Form]]\n*[[Kappa Form]]\n\n==Related skills==\n*{{skill icon|Flare}}\n*{{skill icon|Ice Spear}}\n*{{skill icon|Polymock Flare}}\n*{{skill icon|Polymock Stone Daggers}}\n*{{skill icon|Stone Daggers}}\n\n[[de:Polymock-Eisspeer]]"
+}

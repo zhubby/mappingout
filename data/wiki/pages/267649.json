@@ -1,0 +1,11 @@
+{
+  "title": "Quest Skill",
+  "pageid": 267649,
+  "revid": 2167644,
+  "revisedAt": "2010-11-03T13:01:46Z",
+  "sha1": "08da13408d5b8c8522bbc8f40bd6bf757a57e127",
+  "url": "https://wiki.guildwars.com/wiki/Quest_Skill",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Quest%20Skill&oldid=2167644",
+  "retrievedAt": "2026-11-16T15:41:44.119Z",
+  "wikitext": "{{Skill infobox\n| id = 591\n| name = Quest Skill\n| activation = 10\n| type = Skill\n| description = Skill. Quest Skill.\n| concise description = Skill. Quest Skill.\n| campaign = Prophecies\n}}"
+}

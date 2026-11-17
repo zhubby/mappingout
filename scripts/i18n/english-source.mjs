@@ -1,5 +1,9 @@
-// English is obtained from pinned Wiki evidence or explicit application renderers.
-// Never translate Chinese back into English, or treat a draft as source evidence.
+/**
+ * [INPUT]: 依赖固定英文事实、字段路径与审校记录。
+ * [OUTPUT]: 提供英文来源、数量签名与译文审校校验。
+ * [POS]: 双语基线的证据边界；草稿不作为来源。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import {createHash} from 'node:crypto';
 import {atPath} from '../../src/i18n/content-fields.ts';
 
@@ -131,6 +135,12 @@ export function englishSource(data, dataset, field, manual = {}) {
       if(leaf==='notes')return result('Predicted from the cited rotation; this offline application does not read live game announcements.','application-text');
     }
   }
+  if(dataset==='quests') {
+    if(path[0]==='chapters' && leaf==='name') return result(source,'application-label');
+    if(path[0]==='quests' && leaf==='name') return result(row.englishName,'wiki-title');
+    return result(source, path.includes('requirement') ? 'wiki-facts' : 'wiki-text');
+  }
+  if(dataset==='skills')return result(source,path[0]==='tracks'?'application-label':leaf==='name'?'wiki-title':'wiki-text',path[0]==='tracks'?[]:references);
   if(labels.has(source))return result(labels.get(source),'application-text');
   for(const [pattern,prefix]of prefixes)if(pattern.test(source))return result(source.replace(pattern,prefix),'wiki-facts');
   if(!han(source))return result(source);

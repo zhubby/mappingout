@@ -1,0 +1,11 @@
+{
+  "title": "Berserker's Insight",
+  "pageid": 77081,
+  "revid": 2474815,
+  "revisedAt": "2012-04-11T23:46:56Z",
+  "sha1": "d77b6aef29d8dbc2c390d9e424bcd08cab2d2301",
+  "url": "https://wiki.guildwars.com/wiki/Berserker%27s_Insight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Berserker's%20Insight&oldid=2474815",
+  "retrievedAt": "2026-11-16T15:41:09.188Z",
+  "wikitext": "{{skill infobox\n| id = 767\n| name = Berserker's Insight\n| campaign = Core\n| type = Party Bonus\n| consumable = Scroll of Berserker's Insight\n| description = [[Party Bonus]]. Your [[party]] gains triple [[XP]] from combat. Berserker's Insight ends if your party fails to kill a [[foe]] for 30 seconds.\n| concise description = Party Bonus. Your party gains triple XP from combat. Ends if your party fails to kill a foe for 30 seconds.\n}}\n\n== Related skills ==\n* {{skill icon|Lightbringer's Insight}}\n* {{skill icon|Rampager's Insight}}\n\n== Notes ==\n* This bonus can only be gained when a party member uses a [[Scroll of Berserker's Insight]]."
+}

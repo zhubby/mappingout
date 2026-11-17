@@ -1,0 +1,11 @@
+{
+  "title": "Fight Against Despair",
+  "pageid": 321884,
+  "revid": 2739720,
+  "revisedAt": "2026-09-07T13:17:13Z",
+  "sha1": "26f82e4eba04ec9ecff7056c10053941eec62b44",
+  "url": "https://wiki.guildwars.com/wiki/Fight_Against_Despair",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fight%20Against%20Despair&oldid=2739720",
+  "retrievedAt": "2026-11-16T15:41:22.673Z",
+  "wikitext": "{{Skill infobox\n| id = 3358\n| name = Fight Against Despair\n| campaign = Core\n| type = Effect\n| description = You gain a morale boost from killing a foe. Your team receives a 5% Death Penalty when an ally dies.\n| concise description = Gain a morale boost on killing a foe. Team receives 5% Death Penalty whenever an ally dies.\n}}"
+}

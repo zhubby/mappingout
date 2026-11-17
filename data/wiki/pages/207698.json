@@ -1,0 +1,11 @@
+{
+  "title": "Recovery (PvP)",
+  "pageid": 207698,
+  "revid": 2732860,
+  "revisedAt": "2026-07-04T20:46:38Z",
+  "sha1": "4ecfe8dfb4e639eb118e7eae2ce4790a33fd24ad",
+  "url": "https://wiki.guildwars.com/wiki/Recovery_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery%20(PvP)&oldid=2732860",
+  "retrievedAt": "2026-11-16T15:41:44.749Z",
+  "wikitext": "{{Pveversion|Recovery}}\n{{Skill infobox\n| name = Recovery (PvP)\n| id = 3025\n| campaign = Nightfall\n| profession = Ritualist\n| attribute = Restoration Magic\n| type = Binding Ritual\n| energy = 15\n| activation = 3\n| recharge = 30\n| causes1 = Spirit\n| description=[[Binding Ritual]]. Create a level {{gr|1|10}} [[spirit]]. [[Condition]]s on [[ally|allies]] within [[Spirit range|range]] of this spirit expire {{gr|20|50||%}} faster. This spirit dies after {{gr|30|60}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|10}} spirit ({{gr|30|60}} second lifespan). Conditions on allies in range expire {{gr|20|50||%}} faster.\n| is-pvp = y\n| aoe = spirit\n}}\n\n{{Skill progression\n| attribute = [[Restoration Magic]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 10\n| var2 name = Faster [[condition]] expiration %\n| var2 at0 = 20\n| var2 at15 = 50\n| var3 name = [[Duration]]\n| var3 at0 = 30\n| var3 at15 = 60}}\n\n== Related skills ==\n* {{Skill icon|Featherfoot Grace}}\n* {{Skill icon|Pure Was Li Ming}}\n* {{Skill icon|Purifying Veil}}\n\n== Notes ==\n* This skill creates a [[Spirit of Recovery]].\n\n[[Category:Skills that affect allies]]\n\n[[de:Gesundung (PvP)]]"
+}

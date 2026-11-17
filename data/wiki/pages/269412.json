@@ -1,0 +1,11 @@
+{
+  "title": "The Mantle's Guise",
+  "pageid": 269412,
+  "revid": 2709789,
+  "revisedAt": "2025-07-01T04:56:21Z",
+  "sha1": "460b28d99d9471fffe0f9a6c7fdc03572d302863",
+  "url": "https://wiki.guildwars.com/wiki/The_Mantle%27s_Guise",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Mantle's%20Guise&oldid=2709789",
+  "retrievedAt": "2026-11-16T13:47:25.582Z",
+  "wikitext": "{{ Quest infobox\n| id = 1167\n| name = The Mantle's Guise\n| section = Primary Ebon Vanguard\n| campaign = Hearts of the North\n| region = Kryta \n| type = Primary\n| given by = [[Shining Blade Cloak]] \n| given at = [[Watchtower Coast]]\n| preceded by = [[Shadows in the Jungle]]\n| followed by = [[Rise]]\n| map = [[File:The Mantle's Guise map.jpg|x150px]]\n}}\nHaving found the cloak, report back to the [[Scrying Pool]].\n\n==Objectives==\n* Investigate the [[Shining Blade Cloak|Shining Blade cloak]] at the [[Scrying Pool]].\n\n==Rewards==\n* 1,000 [[Experience]]\n* 500 [[Gold]]\n\n==Walkthrough==\nEnter [[Watchtower Coast]] from [[Divinity Coast (outpost)]]. The [[Shining Blade Cloak]] will be on a sunken path, shortly below the first W in \"Watchtower Coast\" on the map. (The cloak is also close to [[Beetletun]], but the path is swarmed with [[Tengu]].)\n\n==Dialogue==\n===Initial dialogue===\n;Shining Blade Cloak\n:''\"Before you lie the remnants of what appears to be a Shining Blade cloak, discarded and torn. The presence of the solitary cloak provokes questions: Why was its owner alone? Were they running toward something or running away? Whatever transpired here, the scrying pool should be able to reveal it to you.\"''\n{{offer dialogue\n|accept = It's time to learn the truth.\n|decline = I'm suddenly no longer interested.\n|ask = The site offers no further clues as to what transpired here.}}\n\n===Reward dialogue===\n;Scrying Pool\n:''\"The scrying pool begins to react as you approach, thoughts of the Shining Blade cloak fixed firmly in your mind.\"''\n\n[[Category:Hearts of the North quests]]"
+}

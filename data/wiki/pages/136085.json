@@ -1,0 +1,11 @@
+{
+  "title": "Harrier's Toss (PvP)",
+  "pageid": 136085,
+  "revid": 2738474,
+  "revisedAt": "2026-08-26T21:17:17Z",
+  "sha1": "d0c8022216cbd010a17b6ad16ce62d179e8224a9",
+  "url": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Harrier's%20Toss%20(PvP)&oldid=2738474",
+  "retrievedAt": "2026-11-16T15:41:26.664Z",
+  "wikitext": "{{pveversion|Harrier's Toss}}\n\n{{Skill infobox\n| id = 2875\n| name = Harrier's Toss (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Spear Mastery\n| type = Spear Attack\n| energy = 10\n| activation = 1\n| recharge = 10\n| description = [[Spear Attack]]. If this [[attack]] hits, you deal {{gr|5|20|+}} [[damage]]. If this attack hits a [[Movement|moving]] [[foe]], it deals an additional {{gr|5|40}} damage.\n| concise description = Spear Attack. Deals {{gr|5|20|+}} damage. Deals {{gr|5|40}} more damage if target is moving.\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Spear Mastery]]\n| var1 name = + [[Damage]]\n| var1 at0 = 5\n| var1 at15 = 20\n| var2 name = Additional damage\n| var2 at0 = 5\n| var2 at15 = 40}}\n\n== Related skills ==\n* {{skill icon|Protector's Strike (PvP)}}\n* {{skill icon|Sloth Hunter's Shot (PvP)}}<!--A moving target also meets the \"not using a skill\" damage trigger of Sloth Hunter's Shot, since a moving target can't use a skill with an activation time without stopping their movement.-->\n\n[[de:Wurf des Läufers (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Snow Flurry",
+  "pageid": 292705,
+  "revid": 2424740,
+  "revisedAt": "2011-12-19T16:05:00Z",
+  "sha1": "5ec5c95d65bf75689092141d0da240192f6e203b",
+  "url": "https://wiki.guildwars.com/wiki/Snow_Flurry",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Snow%20Flurry&oldid=2424740",
+  "retrievedAt": "2026-11-16T15:41:55.104Z",
+  "wikitext": "{{skill infobox\n| name = Snow Flurry\n| campaign = Core\n| type = Spell\n| target = foes\n| special = Snow fighting\n| activation = 1\n| adrenaline = 6\n| recharge = 10\n| description = [[Spell]]. [[Target]] [[foe]] is [[hex]]ed with [[Snow Down the Shirt]] for 10 seconds. Also, you create a Snow Flurry at target foe's location that lasts for 5 seconds. Foes [[in the area]] of the Snow Flurry take 25 [[damage]] per second and are [[Cripple]]d for 2 seconds.\n| concise description = Spell. (5 seconds.) Deals 25 damage each second. Applies Cripple (2 seconds). Hits foes in the area of target foe's initial location. [[Initial effect]]: target foe is hexed with Snow Down the Shirt.\n| aoe = in the area\n}}\n\n== Acquisition ==\nThis skill is only available while under the [[Godly Yuletide]] effect during [[Wintersday]].\n\n== Notes ==\n{{bug|The hex is not applied to the target. It is applied to all foes within range along with each damage pulse.}}\n{{bug|The effect lasts for 10 seconds, not 5.}}\n{{bug|The cripple lasts for 5 seconds, not 2.}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Death Pact Signet (PvP)",
+  "pageid": 136079,
+  "revid": 2732863,
+  "revisedAt": "2026-07-04T20:48:47Z",
+  "sha1": "a3d95fa07f99de220383375868f4ca709a336611",
+  "url": "https://wiki.guildwars.com/wiki/Death_Pact_Signet_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Death%20Pact%20Signet%20(PvP)&oldid=2732863",
+  "retrievedAt": "2026-11-16T15:41:15.531Z",
+  "wikitext": "{{pveversion|Death Pact Signet}}\n\n{{Skill infobox\n| name = Death Pact Signet (PvP)\n| id = 2872\n| campaign = Nightfall\n| profession = Ritualist\n| attribute = Restoration Magic\n| type = Signet\n| activation = 4\n| recharge = 12\n| description = [[Signet]]. [[Resurrection|Resurrect]] [[target]] [[party]] member with your current [[Health]] and {{gr|15|100||%}} [[Energy]]. The next time that ally [[Death|dies]] within 120 seconds, so do you.\n| concise description = Signet. Resurrects target party member with your current Health and {{gr|15|100||%}} maximum Energy. For 120 seconds, you die the next time this party member dies.\n| is-pvp = y\n| target = dead party members\n}}\n\n{{Skill progression\n| attribute = [[Restoration Magic]]\n| var1 name = % [[Energy]]\n| var1 at0 = 15\n| var1 at15 = 100}}\n\n== Related skills ==\n* {{Skill icon|Flesh of My Flesh (PvP)}}\n* {{Skill icon|Signet of Return (PvP)}}\n\n== Notes ==\n* The user of the skill does not incur a [[Death Penalty]] if they die because the target died.\n\n== Trivia ==\n* The [[functionality]] of this skill has changed since its introduction; see its [[Death Pact Signet/Skill history|PvE]] and [[Death Pact Signet (PvP)/Skill history|PvP]] skill histories for details.\n\n[[Category:Resurrection skills]]\n\n[[de:Todespakt-Siegel (PvP)]]"
+}

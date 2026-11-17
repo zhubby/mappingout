@@ -1,0 +1,11 @@
+{
+  "title": "Nature's Renewal (PvP)",
+  "pageid": 321778,
+  "revid": 2738641,
+  "revisedAt": "2026-08-27T01:09:26Z",
+  "sha1": "ac2fd771a014254909e508ba52105f3e77e0048f",
+  "url": "https://wiki.guildwars.com/wiki/Nature%27s_Renewal_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Nature's%20Renewal%20(PvP)&oldid=2738641",
+  "retrievedAt": "2026-11-16T15:41:38.395Z",
+  "wikitext": "{{pveversion|Nature's Renewal}}\n{{Skill infobox\n| id = 3445\n| name = Nature's Renewal (PvP)\n| campaign = Core\n| profession = Ranger\n| attribute = Wilderness Survival\n| type = Nature Ritual\n| energy = 5\n| is-pvp = y\n| recharge = 60\n| activation = 2\n| causes1 = Spirit\n| causes2 = Increased Activation Time\n| causes3 = Increased Energy Cost\n| description = [[Nature Ritual]]. Create a level {{gr|1|10}} [[spirit]]. For {{gr|30|240}} seconds, [[enchantment]]s and [[hex]]es [[Activation time|cast]] by non-spirit [[creature]]s in [[Spirit range|range]] take {{gr|50|75||%}} longer to cast, and it costs twice as much [[Energy]] to [[Upkeep|maintain enchantments]]. This spirit dies after {{gr|30|240}} seconds.\n| concise description = Nature Ritual. Creates a level {{gr|1|10}} spirit ({{gr|30|240}} second lifespan). For creatures in range, enchantments and Hexes {{sic|unlike other descriptions with \"hex\" or \"hexes\" in it, it is capitalized here}} take {{gr|50|75||%}} as long to cast and it costs twice as much Energy to maintain enchantments. Does not affect spirits.\n| aoe = large spirit\n}}\n\n{{Skill progression\n|attribute = [[Wilderness Survival]]\n|var1 name = Level\n|var1 at0 = 1\n|var1 at15 = 10\n|var2 name = [[Duration]]\n|var2 at0 = 30\n|var2 at15 = 240\n|var3 name = Longer [[cast]] %\n|var3 at0 = 50\n|var3 at15 = 75\n}}\n\n\n== Related Skills ==\n* {{skill icon|Holy Veil}}\n\n== Notes ==\n* This skill creates a [[Spirit of Nature's Renewal]].\n* Combines well with [[Tranquility]] for an enchantment hostile environment; however, this combo has negligible effect on [[teardown]]-focused dervishes."
+}

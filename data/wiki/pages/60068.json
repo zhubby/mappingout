@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Painful Bond",
+  "pageid": 60068,
+  "revid": 2629839,
+  "revisedAt": "2018-06-18T17:42:33Z",
+  "sha1": "653e83a3ffd8acbe320bb38ce9976bd7d351e9b0",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Painful_Bond",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Painful%20Bond&oldid=2629839",
+  "retrievedAt": "2026-11-16T15:41:41.402Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Painful Bond\n| campaign = Eye of the North\n| special = Polymock\n| type = Hex Spell\n| energy = 6\n| activation = 1\n| recharge = 20\n| description = [[Hex Spell]]. For 10 seconds, this hex does nothing. When Painful Bond [[End effect|ends]], [[target]] [[foe]] takes 80 [[damage]] for each second this hex was in effect.\n| concise description = Hex Spell. (10 seconds.) End effect: deals 80 damage for each second this hex was in effect.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Naga Shaman Form]]\n\n==Related skills==\n*{{Skill icon|Polymock Rising Bile}}\n*{{Skill icon|Rising Bile}}\n\n[[de:Schmerzhafte Polymock-Bindung]]"
+}

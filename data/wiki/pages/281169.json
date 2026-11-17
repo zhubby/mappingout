@@ -1,0 +1,11 @@
+{
+  "title": "The Path to Combat: Codex Arena",
+  "pageid": 281169,
+  "revid": 2575349,
+  "revisedAt": "2014-09-09T22:57:53Z",
+  "sha1": "0fdef606b8708790b9c0e13784b11a0f19ced14c",
+  "url": "https://wiki.guildwars.com/wiki/The_Path_to_Combat:_Codex_Arena",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Path%20to%20Combat%3A%20Codex%20Arena&oldid=2575349",
+  "retrievedAt": "2026-11-16T13:47:27.319Z",
+  "wikitext": "__NOTOC__{{DEFAULTSORT:Path to Combat: Codex Arena, The}}\n{{Quest infobox\n| name = The Path to Combat: Codex Arena\n| id = 1331\n| campaign = Core\n| region = The Battle Isles\n| type = Secondary\n| given by = [[Zenjal]]\n| given at = [[Great Temple of Balthazar]]\n| preceded by = [[The Path to Combat: Random Arena]]\n| followed by = [[The Path to Victory: Codex Arena]] and <br>[[The Path to Combat: Heroes' Ascent]]\n}}\n\n==Quest information==\n===Requirements===\n*This quest is only offered to [[level]] 20 [[character]]s.\n\n===Objectives===\n*Complete a battle in the [[Codex Arena]].\n*See Zenjal <nowiki>[</nowiki>[[Zaishen Order|Zaishen]] Guide] for your reward.\n\n===Reward===\n*2,500 [[Experience]]\n* [[Strategist's Zaishen Strongbox]]\n\n==Dialogue==\n===Initial dialogue===\n;Zenjal [Zaishen Guide]\n:''\"The Zaishen's Codex Arena will tax not only your body but your mind as well. The Codex is an ever-changing set of limits on your [[skill]] selection, which will test your adaptability. If your spirit still retains the will to fight, advance to the Codex Arena!\"''\n{{Offer dialog\n| accept = I can fight with any limit you place on me!\n| decline = Let me check my skills first... Wait, what did you say?\n}}\n\n===Intermediate dialogue ===\n;Zenjal [Zaishen Guide]\n:''\"To compete in the Codex Arena, you must journey to the Battle Isles.  If you wish, I can send you directly to [[Codex Arena (outpost)|the staging area]].  Is your heart prepared for the flames of battle?\"''\n{{Offer dialog\n| accept = Let's do it.\n| decline = Not now.\n}}\n\n===Reward dialogue===\n;Zenjal [Zaishen Guide]\n:{{dialogue-stub}}"
+}

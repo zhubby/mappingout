@@ -1,0 +1,11 @@
+{
+  "title": "Solidarity",
+  "pageid": 321900,
+  "revid": 2739736,
+  "revisedAt": "2026-09-07T13:32:38Z",
+  "sha1": "124a69fa9b1577bf0db95095580196f8a7f77846",
+  "url": "https://wiki.guildwars.com/wiki/Solidarity",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Solidarity&oldid=2739736",
+  "retrievedAt": "2026-11-16T15:41:55.105Z",
+  "wikitext": "{{Skill infobox\n| id = 3356\n| name = Solidarity\n| campaign = Core\n| type = Effect\n| description = For each ally in the area, you cannot take more than 20 damage per second.\n| concise description = For each ally in the area, damage taken is capped at 20 per second.\n}}"
+}

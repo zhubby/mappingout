@@ -1,0 +1,11 @@
+{
+  "title": "Dash (PvP)",
+  "pageid": 321733,
+  "revid": 2743334,
+  "revisedAt": "2026-11-07T01:29:02Z",
+  "sha1": "8dad0d64f550692979d32517261a83c60708b674",
+  "url": "https://wiki.guildwars.com/wiki/Dash_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dash%20(PvP)&oldid=2743334",
+  "retrievedAt": "2026-11-16T15:41:15.532Z",
+  "wikitext": "{{pveversion|Dash}}\n{{Skill infobox\n| id = 3453\n| name = Dash (PvP)\n| campaign = Factions\n| profession = Assassin\n| type = Stance\n| attribute = Shadow Arts\n| energy = 5\n| recharge = 12\n| is-pvp = y\n| has-pve = y\n| causes1 = Increased Movement Speed\n| description = [[Stance]]. For 3 seconds, you [[Speed boost|run 50% faster]]. Every 2 points in Shadow Arts lowers recharge by 1 second (max 6 seconds).\n| concise description = Stance. (3 seconds.) You move 50% faster. Every 2 points in Shadow Arts lowers recharge by 1 second (max 6 seconds).\n}}\n\n== Related skills ==\n*{{skill icon|Pious Haste}}\n\n== Notes ==\n* Dash boosts speed enough to allow a [[character]] to pass through and trigger a [[trap]] without being affected.\n{{Bug|Using this skill while hexed with [[Diversion]] will not increase its recharge time.}}"
+}

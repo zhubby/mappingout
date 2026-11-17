@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Meteor",
+  "pageid": 60018,
+  "revid": 2629831,
+  "revisedAt": "2018-06-18T17:42:17Z",
+  "sha1": "62fe8c263e9a42f79362349a22a80489d80e25d7",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Meteor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Meteor&oldid=2629831",
+  "retrievedAt": "2026-11-16T15:41:41.401Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Meteor\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 6\n| activation = 1\n| recharge = 20\n| description = [[Spell]]. [[Target]] [[foe]] is struck for 600 [[damage]]. If that foe is casting a [[spell]], that spell is [[interrupt]]ed.\n| concise description = Spell. Deals 600 damage. Interrupts a spell.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Fire Imp Form]]\n\n==Related skills==\n*{{Skill icon|Meteor}}\n*{{skill icon|Polymock Earthquake}}\n*{{skill icon|Polymock Frozen Trident}}\n\n[[de:Polymock-Meteor]]"
+}

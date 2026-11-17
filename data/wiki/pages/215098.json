@@ -1,0 +1,11 @@
+{
+  "title": "Masochism (PvP)",
+  "pageid": 215098,
+  "revid": 2629686,
+  "revisedAt": "2018-06-18T17:36:59Z",
+  "sha1": "2440c632e4edfa2843c66b5d59434b3898f5ae98",
+  "url": "https://wiki.guildwars.com/wiki/Masochism_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Masochism%20(PvP)&oldid=2629686",
+  "retrievedAt": "2026-11-16T15:41:36.239Z",
+  "wikitext": "{{pveversion|Masochism}}\n{{Skill infobox\n| name = Masochism (PvP)\n| id = 3054\n| campaign = Eye of the North\n| profession = Necromancer\n| attribute = Soul Reaping\n| type = Enchantment Spell\n| energy = 5\n| activation = 1\n| recharge = 20\n| is-pvp = y\n| causes1 = Energy Gain\n| description = [[Enchantment Spell]]. For 30 seconds, you gain {{gr|1|3}} [[Energy]] whenever you [[sacrifice]] [[Health]].\n| concise description = Enchantment Spell. (30 seconds.) You gain {{gr|1|3}} Energy whenever you sacrifice Health.\n|}}\n\n{{Skill progression\n|attribute = [[Soul Reaping]]\n|var1 name = [[Energy]] gain\n|var1 at0 = 1\n|var1 at15 = 3}}\n\n== Trivia ==\n* This skill's [[functionality]]  has changed since its introduction; see its [[Masochism/Skill history|PvE]] and [[Masochism (PvP)/Skill history|PvP]] skill histories for details.\n\n[[de:Masochismus (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Illusion of Pain (PvP)",
+  "pageid": 296992,
+  "revid": 2648696,
+  "revisedAt": "2020-03-28T09:58:10Z",
+  "sha1": "ae1edbd004ae2bb5132ca0240a0ac85ba7212fea",
+  "url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Illusion%20of%20Pain%20(PvP)&oldid=2648696",
+  "retrievedAt": "2026-11-16T15:41:29.423Z",
+  "wikitext": "__NOTOC__\n{{pveversion|Illusion of Pain}}\n{{Skill infobox\n| id = 3374\n| name = Illusion of Pain (PvP)\n| campaign = Factions\n| profession = Mesmer\n| attribute = Illusion Magic\n| type = Hex Spell\n| is-pvp = y\n| energy = 10\n| activation = 2\n| recharge = 5\n| causes1 = Health Degeneration\n| causes2 = Healing\n| description = [[Hex Spell]]. For 8 seconds, [[target]] [[foe]] has {{gr|3|10|-}} [[Health degeneration]] and takes {{gr|3|10}} [[damage]] each second. When Illusion of Pain ends or is reapplied, that foe is [[heal]]ed for {{gr|36|120}}.\n| concise description = Hex Spell. (8 seconds.) Causes {{gr|3|10|-}} Health degeneration and target foe takes {{gr|3|10}} damage each second. End effect: that foe is healed for {{gr|36|120}}. {{gray|Ends if reapplied.}}\n}}\n\n{{Skill progression\n| attribute = [[Illusion Magic]]\n| var1 name = [[Health degeneration]]\n| var1 at0 = 3\n| var1 at15 = 10\n| var2 name = [[Damage]] each second\n| var2 at0 = 3\n| var2 at15 = 10\n| var3 name = [[Heal]]ing\n| var3 at0 = 36\n| var3 at15 = 120\n}}\n\n==Notes==\n*Consider combining with [[Mantra of Persistence]], which increases its duration.\n\n[[de:Illusion der Schmerzen (PvP)]]"
+}

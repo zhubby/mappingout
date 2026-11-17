@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Wiki 表格文本及顶层分隔符解析。
+ * [OUTPUT]: 展开跨行跨列单元格；可保留原文供领域转换。
+ * [POS]: 配方与任务奖励共用表格边界；拒绝未闭合或嵌套表格。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { plainText, splitTopLevel } from './wikitext.mjs';
 
 // Expand rowspans so every exported version retains its profession and collector.

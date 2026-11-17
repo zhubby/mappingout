@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Power Drain",
+  "pageid": 59955,
+  "revid": 2629842,
+  "revisedAt": "2018-06-18T17:42:39Z",
+  "sha1": "a531710972b278c3a9de3290889e15391e9611cd",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Power_Drain",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Power%20Drain&oldid=2629842",
+  "retrievedAt": "2026-11-16T15:41:41.397Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Power Drain\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 3\n| activation = {{1/4}}\n| recharge = 20\n| description = [[Spell]]. If target foe is casting a [[spell]] or [[glyph]], that foe is [[interrupted]] and you gain 3 [[Energy]].\n| concise description = Spell. Interrupts a spell or glyph. Interruption effect: you gain 3 Energy.}}\n\n==Acquisition==\n'''Polymock Power Drain''' is one of the five skills that is available to all [[Polymock]] pieces.\n\n==Related skills==\n*{{Skill icon|Power Drain}}\n\n[[de:Polymock-Kraftentzug]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Dwarven Powder Keg",
+  "pageid": 149108,
+  "revid": 2604155,
+  "revisedAt": "2016-04-02T17:50:44Z",
+  "sha1": "c0723ad94798010242099dafe2e6b9e5cadb916b",
+  "url": "https://wiki.guildwars.com/wiki/Dwarven_Powder_Keg",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dwarven%20Powder%20Keg&oldid=2604155",
+  "retrievedAt": "2026-11-16T15:41:19.011Z",
+  "wikitext": "{{skill infobox\n| id = 508\n| name = Dwarven Powder Keg\n| campaign = Prophecies\n| campaign2 = Eye of the North\n| type = Signet\n| special = Bundle\n| description = [[Signet]]. Surrounding [[foe]]s get [[Knock down|knocked down]] and are [[burning|set on fire]].\n| concise description = Signet. Surrounding foes are knocked-down and begin Burning.\n}}\n\n== Related skills ==\n* {{skill icon|Grasping Was Kuurong}} ([[elite]])\n\n== Notes ==\n* Activated by dropping a [[Dwarven Powder Keg (bundle)|Dwarven Powder Keg]] [[bundle]].\n\n{{Research needed| How long does the burning condition last? How large is the actual area of effect? }}"
+}

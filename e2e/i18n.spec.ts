@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: 依赖双语界面、资料投影和共用语言菜单。
+ * [OUTPUT]: 验证语言切换、字体、离线与个人记录。
+ * [POS]: 双语浏览器回归；保留用户业务状态。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
+import {selectOption} from './select';
 import {expect,test} from '@playwright/test';
 
 test('language switch preserves links, view, filters, search and installed fonts',async({page})=>{
@@ -11,7 +18,7 @@ test('language switch preserves links, view, filters, search and installed fonts
  });
  const originalPosition=await position();
  const before=new URL(page.url()).search;
- await page.getByLabel('Language / 语言').selectOption('en');
+ await selectOption(page.getByLabel('Language / 语言'), 'en');
  await expect(page.locator('html')).toHaveAttribute('lang','en');
  await expect(page.locator('.detail-title-row h2')).toHaveText('Cleave');
  await expect(page.locator('.module-nav').getByRole('button',{name:'Armor crafting',exact:true})).toBeVisible();
@@ -31,7 +38,7 @@ test('language switch preserves links, view, filters, search and installed fonts
  expect(fonts.some(font=>font.familyName==='Friz Quadrata Std'&&font.isCustomFont)).toBe(true);
  await page.reload();await expect(page.locator('html')).toHaveAttribute('lang','en');
  await expect(page.locator('.detail-title-row h2')).toHaveText('Cleave');
- await page.getByLabel('Language / 语言').selectOption('zh-CN');
+ await selectOption(page.getByLabel('Language / 语言'), 'zh-CN');
  const documentNode=await cdp.send('DOM.getDocument');
  const chineseNode=await cdp.send('DOM.querySelector',{nodeId:documentNode.root.nodeId,selector:'.detail-title-row h2'});
  const chineseFonts=await cdp.send('CSS.getPlatformFontsForNode',{nodeId:chineseNode.nodeId});
@@ -45,12 +52,12 @@ test('both language packs and fonts work after going offline',async({page,contex
  await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
  await page.waitForFunction(()=>!!navigator.serviceWorker.controller);
  await context.setOffline(true);
- await page.getByLabel('Language / 语言').selectOption('en');
+ await selectOption(page.getByLabel('Language / 语言'), 'en');
  await page.locator('.module-nav').getByRole('button',{name:'Armor crafting',exact:true}).click();
  await expect(page.locator('.armor-results')).toBeVisible();
  await page.locator('.module-nav').getByRole('button',{name:'Activity calendar',exact:true}).click();
  await expect(page.locator('.current-activities')).toBeVisible();
- await page.getByLabel('Language / 语言').selectOption('zh-CN');
+ await selectOption(page.getByLabel('Language / 语言'), 'zh-CN');
  await expect(page.locator('.feature-heading h1')).toContainText('活动日历');
  await page.reload();await expect(page.locator('.feature-heading h1')).toContainText('活动日历');
  await context.setOffline(false);
@@ -60,7 +67,7 @@ for(const scale of [1,1.5,2])test(`English and Chinese controls fit at ${scale*1
  await page.setViewportSize({width:Math.round(1440/scale),height:Math.round(1000/scale)});
  await page.goto('/');await expect(page.getByTestId('atlas-map')).toBeVisible();
  for(const locale of ['en','zh-CN']){
-  await page.getByLabel('Language / 语言').selectOption(locale);
+  await selectOption(page.getByLabel('Language / 语言'), locale);
   await expect(page.getByLabel('Language / 语言')).toBeInViewport();
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  }

@@ -1,0 +1,11 @@
+{
+  "title": "The Path to Combat: Random Arena",
+  "pageid": 281162,
+  "revid": 2575482,
+  "revisedAt": "2014-09-11T08:06:44Z",
+  "sha1": "8c2a6b3803c78060a2d4ae078d2212cdfff4c353",
+  "url": "https://wiki.guildwars.com/wiki/The_Path_to_Combat:_Random_Arena",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Path%20to%20Combat%3A%20Random%20Arena&oldid=2575482",
+  "retrievedAt": "2026-11-16T13:47:27.318Z",
+  "wikitext": "__NOTOC__{{DEFAULTSORT:Path to Combat: Random Arena, The}}\n{{Quest infobox\n| id = 1329\n| campaign = Core\n| region = The Battle Isles\n| type = Secondary\n| given by = [[Zenjal]]\n| given at = [[Great Temple of Balthazar]]\n| followed by = [[The Path to Victory: Random Arenas]] and <br> [[The Path to Combat: Codex Arena]]\n}}\n\n==Quest information==\n===Requirements===\n*This quest is only offered to [[level]] 20 [[character]]s.\n\n===Objectives===\n*Complete a battle in the [[Random Arenas]].\n*See Zenjal <nowiki>[</nowiki>[[Zaishen Order|Zaishen]] Guide] for your reward.\n\n===Reward===\n*2,500 [[Experience]]\n* [[Gladiator's Zaishen Strongbox]]\n\n==Dialogue==\n===Initial dialogue===\n;Zenjal [Zaishen Guide]\n:''\"Hail, hero! The Zaishen Order is seeking worthy adventurers to participate in our many arenas on the Battle Isles.  In the Random Arenas, as the name suggests, battles are fought between teams impartially assembled by the Zaishen.  It is an excellent place to hone your fighting spirit.  Are you prepared for the field of combat?\"''\n{{Offer dialog\n| accept = I'm ready!\n| decline = Let me check my skills first...\n}}\n\n===Intermediate dialogue ===\n;Zenjal [Zaishen Guide]\n:''\"To compete in the Random Arenas, you must journey to the Battle Isles.  If you wish, I can send you directly to [[Random Arenas (outpost)|the staging area]].  Is your heart prepared for the flames of battle?\"''\n{{Offer dialog\n| accept = Let's do it.\n| decline = Not now.\n}}\n\n===Reward dialogue===\n;Zenjal [Zaishen Guide]\n:''\"Boldly fought, hero! Perhaps you are ready for a challenge...\"''\n\n==Notes==\n*Unlike [[The Path to Victory: Random Arenas]], this quest's name uses [[:File:Zenjal RA quest names.jpg|singular ''\"Arena\"'']]."
+}

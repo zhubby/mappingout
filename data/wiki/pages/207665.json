@@ -1,0 +1,11 @@
+{
+  "title": "\"Stand Your Ground!\" (PvP)",
+  "pageid": 207665,
+  "revid": 2645364,
+  "revisedAt": "2019-11-09T12:03:28Z",
+  "sha1": "f033fcdfa144e20865fb651e25e429c9a2a578ba",
+  "url": "https://wiki.guildwars.com/wiki/%22Stand_Your_Ground!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Stand%20Your%20Ground!%22%20(PvP)&oldid=2645364",
+  "retrievedAt": "2026-11-16T15:41:05.435Z",
+  "wikitext": "{{pveversion|\"Stand Your Ground!\"}}\n{{Skill infobox\n| id = 3032\n| name = \"Stand Your Ground!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command \n| type = Shout\n| energy = 15\n| recharge = 30\n| causes1 = Increased Armor Rating\n| description = [[Shout]]. For {{gr|5|20}} seconds, all [[party]] members within [[earshot]] receive +24 [[Armor rating|armor]] when not [[Movement|moving]]. This effect ends on an ally affected by this shout when that ally [[attack]]s.\n| concise description = Shout. ({{gr|5|20}} seconds.) Party members in earshot gain +24 armor when not moving. Ends for an ally if that ally attacks.\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| var1 name = [[Duration]]\n| var1 at0 = 5\n| var1 at15 = 20}}\n\n==Related skills==\n*{{skill icon|\"Shields Up!\"}}\n*{{Skill icon|\"Watch Yourself!\" (PvP)}}\n{{DEFAULTSORT:Stand Your Ground!}}\n\n[[de:\"Haltet Eure Stellung!\" (PvP)]]"
+}

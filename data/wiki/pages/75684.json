@@ -1,0 +1,11 @@
+{
+  "title": "Snow Down the Shirt",
+  "pageid": 75684,
+  "revid": 2560740,
+  "revisedAt": "2013-12-24T08:10:55Z",
+  "sha1": "7082b99d4fe58da46fed1d6919d49e1d94fbeeaa",
+  "url": "https://wiki.guildwars.com/wiki/Snow_Down_the_Shirt",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Snow%20Down%20the%20Shirt&oldid=2560740",
+  "retrievedAt": "2026-11-16T15:41:55.104Z",
+  "wikitext": "{{skill infobox\n| id = 1009\n| name = Snow Down the Shirt\n| campaign = Core\n| type = Hex Spell\n| special = Snow fighting\n| activation = {{3/4}}\n| recharge = 30\n| description = [[Hex Spell]]. For 20 seconds, whenever [[Touch skill|touched]] [[foe]] takes any [[damage]] while suffering from this hex, that foe is [[interrupt]]ed.\n| concise description = Touch Hex Spell. (20 seconds.) Interrupts target foe whenever it takes damage.\n}}\n\n== Acquisition ==\nThis skill is given to all players in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Related skills ==\n* {{duplicate skill icon|Spinal Shivers|Shivers of Dread}}\n\n== Notes ==\n* This skill is only available to players during [[Wintersday]] events."
+}

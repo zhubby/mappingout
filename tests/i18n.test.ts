@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖双语投影、偏好、备份与资料验证器。
+ * [OUTPUT]: 验证四套资料的双语覆盖与 v3 备份语言独立性。
+ * [POS]: 国际化回归；不授予资料审校状态。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import {afterEach,describe,expect,it,vi} from 'vitest';
 import fs from 'node:fs';
 import {getLocale,setLocale,t,displayMessage,localeKey} from '../src/i18n';
@@ -24,7 +30,7 @@ describe('language preference and labels',()=>{
   const saved=new Map<string,string>();vi.stubGlobal('localStorage',{setItem:(k:string,v:string)=>saved.set(k,v),getItem:(k:string)=>saved.get(k)});
   const backup=makeBackup(emptyPersonal());setLocale('en');
   expect(saved.get(localeKey)).toBe('en');parseBackup(JSON.stringify(backup));
-  expect(getLocale()).toBe('en');expect(backup.version).toBe(2);expect(JSON.stringify(backup)).not.toContain(localeKey);
+  expect(getLocale()).toBe('en');expect(backup.version).toBe(3);expect(JSON.stringify(backup)).not.toContain(localeKey);
  });
  it('can switch with unavailable device storage and relocalizes application errors',()=>{
   vi.stubGlobal('localStorage',{setItem:()=>{throw Error('denied');}});
@@ -45,7 +51,7 @@ describe('localized data projections',()=>{
   expect(release.errors.some((error:string)=>error.includes('still require review'))).toBe(true);
  },20000); // Reads and hashes the complete corpus for normal and release checks.
  it('preserves all shipped coordinates, recipes, progress identities and rotation facts',()=>{
-  for(const dataset of ['catalog','armor','calendar'] as const){
+  for(const dataset of ['catalog','armor','calendar','quests','skills'] as const){
    const original=JSON.parse(fs.readFileSync(`public/data/${dataset}.json`,'utf8'));
    const packs=Object.fromEntries((['zh-CN','en'] as const).map(locale=>[locale,JSON.parse(fs.readFileSync(`public/data/i18n/${locale}/${dataset}.json`,'utf8'))]));
    for(const locale of ['zh-CN','en'] as const){
@@ -57,9 +63,15 @@ describe('localized data projections',()=>{
      }
     }else if(dataset==='armor'){
      expect(localized.offers.map((o:any)=>[o.id,o.armorId,o.armorerId,o.zoneId,o.campaign,o.armorRating,o.ratingByProfession,o.pieces.map((p:any)=>[p.id,p.slot,p.gold,p.materials])])).toEqual(original.offers.map((o:any)=>[o.id,o.armorId,o.armorerId,o.zoneId,o.campaign,o.armorRating,o.ratingByProfession,o.pieces.map((p:any)=>[p.id,p.slot,p.gold,p.materials])]));
-    }else{
+    }else if(dataset==='calendar'){
      expect(localized.rotations).toEqual(original.rotations);
      expect(localized.activities.map((a:any)=>[a.id,a.kind,a.zoneId,a.exchange?.perGift,a.references])).toEqual(original.activities.map((a:any)=>[a.id,a.kind,a.zoneId,a.exchange?.perGift,a.references]));
+    }else if(dataset==='quests'){
+     const facts=(q:any)=>[q.id,q.chapter,q.campaign,q.mode,q.kind,q.allowedOrigins,q.profession,q.references,q.images.map((i:any)=>[i.id,i.file,i.sha256]),JSON.parse(JSON.stringify(q.requirement,(key,value)=>key==='text'?undefined:value))];
+     expect(localized.quests.map(facts)).toEqual(original.quests.map(facts));
+    }else{
+     const facts=(s:any)=>[s.id,s.legacyEntryIds,s.variants.map((v:any)=>[v.id,v.gameIds,v.modes,v.profession,v.campaigns,v.resources,v.effects.map((e:any)=>[e.id,e.axis,e.axisKind,e.values,e.metric,e.unit,e.scope,e.conditional,e.uncertain]),v.acquisition.map((a:any)=>[a.questId,a.zoneIds]),v.reference,v.image])];
+     expect(localized.skills.map(facts)).toEqual(original.skills.map(facts));
     }
    }
   }

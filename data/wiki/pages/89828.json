@@ -1,0 +1,11 @@
+{
+  "title": "Firebomb Explosion",
+  "pageid": 89828,
+  "revid": 2635286,
+  "revisedAt": "2018-12-05T20:27:49Z",
+  "sha1": "cdf1df04a30745237656eb4e91a07c1f495d2bd1",
+  "url": "https://wiki.guildwars.com/wiki/Firebomb_Explosion",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Firebomb%20Explosion&oldid=2635286",
+  "retrievedAt": "2026-11-16T15:41:22.672Z",
+  "wikitext": "{{Skill infobox\n| name = Firebomb Explosion\n| campaign = Eye of the North\n| special = Bundle\n| type = Signet\n| description = Signet. When the firebomb explodes, all [[nearby]] foes are struck for 200 [[fire damage]] and are [[burning|set on fire]] for 5 seconds.\n| concise description = Signet. Affects nearby foes. Deals 200 fire damage and inflicts Burning condition (5 seconds).\n| aoe = nearby\n}}\n\n== Related skills ==\n* {{skill icon|Cruel Was Daoshen}}\n* {{skill icon|Destructive Was Glaive}} ([[elite]])\n* {{skill icon|Grasping Was Kuurong}} (elite)\n\n==Notes==\n*This effect is caused when a [[Fire Bomb]] [[bundle]] explodes. Fire Bombs are created with the [[Firebomb]] skill, used by [[Ilsundur, Lord of Fire]], the final boss of the dungeon [[Catacombs of Kathandrax]].\n\n[[de:Feuerbomben-Explosion]]"
+}

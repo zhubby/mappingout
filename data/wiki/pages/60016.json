@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Fireball",
+  "pageid": 60016,
+  "revid": 2629811,
+  "revisedAt": "2018-06-18T17:41:36Z",
+  "sha1": "774a884729d126f230ee0988171b945a0d82757f",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Fireball",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Fireball&oldid=2629811",
+  "retrievedAt": "2026-11-16T15:41:40.921Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Fireball\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 6\n| activation = 1\n| recharge = 20\n| description = [[Spell]]. [[Projectile spell|Send out]] a ball of fire that strikes [[target]] [[foe]] for 800 [[damage]] if it hits.\n| concise description = Spell. Projectile: deals 800 damage.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Charr Flamecaller Form]]\n*[[Fire Elemental Form]]\n\n==Related skills==\n*{{Skill icon|Fireball}}\n*{{skill icon|Polymock Lightning Orb}}\n*{{skill icon|Polymock Stoning}}\n\n[[de:Polymock-Feuerball]]"
+}

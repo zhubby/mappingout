@@ -1,0 +1,11 @@
+{
+  "title": "The Path to Victory: Heroes' Ascent",
+  "pageid": 281259,
+  "revid": 2573813,
+  "revisedAt": "2014-08-12T08:37:02Z",
+  "sha1": "b882992e7de3d2fc97e7e08e5b347a66dae02f3f",
+  "url": "https://wiki.guildwars.com/wiki/The_Path_to_Victory:_Heroes%27_Ascent",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Path%20to%20Victory%3A%20Heroes'%20Ascent&oldid=2573813",
+  "retrievedAt": "2026-11-16T13:47:27.319Z",
+  "wikitext": "__NOTOC__{{DEFAULTSORT:Path to Victory: Heroes' Ascent, The}}\n{{Quest infobox\n| name = The Path to Victory: Heroes' Ascent\n| campaign = Core\n| region = The Battle Isles\n| type = Secondary\n| given by = [[Zenjal]]\n| given at = [[Great Temple of Balthazar]]\n| preceded by = [[The Path to Combat: Heroes' Ascent]]\n}}\n\n==Quest information==\n===Requirements===\n*This quest is only offered to [[level]] 20 [[character]]s.\n\n===Objectives===\n*Win a battle in the [[Heroes' Ascent]].\n*See Zenjal <nowiki>[</nowiki>[[Zaishen Order|Zaishen]] Guide] for your reward.\n\n===Reward===\n*5,000 [[Experience]]\n*[[Hero's Strongbox]]\n\n==Dialogue==\n===Initial dialogue===\n;Zenjal [Zaishen Guide]\n:''\"The journey to [[The Hall of Heroes (arena)|the Hall of Heroes]] is no easy road. Do you have the strength to progress on that path? Show me your resolve by achieving victory over your foes in Heroes' Ascent.\"''\n{{Offer dialog\n| accept = I'll show you what being a hero means.\n| decline = I never claimed to be a hero.\n}}\n\n===Intermediate dialogue ===\n;Zenjal [Zaishen Guide]\n:''\"To compete in Heroes' Ascent, you must journey to the Battle Isles. If you wish, I can send you directly to [[Heroes' Ascent (outpost)|the staging area]]. Is your heart prepared for the flames of battle? \"''\n{{Offer dialog\n| accept = Let's do it.\n| decline = Not now.\n}}\n\n===Reward dialogue===\n;Zenjal [Zaishen Guide]\n:''\"Doubtless you and your companions will one day be counted among the mightiest heroes.\"''"
+}

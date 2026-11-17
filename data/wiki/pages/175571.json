@@ -1,0 +1,11 @@
+{
+  "title": "Template:Nightfall challenge mission reward",
+  "pageid": 175571,
+  "revid": 2401826,
+  "revisedAt": "2011-10-27T16:33:12Z",
+  "sha1": "11e28faf61040ad9e7db7c4d553ba0bd13654db1",
+  "url": "https://wiki.guildwars.com/wiki/Template:Nightfall_challenge_mission_reward",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3ANightfall%20challenge%20mission%20reward&oldid=2401826",
+  "retrievedAt": "2026-11-16T14:06:02.946Z",
+  "wikitext": "Scoring in this mission rewards [[experience]] and [[gold]] base on the formulas below. Values are rounded down. An additional bonus is given for achieving daily best, monthly best, or quarterly best.\n{| style=\"margin: 0 0 0.5em 1em; border: solid 1px silver; text-align: center; font-size: 90%\" cellpadding=\"4\"\n|- style=\"background: #7BC; font-size: 120%\"\n! Reward || Amount || Daily Best || Monthly Best || Quarterly Best\n|-\n! style=\"background: #7BC;\" | Experience\n| (1000 * score) / (Monthly Best #1 score) || || ||\n|-\n! style=\"background: #7BC;\" | Gold\n| (500 * score) / (Monthly Best #1 score) || +500 || +1000 || +2000\n|}<noinclude>\n\n==Description==\nThis template is meant to be included in the rewards section of [[Nightfall]] [[challenge mission]]s.\n\n<pre>{{Nightfall challenge mission reward}}</pre>\n\n== See also ==\n*[[Template:Factions challenge mission reward]]\n\n[[Category:Mission templates]]</noinclude>"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Ancestors' Rage (PvP)",
+  "pageid": 136082,
+  "revid": 2738853,
+  "revisedAt": "2026-08-27T15:51:46Z",
+  "sha1": "2752d4a90d392cb4d2186368fbe3241a17a36850",
+  "url": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ancestors'%20Rage%20(PvP)&oldid=2738853",
+  "retrievedAt": "2026-11-16T15:41:05.970Z",
+  "wikitext": "{{pveversion|Ancestors' Rage}}\n{{Skill infobox\n| name = Ancestors' Rage (PvP)\n| id = 2867\n| campaign = Factions\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Skill\n| energy = 5\n| activation = 1\n| recharge = 8\n| causes1 = Lightning Damage\n| description = [[Skill (skill type)|Skill]]. For 3 seconds all [[foe]]s [[adjacent]] to [[target]] [[ally]] are struck for {{gr|4|50}} [[lightning damage]] each second.\n| concise description = Skill. (3 seconds.) Deals {{gr|4|50}} lightning damage to foes adjacent to target ally each second. \n| is-pvp = y\n| aoe = adjacent\n| target = allies\n}}\n\n{{Skill progression\n|attribute = [[Channeling Magic]]\n|maximum = 19\n|var1 name = [[Lightning damage]]\n|var1 at0 = 4\n|var1 at15 = 50}}\n\n== Related skills ==\n* {{skill icon|Balthazar's Aura}}\n* {{skill icon|Double Dragon}} ([[elite]])\n\n== Trivia ==\n* The functionality of this skill has changed since its introduction; see its [[/Skill history|skill revision history]] for details.\n\n[[de:Wut der Vorfahren (PvP)]]"
+}

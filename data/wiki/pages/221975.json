@@ -1,0 +1,11 @@
+{
+  "title": "Death Blossom (PvP)",
+  "pageid": 221975,
+  "revid": 2733310,
+  "revisedAt": "2026-07-05T17:34:59Z",
+  "sha1": "944fa4c39efc45a4a7f3b77881fff70935b98822",
+  "url": "https://wiki.guildwars.com/wiki/Death_Blossom_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Death%20Blossom%20(PvP)&oldid=2733310",
+  "retrievedAt": "2026-11-16T15:41:15.532Z",
+  "wikitext": "{{pveversion|Death Blossom}}\n{{Skill infobox\n| name = Death Blossom (PvP)\n| id = 3061\n| campaign = Factions\n| profession = Assassin\n| attribute = Dagger Mastery\n| type = Dual Attack\n| energy = 5\n| recharge = 6 \n| description = [[Dual Attack]]. Must follow an [[off-hand attack]]. If it hits, Death Blossom strikes [[target]] [[foe]] for {{gr|20|45|+}} [[damage]] and all [[adjacent]] foes take {{gr|20|45}} damage.\n| concise description = Dual Attack. Deals {{gr|20|45|+}} damage. Also affects foes adjacent to target foe. {{gray|Must follow an off-hand attack.}}\n| requires = offhand\n| is-pvp = y\n| aoe = adjacent\n}}\n\n{{Skill progression\n|attribute = [[Dagger Mastery]]\n|var1 name = + [[Damage]]\n|var2 name = Damage ([[adjacent]] foes)\n|var1 at0 = 20\n|var1 at15 = 45\n|var2 at0 = 20\n|var2 at15 = 45}}\n\n[[de:Todesblüte (PvP)]]"
+}

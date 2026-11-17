@@ -1,0 +1,11 @@
+{
+  "title": "Reckless Advance",
+  "pageid": 321902,
+  "revid": 2739738,
+  "revisedAt": "2026-09-07T13:38:06Z",
+  "sha1": "800ceca9459dee1bd8f2076c44b46f47a60b5352",
+  "url": "https://wiki.guildwars.com/wiki/Reckless_Advance",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Reckless%20Advance&oldid=2739738",
+  "retrievedAt": "2026-11-16T15:41:44.750Z",
+  "wikitext": "{{Skill infobox\n| id = 3345\n| name = Reckless Advance\n| campaign = Core\n| type = Effect\n| description = You take an additional 10% damage while moving.\n| concise description = Take 10% additional damage while moving.\n}}"
+}

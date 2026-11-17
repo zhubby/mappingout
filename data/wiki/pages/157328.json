@@ -1,0 +1,11 @@
+{
+  "title": "Smiter's Boon (PvP)",
+  "pageid": 157328,
+  "revid": 2726406,
+  "revisedAt": "2026-04-28T17:43:43Z",
+  "sha1": "6c4b70f499d521495048cff03a11ca6add2866c7",
+  "url": "https://wiki.guildwars.com/wiki/Smiter%27s_Boon_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Smiter's%20Boon%20(PvP)&oldid=2726406",
+  "retrievedAt": "2026-11-16T15:41:55.104Z",
+  "wikitext": "{{pveversion|Smiter's Boon}}\n{{Skill infobox\n| id =2895\n| name = Smiter's Boon (PvP)\n| campaign = Eye of the North\n| profession = Monk\n| attribute = Divine Favor\n| type = Enchantment Spell\n| energy = 25\n| activation = {{1/4}}\n| recharge = 90 \n| is-pvp = y\n| description = [[Enchantment Spell]]. For 4 seconds, your [[Smiting Prayers]] have double the [[Divine Favor]] bonus.\n| concise description = Enchantment Spell. (4 seconds.) Your Smiting Prayers have double Divine Favor healing bonus.\n}}\n\n{{Skill progression\n| attribute = Divine Favor\n| var1 name = [[Heal]]ing bonus\n| var1 at0 = 0\n| var1 at15 = 48\n}}\n\n==Trivia==\n\n*This skill was heavily [[nerf]]ed in the [[Game updates/20080821|August 21, 2008 update]] to effectively remove it from PvP. Its modification was explained in that update's [[ArenaNet:Developer updates/20080821|developer update]].\n**The heavy handed nature of the nerf became a meme in the community, giving rise to the terms ''(Smiter's) Booning'' and ''25/90ing'' (referring to the new energy cost and recharge) each time a skill is heavily nerfed or rendered completely unusable after a game update.\n***The skill [[Isaiah's Balance]] is a direct reference to this nerf.\n**In March 2015, [[Isaiah Cartwright]] [http://www.reddit.com/r/Guildwars2/comments/2yigwn/thank_you_pax_east_fans_had_a_great_time/cpad1gq explained] the process of him and [[James Phinney]] nerfing this skill.\n**Isaiah returned 18 years later to further nerf the skill in the [[Feedback:Game updates/20260205|February 5, 2026 PvP Balance update]].\n**The recharge time was reduced by 1 second in the [[Feedback:Game updates/20260401|April 1, 2026 update]]. This change was reversed [[Feedback:Game_updates/20260428|four weeks later]].\n\n[[de:Segen des Peinigers (PvP)]]"
+}

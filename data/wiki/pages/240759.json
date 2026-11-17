@@ -1,0 +1,11 @@
+{
+  "title": "Mending Refrain (PvP)",
+  "pageid": 240759,
+  "revid": 2733315,
+  "revisedAt": "2026-07-05T17:38:42Z",
+  "sha1": "2056f0195e170ba0afc3e67003ea1816d5eaf5cd",
+  "url": "https://wiki.guildwars.com/wiki/Mending_Refrain_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mending%20Refrain%20(PvP)&oldid=2733315",
+  "retrievedAt": "2026-11-16T15:41:36.877Z",
+  "wikitext": "{{pveversion|Mending Refrain}}\n{{Skill infobox\n| id = 3149\n| name = Mending Refrain (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Motivation\n| type = Echo\n| is-pvp = y\n| energy = 10\n| activation = 1\n| recharge = 8\n| causes1 = Health Regeneration\n| causes2 = Renewal\n| description = [[Echo (skill type)|Echo]]. For 15 seconds, you have {{gr|2|3|+}} [[Health regeneration]]. This echo is [[Renewal|reapplied]] every time a [[chant]] or [[shout]] ends on you.\n| concise description = Echo. (15 seconds.) You have {{gr|2|3|+}} Health regeneration. Renewal: whenever a chant or shout ends on you.\n}}\n\n{{Skill progression\n| attribute = [[Motivation]]\n| var1 name = [[Health regeneration]]\n| var1 at0 = 2\n| var1 at15 = 3}}\n\n==Related skills==\n*{{skill icon|Mending}}\n*{{skill icon|Watchful Spirit}}\n\n[[de:Genesungsrefrain (PvP)]]"
+}

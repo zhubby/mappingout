@@ -1,0 +1,11 @@
+{
+  "title": "Speak with Headmaster Quin (Ritualist)",
+  "pageid": 25405,
+  "revid": 2627742,
+  "revisedAt": "2018-05-30T16:43:26Z",
+  "sha1": "fd88514702be74508fd47accfeec7514b4856f5a",
+  "url": "https://wiki.guildwars.com/wiki/Speak_with_Headmaster_Quin_(Ritualist)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Speak%20with%20Headmaster%20Quin%20(Ritualist)&oldid=2627742",
+  "retrievedAt": "2026-11-16T13:47:16.770Z",
+  "wikitext": "{{Quest infobox\n| name = Speak with Headmaster Quin (Ritualist)\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Master Togo]]\n| given at = [[Linnok Courtyard]]\n| preceded by = [[An Audience with Master Togo]]\n| followed by = [[Locate Professor Gai]]\n}}\n[[Master Togo]] tells you to speak with [[Headmaster Quin]] in [[Shing Jea Monastery]] to begin your [[ritualist]] training.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n}}\n* No secondary profession\n* Primary profession not a [[Ritualist]]\n\n===Objectives===\n* Speak with Headmaster Quin in the Shing Jea Monastery\n\n===Reward===\n* 50 [[Experience]]\n\n==Walkthrough==\nGo to southeastern [[Shing Jea Monastery]]. The headmasters are gathered in one place.\n\n==Dialogue==\n===Initial dialogue===\n;Master Togo\n''If you are interested in taking the Ritualist profession as your secondary field of study, then you will need to speak with [[Headmaster Quin]].''\n\n''Quin is an old friend of mine. She can be a bit pompous at times, but she is an accomplished Ritualist and a great teacher. You will learn much from her. Seek her out in the [[Shing Jea Monastery]].''\n{{ Offer dialog\n| accept = I will seek out Headmaster Quin.\n| decline = I'm not sure about this.\n| ask = If you wish to become a Ritualist, find [[Headmaster Quin]] in the [[Shing Jea Monastery|monastery]]. In any case, you must leave me to my work now.\n}}\n\n===Reward dialogue===\n;Headmaster Quin\n''I am never surprised when a student chooses to become a Ritualist. Our profession is superior to all others. If you are ready to train with me, I will teach you to create wonderful things out of nothing at all. But do not waste my time or yours: consider your decision carefully.''"
+}

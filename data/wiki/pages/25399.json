@@ -1,0 +1,11 @@
+{
+  "title": "Speak with Headmaster Lee (Assassin)",
+  "pageid": 25399,
+  "revid": 2627741,
+  "revisedAt": "2018-05-30T16:43:10Z",
+  "sha1": "86e5fb82369d9535f1bff762db96796fd059bdd1",
+  "url": "https://wiki.guildwars.com/wiki/Speak_with_Headmaster_Lee_(Assassin)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Speak%20with%20Headmaster%20Lee%20(Assassin)&oldid=2627741",
+  "retrievedAt": "2026-11-16T13:47:16.769Z",
+  "wikitext": "{{Quest infobox\n| name = Speak with Headmaster Lee (Assassin)\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Master Togo]]\n| given at = [[Linnok Courtyard]]\n| preceded by = [[An Audience with Master Togo]]\n| followed by = [[Locate Jinzo]]\n}}\nSeek out the headmaster for a secondary profession.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n}}\n* No secondary profession\n* Primary profession not an [[Assassin]]\n\n===Objectives===\n* Speak with Headmaster Lee in the Shing Jea Monastery.\n\n===Reward===\n*50 [[Experience]]\n\n==Walkthrough==\nGo to [[Shing Jea Monastery]] and find [[Headmaster Lee]] in the courtyard with all the other headmasters. Talk to her to complete this quest.\n\n==Dialogue==\n===Initial dialogue===\n;Master Togo\n''If you are interested in taking the Assassin profession as your secondary field of study, then you will need to speak with [[Headmaster Lee]]. She is quite serious... deadly serious, some would say, and not for the sake of humor. But do not let her demeanor put you off. She is an excellent teacher, and will train you well. Seek her out in the [[Shing Jea Monastery]].''\n{{ Offer dialog\n| accept = Yes, Master\n| decline = I'm not sure about this.\n| ask = If you wish to become an Assassin, find [[Headmaster Lee]] in the [[Shing Jea Monastery|monastery]]. Now leave me to my work.\n}}\n\n===Reward dialogue===\n;Headmaster Lee\n''The choice to study the Assassin's path is not one to be taken lightly.  Assassins have one duty, and that is to kill.  The best of us are merciful in fulfilling that duty, but some would disagree with me.  Regardless, I will teach you to kill like a true professional.''"
+}

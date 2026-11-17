@@ -1,0 +1,11 @@
+{
+  "title": "Flurry of Ice",
+  "pageid": 75685,
+  "revid": 2624284,
+  "revisedAt": "2018-01-02T00:09:34Z",
+  "sha1": "80f2704491d8979a44564fb4e98a70c65027db37",
+  "url": "https://wiki.guildwars.com/wiki/Flurry_of_Ice",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Flurry%20of%20Ice&oldid=2624284",
+  "retrievedAt": "2026-11-16T15:41:23.589Z",
+  "wikitext": "{{skill infobox\n| id = 1015\n| name = Flurry of Ice\n| profession = Ranger\n| campaign = Core\n| type = Spell\n| target = foes\n| special = Snow fighting\n| activation = {{3/4}}\n| description = [[Spell]]. Throw a [[Projectile spell|snowball]] at up to 4 foes adjacent to your target. These snowballs deal 50 damage if they hit.\n| concise description = Spell. Throw a snowball at up to 4 foes adjacent to your target. These snowballs deal 50 damage if they hit.\n| aoe = adjacent\n}}\n\n== Acquisition ==\nThis skill is given to Rangers competing in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Related skills ==\n* {{skill icon|Barrage}} ([[elite]])\n* {{skill icon|Lava Arrows}}\n\n== Notes ==\n* This skill is only available to players during [[Wintersday]] events.\n* Unlike [[Snowball]], activating this skill does not generate [[adrenaline]].\n{{anomaly|The descriptions omit the fact that a snowball is also thrown at the target, allowing a maximum of 5 snowballs per activation.}}\n\n[[Category:Projectile spells]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Seek Out Headmaster Quin",
+  "pageid": 25376,
+  "revid": 2692753,
+  "revisedAt": "2024-02-07T20:50:22Z",
+  "sha1": "badab2306ae00939e9e20fb2687fe7ac06ac62a8",
+  "url": "https://wiki.guildwars.com/wiki/Seek_Out_Headmaster_Quin",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Seek%20Out%20Headmaster%20Quin&oldid=2692753",
+  "retrievedAt": "2026-11-16T13:47:13.096Z",
+  "wikitext": "{{Quest infobox\n| name = Seek Out Headmaster Quin\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Ludo]]\n| given at = [[Monastery Overlook]]\n| preceded by = [[Mantid Hatchlings]]\n| followed by = [[Locate Professor Gai]]\n| profession = Ritualist\n| primary = y\n}}\nThis quest gives [[Ritualist]]s access to the [[Shing Jea Monastery]] and introduces the ritualist headmaster, [[Headmaster Quin|Quin]].\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Ritualist\n| primary = y\n}}\n\n===Objectives===\n* Talk to [[Ludo]] to gain entrance to the monastery.\n* Seek out [[Headmaster Quin]] in the monastery.\n\n===Reward===\n* 250 [[Experience]]\n* 20 [[Gold]]\n\n==Walkthrough==\nSpeak to Ludo at the entrance to Shing Jea Monastery to enter. If you skipped the tutorial [[Mantid Hatchlings]], you will learn the following [[skill]]s:\n* {{skill icon|Pain}}\n* {{skill icon|Weapon of Warding}}\n* {{skill icon|Resurrection Signet}}\nYou also gain 2,000 experience, and acquire [[Starter Ritualist Wand]] after entering the monastery. You would have already received these if you did the tutorial. Speak to Headmaster Quin, who is nearby, for your reward.\n\n==Dialogue==\n===Initial dialogue===\n;Ludo\n:''Oooh, a new Ritualist! Welcome! You should seek out [[Headmaster Quin]] in the [[Shing Jea Monastery|monastery]]. She and her staff will provide your training. Good luck!''\n{{ Offer dialog\n| accept = I'll seek out Headmaster Quin.\n| decline = I'm going to have a quick look around, first.\n| ask = I told [[Headmaster Quin]] of your arrival, and she is most anxious to meet you. You will find her in the monastery.\n}}\n\n===Reward dialogue===\n;Headmaster Quin\n:''Ludo told me you had arrived. Welcome.''\n\n==Notes==\n*If you abandon this quest, it cannot be retaken, but you can take the following quest immediately."
+}

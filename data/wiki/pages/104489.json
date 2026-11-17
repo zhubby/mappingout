@@ -1,0 +1,11 @@
+{
+  "title": "Template:Factions challenge mission reward",
+  "pageid": 104489,
+  "revid": 2478664,
+  "revisedAt": "2012-04-23T08:17:32Z",
+  "sha1": "23980297012ebda9ddbde2d8ed98609960beb5ca",
+  "url": "https://wiki.guildwars.com/wiki/Template:Factions_challenge_mission_reward",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3AFactions%20challenge%20mission%20reward&oldid=2478664",
+  "retrievedAt": "2026-11-16T14:06:02.945Z",
+  "wikitext": "Scoring in this mission rewards [[{{{1}}} faction]], [[experience]], and [[gold]] based on the formulas below. Values are rounded down. An additional bonus is given for achieving daily best, monthly best, or quarterly best.\n{| style=\"margin: 0 0 0.5em 1em; border: solid 1px silver; text-align: center; font-size: 90%\" cellpadding=\"4\"\n|- style=\"background: #7BC; font-size: 120%\"\n! Reward || Amount || Daily Best || Monthly Best || Quarterly Best\n|-\n! style=\"background: #7BC;\" | {{{1}}} faction\n| (2000 * score) / (Monthly Best #1 score) || +4000 || +8000 || +16000\n|-\n! style=\"background: #7BC;\" | Experience\n| (1000 * score) / (Monthly Best #1 score) || || ||\n|-\n! style=\"background: #7BC;\" | Gold\n| (500 * score) / (Monthly Best #1 score) || +500 || +1000 || +2000\n|}<noinclude>\n\n==Description==\nThis template is meant to be included in the rewards section of [[Factions]] [[challenge mission]]s.\n\n<pre>{{Factions challenge mission reward|Kurzick}}\n{{Factions challenge mission reward|Luxon}}</pre>\n\n==Parameters==\n; 1\n: Possible values: <code>Kurzick</code>, <code>Luxon</code>\n\n== See also ==\n*[[Template:Nightfall challenge mission reward]]\n\n[[Category:Mission templates]]</noinclude>"
+}

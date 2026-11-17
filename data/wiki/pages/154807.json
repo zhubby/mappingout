@@ -1,0 +1,11 @@
+{
+  "title": "Spirit Bond (PvP)",
+  "pageid": 154807,
+  "revid": 2719987,
+  "revisedAt": "2026-02-04T02:54:58Z",
+  "sha1": "d5bd1de4d30235be6e486f343af7879eddc3bb8e",
+  "url": "https://wiki.guildwars.com/wiki/Spirit_Bond_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Spirit%20Bond%20(PvP)&oldid=2719987",
+  "retrievedAt": "2026-11-16T15:41:56.790Z",
+  "wikitext": "{{pveversion|Spirit Bond}}\n\n{{Skill infobox\n| name = Spirit Bond (PvP)\n| id = 2892\n| campaign = Factions\n| profession = Monk\n| attribute = Protection Prayers\n| type = Enchantment Spell\n| energy = 10\n| activation = {{1/4}}\n| recharge = 5\n| causes1 = Healing\n| description = [[Enchantment Spell]]. For 8 seconds, whenever [[target]] [[ally]] takes more than 50 [[damage]] from the next 10 [[attack]]s or [[spell]]s, that ally is [[heal]]ed for {{gr|30|90}} [[Health]].\n| concise description = Enchantment Spell. (8 seconds.) Heals for {{gr|30|90}} whenever target ally takes more than 50 damage. {{gray|Ends after this ally takes damage from 10 attacks or spells.}}\n| is-pvp = y\n| target = allies\n}}\n\n{{Skill progression\n| attribute = [[Protection Prayers]]\n| var1 name = [[Heal]]ing\n| var1 at0 = 30\n| var1 at15 = 90}}\n\n== Trivia ==\n* The [[functionality]] of this skill has changed since its introduction; see its [[Spirit Bond/Skill history|PvE]] and [[Spirit Bond (PvP)/Skill history|PvP]] skill histories for details.\n\n[[de:Geisterbindung (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Votive Candle",
+  "pageid": 247186,
+  "revid": 2564830,
+  "revisedAt": "2014-02-12T00:04:47Z",
+  "sha1": "23059246a5ab9e1b0457cfbd3d1c382e4b13487c",
+  "url": "https://wiki.guildwars.com/wiki/Votive_Candle",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Votive%20Candle&oldid=2564830",
+  "retrievedAt": "2026-11-16T13:47:37.863Z",
+  "wikitext": "{{otheruses|the [[post-Searing]] [[quest item]]|the [[pre-Searing]] [[quest item]]|Votive Candle (pre-Searing)}}\n__NOTOC__{{Item infobox\n| name = Votive Candle\n| type = [[Quest item]]\n| value = Can't be sold\n| campaign = [[Prophecies]]\n| collector = [[Lieutenant Thackeray]]\n| render = [[File:Votive Candle.jpg|75px]]\n}}\n{{quotation|game|\"Hand crafted by [[Necromancer Munne]].\"}}\n[[Keiran Thackeray]] is interested in [[Votive Candle]]s.\n\n==Acquisition==\nSix are given by [[Necromancer Munne]] in exchange for 3 [[Honeycomb]]s, in [[Sardelac Sanitarium]].\n\n==Collectors==\n{{:Lieutenant Thackeray/Collector}}\n{{clear}}\n{{:Lieutenant Thackeray/Collector2}}\n\n==Notes==\n*'''Beware of scams when buying this item!'''\n**These candles are labeled \"''Hand crafted by Necromancer Munne.''\"\n**Votive Candles found in pre-Searing are labeled \"Quest item\". These ''can't'' be given to Thackeray.\n*Necromancer Munne will not trade Honeycombs for candles until you have spoken to Lieutenant Thackeray about collecting the candles.\n{{bug|If the candles are separated into multiple stacks, Thackeray offers to accept, but is unable to give a Paper Wrapped Parcel. Afterward, he will trade the candles for Sacks of Random Junk, as if he had given the parcel.}}\n\n[[Category:Items_with shared_icons]]"
+}

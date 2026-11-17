@@ -1,0 +1,11 @@
+{
+  "title": "Predatory Bond (PvP)",
+  "pageid": 215077,
+  "revid": 2655975,
+  "revisedAt": "2020-04-25T23:16:08Z",
+  "sha1": "514475c6a2ba119dc6391855be96db58f57a21c2",
+  "url": "https://wiki.guildwars.com/wiki/Predatory_Bond_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Predatory%20Bond%20(PvP)&oldid=2655975",
+  "retrievedAt": "2026-11-16T15:41:42.612Z",
+  "wikitext": "{{pveversion|Predatory Bond}}\n\n{{Skill infobox\n| name = Predatory Bond (PvP)\n| id = 3050\n| campaign = Factions\n| profession = Ranger\n| attribute = Beast Mastery\n| type = Shout\n| energy = 10\n| recharge = 30\n| is-pvp = y\n| causes1 = Healing\n| description = [[Shout]]. For {{gr|5|20}} seconds, [[attack]]s by your [[animal companion]] [[heal]] you for {{gr|1|31}} [[Health]].\n| concise description = Shout. ({{gr|5|20}} seconds.) You gain {{Gr|1|31}} Health whenever your pet makes a successful attack.\n| aoe = None\n}}\n\n{{Skill progression\n| attribute = [[Beast Mastery]]\n| var1 name = [[Duration]]\n| var1 at0 = 5\n| var1 at15 = 20\n| var2 name = [[Heal]]ing\n| var2 at0 = 1\n| var2 at15 = 31}}\n\n==Related skills==\n*{{skill icon|Live Vicariously}}\n*{{skill icon|Vigorous Spirit}}\n\n==Notes==\n*The health gain only occurs on a ''successful'' hit. Consider combining with [[Otyugh's Cry]] and [[Feral Aggression]].\n*This skill can be used when your pet is dead.\n{{bug|Contrary to the descriptions, this skill causes healing and not [[health gain]].}}\n\n[[Category:Pet skills]]\n[[de:Raubtierverbindung (PvP)]]"
+}

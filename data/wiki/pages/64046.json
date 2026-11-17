@@ -1,0 +1,11 @@
+{
+  "title": "Raven Flight",
+  "pageid": 64046,
+  "revid": 2607400,
+  "revisedAt": "2016-06-19T04:54:28Z",
+  "sha1": "f7e98f71cdb75917d65162d03556f4a29ed3f306",
+  "url": "https://wiki.guildwars.com/wiki/Raven_Flight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Raven%20Flight&oldid=2607400",
+  "retrievedAt": "2026-11-16T15:41:44.748Z",
+  "wikitext": "{{Skill infobox\n| name = Raven Flight\n| campaign = Eye of the North\n| attribute = Norn rank\n| type = Stance\n| special = Norn Blessing\n| recharge = 15\n| pve-only = y\n| causes1 = Knockdown Immunity\n| description = [[Stance]]. For {{gr2|5|15}} seconds, you cannot be [[Knock down|knocked down]].\n| concise description = Stance. ({{gr2|5|15}} seconds.) You cannot be knocked-down.\n}}\n\n{{Skill progression max10\n|title track = [[Norn rank]]\n|var1 name = [[Duration]]\n|var1 at0  = 5\n|var1 at10 = 15\n}}\n\n==Acquisition==\nTemporarily, as one of the five skills available while under the effect of [[Raven Blessing]]. \n\n==Related skills==\n*{{skill icon|Balanced Stance}}\n*{{skill icon|Raven Flight (A Gate Too Far)}}"
+}

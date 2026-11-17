@@ -1,0 +1,11 @@
+{
+  "title": "Signet of Clumsiness (PvP)",
+  "pageid": 253951,
+  "revid": 2646601,
+  "revisedAt": "2019-12-26T04:27:25Z",
+  "sha1": "0d391ed504e19c22ed11acdc1945d136db80516b",
+  "url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Signet%20of%20Clumsiness%20(PvP)&oldid=2646601",
+  "retrievedAt": "2026-11-16T15:41:52.090Z",
+  "wikitext": "{{pveversion|Signet of Clumsiness}}\n{{Skill infobox\n| name = Signet of Clumsiness (PvP)\n| id = 3193\n| campaign = Nightfall\n| profession = Mesmer\n| attribute = Illusion Magic\n| is-pvp = y\n| type = Signet\n| recharge = 12\n| activation = {{1/4}}\n| causes1 = Interrupt\n| causes2 = Knockdown\n| description = [[Signet]]. If [[target]] [[foe]] is [[attacking]], that foe and all [[adjacent]] foes are [[interrupt]]ed and take {{gr|15|60}} [[damage]]. Any foes using [[attack skill]]s are [[Knock down|knocked down]].\n| concise description = Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals {{gr|15|60}} damage; knocks down foes using attack skills.\n| aoe = adjacent\n| target = foes\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Damage]]\n|var1 at0 = 15\n|var1 at15 = 60}}\n\n== Related skills ==\n* {{skill icon|Bane Signet}}\n* {{skill icon|Clumsiness}}\n\n== Notes ==\n* If under the effects of a skill which prevents interruption, the target will not be knocked down yet will still receive damage.\n\n[[de:Siegel der Unbeholfenheit (PvP)]]"
+}

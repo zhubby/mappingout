@@ -1,0 +1,11 @@
+{
+  "title": "Distortion (Gwen)",
+  "pageid": 207599,
+  "revid": 2589408,
+  "revisedAt": "2015-06-08T15:08:08Z",
+  "sha1": "5c4035ff64ca0596a57544287b882583a5a986fb",
+  "url": "https://wiki.guildwars.com/wiki/Distortion_(Gwen)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Distortion%20(Gwen)&oldid=2589408",
+  "retrievedAt": "2026-11-16T15:41:17.796Z",
+  "wikitext": "{{Skill infobox\n| id = 2680\n| image = [[File:Distortion (Gwen).jpg]]\n| name = Distortion (Gwen)\n| campaign = Bonus Mission Pack\n| profession = Mesmer\n| attribute = Illusion Magic\n| type = Stance\n| special = Bonus Mission Pack\n| energy = 5\n| recharge = 5\n| description = [[Stance]].  For '''<font color=green>4</font>''' seconds, you have a 75% chance to [[block]] [[attack]]s.  Whenever you block an attack this way, you lose 2 [[Energy]] or Distortion ends.\n| concise description = Stance. ('''<font color=green>4</font>''' seconds.) You have 75% chance to block. [[Block effect]]: you lose 2 Energy or Distortion ends.\n}}\n\n== Acquisition ==\nBecomes part of [[Gwen (disguise)|Gwen's]] replacement [[skill bar]] during [[The Flight North]] mission after interacting with a [[Research Journal]].\n\n== Related skills ==\n* {{skill icon|Distortion}} \n\n==Notes==\n* This skill is used with a 12 in [[Illusion Magic]]."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Mantra of Persistence",
+  "pageid": 1659,
+  "revid": 2732774,
+  "revisedAt": "2026-07-04T18:39:29Z",
+  "sha1": "63cfb2645c6cca9693666948092e75a1e8f6e4f8",
+  "url": "https://wiki.guildwars.com/wiki/Mantra_of_Persistence",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mantra%20of%20Persistence&oldid=2732774",
+  "retrievedAt": "2026-11-16T15:41:35.719Z",
+  "wikitext": "{{Skill infobox\n| id = 14\n| name = Mantra of Persistence\n| campaign = Core\n| profession = Mesmer\n| attribute = Inspiration Magic\n| type = Stance\n| energy = 5\n| recharge = 15\n| description = [[Stance]]. For {{gr|5|25}} seconds, any [[Illusion Magic]] [[hex]] you cast lasts {{gr|10|40||%}} longer.\n| concise description = Stance. ({{gr|5|25}} seconds.) Illusion hexes you cast last {{gr|10|40||%}} longer.\n}}\n\n{{Skill progression\n|attribute = [[Inspiration Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 25\n|var2 name = Longer duration %\n|var2 at0 = 10\n|var2 at15 = 40}}\n\n== Acquisition ==\n===[[Unlock]] and learn===\n'''[[Skill quest]]s'''\n* [[Prophecies]]\n** [[Ghostly Vengeance]] ([[Augury Rock (outpost)|Augury Rock]])\n* [[Factions]]\n** [[Skill Chaining]] ([[Shing Jea Monastery]])\n'''[[Skill trainer]]s'''\n* Prophecies\n** [[Bartoch]] ([[Droknar's Forge]])\n** [[Dakk]] ([[Ember Light Camp]])\n* Factions\n** [[Michiko]] ([[Kaineng Center]])\n* [[Nightfall]]\n** [[Medando]] ([[Yohlon Haven]])\n'''[[Signet of Capture]]'''\n* [[Eye of the North]]\n** [[Fureyst Sharpsight]] ([[Sacnoth Valley]], only if a player carries a [[Proof of Triumph]])\n\n===Unlock only===\n;[[Hero]]es\n* Prophecies\n** Unlocking the [[Ghost of Althea]]\n* Nightfall\n** Unlocking [[Norgu]]\n\n== Related skills ==\n* {{skill icon|Anguished Was Lingwah}}\n\n== Trivia ==\n{{Skill change}}\n\n[[Category:Mesmer skill rewards]]\n[[Category:Mantras]]"
+}

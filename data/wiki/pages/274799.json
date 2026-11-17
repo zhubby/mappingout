@@ -1,0 +1,11 @@
+{
+  "title": "Pious Assault (PvP)",
+  "pageid": 274799,
+  "revid": 2731183,
+  "revisedAt": "2026-06-25T04:55:57Z",
+  "sha1": "129b570ca020472ac0ffdeb26cd8420dada849a2",
+  "url": "https://wiki.guildwars.com/wiki/Pious_Assault_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pious%20Assault%20(PvP)&oldid=2731183",
+  "retrievedAt": "2026-11-16T15:41:39.557Z",
+  "wikitext": "{{pveversion|Pious Assault}}\n{{Skill infobox\n| id = 3266\n| name = Pious Assault (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Scythe Mastery\n| type = Melee Attack\n| recharge = 12\n| energy = 5\n| is-pvp = y\n| aoe = adjacent\n| causes1 = Decreased Recharge Time\n| removes1 = Enchantment\n| description = [[Melee Attack]]. You [[Teardown|remove]] 1 [[Dervish]] [[enchantment]]. If a Dervish enchantment was removed, this [[skill]] [[recharge]]s 75% faster and [[adjacent]] [[foes]] take {{gr|15|40}} [[damage]].\n| concise description = Melee Attack. Removes 1 of your Dervish enchantments. Removal effect: this skill recharges 75% faster and adjacent foes take {{gr|15|40}} damage.\n}}\n\n{{Skill progression\n|attribute = [[Scythe Mastery]]\n|var1 name = [[Damage]]\n|var1 at0 = 15\n|var1 at15 = 40\n}}\n\n{{DEFAULTSORT:Pious Assault}}\n[[de:Frommer Angriff (PvP)]]"
+}

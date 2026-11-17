@@ -1,0 +1,11 @@
+{
+  "title": "Lit Torch",
+  "pageid": 92398,
+  "revid": 2629658,
+  "revisedAt": "2018-06-18T17:36:03Z",
+  "sha1": "3418300f4bdcf813fbbed76d3f00eb4d46de035e",
+  "url": "https://wiki.guildwars.com/wiki/Lit_Torch",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lit%20Torch&oldid=2629658",
+  "retrievedAt": "2026-11-16T15:41:35.191Z",
+  "wikitext": "{{Skill infobox\n| id = 2545 <!--BMP-->\n| name = Lit Torch\n| campaign = Bonus Mission Pack\n| special = Bonus Mission Pack\n| type = Skill\n| description = [[Skill (skill type)|Skill]]. This [[torch]]'s flame expires after 30 seconds. Bring the torch to a burning [[Flame Brazier|brazier]] to rekindle it.\n| concise description = Skill. This torch's flame expires after 30 seconds. Bring the torch to a burning brazier to rekindle it.}}\n\n==Notes==\n*Encountered in [[Shards of Orr]], [[Raven's Point]], and during [[The Flight North]].\n*While this skill is active, a [[Unlit Torch]] is turned into a Lit Torch. The effect is reversed when the skill ends.\n*The effect persists on your character when the torch is dropped. You still need to carry the torch to kindle braziers.\n\n[[de:Brennende Fackel]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "\"Can't Touch This!\" (PvP)",
+  "pageid": 207660,
+  "revid": 2738625,
+  "revisedAt": "2026-08-26T22:53:56Z",
+  "sha1": "bc07db714b565b814680d2c9e28055fc0849a6e4",
+  "url": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Can't%20Touch%20This!%22%20(PvP)&oldid=2738625",
+  "retrievedAt": "2026-11-16T15:41:04.001Z",
+  "wikitext": "{{pveversion|\"Can't Touch This!\"}}\n{{Skill infobox\n| id = 3031\n| name = \"Can't Touch This!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| energy = 5\n| recharge = 10\n| description = [[Shout]]. For 20 seconds, the next {{gr|1|5}} [[touch skill]][s] used against you [[fail]][s].\n| concise description = Shout. (20 seconds.) The next {{gr|1|5}} touch-range skill[s] used against you fail[s].\n| aoe = None\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Command]]\n|maximum = 19\n|var1 name = [[Fail]]ures\n|var1 at0 = 1\n|var1 at15 = 5}}\n\n{{DEFAULTSORT:Can't Touch This}}\n\n[[de:\"Darf nicht angerührt werden!\" (PvP)]]"
+}

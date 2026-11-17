@@ -1,0 +1,11 @@
+{
+  "title": "Battle of Attrition",
+  "pageid": 321888,
+  "revid": 2739724,
+  "revisedAt": "2026-09-07T13:23:06Z",
+  "sha1": "c23fd68e29f6d146046e0848e3122a84d99ecc89",
+  "url": "https://wiki.guildwars.com/wiki/Battle_of_Attrition",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Battle%20of%20Attrition&oldid=2739724",
+  "retrievedAt": "2026-11-16T15:41:09.189Z",
+  "wikitext": "{{Skill infobox\n| id = 3360\n| name = Battle of Attrition\n| campaign = Core\n| type = Effect\n| description = Death Penalty begins at 0 and increases by 2% for every minute of the battle (maximum 60%).\n| concise description = Death Penalty starts at 0% and increases by 2% each minute, up to 60%.\n}}"
+}

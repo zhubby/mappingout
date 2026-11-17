@@ -1,0 +1,11 @@
+{
+  "title": "Unseen Fury (PvP)",
+  "pageid": 215101,
+  "revid": 2733041,
+  "revisedAt": "2026-07-05T13:11:38Z",
+  "sha1": "0f8af00e4bd76699bda07a580ad5320cc9e46feb",
+  "url": "https://wiki.guildwars.com/wiki/Unseen_Fury_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unseen%20Fury%20(PvP)&oldid=2733041",
+  "retrievedAt": "2026-11-16T15:42:03.619Z",
+  "wikitext": "{{pveversion|Unseen Fury}}\n{{Skill infobox\n| name = Unseen Fury (PvP)\n| id = 3049\n| campaign = Factions\n| profession = Assassin\n| attribute = Shadow Arts\n| type = Stance\n| energy = 5\n| recharge = 45\n| is-pvp = y\n| causes1 = Unblockable\n| description = [[Stance]]. For {{gr|15|60}} seconds, you cannot be [[block]]ed by [[Blind]]ed [[foe]]s.\n| concise description = Stance. ({{gr|15|60}} seconds.) You cannot be blocked by Blinded foes.\n}}\n\n{{Skill progression\n|attribute = [[Shadow Arts]]\n|var1 name = [[Duration]]\n|var1 at0 = 15\n|var1 at15 = 60}}\n\n== Note ==\n* Synergy with [[Ebon Dust Aura]].\n\n[[de:Unsichtbare Wut (PvP)]]"
+}

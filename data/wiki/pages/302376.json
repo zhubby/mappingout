@@ -1,0 +1,11 @@
+{
+  "title": "Lightning Hammer (PvP)",
+  "pageid": 302376,
+  "revid": 2629650,
+  "revisedAt": "2018-06-18T17:35:42Z",
+  "sha1": "b26b809587ea9683ef927f0ac17f1edce538fbe9",
+  "url": "https://wiki.guildwars.com/wiki/Lightning_Hammer_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lightning%20Hammer%20(PvP)&oldid=2629650",
+  "retrievedAt": "2026-11-16T15:41:33.655Z",
+  "wikitext": "{{Pveversion|Lightning Hammer}}\n{{Skill infobox\n| name = Lightning Hammer (PvP)\n| is-pvp = y\n| id = 3396\n| campaign = Factions\n| profession = Elementalist\n| attribute = Air Magic\n| type = Spell\n| energy = 25\n| activation = 2\n| recharge = 4\n| causes1 = Lightning Damage\n| causes2 = Armor Penetration\n| description = [[Spell]]. [[Target]] [[foe]] is struck for {{gr|10|100}} [[lightning damage]]. Lightning Hammer has 25% [[armor penetration]].\n| concise description = Spell. Deals {{gr|10|100}} lightning damage. 25% armor penetration.\n| target = foes\n}}\n\n{{Skill progression\n|attribute = [[Air Magic]]\n|var1 name = [[Lightning damage]]\n|var1 at0 = 10\n|var1 at15 = 100\n}}\n\n== Related skills ==\n* {{skill icon|Lightning Orb}}\n\n[[de:Blitzhammer (PvP)]]"
+}

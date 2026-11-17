@@ -1,0 +1,11 @@
+{
+  "title": "Heart of Holy Flame (PvP)",
+  "pageid": 321912,
+  "revid": 2739759,
+  "revisedAt": "2026-09-07T15:15:06Z",
+  "sha1": "9bf60c9e811185c36cf59544063a633c06851f1b",
+  "url": "https://wiki.guildwars.com/wiki/Heart_of_Holy_Flame_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Heart%20of%20Holy%20Flame%20(PvP)&oldid=2739759",
+  "retrievedAt": "2026-11-16T15:41:28.320Z",
+  "wikitext": "{{historical content}}\n\n{{Skill infobox\n| id = 3268\n| name = Heart of Holy Flame (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Mysticism\n| type = Flash Enchantment Spell\n| recharge = 10\n| energy = 10\n| causes1 = Burning\n| causes2 = Holy Damage\n| description = Flash Enchantment Spell. All nearby foes take 5...30 holy damage. For 30 seconds afterward, your attacks deal holy damage. When this enchantment ends, all nearby foes are set on fire for 1...4 seconds.\n| concise description = Flash Enchantment. Nearby foes take 5...30 holy damage. Attacks deal holy damage for 30 seconds. End effect: inflicts Burning (1...4 seconds) on nearby foes.\n}}"
+}

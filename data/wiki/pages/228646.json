@@ -1,0 +1,11 @@
+{
+  "title": "Ghostly Fury",
+  "pageid": 228646,
+  "revid": 2561303,
+  "revisedAt": "2014-01-08T16:45:31Z",
+  "sha1": "5a1fa38e3792033b72117e0854170cb4673b90cb",
+  "url": "https://wiki.guildwars.com/wiki/Ghostly_Fury",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ghostly%20Fury&oldid=2561303",
+  "retrievedAt": "2026-11-16T15:41:24.375Z",
+  "wikitext": "{{Skill infobox\n| name = Ghostly Fury\n| id= 3091\n| special = Spirit Form \n| campaign = Core\n| type = Spell\n| energy = 5\n| activation = 1\n| recharge = 5\n| description=\n\nSpell. Deals 250 [[damage]]. [[Disable]]s [[Dhuum's Rest]] for 10 seconds.\n}}\n== Related skills ==\n* {{skill icon|Ghostly Fury (Reaper skill)}}\n\n==Notes==\n*This skill can only be used while under [[Spirit Form (disguise)|Spirit Form disguise]]."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Mega Snowball",
+  "pageid": 75295,
+  "revid": 2558137,
+  "revisedAt": "2013-11-07T10:26:13Z",
+  "sha1": "ee5886140700415654cf358bdfbeb3f877aa0724",
+  "url": "https://wiki.guildwars.com/wiki/Mega_Snowball",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mega%20Snowball&oldid=2558137",
+  "retrievedAt": "2026-11-16T15:41:36.239Z",
+  "wikitext": "{{skill infobox\n| id = 1003\n| name = Mega Snowball\n| special = Snow fighting\n| campaign = Core\n| type = Spell\n| target = foes\n| activation = 1\n| adrenaline = 4\n| description = [[Spell]]. You throw a very slow-moving [[Projectile spell|snowball]] at [[target]] [[foe]]. That foe is [[Knock down|knocked down]] and takes 75 [[damage]] if it hits.\n| concise description = Spell. Very slow projectile: deals 75 damage and causes knock-down.\n}}\n\n== Acquisition ==\nThis skill is given to all players in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Related skills ==\n* {{skill icon|Spit Rocks}}\n* {{skill icon|Super-mega Snowball}}\n\n== Notes ==\n* This skill is only available to players during [[Wintersday]] events. It's also used by various Snowmen in the [[Secret Lair of the Snowmen]].\n\n[[Category:Projectile spells]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Distracting Blow (Turai Ossa)",
+  "pageid": 287650,
+  "revid": 2589390,
+  "revisedAt": "2015-06-08T15:02:56Z",
+  "sha1": "a7d13f76e54708a477d37cf0dfaa845f8f992fbe",
+  "url": "https://wiki.guildwars.com/wiki/Distracting_Blow_(Turai_Ossa)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Distracting%20Blow%20(Turai%20Ossa)&oldid=2589390",
+  "retrievedAt": "2026-11-16T15:41:18.352Z",
+  "wikitext": "{{Skill infobox\n| image = [[File:Distracting Blow (Turai Ossa).jpg]]\n| name = Distracting Blow (Turai Ossa)\n| campaign = Bonus Mission Pack\n| type = Melee Attack\n| special = Bonus Mission Pack\n| energy = 5\n| activation = {{1/2}}\n| recharge = 10\n| description = [[Melee Attack]]. Swipe [[Turai's Sword|your weapon]] at the [[target]], dealing no [[damage]] but [[interrupt|disrupting]] the target's current [[action]] (and the actions of [[foe]]s [[adjacent]] to your target).\n| concise description = Melee Attack. Also attacks foes adjacent to your target. Interrupts an action. {{gray|Hits for no damage.}}\n| aoe = adjacent\n}}\n\n== Acquisition ==\nPart of [[Turai Ossa (disguise)|Turai Ossa]]'s replacement [[skill bar]] during [[The Battle of Jahai]] mission.\n\n== Related skills ==\n* {{skill icon|Distracting Blow}}"
+}

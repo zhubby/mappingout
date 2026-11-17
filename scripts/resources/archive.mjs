@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Node.js 压缩、哈希和 Ed25519 验签能力。
+ * [OUTPUT]: 提供安全路径、确定性 ZIP 和资源信封验签。
+ * [POS]: 资源构建与发布共用的纯规则；不读取私钥。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import {deflateRawSync, crc32} from 'node:zlib';
 import {createHash, createPublicKey, verify} from 'node:crypto';
 

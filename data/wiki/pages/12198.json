@@ -1,0 +1,11 @@
+{
+  "title": "Track Down Brother Pe Wan",
+  "pageid": 12198,
+  "revid": 2728592,
+  "revisedAt": "2026-05-21T01:36:23Z",
+  "sha1": "ef4c44fffb3aa176b6a7666ed63687951bc3ff73",
+  "url": "https://wiki.guildwars.com/wiki/Track_Down_Brother_Pe_Wan",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Track%20Down%20Brother%20Pe%20Wan&oldid=2728592",
+  "retrievedAt": "2026-11-16T13:47:33.016Z",
+  "wikitext": "{{Quest infobox\n| name = Track Down Brother Pe Wan\n| map = [[Image:Track_Down_Brother_Pe_Wan_map.jpg|250px]]\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Sister Tai]]\n| given at = [[Sunqua Vale]]\n| preceded by = [[Stale Mate]]\n| followed by = [[Seeking a Cure]]\n| profession = Monk\n| primary = y\n| secondary = n\n}}\nTravel to find the second monk trainer.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Monk\n| primary = y\n| secondary = n\n}}\n\n===Objectives===\n* Seek out Brother Pe Wan in Kinya Province.\n\n===Reward===\n* 600 [[Experience]]\n* 50 [[Gold]]\n\n==Walkthrough needed==\nPe Wan can be found just on the other side of the portal from Sunqua Vale.\n\n==Dialogue==\n===Initial dialogue===\n;Sister Tai\n''I commend you on your outstanding performance, <Character name>. I have taught you all I can for now; you are ready to move on. Travel to [[Kinya Province]] and seek out [[Brother Pe Wan]]. He will continue your training.''\n{{ Offer dialog\n| accept = I will seek out Brother Pe Wan.\n| decline = Perhaps another time.\n| ask = You have done well, but it is time for your next lesson with [[Brother Pe Wan]]. You will find him in [[Kinya Province]].\n}}\n\n===Reward dialogue===\n;Brother Pe Wan\n''You are quite fortunate that Headmaster Amara has agreed to train you. She is quite the most accomplished of our Headmasters and really should have been promoted by now.''\n\n''Are you ready for your next lesson? Good, let's get started.''"
+}

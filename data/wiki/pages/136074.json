@@ -1,0 +1,11 @@
+{
+  "title": "Splinter Weapon (PvP)",
+  "pageid": 136074,
+  "revid": 2739062,
+  "revisedAt": "2026-08-28T23:31:47Z",
+  "sha1": "eb09ce3fb8bb0068e90829727c6a47b6ce428dc0",
+  "url": "https://wiki.guildwars.com/wiki/Splinter_Weapon_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Splinter%20Weapon%20(PvP)&oldid=2739062",
+  "retrievedAt": "2026-11-16T15:41:57.731Z",
+  "wikitext": "{{Pveversion|Splinter Weapon}}\n{{Skill infobox\n| name = Splinter Weapon (PvP)\n| id = 2868\n| campaign = Factions\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Weapon Spell\n| is-pvp = y\n| aoe = adjacent\n| target = allies\n| energy = 5\n| activation = 1\n| recharge = 8\n| causes1 = Physical Damage\n| description = [[Weapon Spell]]. For 20 seconds, [[target]] [[ally]] has a Splinter Weapon. Target ally's next {{gr|1|5}} [[attack]][s] deal {{gr|5|40}} [[damage]] to up to 4 [[adjacent]] [[foe]]s.\n| concise description = Weapon Spell. (20 seconds.) Attacks deal {{gr|5|40}} damage to 3 {{sic}} adjacent foes. {{gray|Ends after {{gr|1|5}} attack[s].}}\n}}\n\n{{Skill progression\n| attribute = [[Channeling Magic]]\n| maximum = 19\n| var1 name = [[Attack]]s\n| var1 at0 = 1\n| var1 at15 = 5\n| var2 name = [[Damage]]\n| var2 at0 = 5\n| var2 at15 = 40\n}}\n\n[[de:Splitterwaffe (PvP)]]"
+}

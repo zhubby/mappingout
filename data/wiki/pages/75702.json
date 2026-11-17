@@ -1,0 +1,11 @@
+{
+  "title": "Blinding Snow",
+  "pageid": 75702,
+  "revid": 2608973,
+  "revisedAt": "2016-06-24T23:29:25Z",
+  "sha1": "82b72d153975e0fcdf40704e63d32c07deba3d60",
+  "url": "https://wiki.guildwars.com/wiki/Blinding_Snow",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Blinding%20Snow&oldid=2608973",
+  "retrievedAt": "2026-11-16T15:41:09.706Z",
+  "wikitext": "{{skill infobox\n| id = 1000\n| name = Blinding Snow\n| profession = Mesmer\n| campaign = Core\n| special = Snow fighting\n| type = Spell\n| target = foes\n| activation = {{1/4}}\n| recharge = 10\n| causes1 = Interrupt\n| causes2 = Blind\n| description = [[Spell]]. You [[interrupt]] [[target]] [[foe]]'s [[action]]. That foe is [[Blind]]ed for 10 seconds.\n| concise description = Spell. Interrupts an action. Also inflicts Blindness (10 seconds.)\n}}\n\n== Acquisition ==\nThis skill is given to Mesmers competing in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Notes ==\n* This skill is only available to players during [[Wintersday]] events.\n* Blindness increases the chance for [[projectile spell]]s to [[Line of sight|stray]] from their intended target."
+}

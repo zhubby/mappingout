@@ -1,0 +1,11 @@
+{
+  "title": "Mark of Death",
+  "pageid": 16314,
+  "revid": 2733047,
+  "revisedAt": "2026-07-05T13:15:02Z",
+  "sha1": "5af19564bb3e4e774f945645793121e20b2d6975",
+  "url": "https://wiki.guildwars.com/wiki/Mark_of_Death",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mark%20of%20Death&oldid=2733047",
+  "retrievedAt": "2026-11-16T15:41:36.238Z",
+  "wikitext": "{{Skill infobox\n| id = 785\n| name = Mark of Death\n| campaign = Factions\n| profession = Assassin\n| attribute = Deadly Arts\n| type = Hex Spell\n| energy = 10\n| activation = {{1/4}}\n| recharge = 20\n| description = [[Hex Spell]].  For {{gr|4|10}} seconds, [[target]] [[foe]] gains 50% less benefit from [[heal]]ing.\n| concise description = Hex Spell. ({{gr|4|10}} seconds.) Target foe receives 50% less from healing.\n}}\n\n{{Skill progression\n|attribute = [[Deadly Arts]]\n|var1 name = [[Duration]]\n|var1 at0 = 4\n|var1 at15 = 10}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Michiko]] ([[Kaineng Center]])\n\n== Related skills ==\n* {{skill icon|Defile Flesh}}\n* {{skill icon|Lingering Curse}} ([[elite]])\n* {{skill icon|Malign Intervention}}\n\n== Trivia ==\n{{Skill change}}"
+}

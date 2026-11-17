@@ -1,0 +1,11 @@
+{
+  "title": "Template:Cost",
+  "pageid": 8194,
+  "revid": 2602205,
+  "revisedAt": "2016-02-29T07:21:24Z",
+  "sha1": "1ecdc73e8f7fca814b1f3806f2e5c6a0e95e271e",
+  "url": "https://wiki.guildwars.com/wiki/Template:Cost",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3ACost&oldid=2602205",
+  "retrievedAt": "2026-11-16T14:06:02.942Z",
+  "wikitext": "{{ #if: {{{2|}}} | {{ #expr: {{{1|0}}} + (({{{2|0}}} - {{{2|0}}} mod 1000) / 1000 round 0) }}{{plat}} {{ #ifexpr: {{{2|0}}} mod 1000 = 0 | | {{ #expr: {{{2|0}}} mod 1000 }}{{gold}} }} | {{ #ifexpr: (({{{1|0}}} - {{{1|0}}} mod 1000) / 1000 round 0) != 0 | {{ #expr: ({{{1|0}}} - {{{1|0}}} mod 1000) / 1000 round 0 }}{{plat}} | }} {{ #ifexpr: {{{1|0}}} mod 1000 = 0 | {{ #ifexpr: (({{{1|0}}} - {{{1|0}}} mod 1000) / 1000 round 0) = 0 | 0{{gold}} | }} | {{ #expr: {{{1|0}}} mod 1000 }}{{gold}} }} }}<noinclude>\n\n==Usage==\n <nowiki>{{Cost|Gold}}</nowiki>\n::-OR-\n <nowiki>{{Cost|Platinum|Gold}}</nowiki>\n==Notes==\n*The left most value is the most signifigant. \n**If second value is specified (even 0) then the first value is platinum. \n**If the second value is not specified, the first value is gold and if the value is 1000 or more, also the platinum value.\n*When the gold value is 0 the gold symbol and value will be omitted.\n*When the platinum value is 0 it will be omitted unless it was explicitly added with 0 as first parameter.\n*The template uses sanity checking for invalid values. For example, <code><nowiki>{{Cost|15|1562}}</nowiki></code> will show up as {{{{PAGENAME}}|15|1562}}.\n\n== See also ==\n* {{tl|gold}}\n* {{tl|platinum}}\n\n[[Category:Templates]]</noinclude>"
+}

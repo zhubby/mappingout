@@ -1,8 +1,16 @@
+/**
+ * [INPUT]: 依赖完整公共资料、地图、功能和任务验证器。
+ * [OUTPUT]: 拒绝缺失资源、错误引用和不完整的部署资料。
+ * [POS]: Web 与桌面构建的公共资料入口。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { jpegSize } from './format.mjs';
 import { validateFeatureData } from './validate-features.mjs';
+import { validateQuestData } from './validate-quests.mjs';
+import { validateSkillData } from './validate-skills.mjs';
 
 const web = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const kinds = ['skill', 'boss', 'green', 'collector', 'pet', 'treasure', 'zone'];
@@ -93,7 +101,9 @@ export async function validateDeploymentData(publicDir = path.join(web, 'public'
     catch { fail('缺少 Wiki 原创文字的 GFDL 许可证'); }
   }
   const features=await validateFeatureData(publicDir,catalog);
-  return { campaigns: catalog.campaigns.length, maps: regions.size, records: entries.size, images: images.size, sourceIssues: report.issues.length, counts, ...features };
+  const quests=await validateQuestData(publicDir);
+  const skills=await validateSkillData(publicDir);
+  return { campaigns: catalog.campaigns.length, maps: regions.size, records: entries.size, images: images.size, sourceIssues: report.issues.length, counts, ...features, quests, skills };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

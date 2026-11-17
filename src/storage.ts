@@ -7,7 +7,8 @@
 import { t } from './i18n';
 import { openDB } from 'idb';
 import type { Backup, Personal } from './types';
-export const emptyPersonal = (): Personal => ({ characters: [], progress: [], notes: [], armorPlans: [], activityProgress: [], preferences: { characterId: '', layers: ['skill', 'boss', 'green', 'collector', 'pet', 'treasure', 'zone'], calendarTimezone:'Asia/Shanghai' } });
+import { validateQuestRecords } from './quest-storage';
+export const emptyPersonal = (): Personal => ({ characters: [], progress: [], notes: [], armorPlans: [], activityProgress: [], questProgress: [], questProfiles: [], preferences: { characterId: '', layers: ['skill', 'boss', 'green', 'collector', 'pet', 'treasure', 'zone'], calendarTimezone:'Asia/Shanghai' } });
 export interface PersonalStore {
   load(): Promise<Personal>;
   save(state: Personal): Promise<void>;
@@ -15,12 +16,12 @@ export interface PersonalStore {
   subscribe(listener: () => void): () => void;
 }
 function database() {
-  const opening = openDB('mappingout', 2, {
+  const opening = openDB('mappingout', 3, {
     upgrade(db, oldVersion, _newVersion, transaction) {
       if(oldVersion===0) db.createObjectStore('personal');
-      if(oldVersion===1) {
+      if(oldVersion===1 || oldVersion===2) {
         const store=transaction.objectStore('personal');
-        void store.get('state').then(value=>{ if(value) return store.put(migratePersonalV1(value),'state'); }).catch(()=>transaction.abort());
+        void store.get('state').then(value=>{ if(value) return store.put(oldVersion===1?migratePersonalV1(value):migratePersonalV2(value),'state'); }).catch(()=>transaction.abort());
       }
     },
     blocked() { if(typeof window!=='undefined') window.dispatchEvent(new Event('mappingout-storage-blocked')); },
@@ -74,6 +75,8 @@ export function validatePersonal(value: unknown): Personal {
   if (characters.length > 500 || progress.length > 200000 || notes.length > 20000) return fail();
   const ids = new Set<string>(), names = new Set<string>();
   for (const c of characters) { if (!object(c) || !str(c.id,100) || !c.id || ids.has(c.id) || !str(c.name,60) || !c.name.trim() || names.has(c.name.trim())) return fail(); ids.add(c.id); names.add(c.name.trim()); }
+  const quests = validateQuestRecords(value, ids);
+  if (!quests) return fail();
   if (!str(preferences.characterId,100) || (preferences.characterId && !ids.has(preferences.characterId)) || !Array.isArray(preferences.layers) || preferences.layers.some(k => !['skill','boss','green','collector','pet','treasure','zone'].includes(k))) return fail();
   const keys = new Set<string>();
   for (const p of progress) {
@@ -93,16 +96,20 @@ export function validatePersonal(value: unknown): Personal {
   }
   if(preferences.calendarTimezone!==undefined&&!['Asia/Shanghai','local','UTC'].includes(preferences.calendarTimezone as string))return fail();
   // Construct fresh plain objects; imported extra properties never enter application state.
-  return { characters: characters.map(c => ({ id: c.id, name: c.name.trim() })), progress: progress.map(p => ({ characterId: p.characterId, entryId: p.entryId, done: p.done, ...(p.date ? { date: p.date } : {}) })), notes: notes.map(n => ({ id: n.id, characterId: n.characterId, region: n.region, x: n.x, y: n.y, text: n.text })), armorPlans:armorPlans.map(p=>({id:p.id,characterId:p.characterId,name:p.name.trim(),offerId:p.offerId,pieceIds:[...p.pieceIds],completedPieceIds:[...p.completedPieceIds]})), activityProgress:activityProgress.map(p=>({characterId:p.characterId,activityId:p.activityId,start:p.start,done:p.done})), preferences: { characterId: preferences.characterId, layers: [...new Set(preferences.layers)], calendarTimezone:preferences.calendarTimezone||'Asia/Shanghai' } } as Personal;
+  return { ...quests, characters: characters.map(c => ({ id: c.id, name: c.name.trim() })), progress: progress.map(p => ({ characterId: p.characterId, entryId: p.entryId, done: p.done, ...(p.date ? { date: p.date } : {}) })), notes: notes.map(n => ({ id: n.id, characterId: n.characterId, region: n.region, x: n.x, y: n.y, text: n.text })), armorPlans:armorPlans.map(p=>({id:p.id,characterId:p.characterId,name:p.name.trim(),offerId:p.offerId,pieceIds:[...p.pieceIds],completedPieceIds:[...p.completedPieceIds]})), activityProgress:activityProgress.map(p=>({characterId:p.characterId,activityId:p.activityId,start:p.start,done:p.done})), preferences: { characterId: preferences.characterId, layers: [...new Set(preferences.layers)], calendarTimezone:preferences.calendarTimezone||'Asia/Shanghai' } } as Personal;
 }
 export function migratePersonalV1(value: unknown): Personal {
   if(!object(value))throw Error(t("旧版备份内容无效。"));
-  return validatePersonal({...value,armorPlans:[],activityProgress:[],preferences:object(value.preferences)?{...value.preferences,calendarTimezone:'Asia/Shanghai'}:value.preferences});
+  return migratePersonalV2({...value,armorPlans:[],activityProgress:[],preferences:object(value.preferences)?{...value.preferences,calendarTimezone:'Asia/Shanghai'}:value.preferences});
+}
+export function migratePersonalV2(value: unknown): Personal {
+  if(!object(value))throw Error(t("旧版备份内容无效。"));
+  return validatePersonal({...value,questProgress:[],questProfiles:[]});
 }
 export function parseBackup(text: string): Backup {
   if (text.length > 20_000_000) throw new Error(t("备份超过 20 MB。"));
   let v; try { v = JSON.parse(text); } catch { throw new Error(t("无法读取 JSON 备份。")); }
-  if (!object(v) || v.format !== 'mappingout-backup' || ![1,2].includes(v.version as number) || !str(v.exportedAt) || isNaN(Date.parse(v.exportedAt))) throw new Error(t("不支持此备份格式或版本。"));
-  return { format: 'mappingout-backup', version: 2, exportedAt: v.exportedAt, data: v.version===1?migratePersonalV1(v.data):validatePersonal(v.data), ...(v.version===1?{migratedFrom:1 as const}:{}) };
+  if (!object(v) || v.format !== 'mappingout-backup' || ![1,2,3].includes(v.version as number) || !str(v.exportedAt) || isNaN(Date.parse(v.exportedAt))) throw new Error(t("不支持此备份格式或版本。"));
+  return { format: 'mappingout-backup', version: 3, exportedAt: v.exportedAt, data: v.version===1?migratePersonalV1(v.data):v.version===2?migratePersonalV2(v.data):validatePersonal(v.data), ...(v.version===1||v.version===2?{migratedFrom:v.version as 1|2}:{}) };
 }
-export function makeBackup(data: Personal): Backup { return { format: 'mappingout-backup', version: 2, exportedAt: new Date().toISOString(), data: validatePersonal(data) }; }
+export function makeBackup(data: Personal): Backup { return { format: 'mappingout-backup', version: 3, exportedAt: new Date().toISOString(), data: validatePersonal(data) }; }

@@ -1,0 +1,11 @@
+{
+  "title": "Agony (PvP)",
+  "pageid": 207518,
+  "revid": 2628480,
+  "revisedAt": "2018-06-18T17:18:00Z",
+  "sha1": "62f0f2a2e18e0b38db1a21582792e9b9725a03c4",
+  "url": "https://wiki.guildwars.com/wiki/Agony_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Agony%20(PvP)&oldid=2628480",
+  "retrievedAt": "2026-11-16T15:41:05.971Z",
+  "wikitext": "{{pveversion|Agony}}\n\n{{Skill infobox\n| name = Agony (PvP)\n| id = 3038\n| campaign = Eye of the North\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Binding Ritual \n| energy = 10\n| activation = 3\n| recharge = 30\n| causes1 = Spirit\n| causes2 = Health Loss\n| description = [[Binding Ritual]]. Create a level {{gr|1|8}} [[spirit]]. This spirit causes {{gr|3|10}} [[Health loss]] each second to [[foe]]s within [[earshot]]. This spirit loses {{gr|3|10}} [[Health]] for each foe hurt in this way. This spirit dies after {{gr|30|90}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|8}} spirit ({{gr|30|90}} second lifespan). Causes {{gr|3|10}} Health loss each second to foes in earshot. {{gray|This spirit loses {{gr|3|10}} Health for each foe that loses Health.}}\n| is-pvp = y\n| aoe = earshot\n}}\n\n{{Skill progression\n|attribute = [[Channeling Magic]]\n|var1 name = [[Spirit]] level\n|var1 at0 = 1\n|var1 at15 = 8\n|var2 name = [[Health loss]] to foes per second\n|var2 at0 = 3\n|var2 at15 = 10\n|var3 name = Health loss per foe affected\n|var3 at0 = 3\n|var3 at15 = 10\n|var4 name = Spirit [[duration]]\n|var4 at0 = 30\n|var4 at15 = 90}}\n\n== Related skills ==\n* {{skill icon|Rejuvenation (PvP)}}\n\n== Notes ==\n* This skill creates a [[Spirit of Agony]].\n\n[[de:Todesqual (PvP)]]"
+}

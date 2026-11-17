@@ -1,8 +1,14 @@
+/**
+ * [INPUT]: 依赖 Wiki 来源类型与活动名称翻译。
+ * [OUTPUT]: 定义护甲配方、材料图标、个人计划与活动周期类型。
+ * [POS]: 功能视图与领域计算共用契约；兼容旧资源的无图标材料。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { t } from './i18n';
 import type { WikiReference } from './types';
 
 export interface MaterialAmount { materialId: string; quantity: number }
-export interface Material { id: string; name: string; englishName: string }
+export interface Material { id: string; name: string; englishName: string; icon?: string }
 export interface ArmorPiece { id: string; name: string; slot: string; gold: number; materials: MaterialAmount[] }
 export interface Armorer { id: string; name: string; locations: string[]; notes: string; reference: WikiReference }
 export interface ArmorSet { id: string; name: string; englishName: string; searchAliases?: string[]; profession: number; campaigns: number[]; category: 'basic'|'elite'|'special'; images: { male?: string; female?: string }; notes: string; reference: WikiReference }

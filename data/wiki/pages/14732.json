@@ -1,0 +1,11 @@
+{
+  "title": "Gain Sousuke",
+  "pageid": 14732,
+  "revid": 1845606,
+  "revisedAt": "2009-12-25T11:19:53Z",
+  "sha1": "4845802e893999d0b55fe831e6178db5e7851c2c",
+  "url": "https://wiki.guildwars.com/wiki/Gain_Sousuke",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gain%20Sousuke&oldid=1845606",
+  "retrievedAt": "2026-11-16T13:46:54.359Z",
+  "wikitext": "{{Quest infobox\n| name = Gain Sousuke\n| campaign = Nightfall\n| region = Realm of Torment\n| type = Secondary\n| given by = [[Acolyte Sousuke]]\n| given at = [[Throne of Secrets]]\n| preceded by = [[Abaddon's Gate]]\n| followed by = \n}}\nThis is one of the quests that allows access to all of the heroes at the end of Nightfall.  \n\n==Quest information==\n===Requirements===\n*Must not have Acolyte Sousuke as one of your [[hero]]es.\n\n===Objectives===\n* Speak with [[Field General Hayao|General Hayao]] and formally accept Sousuke's oath of fealty.\n\n===Reward===\n* 2,500 [[Experience]]\n* [[Acolyte Sousuke]] joins your party.\n\n==Walkthrough==\nExit the [[Throne of Secrets]] and return to [[Kamadan, Jewel of Istan]].  Then exit into the [[Sun Docks]] and speak to Field General Hayao to complete the quest.\n\n==Dialogue==\n===Initial dialogue===\n'''Acolyte Sousuke'''\n:''\"You're the one I've been searching for!  I'm glad I found you.  General Hayao wanted news of your travels to carry back to [[Cantha]].  I volunteered for the job!  I know you've been through a lot, but I think I can help you in the future.  While you're making your report, do you mind asking '''General Hayao''' if I can join your service?  I know he'd let me if you asked personally.\"''\n{{offer dialog\n|accept = You seem a useful fellow.\n|decline = I've already got so many friends it feels like I'm herding cats.\n|ask = Did you ask '''General Hayao'''?  Did he say yes?  I'm so nervous! }}\n\n===Reward dialogue===\n'''Field General Hayao'''\n:''\"Sousuke?  He is a fine [[Elementalist]]...and a better friend.  I'm certain he will make a good companion.  Just be sure to tell him where to point those fireballs...he can get a little overexcited.  Good luck.\"''"
+}

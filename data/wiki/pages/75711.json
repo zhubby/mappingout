@@ -1,0 +1,11 @@
+{
+  "title": "Side Step",
+  "pageid": 75711,
+  "revid": 2645995,
+  "revisedAt": "2019-11-29T14:58:59Z",
+  "sha1": "5799f44e6893e787398baca71fa17cdc85becda0",
+  "url": "https://wiki.guildwars.com/wiki/Side_Step",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Side%20Step&oldid=2645995",
+  "retrievedAt": "2026-11-16T15:41:52.088Z",
+  "wikitext": "{{skill infobox\n| name = Side Step\n| id = 1900\n| campaign = Factions\n| profession = Assassin\n| type = Skill\n| special = Snow fighting\n| recharge = 25\n| causes1 = Shadow Step\n| causes2 = Health Gain\n| description = [[Skill]]. [[Shadow Step]] to a random location [[in the area]]. You [[Health gain|gain]] 250 [[Health]].\n| concise description = Skill. Shadow Step to a random location in the area. You gain 250 Health.\n}}\n\n== Acquisition ==\nThis skill is given to Assassins competing in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Related skills ==\n* {{skill icon|Heart of Shadow}}\n\n== Notes ==\n*This skill is only available to players during [[Wintersday]] events.\n\n[[de:Seitenschritt]]"
+}

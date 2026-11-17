@@ -1,0 +1,11 @@
+{
+  "title": "Leave Junundu",
+  "pageid": 26978,
+  "revid": 2629612,
+  "revisedAt": "2018-06-18T17:35:16Z",
+  "sha1": "c99070d74dede87f5782e64c5e4df0c2397a448d",
+  "url": "https://wiki.guildwars.com/wiki/Leave_Junundu",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Leave%20Junundu&oldid=2629612",
+  "retrievedAt": "2026-11-16T15:41:32.012Z",
+  "wikitext": "{{Skill infobox\n| name = Leave Junundu\n| campaign = Nightfall\n| type = Skill\n| activation = {{1/4}}\n| special = Junundu \n| description = [[Skill (skill type)|Skill]]. The junundu releases you from its jaws.\n| concise description = Skill. The junundu releases you from its jaws.}}\n\n==Acquisition ==\nThis skill is available whenever your character is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] onward through the rest of [[the Desolation]].\n\n== Related skills ==\n*{{skill icon|Dismount Siege Devourer}}\n\n==Notes==\n*After using this skill, any [[Death Penalty]] you have will begin to affect you again.\n*You will not be able to use this skill while in the [[Sulfurous Haze]].\n*There are areas in the middle of the Sulfurous Haze where there is solid ground and leaving the Junundu will leave you stranded.\n*If you use this skill, all heroes you have in team will also leave their junundu.\n\n{{anomaly|This skill actually takes significantly longer to activate than its listed {{1/4}} second activation time. The progress bar will fill up in the listed quarter second activation time; however, it will flash on the activation bar for several seconds as the Junundu spits out the player. It is not possible to cancel or skip this animation.}}\n\n[[de:Junundu verlassen]]"
+}

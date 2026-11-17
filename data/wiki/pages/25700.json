@@ -1,0 +1,11 @@
+{
+  "title": "Never Fight Alone",
+  "pageid": 25700,
+  "revid": 2703696,
+  "revisedAt": "2025-03-22T20:21:50Z",
+  "sha1": "caf46abff68bfed56adfa080e7b64e54c4989bbe",
+  "url": "https://wiki.guildwars.com/wiki/Never_Fight_Alone",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Never%20Fight%20Alone&oldid=2703696",
+  "retrievedAt": "2026-11-16T13:47:03.490Z",
+  "wikitext": "{{Quest infobox\n| name = Never Fight Alone\n| campaign = Nightfall\n| nationality = Elonian\n| region =Istan\n| type = Secondary\n| given by = [[Jibehr]]\n| given at = [[Chahbek Village (outpost)|Chahbek Village]]\n| preceded by = [[Quiz the Recruits]]\n}}\nMake friends by forming a [[party]] with a henchman.\n\n==Quest information==\n\n===Requirements===\n{{Standard prerequisites\n |campaign = Nightfall\n| unstarted = [[A Friend in Need]]\n}}\n\n===Objectives===\n* Add at least one [[henchman]] to you {{sic}} party and speak to [[Jibehr]].\n\n===Reward===\n* 250 [[Experience]]\n* 25 [[Gold]]\n\n==Walkthrough==\nTake the quest, add one or more henchmen to your party, and talk to Jibehr to complete the quest.\n\n==Dialogue==\n\n===Initial dialogue===\n'''Jibehr'''\n:''\"Remember, Sunspears never fight alone. Standing next to me is the newest batch of reserve recruits. They're called henchmen. They are eager and waiting for leaders like you to take them into battle and out on adventures. Should you ever need their service, feel free to add one or more to your party. Why don't you go and introduce yourself? Add at least one henchmen to your party and then come back to talk to me.\"''\n{{offer dialog\n|accept = Sure, I've always wanted my own henchmen.\n|decline = Sorry, but this party's full.\n|ask = How are the new recruits doing? Don't worry my friend...a few more training exercises and they'll be ready to take on anything the corsairs throw at us. }}\n\n===Reward dialogue===\n'''Jibehr'''\n:''\"Ah, I see you've made a new friend. You'll find henchmen will come in very handy during your travels. Get to know them well and you'll be able to play to their strengths and curb their weaknesses.\"''\n\n==Notes==\n* [[A Friend in Need]] - which rewards 100 gold - will become unavailable if you do this quest.\n\n==Trivia==\n* \"You Never Fight Alone\" is the motto of the [[Order of the Sunspears]]."
+}

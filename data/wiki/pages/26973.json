@@ -1,0 +1,11 @@
+{
+  "title": "Junundu Feast",
+  "pageid": 26973,
+  "revid": 2723026,
+  "revisedAt": "2026-03-16T20:49:42Z",
+  "sha1": "1c2498b784b9efec48c58d2c658f39192afc6a6f",
+  "url": "https://wiki.guildwars.com/wiki/Junundu_Feast",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Junundu%20Feast&oldid=2723026",
+  "retrievedAt": "2026-11-16T15:41:31.262Z",
+  "wikitext": "{{Skill infobox\n| name = Junundu Feast\n| campaign = Nightfall\n| type = Skill\n| energy = 5\n| activation = {{3/2}}\n| special = Junundu\n| description = [[Skill (skill type)|Skill]]. Exploit one [[adjacent]] [[corpse]]. Junundu Feast is replaced with [[Choking Breath]], [[Blinding Breath]] or [[Burning Breath]] for 30 seconds.\n| concise description = Skill. (30 seconds.) Junundu Feast is replaced with Choking Breath, Blinding Breath, or Burning Breath. Must exploit an adjacent fresh corpse.\n}}\n\n== Acquisition ==\nThis skill is available whenever your [[character]] is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] onward through the rest of [[the Desolation]].\n\n== Related skills ==\n* {{skill icon|Queen Heal}} ([[monster skill]])\n\n== Notes ==\n{{bug|Junundu Feast is actually replaced for 2 minutes or until you die in the wurm.}}\n\n[[Category:Skills that cause Exploits Corpse]]\n\n[[de:Junundus Schmaus]]"
+}

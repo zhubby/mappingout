@@ -1,0 +1,11 @@
+{
+  "title": "Improvised Fire Trap",
+  "pageid": 295207,
+  "revid": 2546478,
+  "revisedAt": "2013-05-18T06:58:59Z",
+  "sha1": "6b8813c7729e8ded2afc784c6f542b3a93e33edc",
+  "url": "https://wiki.guildwars.com/wiki/Improvised_Fire_Trap",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Improvised%20Fire%20Trap&oldid=2546478",
+  "retrievedAt": "2026-11-16T15:41:29.927Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| id = 2834\n| name = Improvised Fire Trap\n| campaign = Winds of Change\n| special = Bundle\n| type = Trap\n| recharge = 8\n| activation = 2\n| description = [[Trap]]. Create an improvised Fire Trap that lasts 90 seconds. When improvised Fire Trap is triggered, [[nearby]] [[foe]]s are struck for 300 [[damage]] each second for 3 seconds, and suffer from [[Burning]] for 5 seconds. While activating this skill, you are [[easily interrupted]].\n| concise description = Trap. Create an improvised Fire Trap that lasts 90 seconds. When improvised Fire Trap is triggered, nearby foes are struck for 300 damage each second for 3 seconds, and suffer from Burning for 5 seconds. {{gray|While activating this skill, you are easily interrupted.}}\n| aoe = nearby\n}}\n\n== Related skills ==\n* {{skill icon|Flame Trap}}\n\n== Notes ==\n* This skill is only available when holding an [[Improvised Fire Bomb (bundle)|Improvised Fire Bomb]], given by [[Apprentice Zhi]] during [[Raid on Shing Jea Monastery]]."
+}

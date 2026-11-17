@@ -1,0 +1,11 @@
+{
+  "title": "Mirror of Disenchantment (PvP)",
+  "pageid": 253808,
+  "revid": 2738388,
+  "revisedAt": "2026-08-26T20:31:02Z",
+  "sha1": "97c20f970b4582fa0f75b6d088a0f024397a6fa7",
+  "url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mirror%20of%20Disenchantment%20(PvP)&oldid=2738388",
+  "retrievedAt": "2026-11-16T15:41:36.878Z",
+  "wikitext": "{{pveversion|Mirror of Disenchantment}}\n{{Skill infobox\n| id = 3194\n| name = Mirror of Disenchantment (PvP)\n| campaign = Nightfall\n| is-pvp = y\n| profession = Mesmer\n| type = Spell\n| target = foes\n| energy = 10\n| activation = 1\n| recharge = 20\n| removes1 = Enchantment\n| description = [[Spell]]. Remove one [[enchantment]] from [[target]] [[foe]]. All of that foe's [[party]] members also lose that same enchantment.\n| concise description = Spell. Removes one enchantment from target foe. That foe's party members also lose this enchantment.\n| aoe = party\n}}"
+}

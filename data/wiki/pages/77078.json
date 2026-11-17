@@ -1,0 +1,11 @@
+{
+  "title": "Rampager's Insight",
+  "pageid": 77078,
+  "revid": 2341425,
+  "revisedAt": "2011-07-15T07:25:29Z",
+  "sha1": "9ad58fa8fa36877d29a27137640d020d54da3aba",
+  "url": "https://wiki.guildwars.com/wiki/Rampager%27s_Insight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rampager's%20Insight&oldid=2341425",
+  "retrievedAt": "2026-11-16T15:41:44.117Z",
+  "wikitext": "{{skill infobox\n| id = 894\n| name = Rampager's Insight\n| campaign = Core\n| type = Party Bonus\n| consumable = Scroll of Rampager's Insight\n| description = [[Party Bonus]]. Your [[party]] gains double [[XP]] from combat. Rampager's Insight ends if your party fails to kill a [[foe]] for 30 seconds.\n| concise description = Party Bonus. Your party gains double XP from combat. Ends if your party fails to kill a foe for 30 seconds.\n}}\n\n== Related skills ==\n*{{skill icon|Berserker's Insight}}\n\n== Notes ==\n* This bonus can only be gained when a party member uses a [[Scroll of Rampager's Insight]]."
+}

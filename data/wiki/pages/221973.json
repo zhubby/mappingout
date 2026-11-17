@@ -1,0 +1,11 @@
+{
+  "title": "Signet of Agony (PvP)",
+  "pageid": 221973,
+  "revid": 2630006,
+  "revisedAt": "2018-06-18T17:48:25Z",
+  "sha1": "0ef0e77d4994787141cc99185114e3b5e156de5c",
+  "url": "https://wiki.guildwars.com/wiki/Signet_of_Agony_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Signet%20of%20Agony%20(PvP)&oldid=2630006",
+  "retrievedAt": "2026-11-16T15:41:52.089Z",
+  "wikitext": "{{pveversion|Signet of Agony}}\n\n{{Skill infobox\n| name = Signet of Agony (PvP)\n| id = 3059\n| campaign = Core\n| profession = Necromancer\n| attribute = Blood Magic\n| type = Signet\n| sacrifice = 10%\n| activation = {{3/4}}\n| recharge = 20\n| causes1 = Bleeding\n| description = [[Signet]]. You suffer from [[Bleeding]] for 25 seconds. All [[nearby]] [[foe]]s take {{gr|10|70}} [[damage]].\n| concise description = Signet. Deals {{gr|10|70}} damage to foes near you. {{gray|You begin Bleeding (25 seconds).}}\n| is-pvp = y\n| aoe = nearby\n| target = self\n}}\n\n{{Skill progression\n| attribute = [[Blood Magic]]\n| var1 name = [[Damage]]\n| var1 at0 = 10\n| var1 at15 = 70}}\n\n== Notes ==\n* When used with [[Contagion]] and [[Dark Aura]], Dark Aura's damage will be triggered twice.\n* Can be followed with [[Unholy Feast]] to quickly recover the lost health and for additional [[AoE]] damage.\n* Consider bringing [[Plague Touch]] or [[Plague Sending]] to transfer the bleeding.\n\n[[de:Siegel der Qual (PvP)]]"
+}

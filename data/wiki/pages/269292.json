@@ -1,0 +1,11 @@
+{
+  "title": "Terminal Velocity",
+  "pageid": 269292,
+  "revid": 2608175,
+  "revisedAt": "2016-06-20T21:16:37Z",
+  "sha1": "95da344ea405bf27dfa1c43c114834a173b7b686",
+  "url": "https://wiki.guildwars.com/wiki/Terminal_Velocity",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Terminal%20Velocity&oldid=2608175",
+  "retrievedAt": "2026-11-16T15:42:03.082Z",
+  "wikitext": "{{Skill infobox\n| id = 3237\n| name = Terminal Velocity\n| campaign = Hearts of the North\n| type = Bow Attack\n| special = Keiran Thackeray\n| energy = 5\n| activation = {{1/2}}\n| recharge = 2\n| description= [[Bow]] [[Attack]]. Deals +30 [[piercing damage]] and [[interrupt]]s [[target]] [[foe]]. If target foe is [[Bleeding]], they suffer a [[Deep Wound]] for 20 seconds.  This arrow moves twice as fast.\n| concise description = Bow Attack. Deals +30 damage. Interrupts target. Inflicts Deep Wound (20 seconds) on Bleeding foes. This arrow moves twice as fast.\n}}\n\n== Related skills ==\n* {{Skill icon|Punishing Shot}} ([[elite]])\n* {{skill icon|Savage Shot}}\n\n== Notes ==\n* Part of the [[Keiran Thackeray (disguise)]] replacement skillbar.\n* The casting time means this skill can avoid the usual bow attack speed; using this immediately after an attack or another skill will launch its attack almost simultaneously.\n\n[[Category:Hearts of the North skills]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Teleport Players",
+  "pageid": 267652,
+  "revid": 2402094,
+  "revisedAt": "2011-10-28T06:53:48Z",
+  "sha1": "266ecb828cd67cab99eb02e1b1353f8f973881c3",
+  "url": "https://wiki.guildwars.com/wiki/Teleport_Players",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Teleport%20Players&oldid=2402094",
+  "retrievedAt": "2026-11-16T15:42:03.082Z",
+  "wikitext": "{{Skill infobox\n| id = 573\n| name = Teleport Players\n| activation = 2\n| type = Skill\n| description = Skill. [[Teleport]]s all players to caster's location.\n| concise description = Skill. Teleports all players to caster's location.\n| campaign = Core\n}}"
+}

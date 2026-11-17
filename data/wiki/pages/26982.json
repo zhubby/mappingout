@@ -1,0 +1,11 @@
+{
+  "title": "Choking Breath",
+  "pageid": 26982,
+  "revid": 2638910,
+  "revisedAt": "2019-05-31T20:50:48Z",
+  "sha1": "d0c5f42f559caf9f8c00f5fc25c2b8fac41c2475",
+  "url": "https://wiki.guildwars.com/wiki/Choking_Breath",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Choking%20Breath&oldid=2638910",
+  "retrievedAt": "2026-11-16T15:41:12.780Z",
+  "wikitext": "{{Skill infobox\n| name = Choking Breath\n| campaign = Nightfall\n| type = Skill\n| energy = 5\n| activation = 1\n| recharge = 1\n| special = Junundu\n| target = foes\n| description = [[Skill (skill type)|Skill]].  [[Target]] [[foe]] and all [[adjacent]] foes are [[interrupt]]ed.  Any interrupted foe who was casting a [[spell]] is [[knocked down]] for 4 seconds.\n| concise description = Skill. Interrupts target and adjacent foes. Causes knock-down (4 seconds) to any foe casting a spell.\n| aoe = adjacent\n}}\n==Acquisition ==\nYou have a 33% chance of gaining this skill after using [[Junundu Feast]], which is available whenever your character is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] onward through the rest of [[the Desolation]].\n\n==Related skills==\n*{{skill icon|Psychic Instability}} ([[elite]])\n\n[[de:Erwürgender Hauch]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Anguish (PvP)",
+  "pageid": 207630,
+  "revid": 2731218,
+  "revisedAt": "2026-06-25T05:09:04Z",
+  "sha1": "9f822014b13eb053a8bf0f3bc6ca2fc7a9773ad3",
+  "url": "https://wiki.guildwars.com/wiki/Anguish_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Anguish%20(PvP)&oldid=2731218",
+  "retrievedAt": "2026-11-16T15:41:05.971Z",
+  "wikitext": "{{pveversion|Anguish}}\n\n{{Skill infobox\n| name = Anguish (PvP)\n| id = 3023\n| campaign = Nightfall\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| energy = 25\n| activation = 1{{1/2}}\n| recharge = 30\n| causes1 = Spirit\n| description = [[Binding Ritual]]. Create a level {{gr|1|7}} [[spirit]]. This spirit's [[attack]]s deal {{gr|5|20}} [[damage]] and deal double damage to [[hex]]ed [[foe]]s. This spirit dies after {{gr|15|45}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|7}} spirit ({{gr|15|45}} second lifespan). Its attacks deal {{gr|5|20}} damage.  Double damage to hexed foes.\n| is-pvp = y\n| target = untargeted\n| aoe = none\n}}\n\n{{Skill progression\n|attribute = [[Communing]]\n|var1 name = Level\n|var1 at0 = 1\n|var1 at15 = 7\n|var2 name = [[Damage]]\n|var2 at0 = 5\n|var2 at15 = 20\n|var3 name = [[Duration]]\n|var3 at0 = 15\n|var3 at15 = 45}}\n\n== Notes ==\n* This skill creates a [[Spirit of Anguish]] that uses the [[Anguish (attack)|Anguish attack skill]].\n* Synergizes with [[Painful Bond]] and [[Signet of Ghostly Might]].\n\n== Trivia ==\n* This [[skill icon]] is similar to [[Cry of Pain]].\n\n[[de:Qual (PvP)]]"
+}

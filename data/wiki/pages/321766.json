@@ -1,0 +1,11 @@
+{
+  "title": "Auspicious Blow (PvP)",
+  "pageid": 321766,
+  "revid": 2738526,
+  "revisedAt": "2026-08-26T21:43:38Z",
+  "sha1": "158c076856609bea1f4ca4a73847a3ce187ae93c",
+  "url": "https://wiki.guildwars.com/wiki/Auspicious_Blow_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Auspicious%20Blow%20(PvP)&oldid=2738526",
+  "retrievedAt": "2026-11-16T15:41:07.822Z",
+  "wikitext": "__NOTOC__{{Pveversion|Auspicious Blow}}\n{{Skill infobox\n| id = 3455\n| name = Auspicious Blow (PvP)\n| campaign = Factions\n| profession = Warrior\n| attribute = Hammer Mastery\n| type = Hammer Attack\n| adrenaline = 5\n| causes1 = Unblockable\n| causes2 = Energy Gain\n| requires = Weakness\n| description = [[Hammer Attack]]. If Auspicious Blow hits, you strike for {{gr|5|20|+}} [[damage]] and gain {{gr|2|4}} [[Energy]]. If [[target]] [[foe]] is suffering from [[Weakness]], this attack is [[Block|unblockable]].\n| concise description = Hammer Attack. Deals {{gr|5|20|+}} damage and you gain {{gr|2|4}} Energy. Unblockable if target foe is Weakened.\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Hammer Mastery]]\n|var1 name = + [[Damage]]\n|var1 at0 = 5\n|var1 at15 = 20\n|var2 name = [[Energy]] gain\n|var2 at0 = 2\n|var2 at15 = 4}}\n\n== Notes ==\n* The [[Warrior]] displayed on the [[skill icon]] appears to be wearing [[Canthan armor]]."
+}

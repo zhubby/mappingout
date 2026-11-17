@@ -1,0 +1,11 @@
+{
+  "title": "Entanglement",
+  "pageid": 90428,
+  "revid": 2525612,
+  "revisedAt": "2012-12-04T05:58:48Z",
+  "sha1": "ff841eff89fa2d388f5636f6d4b9fd090ac672e1",
+  "url": "https://wiki.guildwars.com/wiki/Entanglement",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Entanglement&oldid=2525612",
+  "retrievedAt": "2026-11-16T15:41:20.124Z",
+  "wikitext": "{{Skill infobox\n| id = 507\n| name = Entanglement\n| campaign = Core\n| special = Bundle\n| type = Signet\n| description = [[Signet]]. Surrounding foes are [[Knock down|trapped]] for 4 seconds and take 20 damage.\n| concise description = Signet. Surrounding foes are trapped for 4 seconds and take 20 damage.\n| aoe = adjacent\n}}\n\n== Related skills ==\n* {{skill icon|Grasping Was Kuurong}} ([[elite]])\n\n== Notes ==\n* This skill is invoked in GvG when [[Vine Seed]] is dropped and doesn't form a bridge.  After a delay of about two seconds, the seed sprouts and causes Entanglement on adjacent foes.\n* This skill is also seen in certain [[Maguuma Jungle]] missions.\n* This skill affects [[miniature]]s.\n* The description reads \"trapped\" but means the game mechanic [[knock down]]."
+}

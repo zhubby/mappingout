@@ -1,0 +1,11 @@
+{
+  "title": "Scorpion Wire",
+  "pageid": 16316,
+  "revid": 2733885,
+  "revisedAt": "2026-07-12T00:50:49Z",
+  "sha1": "e6a4a900f45a0b1a09cc922a7f4b85999dd3c0e5",
+  "url": "https://wiki.guildwars.com/wiki/Scorpion_Wire",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Scorpion%20Wire&oldid=2733885",
+  "retrievedAt": "2026-11-16T15:41:49.723Z",
+  "wikitext": "{{Skill infobox\n| id = 815\n| name = Scorpion Wire\n| campaign = Factions\n| profession = Assassin\n| attribute = Deadly Arts\n| type = Hex Spell\n| energy = 5\n| activation = 1\n| recharge = 10\n| range = half\n| causes1 = Shadow Step\n| causes2 = Knockdown\n| description = [[Hex Spell]].  For {{gr|8|20}} seconds, the next time you and [[target]] [[foe]] are more than 75' apart, you [[Shadow Step]] to that foe and that foe is [[knock down|knocked down]]. This [[spell]] has [[Half ranged|half the normal range]].\n| concise description = Half Range Hex Spell. ({{gr|8|20}} seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 75' away from you.\n}}\n\n{{Skill progression\n|attribute = [[Deadly Arts]]\n|var1 name = [[Duration]]\n|var1 at0 = 8\n|var1 at15 = 20}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Michiko]] ([[Kaineng Center]])\n\n== Notes ==\n* As this is the only skill measured in feet, it can be hard to judge the wire’s range. 75' or [[range#Gwinches|900\"]] is just slightly shorter than [[earshot range]], [[shortbow]] and [[spear]] range, or the size of your [[danger zone|aggro bubble]].\n\n== Trivia ==\n* This spell is similar to one of [[w:Scorpion (Mortal_Kombat)|Scorpion]]'s moves from the console fighting game [[w:Mortal Kombat (video game)|Mortal Kombat]].\n* During an [[Game updates/20090401|April Fools' Day update]], this skill was further related to Scorpion from Mortal Kombat by mocking a change to its functionality to match that of the Mortal Kombat variant.\n\n[[Category:Scorpion]]"
+}

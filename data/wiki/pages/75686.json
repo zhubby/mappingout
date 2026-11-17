@@ -1,0 +1,11 @@
+{
+  "title": "Avalanche (skill)",
+  "pageid": 75686,
+  "revid": 2609139,
+  "revisedAt": "2016-06-27T04:30:34Z",
+  "sha1": "57ece14fe53e2511eb9f4983834eb51dd86e16fb",
+  "url": "https://wiki.guildwars.com/wiki/Avalanche_(skill)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Avalanche%20(skill)&oldid=2609139",
+  "retrievedAt": "2026-11-16T15:41:07.821Z",
+  "wikitext": "{{skill infobox\n| id = 1001\n| name = Avalanche\n| image = [[Image:Avalanche (skill).jpg]]\n| campaign = Core\n| type = Spell\n| target = foes\n| special = Snow fighting\n| activation = {{3/4}}\n| recharge = 30\n| causes1 = Crippled\n| description = [[Spell]]. [[Target]] [[foe]] and all [[nearby]] foes are [[Crippled]] for 7 seconds.\n| concise description = Spell. Inflicts Crippled (7 seconds) on target and nearby foes.\n| aoe = nearby\n}}\n\n== Acquisition ==\nThis skill is given to Dwayna players in a [[Dwayna Vs Grenth]] match, as well as in certain repeatable [[Wintersday]] quests. \n\n== Notes ==\n* This skill is only available to players during Wintersday events.\n* This skill is used by [[Snowman (summon)|Snowman]] from summoning stones.\n\n== Trivia ==\n* The animation of this skill looks like the occasional animation of a snowman from a [[Snowman Summoner]].\n* Prior to Wintersday 2010, this skill was a [[Skill (skill type)|Skill]] instead of Spell."
+}

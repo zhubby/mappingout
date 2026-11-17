@@ -1,0 +1,11 @@
+{
+  "title": "Lightbringer's Insight",
+  "pageid": 127073,
+  "revid": 2474817,
+  "revisedAt": "2012-04-11T23:50:33Z",
+  "sha1": "5e8fbc6c0cc83ecd964ce2730b551929f3aaf17e",
+  "url": "https://wiki.guildwars.com/wiki/Lightbringer%27s_Insight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lightbringer's%20Insight&oldid=2474817",
+  "retrievedAt": "2026-11-16T15:41:33.654Z",
+  "wikitext": "{{skill infobox\n| id = 1887\n| name = Lightbringer's Insight\n| type = Party Bonus\n| campaign = Nightfall\n| consumable = Scroll of the Lightbringer\n| description = [[Party Bonus]]. For 10 minutes your [[party]] gains triple [[XP]] from combat.\n| concise description = Party Bonus. (10 minutes.) Your party gains triple XP from combat.\n}}\n\n==Related skills==\n* {{skill icon|Adventurer's Insight}}\n* {{skill icon|Berserker's Insight}}\n* {{skill icon|Hero's Insight}}\n\n==Notes==\n*This bonus is gained when a party member uses a [[Scroll of the Lightbringer]]."
+}

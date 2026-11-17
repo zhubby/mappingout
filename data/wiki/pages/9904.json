@@ -1,0 +1,11 @@
+{
+  "title": "Medical Emergency",
+  "pageid": 9904,
+  "revid": 2534605,
+  "revisedAt": "2013-02-18T18:57:39Z",
+  "sha1": "efdc6273fda6d48496932de0ac9618ba5f920448",
+  "url": "https://wiki.guildwars.com/wiki/Medical_Emergency",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Medical%20Emergency&oldid=2534605",
+  "retrievedAt": "2026-11-16T13:47:00.318Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Medical Emergency\n| map = [[File:Medical Emergency.jpg|250px]]\n| campaign = Factions\n| region = Kaineng City\n| type = Secondary\n| given by = [[Guardsman Pah]]\n| given at = [[Wajjun Bazaar]]\n| preceded by = \n| followed by = [[Imperial Assistance]] or [[Red Tape]]\n}}\nTake Guardsman Pah's plea for help to Officer Chitaro.\n\n==Quest information==\n===Objectives===\n* Find Officer Chitaro and speak to him about medical supplies for the refugees.\n\n===Reward===\n* 3,000 [[Experience]]\n* 250 [[Gold]]\n* [[Imperial Commendation]]\n\n==Walkthrough==\nThis quest requires little to no fighting and is a simple case of talking to another NPC once the quest has been obtained. It is quickest to start from [[Nahpui Quarter (outpost)|Nahpui Quarter]]. Otherwise you will have to start from [[the Marketplace]] (this will take less time if you have the [[Seek out Brother Tosai]] quest active.)\n\nHead west from Guardsman Pah, then head down the steps and around the coastline to Officer Chitaro. Two small groups of [[Am Fah]] may spawn along the way.\n\n==Dialogue==\n===Initial dialogue===\n'''Guardsman Pah'''\n:''\"With this large influx of refugees, we are running dangerously low on medical supplies. Many are sick or injured, and we do not have the resources to treat them all. Could you possibly find '''Officer Chitaro''' for me and ask him whether the [[Ministry of Flame]] can assist with some medical supplies?\"''\n{{offer dialog\n|accept = I'll find Officer Chitaro.\n|decline = I can't do that right now.\n|ask = Without those supplies, people will die. Please find '''Officer Chitaro'''! \n|indent = :: }}\n\n===Reward dialogue===\n'''Officer Chitaro'''\n:''\"I am sorry, but we do not currently have any surplus medical supplies on hand. If the refugees need help, they should visit the Ministry and fill out a request form 3056-B.\"''\n\n[[Category:Rewards Imperial Commendation]]"
+}

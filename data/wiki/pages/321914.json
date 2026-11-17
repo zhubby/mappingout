@@ -1,0 +1,11 @@
+{
+  "title": "Coming of Spring",
+  "pageid": 321914,
+  "revid": 2739752,
+  "revisedAt": "2026-09-07T14:05:50Z",
+  "sha1": "fca7f200a9814714872cb0a552a6d029d22b41c1",
+  "url": "https://wiki.guildwars.com/wiki/Coming_of_Spring",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Coming%20of%20Spring&oldid=2739752",
+  "retrievedAt": "2026-11-16T15:41:12.781Z",
+  "wikitext": "{{Skill infobox\n| id = 3242\n| name = Coming of Spring\n| campaign = Core\n| type = Spell\n| description = Spell. Resurrects target party member (50% Health, 50% Energy).\n| concise description = Resurrects target party member with 50% Health and 50% Energy.\n}}"
+}

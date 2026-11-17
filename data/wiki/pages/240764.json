@@ -1,0 +1,11 @@
+{
+  "title": "Keen Arrow (PvP)",
+  "pageid": 240764,
+  "revid": 2738452,
+  "revisedAt": "2026-08-26T21:05:35Z",
+  "sha1": "da55e3a8e45587e204e54eb209fc51c4edc26155",
+  "url": "https://wiki.guildwars.com/wiki/Keen_Arrow_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Keen%20Arrow%20(PvP)&oldid=2738452",
+  "retrievedAt": "2026-11-16T15:41:31.263Z",
+  "wikitext": "{{pveversion|Keen Arrow}}\n{{Skill infobox\n| name = Keen Arrow (PvP)\n| id = 3147\n| campaign = Nightfall\n| profession = Ranger\n| attribute = Marksmanship\n| type = Bow Attack\n| is-pvp = y\n| energy = 5\n| recharge = 12\n| description = [[Bow Attack]]. If this [[attack]] hits, you strike for {{gr|5|15|+}} [[damage]]. If you land a [[critical hit]], you deal an additional {{gr|5|30|+}} damage.\n| concise description = Bow Attack. Deals {{gr|5|15|+}} damage. Deals {{gr|5|30|+}} more damage if you land a critical hit.\n}}\n\n{{Skill progression\n|attribute = [[Marksmanship]]\n|var1 name = + [[Damage]]\n|var1 at0 = 5\n|var1 at15 = 15\n|var2 name = + Damage when [[critical hit|critical]]\n|var2 at0 = 5\n|var2 at15 = 30}}\n\n== Notes ==\n*Synergizes well with skills that increases chance of landing a critical hit, such as [[\"Go for the Eyes!\"]] or [[Critical Eye]].\n\n[[de:Scharfer Pfeil (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Slayer's Spear",
+  "pageid": 2634,
+  "revid": 2733274,
+  "revisedAt": "2026-07-05T17:17:32Z",
+  "sha1": "ffb9a9e4d9fb825c5a370374aa3a2dac451c06de",
+  "url": "https://wiki.guildwars.com/wiki/Slayer%27s_Spear",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Slayer's%20Spear&oldid=2733274",
+  "retrievedAt": "2026-11-16T15:41:53.621Z",
+  "wikitext": "{{Skill infobox\n| id = 1783\n| name = Slayer's Spear\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Spear Mastery\n| type = Spear Attack\n| energy = 10\n| recharge = 4\n| causes1 = Deep Wound\n| description = [[Spear Attack]]. If this attack hits, you deal {{gr|5|25|+}} [[damage]]. If that [[foe]] has more [[Health]] than you, that foe suffers from a [[Deep Wound]] for {{gr|5|20}} seconds.\n| concise description = Spear Attack. Deals {{gr|5|25|+}} damage. Inflicts Deep Wound condition ({{gr|5|20}} seconds) if target has more Health than you.\n}}\n\n{{Skill progression\n| attribute = [[Spear Mastery]]\n| var1 name = + [[Damage]]\n| var1 at0 = 5\n| var1 at15 = 25\n| var2 name = [[Deep Wound]] [[duration]]\n| var2 at0 = 5\n| var2 at15 = 20}}\n\n==Acquisition==\n'''[[Skill trainer]]s'''\n*[[Medando]] ([[Yohlon Haven]])\n\n==Related skills==\n*{{skill icon|Merciless Spear}}"
+}

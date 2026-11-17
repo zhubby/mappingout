@@ -1,0 +1,11 @@
+{
+  "title": "Battle Cry",
+  "pageid": 21213,
+  "revid": 2628550,
+  "revisedAt": "2018-06-18T17:20:10Z",
+  "sha1": "9b00b70e6b8ba8f77b4c46ec8bdd6247a08b848d",
+  "url": "https://wiki.guildwars.com/wiki/Battle_Cry",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Battle%20Cry&oldid=2628550",
+  "retrievedAt": "2026-11-16T15:41:08.680Z",
+  "wikitext": "{{Skill infobox\n| id = 1277\n| name = Battle Cry\n| type = Spell\n| campaign = Factions\n| special = Environment\n| aoe = earshot \n| description = [[Spell]]. For 60 seconds, players [[earshot|within range]] [[Speed boost|move 25% faster]], [[Attack speed|attack 15% faster]], and [[skill]]s [[Recharge time|recharge]] 33% faster.\n| concise description = Spell. (60 seconds.) Players in range move 25% faster, attack 15% faster, and recharge skills 33% faster.\n}}\n\n== Notes ==\n* Applied to party members from [[Attack Point]]s in [[Alliance Battle]]s.\n\n[[de:Kampfruf]]"
+}

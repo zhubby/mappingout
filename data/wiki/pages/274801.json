@@ -1,0 +1,11 @@
+{
+  "title": "Twin Moon Sweep (PvP)",
+  "pageid": 274801,
+  "revid": 2656124,
+  "revisedAt": "2020-04-26T14:58:54Z",
+  "sha1": "2a0fd9578493bfd5a5e2fdab1830f9e7584985bc",
+  "url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Twin%20Moon%20Sweep%20(PvP)&oldid=2656124",
+  "retrievedAt": "2026-11-16T15:42:03.620Z",
+  "wikitext": "{{pveversion| Twin Moon Sweep}}\n\n{{Skill infobox\n| id = 3264\n| name = Twin Moon Sweep (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Scythe Mastery\n| type = Melee Attack\n| adrenaline = 7\n| is-pvp = y\n| causes1 = Health Gain\n| causes2 = Unblockable\n| removes1 = Enchantment\n| description = [[Melee Attack]]. You [[Teardown|lose]] 1 [[Dervish]] [[enchantment]] and [[Health gain|gain]] {{gr|10|20}} [[Health]]. If an enchantment is lost in this way, you cannot be [[block]]ed, you strike twice, with each strike doing 25% [[Damage reduction|less damage than normal]], and you gain an additional {{gr|10|30}} Health.\n| concise description = Melee Attack. Remove 1 of your Dervish enchantments. Gain {{gr|10|20}} Health. Removal effect: Unblockable, attack twice, each strike doing 25% less damage, and gain {{gr|10|30}} more Health.\n}}\n\n{{Skill progression\n|attribute = [[Scythe Mastery]]\n|var1 name = [[Health gain]]\n|var1 at0 = 10\n|var1 at15 = 20\n|var2 name = Additional health gain\n|var2 at0 = 10\n|var2 at15 = 30\n}}\n\n{{DEFAULTSORT:Twin Moon Sweep}}\n[[de:Doppelter Mondschwung (PvP)]]"
+}

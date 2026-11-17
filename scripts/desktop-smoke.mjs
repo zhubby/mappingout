@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖真实 Windows 程序、WebView IPC 与空验收资料。
+ * [OUTPUT]: 验证原生备份、离线资料及界面生命周期。
+ * [POS]: Windows 桌面验收入口；使用 v3 个人备份。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { chromium, expect } from '@playwright/test';
 import { spawn } from 'node:child_process';
 import fs from 'node:fs/promises';
@@ -94,7 +100,7 @@ try {
       const bytes = await response.arrayBuffer();
       return response.ok && bytes.byteLength > 0;
     }));
-    for (const name of ['armor', 'calendar', 'wiki-review']) {
+    for (const name of ['armor', 'calendar', 'quests', 'skills', 'wiki-review']) {
       const response = await fetch(`/data/${name}.json`);
       if (!response.ok) throw Error(name); await response.json();
     }
@@ -136,7 +142,7 @@ try {
   await expect.poll(async () => (await state(page))?.characters?.length).toBe(1);
   await page.getByRole('button', { name: '关闭弹窗', exact: true }).click();
   const saved = await state(page);
-  const backup = { format: 'mappingout-backup', version: 2, exportedAt: new Date().toISOString(), data: saved };
+  const backup = { format: 'mappingout-backup', version: 3, exportedAt: new Date().toISOString(), data: saved };
   // Native commands cross actual WebView IPC and use the real filesystem.
   for (let i = 0; i < 23; i++) await invoke(page, 'write_local_backup', { kind: 'auto', content: JSON.stringify(backup) });
   const list = await invoke(page, 'list_local_backups');

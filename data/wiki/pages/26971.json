@@ -1,0 +1,11 @@
+{
+  "title": "Junundu Tunnel",
+  "pageid": 26971,
+  "revid": 2671465,
+  "revisedAt": "2021-04-05T09:41:40Z",
+  "sha1": "e019243cfe6c263706c9fbb9a9e9ee3f307e4902",
+  "url": "https://wiki.guildwars.com/wiki/Junundu_Tunnel",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Junundu%20Tunnel&oldid=2671465",
+  "retrievedAt": "2026-11-16T15:41:31.262Z",
+  "wikitext": "{{Otheruses|the player version of Junundu Tunnel|the monster skill|Junundu Tunnel (monster skill)}}\n{{Skill infobox\n| name = Junundu Tunnel\n| campaign = Nightfall\n| type = Stance\n| special = Junundu \n| energy = 5\n| recharge = 30\n| causes1 = Increased Movement Speed\n| causes2 = Knockdown\n| description = [[Stance]]. For 10 seconds, you [[Speed boost|move 66% faster]]. This skill [[End effect|ends]] if you use a [[skill]]. When this skill ends, all [[adjacent]] [[foe]]s are [[Knock down|knocked down]] for 3 seconds.\n| concise description = Stance. (10 seconds.) You move 66% faster. End effect: knocks-down adjacent foes (3 seconds). {{gray|Ends if you use a skill.}}\n}}\n\n==Acquisition ==\nThis skill is available whenever your character is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] onward through the rest of [[the Desolation]].\n\n== Related skills ==\n* {{skill icon|Bull's Charge}} ([[Elite skill|elite]])\n\n==Notes==\n*This stance increases average speed by 22% if used every time it recharges.\n*If you use [[Junundu Bite]] while in this stance, the knock down is applied before the attack is calculated, thus gaining health from Junundu Bite.\n*[[Heroes]] will only activate this stance while in combat.\n*If this stance is active when leaving a Junundu, it will remain in effect for the remaining [[duration]] or until you use a skill, and it will still knock down adjacent foes upon ending.\n\n[[de:Junundus Tunnel]]"
+}

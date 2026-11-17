@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Banish",
+  "pageid": 60050,
+  "revid": 2629803,
+  "revisedAt": "2018-06-18T17:41:20Z",
+  "sha1": "ffb6342fe9bf20eea84cc051f519191d5c2860ea",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Banish",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Banish&oldid=2629803",
+  "retrievedAt": "2026-11-16T15:41:40.102Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Banish\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 6\n| activation = 1\n| recharge = 10\n| description = [[Spell]]. [[Target]] [[foe]] takes 800 [[damage]].\n| concise description = Spell. Deals 800 damage.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Dolyak Rider Form]]\n\n==Related skills==\n*{{skill icon|Polymock Lightning Blast}}\n*{{skill icon|Polymock Obsidian Flame}}\n\n==Trivia==\n*Shares the [[skill icon]] of [[Banish]].\n\n[[de:Polymock-Verbannung]]"
+}

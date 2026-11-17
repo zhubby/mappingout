@@ -1,0 +1,11 @@
+{
+  "title": "Banishing Strike (PvP)",
+  "pageid": 274794,
+  "revid": 2645375,
+  "revisedAt": "2019-11-09T12:07:44Z",
+  "sha1": "b5985ff845a42e8ac1333483c6e148e8593df7a8",
+  "url": "https://wiki.guildwars.com/wiki/Banishing_Strike_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Banishing%20Strike%20(PvP)&oldid=2645375",
+  "retrievedAt": "2026-11-16T15:41:08.681Z",
+  "wikitext": "{{pveversion|Banishing Strike}}\n__NOTOC__{{Skill infobox\n| id = 3263\n| name = Banishing Strike (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Mysticism\n| type = Melee Attack\n| energy = 5\n| recharge = 3\n| is-pvp = y\n| causes1 = Holy Damage\n| description = [[Melee Attack]]. If it hits, this [[attack]] deals {{gr|10|60}} [[holy damage]]. It deals double damage to [[summoned creature]]s.\n| concise description = Melee Attack. Deals {{gr|10|60}} holy damage. Deals double damage to summoned creatures.\n}}\n\n{{Skill progression\n| attribute = [[Mysticism]]\n| var1 name = [[Holy damage]]\n| var1 at0 = 10\n| var1 at15 = 60}}\n\n[[de:Bannstoß (PvP)]]"
+}

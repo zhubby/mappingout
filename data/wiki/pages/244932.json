@@ -1,0 +1,11 @@
+{
+  "title": "Spirit Rift (Togo)",
+  "pageid": 244932,
+  "revid": 2589400,
+  "revisedAt": "2015-06-08T15:06:31Z",
+  "sha1": "cb03d82c7c93e1af6d4dc2c89b6e34b4708065ed",
+  "url": "https://wiki.guildwars.com/wiki/Spirit_Rift_(Togo)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Spirit%20Rift%20(Togo)&oldid=2589400",
+  "retrievedAt": "2026-11-16T15:41:57.732Z",
+  "wikitext": "{{Skill infobox\n| id = 2688\n| image = [[File:Spirit Rift (Togo).jpg]]\n| name = Spirit Rift (Togo)\n| campaign = Bonus Mission Pack\n| profession = Ritualist\n| attribute = Channeling Magic\n| type =  Spell\n| special = Bonus Mission Pack\n| energy = 10\n| recharge = 5\n| activation = 2\n| description = [[Spell]]. Open a Spirit Rift at [[target]] [[foe]]'s location. After 3 seconds, all [[adjacent]] [[foe]]s are struck for {{gr Bonus Mission Pack|25|135|14}} [[lightning damage]].\n| concise description = Spell. Affects foes adjacent to target foe's initial location. Deals {{gr Bonus Mission Pack|25|135|14}} lightning damage after 3 seconds.\n}}\n\n{{Skill progression Bonus Mission Pack\n| attribute rank = 14\n| attribute = [[Channeling Magic]]\n| maximum = 19\n| var1 name = [[Lightning damage]]\n| var1 at0 = 25\n| var1 at15 = 135}}\n\n== Acquisition ==\nPart of [[Togo (disguise)|Togo's]] replacement [[skill bar]] during [[The Tengu Accords]] mission.\n\n== Related skills ==\n* {{Skill icon|Spirit Rift}}\n\n== Notes ==\n* This skill is normally used with 14 in [[Channeling Magic]] (its damage differs from [[Spirit Rift]]), but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Channeling Magic]] or [[of Mastery]]."
+}

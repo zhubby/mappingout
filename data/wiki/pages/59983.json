@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Glyph Destabilization",
+  "pageid": 59983,
+  "revid": 2629816,
+  "revisedAt": "2018-06-18T17:41:46Z",
+  "sha1": "c0d58f1521a65d60d0a77cba4ed3938873a1eedb",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Glyph_Destabilization",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Glyph%20Destabilization&oldid=2629816",
+  "retrievedAt": "2026-11-16T15:41:40.920Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Glyph Destabilization\n| campaign = Eye of the North\n| special = Polymock\n| type = Hex spell\n| energy = 4\n| activation = 1\n| recharge = 20\n| description = [[Hex Spell]]. For 12 seconds, whenever target foe uses a [[glyph]], that foe loses 10 [[Energy]].\n| concise description = Hex Spell. (12 seconds.) Causes 10 Energy loss whenever target foe uses a glyph.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Mergoyle Form]]\n\n==Related skills==\n*{{skill icon|Spirit Shackles}}\n\n[[de:Polymock-Glyphen-Destabilisierung]]"
+}

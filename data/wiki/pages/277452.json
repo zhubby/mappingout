@@ -1,0 +1,11 @@
+{
+  "title": "Riot Shield",
+  "pageid": 277452,
+  "revid": 2723838,
+  "revisedAt": "2026-04-01T22:58:01Z",
+  "sha1": "871e7b2cd3cccd728f918b011b97e3b527d1a6d9",
+  "url": "https://wiki.guildwars.com/wiki/Riot_Shield",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Riot%20Shield&oldid=2723838",
+  "retrievedAt": "2026-11-16T15:41:46.994Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = Riot Shield\n| id = 3294\n| special = Going Commando\n| campaign = Core\n| type = Stance\n| energy = 5\n| recharge = 25\n| description = [[Stance]]. For 10 seconds, you have a 100% chance to [[block]] attacks, and [[spell]]s [[target]]ing you [[fail]]. Riot Shield ends if you [[Movement|move]].\n| concise description = Stance. (10 seconds.) You have a 100% chance to block attacks. Spells targeting you fail. {{gray|Ends if you move.}}\n}}\n\n== Acquisition ==\nThis skill is available while under the [[Going Commando]] disguise during the [[April Fools' Day]] quest [[Annihilator]].\n\n== Related skills ==\n*{{Skill icon|Defensive Stance}}\n*{{Skill icon|Shield Stance}}"
+}

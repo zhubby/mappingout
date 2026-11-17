@@ -1,0 +1,11 @@
+{
+  "title": "Vampirism (attack)",
+  "pageid": 75110,
+  "revid": 2610502,
+  "revisedAt": "2016-07-23T20:52:13Z",
+  "sha1": "f72b1749b115bf46494dc2bf742500e1b87ee17c",
+  "url": "https://wiki.guildwars.com/wiki/Vampirism_(attack)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vampirism%20(attack)&oldid=2610502",
+  "retrievedAt": "2026-11-16T15:42:05.173Z",
+  "wikitext": "{{skill infobox\n| name = Vampirism\n| id = 2111\n| image = [[Image:Vampirism (attack).jpg]]\n| campaign = Nightfall\n| attribute = Sunspear rank\n| profession = Monster\n| special = Spirit monster\n| pve-only = y\n| type = Ranged Attack\n| activation = 2\n| causes1 = Life Stealing\n| causes2 = Healing\n| description = [[Ranged Attack]]. [[Life stealing|Steal]] up to {{gr2|10|20}} [[Health]] from [[target]] [[foe]].\n| concise description = Ranged Attack. Steals {{gr2|10|20}} Health.\n}}\n\n{{ Skill progression max10 old\n| title track = [[Sunspear rank]]\n| var3 name = [[Life stealing]]\n| var3 at0 = 10\n| var3 at10 = 20\n}}\n{{ Skill progression max10\n| title track = Sunspear rank\n| var1 name = [[Heal]]ing\n| var1 at0 = 10\n| var1 at10 = 20\n}}\n\n==Notes==\n* This is the skill used by the [[Spirit of Vampirism]] that is created by the [[ritualist]] skill [[Vampirism]], and not the ritualist skill itself.\n{{bug|The descriptions do not mention that this attack also heals the creator.}}\n\n<!--== Trivia ==\n* The functionality of this skill has changed since its introduction; see its [[/Skill history|skill revision history]] for details.-->"
+}

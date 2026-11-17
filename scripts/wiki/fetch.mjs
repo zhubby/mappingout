@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖采集类型、标题清单和 Wiki 客户端。
+ * [OUTPUT]: 采集指定领域快照并保存缺失标题清单。
+ * [POS]: 通用 Wiki 维护入口；任务全量采集使用 fetch-quests。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { api, category, evidenceDir, fetchPages, web, readIndex, loadPage } from './client.mjs';

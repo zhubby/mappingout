@@ -1,0 +1,11 @@
+{
+  "title": "Sunspear skill",
+  "pageid": 41094,
+  "revid": 2675368,
+  "revisedAt": "2021-10-23T20:24:21Z",
+  "sha1": "8971ebfe7fcfb7c2462fdab639360f08d1170708",
+  "url": "https://wiki.guildwars.com/wiki/Sunspear_skill",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sunspear%20skill&oldid=2675368",
+  "retrievedAt": "2026-11-16T15:42:01.940Z",
+  "wikitext": "[[Sunspear skill]]s are [[PvE]]-only skills available to [[character]]s on [[account]]s with the [[Nightfall]] [[campaign]]. They each cost one [[hero skill point]] and are available from the [[hero skill trainer]]s at [[Pikin|Kamadan]], the [[Shiloh|Sunspear Great Hall]], and the [[Libeh|Command Post]] after reaching the first rank of the [[Sunspear rank|Sunspear title track]].\n\nThe skills are dependent upon one's [[Sunspear rank]], rather than an [[attribute]]. Because PvE-only skills cannot be unlocked, [[hero]]es may not use Sunspear skills. Since the [[Feedback:Game_updates/20120517|May 17th, 2012 update]], only [[Sunspear Rebirth Signet]] and [[Vampirism]] (due to [[Vampirism#Notes|a bug]]) continue to scale above Sunspear rank 5 (Sunspear Captain). All other skills reach maximum effectiveness at rank 5. \n\nWhile Sunspear skills are not linked to any attribute, three of them are affected by [[primary attribute]] ranks, making them less useful for other [[profession]]s. The [[Monk]] skill [[Seed of Life]] requires [[Divine Favor]] to increase its healing capability, the [[Assassin]] skill [[Critical Agility]] needs [[Critical Strikes]] to increase its duration, and the [[Paragon]] skill [[\"There's Nothing to Fear!\"]] uses [[Leadership]] to extend its duration.\n\n{{see|List of PvE-only skills#Sunspear skills}}\n{{skill table\n| category = Sunspear rank skills\n| notcategory = Historical content\n| notcategory2 = Spirit monster skills\n| show attribute = y\n| show campaign = y\n| show profession = y\n| extra cost header = [[Image:Tango-adrenaline.png|Adrenaline]]\n}}\n\n[[Category:Sunspear rank skills|*]]\n\n[[de:Sonnenspeer-Fertigkeit]]"
+}

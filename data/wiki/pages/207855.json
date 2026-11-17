@@ -1,0 +1,11 @@
+{
+  "title": "Destruction (PvP)",
+  "pageid": 207855,
+  "revid": 2628698,
+  "revisedAt": "2018-06-18T17:25:13Z",
+  "sha1": "1c50c5bff21fd5e839a9ab68ec4bbd22e133446b",
+  "url": "https://wiki.guildwars.com/wiki/Destruction_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Destruction%20(PvP)&oldid=2628698",
+  "retrievedAt": "2026-11-16T15:41:17.213Z",
+  "wikitext": "{{pveversion|Destruction}}\n\n{{Skill infobox\n| name = Destruction (PvP)\n| id = 3008\n| campaign = Factions\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Binding Ritual\n| energy = 10\n| activation = 3\n| recharge = 20\n| causes1 = Spirit\n| causes2 = Lightning Damage\n| description = [[Binding Ritual]]. Create a level {{gr|1|10}} [[Spirit]] {{sic|\"spirit\" is capitalized in the non-concise description}} that [[Death|dies]] after 30 seconds. When this Spirit dies, all [[foe]]s [[in the area]] take {{gr|1|10}} [[damage]] for each second the Spirit was alive (maximum of 150 damage).\n| concise description = Binding Ritual. Creates a level {{gr|1|10}} spirit (30 second lifespan). On death, it deals {{gr|1|10}} damage for each second it was alive to all foes in the area (maximum 150 damage).\n| is-pvp = y\n| aoe = in the area\n}}\n\n{{Skill progression\n| attribute = [[Channeling Magic]]\n| maximum = 19\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 10\n| var2 name = [[Lightning damage]]\n| var2 at0 = 1\n| var2 at15 = 10}}\n\n== Related skills ==\n* {{Skill Icon|Life (PvP)}}\n* {{Skill Icon|Rising Bile}}\n\n== Notes==\n* This skill creates a [[Spirit of Destruction]].\n* Use with skills that destroy spirits to control the damage [[spike]], such as [[Rupture Soul]].\n* This skill deals [[armor-ignoring damage|armor-ignoring]] lightning damage. \n\n{| {{STDT|+=text-align: center}}\n! colspan=\"23\" | Lifespan needed to reach maximum (150) damage\n|- \n! [[Channeling Magic]] ||0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21\n|- \n| Lifespan in seconds ||150||75||75||50||50||38||30||30||25||25||22||19||19||17||17||15||14||14||13||13||12||11\n|}\n\n{{bug|This spirit deals no damage if the caster (or his corpse) is not in [[compass]] range.}}\n\n[[de:Vernichtung (PvP)]]"
+}

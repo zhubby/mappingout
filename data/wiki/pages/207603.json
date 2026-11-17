@@ -1,0 +1,11 @@
+{
+  "title": "Castigation Signet (Saul D'Alessio)",
+  "pageid": 207603,
+  "revid": 2589397,
+  "revisedAt": "2015-06-08T15:05:12Z",
+  "sha1": "a4810c82107cb17de1f7f2466e7aed706d25b20c",
+  "url": "https://wiki.guildwars.com/wiki/Castigation_Signet_(Saul_D%27Alessio)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Castigation%20Signet%20(Saul%20D'Alessio)&oldid=2589397",
+  "retrievedAt": "2026-11-16T15:41:10.929Z",
+  "wikitext": "{{Skill infobox\n| id = 2683\n| name = Castigation Signet (Saul D'Alessio)\n| image = [[File:Castigation Signet (Saul D'Alessio).jpg]]\n| campaign = Bonus Mission Pack\n| profession = Monk\n| attribute = Smiting Prayers\n| type = Signet\n| special = Bonus Mission Pack\n| activation = 1\n| recharge = 15\n| description = [[Signet]]. [[Target]] [[foe]] takes {{gr Bonus Mission Pack|26|56|16}} [[holy damage]]. If that foe was [[attack]]ing, you gain {{gr Bonus Mission Pack|1|10|16}} [[Energy]].\n| concise description = Signet. Deals {{gr Bonus Mission Pack|26|56|16}} holy damage. You gain {{gr Bonus Mission Pack|1|10|16}} Energy if target foe is attacking.\n}}\n{{Skill progression Bonus Mission Pack\n| attribute rank = 16\n| attribute = [[Smiting Prayers]]\n| var1 name = [[Holy damage]]\n| var1 at0 = 26\n| var1 at15 = 56\n| var2 name = [[Energy]] gain\n| var2 at0 = 1\n| var2 at15 = 10}}\n\n== Acquisition ==\nPart of [[Saul D'Alessio (disguise)|Saul D'Alessio]]'s replacement [[skill bar]] during [[The Rise of the White Mantle]] mission.\n\n== Related skills ==\n* {{skill icon|Castigation Signet}}\n\n== Notes == \n* This skill is normally used with 16 in [[Smiting Prayers]], but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Smiting Prayers]] or [[of Mastery]]."
+}

@@ -1,3 +1,9 @@
+/*
+ * [INPUT]: 依赖本地 Friz、LXGW 字体与界面语言。
+ * [OUTPUT]: 提供双语字体链和语言菜单响应式布局。
+ * [POS]: 字体入口；桌面资料确认后才加载本地字体。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 @font-face {
   font-family: 'Friz Quadrata Std';
   src: url('/fonts/friz/friz-quadrata-std-medium-5870338ec7ef8.woff') format('woff');
@@ -39,12 +45,12 @@
 }
 /* Friz supplies Latin glyphs; LXGW supplies CJK in either locale, including user
    notes. Font files stay local. Distribution approval is a separate release gate. */
-body, button, input, select, textarea, h1, h2, h3, h4, .brand,
-.panel-intro h1, .detail-title-row h2, .modal h2, .map-heading h2,
+body, button, input, textarea, h1, h2, h3, h4, .brand,
+.detail-title-row h2, .modal h2, .map-heading h2,
 .detail-welcome h2, .leaflet-container, .leaflet-tooltip, .local-document,
 .original-content pre, .reset-clock strong { font-family: var(--app-font); }
 .language-selector { display:flex; align-items:center; gap:6px; white-space:nowrap; font-size:12px; }
-.language-selector select { width:auto; min-width:100px; padding:7px 20px 7px 8px; }
+.language-selector .select-trigger { width:auto; min-width:100px; padding:7px 20px 7px 8px; }
 .original-content pre { white-space:pre-wrap; overflow-wrap:anywhere; font-size:12px; line-height:1.65; }
 .topbar { height:auto; min-height:78px; padding-top:10px; padding-bottom:10px; gap:16px; flex-wrap:wrap; }
 .topbar nav { flex-wrap:wrap; justify-content:flex-end; gap:12px; }
@@ -61,7 +67,7 @@ body, button, input, select, textarea, h1, h2, h3, h4, .brand,
   .topbar .brand { width:auto; }
   .topbar nav { margin-left:auto; gap:8px; }
   .language-selector>span { display:none; }
-  .language-selector select { min-width:85px; }
+  .language-selector .select-trigger { min-width:85px; }
 }
 @media(max-width:800px) { :root:lang(en) .workspace { display:flex; } }
 @media(max-width:500px) {

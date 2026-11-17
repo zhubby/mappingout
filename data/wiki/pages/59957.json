@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Backfire",
+  "pageid": 59957,
+  "revid": 2629801,
+  "revisedAt": "2018-06-18T17:41:16Z",
+  "sha1": "f3d96e5ef63899bd0292e20fbdcd4bf5f9246310",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Backfire",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Backfire&oldid=2629801",
+  "retrievedAt": "2026-11-16T15:41:40.101Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Backfire\n| campaign = Eye of the North\n| special = Polymock\n| type = Hex Spell\n| energy = 2\n| activation = 2\n| recharge = 30\n| description = [[Hex Spell]]. For 15 seconds, every time target foe casts a spell, that foe takes 50 damage.\n| concise description = Hex Spell. (15 seconds.) Deals 50 damage every time target foe casts a spell.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Skeletal Mage Form]]\n*[[Wind Rider Form]]\n\n==Related skills==\n*{{Skill icon|Backfire}}\n\n[[de:Polymock-Fehlschlag]]"
+}

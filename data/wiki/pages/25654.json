@@ -1,0 +1,11 @@
+{
+  "title": "A Friend in Need",
+  "pageid": 25654,
+  "revid": 2703693,
+  "revisedAt": "2025-03-22T20:11:20Z",
+  "sha1": "940215f30593d12a8d770b65fcd616bc19015588",
+  "url": "https://wiki.guildwars.com/wiki/A_Friend_in_Need",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=A%20Friend%20in%20Need&oldid=2703693",
+  "retrievedAt": "2026-11-16T13:46:33.407Z",
+  "wikitext": "{{ Quest infobox\n| id = 621\n| name = A Friend in Need\n| campaign = Nightfall\n| nationality = Elonian\n| region = Istan\n| type = Secondary\n| given by = [[Kina]]\n| given at = [[Kamadan, Jewel of Istan]]\n}}\nMake friends by forming a [[party]] with a henchman for exploration.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = nightfall\n| unstarted = [[Never Fight Alone]]\n}}\n\n===Objectives===\n* Add a henchman to your party and meet [[Kina]] in the [[Plains of Jarin]].\n\n===Reward===\n* 250 [[Experience]]\n* 100 [[Gold]]\n\n==Dialogue==\n===Initial dialogue===\n;Kina\n:''You think you're ready to go save the world? It's dangerous out there, and even a Sunspear can't do it alone. Luckily, you don't have to. You see these fine people stand next to me? They're called '''henchmen'''. They want to adventure with people, and they are looking for someone to take them along so they can fight the dangers of the world. You may need to call on their services often, so you should introduce yourself. Go ahead and add one to your party, then meet me out on the '''Plains of Jarin'''.\n{{ Offer dialog\n| accept = Adventurers for hire? Will, it's safer than traveling alone!\n| decline = What? And share my precious gold with strangers? I like dying over and over... and over... Leave me alone.\n| ask = Add some '''henchmen''' to your party and meet me on the '''Plains of Jarin'''.\n}}\n\n===Reward dialogue===\n;Kina\n:''\"I see you have brought company as I recommended. Good! When you are adventuring out here in the wilds, you will need extra help dealing with the beasts of the area. Some people think they can handle everything out here on their own. Of course, they don't tend to live very long. It's good to see that you are smart enough to find assistance\"''"
+}

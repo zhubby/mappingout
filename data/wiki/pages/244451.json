@@ -1,0 +1,11 @@
+{
+  "title": "Spiritual Healing (Reaper skill)",
+  "pageid": 244451,
+  "revid": 2630078,
+  "revisedAt": "2018-06-18T17:51:03Z",
+  "sha1": "b19ef0dbe14e3d70aa3adce76536b4dd34579aff",
+  "url": "https://wiki.guildwars.com/wiki/Spiritual_Healing_(Reaper_skill)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Spiritual%20Healing%20(Reaper%20skill)&oldid=2630078",
+  "retrievedAt": "2026-11-16T15:41:57.732Z",
+  "wikitext": "{{Skill infobox\n| name = Spiritual Healing\n| image = [[File:Spiritual Healing (Reaper skill).jpg]]\n| id = 3135\n| campaign = Core\n| type = Spell\n| energy = 5\n| activation = {{3/4}}\n| recharge = 10\n| description = [[Spell]]. [[Heal]] [[target]] other [[ally]] for 125 [[Health]].\n}}\n\n== Related skills ==\n* {{skill icon|Spiritual Healing}}\n\n== Notes ==\n* This skill is used by the [[Reaper]]s during [[The Nightman Cometh]].\n\n[[de:Geisterheilung (Schnitter)]]"
+}

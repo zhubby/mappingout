@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖固定 Wiki 事实、双语资料和翻译审校规则。
+ * [OUTPUT]: 验证英文来源、数值签名和审校绑定。
+ * [POS]: 资料准确性回归；防止译文覆盖事实或沿用失效审校。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {afterEach,describe,expect,it,vi} from 'vitest';

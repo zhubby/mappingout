@@ -1,0 +1,11 @@
+{
+  "title": "Pacifism",
+  "pageid": 13863,
+  "revid": 2720139,
+  "revisedAt": "2026-02-05T22:50:17Z",
+  "sha1": "9d377f1c5e0db93fed99d8c48f444d9ba387fc26",
+  "url": "https://wiki.guildwars.com/wiki/Pacifism",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pacifism&oldid=2720139",
+  "retrievedAt": "2026-11-16T15:41:39.047Z",
+  "wikitext": "{{Skill infobox\n| id = 264\n| name = Pacifism\n| campaign = Prophecies\n| profession = Monk\n| attribute = Protection Prayers\n| type = Hex Spell\n| energy = 10\n| activation = 2\n| recharge = 15\n| description = [[Hex Spell]]. For {{gr|4|8}} seconds, [[target]] [[foe]] cannot [[attack]]. This effect ends if the target takes [[damage]].\n| concise description = Hex Spell. ({{gr|4|8}} seconds.) Target foe cannot attack. {{gray|Ends if this foe takes damage.}}\n}}\n\n{{Skill progression\n| attribute = [[Protection Prayers]]\n| var1 name = [[Duration]]\n| var1 at0 = 8\n| var1 at15 = 8}}\n\n== Acquisition ==\n'''[[Skill quest]]s''' \n* [[The Wayward Monk]] ([[Yak's Bend]])\n'''[[Skill trainer]]s'''\n* [[Firstwatch Sergio]] ([[Lion's Arch]])\n* [[Dakk]] ([[Ember Light Camp]])\n\n== Related skills ==\n* {{skill icon|A Touch of Guile}}\n* {{skill icon|Amity}} ([[elite]])\n\n== Trivia ==\n{{Skill change}}\n\n[[Category:Monk skill rewards]]"
+}

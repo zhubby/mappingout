@@ -1,0 +1,11 @@
+{
+  "title": "\"For Great Justice!\" (PvP)",
+  "pageid": 142221,
+  "revid": 2628437,
+  "revisedAt": "2018-06-18T17:17:17Z",
+  "sha1": "62bba76ef2165420f58d7c9c7c2a60df9c6d88cf",
+  "url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22For%20Great%20Justice!%22%20(PvP)&oldid=2628437",
+  "retrievedAt": "2026-11-16T15:41:04.000Z",
+  "wikitext": "{{pveversion|\"For Great Justice!\"}}\n\n{{Skill infobox\n| name = \"For Great Justice!\" (PvP)\n| id = 2883\n| campaign = Core\n| profession = Warrior\n| type = Shout\n| energy = 5\n| recharge = 45\n| causes1 = Adrenaline Gain\n| description = [[Shout]]. For 8 seconds, when you hit with an [[attack]], you gain 1 additional strike of [[adrenaline]].\n| concise description = Shout. (8 seconds.) You gain 1 extra strike of adrenaline whenever you hit with an attack.\n| is-pvp = y\n| aoe = None\n}}\n\n== Trivia ==\n* The phrase \"for great justice\" comes from the English (European) translation of the video game [[w:Zero_Wing|Zero Wing]], which is also the source of the [[\"Make Your Time!\"]] skill name and the \"[[w:All your base are belong to us|All your base are belong to us]]\" phrase.\n\n{{DEFAULTSORT:For Great Justice!}}\n\n[[de:Für höhere Gerechtigkeit! (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Keen Chop",
+  "pageid": 51898,
+  "revid": 2742373,
+  "revisedAt": "2026-10-07T14:34:12Z",
+  "sha1": "9b6e5abb872f558945132416cba3ceb5c06d9fc8",
+  "url": "https://wiki.guildwars.com/wiki/Keen_Chop",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Keen%20Chop&oldid=2742373",
+  "retrievedAt": "2026-11-16T15:41:32.012Z",
+  "wikitext": "{{Skill infobox\n| name=Keen Chop\n| id = 2009\n| campaign=Eye of the North\n| profession=Warrior\n| attribute=Axe Mastery\n| type=Axe Attack\n| adrenaline = 3\n| causes1 = Critical Hit\n| description = [[Axe Attack]]. If it hits, this attack always results in a [[critical hit]].\n| concise description = Axe Attack. Always a critical hit.\n}}\n\n==Acquisition==\n'''[[Skill trainer]]s'''\n*[[Micah Fergson]] ([[Eye of the North (outpost)|Eye of the North]])\n*[[Sida]] ([[Gunnar's Hold]])\n*[[Ybbob]] ([[Rata Sum]])\n\n==Hero Usage==\n* Heroes will use this skill whenever it is charged, but with lower priority than skills with greater/additional effect(s).\n\n==Notes==\n\n\n==Related skills==\n*{{skill icon|Wild Blow}}\n\n==Trivia==\n*The warrior displayed on the [[skill icon]] is wearing [[warrior Tyrian armor|Tyrian armor]].\n\n[[Category:Hero-vetted skills]]\n[[Category:Essentially unlinked skills]]"
+}

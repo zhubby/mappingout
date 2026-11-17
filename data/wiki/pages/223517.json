@@ -1,0 +1,11 @@
+{
+  "title": "Mantra of Resolve (PvP)",
+  "pageid": 223517,
+  "revid": 2629677,
+  "revisedAt": "2018-06-18T17:36:41Z",
+  "sha1": "ffa3f9a2dfce686dda5ca1e2a67935215e9bb55a",
+  "url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mantra%20of%20Resolve%20(PvP)&oldid=2629677",
+  "retrievedAt": "2026-11-16T15:41:35.724Z",
+  "wikitext": "{{pveversion|Mantra of Resolve}}\n{{Skill infobox\n| name = Mantra of Resolve (PvP)\n| id = 3063\n| image = [[File:Mantra of Resolve (PvP).jpg]]\n| campaign = Core\n| profession = Mesmer\n| attribute = Inspiration Magic\n| type = Stance\n| energy = 10\n| recharge = 20\n| is-pvp = y\n| causes1 = Energy Loss\n| description = [[Stance]]. For 5 seconds, you cannot be [[interrupt]]ed, but each time you would have been interrupted, you lose {{gr|10|4}} [[Energy]] or Mantra of Resolve ends.\n| concise description = Stance. (5 seconds.) Prevents interrupts against you. {{gray|Prevention cost: lose {{gr|10|4}} Energy or Mantra of Resolve ends.}}\n}}\n\n{{Skill progression\n|attribute = [[Inspiration Magic]]\n|var1 name = [[Energy]] loss\n|var1 at0 = 10\n|var1 at15 = 4}}\n\n== Related skills ==\n* {{skill icon|Glyph of Concentration}}\n* {{skill icon|Mantra of Concentration}}\n* {{skill icon|Pious Concentration}}\n\n== Notes ==\n* When Mantra of Resolve successfully prevents an interrupt, it removes the set amount of energy; however, if the [[character]] does not have enough energy for removal, Mantra of Resolve will still prevent one interruption, then it will finally end. This also applies to [[Distortion]]. \n\n[[Category:Mantras]]\n\n[[de:Mantra des Abschlusses (PvP)]]"
+}

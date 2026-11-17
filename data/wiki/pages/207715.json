@@ -1,0 +1,11 @@
+{
+  "title": "Empowerment (PvP)",
+  "pageid": 207715,
+  "revid": 2720884,
+  "revisedAt": "2026-02-10T01:28:21Z",
+  "sha1": "a8e243108de297513d002a86f525fffe1ae0d087",
+  "url": "https://wiki.guildwars.com/wiki/Empowerment_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Empowerment%20(PvP)&oldid=2720884",
+  "retrievedAt": "2026-11-16T15:41:19.538Z",
+  "wikitext": "{{pveversion|Empowerment}}\n{{Skill infobox\n| name = Empowerment (PvP)\n| id = 3024\n| campaign = Nightfall\n| profession = Ritualist\n| attribute = Spawning Power\n| type = Binding Ritual\n| energy = 5\n| activation = 3\n| recharge = 30\n| causes1 = Spirit\n| causes2 = Increased Maximum Health\n| description = [[Binding Ritual]]. Create a level {{gr|1|10}} [[spirit]]. All [[Ally|allies]] within its [[Spirit range|range]] holding an item gain {{gr|15|45}} maximum [[Health]] and 10 maximum [[Energy]]. This spirit dies after {{gr|15|60}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|10}} spirit ({{gr|15|60}} second lifespan).  Allies in range holding an item gain {{gr|15|45}} maximum Health and 10 maximum Energy.\n| is-pvp = y\n| aoe = spirit\n}}\n{{Skill progression\n| attribute = [[Spawning Power]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 10\n| var2 name = + Max [[health]]\n| var2 at0 = 15\n| var2 at15 = 45\n| var3 name = [[Duration]]\n| var3 at0 = 15\n| var3 at15 = 60}}\n\n== Notes ==\n*This skill creates a [[Spirit of Empowerment]].\n\n== Trivia ==\n*The functionality of this skill has changed since its introduction; see its [[Empowerment/Skill history|PvE]] and [[Empowerment (PvP)/Skill history|PvP]] skill histories for details.\n\n[[Category:Skills that affect allies]]\n\n[[de:Ermächtigung (PvP)]]"
+}

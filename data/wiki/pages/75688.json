@@ -1,0 +1,11 @@
+{
+  "title": "Yellow Snow",
+  "pageid": 75688,
+  "revid": 2630259,
+  "revisedAt": "2018-06-18T17:57:31Z",
+  "sha1": "2ac77268f02a93feefaf17804411b30359a1ac19",
+  "url": "https://wiki.guildwars.com/wiki/Yellow_Snow",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Yellow%20Snow&oldid=2630259",
+  "retrievedAt": "2026-11-16T15:42:08.913Z",
+  "wikitext": "{{skill infobox\n| id = 1007\n| name = Yellow Snow\n| campaign = Core\n| type = Preparation\n| special = Snow fighting\n| activation = {{3/4}}\n| recharge = 12\n| causes1 = Disease\n| removes1 = Condition\n| description = [[Preparation]]. Lose one [[condition]]. Your next snowball causes [[Disease]] for 10 seconds.\n| concise description = Preparation. Lose one condition. Your next snowball causes Disease ( 10 seconds.) {{sic|There is a space between the bracket \"(\" and \"10\"}}\n}}\n\n== Acquisition ==\nThis skill is given to Grenth players in a [[Dwayna Vs Grenth]] match, as well as in [[The Great Snowball Fight of the Gods (PvP)|The Great Snowball Fight of the Gods]] and certain repeatable [[Wintersday]] quests.\n\n== Notes ==\n* This skill is only available to players during Wintersday events.\n* This skill is used by [[Grentch (summon)|Grentch]] from summoning stones.\n\n== Trivia ==\n* The name of this skill likely revolves around [[w:toilet humor|toilet humor]].\n{{Anomaly|When used by a [[Ranger]], the skill activation animation is used, instead of a preparation animation.}}\n\n[[Category:Preparations]]\n\n[[de:Gelber Schnee]]"
+}

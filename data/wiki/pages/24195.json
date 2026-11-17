@@ -1,0 +1,11 @@
+{
+  "title": "Journey to the Master",
+  "pageid": 24195,
+  "revid": 2627733,
+  "revisedAt": "2018-05-30T16:39:01Z",
+  "sha1": "bdbf3e4fc42b5f4cf169e883bb5c0a1b724c7567",
+  "url": "https://wiki.guildwars.com/wiki/Journey_to_the_Master",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Journey%20to%20the%20Master&oldid=2627733",
+  "retrievedAt": "2026-11-16T13:46:57.762Z",
+  "wikitext": "{{Quest infobox\n| name = Journey to the Master\n| image = [[Image:Linnok Courtyard.jpg|200px]]\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Sister Tai]]\n| given at = [[Panjiang Peninsula]]\n| preceded by = [[The Threat Grows]]\n| followed by = [[The Road Less Traveled]]\n}}\nHaving warned the western part of Shing Jea Island about the threat the plague poses, hurry to Togo for further instructions on the east.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n}}\n\n===Objectives===\n* Meet [[Master Togo]] in the [[Linnok Courtyard]].\n\n===Reward===\n* 1,500 [[Experience]]\n* 100 [[Gold]]\n\n==Walkthrough==\nMap travel to [[Shing Jea Monastery]] and go through the portal to Linnok Courtyard. Speak with Master Togo to collect your quest reward.\n\n==Dialogue==\n===Initial dialogue===\n;Sister Tai\n'''''Master Togo''' sent word that he wants to speak with you when you are finished here. He asked that you meet him back at the monastery in the '''Linnok Courtyard'''.''\n{{ Offer dialog\n| accept = I will meet with Master Togo.\n| decline = I would rather stay here.\n| ask = Master Togo awaits you in the '''Linnok Courtyard'''.\n}}\n\n===Reward dialogue===\n;Master Togo\n''I am glad to hear you were able to warn the [[Angchu]] Tengu and help them drive off the plague creatures assaulting the village. I expected no less from you, <Character name>.''\n\n''Although I am loathe to place my students in the way of danger, I find that the current crisis leaves me little choice. I have sent [[Yijo Tahn]] into the fray, and I hope that I can continue to count on you as well.''"
+}

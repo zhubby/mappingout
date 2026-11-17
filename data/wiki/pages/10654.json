@@ -1,0 +1,11 @@
+{
+  "title": "Lightbringer's Gaze",
+  "pageid": 10654,
+  "revid": 2675377,
+  "revisedAt": "2021-10-24T03:14:45Z",
+  "sha1": "14e36e29f328b45a967611c1cd8be3a715d14582",
+  "url": "https://wiki.guildwars.com/wiki/Lightbringer%27s_Gaze",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lightbringer's%20Gaze&oldid=2675377",
+  "retrievedAt": "2026-11-16T15:41:33.653Z",
+  "wikitext": "{{Skill infobox\n| id = 1814\n| name = Lightbringer's Gaze\n| campaign = Nightfall\n| type = Skill\n| attribute = Lightbringer rank\n| pve-only = y\n| energy = 5\n| activation = 1\n| recharge = 15\n| target = foes\n| range = casting\n| aoe = in the area\n| causes1 = Holy Damage\n| causes2 = Interrupt\n| causes3 = Disable\n| description = [[Skill (skill type)|Skill]]. [[Target]] demonic servant of [[Abaddon]] takes 100 [[holy damage]] and is [[interrupt]]ed. This skill strikes one additional [[foe]] [[in the area]] for each rank of [[Lightbringer rank|Lightbringer]] you have attained. This skill is [[disable]]d for 15 seconds after it is used.\n| concise description = Skill. Target demonic servant of Abaddon takes 100 holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. {{gray|This skill is disabled (15 seconds).}}\n}}\n\n==Acquisition==\n[[Seeker of Whispers]] in the [[Chantry of Secrets]] will award this skill for achieving the title of [[Lightbringer rank|Adept Lightbringer]].\n\n==Notes==\n*This skill can only target [[Lightbringer#Demonic Servants of Abaddon|demonic servants of Abaddon]]. It will [[fail]] against other foes, displaying a notice.\n**However, the secondary hits from increased ranks in the title track can affect non-demonic enemies, e.g. Kournan soldiers, provided that the initial target was valid.\n*[[Quickening Zephyr]] and [[Serpent's Quickness]] decrease the recharge time as well as disabling time of this skill.\n{{anomaly|The holy damage from this skill is reduced by [[Armor rating|armor]].}}\n{{anomaly|The animation for this skill is the same as a [[signet]].}}\n{{anomaly|The additional foes are not interrupted.}}\n\n[[de:Blick des Lichtbringers]]"
+}

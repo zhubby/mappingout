@@ -1,0 +1,11 @@
+{
+  "title": "Junundu Bite",
+  "pageid": 26968,
+  "revid": 2629499,
+  "revisedAt": "2018-06-18T17:34:25Z",
+  "sha1": "3502fbc1f9a77c7c4d99043fc57e2432f23f3c74",
+  "url": "https://wiki.guildwars.com/wiki/Junundu_Bite",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Junundu%20Bite&oldid=2629499",
+  "retrievedAt": "2026-11-16T15:41:31.262Z",
+  "wikitext": "{{Skill infobox\n| name = Junundu Bite\n| campaign = Nightfall\n| type = Touch skill\n| activation = 1\n| recharge = 8\n| special = Junundu\n| range = touch\n| description = [[Skill (skill type)|Skill]]. [[Target]] [[Touch skill|touched]] [[foe]] is struck for 375 [[piercing damage]]. If you strike a [[Knock down|knocked down]] foe, you [[Health gain|gain]] 500 Health.\n| concise description = Touch Skill. Deals 375 piercing damage. You are healed for 500 if target foe is knocked-down.\n| target = foes\n}}\n\n== Acquisition ==\nThis skill is available whenever your character is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] onward through the rest of the [[Desolation]].\n\n== Notes ==\n* If you use Junundu Bite immediately after you use [[Junundu Smash]], the knock down caused by Junundu Smash lasts just long enough to gain health from Junundu Bite.\n* If used while in the [[Junundu Tunnel]] stance, the knock down is applied before Junundu Bite is finished, thereby gaining health from this skill.\n{{bug|Contrary to the descriptions, this skill causes health gain and not [[healing]].}}\n\n[[de:Junundus Biss]]"
+}

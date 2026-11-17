@@ -1,0 +1,11 @@
+{
+  "title": "Melandru's Assault (PvP)",
+  "pageid": 215110,
+  "revid": 2733308,
+  "revisedAt": "2026-07-05T17:33:46Z",
+  "sha1": "4306c6ac52440cf52254c68d70e51cc5fdad20aa",
+  "url": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Melandru's%20Assault%20(PvP)&oldid=2733308",
+  "retrievedAt": "2026-11-16T15:41:36.239Z",
+  "wikitext": "{{Pveversion|Melandru's Assault}}\n{{Skill infobox\n| name = Melandru's Assault (PvP)\n| id = 3047\n| campaign = Prophecies\n| profession = Ranger\n| attribute = Beast Mastery\n| type = Pet Attack\n| energy = 10\n| recharge = 5\n| is-pvp = y\n| description=\n[[Pet Attack]]. Your [[animal companion]] attempts a [[Melandru]]'s Assault that deals {{gr|5|20|+}} damage. If that attack strikes a [[foe]] with an [[enchantment]], that foe and all [[adjacent]] foes take {{gr|5|35|+}} additional damage.\n| concise description = Pet Attack. Deals {{gr|5|20|+}} damage. Deals {{gr|5|35|+}} more damage to target and foes adjacent to target if this foe is enchanted.\n| aoe = adjacent\n}}\n\n{{Skill progression\n|attribute = [[Beast Mastery]]\n|var1 name = + [[Damage]]\n|var1 at0 = 5\n|var1 at15 = 20\n|var2 name = + Damage (enchanted foe)\n|var2 at0 = 5\n|var2 at15 = 35\n}}\n\n[[de:Melandrus Angriff (PvP)]]\n[[Category:Skills named after eponymous NPCs]]"
+}

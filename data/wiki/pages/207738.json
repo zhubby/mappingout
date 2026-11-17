@@ -1,0 +1,11 @@
+{
+  "title": "Armor of Unfeeling (PvP)",
+  "pageid": 207738,
+  "revid": 2628512,
+  "revisedAt": "2018-06-18T17:18:50Z",
+  "sha1": "a417710854930921e840d3b738cdb8aa1e8c3db8",
+  "url": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Armor%20of%20Unfeeling%20(PvP)&oldid=2628512",
+  "retrievedAt": "2026-11-16T15:41:07.282Z",
+  "wikitext": "{{pveversion|Armor of Unfeeling}}\n\n{{Skill infobox\n| name = Armor of Unfeeling (PvP)\n| id = 3003\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Enchantment Spell\n| energy = 10\n| activation = 1\n| recharge = 20\n| causes1 = Damage Reduction\n| description = [[Enchantment Spell]]. For {{gr|10|35}} seconds, you have 10 base [[damage reduction]] while casting [[Binding Ritual]]s.\n| concise description = Enchantment Spell. ({{gr|10|35}} seconds.) You have 10 base damage reduction while casting binding rituals.\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Communing]]\n|var1 name = [[Duration]]\n|var1 at0 = 10\n|var1 at15 = 35}}\n\n[[de:Rüstung der Gefühllosigkeit (PvP)]]"
+}

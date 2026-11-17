@@ -1,0 +1,11 @@
+{
+  "title": "Devourer Siege",
+  "pageid": 66501,
+  "revid": 2628704,
+  "revisedAt": "2018-06-18T17:25:23Z",
+  "sha1": "ba1b3acfc30b6830ca46f5ad39dd1848342f9f2b",
+  "url": "https://wiki.guildwars.com/wiki/Devourer_Siege",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Devourer%20Siege&oldid=2628704",
+  "retrievedAt": "2026-11-16T15:41:17.213Z",
+  "wikitext": "{{Skill infobox\n| name = Devourer Siege\n| campaign = Eye of the North\n| type = Skill\n| special = Devourer\n| energy = 5\n| activation = {{3/4}}\n| recharge = 10\n| overcast = 10\n| target = foes\n| aoe = nearby\n| causes1 = Fire Damage\n| causes2 = Knockdown\n| description = [[Skill (skill type)|Skill]]. Launch two [[projectile]]s at [[target]] [[foe]]'s location. Foes [[Nearby|near]] that location are struck for 150 [[fire damage]] and [[knocked down]]. This skill cannot target a foe near you.\n| concise description = Skill. Two projectiles: deal 150 fire damage; causes knock-down. Hits foes near target. {{gray|Cannot target foes near you.}}\n}}\n\n==Related skills==\n*{{skill icon|Junundu Siege}}\n\n==Notes== \n*This skill is used by [[Molotov Rocktail]], [[Devourer Catapult]] and [[Siege Devourer]]s.\n\n[[Category:Projectile skills]]\n[[Category:Skills that cannot be used on nearby foes]]\n\n[[de:Verschlinger-Wehr]]"
+}

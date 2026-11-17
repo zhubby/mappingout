@@ -1,0 +1,11 @@
+{
+  "title": "Eruption (environment)",
+  "pageid": 140603,
+  "revid": 2581906,
+  "revisedAt": "2015-01-27T09:59:20Z",
+  "sha1": "1fdd5dad4b3e162f7bc80c0966c13c1bfb5156a3",
+  "url": "https://wiki.guildwars.com/wiki/Eruption_(environment)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Eruption%20(environment)&oldid=2581906",
+  "retrievedAt": "2026-11-16T15:41:20.657Z",
+  "wikitext": "{{Skill infobox\n| id = 488\n| name = Eruption\n| campaign = Prophecies\n| image = [[Image:Eruption (environment).jpg]]\n| type = Spell\n| description = [[Spell]]. Eruption\n| concise description = Spell. Eruption\n| special = Environment\n}}\n\n== Related skills ==\n* {{Skill icon|Chain Lightning (environment)}}\n* {{Skill icon|Eruption}}\n* {{Skill icon|Fire Storm (environment)}}\n* {{Skill icon|Maelstrom (environment)}}\n\n== Notes ==\n* Encountered during [[the Dragon's Lair]] mission.\n* Inflicts 35 [[damage per second]] against [[armor rating]] 60, the final pulse inflicts [[blind]].{{verify|Does it deal earth damage or untyped damage? Also missing blind duration.}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Call of Haste (PvP)",
+  "pageid": 215066,
+  "revid": 2658378,
+  "revisedAt": "2020-05-13T13:31:17Z",
+  "sha1": "cbcb887fc5a4a8be84db911917ef17be1e7ebc16",
+  "url": "https://wiki.guildwars.com/wiki/Call_of_Haste_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Call%20of%20Haste%20(PvP)&oldid=2658378",
+  "retrievedAt": "2026-11-16T15:41:10.929Z",
+  "wikitext": "{{pveversion|Call of Haste}}\n{{Skill infobox\n| id = 2657\n| name = Call of Haste (PvP)\n| campaign = Core\n| profession = Ranger\n| attribute = Beast Mastery\n| type = Shout\n| energy = 10\n| recharge = 25\n| is-pvp = y\n| causes1 = Increased Movement Speed\n| causes2 = Increased Attack Speed\n| description = [[Shout]].  For 30 seconds, your [[animal companion]] has a 25% faster [[attack speed]] and [[Speed boost|moves 25% faster]].\n| concise description = Shout. (30 seconds.) Your pet moves and attacks 25% faster.\n|aoe = None\n}}\n\n==Notes==\n*Though pets move 25% faster than players, it is not counted against them when being given a movement speed bonus, effectively increasing them to be moving 56.2% faster than players, and conveniently helps to better place time sensitive pet attacks ([[Disrupting Lunge]] or [[Bestial Pounce]], for example).\n\n==Trivia==\n* The functionality of this skill has changed since its introduction; see its [[Call of Haste/Skill history|PvE]] and [[Call of Haste (PvP)/Skill history|PvP]] skill histories for details.\n\n[[Category:Pet skills]]\n[[Category:Essentially unlinked skills]]\n\n[[de:Ruf der Eile (PvP)]]"
+}

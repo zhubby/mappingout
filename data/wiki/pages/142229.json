@@ -1,0 +1,11 @@
+{
+  "title": "Mystic Regeneration (PvP)",
+  "pageid": 142229,
+  "revid": 2738605,
+  "revisedAt": "2026-08-26T22:38:31Z",
+  "sha1": "4ba6fbae1df6e6f7888e85daf12702581c9acada",
+  "url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mystic%20Regeneration%20(PvP)&oldid=2738605",
+  "retrievedAt": "2026-11-16T15:41:38.393Z",
+  "wikitext": "{{Pveversion|Mystic Regeneration}}\n{{Skill infobox\n| id = 2884\n| name = Mystic Regeneration (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Earth Prayers\n| type = Enchantment Spell\n| energy = 15\n| recharge = 15\n| activation = {{1/4}}\n| is-pvp = y\n| causes1 = Health Regeneration\n| description = [[Enchantment Spell]].  For {{gr|5|20}} seconds, you have  {{gr|1|4|+}} [[Health regeneration]] for each enchantment (maximum of 3) on you.\n| concise description = Enchantment Spell. ({{gr|5|20}} seconds.) You have {{gr|1|4|+}} Health regeneration for each enchantment (maximum of 3) on you.\n| target = self\n}}\n\n{{Skill progression\n|attribute = [[Earth Prayers]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 20\n|var2 name = [[Health regeneration]]\n|var2 at0 = 1\n|var2 at15 = 4}}\n\n== Trivia ==\n* The functionality of this skill has changed since its introduction; see its [[Mystic Regeneration/Skill history|PvE]] and [[Mystic Regeneration (PvP)/Skill history|PvP]] skill histories for details.\n\n[[de:Mystische Regeneration (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Track Down Su",
+  "pageid": 25382,
+  "revid": 2627836,
+  "revisedAt": "2018-05-30T19:06:35Z",
+  "sha1": "1fe55b3819d82a6a9329a343a8e0985100d7227d",
+  "url": "https://wiki.guildwars.com/wiki/Track_Down_Su",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Track%20Down%20Su&oldid=2627836",
+  "retrievedAt": "2026-11-16T13:47:34.292Z",
+  "wikitext": "{{Quest infobox\n| name = Track Down Su\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Reng Ku]]\n| given at = [[Sunqua Vale]]\n| preceded by = [[Little Creatures]]\n| followed by = [[Reaping the Naga]]\n| profession = Necromancer\n| primary = y\n| secondary = n\n}}\nTravel to find the second necromancer trainer.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Necromancer\n| primary = y\n| secondary = n\n}}\n\n===Objectives===\n* Look for [[Su]] in [[Panjiang Peninsula]]\n\n===Reward===\n* 600 [[Experience]]\n* 50 [[Gold]]\n\n==Walkthrough==\nSu is in the south of Panjiang Peninsula, outside [[Raiyan Cave]]. \n\n==Dialogue==\n===Initial dialogue===\n;Reng Ku\n''I have taught you all I can be bothered to. I am sure you will make a fine Necromancer...or, more likely, you will die trying.''\n\n''My sister is waiting for you in [[Panjiang Peninsula]]. Her name is [[Su]]. She will be absolutely thrilled to continue your studies, I just know it. Find her and tell her that we have completed initial lessons.''\n{{ Offer dialog\n| accept = I'll look for Su in Panjiang Peninsula.\n| decline = I think I'd like to go hunting for a bit, first.\n| ask = 'My sister is in [[Panjiang Peninsula]]. I wouldn't make her wait if I were you....\n}}\n\n===Reward dialogue===\n;Su\n:''I suppose my brother sent you. Oh, joy. Just what I need: another novice to waste my time. Well, perhaps I can find a use for you if I put my mind to it.''"
+}

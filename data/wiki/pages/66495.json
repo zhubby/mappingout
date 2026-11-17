@@ -1,0 +1,11 @@
+{
+  "title": "Siege Devourer Feast",
+  "pageid": 66495,
+  "revid": 2723020,
+  "revisedAt": "2026-03-16T19:48:48Z",
+  "sha1": "f326d44d5e252c728abe2a626a4429088ee64173",
+  "url": "https://wiki.guildwars.com/wiki/Siege_Devourer_Feast",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Siege%20Devourer%20Feast&oldid=2723020",
+  "retrievedAt": "2026-11-16T15:41:52.087Z",
+  "wikitext": "{{Skill infobox\n| name = Siege Devourer Feast\n| campaign = Eye of the North\n| type = Skill\n| special = Devourer\n| energy = 5\n| activation = {{3/4}}\n| recharge = 10\n| description = Skill. Exploit one [[adjacent]] [[corpse]] to [[Health gain|gain 200 Health]].\n| concise description = Skill. Gain 200 Health. {{gray|Requires an adjacent fresh corpse.}}\n}}\n\n== Related skills ==\n* {{skill icon|Soul Feast}}\n\n[[Category:Skills that cause Exploits Corpse]]\n\n[[de:Wehr-Verschlinger-Schmaus]]"
+}

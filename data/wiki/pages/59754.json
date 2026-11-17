@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Flare",
+  "pageid": 59754,
+  "revid": 2629812,
+  "revisedAt": "2018-06-18T17:41:38Z",
+  "sha1": "4fae091c0a8c370086f0dcd9c903dad037ea4f7e",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Flare",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Flare&oldid=2629812",
+  "retrievedAt": "2026-11-16T15:41:40.919Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Flare\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 1\n| activation = 1\n| recharge = 1\n| description = [[Spell]]. Send out a Flare that strikes [[target]] [[foe]] for 120 [[damage]] if it hits.\n| concise description = Spell. Projectile: deals 120 damage.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Charr Flamecaller Form]]\n*[[Fire Elemental Form]]\n*[[Fire Imp Form]]\n*[[Ruby Djinn Form]]\n*[[Titan Form]]\n\n==Related skills==\n*{{skill icon|Flare}}\n*{{skill icon|Ice Spear}}\n*{{skill icon|Polymock Ice Spear}}\n*{{skill icon|Polymock Stone Daggers}}\n*{{skill icon|Stone Daggers}}\n\n[[de:Polymock-Feuergeschoss]]"
+}

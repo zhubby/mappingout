@@ -1,0 +1,11 @@
+{
+  "title": "Allegiance skill",
+  "pageid": 41356,
+  "revid": 2688710,
+  "revisedAt": "2023-07-20T20:20:58Z",
+  "sha1": "2750ffee9e670c8738d7e0a6da99e74b008b7b66",
+  "url": "https://wiki.guildwars.com/wiki/Allegiance_skill",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Allegiance%20skill&oldid=2688710",
+  "retrievedAt": "2026-11-16T15:41:05.969Z",
+  "wikitext": "[[Allegiance skill]]s are special [[PvE-only skill]]s available to [[character]]s on [[account]]s with the [[Factions]] [[campaign]].\n*They are linked to the [[allegiance rank]] title in the same way many skills are linked to character [[attribute]]s. The higher your rank in a title, the better the effects of all the skills of that faction for all your characters.\n*They can be obtained in exchange for 3,000 [[Luxon faction]] points or [[Kurzick faction]] points per skill; they are available from [[Luxon Scavenger]]s and [[Kurzick Bureaucrat]]s in [[Guild Hall]]s and some Factions outposts.\n*You must have at least rank 1 in the the corresponding title track, and you have to be level 20 to learn any skills of that faction.\n*Being PvE-only skills, allegiance skills cannot be equipped by [[hero]]es.\n*You can not equip both Luxon and Kurzick skills on the same [[skill bar]] at the same time.\n\n==Allegiance skills==\n{{see|List of PvE-only skills#Allegiance skills}}\n*{{w}} {{skill icon|\"Save Yourselves!\"}}\n*{{r}} {{skill icon|Triple Shot}}\n*{{mo}} {{skill icon|Selfless Spirit}}\n*{{n}} {{skill icon|Signet of Corruption}}\n*{{me}} {{skill icon|Ether Nightmare}}\n*{{e}} {{skill icon|Elemental Lord}}\n*{{a}} {{skill icon|Shadow Sanctuary}}\n*{{rt}} {{skill icon|Summon Spirits}}\n*{{p}} {{skill icon|Spear of Fury}}\n*{{d}} {{skill icon|Aura of Holy Might}}\n\n==Notes==\n{{anomaly|When you try to equip both a Kurzick and a Luxon allegiance skill, the message informs you of having more than 3 PvE-only skills.}}\n{{anomaly|When your character does not have a secondary [[profession]], all allegiance skills appear in your [K] window, allowing you to equip up to 3 allegiance skills from any profession. However, skill [[template]]s of such bars cannot be loaded after saving and do not result in viable links if sent to the [[chat window]].}}\n\n[[Category:Allegiance rank skills|*]]"
+}

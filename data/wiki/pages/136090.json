@@ -1,0 +1,11 @@
+{
+  "title": "Penetrating Attack (PvP)",
+  "pageid": 136090,
+  "revid": 2738463,
+  "revisedAt": "2026-08-26T21:12:36Z",
+  "sha1": "7cd40a3636366f23ad4d967e35b08ffbfa649275",
+  "url": "https://wiki.guildwars.com/wiki/Penetrating_Attack_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Penetrating%20Attack%20(PvP)&oldid=2738463",
+  "retrievedAt": "2026-11-16T15:41:39.557Z",
+  "wikitext": "{{Pveversion|Penetrating Attack}}\n{{Skill infobox\n| name = Penetrating Attack (PvP)\n| id = 2861\n| campaign = Prophecies\n| profession = Ranger\n| attribute = Marksmanship\n| type = Bow Attack\n| energy = 10\n| recharge = 4\n| activation = 1\n| special = duplicate\n| causes1 = Armor Penetration\n| description = [[Bow Attack]]. If Penetrating Attack hits, you strike for {{gr|5|15|+}} [[damage]] and this attack has 10% [[armor penetration]].\n| concise description = Bow Attack. Deals {{gr|5|15|+}} damage. 10% armor penetration.\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Marksmanship]]\n| var1 name = + [[Damage]]\n| var1 at0 = 5\n| var1 at15 = 15}}\n\n==Related skills==\n*{{skill icon|Sundering Attack (PvP)}} ([[duplicate skill]])\n\n==Note==\n* The arrow leaves the bow {{1/2}} seconds into this skill's activation, as [[attack skill]]s hit halfway through their stated [[activation time]].\n\n[[de:Durchbohr-Angriff (PvP)]]"
+}

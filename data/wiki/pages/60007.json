@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Savannah Heat",
+  "pageid": 60007,
+  "revid": 2629848,
+  "revisedAt": "2018-06-18T17:42:51Z",
+  "sha1": "674b9a20d33f63e144682c934b5238bf2eca2dfe",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Savannah_Heat",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Savannah%20Heat&oldid=2629848",
+  "retrievedAt": "2026-11-16T15:41:42.046Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Savannah Heat\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 6\n| activation = 1\n| recharge = 20\n| description = [[Spell]]. You create Savannah Heat at target foe's location. For 5 seconds, that foe takes 100 damage each second and an additional 50 damage for each second this spell has been in effect.\n| concise description = Spell. Deals 100 damage each second (5 seconds) at target foe's location. Deals 50 more damage for each second since casting this spell.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Titan Form]]\n\n==Notes==\n{{bug|This skill has a bug that will occasionally cause it to continue damaging your character after your opponent's piece dies, possibly killing your piece and resulting in a draw.}}\n*This skill will damage your character if your piece dies during its duration, possibly resulting in a death- [[survivor]]s should be careful.\n\n==Related skills==\n*{{Skill icon|Savannah Heat}}\n\n[[de:Polymock-Hitze der Savanne]]"
+}

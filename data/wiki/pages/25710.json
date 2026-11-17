@@ -1,0 +1,11 @@
+{
+  "title": "Gain Norgu",
+  "pageid": 25710,
+  "revid": 2481143,
+  "revisedAt": "2012-04-28T19:34:29Z",
+  "sha1": "c5f2ffad2ba2f9428b65c82618165e8183a577d1",
+  "url": "https://wiki.guildwars.com/wiki/Gain_Norgu",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gain%20Norgu&oldid=2481143",
+  "retrievedAt": "2026-11-16T13:46:54.361Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Gain Norgu\n| campaign = Nightfall\n| section = Realm of Torment\n| region =Realm of Torment\n| type = Secondary\n| given by = [[Norgu]]\n| given at = [[Throne of Secrets]]\n| preceded by = [[Abaddon's Gate]]\n| followed by = [[Worst. Performance. Ever.]]\n}}\nFast acquisition of [[Norgu]].\n\n==Quest Information==\n===Requirements===\n* Only available if you have not recruited [[Norgu]] before and do not have [[The Role of a Lifetime]] active.\n\n===Objectives===\n* Make arrangements with [[Korvus]] to perform Norgu's Nightfall.\n\n===Reward===\n* 2,500 [[Experience]]\n* [[Norgu]] joins your party.\n\n==Walkthrough==\nMap back to [[Elona]], then map to [[Honur Hill]]. Speak with [[Korvus]].\n\n==Dialogue==\n===Initial dialogue===\n;Norgu\n:''I remember you from Vabbi, yes? That's precisely what I thought. I'm writing a play about your adventures called \"Norgu's Nightfall\". To write it, though, I need to hear the real stories! I'd like to join your troupe, interview you, and get the real story for my play. But, first you'll need to go sign an '''agreement''' at '''Honur Hill''' so I can write it without worrying about silly things like...oh...royalties. Will you do that?''\n{{offer dialog\n|accept = Of course I'll sign away my rights. This is for posterity, right?\n|decline = No way. I know how this works. I sign and three months from now I'm played by a guy in a gorilla suit.\n|ask = You still need to go see '''Korvus''' in '''Honur Hill''' and sign that '''agreement''' so I can write your play! }}\n\n===Reward dialogue===\n;Korvus\n:''You're here to sign the contract for Norgu's play? Excellent. I'm looking forward to seeing \"Norgu's Nightfall.\" I just hope it's not another play about food.''"
+}

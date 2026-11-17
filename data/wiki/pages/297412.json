@@ -1,0 +1,11 @@
+{
+  "title": "Annihilator Toss",
+  "pageid": 297412,
+  "revid": 2628496,
+  "revisedAt": "2018-06-18T17:18:18Z",
+  "sha1": "22e538446114a2cd3b9476f930bd6bc9c36e310c",
+  "url": "https://wiki.guildwars.com/wiki/Annihilator_Toss",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Annihilator%20Toss&oldid=2628496",
+  "retrievedAt": "2026-11-16T15:41:06.627Z",
+  "wikitext": "{{Skill infobox\n| name = Annihilator Toss\n| id = 3384\n| campaign = Core\n| special = G.O.L.E.M.\n| type = Touch skill\n| activation = 1\n| energy = 5\n| recharge = 15\n| target = \n| range = touch\n| aoe =\n| description = [[Skill]]. Throw [[target]] [[touch]]ed [[foe]] into lava. Only works near a suitably hot lava pit.\n| concise description = Touch Skill. Throw target into lava. {{gray|Only works near very hot lava.}}\n}}\n\n==Acquisition ==\nThis skill is available while under the [[G.O.L.E.M. (disguise)|G.O.L.E.M. disguise]] during the [[April Fools' Day]] quest [[Annihilator 2: Searing Day]].\n\n==Notes==\n* This skill is [[disable]]d anywhere except a predefined area around a lava pit in [[Ashford Catacombs: 1070 AE]].\n\n==Trivia==\n* It actually [[teleport]]s the target into the lava pit.\n\n[[de:Vernichter-Wurf]]"
+}

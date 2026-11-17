@@ -1,0 +1,11 @@
+{
+  "title": "Guided Weapon (PvP)",
+  "pageid": 321746,
+  "revid": 2738523,
+  "revisedAt": "2026-08-26T21:42:53Z",
+  "sha1": "d53781ff710870c467420e67c078da3fed060538",
+  "url": "https://wiki.guildwars.com/wiki/Guided_Weapon_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Guided%20Weapon%20(PvP)&oldid=2738523",
+  "retrievedAt": "2026-11-16T15:41:26.665Z",
+  "wikitext": "__NOTOC__{{Pveversion|Guided Weapon}}\n{{Skill infobox\n| id = 3462\n| name = Guided Weapon (PvP)\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Weapon Spell\n| energy = 5\n| activation = 2\n| recharge = 12\n| causes1 = Unblockable\n| description = [[Weapon Spell]]. For {{gr|4|10}} seconds, [[target]] [[ally]]'s [[attack]]s cannot be [[block]]ed.\n| concise description = Weapon Spell. ({{gr|4|10}} seconds.) Attacks are unblockable.\n| target = allies\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Communing]]\n| var1 name = [[Duration]]\n| var1 at0 = 4\n| var1 at15 = 10\n}}\n\n== Related skills ==\n* {{skill icon|Ghostly Weapon}}"
+}

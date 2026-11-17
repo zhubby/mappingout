@@ -1,0 +1,11 @@
+{
+  "title": "Phase Shield",
+  "pageid": 297389,
+  "revid": 2629786,
+  "revisedAt": "2018-06-18T17:40:46Z",
+  "sha1": "ca01531c76ad9b3d6c26763af2bcd6d201c72b0f",
+  "url": "https://wiki.guildwars.com/wiki/Phase_Shield",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Phase%20Shield&oldid=2629786",
+  "retrievedAt": "2026-11-16T15:41:39.557Z",
+  "wikitext": "{{otheruses|the player skill|the skill used by G.O.L.E.M. 2.0|Phase Shield (monster skill)}}\n{{Skill infobox\n| id = 3378\n| name = Phase Shield\n| special = G.O.L.E.M.\n| campaign = Core\n| type = Spell\n| energy = 15\n| activation = 1\n| recharge = 40\n| description = [[Spell]]. A shield surrounds the golem for 20 seconds, preventing up to 250 [[damage]] to [[nearby]] [[Ally|allies]]. Removes [[Spectral Agony]] from shielded targets.\n| concise description = Spell. (20 seconds.) A shield around the golem prevents up to 250 damage to nearby allies. Removes Spectral Agony from shielded targets.\n| target = self\n}}\n\n==Acquisition==\nThis skill is available while under the [[G.O.L.E.M. (disguise)|G.O.L.E.M. disguise]] during the [[April Fools' Day]] quest [[Annihilator 2: Searing Day]].\n\n== Related skills ==\n* {{Skill icon|Shield of Saint Viktor}}\n\n[[de:Phasenschild]]"
+}

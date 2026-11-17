@@ -1,0 +1,11 @@
+{
+  "title": "The Broken Sword",
+  "pageid": 269407,
+  "revid": 2486957,
+  "revisedAt": "2012-05-14T22:07:05Z",
+  "sha1": "a66b707d4141aa52c5024008dcbc928c06c42aa7",
+  "url": "https://wiki.guildwars.com/wiki/The_Broken_Sword",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Broken%20Sword&oldid=2486957",
+  "retrievedAt": "2026-11-16T13:47:21.490Z",
+  "wikitext": "{{ Quest infobox\n| id = \n| name = The Broken Sword\n| section = Primary Ebon Vanguard\n| preceded by = [[A Vengeance of Blades]]\n| followed by = [[Shadows in the Jungle]]\n| given by = [[Broken Sword]]\n| given at = [[Ettin's Back]]\n| region = Maguuma Jungle \n| campaign = Hearts of the North\n| map = [[Image:The Broken Sword map.jpg|200px]]\n| type = Primary\n}}\nHaving found the sword, report back to the Scrying Pool.\n\n==Objectives==\nInvestigate the [[Broken Sword|broken sword]] at the [[scrying pool]].\n\n==Rewards==\n* 1,000 [[Experience]]\n* 500 [[Gold]]\n\n== Dialogue ==\n=== Initial dialogue ===\n;Broken Sword\n''A broken sword lies on the ground. The make of the blade is familiar. You've seen these before: standard issue for the White mantle. A small battle appears to have been fought here, and signs of movement suggest that is carried forward into Aurora Glade. The Scrying pool should be able to show you what happened here.''\n{{offer dialog\n|accept = I've come this far!\n|decline = This is far enough!\n|ask = The site offers no further clues as to what transpired here.}}\n\n===Reward dialogue===\n;Scrying Pool\n''The scrying pool begins to react as you approach, thoughts of the broken sword fixed firmly in your mind.''\n\n==Notes==\n*You must watch all of Gwen's dialogue after completing [[A Vengeance of Blades]] for the broken sword to appear.\n\n[[Category:Hearts of the North quests]]"
+}

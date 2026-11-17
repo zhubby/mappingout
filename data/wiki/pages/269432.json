@@ -1,0 +1,11 @@
+{
+  "title": "\"There's Nothing to Fear!\" (Thackeray)",
+  "pageid": 269432,
+  "revid": 2655850,
+  "revisedAt": "2020-04-25T14:51:44Z",
+  "sha1": "147cc8fb512219bf8dabeb092986254627948e17",
+  "url": "https://wiki.guildwars.com/wiki/%22There%27s_Nothing_to_Fear!%22_(Thackeray)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22There's%20Nothing%20to%20Fear!%22%20(Thackeray)&oldid=2655850",
+  "retrievedAt": "2026-11-16T15:41:05.435Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| id = 3241\n| name = \"There's Nothing to Fear!\"\n| campaign = Hearts of the North\n| type = Shout\n| special = Keiran Thackeray\n| energy = 15\n| recharge = 20\n| description = [[Shout]]. For 60 seconds, reduces [[damage]] by 10% for [[allies]] [[within earshot]]. Affected allies are [[heal]]ed for 35 when this shout ends.\n| concise description = Shout. (60 seconds.) Reduces damage by 10% for allies within earshot. End effect: heals for 35.\n| aoe = earshot\n}}\n\n== Acquisition ==\nThis skill is temporarily acquired during [[Rise]].\n\n==Related skills==\n*{{skill icon|\"There's Nothing to Fear!\"}}\n\n== Notes ==\n* This skill's energy cost is reduced by [[Expertise]].\n{{DEFAULTSORT:There's Nothing to Fear!}}"
+}

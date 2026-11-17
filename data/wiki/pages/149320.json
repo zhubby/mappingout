@@ -1,0 +1,11 @@
+{
+  "title": "Seed of Resurrection",
+  "pageid": 149320,
+  "revid": 2635287,
+  "revisedAt": "2018-12-05T20:28:42Z",
+  "sha1": "6dbbd31056833d31a111a4a8f971e62dd468406f",
+  "url": "https://wiki.guildwars.com/wiki/Seed_of_Resurrection",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Seed%20of%20Resurrection&oldid=2635287",
+  "retrievedAt": "2026-11-16T15:41:49.724Z",
+  "wikitext": "{{skill infobox\n| id = 509\n| name = Seed of Resurrection\n| campaign = Core\n| type = Signet\n| special = Bundle\n| description = [[Signet]]. [[Resurrection|Resurrect]] all [[Ally|allies]] within [[range]].\n| concise description = Signet. Resurrect all allies within range.\n}}\n\n== Notes ==\n* Activated by dropping a [[Resurrection Orb]] [[bundle]].\n* The resurrection range is [[earshot]].<!-- as noted by [[Resurrection Orb]]-->\n\n[[Category:Resurrection skills]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Gaze of Fury (PvP)",
+  "pageid": 207949,
+  "revid": 2661326,
+  "revisedAt": "2020-05-31T23:06:22Z",
+  "sha1": "0bbdc03f4ee953ea39e2f4ee0ae3ef585cdde36f",
+  "url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gaze%20of%20Fury%20(PvP)&oldid=2661326",
+  "retrievedAt": "2026-11-16T15:41:24.375Z",
+  "wikitext": "{{pveversion|Gaze of Fury}}\n{{Skill infobox\n| name = Gaze of Fury (PvP)\n| id = 3022\n| campaign = Nightfall\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Binding Ritual\n| is-pvp = y \n| energy = 10\n| activation = 2\n| recharge = 20\n| target = spirits\n| range = Casting\n| aoe = none\n| causes1 = Spirit\n| removes1 = Spirit\n| description = [[Binding Ritual]]. Destroy [[target]] [[Ally|allied]] [[spirit]] and create a level {{gr|1|10}} [[Spirit of Fury]]. This spirit's [[attack]]s deal {{gr|5|20}} [[damage]]. This spirit dies after {{gr|30|60}} seconds.\n| concise description = Binding Ritual. Destroys an allied spirit. Creates a level {{gr|1|10}} spirit ({{gr|30|60}} second lifespan). Its attacks deal {{gr|5|20}} damage.\n}}\n\n{{Skill progression\n| attribute = [[Channeling Magic]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 10\n| var2 name = [[Damage]]\n| var2 at0 = 5\n| var2 at15 = 20\n| var3 name = [[Duration]]\n| var3 at0 = 30\n| var3 at15 = 60}}\n\n== Notes ==\n* Use on spirits that will expire soon.\n{{anomaly|Can be used on any target, not just allied spirits; can also be cast without a target. If the target is not an allied spirit, it will destroy the allied spirit [[spirit range|closest to the target]]. If cast without a target, it will destroy the allied spirit closest to the caster.}}\n\n== Trivia ==\n* The functionality of this skill has changed since its introduction; see its [[/Skill history|skill revision history]] for details.\n\n[[Category:Skills that target allies or foes]]\n\n[[de:Wütendes Starren (PvP)]]"
+}

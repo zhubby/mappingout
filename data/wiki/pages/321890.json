@@ -1,0 +1,11 @@
+{
+  "title": "Fight or Flight",
+  "pageid": 321890,
+  "revid": 2739726,
+  "revisedAt": "2026-09-07T13:23:51Z",
+  "sha1": "d10a496b2124688dc3ceff7fd5ff690478919053",
+  "url": "https://wiki.guildwars.com/wiki/Fight_or_Flight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fight%20or%20Flight&oldid=2739726",
+  "retrievedAt": "2026-11-16T15:41:22.673Z",
+  "wikitext": "{{Skill infobox\n| id = 3361\n| name = Fight or Flight\n| campaign = Core\n| type = Effect\n| description = Your attack speed and movement speed are increased by 20% while your Health is below 20%.\n| concise description = +20% attack speed and movement speed while below 20% Health.\n}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Life (PvP)",
+  "pageid": 208132,
+  "revid": 2720892,
+  "revisedAt": "2026-02-10T01:29:25Z",
+  "sha1": "02ab08ed4e9159bdea23847902ee15c511a49973",
+  "url": "https://wiki.guildwars.com/wiki/Life_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Life%20(PvP)&oldid=2720892",
+  "retrievedAt": "2026-11-16T15:41:33.655Z",
+  "wikitext": "{{pveversion|Life}}\n{{Skill infobox\n| name = Life (PvP)\n| id = 3012\n| campaign = Factions\n| profession = Ritualist\n| attribute = Restoration Magic\n| type = Binding Ritual\n| energy = 10\n| activation = 3\n| recharge = 20\n| causes1 = Spirit\n| causes2 = Healing\n| description = [[Binding Ritual]]. Create a level {{gr|1|10}} [[spirit]]. When this spirit [[Death|dies]], all non-spirit [[Ally|allies]] within its [[Spirit range|range]] are [[heal]]ed for {{gr|1|7}} [[Health]] for each second this spirit was alive. This spirit dies after 20 seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|10}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{gr|1|7}} for each second this spirit was alive.\n| is-pvp = y\n| aoe = spirit\n}}\n\n{{Skill progression\n| attribute = [[Restoration Magic]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 10\n| var2 name = [[Heal]]ing\n| var2 at0 = 1\n| var2 at15 = 7}}\n\n== Related skills ==\n* {{Skill Icon|Destruction (PvP)}}\n\n== Notes ==\n* This skill creates a [[Spirit of Life]].\n{{Anomaly|This skill will create a spirit with an offensive appearance.}}\n\n[[Category:Skills that affect allies]]\n\n[[de:Leben (PvP)]]"
+}

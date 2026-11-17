@@ -1,0 +1,11 @@
+{
+  "title": "Ice Breaker",
+  "pageid": 75366,
+  "revid": 2107658,
+  "revisedAt": "2010-08-07T15:43:55Z",
+  "sha1": "c8f46aaa6c3e94913549259af66052cf99e006d7",
+  "url": "https://wiki.guildwars.com/wiki/Ice_Breaker",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ice%20Breaker&oldid=2107658",
+  "retrievedAt": "2026-11-16T15:41:29.422Z",
+  "wikitext": "{{otheruses|the snow fighting skill|the unique hammer|The Ice Breaker}}\n{{skill infobox\n| id = 1013\n| name = Ice Breaker\n| profession = Monk\n| campaign = Core\n| type = Enchantment Spell\n| target = foes\n| special = Snow fighting\n| activation = 1\n| recharge = 45\n| description = [[Enchantment Spell]]. For 10 seconds, target [[ally]] has +5 [[Health regeneration]] and anyone striking target ally with an attack is [[knocked down]].\n| concise description = Enchantment Spell. (10 seconds.) +5 Health regeneration; knocks-down anyone striking target ally with an attack.\n}}\n\n== Acquisition ==\nThis skill is given to Monks competing in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Related skills ==\n* {{skill icon|Shield of Judgment}} ([[elite]])\n\n== Notes ==\n* This skill is only available to players during [[Wintersday]] events.\n{{bug|Any form of damage, such as from [[Sliver Armor]], causes a knock down.}}"
+}

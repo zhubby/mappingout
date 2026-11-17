@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Calculated Risk",
+  "pageid": 59976,
+  "revid": 2629805,
+  "revisedAt": "2018-06-18T17:41:24Z",
+  "sha1": "1dacd990422bdc968bc5ba41d5e68d8addd7f4e9",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Calculated_Risk",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Calculated%20Risk&oldid=2629805",
+  "retrievedAt": "2026-11-16T15:41:40.101Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Calculated Risk\n| campaign = Eye of the North\n| special = Polymock\n| type = Hex Spell\n| energy = 2\n| activation = 2\n| recharge = 30\n| description = [[Hex Spell]]. For 15 seconds, target foe's spells take an additional 1 second to cast, but they deal 40 damage to you on each spell's completion.\n| concise description = Hex Spell. (15 seconds.) Target foe's spells take +1 second to cast, but you take 40 damage each time that foe finishes casting.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Mirage Iboga Form]]\n\n==Related skills==\n*{{Skill icon|Calculated Risk}}\n\n[[de:Kalkuliertes Polymock-Risiko]]"
+}

@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖界面翻译与护甲、活动、任务的领域类型。
+ * [OUTPUT]: 提供地图资料、筛选与个人记录的共享契约。
+ * [POS]: 界面、领域查询与存储共同依赖的类型边界。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { t } from './i18n';
 export type Kind = 'skill' | 'boss' | 'green' | 'collector' | 'pet' | 'treasure' | 'zone';
 export const kindNames: Record<Kind, string> = { get skill() { return t("技能"); }, get boss() { return t("Boss / 来源"); }, get green() { return t("装备"); }, get collector() { return t("收藏家"); }, get pet() { return t("宠物"); }, get treasure() { return t("宝藏"); }, get zone() { return t("区域"); } };
@@ -24,6 +30,6 @@ export interface Catalog { version: number; referenceVersion?: string; stories?:
 export interface Character { id: string; name: string }
 export interface Progress { characterId: string; entryId: string; done: boolean; date?: string }
 export interface Note { id: string; characterId: string; region: string; x: number; y: number; text: string }
-export interface Personal { characters: Character[]; progress: Progress[]; notes: Note[]; armorPlans: import('./feature-types').ArmorPlan[]; activityProgress: import('./feature-types').ActivityProgress[]; preferences: { characterId: string; layers: Kind[]; calendarTimezone?: 'Asia/Shanghai'|'local'|'UTC' } }
-export interface Backup { format: 'mappingout-backup'; version: 2; exportedAt: string; data: Personal; migratedFrom?: 1 }
+export interface Personal { characters: Character[]; progress: Progress[]; notes: Note[]; armorPlans: import('./feature-types').ArmorPlan[]; activityProgress: import('./feature-types').ActivityProgress[]; questProgress: import('./quest-types').QuestProgress[]; questProfiles: import('./quest-types').QuestProfile[]; preferences: { characterId: string; layers: Kind[]; calendarTimezone?: 'Asia/Shanghai'|'local'|'UTC' } }
+export interface Backup { format: 'mappingout-backup'; version: 3; exportedAt: string; data: Personal; migratedFrom?: 1 | 2 }
 export interface Filters { q: string; campaign: string; region: string; zone: string; kind: Kind | ''; profession: string; attribute: string; incomplete: boolean; selected: string; map: string }

@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Diversion",
+  "pageid": 59958,
+  "revid": 2629807,
+  "revisedAt": "2018-06-18T17:41:28Z",
+  "sha1": "3de6b7d7ac686b82138b42f28b7e7106dbc83ee1",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Diversion",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Diversion&oldid=2629807",
+  "retrievedAt": "2026-11-16T15:41:40.920Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Diversion\n| campaign = Eye of the North\n| special = Polymock\n| type = Hex Spell\n| energy = 2\n| activation = 1\n| recharge = 10\n| description = [[Hex Spell]]. For 6 seconds, the next time target foe uses a skill, that skill takes an additional 4 seconds to recharge.\n| concise description = Hex Spell. (6 seconds.) The next time target foe uses a skill, that skill takes +4 seconds to recharge.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Skeletal Mage Form]]\n\n==Related skills==\n*{{Skill icon|Diversion}}\n\n[[de:Polymock-Ablenkung]]"
+}

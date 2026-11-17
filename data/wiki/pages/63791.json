@@ -1,0 +1,11 @@
+{
+  "title": "STAND UP!",
+  "pageid": 63791,
+  "revid": 2398025,
+  "revisedAt": "2011-10-21T06:25:19Z",
+  "sha1": "18a5ca4f80a787f2e8a249b7bc7809143b127c4f",
+  "url": "https://wiki.guildwars.com/wiki/STAND_UP!",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=STAND%20UP!&oldid=2398025",
+  "retrievedAt": "2026-11-16T15:41:58.642Z",
+  "wikitext": "{{Skill infobox\n| name = STAND UP!\n| campaign = Eye of the North\n| special = Brawling\n| type = Shout\n| description = [[Shout]]. When knocked out, use this skill repeatedly to gain [[Energy]]. You must be at full Energy within 10 seconds or you will pass out!\n| concise description = Shout. Use this skill repeatedly to gain Energy while knocked out. If you are not at full Energy within 10 seconds, you will pass out!\n| aoe = None\n}}\n\n==Notes==\n*Passing out counts as a [[death]].\n*To avoid passing out, it is possible to go into options and bind STAND UP! to more than one key so you can hit all the keys at the same time and gain energy much more quickly.\n*STAND UP! becomes harder as every time you recover, your maximum energy increases by 5.\n*You can get no more than 15 energy per second by using this skill.\n*Try activating this skill with '8' and clicking on the skill at the same time, to get maximum energy gain.\n\n{{bug|If you gain a skill point whilst knocked out (if Kilroy kills an enemy resulting in you gaining experience), you cannot recover and will pass out.(Does not happen always.)}}\n{{bug|STAND UP! briefly becomes enabled when you kill bosses, even if you are not currently \"knocked out\".  This is due to the game mechanic that \"recharges\" all skills when you receive a morale boost.}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Anti-summon skill",
+  "pageid": 269491,
+  "revid": 2539658,
+  "revisedAt": "2013-04-07T00:31:03Z",
+  "sha1": "1da4056538b52a4783c75716337230b33c662f6a",
+  "url": "https://wiki.guildwars.com/wiki/Anti-summon_skill",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Anti-summon%20skill&oldid=2539658",
+  "retrievedAt": "2026-11-16T13:46:38.857Z",
+  "wikitext": "{{TOCright}}\n\n[[Anti-summon skill]]s are those that serve as [[counter]]s to hostile [[summoned creature]]s, by dealing additional damage, recharging more quickly, moving spirits, or turning the summons against the enemy. About half of the skills work on any type of summons, while the remainder work only on [[minion]]s or only on [[spirit]]s.\n\n<br>\n==Skills with effects that trigger on summoned creatures==\n{{skill table\n|titlematch = Banish¦Banishing Strike¦Consume Soul¦Holy Spear¦Spiritual Pain¦\n|show profession = y\n|show attribute = y\n|show campaign = y\n}}\n\n=== [[Minion]]s-only ===\n{{skill table\n|titlematch = Verata's Aura¦Verata's Gaze¦\n|show profession = y\n|show attribute = y\n|show campaign = y\n}}\n\n=== [[Spirit]]s-only ===\n{{skill table\n|titlematch = Gaze of Fury¦Signet of Binding¦\n|show profession = y\n|show attribute = y\n|show campaign = y\n}}\n\n=== Other skills ===\n{{skill table\n|titlematch = Ethereal Soul Explosion¦Redemption of Purity¦Purify Soul¦Signet of the Unseen¦Swap¦\n|show profession = y\n|show attribute = y\n|show campaign = y\n}}\n\n==Notes==\n* Anti-summons skills do not affect [[Asura summon]]s; they are considered to be animated [[Polymock#List_of_pieces|Polymock pieces]], [[construct]]ed by ''Asuran technology''.\n* Anti-summons tactics also include applying [[hex]]es or [[condition]]s to minions; since they cannot remove these effects, the minions tend to suffer the full effects. Similarly, [[burning]] can be effective against spirits (they are invulnerable to hexes and other conditions).\n\n[[Category:Unofficial terms]]\n[[Category:Lists of skills]]\n[[Category:Anti-summon skills|*]]"
+}

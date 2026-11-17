@@ -1,0 +1,11 @@
+{
+  "title": "Defend Denravi (Hard mode)",
+  "pageid": 281176,
+  "revid": 2344549,
+  "revisedAt": "2011-07-19T09:58:59Z",
+  "sha1": "4de1fbf90d98ae4017f1441c4bbe0151c3f10df7",
+  "url": "https://wiki.guildwars.com/wiki/Defend_Denravi_(Hard_mode)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Defend%20Denravi%20(Hard%20mode)&oldid=2344549",
+  "retrievedAt": "2026-11-16T13:46:47.933Z",
+  "wikitext": "{{Quest infobox\n| name = Defend Denravi\n| campaign = Prophecies\n| region = Southern Shiverpeaks\n| type = Secondary\n| given by = [[Vision of Glint]]\n| given at = [[Droknar's Forge]]\n| preceded by = [[Defend Droknar's Forge (Hard mode)]]\n| followed by = [[The Titan Source (Hard mode)]]\n}}\nDefend the [[Henge of Denravi]].\n\n==Quest information==\n===Objectives===\n*Travel to The Henge of Denravi and speak with [[Shadow]] to learn how you can help defend against the [[Titan]] threat.\n*Seek out [[Evennia]] and offer her your assistance.\n*Help the [[Shining Blade]] defend Denravi from the Titans. Evennia must survive.\n\n===Reward===\n*50,000 [[Experience]]\n*7,500 [[Gold]]\n*1 [[Gold Zaishen Coin]]\n\n== Walkthrough ==\n{{section-stub}}\n\n==NPCs==\n===Allies===\n[[Humans]] ([[Shining Blade]])\n*{{w}} 26 [[Shining Blade Warrior]]\n*{{w}} 20 [[Shining Blade Warrior]] (dead)\n*{{r}} 26 [[Shining Blade Ranger]]\n*{{r}} 20 [[Shining Blade Ranger]] (dead)\n*{{mo}} 30 [[Evennia]]\n*{{mo}} 26 [[Shining Blade Monk]]\n*{{n}} 26 [[Shining Blade Necromancer]]\n*{{me}} 26 [[Shining Blade Mesmer]]\n*{{e}} 26 [[Shining Blade Elementalist]]\n\n===Foes===\n[[Titan]]s (arranged in [[Titan#Spawning patterns|spawning pattern]] order)\n*{{n}}{{rt}} 40 [[Rotting Titan]]\n**{{r}} 38, 40 [[Wild Growth]]\n***{{e}}{{d}} 36, 38, 40 [[Earth Born Titan]]\n***{{e}} 36, 38, 40 [[Water Born Titan]]\n***{{e}}{{me}} 36, 38, 40 [[Wind Born Titan]]\n\n====Bosses====\nTitan\n*{{n}} 40 [[Desnas Hubor]] (?)\n\n==See also==\n* Quest dialogue and notes can be found on [[Defend Denravi]].\n\n[[Category:High XP Reward]]\n[[Category:Rewards Platinum]]\n[[Category:Hard mode quests]]\n[[Category:Titan quests]]"
+}

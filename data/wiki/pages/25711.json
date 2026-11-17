@@ -1,0 +1,11 @@
+{
+  "title": "Gain Margrid",
+  "pageid": 25711,
+  "revid": 2519812,
+  "revisedAt": "2012-09-21T05:43:25Z",
+  "sha1": "d53f6f48482429df793a9b904f7972677a8a472f",
+  "url": "https://wiki.guildwars.com/wiki/Gain_Margrid",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gain%20Margrid&oldid=2519812",
+  "retrievedAt": "2026-11-16T13:46:54.361Z",
+  "wikitext": "{{Quest infobox\n| name = Gain Margrid\n| campaign = Nightfall\n| region =Realm of Torment\n| type = Secondary\n| given by = [[Margrid the Sly]]\n| given at = [[Throne of Secrets]]\n| preceded by = [[Abaddon's Gate]]\n}}\n\n==Quest Information==\n===Requirements===\n* Only available if you hadn't recruited [[Margrid the Sly]] before.\n\n===Objectives===\n* Make arrangements with Margrid's crew.\n\n===Reward===\n* 2,500 [[Experience]]\n* [[Margrid the Sly]] joins your party.\n\n==Walkthrough==\nSpeak with [[Shifty Lem]] in [[Nundu Bay (outpost) | Nundu Bay]].\n\n==Dialogue==\n===Initial dialogue===\n'''Margrid the Sly'''\n: ''\"Heck of an operation you have here, friend. I've heard about your band of freebooters, and I'm here to sign up. Make a change in my life and all that. Besides, I've heard there's gold to be made, and I'm a dab hand when it comes to cold cash money. 'Course, someone's going to have to tell my '''old mates''' I'm not coming back. If you're willing, I'm willing. So...ready to take on another crewmember?\"''\n{{offer dialog\n|accept = I don't trust corsairs, but I sense you'll be as loyal as gold...so to speak. I'll go tell your crew.\n|decline = Sorry, I don't trust anyone willing to abandon their friends for a little coin.\n|ask = Talk to my '''old mates''' yet? I'm eager to hoist sail and join your crew, savvy? }}\n\n===Reward dialogue===\n'''Shifty Lem'''\n: ''\"Margrid's leaving? What are we supposed to do? Ah, well. That's the way of it, I suppose...captain in fair weather empty bunk in foul. I suppose this presents someone around here an opportunity to fill the void. Hmmm. Yeah, wish her my best, stranger. Got some things to take care of...\"''\n\n==Trivia==\n* Part of Margrid's dialogue is an obvious reference to some of Captain Jack Sparrow's from the [[w:Pirates of the Caribbean: The Curse of the Black Pearl|Pirates of the Caribbean: The Curse of the Black Pearl]] movie."
+}

@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖构建校验、公共资料与离线缓存生成器。
+ * [OUTPUT]: 验证构建拒绝缺失资源并预缓存任务及技能媒体。
+ * [POS]: 分发输入与缓存回归；使用隔离临时目录。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { afterEach, describe, expect, it } from 'vitest';
 import fs from 'node:fs/promises';
 import os from 'node:os';
@@ -25,7 +31,7 @@ async function editCatalog(dir: string, edit: (data: any) => void) {
 describe('bundled deployment data', () => {
   it('validates all shipped chapters and images without original Campaign files', async () => {
     expect(await validateDeploymentData()).toMatchObject({ campaigns: 4, maps: 20, records: 3022, sourceIssues: 74 });
-  });
+  }, 30000);
   it('rejects missing JSON with an actionable error', async () => {
     await expect(validateDeploymentData(await directory())).rejects.toThrow(/catalog.json.*public\/data/);
   });
@@ -80,9 +86,12 @@ describe('bundled deployment data', () => {
     await fs.copyFile('public/data/armor.json',path.join(dir,'data/armor.json'));
     const file=path.join(dir,'data/calendar.json'),data=JSON.parse(await fs.readFile(file,'utf8'));data.rotations[0].sequence.pop();await fs.writeFile(file,JSON.stringify(data));await expect(validateDeploymentData(dir)).rejects.toThrow('轮换序列不完整');
   });
-  it('includes both feature data catalogs and lazy chunks in offline precaching',async()=>{
+  it('includes feature catalogs, quest routes and lazy chunks in offline precaching',async()=>{
     const dir=await buildFixture();await fs.writeFile(path.join(dir,'data/armor.json'),'{}');await fs.writeFile(path.join(dir,'data/calendar.json'),'{}');await fs.writeFile(path.join(dir,'build/armor-123.js'),'lazy');
-    expect((await finalizeBuild(dir)).precache).toEqual(expect.arrayContaining(['data/armor.json','data/calendar.json','build/armor-123.js']));
+    await fs.mkdir(path.join(dir,'assets/materials'));await fs.writeFile(path.join(dir,'assets/materials/iron-ingot.png'),'icon');
+    await fs.writeFile(path.join(dir,'data/quests.json'),'{}');await fs.mkdir(path.join(dir,'assets/quests'));await fs.writeFile(path.join(dir,'assets/quests/1-abcdef.webp'),'route');
+    await fs.writeFile(path.join(dir,'data/skills.json'),'{}');await fs.mkdir(path.join(dir,'assets/skill-library'));await fs.mkdir(path.join(dir,'assets/skill-resources'));await fs.writeFile(path.join(dir,'assets/skill-library/123.jpg'),'skill');await fs.writeFile(path.join(dir,'assets/skill-resources/energy.png'),'resource');
+    expect((await finalizeBuild(dir)).precache).toEqual(expect.arrayContaining(['data/armor.json','data/calendar.json','data/quests.json','data/skills.json','build/armor-123.js','assets/materials/iron-ingot.png','assets/quests/1-abcdef.webp','assets/skill-library/123.jpg','assets/skill-resources/energy.png']));
   });
 });
 

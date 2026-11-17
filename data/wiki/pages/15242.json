@@ -1,0 +1,11 @@
+{
+  "title": "Lyric of Zeal",
+  "pageid": 15242,
+  "revid": 2738942,
+  "revisedAt": "2026-08-28T06:31:11Z",
+  "sha1": "b7843c16c9b81321f2270ebac9cc9bdd2d4cf7cb",
+  "url": "https://wiki.guildwars.com/wiki/Lyric_of_Zeal",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lyric%20of%20Zeal&oldid=2738942",
+  "retrievedAt": "2026-11-16T15:41:35.189Z",
+  "wikitext": "{{Skill infobox\n| id = 1563\n| name = Lyric of Zeal\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Motivation\n| type = Chant\n| adrenaline = 6\n| activation = 1\n| causes1 = Energy Gain\n| description = [[Chant]]. For 10 seconds, the next time each [[ally]] within [[earshot]] uses a [[signet]], that ally gains {{gr|1|8}} [[Energy]].\n| concise description = Chant. (10 seconds.) Allies in earshot gain {{gr|1|8}} Energy with their next signet.\n}}\n\n{{Skill progression\n| attribute = [[Motivation]]\n| var1 name = [[Energy]] gain\n| var1 at0 = 1\n| var1 at15 = 8}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n*[[Baram]] ([[The Kodash Bazaar]])\n\n== Related skills ==\n*{{skill icon|Aria of Zeal}}\n*{{skill icon|Scribe's Insight}} ([[elite]])\n*{{skill icon|Zealous Anthem}}\n==Notes==\n*This skill ends before the signet's effect takes place. Notably, [[Signet of Aggression]] will not cause adrenaline gain.\n\n[[Category:Skills that affect allies]]"
+}

@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖职业翻译与十张本地职业图标。
+ * [OUTPUT]: 提供职业名称、颜色、图标与标识索引。
+ * [POS]: 地图标记、职业图例与护甲制作共用的职业视觉定义。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { t } from './i18n';
 import warrior from './assets/professions/warrior.png';
 import ranger from './assets/professions/ranger.png';

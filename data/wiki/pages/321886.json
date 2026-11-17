@@ -1,0 +1,11 @@
+{
+  "title": "Death's Succor",
+  "pageid": 321886,
+  "revid": 2739722,
+  "revisedAt": "2026-09-07T13:21:38Z",
+  "sha1": "1fe990560d76be5d0c7192a698729d1bcddcaafd",
+  "url": "https://wiki.guildwars.com/wiki/Death%27s_Succor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Death's%20Succor&oldid=2739722",
+  "retrievedAt": "2026-11-16T15:41:15.532Z",
+  "wikitext": "{{Skill infobox\n| id = 3359\n| name = Death's Succor\n| campaign = Core\n| type = Effect\n| description = Whenever you die, all allies within earshot deal 20% more damage for 5 seconds.\n| concise description = When you die, allies within earshot deal 20% more damage for 5 seconds.\n}}"
+}

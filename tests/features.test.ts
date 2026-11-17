@@ -1,4 +1,11 @@
+/**
+ * [INPUT]: 依赖真实护甲资料、Wiki 图像证据与个人存储。
+ * [OUTPUT]: 验证材料身份与图像校验值、配方及活动周期。
+ * [POS]: 功能资料和领域回归；与浏览器交互验证互补。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { describe, expect, it } from 'vitest';
+import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import { IDBFactory } from 'fake-indexeddb';
 import 'fake-indexeddb/auto';
@@ -18,6 +25,20 @@ const offers=(title:string)=>armor.offers.filter(o=>o.armorId===armor.sets.find(
 
 describe('reviewed armor recipes',()=>{
   it('validates all professions, image assets, material references and complete cycles',async()=>{expect(await validateFeatureData('public')).toEqual({armorSets:298,armorOffers:1057,activities:430});});
+  it('ships every recipe material icon unchanged from its pinned Wiki source',()=>{
+    const manifest=JSON.parse(fs.readFileSync('data/wiki/material-icons.json','utf8'));
+    expect(manifest.icons).toHaveLength(armor.materials.length);
+    expect(new Set(manifest.icons.map((i:any)=>i.materialId)).size).toBe(armor.materials.length);
+    for(const material of armor.materials){
+      const icon=manifest.icons.find((i:any)=>i.materialId===material.id);
+      expect(icon.name).toBe(material.englishName);expect(icon.itemReference.title).toBe(material.englishName);
+      expect(material.icon).toBe(icon.asset);expect(icon.licenseDeclaration).toMatch(/\{\{arenanet image\|item icon\}\}/i);
+      const bytes=fs.readFileSync(`public/${material.icon}`);
+      expect(createHash('sha1').update(bytes).digest('hex')).toBe(icon.originalSha1);
+      expect(createHash('sha256').update(bytes).digest('hex')).toBe(icon.sha256);
+      expect([bytes.readUInt32BE(16),bytes.readUInt32BE(20)]).toEqual([icon.width,icon.height]);
+    }
+  });
   it('retains different materials and ratings for the same appearance in two campaigns',()=>{
     const variants=offers('Warrior Ascalon armor');
     const early=variants.find(o=>o.campaign===1&&o.armorRating===35)!;
@@ -112,7 +133,7 @@ describe('plans, occurrence records and versioned personal data',()=>{
   });
   it('migrates a real version 1 database and prevents old-version clients from overwriting it',async()=>{
     const previous=globalThis.indexedDB;globalThis.indexedDB=new IDBFactory();
-    try{const old=await openDB('mappingout',1,{upgrade(db){db.createObjectStore('personal');}});const {armorPlans:_p,activityProgress:_a,...state}=personal();await old.put('personal',state,'state');old.close();expect(await personalStore.load()).toEqual(migratePersonalV1(state));const upgraded=await openDB('mappingout');expect(upgraded.version).toBe(2);upgraded.close();await expect(openDB('mappingout',1)).rejects.toMatchObject({name:'VersionError'});}finally{globalThis.indexedDB=previous;}
+    try{const old=await openDB('mappingout',1,{upgrade(db){db.createObjectStore('personal');}});const {armorPlans:_p,activityProgress:_a,...state}=personal();await old.put('personal',state,'state');old.close();expect(await personalStore.load()).toEqual(migratePersonalV1(state));const upgraded=await openDB('mappingout');expect(upgraded.version).toBe(3);upgraded.close();await expect(openDB('mappingout',1)).rejects.toMatchObject({name:'VersionError'});}finally{globalThis.indexedDB=previous;}
   });
   it('serializes feature edits with older progress operations and refuses invalid replacements',async()=>{
     await personalStore.save(personal());const o=occurrenceAt(calendar,'mission',Date.now())!;

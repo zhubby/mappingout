@@ -1,0 +1,11 @@
+{
+  "title": "Throw Rock",
+  "pageid": 92368,
+  "revid": 2630135,
+  "revisedAt": "2018-06-18T17:53:12Z",
+  "sha1": "29dbc145ca6e7e26c5fe77344d61e625b1ef97e6",
+  "url": "https://wiki.guildwars.com/wiki/Throw_Rock",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Throw%20Rock&oldid=2630135",
+  "retrievedAt": "2026-11-16T15:42:03.081Z",
+  "wikitext": "{{Skill infobox\n| name = Throw Rock\n| campaign = Bonus Mission Pack‎\n| activation = {{3/4}}\n| type = Skill\n| special = Bonus Mission Pack\n| target = foes\n| description = [[Skill (skill type)|Skill]]. Throw a [[rock]] at your [[target]]. If it strikes a [[foe]], that foe is [[Knock down|knocked down]] and becomes [[Crippled]] for 10 seconds.\n| concise description = Skill. Throw a rock at your target, causing knockdown and inflicting Crippled condition (10 seconds.)\n}}\n== Acquisition ==\nPart of [[Gwen (disguise)|Gwen's]] replacement [[skill bar]] during [[The Flight North]] mission.\n\n== Related skills ==\n* {{skill icon|\"You Move Like a Dwarf!\"}}\n\n== Notes ==\n* This skill can only be used while holding a [[Rock]] [[bundle]] and the bundle will be destroyed by using the skill.\n* This skill deals 1 [[damage]]; however, most enemies will have enough [[armor rating]] to turn it into zero.\n\n[[de:Stein werfen]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Volfen Bloodlust (Curse of the Nornbear)",
+  "pageid": 63155,
+  "revid": 2472354,
+  "revisedAt": "2012-04-06T05:50:33Z",
+  "sha1": "3fcb8b5fb6f7813e05a748131a9d6f64b4faa32d",
+  "url": "https://wiki.guildwars.com/wiki/Volfen_Bloodlust_(Curse_of_the_Nornbear)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Volfen%20Bloodlust%20(Curse%20of%20the%20Nornbear)&oldid=2472354",
+  "retrievedAt": "2026-11-16T15:42:07.260Z",
+  "wikitext": "{{Skill infobox\n| name = Volfen Bloodlust\n| image = [[Image:Volfen Bloodlust (Curse of the Nornbear).jpg]]\n| campaign = Eye of the North\n| type = Shout\n| special = Curse of the Nornbear\n| recharge = 10\n| description = [[Shout]]. For 6 seconds, you and all [[adjacent]] [[Ally|allies]] [[Attack speed|attack 33% faster]]. While this skill is active you can detect the presence of [[Svanir]].\n| concise description = Shout. (6 seconds.) All adjacent allies attack 33% faster and you can detect the presence of Svanir.\n| aoe = adjacent\n}}\n\n==Related skills==\n*{{skill icon|Volfen Bloodlust}}\n\n==Notes==\n*This skill is only available during the [[Curse of the Nornbear]] quest."
+}

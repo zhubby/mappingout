@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Mind Blast",
+  "pageid": 60012,
+  "revid": 2629833,
+  "revisedAt": "2018-06-18T17:42:21Z",
+  "sha1": "32d918d915e187f159a73ed3442c0f7e69463d4a",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Mind_Blast",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Mind%20Blast&oldid=2629833",
+  "retrievedAt": "2026-11-16T15:41:41.400Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Mind Blast\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 4\n| description = [[Spell]]. Target foe suffers 300 damage. If you have less Energy than target foe, you gain 8 Energy.\n| concise description = Spell. Deals 300 damage. Gain 8 Energy if you have less Energy than target foe.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Charr Flamecaller Form]]\n\n==Related skills==\n*{{Skill icon|Mind Blast}}\n\n[[de:Geistige Polymock-Explosion]]"
+}

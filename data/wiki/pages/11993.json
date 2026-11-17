@@ -1,0 +1,11 @@
+{
+  "title": "Assassination Attempt",
+  "pageid": 11993,
+  "revid": 2564268,
+  "revisedAt": "2014-02-05T03:09:32Z",
+  "sha1": "92d539c0e96608c4f10e1d35164b6bd1e66496d8",
+  "url": "https://wiki.guildwars.com/wiki/Assassination_Attempt",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Assassination%20Attempt&oldid=2564268",
+  "retrievedAt": "2026-11-16T13:46:38.854Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Assassination Attempt\n| campaign = Factions\n| region = Kaineng City\n| type = Secondary\n| given by = [[Saito]]\n| given at = [[Wajjun Bazaar]]\n| map = [[Image:Assassination Attempt map.jpg|250px]]\n| map1text = From Nahpui Quarter\n}}\nEliminate the assassin before he kills Saito.\n\n==Quest information==\n===Objectives===\n* Find [[Ratsu]] and stop him before he kills [[Saito]].\n* See Saito for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 250 [[Gold]]\n* [[Imperial Commendation]]\n\n==Walkthrough==\nStarting from [[Nahpui Quarter (outpost)|Nahpui Quarter]], head down the bridge and over to the area with [[Qian]] and [[Paomu]]. When you approach them, [[Ratsu]] will appear. Slay him to finish the quest.\n\n==NPCs==\n===Foes===\n[[Human]]\n*{{a}} 20 (26) [[Ratsu]]\n\n==Dialogue==\n===Initial dialogue===\n'''Saito'''\n:''\"Yesterday, I rescued several children from these plague-ridden streets and took them to the district run by the Jade Brotherhood where they would be safe from the plague. Unfortunately, one girl's parents claimed that I 'kidnapped' their daughter, and they have hired [[Ratsu]], a well-known Assassin to kill me! If you take care of '''Ratsu''' for me, I will make it worth your while.\"''\n{{offer dialog\n|accept = I'll do what I can.\n|decline = Sorry, that sounds like a personal problem.\n|ask = Please find '''Ratsu''' and stop him before he kills me! \n}}\n\n===Reward dialogue===\n'''Saito'''\n:''\"Ah, thank you. I do not know what I would have done without your assistance.\"''\n\n==Notes==\n*Having [[Seek out Brother Tosai]] active in your quest log will not prevent you from completing this quest as [[Ratsu]] will still be [[hostile]].\n\n[[Category:Rewards Imperial Commendation]]"
+}

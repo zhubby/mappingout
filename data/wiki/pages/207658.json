@@ -1,0 +1,11 @@
+{
+  "title": "Bladeturn Refrain (PvP)",
+  "pageid": 207658,
+  "revid": 2733307,
+  "revisedAt": "2026-07-05T17:33:21Z",
+  "sha1": "844519cf2305c0545190cc9ec25c2ce14d6ba0dd",
+  "url": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bladeturn%20Refrain%20(PvP)&oldid=2733307",
+  "retrievedAt": "2026-11-16T15:41:09.189Z",
+  "wikitext": "{{Pveversion|Bladeturn Refrain}}\n{{Skill infobox\n| id = 3029\n| name = Bladeturn Refrain (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Echo\n| energy = 5\n| recharge = 8\n| activation = 1\n| causes1 = Increased Armor Rating\n| causes2 = Renewal\n| description = [[Echo (skill type)|Echo]]. For 20 seconds, [[target]] non-[[spirit]] [[ally]] has {{gr|10|40|+}} [[Armor rating|armor]] against [[slashing damage]]. This echo is [[Renewal|reapplied]] every time a [[chant]] or [[shout]] ends on that ally.\n| concise description = Echo. (20 seconds.) Target ally has {{gr|10|40|+}} armor against slashing damage. Renewal: Whenever a chant or shout ends on that ally. {{gray|Cannot target spirits.}}\n| is-pvp = y\n| target = allies\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| maximum = 18\n| var1 name = + [[Armor rating]]\n| var1 at0 = 10\n| var1 at15 = 40}}\n\n==Trivia==\n*The sword in the [[skill icon]] is a [[Gothic Sword]].\n\n[[de:Klingenumkehr-Refrain (PvP)]]"
+}

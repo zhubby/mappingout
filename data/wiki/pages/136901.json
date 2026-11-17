@@ -1,0 +1,11 @@
+{
+  "title": "Volatile Charr Crystal",
+  "pageid": 136901,
+  "revid": 2525618,
+  "revisedAt": "2012-12-04T06:01:42Z",
+  "sha1": "695c330ded7272c959363e1b1449b204cff34b88",
+  "url": "https://wiki.guildwars.com/wiki/Volatile_Charr_Crystal",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Volatile%20Charr%20Crystal&oldid=2525618",
+  "retrievedAt": "2026-11-16T15:42:06.005Z",
+  "wikitext": "{{skill infobox\n| id = 1911\n| name = Volatile Charr Crystal\n| campaign = Eye of the North\n| type = Signet\n| special = Bundle\n| description = [[Signet]]. [[Nearby]] [[foe]]s take 100 [[damage]] and begin [[Bleeding]] and [[Burning]] for 10 seconds when this crystal explodes.\n| concise description = Signet. Hits nearby foes. Deals 100 damage and inflicts Bleeding and Burning conditions (10 seconds) when this crystal explodes.\n}}\n\n== Related skills ==\n* {{skill icon|Cruel Was Daoshen}}\n* {{skill icon|Destructive Was Glaive}} ([[elite]])\n* {{skill icon|Grasping Was Kuurong}} (elite)\n\n==Notes==\n*This skill is the result of dropping a [[Charr Explosive]] bundle."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Frustration (PvP)",
+  "pageid": 253806,
+  "revid": 2643563,
+  "revisedAt": "2019-11-04T16:45:04Z",
+  "sha1": "3a613c41d9b7085f713cfd74669e74148c67a55b",
+  "url": "https://wiki.guildwars.com/wiki/Frustration_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Frustration%20(PvP)&oldid=2643563",
+  "retrievedAt": "2026-11-16T15:41:24.376Z",
+  "wikitext": "{{pveversion|Frustration}}\n{{Skill infobox\n| id = 3190\n| name = Frustration (PvP)\n| campaign = Nightfall\n| profession = Mesmer\n| is-pvp = y\n| attribute = Illusion Magic\n| type = Hex Spell\n| energy = 10\n| activation = 1\n| recharge = 15\n| causes1 = Increased Activation Time\n| description = [[Hex Spell]]. For {{gr|5|20}} seconds, [[target]] [[foe]] [[Activation time|casts]] [[spell]]s 50% slower and takes {{gr|5|50}} [[damage]] whenever [[interrupt]]ed.\n| concise description = Hex Spell. ({{gr|5|20}} seconds.) Causes 50% slower spell casting. Target foe takes {{gr|5|50}} damage whenever interrupted.\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 20\n|var2 name = [[Damage]]\n|var2 at0 = 5\n|var2 at15 = 50}}\n\n== Related skills ==\n*{{skill icon|Arcane Conundrum}}\n*{{skill icon|Migraine (PvP)}} ([[elite]])\n\n== Notes ==\n* Contrary to the description, this skill deals damage whenever a target ''would'' be interrupted. This is relevant for effects such as [[Mantra of Concentration]].\n\n[[de:Frustration (PvP)]]"
+}

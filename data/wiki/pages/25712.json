@@ -1,0 +1,11 @@
+{
+  "title": "Gain Jin",
+  "pageid": 25712,
+  "revid": 2035490,
+  "revisedAt": "2010-05-26T19:56:08Z",
+  "sha1": "47413a6fab525330b33b8ed34eb4cd08b401cbdf",
+  "url": "https://wiki.guildwars.com/wiki/Gain_Jin",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gain%20Jin&oldid=2035490",
+  "retrievedAt": "2026-11-16T13:46:54.361Z",
+  "wikitext": "{{Quest infobox\n| name = Gain Jin\n| campaign = Nightfall\n| region =Realm of Torment\n| type = Secondary\n| given by = [[Acolyte Jin]]\n| given at = [[Throne of Secrets]]\n| preceded by = [[Abaddon's Gate]] \n}}\n\n==Quest Information==\n===Requirements===\n* Only available if you hadn't recruited [[Acolyte Jin | Jin]] yet.\n\n===Objectives===\n* Speak to [[Field General Hayao]] and formally accept [[Acolyte Jin| Jin's]] oath of service.\n\n===Reward===\n* 2,500 [[Experience]]\n* [[Acolyte Jin]] joins your party.\n\n==Walkthrough==\nSpeak with [[Field General Hayao]] in [[Sun Docks]].\n\n==Dialogue==\n===Initial dialogue===\n'''Acolyte Jin'''\n: ''\"Good day, noble hero. Your deeds prove you possess great honor and a commitment to the good of the nation. I, too, revere these things. Let me serve you, and I will bring honor to your house. Will you accept my sword? If you do, please tell '''General Hayao''' so he may write your name in the scrolls of our people.\"''\n{{offer dialog\n|accept = It would be my honor.\n|decline = Seems like a lot of paperwork. Can't we just shake on it?\n|ask = I am still bowed in service. I wish to swear fealty to you. Have you spoken to '''General Hayao'''? }}\n\n===Reward dialogue===\n'''General Hayao'''\n: ''\"Jin will make a fine companion, hero. Your combined might will defeat any enemy the gods choose to send against you. May the emperor remember you in his prayers.\"''"
+}

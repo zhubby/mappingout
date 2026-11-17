@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖固定技能页面和 Wiki 模板解析。
+ * [OUTPUT]: 提供职业、类型、消耗、说明与获取来源事实。
+ * [POS]: 旧地图技能与全技能百科共用的基础事实编译。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { templates, plainText, section, links } from './wikitext.mjs';
 
 export const professions = { None: 0, Warrior: 1, Ranger: 2, Monk: 3, Necromancer: 4, Mesmer: 5, Elementalist: 6, Assassin: 7, Ritualist: 8, Paragon: 9, Dervish: 10 };

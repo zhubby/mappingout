@@ -1,0 +1,11 @@
+{
+  "title": "Rollerbeetle Dash",
+  "pageid": 21622,
+  "revid": 2629944,
+  "revisedAt": "2018-06-18T17:46:12Z",
+  "sha1": "5d1253e9e5336964adb84fd8ec4a80338306c816",
+  "url": "https://wiki.guildwars.com/wiki/Rollerbeetle_Dash",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rollerbeetle%20Dash&oldid=2629944",
+  "retrievedAt": "2026-11-16T15:41:48.050Z",
+  "wikitext": "{{Skill infobox\n| name = Rollerbeetle Dash\n| campaign = Core\n| type = Skill\n| special = Rollerbeetle\n| target = self\n| description = [[Skill (skill type)|Skill]]. For 5 seconds, you [[Speed boost|move extremely fast]].\n| concise description = Skill. (5 seconds.) You move extremely fast.}}\n== Acquisition ==\nAutomatically equipped upon entry into the [[Rollerbeetle Racing (outpost)|Rollerbeetle Racing outpost]].\n\n==Notes==\n*The skill descriptions omit that this skill can only be recharged by passing through a [[Rollerbeetle Racing#Checkpoints|checkpoint]].\n\n{{bug|If you encounter any change of speed after activating Rollerbeetle Dash &mdash; even by [[Ram]] or [[Water]] ending &mdash; you risk gaining no benefit for the remainder of the [[duration]].}}\n\n[[de:Rollkäferrasen]]"
+}

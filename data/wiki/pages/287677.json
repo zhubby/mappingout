@@ -1,0 +1,11 @@
+{
+  "title": "Mantra of Inscriptions (Saul D'Alessio)",
+  "pageid": 287677,
+  "revid": 2712900,
+  "revisedAt": "2025-10-25T23:36:10Z",
+  "sha1": "420e7e8b02350c20f7a1b876f0d0d7efdc0849fc",
+  "url": "https://wiki.guildwars.com/wiki/Mantra_of_Inscriptions_(Saul_D%27Alessio)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mantra%20of%20Inscriptions%20(Saul%20D'Alessio)&oldid=2712900",
+  "retrievedAt": "2026-11-16T15:41:35.724Z",
+  "wikitext": "{{Skill infobox\n| name = Mantra of Inscriptions (Saul D'Alessio)\n| image = [[File:Mantra of Inscriptions (Saul D'Alessio).jpg]]\n| campaign = Bonus Mission Pack\n| profession = Mesmer\n| attribute = Inspiration Magic\n| special = Bonus Mission Pack\n| type = Stance\n| energy = 10\n| recharge = 20\n| description = [[Stance]]. For {{gr2|17|18}} seconds, [[signet]]s you successfully activate while in this stance [[Recharge time|recharge]] {{gr2|28|30}}% faster.\n| concise description = Stance. ({{gr2|17|18}} seconds.) Signets you successfully activate while in this stance recharge {{gr2|28|30}}% faster.\n}}\n{{Skill progression Bonus Mission Pack\n| attribute rank = 10\n| attribute = [[Inspiration Magic]]\n| var1 name = [[Duration]]\n| var1 at0 = 5\n| var1 at15 = 25\n| var2 name = Faster recharge %\n| var2 at0 = 10\n| var2 at15 = 40}}\n\n== Acquisition ==\nPart of [[Saul D'Alessio (disguise)|Saul D'Alessio]]'s replacement [[skill bar]] during [[The Rise of the White Mantle]] mission.\n\n== Related skills ==\n* {{skill icon|Mantra of Inscriptions}}\n\n== Notes == \n* This skill is normally used with 10 in [[Inspiration Magic]], but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Inspiration Magic]]."
+}

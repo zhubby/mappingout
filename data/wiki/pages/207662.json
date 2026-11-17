@@ -1,0 +1,11 @@
+{
+  "title": "\"Fall Back!\" (PvP)",
+  "pageid": 207662,
+  "revid": 2709753,
+  "revisedAt": "2025-07-01T04:55:33Z",
+  "sha1": "9efa4f02ff45cf5c4c6b5f967035df2e6000907e",
+  "url": "https://wiki.guildwars.com/wiki/%22Fall_Back!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Fall%20Back!%22%20(PvP)&oldid=2709753",
+  "retrievedAt": "2026-11-16T15:41:04.001Z",
+  "wikitext": "{{pveversion|\"Fall Back!\"}}\n{{Skill infobox\n| id = 3037\n| name = \"Fall Back!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| energy = 10\n| recharge = 25\n| causes1 = Health Gain\n| causes2 = Increased Movement Speed\n| description = [[Shout]]. For {{gr|4|10}} seconds, all [[Ally|allies]] within [[earshot]] [[Health gain|gain]] {{gr|5|15}} [[Health]] per second while [[Movement|moving]] and [[Speed boost|move 33% faster]]. \"Fall Back!\" ends on an ally affected by this shout when that ally successfully hits with an [[attack]].\n| concise description = Shout. ({{gr|4|10}} seconds.) Allies in earshot gain {{gr|5|15}} Health per second while moving and move 33% faster. {{gray|Ends for an ally if that ally hits with an attack.}}\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| maximum = 19\n| var1 name = [[Duration]]\n| var1 at0 = 4\n| var1 at15 = 10\n| var2 name = [[Health gain]]\n| var2 at0 = 5\n| var2 at15 = 15}}\n\n== Related skills ==\n*{{skill icon|\"Charge!\"}} ([[elite]])\n*{{skill icon|\"Incoming!\" (PvP)}} (elite)\n*{{skill icon|\"Make Haste!\"}}\n\n==Notes==\n{{speed|4|10|33|25}}\n\n[[Category:Skills that affect allies]]\n{{DEFAULTSORT:Fall Back!}}\n\n[[de:\"Zieht Euch zurück!\" (PvP)]]"
+}

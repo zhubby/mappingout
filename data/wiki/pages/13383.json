@@ -1,0 +1,11 @@
+{
+  "title": "Track Down Kai Ying",
+  "pageid": 13383,
+  "revid": 2627844,
+  "revisedAt": "2018-05-30T19:09:18Z",
+  "sha1": "c5278b0bed40b28af5e1d206be33e487bae88c3f",
+  "url": "https://wiki.guildwars.com/wiki/Track_Down_Kai_Ying",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Track%20Down%20Kai%20Ying&oldid=2627844",
+  "retrievedAt": "2026-11-16T13:47:33.016Z",
+  "wikitext": "{{Quest infobox\n| name = Track Down Kai Ying\n| map = \n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Ronsu]]\n| given at = [[Sunqua Vale]]\n| preceded by = [[Spark of Interest]]\n| followed by = [[Sparring Elements]]\n| profession = Elementalist\n| primary = y\n| secondary = n\n}}\nFind the second [[Elementalist]] trainer.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Elementalist\n| primary = y\n| secondary = n\n}}\n\n===Objectives===\n* Search for [[Kai Ying]] in [[Panjiang Peninsula]].\n\n===Reward===\n* 600 [[Experience]]\n* 50 [[Gold]]\n\n==Walkthrough==\nKai Ying can be found just south of [[Kaitan Village]].\n\n==Dialogue==\n===Initial dialogue===\n;Ronsu\n''You have done well, young one. It is time for you to move on to the next stage of your education. From here you should seek out [[Kai Ying]] in [[Panjiang Peninsula]]. He is a good teacher, but beware his sharp tongue or you'll quickly find yourself the target of his jokes.''\n{{ Offer dialog\n| accept = I will look for Kai Ying.\n| decline = I'm not much for humor, actually.\n| ask = Look for [[Kai Ying]] in [[Panjiang Peninsula]].\n}}\n\n===Reward dialogue===\n;Kai Ying\n''You made it! I have heard that you are quite the \"Ether Prodigy.\" I am Kai Ying. I heard you might be coming, [Character Name], and I am \"Lightning Touched\" that you wish to train with me. When I heard the good news I felt a \"Searing Heat\" inside. You are going to learn so much!''\n\n==Trivia==\n*The reward dialogue is a series of puns on the elementalist skills [[Ether Prodigy]], [[Lightning Touch]], and [[Searing Heat]]."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "The Mad King's Influence",
+  "pageid": 227563,
+  "revid": 2632936,
+  "revisedAt": "2018-07-28T22:40:12Z",
+  "sha1": "74d7977012858844279c8e34cddb47c4ade2f8c0",
+  "url": "https://wiki.guildwars.com/wiki/The_Mad_King%27s_Influence",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Mad%20King's%20Influence&oldid=2632936",
+  "retrievedAt": "2026-11-16T15:42:03.082Z",
+  "wikitext": "{{Skill infobox\n| name = The Mad King's Influence\n| id= 3073\n| campaign = Prophecies\n| campaign2 = Nightfall\n| type = Shout\n| special = Agent of the Mad King\n| energy = 15\n| recharge = 25\n| description = [[Shout]]. For 20 seconds, all [[foe]]s in [[spirit range]] capitulate to the [[Mad King Thorn|Mad King's]] Influence.\n| concise description = Shout. Foes in spirit range capitulate to the Mad King's Influence (20 seconds).\n| aoe = spirit\n}}\n\n== Notes ==\n*This skill is part of the [[Agent of the Mad King]] disguise [[skill bar]].\n*This skill makes all foes in spirit range into temporary [[Ally|allies]].\n*When using this skill the character shouts: ''\"The Mad King demands you let me pass with impunity!\"''\n*While affected by this skill:\n**Foes that are now allies do not [[body block]] you. This can be handy to get out of swarming groups of [[Smite Crawler]]s.\n**[[Dying Nightmare]]s will use [[Blood is Power]] on you when you are out of [[energy]].\n**[[Obsidian Behemoth]]s' traps and Smite Crawlers' [[Zealot's Fire]] will still deal damage to you if the traps and Zealot's Fire finished [[Activation time|activating]] before you activated this skill.\n**[[Coldfire Night]]s' [[Ward Against Harm]] and Obsidian Behemoths' [[Healing Spring]] will only affect you if those skills finished activating after you activated this skill.\n\n[[Category:Halloween skills]]\n[[Category:Skills named after eponymous NPCs]]"
+}

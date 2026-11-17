@@ -1,0 +1,11 @@
+{
+  "title": "Gain Goren",
+  "pageid": 15359,
+  "revid": 2481257,
+  "revisedAt": "2012-04-28T22:26:04Z",
+  "sha1": "fb2571a7f3b6fb96b154953c94e25495a07c660b",
+  "url": "https://wiki.guildwars.com/wiki/Gain_Goren",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Gain%20Goren&oldid=2481257",
+  "retrievedAt": "2026-11-16T13:46:54.360Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Gain Goren\n| campaign = Nightfall\n| region = Realm of Torment\n| type = Secondary\n| given by = [[Goren]]\n| given at = [[Throne of Secrets]]\n| preceded by = [[Abaddon's Gate]]\n| map = [[File:Gain Goren map.jpg|200px]]\n}}\nThis is the one of the quests that allows access to all of the heroes at the end of Nightfall.  \n\n==Quest information==\n===Requirements===\n*Must not have [[Goren]] as one of your [[hero]]es.\n*Must not have [[Goren's Stuff: Part 1]] active.\n\n===Objectives===\n* Release Goren from his debt to [[Prince Bokka the Magnificent]].\n\n===Reward===\n* 2,500 [[Experience]]\n* [[Goren]] joins your party.\n\n==Walkthrough==\nExit the [[Throne of Secrets]] and head to [[Honur Hill]].  Head south into [[Resplendent Makuun]] and find Prince Bokka the Magnificent.\n\n==Dialogue==\n===Initial dialogue===\n'''Goren'''\n:''\"I'd like to fight alongside you, you being a great hero and all.  I used to work for Prince Bokka, and then I did some freelance bodyguarding.  But here's the thing...I ran up some...um...expenses while I was in Bokka's service.  Hey, '''Prince Bokka''' owes you a favor.  You could ask him to forgive my '''debt''', and then I could do stuff for you.\"''\n{{offer dialog\n|accept = I'd love to have you working with us.  I'll talk to Bokka and see what I can do about that debt.\n|decline = I think you should stay with Bokka.  It's a lot safer lifestyle.\n|ask = Did you talk to '''Prince Bokka'''?  Is he going to forgive my '''debt'''? }}\n\n===Reward dialogue===\n'''Prince Bokka the Magnificent'''\n:''\"Goren wants to go with you?  Fine, I will forgive his debt.  He's free to go.  If I don't have to hear him talk about the mutton chop of righteousness or the grilled cheese of destiny any longer, I'm getting the better end of this deal.\"''"
+}

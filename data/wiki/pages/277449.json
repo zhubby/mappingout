@@ -1,0 +1,11 @@
+{
+  "title": "Fragmentation Grenade",
+  "pageid": 277449,
+  "revid": 2723833,
+  "revisedAt": "2026-04-01T22:55:29Z",
+  "sha1": "2253b3de2d403fdcf487ba55391156ce270959ab",
+  "url": "https://wiki.guildwars.com/wiki/Fragmentation_Grenade",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fragmentation%20Grenade&oldid=2723833",
+  "retrievedAt": "2026-11-16T15:41:23.589Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = Fragmentation Grenade\n| id = 3291\n| special = Going Commando\n| campaign = Core\n| type = Spell\n| energy = 5\n| recharge = 8\n| activation = {{1/2}}\n| target = foes\n| description = [[Spell]]. [[Target]] and [[adjacent]] [[foe]]s take 300 [[Piercing damage]] and begin [[bleed]]ing for 15 seconds. [[Nearby]] foes are struck for 200 damage and begin bleeding for 10 seconds. All other foes [[in the area]] are struck for 100 damage and begin bleeding for 5 seconds.\n| concise description = Spell. Deals 300 Piercing damage and applies Bleeding (15 seconds) to target and adjacent foes. Deals 200 Piercing damage and applies Bleeding (10 seconds) to nearby foes. Deals 100 Piercing damage and applies Bleeding (5 seconds) to other foes in the area.\n}}\n\n== Acquisition ==\nThis skill is available while under the [[Going Commando]] disguise during the [[April Fools' Day]] quest [[Annihilator]].\n\n== Related skills ==\n*{{skill icon|Shockwave}} ([[elite]])\n\n== Notes ==\n* Similar to [[shout]]s, characters will say ''\"Grenade!\"'' when this skill is activated.\n* Damage is dealt as [[packet]]s of 100. Adjacent foes will be hit three times, nearby foes will be hit twice, and foes in the area will only be hit once.\n{{anomaly|The descriptions omit that this is a [[projectile spell]].}}\n\n[[Category:Projectile spells]]\n[[Category:Skills with adjacent AoE]]\n[[Category:Skills with nearby AoE]]\n[[Category:Skills with in the area AoE]]"
+}

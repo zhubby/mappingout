@@ -1,0 +1,11 @@
+{
+  "title": "Seek Out Headmaster Kuju",
+  "pageid": 25372,
+  "revid": 2692723,
+  "revisedAt": "2024-02-06T11:58:09Z",
+  "sha1": "432eb49df02467ebda9c5ff9789f5d71e1957fe2",
+  "url": "https://wiki.guildwars.com/wiki/Seek_Out_Headmaster_Kuju",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Seek%20Out%20Headmaster%20Kuju&oldid=2692723",
+  "retrievedAt": "2026-11-16T13:47:13.092Z",
+  "wikitext": "__NOTOC__{{quest infobox\n| id = 248\n| name = Seek Out Headmaster Kuju\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Ludo]]\n| given at = [[Monastery Overlook]]\n| preceded by = [[Mantid Hatchlings]]\n| followed by = [[Locate Reng Ku]]\n| profession = Necromancer\n| primary = y\n}}\nSpeak to [[Headmaster Kuju]] to begin your [[necromancer]] training.\n\n==Quest information==\n=== Requirements ===\n{{ Standard prerequisites\n| campaign = factions\n| profession = necromancer\n| primary = y\n}}\n\n===Objectives===\n* Talk to Ludo to gain entrance to the monastery.\n* Seek out Headmaster Kuju in the monastery.\n\n===Reward===\n* 250 [[Experience]]\n* 20 [[Gold]]\n\n==Walkthrough==\nSpeak to Ludo at the entrance to Shing Jea Monastery to enter. If you skipped the tutorial [[Mantid Hatchlings]], you will learn the [[skill]]s\n* {{skill icon|Deathly Swarm}}\n* {{skill icon|Vampiric Gaze}}\n* {{skill icon|Resurrection Signet}}\ngain 2,000 experience, and acquire a [[Starter Truncheon]] after entering the monastery. You would have already received these if you did the tutorial. Speak to Headmaster Kuju, who is to the right, for your reward.\n\n==Dialogue==\n===Initial dialogue===\n;Ludo\n:''\"Oh my, a young Necromancer! How very exciting! You should report to '''Headmaster Kuju''' in the '''monastery'''. She will oversee your Necromancer training. Enjoy!\"''\n{{ Offer dialog\n| accept = I'll seek out Headmaster Kuju.\n| decline = I'd like to explore a bit, first.\n| ask = You really ought to report to '''Headmaster Kuju'''. Do not be afraid, she is very kind. You will find her in the monastery.\n}}\n\n===Reward dialogue===\n;Headmaster Kuju\n:''\"That Ludo is so sweet, is he not? I love him like one of my own minions.\"''\n\n==Notes==\n*If you abandon this quest, it cannot be retaken, but you can take the following quest immediately."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Icicles",
+  "pageid": 75705,
+  "revid": 2560736,
+  "revisedAt": "2013-12-24T07:18:50Z",
+  "sha1": "fb6e406b60f5e00e2fc2a2ebc478bff1a75de117",
+  "url": "https://wiki.guildwars.com/wiki/Icicles",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Icicles&oldid=2560736",
+  "retrievedAt": "2026-11-16T15:41:29.422Z",
+  "wikitext": "{{skill infobox\n| id = 1012\n| name = Icicles\n| profession = Elementalist\n| campaign = Core\n| special = Snow fighting\n| type = Hex spell\n| activation = 2\n| recharge = 25\n| description = [[Hex Spell]]. For 5 seconds, [[target]] and [[adjacent]] [[foe]]s are struck for 75 [[cold damage]] and [[Snare (tactic)|move 66% slower]].\n| concise description = Hex Spell. Deals 75 cold damage to target and adjacent foes. These foes move 66% slower (5 seconds).\n| aoe = adjacent\n}}\n\n== Acquisition ==\nThis skill is given to Elementalists competing in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Related skills ==\n* {{skill icon|Ice Spikes}}\n\n== Notes ==\n* This skill is only available to players during [[Wintersday]] events.\n{{bug|Although the skill descriptions states that this spell deals [[cold damage]], it inflicts [[armor-ignoring damage]].}}"
+}

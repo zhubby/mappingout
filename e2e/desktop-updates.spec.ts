@@ -5,6 +5,7 @@
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import {expect, test} from '@playwright/test';
+import {selectOption} from './select';
 import {finishCheck, nativeBridge, updateActions} from './desktop-updates.fixture';
 
 test('download survives settings closure; Escape defers and next startup backs up before cached install', async ({page}, testInfo) => {
@@ -67,6 +68,69 @@ test('update prompt waits until the user leaves an active input', async ({page})
   await expect(page.getByRole('dialog', {name:'新版本已准备好'})).toBeVisible();
 });
 
+test('installation backup includes committed quest rewards and character conditions', async ({page}) => {
+  await nativeBridge(page);
+  await page.goto('/?view=quests&quest=quest%3Agww%3A5154');
+  await expect(page.locator('#quest-title')).toBeVisible();
+  await expect.poll(() => updateActions(page)).toHaveLength(2);
+  await page.getByRole('button', {name:'创建探索者', exact:true}).click();
+  await page.getByRole('textbox', {name:'角色名'}).fill('任务更新备份');
+  await page.getByRole('dialog').getByRole('button', {name:'创建探索者', exact:true}).click();
+  await expect(page.getByRole('textbox', {name:'角色名'})).toHaveValue('');
+  await page.getByLabel('关闭弹窗').click();
+  await page.locator('.quest-character-settings>summary').click();
+  await selectOption(page.getByLabel('角色主职业', {exact:true}), '1');
+  await expect(page.getByLabel('角色主职业', {exact:true})).toHaveAttribute('data-value', '1');
+  await expect(page.getByLabel('角色主职业', {exact:true})).toBeEnabled();
+  await page.getByLabel('额外奖励已完成', {exact:true}).check();
+  await expect(page.getByRole('button', {name:'标记任务完成', exact:true})).toBeEnabled();
+  await page.getByRole('button', {name:'标记任务完成', exact:true}).click();
+  await expect(page.getByRole('button', {name:'已完成 · 撤销', exact:true})).toBeVisible();
+  await page.getByLabel('客户端设置').focus();
+  await finishCheck(page);
+  await page.getByRole('button', {name:'立即重启更新', exact:true}).click();
+  await expect.poll(async () => (await updateActions(page)).at(-1)?.command).toBe('desktop_update_install');
+  const actions = await page.evaluate(() => (window as any).qa.actions);
+  const install = actions.findIndex((action: any) => action.command === 'desktop_update_install');
+  const snapshot = actions[install - 1];
+  expect(snapshot.command).toBe('write_local_backup');
+  expect(snapshot.content.version).toBe(3);
+  expect(snapshot.content.data.questProgress).toEqual([expect.objectContaining({questId:'quest:gww:5154',mode:'normal',completed:true,bonus:true})]);
+  expect(snapshot.content.data.questProfiles).toEqual([expect.objectContaining({profession:1})]);
+});
+
+test('update prompt waits while a custom menu has focus', async ({page}) => {
+  await nativeBridge(page);
+  await page.goto('/');
+  const language = page.getByRole('combobox', {name:'Language / 语言'});
+  await language.click();
+  await finishCheck(page);
+  await expect(page.getByRole('listbox')).toBeVisible();
+  await expect(page.getByRole('dialog', {name:'新版本已准备好'})).toHaveCount(0);
+  await page.keyboard.press('Escape');
+  await expect(language).toBeFocused();
+  await page.keyboard.press('Tab');
+  await expect(page.getByRole('dialog', {name:'新版本已准备好'})).toBeVisible();
+});
+
+test('resource preparation language uses the same custom menu', async ({page}) => {
+  await nativeBridge(page);
+  await page.addInitScript(() => {
+    const bridge = (window as any).__TAURI_INTERNALS__;
+    const invoke = bridge.invoke.bind(bridge);
+    bridge.invoke = (command: string, args: unknown) => {
+      if (command === 'resources_status') return Promise.resolve({ready:false, phase:'error', completed:0, total:0});
+      if (command === 'resources_download' || command === 'resources_check') return Promise.reject('offline');
+      return invoke(command, args);
+    };
+  });
+  await page.goto('/');
+  await expect(page.getByRole('heading', {name:'准备离线资料'})).toBeVisible();
+  await selectOption(page.getByRole('combobox', {name:'Language / 语言'}), 'en');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'en');
+  await expect(page.locator('select')).toHaveCount(0);
+});
+
 test('closing a focused editor with Escape releases the delayed update prompt', async ({page}) => {
   await nativeBridge(page);
   await page.goto('/');
@@ -119,7 +183,7 @@ test('unfinished download offers a new check without an install action', async (
 test('English update dialog defers through its button and restores focus', async ({page}) => {
   await nativeBridge(page);
   await page.goto('/');
-  await page.getByLabel('Language / 语言').selectOption('en');
+  await selectOption(page.getByLabel('Language / 语言'), 'en');
   await page.getByLabel('Desktop settings').focus();
   await finishCheck(page);
   const dialog = page.getByRole('dialog', {name:'An update is ready'});

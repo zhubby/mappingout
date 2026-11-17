@@ -1,0 +1,11 @@
+{
+  "title": "Holiday Blues",
+  "pageid": 75373,
+  "revid": 2635571,
+  "revisedAt": "2018-12-27T18:55:32Z",
+  "sha1": "6fe90c48c4902a96daed9695232e43ae7afec5c3",
+  "url": "https://wiki.guildwars.com/wiki/Holiday_Blues",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Holiday%20Blues&oldid=2635571",
+  "retrievedAt": "2026-11-16T15:41:28.880Z",
+  "wikitext": "{{skill infobox\n| id = 1011\n| name = Holiday Blues\n| profession = Necromancer\n| campaign = Core\n| type = Spell\n| special = Snow fighting \n| activation = 1\n| recharge = 45\n| sacrifice = 50%\n| description = [[Spell]]. [[Sacrifice]] 50% maximum [[Health]]. All [[nearby]] [[foe]]s take 50 [[damage]], and you bring the Holiday Blues to this location. For 30 seconds, foes [[in the area|within the area]] suffer -15 [[Health degeneration]].\n| concise description = Spell. Deals 50 damage to nearby foes. Foes within the area have -15 Health degeneration (30 seconds).\n| aoe = in the area \n| target = self\n| causes1 = Health Degeneration\n}}\n\n== Acquisition ==\nThis skill is given to Necromancers under the [[Yuletide]] disguise, i.e. those competing in [[Dwayna Vs Grenth]] or various [[Wintersday]] quests.\n\n== Notes ==\n* This skill has the highest [[sacrifice]] cost of any player skill.\n* [[Health degeneration]] is capped at -10, so the additional degeneration can negate the effects of the only Yuletide regeneration skill, [[Ice Breaker]].\n\n== Trivia ==\n* The animation of its [[area of effect]] resembles a [[well spell]].\n* Before [[Wintersday 2009]], the sacrifice cost of this skill was 100% (which prevented NPCs from using it at all).\n\n[[Category:Skills with nearby AoE]]"
+}

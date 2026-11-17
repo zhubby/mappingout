@@ -1,0 +1,11 @@
+{
+  "title": "Lyssa's Haste (PvP)",
+  "pageid": 278539,
+  "revid": 2726535,
+  "revisedAt": "2026-04-28T19:20:55Z",
+  "sha1": "ae3ce5870f410c049a61e56bda2e28cb274a9862",
+  "url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Lyssa's%20Haste%20(PvP)&oldid=2726535",
+  "retrievedAt": "2026-11-16T15:41:35.191Z",
+  "wikitext": "{{pveversion|Lyssa's Haste}}\n{{Skill infobox\n| id = 3348\n| name = Lyssa's Haste (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Wind Prayers\n| type = Flash Enchantment Spell\n| energy = 5\n| recharge = 25\n| is-pvp = y\n| causes1 = Decreased Recharge Time\n| causes2 = Interrupt\n| description = [[Flash Enchantment Spell]]. For {{gr|3|15}} seconds, your [[Dervish]] [[enchantment]]s recharge 33% faster. When you activate this enchantment, all [[adjacent]] [[foe]]s are [[interrupt]]ed. When this enchantment ends, all adjacent foes are interrupted. 50% [[fail]]ure chance unless Wind Prayers 5 or higher.\n| concise description = Flash Enchantment Spell. ({{gr|3|15}} seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. {{gray|50% failure chance unless Wind Prayers 5 or higher.}}\n| target = self\n| aoe = adjacent\n}}\n\n{{Skill progression\n|attribute = [[Wind Prayers]]\n|var1 name = [[Duration]]\n|var1 at0 = 3\n|var1 at15 = 15\n}}\n\n== Notes ==\n*This skill can be [[Skill queue|queued]] to prevent [[quarterknocking]] on oneself.\n\n[[Category:Skills with a failure rate linked to an attribute]]\n\n[[de:Lyssas Eile (PvP)]]\n[[Category:Skills named after eponymous NPCs]]"
+}

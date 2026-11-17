@@ -1,7 +1,13 @@
+/**
+ * [INPUT]: 依赖地图资料、个人笔记、职业图标与 Leaflet。
+ * [OUTPUT]: 提供地图定位、笔记交互与可折叠职业图例。
+ * [POS]: 地图视图；沿用资料坐标，图例状态仅在本视图保存。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { t, useLocale } from './i18n';
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import L from 'leaflet';
-import { ChevronDown, Crosshair, Minus, Plus, Maximize, Navigation } from 'lucide-react';
+import { Crosshair, Minus, Plus, Maximize, Navigation, UsersRound } from 'lucide-react';
 import type { Entry, Note, Place, Region } from './types';
 import { kindNames, kindSymbols } from './types';
 import { assetUrl } from './domain';
@@ -12,9 +18,30 @@ export function AtlasMap({ region, entries, selected, focus, focusKey, notes, on
   const locale = useLocale();
   const host = useRef<HTMLDivElement>(null), map = useRef<L.Map | null>(null), group = useRef<L.LayerGroup | null>(null);
   const [coords, setCoords] = useState(t("拖动探索 · 滚轮缩放")), [mapError, setMapError] = useState(false);
-  const [legendOpen, setLegendOpen] = useState(() => window.matchMedia('(min-width: 1200px)').matches);
+  const [legendOpen, setLegendOpen] = useState(false);
+  const legend = useRef<HTMLElement>(null), legendToggle = useRef<HTMLButtonElement>(null);
   const viewportSize = useRef({ width: window.innerWidth, height: window.innerHeight });
   const showProfessions = !noteMode && region.verified && entries.some(entry => entry.kind === 'skill' && professionById.has(entry.profession || 0) && entry.locations.some(place => place.valid && place.region === region.id));
+  useEffect(() => { setLegendOpen(false); }, [region.id, showProfessions]);
+  useEffect(() => {
+    if (!legendOpen) return;
+    const outside = (event: PointerEvent | FocusEvent) => {
+      if (!legend.current?.contains(event.target as Node)) setLegendOpen(false);
+    };
+    const escape = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault(); setLegendOpen(false);
+      legendToggle.current?.focus({preventScroll:true});
+    };
+    document.addEventListener('pointerdown', outside, true);
+    document.addEventListener('focusin', outside);
+    document.addEventListener('keydown', escape);
+    return () => {
+      document.removeEventListener('pointerdown', outside, true);
+      document.removeEventListener('focusin', outside);
+      document.removeEventListener('keydown', escape);
+    };
+  }, [legendOpen]);
   const callbacks = useRef({ onNote, noteMode }); callbacks.current = { onNote, noteMode };
   const viewState = useRef({ region, focus }); viewState.current = { region, focus };
   useEffect(() => {
@@ -76,15 +103,18 @@ export function AtlasMap({ region, entries, selected, focus, focusKey, notes, on
   return <div className={`map-stage ${noteMode ? 'placing-note' : ''}`}>
     <div ref={host} className="leaflet-host" data-testid="atlas-map"/>
     <div className="map-vignette"/>
-    <div className="map-heading"><span className="eyebrow">{t("TYRIA CARTOGRAPHY / ")}{region.id.replace(':', '—')}</span><h2>{region.name}</h2><span><span className="live-dot"/> {region.verified ? t("原始地图 · 地标已核对") : t("地图对应关系待确认")}</span></div>
+    <div className="map-heading">
+      <span className="eyebrow">{t("TYRIA CARTOGRAPHY / ")}{region.id.replace(':', '—')}</span><h2>{region.name}</h2>
+      {!region.verified && <span><span className="live-dot"/> {t("地图对应关系待确认")}</span>}
+      {showProfessions && <section ref={legend} className="profession-map-legend" aria-label={t("技能职业图例")}>
+        <button ref={legendToggle} type="button" className="profession-legend-toggle" aria-label={t("技能点 · 职业图例")} title={t("技能点 · 职业图例")} aria-expanded={legendOpen} aria-controls="map-profession-key" onClick={() => setLegendOpen(open => !open)}><UsersRound size={18} aria-hidden="true"/></button>
+        <ul id="map-profession-key" className="profession-legend-items" hidden={!legendOpen}>{professions.map(profession => <li key={profession.id}><div className="profession-token" style={{ '--profession-color': profession.color } as CSSProperties}><img src={profession.icon} alt="" aria-hidden="true"/></div><span>{profession.name}</span></li>)}</ul>
+      </section>}
+    </div>
     <div className="compass"><Navigation size={24}/><span>{t("N")}</span></div>
     <div className="map-controls"><button aria-label={t("放大")} onClick={() => map.current?.zoomIn()}><Plus size={19}/></button><button aria-label={t("缩小")} onClick={() => map.current?.zoomOut()}><Minus size={19}/></button><span/><button aria-label={t("显示完整地图")} onClick={() => map.current?.fitBounds([[-region.height,0],[0,region.width]])}><Maximize size={18}/></button></div>
     <div className="map-coordinates"><Crosshair size={13}/><span>{/[0-9]/.test(coords) ? coords : t("拖动探索 · 滚轮缩放")}</span></div>
     <div className="map-source">{t("GUILD WARS · ORIGINAL ATLAS")}</div>
-    {showProfessions && <section className="profession-map-legend" aria-label={t("技能职业图例")}>
-      <button type="button" className="profession-legend-toggle" aria-expanded={legendOpen} aria-controls="map-profession-key" onClick={() => setLegendOpen(open => !open)}><i aria-hidden="true"/><span>{t("技能点 · 职业图例")}</span><small>{t("职业颜色 + 职业图标")}</small><ChevronDown size={14}/></button>
-      <ul id="map-profession-key" className="profession-legend-items" hidden={!legendOpen}>{professions.map(profession => <li key={profession.id}><div className="profession-token" style={{ '--profession-color': profession.color } as CSSProperties}><img src={profession.icon} alt="" aria-hidden="true"/></div><span>{profession.name}</span></li>)}</ul>
-    </section>}
     {(mapError || !region.image) && <div className="map-alert">{t("地图图片暂不可用；请联网访问此地区后重试。")}</div>}
     {noteMode && <div className="map-tip">{t("点击地图添加个人笔记")}</div>}
   </div>;

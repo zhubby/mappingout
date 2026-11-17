@@ -1,0 +1,27 @@
+/*
+ * [INPUT]: 依赖应用的金色主题、字体和 Select 语义状态。
+ * [OUTPUT]: 提供菜单触发器、可选图标、浮层与选中状态样式。
+ * [POS]: 共用单选外观；布局变体由所属视图控制。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
+.select-trigger{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-width:0;padding:9px 10px;color:#c4cdbf;background:#151e18;border:1px solid #344035;border-radius:5px;font:inherit;font-size:12px;text-align:left;line-height:1.5}
+.select-trigger:hover{border-color:#697451;color:#e4d8b7;background:#1c281e}
+.select-trigger:focus-visible,.select-trigger[aria-expanded=true]{border-color:#b6a072;outline:2px solid #ccb17b55;outline-offset:2px}
+.select-value{display:flex;align-items:center;gap:7px;min-width:0;overflow:hidden}
+.select-value-label{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.select-icon{width:20px;height:20px;object-fit:contain;flex-shrink:0}
+.select-option-copy{display:flex;align-items:center;gap:8px;min-width:0}
+.select-chevron{color:#a99870;transition:transform .15s}
+.select-trigger[aria-expanded=true] .select-chevron{transform:rotate(180deg)}
+.select-menu{position:fixed;z-index:1200;overflow:auto;overscroll-behavior:contain;padding:5px;background:#1a251d;border:1px solid #756947;border-radius:6px;box-shadow:0 12px 32px #0008;color:#d8ddd4;font-size:12px;line-height:1.5;scrollbar-width:thin;scrollbar-color:#687354 #1a251d;animation:select-appear .1s ease-out}
+.select-option{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:34px;padding:8px 10px;border:1px solid transparent;border-radius:3px;cursor:pointer;touch-action:pan-y}
+.select-option>span{min-width:0;overflow-wrap:anywhere}
+.select-option>svg{color:var(--gold,#ccb17b);flex-shrink:0}
+.select-option.is-active{color:#f0e3c3;background:#ccb17b1c;border-color:#ccb17b4d}
+.select-option[aria-selected=true]{color:#e4ce9d}
+.select-option[aria-disabled=true]{opacity:.4;cursor:not-allowed}
+.select-group-label{padding:10px 10px 5px;color:#a29b7a;font-size:10px;letter-spacing:.8px;border-top:1px solid #39422f;margin-top:4px}
+.select-menu>[role=group]:first-child>.select-group-label{border-top:0;margin-top:0}
+@keyframes select-appear{from{opacity:0}to{opacity:1}}
+@media(pointer:coarse){.select-option{min-height:44px}}
+@media(prefers-reduced-motion:reduce){.select-menu{animation:none}.select-chevron{transition:none}}

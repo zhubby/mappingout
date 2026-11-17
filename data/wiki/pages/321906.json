@@ -1,0 +1,11 @@
+{
+  "title": "Rage of the Djinn",
+  "pageid": 321906,
+  "revid": 2739742,
+  "revisedAt": "2026-09-07T13:41:09Z",
+  "sha1": "db07e37d258b1afac3dee4d83fc65fd104e6a1cf",
+  "url": "https://wiki.guildwars.com/wiki/Rage_of_the_Djinn",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rage%20of%20the%20Djinn&oldid=2739742",
+  "retrievedAt": "2026-11-16T15:41:44.120Z",
+  "wikitext": "{{Skill infobox\n| id = 3288\n| name = Rage of the Djinn\n| campaign = Core\n| type = Effect\n| description = Elemental damage is now 10% armor-ignoring.\n| concise description = Elemental damage gains 10% armor-ignoring damage.\n}}"
+}

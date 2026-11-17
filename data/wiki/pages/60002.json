@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Earthquake",
+  "pageid": 60002,
+  "revid": 2629808,
+  "revisedAt": "2018-06-18T17:41:30Z",
+  "sha1": "1f512aa9d1fc17708c2efe87d56e2f4d477a8afb",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Earthquake",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Earthquake&oldid=2629808",
+  "retrievedAt": "2026-11-16T15:41:40.920Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Earthquake\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 6\n| activation = 1\n| recharge = 20\n| description = [[Spell]]. You invoke an Earthquake at [[target]] [[foe]]'s location. Target foe is struck for 650 [[damage]]. If that foe is casting a [[spell]], that spell is [[interrupt]]ed.\n| concise description = Spell. Interrupts a spell. Deals 650 damage.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Dwarven Arcanist Form]]\n*[[Earth Elemental Form]]\n\n==Related skills==\n*{{skill icon|Polymock Frozen Trident}}\n*{{skill icon|Polymock Meteor}}\n\n==Trivia==\n*Shares the [[skill icon]] of [[Earthquake]].\n\n[[de:Polymock-Erdbeben]]"
+}

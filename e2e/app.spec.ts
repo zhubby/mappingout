@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: 依赖生产网页、地图数据和共用菜单操作。
+ * [OUTPUT]: 验证职业图例浮框、地图筛选、角色与离线交互。
+ * [POS]: 地图浏览器回归；菜单通过可见选项选择。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
+import {selectOption} from './select';
 import { expect, test, type Page } from '@playwright/test';
 
 async function expectOriginalName(page:Page,name:string) {
@@ -9,7 +16,8 @@ async function expectOriginalName(page:Page,name:string) {
 }
 
 
-test('skill markers match all ten professions and keep their legend available offline on mobile', async ({ page, context, request }) => {
+test('skill markers match all ten professions and keep their collapsed legend available offline on mobile', async ({ page, context, request }, testInfo) => {
+  await page.setViewportSize({width:1440, height:900});
   const catalog = await (await request.get('/data/catalog.json')).json();
   const skills = new Map<string, number>(catalog.records.filter((entry: any) => entry.kind === 'skill').map((entry: any) => [entry.name, entry.profession]));
   await page.goto('/?kind=skill&region=3%3A3&map=3%3A3');
@@ -19,9 +27,21 @@ test('skill markers match all ten professions and keep their legend available of
   for (const marker of markers) expect(marker.profession, marker.name).toBe(skills.get(marker.name));
   await page.waitForFunction(() => Array.from(document.querySelectorAll<HTMLImageElement>('.atlas-marker.skill img')).every(image => image.complete && image.naturalWidth > 0));
   const toggle = page.getByRole('button', { name: /技能点 · 职业图例/ });
+  await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+  await expect(page.locator('.profession-legend-items')).toBeHidden();
+  await expect(page.locator('.map-heading .profession-legend-toggle')).toHaveCount(1);
+  await expect(page.getByText('原始地图 · 地标已核对', {exact:true})).toHaveCount(0);
+  await expect(toggle).toHaveText('');
+  await toggle.click();
   await expect(toggle).toHaveAttribute('aria-expanded', 'true');
   await expect(page.locator('.profession-legend-items li')).toHaveCount(10);
-  await toggle.click();
+  await page.screenshot({path:testInfo.outputPath('profession-legend-desktop.png'), animations:'disabled'});
+  await page.keyboard.press('Escape');
+  await expect(page.locator('.profession-legend-items')).toBeHidden();
+  await expect(toggle).toBeFocused();
+  await toggle.press('Enter');
+  await expect(page.locator('.profession-legend-items')).toBeVisible();
+  await toggle.press('Tab');
   await expect(page.locator('.profession-legend-items')).toBeHidden();
   await page.setViewportSize({ width: 390, height: 844 });
   await page.reload();
@@ -45,6 +65,45 @@ test('skill markers match all ten professions and keep their legend available of
   await page.locator('.legend-items').getByRole('button', { name: '技能', exact: false }).click();
   await expect(page.locator('.atlas-marker.skill')).toHaveCount(0);
   await expect(page.getByRole('region', { name: '技能职业图例' })).toHaveCount(0);
+  await page.locator('.legend-items').getByRole('button', { name: '技能', exact: false }).click();
+  await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+});
+
+test.describe('profession legend touch layout', () => {
+  test.use({viewport:{width:390, height:844}, isMobile:true, hasTouch:true});
+
+  test('legend stays two rows of five in both languages and closes on outside taps', async ({page}, testInfo) => {
+    await page.goto('/?kind=skill&map=3:3');
+    for (const locale of ['zh-CN', 'en']) {
+      await selectOption(page.getByRole('combobox', {name:'Language / 语言'}), locale);
+      const toggle = page.getByRole('button', {name:locale === 'en' ? 'Skill locations · Professions' : '技能点 · 职业图例', exact:true});
+      for (const width of [1440, 820, 390, 320]) {
+        await page.setViewportSize({width, height:844});
+        await expect(toggle).toHaveAttribute('aria-expanded', 'false');
+        await toggle.tap();
+        const panel = page.locator('.profession-legend-items');
+        await expect(panel).toBeVisible();
+        const items = await panel.locator('li').evaluateAll(elements => elements.map(element => {
+          const bounds = element.getBoundingClientRect(); return {x:Math.round(bounds.x), y:Math.round(bounds.y)};
+        }));
+        expect(items).toHaveLength(10);
+        expect(new Set(items.map(item => item.x)).size).toBe(5);
+        expect(new Set(items.map(item => item.y)).size).toBe(2);
+        const bounds = await panel.boundingBox();
+        const map = await page.locator('.map-stage').boundingBox();
+        expect(bounds!.x).toBeGreaterThanOrEqual(map!.x);
+        expect(bounds!.x + bounds!.width).toBeLessThanOrEqual(map!.x + map!.width);
+        expect(bounds!.y + bounds!.height).toBeLessThanOrEqual(map!.y + map!.height);
+        expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+        if (width === 390 && locale === 'zh-CN') await page.screenshot({path:testInfo.outputPath('profession-legend-mobile.png'), animations:'disabled'});
+        await toggle.tap();
+        await expect(panel).toBeHidden();
+        await toggle.tap();
+        await page.getByRole('button', {name:locale === 'en' ? 'Zoom in' : '放大', exact:true}).tap();
+        await expect(panel).toBeHidden();
+      }
+    }
+  });
 });
 
 test('NPC skills keep mode, mission and level conditions without subsection headings', async ({ page }) => {
@@ -54,7 +113,7 @@ test('NPC skills keep mode, mission and level conditions without subsection head
     ['boss:2:609442ae935712a6', 'Shadow Shroud (elite) (levels 25, 28, and 30 only)']
   ]) {
     await page.goto(`/?kind=boss&selected=${encodeURIComponent(id)}`);
-    await page.getByLabel('Language / 语言').selectOption('en');
+    await selectOption(page.getByLabel('Language / 语言'), 'en');
     await page.getByText('Skills and appearance conditions', { exact: true }).click();
     await expect(page.locator('.npc-skill-source')).toBeVisible();
     await expect(page.locator('.npc-skill-source')).toContainText(condition);
@@ -72,12 +131,12 @@ test('area review separates missions, dungeons and genuine vanquishing targets',
   await page.goto('/?kind=zone&selected=zone%3A2%3A146');
   await expectOriginalName(page,'Raisu Palace');
   await expect(page.locator('.progress-section')).toHaveCount(0);
-  await page.getByLabel('篇章筛选').selectOption('2');
-  await page.getByLabel('地区筛选').selectOption('2:1');
+  await selectOption(page.getByLabel('篇章筛选'), '2');
+  await selectOption(page.getByLabel('地区筛选'), '2:1');
   await page.getByRole('textbox', { name: '搜索资料' }).fill('Raisu Palace (explorable area)');
   await page.locator('.result').first().click();
   await expectOriginalName(page,'Raisu Palace (explorable area)');
-  await page.getByLabel('区域筛选').selectOption('gww:10970');
+  await selectOption(page.getByLabel('区域筛选'), 'gww:10970');
   await expect(page.locator('.result')).toHaveCount(1);
   await expect(page.getByRole('button', { name: '标记已清剿', exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: /定位地点/ })).toHaveCount(0);
@@ -86,10 +145,11 @@ test('area review separates missions, dungeons and genuine vanquishing targets',
   await page.getByRole('button', { name: '创建探索者', exact: true }).last().click();
   await page.getByRole('button', { name: '关闭弹窗' }).click();
   await page.getByRole('button', { name: '标记已清剿', exact: true }).click();
+  await expect(page.getByRole('button', { name: '已完成 · 点击撤销', exact: true })).toBeVisible();
   await page.reload();
   await expect(page.getByRole('button', { name: '已完成 · 点击撤销', exact: true })).toBeVisible();
   await expectOriginalName(page,'Raisu Palace (explorable area)');
-  await expect(page.getByLabel('区域筛选')).toHaveValue('gww:10970');
+  await expect(page.getByLabel('区域筛选')).toHaveAttribute('data-value', 'gww:10970');
 });
 
 test('quest sources retain legacy search and suppress unconfirmed map targets', async ({ page }) => {
@@ -150,7 +210,7 @@ test('story guide keeps plot spoilers collapsed and preserves alternative routes
 
 test('collector detail uses the correct NPC and cost-specific trade variant', async ({ page }) => {
   await page.goto('/?kind=collector&selected=collector%3A3%3A128');
-  await page.getByLabel('Language / 语言').selectOption('en');
+  await selectOption(page.getByLabel('Language / 语言'), 'en');
   await expectOriginalName(page,'Kaya (collector)');
   await expect(page.locator('.description')).toContainText('Vehtendi Valley');
   await expect(page.locator('.detail-stat').first()).toContainText('5 Heket Tongue');
@@ -165,7 +225,7 @@ test('collector detail uses the correct NPC and cost-specific trade variant', as
 
 test('search, map location, share URL and responsive layout',async({page})=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
-  await page.goto('/'); await expect(page.getByRole('heading',{name:/探索未知/})).toBeVisible();
+  await page.goto('/'); await expect(page.getByRole('textbox',{name:'搜索资料'})).toBeVisible();
   await page.getByRole('textbox',{name:'搜索资料'}).fill('劈击');
   await page.locator('.result').filter({hasText:'劈击'}).first().click();
   await expect(page.locator('.detail-title-row h2')).toHaveText('劈击');
@@ -209,17 +269,17 @@ test('all categories and offline visited resources',async({page,context})=>{
 });
 test('treasure dates, vanquishing, filters and layer switches persist',async({page})=>{
   await page.goto('/');await page.getByRole('button',{name:'创建探索者',exact:true}).click();await page.getByRole('textbox',{name:'角色名'}).fill('成就记录者');await page.getByRole('button',{name:'创建探索者',exact:true}).last().click();await page.getByRole('button',{name:'关闭弹窗'}).click();
-  await page.getByRole('button',{name:'宝藏',exact:true}).first().click();await page.locator('.result').first().click();await page.getByLabel('宝藏开启日期').fill('2026-01-15');await page.getByRole('button',{name:'标记已开启'}).click();await page.reload();await expect(page.getByText('上次开启：2026-01-15')).toBeVisible();
+  await page.getByRole('button',{name:'宝藏',exact:true}).first().click();await page.locator('.result').first().click();await page.getByLabel('宝藏开启日期').fill('2026-01-15');await page.getByRole('button',{name:'标记已开启'}).click();await expect(page.getByText('上次开启：2026-01-15')).toBeVisible();await page.reload();await expect(page.getByText('上次开启：2026-01-15')).toBeVisible();
   await page.getByRole('button',{name:'区域',exact:true}).first().click();await page.getByText('仅显示可追踪的未完成目标').click();await page.locator('.result').first().click();await page.getByRole('button',{name:'标记已清剿'}).click();await expect(page.getByRole('button',{name:'已完成 · 点击撤销'})).toBeVisible();
-  await page.getByText('仅显示可追踪的未完成目标').click();await page.getByRole('button',{name:'技能',exact:true}).first().click();await page.getByLabel('篇章筛选').selectOption('2');await page.getByLabel('地区筛选').selectOption('2:2');await page.getByLabel('职业筛选').selectOption('7');
-  await expect(page.locator('.result').first()).toBeVisible();await expect(page.getByLabel('地图地区')).toHaveValue('2:2');
+  await page.getByText('仅显示可追踪的未完成目标').click();await page.getByRole('button',{name:'技能',exact:true}).first().click();await selectOption(page.getByLabel('篇章筛选'), '2');await selectOption(page.getByLabel('地区筛选'), '2:2');await selectOption(page.getByLabel('职业筛选'), '7');
+  await expect(page.locator('.result').first()).toBeVisible();await expect(page.getByLabel('地图地区')).toHaveAttribute('data-value', '2:2');
   await page.locator('.result').first().click();await expect(page.locator('.atlas-marker.skill.chosen').first()).toBeVisible();
   const layer=page.locator('.legend-items').getByRole('button',{name:'技能',exact:false});await layer.click();await expect(layer).toHaveAttribute('aria-pressed','false');await expect(page.locator('.atlas-marker.skill')).toHaveCount(0);await page.reload();await expect(page.locator('.legend-items').getByRole('button',{name:'技能',exact:false})).toHaveAttribute('aria-pressed','false');
   await expect(page.locator('.atlas-marker.skill')).toHaveCount(0);
 });
 test('type changes clear hidden filters and regional results locate within their region',async({page})=>{
   await page.goto('/');await page.locator('.result').first().waitFor();
-  await page.getByLabel('职业筛选').selectOption('1');await page.getByLabel('技能属性筛选').selectOption('axe-mastery');
+  await selectOption(page.getByLabel('职业筛选'), '1');await selectOption(page.getByLabel('技能属性筛选'), 'axe-mastery');
   await page.getByRole('button',{name:'Boss / 来源',exact:true}).first().click();
   await expect(page.getByLabel('技能属性筛选')).toHaveCount(0);await expect(page.locator('.result').first()).toBeVisible();
   expect(new URL(page.url()).searchParams.has('attribute')).toBe(false);
@@ -228,9 +288,9 @@ test('type changes clear hidden filters and regional results locate within their
   expect(new URL(page.url()).searchParams.has('profession')).toBe(false);
   await page.goto('/?kind=skill&campaign=2&region=2%3A2&map=2%3A2&q='+encodeURIComponent('劈击'));
   await page.locator('.result').first().click();
-  await expect(page.getByLabel('地图地区')).toHaveValue('2:2');await expect(page.getByLabel('地区筛选')).toHaveValue('2:2');
+  await expect(page.getByLabel('地图地区')).toHaveAttribute('data-value', '2:2');await expect(page.getByLabel('地区筛选')).toHaveAttribute('data-value', '2:2');
   await expect(page.locator('.atlas-marker.chosen').first()).toBeVisible();
-  await page.reload();await expect(page.getByLabel('地图地区')).toHaveValue('2:2');
+  await page.reload();await expect(page.getByLabel('地图地区')).toHaveAttribute('data-value', '2:2');
   await page.goto('/?kind=boss&attribute='+encodeURIComponent('精通斧术'));
   await expect(page.locator('.result').first()).toBeVisible();
   expect(new URL(page.url()).searchParams.has('attribute')).toBe(false);

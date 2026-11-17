@@ -1,0 +1,11 @@
+{
+  "title": "Template:Research needed",
+  "pageid": 292189,
+  "revid": 2563267,
+  "revisedAt": "2014-01-25T21:21:52Z",
+  "sha1": "22b87360cb5b00efc725bbe6487b52a4884b610a",
+  "url": "https://wiki.guildwars.com/wiki/Template:Research_needed",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3AResearch%20needed&oldid=2563267",
+  "retrievedAt": "2026-11-16T14:06:02.947Z",
+  "wikitext": "<includeonly>{{ #if: {{NAMESPACE}} | | [[Category:Research needed]] }}</includeonly><noinclude>\n\nAdd this template to any article that requires further research or confirmation. Ideally, place the tag in or near the relevant section or at the bottom of the article. Remember to add a reason so that other contributors know when it's safe to remove the tag.\n\nThis template adds the article to [[:category:research needed]]; the stated reason is displayed at [[Guild Wars Wiki:Requests for research/DPL List]].\n\n== Usage ==\n<pre>\n{{Research needed|<Reason>}}\n</pre>\n[[Category:Maintenance templates]]\n</noinclude>"
+}

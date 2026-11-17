@@ -1,0 +1,11 @@
+{
+  "title": "Slippery Ground (PvP)",
+  "pageid": 302378,
+  "revid": 2720114,
+  "revisedAt": "2026-02-05T22:41:32Z",
+  "sha1": "de86f89774569ca7d14b381bb8b0c755372f9b39",
+  "url": "https://wiki.guildwars.com/wiki/Slippery_Ground_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Slippery%20Ground%20(PvP)&oldid=2720114",
+  "retrievedAt": "2026-11-16T15:41:53.625Z",
+  "wikitext": "{{Pveversion|Slippery Ground}}\n{{Skill infobox\n| name = Slippery Ground (PvP)\n| is-pvp = y\n| id = 3398\n| campaign = Eye of the North\n| profession = Elementalist\n| attribute = Water Magic\n| type = Spell\n| energy = 5\n| activation = 1\n| recharge = 15\n| causes1 = Knockdown\n| description = [[Spell]]. If [[target]] [[foe]] is [[Blind]] or [[Movement|moving]], that foe is [[knocked down]]. (50% [[fail]]ure chance with Water Magic 4 or less.)\n| concise description = Spell. Causes knock-down if this foe is Blind or moving. {{gray|50% failure chance unless Water Magic 5 or higher.}}\n| target = foes\n}}\n\n[[Category:Skills with a failure rate linked to an attribute]]"
+}

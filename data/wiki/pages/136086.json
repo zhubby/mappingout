@@ -1,0 +1,11 @@
+{
+  "title": "Ballad of Restoration (PvP)",
+  "pageid": 136086,
+  "revid": 2731339,
+  "revisedAt": "2026-06-25T10:56:33Z",
+  "sha1": "73cb78df51a0bd19a092d59cd469f5bfec55fbf8",
+  "url": "https://wiki.guildwars.com/wiki/Ballad_of_Restoration_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ballad%20of%20Restoration%20(PvP)&oldid=2731339",
+  "retrievedAt": "2026-11-16T15:41:07.822Z",
+  "wikitext": "{{pveversion|Ballad of Restoration}}\n\n{{Skill infobox\n| id = 2877\n| name = Ballad of Restoration (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Motivation\n| type = Chant\n| energy = 10\n| activation = 1\n| recharge = 20\n| causes1 = Health Gain\n| description = [[Chant]]. For 10 seconds, the next time each [[party]] member within [[earshot]] takes [[damage]], that party member [[Health gain|gains]] {{gr|15|75}} [[Health]].\n| concise description = Chant. (10 seconds.) Party members in earshot gain {{gr|15|75}} Health the next time they take damage.\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Motivation]]\n| var1 name = [[Health gain]]\n| var1 at0 = 15\n| var1 at15 = 75}}\n\n== Related skills ==\n*{{skill icon|Aria of Restoration}}\n*{{skill icon|Chorus of Restoration}}\n*{{skill icon|Reversal of Fortune}}\n*{{skill icon|Song of Restoration (PvP)}} ([[elite]])\n\n== See also ==\n*[[Party healing]]\n\n[[de:Ballade der Wiederherstellung (PvP)]]"
+}

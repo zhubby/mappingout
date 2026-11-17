@@ -1,0 +1,11 @@
+{
+  "title": "Flesh of My Flesh (PvP)",
+  "pageid": 136077,
+  "revid": 2738861,
+  "revisedAt": "2026-08-27T15:55:44Z",
+  "sha1": "1baec01545d83631070c345cd8ac199b1c4197c5",
+  "url": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Flesh%20of%20My%20Flesh%20(PvP)&oldid=2738861",
+  "retrievedAt": "2026-11-16T15:41:23.589Z",
+  "wikitext": "{{Pveversion|Flesh of My Flesh}}\n{{Skill infobox\n| name = Flesh of My Flesh (PvP)\n| id = 2866\n| campaign = Factions\n| profession = Ritualist\n| attribute = Restoration Magic\n| type = Spell\n| energy = 5\n| activation = 4\n| recharge = 6\n| causes1 = Health Loss\n| description = [[Spell]]. [[Health loss|Lose]] half your [[Health]]. [[resurrection|Resurrect]] [[target]] [[party]] member with your current Health and {{gr|5|20||%}} [[Energy]].\n| concise description = Spell. Resurrect target party member (half your current Health and {{gr|5|20||%}} Energy). Lose half your Health.\n| is-pvp = y\n| target = dead party members\n}}\n\n{{Skill progression\n| attribute = [[Restoration Magic]]\n| var1 name = % [[Energy]]\n| var1 at0 = 5\n| var1 at15 = 20}}\n\n== Related skills ==\n* {{skill icon|Death Pact Signet (PvP)}}\n\n== Trivia ==\n* The functionality of this skill has changed since its introduction; see its [[/Skill history|skill revision history]] for details.\n\n[[Category:Resurrection skills]]\n\n[[de:Fleisch von meinem Fleisch (PvP)]]"
+}

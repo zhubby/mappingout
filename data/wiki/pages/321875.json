@@ -1,0 +1,11 @@
+{
+  "title": "The Way of One",
+  "pageid": 321875,
+  "revid": 2739686,
+  "revisedAt": "2026-09-06T17:46:04Z",
+  "sha1": "d475a2fd5c83a8050944f278e4d59ecf13edc242",
+  "url": "https://wiki.guildwars.com/wiki/The_Way_of_One",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Way%20of%20One&oldid=2739686",
+  "retrievedAt": "2026-11-16T15:42:03.082Z",
+  "wikitext": "{{Skill infobox\n| id = 3152\n| name = The Way of One\n| type = Flux effect\n| campaign = Core\n| description = Healing spells now heal you for an additional 10%. This effect is reduced by 2% for each ally in earshot.\n}}"
+}

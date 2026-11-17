@@ -1,0 +1,11 @@
+{
+  "title": "\"Never Surrender!\" (PvP)",
+  "pageid": 136089,
+  "revid": 2733301,
+  "revisedAt": "2026-07-05T17:30:20Z",
+  "sha1": "f26b516744f91857cae4417ff187cbf44b6755c2",
+  "url": "https://wiki.guildwars.com/wiki/%22Never_Surrender!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Never%20Surrender!%22%20(PvP)&oldid=2733301",
+  "retrievedAt": "2026-11-16T15:41:04.640Z",
+  "wikitext": "{{pveversion|\"Never Surrender!\"}}\n\n{{Skill infobox\n| id = 2880\n| name = \"Never Surrender!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| energy = 5\n| recharge = 20\n| causes1 = Health Regeneration\n| description= [[Shout]]. For 10 seconds, all [[party]] members within [[earshot]] and below 75% [[Health]] gain {{gr|1|5|+}} [[Health regeneration]].\n| concise description = Shout. (10 seconds.) Party members in earshot gain {{gr|1|5|+}} Health regeneration. {{gray|Only affects party members below 75% Health.}}\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| maximum = 19\n| var1 name = [[Health regeneration]]\n| var1 at0 = 1\n| var1 at15 = 5}}\n\n==Related skills==\n*{{skill icon|\"Never Give Up!\" (PvP)}}\n*{{skill icon|Recuperation (PvP)}}\n*{{skill icon|Swirling Aura}}\n{{DEFAULTSORT:Never Surrender! (PvP)}}\n\n[[de:\"Ergebt Euch nicht!\" (PvP)]]"
+}

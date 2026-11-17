@@ -1,0 +1,11 @@
+{
+  "title": "Celestial skill",
+  "pageid": 17213,
+  "revid": 2628618,
+  "revisedAt": "2018-06-18T17:22:32Z",
+  "sha1": "33ef90399b727741e94d8e309dfd216dd65d47c9",
+  "url": "https://wiki.guildwars.com/wiki/Celestial_skill",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Celestial%20skill&oldid=2628618",
+  "retrievedAt": "2026-11-16T15:41:10.926Z",
+  "wikitext": "[[Celestial skill]]s can be temporarily acquired by player [[character]]s and [[henchmen]] in the [[Imperial Sanctum]] mission, [[Raisu Palace]] mission and [[Raisu Palace (explorable area)|explorable area]]. They are acquired by talking to the dragon [[Kuunavang]]. The skill differs between primary [[profession]]s.\n\n==Celestial skills==\n{{skill table|category=celestial skills|show profession=y}}\n\n==Notes==\n* Those whose primary profession comes from the [[Nightfall]] campaign (either [[Paragon]] or [[Dervish]]) will default to Celestial Summoning.\n\n{{anomaly|Celestial skills' descriptions omit that they can only be recharged when gaining a [[Morale Boost]].}}\n{{bug | The Celestial skill recharge gained from Morale Boosts will not take effect if the Celestial skill is hidden by another skill bar, such as that provided by [[Ursan Blessing]].}}\n\n[[Category:Celestial skills| ]]\n[[Category:Lists of skills]]\n\n[[de:Himmlische Fertigkeit]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Stone Daggers",
+  "pageid": 60005,
+  "revid": 2629857,
+  "revisedAt": "2018-06-18T17:43:09Z",
+  "sha1": "9fdf49312549e25d38a1d499abffffe5d576afeb",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Stone_Daggers",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Stone%20Daggers&oldid=2629857",
+  "retrievedAt": "2026-11-16T15:41:42.046Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Stone Daggers\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 1\n| activation = 1\n| recharge = 1\n| description = [[Spell]]. Send out two Stone Daggers. Each Stone Dagger strikes [[target]] [[foe]] for 60 [[damage]] if it hits.\n| concise description = Spell. Two projectiles: deals 60 damage each.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Dwarven Arcanist Form]]\n*[[Earth Elemental Form]]\n*[[Stone Rain Form]]\n\n==Related skills==\n*{{skill icon|Flare}}\n*{{skill icon|Ice Spear}}\n*{{skill icon|Polymock Ice Spear}}\n*{{skill icon|Polymock Flare}}\n*{{skill icon|Stone Daggers}}\n\n[[de:Polymock-Steindolche]]"
+}

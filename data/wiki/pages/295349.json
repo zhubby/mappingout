@@ -1,0 +1,11 @@
+{
+  "title": "Memories of Purity",
+  "pageid": 295349,
+  "revid": 2615766,
+  "revisedAt": "2017-04-04T14:48:30Z",
+  "sha1": "4891bd358979313d6525361a77aec7a1cca75e5a",
+  "url": "https://wiki.guildwars.com/wiki/Memories_of_Purity",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Memories%20of%20Purity&oldid=2615766",
+  "retrievedAt": "2026-11-16T13:47:00.322Z",
+  "wikitext": "{{ Quest infobox\n| id = 1376\n| name = Memories of Purity\n| section = Kaineng City\n| campaign = Winds of Change\n| region = Kaineng City\n| type = Secondary\n| given by = [[Herald of Purity]]\n| given at = [[Kaineng Center]]\n| preceded by = [[Cleansing Morostav Trail]]\n}}\n\n== Quest information ==\n=== Objectives ===\n* Relive the events of the Canthan plague.\n\n== Dialogue ==\n=== Initial dialogue ===\n;Herald of Purity\n:''<span style=\"color:green\">[Flashback Quest]:</span> While this quest is in your Quest Log, the lands of Cantha will revisit the time of the Afflicted.''\n:''\"Greetings, citizen! Have you heard the news? Thanks to the tireless efforts of Cantha's people, led by the Ministry of Purity, the plague that has cursed our great nation has finally been driven out.\"''\n:''\"Allow me to share with you the story of these struggles, that we may honor the sacrifices of those who have fallen in this noble task.\"''\n{{ Offer dialog\n| accept = With memories of the past in our hearts, we'll create a brighter future.\n| decline = Sorry, but I've seen enough of the Afflicted to last me a lifetime.\n}}\n\n== Notes ==\n* Once you have completed [[Cleansing Morostav Trail]], you can take this quest to restore default [[spawn]]s in Cantha, ''except'' in an area affected by any other [[Winds of Change]] quest.\n** This allows you to continue the ''Winds of Change'' storyline without abandoning ''Memories of Purity''.\n** In areas with an active ''Winds of Change'' quest, you are likely to see the original spawns, in addition to those foes that spawn due to the quest.\n* The quest doesn't stop Winds of Change related dialogues between NPCs from happening.\n* To return to the ''Winds of Change'' spawns, abandon the quest from your log."
+}

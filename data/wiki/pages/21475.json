@@ -1,0 +1,11 @@
+{
+  "title": "Dragon Blast",
+  "pageid": 21475,
+  "revid": 2628727,
+  "revisedAt": "2018-06-18T17:26:09Z",
+  "sha1": "ea94cb6bec3541b56f0b439a881791df7dd87c58",
+  "url": "https://wiki.guildwars.com/wiki/Dragon_Blast",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dragon%20Blast&oldid=2628727",
+  "retrievedAt": "2026-11-16T15:41:18.350Z",
+  "wikitext": "__NOTOC__\n{{Skill infobox\n| id = 1327\n| name = Dragon Blast\n| campaign = Factions\n| type = Skill\n| activation = 1\n| recharge = 5\n| special = Dragon Arena\n| target = foes\n| description = [[Skill (skill type)|Skill]]. Send out a [[projectile]] that kills [[target]] [[foe]] if it hits.\n| concise description = Skill. Projectile: kills target foe if it hits.\n}}\n\n== Acquisition ==\nAutomatically equipped upon entry to [[Dragon Arena]].\n\n== Notes ==\n* It typically hits for 1,000 damage but is easily dodged at longer distances.\n\n== Trivia ==\n* This skill is akin to the ball in [[w:Dodgeball|dodgeball]].\n\n[[de:Drachenexplosion]]"
+}

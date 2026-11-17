@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Wiki 快照、护甲图像和材料图标来源清单。
+ * [OUTPUT]: 编译护甲配方、材料图标路径及活动周期资料。
+ * [POS]: 功能资料构建入口；保留来源修订与稳定编号。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { web, evidenceDir, readIndex, loadPage } from './client.mjs';
@@ -38,6 +44,12 @@ if(issues.length) {
   throw Error(`${issues.length} armor pages require review; see armor-issues.json`);
 }
 const materials=[...new Map(Object.values(materialNames).map(([englishName,name])=>[materialId(englishName),{id:materialId(englishName),name,englishName}])).values()].filter(m=>offers.some(o=>o.pieces.some(p=>p.materials.some(a=>a.materialId===m.id))));
+const materialIcons=JSON.parse(await fs.readFile(path.join(evidenceDir,'material-icons.json'),'utf8'));
+for(const material of materials){
+  const icon=materialIcons.icons.find(icon=>icon.materialId===material.id&&icon.name===material.englishName);
+  if(!icon)throw Error(`材料图标来源缺失：${material.englishName}`);
+  material.icon=icon.asset;
+}
 let imageManifest={};try{imageManifest=JSON.parse(await fs.readFile(path.join(evidenceDir,'armor-images.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
 for(const set of sets)set.images=imageManifest[set.id]?.images||{};
 const materialReferences=[];

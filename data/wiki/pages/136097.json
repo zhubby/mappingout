@@ -1,0 +1,11 @@
+{
+  "title": "\"Watch Yourself!\" (PvP)",
+  "pageid": 136097,
+  "revid": 2638912,
+  "revisedAt": "2019-05-31T23:53:23Z",
+  "sha1": "62b9b9e53771767147d97c697bf24b2ad0218b1e",
+  "url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Watch%20Yourself!%22%20(PvP)&oldid=2638912",
+  "retrievedAt": "2026-11-16T15:41:05.434Z",
+  "wikitext": "{{pveversion|\"Watch Yourself!\"}}\n{{Skill infobox\n| name = \"Watch Yourself!\" (PvP)\n| id = 2858\n| campaign = Core\n| profession = Warrior\n| attribute = Tactics\n| type = Shout\n| adrenaline = 4\n| recharge = 4\n| causes1 = Increased Armor Rating\n| description = [[Shout]]. [[Party]] members within [[earshot]] gain +{{gr|5|25}} [[Armor rating|armor]] for 10 seconds. This shout ends after {{gr|1|3}} incoming [[attack]][s].\n| concise description = Shout. (10 seconds.) Party members in earshot have +{{gr|5|25}} armor. {{gray|Ends after {{gr|1|3}} incoming attack[s].}}\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Tactics]]\n| var1 name = + [[Armor rating]]\n| var2 name = [[Attack]]s\n| var1 at0 = 5\n| var1 at15 = 25\n| var2 at0 = 1\n| var2 at15 = 3\n}}\n\n==Related skills==\n*{{skill icon|\"Shields Up!\"}}\n*{{skill icon|\"Stand Your Ground!\" (PvP)}}\n\n==Notes==\n{{anomaly|Instead of ending on attacks as stated, it ends after an ally takes armor-respecting [[damage]] {{gr|1|3}} times.}}\n*This shout only ends on the ally that takes damage.\n{{DEFAULTSORT:Watch Yourself!}}\n\n[[de:Passt auf Euch auf! (PvP)]]"
+}

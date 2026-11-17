@@ -1,0 +1,11 @@
+{
+  "title": "Slayer's Insight",
+  "pageid": 77073,
+  "revid": 2341427,
+  "revisedAt": "2011-07-15T07:26:03Z",
+  "sha1": "b1e8dbbbed89b5b2dc57adca27c090154ebd17fa",
+  "url": "https://wiki.guildwars.com/wiki/Slayer%27s_Insight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Slayer's%20Insight&oldid=2341427",
+  "retrievedAt": "2026-11-16T15:41:53.625Z",
+  "wikitext": "{{skill infobox\n| id = 768\n| name = Slayer's Insight\n| type = Party Bonus\n| campaign = Core\n| consumable = Scroll of Slayer's Insight\n| description = [[Party Bonus]]. Your [[party]] gains 250% [[XP]] from combat. Slayer's Insight ends if your party fails to kill a [[boss]] for 5 minutes.\n| concise description = Party Bonus. Your party gains 250% XP from combat. Ends if your party fails to kill a boss for 5 minutes.\n}}\n\n== Related skills ==\n* {{skill icon|Hunter's Insight}}\n\n== Notes ==\n* This bonus can only be gained when a party member uses a [[Scroll of Slayer's Insight]]."
+}

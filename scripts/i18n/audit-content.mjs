@@ -1,7 +1,13 @@
+/**
+ * [INPUT]: 依赖五套离线资料、Wiki 快照与文件图像来源。
+ * [OUTPUT]: 提供英文基线与事实、数量和固定修订审计。
+ * [POS]: 双语编译前的来源检查；不授予中文审校状态。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
-import {contentFields} from '../../src/i18n/content-fields.ts';
+import {contentFields,datasets} from '../../src/i18n/content-fields.ts';
 import {englishSource,numericIssues,sha256} from './english-source.mjs';
 import {skillFacts} from '../wiki/skill-facts.mjs';
 import {npcFacts,weaponFacts} from '../wiki/content-facts.mjs';
@@ -21,8 +27,11 @@ export function auditContent(root=process.cwd()){
     for(const [key,value]of Object.entries(overrides))if(/^en\/catalog\/(?:campaigns|regions)\//.test(key))manual[key.slice(3)]={sourceHash:sha256(value.source),text:value.text,reviewer:value.reviewer,kind:'application-label'};
     const report={version:2,baseline:'Guild Wars Wiki, pinned English revisions',stats:{fields:0,wikiText:0,factRenderers:0,applicationText:0,unresolvedEnglish:0,englishCorrections:0,numericFlags:0},evidence:{skills:0,pvp:0,npcs:0,weapons:0,collectors:0,areas:0,armorSets:0,armorOffers:0,quests:0,travelerExchanges:0,weeklyEffects:0,rotations:0},evidenceErrors:[],unresolved:[],englishChanges:[],numeric:[]};
     const baselines={};
+    const questImages=new Map((fs.existsSync('data/wiki/quest-images.json')?read('data/wiki/quest-images.json').images:[]).map(image=>[image.reference.pageid,image]));
     const page=ref=>{
       const file=`data/wiki/pages/${ref.pageid}.json`;
+      const image=questImages.get(ref.pageid);
+      if(image && ref.title===image.reference.title && ref.revid===image.reference.revid) return {...image.reference,wikitext:image.licenseDeclaration};
       if(!fs.existsSync(file))throw Error(`Missing Wiki snapshot ${ref.title}`);
       const source=read(file);
       if(source.revid!==ref.revid||source.title!==ref.title)throw Error(`Wiki revision changed: ${ref.title} (${ref.revid} -> ${source.revid})`);
@@ -32,9 +41,10 @@ export function auditContent(root=process.cwd()){
       if(JSON.stringify(expected)!==JSON.stringify(actual))report.evidenceErrors.push({key,expected,actual});
     };
     const checked=new Set();
-    for(const dataset of ['catalog','armor','calendar']){
+    for(const dataset of datasets){
       const bytes=fs.readFileSync(`public/data/${dataset}.json`),data=JSON.parse(bytes);
-      const en=read(`public/data/i18n/en/${dataset}.json`).fields,zh=read(`public/data/i18n/zh-CN/${dataset}.json`).fields;
+      const existing=locale=>fs.existsSync(`public/data/i18n/${locale}/${dataset}.json`)?read(`public/data/i18n/${locale}/${dataset}.json`).fields:{};
+      const en=existing('en'),zh=existing('zh-CN');
       const baseline={version:2,dataset,sourceHash:sha256(bytes),fields:{}};
       for(const field of contentFields(data,dataset)){
         report.stats.fields++;
@@ -83,6 +93,11 @@ export function auditContent(root=process.cwd()){
           for(const key of ['title','type','region','levels','exits'])same(facts[key],row.area[key],`${row.id}/area/${key}`);
           report.evidence.areas++;
         }
+      }
+      if(dataset==='skills')for(const skill of data.skills)for(const variant of skill.variants){
+        const facts=skillFacts(page(variant.reference));
+        for(const key of ['gameIds','profession','attribute','type','elite','pveOnly','description','conciseDescription'])same(facts[key],variant[key],`${variant.id}/${key}`);
+        report.evidence.skills++;
       }
       if(dataset==='calendar'){
         const byId=new Map(data.activities.map(a=>[a.id,a]));

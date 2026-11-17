@@ -1,0 +1,11 @@
+{
+  "title": "Sunspear Battle Call",
+  "pageid": 41787,
+  "revid": 2607639,
+  "revisedAt": "2016-06-19T08:54:24Z",
+  "sha1": "2ae24cd958cf277f922b7d72a699630061e3f858",
+  "url": "https://wiki.guildwars.com/wiki/Sunspear_Battle_Call",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sunspear%20Battle%20Call&oldid=2607639",
+  "retrievedAt": "2026-11-16T15:42:00.196Z",
+  "wikitext": "{{effect infobox\n| name = Sunspear Battle Call\n| campaign = Nightfall\n| type = Environment effect\n| description = Your maximum [[Health]] increases to that of a [[level]] 20 [[character]].\n| concise description = Your maximum Health increases to that of a level 20 character.\n}}\n\n==Related skills==\n*{{Skill icon|Journey to the North}}\n\n==Notes==\n*This is an effect during the [[Consulate Docks]] mission.\n*Health is still affected by [[rune]]s and [[armor bonus]]es.\n*Armor is set to the profession's max [[armor rating]] (i.e. 60 for [[Monk]]s, [[Necromancer]]s, [[Ritualist]]s, [[Mesmer]]s, and [[Elementalist]]s, 70 for [[Ranger]]s, [[Dervish]]es, and [[Assassin]]s, and 80 for [[Warrior]]s and [[Paragon]]s).\n\n[[Category:Nightfall PvE-only skills]]"
+}

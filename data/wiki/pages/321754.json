@@ -1,0 +1,11 @@
+{
+  "title": "Wastrel's Worry (PvP)",
+  "pageid": 321754,
+  "revid": 2738642,
+  "revisedAt": "2026-08-27T01:09:55Z",
+  "sha1": "2fd86bf5bd78c1125b0b3376c27af049a6e3d792",
+  "url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Wastrel's%20Worry%20(PvP)&oldid=2738642",
+  "retrievedAt": "2026-11-16T15:42:07.828Z",
+  "wikitext": "{{pveversion|Wastrel's Worry}}\n{{Skill infobox\n| id = 3447\n| name = Wastrel's Worry (PvP)\n| campaign = Prophecies\n| profession = Mesmer\n| attribute = Domination Magic\n| type = Hex Spell\n| energy = 5\n| is-pvp = y\n| activation = {{1/4}}\n| recharge = 4\n| description = [[Hex Spell]]. After 3 seconds, [[target]] [[foe]] takes {{gr|20|100}} [[damage]] and all adjacent foes take 75% of that damage. If that foe successfully uses a [[skill]], Wastrel's Worry ends prematurely and does no damage.\n| concise description = Hex Spell. (3 seconds). End effect: causes {{gr|20|100}} damage to target and 75% of that damage to adjacent foes. {{gray|No effect and ends early if target foe uses a skill.}}\n| aoe = adjacent\n}}\n\n{{Skill progression\n| attribute = [[Domination Magic]]\n| var1 name = Target Damage\n| var1 at0 = 20\n| var1 at15 = 100\n| var2 name = Area Damage\n| var2 at0 = 15\n| var2 at15 = 75\n}}\n\n==Related skills==\n*{{skill icon|Wastrel's Demise}}\n\n== Notes ==\n* The foe must successfully activate a skill for Wastrel's Worry to end early. An [[interrupt]]ed/[[cancel]]ed skill does not count.\n* The description is somewhat misleading; if Wastrel's Worry ends early for ''any'' reason, the foe does not take damage.\n* Casting Wastrel's Worry on a foe already hexed with it has no effect.\n* The hex is especially effective on foes that do not use skills (e.g. [[minion]]s and [[pet]]s) and those with active hex reduction (e.g. foes affected by [[Peace and Harmony (PvP)|Peace and Harmony]]).\n* Wastrel's Worry is also useful to force targets to choose how they take damage &mdash; from (a) failure to use a skill (this hex) or by using a skill (e.g. [[Visions of Regret (PvP)|Visions of Regret]], [[Empathy (PvP)|Empathy]], [[Backfire]]).\n\n[[Category:Mesmer skill rewards]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Spiritual Healing",
+  "pageid": 228641,
+  "revid": 2583140,
+  "revisedAt": "2015-02-15T21:18:01Z",
+  "sha1": "3fa7d310ca22f1c393f4ccb4653da46a3ff40def",
+  "url": "https://wiki.guildwars.com/wiki/Spiritual_Healing",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Spiritual%20Healing&oldid=2583140",
+  "retrievedAt": "2026-11-16T15:41:57.731Z",
+  "wikitext": "{{Skill infobox\n| name = Spiritual Healing\n| id= 3088\n| special = Spirit Form \n| campaign = Core\n| type = Spell\n| energy = 5\n| activation = {{3/4}}\n| recharge = 5\n| description=\n[[Spell]]. [[Heal]] [[target]] other [[ally]] for 250 [[Health]].\n| concise description = Spell.  Heals for 250 Health. {{gray|Cannot self-target.}}\n}}\n\n== Related skills ==\n* {{skill icon|Spiritual Healing (Reaper skill)}}\n\n==Notes==\n*This skill can only be used while under [[Spirit Form (disguise)|Spirit Form disguise]]."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Sticky Ground",
+  "pageid": 227557,
+  "revid": 2597452,
+  "revisedAt": "2015-10-25T18:59:00Z",
+  "sha1": "fa4afd27b85b96c1d6cb45aab47e00af6dce1975",
+  "url": "https://wiki.guildwars.com/wiki/Sticky_Ground",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sticky%20Ground&oldid=2597452",
+  "retrievedAt": "2026-11-16T15:41:58.643Z",
+  "wikitext": "{{Skill infobox\n| name = Sticky Ground\n| id = 3071\n| campaign = Prophecies\n| campaign2 = Nightfall\n| type = Shout\n| special = Agent of the Mad King\n| target = foes\n| energy = 10\n| recharge = 20\n| description = [[Shout]]. For 10 seconds, [[target]] [[foe]] and all foes in [[earshot]] of target foe [[Snare (tactic)|move 90% slower]].\n| concise description = Shout. Also hexes {{sic|Should be 'affects', since this shout doesn't apply a hex}} foes in earshot of your target (10 seconds). These foes move 90% slower.\n}}\n\n==Related skills==\n*{{skill icon|Binding Chains}}\n*{{skill icon|Deep Freeze}}\n*{{skill icon|Earthen Shackles}}\n*{{skill icon|Shared Burden}} ([[Elite skill|elite]])\n\n==Notes==\n*This skill is part of the [[Agent of the Mad King]] disguise [[skill bar]].\n\n[[Category:Halloween skills]]"
+}

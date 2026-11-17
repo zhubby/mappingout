@@ -1,0 +1,11 @@
+{
+  "title": "The Path to Combat: Guild Battles",
+  "pageid": 281268,
+  "revid": 2551868,
+  "revisedAt": "2013-08-05T04:50:49Z",
+  "sha1": "cc15f97c9270551e393f9d027eebe390204c2e51",
+  "url": "https://wiki.guildwars.com/wiki/The_Path_to_Combat:_Guild_Battles",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Path%20to%20Combat%3A%20Guild%20Battles&oldid=2551868",
+  "retrievedAt": "2026-11-16T13:47:27.319Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = The Path to Combat: Guild Battles\n| id = 1333\n| campaign = Core\n| region = The Battle Isles\n| type = Secondary\n| given by = [[Zenjal]]\n| given at = [[Great Temple of Balthazar]]\n| preceded by = [[The Path to Victory: Codex Arena]]\n| followed by = [[The Path to Victory: Guild Battles]]\n}}\n\n==Quest information==\n===Requirements===\n*This quest is only offered to [[level]] 20 [[character]]s.\n\n===Objectives===\n*Complete a [[Guild versus Guild|guild battle]].\n*See Zenjal <nowiki>[</nowiki>[[Zaishen Order|Zaishen]] Guide] for your reward.\n\n===Reward===\n*2,500 [[Experience]]\n*[[Champion's Zaishen Strongbox]]\n\n==Walkthrough==\nTravel to your [[Guild hall]] with [[Automated tournament#GvG tournament requirements for participants|at least four players]] and start a [[guild]] battle. Your guild does not have to win, but one guild must lose in order to complete this quest.\n\n==Dialogue==\n===Initial dialogue===\n;Zenjal [Zaishen Guide]\n\n:''\"The pinnacle of combat on these islands is found in the guild battles: a war for pride and honor, fought between mighty alliances of adventurers. I warn you, it will take all your might and cunning to survive a handful of minutes in such a fray. Knowing this, will you still press on?\"''\n{{Offer dialog\n| accept = Let's do this!\n| decline = Warring guilds? It'll never catch on.\n| ask = To compete in a guild battle, you must travel to your guild hall.\n}}\n\n===Reward dialogue===\n;Zenjal [Zaishen Guide]\n:{{dialogue-stub}}\n\n{{DEFAULTSORT:Path to Combat: Heroes Ascent, The}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Summoning Sickness",
+  "pageid": 160209,
+  "revid": 2668662,
+  "revisedAt": "2020-11-14T22:28:07Z",
+  "sha1": "ddf5948d3dce573fb92fe26924d4d17a3e841769",
+  "url": "https://wiki.guildwars.com/wiki/Summoning_Sickness",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Summoning%20Sickness&oldid=2668662",
+  "retrievedAt": "2026-11-16T15:42:00.197Z",
+  "wikitext": "{{skill infobox\n| id = 2886\n| name = Summoning Sickness\n| type = Skill\n| description = [[Skill (skill type)|Skill]]. For 10 minutes, you are unable to use [[summoning stone]]s.\n| concise description = Skill. (10 minutes.) You are unable to use summoning stones.\n| campaign = Core\n}}\n\n==Notes==\n*This skill is activated upon using a [[Summoning_stone|summoning stone]].\n*This effect won't wear off from dying.\n\n== Trivia ==\n* The [[Feedback:Game_updates/20110505|May 5, 2011 update]] changed the duration from 60 minutes to 10 minutes.\n* [https://mtg.gamepedia.com/Summoning_sickness Summoning Sickness] in the [[w:trading card game|trading card game]] [[w:Magic: the Gathering|Magic: the Gathering]] prevents newly summoned creatures from attacking on their first turn."
+}

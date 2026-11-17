@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Mind Freeze",
+  "pageid": 60025,
+  "revid": 2629834,
+  "revisedAt": "2018-06-18T17:42:23Z",
+  "sha1": "fff6328db0c32894c2a608d590ba0abc03f1fdf6",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Mind_Freeze",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Mind%20Freeze&oldid=2629834",
+  "retrievedAt": "2026-11-16T15:41:41.401Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Mind Freeze\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 4\n| activation = 1\n| recharge = 15\n| description = [[Spell]]. Target foe suffers 400 damage. If you have more Energy than target foe, that foe suffers an additional 400 damage.\n| concise description = Spell. Deals 400 damage. Deals 400 more damage if you have more Energy than target foe.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Dredge Form]]\n*[[Ice Imp Form]]\n\n==Related skills==\n*{{Skill icon|Polymock Mind Shock}}\n*{{Skill icon|Mind Freeze}}\n\n[[de:Geistige Polymock-Erfrierung]]"
+}

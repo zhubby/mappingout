@@ -1,0 +1,11 @@
+{
+  "title": "Pious Fury (PvP)",
+  "pageid": 280565,
+  "revid": 2645377,
+  "revisedAt": "2019-11-09T12:08:20Z",
+  "sha1": "30285f99301712224c77b922a4262109092bcca1",
+  "url": "https://wiki.guildwars.com/wiki/Pious_Fury_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pious%20Fury%20(PvP)&oldid=2645377",
+  "retrievedAt": "2026-11-16T15:41:40.103Z",
+  "wikitext": "{{pveversion|Pious Fury}}\n{{Skill infobox\n| id = 3368\n| name = Pious Fury (PvP)\n| campaign = Eye of the North\n| profession = Dervish\n| attribute = Mysticism\n| type = Stance\n| energy = 5\n| recharge = 15\n| is-pvp = y\n| aoe = none\n| removes1 = Enchantment\n| causes1 = Increased Attack Speed\n| description = [[Stance]]. Remove one Dervish [[enchantment]]. For {{gr|1|5}} second[s], you [[Attack speed|attack 25% faster]]. If an enchantment was [[Teardown|removed]], this stance lasts twice as long.\n| concise description = Stance. ({{gr|1|5}} second[s].)You {{sic|No space between the closing bracket and 'You'}} attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.\n}}\n\n{{Skill progression\n|attribute = [[Mysticism]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 5\n}}\n\n== Related skills ==\n* {{skill icon|Heart of Fury (PvP)}}\n\n[[de:Frommer Zorn (PvP)]]"
+}

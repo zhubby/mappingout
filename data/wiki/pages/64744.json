@@ -1,0 +1,11 @@
+{
+  "title": "Capture Point",
+  "pageid": 64744,
+  "revid": 1305523,
+  "revisedAt": "2009-01-16T06:50:18Z",
+  "sha1": "d34e6a5460b7d1dca105fc523dcecdde79176d2b",
+  "url": "https://wiki.guildwars.com/wiki/Capture_Point",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Capture%20Point&oldid=1305523",
+  "retrievedAt": "2026-11-16T15:41:10.928Z",
+  "wikitext": "{{skill infobox\n| id = 1866\n| name = Capture Point\n| campaign = Nightfall\n| type = Spell\n| target = allies\n| description = [[Spell]]. While within the [[range]] of this capture point, [[hero]]es and [[henchmen]] take the initiative in attacking targets.\n| concise description = Spell. While within the range of this catpure point, heroes and henchmen take the initiative in attacking targets.\n}}\n\n==Notes==\n*This effect appears when you get close to the Altar of [[Lyssa]] during the mission [[Grand Court of Sebelkeh]].\n*A bar will appear on the middle left of the screen, either as red or blue (red representing the enemy, blue as your team). Each player or [[NPC]] represents one [[pip]], and if enough of the attacking team is close enough the bar will decrease until it is empty. The bar will then switch colors and increase until it is full, at which point it will have been successfully captured."
+}

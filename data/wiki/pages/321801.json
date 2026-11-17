@@ -1,0 +1,11 @@
+{
+  "title": "Whirling Charge (PvP)",
+  "pageid": 321801,
+  "revid": 2738650,
+  "revisedAt": "2026-08-27T01:13:17Z",
+  "sha1": "a0c9c218962746e136019b214efa1c7193e317e6",
+  "url": "https://wiki.guildwars.com/wiki/Whirling_Charge_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Whirling%20Charge%20(PvP)&oldid=2738650",
+  "retrievedAt": "2026-11-16T15:42:08.405Z",
+  "wikitext": "{{pveversion|Whirling Charge}}\n__NOTOC__{{Skill infobox\n| id = 3472\n| name = Whirling Charge (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Wind Prayers\n| type = Flash enchantment spell\n| energy = 5\n| is-pvp = y\n| has-pve = y\n| recharge = 10\n| causes1 = Cold Damage\n| causes2 = Increased Movement Speed\n| description = [[Flash Enchantment Spell]]. For {{gr|1|6}} second[s], you [[Speed boost|move 33% faster]] than normal. The next time you strike a [[foe]], all other [[nearby]] foes take {{gr|10|50}} [[cold damage]] and this [[enchantment]] ends.\n| concise description = Flash Enchantment Spell. ({{gr|1|6}} second[s].) You move 33% faster. Deal {{gr|10|50}} cold damage to all other nearby foes the next time you hit a foe and this enchantment ends.\n| aoe = nearby\n| target = untargeted\n| pbaoe = self\n}}\n\n{{Skill progression\n|attribute = [[Wind Prayers]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 6\n|var2 name = [[Cold damage]]\n|var2 at0 = 10\n|var2 at15 = 50}}\n\n==Related skills==\n* {{skill icon|Charging Strike}} ([[elite]])\n* {{skill icon|Volfen Pounce}}\n\n== Notes ==\n* Damage will not occur if this enchantment is removed with a [[teardown]] attack (or by any means other than hitting an enemy). This is the case even if the teardown hits multiple enemies (using a scythe).\n* Attacks with ranged weapons cause damage to be dealt to other foes near the target rather than yourself."
+}

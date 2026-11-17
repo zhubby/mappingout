@@ -1,0 +1,11 @@
+{
+  "title": "Trade Winds",
+  "pageid": 21483,
+  "revid": 2630153,
+  "revisedAt": "2018-06-18T17:53:54Z",
+  "sha1": "603cabc8539898c11216a3f22d35a49a09bcb315",
+  "url": "https://wiki.guildwars.com/wiki/Trade_Winds",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Trade%20Winds&oldid=2630153",
+  "retrievedAt": "2026-11-16T15:42:03.080Z",
+  "wikitext": "{{Skill infobox\n| id = 1326\n| name = Trade Winds\n| campaign = Factions\n| type = Skill\n| activation = {{3/4}}\n| recharge = 5\n| special = Dragon Arena\n| target = allies\n| description = [[Skill (skill type)|Skill]]. For 10 seconds, you [[Speed boost|move with the swiftness of the Canthan fleet]]. This enchantment may also be applied to [[target]] [[Ally|allies]].\n| concise description = Skill. (10 seconds.) Target ally moves with the swiftness of the Canthan fleet.\n| extra-action = enhances\n| extra-impact = speed\n}}\n\n== Acquisition ==\nAutomatically equipped upon entry to [[Dragon Arena]].\n\n== Related skills ==\n* {{skill icon|Windborne Speed}}\n\n== Notes ==\n* This skill increases movement speed by 33%.\n* Contrary to the full description, this skill is not an enchantment.\n* Keep this skill up at all times to better [[dodge]] and [[kite]].\n\n[[de:Passatwind]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Attunements",
+  "pageid": 197450,
+  "revid": 2635610,
+  "revisedAt": "2018-12-30T09:33:33Z",
+  "sha1": "e752ab205206be9b331fd9a5a411e28733f1455f",
+  "url": "https://wiki.guildwars.com/wiki/Attunements",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Attunements&oldid=2635610",
+  "retrievedAt": "2026-11-16T15:41:07.282Z",
+  "wikitext": "[[Attunements]] are a sub-set of [[Elementalist]] spells that provide standard [[energy management]] for the caster - being most efficient when specializing on one attribute.\n\nNon-elite attunement spells are self-target [[enchantment]]s that cost 10 energy, last 60 seconds (at attribute level 15) and grant 30% energy cost refund (+1 absolute energy).\n\nThe [[Elemental Attunement|elite attunement]] stacks with the other ones and gives an additional 50% refund leading to almost no cost if combined with these.\n\n==List of attunement spells==\n{{Skill table\n| category = Elementalist skills\n| titlematch = Air Attunement¦Earth Attunement¦Fire Attunement¦Water Attunement¦Elemental Attunement\n| show attribute = y\n| show campaign = y\n}}\n\n[[Category:Elementalist skills|*]]"
+}

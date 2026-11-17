@@ -1,0 +1,11 @@
+{
+  "title": "Shield Guardian (PvP)",
+  "pageid": 321798,
+  "revid": 2739064,
+  "revisedAt": "2026-08-28T23:45:04Z",
+  "sha1": "4306f64b4b3a9f0204977e264c4018b8c0b9bbe0",
+  "url": "https://wiki.guildwars.com/wiki/Shield_Guardian_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shield%20Guardian%20(PvP)&oldid=2739064",
+  "retrievedAt": "2026-11-16T15:41:50.474Z",
+  "wikitext": "{{pveversion|Shield Guardian}}\n__NOTOC__{{Skill infobox\n| id = 3454\n| name = Shield Guardian (PvP)\n| campaign = Factions\n| profession = Monk\n| attribute = Protection Prayers\n| type = Enchantment Spell\n| energy = 5\n| is-pvp = y\n| activation = {{1.5}}\n| recharge = 25\n| target = self\n| aoe = earshot\n| causes1 = Block\n| causes2 = Healing\n| description = [[Enchantment Spell]]. For {{gr|1|4}} seconds, all [[party]] members in [[earshot]] have a 75% chance to [[block]] incoming [[attack]]s. If an attack is blocked, all [[Ally|allies]] in earshot are [[heal]]ed for {{gr|10|35}} and Shield Guardian ends.\n| concise description = Enchantment Spell. ({{gr|1|4}} second[s]). Party members in earshot have a 75% chance to block attacks. [[Block effect]]: Allies in earshot are healed for {{gr|10|35}}, and Shield Guardian ends.\n}}\n\n{{Skill progression\n| attribute = [[Protection Prayers]]\n| var1 name = [[Duration]]\n| var1 at0 = 1\n| var1 at15 = 4\n| var2 name = [[Heal]]ing\n| var2 at0 = 10\n| var2 at15 = 35\n}}\n\n== Related skills ==\n* {{skill icon|Aegis}}\n* {{skill icon|Magnetic Aura}}\n* {{skill icon|Magnetic Surge}}\n\n== Notes ==\n* If one party member blocks an attack, the enchantment ends only on that party member (the healing can potentially trigger for each affected party member if they block an attack).\n* Healing is within earshot of the ally that blocked."
+}

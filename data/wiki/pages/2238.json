@@ -1,0 +1,11 @@
+{
+  "title": "Pin Down",
+  "pageid": 2238,
+  "revid": 2703802,
+  "revisedAt": "2025-03-25T14:24:31Z",
+  "sha1": "20c83782e39c6521cb21f568dd0792a496f314a9",
+  "url": "https://wiki.guildwars.com/wiki/Pin_Down",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pin%20Down&oldid=2703802",
+  "retrievedAt": "2026-11-16T15:41:39.554Z",
+  "wikitext": "{{Skill infobox\n| id = 392\n| name = Pin Down\n| campaign = Core\n| profession = Ranger\n| attribute = Marksmanship\n| type = Bow Attack\n| energy = 15\n| recharge = 8\n| causes1 = Crippled\n| description = [[Bow Attack]]. If Pin Down hits, your [[target]] is [[Crippled]] for {{gr|3|15}} seconds.\n| concise description = Bow Attack. Inflicts Crippled condition ({{gr|3|15}} seconds).\n}}\n\n{{Skill progression\n|attribute = [[Marksmanship]]\n|var1 name = [[Crippled]] [[duration]]\n|var1 at0 = 3\n|var1 at15 = 15\n}}\n\n== Acquisition ==\n'''[[Skill quest]]s'''\n* [[Prophecies]]\n** [[Hungry Devourer]] ([[Beacon's Perch]])\n* [[Factions]]\n** [[Snaring Course]] ([[Shing Jea Monastery]])  \n* [[Nightfall]]\n** [[Primary Training]] ([[Churrhir Fields]])\n** [[Choose Your Secondary Profession (Nightfall quest)|Choose Your Secondary Profession]] (Churrhir Fields)\n'''[[Skill trainer]]s'''\n* Prophecies\n** [[Firstwatch Sergio]] ([[Lion's Arch]])\n** [[Dakk]] ([[Ember Light Camp]])\n* Factions\n** [[Michiko]] ([[Kaineng Center]])\n* [[Nightfall]]\n** [[Tohn]] ([[Kamadan, Jewel of Istan]])\n\n== Related skills ==\n* {{skill icon|Crippling Shot}} ([[elite]])\n\n\n\n[[Category:Ranger skill rewards]]"
+}

@@ -1,5 +1,5 @@
 //! [INPUT]: 依赖资源公钥、文件系统与 Tauri 资源接口。
-//! [OUTPUT]: 提供固定会话、更新资料启动选择与回退。
+//! [OUTPUT]: 提供固定会话、任务及技能双语完整性校验与回退。
 //! [POS]: 原生资源边界；传输、命令与测试由子模块实现。
 //! [PROTOCOL]: Update this header on change, then check AGENTS.md
 pub(crate) mod commands;
@@ -238,6 +238,19 @@ fn validate_manifest(m: &Manifest, repository: &str) -> Result<()> {
         "licenses/gfdl-1.3.txt",
     ] {
         if !paths.contains(&required.to_ascii_lowercase()) {
+            return Err("resources.incomplete".into());
+        }
+    }
+    // 旧资料包仍可启动；可选资料出现时须连同双语包安装。
+    for dataset in ["quests", "skills"] {
+        let files = [
+            format!("data/{dataset}.json"),
+            format!("data/i18n/en/{dataset}.json"),
+            format!("data/i18n/zh-cn/{dataset}.json"),
+        ];
+        if files.iter().any(|file| paths.contains(file))
+            && files.iter().any(|file| !paths.contains(file))
+        {
             return Err("resources.incomplete".into());
         }
     }

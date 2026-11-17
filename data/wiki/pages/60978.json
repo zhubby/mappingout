@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Lightning Strike",
+  "pageid": 60978,
+  "revid": 2629830,
+  "revisedAt": "2018-06-18T17:42:15Z",
+  "sha1": "ba377e1c4f600ad2c1d472fcfa34cfc95b51d9e5",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Lightning_Strike",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Lightning%20Strike&oldid=2629830",
+  "retrievedAt": "2026-11-16T15:41:41.402Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Lightning Strike\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 1\n| activation = 1\n| recharge = 1\n| description = [[Spell]]. Strike [[target]] [[foe]] for 120 [[damage]].\n| concise description = Spell. Deals 120 damage.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Gargoyle Form]]\n*[[Mursaat Elementalist Form]]\n*[[Smoke Wraith Form]]\n\n==Related skills==\n*{{skill icon|Flare}}\n*{{skill icon|Ice Spear}}\n*{{skill icon|Polymock Lamentation}}\n*{{skill icon|Polymock Smite}}\n*{{skill icon|Stone Daggers}}\n\n[[de:Polymock-Blitzschlag]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Blazing Finale (PvP)",
+  "pageid": 207560,
+  "revid": 2738946,
+  "revisedAt": "2026-08-28T06:37:40Z",
+  "sha1": "a34d8926befac324fd3ea34b08561f47ae3ba6d3",
+  "url": "https://wiki.guildwars.com/wiki/Blazing_Finale_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Blazing%20Finale%20(PvP)&oldid=2738946",
+  "retrievedAt": "2026-11-16T15:41:09.189Z",
+  "wikitext": "{{pveversion|Blazing Finale}}\n\n{{Skill infobox\n| id = 3028\n| name = Blazing Finale (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Leadership\n| type = Echo\n| energy = 5\n| activation = 1\n| recharge = 8\n| is-pvp = y\n| causes1 = Burning\n| description = [[Echo (skill type)|Echo]]. For {{gr|10|35}} seconds, whenever a [[chant]] or [[shout]] ends on [[target]] non-[[spirit]] [[ally]], all [[foe]]s [[adjacent]] to that ally are set [[Burning|on Fire]] for {{gr|1|5}} second[s].\n| concise description = Echo. ({{gr|10|35}} seconds.) Inflicts Burning condition ({{gr|1|5}} second[s]) to adjacent foes whenever a chant or shout ends on target ally. Cannot target spirits.\n| aoe = adjacent\n| target = allies\n}}\n\n{{Skill progression\n| attribute = [[Leadership]]\n| var1 name = [[Duration]]\n| var1 at0 = 10\n| var1 at15 = 35\n| var2 name = [[Burning]] duration\n| var2 at0 = 1\n| var2 at15 = 5}}\n\n== Notes ==\n*Good synergy with [[\"Go for the Eyes!\"]] and [[\"The Power Is Yours!\"]] when cast on [[melee]] allies.\n\n[[de:Loderndes Finale (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Bludgeon",
+  "pageid": 277454,
+  "revid": 2723828,
+  "revisedAt": "2026-04-01T22:53:49Z",
+  "sha1": "790ca25d4cbbf0515d3147898e59cfdb918eeeda",
+  "url": "https://wiki.guildwars.com/wiki/Bludgeon",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bludgeon&oldid=2723828",
+  "retrievedAt": "2026-11-16T15:41:09.706Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = Bludgeon\n| id = 3296\n| special = Going Commando\n| campaign = Core\n| type = Attack\n| adrenaline = 6\n| description = [[Attack]]. You strike for +50 [[damage]]. If [[target]] [[foe]] is [[Knock down|knocked down]], you strike for an additional +50 damage and target foe suffers a [[Deep Wound]] for 10 seconds.\n| concise description = Attack. Strikes for +50 damage. Strikes for an additional +50 damage and applies a Deep Wound (10 seconds) if target is knocked down.\n}}\n\n== Acquisition ==\nThis skill is available while under the [[Going Commando]] disguise during the [[April Fools' Day]] quest [[Annihilator]].\n\n== Notes ==\n{{bug|The Deep Wound duration is actually approximately 50 seconds.}}"
+}

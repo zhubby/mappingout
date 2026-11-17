@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖资料语言投影、角色状态和应用导航。
+ * [OUTPUT]: 提供功能页共用契约、懒加载资料和错误重试。
+ * [POS]: 护甲、日历、任务与技能的只读资料适配边界。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { displayMessage, t } from './i18n';
 import { useEffect, useMemo, useState } from 'react';
 import { useLocale } from './i18n';
@@ -5,7 +11,7 @@ import { loadContent, projectContent, type ContentBundle } from './i18n/content'
 import type { Dataset } from './i18n/content-fields';
 import type { Catalog, Personal } from './types';
 
-export interface FeatureProps { catalog: Catalog; personal: Personal; update: (change:(state:Personal)=>Personal)=>Promise<boolean>; params: Record<string,string>; patch: (values:Record<string,string>)=>void; manageCharacters:()=>void; navigateZone:(id:string)=>void }
+export interface FeatureProps { catalog: Catalog; personal: Personal; update: (change:(state:Personal)=>Personal)=>Promise<boolean>; params: Record<string,string>; patch: (values:Record<string,string>)=>void; manageCharacters:()=>void; navigateZone:(id:string)=>void; manageResources?:()=>void }
 export function useFeatureData<T>(filename: string) {
   const locale=useLocale();
   const [bundle,setData]=useState<ContentBundle<T>>(),[error,setError]=useState(''),[retry,setRetry]=useState(0);

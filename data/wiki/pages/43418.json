@@ -1,0 +1,11 @@
+{
+  "title": "Vial of Purified Water",
+  "pageid": 43418,
+  "revid": 2609810,
+  "revisedAt": "2016-07-09T23:12:32Z",
+  "sha1": "7d0dffa4dca10e164650c196103107dd017c10b9",
+  "url": "https://wiki.guildwars.com/wiki/Vial_of_Purified_Water",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Vial%20of%20Purified%20Water&oldid=2609810",
+  "retrievedAt": "2026-11-16T15:42:06.003Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = Vial of Purified Water\n| special = Mission\n| campaign = Nightfall\n| type = Hex Spell\n| activation = 2\n| recharge = 15\n| causes1 = Interrupt\n| description = Hex Spell. The purified waters of the vial affect one [[target]] for 10 seconds. Harbingers become vulnerable to [[damage]] from all sources.\n| concise description = Hex Spell. The purified waters of the vial affect one target (10 seconds). Harbingers become vulnerable to damage from all sources.\n}}\n\n==Acquisition==\nThis is a temporary skill that can be obtained and used only during the [[Nundu Bay]] mission. It is needed to defeat the [[Harbinger of Twilight|Harbingers of Twilight]] and the [[Harbinger of Nightfall]]. It can be obtained by accepting it from [[Elder Jonah]] at the start of the mission. It will remain on the skill bar until the mission concludes.\n\n==Related skills==\n*{{skill icon|Light of Seborhin}}\n\n==Notes==\n{{ anomaly|The Vial of Purified Water is a [[projectile spell]].}}\n{{ anomaly|This skill also has the ability to inflict 50 [[armor-ignoring damage]] and can [[interrupt]] spells, so it can be used against the [[Margonite]]s in the mission.}}\n* The damage is applied ''after'' the vulnerability effect, so the damage does take effect when using it against the Harbingers.\n* The damage from this spell is affected by a character's [[Lightbringer rank]].\n* As this is a spell, [[Echo]] and [[Arcane Echo]] can copy it, and [[Fast Casting]] decreases its activation time.\n\n==Trivia==\n* This is probably inspired by the use of [[W:Holy water|holy water]] as an [[W:Apotrope|apotrope]] against evil supernatural creatures.\n\n[[Category:Nightfall PvE-only skills]]\n[[Category:Common skills]]\n[[Category:Projectile spells]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Title (skill type)",
+  "pageid": 112468,
+  "revid": 2623859,
+  "revisedAt": "2017-12-04T02:03:01Z",
+  "sha1": "63fdc64e96cc0dc95f0fe789cb6f9acd911ed5f4",
+  "url": "https://wiki.guildwars.com/wiki/Title_(skill_type)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Title%20(skill%20type)&oldid=2623859",
+  "retrievedAt": "2026-11-16T15:42:03.081Z",
+  "wikitext": "{{otheruses|the skill type|the displayable achievement|Title}}\n{{skill type infobox\n| name = Title\n| slot = y\n| super = Skill\n| sub1 =\n}}\n[[Skill type]]. This type of skill is unique in that they are activated not from the [[skill bar]], but by selecting the corresponding [[title]] to be displayed. Once selected, they grant a [[passive]] effect that cannot be removed.\n\nOnly one can be active at a time as it is only possible to pick one title to display, and most notably, they will not only affect its activator but also all their [[hero]]es. Like other [[title skill]]s, titles are all tied to their respective [[title track]]s, rather than [[profession]] attribute rank.\n\n==List of title skills ==\n{{skill table \n|category = Category:Title skills\n|show attribute = y\n|show campaign = y\n| cost header =\n| activation header =\n| recharge header =\n}}\n\n{{Skill lists navbar}}\n\n[[Category:Title skills| ]]"
+}

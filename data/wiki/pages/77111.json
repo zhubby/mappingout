@@ -1,0 +1,11 @@
+{
+  "title": "Domain of Health Draining",
+  "pageid": 77111,
+  "revid": 2014527,
+  "revisedAt": "2010-05-09T08:31:15Z",
+  "sha1": "370c55f1647c0c1d297113bdf1fd10db09550c0d",
+  "url": "https://wiki.guildwars.com/wiki/Domain_of_Health_Draining",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Domain%20of%20Health%20Draining&oldid=2014527",
+  "retrievedAt": "2026-11-16T15:41:18.350Z",
+  "wikitext": "{{skill infobox\n| id = 582\n| name = Domain of Health Draining\n| campaign = Prophecies\n| type = Spell\n| description = [[Spell]]. While you are in this area you suffer from [[Health degeneration]].\n| concise description = Spell. While you are in this area you suffer from Health degeneration.}}\n\n== Related skills ==\n* {{skill icon|Domain of Elements}}\n* {{skill icon|Domain of Energy Draining}}\n* {{skill icon|Domain of Slow}}\n\n== Notes ==\n* This skill is continually present in the first level of [[The Dragon's Lair]].\n* The skill causes three pips of health degeneration."
+}

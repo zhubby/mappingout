@@ -1,0 +1,11 @@
+{
+  "title": "Track Down Weng Gha",
+  "pageid": 25383,
+  "revid": 2627824,
+  "revisedAt": "2018-05-30T19:03:42Z",
+  "sha1": "22ba5728a8f117d755968ca4edc17ff0345aa632",
+  "url": "https://wiki.guildwars.com/wiki/Track_Down_Weng_Gha",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Track%20Down%20Weng%20Gha&oldid=2627824",
+  "retrievedAt": "2026-11-16T13:47:34.292Z",
+  "wikitext": "{{Quest infobox\n| name = Track Down Weng Gha\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Talon Silverwing]]\n| given at = [[Sunqua Vale]]\n| preceded by = [[Talon's Duel]]\n| followed by = [[The Crop Thieves]]\n| profession = Warrior\n| primary = y\n| secondary = n\n}}\nFind the next Canthan warrior trainer.\n\n==Quest information==\n=== Requirements ===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Warrior\n| primary = y\n| secondary = n\n}}\n\n===Objectives===\n* Look for Weng Gha in Panjiang Peninsula.\n\n===Reward===\n* 600 [[Experience]]\n* 50 [[Gold]]\n\n==Walkthrough==\nTravel southwest until you reach [[Tsumei Village]]. Enter, and exit to the south. Weng Gha is close by, westwards.\n\n==Dialogue==\n===Initial dialogue===\n;Talon Silverwing\n''Your skill is impressive for a human, though it will be years before you achieve Headmaster Zhan's level of expertise. It is time that you seek out [[Weng Gha]]. Due to his extreme dislike for my kind, there is little love lost between us, but his talent as a Warrior is unquestionable. Look for him in [[Panjiang Peninsula]].''\n{{ Offer dialog\n| accept = I will look for Weng Gha.\n| decline = I will seek him out later.\n| ask = [[Weng Gha]] is your instructor, now. Look for him in [[Panjiang Peninsula]].\n}}\n\n===Reward dialogue===\n;Weng Gha\n''Talon Silverwing set you? That Tengu is not half the Warrior I am, but then, no Tengu is. Why the general keeps him around is beyond me. If I had my way I would have cut him to pieces years ago. You can forget everything the Tengu taught you. Your real training will begin here with me.''"
+}

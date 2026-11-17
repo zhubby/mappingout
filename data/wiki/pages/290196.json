@@ -1,0 +1,11 @@
+{
+  "title": "Candy Corn Strike",
+  "pageid": 290196,
+  "revid": 2619311,
+  "revisedAt": "2017-06-25T19:27:13Z",
+  "sha1": "ee290ed9b50e7736f7c8152bd08ee5883a898737",
+  "url": "https://wiki.guildwars.com/wiki/Candy_Corn_Strike",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Candy%20Corn%20Strike&oldid=2619311",
+  "retrievedAt": "2026-11-16T15:41:10.929Z",
+  "wikitext": "{{Skill infobox\n| name = Candy Corn Strike\n| id = 2758\n| campaign = Prophecies\n| campaign2 = Nightfall\n| type = Signet\n| special = Candy Corn Infantry\n| activation = {{1/4}}\n| recharge = 1\n| target = foes\n| range = Casting\n| aoe = none\n| description = [[Signet]]. Launch a delicious [[Projectile spell|projectile]] at [[target]] [[foe]]. If it hits, foe takes 50 [[damage]] and you gain 1 strike of [[adrenaline]]. This [[spell]] {{sic}} [[Armor-ignoring damage|ignores armor]].\n| concise description = Signet. Projectile: deals 50 damage, and you gain 1 strike of adrenaline. Armor Ignoring.\n}}\n\n== Related skills ==\n* {{skill icon|Snowball}}\n* {{skill icon|Advanced Snowball}}\n\n==Notes==\n*This skill is available during [[Scarred Psyche]].\n\n==Trivia==\n*The [[skill icon]] is the [[Candy Corn (skill)|Candy Corn effect]] icon flipped.\n\n[[Category:Halloween skills]]\n[[Category:Projectile spells]]"
+}

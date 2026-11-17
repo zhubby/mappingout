@@ -1,0 +1,11 @@
+{
+  "title": "Mark of Instability",
+  "pageid": 16272,
+  "revid": 2697378,
+  "revisedAt": "2024-05-27T09:38:28Z",
+  "sha1": "a5b6f89573a05e9a212203ea2b55f5f1ce620919",
+  "url": "https://wiki.guildwars.com/wiki/Mark_of_Instability",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mark%20of%20Instability&oldid=2697378",
+  "retrievedAt": "2026-11-16T15:41:36.238Z",
+  "wikitext": "{{Skill infobox\n| id = 978\n| name = Mark of Instability\n| campaign = Factions\n| profession = Assassin\n| type = Hex Spell\n| energy = 10\n| activation = {{1/4}}\n| recharge = 20\n| target = foes\n| range = Casting\n| causes1 = Knockdown\n| description = [[Hex Spell]]. For 20 seconds, the next time you hit [[target]] [[foe]] with a [[Dual Attack|dual attack]] [[skill]] that [[foe]] is [[knock down|knocked down]].\n| concise description = Hex Spell. (20 seconds.) Causes knock-down the next time you hit target foe with a dual attack.\n}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Michiko]] ([[Kaineng Center]])\n\n[[Category:Skills that interact with dual attacks]]"
+}

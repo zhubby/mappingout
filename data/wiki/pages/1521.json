@@ -1,0 +1,11 @@
+{
+  "title": "Symbolic Posture",
+  "pageid": 1521,
+  "revid": 2732882,
+  "revisedAt": "2026-07-04T21:03:22Z",
+  "sha1": "4dc5febe06c3c2a3bce56ca47d4e16b719bab7a8",
+  "url": "https://wiki.guildwars.com/wiki/Symbolic_Posture",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Symbolic%20Posture&oldid=2732882",
+  "retrievedAt": "2026-11-16T15:42:01.931Z",
+  "wikitext": "{{Skill infobox\n| name = Symbolic Posture\n| id = 1658\n| campaign = Nightfall\n| profession = Mesmer\n| attribute = Fast Casting\n| type = Stance\n| energy = 10\n| recharge = 20\n| causes1 = Decreased Recharge Time\n| description = [[Stance]]. For {{gr|5|20}} seconds, the next [[signet]] you activate [[recharge]]s {{gr|20|80||%}} faster.\n| concise description = Stance. ({{gr|5|20}} seconds.) Your next signet recharges {{gr|20|80||%}} faster.\n}}\n\n{{Skill progression\n|attribute = [[Fast Casting]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 20\n|var2 name = Faster recharge %\n|var2 at0 = 20\n|var2 at15 = 80}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Dau]] ([[The Mouth of Torment]])\n\n== Related skills ==\n*{{skill icon|Mantra of Inscriptions}}\n\n== Notes ==\n* This stance ends only after you have successfully activated a signet. The stance will not end when you [[cancel]] or a foe [[interrupt]]s the activation of a signet."
+}

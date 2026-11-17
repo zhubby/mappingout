@@ -1,0 +1,11 @@
+{
+  "title": "Untouchable",
+  "pageid": 158857,
+  "revid": 2580198,
+  "revisedAt": "2014-12-23T11:42:36Z",
+  "sha1": "c875d49e849fc2dc0bc2c5088046d084366c9b90",
+  "url": "https://wiki.guildwars.com/wiki/Untouchable",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Untouchable&oldid=2580198",
+  "retrievedAt": "2026-11-16T15:42:03.619Z",
+  "wikitext": "{{Skill infobox\n| id = 1704\n| name = Untouchable\n| campaign = Core\n| type = Skill\n| description = [[Skill (skill type)|Skill]]. You are invulnerable for 5 seconds after being [[Resurrection|resurrected]] by the [[Resurrection Shrine]].\n| concise description = Skill. (5 seconds.) You are invulnerable after being resurrected by the Resurrection Shrine.\n}}\n\n==Notes==\n*This does not show up in the [[effects monitor]].\n*This is an invisible, passive effect applied after resurrection by the Resurrection Shrine.\n*While under this effect, [[condition]]s inflicted and [[hex spell]]s cast on you will not be applied on you, and you cannot [[Health loss|lose health]].\n\n==Trivia==\n*The [[skill icon]] is just a generic skill icon with the word \"Untouchable\" superimposed."
+}

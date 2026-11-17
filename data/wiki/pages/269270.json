@@ -1,0 +1,11 @@
+{
+  "title": "The Tarnished Emblem",
+  "pageid": 269270,
+  "revid": 2486955,
+  "revisedAt": "2012-05-14T22:06:27Z",
+  "sha1": "0b0e416ad088ada5c1dd093494863e8acc405be4",
+  "url": "https://wiki.guildwars.com/wiki/The_Tarnished_Emblem",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Tarnished%20Emblem&oldid=2486955",
+  "retrievedAt": "2026-11-16T13:47:28.836Z",
+  "wikitext": "{{ Quest infobox\n| id = 1167\n| name = The Tarnished Emblem\n| section = Primary Ebon Vanguard\n| campaign = Hearts of the North\n| region = Kryta \n| type = Primary\n| given by = [[Tarnished Emblem]] \n| given at = [[Majesty's Rest]]\n| preceded by = [[Auspicious Beginnings]]\n| followed by = [[A Vengeance of Blades]]\n| map = [[Image:The Tarnished Emblem map.jpg|x150px]]\n}}\nHaving found the emblem, report back to the Scrying Pool.\n\n== Objectives ==\n* Investigate the tarnished emblem at the [[scrying pool]].\n\n== Rewards ==\n* 1,000 [[Experience]]\n* 500 [[Gold]]\n\n== Dialogue ==\n=== Initial dialogue ===\n;Tarnished Emblem\n''Something on the ground catches your eye. It is faint, covered in dirt, and stained with old blood. Closer inspection reveals it to be the tarnished emblem of a high-ranking White Mantle member. What happened here? Perhaps the scrying pool can provide further answers.''\n{{offer dialog\n|accept = I need to know what happened here.\n|decline = An important White Mantle member died. That happens all the time.\n|ask = The site offers no further clues as to what transpired here.}}\n\n=== Reward dialogue ===\n;Scrying Pool\n:''\"The scrying pool begins to react as you approach, thoughts of the tarnished emblem fixed firmly in your mind.\"''\n\n== Notes ==\n* The [[Tarnished Emblem]] is located at the resurrection shrine as you enter [[Majesty's Rest]] from [[Sage Lands]].\n* This quest is part of [[Hearts of the North]], the second installment in [[Guild Wars Beyond]].\n\n[[Category:Hearts of the North quests]]"
+}

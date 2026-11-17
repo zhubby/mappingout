@@ -1,9 +1,15 @@
+/**
+ * [INPUT]: 依赖四套双语资料、英文基线与逐字段审校。
+ * [OUTPUT]: 汇总绑定来源和译文哈希的待审报告。
+ * [POS]: 资料审校入口；不自动批准翻译。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs';
-import {contentFields} from '../../src/i18n/content-fields.ts';
+import {contentFields,datasets} from '../../src/i18n/content-fields.ts';
 import {sha256,numericIssues,translationReviewMatches} from './english-source.mjs';
 const read=file=>JSON.parse(fs.readFileSync(file,'utf8'));
 const reviews=read('data/i18n/review.json').reviews,grouped=new Map();
-for(const dataset of ['catalog','armor','calendar']){
+for(const dataset of datasets){
   const data=read(`public/data/${dataset}.json`),baseline=read(`data/i18n/baseline/${dataset}.json`);
   const en=read(`public/data/i18n/en/${dataset}.json`),zh=read(`public/data/i18n/zh-CN/${dataset}.json`);
   for(const field of contentFields(data,dataset)){

@@ -1,0 +1,11 @@
+{
+  "title": "Read the Wind (PvP)",
+  "pageid": 192502,
+  "revid": 2629908,
+  "revisedAt": "2018-06-18T17:44:56Z",
+  "sha1": "6a4447a3e4b0f4750c113f75bc7b1e0532391caf",
+  "url": "https://wiki.guildwars.com/wiki/Read_the_Wind_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Read%20the%20Wind%20(PvP)&oldid=2629908",
+  "retrievedAt": "2026-11-16T15:41:44.748Z",
+  "wikitext": "{{pveversion|Read the Wind}}\n{{Skill infobox\n| id = 2969\n| name = Read the Wind (PvP)\n| campaign = Core\n| profession = Ranger\n| attribute = Marksmanship\n| type = Preparation\n| energy = 5\n| recharge = 12\n| activation = 2\n| is-pvp = y\n| causes1 = Increased Projectile Speed\n| description = [[Preparation]]. For 24 seconds, your arrows move twice as fast.\n| concise description = Preparation. (24 seconds). Your arrows move twice as fast.\n}}\n\n==Related skills==\n*{{skill icon|Favorable Winds}}\n\n== Notes ==\n* This skill significantly reduces both the arc and flight time of arrows for all [[bow]] types and sets them equal to one another. Under Read the Wind, arrows fly at the same arc and speed regardless of the type of bow they are fired from. \n\n* This skill does not change the modified arc or flight times from certain arc-changing bow attack skills, such as [[Broad Head Arrow]], [[Needling Shot]], [[Quick Shot]], etc. These skills ignore the effect of Read the Wind. [[Arcing Shot]], however, does have its arc significantly reduced.\n\n* The arrow speed enhancing effect of this skill does not stack with Favorable Winds. Favorable Winds will still provide additional damage; however, the flight of the arrow remains the same as Read the Wind by itself.\n\n==Trivia==\n* A [[Recurve Bow]] appears in the [[skill icon]].\n\n[[Category:Essentially unlinked skills]]\n\n[[de:Wind lesen (PvP)]]"
+}

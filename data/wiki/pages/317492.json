@@ -1,0 +1,11 @@
+{
+  "title": "Miniature Companion: The Underworld",
+  "pageid": 317492,
+  "revid": 2727959,
+  "revisedAt": "2026-05-11T22:06:32Z",
+  "sha1": "6786fe2012ab7d42dd8c76c35569ccbe32eda695",
+  "url": "https://wiki.guildwars.com/wiki/Miniature_Companion:_The_Underworld",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Miniature%20Companion%3A%20The%20Underworld&oldid=2727959",
+  "retrievedAt": "2026-11-16T13:47:01.038Z",
+  "wikitext": "{{Quest infobox\n| id = 1446\n| type2 = Secondary\n| name = Miniature Companion: The Underworld\n| map = \n| given by =[[Merrise, Sworn to Seas]]\n| given at =[[Embark Beach]] \n| experience reward = 2025\n| section = Festival Event\n}}__NOTOC__\n\n==Quest information==\n===Objectives===\n* Defeat [[Dhuum]] in [[The Underworld]] in [[Hard Mode]].\n\n===Reward===\n* 2,025 [[experience]]\n* 2,006 [[gold]]\n* [[Miniature Mad King's Guard]]\n:{{gray|This item cannot be traded or sold.}}\n\n==Dialogue==\n===Initial dialogue===\n;Merrise, Sworn to Seas\n:''\"Your traveling companions are a unique part of any journey, wouldn't you say? Even something as small as a toy or pet can bring memories alongside it.\"''\n:''\"In exchange for a show of your heroism, I can offer a particularly rare toy to take with you.\"''\n{{offer dialogue\n|accept = Sounds difficult, but there's no road I can't walk.\n|decline = I've got enough friends.\n|ask = Take as long as you like on my offer. The journey to the heights of heroism is surely an experience worth the struggle. }}\n=== Reward dialogue ===\n; Merrise, Sworn to Seas\n: ''\"I hope you enjoyed the hurdles you had to pass to accomplish my task. And even if it was a struggle, let this reward bring you a smile.\"''\n\n==Notes==\n*Unlike other festival event quests, the Miniature Companion quests are permanent and not only available during the associated event.\n\n== Trivia ==\n* The rewards are a reference to the year ''[[Guild Wars Factions]]'' and ''[[Guild Wars Nightfall]]'' were released (2006) and the year of the 20th birthday (2025).\n\n{{Miniature Companion quest nav}}\n[[Category:Miniature Companion quests]]"
+}

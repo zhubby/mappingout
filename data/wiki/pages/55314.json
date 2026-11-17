@@ -1,0 +1,11 @@
+{
+  "title": "Scepter of Orr's Aura",
+  "pageid": 55314,
+  "revid": 2627021,
+  "revisedAt": "2018-05-08T21:58:36Z",
+  "sha1": "bfa9df802ab50145e8f8b9a476a39ba5ff90ab28",
+  "url": "https://wiki.guildwars.com/wiki/Scepter_of_Orr%27s_Aura",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Scepter%20of%20Orr's%20Aura&oldid=2627021",
+  "retrievedAt": "2026-11-16T15:41:48.051Z",
+  "wikitext": "{{skill infobox\n| id = 503\n| name = Scepter of Orr's Aura\n| campaign = Prophecies\n| special = Bundle\n| bundle = Scepter of Orr\n| type = Signet\n| description = [[Signet]]. You feel the power of the Scepter. (+10 maximum [[Energy]])\n| concise description = Signet. You feel the power of the Scepter. (+10 maximum Energy)}}\n\n== Related skills ==\n* {{skill icon|Scepter of Orr's Power}}\n\n== Notes ==\n[[File:Scepter of Orr's Aura effect.jpg|thumb|drop effect]]\n* This effect is obtained by standing [[adjacent]] to the [[Scepter of Orr]] while it is on the ground.\n* This effect affects spirits, and so [[Spirit Siphon]] will produce more energy from spirits inside this effect."
+}

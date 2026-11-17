@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖版本、四套资料的发布输入与既有发布例外。
+ * [OUTPUT]: 计算发布指纹并执行审校、许可及完整性门禁。
+ * [POS]: 正式发布校验；资料变更使旧例外失效。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
@@ -6,7 +12,7 @@ import {validateI18n} from './validate-i18n.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const releaseInputs = [
-  ...['catalog', 'armor', 'calendar'].flatMap(dataset => [
+  ...['catalog', 'armor', 'calendar', 'quests', 'skills'].flatMap(dataset => [
     `public/data/${dataset}.json`, `data/i18n/baseline/${dataset}.json`,
     ...['en', 'zh-CN'].map(locale => `public/data/i18n/${locale}/${dataset}.json`),
   ]),

@@ -1,0 +1,11 @@
+{
+  "title": "Sugar Infusion",
+  "pageid": 290216,
+  "revid": 2619367,
+  "revisedAt": "2017-06-25T19:29:49Z",
+  "sha1": "0323aa9aa5470447cb51be98a5c3b3fa74be97a9",
+  "url": "https://wiki.guildwars.com/wiki/Sugar_Infusion",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sugar%20Infusion&oldid=2619367",
+  "retrievedAt": "2026-11-16T15:42:00.199Z",
+  "wikitext": "{{Skill infobox\n| name = Sugar Infusion\n| id = 2762\n| campaign = Prophecies\n| campaign2 = Nightfall\n| type = Spell\n| special = Candy Corn Infantry\n| energy = 10\n| activation = {{1/4}}\n| recharge = 12\n| target = other allies\n| range = Casting\n| aoe = none\n| causes1 = Healing\n| description = [[Spell]]. Sacrifice 25% of your current [[Health]]. [[Target]] other [[ally]] is [[heal]]ed for 150% of the amount you lost. If this targets [[Mad King Thorn]], this spell heals for 200% the amount you lost.\n| concise description = Spell. Heal target ally for 150% of your Health sacrifice. If targeting Mad King Thorn, heal for 200% of your Health sacrifice. {{gray|You lose a quarter of your current health. Cannot Self Target.}}\n}}\n\n== Related skills ==\n* {{skill icon|Imbue Health}}\n* {{Skill icon|Infuse Health}}\n\n==Notes==\n* This skill is available during [[Scarred Psyche]].\n{{Anomaly|This skill does not have a [[sacrifice]] cost. The health is [[health loss|lost]] upon skill activation, similar to Infuse Health.}}\n\n[[Category:Halloween skills]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Shield of Saint Viktor",
+  "pageid": 56371,
+  "revid": 2659180,
+  "revisedAt": "2020-05-19T20:02:55Z",
+  "sha1": "a6cdd2cffa39f4c26aaa668c5d52518d0f38cba5",
+  "url": "https://wiki.guildwars.com/wiki/Shield_of_Saint_Viktor",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shield%20of%20Saint%20Viktor&oldid=2659180",
+  "retrievedAt": "2026-11-16T15:41:50.473Z",
+  "wikitext": "{{skill infobox\n| id = 1106\n| name = Shield of Saint Viktor\n| type = Spell\n| campaign = Factions\n| special = Bundle\n| description = [[Spell]]. You are protected by the Shield of Saint Viktor. <strong style=\"color: green;\">80...1280</strong> [[damage]] is absorbed.\n| concise description = Spell. You are protected by the Shield of Saint Viktor. <strong style=\"color: green;\">80...1280</strong> damage is absorbed.\n}}\n\n{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n! colspan=\"13\" style=\"background:#ADA;\" | Progression \n|-style=\"background:#DFD;\"\n! Urn level\n|1||2||3||4||5\n|-\n! Absorption\n|80||160||240||480||1280\n|}\n\n== Related skills ==\n* {{Skill icon|Phase Shield}}\n* {{Skill icon|Urn of Saint Viktor (skill)}}\n\n== Notes ==\n* Activated by dropping the [[Urn of Saint Viktor]] or by using the skill [[Celestial Summoning]].\n* The amount of damage absorbed is divided equally among all [[ally|allies]] within its radius ''except for [[hero]]es'', [[minion]]s, and [[spirit]]s. The amounts will be rounded up. For example, \n** A level 1 urn will shield the player and [[Danika]] from 40 damage each (total of 80).\n** If [[Jamei]] is also in the affected area, each character will be shielded by 27 damage (instead of 26 or 26/27/27).\n[[Category:Skills named after eponymous NPCs|Saint Viktor]]"
+}

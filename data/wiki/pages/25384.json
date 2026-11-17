@@ -1,0 +1,11 @@
+{
+  "title": "Track Down Zho",
+  "pageid": 25384,
+  "revid": 2627827,
+  "revisedAt": "2018-05-30T19:04:33Z",
+  "sha1": "c715b233e6d12fe628996461721204cfa5df7468",
+  "url": "https://wiki.guildwars.com/wiki/Track_Down_Zho",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Track%20Down%20Zho&oldid=2627827",
+  "retrievedAt": "2026-11-16T13:47:34.292Z",
+  "wikitext": "{{Quest infobox\n| name = Track Down Zho\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Sujun]]\n| given at = [[Sunqua Vale]]\n| preceded by = [[Free the Fur]]\n| followed by = [[The Yeti Hunt]]\n| profession = Ranger\n| primary = y\n| secondary = n\n}}\nTravel to find the second ranger trainer.\n\n==Quest information==\n=== Requirements ===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Ranger\n| primary = y\n| secondary = n\n}}\n\n===Objectives===\n* Search for Zho in Kinya Province.\n\n===Reward===\n* 600 [[Experience]]\n* 50 [[Gold]]\n\n==Walkthrough==\nTravel northwest from [[Sujun]] through the mountains until you reach [[Kinya Province]]. Once there, go a short distance northwest and you will find [[Zho]]\n\n\n==Dialogue==\n===Initial dialogue===\n;Sujun\n:''\"You have done well so far, but your training is far from complete. I am sorry to see you go, but I am afraid I must send you on to your next trainer. Look for [[Zho]] in [[Kinya Province]]. Her appearance and gruff demeanor is off-putting to some, but like all of us, she is special in her way. Good luck!\"''\n{{ Offer dialog\n| accept = I will look for Zho.\n| decline = She sounds scary. I think I'll pass.\n| ask = I know it is difficult to move on, but you really must go and find [[Zho]]. I have nothing left to teach you, and I am late for a peace rally.\n}}\n\n===Reward dialogue===\n;Zho\n:''\"You are late. We will begin your training promptly.\"''"
+}

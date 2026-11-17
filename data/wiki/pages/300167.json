@@ -1,0 +1,11 @@
+{
+  "title": "Web of Disruption (PvP)",
+  "pageid": 300167,
+  "revid": 2609891,
+  "revisedAt": "2016-07-10T00:45:09Z",
+  "sha1": "eb1c9f248459128855833f6ea2113b4d333bac5d",
+  "url": "https://wiki.guildwars.com/wiki/Web_of_Disruption_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Web%20of%20Disruption%20(PvP)&oldid=2609891",
+  "retrievedAt": "2026-11-16T15:42:08.404Z",
+  "wikitext": "{{Pveversion|Web of Disruption}}\n{{Skill infobox\n| id = 3386\n| name = Web of Disruption (PvP)\n| campaign = Nightfall\n| profession = Mesmer\n| type = Hex Spell\n| energy = 10\n| activation = {{1/4}}\n| recharge = 15\n| is-pvp = y\n| causes1 = Interrupt\n| description = [[Hex Spell]]. [[Interrupt]] [[target]] [[foe]]. For 10 seconds, target foe is hexed with Web of Disruption.  When this hex ends, that foe is interrupted again.\n| concise description = Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.\n}}"
+}

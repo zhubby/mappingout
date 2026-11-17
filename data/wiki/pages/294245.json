@@ -1,0 +1,11 @@
+{
+  "title": "Obsidian Flame (PvP)",
+  "pageid": 294245,
+  "revid": 2629756,
+  "revisedAt": "2018-06-18T17:39:44Z",
+  "sha1": "7eda2dc1cb2342f017b851a5e2c2896821b69faf",
+  "url": "https://wiki.guildwars.com/wiki/Obsidian_Flame_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Obsidian%20Flame%20(PvP)&oldid=2629756",
+  "retrievedAt": "2026-11-16T15:41:39.049Z",
+  "wikitext": "{{pveversion|Obsidian Flame}}\n{{Skill infobox\n| id = 2809\n| name = Obsidian Flame (PvP)\n| campaign = Core\n| profession = Elementalist\n| attribute = Earth Magic\n| type = Spell\n| energy = 5\n| recharge = 5\n| activation = {{3/2}}\n| overcast = 5\n| description = [[Spell]]. Deal {{gr|22|92}} [[damage]] to [[target]] [[foe]]. This spell [[Armor-ignoring damage|ignores armor]].\n| concise description = Spell. Deals {{gr|22|92}} damage.\n| target = foes\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Earth Magic]]\n| var1 name = [[Damage]]\n| var1 at0 = 22\n| var1 at15 = 92}}\n\n[[de:Obsidianflamme (PvP)]]"
+}

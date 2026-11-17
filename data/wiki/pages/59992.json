@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Shock Arrow",
+  "pageid": 59992,
+  "revid": 2629850,
+  "revisedAt": "2018-06-18T17:42:55Z",
+  "sha1": "d747965079fd6db632743176c3284360b255ba6e",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Shock_Arrow",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Shock%20Arrow&oldid=2629850",
+  "retrievedAt": "2026-11-16T15:41:42.046Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Shock Arrow\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = {{1/4}}\n| recharge = 8\n| description = [[Spell]]. Send out a Shock Arrow that flies swiftly toward target foe, striking for 150 damage if it hits. If target foe is using a [[glyph]], that foe takes 200 additional damage.\n| concise description = Spell. Fast projectile: deals 150 damage. Deals 200 more damage if target foe is using a glyph.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Mursaat Elementalist Form]]\n\n==Related skills==\n*{{Skill icon|Shock Arrow}}\n\n[[de:Polymock-Schockpfeil]]"
+}

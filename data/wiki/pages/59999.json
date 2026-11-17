@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Eruption",
+  "pageid": 59999,
+  "revid": 2629809,
+  "revisedAt": "2018-06-18T17:41:32Z",
+  "sha1": "ea37344d0749d632886927107f2ee74902fd8d0b",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Eruption",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Eruption&oldid=2629809",
+  "retrievedAt": "2026-11-16T15:41:40.920Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Eruption\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 30\n| description = [[Spell]]. Cause an eruption at target foe's location. Target foe takes 400 damage and all of that foe's [[glyph]]s are [[disable]]d for 15 seconds.\n| concise description = Spell. Deals 400 damage and disables all of target foe's glyphs (15 seconds).}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Stone Rain Form]]\n\n==Related skills==\n*{{Skill icon|Eruption}}\n\n[[de:Polymock-Eruption]]"
+}

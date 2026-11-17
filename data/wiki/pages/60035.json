@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Lightning Orb",
+  "pageid": 60035,
+  "revid": 2629829,
+  "revisedAt": "2018-06-18T17:42:13Z",
+  "sha1": "2128630230bb7bfc09ca91e1df4ccd4488425fe8",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Lightning_Orb",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Lightning%20Orb&oldid=2629829",
+  "retrievedAt": "2026-11-16T15:41:41.402Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Lightning Orb\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 6\n| activation = 1\n| recharge = 20\n| description = [[Spell]]. [[Projectile spell|Send out]] a Lightning Orb that strikes [[target]] [[foe]] for 800 [[damage]] if it hits.\n| concise description = Spell. Projectile: deals 800 damage.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Gargoyle Form]]\n\n==Related skills==\n*{{Skill icon|Lightning Orb}}\n*{{skill icon|Polymock Fireball}}\n*{{skill icon|Polymock Stoning}}\n\n[[de:Polymock-Kugelblitz]]"
+}

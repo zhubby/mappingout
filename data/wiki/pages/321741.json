@@ -1,0 +1,11 @@
+{
+  "title": "Otyugh's Cry (PvP)",
+  "pageid": 321741,
+  "revid": 2738518,
+  "revisedAt": "2026-08-26T21:40:43Z",
+  "sha1": "89dfc384b1709ada3bedd26c709be637270426b5",
+  "url": "https://wiki.guildwars.com/wiki/Otyugh%27s_Cry_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Otyugh's%20Cry%20(PvP)&oldid=2738518",
+  "retrievedAt": "2026-11-16T15:41:39.050Z",
+  "wikitext": "__NOTOC__{{Pveversion|Otyugh's Cry}}\n{{Skill infobox\n| id = 3451\n| name = Otyugh's Cry (PvP)\n| campaign = Prophecies\n| profession = Ranger\n| attribute = Beast Mastery\n| type = Shout\n| energy = 5\n| recharge = 30\n| causes1 = Increased Armor Rating\n| causes2 = Unblockable\n| description = [[Shout]]. For {{gr|5|15}} seconds, your [[animal companion]] gains +24 [[Armor rating|armor]] and cannot be [[block]]ed.\n| concise description = Shout. ({{gr|5|15}} seconds.) Your pet has +24 armor and is unblockable.\n| aoe = None\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Beast Mastery]]\n| var1 name = [[Duration]]\n| var1 at0 = 5\n| var1 at15 = 15}}\n\n== Related skills ==\n* {{skill icon|Warrior's Cunning}}\n* {{skill icon|Seeking Arrows}}\n\n== Trivia ==\n* An [[wikipedia:Otyugh|otyugh]] is a fictional monster originating from [[wikipedia:Dungeons and Dragons|Dungeons and Dragons]] and the name of an [[gw2:Ogre|ogre]] [[gw2:Champion Chief Otyugh|chieftan]] in ''[[Guild Wars 2]]''.\n\n[[Category:Pet skills]]\n[[Category:Ranger skill rewards]]\n[[Category:References to popular culture]]"
+}

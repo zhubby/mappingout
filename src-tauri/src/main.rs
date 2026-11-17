@@ -35,7 +35,9 @@ fn validate_content(content: &str) -> Result<()> {
         return Err("native.backup-too-large".into());
     }
     let value: serde_json::Value = serde_json::from_str(content).map_err(err)?;
-    if value["format"] != "mappingout-backup" || value["version"] != 2 || !value["data"].is_object()
+    if value["format"] != "mappingout-backup"
+        || !matches!(value["version"].as_u64(), Some(1..=3))
+        || !value["data"].is_object()
     {
         return Err("native.invalid-backup".into());
     }
@@ -385,6 +387,16 @@ mod tests {
     }
     #[test]
     fn rejects_invalid_or_oversized_content() {
+        for version in [1, 2, 3] {
+            assert!(validate_content(&format!(
+                r#"{{"format":"mappingout-backup","version":{},"data":{{}}}}"#,
+                version
+            ))
+            .is_ok());
+        }
+        assert!(
+            validate_content(r#"{"format":"mappingout-backup","version":4,"data":{}}"#).is_err()
+        );
         assert!(validate_content("{}").is_err());
         assert!(validate_content(&"x".repeat(MAX_BACKUP as usize + 1)).is_err());
         assert!(

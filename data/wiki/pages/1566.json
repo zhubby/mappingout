@@ -1,0 +1,11 @@
+{
+  "title": "Fragility (PvP)",
+  "pageid": 1566,
+  "revid": 2739076,
+  "revisedAt": "2026-08-29T11:53:48Z",
+  "sha1": "26bfaeb8945af7a73eb7554f9be7f5193a47eaf6",
+  "url": "https://wiki.guildwars.com/wiki/Fragility_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fragility%20(PvP)&oldid=2739076",
+  "retrievedAt": "2026-11-16T15:41:23.587Z",
+  "wikitext": "{{pveversion|Fragility}}\n{{Skill infobox\n| name = Fragility (PvP)\n| id = 2998\n| campaign = Core\n| profession = Mesmer\n| attribute = Illusion Magic\n| type = Hex Spell\n| energy = 5\n| activation = 1\n| recharge = 8\n| is-pvp = y\n| description = [[Hex Spell]]. For {{gr|8|20}} seconds, [[target]] and [[adjacent]] [[foe]]s take {{gr|5|20}} [[damage]] each time they suffer or recover from a new [[condition]].\n| concise description = Hex Spell. ({{gr|8|20}} seconds.) Also hexes foes adjacent to target. These foes take {{gr|5|20}} damage each time they gain or lose a condition.\n| aoe = adjacent\n}}\n\n{{Skill progression\n|attribute = [[Illusion Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 8\n|var1 at15 = 20\n|var2 name = [[Damage]]\n|var2 at0 = 5\n|var2 at15 = 20}}\n\n== Notes ==\n* Fragility only triggers when the target receives a new condition. Reapplying already applied conditions doesn't trigger Fragility.\n* Casting Fragility while under the effect of [[Glyph of Immolation]] will cause the burning condition to be applied before Fragility, causing Fragility to not trigger. \n* Synergizes well with [[Virulence]], even with low [[Death Magic]] attribute.\n\n[[de:Zerbrechlichkeit (PvP)]]"
+}

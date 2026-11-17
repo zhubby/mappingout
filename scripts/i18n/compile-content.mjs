@@ -1,5 +1,11 @@
+/**
+ * [INPUT]: 依赖来源审计、已有双语资料与任务及技能辅助译文。
+ * [OUTPUT]: 生成绑定英文基线的五套双语资料包。
+ * [POS]: 资料语言编译入口；机器辅助译文保持待审状态。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs';
-import {contentFields} from '../../src/i18n/content-fields.ts';
+import {contentFields,datasets} from '../../src/i18n/content-fields.ts';
 import {auditContent} from './audit-content.mjs';
 import {sha256,numericIssues} from './english-source.mjs';
 import {reviewedSkills,numericReviewNotes} from './reviewed-skills.mjs';
@@ -13,12 +19,15 @@ const previousReviews=read('data/i18n/review.json').reviews;
 const previousSkills=read('scripts/wiki/translations.json');
 const skillReviewSources=read('data/i18n/skill-review-sources.json');
 const reviews={};
+const questTranslations=read('data/i18n/quest-translations.json').fields;
+const skillTranslations=fs.existsSync('data/i18n/skill-translations.json')?read('data/i18n/skill-translations.json').fields:{};
 let correctedEnglish=0,reviewedChinese=0;
 fs.mkdirSync('data/i18n/baseline',{recursive:true});
-for(const dataset of ['catalog','armor','calendar']){
+for(const dataset of datasets){
   const raw=fs.readFileSync(`public/data/${dataset}.json`),data=JSON.parse(raw),baseline=baselines[dataset];
   save(`data/i18n/baseline/${dataset}.json`,baseline);
-  const oldEn=read(`public/data/i18n/en/${dataset}.json`),oldZh=read(`public/data/i18n/zh-CN/${dataset}.json`);
+  const fresh=['quests','skills'].includes(dataset);
+  const oldEn=fresh?{fields:{}}:read(`public/data/i18n/en/${dataset}.json`),oldZh=fresh?{fields:{}}:read(`public/data/i18n/zh-CN/${dataset}.json`);
   const english={},chinese={},unverifiedEnglish=[];
   for(const field of contentFields(data,dataset)){
     const resolved=baseline.fields[field.key];
@@ -29,6 +38,16 @@ for(const dataset of ['catalog','armor','calendar']){
     if(!english[field.key])throw Error(`Missing English source ${dataset}/${field.key}`);
     if(english[field.key]!==oldEn.fields[field.key])correctedEnglish++;
     let text=oldZh.fields[field.key],reviewer,numericReview;
+    if(dataset==='quests') {
+      const translated=questTranslations[sha256(english[field.key])];
+      if(!translated || translated.source!==english[field.key])throw Error(`Missing quest translation: ${field.key}; run wiki:translate:quests`);
+      text=translated.text;
+    }
+    if(dataset==='skills'){
+      const translated=skillTranslations[sha256(english[field.key])];
+      if(!translated||translated.source!==english[field.key])throw Error(`Missing skill translation: ${field.key}; run wiki:translate:skills`);
+      text=translated.text;
+    }
     const [collection,index,section]=field.path;
     const row=data[collection]?.[index];
     const skillDescription=dataset==='catalog'&&collection==='records'&&row.skill&&field.path.at(-1)==='description';
@@ -79,7 +98,7 @@ for(const dataset of ['catalog','armor','calendar']){
   const englishHash=sha256(JSON.stringify(english)),baselineHash=sha256(JSON.stringify(baseline));
   const common={version:1,dataset,sourceHash:sha256(raw),englishHash,baselineHash};
   save(`public/data/i18n/en/${dataset}.json`,{...common,locale:'en',fields:english,unverifiedFields:unverifiedEnglish});
-  save(`public/data/i18n/zh-CN/${dataset}.json`,{...common,locale:'zh-CN',fields:chinese});
+  save(`public/data/i18n/zh-CN/${dataset}.json`,{...common,locale:'zh-CN',...(fresh?{translationStatus:'machine-assisted-draft'}:{}),fields:chinese});
 }
 save('data/i18n/review.json',{version:2,baseline:'English Wiki text and pinned revisions',reviews});
 save('data/i18n/accuracy-audit.json',report);

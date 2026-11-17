@@ -1,0 +1,11 @@
+{
+  "title": "Dissonance (PvP)",
+  "pageid": 207730,
+  "revid": 2731220,
+  "revisedAt": "2026-06-25T05:09:45Z",
+  "sha1": "07538228fa966dee095e2c27df8b57974c1b18a7",
+  "url": "https://wiki.guildwars.com/wiki/Dissonance_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dissonance%20(PvP)&oldid=2731220",
+  "retrievedAt": "2026-11-16T15:41:17.798Z",
+  "wikitext": "{{pveversion|Dissonance}}\n\n{{Skill infobox\n| name = Dissonance (PvP)\n| id = 3014\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| energy = 25\n| activation = 2\n| recharge = 30\n| aoe = none\n| causes1 = Spirit\n| causes2 = Interrupt\n| description=[[Binding Ritual]]. Create a level {{gr|1|8}} [[spirit]]. This spirit deals {{gr|5|20}} [[damage]] and anyone struck by its [[attack]] is [[interrupt]]ed. This spirit dies after {{gr|10|25}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|8}} spirit ({{gr|10|25}} second lifespan). Its attacks deal {{gr|5|20}} damage and interrupt [[action]]s.\n| has-pve = y\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Communing]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 8\n| var2 name = [[Damage]]\n| var2 at0 = 5\n| var2 at15 = 20\n| var3 name = [[Duration]]\n| var3 at0 = 10\n| var3 at15 = 25}}\n\n== Notes ==\n* This skill creates a [[Spirit of Dissonance]].\n{{bug|This spirit will interrupt even when the [[target]] is using a skill like [[Mantra of Resolve (PvP)]]{{verify|Is the PvP version of this skill bugged the same way as the PvE version?}}.}}\n\n[[de:Missklang (PvP)]]"
+}

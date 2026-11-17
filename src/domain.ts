@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖地图资料、统一翻译与完整个人记录。
+ * [OUTPUT]: 提供资料查询、角色删除和探索进度变更。
+ * [POS]: 地图领域边界；删除角色同时清除各功能的角色记录。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { t } from './i18n';
 import { attributeId } from './i18n/attributes';
 import type { Catalog, Entry, Filters, Personal, Place } from './types';
@@ -31,7 +37,7 @@ export function preferredPlace(entry: Entry, filters: Filters): Place | undefine
 }
 export function deleteCharacter(state: Personal, id: string): Personal {
   const characters = state.characters.filter(c => c.id !== id);
-  return { ...state, characters, progress: state.progress.filter(p => p.characterId !== id), notes: state.notes.filter(n => n.characterId !== id), armorPlans:state.armorPlans.filter(p=>p.characterId!==id), activityProgress:state.activityProgress.filter(p=>p.characterId!==id), preferences: { ...state.preferences, characterId: state.preferences.characterId === id ? characters[0]?.id || '' : state.preferences.characterId } };
+  return { ...state, characters, questProgress:state.questProgress.filter(p=>p.characterId!==id), questProfiles:state.questProfiles.filter(p=>p.characterId!==id), progress: state.progress.filter(p => p.characterId !== id), notes: state.notes.filter(n => n.characterId !== id), armorPlans:state.armorPlans.filter(p=>p.characterId!==id), activityProgress:state.activityProgress.filter(p=>p.characterId!==id), preferences: { ...state.preferences, characterId: state.preferences.characterId === id ? characters[0]?.id || '' : state.preferences.characterId } };
 }
 export function belongsToRegion(entry: Entry, region: string) {
   return entry.locations.some(place => place.region === region) || (entry.kind === 'zone' && entry.area?.atlasRegion === region);

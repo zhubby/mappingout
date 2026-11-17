@@ -1,0 +1,11 @@
+{
+  "title": "Invigorating Mist",
+  "pageid": 140264,
+  "revid": 2525636,
+  "revisedAt": "2012-12-04T06:35:46Z",
+  "sha1": "aefa28f328d887e16611bfc1eff9c1b30c435f59",
+  "url": "https://wiki.guildwars.com/wiki/Invigorating_Mist",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Invigorating%20Mist&oldid=2525636",
+  "retrievedAt": "2026-11-16T15:41:29.927Z",
+  "wikitext": "{{skill infobox\n| name = Invigorating Mist\n| campaign = Eye of the North\n| type = Signet\n| special = Bundle\n| description = [[Signet]]. When dropped, the invigorating mist is released. It restores 30 points of [[energy]] to you and all [[adjacent]] [[creature]]s.\n| concise description = Signet. When dropped, the invigorating mist is released. It restores 30 points of energy to you and all adjacent creatures.\n}}\n\n== Related skills ==\n* {{skill icon|Energetic Was Lee Sa}}\n\n== Notes ==\n* This effect is activated when a [[Jar of Invigoration]] is dropped.\n{{Bug|Even though the skill description says \"All adjacent creatures\", sometimes the [[hero]]es in your party will not receive the benefit.}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Victorious Renewal",
+  "pageid": 321910,
+  "revid": 2739746,
+  "revisedAt": "2026-09-07T13:43:19Z",
+  "sha1": "6da804ad11c418af167922342fcab34d8c44f464",
+  "url": "https://wiki.guildwars.com/wiki/Victorious_Renewal",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Victorious%20Renewal&oldid=2739746",
+  "retrievedAt": "2026-11-16T15:42:06.005Z",
+  "wikitext": "{{Skill infobox\n| id = 3282\n| name = Victorious Renewal\n| campaign = Core\n| type = Effect\n| description = When you kill an enemy through direct damage, you gain Health equivalent to 50% of your maximum Health.\n| concise description = Killing an enemy with direct damage restores Health equal to 50% of your maximum Health.\n}}"
+}

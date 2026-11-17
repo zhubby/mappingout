@@ -1,0 +1,11 @@
+{
+  "title": "Mend Body and Soul (Togo)",
+  "pageid": 244933,
+  "revid": 2712902,
+  "revisedAt": "2025-10-25T23:40:40Z",
+  "sha1": "0df38fd22298bac2f5ddc7e567faeb2ae0b0b75c",
+  "url": "https://wiki.guildwars.com/wiki/Mend_Body_and_Soul_(Togo)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mend%20Body%20and%20Soul%20(Togo)&oldid=2712902",
+  "retrievedAt": "2026-11-16T15:41:36.239Z",
+  "wikitext": "{{Skill infobox\n| id = 2689\n| image = [[File:Mend Body and Soul (Togo).jpg]]\n| name = Mend Body and Soul (Togo)\n| campaign = Bonus Mission Pack\n| profession = Ritualist\n| attribute = Restoration Magic\n| type = Spell\n| special = Bonus Mission Pack\n| energy = 5\n| activation = {{3/4}}\n| recharge = 3\n| target = allies\n| description = [[Spell]]. [[Target]] [[ally]] is [[heal]]ed for {{gr2|77|83}} [[Health]]. That [[ally]] loses one [[condition]] for all [[spirit]]s within [[earshot]].\n| concise description = Spell. Heals for {{gr2|77|83}}. Removes one condition for each spirit within earshot.\n| removes1 = Condition\n}}\n\n{{Skill progression Bonus Mission Pack\n| attribute rank = 10\n| attribute = [[Restoration Magic]]\n| var1 name = [[Heal]]ing\n| var1 at0 = 20\n| var1 at15 = 115}}\n\n== Acquisition ==\nPart of [[Togo (disguise)|Togo's]] replacement [[skill bar]] during [[The Tengu Accords]] mission.\n\n== Related skills ==\n* {{skill icon|Mend Body and Soul}}\n\n== Notes ==\n* This skill is normally used with 10 in [[Restoration Magic]], but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Restoration Magic]].."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Earthbind (PvP)",
+  "pageid": 208126,
+  "revid": 2738860,
+  "revisedAt": "2026-08-27T15:55:15Z",
+  "sha1": "8b0942551d1b0ae3e836d2bbec6a6af857917ce4",
+  "url": "https://wiki.guildwars.com/wiki/Earthbind_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Earthbind%20(PvP)&oldid=2738860",
+  "retrievedAt": "2026-11-16T15:41:19.011Z",
+  "wikitext": "{{pveversion|Earthbind}}\n{{Skill infobox\n| name = Earthbind (PvP)\n| id = 3015\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| energy = 15\n| activation = 3\n| recharge = 45\n| causes1 = Spirit\n| causes2 = Health Loss\n| description= [[Binding Ritual]]. Create a level {{gr|1|10}} [[spirit]]. All non-[[spirit]] [[foe]]s [[Knock down|knocked down]] within its [[Spirit range|range]] are knocked down for at least 3 seconds. Whenever this happens, this spirit loses {{gr|50|25}} [[Health]]. This spirit dies after {{gr|15|45}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|10}} spirit ({{gr|15|45}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. {{gray|Knock-down cost: this spirit loses {{gr|50|25}} Health.}}\n| is-pvp = y\n| aoe = spirit\n}}\n\n{{Skill progression\n| attribute = [[Communing]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 10\n| var2 name = [[Health loss]]\n| var2 at0 = 50\n| var2 at15 = 25\n| var3 name = [[Duration]]\n| var3 at0 = 15\n| var3 at15 = 45}}\n\n== Notes ==\n* This skill creates a [[Spirit of Earthbind]].\n* Useful to increase the knock downs caused by [[Wanderlust]], since they both benefit from the Communing attribute.\n* This skill allows you to knock down [[Juggernaut|Juggernauts]], [[Siege Turtle|Siege Turtles]], [[Carrier Juggernaut|Carrier Juggernauts]], and [[Hauler Turtle|Hauler Turtles]].\n\n[[de:Erdbindung (PvP)]]"
+}

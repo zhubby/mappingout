@@ -1,8 +1,14 @@
+/**
+ * [INPUT]: 依赖界面翻译、五套双语资料、英文基线与字体许可。
+ * [OUTPUT]: 校验字段覆盖、内容哈希与正式发布审校门禁。
+ * [POS]: 本地和正式构建共用的双语验证入口。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
-import {contentFields} from '../src/i18n/content-fields.ts';
+import {contentFields,datasets} from '../src/i18n/content-fields.ts';
 import {numericIssues,translationReviewMatches} from './i18n/english-source.mjs';
 const hash=value=>createHash('sha256').update(value).digest('hex');
 export function validateI18n(root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),release=false){
@@ -18,7 +24,7 @@ export function validateI18n(root=path.resolve(path.dirname(fileURLToPath(import
  }
  const review=json('data/i18n/review.json').reviews;
  const wikiReferences=new Map();
- for(const dataset of ['catalog','armor','calendar']){
+ for(const dataset of datasets){
   const raw=read(`public/data/${dataset}.json`),data=JSON.parse(raw),fields=contentFields(data,dataset);
   const baseline=json(`data/i18n/baseline/${dataset}.json`);
   for(const field of Object.values(baseline.fields))for(const reference of field.references)wikiReferences.set(reference.pageid,reference);

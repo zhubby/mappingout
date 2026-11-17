@@ -1,0 +1,11 @@
+{
+  "title": "Protector's Strike (PvP)",
+  "pageid": 321783,
+  "revid": 2738538,
+  "revisedAt": "2026-08-26T21:46:51Z",
+  "sha1": "fbff4e58c9ef6247100cb8bf2ae7a34e9075ff48",
+  "url": "https://wiki.guildwars.com/wiki/Protector%27s_Strike_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Protector's%20Strike%20(PvP)&oldid=2738538",
+  "retrievedAt": "2026-11-16T15:41:42.612Z",
+  "wikitext": "__NOTOC__{{Pveversion|Protector's Strike}}\n{{Skill infobox\n| id = 3449\n| name = Protector's Strike (PvP)\n| campaign = Prophecies\n| profession = Warrior\n| attribute = Strength\n| type = Melee Attack\n| energy = 5\n| activation = {{1/2}}\n| recharge = 6\n| description = [[Melee Attack]].  If this [[attack]] strikes a [[Movement|moving]] [[foe]], you strike for {{gr|10|40}} more [[damage]].\n| concise description = Melee Attack. Deals {{gr|10|40|+}} damage if target is moving.\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Strength]]\n|var1 name = + [[Damage]]\n|var1 at0 = 10\n|var1 at15 = 40}}\n\n== Related skills ==\n* {{skill icon|Crippling Sweep}}\n* {{skill icon|Harrier's Toss (PvP)}}\n\n[[Category:Warrior skill rewards]]"
+}

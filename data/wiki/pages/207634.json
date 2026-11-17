@@ -1,0 +1,11 @@
+{
+  "title": "Soothing (PvP)",
+  "pageid": 207634,
+  "revid": 2720901,
+  "revisedAt": "2026-02-10T01:30:59Z",
+  "sha1": "772d890aad595bdfeabd0e84c17b8fa00e4f2661",
+  "url": "https://wiki.guildwars.com/wiki/Soothing_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Soothing%20(PvP)&oldid=2720901",
+  "retrievedAt": "2026-11-16T15:41:55.104Z",
+  "wikitext": "{{Pveversion|Soothing}}{{Skill infobox\n| name = Soothing (PvP)\n| id = 3009\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| energy = 25\n| activation = 5\n| recharge = 60\n| causes1 = Spirit\n| description = [[Binding Ritual]]. Create a level {{gr|1|8}} [[spirit]]. All [[foe]]s within its [[range]] take twice as long to build [[adrenaline]]. This spirit dies after {{gr|15|45}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|8}} spirit ({{gr|15|45}} second lifespan). Building adrenaline takes twice as long for foes within range.\n| is-pvp = y\n| aoe = spirit\n}}\n\n{{Skill progression\n| attribute = [[Communing]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 8\n| var2 name = [[Duration]]\n| var2 at0 = 15\n| var2 at15 = 45}}\n\n== Notes ==\n* This skill creates a [[Spirit of Soothing]].\n\n[[de:Beruhigung (PvP)]]"
+}

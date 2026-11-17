@@ -1,0 +1,11 @@
+{
+  "title": "Corrupted Breath",
+  "pageid": 18794,
+  "revid": 2628646,
+  "revisedAt": "2018-06-18T17:23:31Z",
+  "sha1": "e6d6de1bba91ab5be4a5619857c30f1cdfd1c394",
+  "url": "https://wiki.guildwars.com/wiki/Corrupted_Breath",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Corrupted%20Breath&oldid=2628646",
+  "retrievedAt": "2026-11-16T15:41:14.315Z",
+  "wikitext": "{{Skill infobox\n| id = 1181\n| name = Corrupted Breath\n| campaign = Factions\n| special = Monster\n| type = Preparation\n| energy = 5\n| recharge = 30\n| activation = 2\n| description = [[Preparation]]. For 20 seconds, whenever your [[attack]]s hit a [[foe]], all [[nearby]] foes take 50 [[damage]] for each [[enchantment]] on your [[target]].\n| concise description = Preparation. (20 seconds.) Whenever your attacks hit, all nearby foes take 50 damage for each enchantment on your target.\n| aoe = nearby\n}}\n\n== Related skills ==\n* {{duplicate skill icon|Desecrate Enchantments|Defile Enchantments}}\n* {{monster skill icon|Searing Breath}}\n* {{monster skill icon|Spirit Roar}}\n\n== Notes ==\n* This skill is used by [[Kuunavang]] in the [[Unwaking Waters]] mission.\n\n[[de:Verdorbener Atem]]"
+}

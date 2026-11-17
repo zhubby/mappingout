@@ -1,0 +1,11 @@
+{
+  "title": "Renewing Escape",
+  "pageid": 321892,
+  "revid": 2739728,
+  "revisedAt": "2026-09-07T13:24:45Z",
+  "sha1": "188ba36dce543f5dcfe861b17a43d9817ee702a0",
+  "url": "https://wiki.guildwars.com/wiki/Renewing_Escape",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Renewing%20Escape&oldid=2739728",
+  "retrievedAt": "2026-11-16T15:41:45.316Z",
+  "wikitext": "{{Skill infobox\n| id = 3362\n| name = Renewing Escape\n| campaign = Core\n| type = Effect\n| description = You gain 5% Health per second while moving. This is reduced by 1% for each ally in earshot.\n| concise description = Gain 5% Health per second while moving, reduced by 1% for each ally in earshot.\n}}"
+}

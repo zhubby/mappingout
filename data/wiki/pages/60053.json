@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Signet of Smiting",
+  "pageid": 60053,
+  "revid": 2629853,
+  "revisedAt": "2018-06-18T17:43:01Z",
+  "sha1": "355b9c73fbe0266b36e1c39ea76961cbbf56bbc8",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Signet_of_Smiting",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Signet%20of%20Smiting&oldid=2629853",
+  "retrievedAt": "2026-11-16T15:41:42.047Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Signet of Smiting\n| campaign = Eye of the North\n| special = Polymock\n| type = Signet\n| activation = {{1/4}}\n| recharge = 20\n| description = [[Signet]]. [[Target]] [[foe]] takes 150 [[damage]]. If that foe is casting a [[spell]], the spell is [[interrupt]]ed and that foe takes an additional 150 damage.\n| concise description = Signet. Deals 150 damage. Interrupts a spell. Interruption effect: deals 150 more damage.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Charr Shaman Form]]\n*[[Gaki Form]]\n\n==Related skills==\n*{{skill icon|Polymock Bane Signet}}\n*{{skill icon|Polymock Overload}}\n*{{skill icon|Polymock Signet of Clumsiness}}\n*{{Skill icon|Signet of Disruption}}\n\n==Trivia==\n*Shares the [[skill icon]] of [[Signet of Judgment]].\n\n[[de:Polymock-Siegel der Peinigung]]"
+}

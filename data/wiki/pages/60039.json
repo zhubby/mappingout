@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Icy Prison",
+  "pageid": 60039,
+  "revid": 2629824,
+  "revisedAt": "2018-06-18T17:42:03Z",
+  "sha1": "26cffbc1d23b2741fde5e29c542da45844b21f6a",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Icy_Prison",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Icy%20Prison&oldid=2629824",
+  "retrievedAt": "2026-11-16T15:41:40.922Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Icy Prison\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = {{1/4}}\n| recharge = 30\n| description = [[Spell]]. Target foe is struck for 200 damage. If target foe is casting a spell, that spell is interrupted and is disabled for 5 seconds.\n| concise description = Spell. Deals 200 damage. Interrupts a spell. Interruption effect: disables interrupted spell (5 seconds).}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Ice Imp Form]]\n\n==Related skills==\n{{section-stub}}\n\n[[de:Polymock-Eiskerker]]"
+}

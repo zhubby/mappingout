@@ -1,0 +1,11 @@
+{
+  "title": "Domain of Elements",
+  "pageid": 120540,
+  "revid": 2581897,
+  "revisedAt": "2015-01-27T09:49:38Z",
+  "sha1": "5b3cc424320b07f55691c917af694879a9f5aaab",
+  "url": "https://wiki.guildwars.com/wiki/Domain_of_Elements",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Domain%20of%20Elements&oldid=2581897",
+  "retrievedAt": "2026-11-16T15:41:18.351Z",
+  "wikitext": "{{skill infobox\n| id = 581\n| name = Domain of Elements\n| campaign = Prophecies\n| type = Spell\n| description = [[Spell]]. While you are in this area you are the target of chaotic natural forces.\n}}\n\n== Related skills ==\n* {{skill icon|Domain of Energy Draining}}\n* {{skill icon|Domain of Health Draining}}\n* {{skill icon|Domain of Slow}}\n\n[[Image:Glint Elemental Ward.jpg|thumb|250px]]\n\n== Notes ==\n* This effect is encountered in the fifth level of [[the Dragon's Lair]] [[Mission]], in the permanent [[ward]]s.\n* While in those wards, you will be affected by one or more of the following spells: \n** {{skill icon|Chain Lightning (environment)}}\n** {{skill icon|Eruption (environment)}}\n** {{skill icon|Fire Storm (environment)}}\n** {{skill icon|Maelstrom (environment)}}:"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Siege Devourer Swipe",
+  "pageid": 66496,
+  "revid": 2630001,
+  "revisedAt": "2018-06-18T17:48:10Z",
+  "sha1": "24ac4e462bff590bbee3d4069bb6153a3da6c462",
+  "url": "https://wiki.guildwars.com/wiki/Siege_Devourer_Swipe",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Siege%20Devourer%20Swipe&oldid=2630001",
+  "retrievedAt": "2026-11-16T15:41:52.088Z",
+  "wikitext": "{{Skill infobox\n| name = Siege Devourer Swipe\n| campaign = Eye of the North\n| type = Skill\n| special = Devourer\n| energy = 5\n| activation = 1\n| recharge = 10\n| description = [[Skill (skill type)|Skill]]. All [[nearby]] [[foe]]s are struck for 100 [[piercing damage]] and are [[Knock down|knocked down]].\n| concise description = Skill. Deals 100 piercing damage; causes knock-down. Affects foes near you.\n| aoe = nearby\n| target = untargeted\n}}\n\n== Related skills ==\n*{{skill icon|Junundu Smash}}\n*{{skill icon|Ursan Rage}}\n\n[[de:Wehr-Verschlinger-Schlag]]"
+}

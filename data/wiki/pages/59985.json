@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Poisoned Ground",
+  "pageid": 59985,
+  "revid": 2629841,
+  "revisedAt": "2018-06-18T17:42:37Z",
+  "sha1": "8084718c845a6a7edac995abf755b5addd9e0640",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Poisoned_Ground",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Poisoned%20Ground&oldid=2629841",
+  "retrievedAt": "2026-11-16T15:41:41.399Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Poisoned Ground\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 1\n| recharge = 5\n| description = [[Spell]]. [[Target]] [[foe]] becomes [[Poison]]ed for 20 seconds.\n| concise description = Spell. Inflicts Poisoned condition (20 seconds). Poison causes -4 Health degeneration.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Bone Dragon Form]]\n\n==Related skills==\n*{{skill icon|Poison Arrow}} ([[Elite skill|elite]])\n*{{skill icon|Polymock Ice Shard Storm}}\n*{{skill icon|Polymock Piercing Light Spear}}\n*{{skill icon|Polymock Rotting Flesh}}\n\n==Notes==\n*Poison causes -10 [[health degeneration]] in [[Polymock]].\n\n[[de:Vergifteter Polymock-Boden]]"
+}

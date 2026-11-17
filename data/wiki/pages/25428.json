@@ -1,0 +1,11 @@
+{
+  "title": "Red Tape",
+  "pageid": 25428,
+  "revid": 2534607,
+  "revisedAt": "2013-02-18T19:08:18Z",
+  "sha1": "f6e6a6d5df3f1d9009883474ae34ea42a93d82b7",
+  "url": "https://wiki.guildwars.com/wiki/Red_Tape",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Red%20Tape&oldid=2534607",
+  "retrievedAt": "2026-11-16T13:47:11.050Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Red Tape\n| map = [[File:Medical Emergency.jpg|250px]]\n| campaign = Factions\n| region = Kaineng City\n| type = Secondary\n| given by = [[Officer Chitaro]]\n| given at = [[Wajjun Bazaar]]\n| preceded by = [[Medical Emergency]]\n}}\nReturn the unfortunate news to Guardsman Pah.\n\n==Quest information==\n===Objectives===\n* Speak to [[Guardsman Pah]] about filling out the ministry's scrollwork.\n\n===Reward===\n* 3,000 [[Experience]]\n* 250 [[Gold]]\n* [[Imperial Commendation]]\n\n==Walkthrough==\n\nThis quest is quite easy, all it requires is for you to retrace your path taken in the previous quest back to Guardsman Pah.\n\nAlternatively, map travel to [[Nahpui Quarter (outpost)|Nahpui Quarter]] and return into Wajjun Bazaar to Guardsman Pah.\n\n==Dialogue==\n\n===Initial dialogue===\n'''Officer Chitaro'''\n:''\"'''Guardsman Pah''' has not completed the proper scrollwork at the Ministry of Flame. Please ask him to refrain from making requests of me without going through the proper channels.\"''\n{{offer dialog\n|accept = I'll tell him.\n|decline = I am not your messenger.\n|ask = Please deliver my message to '''Guardsman Pah''' before he sends someone else to pester me. \n|indent = :: }}\n\n\n===Reward dialogue===\n'''Guardsman Pah'''\n:''\"I am very sorry to hear that. The ministry does not seem to understand that this situation allows us no time to wade through piles of scrollwork.\"''\n\n[[Category:Rewards Imperial Commendation]]\n\n==Notes==\n* This quest appears to be mutually exclusive with the [[Imperial Assistance]] quest."
+}

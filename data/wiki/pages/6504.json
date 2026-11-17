@@ -1,0 +1,11 @@
+{
+  "title": "Revive Animal",
+  "pageid": 6504,
+  "revid": 2742935,
+  "revisedAt": "2026-10-20T14:25:06Z",
+  "sha1": "d92b7e80344e01175d813c069d4fe913ac6c8ec7",
+  "url": "https://wiki.guildwars.com/wiki/Revive_Animal",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Revive%20Animal&oldid=2742935",
+  "retrievedAt": "2026-11-16T15:41:46.989Z",
+  "wikitext": "{{Skill infobox\n| id = 422\n| name = Revive Animal\n| campaign = Prophecies\n| profession = Ranger\n| attribute = Beast Mastery\n| type = Skill\n| energy = 5\n| activation = {{1/4}}\n| recharge = 5\n| target = self\n| description = [[Skill (skill type)|Skill]]. [[resurrection|Resurrect]] all allied [[animal companion]]s [[in the area]]. They come back to life with {{gr|10|94||%}} [[Health]].\n| concise description = Skill. Resurrects all allied pets in the area  ({{gr|10|94||%}} Health).\n| aoe = nearby\n}}\n\n{{Skill progression\n| attribute = [[Beast Mastery]]\n| var1 name = % [[Health]]\n| var1 at0 = 10\n| var1 at15 = 94}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Marna]] ([[Ice Tooth Cave]]) \n* [[Firstwatch Sergio]] ([[Lion's Arch]])\n* [[Dakk]] ([[Ember Light Camp]])\n\n== Related skills ==\n* {{skill icon|Comfort Animal}}\n* {{skill icon|Heal as One}} ([[elite]])\n\n== Notes ==\n* The range for this skill is much shorter than the resurrection range of [[Comfort Animal]].\n* As of the [[Feedback:Game_updates/20090806|August 6, 2009]] game update and [[Feedback:Game_updates/20090806|August 26, 2026]] game update, [[Comfort Animal]] or [[Comfort Animal (PvP)]] can be used instead of Charm Animal for your companion to travel with you. [[Heal as One]] was updated with the [[Feedback:Game_updates/20100225|February 25, 2010]] game update to also have this functionality in [[PvE]]. These updates largely render Revive Animal suboptimal because of their ability to resurrect pets, mandatory bar placement for pet usage, cast time, recharge time, pet heal and range.\n\n[[Category:Pet skills]]\n[[Category:Resurrection skills]]\n\n[[de:Tier wiederbeleben]]"
+}

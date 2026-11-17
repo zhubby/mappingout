@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Web 构建目录与 Service Worker 模板。
+ * [OUTPUT]: 生成代码、资料、字体、任务图和全技能图标预缓存。
+ * [POS]: Web 构建收尾；大幅护甲预览与地图按访问缓存。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -21,8 +27,11 @@ export async function finalizeBuild(dist = path.join(web, 'dist'), templateFile 
   const precache = paths.filter(name => name.startsWith('build/'));
   if (!precache.some(name => name.endsWith('.js')) || !precache.some(name => name.endsWith('.css'))) throw new Error('Missing Vite build assets');
   precache.push('data/catalog.json');
-  precache.push(...paths.filter(name => ['data/wiki-review.json','data/armor.json','data/calendar.json','licenses/gfdl-1.3.txt'].includes(name)));
+  precache.push(...paths.filter(name => ['data/wiki-review.json','data/armor.json','data/calendar.json','data/quests.json','data/skills.json','licenses/gfdl-1.3.txt'].includes(name)));
   precache.push(...paths.filter(name => name.startsWith('data/i18n/') || name.startsWith('fonts/')));
+  precache.push(...paths.filter(name => /^assets\/materials\/[a-z-]+\.png$/.test(name)));
+  precache.push(...paths.filter(name => /^assets\/quests\/[^/]+\.webp$/.test(name)));
+  precache.push(...paths.filter(name => /^assets\/(?:skill-library|skill-resources)\/[^/]+\.(?:jpg|png)$/.test(name)));
   const hash = createHash('sha256').update(template);
   for (const name of paths) {
     const bytes = await fs.readFile(path.join(dist, name));

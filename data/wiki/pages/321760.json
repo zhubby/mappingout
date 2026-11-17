@@ -1,0 +1,11 @@
+{
+  "title": "Pious Restoration (PvP)",
+  "pageid": 321760,
+  "revid": 2738543,
+  "revisedAt": "2026-08-26T21:49:03Z",
+  "sha1": "fd942ab6478fea81f95ad340bc693f7694ec23ef",
+  "url": "https://wiki.guildwars.com/wiki/Pious_Restoration_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pious%20Restoration%20(PvP)&oldid=2738543",
+  "retrievedAt": "2026-11-16T15:41:40.104Z",
+  "wikitext": "__NOTOC__{{Pveversion|Pious Restoration}}\n{{Skill infobox\n| id = 3471\n| name = Pious Restoration (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Wind Prayers\n| type = Spell\n| energy = 5\n| recharge = 15\n| activation = 1\n| target = self\n| causes1 = Health Gain\n| removes1 = Enchantment\n| removes2 = Hex spell\n| description = [[Spell]]. You [[Health gain|gain]] {{gr|80|150}} [[Health]] and remove 1 [[Dervish]] [[enchantment]]. If an enchantment was removed in this way, you also lose 1 [[hex]].\n| concise description = Spell. Gain {{gr|80|150}} Health and remove 1 Dervish enchantment. Removal effect: lose 1 hex.\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Wind Prayers]]\n|var1 name = [[Health gain]]\n|var1 at0 = 80\n|var1 at15 = 150}}\n\n== Related skills ==\n*{{skill icon|Contemplation of Purity}}\n\n== Notes ==\n* When combined with [[Grenth's Fingers]], this skill potentially becomes an all-purpose self-heal."
+}

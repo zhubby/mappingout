@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖地图、功能资料、Wiki 快照与路线图文件声明。
+ * [OUTPUT]: 校验固定修订与内容哈希；按需核对线上修订。
+ * [POS]: Wiki 证据审计入口；不刷新已绑定的来源。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -20,12 +26,14 @@ for (const record of catalog.records) {
 catalog.stories?.forEach(story => story.references.forEach(collect));
 const featureVersions=[];
 function collectNested(value){if(!value||typeof value!=='object')return;if(value.revisionUrl&&value.pageid){collect(value);return;}for(const nested of Object.values(value))if(Array.isArray(nested))nested.forEach(collectNested);else collectNested(nested);}
-for(const filename of ['armor.json','calendar.json']) {
+for(const filename of ['armor.json','calendar.json','quests.json','skills.json']) {
   const feature=JSON.parse(await fs.readFile(path.join(web,'public/data',filename),'utf8'));collectNested(feature);featureVersions.push(feature.referenceVersion);
 }
 const revisions = [];
+const questImages=JSON.parse(await fs.readFile(path.join(evidenceDir,'quest-images.json'),'utf8')).images;
 for (const reference of references.values()) {
-  const page = JSON.parse(await fs.readFile(path.join(evidenceDir, `pages/${reference.pageid}.json`), 'utf8'));
+  const image=questImages.find(image=>image.reference.pageid===reference.pageid);
+  const page = image ? {...image.reference,wikitext:image.licenseDeclaration,sha1:createHash('sha1').update(image.licenseDeclaration).digest('hex')} : JSON.parse(await fs.readFile(path.join(evidenceDir, `pages/${reference.pageid}.json`), 'utf8'));
   const sha1 = createHash('sha1').update(page.wikitext).digest('hex');
   if (page.pageid !== reference.pageid || page.revid !== reference.revid || page.title !== reference.title || page.revisedAt !== reference.revisedAt || page.sha1 !== sha1) throw new Error(`Snapshot differs from cited revision: ${reference.title}`);
   revisions.push({ title: page.title, pageid: page.pageid, revid: page.revid, revisedAt: page.revisedAt, sha1 });

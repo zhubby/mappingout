@@ -1,0 +1,11 @@
+{
+  "title": "Aura Slicer (PvP)",
+  "pageid": 321736,
+  "revid": 2738539,
+  "revisedAt": "2026-08-26T21:47:13Z",
+  "sha1": "4141b41eb8abb886388e8ade12ce50ffacf690d3",
+  "url": "https://wiki.guildwars.com/wiki/Aura_Slicer_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Aura%20Slicer%20(PvP)&oldid=2738539",
+  "retrievedAt": "2026-11-16T15:41:07.822Z",
+  "wikitext": "__NOTOC__{{Pveversion|Aura Slicer}}\n{{Skill infobox\n| id = 3473\n| name = Aura Slicer (PvP)\n| campaign = Eye of the North\n| profession = Dervish\n| attribute = Mysticism\n| type = Melee Attack\n| adrenaline = 5\n| causes1 = Bleeding\n| causes2 = Cracked Armor\n| description = [[Melee Attack]]. If this attack hits, you inflict [[Bleeding]] for {{gr|5|15}} seconds. If you are [[enchant]]ed, you also inflict [[Cracked Armor]] for {{gr|1|10}} second[s].\n| concise description = Melee Attack. ({{gr|5|15}} seconds.)Inflicts {{sic|No space between the bracket and 'Inflicts'}} Bleeding [[condition]]. Also inflicts Cracked Armor ({{gr|1|10}} second[s]) if you are enchanted.\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Mysticism]]\n|var1 name = [[Bleeding]] [[duration]]\n|var1 at0 = 5\n|var1 at15 = 15\n|var2 name = [[Cracked Armor]] duration\n|var2 at0 = 1\n|var2 at15 = 10\n}}\n\n== Related skills ==\n*{{skill icon|Sever Artery}}\n\n==Notes==\n*Cracked armor [[cover]]s bleeding.\n*Cracked armor is applied after the attack's damage."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Shadowsong (PvP)",
+  "pageid": 207635,
+  "revid": 2731221,
+  "revisedAt": "2026-06-25T05:09:59Z",
+  "sha1": "32291763e03e48ace1d631ff86b0c4c6c986d366",
+  "url": "https://wiki.guildwars.com/wiki/Shadowsong_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shadowsong%20(PvP)&oldid=2731221",
+  "retrievedAt": "2026-11-16T15:41:49.724Z",
+  "wikitext": "{{Pveversion|Shadowsong}}{{Skill infobox\n| name = Shadowsong (PvP)\n| id = 3006\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| energy = 15\n| activation = 2\n| recharge = 30\n| aoe = none\n| causes1 = Spirit\n| causes2 = Blind\n| description = [[Binding Ritual]]. Create a level {{gr|1|6}} [[spirit]]. The spirit's [[attack]]s deal {{gr|5|20}} damage and cause [[Blindness]] for {{gr|1|6}} second[s]. This spirit dies after 30 second[s]. {{sic|See the bug note on the Shadowsong page}}\n| concise description = Binding Ritual.  Creates a level {{gr|1|6}} spirit (30-second lifespan).  Its attacks deal {{gr|5|20}} damage and inflict Blindness condition ({{gr|1|6}} second[s]).\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Communing]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 6\n| var2 name = [[Blind]] [[duration]]\n| var2 at0 = 1\n| var2 at15 = 6\n| var3 name = [[Damage]]\n| var3 at0 = 5\n| var3 at15 = 20}}\n\n[[de:Schattengesang (PvP)]]"
+}

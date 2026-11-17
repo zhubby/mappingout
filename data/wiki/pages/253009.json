@@ -1,0 +1,11 @@
+{
+  "title": "Golem Pilebunker",
+  "pageid": 253009,
+  "revid": 2629158,
+  "revisedAt": "2018-06-18T17:31:34Z",
+  "sha1": "f3513e39d786c3c24b5d56acfdd7f07947d5a4ce",
+  "url": "https://wiki.guildwars.com/wiki/Golem_Pilebunker",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Golem%20Pilebunker&oldid=2629158",
+  "retrievedAt": "2026-11-16T15:41:25.908Z",
+  "wikitext": "{{Skill infobox\n| name = Golem Pilebunker\n| id= 3165\n| campaign = Core\n| type = Spell\n| energy = 10\n| activation = 2\n| recharge = 15\n| description=\n\n[[Spell]]. Deals 100 damage to target foe and 50 damage to all adjacent foes. Foes struck by Golem Pilebunker are Dazed for 5 seconds.\n| concise description = Spell. Deals 100 damage to target foe and 50 damage to adjacent foes. Inflicts Daze (5 seconds).\n}}\n\n[[de:Golem-Rammbunker]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "\"Go for the Eyes!\" (PvP)",
+  "pageid": 207663,
+  "revid": 2732858,
+  "revisedAt": "2026-07-04T20:45:08Z",
+  "sha1": "266ac1610534c7f480a52d33228a010773d950bf",
+  "url": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Go%20for%20the%20Eyes!%22%20(PvP)&oldid=2732858",
+  "retrievedAt": "2026-11-16T15:41:04.001Z",
+  "wikitext": "{{pveversion|\"Go for the Eyes!\"}}\n{{Skill infobox\n| id = 3026\n| name = \"Go for the Eyes!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| adrenaline = 4\n| recharge = 4\n| causes1 = Critical Hit\n| description = [[Shout]]. For 10 seconds, the next time each [[ally]] within [[earshot]] makes an [[attack]], that attack has an additional {{gr|30|75||%}} chance to [[critical hit|critical]].\n| concise description = Shout. (10 seconds.) Allies in earshot have {{gr|30|75|+|%}} to land a critical hit with their next attack.\n| is-pvp = y\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| var1 name = + Chance %\n| var1 at0 = 30\n| var1 at15 = 75}}\n\n==Notes==\n* This skill combines well with [[Keen Arrow (PvP)]], [[Vicious Attack]] and [[\"Find Their Weakness!\" (PvP)]].\n* Works well in [[Party|parties]] with [[minion]]s as all the minions are affected.\n\n==Trivia==\n*The skill name derives from a quote by [[w:Minsc|Minsc]] (from the RPG Baldur's Gate) regarding his miniature giant space hamster Boo, in which he urges: \"Go for the eyes, Boo, GO FOR THE EYES!\"\n*The [[skill icon]] resembles the [http://www.guildwars.com/products/guildwars/gallery/poster/e3_2003.php poster art].\n{{DEFAULTSORT:Go for the Eyes!}}\n[[Category:Skills that affect allies]]\n\n[[de:\"Zielt auf die Augen!\" (PvP)]]"
+}

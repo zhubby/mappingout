@@ -1,0 +1,11 @@
+{
+  "title": "Maelstrom (environment)",
+  "pageid": 140604,
+  "revid": 2581903,
+  "revisedAt": "2015-01-27T09:57:10Z",
+  "sha1": "beba699f246677e2c9a499ff0cff000b60cb15eb",
+  "url": "https://wiki.guildwars.com/wiki/Maelstrom_(environment)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Maelstrom%20(environment)&oldid=2581903",
+  "retrievedAt": "2026-11-16T15:41:35.724Z",
+  "wikitext": "{{Skill infobox\n| id = 494\n| name = Maelstrom\n| campaign = Prophecies\n| image = [[Image:Maelstrom (environment).jpg]]\n| type = Spell\n| description = [[Spell]]. Maelstrom\n| concise description = Spell. Maelstrom\n| special = Environment\n}}\n\n== Related skills ==\n* {{Skill icon|Chain Lightning (environment)}}\n* {{Skill icon|Eruption (environment)}}\n* {{Skill icon|Fire Storm (environment)}}\n* {{Skill icon|Maelstrom}}\n\n== Notes ==\n* Encountered during [[the Dragon's Lair]] mission.\n* Inflicts 35 [[damage per second]] against [[armor rating]] 60 and [[interrupt]]s spells.{{verify|Does it deal cold damage or untyped damage?}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Healing Signet (Turai Ossa)",
+  "pageid": 287667,
+  "revid": 2647099,
+  "revisedAt": "2020-01-23T19:03:49Z",
+  "sha1": "2e68d5a450feb68db3d740fdb2728ea40e437fb0",
+  "url": "https://wiki.guildwars.com/wiki/Healing_Signet_(Turai_Ossa)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Healing%20Signet%20(Turai%20Ossa)&oldid=2647099",
+  "retrievedAt": "2026-11-16T15:41:28.320Z",
+  "wikitext": "__NOTOC__\n{{Skill infobox\n| image = [[File:Healing Signet (Turai Ossa).jpg]]\n| name = Healing Signet (Turai Ossa)\n| campaign = Bonus Mission Pack\n| attribute = Tactics\n| type = Signet\n| special = Bonus Mission Pack\n| activation = 2\n| recharge = 4\n| description = [[Signet]]. You gain {{gr Bonus Mission Pack|82|172|14}} [[Health]]. You have -40 [[armor rating|armor]] while using this skill.\n| concise description = Signet. You gain {{gr Bonus Mission Pack|82|172|14}} Health. {{gray|You have -40 armor while using this skill.}}\n}}\n\n{{Skill progression Bonus Mission Pack\n| attribute rank = 14\n| attribute = [[Tactics]]\n| var1 name = [[Heal]]\n| var1 at0 = 82\n| var1 at15 = 172}}\n\n== Acquisition ==\nPart of [[Turai Ossa (disguise)|Turai Ossa]]'s replacement [[skill bar]] during [[The Battle of Jahai]] mission.\n\n== Related skills ==\n* {{skill icon|Healing Signet}}\n\n== Notes ==\n* This skill is normally used with 14 in [[Tactics]], but the attribute rank can be affected by [[Weakness]] and a [[\"Master of My Domain\"]] inscription."
+}

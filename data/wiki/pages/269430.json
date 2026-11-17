@@ -1,0 +1,11 @@
+{
+  "title": "\"Find Their Weakness!\" (Thackeray)",
+  "pageid": 269430,
+  "revid": 2655851,
+  "revisedAt": "2020-04-25T14:52:00Z",
+  "sha1": "eb8aba0c14f48a6daa412f6ce35e1f90929e4fc0",
+  "url": "https://wiki.guildwars.com/wiki/%22Find_Their_Weakness!%22_(Thackeray)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Find%20Their%20Weakness!%22%20(Thackeray)&oldid=2655851",
+  "retrievedAt": "2026-11-16T15:41:04.001Z",
+  "wikitext": "{{Skill infobox\n| id = 3240\n| name = \"Find Their Weakness!\"\n| campaign = Hearts of the North\n| type = Shout\n| special = Keiran Thackeray\n| energy = 10\n| recharge = 15\n| description = [[Shout]]. For 20 seconds, the next time [[target]] [[ally]] [[attack]]s, that ally deals +50 [[damage]] and inflicts a [[Deep Wound]] for 20 seconds.\n| concise description = Shout. (20 seconds.) Target ally deals +50 damage and inflicts Deep Wound condition (20 seconds) with the next attack.\n| aoe = None\n| target = allies\n}}\n\n== Acquisition ==\nThis skill is learned during [[Shadows in the Jungle]].\n==Related skills==\n*{{skill icon|\"Find Their Weakness!\"}}\n\n== Notes ==\n* This skill's energy cost is reduced by [[Expertise]].\n{{DEFAULTSORT:Find Their Weakness!}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Dark Soul Explosion",
+  "pageid": 283400,
+  "revid": 2721716,
+  "revisedAt": "2026-02-23T16:06:13Z",
+  "sha1": "dfac4a7c1e8c39736817458386a6cf3d56767670",
+  "url": "https://wiki.guildwars.com/wiki/Dark_Soul_Explosion",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Dark%20Soul%20Explosion&oldid=2721716",
+  "retrievedAt": "2026-11-16T13:46:47.933Z",
+  "wikitext": "{{Skill infobox\n| name = Dark Soul Explosion\n| id = 2714\n| profession = Monster\n| special = Passive\n| campaign = Winds of Change\n| type = Skill\n| causes1 = Disease\n| causes2 = Weakness\n| removes1 = Enchantment\n| description = When an [[Afflicted Necromancer]] dies, all [[foe]]s [[in the area]] are struck for {{gr|25|65}} [[dark damage]], lose {{gr|1|4}} [[enchantment]]s, and suffer from [[Disease]] and [[Weakness]] for 10 seconds.\n| concise description = When an Afflicted Necromancer dies, all foes in the area are struck for {{gr|25|65}} dark damage, lose {{gr|1|4}} enchantments, and suffer from Disease and Weakness (10 seconds).\n}}\n\n== Related skills ==\n* {{monster skill icon|Afflicted Soul Explosion}}\n\n[[de:Dunkle Seelen-Explosion]]"
+}

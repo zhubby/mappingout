@@ -1,0 +1,11 @@
+{
+  "title": "Tranquility (PvP)",
+  "pageid": 321744,
+  "revid": 2738519,
+  "revisedAt": "2026-08-26T21:41:10Z",
+  "sha1": "a8375303c4b64dfed7d051fa074edfe2614c7a85",
+  "url": "https://wiki.guildwars.com/wiki/Tranquility_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tranquility%20(PvP)&oldid=2738519",
+  "retrievedAt": "2026-11-16T15:42:03.620Z",
+  "wikitext": "__NOTOC__{{Pveversion|Tranquility}}\n{{Skill infobox\n| id = 3460\n| name = Tranquility (PvP)\n| campaign = Factions\n| profession = Ranger\n| attribute = Wilderness Survival\n| type = Nature Ritual\n| energy = 15\n| recharge = 60\n| activation = 2\n| causes1 = Spirit\n| description = [[Nature Ritual]]. Create a level {{gr|1|10}} [[spirit]]. [[Enchantment]]s cast by non-spirit [[creature]]s within its [[Spirit range|range]] expire {{gr|10|30||%}} faster.  This spirit dies after {{gr|15|120}} seconds.\n| concise description = Nature Ritual. Creates a level {{gr|1|10}} spirit ({{gr|15|120}} second lifespan). Enchantments expire {{gr|10|30||%}} faster on creatures in range. Does not affect spirits.\n| aoe = large spirit\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Wilderness Survival]]\n|var1 name = Level\n|var1 at0 = 1\n|var1 at15 = 10\n|var2 name = Expiration rate (%)\n|var2 at0 = 10\n|var2 at15 = 30\n|var3 name = [[Duration]]\n|var3 at0 = 15\n|var3 at15 = 120}}\n\n== Notes ==\n* This skill creates a [[Spirit of Tranquility]].\n* Enchantment durations are rounded down.\n* Combines well with [[Nature's Renewal (PvP)]] for an enchantment hostile environment.\n\n== Trivia ==\n* This spell is a possible reference to a [[w:Magic: The Gathering|Magic: The Gathering]] card of the [https://scryfall.com/card/3ed/221/tranquility same name], the effect of which is to \"destroy all enchantments\"."
+}

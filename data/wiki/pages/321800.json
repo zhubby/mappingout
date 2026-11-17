@@ -1,0 +1,11 @@
+{
+  "title": "Mirage Cloak (PvP)",
+  "pageid": 321800,
+  "revid": 2738649,
+  "revisedAt": "2026-08-27T01:12:54Z",
+  "sha1": "30cdbaa6ba267c2c0adb3a492effc4569881a835",
+  "url": "https://wiki.guildwars.com/wiki/Mirage_Cloak_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mirage%20Cloak%20(PvP)&oldid=2738649",
+  "retrievedAt": "2026-11-16T15:41:36.879Z",
+  "wikitext": "{{pveversion|Mirage Cloak}}\n{{Skill infobox\n| id = 3469\n| name = Mirage Cloak (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Earth Prayers\n| type = Flash Enchantment Spell\n| energy = 10\n| is-pvp = y\n| has-pve = y\n| recharge = 15\n| causes1 = Block\n| causes2 = Earth Damage\n| description = [[Flash Enchantment Spell]]. For {{gr|1|7}} second[s], you have a {{gr|30|60||%}} chance to [[block]] incoming attacks. When you cast this [[enchantment]], all [[nearby]] [[foes]] are struck for {{gr|10|40}} [[earth damage]].\n| concise description = Flash Enchantment Spell. ({{gr|1|7}} second[s].) You have {{gr|30|60||%}} chance to block. Initial Effect: deals {{gr|10|40}} earth damage to nearby foes.\n| aoe = nearby\n| target = untargeted\n| pbaoe = self\n}}\n\n{{Skill progression\n|attribute = [[Earth Prayers]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 7\n|var2 name = Chance to [[block]]\n|var2 at0 = 30\n|var2 at15 = 60\n|var3 name = [[Earth damage]]\n|var3 at0 = 10\n|var3 at15 = 40}}\n\n== Related skills ==\n* {{skill icon|Attacker's Insight}}"
+}

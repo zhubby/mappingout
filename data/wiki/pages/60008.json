@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Searing Flames",
+  "pageid": 60008,
+  "revid": 2629849,
+  "revisedAt": "2018-06-18T17:42:53Z",
+  "sha1": "fb6b77a5484a0dced6e41595871585d18f93dfe3",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Searing_Flames",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Searing%20Flames&oldid=2629849",
+  "retrievedAt": "2026-11-16T15:41:42.046Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Searing Flames\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 4\n| activation = 1\n| recharge = 2\n| description = [[Spell]]. [[Target]] [[foe]] is struck with Searing Flames. If that foe is already on fire, that foe takes 800 [[damage]]. Otherwise, that foe begins [[Burning]] for 5 seconds.\n| concise description = Spell. Deals 800 damage if target foe is Burning. Otherwise, that foe begins Burning (5 seconds). Burning causes -7 Health degeneration.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Ruby Djinn Form]]\n\n==Related skills==\n*{{Skill icon|Searing Flames}} ([[Elite skill|elite]])\n\n==Notes==\n*Burning causes -10 [[health degeneration]] in [[Polymock]].\n\n[[de:Versengende Polymock-Flammen]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Bane Signet",
+  "pageid": 60054,
+  "revid": 2629802,
+  "revisedAt": "2018-06-18T17:41:18Z",
+  "sha1": "5bfb6126c19831f5e4bc8d0a3dc4f1fd5c567612",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Bane_Signet",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Bane%20Signet&oldid=2629802",
+  "retrievedAt": "2026-11-16T15:41:40.102Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Bane Signet\n| campaign = Eye of the North\n| special = Polymock\n| type = Signet\n| activation = {{1/4}}\n| recharge = 20 \n| description = [[Signet]]. [[Target]] [[foe]] takes 150 [[damage]]. If target foe is casting a [[spell]], that spell is [[interrupt]]ed.\n| concise description = Signet. Deals 150 damage. Interrupts a spell.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Aloe Seed Form]]\n*[[Dolyak Rider Form]]\n\n==Related skills==\n*{{skill icon|Polymock Signet of Clumsiness}}\n*{{skill icon|Polymock Signet of Smiting}}\n*{{Skill icon|Signet of Disruption}}\n\n==Trivia==\n*Shares the [[skill icon]] of [[Bane Signet]].\n\n[[de:Polymock-Siegel des Ruins]]"
+}

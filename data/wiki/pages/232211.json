@@ -1,0 +1,11 @@
+{
+  "title": "Henchman Form",
+  "pageid": 232211,
+  "revid": 2663828,
+  "revisedAt": "2020-07-16T15:54:45Z",
+  "sha1": "b5138ddcbf03686edc09a427678e2ceba258ef08",
+  "url": "https://wiki.guildwars.com/wiki/Henchman_Form",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Henchman%20Form&oldid=2663828",
+  "retrievedAt": "2026-11-16T15:41:28.881Z",
+  "wikitext": "{{skill infobox\n| name = Henchman Form\n| image = [[File:Henchman_Form.jpg]]\n| type = Disguise\n| campaign = Core\n| description = [[Disguise]]. For 50 minutes, you look like <[[Henchman]] name>.\n| concise description = Disguise. (50 minutes.) You look like <Henchman name>.\n}}\n\n==Notes==\n*This disguise is received by using a [[Everlasting Henchman Tonic|tonic]] awarded in the [[Henchman skill bar contest|Henchman skill bar]] [[Contests|contest]].\n\n{{disguise nav}}"
+}

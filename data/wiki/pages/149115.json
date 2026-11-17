@@ -1,0 +1,11 @@
+{
+  "title": "Burden Totem",
+  "pageid": 149115,
+  "revid": 2704146,
+  "revisedAt": "2025-04-14T08:07:57Z",
+  "sha1": "884c6b4885f483f6c664617eefaa3a558adda4b9",
+  "url": "https://wiki.guildwars.com/wiki/Burden_Totem",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Burden%20Totem&oldid=2704146",
+  "retrievedAt": "2026-11-16T15:41:10.394Z",
+  "wikitext": "{{skill infobox\n| id = 505\n| name = Burden Totem\n| campaign = Prophecies\n| type = Hex Spell\n| special = Bundle\n| description = [[Hex Spell]]. For 30 seconds, target foe [[speed boost|moves 33% slower]].\n| concise description = Hex Spell. (30 seconds.) Target foe moves 33% slower.\n}}\n\n== Related skills ==\n* {{skill icon|Ward Against Foes}}\n\n== Notes ==\n* Placed on foes standing [[in the area]] of a [[Slow Totem]] every 2 seconds.\n* Uses the same animation as [[Imagined Burden]].\n{{bug|Contrary to the description, this skill causes a movement speed reduction of ~66%.}}"
+}

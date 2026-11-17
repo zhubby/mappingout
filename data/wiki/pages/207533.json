@@ -1,0 +1,11 @@
+{
+  "title": "Pain (PvP)",
+  "pageid": 207533,
+  "revid": 2731222,
+  "revisedAt": "2026-06-25T05:10:12Z",
+  "sha1": "0eae6d2b429d579d18f11e8da9f3f049ef843fd9",
+  "url": "https://wiki.guildwars.com/wiki/Pain_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pain%20(PvP)&oldid=2731222",
+  "retrievedAt": "2026-11-16T15:41:39.049Z",
+  "wikitext": "{{pveversion|Pain}}\n\n{{Skill infobox\n| name = Pain (PvP)\n| id = 3007\n| campaign = Factions\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| energy = 5\n| activation = 1{{1/2}}\n| recharge = 30\n| is-pvp = y\n| causes1 = Spirit\n| description = [[Binding Ritual]]. Create a level {{gr|1|8}} [[spirit]]. This spirit's [[attack]]s deal {{gr|5|30}} [[damage]]. This spirit dies after {{gr|30|150}} seconds.\n| concise description = Binding Ritual. Creates a level {{gr|1|8}} spirit ({{gr|30|150}} second lifespan). Its attacks deal {{gr|5|30}} damage.\n| aoe = none\n}}\n\n{{Skill progression\n| attribute = [[Communing]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 8\n| var2 name = [[Armor-ignoring damage]]\n| var2 at0 = 5\n| var2 at15 = 30\n| var3 name = [[Duration]]\n| var3 at0 = 30\n| var3 at15 = 150}}\n\n[[de:Schmerzen (PvP)]]"
+}

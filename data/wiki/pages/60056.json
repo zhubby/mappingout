@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Smite Hex",
+  "pageid": 60056,
+  "revid": 2629855,
+  "revisedAt": "2018-06-18T17:43:05Z",
+  "sha1": "c6df9e8bbd783ad88be75cd5f040449acc954923",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Smite_Hex",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Smite%20Hex&oldid=2629855",
+  "retrievedAt": "2026-11-16T15:41:42.047Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Smite Hex\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 30\n| description = [[Spell]]. Remove the last hex placed upon you. If a hex is removed, your enemy takes 400 damage.\n| concise description = Spell. Remove the last hex placed upon you. Removal effect: deals 400 damage to your foe.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Aloe Seed Form]]\n\n==Related skills==\n*{{Skill icon|Smite Hex}}\n\n[[de:Polymock-Verhexung zerschlagen]]"
+}

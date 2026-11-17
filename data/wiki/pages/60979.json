@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Glyph of Power",
+  "pageid": 60979,
+  "revid": 2629819,
+  "revisedAt": "2018-06-18T17:41:52Z",
+  "sha1": "603cf6c6a9643b7214a36ffea74ddf083e3f9232",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Glyph_of_Power",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Glyph%20of%20Power&oldid=2629819",
+  "retrievedAt": "2026-11-16T15:41:40.922Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Glyph of Power\n| campaign = Eye of the North\n| special = Polymock\n| type = Glyph\n| energy = 1\n| activation = 1\n| recharge = 10\n| description = [[Glyph]]. If you are below 50% [[health]], your next [[spell]] that targets a foe deals 200 additional [[damage]]. If you are below 25% health, your next 2 spells are affected.\n| concise description = Glyph. Your next spell that targets a foe deals +200 damage if you are below 50% Health. If you are below 25% Health, your next 2 spells are affected.}}\n\n==Acquisition==\n'''Polymock Glyph of Power''' is one of the five skills that is available to all [[Polymock]] pieces.\n\n==Notes==\n*The check for Health takes place when the glyph successfully activates.  Dropping below 25% while the Glyph is active will not make it affect a second spell.\n*This glyph shares the icon of [[Glyph of Elemental Power]].\n\n[[de:Polymock-Glyphe der Kraft]]"
+}

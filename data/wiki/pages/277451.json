@@ -1,0 +1,11 @@
+{
+  "title": "Land Mine",
+  "pageid": 277451,
+  "revid": 2723837,
+  "revisedAt": "2026-04-01T22:57:13Z",
+  "sha1": "925c0f9c77097b3d715bb7dacf57816f7f6dff4f",
+  "url": "https://wiki.guildwars.com/wiki/Land_Mine",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Land%20Mine&oldid=2723837",
+  "retrievedAt": "2026-11-16T15:41:32.013Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = Land Mine\n| id = 3293\n| special = Going Commando\n| campaign = Core\n| type = Trap\n| energy = 10\n| recharge = 30\n| activation = 2\n| description = [[Trap]]. When Land Mine is triggered, all [[nearby]] [[foe]]s are struck for 500 [[damage]] and [[knock down|knocked down]] for 4 seconds. While activating this skill, you are [[easily interrupted]].\n| concise description = Trap. Affects nearby foes. Deals 500 damage. Knocks down for 4 seconds. {{gray|Easily interrupted.}}\n}}\n\n== Acquisition ==\nThis skill is available while under the [[Going Commando]] disguise during the [[April Fools' Day]] quest [[Annihilator]].\n\n== Notes ==\n{{bug|Despite the description, the damage dealt is [[Physical damage|physical]] and ''not'' [[armor-ignoring damage|armor-ignoring]].}}\n{{bug|The descriptions omit that the trap lasts for 60 seconds.}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Little Lost Bear",
+  "pageid": 11406,
+  "revid": 2619534,
+  "revisedAt": "2017-06-28T13:14:49Z",
+  "sha1": "bbe0e83f0a2fa2d7e686ebe3d92fc250edca7cbc",
+  "url": "https://wiki.guildwars.com/wiki/Little_Lost_Bear",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Little%20Lost%20Bear&oldid=2619534",
+  "retrievedAt": "2026-11-16T13:46:58.581Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Little Lost Bear\n| map = [[Image:Little Lost Bear map.jpg|150px]]\n| campaign = Factions\n| region = Kaineng City\n| type = Secondary\n| given by = [[Kaya]]\n| given at = [[Wajjun Bazaar]]\n}}\nFind the bear and return it to Kaya.\n\n==Quest information==\n===Objectives===\n* Find the [[Tattered Bear|tattered bear]].\n* See [[Kaya]] for your reward.\n\n===Reward===\n* 3,000 [[Experience]]\n* 250 [[Gold]]\n* [[Imperial Commendation]]\n\n===Environmental changes===\nOnce this quest is completed, the [[Old Chest (Little Lost Bear)|Old Chest]] will no longer spawn in Wajjun Bazaar. \n\n==Walkthrough==\nStarting from [[Nahpui Quarter (outpost)|Nahpui Quarter]], follow the upper-level street that is right next to [[Paomu]] and [[Qian]]. Continue following it down, fighting [[Am Fah]] along the way, until you find an Old Chest. Click on it to receive the Tattered Bear quest item.  Return it to Kaya for your reward.\n\n==Dialogue==\n===Initial dialogue===\n;Kaya\n:''\"Of all the things to leave behind! In our hurry to evacuate, I forgot my son's old, '''tattered bear'''. Now that the plague has taken my son from me, it is all that I have left of him. Please, kind soul, if you happen to run across it, will you return it to me? It may not look like much, but to me, it is priceless.\"''\n{{offer dialog\n|accept = I'll keep my eyes open for it.\n|decline = Sorry, I have more important things to worry about.\n|ask = That tattered bear should be around here somewhere. Please let me know if you find it. \n|indent = :: }}\n\n===Reward dialogue===\n;Kaya\n:''\"I do not have much to offer you, but I hope this, along with my eternal gratitude, is enough.\"''\n\n==Notes==\n* If you have [[Seek out Brother Tosai]] active in your Quest Log, you will not have to fight any of the [[Am Fah]] at all.\n\n[[Category:Rewards Imperial Commendation]]"
+}

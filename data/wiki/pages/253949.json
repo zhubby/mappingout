@@ -1,0 +1,11 @@
+{
+  "title": "Mantra of Signets (PvP)",
+  "pageid": 253949,
+  "revid": 2734659,
+  "revisedAt": "2026-07-16T18:02:58Z",
+  "sha1": "d4c47033cf38f35ab9c040b6cacd69a2381a49f4",
+  "url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mantra%20of%20Signets%20(PvP)&oldid=2734659",
+  "retrievedAt": "2026-11-16T15:41:36.240Z",
+  "wikitext": "{{pveversion|Mantra of Signets}}\n\n{{Skill infobox\n| id = 3179\n| name = Mantra of Signets (PvP)\n| campaign = Prophecies\n| profession = Mesmer\n| attribute = Inspiration Magic\n| is-pvp = y\n| type = Stance\n| energy = 5\n| recharge = 20\n| causes1 = Healing\n| description = [[Stance]]. For {{gr|10|40}} seconds, you have +3 armor for each signet you have equipped. Whenever you use a [[signet]], you gain {{gr|5|60}} [[Health]].\n| concise description = Stance. ({{gr|10|40}} seconds.) You have +3 armor for each signet. You gain {{gr|5|60}} health each time you use a signet.\n}}\n\n{{Skill progression\n|attribute = [[Inspiration Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 10\n|var1 at15 = 40\n|var2 name = [[Heal]]ing\n|var2 at0 = 5\n|var2 at15 = 60}}\n\n== Notes ==\n*Though this skill exists separately from [[Mantra of Signets]], they share the same functionality.\n\n[[Category:Mantras]]\n\n{{bug|Contrary to the descriptions, this skill causes healing and not [[health gain]].}}\n\n[[de:Mantra der Siegel (PvP)]]"
+}

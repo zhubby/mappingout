@@ -1,0 +1,11 @@
+{
+  "title": "Sloth Hunter's Shot (PvP)",
+  "pageid": 161370,
+  "revid": 2738475,
+  "revisedAt": "2026-08-26T21:18:05Z",
+  "sha1": "d55ad125f917b0f98676d8778371873fea2046c8",
+  "url": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Sloth%20Hunter's%20Shot%20(PvP)&oldid=2738475",
+  "retrievedAt": "2026-11-16T15:41:53.625Z",
+  "wikitext": "{{pveversion|Sloth Hunter's Shot}}\n{{Skill infobox\n| name = Sloth Hunter's Shot (PvP)\n| id = 2925\n| campaign = Eye of the North\n| profession = Ranger\n| attribute = Marksmanship\n| type = Bow Attack\n| energy = 10\n| recharge = 15\n| is-pvp = y\n| description = [[Bow Attack]]. If this attack hits, [[target]] [[foe]] takes {{gr|5|15|+}} [[damage]]. If that foe is not using a [[skill]], Sloth Hunter's Shot does an additional {{gr|5|20|+}} damage.\n| concise description = Bow Attack. Deals {{gr|5|15|+}} damage. Deals {{gr|5|20|+}} more damage if target foe is not using a skill.\n}}\n{{Skill progression\n|attribute = [[Marksmanship]]\n|var1 name = + [[Damage]]\n|var1 at0 = 5\n|var1 at15 = 15\n|var2 name = Additional damage\n|var2 at0 = 5\n|var2 at15 = 20}}\n\n== Related skills ==\n*{{skill icon|Harrier's Toss (PvP)}}<!--A moving target also meets the \"not using a skill\" damage trigger of Sloth Hunter's Shot, since a moving target can't use a skill with an activation time without stopping their movement.-->\n*{{skill icon|Melandru's Shot (PvP)}} ([[Elite skill|elite]])<!--A moving or knocked down target also meets the \"not using a skill\" damage trigger of Sloth Hunter's Shot, since a moving or knocked down target can't use a skill with an activation time without stopping their movement nor while knocked down, respectively.-->\n\n[[de:Schuss des Faultierjägers (PvP)]]"
+}

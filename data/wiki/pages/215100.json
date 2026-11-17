@@ -1,0 +1,11 @@
+{
+  "title": "Signet of Deadly Corruption (PvP)",
+  "pageid": 215100,
+  "revid": 2657456,
+  "revisedAt": "2020-05-05T08:48:41Z",
+  "sha1": "1f7558f8c80f9d6ff7821852f6ad42d7e593a29d",
+  "url": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Signet%20of%20Deadly%20Corruption%20(PvP)&oldid=2657456",
+  "retrievedAt": "2026-11-16T15:41:52.089Z",
+  "wikitext": "{{pveversion|Signet of Deadly Corruption}}\n{{Skill infobox\n| name = Signet of Deadly Corruption (PvP)\n| id = 3053\n| campaign = Eye of the North\n| profession = Assassin\n| attribute = Deadly Arts\n| type = Signet\n| activation = 1\n| recharge = 12\n| is-pvp = y\n| description = [[Signet]]. Must follow a [[dual attack]]. [[Target]] [[foe]] takes {{gr|5|35}} [[damage]] for each [[condition]] on that foe (maximum 130 damage).\n| concise description = Signet. Deals {{gr|5|35}} damage (maximum 130) for each condition on target foe. {{gray|Must follow a dual attack.}}\n| requires = dual\n| target = foes\n}}\n\n{{Skill progression\n|attribute = [[Deadly Arts]]\n|var1 name = [[Armor-ignoring damage]] per [[condition]]\n|var1 at0 = 5\n|var1 at15 = 35}}\n\n[[de:Siegel der tödlichen Verdorbenheit (PvP)]]"
+}

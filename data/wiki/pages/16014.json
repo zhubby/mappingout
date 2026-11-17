@@ -1,0 +1,11 @@
+{
+  "title": "Feast for the Dead",
+  "pageid": 16014,
+  "revid": 2683704,
+  "revisedAt": "2023-02-21T02:57:29Z",
+  "sha1": "f9f4c3a3bd9db9fed47ad379c3a093af0e3c5556",
+  "url": "https://wiki.guildwars.com/wiki/Feast_for_the_Dead",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feast%20for%20the%20Dead&oldid=2683704",
+  "retrievedAt": "2026-11-16T15:41:22.183Z",
+  "wikitext": "{{Skill infobox\n| name = Feast for the Dead\n| id = 1354\n| campaign = Nightfall\n| profession = Necromancer\n| attribute = Death Magic\n| type = Spell\n| energy = 5\n| activation = {{1/4}}\n| recharge = 10\n| target = minions\n| range = Casting\n| aoe = none\n| causes1 = Healing\n| removes1 = minion\n| description = [[Spell]]. Destroy [[target]] animated [[undead]] [[ally]]. All of your other animated undead allies are [[heal]]ed for {{gr|10|100}} [[Health]].\n| concise description = Spell. Destroys one of your undead servants. Heals your servants for {{gr|10|100}}.\n}}\n\n{{Skill progression\n| attribute = [[Death Magic]]\n| var1 name = [[Heal]]ing\n| var1 at0 = 10\n| var1 at15 = 100\n}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Tohn]] ([[Kamadan, Jewel of Istan]])\n'''[[Hero skill trainer]]s'''\n* [[Pikin]] ([[Kamadan, Jewel of Istan]])\n\n== Notes ==\n* Combines well with [[Animate Flesh Golem]], since you can simply use the corpse to create another Flesh Golem.\n* Only the caster's own minions can be targeted or are healed (The concise description is accurate).\n[[Category:Skills offered by hero skill trainers]]"
+}

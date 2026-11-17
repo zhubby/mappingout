@@ -1,0 +1,11 @@
+{
+  "title": "Annihilator Beam",
+  "pageid": 297413,
+  "revid": 2657484,
+  "revisedAt": "2020-05-05T20:12:26Z",
+  "sha1": "78306c78c9e4752f9cd307d5f39659aa81dd3b3f",
+  "url": "https://wiki.guildwars.com/wiki/Annihilator_Beam",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Annihilator%20Beam&oldid=2657484",
+  "retrievedAt": "2026-11-16T15:41:05.972Z",
+  "wikitext": "{{Skill infobox\n| name = Annihilator Beam\n| id = 3382\n| campaign = Core\n| special = G.O.L.E.M.\n| type = Spell\n| activation = 2\n| adrenaline = 8\n| description = [[Spell]]. Send out a beam that strikes all [[target]]s in a line for 300 [[damage]].\n| concise description = Spell. Deals 300 damage to all targets in a line.\n| target = foes\n| range = Casting\n| aoe = linear\n}}\n\n==Acquisition ==\nThis skill is available while under the [[G.O.L.E.M. (disguise)|G.O.L.E.M. disguise]] during the [[April Fools' Day]] quest [[Annihilator 2: Searing Day]].\n\n== Related skills ==\n* {{monster skill icon|N.O.X. Beam}}\n* {{skill icon|Lightning Javelin}}\n\n==Notes==\n* It creates several [[area of effect|areas of effect]] in a \"straight line\". \n** The \"beam\" formed by these AoEs has [[spirit range]] length, and each AoE has [[in the area]] range."
+}

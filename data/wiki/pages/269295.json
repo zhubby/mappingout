@@ -1,0 +1,11 @@
+{
+  "title": "Nature's Blessing",
+  "pageid": 269295,
+  "revid": 2619622,
+  "revisedAt": "2017-06-28T21:46:24Z",
+  "sha1": "e487a91929e8ad7ccc126f8a39f57f719be5bc24",
+  "url": "https://wiki.guildwars.com/wiki/Nature%27s_Blessing",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Nature's%20Blessing&oldid=2619622",
+  "retrievedAt": "2026-11-16T15:41:38.393Z",
+  "wikitext": "{{Skill infobox\n| id = 3239\n| name = Nature's Blessing\n| campaign = Hearts of the North\n| type = Stance\n| special = Keiran Thackeray\n| energy = 10\n| recharge = 20\n| description = Stance. For 10 seconds, you and all [[ally|allies]] within [[earshot]] are [[heal]]ed for 50 and lose 1 [[hex]] every 1 second.\n| concise description = Stance. (10 seconds.) Affects you and allies within earshot. Heals for 50 and removes 1 hex every 1 second.\n| aoe = earshot\n| removes1 = hex spell\n}}\n\n== Related skills ==\n* {{skill icon|Healing Spring}}\n* {{skill icon|Preservation}} ([[elite]])\n* {{skill icon|Rejuvenation}}\n\n== Notes ==\n* Part of the [[Keiran Thackeray (disguise)]] replacement skillbar.\n* This skill will also affect White Mantle, while they are temporarily allied for dialogue.\n* Because this is a Ranger skill, its energy cost is reduced by [[Expertise]].\n* If you have a mini pet active the video effect can be seen on the mini as if it were being healed too.\n\n[[Category:Hearts of the North skills]]\n[[Category:Skills that affect allies]]"
+}

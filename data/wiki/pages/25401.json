@@ -1,0 +1,11 @@
+{
+  "title": "Speak with Headmaster Amara (Monk)",
+  "pageid": 25401,
+  "revid": 2627739,
+  "revisedAt": "2018-05-30T16:42:31Z",
+  "sha1": "dd74ce089377bcf4fbfd95a9b34c9872e89c5463",
+  "url": "https://wiki.guildwars.com/wiki/Speak_with_Headmaster_Amara_(Monk)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Speak%20with%20Headmaster%20Amara%20(Monk)&oldid=2627739",
+  "retrievedAt": "2026-11-16T13:47:15.795Z",
+  "wikitext": "{{Quest infobox\n| name = Speak with Headmaster Amara (Monk)\n| campaign = Factions\n| nationality = Canthan\n| region =Shing Jea Island\n| type = Primary\n| given by = [[Master Togo]]\n| given at = [[Linnok Courtyard]]\n| preceded by =[[An Audience with Master Togo]]\n| followed by =[[Locate Sister Tai]]\n}}\nSeek out the headmaster for a secondary profession.\n\n==Quest Information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n}}\n* No secondary profession\n* Primary profession not a [[Monk]]\n\n===Objectives===\n* Speak with Headmaster Amara in the monastery.\n\n===Reward===\n* 50 [[Experience]]\n\n==Walkthrough==\nGo to southeastern [[Shing Jea Monastery]]. The headmasters are gathered in one place.\n\n==Dialogue==\n===Initial dialogue===\n;Master Togo\n''If you are interested in taking the Monk profession as your secondary field of study, then you will need to speak with [[Headmaster Amara]].''\n\n''Amara is a Kurzick from the Stone Forest. She is a woman of strong opinions. She thinks I do not know that she disapproves of my station here, but her scorn does not trouble me. She is an excellent Monk and can teach you what you need to know. Seek her out in the [[Shing Jea Monastery]].''\n{{ Offer dialog\n| accept = Yes, Master\n| decline = I'm not sure about this.\n| ask = If you wish to become a Monk, find [[Headmaster Amara]] in the [[Shing Jea Monastery|monastery]]. In any case, you must leave me to my work now.\n}}\n\n===Reward dialogue===\n;Headmaster Amara\n:''You wish to study the ways of the Monk? It does not surprise me. I saw a sign just this morning: a jay and a finch sat side-by-side on the green branch of an elm tree, indicating that a young person would seek my advice.''\n\n:''As a monk, you will study the path of light and learn to heal and protect your allies. The gods decree it.''"
+}

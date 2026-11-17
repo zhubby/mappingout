@@ -1,0 +1,11 @@
+{
+  "title": "Weakened by Dhuum",
+  "pageid": 227575,
+  "revid": 2630226,
+  "revisedAt": "2018-06-18T17:56:22Z",
+  "sha1": "1ebcf734f0a08af6e417e340ddc0615ec5b93ef1",
+  "url": "https://wiki.guildwars.com/wiki/Weakened_by_Dhuum",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Weakened%20by%20Dhuum&oldid=2630226",
+  "retrievedAt": "2026-11-16T15:42:07.827Z",
+  "wikitext": "{{Skill infobox\n| name = Weakened by Dhuum\n| id= 3077\n| campaign = Core\n| type = Skill\n| description= [[Skill (skill type)|Skill]]. You are overcome by the energy coming off the Everlasting Mobstopper holding your newly captured [[Skeleton of Dhuum]]. You couldn't possibly handle capturing another while in this state.\n| concise description = Skill. You are overcome by the energy coming off the Everlasting Mobstopper holding your newly captured Skeleton of Dhuum. You couldn't possibly handle capturing another while in this state.\n}}\n\n== Notes ==\n* This effect is applied after using an [[Everlasting Mobstopper]].\n* This is used to prevent multiple captures from one [[corpse]] by a single player, since the corpse disappears before this skill ends.\n* [[Duration]] is 60 seconds.\n* This effect does not disappear after you die, it maintains its full duration regardless.\n\n[[de:Geschwächt von Dhuum]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Endure Pain (Turai Ossa)",
+  "pageid": 287666,
+  "revid": 2647102,
+  "revisedAt": "2020-01-23T19:05:46Z",
+  "sha1": "b358dc61ee3e7f0944427465847f00c1ebdcf76e",
+  "url": "https://wiki.guildwars.com/wiki/Endure_Pain_(Turai_Ossa)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Endure%20Pain%20(Turai%20Ossa)&oldid=2647102",
+  "retrievedAt": "2026-11-16T15:41:19.539Z",
+  "wikitext": "__NOTOC__\n{{Skill infobox\n| image = [[File:Endure Pain (Turai Ossa).jpg]]\n| name = Endure Pain (Turai Ossa)\n| campaign = Bonus Mission Pack\n| attribute = Strength\n| type = Skill\n| special = Bonus Mission Pack\n| energy = 5\n| recharge = 30\n| description = [[Skill (skill type)|Skill]]. For {{gr2|14|15}} seconds, you have an additional {{gr2|230|244}} [[Health]].\n| concise description = Skill. ({{gr2|14|15}} seconds.) You have +{{gr2|230|244}} maximum Health.\n}}\n\n{{Skill progression Bonus Mission Pack\n|attribute rank = 11\n|hide+1 = y\n|attribute = [[Strength]]\n|var1 name = [[Duration]]\n|var1 at0 = 7\n|var1 at15 = 18\n|var2 name = + Maximum [[health]]\n|var2 at0 = 90\n|var2 at15 = 300}}\n\n== Acquisition ==\nPart of [[Turai Ossa (disguise)|Turai Ossa]]'s replacement [[skill bar]] during [[The Battle of Jahai]] mission.\n\n== Related skills ==\n* {{skill icon|Endure Pain}}\n\n== Notes ==\n* This skill is normally used with 11 in [[Strength]], but the attribute rank can be affected by [[Weakness]]."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Elemental Flame (PvP)",
+  "pageid": 302377,
+  "revid": 2609918,
+  "revisedAt": "2016-07-10T01:04:32Z",
+  "sha1": "cc2c55266244fa490e3c99548946b56f8015fc36",
+  "url": "https://wiki.guildwars.com/wiki/Elemental_Flame_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Elemental%20Flame%20(PvP)&oldid=2609918",
+  "retrievedAt": "2026-11-16T15:41:19.539Z",
+  "wikitext": "{{Pveversion|Elemental Flame}}\n{{Skill infobox\n| name = Elemental Flame (PvP)\n| is-pvp = y\n| id = 3397\n| campaign = Nightfall\n| profession = Elementalist\n| attribute = Fire Magic\n| type = Enchantment Spell\n| energy = 10\n| activation = 1\n| recharge = 30\n| causes1 = Burning\n| description = [[Enchantment Spell]]. For {{gr|5|20}} seconds, whenever you apply an Elemental [[hex]] to a [[foe]], that foe is set [[Burning|on fire]] for {{gr|1|2}} second[s].\n| concise description = Enchantment Spell. ({{gr|5|20}} seconds.) Inflicts Burning condition ({{gr|1|2}} second[s]) whenever you apply an Elemental hex to a [[target]].\n| target = untargeted\n}}\n\n{{Skill progression\n|attribute = [[Fire Magic]]\n|var1 name = [[Duration]]\n|var2 name = [[Burning]] duration\n|var1 at0 = 5\n|var1 at15 = 20\n|var2 at0 = 1\n|var2 at15 = 2}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "\"We Shall Return!\" (PvP)",
+  "pageid": 207585,
+  "revid": 2732856,
+  "revisedAt": "2026-07-04T20:43:01Z",
+  "sha1": "195d01d56da172aaac21656245924eafdb2c251a",
+  "url": "https://wiki.guildwars.com/wiki/%22We_Shall_Return!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22We%20Shall%20Return!%22%20(PvP)&oldid=2732856",
+  "retrievedAt": "2026-11-16T15:41:05.435Z",
+  "wikitext": "{{pveversion|\"We Shall Return!\"}}\n{{Skill infobox\n| id = 3033\n| name = \"We Shall Return!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| energy = 5\n| recharge = 15\n| description = [[Shout]]. For 10 seconds, whenever [[party]] members within [[earshot]] use a [[resurrection]] [[skill]], their fallen [[Ally|allies]] return with {{gr|10|75||%}} more [[Health]] and {{gr|5|50||%}} more [[Energy]].\n| concise description = Shout. (10 seconds.) Whenever party members in earshot use a resurrection skill, their fallen allies return with {{gr|10|75||%}} more Health and {{gr|5|50||%}} more Energy.\n| is-pvp=y\n}}\n\n{{Skill progression\n| attribute = [[Command]]\n| maximum = 19\n| var1 name = More [[health]] %\n| var1 at0 = 10\n| var1 at15 = 75\n| var2 name = More [[energy]] %\n| var2 at0 = 5\n| var2 at15 = 50}}\n\n== Notes ==\n*The bonus percentage is added to resurrection skills' levels of health and energy, rather than modifying these levels by a factor.\n**For example, a rank 15 \"We Shall Return!\" (PvP) used with [[Resurrection Signet]] will give the [[target]] 75% energy, not 37.5%.\n*To use this skill with [[Lively Was Naomei]], it needs to be active when you drop the ashes.\n*This skill does not affect [[Restoration (PvP)]].\n{{DEFAULTSORT:We Shall Return!}}\n\n[[de:\"Wir kommen wieder!\" (PvP)]]"
+}

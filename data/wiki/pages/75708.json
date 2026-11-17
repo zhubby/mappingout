@@ -1,0 +1,11 @@
+{
+  "title": "\"Let's Get 'Em!\"",
+  "pageid": 75708,
+  "revid": 2619613,
+  "revisedAt": "2017-06-28T21:46:00Z",
+  "sha1": "c179c920913c458e6ad68c665fc920f0c8e999d8",
+  "url": "https://wiki.guildwars.com/wiki/%22Let%27s_Get_%27Em!%22",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Let's%20Get%20'Em!%22&oldid=2619613",
+  "retrievedAt": "2026-11-16T15:41:04.640Z",
+  "wikitext": "{{skill infobox\n| id = 1014\n| name = \"Let's Get 'Em!\"\n| profession = Warrior\n| campaign = Core\n| type = Shout\n| special = Snow fighting\n| recharge = 30\n| target = untargeted\n| aoe = earshot\n| causes1 = Increased Movement Speed\n| causes2 = Adrenaline Gain\n| description = [[Shout]]. For 5 seconds, all [[allies]] within [[earshot]] [[Speed boost|move 10% faster]]. You gain 1 strike of [[adrenaline]] for each ally affected.\n| concise description = Shout. (5 seconds.) Allies in earshot move 10% faster. You gain 1 strike of adrenaline for each ally affected.\n}}\n\n== Acquisition ==\nThis skill is given to Warriors competing in a [[Dwayna Vs Grenth]] match, as well as in repeatable [[Wintersday]] quests.\n\n== Related skills ==\n* {{skill icon|\"Charge!\"}} ([[elite]])\n* {{skill icon|\"Fall Back!\"}}\n* {{skill icon|\"Incoming!\"}}  (elite)\n* {{skill icon|\"Make Your Time!\"}}\n\n== Notes ==\n* This skill is only available to players during [[Wintersday]] events.\n* This skill increases average speed by 1.67% if used every time it recharges.\n* [[Miniature]]s that are in range will give you one extra strike of adrenaline when this skill is used.\n\n[[Category:Skills that affect allies]]\n{{DEFAULTSORT:Let's Get 'Em!}}"
+}

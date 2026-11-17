@@ -1,0 +1,11 @@
+{
+  "title": "To Dye For",
+  "pageid": 18034,
+  "revid": 2621726,
+  "revisedAt": "2017-09-02T19:24:25Z",
+  "sha1": "48c809be2289b5178ef8a20da7682cc312cbf244",
+  "url": "https://wiki.guildwars.com/wiki/To_Dye_For",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=To%20Dye%20For&oldid=2621726",
+  "retrievedAt": "2026-11-16T13:47:31.139Z",
+  "wikitext": "{{quest-stub}}\n\n{{Quest infobox\n| name = To Dye For\n| campaign = Nightfall\n| nationality = Elonian\n| region = Istan\n| type = Secondary\n| given by = [[Barlom]]\n| given at = [[Kamadan, Jewel of Istan]]\n| preceded by = [[Leaving a Legacy]]\n| map = [[File:To Dye For map.png|200px]]}}\n\n==Quest information==\n===Requirements===\n{{Standard prerequisites\n| campaign = Nightfall\n| minimum = 6\n}}\n\n===Objectives===\n* Travel to the [[Zehlon Reach]].\n* Gather petals from a swamp flower plant.\n* See [[Barlom]] [[Dye Trader]] for your reward.\n\n===Reward===\n* 500 Experience\n* 100 Gold\n* 5 [[Sunspear Promotion Point]]s\n* Random Vial of [[Dye]]\n\n==Dialogue==\n\n===Initial dialogue===\n'''Barlom [Dye Trader]'''\n:''\"Oh dear!  I'm almost out of swamp flower petals, but I can't stop stirring to find more or this dye I'm working on will be ruined!  If you have time, I'd be willing to give you a fresh vial of dye from my most recent batch if you bring me some '''petals''' from the '''[[Swamp Flower|swamp flowers]]''' growing in the '''Zehlon Reach'''.  Think you have some time for that?\"''\n{{offer dialog\n|accept = I'm on it.\n|decline = I have no use for dye.  Thanks anyway.\n|ask = The '''swamp flower''' has the only blooms with petals of the correct color for my dye.  Gather some of these petals and bring them to me.  I'll give you a vial of dye from my most recent batch. }}\n\n===Reward dialogue===\n'''Barlom [Dye Trader]'''\n:''\"Excellent!  Perfect!  This is a tricky recipe, but well worth the extra effort.  Here's your dye.  Please remember me the next time you need to dye your armor!  I sell the most vibrant dyes around...and at very competitive prices.\"''\n\n[[Category:Rewards Sunspear promotion points]]"
+}

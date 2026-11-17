@@ -1,0 +1,11 @@
+{
+  "title": "Steady Aim",
+  "pageid": 75375,
+  "revid": 2619647,
+  "revisedAt": "2017-06-28T21:47:31Z",
+  "sha1": "a1852b833ae34fe6569409ea7dd1f11dc3fe7fa3",
+  "url": "https://wiki.guildwars.com/wiki/Steady_Aim",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Steady%20Aim&oldid=2619647",
+  "retrievedAt": "2026-11-16T15:41:58.642Z",
+  "wikitext": "{{skill infobox\n| name = Steady Aim\n| campaign = Nightfall\n| profession = Paragon\n| type = Shout\n| special = Snow fighting\n| recharge = 5\n| description = [[Shout]]. For 10 seconds, the next time each [[ally]] within [[earshot]] throws a [[snowball]], that snowball moves 100% faster.\n| concise description = Shout. (10 seconds.) The next time each ally in earshot throws a snowball, that snowball moves 100% faster.\n}}\n\n==Acquisition==\nThis skill is given to Paragons competing in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Related skills ==\n* {{skill icon|Glyph of Swiftness}}\n\n==Notes==\nThis skill is only available to players during [[Wintersday]] events.\n\n[[Category:Skills that affect allies]]"
+}

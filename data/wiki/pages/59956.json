@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Overload",
+  "pageid": 59956,
+  "revid": 2629838,
+  "revisedAt": "2018-06-18T17:42:31Z",
+  "sha1": "e0d3707f751a703587eeda3abff829fd83c85387",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Overload",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Overload&oldid=2629838",
+  "retrievedAt": "2026-11-16T15:41:41.398Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Overload\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 1\n| activation = 1\n| recharge = 1\n| description = [[Spell]]. [[Target]] [[foe]] takes 100 [[damage]]. If that foe was casting a [[spell]], you deal +50 damage.\n| concise description = Spell. Deals 100 damage. Deals 50 more damage if target foe was casting a spell.}}\n\n==Acquisition==\nThis skill is available in the following [[Polymock]] forms:\n*[[Mergoyle Form]]\n*[[Mirage Iboga Form]]\n*[[Mantis Dreamweaver Form]]\n*[[Skeletal Mage Form]]\n*[[Wind Rider Form]]\n\n==Related skills==\n*{{Skill icon|Overload}}\n*{{skill icon|Polymock Signet of Smiting}}\n\n==Notes==\n\nEasily interrupted.\n\n[[de:Polymock-Überlastung]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Mind Shock",
+  "pageid": 60033,
+  "revid": 2629835,
+  "revisedAt": "2018-06-18T17:42:25Z",
+  "sha1": "446ec6252fc18dc572660e4c18fb84bf56152b85",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Mind_Shock",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Mind%20Shock&oldid=2629835",
+  "retrievedAt": "2026-11-16T15:41:41.402Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Mind Shock\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 4\n| activation = 1\n| recharge = 10\n| description = [[Spell]]. Target foe suffers 400 damage. If you have more Energy than target foe, that foe suffers an additional 400 damage.\n| concise description = Spell. Deals 400 damage. Deals 400 more damage if you have more Energy than target foe.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Mursaat Elementalist Form]]\n*[[Smoke Wraith Form]]\n\n==Related skills==\n*{{Skill icon|Polymock Mind Freeze}}\n*{{Skill icon|Mind Shock}}\n\n[[de:Geistiger Polymock-Schock]]"
+}

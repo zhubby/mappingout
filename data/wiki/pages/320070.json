@@ -1,0 +1,11 @@
+{
+  "title": "The Hero From Ascalon",
+  "pageid": 320070,
+  "revid": 2737724,
+  "revisedAt": "2026-08-16T01:01:42Z",
+  "sha1": "33530b9d36903289217ef501e638e3343757a153",
+  "url": "https://wiki.guildwars.com/wiki/The_Hero_From_Ascalon",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Hero%20From%20Ascalon&oldid=2737724",
+  "retrievedAt": "2026-11-16T13:47:24.707Z",
+  "wikitext": "{{Template:Reforgedmodecontent}}\n{{Quest infobox\n| name = The Hero From Ascalon\n| id = 1457\n| campaign = Prophecies\n| region = Kryta\n| type = Secondary\n| given by = [[Devona]]\n| given at = [[Lion's Arch]]\n}}\n\nReceive [[Devona]]'s services as a [[hero]].\n\n==Quest Information==\n===Requirements===\n{{Standard prerequisites\n| reforged = y\n}}\n\n===Objectives===\n* Talk with [[Devona]] again.\n\n===Reward===\n* 100 [[Experience]]\n* Devona joins your party.\n\n==Walkthrough==\nSpeak with [[Devona]] in [[Lion's Arch]] to receive the quest, then again to complete it.\n\n==Dialogue==\n===Initial dialogue===\n'''Devona'''\n: ''\"I am Devona, a [[Warrior]] of [[Ascalon]]. You? Yes, I've heard of you. Your reputation precedes you. In fact, when I arrived in Lion's Arch, I was hoping our paths might cross.''\n\n: ''I would ask something of you. '''Let us form an alliance.''' I hail from a place torn asunder by violence and war. That is why I fight all the more vigorously for a just world. But don't take my word for it, friend. I prefer to let my hammer do the talking.\"''\n{{offer dialog\n|accept = Very well. We should travel together.\n|decline = I can't risk you slowing me down. }}\n\n===Reward dialogue===\n'''Devona'''\n: ''\"A battle is often won or lost before the first weapon is drawn. However, a companionship is forged like hot iron upon the anvil; blow by blow, according to patience and intention. I look forward to what we can achieve together.\"''\n\n==Notes==\n{{anomaly|This quest is available even to characters that have already unlocked Devona as a hero through completion of [[The Scourge Beneath]] in [[pre-Searing Ascalon]].}}"
+}

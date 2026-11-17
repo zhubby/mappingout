@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Ice Shard Storm",
+  "pageid": 60028,
+  "revid": 2629821,
+  "revisedAt": "2018-06-18T17:41:57Z",
+  "sha1": "694acf23dd396819f195da33c7dcb55c3fb141b9",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Ice_Shard_Storm",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Ice%20Shard%20Storm&oldid=2629821",
+  "retrievedAt": "2026-11-16T15:41:40.922Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Ice Shard Storm\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 20\n| description = [[Spell]]. [[Target]] [[foe]] begins [[Bleeding]] for 20 seconds.\n| concise description = Spell. Inflicts Bleeding condition (20 seconds). Bleeding causes -3 Health degeneration.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Kappa Form]]\n\n==Related skills==\n*{{skill icon|Polymock Piercing Light Spear}}\n*{{skill icon|Polymock Poisoned Ground}}\n*{{skill icon|Polymock Rotting Flesh}}\n\n==Notes==\n*Bleeding causes -10 [[health degeneration]] in [[Polymock]].\n\n[[de:Polymock-Eisscherbensturm]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Stun Grenade",
+  "pageid": 277448,
+  "revid": 2723830,
+  "revisedAt": "2026-04-01T22:54:52Z",
+  "sha1": "6c95bc365708e9b3548b4b62b7be12b3f3ea8386",
+  "url": "https://wiki.guildwars.com/wiki/Stun_Grenade",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Stun%20Grenade&oldid=2723830",
+  "retrievedAt": "2026-11-16T15:42:00.199Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = Stun Grenade\n| id = 3290\n| special = Going Commando\n| campaign = Core\n| type = Spell\n| energy = 5\n| recharge = 15\n| activation = {{1/2}}\n| description = [[Spell]]. Deals 50 [[Blunt damage]] to [[target]] and [[adjacent]] [[foe]]s. Target and foes [[in the area]] are [[Dazed]] for 5 seconds and [[Blind]]ed for 10 seconds.\n| concise description = Spell. Target and adjacent foes take 50 Blunt damage. Target and foes in the area are Dazed (5 seconds) and Blinded (10 seconds).\n| aoe = adjacent\n| target = foes\n}} [[Category:Skills with in the area AoE]]\n\n== Acquisition ==\nThis skill is available while under the [[Going Commando]] disguise during the [[April Fools' Day]] quest [[Annihilator]].\n\n== Related skills ==\n*{{skill icon|Smoke Trap}} ([[elite]])\n*{{skill icon|Temple Strike}} (elite)\n\n== Notes ==\n* Similar to [[shout]]s, characters will say ''\"Stun grenade out!\"'' when this skill is activated.\n{{anomaly|The descriptions omit that this is a [[projectile spell]].}}\n\n[[Category:Projectile spells]]"
+}

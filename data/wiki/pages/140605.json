@@ -1,0 +1,11 @@
+{
+  "title": "Chain Lightning (environment)",
+  "pageid": 140605,
+  "revid": 2581900,
+  "revisedAt": "2015-01-27T09:55:41Z",
+  "sha1": "ff365b0a489a87b156af6791750896b4e8589442",
+  "url": "https://wiki.guildwars.com/wiki/Chain_Lightning_(environment)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Chain%20Lightning%20(environment)&oldid=2581900",
+  "retrievedAt": "2026-11-16T15:41:12.780Z",
+  "wikitext": "{{Skill infobox\n| id = 498\n| name = Chain Lightning\n| campaign = Prophecies\n| image = [[Image:Chain Lightning (environment).jpg]]\n| type = Spell\n| description = [[Spell]]. Chain Lightning\n| concise description = Spell. Chain Lightning\n| special = Environment\n}}\n\n== Related skills ==\n* {{Skill icon|Chain Lightning}}\n* {{Skill icon|Eruption (environment)}}\n* {{Skill icon|Fire Storm (environment)}}\n* {{Skill icon|Lightning Storm}}\n* {{Skill icon|Maelstrom (environment)}}\n\n== Notes ==\n* Encountered during [[the Dragon's Lair]] mission.\n* Inflicts 55 [[damage per second]] with 25% [[armor penetration]] (or 71 damage against [[armor rating]] 60).{{verify|Does it deal lightning damage or untyped damage?}}"
+}

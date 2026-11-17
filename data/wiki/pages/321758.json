@@ -1,0 +1,11 @@
+{
+  "title": "Mystic Corruption (PvP)",
+  "pageid": 321758,
+  "revid": 2738542,
+  "revisedAt": "2026-08-26T21:48:33Z",
+  "sha1": "41c833b4707589d591ab8661a136b4ffb4e1fdef",
+  "url": "https://wiki.guildwars.com/wiki/Mystic_Corruption_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Mystic%20Corruption%20(PvP)&oldid=2738542",
+  "retrievedAt": "2026-11-16T15:41:38.394Z",
+  "wikitext": "__NOTOC__{{Pveversion|Mystic Corruption}}\n{{Skill infobox\n| id = 3467\n| name = Mystic Corruption (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Mysticism\n| type = Flash enchantment spell\n| energy = 5\n| recharge = 10\n| causes1 = Disease\n| description = [[Flash Enchantment Spell]]. All [[adjacent]] [[foe]]s suffer from [[Disease]] for {{gr|2|6}} second[s]. For 20 seconds, nothing happens. Disease [[duration]] is doubled if you are [[enchant]]ed when you activate this skill. When this enchantment ends, all [[party]] members in [[earshot]] are cured of Disease.\n| concise description = Flash Enchantment Spell. (20 seconds.) Initial Effect: all adjacent foes are Diseased ({{gr|2|6}} second[s].) Double duration if you are already enchanted. End Effect: party members in earshot lose Disease.\n| removes1 = Condition\n| aoe = earshot\n| target = untargeted\n| pbaoe = self\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Mysticism]]\n|var1 name = [[Disease]] [[duration]]\n|var1 at0 = 2\n|var1 at15 = 6}}\n\n[[Category:Skills with adjacent AoE]]"
+}

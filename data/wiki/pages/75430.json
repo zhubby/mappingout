@@ -1,0 +1,11 @@
+{
+  "title": "Jack Frost",
+  "pageid": 75430,
+  "revid": 2609680,
+  "revisedAt": "2016-07-02T04:28:06Z",
+  "sha1": "9bf0297439487bc4e672df9747fcb49a448f78a4",
+  "url": "https://wiki.guildwars.com/wiki/Jack_Frost",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Jack%20Frost&oldid=2609680",
+  "retrievedAt": "2026-11-16T15:41:31.262Z",
+  "wikitext": "{{skill infobox\n| name = Jack Frost\n| id = 1901\n| campaign = Factions\n| profession = Ritualist\n| type = Binding Ritual\n| special = Snow fighting\n| activation = 3\n| recharge = 20\n| aoe = none\n| causes1 = Spirit\n| description = [[Binding Ritual]]. Create a level 5 [[Jack Frost (spirit)|Jack Frost]]. This creature deals 50 [[damage]] with [[snowball]]s. This creature dies after 60 seconds.\n| concise description = Binding Ritual. Creates a level 5 Jack Frost (60 second lifespan). It deals 50 damage with snowballs.\n}}\n\n== Acquisition ==\nThis skill is given to Ritualists competing in a [[Dwayna Vs Grenth]] match, as well as in [[Wintersday]] quests.\n\n== Notes ==\n\n* This skill is only available to players during [[Wintersday]] events. It is also used by [[Industrious Snowman|Industrious Snowmen]] in the [[Secret Lair of the Snowmen]].\n* Jack Frost is unique among binding rituals in that the summoned spirit is vulnerable to [[hex]]es and uses a spell instead a [[ranged attack]].\n** Since its attacks are spell-based; they have [[range#spell range|spell range]], are not affected by height, and cannot be [[block]]ed.\n* Since [[Yuletide]] sets all primary attributes to 0, it cannot be affected by [[Spawning Power]].\n\n== Trivia ==\n* The name of this skill comes from the folklore figure [[w:Jack Frost|Jack Frost]].\n\n[[Category:Binding rituals]]"
+}

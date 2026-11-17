@@ -1,0 +1,11 @@
+{
+  "title": "Fox Fangs (PvP)",
+  "pageid": 270656,
+  "revid": 2733317,
+  "revisedAt": "2026-07-05T17:39:37Z",
+  "sha1": "6ad30b2291e7d95b17c1fdb6d734cfc737279015",
+  "url": "https://wiki.guildwars.com/wiki/Fox_Fangs_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fox%20Fangs%20(PvP)&oldid=2733317",
+  "retrievedAt": "2026-11-16T15:41:23.589Z",
+  "wikitext": "{{pveversion|Fox Fangs}}\n{{Skill infobox\n| id = 3251\n| name = Fox Fangs (PvP)\n| campaign = Factions\n| profession = Assassin\n| attribute = Dagger Mastery\n| type = Off-Hand Attack\n| is-pvp = y\n| energy = 5\n| activation = {{1/2}}\n| recharge = 6\n| causes1 = Unblockable\n| description = [[Off-Hand Attack]]. Must follow a [[lead attack]]. Fox Fangs cannot be [[block]]ed and strikes for {{gr|10|25|+}} [[damage]] if it hits.\n| concise description = Off-Hand Attack. Deals {{gr|10|25|+}} damage. Unblockable. <span style=\"color:grey;\">Must follow a lead attack.</span>\n| requires = lead\n| unblockable = y\n}}\n\n{{Skill progression\n|attribute = [[Dagger Mastery]]\n|var1 name = + [[Damage]]\n|var1 at0 = 10\n|var1 at15 = 25}}\n\n== Related skills ==\n* {{skill icon|Golden Fox Strike}}\n* {{skill icon|Nine Tail Strike}}\n* {{skill icon|Wild Strike (PvP)}}\n\n[[de:Reißzähne des Fuchses (PvP)]]"
+}

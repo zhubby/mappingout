@@ -1,0 +1,11 @@
+{
+  "title": "The Jade Quarry (Luxon quest)",
+  "pageid": 18610,
+  "revid": 2565958,
+  "revisedAt": "2014-03-03T08:29:09Z",
+  "sha1": "47188b165bb6b3c77fcf6bfbe5c47b287be7b43b",
+  "url": "https://wiki.guildwars.com/wiki/The_Jade_Quarry_(Luxon_quest)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Jade%20Quarry%20(Luxon%20quest)&oldid=2565958",
+  "retrievedAt": "2026-11-16T13:47:24.704Z",
+  "wikitext": "{{Otheruses|a [[quest]]|the mission and mission outposts of the same name|The Jade Quarry (disambiguation)}}\n__NOTOC__\n{{Quest infobox\n| name = The Jade Quarry\n| map = [[Image:Jade Quarry quest map.jpg|250px]]\n| campaign = Factions\n| region = The Jade Sea\n| type = Primary\n| given by = [[Elder Rhea]] \n| given at = [[Cavalon]]\n| preceded by = [[Sunjiang District]]<!--Unlike [[Challenge of Strength]], [[Attack the Kurzicks!]], and [[Night Raiders]], this quest cannot be acquired by [[Cavalon#Getting there|running to Cavalon]] after completing [[Boreas Seabed]].-->\n}}\nHead to [[The Jade Quarry (Luxon)|the Jade Quarry]] and speak with [[Erek]] to help keep the [[Kurzick]]s out of the mine.\n\n==Quest information==\n===Objectives===\n* Travel to the Jade Quarry and speak to Erek.\n\n===Reward===\n* 3,000 [[Experience]]\n* 250 [[Gold]]\n\n==Walkthrough==\nLeaving from [[Cavalon]], travel south by southwest through [[Archipelagos]] until you reach the [[Jade Flats (Luxon)]], then head into the next outpost.\n\n==Dialogues==\n===Initial dialogue===\n;Elder Rhea\n:''\"The Kurzicks have established a mining outpost and hope to steal our precious jade. Thankfully, we got wind of their plans, and we've sent '''Erek''' there to [[Reaver|reave]] the jade before they can steal anymore of it. It's a clever plan, but Erek is only one man, and there is much jade left to mine. If you want to prove yourself a friend to the [[Luxon]]s, I suggest you travel to the '''Jade Quarry''' and aid his efforts there.''\n:''Will you travel to the Jade Quarry?\"''\n{{offer dialog\n|accept = To the Jade Quarry!\n|decline = I'm no miner.\n|ask = Travel to the Jade Quarry and help us reave the Jade before the Kurzicks steal all of it. \n|indent = :: }}\n\n===Reward dialogue===\n;Erek\n:''\"Elder Rhea sent you? Good. Your assistance is very welcome, my friend.\"''"
+}

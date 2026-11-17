@@ -1,0 +1,11 @@
+{
+  "title": "Unnatural Signet (PvP)",
+  "pageid": 253814,
+  "revid": 2630174,
+  "revisedAt": "2018-06-18T17:54:37Z",
+  "sha1": "489c04c5fd1790440f41be7284753932545000a8",
+  "url": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unnatural%20Signet%20(PvP)&oldid=2630174",
+  "retrievedAt": "2026-11-16T15:42:03.620Z",
+  "wikitext": "{{pveversion|Unnatural Signet}}\n{{Skill infobox\n| id = 3188\n| name = Unnatural Signet (PvP)\n| campaign = Factions\n| profession = Mesmer\n| is-pvp = y\n| attribute = Domination Magic\n| type = Signet\n| activation = 1\n| recharge = 20\n| causes1 = Disable\n| description = [[Signet]]. [[Target]] [[foe]] takes {{gr|10|60}} [[damage]]. If that foe is under the effects of a [[hex]] or [[enchantment]], foes [[adjacent]] to your target take {{gr|10|60}} damage. All your non-Mesmer [[skill]]s except signets are [[disable]]d for 10 seconds.\n| concise description = Signet. Deals {{gr|10|60}} damage. Deals {{gr|10|60}} damage to other adjacent foes if the target is hexed or enchanted. {{gray|Your non-Mesmer skills except signets are disabled (10 seconds).}}\n| aoe = adjacent\n| target = foes\n}}\n\n{{Skill progression\n| attribute = [[Domination Magic]]\n| var1 name = [[Damage]]\n| var1 at0 = 10\n| var1 at15 = 60\n| var2 name = Damage to [[adjacent]]\n| var2 at0 = 10\n| var2 at15 = 60\n}}\n\n[[de:Unnatürliches Siegel (PvP)]]"
+}

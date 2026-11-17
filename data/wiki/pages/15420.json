@@ -1,0 +1,11 @@
+{
+  "title": "Well of Weariness",
+  "pageid": 15420,
+  "revid": 2726498,
+  "revisedAt": "2026-04-28T19:05:39Z",
+  "sha1": "2f8bdee177d086809b0c36fb059cb50384eaaadf",
+  "url": "https://wiki.guildwars.com/wiki/Well_of_Weariness",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Well%20of%20Weariness&oldid=2726498",
+  "retrievedAt": "2026-11-16T15:42:08.403Z",
+  "wikitext": "{{Skill infobox\n| id = 818\n| name = Well of Weariness\n| campaign = Factions\n| profession = Necromancer\n| attribute = Curses\n| type = Well Spell\n| energy = 5\n| activation = 1\n| recharge = 5\n| causes1 = Exploits Corpse\n| causes2 = Energy Degeneration\n| description = [[Well Spell]]. Exploit [[target]] [[corpse]] or sacrifice 66% health to create a Well of Weariness for {{gr|10|55}} seconds. Enemies within the Well of Weariness suffer -1 [[Energy degeneration]].\n| concise description = Well Spell. ({{gr|10|55}} seconds.) Foes in this well have -1 Energy degeneration. {{gray|Exploits a fresh corpse or sacrifices 66% health.}}\n}}\n\n{{Skill progression\n|attribute = [[Curses]]\n|var1 name = [[Duration]]\n|var1 at0 = 10\n|var1 at15 = 55}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n*[[Michiko]] ([[Kaineng Center]])"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Flux Overload",
+  "pageid": 136902,
+  "revid": 2525615,
+  "revisedAt": "2012-12-04T05:59:35Z",
+  "sha1": "946c39e1f5920833349dabbd1bebedab0321a4ef",
+  "url": "https://wiki.guildwars.com/wiki/Flux_Overload",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Flux%20Overload&oldid=2525615",
+  "retrievedAt": "2026-11-16T15:41:23.589Z",
+  "wikitext": "{{skill infobox\n| id = 2152\n| name = Flux Overload\n| campaign = Eye of the North\n| type = Signet\n| special = Bundle\n| description = [[Signet]]. Flux Energy bursts forth and deals 1,337 [[damage]] to [[nearby]] [[foe]]s.\n| concise description = Signet. Deals 1,337 damage to nearby foes.\n| aoe = nearby\n}}\n\n== Related skills ==\n* {{skill icon|Cruel Was Daoshen}}\n* {{skill icon|Destructive Was Glaive}} ([[elite]])\n* {{skill icon|Grasping Was Kuurong}} (elite)\n\n== Notes ==\n* This skill is the result of dropping a charged [[Flux Matrix]] bundle.\n\n== Trivia ==\n* The amount of damage, 1,337, is a reference to [[Wikipedia:Leet|leetspeak]]'s way of writing \"leet\", meaning \"elite\"."
+}

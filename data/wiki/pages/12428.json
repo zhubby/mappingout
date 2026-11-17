@@ -1,0 +1,11 @@
+{
+  "title": "Track Down Lo Sha",
+  "pageid": 12428,
+  "revid": 2627840,
+  "revisedAt": "2018-05-30T19:08:06Z",
+  "sha1": "31bf494ea106f6aa96d221b5c725160d250963a1",
+  "url": "https://wiki.guildwars.com/wiki/Track_Down_Lo_Sha",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Track%20Down%20Lo%20Sha&oldid=2627840",
+  "retrievedAt": "2026-11-16T13:47:33.016Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Track Down Lo Sha\n| map = \n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Mei Ling]]\n| given at = [[Sunqua Vale]]\n| preceded by = [[Cleansing the Shrine]]\n| followed by = [[Lo Sha's Gift]]\n| profession = Mesmer\n| primary = y\n| secondary = n\n}}\nTravel to find the second mesmer trainer.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Mesmer\n| primary = y\n| secondary = n\n}}\n\n===Objectives===\n* Look for [[Lo Sha]] in [[Kinya Province]].\n\n===Reward===\n* 600 [[Experience]]\n* 50 [[Gold]]\n\n==Walkthrough==\nTravel northwest from [[Sujun]] through the mountains until you reach Kinya Province. Once there, go a short distance southwest and you will find Lo Sha.\n\n==Dialogue==\n===Initial dialogue===\n;Mei Ling\n:''<Character name>, you have performed very well so far. I believe you are ready to move on to your next lesson. '''Lo Sha''', a fellow Mesmer instructor, is waiting for you in '''Kinya Province'''. Where Mesmer training is concerned, he is very accomplished; you can learn a lot from him. But he has a tendency toward bitterness, so try not to let it distract you.''\n{{ Offer dialog\n| accept = I'll look for Lo Sha in Kinya Province.\n| decline = I think I need a break.\n| ask = '''Lo Sha''' awaits you in '''Kinya Province'''. Tardiness will not improve his attitude.\n}}\n\n===Reward dialogue===\n;Lo Sha\n:''I hope Mei Ling has not poisoned your mind with her blind devotion to Headmaster Kaa. That doddering fool should have been replaced long ago.''\n\n:''All right, I'll continue your training from here.''"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Glowing Gaze",
+  "pageid": 60006,
+  "revid": 2629815,
+  "revisedAt": "2018-06-18T17:41:44Z",
+  "sha1": "9cc46908a243f959c12ba0583bfe55880c8119f4",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Glowing_Gaze",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Glowing%20Gaze&oldid=2629815",
+  "retrievedAt": "2026-11-16T15:41:40.921Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Glowing Gaze\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 1\n| recharge = 10\n| description = [[Spell]]. Target foe takes 150 damage. If that foe is on fire, you gain 6 Energy.\n| concise description = Spell. Deals 150 damage. You gain 6 Energy if target foe is Burning.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Ruby Djinn Form]]\n\n==Related skills==\n*{{Skill icon|Glowing Gaze}}\n\n[[de:Glühender Polymock-Blick]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Wild Strike (PvP)",
+  "pageid": 270655,
+  "revid": 2733318,
+  "revisedAt": "2026-07-05T17:39:56Z",
+  "sha1": "09e5beb7ec79ccaed0defa07dfe6e3d9caba0d2c",
+  "url": "https://wiki.guildwars.com/wiki/Wild_Strike_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Wild%20Strike%20(PvP)&oldid=2733318",
+  "retrievedAt": "2026-11-16T15:42:08.914Z",
+  "wikitext": "{{pveversion|Wild Strike}}\n\n{{Skill infobox\n| id = 3252\n| name = Wild Strike (PvP)\n| campaign = Factions\n| profession = Assassin\n| attribute = Dagger Mastery\n| type = Off-Hand Attack\n| is-pvp = y\n| energy = 5\n| recharge = 6\n| causes1 = Unblockable\n| removes1 = Stance\n| description = [[Off-Hand Attack]]. Must follow a [[lead attack]]. If it hits, this [[attack]] strikes for {{gr|10|35|+}} [[damage]] and any [[stance]] being used by [[target]] [[foe]] ends. This attack cannot be [[block]]ed.\n| concise description = Off-Hand Attack. Deals {{gr|10|35|+}} damage. Removes target foe's stance. Unblockable. {{gray|Must follow a lead attack.}}\n| requires = lead\n| checks = hit\n| checks-true = stance removed\n| unblockable = y\n}}\n\n{{Skill progression\n| attribute = [[Dagger Mastery]]\n| var1 name = + [[Damage]]\n| var1 at0 = 10\n| var1 at15 = 35}}\n\n== Related skills ==\n* {{skill icon|Forceful Blow}} ([[elite]])\n* {{skill icon|Fox Fangs (PvP)}}\n* {{skill icon|Irresistible Sweep (PvP)}}\n* {{skill icon|Whirling Axe}} (elite)\n* {{skill icon|Wild Blow}}\n* {{skill icon|Wild Throw}}\n\n[[de:Wilder Stoß (PvP)]]"
+}

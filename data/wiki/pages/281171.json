@@ -1,0 +1,11 @@
+{
+  "title": "The Path to Combat: Heroes' Ascent",
+  "pageid": 281171,
+  "revid": 2573812,
+  "revisedAt": "2014-08-12T08:36:05Z",
+  "sha1": "f38f2bf3fb7cf9d988977f5847de9bee52725515",
+  "url": "https://wiki.guildwars.com/wiki/The_Path_to_Combat:_Heroes%27_Ascent",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Path%20to%20Combat%3A%20Heroes'%20Ascent&oldid=2573812",
+  "retrievedAt": "2026-11-16T13:47:27.319Z",
+  "wikitext": "__NOTOC__{{DEFAULTSORT:Path to Combat: Heroes Ascent, The}}\n{{Quest infobox\n| name = The Path to Combat: Heroes Ascent\n| id = 1335\n| campaign = Core\n| region = The Battle Isles\n| type = Secondary\n| given by = [[Zenjal]]\n| given at = [[Great Temple of Balthazar]]\n| preceded by = [[The Path to Combat: Codex Arena]]\n| followed by = [[The Path to Victory: Heroes' Ascent]]\n}}\n\n==Quest information==\n===Requirements===\n*This quest is only offered to [[level]] 20 [[character]]s.\n\n===Objectives===\n*Complete a battle in [[Heroes' Ascent]].\n*See Zenjal <nowiki>[</nowiki>[[Zaishen Order|Zaishen]] Guide] for your reward.\n\n===Reward===\n*2,500 [[Experience]]\n*[[Hero's Strongbox]]\n\n==Dialogue==\n===Initial dialogue===\n;Zenjal [Zaishen Guide]\n:''\"[[Balthazar]] watches his followers battle like actors in a play. What greater stage can there be than [[The Hall of Heroes (arena)|the Hall of Heroes]]? In Heroes' Ascent, you and your companions will commit all the strength you have to reaching that glorious hall and overcoming countless opponents. Are you prepared to compete for your place among legendary heroes?\"''\n{{Offer dialog\n| accept = Legendary, you say? Sign me up!\n| decline = That sounds...dangerous.\n}}\n\n===Intermediate dialogue ===\n;Zenjal [Zaishen Guide]\n:''\"To compete in Heroes' Ascent, you must journey to the Battle Isles.  If you wish, I can send you directly to [[Heroes' Ascent (outpost)|the staging area]].  Is your heart prepared for the flames of battle?\"''\n{{Offer dialog\n| accept = Let's do it.\n| decline = Not now.\n}}\n\n===Reward dialogue===\n;Zenjal [Zaishen Guide]\n:''\"Your own legend continues to grow, hero.\"''"
+}

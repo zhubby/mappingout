@@ -1,0 +1,11 @@
+{
+  "title": "Flail (PvP)",
+  "pageid": 321789,
+  "revid": 2738943,
+  "revisedAt": "2026-08-28T06:34:50Z",
+  "sha1": "d9732f18591cfa7f68edd0bc0e66533b904e542b",
+  "url": "https://wiki.guildwars.com/wiki/Flail_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Flail%20(PvP)&oldid=2738943",
+  "retrievedAt": "2026-11-16T15:41:22.673Z",
+  "wikitext": "{{pveversion|Flail}}\n__NOTOC__{{Skill infobox\n| name = Flail (PvP)\n| id = 3464\n| campaign = Nightfall\n| profession = Warrior\n| attribute = Strength\n| type = Stance\n| adrenaline = 4\n| is-pvp = y\n| causes1 = Increased Attack Speed\n| causes2 = Decreased Movement Speed\n| description = [[Stance]]. For {{gr|1|15}} second[s], you [[Attack speed|attack 33% faster]] but [[Snare (tactic)|move 33% slower]]. Ends if you use a ranged attack skill.\n| concise description = Stance. ({{gr|1|15}} second[s].) You attack 33% faster. Ends if you use a ranged attack skill. {{gray|You move 33% slower.}}\n}}\n\n{{Skill progression\n|attribute = [[Strength]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 15}}\n\n== Related skills ==\n* {{skill icon|Burst of Aggression}}\n* {{skill icon|Flurry}}\n* {{skill icon|Frenzy}}\n* {{skill icon|Heart of Fury}}\n* {{skill icon|Tiger Stance}}\n\n== Notes ==\n* Consider using a [[cancel stance]], especially ones with energy costs and/or low recharges, such as [[Dash]].\n* Commonly used by [[hammer]] warriors. The self-snare is mitigated when used against [[Knock down|knocked down]] [[target]]s."
+}

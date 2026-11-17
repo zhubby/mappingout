@@ -1,0 +1,11 @@
+{
+  "title": "Enfeebling Blood (PvP)",
+  "pageid": 148642,
+  "revid": 2628780,
+  "revisedAt": "2018-06-18T17:28:09Z",
+  "sha1": "e9903e4731a040f13e8f72222822ba0df31ad40f",
+  "url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Enfeebling%20Blood%20(PvP)&oldid=2628780",
+  "retrievedAt": "2026-11-16T15:41:20.125Z",
+  "wikitext": "{{pveversion|Enfeebling Blood}}\n{{Skill infobox\n| name = Enfeebling Blood (PvP)\n| id = 2885\n| campaign = Core\n| profession = Necromancer\n| attribute = Curses\n| is-pvp = y\n| type = Spell\n| energy = 1\n| recharge = 8\n| activation = 1\n| sacrifice = 17%\n| causes1 = Weakness\n| description = [[Spell]]. [[Target]] [[foe]] and all [[nearby]] foes suffer from [[Weakness]] for {{gr|1|16}} second[s].\n| concise description = Spell. Inflicts Weakness condition ({{gr|1|16}} second[s]) on this foe and nearby foes.\n| aoe = nearby\n| target = foes\n}}\n\n{{Skill progression\n|attribute = [[Curses]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 16}}\n\n[[de:Schwächendes Blut (PvP)]]"
+}

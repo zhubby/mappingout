@@ -1,0 +1,11 @@
+{
+  "title": "Aura of Thorns (PvP)",
+  "pageid": 278534,
+  "revid": 2628526,
+  "revisedAt": "2018-06-18T17:19:21Z",
+  "sha1": "25f7c3ac54163579ec9e1dc8a9c78c0c77b29c5f",
+  "url": "https://wiki.guildwars.com/wiki/Aura_of_Thorns_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Aura%20of%20Thorns%20(PvP)&oldid=2628526",
+  "retrievedAt": "2026-11-16T15:41:07.822Z",
+  "wikitext": "{{pveversion|Aura of Thorns}}\n{{Skill infobox\n| id = 3346\n| name = Aura of Thorns (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Earth Prayers\n| type = Flash Enchantment Spell\n| energy = 10\n| recharge = 10\n| is-pvp = y\n| causes1 = Crippled\n| causes2 = Bleeding\n| aoe = nearby\n| description = [[Flash Enchantment Spell]]. All [[nearby]] [[foes]] begin [[Bleeding]] for {{gr|5|15}} seconds. For 30 seconds, this [[Enchantment Spell|enchantment]] does nothing. When this enchantment ends, all nearby foes are [[Crippled]] for {{gr|3|8}} seconds. \n| concise description = Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition ({{gr|5|15}} seconds) on nearby foes. End effect: inflicts Crippled condition ({{gr|3|8}} seconds) on nearby foes.\n}}\n\n{{Skill progression\n|attribute = [[Earth Prayers]]\n|var1 name = [[Bleeding]] [[duration]]\n|var1 at0 = 5\n|var1 at15 = 15\n|var2 name = [[Crippled]] duration\n|var2 at0 = 3\n|var2 at15 = 8}}\n\n[[de:Dornenaura (PvP)]]"
+}

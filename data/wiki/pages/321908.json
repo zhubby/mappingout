@@ -1,0 +1,11 @@
+{
+  "title": "A Dying Curse",
+  "pageid": 321908,
+  "revid": 2739744,
+  "revisedAt": "2026-09-07T13:42:08Z",
+  "sha1": "8235a43feafdfc5f7522998bf283cc6d5516d4ea",
+  "url": "https://wiki.guildwars.com/wiki/A_Dying_Curse",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=A%20Dying%20Curse&oldid=2739744",
+  "retrievedAt": "2026-11-16T15:41:05.436Z",
+  "wikitext": "{{Skill infobox\n| id = 3283\n| name = A Dying Curse\n| campaign = Core\n| type = Effect\n| description = When you kill an enemy through direct damage, foes adjacent to that enemy take 85 damage, and are poisoned for 15 seconds.\n| concise description = Killing an enemy with direct damage deals 85 damage and inflicts Poisoned (15 seconds) on adjacent foes.\n}}"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Junundu Strike",
+  "pageid": 26966,
+  "revid": 2629514,
+  "revisedAt": "2018-06-18T17:34:33Z",
+  "sha1": "bf704384449b62ce43030565928fa59d4b421918",
+  "url": "https://wiki.guildwars.com/wiki/Junundu_Strike",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Junundu%20Strike&oldid=2629514",
+  "retrievedAt": "2026-11-16T15:41:31.261Z",
+  "wikitext": "{{Skill infobox\n| name = Junundu Strike\n| campaign = Nightfall\n| type = Touch skill\n| activation = 1\n| recharge = 4\n| special = Junundu\n| range = touch\n| description = [[Skill]]. Target touched foe is struck for 150 [[piercing damage]]. You gain 75 [[Health]].\n| concise description = Touch Skill. Deals 150 piercing damage. You are healed for 75.\n| target = foes\n}}\n\n== Acquisition ==\nThis skill is available whenever your character is riding a [[Junundu]], from the [[Gate of Desolation]] [[mission]] onward through the rest of the [[Desolation]].\n\n== Notes ==\n* Can be used after [[Junundu Tunnel]] and before [[Junundu Bite]] to quickly recover 575 health and deal 500 damage at the same time.\n\n[[de:Junundus Stoß]]"
+}

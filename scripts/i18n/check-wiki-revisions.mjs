@@ -1,8 +1,15 @@
+/**
+ * [INPUT]: 依赖四套英文基线与 Wiki 当前修订接口。
+ * [OUTPUT]: 保存版本变更和来源覆盖报告。
+ * [POS]: 正式发布的来源新鲜度检查；不改变固定快照。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs';
+import {datasets} from '../../src/i18n/content-fields.ts';
 import {api} from '../wiki/client.mjs';
 import {sha256} from './english-source.mjs';
 const refs=new Map();
-for(const dataset of ['catalog','armor','calendar']){
+for(const dataset of datasets){
   const baseline=JSON.parse(fs.readFileSync(`data/i18n/baseline/${dataset}.json`,'utf8'));
   for(const field of Object.values(baseline.fields))for(const ref of field.references)refs.set(ref.pageid,ref);
 }

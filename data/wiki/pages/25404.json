@@ -1,0 +1,11 @@
+{
+  "title": "Speak with Headmaster Greico (Ranger)",
+  "pageid": 25404,
+  "revid": 2627738,
+  "revisedAt": "2018-05-30T16:42:09Z",
+  "sha1": "56d90201ddbedaeb835484fe6060b5e4f8b7c7e1",
+  "url": "https://wiki.guildwars.com/wiki/Speak_with_Headmaster_Greico_(Ranger)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Speak%20with%20Headmaster%20Greico%20(Ranger)&oldid=2627738",
+  "retrievedAt": "2026-11-16T13:47:15.795Z",
+  "wikitext": "{{Quest infobox\n| name = Speak with Headmaster Greico (Ranger)\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Master Togo]]\n| given at = [[Linnok Courtyard]]\n| preceded by = [[An Audience with Master Togo]]\n| followed by = [[Locate Sujun]]\n}}\nSeek out the headmaster for a secondary profession.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n}}\n* No secondary profession\n* Primary profession not a [[Ranger]]\n\n===Objectives===\n* Speak with Headmaster Greico in the Shing Jea Monastery.\n\n===Reward===\n* 50 [[Experience]]\n\n==Walkthrough==\nGo to southeastern [[Shing Jea Monastery]]. The headmasters are gathered in one place.\n\n==Dialogue==\n===Initial dialogue===\n;Master Togo\n''If you are interested in taking the Ranger profession as your secondary field of study, then you will need to speak with [[Headmaster Greico]].''\n\n''Greico is a Luxon bound to us only by his sense of duty, else I imagine he would have flown our little coop by now. He is a good fellow and an excellent Ranger. Seek him out in the [[Shing Jea Monastery]].''\n{{ Offer dialog\n| accept = Yes, Master.\n| decline = I'm not sure about this.\n| ask = If you wish to become a Ranger, find [[Headmaster Greico]] in the [[Shing Jea Monastery|monastery]]. Now run along and leave me to my work.\n}}\n\n===Reward dialogue===\n;Headmaster Greico\n''Greetings. Yes, I can train you in the ways of the Ranger. You'll learn to tame wild beasts to do your bidding, to lay traps and make preparations to enhance your arrows; in short, you will learn to be one with nature and use her powers as though they were yours alone. But this is not a choice to be taken lightly.''"
+}

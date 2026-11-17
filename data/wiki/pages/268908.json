@@ -1,0 +1,11 @@
+{
+  "title": "Heal Party (PvP)",
+  "pageid": 268908,
+  "revid": 2738559,
+  "revisedAt": "2026-08-26T21:57:37Z",
+  "sha1": "238739126c76cca716dd1b132ac2862f7f09c3ab",
+  "url": "https://wiki.guildwars.com/wiki/Heal_Party_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Heal%20Party%20(PvP)&oldid=2738559",
+  "retrievedAt": "2026-11-16T15:41:28.320Z",
+  "wikitext": "{{Pveversion|Heal Party}}\n{{Skill infobox\n| id = 3232\n| name = Heal Party (PvP)\n| campaign = Core\n| profession = Monk\n| attribute = Healing Prayers\n| type = Spell\n| energy = 15\n| activation = 1\n| recharge = 10\n| causes1 = Healing\n| description = [[Spell]]. [[Heal]] entire [[party]] for {{gr|30|75}} [[Health]].\n| concise description = Spell. Heals entire party for {{gr|30|75}}.\n| is-pvp = y\n| aoe = party\n| target = self\n}}\n\n{{Skill progression\n| attribute = [[Healing Prayers]]\n| var1 name = [[Heal]]ing\n| var1 at0 = 30\n| var1 at15 = 75}}\n\n== Related skills ==\n* {{duplicate skill icon|Divine Healing|Heaven's Delight}}\n* {{skill icon|Light of Deliverance (PvP)}} ([[elite]])\n* {{skill icon|Mystic Healing (PvP)}}\n* {{skill icon|Protective Was Kaolai}}\n\n== Notes ==\n* Only the caster receives any bonus healing from the Monk primary attribute, [[Divine Favor]].\n* The area of effect of this spell only includes those within [[party range]].\n\n== See also ==\n* [[Party healing]]\n\n[[de:Gruppe heilen (PvP)]]"
+}

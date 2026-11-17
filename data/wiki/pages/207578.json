@@ -1,0 +1,11 @@
+{
+  "title": "\"Brace Yourself!\" (PvP)",
+  "pageid": 207578,
+  "revid": 2726481,
+  "revisedAt": "2026-04-28T18:54:15Z",
+  "sha1": "eb9ba06f1e3017c9387c826a8f99a45463e3e1d8",
+  "url": "https://wiki.guildwars.com/wiki/%22Brace_Yourself!%22_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Brace%20Yourself!%22%20(PvP)&oldid=2726481",
+  "retrievedAt": "2026-11-16T15:41:04.000Z",
+  "wikitext": "{{pveversion|\"Brace Yourself!\"}}\n{{Skill infobox\n| id = 3027\n| name = \"Brace Yourself!\" (PvP)\n| campaign = Nightfall\n| profession = Paragon\n| attribute = Command\n| type = Shout\n| energy = 5\n| recharge = 8\n| target = other allies\n| causes1 = Knockdown Immunity\n| description = [[Shout]]. For {{gr|5|15}} seconds, the next time [[target]] other [[ally]] would be [[knock down|knocked down]], 1 [[nearby]] [[foe]] takes {{gr|15|90}} [[damage]] instead.\n| concise description = Shout. ({{gr|5|15}} seconds.) Prevents the next knock-down and deals {{gr|15|90}} damage to one foe near target ally. {{gray|Cannot self-target.}}\n| aoe = nearby\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Command]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 15\n|var2 name = [[Damage]]\n|var2 at0 = 15\n|var2 at15 = 75}}\n\n==Related skills==\n*{{skill icon|Aura of Stability}} \n*{{skill icon|Balthazar's Pendulum}} ([[elite]])\n\n{{DEFAULTSORT:Brace Yourself!}}\n\n[[de:\"Seid vorbereitet!\" (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Strength of Honor (PvP)",
+  "pageid": 202637,
+  "revid": 2630104,
+  "revisedAt": "2018-06-18T17:52:03Z",
+  "sha1": "3756e2960bf0439dfc45a214749edfa3ec402ea0",
+  "url": "https://wiki.guildwars.com/wiki/Strength_of_Honor_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Strength%20of%20Honor%20(PvP)&oldid=2630104",
+  "retrievedAt": "2026-11-16T15:42:00.198Z",
+  "wikitext": "{{pveversion|Strength of Honor}}\n{{Skill infobox\n| name = Strength of Honor (PvP)\n| id = 2999\n| campaign = Core\n| profession = Monk\n| attribute = Smiting Prayers\n| type = Enchantment Spell\n| upkeep = -1\n| energy = 10\n| activation = 2\n| recharge = 15\n| description = [[Enchantment Spell]]. While you [[Upkeep|maintain]] this enchantment, [[target]] [[ally]] deals {{gr|1|5}} more [[damage]] in [[melee]].\n| concise description = Enchantment Spell. Target ally deals {{gr|1|5}} more damage in melee.\n| is-pvp = y\n| target = allies\n}}\n\n{{Skill progression\n| attribute = [[Smiting Prayers]]\n| var1 name = [[Armor-ignoring damage]]\n| var1 at0 = 1\n| var1 at15 = 5}}\n\n[[de:Stärke der Ehre (PvP)]]"
+}

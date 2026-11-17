@@ -1,0 +1,11 @@
+{
+  "title": "Shatter Delusions (PvP)",
+  "pageid": 253950,
+  "revid": 2731252,
+  "revisedAt": "2026-06-25T05:33:23Z",
+  "sha1": "349bdf0ed32f7fabe3c8247b8d5b8718265d7d9c",
+  "url": "https://wiki.guildwars.com/wiki/Shatter_Delusions_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shatter%20Delusions%20(PvP)&oldid=2731252",
+  "retrievedAt": "2026-11-16T15:41:50.474Z",
+  "wikitext": "{{pveversion|Shatter Delusions}}\n{{Skill infobox\n| name = Shatter Delusions (PvP)\n| id = 3180\n| campaign = Prophecies\n| profession = Mesmer\n| attribute = Domination Magic\n| is-pvp = y\n| type = Spell\n| target = foes\n| energy = 5\n| activation = {{1/4}}\n| recharge = 10\n| description = [[Spell]]. Remove one [[Mesmer]] [[hex]] from [[target]] [[foe]]. If a hex was removed, that foe takes {{gr|15|75}} [[damage]] and all adjacent foes take 75% of that damage.\n| concise description = Spell. Removes a Mesmer hex from target foe. Removal effect: {{gr|15|75}} damage to target and 75% of that damage to all adjacent foes.\n| removes1 = Hex spell\n| aoe = adjacent\n}}\n\n{{Skill progression\n|attribute = [[Domination Magic]]\n|var1 name = Target Damage\n|var1 at0 = 15\n|var1 at15 = 75\n|var2 name = Area Damage\n|var2 at0 = 11\n|var2 at15 = 56 \n}}\n\n== Related skills ==\n* {{skill icon|Drain Delusions}}\n\n== Notes ==\n* Combines well with [[Ether Phantom]], [[Overload]], [[Phantom Pain]], [[Shrinking Armor]], [[Wastrel's Demise]], and [[Web of Disruption]].\n* Be careful if you are partied with several other Mesmers.  On one hand, you have a good chance of being able to use this skill on any target, at any time. On the other hand, you may remove a well-planned hex placed by an ally who won't appreciate your undoing of their hex.\n\n[[Category:Ascalon (pre-Searing) skills]]\n\n[[de:Täuschungen brechen (PvP)]]"
+}

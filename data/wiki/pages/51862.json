@@ -1,0 +1,11 @@
+{
+  "title": "Defile Defenses",
+  "pageid": 51862,
+  "revid": 2608010,
+  "revisedAt": "2016-06-20T09:53:14Z",
+  "sha1": "02dab5966815ae7e83d3c6155f0445f5b4183b73",
+  "url": "https://wiki.guildwars.com/wiki/Defile_Defenses",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Defile%20Defenses&oldid=2608010",
+  "retrievedAt": "2026-11-16T15:41:15.531Z",
+  "wikitext": "{{Skill infobox\n| name = Defile Defenses\n| id = 2188\n| campaign = Eye of the North\n| profession = Necromancer\n| attribute = Curses\n| type = Hex Spell\n| energy = 5\n| activation = 1\n| recharge = 5\n| target =\n| range =\n| aoe =\n| causes1 = Block Punishment\n| description = [[Hex Spell]]. For {{gr|5|20}} seconds, the next time [[target]] [[foe]] [[block]]s, that foe takes {{gr|30|120}} [[damage]].\n| concise description = Hex Spell. ({{gr|5|20}} seconds.) Deals {{gr|30|120}} damage the next time target foe blocks.\n}}\n\n{{Skill progression\n|attribute = [[Curses]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 20\n|var2 name = [[Damage]]\n|var2 at0 = 30\n|var2 at15 = 120}}\n\n== Acquisition ==\n'''[[Skill trainer]]s'''\n* [[Micah Fergson]] ([[Eye of the North (outpost)|Eye of the North]])\n* [[Sida]] ([[Gunnar's Hold]])\n* [[Ybbob]] ([[Rata Sum]])"
+}

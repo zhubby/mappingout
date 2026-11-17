@@ -1,0 +1,11 @@
+{
+  "title": "Track Down Ang the Ephemeral",
+  "pageid": 25385,
+  "revid": 2627852,
+  "revisedAt": "2018-05-30T19:11:29Z",
+  "sha1": "da76a0f8028116b426c400779d08f73e860d2709",
+  "url": "https://wiki.guildwars.com/wiki/Track_Down_Ang_the_Ephemeral",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Track%20Down%20Ang%20the%20Ephemeral&oldid=2627852",
+  "retrievedAt": "2026-11-16T13:47:33.018Z",
+  "wikitext": "{{Quest infobox\n| name = Track Down Ang the Ephemeral\n| campaign = Factions\n| nationality = Canthan\n| region = Shing Jea Island\n| type = Primary\n| given by = [[Professor Gai]]\n| given at = [[Sunqua Vale]]\n| preceded by = [[Minions Gone Wild]]\n| followed by = [[Shackled Spirits]]\n| profession = Ritualist\n| primary = y\n| secondary = n\n}}\nTravel to find the next Ritualist trainer\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Ritualist\n| primary = y\n| secondary = n\n}}\n\n===Objectives===\n* Find Ang the Ephemeral in Panjiang Peninsula.\n\n===Reward===\n* 600 [[Experience]]\n* 50 [[Gold]]\n\n== Walkthrough ==\nAng is located near [[Qi Falls]]. To get there, make your way to Tsumei Village. Exit the town heading south west, then west until you get to the spirit.\n\n==Dialogue==\n===Initial dialogue===\n;Professor Gai\n''It gives me considerable pleasure to send you on to your next instructor. His name is [[Ang the Ephemeral]], and he is a cherished friend to many of us at the monastery. Believe me when I say that Ang is not what you are expecting, but if you hope to be a great Ritualist, you will heed him well. He awaits you in [[Panjiang Peninsula]].''\n{{ Offer dialog\n| accept = I will seek out Ang the Ephemeral.\n| decline = I have something I need to do first.\n| ask = [[Ang the Ephemeral]] is expecting you in [[Panjiang Peninsula]]. Look for him near the [[Temple of Nai]].\n}}\n\n===Reward dialogue===\n;Ang the Ephemeral\n:''I imagine Gai was cryptic, as usual, in his description of me. Did I frighten you? You do not look easily frightened. Well then. let us get started.''"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Brawling Block",
+  "pageid": 63398,
+  "revid": 2568629,
+  "revisedAt": "2014-05-09T21:44:38Z",
+  "sha1": "7f4181b852bfd72800d0689f7f4ba6717f8b3637",
+  "url": "https://wiki.guildwars.com/wiki/Brawling_Block",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Brawling%20Block&oldid=2568629",
+  "retrievedAt": "2026-11-16T15:41:10.393Z",
+  "wikitext": "{{Skill infobox\n| name = Brawling Block\n| campaign = Eye of the North\n| special = Brawling\n| recharge = 4\n| type = Stance\n| description = [[Stance]]. For 2 seconds, you [[block]] the next [[attack]]. This skill ends if you use an [[attack skill]]. You cannot use this skill if you are [[Dazed]].\n| concise description = Stance. (2 seconds.) Block the next attack. {{gray|Ends if you use an attack skill. You cannot use this skill if you are Dazed.}}\n}}\n\n==Notes==\n*Brawling Block blocks [[attack skill]]s only.\n*This skill is used by [[Courier Falken]].\n\n[[Category:Factions skills]]"
+}

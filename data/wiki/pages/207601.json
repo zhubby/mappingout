@@ -1,0 +1,11 @@
+{
+  "title": "Unnatural Signet (Saul D'Alessio)",
+  "pageid": 207601,
+  "revid": 2712901,
+  "revisedAt": "2025-10-25T23:36:47Z",
+  "sha1": "a2fb9e9f2ea5888ef0d40e9c80bb35398ad22b06",
+  "url": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(Saul_D%27Alessio)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unnatural%20Signet%20(Saul%20D'Alessio)&oldid=2712901",
+  "retrievedAt": "2026-11-16T15:42:03.619Z",
+  "wikitext": "{{Skill infobox\n| id = 2684\n| name = Unnatural Signet (Saul D'Alessio)\n| image = [[File:Unnatural Signet (Saul D'Alessio).jpg]]\n| campaign = Bonus Mission Pack\n| profession = Mesmer\n| attribute = Domination Magic\n| type = Signet\n| special = Bonus Mission Pack\n| activation = 1\n| recharge = 10\n| description = [[Signet]]. [[Target]] [[foe]] takes {{gr2|43|47}} [[damage]]. If that foe is under the effects of a [[hex]] or [[enchantment]], foes [[adjacent]] to your target take {{gr2|26|29}} damage.\n| concise description = Signet. Deals {{gr2|43|47}} damage. Deals {{gr2|26|29}} damage to other adjacent foes if the target is hexed or enchanted.\n| aoe = adjacent\n| target = foes\n}}\n{{Skill progression Bonus Mission Pack\n| attribute rank = 8\n| attribute = [[Domination Magic]]\n| var1 name = [[Damage]]\n| var1 at0 = 15\n| var1 at15 = 75\n| var2 name = Damage to [[adjacent]]\n| var2 at0 = 5\n| var2 at15 = 50}}\n\n== Acquisition ==\nPart of [[Saul D'Alessio (disguise)|Saul D'Alessio]]'s replacement [[skill bar]] during [[The Rise of the White Mantle]] mission.\n\n== Related skills ==\n* {{skill icon|Unnatural Signet}}\n\n==Notes==\n* This skill is normally used with 8 in [[Domination Magic]], but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Domination Magic]].\n* The [[Guild Wars Wiki:Game integration/Skills|skill IDs]] are the only difference between this skill and [[Unnatural Signet]]."
+}

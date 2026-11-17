@@ -1,0 +1,11 @@
+{
+  "title": "Unruly Slaves",
+  "pageid": 25364,
+  "revid": 2692942,
+  "revisedAt": "2024-02-14T05:32:02Z",
+  "sha1": "6ba6f8abf9c4d266e009dfb948b51c9c8789410f",
+  "url": "https://wiki.guildwars.com/wiki/Unruly_Slaves",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Unruly%20Slaves&oldid=2692942",
+  "retrievedAt": "2026-11-16T13:47:37.211Z",
+  "wikitext": "{{quest-stub}}\n{{Quest infobox\n| name = Unruly Slaves\n| map = \n| campaign = Prophecies\n| region = Southern Shiverpeaks\n| section = Sorrow's Furnace\n| type = Secondary\n| repeatable = y\n| given by = [[Krak Flamewhip]]\n| given at = [[Sorrow's Furnace]]\n| part of = [[Summit Slaves]]\n}}\n[[Molachev]] is planning an uprising and [[Krak Flamewhip]] wants you to deal with him.\n\n==Quest information==\n===Requirements===\n* [[Summit Slaves]] active in quest log.\n\n===Objectives===\n* Defeat Molachev\n* See Krak Flamewhip for your reward.\n\n===Reward===\n* 1,500 [[Experience]]\n\n==Walkthrough==\n{{section-stub}}\n\n==NPCs==\n===Foes===\n[[Dredge]]\n*{{w}} 24 (26) [[Dredge Brute]]\n*{{r}} 24 (26) [[Dredge Scout]]\n*{{r}} 24 (26) [[Molachev]]\n*{{mo}} 24 (26) [[Dredge Shaman]]\n[[Dwarf|Dwarves]] ([[Stone Summit]])\n*{{mo}} 24 (26) [[Priest of Sorrows]]\n\n==Dialogue==\n===Initial dialogue===\n'''Krak Flamewhip'''\n:''\"Listen, slave. The [[Dredge]] are planning something...they think to stage an uprising, or some such. Molachev's looking for a fight, and I'm about to send him one. Kill him, and I'll reward ye.\"''\n{{ Offer dialog\n| accept = Your wish is my command.\n| decline = You've got the wrong slave.\n| ask = What're you doing lazing about here? I sent you to kill Molachev! Get moving!\n}}\n\n===Reward dialogue===\n'''Krak Flamewhip'''\n:''\"Good job, slave. Now get back to work.\"''\n\n==Notes==\n* The Stone Basilica can be scouted for [[Summit Slaves]] on the way to Molachev.\n* Darkhaven can be scouted for [[Summit Slaves]] while fighting Molachev.\n** The ally and enemy Dredge in Darkhaven are hostile to each other.\n\n[[Category:Sorrow's Furnace quests]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Rodgort's Invocation",
+  "pageid": 60020,
+  "revid": 2629845,
+  "revisedAt": "2018-06-18T17:42:45Z",
+  "sha1": "728d22deb93c398ed1eeac23783fc4df5eda6985",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Rodgort%27s_Invocation",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Rodgort's%20Invocation&oldid=2629845",
+  "retrievedAt": "2026-11-16T15:41:41.401Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Rodgort's Invocation\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 20\n| description = [[Spell]]. [[Target]] [[foe]] is struck for 200 [[damage]] and [[Burning|set on fire]] for 15 seconds.\n| concise description = Spell. Deals 200 damage and inflicts Burning condition (15 seconds). Burning causes -7 Health degeneration.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Fire Elemental Form]]\n*[[Titan Form]]\n\n==Related skills==\n*{{Skill icon|Rodgort's Invocation}}\n\n==Notes==\n*Burning causes -10 [[health degeneration]] in [[Polymock]].\n\n[[de:Polymock-Anrufung von Rodgort]]"
+}

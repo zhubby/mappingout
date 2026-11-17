@@ -1,0 +1,11 @@
+{
+  "title": "Rocky Ground",
+  "pageid": 307393,
+  "revid": 2596375,
+  "revisedAt": "2015-10-15T14:41:57Z",
+  "sha1": "3cc8ef29169f834713eb3b0d8915bffd462bd068",
+  "url": "https://wiki.guildwars.com/wiki/Rocky_Ground",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rocky%20Ground&oldid=2596375",
+  "retrievedAt": "2026-11-16T15:41:48.052Z",
+  "wikitext": "{{Skill infobox\n| name = Rocky Ground\n| id = 1383\n| campaign = Nightfall\n| type = Environment effect}}\n\n[[Rocky Ground]] is an [[environment effect]] strongly suspected to cause players to leave their [[Junundu]]s if they are currently in one. This effect also displays a message which inform the player that Junundus cannot travel through the rocky terrain. The Junundu will otherwise automatically release the character controlling it, as if the skill [[Leave Junundu]] was used.\n==Notes==\n{{anomaly|[[Junundu Tunnel]] is not removed when walking on rocky ground, allowing players to benefit from the 66% speed boost for a moment.}}"
+}

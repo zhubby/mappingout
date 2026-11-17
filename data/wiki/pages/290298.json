@@ -1,0 +1,11 @@
+{
+  "title": "Feast of Vengeance",
+  "pageid": 290298,
+  "revid": 2619323,
+  "revisedAt": "2017-06-25T19:27:48Z",
+  "sha1": "9138e9d266c25d8910fc4aeb0fbfd277d38b0611",
+  "url": "https://wiki.guildwars.com/wiki/Feast_of_Vengeance",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feast%20of%20Vengeance&oldid=2619323",
+  "retrievedAt": "2026-11-16T15:41:22.185Z",
+  "wikitext": "{{Skill infobox\n| name = Feast of Vengeance\n| id = 2763\n| campaign = Prophecies\n| campaign2 = Nightfall\n| type = Spell\n| special = Candy Corn Infantry\n| energy = 5\n| activation = 1\n| recharge = 8\n| target = foes\n| range = Casting\n| aoe = none\n| causes1 = Life Stealing\n| description = [[Spell]]. [[Life stealing|Steal]] 150 [[Health]] from [[target]] [[foe]].\n| concise description = Spell. You steal 150 Health from target foe.\n}}\n\n==Related skills==\n*{{skill icon|Vampiric Gaze}}\n\n==Notes==\n*This spell is available only during [[Scarred Psyche]].\n*When used, users will shout ''\"NOM NOM NOM!\"''\n\n==Trivia==\n*The [[skill icon]] is a modified version of [[Life Siphon]]'s icon.\n\n[[Category:Halloween skills]]"
+}

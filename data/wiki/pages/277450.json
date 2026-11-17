@@ -1,0 +1,11 @@
+{
+  "title": "Tear Gas",
+  "pageid": 277450,
+  "revid": 2723836,
+  "revisedAt": "2026-04-01T22:56:13Z",
+  "sha1": "60089410596c4100bd1d5704f7c8e25cd9f614b9",
+  "url": "https://wiki.guildwars.com/wiki/Tear_Gas",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tear%20Gas&oldid=2723836",
+  "retrievedAt": "2026-11-16T15:42:01.941Z",
+  "wikitext": "__NOTOC__{{Skill infobox\n| name = Tear Gas\n| id = 3292\n| special = Going Commando\n| campaign = Core\n| type = Spell\n| energy = 10\n| recharge = 20\n| activation = {{1/2}}\n| description = [[Spell]]. Your Tear Gas explodes at [[target]] [[foe]]'s location, striking [[adjacent]] foes for 50 [[fire damage]] and creating a Smoke Screen for 10 seconds. Foes inside the Smoke Screen suffer from [[Poison]] for 10 seconds and cannot cast spells.\n| concise description = Spell. Deals 50 fire damage to target and adjacent foes. Creates a Smoke Screen (10 seconds) that applies poison (10 seconds) and prevents spellcasting.\n| aoe = adjacent\n| target = foes\n}} [[Category:Skills with in the area AoE]]\n\n== Acquisition ==\nThis skill is available while under the [[Going Commando]] disguise during the [[April Fools' Day]] quest [[Annihilator]].\n\n== Notes ==\n\n* Similar to [[shout]]s, characters will say ''\"Gas out!\"'' when this skill is activated.\n* The smoke screen behaves similarly to a [[ward]].\n\n{{anomaly|The descriptions omit that this is a [[projectile spell]].}}\n\n[[Category:Projectile spells]]"
+}

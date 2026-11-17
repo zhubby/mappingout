@@ -1,0 +1,11 @@
+{
+  "title": "Animate Candy Golem",
+  "pageid": 290563,
+  "revid": 2619304,
+  "revisedAt": "2017-06-25T19:26:52Z",
+  "sha1": "8fcb55b035fbd480168f071135daa1f16c7e1258",
+  "url": "https://wiki.guildwars.com/wiki/Animate_Candy_Golem",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Animate%20Candy%20Golem&oldid=2619304",
+  "retrievedAt": "2026-11-16T15:41:05.971Z",
+  "wikitext": "{{Skill infobox\n| name = Animate Candy Golem\n| id = 2764\n| campaign = Prophecies\n| campaign2 = Nightfall\n| type = Spell\n| special = Candy Corn Infantry\n| energy = 10\n| activation = 2\n| recharge = 15\n| target = untargeted\n| range = Casting\n| aoe = none\n| causes1 = Exploits Corpse\n| causes2 = Minion\n| requires1 = Corpse\n| description = [[Spell]]. Exploit nearest [[corpse]] to animate a [[level]] 20 [[Candy Golem]]. You may only have one Candy Golem at a time.\n| concise description = Spell. Creates one level 20 Candy Golem. {{gray|Requires a fresh corpse. You can have only 1 Candy Golem at a time.}}\n}}\n\n==Related skills==\n*{{skill icon|Animate Flesh Golem}} ([[elite]])\n\n==Notes==\n*This [[List of temporary skills|temporary skill]] is available during [[Scarred Psyche]].\n\n==Trivia==\n*This skill replaced [[Animate Candy Minions]] in the [[Feedback:Game_updates/20111026|October 26, 2011 update]].\n\n[[Category:Halloween skills]]\n{{Necromancer minion creation nav}}"
+}

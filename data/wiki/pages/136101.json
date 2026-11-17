@@ -1,0 +1,11 @@
+{
+  "title": "Assassin's Remedy (PvP)",
+  "pageid": 136101,
+  "revid": 2628516,
+  "revisedAt": "2018-06-18T17:18:58Z",
+  "sha1": "2228b58672711bcb98d21a09b851f638a02af09f",
+  "url": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Assassin's%20Remedy%20(PvP)&oldid=2628516",
+  "retrievedAt": "2026-11-16T15:41:07.282Z",
+  "wikitext": "{{pveversion|Assassin's Remedy}}\n\n{{Skill infobox\n| name = Assassin's Remedy (PvP)\n| id = 2869\n| campaign = Nightfall\n| profession = Assassin\n| attribute = Critical Strikes\n| type = Enchantment Spell\n| energy = 10\n| activation = 1\n| recharge = 20\n| description = [[Enchantment Spell]]. For 30 seconds, the next {{gr|1|10}} [[attack skill]]s you use remove one [[condition]].\n| concise description = Enchantment Spell. (30 seconds.) Your next {{gr|1|10}} attack skills each remove one condition.\n| is-pvp = y\n| target = self\n| removes1 = Condition\n}}\n\n{{Skill progression\n|attribute = [[Critical Strikes]]\n|var1 name = [[Attack skill]]s\n|var1 at0 = 1\n|var1 at15 = 10}}\n\n[[de:Mittel des Assassinen (PvP)]]"
+}

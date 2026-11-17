@@ -1,0 +1,11 @@
+{
+  "title": "Empathy (PvP)",
+  "pageid": 253804,
+  "revid": 2628761,
+  "revisedAt": "2018-06-18T17:27:17Z",
+  "sha1": "c8b2ae2ac01d5a6a1513a09ce01f1b599bbd0f89",
+  "url": "https://wiki.guildwars.com/wiki/Empathy_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Empathy%20(PvP)&oldid=2628761",
+  "retrievedAt": "2026-11-16T15:41:19.539Z",
+  "wikitext": "{{pveversion|Empathy}}\n{{Skill infobox\n| id = 3151\n| name = Empathy (PvP)\n| campaign = Core\n| profession = Mesmer\n| is-pvp = y\n| attribute = Domination Magic\n| type = Hex Spell\n| energy = 10\n| activation = 2\n| recharge = 10\n| description = [[Hex Spell]]. For {{gr|5|15}} seconds, whenever [[target]] [[foe]] [[attack]]s, that foe takes {{gr|15|45}} [[damage]].\n| concise description = Hex Spell. ({{gr|5|15}} seconds.) Target foe takes {{gr|15|45}} damage whenever it attacks.\n}}\n\n{{Skill progression\n|attribute = [[Domination Magic]]\n|var1 name = [[Duration]]\n|var1 at0 = 5\n|var1 at15 = 15\n|var2 name = [[Damage]]\n|var2 at0 = 15\n|var2 at15 = 45}}\n\n== Related skills ==\n* {{skill icon|Insidious Parasite}}\n* {{skill icon|Spiteful Spirit}} ([[elite]])\n* {{skill icon|Spoil Victor (PvP)}} (elite)\n\n== Notes ==\n* Attacks only have to be made, not hit.\n{{anomaly|Unlike [[Vigorous Spirit]], Empathy triggers on [[fail]]ed [[attack skill]]s.}}\n\n[[de:Empathie (PvP)]]"
+}

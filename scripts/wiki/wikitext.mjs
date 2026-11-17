@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖固定 Wiki 文本与模板、链接语法。
+ * [OUTPUT]: 提供顶层切分、模板字段、纯文本、分节与链接。
+ * [POS]: Wiki 采集和事实编译的基础解析层；未知模板保留原文。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 export function splitTopLevel(text, delimiter = '|') {
   const parts = []; let braces = 0, brackets = 0, start = 0;
   for (let i = 0; i < text.length; i++) {

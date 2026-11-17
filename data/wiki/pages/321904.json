@@ -1,0 +1,11 @@
+{
+  "title": "\"Stand Together!\"",
+  "pageid": 321904,
+  "revid": 2739740,
+  "revisedAt": "2026-09-07T13:39:24Z",
+  "sha1": "3f590ee1eb3e2bfd51e9ad4d5bfadad81239f016",
+  "url": "https://wiki.guildwars.com/wiki/%22Stand_Together!%22",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Stand%20Together!%22&oldid=2739740",
+  "retrievedAt": "2026-11-16T15:41:04.641Z",
+  "wikitext": "{{Skill infobox\n| id = 3343\n| name = \"Stand Together!\"\n| campaign = Core\n| type = Effect\n| description = If you are Adjacent to an ally, your melee attacks have 15% armor penetration, and you have an additional +5% armor.\n| concise description = While adjacent to an ally, gain 15% armor penetration on melee attacks and +5 armor.\n}}"
+}

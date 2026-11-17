@@ -1,0 +1,11 @@
+{
+  "title": "Enfeeble (PvP)",
+  "pageid": 136091,
+  "revid": 2628778,
+  "revisedAt": "2018-06-18T17:28:05Z",
+  "sha1": "a8b6ed78e8800b7a58103cbb763a2e08cd06e2d4",
+  "url": "https://wiki.guildwars.com/wiki/Enfeeble_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Enfeeble%20(PvP)&oldid=2628778",
+  "retrievedAt": "2026-11-16T15:41:20.125Z",
+  "wikitext": "{{pveversion|Enfeeble}}\n\n{{Skill infobox\n| name = Enfeeble (PvP)\n| id = 2859\n| campaign = Prophecies\n| profession = Necromancer\n| attribute = Curses\n| type = Spell\n| energy = 5\n| recharge = 10\n| activation = {{1/4}}\n| causes1 = Weakness\n| description = [[Spell]]. [[Target]] suffers from [[Weakness]] for {{gr|10|30}} seconds.\n| concise description = Spell. Inflicts Weakness condition ({{gr|10|30}} seconds).\n| is-pvp = y\n| target = foes\n}}\n\n{{Skill progression\n|attribute = [[Curses]]\n|var1 name = [[Duration]]\n|var1 at0 = 10\n|var1 at15 = 30}}\n\n[[de:Schwächen (PvP)]]"
+}

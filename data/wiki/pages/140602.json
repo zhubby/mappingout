@@ -1,0 +1,11 @@
+{
+  "title": "Fire Storm (environment)",
+  "pageid": 140602,
+  "revid": 2581904,
+  "revisedAt": "2015-01-27T09:57:15Z",
+  "sha1": "4b5b3d6634aa47c16316279bf29be3c2a8a8eca4",
+  "url": "https://wiki.guildwars.com/wiki/Fire_Storm_(environment)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fire%20Storm%20(environment)&oldid=2581904",
+  "retrievedAt": "2026-11-16T15:41:22.673Z",
+  "wikitext": "{{Skill infobox\n| id = 489\n| name = Fire Storm\n| campaign = Prophecies\n| image = [[Image:Fire Storm (environment).jpg]]\n| type = Spell\n| description = [[Spell]]. Fire Storm\n| concise description = Spell. Fire Storm\n| special = Environment\n}}\n\n== Related skills ==\n* {{Skill icon|Chain Lightning (environment)}}\n* {{Skill icon|Eruption (environment)}}\n* {{Skill icon|Fire Storm}}\n* {{Skill icon|Maelstrom (environment)}}\n\n== Notes ==\n* Encountered during [[the Dragon's Lair]] mission.\n* Inflicts 32 [[damage per second]] against [[armor rating]] 60.{{verify|Does it deal fire damage or untyped damage?}}"
+}

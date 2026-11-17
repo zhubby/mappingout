@@ -1,0 +1,11 @@
+{
+  "title": "Signet of Pious Restraint (PvP)",
+  "pageid": 274800,
+  "revid": 2739043,
+  "revisedAt": "2026-08-28T22:30:05Z",
+  "sha1": "7398cb573da07f2fcb9ad57464b3b09a259466bb",
+  "url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Signet%20of%20Pious%20Restraint%20(PvP)&oldid=2739043",
+  "retrievedAt": "2026-11-16T15:41:52.901Z",
+  "wikitext": "{{pveversion|Signet of Pious Restraint}}\n{{Skill infobox\n| id = 3273\n| name = Signet of Pious Restraint (PvP)\n| campaign = Eye of the North\n| profession = Dervish\n| attribute = Wind Prayers\n| type = Signet\n| activation = 1\n| recharge = 16\n| target = foes\n| is-pvp = y\n| range = casting\n| aoe = none\n| causes1 = Crippled\n| causes2 = Decreased Recharge Time\n| removes1 = Enchantment\n| description = [[Signet]]. Lose 1 [[Dervish]] [[enchantment]] and [[Cripple]] target [[foe]] {{gr|5|15}} seconds. If an enchantment was removed, this [[skill]] recharges 50% faster.\n| concise description = Signet. ({{gr|5|15}} seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 50% faster.\n}}\n\n{{Skill progression\n|attribute = [[Wind Prayers]]\n|var1 name = [[Crippled]] [[duration]]\n|var1 at0 = 5\n|var1 at15 = 15}}\n\n== Trivia ==\n{{Skill change}}\n\n[[de:Siegel der frommen Zurückhaltung (PvP)]]"
+}

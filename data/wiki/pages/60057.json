@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Piercing Light Spear",
+  "pageid": 60057,
+  "revid": 2629840,
+  "revisedAt": "2018-06-18T17:42:35Z",
+  "sha1": "cdce6afe79b11311f0d3dd7cc09d195f167f38cd",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Piercing_Light_Spear",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Piercing%20Light%20Spear&oldid=2629840",
+  "retrievedAt": "2026-11-16T15:41:41.402Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Piercing Light Spear\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 5\n| description = [[Spell]]. A Piercing Light Spear [[Projectile|flies toward]] [[target]] [[foe]] and causes [[Bleeding]] for 20 seconds if it hits.\n| concise description = Spell. Projectile: inflicts Bleeding condition (20 seconds). Bleeding causes -3 Health degeneration.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Charr Shaman Form]]\n\n==Related skills==\n*{{skill icon|Barbed Spear}}\n*{{skill icon|Hunter's Shot}}\n*{{skill icon|Polymock Ice Shard Storm}}\n*{{skill icon|Polymock Poisoned Ground}}\n*{{skill icon|Polymock Rotting Flesh}}\n\n==Notes==\n*Bleeding causes -10 [[health degeneration]] in [[Polymock]].\n\n[[de:Durchbohrender Polymock-Lichtspeer]]"
+}

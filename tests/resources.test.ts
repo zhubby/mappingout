@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖资源归档、签名验证、发布函数和固定签名样本。
+ * [OUTPUT]: 验证归档约束、签名拒绝和发布中断恢复。
+ * [POS]: 资源分发回归；使用本地发布替身保护不可变包。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import {test,expect} from 'vitest';
 import fs from 'node:fs/promises';
 import path from 'node:path';

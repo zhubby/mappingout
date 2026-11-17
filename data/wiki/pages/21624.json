@@ -1,0 +1,11 @@
+{
+  "title": "Ram",
+  "pageid": 21624,
+  "revid": 2629898,
+  "revisedAt": "2018-06-18T17:44:32Z",
+  "sha1": "252fd8ab04b3483aeaf8bc097a67a7f94310556c",
+  "url": "https://wiki.guildwars.com/wiki/Ram",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ram&oldid=2629898",
+  "retrievedAt": "2026-11-16T15:41:44.115Z",
+  "wikitext": "{{Skill infobox\n| name = Ram\n| campaign = Core\n| type = Skill\n| special = Rollerbeetle\n| description = [[Skill (skill type)|Skill]]. For 2 seconds, all [[adjacent]] enemy rollerbeetles are [[knock down|knocked down]].\n| concise description = Skill. Knocks-down adjacent enemy rollerbeetles (2 seconds.)\n| aoe = adjacent\n}}\n\n== Acquisition ==\nAutomatically equipped upon entry into the [[Rollerbeetle Racing (outpost)|Rollerbeetle Racing outpost]].\n\n==Notes==\n*The skill descriptions omit that this skill can only be recharged by passing through a [[Rollerbeetle Racing#Checkpoints|checkpoint]].\n{{Anomaly|Although not noted in the skill description, it will also boost the beetle's speed to the maximum.}}\n\n[[de:Rammen]]"
+}

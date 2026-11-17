@@ -1,0 +1,11 @@
+{
+  "title": "Brawling Uppercut",
+  "pageid": 63356,
+  "revid": 2679375,
+  "revisedAt": "2022-07-28T08:51:50Z",
+  "sha1": "3e3d0f75c57a42651fbd67e15c8d8cfffa462a26",
+  "url": "https://wiki.guildwars.com/wiki/Brawling_Uppercut",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Brawling%20Uppercut&oldid=2679375",
+  "retrievedAt": "2026-11-16T15:41:10.393Z",
+  "wikitext": "{{Skill infobox\n| id = 2340\n| name = Brawling Uppercut\n| campaign = Eye of the North\n| type = Melee Attack\n| special = Brawling\n| adrenaline = 10\n| description = [[Melee Attack]]. You deliver an uppercut to your [[foe]], dealing 80 [[damage]]. This attack cannot be [[block]]ed.\n| concise description = Melee Attack. Deals 80 damage. Unblockable.\n}}\n\n== Acquisition ==\nAutomatically equipped upon entry to zones requiring [[Brawling]].\n\n==Notes==\n*This skill is used by [[Courier Falken]].\n*Requires either [[Brass Knuckles]] or [[Thunderfist's Brass Knuckles]].\n\n== Trivia ==\nAnimation appears very similar to the [[w:Shoryuken|Shoryuken]] (or Dragon Punch) used by Ryu (and others) of the [[w:Street_Fighter_%28series%29|Street Fighter]] video game series.\n\n[[Category:Factions skills]]"
+}

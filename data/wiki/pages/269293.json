@@ -1,0 +1,11 @@
+{
+  "title": "Rain of Arrows",
+  "pageid": 269293,
+  "revid": 2608176,
+  "revisedAt": "2016-06-20T21:16:44Z",
+  "sha1": "40f22eee371eb243d6c51884c2a5be33a5310cb7",
+  "url": "https://wiki.guildwars.com/wiki/Rain_of_Arrows",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Rain%20of%20Arrows&oldid=2608176",
+  "retrievedAt": "2026-11-16T15:41:44.119Z",
+  "wikitext": "{{Skill infobox\n| id = 3249\n| name = Rain of Arrows\n| campaign = Hearts of the North\n| type = Bow Attack\n| special = Keiran Thackeray\n| energy = 5\n| activation = 1\n| recharge = 4\n| description = [[Bow Attack]]. Shoot arrows at [[target]] [[foe]] and up to 3 foes [[nearby|near]] your target. Each arrow strikes for +20 [[damage]] if it hits.\n| concise description = Bow Attack. Deals +20 damage. Hits up to 3 foes near your target.\n| aoe = nearby\n}}\n\n== Related skills ==\n* {{skill icon|Barrage}} ([[elite]])\n* {{skill icon|Incendiary Arrows}} (elite)\n* {{skill icon|Volley}}\n\n== Notes ==\n* Part of the [[Keiran Thackeray (disguise)]] replacement skillbar.\n\n[[Category:Hearts of the North skills]]"
+}

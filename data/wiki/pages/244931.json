@@ -1,0 +1,11 @@
+{
+  "title": "Essence Strike (Togo)",
+  "pageid": 244931,
+  "revid": 2589402,
+  "revisedAt": "2015-06-08T15:06:52Z",
+  "sha1": "a8c07d4886a28eb1102970cfcaf928a797dc91f6",
+  "url": "https://wiki.guildwars.com/wiki/Essence_Strike_(Togo)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Essence%20Strike%20(Togo)&oldid=2589402",
+  "retrievedAt": "2026-11-16T15:41:20.658Z",
+  "wikitext": "{{Skill infobox\n| id = 2686\n| image = [[File:Essence Strike (Togo).jpg]]\n| name = Essence Strike (Togo)\n| campaign = Bonus Mission Pack\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Spell\n| special = Bonus Mission Pack\n| energy = 5\n| activation = 1\n| recharge = 8\n| target = foes\n| description = [[Spell]]. [[Target]] [[foe]] is struck for {{gr Bonus Mission Pack|15|60|14}} [[lightning damage]]. If any [[spirit]]s are within [[earshot]], you gain {{gr Bonus Mission Pack|1|9|14}} [[Energy]].\n| concise description = Spell. Deals {{gr Bonus Mission Pack|15|60|14}} lightning damage. You gain {{gr Bonus Mission Pack|1|9|14}} Energy if any spirits are within earshot.\n}}\n\n{{Skill progression Bonus Mission Pack\n| attribute rank = 14 \n| attribute = [[Channeling Magic]]\n| maximum = 19\n| var1 name = [[Lightning damage]]\n| var1 at0 = 15\n| var1 at15 = 60\n| var2 name = [[Energy]] gain\n| var2 at0 = 1\n| var2 at15 = 9}}\n\n== Acquisition ==\nPart of [[Togo (disguise)|Togo]]'s replacement [[skill bar]] during [[The Tengu Accords]] mission.\n\n== Related skills ==\n* {{skill icon|Essence Strike}}\n\n== Notes ==\n* This skill is normally used with 14 in [[Channeling Magic]], but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Channeling Magic]] or [[of Mastery]]."
+}

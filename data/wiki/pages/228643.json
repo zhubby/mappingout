@@ -1,0 +1,11 @@
+{
+  "title": "Reversal of Death",
+  "pageid": 228643,
+  "revid": 2629933,
+  "revisedAt": "2018-06-18T17:45:46Z",
+  "sha1": "8ba7870c17914131943633f647cfe1585def7721",
+  "url": "https://wiki.guildwars.com/wiki/Reversal_of_Death",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Reversal%20of%20Death&oldid=2629933",
+  "retrievedAt": "2026-11-16T15:41:46.994Z",
+  "wikitext": "{{Skill infobox\n| name = Reversal of Death\n| id= 3090\n| special = Spirit Form \n| campaign = Core\n| type = Spell\n| energy = 1\n| activation = {{1/4}}\n| recharge = 7\n| target =  other allies\n| range = Casting\n| aoe = none\n| removes1 = Death Penalty\n| description = [[Spell]]. Remove 5% [[Death Penalty]] from [[target]] other [[ally]].\n| concise description = Spell. Remove 5% [[Death Penalty]]. {{gray|Cannot self-target.}}\n}}\n\n== Related skills ==\n*{{skill icon|Asuran Scan}}\n\n==Notes==\n{{anomaly|Contrary of what the description says, this skill actually gives a 5% morale boost.}}\n*This skill can only be used while under [[Spirit Form (disguise)|Spirit Form disguise]].\n\n[[de:Umkehrung des Todes]]"
+}

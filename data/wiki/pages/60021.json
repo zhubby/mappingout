@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Immolate",
+  "pageid": 60021,
+  "revid": 2629825,
+  "revisedAt": "2018-06-18T17:42:05Z",
+  "sha1": "1628ea6632d975aae127b2c7751c6594cf7eab35",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Immolate",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Immolate&oldid=2629825",
+  "retrievedAt": "2026-11-16T15:41:40.921Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Immolate\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 10\n| description = [[Spell]]. Target foe is set on fire for 20 seconds.\n| concise description = Spell. Inflicts Burning condition (20 seconds). Burning causes -7 Health degeneration.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Fire Imp Form]]\n\n==Notes==\n*Burning causes 10 health degeneration in Polymock.\n\n==Related skills==\n*{{Skill icon|Immolate}}\n\n[[de:Polymock-Feueropfer]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Disenchantment (Togo)",
+  "pageid": 218671,
+  "revid": 2635250,
+  "revisedAt": "2018-12-04T00:02:33Z",
+  "sha1": "fe8a3d2527ff957ecf5f9438ad4db16ddde00202",
+  "url": "https://wiki.guildwars.com/wiki/Disenchantment_(Togo)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Disenchantment%20(Togo)&oldid=2635250",
+  "retrievedAt": "2026-11-16T15:41:17.798Z",
+  "wikitext": "{{Skill infobox\n| id = 2691\n| image = [[File:Disenchantment (Togo).jpg]]\n| name = Disenchantment (Togo)\n| campaign = Bonus Mission Pack\n| profession = Ritualist\n| attribute = Communing\n| type = Binding Ritual\n| special = Bonus Mission Pack\n| energy = 25\n| activation = 5\n| recharge = 45\n| description = [[Binding Ritual]]. Create a level {{gr Bonus Mission Pack|1|8|11}} [[spirit]]. This spirit deals {{gr Bonus Mission Pack|5|20|11}} [[damage]] and anyone struck by its [[attack]] loses one [[enchantment]]. This spirit dies after {{gr Bonus Mission Pack|10|35|11}} seconds.\n| concise description = [[Binding Ritual]]. Creates a level {{gr Bonus Mission Pack|1|8|11}} spirit ({{gr Bonus Mission Pack|10|35|11}} second lifespan). Its attacks deal {{gr Bonus Mission Pack|5|20|11}} damage and remove one enchantment.\n| target = untargeted\n| aoe = none\n}}\n\n{{Skill progression Bonus Mission Pack\n| attribute rank = 11\n| attribute = [[Communing]]\n| var1 name = Level\n| var1 at0 = 1\n| var1 at15 = 8\n| var2 name = [[Damage]]\n| var2 at0 = 5\n| var2 at15 = 20\n| var3 name = [[Duration]]\n| var3 at0 = 10\n| var3 at15 = 35}}\n\n== Acquisition ==\nPart of [[Togo (disguise)|Togo's]] replacement [[skill bar]] during [[The Tengu Accords]] mission.\n\n== Related skills ==\n* {{skill icon|Disenchantment}}\n\n== Notes ==\n* This skill is normally used with 11 in [[Communing]] (its spirit's level differs from [[Disenchantment]]), but the attribute rank can be affected by [[Weakness]] and a [[Staff Wrapping]] [[Of Attribute|of Communing]].\n* This skill creates a [[Spirit of Disenchantment]] that uses the [[Disenchantment (attack)|Disenchantment attack skill]].\n* Like other spirits, this does not preferentially [[target]] [[foe]]s against which its effect would be useful (in this case, enchanted foes)."
+}

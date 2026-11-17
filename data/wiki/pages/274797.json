@@ -1,0 +1,11 @@
+{
+  "title": "Irresistible Sweep (PvP)",
+  "pageid": 274797,
+  "revid": 2733319,
+  "revisedAt": "2026-07-05T17:40:19Z",
+  "sha1": "37cdf5260d4bfab67e7c135316c7fa6c2baa6a8d",
+  "url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Irresistible%20Sweep%20(PvP)&oldid=2733319",
+  "retrievedAt": "2026-11-16T15:41:31.264Z",
+  "wikitext": "{{pveversion|Irresistible Sweep}}\n{{Skill infobox\n| id = 3265\n| name = Irresistible Sweep (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Scythe Mastery\n| type = Scythe Attack\n| adrenaline = 5\n| is-pvp = y\n| causes1 = Unblockable\n| removes1 = Enchantment\n| removes2 = Stance\n| description = [[Scythe Attack]]. Deal {{gr|3|15|+}} damage and lose 1 [[Dervish]] [[enchantment]]. If you lose an enchantment in this way, Irresistible Sweep cannot be [[block]]ed and removes a [[stance]].\n| concise description = Scythe Attack.  Deals {{gr|3|15|+}} damage.  Remove 1 of your Dervish enchantments.  Removal effect: unblockable, removes a stance.\n}}\n\n{{Skill progression\n| attribute = [[Scythe Mastery]]\n| var1 name = + [[Damage]]\n| var1 at0 = 3\n| var1 at15 = 15}}\n\n==Related skills==\n*{{skill icon|Wild Blow}}\n*{{skill icon|Wild Strike (PvP)}}\n*{{skill icon|Wild Throw}}\n\n{{DEFAULTSORT:Irresistible Sweep}}\n[[de:Unwiderstehlicher Schwung (PvP)]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Rotting Flesh",
+  "pageid": 59988,
+  "revid": 2629846,
+  "revisedAt": "2018-06-18T17:42:47Z",
+  "sha1": "25afa78e89301fe424fe8eb931f0c72420b69726",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Rotting_Flesh",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Rotting%20Flesh&oldid=2629846",
+  "retrievedAt": "2026-11-16T15:41:41.400Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Rotting Flesh\n| campaign = Eye of the North\n| special = Polymock\n| type = Spell\n| energy = 2\n| activation = 2\n| recharge = 20\n| description = [[Spell]]. [[Target]] [[foe]] becomes [[Disease]]d for 20 seconds and slowly loses [[Health]].\n| concise description = Spell. Inflicts Diseased condition (20 seconds). Disease causes -4 Health degeneration.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Skale Form]]\n\n==Related skills==\n*{{skill icon|Polymock Ice Shard Storm}}\n*{{skill icon|Polymock Piercing Light Spear}}\n*{{skill icon|Polymock Poisoned Ground}}\n*{{Skill icon|Rotting Flesh}}\n\n==Notes==\n*Disease causes -10 [[health degeneration]] in [[Polymock]].\n\n[[de:Verrottendes Polymock-Fleisch]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Farmer's Scythe (PvP)",
+  "pageid": 320381,
+  "revid": 2733326,
+  "revisedAt": "2026-07-05T17:43:17Z",
+  "sha1": "400ca02c51e75fcb2bbc9d1526102f5e3e1cbdd8",
+  "url": "https://wiki.guildwars.com/wiki/Farmer%27s_Scythe_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Farmer's%20Scythe%20(PvP)&oldid=2733326",
+  "retrievedAt": "2026-11-16T15:41:22.186Z",
+  "wikitext": "{{pveversion|Farmer's Scythe}}\n\n{{Skill infobox\n| id = 3437\n| name=Farmer's Scythe (PvP)\n| campaign=Eye of the North\n| profession=Dervish\n| attribute=Scythe Mastery\n| type=Scythe Attack\n| energy=5\n| recharge=20\n| is-pvp = y\n| causes1 = Recharge\n| description = [[Scythe Attack]]. If this attack hits, you deal {{gr|5|35|+}} [[damage]]. If you hit more than one [[foe]], this attack [[Recharge time|recharges]] instantly.\n| concise description = Scythe Attack.  Deals {{gr|5|35|+}} damage.  Instant recharge if you hit more than one foe.\n}}\n\n{{Skill progression\n|attribute = [[Scythe Mastery]]\n|var1 name = + [[Damage]]\n|var1 at0 = 5\n|var1 at15 = 35}}\n\n==Notes==\n{{bug|The recharge effect will occur if you [[attack]] more than one foe; thus, this skill will recharge even if you [[miss]] or are [[block]]ed.}}\n\n[[Category:Skills offered by hero skill trainers]]"
+}

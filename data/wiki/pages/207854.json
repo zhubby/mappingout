@@ -1,0 +1,11 @@
+{
+  "title": "Bloodsong (PvP)",
+  "pageid": 207854,
+  "revid": 2731219,
+  "revisedAt": "2026-06-25T05:09:24Z",
+  "sha1": "6899ced9dd94c0a812a9ab29f09adf480a8ce24f",
+  "url": "https://wiki.guildwars.com/wiki/Bloodsong_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Bloodsong%20(PvP)&oldid=2731219",
+  "retrievedAt": "2026-11-16T15:41:09.706Z",
+  "wikitext": "{{pveversion|Bloodsong}}\n{{Skill infobox\n| name = Bloodsong (PvP)\n| id = 3019\n| campaign = Factions\n| profession = Ritualist\n| attribute = Channeling Magic\n| type = Binding Ritual\n| energy = 5\n| recharge = 30\n| activation = 1{{1/2}}\n| causes1 = Spirit\n| causes2 = Life Stealing\n| description=[[Binding Ritual]]. Create a level {{gr|1|8}} [[spirit]] who dies after {{gr|30|150}} seconds. [[Attack]]s by that spirit [[life stealing|steal]] up to {{gr|5|25}} [[Health]].\n| concise description = Binding Ritual. Creates a level {{gr|1|8}} spirit ({{gr|30|150}} second lifespan). Its attacks steal {{gr|5|25}} Health.\n| is-pvp = y \n| target = untargeted\n| aoe = none\n}}\n\n{{Skill progression\n|attribute = [[Channeling Magic]]\n|maximum = 19\n|var1 name = Level\n|var1 at0 = 1\n|var1 at15 = 8\n|var2 name = [[Duration]]\n|var2 at0 = 30\n|var2 at15 = 150\n|var3 name = [[Life stealing]]\n|var3 at0 = 5\n|var3 at15 = 25}}\n\n== Related skills ==\n* {{skill icon|Pain (PvP)}}\n\n== Notes ==\n* This skill creates a [[Spirit of Blood Song]] that uses the [[Bloodsong (attack)]] skill.\n* The attacks made by the Spirit of Blood Song steal health from its [[target]] for its own benefit, not for the benefit of the player who spawned the spirit.\n** Since the Spirit of Blood Song [[heal]]s itself, it is a prime candidate for use with [[Spirit Transfer]].\n* Combine with [[Spiritleech Aura]] to gain additional life stealing.\n* The attacks used by this spirit steal health, so it does not receive the bonus damage from [[Signet of Ghostly Might (PvP)]].\n\n[[de:Blutgesang (PvP)]]"
+}

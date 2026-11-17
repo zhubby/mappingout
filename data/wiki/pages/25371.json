@@ -1,0 +1,11 @@
+{
+  "title": "Seek Out Headmaster Kaa",
+  "pageid": 25371,
+  "revid": 2692756,
+  "revisedAt": "2024-02-07T21:08:16Z",
+  "sha1": "715438fd4769e8843fd735af1feb02efcf56a108",
+  "url": "https://wiki.guildwars.com/wiki/Seek_Out_Headmaster_Kaa",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Seek%20Out%20Headmaster%20Kaa&oldid=2692756",
+  "retrievedAt": "2026-11-16T13:47:13.092Z",
+  "wikitext": "__NOTOC__{{Quest infobox\n| name = Seek Out Headmaster Kaa\n| campaign = Factions\n| nationality = Canthan\n| region =Shing Jea Island\n| type = Primary\n| given by = [[Ludo]]\n| given at = [[Monastery Overlook]]\n| preceded by = [[Mantid Hatchlings]]\n| followed by = [[Locate Mei Ling]]\n| profession = Mesmer\n| primary = y\n}}\nSpeak to [[Headmaster Kaa]] to begin your [[mesmer]] training.\n\n==Quest information==\n===Requirements===\n{{ Standard prerequisites\n| campaign = factions\n| profession = Mesmer\n| primary = y\n}}\n\n===Objectives===\n* Talk to Ludo to gain entrance to the monastery.\n* Seek out [[Headmaster Kaa]] in the monastery. \n\n===Reward===\n* 250 [[Experience]]\n* 20 [[Gold]]\n\n==Walkthrough==\nSpeak to Ludo at the entrance to Shing Jea Monastery to enter. If you skipped the tutorial [[Mantid Hatchlings]], you will learn the [[skill]]s\n* {{skill icon|Empathy}}\n* {{skill icon|Ether Feast}}\n* {{skill icon|Resurrection Signet}}\ngain 2,000 experience, and acquire a [[Starter Cane]] after entering the monastery. You would have already received these if you did the tutorial. Speak to Headmaster Kaa, who is nearby, for your reward.\n\n==Dialogue==\n===Initial dialogue===\n'''Ludo'''\n:''\"Hello, young Mesmer! I am happy to enroll you in the monastery so you can begin your training. Seek out '''Headmaster Kaa''', the Mesmer headmaster. He is here in the '''monastery'''. Enjoy your first day!\"''\n{{ Offer dialog\n| accept = I'll seek out Headmaster Kaa.\n| decline = I'm going to have a look around, first.\n| ask = '''Headmaster Kaa''' should be here in the monastery. I told him of your arrival, so he will be waiting for you.\n}}\n\n===Reward dialogue===\n'''Headmaster Kaa'''\n:''\"That Ludo is an interesting fellow, is he not? He has stood at our gates these twenty years.\"''\n\n==Notes==\n*If you abandon this quest, it cannot be retaken, but you can take the following quest immediately."
+}

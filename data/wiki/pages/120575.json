@@ -1,0 +1,11 @@
+{
+  "title": "BAMPH!",
+  "pageid": 120575,
+  "revid": 2741705,
+  "revisedAt": "2026-09-26T01:57:31Z",
+  "sha1": "e3272177d7080d4b88f558854e81aa1b86872de7",
+  "url": "https://wiki.guildwars.com/wiki/BAMPH!",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=BAMPH!&oldid=2741705",
+  "retrievedAt": "2026-11-16T15:41:08.680Z",
+  "wikitext": "{{Skill infobox\n| id = 4\n| name = BAMPH!\n| type = Skill\n| description = [[Skill (skill type)|Skill]]. BAMPH!\n| concise description = Skill. BAMPH!\n}}\n\n== Notes ==\n* This is an [[ArenaNet]] developer skill used in testing. It is not a usable skill on the live servers.\n* The [[skill icon]] is that of a generic skill's with \"D3v H@X\" (Dev Hax) and \"RiP Troggy\" superimposed on it.\n* BAMPH! does 999 [[damage]] when it [[target]]s a [[foe]]. If it targets self it gives a [[speed boost]], extra [[health]] and [[energy]] regeneration and you can't be slowed down (source: [[User talk:Isaiah Cartwright/Izzy Talk Archive 8#Dev Only Skills|Izzy talk]]).\n* There are several variations of this skill such as a lite version and delayed version.\n* See BAMPH! in action [https://me.ign.com/en/guild-wars-eye-of-the-north/35229/official-demo-overview-hd in this IGN demo of EotN] at around 4:20 and 7:40.\n\n== See also ==\n* {{skill icon|Delayed Blast BAMPH!}}\n* {{skill icon|Bamph Lifesteal}}\n* {{skill icon|Bamph-Lite}}\n* {{skill icon|Test Buff}}\n\n== Trivia ==\n* \"RIP Troggy\" refers to [[W:Trogdor|Trogdor]], who used to be the icon for this skill.\n* The name likely refers to \"BAMF\", which stands for \"Bad-Ass Mother Fucker\".\n\n[[Category:Dev content]]\n\n[[de:BAMPH!]]"
+}

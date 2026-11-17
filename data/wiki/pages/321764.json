@@ -1,0 +1,11 @@
+{
+  "title": "Fleeting Stability (PvP)",
+  "pageid": 321764,
+  "revid": 2738540,
+  "revisedAt": "2026-08-26T21:47:45Z",
+  "sha1": "f6231c102cc27826bc7718a946cf32953324e5c6",
+  "url": "https://wiki.guildwars.com/wiki/Fleeting_Stability_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Fleeting%20Stability%20(PvP)&oldid=2738540",
+  "retrievedAt": "2026-11-16T15:41:22.673Z",
+  "wikitext": "__NOTOC__{{Pveversion|Fleeting Stability}}\n{{Skill infobox\n| id = 3470\n| name = Fleeting Stability (PvP)\n| campaign = Nightfall\n| profession = Dervish\n| attribute = Earth Prayers\n| type = Flash Enchantment Spell\n| energy = 5\n| recharge = 10\n| causes1 = Knockdown Immunity\n| causes2 = Increased Movement Speed\n| description = [[Flash Enchantment Spell]]. For {{gr|2|8}} seconds, you cannot be [[knock down|knocked down]] and [[Speed boost|move 25% faster]]. This [[enchantment]] ends prematurely if it prevents a knockdown.\n| concise description = Flash Enchantment Spell. ({{gr|2|8}} seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented.\n| is-pvp = y\n}}\n\n{{Skill progression\n|attribute = [[Earth Prayers]]\n|var1 name = [[Duration]]\n|var1 at0 = 2\n|var1 at15 = 8}}\n\n==Related skills==\n* {{skill icon|Steady Stance}} ([[elite]])\n\n== Notes ==\n{{speed|2|8|25|10}}\n*[[Skill queue|Queue]] this skill while knocked down to avoid being [[quarterknock]]ed."
+}

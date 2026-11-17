@@ -1,0 +1,11 @@
+{
+  "title": "Polymock Glyph Freeze",
+  "pageid": 60042,
+  "revid": 2629817,
+  "revisedAt": "2018-06-18T17:41:48Z",
+  "sha1": "47f3612acf3b27c4d79dda6542f9f2afec0bfd27",
+  "url": "https://wiki.guildwars.com/wiki/Polymock_Glyph_Freeze",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Polymock%20Glyph%20Freeze&oldid=2629817",
+  "retrievedAt": "2026-11-16T15:41:40.922Z",
+  "wikitext": "{{Skill infobox\n| name = Polymock Glyph Freeze\n| campaign = Eye of the North\n| special = Polymock\n| type = Hex Spell\n| energy = 6\n| activation = 1\n| recharge = 20\n| description = [[Hex Spell]]. You cause a Glyph Freeze at target foe's location. Target foe is struck for 600 damage, and for 10 seconds, all glyphs cast by that foe take an additional 1 seconds to cast.\n| concise description = Hex Spell. (10 seconds.) Initial effect: deals 600 damage. Target foe's glyphs take +1 second to cast.}}\n\n==Acquisition==\nThis skill is available in the following Polymock forms:\n*[[Ice Elemental Form]]\n\n==Related skills==\n*{{skill icon|Deep Freeze}}\n\n[[de:Polymock-Glyphen-Stopp]]"
+}

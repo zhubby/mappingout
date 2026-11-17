@@ -1,0 +1,11 @@
+{
+  "title": "Miniature Companion: Eye of the North",
+  "pageid": 317488,
+  "revid": 2727955,
+  "revisedAt": "2026-05-11T22:05:55Z",
+  "sha1": "152c0dc4ba1b490591cc72dfdc54037e530a24c5",
+  "url": "https://wiki.guildwars.com/wiki/Miniature_Companion:_Eye_of_the_North",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Miniature%20Companion%3A%20Eye%20of%20the%20North&oldid=2727955",
+  "retrievedAt": "2026-11-16T13:47:01.038Z",
+  "wikitext": "{{Quest infobox\n| id = 1444\n| type2 = Secondary\n| required = Eye of the North\n| name = Miniature Companion: Eye of the North\n| map = \n| given by =[[Merrise, Sworn to Seas]]\n| given at =[[Embark Beach]] \n| experience reward = 2025\n| section = Festival Event\n}}__NOTOC__\n\n\n==Quest information==\n===Objectives===\n* Redeem a fully complete copy of the [[Hero's Handbook]] ([[Hard Mode]]) [[storybook]] at a [[historian|loremaster]].\n\n===Reward===\n* 2,025 [[experience]]\n* 2,007 [[gold]]\n* [[Miniature Asura]]\n:{{gray|This item cannot be traded or sold.}}\n\n==Dialogue==\n===Initial dialogue===\n;Merrise, Sworn to Seas\n:''\"Your traveling companions are a unique part of any journey, wouldn't you say? Even something as small as a toy or pet can bring memories alongside it.\"''\n:''\"In exchange for a show of your heroism, I can offer a particularly rare toy to take with you.\"''\n{{offer dialogue\n|accept = Sounds difficult, but there's no road I can't walk.\n|decline = I've got enough friends.\n|ask = Take as long as you like on my offer. The journey to the heights of heroism is surely an experience worth the struggle. }}\n=== Reward dialogue ===\n; Merrise, Sworn to Seas\n: ''\"I hope you enjoyed the hurdles you had to pass to accomplish my task. And even if it was a struggle, let this reward bring you a smile.\"''\n\n==Notes==\n*Unlike other festival event quests, the Miniature Companion quests are permanent and not only available during the associated event.\n\n== Trivia ==\n* The rewards are a reference to the year ''[[Guild Wars Eye of the North]]'' was released (2007) and the year of the 20th birthday (2025).\n\n{{Miniature Companion quest nav}}\n[[Category:Miniature Companion quests]]"
+}

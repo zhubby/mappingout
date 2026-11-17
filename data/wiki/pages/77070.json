@@ -1,0 +1,11 @@
+{
+  "title": "Hunter's Insight",
+  "pageid": 77070,
+  "revid": 2341421,
+  "revisedAt": "2011-07-15T07:24:47Z",
+  "sha1": "2dccdd4395eb4bb7cd3ec445cdc6cd7676b51f05",
+  "url": "https://wiki.guildwars.com/wiki/Hunter%27s_Insight",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hunter's%20Insight&oldid=2341421",
+  "retrievedAt": "2026-11-16T15:41:29.423Z",
+  "wikitext": "{{skill infobox\n| id = 895\n| name = Hunter's Insight\n| campaign = Core\n| type = Party Bonus\n| consumable = Scroll of Hunter's Insight\n| description = [[Party Bonus]]. Your [[party]] gains 175% [[XP]] from combat. Hunter's Insight ends if your party fails to kill a [[boss]] for 5 minutes.\n| concise description = Party Bonus. Your party gains 175% XP from combat. Ends if your party fails to kill a boss for 5 minutes.\n}}\n\n== Related skills ==\n* {{skill icon|Slayer's Insight}}\n\n== Notes ==\n* This bonus can only be gained when a party member uses a [[Scroll of Hunter's Insight]]."
+}

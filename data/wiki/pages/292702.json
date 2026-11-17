@@ -1,0 +1,11 @@
+{
+  "title": "Advanced Snowball",
+  "pageid": 292702,
+  "revid": 2558122,
+  "revisedAt": "2013-11-07T10:17:11Z",
+  "sha1": "1b28b50c2c6efc659c29ca1f2ac8278c8817a9a2",
+  "url": "https://wiki.guildwars.com/wiki/Advanced_Snowball",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Advanced%20Snowball&oldid=2558122",
+  "retrievedAt": "2026-11-16T15:41:05.435Z",
+  "wikitext": "{{skill infobox\n| name = Advanced Snowball\n| campaign = Core\n| profession = \n| type = Spell\n| target = foes\n| special = Snow fighting\n| activation = {{1/2}}\n| description = [[Spell]]. You throw a slow-moving [[Projectile spell|snowball]] at [[target]] [[foe]]. If it hits, target foe takes 75 [[damage]] and you gain 1 strike of [[adrenaline]].\n| concise description = Spell. Slow projectile: deals 75 damage. You gain 1 strike of adrenaline.\n}}\n\n== Acquisition ==\nThis skill is given to all players in a [[The Great Snowball Fight of the Gods (PvP)|The Great Snowball Fight of the Gods]] match.\n\n== Notes == \n*This spell has no [[aftercast delay]].\n\n==Related skills==\n* {{skill icon|Candy Corn Strike}}\n* {{skill icon|Snowball}}\n\n[[Category:Projectile spells]]"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Aegis (PvP)",
+  "pageid": 136093,
+  "revid": 2628476,
+  "revisedAt": "2018-06-18T17:17:56Z",
+  "sha1": "3d1ffb8a6555ed537f8cfc54aa7d2ef718028443",
+  "url": "https://wiki.guildwars.com/wiki/Aegis_(PvP)",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Aegis%20(PvP)&oldid=2628476",
+  "retrievedAt": "2026-11-16T15:41:05.434Z",
+  "wikitext": "{{pveversion|Aegis}}\n\n{{Skill infobox\n| name = Aegis (PvP)\n| id = 2857\n| campaign = Core\n| profession = Monk\n| attribute = Protection Prayers\n| type = Enchantment Spell\n| energy = 10\n| recharge = 30\n| activation = {{1/4}}\n| description = [[Enchantment Spell]]. For {{gr|1|3}} seconds, [[target]] other [[party]] member cannot be the target of hostile [[spell]]s, and [[attack]]s against this party member [[fail]].\n| concise description = Enchantment Spell. ({{gr|1|3}} seconds). Target party member cannot be targeted by hostile spells. Attacks against this party member fail. {{gray|Cannot self-target.}}\n| is-pvp = y\n| target = other allies}}\n\n{{Skill progression\n|attribute = [[Protection Prayers]]\n|var1 name = [[Duration]]\n|var1 at0 = 1\n|var1 at15 = 3}}\n\n== Related skills ==\n{{see|Spell targeting prevention}}\n* {{skill icon|Shadow Form (PvP)}} ([[elite]])\n\n== Trivia ==\n* The functionality of this skill has changed since its introduction; see its [[Aegis/Skill history|PvE]] and [[Aegis (PvP)/Skill history|PvP]] skill histories for details.\n\n[[Category:Spell targeting prevention]]\n\n[[de:Aegis (PvP)]]"
+}

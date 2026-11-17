@@ -4,7 +4,7 @@
 auto-backup.test.ts: 快照合并、失败重试和卸载取消。
 content-accuracy.test.ts: Wiki 校订字段与来源一致性。
 data.test.ts: 资料转换、引用与地图输入校验。
-deployment.test.ts: 构建输入、部署规则与材料图标预缓存。
+deployment.test.ts: 构建输入、部署规则与图标预缓存；整库用例时限 30 秒。
 desktop-release.test.ts: 多平台更新清单和签名聚合。
 desktop-updates.test.ts: 启动更新、延期安装与重启数据屏障。
 domain.test.ts: 查询、进度与角色隔离。

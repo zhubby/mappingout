@@ -1,7 +1,7 @@
 /**
  * [INPUT]: 依赖构建校验、公共资料与离线缓存生成器。
  * [OUTPUT]: 验证构建拒绝缺失资源并预缓存任务及技能媒体。
- * [POS]: 分发输入与缓存回归；使用隔离临时目录。
+ * [POS]: 分发输入与缓存回归；隔离目录的整库复制与校验共用 30 秒时限。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { afterEach, describe, expect, it } from 'vitest';
@@ -28,10 +28,11 @@ async function editCatalog(dir: string, edit: (data: any) => void) {
   const data = JSON.parse(await fs.readFile(filename, 'utf8')); edit(data);
   await fs.writeFile(filename, JSON.stringify(data));
 }
-describe('bundled deployment data', () => {
+// 完整离线资料包含数千个文件，复制与校验需要统一时限。
+describe('bundled deployment data', { timeout: 30000 }, () => {
   it('validates all shipped chapters and images without original Campaign files', async () => {
     expect(await validateDeploymentData()).toMatchObject({ campaigns: 4, maps: 20, records: 3022, sourceIssues: 74 });
-  }, 30000);
+  });
   it('rejects missing JSON with an actionable error', async () => {
     await expect(validateDeploymentData(await directory())).rejects.toThrow(/catalog.json.*public\/data/);
   });

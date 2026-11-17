@@ -7,7 +7,7 @@ import http from 'node:http';
 
 // Build with the isolated identifier dev.zhubby.mappingout.resourceqa first.
 // The test refuses the production application before changing any records.
-const executable=path.resolve(process.argv[2]||'src-tauri/target/release/mappingout-desktop.exe');
+const executable=path.resolve(process.argv[2]||'desktop/target/release/mappingout-desktop.exe');
 const out=path.resolve('releases/qa');await fs.mkdir(out,{recursive:true});
 const profile=await fs.mkdtemp(path.join(out,'resources-webview-'));
 const checks=[];let child,browser,page;

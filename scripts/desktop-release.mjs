@@ -8,8 +8,8 @@ const args = process.argv.slice(2);
 function arg(name) { const i = args.indexOf(name); return i >= 0 ? args[i + 1] : undefined; }
 const baseUrl = arg('--base-url');
 if (!baseUrl || new URL(baseUrl).protocol !== 'https:') throw Error('需要 --base-url https://你的下载域名/desktop/');
-const config = JSON.parse(await fs.readFile(path.join(root, 'src-tauri/tauri.conf.json'), 'utf8'));
-const bundle = path.resolve(root, arg('--bundle-dir') || 'src-tauri/target/release/bundle/nsis');
+const config = JSON.parse(await fs.readFile(path.join(root, 'desktop/tauri.conf.json'), 'utf8'));
+const bundle = path.resolve(root, arg('--bundle-dir') || 'desktop/target/release/bundle/nsis');
 const candidates = (await fs.readdir(bundle)).filter(name => name.endsWith('-setup.exe') && !name.endsWith('-offline-setup.exe') && name.includes(`_${config.version}_`));
 if (candidates.length !== 1) throw Error(`需要且只能有一个 ${config.version} 安装包，实际：${candidates.join(', ')}`);
 const originalName = candidates[0];

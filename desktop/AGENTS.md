@@ -1,4 +1,4 @@
-# src-tauri/
+# desktop/
 > L2 | Parent: ../AGENTS.md
 
 Cargo.toml: 原生依赖、测试功能和发布编译选项。

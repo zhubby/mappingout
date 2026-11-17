@@ -4,7 +4,7 @@ import os from 'node:os';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 const key=path.join(os.homedir(),'.mappingout/keys/resources.key');
-const configPath='src-tauri/resources.config.json';
+const configPath='desktop/resources.config.json';
 const existing=await fs.readFile(configPath,'utf8').then(JSON.parse).catch(error=>{if(error.code==='ENOENT')return null;throw error;});
 await fs.mkdir(path.dirname(key),{recursive:true});
 try {await fs.access(key);} catch {

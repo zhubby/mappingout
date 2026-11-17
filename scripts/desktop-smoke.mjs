@@ -14,7 +14,7 @@ import assert from 'node:assert/strict';
 // Runs the real Windows executable. CDP is enabled only in this test process's environment.
 // Use a fresh Windows profile: the mutation tests refuse to touch existing character records.
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const executable = path.resolve(root, process.argv[2] || 'src-tauri/target/release/mappingout-desktop.exe');
+const executable = path.resolve(root, process.argv[2] || 'desktop/target/release/mappingout-desktop.exe');
 const port = 9227;
 const output = path.join(root, 'releases/qa');
 await fs.mkdir(output, { recursive: true });

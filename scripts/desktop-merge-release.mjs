@@ -7,7 +7,7 @@ const input=path.resolve(option('--input'));
 const out=path.resolve(option('--output'));
 const base=new URL(option('--base-url'));
 if(base.protocol!=='https:')throw Error('HTTPS release URL required');
-const config=JSON.parse(await fs.readFile('src-tauri/tauri.conf.json','utf8'));
+const config=JSON.parse(await fs.readFile('desktop/tauri.conf.json','utf8'));
 const notes=await fs.readFile('docs/desktop-release-notes.md','utf8');
 const files=[];
 async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())await walk(p);else files.push(p)}}

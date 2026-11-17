@@ -57,8 +57,8 @@ test('publisher reuses immutable packs, recovers drafts and changes only the sig
  };
  const validate=()=>({errors:[]});
  try{
-  await fs.mkdir(path.join(dir,'src-tauri'),{recursive:true});await fs.mkdir(output,{recursive:true});
-  await fs.writeFile(path.join(dir,'src-tauri/resources.config.json'),JSON.stringify(fixture.config));
+  await fs.mkdir(path.join(dir,'desktop'),{recursive:true});await fs.mkdir(output,{recursive:true});
+  await fs.writeFile(path.join(dir,'desktop/resources.config.json'),JSON.stringify(fixture.config));
   await fs.writeFile(path.join(output,'resources.json'),JSON.stringify(fixture.manifests[0]));
   for(const [name,bytes] of Object.entries(fixture.archives))await fs.writeFile(path.join(output,name),Buffer.from(bytes,'base64'));
   await expect(publishResources({directory:dir,runGh,sign,validate:()=>({errors:['review required']})})).rejects.toThrow('Resource release blocked');

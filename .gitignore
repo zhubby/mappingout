@@ -1,8 +1,8 @@
 node_modules/
 dist/
 dist-desktop/
-src-tauri/target/
-src-tauri/gen/schemas/
+desktop/target/
+desktop/gen/schemas/
 releases/
 test-results/
 playwright-report/

@@ -1,12 +1,17 @@
+/**
+ * [INPUT]: 依赖统一工程路径、Rust 工具链与 Tauri CLI。
+ * [OUTPUT]: 从工程根执行桌面开发与构建，透传参数和退出码。
+ * [POS]: npm 桌面命令入口；显式定位 desktop 与前端根目录。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { spawn } from 'node:child_process';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
-import { fileURLToPath } from 'node:url';
+import { projectRoot as root, desktopEnvironment } from './lib/paths.mjs';
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const cargoBin = path.join(process.env.CARGO_HOME || path.join(os.homedir(), '.cargo'), 'bin');
-const env = { ...process.env, PATH: `${cargoBin}${path.delimiter}${process.env.PATH || ''}` };
+const env = { ...desktopEnvironment(), PATH: `${cargoBin}${path.delimiter}${process.env.PATH || ''}` };
 if (!existsSync(path.join(cargoBin, process.platform === 'win32' ? 'cargo.exe' : 'cargo'))) {
   console.warn('需要 Rust stable 与 Windows C++ Build Tools；详见 docs/desktop.md。');
 }

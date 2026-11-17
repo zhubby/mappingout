@@ -45,7 +45,7 @@ export function checkRelease(directory = root) {
   const validation = validateI18n(directory, true);
   const readJson = file => JSON.parse(fs.readFileSync(path.join(directory, file), 'utf8'));
   const version = readJson('package.json').version;
-  if (version !== readJson('src-tauri/tauri.conf.json').version) validation.errors.push('Desktop and package versions differ');
+  if (version !== readJson('desktop/tauri.conf.json').version) validation.errors.push('Desktop and package versions differ');
   const exceptionPath = path.join(directory, 'data/i18n/release-exception.json');
   const exception = fs.existsSync(exceptionPath) ? readJson('data/i18n/release-exception.json') : null;
   return {...validation, ...applyReleaseException({version, findings: validation.errors, fingerprint: releaseFingerprint(directory), exception})};

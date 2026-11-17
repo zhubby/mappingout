@@ -1,18 +1,14 @@
-#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
-//! [INPUT]: 依赖 Tauri、原生文件选择器、签名资源与更新插件。
-//! [OUTPUT]: 注册应用窗口、备份、资源和程序更新命令。
-//! [POS]: 桌面进程入口；个人记录内容仍由前端 IndexedDB 保存。
+//! [INPUT]: 依赖 Tauri 路径、文件选择器与原子文件写入。
+//! [OUTPUT]: 提供 v1/v2/v3 备份校验、导入导出与本地保留。
+//! [POS]: 原生备份边界；入口只注册命令和查询备份目录。
 //! [PROTOCOL]: Update this header on change, then check AGENTS.md
-
-mod resources;
-mod updates;
 
 use serde::Serialize;
 use std::{
     fs,
     io::Write,
     path::{Path, PathBuf},
-    sync::{Arc, Mutex},
+    sync::Mutex,
     time::{SystemTime, UNIX_EPOCH},
 };
 use tauri::{Manager, State};
@@ -24,7 +20,7 @@ const RETAIN: usize = 20;
 type Result<T> = std::result::Result<T, String>;
 
 #[derive(Default)]
-struct BackupLock(Mutex<()>);
+pub(crate) struct BackupLock(Mutex<()>);
 
 fn err(e: impl std::fmt::Display) -> String {
     format!("native.io:{e}")
@@ -44,7 +40,7 @@ fn validate_content(content: &str) -> Result<()> {
     Ok(())
 }
 
-fn directory(app: &tauri::AppHandle) -> Result<PathBuf> {
+pub(crate) fn directory(app: &tauri::AppHandle) -> Result<PathBuf> {
     let path = app.path().app_data_dir().map_err(err)?.join("backups");
     fs::create_dir_all(&path).map_err(err)?;
     Ok(path)
@@ -88,7 +84,7 @@ fn valid_name(name: &str) -> bool {
 }
 
 #[derive(Serialize)]
-struct LocalBackup {
+pub(crate) struct LocalBackup {
     name: String,
     bytes: u64,
     modified: u64,
@@ -131,7 +127,7 @@ fn backups(dir: &Path) -> Result<Vec<LocalBackup>> {
 }
 
 #[tauri::command]
-async fn save_backup(
+pub(crate) async fn save_backup(
     app: tauri::AppHandle,
     content: String,
     locale: Option<String>,
@@ -172,7 +168,10 @@ async fn save_backup(
 }
 
 #[tauri::command]
-async fn pick_backup(app: tauri::AppHandle, locale: Option<String>) -> Result<Option<String>> {
+pub(crate) async fn pick_backup(
+    app: tauri::AppHandle,
+    locale: Option<String>,
+) -> Result<Option<String>> {
     tauri::async_runtime::spawn_blocking(move || {
         let english = locale.as_deref() == Some("en");
         let selected = app
@@ -201,7 +200,7 @@ async fn pick_backup(app: tauri::AppHandle, locale: Option<String>) -> Result<Op
 }
 
 #[tauri::command]
-fn write_local_backup(
+pub(crate) fn write_local_backup(
     app: tauri::AppHandle,
     lock: State<BackupLock>,
     content: String,
@@ -230,13 +229,16 @@ fn write_local_backup(
 }
 
 #[tauri::command]
-fn list_local_backups(app: tauri::AppHandle, lock: State<BackupLock>) -> Result<Vec<LocalBackup>> {
+pub(crate) fn list_local_backups(
+    app: tauri::AppHandle,
+    lock: State<BackupLock>,
+) -> Result<Vec<LocalBackup>> {
     let _guard = lock.0.lock().map_err(err)?;
     backups(&directory(&app)?)
 }
 
 #[tauri::command]
-fn read_local_backup(
+pub(crate) fn read_local_backup(
     app: tauri::AppHandle,
     lock: State<BackupLock>,
     name: String,
@@ -257,111 +259,13 @@ fn read_local_backup(
 }
 
 #[tauri::command]
-fn open_backup_directory(app: tauri::AppHandle) -> Result<()> {
+pub(crate) fn open_backup_directory(app: tauri::AppHandle) -> Result<()> {
     app.opener()
         .open_path(
             directory(&app)?.to_string_lossy().into_owned(),
             None::<&str>,
         )
         .map_err(err)
-}
-
-#[derive(Serialize)]
-#[serde(rename_all = "camelCase")]
-struct DesktopInfo {
-    version: String,
-    backup_directory: String,
-    update_configured: bool,
-}
-
-#[tauri::command]
-fn desktop_info(app: tauri::AppHandle) -> Result<DesktopInfo> {
-    let configured = app
-        .config()
-        .plugins
-        .0
-        .get("updater")
-        .and_then(|v| v.get("endpoints"))
-        .and_then(|v| v.as_array())
-        .is_some_and(|v| !v.is_empty());
-    Ok(DesktopInfo {
-        version: app.package_info().version.to_string(),
-        backup_directory: directory(&app)?.to_string_lossy().into_owned(),
-        update_configured: configured,
-    })
-}
-
-#[tauri::command]
-fn restart_desktop(app: tauri::AppHandle) {
-    app.restart();
-}
-
-fn main() {
-    let resources = resources::ResourceManager::new();
-    let mut context = tauri::generate_context!();
-    let inner = context.set_assets(Box::new(resources::EmptyAssets));
-    context.set_assets(Box::new(resources::ResourceAssets {
-        inner,
-        manager: resources.clone(),
-    }));
-    tauri::Builder::default()
-        .plugin(tauri_plugin_single_instance::init(|app, _, _| {
-            if let Some(window) = app.get_webview_window("main") {
-                let _ = window.unminimize();
-                let _ = window.show();
-                let _ = window.set_focus();
-            }
-        }))
-        .plugin(tauri_plugin_window_state::Builder::default().build())
-        .plugin(tauri_plugin_dialog::init())
-        .plugin(tauri_plugin_opener::init())
-        .manage(BackupLock::default())
-        .manage(resources)
-        .manage(Arc::new(updates::Updates::default()))
-        .invoke_handler(tauri::generate_handler![
-            save_backup,
-            pick_backup,
-            write_local_backup,
-            list_local_backups,
-            read_local_backup,
-            open_backup_directory,
-            desktop_info,
-            restart_desktop,
-            resources::commands::resources_status,
-            resources::commands::resources_check,
-            resources::commands::resources_download,
-            resources::commands::resources_cancel,
-            resources::commands::resources_import,
-            resources::commands::resources_confirm,
-            resources::commands::resources_rollback,
-            resources::commands::resources_prepare_update,
-            updates::desktop_update_status,
-            updates::desktop_update_check,
-            updates::desktop_update_defer,
-            updates::desktop_update_install
-        ])
-        .setup(|app| {
-            if app.config().plugins.0.contains_key("updater") {
-                app.handle()
-                    .plugin(tauri_plugin_updater::Builder::new().build())?;
-            }
-            app.state::<Arc<updates::Updates>>()
-                .configure(app.handle())
-                .map_err(std::io::Error::other)?;
-            tauri::WebviewWindowBuilder::from_config(app, &app.config().app.windows[0])?
-                .on_navigation(|url| {
-                    url.scheme() == "tauri"
-                        || (url.scheme() == "http" && url.host_str() == Some("tauri.localhost"))
-                        || (cfg!(debug_assertions)
-                            && url.scheme() == "http"
-                            && url.host_str() == Some("127.0.0.1"))
-                })
-                .on_new_window(|_, _| tauri::webview::NewWindowResponse::Deny)
-                .build()?;
-            Ok(())
-        })
-        .run(context)
-        .expect("无法启动 MappingOut");
 }
 
 #[cfg(test)]

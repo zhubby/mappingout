@@ -13,7 +13,7 @@ const key = process.env.TAURI_SIGNING_PRIVATE_KEY || path.join(os.homedir(), '.m
 if (!process.env.TAURI_SIGNING_PRIVATE_KEY) {
   try { await fs.access(key); } catch { throw Error('缺少更新签名私钥；设置 TAURI_SIGNING_PRIVATE_KEY，详见 docs/desktop.md。'); }
 }
-const child = spawn(process.execPath, ['scripts/desktop.mjs', 'build', '--ci', '--config', 'src-tauri/tauri.updater.conf.json', ...process.argv.slice(2)], {
+const child = spawn(process.execPath, ['scripts/desktop.mjs', 'build', '--ci', '--config', 'desktop/tauri.updater.conf.json', ...process.argv.slice(2)], {
   cwd: root, stdio: 'inherit', env: { ...process.env, TAURI_SIGNING_PRIVATE_KEY: key, TAURI_SIGNING_PRIVATE_KEY_PASSWORD: process.env.TAURI_SIGNING_PRIVATE_KEY_PASSWORD || '' },
 });
 child.on('error', error => { console.error(error.message); process.exitCode = 1; });

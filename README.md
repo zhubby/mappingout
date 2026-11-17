@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src-tauri/icons/128x128@2x.png" alt="MappingOut logo" width="112" height="112">
+  <img src="desktop/icons/128x128@2x.png" alt="MappingOut logo" width="112" height="112">
 </p>
 
 <h1 align="center">MappingOut</h1>

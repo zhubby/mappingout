@@ -17,7 +17,7 @@ export function combineChannel(existing,manifest){
 export async function publishResources({directory=root,runGh,sign=signPayload,validate=checkRelease}={}){
   const readiness=validate(directory);
   if(readiness.errors.length)throw Error('Resource release blocked:\n'+readiness.errors.join('\n'));
-  const config=JSON.parse(await fs.readFile(path.join(directory,'src-tauri/resources.config.json'),'utf8'));
+  const config=JSON.parse(await fs.readFile(path.join(directory,'desktop/resources.config.json'),'utf8'));
   const output=path.join(directory,'releases/resources');
   const envelope=JSON.parse(await fs.readFile(path.join(output,'resources.json'),'utf8'));
   const manifest=verifyEnvelope(envelope,config.publicKey);

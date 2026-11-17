@@ -48,12 +48,12 @@ jobs:
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force release-assets | Out-Null
-          Get-ChildItem src-tauri/target/${{ matrix.target }}/release/bundle/nsis/*-setup.exe* | ForEach-Object {
+          Get-ChildItem desktop/target/${{ matrix.target }}/release/bundle/nsis/*-setup.exe* | ForEach-Object {
             Copy-Item $_.FullName (Join-Path release-assets $_.Name)
           }
       - name: Build macOS
         if: runner.os == 'macOS'
-        run: npm run desktop:build:release -- --target aarch64-apple-darwin --config src-tauri/tauri.macos.conf.json
+        run: npm run desktop:build:release -- --target aarch64-apple-darwin --config desktop/tauri.macos.conf.json
         env:
           MAPPINGOUT_RESOURCE_PRIVATE_KEY: ${{ secrets.MAPPINGOUT_RESOURCE_PRIVATE_KEY }}
           MAPPINGOUT_RESOURCE_KEY_PASSWORD: ${{ secrets.MAPPINGOUT_RESOURCE_KEY_PASSWORD }}
@@ -64,10 +64,10 @@ jobs:
         if: runner.os == 'macOS'
         run: |
           mkdir -p release-assets
-          cp src-tauri/target/aarch64-apple-darwin/release/bundle/dmg/*.dmg release-assets/
-          cp src-tauri/target/aarch64-apple-darwin/release/bundle/macos/*.app.tar.gz* release-assets/
+          cp desktop/target/aarch64-apple-darwin/release/bundle/dmg/*.dmg release-assets/
+          cp desktop/target/aarch64-apple-darwin/release/bundle/macos/*.app.tar.gz* release-assets/
       - name: Native tests
-        run: cargo test --release --manifest-path src-tauri/Cargo.toml --target ${{ matrix.target }}
+        run: cargo test --release --manifest-path desktop/Cargo.toml --target ${{ matrix.target }}
       - uses: actions/upload-artifact@v4
         with:
           name: desktop-${{ matrix.arch }}
@@ -100,7 +100,7 @@ jobs:
           path: downloaded
       - name: Merge platform manifest
         run: |
-          VERSION=$(node -p "require('./src-tauri/tauri.conf.json').version")
+          VERSION=$(node -p "require('./desktop/tauri.conf.json').version")
           if [ "$GITHUB_REF_TYPE" = tag ] && [ "$GITHUB_REF_NAME" != "desktop-v$VERSION" ]; then exit 1; fi
           node scripts/desktop-merge-release.mjs --input downloaded --output release-assets --base-url "https://github.com/$GITHUB_REPOSITORY/releases/download/desktop-v$VERSION/"
           cp releases/resources/resources.json release-assets/resources.json

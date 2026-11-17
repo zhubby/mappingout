@@ -3,7 +3,7 @@ React 19 + TypeScript 5.9 + Vite 7 + Tauri 2 + Rust 2021。
 
 <directory>
 src/ - 地图、任务攻略、职业技能、角色记录和桌面平台适配。
-src-tauri/ - 原生备份、签名资源和程序更新。
+desktop/ - 原生备份、签名资源和程序更新。
 scripts/ - 数据转换、构建、签名与发布校验。
 tests/ - 领域、存储、分发与桌面生命周期测试。
 e2e/ - 浏览器交互和部署回归。
@@ -17,9 +17,9 @@ docs/ - 功能说明、平台限制与验收记录。
 <config>
 package.json - Node.js >=24；前端开发、测试和桌面构建入口。
 playwright.updates.config.ts - 生产桌面前端的更新生命周期回归。
-src-tauri/tauri.conf.json - 应用身份、窗口与安装包配置。
-src-tauri/tauri.updater.conf.json - 程序更新公钥与正式频道。
-src-tauri/resources.config.json - 独立资源公钥与兼容频道。
+desktop/tauri.conf.json - 应用身份、窗口与安装包配置。
+desktop/tauri.updater.conf.json - 程序更新公钥与正式频道。
+desktop/resources.config.json - 独立资源公钥与兼容频道。
 </config>
 
 应用身份、生产 origin 和更新公钥保持稳定。

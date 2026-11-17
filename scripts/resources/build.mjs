@@ -31,7 +31,7 @@ export async function signPayload(payload, destination, config) {
   } finally {await fs.rm(file,{force:true});await fs.rm(file+'.sig',{force:true});}
 }
 export async function buildResources(directory = root) {
-  const config=JSON.parse(await fs.readFile(path.join(directory,'src-tauri/resources.config.json'),'utf8'));
+  const config=JSON.parse(await fs.readFile(path.join(directory,'desktop/resources.config.json'),'utf8'));
   const output=path.join(directory,'releases/resources'); await fs.mkdir(output,{recursive:true});
   const packs=[];
   for (const [kind,folders] of Object.entries({media:['assets'],data:['data','licenses'],fonts:['fonts']})) {

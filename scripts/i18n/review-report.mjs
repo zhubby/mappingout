@@ -4,10 +4,11 @@
  * [POS]: 资料审校入口；不自动批准翻译。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
+import { projectPath } from '../lib/paths.mjs';
 import fs from 'node:fs';
 import {contentFields,datasets} from '../../src/i18n/content-fields.ts';
 import {sha256,numericIssues,translationReviewMatches} from './english-source.mjs';
-const read=file=>JSON.parse(fs.readFileSync(file,'utf8'));
+const read=file=>JSON.parse(fs.readFileSync(projectPath(file),'utf8'));
 const reviews=read('data/i18n/review.json').reviews,grouped=new Map();
 for(const dataset of datasets){
   const data=read(`public/data/${dataset}.json`),baseline=read(`data/i18n/baseline/${dataset}.json`);
@@ -31,5 +32,5 @@ for(const dataset of datasets){
 }
 const groups=[...grouped.values()].sort((a,b)=>b.fields.length-a.fields.length);
 const report={version:2,baseline:'Pinned Wiki English; legacy Chinese and unverified English drafts are never evidence',uniqueDrafts:groups.length,fields:groups.reduce((n,g)=>n+g.fields.length,0),groups};
-fs.writeFileSync('data/i18n/review-queue.json',JSON.stringify(report,null,2)+'\n');
+fs.writeFileSync(projectPath('data/i18n/review-queue.json'),JSON.stringify(report,null,2)+'\n');
 console.log('Review queue:',report.uniqueDrafts,'unique source/translation/revision groups across',report.fields,'fields');

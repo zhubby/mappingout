@@ -4,6 +4,7 @@
  * [POS]: 资料语言编译入口；机器辅助译文保持待审状态。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
+import { projectPath } from '../lib/paths.mjs';
 import fs from 'node:fs';
 import {contentFields,datasets} from '../../src/i18n/content-fields.ts';
 import {auditContent} from './audit-content.mjs';
@@ -11,20 +12,20 @@ import {sha256,numericIssues} from './english-source.mjs';
 import {reviewedSkills,numericReviewNotes} from './reviewed-skills.mjs';
 import {travelerItems} from './reviewed-traveler-items.mjs';
 
-const read=file=>JSON.parse(fs.readFileSync(file,'utf8'));
-const save=(file,value)=>fs.writeFileSync(file,JSON.stringify(value)+'\n');
+const read=file=>JSON.parse(fs.readFileSync(projectPath(file),'utf8'));
+const save=(file,value)=>fs.writeFileSync(projectPath(file),JSON.stringify(value)+'\n');
 const {report,baselines}=auditContent();
 if(report.evidenceErrors.length)throw Error('Wiki evidence differs; see the accuracy audit before compiling language packs.');
 const previousReviews=read('data/i18n/review.json').reviews;
-const previousSkills=read('scripts/wiki/translations.json');
+const previousSkills=read('data/wiki/inputs/translations.json');
 const skillReviewSources=read('data/i18n/skill-review-sources.json');
 const reviews={};
 const questTranslations=read('data/i18n/quest-translations.json').fields;
-const skillTranslations=fs.existsSync('data/i18n/skill-translations.json')?read('data/i18n/skill-translations.json').fields:{};
+const skillTranslations=fs.existsSync(projectPath('data/i18n/skill-translations.json'))?read('data/i18n/skill-translations.json').fields:{};
 let correctedEnglish=0,reviewedChinese=0;
-fs.mkdirSync('data/i18n/baseline',{recursive:true});
+fs.mkdirSync(projectPath('data/i18n/baseline'),{recursive:true});
 for(const dataset of datasets){
-  const raw=fs.readFileSync(`public/data/${dataset}.json`),data=JSON.parse(raw),baseline=baselines[dataset];
+  const raw=fs.readFileSync(projectPath(`public/data/${dataset}.json`)),data=JSON.parse(raw),baseline=baselines[dataset];
   save(`data/i18n/baseline/${dataset}.json`,baseline);
   const fresh=['quests','skills'].includes(dataset);
   const oldEn=fresh?{fields:{}}:read(`public/data/i18n/en/${dataset}.json`),oldZh=fresh?{fields:{}}:read(`public/data/i18n/zh-CN/${dataset}.json`);

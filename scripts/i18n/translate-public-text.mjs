@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖公开文本与在线翻译接口。
+ * [OUTPUT]: 提供带批次编号校验和重试的机器辅助翻译。
+ * [POS]: 维护期翻译接口；不批准译文审校。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 // Maintainer-only tool for PUBLIC game/wiki text. Never used by the application.
 // Results are drafts, not human-reviewed translations.
 import { fetch, ProxyAgent } from 'undici';

@@ -7,7 +7,7 @@
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 export const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-export const projectPath = (...parts) => path.join(projectRoot, ...parts);
+export const projectPath = (...parts) => path.resolve(projectRoot, ...parts);
 export function desktopEnvironment(directory = projectRoot, environment = process.env) {
   return { ...environment, TAURI_APP_PATH: path.resolve(directory, 'desktop'), TAURI_FRONTEND_PATH: path.resolve(directory) };
 }

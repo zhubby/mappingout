@@ -8,13 +8,13 @@ import { afterEach, describe, expect, it } from 'vitest';
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
-import { validateDeploymentData } from '../scripts/validate-data.mjs';
-import { finalizeBuild } from '../scripts/finalize-build.mjs';
-import { requireLegacyInputs } from '../scripts/legacy-inputs.mjs';
+import { validateDeploymentData } from '../scripts/validate/validate-data.mjs';
+import { finalizeBuild } from '../scripts/build/finalize-build.mjs';
+import { requireLegacyInputs } from '../scripts/legacy/legacy-inputs.mjs';
 
 const temporary: string[] = [];
 async function directory() {
-  const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'mappingout-test-'));
+  const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'mappingout test '));
   temporary.push(dir); return dir;
 }
 afterEach(async () => { await Promise.all(temporary.splice(0).map(dir => fs.rm(dir, { recursive: true, force: true }))); });

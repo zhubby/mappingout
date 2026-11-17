@@ -8,7 +8,7 @@
 
 ```powershell
 $env:WIKI_PROXY='http://127.0.0.1:7890'
-node scripts/wiki/fetch-profession-icons.mjs
+node scripts/wiki/fetch/fetch-profession-icons.mjs
 ```
 
 图标由 Vite 导入并随应用代码或 `/build/` 资源发布，纳入现有离线预缓存。

@@ -18,7 +18,7 @@ release-exception.test.ts: 发布例外的版本与输入绑定。
 resources.test.ts: 签名资源构建与发布行为。
 service-worker.test.ts: 离线缓存更新与网络故障。
 wiki.test.ts: Wiki 资料转换和来源约束。
-project-paths.test.ts: 非根工作目录、空格路径和显式桌面工程根回归。
+project-paths.test.ts: 非根目录 CLI、空格路径、桌面环境与显式 Wiki 证据根回归。
 fixtures/: 固定签名资源与测试输入。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

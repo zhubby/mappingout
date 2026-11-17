@@ -23,4 +23,3 @@ export default function DesktopStartup({children}: {children: ReactNode}) {
   }, []);
   return ready ? children : <main className="loading"><h1>{t('正在准备客户端…')}</h1><p role="status">{status.phase === 'installing' ? updateMessage(status) : t('正在读取已下载的更新…')}</p></main>;
 }
-

@@ -4,6 +4,7 @@
  * [POS]: 桌面资源构建边界；不发布产物或更换公钥。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
+import { projectRoot } from '../lib/paths.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
@@ -12,7 +13,7 @@ import {promisify} from 'node:util';
 import {fileURLToPath} from 'node:url';
 import {createZip, sha256, verifyEnvelope} from './archive.mjs';
 const exec = promisify(execFile);
-export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+export const root = projectRoot;
 export async function signPayload(payload, destination, config) {
   const file = destination + '.payload';
   await fs.writeFile(file, JSON.stringify(payload));

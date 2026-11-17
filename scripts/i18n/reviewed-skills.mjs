@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖已审技能中文及数量差异说明。
+ * [OUTPUT]: 提供按英文技能名称查询的译文与复核说明。
+ * [POS]: 双语编译的人工输入；不授予其他字段审校状态。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 // Manually compared with the pinned English skill descriptions. These are not
 // machine approvals. The compiler records the exact English/evidence/text hashes.
 export const reviewedSkills = {

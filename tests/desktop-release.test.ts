@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖被测领域或构建接口与固定测试资料。
+ * [OUTPUT]: 验证 desktop-release 的行为与拒绝条件。
+ * [POS]: 独立回归测试；不向生产环境写入数据。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { test, expect } from 'vitest';
 import fs from 'node:fs/promises';
 import os from 'node:os';
@@ -12,7 +18,7 @@ test('merges complete client releases and rejects missing signatures or legacy b
   const names=['MappingOut_1.1.0_x64-setup.exe','MappingOut_1.1.0_x86-setup.exe','MappingOut.app.tar.gz'];
   for(const name of names){await fs.writeFile(path.join(input,name),'fixture-'+name);await fs.writeFile(path.join(input,name+'.sig'),'signature-'+name)}
   await fs.writeFile(path.join(input,'MappingOut_1.1.0_aarch64.dmg'),'disk-image');
-  const args=['scripts/desktop-merge-release.mjs','--input',input,'--output',output,'--base-url','https://example.com/releases/v1.1.0/'];
+  const args=['scripts/desktop/desktop-merge-release.mjs','--input',input,'--output',output,'--base-url','https://example.com/releases/v1.1.0/'];
   await exec(process.execPath,args);
   const manifest=JSON.parse(await fs.readFile(path.join(output,'latest.json'),'utf8'));
   expect(Object.keys(manifest.platforms).sort()).toEqual(['darwin-aarch64','windows-i686','windows-x86_64']);

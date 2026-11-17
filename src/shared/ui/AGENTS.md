@@ -2,7 +2,7 @@
 > L2 | Parent: ../AGENTS.md
 
 DataStatus.tsx: 展示资料加载状态和重试按钮。
-LocalDocument.tsx: 统一菜单、来源、文档和加载状态样式。
+LocalDocument.tsx: 读取并展示本地 JSON 或许可文本。
 Select.tsx: 提供统一外观、键盘选择和触摸选择的 Select。
 WikiDetails.tsx: 展示来源原文、事实说明及逐篇章任务攻略入口。
 select.css: 提供菜单触发器、可选图标、浮层与选中状态样式。

@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖个人记录契约、角色规则和应用注入的写入能力。
- * [OUTPUT]: 提供角色、地图笔记与备份预览表单。
+ * [OUTPUT]: 提供角色、地图笔记、备份预览表单与持久表单草稿。
  * [POS]: 个人记录界面；通过应用队列提交，不直接访问存储。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -11,8 +11,12 @@ import type { Backup, Note, Personal } from '../../shared/contracts/personal';
 import { isDesktop } from '../../platform';
 import { deleteCharacter } from './domain';
 export type JournalDialog = {type:'characters'} | {type:'backup'; backup?:Backup} | {type:'note'; note:Note};
-export default function JournalDialogs({dialog,state,update,setDialog,setMessage,regionName,restoring,downloadBackup,chooseBackup,restore}: {dialog: JournalDialog; state: Personal; update: (change: (state: Personal) => Personal) => Promise<boolean>; setDialog: (dialog: JournalDialog | {type:'desktop'} | null) => void; setMessage: (message: string) => void; regionName: (id: string) => string; restoring: boolean; downloadBackup: () => Promise<void>; chooseBackup: () => Promise<void>; restore: (backup: Backup) => Promise<void>}) {
+export function useJournalForms() {
   const [characterName,setCharacterName] = useState(''), [renaming,setRenaming] = useState('');
+  return { characterName, setCharacterName, renaming, setRenaming };
+}
+export default function JournalDialogs({dialog,state,update,setDialog,setMessage,regionName,restoring,downloadBackup,chooseBackup,restore,forms}: {forms: ReturnType<typeof useJournalForms>; dialog: JournalDialog; state: Personal; update: (change: (state: Personal) => Personal) => Promise<boolean>; setDialog: (dialog: JournalDialog | {type:'desktop'} | null) => void; setMessage: (message: string) => void; regionName: (id: string) => string; restoring: boolean; downloadBackup: () => Promise<void>; chooseBackup: () => Promise<void>; restore: (backup: Backup) => Promise<void>}) {
+  const { characterName, setCharacterName, renaming, setRenaming } = forms;
   async function saveCharacter(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const name = characterName.trim();

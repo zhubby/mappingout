@@ -1,4 +1,9 @@
-/** Coalesces changes; failures remain dirty and are retried without losing newer changes. */
+/**
+ * [INPUT]: 依赖快照写入回调与状态通知。
+ * [OUTPUT]: 合并最新快照、重试失败备份并取消卸载后的任务。
+ * [POS]: 自动备份调度器；不直接访问原生接口或存储。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 export class AutoBackup<T> {
   private revision = 0;
   private savedRevision = 0;

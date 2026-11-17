@@ -1,16 +1,22 @@
+/**
+ * [INPUT]: 依赖被测领域或构建接口与固定测试资料。
+ * [OUTPUT]: 验证 wiki 的行为与拒绝条件。
+ * [POS]: 独立回归测试；不向生产环境写入数据。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { describe, expect, it } from 'vitest';
 import fs from 'node:fs/promises';
 import { createHash } from 'node:crypto';
-import { plainText, templates } from '../scripts/wiki/wikitext.mjs';
-import { skillFacts } from '../scripts/wiki/skill-facts.mjs';
-import { npcFacts, weaponFacts, itemFacts } from '../scripts/wiki/content-facts.mjs';
-import { locationFacts } from '../scripts/wiki/location-facts.mjs';
-import { chestFacts, questFacts, questPages } from '../scripts/wiki/source-facts.mjs';
-import { reviewedTranslation } from '../scripts/wiki/translations.mjs';
-import { collectorTableFacts, assertCollectorIdentity } from '../scripts/wiki/collector-facts.mjs';
-import { assertBossEvidence } from '../scripts/wiki/boss-evidence.mjs';
-import { legacyWeaponProfile, matchingWeaponProfile } from '../scripts/wiki/weapon-evidence.mjs';
-import { applyWikiCorrections } from '../scripts/wiki/apply.mjs';
+import { plainText, templates } from '../scripts/wiki/lib/wikitext.mjs';
+import { skillFacts } from '../scripts/wiki/lib/skill-facts.mjs';
+import { npcFacts, weaponFacts, itemFacts } from '../scripts/wiki/lib/content-facts.mjs';
+import { locationFacts } from '../scripts/wiki/lib/location-facts.mjs';
+import { chestFacts, questFacts, questPages } from '../scripts/wiki/lib/source-facts.mjs';
+import { reviewedTranslation } from '../scripts/wiki/lib/translations.mjs';
+import { collectorTableFacts, assertCollectorIdentity } from '../scripts/wiki/lib/collector-facts.mjs';
+import { assertBossEvidence } from '../scripts/wiki/lib/boss-evidence.mjs';
+import { legacyWeaponProfile, matchingWeaponProfile } from '../scripts/wiki/lib/weapon-evidence.mjs';
+import { applyWikiCorrections } from '../scripts/wiki/compile/apply.mjs';
 import { query, defaultFilters, trackable, preferredPlace } from '../src/features/atlas/domain';
 import { emptyPersonal } from '../src/storage/defaults';
 import { makeBackup, parseBackup } from '../src/storage/backup';
@@ -84,7 +90,7 @@ describe('Wiki extraction uses the meaning of the source templates', () => {
     expect(blades.acquisition).toContainEqual(expect.objectContaining({ title: 'Lou, of the Knives', areas: ['Wajjun Bazaar', 'Deactivating P.O.X.'] }));
   });
   it('does not substitute a different boss with the same elite, profession and area', async () => {
-    const review = (await json('scripts/wiki/boss-reviews.json')).find((value: any) => value.title === 'Arlak Stoneleaf');
+    const review = (await json('data/wiki/inputs/boss-reviews.json')).find((value: any) => value.title === 'Arlak Stoneleaf');
     const skills = await Promise.all(review.skills.map(async (input: any) => ({ ...input, facts: skillFacts(await page(input.title)) })));
     const virag = npcFacts(await page('Virag Bladestone')), arlak = npcFacts(await page('Arlak Stoneleaf'));
     expect(() => assertBossEvidence(entry(review.id), virag, skills, review)).toThrow(/source identity/);

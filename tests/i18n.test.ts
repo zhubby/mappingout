@@ -15,7 +15,7 @@ import { type Catalog } from '../src/shared/contracts/catalog';
 import { emptyPersonal } from '../src/storage/defaults';
 import { makeBackup, parseBackup } from '../src/storage/backup';
 import { formatInstant } from '../src/features/calendar/domain';
-import {validateI18n} from '../scripts/validate-i18n.mjs';
+import {validateI18n} from '../scripts/validate/validate-i18n.mjs';
 
 afterEach(()=>{setLocale('zh-CN');vi.unstubAllGlobals();});
 function bundle<T>(original:T,dataset:Dataset):ContentBundle<T>{

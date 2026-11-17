@@ -1,6 +1,12 @@
+/**
+ * [INPUT]: 依赖被测领域或构建接口与固定测试资料。
+ * [OUTPUT]: 验证 data 的行为与拒绝条件。
+ * [POS]: 独立回归测试；不向生产环境写入数据。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { describe, expect, it } from 'vitest';
 import fs from 'node:fs';
-import { decode, rows, jpegSize, stableId } from '../scripts/format.mjs';
+import { decode, rows, jpegSize, stableId } from '../scripts/legacy/format.mjs';
 import type { Catalog } from '../src/shared/contracts/catalog';
 const data: Catalog = JSON.parse(fs.readFileSync('public/data/catalog.json','utf8'));
 describe('legacy conversion', () => {

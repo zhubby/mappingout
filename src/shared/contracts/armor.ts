@@ -13,4 +13,3 @@ export interface ArmorSet { id: string; name: string; englishName: string; searc
 export interface ArmorOffer { id: string; armorId: string; armorerId: string; location: string; zoneId?: string; campaign: number; armorRating: number; ratingByProfession?: Record<number,number>; pieces: ArmorPiece[]; notes: string; reference: WikiReference }
 export interface ArmorCatalog { version: 1; referenceVersion: string; sets: ArmorSet[]; offers: ArmorOffer[]; armorers: Armorer[]; materials: Material[]; references: WikiReference[]; issues: { title: string; message: string }[]; coverage: { discovered: number; crafted: number; excluded: number } }
 export interface ArmorPlan { id: string; characterId: string; name: string; offerId: string; pieceIds: string[]; completedPieceIds: string[] }
-

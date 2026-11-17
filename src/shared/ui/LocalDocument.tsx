@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖本地文档 URL 与界面翻译。
+ * [OUTPUT]: 读取并展示 JSON 或许可文本。
+ * [POS]: 桌面文档阅读器；取消已卸载界面的异步更新。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { displayMessage, t } from '../../i18n';
 import { useEffect, useState } from 'react';
 export default function LocalDocument({ url }: { url: string }) {

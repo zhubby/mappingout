@@ -3,7 +3,7 @@ dist/
 dist-desktop/
 desktop/target/
 desktop/gen/schemas/
-releases/
+/releases/
 test-results/
 playwright-report/
 *.tsbuildinfo

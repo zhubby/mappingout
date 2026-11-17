@@ -5,8 +5,8 @@
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import {describe,expect,it} from 'vitest';
-import {compileGrowth,skillEligibility} from '../scripts/wiki/skill-library-facts.mjs';
-import {compileEffects,metricOf} from '../scripts/wiki/skill-effects.mjs';
+import {compileGrowth,skillEligibility} from '../scripts/wiki/lib/skill-library-facts.mjs';
+import {compileEffects,metricOf} from '../scripts/wiki/lib/skill-effects.mjs';
 const page=(fields:string)=>({title:'Test skill',wikitext:`{{Skill infobox\n${fields}\n}}`});
 const definition=(rows:string)=>`<div class="attr">{{{attribute}}}</div><div class="var">{{{var1 name}}}</div>${rows}`;
 describe('fixed skill effects',()=>{

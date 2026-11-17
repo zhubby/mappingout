@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖 Playwright、Workers 本地服务与真实离线缓存。
+ * [OUTPUT]: 验证响应头、404、缓存升级与角色保留。
+ * [POS]: Workers 分发回归；不部署或修改生产资料。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { expect, test } from '@playwright/test';
 
 test('the first map stays available offline when it loads before worker activation', async ({ page, context }) => {

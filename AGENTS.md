@@ -2,14 +2,14 @@
 React 19 + TypeScript 5.9 + Vite 7 + Tauri 2 + Rust 2021。
 
 <directory>
-src/ - 地图、任务攻略、职业技能、角色记录和桌面平台适配。
+src/ - app 编排、features 功能、shared 共用能力、storage 与 platform。
 desktop/ - 原生备份、签名资源和程序更新。
-scripts/ - 数据转换、构建、签名与发布校验。
+scripts/ - build、desktop、legacy、validate 与 Wiki、翻译、资源工具。
 tests/ - 领域、存储、分发与桌面生命周期测试。
 e2e/ - 浏览器交互和部署回归。
 public/ - 必须提交的地图、资料、字体与许可输入。
-data/ - Wiki 引用、翻译基线和复核证据。
-docs/ - 功能说明、平台限制与验收记录。
+data/ - 地图核对、Wiki 人工输入与快照、翻译基线和复核证据。
+docs/ - guides 现行指南、releases 说明、verification 验收与 images 截图。
 .github/ - 三平台构建与签名发布工作流。
 .context/ - 已完成的任务和技能实施记录。
 </directory>

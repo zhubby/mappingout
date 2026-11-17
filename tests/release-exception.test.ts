@@ -1,5 +1,11 @@
+/**
+ * [INPUT]: 依赖被测领域或构建接口与固定测试资料。
+ * [OUTPUT]: 验证 release-exception 的行为与拒绝条件。
+ * [POS]: 独立回归测试；不向生产环境写入数据。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import {test, expect} from 'vitest';
-import {applyReleaseException} from '../scripts/check-release.mjs';
+import {applyReleaseException} from '../scripts/validate/check-release.mjs';
 
 const finding = '50723 Chinese fields still require review against English Wiki';
 const exception = {version: '1.2.0', fingerprint: 'snapshot', reason: 'Explicit release request with disclosed pending review', acceptedFindings: [finding]};

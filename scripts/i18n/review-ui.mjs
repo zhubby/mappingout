@@ -1,6 +1,13 @@
+/**
+ * [INPUT]: 依赖工程中的双语界面字典。
+ * [OUTPUT]: 应用人工校订并统一界面用词与空格。
+ * [POS]: 界面翻译维护入口；不修改领域资料。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
+import { projectPath } from '../lib/paths.mjs';
 import fs from 'node:fs';
-const en=JSON.parse(fs.readFileSync('src/i18n/en.json','utf8'));
-const zh=JSON.parse(fs.readFileSync('src/i18n/zh-CN.json','utf8'));
+const en=JSON.parse(fs.readFileSync(projectPath('src/i18n/en.json'),'utf8'));
+const zh=JSON.parse(fs.readFileSync(projectPath('src/i18n/zh-CN.json'),'utf8'));
 const fixes={
   ' / Y ':' / Y ', ' · AR ':' · AR ', ' · 怒气 ':' · Adrenaline ', ' · 施放 ':' · Activation ',
   ' · 第 ':' · Line ', ' 个探索目标':' results', ' 个结果':' results', ' 个部位':' pieces',
@@ -109,4 +116,4 @@ for(const [key,value]of Object.entries(en)){
  if(!key.startsWith(' ')&&/^[a-z]/.test(reviewed))reviewed=reviewed[0].toUpperCase()+reviewed.slice(1);
  en[key]=reviewed;
 }
-for(const [file,value]of [['en',en],['zh-CN',zh]])fs.writeFileSync(`src/i18n/${file}.json`,JSON.stringify(value,null,2)+'\n');
+for(const [file,value]of [['en',en],['zh-CN',zh]])fs.writeFileSync(projectPath(`src/i18n/${file}.json`),JSON.stringify(value,null,2)+'\n');

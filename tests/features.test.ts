@@ -19,8 +19,8 @@ import { makeBackup, parseBackup } from '../src/storage/backup';
 import { migratePersonalV1 } from '../src/storage/validation';
 import { personalStore } from '../src/storage/store';
 import { deleteCharacter } from '../src/features/journal/domain';
-import { armorFacts } from '../scripts/wiki/armor-facts.mjs';
-import { validateFeatureData } from '../scripts/validate-features.mjs';
+import { armorFacts } from '../scripts/wiki/lib/armor-facts.mjs';
+import { validateFeatureData } from '../scripts/validate/validate-features.mjs';
 
 const armor:ArmorCatalog=JSON.parse(fs.readFileSync('public/data/armor.json','utf8'));
 const calendar:ActivityCatalog=JSON.parse(fs.readFileSync('public/data/calendar.json','utf8'));

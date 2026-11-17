@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖受信资源清单、归档与 GitHub Release 接口。
+ * [OUTPUT]: 发布不可变资源包和签名兼容频道。
+ * [POS]: 资源发布入口；所有不可变产物存在后才替换频道。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
@@ -6,7 +12,7 @@ import {promisify} from 'node:util';
 import {fileURLToPath} from 'node:url';
 import {root, signPayload} from './build.mjs';
 import {sha256,verifyEnvelope} from './archive.mjs';
-import {checkRelease} from '../check-release.mjs';
+import {checkRelease} from '../validate/check-release.mjs';
 const exec=promisify(execFile);
 export function combineChannel(existing,manifest){
   const channel={schema:1,releases:[manifest,...existing.filter(m=>m.generation!==manifest.generation)].slice(0,100)};

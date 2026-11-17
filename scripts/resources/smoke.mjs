@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: 依赖隔离资源 QA 应用、WebView 调试端口与本地断网代理。
+ * [OUTPUT]: 验证离线准备、字体、固定资源与进程重启。
+ * [POS]: 资源实机验收；拒绝生产应用标识。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
+import { projectPath } from '../lib/paths.mjs';
 import {chromium,expect} from '@playwright/test';
 import {spawn} from 'node:child_process';
 import fs from 'node:fs/promises';
@@ -7,8 +14,8 @@ import http from 'node:http';
 
 // Build with the isolated identifier dev.zhubby.mappingout.resourceqa first.
 // The test refuses the production application before changing any records.
-const executable=path.resolve(process.argv[2]||'desktop/target/release/mappingout-desktop.exe');
-const out=path.resolve('releases/qa');await fs.mkdir(out,{recursive:true});
+const executable=path.resolve(process.argv[2]||projectPath('desktop/target/release/mappingout-desktop.exe'));
+const out=projectPath('releases/qa');await fs.mkdir(out,{recursive:true});
 const profile=await fs.mkdtemp(path.join(out,'resources-webview-'));
 const checks=[];let child,browser,page;
 // Keep native requests offline, and deliberately stall one request to exercise

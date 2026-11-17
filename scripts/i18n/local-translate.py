@@ -1,3 +1,7 @@
+# [INPUT]: 依赖待译字段、受保护词元和本地 Argos 模型。
+# [OUTPUT]: 写入辅助译文与片段缓存，保持待审状态。
+# [POS]: 维护者离线翻译入口；模型不进入应用产物。
+# [PROTOCOL]: Update this header on change, then check AGENTS.md
 """Maintainer-only offline draft generator; models are never shipped in the app.
 
 Requires ctranslate2, sentencepiece and the Argos en_zh/zh_en 1.9 packages.

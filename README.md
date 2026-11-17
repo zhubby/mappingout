@@ -24,7 +24,7 @@ Explore Tyria, Cantha, Elona, and the Far North with maps, guides, and character
 Rebuilt from MappingOut 4.00, with English and Simplified Chinese interfaces.
 Use it in your browser or as a Tauri desktop app. No account required.
 
-![English world atlas with profession markers, searchable locations, and skill acquisition details](docs/readme-map.png)
+![English world atlas with profession markers, searchable locations, and skill acquisition details](docs/images/readme-map.png)
 
 ## Features
 
@@ -37,7 +37,7 @@ Use it in your browser or as a Tauri desktop app. No account required.
 
 | Skill search and PvE/PvP comparison | Quest guides and character progress |
 | --- | --- |
-| [![English skill library comparing Empathy in PvE and PvP](docs/readme-skills.png)](docs/readme-skills.png) | [![English quest directory with a mission guide and character progress controls](docs/readme-quests.png)](docs/readme-quests.png) |
+| [![English skill library comparing Empathy in PvE and PvP](docs/images/readme-skills.png)](docs/images/readme-skills.png) | [![English quest directory with a mission guide and character progress controls](docs/images/readme-quests.png)](docs/images/readme-quests.png) |
 
 ## Offline use and backups
 
@@ -75,7 +75,7 @@ npx wrangler login
 npm run deploy
 ```
 
-See the [deployment guide](docs/cloudflare-workers.md) for caching, rollbacks, and backup migration.
+See the [deployment guide](docs/guides/cloudflare-workers.md) for caching, rollbacks, and backup migration.
 
 ## Local development
 
@@ -99,17 +99,17 @@ Built assets go into `dist/`. Preview them with `npm run preview:worker` at `htt
 The repository includes generated data and images; building requires no original MappingOut installation.
 
 Run unit tests with `npm test`. After building, run Worker browser tests with `npm run test:e2e:worker`.
-Browser tests use Microsoft Edge through Playwright; see the [test guide](docs/cloudflare-workers.md#验收).
+Browser tests use Microsoft Edge through Playwright; see the [test guide](docs/guides/cloudflare-workers.md#验收).
 
 Built with React 19, TypeScript, Vite, Leaflet, Tailwind CSS, and Tauri 2.
 
 ## Documentation and credits
 
 Detailed guides are currently in Chinese:
-[desktop app](docs/desktop.md) · [offline resources](docs/desktop-resources.md) ·
-[quest guides](docs/quest-guides.md) · [skill library](docs/skills.md) ·
-[armor and calendar](docs/armor-calendar.md) · [languages and fonts](docs/i18n.md).
+[project structure](docs/guides/project-structure.md) · [desktop app](docs/guides/desktop.md) · [offline resources](docs/guides/desktop-resources.md) ·
+[quest guides](docs/guides/quest-guides.md) · [skill library](docs/guides/skills.md) ·
+[armor and calendar](docs/guides/armor-calendar.md) · [languages and fonts](docs/guides/i18n.md).
 
 Game artwork and text belong to their respective rights holders.
-Wiki revisions and known data gaps remain documented in the [source review](docs/wiki-data-review.md).
+Wiki revisions and known data gaps remain documented in the [source review](docs/guides/wiki-data-review.md).
 Machine-assisted translations remain marked for review; local license and font notices accompany the assets.

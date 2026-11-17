@@ -29,7 +29,7 @@ import { DesktopUpdateProgress, DesktopUpdatePrompt, updateMessage } from '../fe
 import type {WithBackup} from '../platform/update-controller';
 import '../features/desktop/desktop.css';
 
-import JournalDialogs from '../features/journal/JournalDialogs';
+import JournalDialogs, { useJournalForms } from '../features/journal/JournalDialogs';
 
 const kinds = Object.keys(kindNames) as Kind[];
 const ArmorWorkshop=lazy(()=>import('../features/armor/ArmorWorkshop'));
@@ -45,6 +45,7 @@ function today() { const d = new Date(); return `${d.getFullYear()}-${String(d.g
 const editingTarget = (target: EventTarget | null) => target instanceof HTMLElement && target.matches('input, textarea, [role="combobox"], [contenteditable]:not([contenteditable="false"])');
 export default function App() {
   const locale = useLocale();
+  const journalForms = useJournalForms();
   useEffect(()=>{void syncDesktopLocale().catch(console.error);},[locale]);
   const [bundle,setCatalog] = useState<ContentBundle<Catalog>>(), [state,setState] = useState<Personal>(emptyPersonal), [ready,setReady] = useState(false), [fatal,setFatal] = useState('');
   const catalog = useMemo(() => bundle ? projectContent(bundle, locale) : undefined, [bundle, locale]);
@@ -247,7 +248,7 @@ export default function App() {
     {storageError && <div className="storage-error" role="alert">{displayMessage(storageError)}<button onClick={downloadBackup}>{t("导出备份")}</button></div>}
     <input ref={fileInput} type="file" accept="application/json,.json" aria-label={t("导入备份文件")} className="hidden" onChange={e=>importFile(e.target.files?.[0])}/>
     {dialog && <div className="modal-backdrop" onClick={()=>{if(!restoring)setDialog(null);}}><section className="modal" role="dialog" aria-modal="true" aria-label={dialog.type==='characters'?t("探索者管理"):dialog.type==='note'?t("地图笔记"):dialog.type==='report'?t("资料说明"):dialog.type==='story'?t("剧情指南"):dialog.type==='desktop'?t("客户端设置"):dialog.type==='document'?t("资料与许可报告"):t("数据备份")} onClick={e=>e.stopPropagation()} onKeyDown={e=>{if(e.key==='Escape'&&!restoring)setDialog(null);}}><button className="modal-close" disabled={restoring} aria-label={t("关闭弹窗")} onClick={()=>setDialog(null)}><X size={20}/></button>
-      {(dialog.type==='characters'||dialog.type==='backup'||dialog.type==='note') && <JournalDialogs dialog={dialog} state={state} update={update} setDialog={setDialog} setMessage={setMessage} regionName={regionName} restoring={restoring} downloadBackup={downloadBackup} chooseBackup={chooseBackup} restore={restore}/>}
+      {(dialog.type==='characters'||dialog.type==='backup'||dialog.type==='note') && <JournalDialogs forms={journalForms} dialog={dialog} state={state} update={update} setDialog={setDialog} setMessage={setMessage} regionName={regionName} restoring={restoring} downloadBackup={downloadBackup} chooseBackup={chooseBackup} restore={restore}/>}
       {dialog.type==='desktop' && <Suspense fallback={<p>{t("正在读取客户端设置…")}</p>}><DesktopPanel backupStatus={backupStatus} beforeRestart={beforeRestart} preview={backup=>setDialog({type:'backup',backup})}/></Suspense>}
       {dialog.type==='document' && <Suspense fallback={<p>{t("正在读取…")}</p>}><LocalDocument url={dialog.url}/></Suspense>}
       {dialog.type==='story' && <><StoryGuides stories={catalog.stories || []} openQuests={campaign=>{patchFeature({view:'quests',qChapter:['prophecies','factions','nightfall','eotn'][campaign-1]||'all',quest:'',qKind:'main',qStatus:'',qRegion:'',qMode:'normal',qq:''});setDialog(null);}}/><button className="primary" onClick={()=>{patchFeature({view:'quests'});setDialog(null);}}>{t('打开完整任务攻略')}</button></>}

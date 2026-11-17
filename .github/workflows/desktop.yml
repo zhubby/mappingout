@@ -102,7 +102,7 @@ jobs:
         run: |
           VERSION=$(node -p "require('./desktop/tauri.conf.json').version")
           if [ "$GITHUB_REF_TYPE" = tag ] && [ "$GITHUB_REF_NAME" != "desktop-v$VERSION" ]; then exit 1; fi
-          node scripts/desktop-merge-release.mjs --input downloaded --output release-assets --base-url "https://github.com/$GITHUB_REPOSITORY/releases/download/desktop-v$VERSION/"
+          node scripts/desktop/desktop-merge-release.mjs --input downloaded --output release-assets --base-url "https://github.com/$GITHUB_REPOSITORY/releases/download/desktop-v$VERSION/"
           cp releases/resources/resources.json release-assets/resources.json
       - uses: actions/upload-artifact@v4
         with:
@@ -114,6 +114,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if gh release view "$GITHUB_REF_NAME" --json isDraft --jq .isDraft | grep -qx false; then exit 0; fi
-          gh release create "$GITHUB_REF_NAME" --verify-tag --draft --title "MappingOut Desktop ${GITHUB_REF_NAME#desktop-v}" --notes-file docs/desktop-release-notes.md
+          gh release create "$GITHUB_REF_NAME" --verify-tag --draft --title "MappingOut Desktop ${GITHUB_REF_NAME#desktop-v}" --notes-file docs/releases/desktop-release-notes.md
           gh release upload "$GITHUB_REF_NAME" release-assets/*
           gh release edit "$GITHUB_REF_NAME" --draft=false --latest

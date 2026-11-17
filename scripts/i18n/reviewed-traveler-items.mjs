@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖人工核对的旅者交换物品名称。
+ * [OUTPUT]: 提供英文物品名称对应的中文标签。
+ * [POS]: 日历双语编译的人工词表。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 // Literal Chinese translations of the English item names in the pinned cycle.
 // Plural English names retain their canonical spelling as lookup keys.
 export const travelerItems = {

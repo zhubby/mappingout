@@ -1,6 +1,7 @@
 # data/wiki/
 > L2 | Parent: ../AGENTS.md
 
+inputs/: 人工身份、标题、校订和剧情输入；与采集证据分离。
 README.md: Wiki 证据、版权与使用边界。
 index.json: 标题、别名与固定修订索引。
 pages/: 按 pageid 保存原始 wikitext 与修订元数据。

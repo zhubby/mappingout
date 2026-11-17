@@ -1,3 +1,9 @@
+/**
+ * [INPUT]: 依赖被测领域或构建接口与固定测试资料。
+ * [OUTPUT]: 验证 auto-backup 的行为与拒绝条件。
+ * [POS]: 独立回归测试；不向生产环境写入数据。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
 import { afterEach, expect, it, vi } from 'vitest';
 import { AutoBackup } from '../src/platform/auto-backup';
 

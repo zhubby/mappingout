@@ -2,7 +2,7 @@
 
 Tauri 2 + React / TypeScript。支持目标及限制见 [平台支持](desktop-platforms.md)，历史 1.0.0 验收见 [验收档案](../verification/desktop-verification.md)。
 
-1.3.0 客户端完成首次资源准备后离线使用。地图、资料和字体拆为独立签名资源包，在 GitHub Releases 按内容哈希复用；首次可下载，也可从本地导入。Windows x86 / x64 安装包复用已安装的 WebView2，缺失时通过内置小型引导器安装；完全离线的电脑应提前安装对应架构的 WebView2。macOS Apple Silicon 使用系统 WKWebView。详见 [资源分发与离线安装](desktop-resources.md)。1.2.0 采用原来的完整内置资源方案。
+1.3.1 客户端完成首次资源准备后离线使用。地图、资料和字体拆为独立签名资源包，在 GitHub Releases 按内容哈希复用；首次可下载，也可从本地导入。Windows x86 / x64 安装包复用已安装的 WebView2，缺失时通过内置小型引导器安装；完全离线的电脑应提前安装对应架构的 WebView2。macOS Apple Silicon 使用系统 WKWebView。详见 [资源分发与离线安装](desktop-resources.md)。1.2.0 采用原来的完整内置资源方案。
 
 ## 开发构建
 

@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖资料投影、个人存储、统一菜单与桌面更新。
+ * [INPUT]: 依赖资料投影、个人存储、HTTP UUID、菜单与桌面更新。
  * [OUTPUT]: 提供地图与功能标签、分享参数和个人记录交互。
  * [POS]: 应用界面编排；所有个人写入经过同一重启屏障。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -12,6 +12,7 @@ import { ArrowUpRight, BookOpen, Check, Plus, ChevronDown, ChevronRight, Compass
 import { AtlasMap } from '../features/atlas/AtlasMap';
 import { OriginalContent, StoryGuides, WikiDetails } from '../shared/ui/WikiDetails';
 import { assetUrl } from '../shared/content/assetUrl';
+import { randomUUID } from '../shared/browserCrypto';
 import { belongsToRegion, completed, filtersSearch, normalizeFilters, preferredPlace, query, readFilters, setProgress, trackable } from '../features/atlas/domain';
 import { emptyPersonal } from '../storage/defaults';
 import { makeBackup, parseBackup } from '../storage/backup';
@@ -224,7 +225,7 @@ export default function App() {
           </div>
           <button className={noteMode ? 'quiet accent' : 'quiet'} onClick={() => { if (!character) setDialog({type:'characters'}); else setNoteMode(v=>!v); }}><Plus size={15}/>{noteMode ? t("取消标注") : t("添加笔记")}</button>
         </div>
-        <AtlasMap region={region} entries={mapEntries} selected={selected} focus={focus} focusKey={focusKey} notes={notes} onSelect={select} onEditNote={editNote} noteMode={noteMode} onNote={(x,y) => { if (x<0 || y<0 || x>region.width || y>region.height) { setMessage(t("请在地图图片范围内添加笔记")); return; } setNoteMode(false); setDialog({type:'note',note:{id:crypto.randomUUID(),characterId:state.preferences.characterId,region:region.id,x,y,text:''}}); }}/>
+        <AtlasMap region={region} entries={mapEntries} selected={selected} focus={focus} focusKey={focusKey} notes={notes} onSelect={select} onEditNote={editNote} noteMode={noteMode} onNote={(x,y) => { if (x<0 || y<0 || x>region.width || y>region.height) { setMessage(t("请在地图图片范围内添加笔记")); return; } setNoteMode(false); setDialog({type:'note',note:{id:randomUUID(),characterId:state.preferences.characterId,region:region.id,x,y,text:''}}); }}/>
         <div className="map-bottom"><div className="legend-title"><Layers size={15}/><span>{t("地图图层")}</span></div><div className="legend-items">{kinds.map(k => <button key={k} className={`${k} ${state.preferences.layers.includes(k) ? 'enabled' : ''}`} aria-pressed={state.preferences.layers.includes(k)} onClick={() => update(s => ({...s,preferences:{...s.preferences,layers:s.preferences.layers.includes(k) ? s.preferences.layers.filter(v=>v!==k) : [...s.preferences.layers,k]}}))}><span>{kindSymbols[k]}</span>{kindNames[k]}</button>)}</div><small>{t("仅显示当前查询结果")}</small></div>
       </main>
       <aside className={`detail-panel ${mobile === 'detail' ? 'mobile-visible' : ''}`}>

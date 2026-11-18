@@ -57,6 +57,7 @@
     "check:release:strict": "node scripts/validate/validate-i18n.mjs --release"
   },
   "dependencies": {
+    "@noble/hashes": "2.4.0",
     "@tauri-apps/api": "^2.12.4",
     "@tauri-apps/plugin-opener": "^2.7.3",
     "i18next": "^27.1.2",

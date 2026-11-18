@@ -42,6 +42,8 @@ MAPPINGOUT_PORT=8080
 站点部署在域名根路径，例如 `https://maps.example.com/`。
 当前构建未提供 `/mappingout/` 等子路径配置。
 容器提供 HTTP；HTTPS 由外部反向代理终止。
+局域网 HTTP 支持在线地图与个人记录。
+缺少 Web Crypto 时，资料仍通过 SHA-256 校验。
 远程浏览器的 Service Worker 要求 HTTPS，localhost 除外。
 建议长期使用同一 HTTPS 地址。
 

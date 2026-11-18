@@ -69,15 +69,33 @@ HTTP 验收覆盖健康检查、资料、地图、字体和许可。
 匿名验证先检查索引，再分别拉取两个子摘要。
 独立 Docker 配置确保拉取不使用发布凭据。
 
+## 远端发布与 HTTP 回归
+
+容器改造已于 2026-11-18 合并到 main。
+提交为 `6730556ef41b05aea5959f06a2236931272f6827`。
+[首次容器工作流](https://github.com/zhubby/mappingout/actions/runs/44293227580) 全部成功。
+两个原生 runner 均完成验收与架构发布。
+GHCR 包已公开，双架构索引已发布。
+
+ZimaBoard2 的局域网 HTTP 验收发现启动错误。
+HTTP origin 不提供 `crypto.subtle` 与 `crypto.randomUUID`。
+资料加载直接调用 digest，导致首页无法打开。
+资料哈希现使用 Web Crypto 或 noble SHA-256。
+个人记录 UUID 回退到 `crypto.getRandomValues`。
+两条路径均保留完整性校验与安全随机数。
+
+2026-11-19 的回归结果：
+
+- 20 个单元测试文件、274 项通过。
+- 无 Web Crypto 时，正确资料加载通过。
+- 被修改的原始资料和英文包仍被拒绝。
+- 最终 arm64 镜像构建与 HTTP 验收通过。
+- Chromium 模拟缺少安全上下文 Crypto API。
+  页面加载、创建角色与重载后技能进度保留通过。
+
 ## 验证边界
 
-本次未推送分支，也未触发远端 GitHub Actions。
-原生 Linux amd64 runner 的执行结果待首次 CI 确认。
-本地注册表验证不代替 GHCR 权限和可见性验证。
-首次 GHCR 发布后，包所有者须将包设为 Public。
-包已公开时，工作流执行双架构匿名拉取验证。
-
-本次未部署公开站点，也未发布桌面程序或签名资源。
+本次未发布桌面程序或签名资源。
 远程离线访问仍要求外部 HTTPS 与稳定 origin。
 个人记录继续保存在浏览器 IndexedDB。
 

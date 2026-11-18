@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖个人记录契约、角色规则和应用注入的写入能力。
+ * [INPUT]: 依赖个人记录、角色规则、HTTP UUID 和应用写入能力。
  * [OUTPUT]: 提供角色、地图笔记、备份预览表单与持久表单草稿。
  * [POS]: 个人记录界面；通过应用队列提交，不直接访问存储。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -10,6 +10,7 @@ import { t, dateTime } from '../../i18n';
 import type { Backup, Note, Personal } from '../../shared/contracts/personal';
 import { isDesktop } from '../../platform';
 import { deleteCharacter } from './domain';
+import { randomUUID } from '../../shared/browserCrypto';
 export type JournalDialog = {type:'characters'} | {type:'backup'; backup?:Backup} | {type:'note'; note:Note};
 export function useJournalForms() {
   const [characterName,setCharacterName] = useState(''), [renaming,setRenaming] = useState('');
@@ -21,7 +22,7 @@ export default function JournalDialogs({dialog,state,update,setDialog,setMessage
     event.preventDefault();
     const name = characterName.trim();
     if (!name || name.length > 60) { setMessage(t("请输入 1–60 字的角色名")); return; }
-    const id = renaming || crypto.randomUUID();
+    const id = renaming || randomUUID();
     const saved = await update(s => {
       if (s.characters.some(c => c.name === name && c.id !== renaming)) throw new Error(t("角色名已存在"));
       if (renaming && !s.characters.some(c => c.id === id)) throw new Error(t("此角色已在其他页面删除。"));

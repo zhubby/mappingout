@@ -1,11 +1,12 @@
 /**
- * [INPUT]: 依赖本地资料、哈希绑定的双语包和字段目录。
+ * [INPUT]: 依赖本地资料、双语包、字段目录与 HTTP 兼容哈希。
  * [OUTPUT]: 提供不可变的资料投影、原文和双语检索别名。
  * [POS]: 全应用资料读取边界；失败请求可重新加载。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { contentFields, type Dataset } from './content-fields';
 import type { Locale } from './index';
+import { sha256Hex } from '../shared/browserCrypto';
 
 export interface LanguagePack { version: 1; locale: Locale; dataset: Dataset; sourceHash: string; englishHash?: string; baselineHash?: string; fields: Record<string,string> }
 export interface ContentBundle<T> { original: T; packs: Record<Locale,LanguagePack> }
@@ -54,10 +55,10 @@ export function loadContent<T>(dataset:Dataset):Promise<ContentBundle<T>> {
   if(!pending){
     const read=async(path:string)=>{const response=await fetch(`${import.meta.env.BASE_URL}data/${path}`);if(!response.ok)throw Error(`Data HTTP ${response.status}`);return response.text();};
     pending=Promise.all([read(`${dataset}.json`),read(`i18n/zh-CN/${dataset}.json`),read(`i18n/en/${dataset}.json`)]).then(async([raw,zh,en])=>{
-      const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(raw))),b=>b.toString(16).padStart(2,'0')).join('');
+      const hash=await sha256Hex(raw);
       const packs={'zh-CN':JSON.parse(zh) as LanguagePack,en:JSON.parse(en) as LanguagePack};
       for(const [locale,pack]of Object.entries(packs))if(pack.version!==1||pack.dataset!==dataset||pack.locale!==locale||pack.sourceHash!==hash)throw Error(`Stale ${locale} content pack: ${dataset}`);
-      const englishHash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify(packs.en.fields)))),b=>b.toString(16).padStart(2,'0')).join('');
+      const englishHash=await sha256Hex(JSON.stringify(packs.en.fields));
       if(packs.en.englishHash!==englishHash||packs['zh-CN'].englishHash!==englishHash||!packs.en.baselineHash||packs['zh-CN'].baselineHash!==packs.en.baselineHash)throw Error(`Stale English translation baseline: ${dataset}`);
       const original=JSON.parse(raw);
       for(const field of contentFields(original,dataset))for(const [locale,pack]of Object.entries(packs))if(!pack.fields[field.key]?.trim())throw Error(`Missing ${locale} translation: ${field.key}`);

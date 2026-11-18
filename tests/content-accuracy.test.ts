@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖固定 Wiki 事实、双语资料和翻译审校规则。
- * [OUTPUT]: 验证英文来源、数值签名和审校绑定。
+ * [OUTPUT]: 验证英文来源、数值签名、HTTP 哈希与审校绑定。
  * [POS]: 资料准确性回归；防止译文覆盖事实或沿用失效审校。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -46,6 +46,20 @@ describe('English Wiki authority',()=>{
     const common={version:1,dataset:'calendar',sourceHash,englishHash,baselineHash:'pinned-evidence'};
     vi.stubGlobal('fetch',vi.fn(async(url:string)=>({ok:true,text:async()=>url.includes('/en/')?JSON.stringify({...common,locale:'en',fields:{'activities/a/objective':'Damage increased by 25%.'}}):url.includes('/zh-CN/')?JSON.stringify({...common,locale:'zh-CN',fields:{'activities/a/objective':'伤害降低 25%。'}}):raw})));
     await expect(loadContent('calendar')).rejects.toThrow('Stale English translation baseline');
+  });
+});
+
+describe.each([['HTTP without subtle', {}], ['no Crypto API', undefined]])('content integrity: %s',(_name,cryptoApi)=>{
+  it.each(['valid','changed source','changed English'])('checks %s with no Web Crypto',async(scenario)=>{
+    vi.resetModules();
+    vi.stubGlobal('crypto',cryptoApi);
+    const raw=JSON.stringify({activities:[{id:'a',objective:'Damage reduced by 25%.'}]}),sourceHash=hash(raw);
+    const fields={'activities/a/objective':'Damage reduced by 25%.'},englishHash=hash(JSON.stringify(fields));
+    const common={version:1,dataset:'calendar',sourceHash,englishHash,baselineHash:'pinned-evidence'};
+    vi.stubGlobal('fetch',vi.fn(async(url:string)=>({ok:true,text:async()=>url.includes('/en/')?JSON.stringify({...common,locale:'en',fields:scenario==='changed English'?{'activities/a/objective':'Damage increased by 25%.'}:fields}):url.includes('/zh-CN/')?JSON.stringify({...common,locale:'zh-CN',fields:{'activities/a/objective':'伤害降低 25%。'}}):scenario==='changed source'?raw+' ':raw})));
+    const {loadContent:load}=await import('../src/i18n/content');
+    if(scenario==='valid')await expect(load('calendar')).resolves.toMatchObject({original:JSON.parse(raw)});
+    else await expect(load('calendar')).rejects.toThrow(scenario==='changed source'?'Stale zh-CN content pack':'Stale English translation baseline');
   });
 });
 

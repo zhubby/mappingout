@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖护甲资料、职业图标、个人计划与统一菜单。
+ * [INPUT]: 依赖护甲资料、职业图标、个人计划、HTTP UUID 与菜单。
  * [OUTPUT]: 提供带职业和材料图标的配方、合计与计划界面。
  * [POS]: 护甲视图；个人记录由 App 的写入队列保存。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -16,6 +16,7 @@ import { useFeatureData } from '../../shared/content/useFeatureData';
 import type { FeatureProps } from '../../shared/contracts/feature';
 import Select from '../../shared/ui/Select';
 import { professionById } from '../../shared/game/professions';
+import { randomUUID } from '../../shared/browserCrypto';
 
 const slots:Record<string,string>={get head() { return t("头部"); },get chest() { return t("身体"); },get hands() { return t("手部"); },get legs() { return t("腿部"); },get feet() { return t("足部"); }};
 export const goldLabel=(gold:number)=>`${Math.floor(gold/1000)?t("{{v0}} 白金 ", { v0: Math.floor(gold/1000) }):''}${gold%1000||!gold?' '+gold%1000+t(" 金币"):''}`.trim();
@@ -46,7 +47,7 @@ function Workshop({data,catalog,personal,params,patch,update,manageCharacters,na
   async function save() {
     if(!character){manageCharacters();return;}
     if(!offer||!pieces.length)return;
-    const plan:ArmorPlan={id:crypto.randomUUID(),characterId:character.id,name:planName.trim()||selected?.name||t("制作计划"),offerId:offer.id,pieceIds:pieces.map(p=>p.id),completedPieceIds:[]};
+    const plan:ArmorPlan={id:randomUUID(),characterId:character.id,name:planName.trim()||selected?.name||t("制作计划"),offerId:offer.id,pieceIds:pieces.map(p=>p.id),completedPieceIds:[]};
     if(await update(state=>saveArmorPlan(state,plan))){setNotice(t("制作计划已保存"));setPlanName('');}
   }
   async function changePiece(plan:ArmorPlan,pieceId:string,done:boolean) {

@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖容器 HTTP 服务、Docker CLI 与共用分发回归。
- * [OUTPUT]: 验证容器分发契约和同一 origin 重建后的角色记录。
+ * [OUTPUT]: 验证 HTTP 兼容、容器分发与重建后的角色记录。
  * [POS]: 容器验收入口；仅重建显式指定的隔离测试容器。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -12,6 +12,25 @@ import { distributionTests } from './distribution';
 const exec = promisify(execFile);
 
 distributionTests();
+
+test('HTTP without secure-context Crypto APIs loads data and saves character progress', async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.defineProperty(globalThis.crypto, 'subtle', { value: undefined });
+    Object.defineProperty(globalThis.crypto, 'randomUUID', { value: undefined });
+  });
+  await page.goto('/?kind=skill&q=' + encodeURIComponent('劈击'));
+  await expect(page.getByRole('heading', { name: '无法打开探索志', exact: true })).toHaveCount(0);
+  await page.getByRole('button', { name: '创建探索者', exact: true }).click();
+  await page.getByRole('textbox', { name: '角色名' }).fill('HTTP 探索者');
+  await page.getByRole('button', { name: '创建探索者', exact: true }).last().click();
+  await page.getByRole('button', { name: '关闭弹窗' }).click();
+  await page.locator('.result').first().click();
+  await page.getByRole('button', { name: '标记已捕获', exact: true }).click();
+  await expect(page.locator('.character-summary small')).toHaveText('已记录 1 个技能');
+  await page.reload();
+  await expect(page.locator('.character-summary')).toContainText('HTTP 探索者');
+  await expect(page.locator('.character-summary small')).toHaveText('已记录 1 个技能');
+});
 
 test('container exposes health, font types, conditional and partial responses', async ({ request }) => {
   const health = await request.get('/healthz');

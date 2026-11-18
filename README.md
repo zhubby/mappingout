@@ -11,7 +11,8 @@
 <p align="center">
   <a href="https://mappingout-web.zhubby.workers.dev">Open the web app</a> ·
   <a href="https://github.com/zhubby/mappingout/releases/latest">Download for Windows &amp; macOS</a> ·
-  <a href="#deploy-to-cloudflare-workers">Deploy your own</a>
+  <a href="#deploy-to-cloudflare-workers">Deploy to Cloudflare</a> ·
+  <a href="#deploy-with-docker">Deploy with Docker</a>
 </p>
 
 <p align="center">
@@ -77,6 +78,28 @@ npm run deploy
 
 See the [deployment guide](docs/guides/cloudflare-workers.md) for caching, rollbacks, and backup migration.
 
+## Deploy with Docker
+
+Use Docker Engine with the Compose plugin to run the published Linux image on amd64 or arm64.
+Download the deployment file into a new directory:
+
+```sh
+curl -fsSLO https://raw.githubusercontent.com/zhubby/mappingout/main/compose.yaml
+MAPPINGOUT_IMAGE=ghcr.io/zhubby/mappingout:edge docker compose up -d --wait
+```
+
+Open `http://localhost:8080`. Use `edge` until the first container release is published;
+Compose otherwise defaults to `ghcr.io/zhubby/mappingout:latest`.
+Pin a published version or image digest for production.
+Set `MAPPINGOUT_PORT` to change the host port.
+
+The image serves the complete web build, including maps, reference data, fonts, licenses, and the offline service worker.
+Personal records stay in each browser; no database or persistent container volume is required.
+Serve the site at the domain root through an HTTPS reverse proxy for remote offline use.
+Keep the same scheme, host, and port when updating to retain access to browser records.
+
+See the [container guide](docs/guides/container-deployment.md) for local builds, updates, rollbacks, and GHCR publishing.
+
 ## Local development
 
 Install Node.js **24 or later**, then run:
@@ -106,7 +129,7 @@ Built with React 19, TypeScript, Vite, Leaflet, Tailwind CSS, and Tauri 2.
 ## Documentation and credits
 
 Detailed guides are currently in Chinese:
-[project structure](docs/guides/project-structure.md) · [desktop app](docs/guides/desktop.md) · [offline resources](docs/guides/desktop-resources.md) ·
+[project structure](docs/guides/project-structure.md) · [container deployment](docs/guides/container-deployment.md) · [desktop app](docs/guides/desktop.md) · [offline resources](docs/guides/desktop-resources.md) ·
 [quest guides](docs/guides/quest-guides.md) · [skill library](docs/guides/skills.md) ·
 [armor and calendar](docs/guides/armor-calendar.md) · [languages and fonts](docs/guides/i18n.md).
 

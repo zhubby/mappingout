@@ -4,6 +4,7 @@
 app-icon.md: 应用图标来源与构建。
 armor-calendar.md: 护甲、日历、个人记录与回滚说明。
 cloudflare-workers.md: 一键部署、网页静态资源发布和回滚。
+container-deployment.md: Docker Compose 部署、浏览器数据边界、GHCR 双架构发布与回滚。
 desktop-platforms.md: 支持平台、系统签名与历史构建证据。
 desktop-resources.md: 签名资源、缓存、离线导入与发布。
 desktop-updates.md: 程序自动检查、缓存、延期与安装屏障。

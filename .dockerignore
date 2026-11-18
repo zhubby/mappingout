@@ -1,0 +1,23 @@
+# 仅发送生产 Web 构建需要的输入。
+**
+!Dockerfile
+!.dockerignore
+!package.json
+!package-lock.json
+!index.html
+!tsconfig.json
+!vite.config.ts
+!src/
+!src/**
+!public/
+!public/**
+!data/
+!data/**
+!scripts/
+!scripts/**
+!container/
+!container/nginx.conf
+**/.env
+**/.env.*
+data/i18n/local-drafts.json
+data/i18n/review-queue.json

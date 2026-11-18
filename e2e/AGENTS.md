@@ -4,7 +4,9 @@
 app.spec.ts: 职业图例浮框、地图、角色、笔记和备份回归。
 features.spec.ts: 双语职业与材料图标、离线配方和计划回归。
 i18n.spec.ts: 双语界面、来源原文与语言持久化。
-worker.spec.ts: Workers 响应头、缓存、404 与离线回归。
+worker.spec.ts: Workers 分发验收入口，复用 distribution.ts。
+distribution.ts: Workers 与容器共用 HTTP、404、首次地图离线和缓存升级断言。
+container.spec.ts: 容器分发验收、HTTP 特性和同一 origin 重建后的角色保留。
 select.ts: 通过可见选项操作自定义菜单的共用测试步骤。
 dropdowns.spec.ts: 三级地图导航、空值联动、键盘与手机边界回归。
 quests.spec.ts: 任务检索、角色奖励、前置、备份、日历与未访问路线图离线回归。

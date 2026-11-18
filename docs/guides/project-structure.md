@@ -1,7 +1,7 @@
 # 工程结构
 
 前端保留 `src`。原生工程使用 `desktop`。
-根目录保留单一 npm 工程与 Worker 部署入口。
+根目录保留单一 npm 工程、Worker 与容器部署入口。
 
 ```text
 src/
@@ -17,9 +17,12 @@ desktop/
   src/{backup,resources,updates}/
   capabilities/
   icons/
+container/
+  nginx.conf
 scripts/
   lib/
   build/
+  container/
   desktop/
   legacy/
   validate/
@@ -97,6 +100,12 @@ npm 命令名称、CLI 参数和退出码保持兼容。
 `npm run check:worker` 只执行构建与部署演练。
 `npm run deploy` 仍从根目录发布单一 Worker。
 一键部署入口见 [部署指南](cloudflare-workers.md)。
+
+`Dockerfile` 复用 Web 构建，运行层只提供静态文件。
+`container/nginx.conf` 定义 HTTP、缓存和健康检查。
+`scripts/container/` 定义镜像发布策略和 HTTP 验收。
+`compose.yaml` 拉取镜像，不触发源码构建。
+容器操作见 [容器部署指南](container-deployment.md)。
 
 ## 兼容与维护
 

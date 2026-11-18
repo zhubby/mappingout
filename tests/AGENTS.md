@@ -3,6 +3,7 @@
 
 auto-backup.test.ts: 快照合并、失败重试和卸载取消。
 content-accuracy.test.ts: Wiki 校订字段与来源一致性。
+container-release.test.ts: 容器事件分流、OCI 索引 HTTP 协议、公开拉取门禁与单调频道聚合。
 data.test.ts: 资料转换、引用与地图输入校验。
 deployment.test.ts: 构建输入、部署规则与图标预缓存；整库用例时限 30 秒。
 desktop-release.test.ts: 三平台版本、安装盘、签名与下载地址的发布聚合回归。

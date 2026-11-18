@@ -2,6 +2,7 @@
 > L2 | Parent: ../AGENTS.md
 
 build/: Web 和桌面构建收尾。
+container/: 容器 HTTP 验收与 GHCR 频道发布。
 desktop/: 桌面开发、打包与验收。
 i18n/: 双语审查与编译。
 legacy/: 原始资料转换。

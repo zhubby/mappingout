@@ -35,6 +35,8 @@
     "test:e2e": "playwright test",
     "test:e2e:updates": "vite build --mode desktop && playwright test --config playwright.updates.config.ts",
     "test:e2e:worker": "playwright test --config playwright.worker.config.ts",
+    "test:e2e:container": "playwright test --config playwright.container.config.ts",
+    "test:container": "node scripts/container/smoke.mjs",
     "desktop:dev": "node scripts/desktop/desktop.mjs dev",
     "desktop:build": "node scripts/desktop/desktop.mjs build",
     "desktop:build:offline": "node scripts/desktop/desktop.mjs build --config desktop/tauri.offline.conf.json",

@@ -1,0 +1,17 @@
+# [INPUT]: 依赖 GHCR 多架构镜像；MAPPINGOUT_IMAGE 和 MAPPINGOUT_PORT 覆盖默认值。
+# [OUTPUT]: 提供非 root、只读文件系统和健康检查的单站点部署。
+# [POS]: 容器部署示例；个人记录保存在浏览器，无需持久卷。
+# [PROTOCOL]: Update this header on change, then check AGENTS.md
+services:
+  mappingout:
+    image: ${MAPPINGOUT_IMAGE:-ghcr.io/zhubby/mappingout:latest}
+    ports:
+      - "${MAPPINGOUT_PORT:-8080}:8080"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

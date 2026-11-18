@@ -1,0 +1,174 @@
+# [INPUT]: 依赖已提交的 Web 输入、原生 Linux runner 与 GITHUB_TOKEN。
+# [OUTPUT]: 验收双架构镜像；push 事件发布已验收的 OCI 索引。
+# [POS]: 容器独立流水线；Pull request 与手动运行仅执行验收。
+# [PROTOCOL]: Update this header on change, then check AGENTS.md
+name: Container validation and release
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    tags: ['desktop-v*']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  policy:
+    runs-on: ubuntu-24.04
+    outputs:
+      publish: ${{ steps.plan.outputs.publish }}
+      formal: ${{ steps.plan.outputs.formal }}
+      image: ${{ steps.plan.outputs.image }}
+      version: ${{ steps.plan.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Bind event, repository, and release version
+        id: plan
+        run: node scripts/container/release.mjs plan
+
+  validate:
+    needs: policy
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: ubuntu-24.04
+            arch: amd64
+          - runner: ubuntu-24.04-arm
+            arch: arm64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Formal release gates
+        if: needs.policy.outputs.formal == 'true'
+        run: npm run check:release
+      - run: npm test
+      - uses: docker/setup-buildx-action@v3
+      - name: Build final native image locally
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          platforms: linux/${{ matrix.arch }}
+          load: true
+          push: false
+          provenance: false
+          sbom: false
+          tags: mappingout:test
+          labels: |
+            org.opencontainers.image.version=${{ needs.policy.outputs.version }}
+            org.opencontainers.image.revision=${{ github.sha }}
+            org.opencontainers.image.source=https://github.com/${{ github.repository }}
+      - name: Start read-only nonroot image
+        run: >-
+          docker run --detach --name mappingout-e2e-${{ matrix.arch }}
+          --read-only --tmpfs /tmp:rw,noexec,nosuid,size=64m,mode=1777
+          --cap-drop=ALL --security-opt=no-new-privileges
+          --publish 127.0.0.1:8080:8080 mappingout:test
+      - name: HTTP acceptance on final native image
+        run: node scripts/container/smoke.mjs http://127.0.0.1:8080
+      - name: Install Chromium for browser acceptance
+        if: matrix.arch == 'amd64'
+        run: npx playwright install --with-deps chromium
+      - name: Browser acceptance on final amd64 image
+        if: matrix.arch == 'amd64'
+        run: npm run test:e2e:container
+        env:
+          MAPPINGOUT_CONTAINER_URL: http://127.0.0.1:8080
+          MAPPINGOUT_CONTAINER_NAME: mappingout-e2e-amd64
+      - name: Preserve validated native image
+        if: needs.policy.outputs.publish == 'true'
+        run: docker save mappingout:test --output "${{ runner.temp }}/mappingout-${{ matrix.arch }}.tar"
+      - uses: actions/upload-artifact@v4
+        if: needs.policy.outputs.publish == 'true'
+        with:
+          name: container-image-${{ matrix.arch }}
+          path: ${{ runner.temp }}/mappingout-${{ matrix.arch }}.tar
+          compression-level: 0
+          retention-days: 2
+          if-no-files-found: error
+      - name: Container diagnostics
+        if: failure()
+        run: docker logs mappingout-e2e-${{ matrix.arch }} || true
+      - name: Remove test container
+        if: always()
+        run: docker rm --force mappingout-e2e-${{ matrix.arch }} || true
+
+  publish-architecture:
+    needs: [policy, validate]
+    if: github.event_name == 'push' && needs.policy.outputs.publish == 'true'
+    permissions:
+      contents: read
+      packages: write
+    strategy:
+      fail-fast: false
+      matrix:
+        arch: [amd64, arm64]
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          name: container-image-${{ matrix.arch }}
+          path: ${{ runner.temp }}/validated-image
+      - name: Load the image accepted by the native runner
+        run: docker load --input "${{ runner.temp }}/validated-image/mappingout-${{ matrix.arch }}.tar"
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+      - name: Publish accepted image bytes and its architecture digest
+        run: node scripts/container/release.mjs publish-arch "${{ runner.temp }}/digest-${{ matrix.arch }}.json"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CONTAINER_ARCH: ${{ matrix.arch }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: container-digest-${{ matrix.arch }}
+          path: ${{ runner.temp }}/digest-${{ matrix.arch }}.json
+          retention-days: 2
+          if-no-files-found: error
+
+  publish-manifest:
+    needs: [policy, publish-architecture]
+    if: github.event_name == 'push' && needs.policy.outputs.publish == 'true'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      packages: write
+    # 容器频道独立串行；桌面与资源发布使用各自的并发组。
+    concurrency:
+      group: mappingout-container-channels-v1
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: container-digest-*
+          merge-multiple: true
+          path: ${{ runner.temp }}/container-digests
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+      - name: Merge, verify both architectures, and advance eligible channels
+        run: node scripts/container/release.mjs merge "${{ runner.temp }}/container-digests"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

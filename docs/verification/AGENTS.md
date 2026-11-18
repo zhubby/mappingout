@@ -1,7 +1,7 @@
 # verification/
 > L2 | Parent: ../AGENTS.md
 
-container-deployment-verification.md: 双架构容器、本地注册表发布链路、浏览器与 Compose 验收边界。
+container-deployment-verification.md: 双架构容器、注册表发布、浏览器回归与 ZimaBoard2 实机部署验收。
 deployment-verification.md: 网页构建、Workers 发布及 1.3.0 正式站点验收。
 desktop-1.2.0-acceptance.md: 1.2.0 历史发布验收。
 desktop-1.3.0-acceptance.md: 1.3.0 三平台发布、更新签名与公开资源回读验收。

@@ -1,7 +1,7 @@
 {
-  "version": "1.3.1",
-  "reason": "The user explicitly requested code review, fixes, a new release and three-platform CI on 2026-11-17. The unchanged editorial findings and unresolved Friz distribution license are disclosed in the 1.3.1 release notes and the release progress update. This new version-specific decision is bound to the unchanged content fingerprint; it does not approve translations, claim a font license or waive integrity checks.",
-  "fingerprint": "d1d3cda467da63479371c6def8928a58dfd92ad2c187412bdbc0dfb24f74b684",
+  "version": "1.3.2",
+  "reason": "The user explicitly requested merging, pushing, a new release and ZimaBoard testing on 2026-11-19. Re-evaluation confirms that content datasets, baselines, review records and font inputs are unchanged; the input fingerprint changes only for new bilingual performance and offline-preparation UI strings. The same five eligible editorial/licensing findings remain and are disclosed in the 1.3.2 release notes and progress update. This version-specific exception does not approve translations, claim a font license or waive integrity checks.",
+  "fingerprint": "1055a01c4a3211c7b1c2c7a90379607a05d1da5dc2a04bcf16c58441d04dc3ae",
   "acceptedFindings": [
     "131779 Chinese fields still require review against English Wiki",
     "14086 Chinese fields still contain untranslated Latin words",

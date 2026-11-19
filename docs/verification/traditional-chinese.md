@@ -119,7 +119,81 @@ IPC 替身不提供原生資源協定，不能直接測已拆包目錄。
 
 ![繁體技能查詢](../images/traditional-query.png)
 
-發布結果在完成後追加。
+## 正式發布
+
+PR [#1](https://github.com/zhubby/mappingout/pull/1) 已合併。
+發布標籤 `desktop-v1.4.0` 固定在合併提交：
+`090e722c95f1943bf06232cfad6c0b1aa996ac65`。
+
+- [三平台桌面流水線](https://github.com/zhubby/mappingout/actions/runs/44519612484) 全部通過。
+- [雙架構容器流水線](https://github.com/zhubby/mappingout/actions/runs/44519612615) 全部通過。
+- AMD64 最終鏡像通過 322 項單測及 28 項瀏覽器驗收。
+- ARM64 最終鏡像通過單測與 HTTP 驗收。
+- [主分支容器流水線](https://github.com/zhubby/mappingout/actions/runs/44519500607) 重跑後全部通過。
+- [1.4.0 公開發布](https://github.com/zhubby/mappingout/releases/tag/desktop-v1.4.0) 於 12:12:54 UTC 上線。
+
+首次 AMD64 語料檢查耗時 21.378 秒，超過 20 秒上限。
+同一提交重跑通過，最終耗時 14.667 秒。
+另一次重跑受 Ubuntu 套件鏡像的連線故障與 503 阻擋。
+恢復後完整執行全部驗收，未略過檢查或移動標籤。
+
+以匿名 HTTP 回讀全部 10 個公開發布檔案。
+檔案大小及 SHA-256 與 GitHub metadata 一致。
+`SHA256SUMS.txt` 全部匹配。
+三個更新包的分離簽名、可信註解及版本均通過原公鑰驗證。
+`latest.json` 的三平台 URL 指向 1.4.0。
+正式 latest 更新端點也回傳 1.4.0。
+
+獨立資源包使用原公鑰驗簽。
+三包經公開網址下載，大小與 SHA-256 匹配。
+ZIP 中 3,710 個檔案逐一匹配簽名清單。
+混合版本頻道同時包含本版與舊版資源。
+
+GHCR `1.4.0` 與 `latest` 指向同一 OCI 索引：
+`sha256:5958c5fa8dc15e96d406434b0a37fee5d24d21488edd5689620ff47f1f5d913e`。
+
+| 平台 | 原生鏡像摘要 |
+| --- | --- |
+| linux/amd64 | `sha256:2253a1f0ada347aa6d1cafae7a51e8da54ffb8f786868b795c968363717556a6` |
+| linux/arm64 | `sha256:d159dacf0eecb47865b4fd133e685e5bdf2f4723d3d2f1d829a36401af45a375` |
+
+## ZimaBoard2 部署
+
+部署沿用 ZimaOS 的既有 MappingOut 應用。
+YAML 僅將鏡像由 `1.3.2` 更新為 `1.4.0`。
+對外入口保持 [192.168.11.35:18881](http://192.168.11.35:18881/)。
+端口仍為 `18881:8080`，未新增持久化卷。
+唯讀根檔案系統、cap_drop、tmpfs 與安全選項不變。
+
+ZimaOS 完成重建後，Dozzle 顯示運行鏡像為 1.4.0。
+新容器為 `554bbf4e9962`，服務日誌顯示正常回應。
+`scripts/container/smoke.mjs` 實機驗收通過。
+頁面 HTML 與本地 1.4.0 建置相同。
+兩個入口檔案的 SHA-256 也相同：
+
+- `build/index-BTxLv1hU.js`：`7b6356f8569b36d8d61517015ecf98cb7a032b3955a1a0c6c464757c095b77d7`。
+- `build/index-CBWj-eJh.css`：`9ecad718c9fb468faa58847fc354729eed56dbee3760898f283a40fe2c9c66d5`。
+
+同一 Chrome origin 的舊簡體偏好已遷移為繁體中文。
+升級前建立的角色「发布验收 1.3.2」保留。
+Vizunah Square 的「進行中」記錄保留。
+角色名稱屬使用者資料，保留其原始文字。
+
+![升級後的角色與任務進度](../images/zima-1.4.0-progress.jpg)
+
+實機查詢「屬性:戴爾狄摩排名」回傳 14 項。
+加入「能量>=5點」後回傳 11 項。
+展開查詢語法後，四組範例均顯示繁體。
+切換 English 後，原查詢仍回傳 11 項。
+再切回繁體，世界地圖與職業標記正常顯示。
+技能正文繼續顯示機器輔助譯文待審提示。
+
+![實機繁體查詢與範例](../images/zima-1.4.0-query.jpg)
+
+回滾入口仍為 ZimaOS 的同一應用 YAML。
+將鏡像恢復為 `ghcr.io/zhubby/mappingout:1.3.2`。
+保持端口與 origin，個人記錄仍位於瀏覽器 IndexedDB。
+本次未執行回滾。
 
 ## 平台與發布限制
 

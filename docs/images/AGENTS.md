@@ -30,5 +30,7 @@ skills-mobile.png: 手机技能目录收起后的详情和成长效果。
 traditional-query.png: 1.4.0 繁体称号查询、點单位与查询语法回归。
 zima-1.3.2-map.jpg: ZimaBoard2 上 1.3.2 新版地图与技能地点定位。
 zima-1.3.2-offline-http.jpg: ZimaBoard2 局域网 HTTP 下的离线准备限制。
+zima-1.4.0-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
+zima-1.4.0-query.jpg: ZimaBoard2 繁体称号、點单位和查询说明的实机结果。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

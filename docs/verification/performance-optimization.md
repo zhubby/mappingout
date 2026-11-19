@@ -42,6 +42,7 @@ HTTPS 或本机回环地址才能启用 Web 离线缓存。
 局域网 HTTP 仍支持在线浏览与个人记录。
 浏览器能回收缓存。角色记录仍使用独立 IndexedDB。
 本次未测量弱网首屏耗时或目标设备的持续内存占用。
-本次未发布镜像、更新线上站点或安装桌面程序。
+本报告记录本地验收，未安装桌面程序。
+后续发布与实机更新见 [1.3.2 验收](desktop-1.3.2-acceptance.md)。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

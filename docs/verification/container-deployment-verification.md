@@ -137,6 +137,30 @@ ZimaOS 首次保存 digest 后仍运行旧容器。
 镜像回滚不恢复浏览器个人记录。
 局域网 HTTP 已验证在线访问；离线访问仍需 HTTPS。
 
+## Favicon 修复与部署
+
+日期：2026-11-19。
+修复提交：`b2675efc78a28c85e64cea3e1939ac3b7dca8afa`。
+[容器工作流](https://github.com/zhubby/mappingout/actions/runs/44437554175) 全部成功。
+ZimaOS 应用已更新到该提交的完整 SHA 镜像标签。
+访问端口仍为 `18881:8080`。
+
+HTML 直接引用桌面 SVG 与 ICO 图标。
+Vite 输出哈希文件，沿用静态缓存与离线预缓存。
+Docker 构建上下文仅新增这两个图标输入。
+本地 Web 构建与预缓存产物检查通过。
+
+线上 HTML 包含两种图标声明。
+两种图标均返回 HTTP 200，字节与本地产物一致。
+SVG 类型为 `image/svg+xml`。
+ICO 类型为 `image/x-icon`。
+两种图标均使用一年 immutable 缓存。
+浏览器已打开并显示线上 SVG 图标。
+`/healthz` 返回 `ok`。
+
+更新前的 `6f47c706` 镜像保留为回滚目标。
+配置归属、端口和浏览器个人记录规则保持不变。
+
 ## 验证边界
 
 本次未发布桌面程序或签名资源。

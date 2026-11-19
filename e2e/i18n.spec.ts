@@ -30,6 +30,7 @@ test('language switch preserves links, view, filters, search and installed fonts
  await page.getByRole('textbox',{name:'Search information'}).fill('劈击');
  await expect(page.getByTestId('results').getByRole('button').first()).toContainText('Cleave');
  expect(await page.locator('.detail-scroll .english-name').count()).toBe(0);
+ await expect.poll(()=>page.evaluate(()=>Array.from(document.styleSheets).some(sheet=>sheet.href?.includes('/build/fonts-')))).toBe(true);
  await page.evaluate(async()=>{await document.fonts.load('16px "Friz Quadrata Std"');await document.fonts.load('16px "LXGW WenKai Screen"');});
  const cdp=await page.context().newCDPSession(page);await cdp.send('DOM.enable');await cdp.send('CSS.enable');
  const {root}=await cdp.send('DOM.getDocument');
@@ -39,6 +40,9 @@ test('language switch preserves links, view, filters, search and installed fonts
  await page.reload();await expect(page.locator('html')).toHaveAttribute('lang','en');
  await expect(page.locator('.detail-title-row h2')).toHaveText('Cleave');
  await selectOption(page.getByLabel('Language / 语言'), 'zh-CN');
+ await expect(page.locator('.detail-title-row h2')).toHaveText('劈击');
+ await expect.poll(()=>page.evaluate(()=>Array.from(document.styleSheets).some(sheet=>sheet.href?.includes('/build/fonts-')))).toBe(true);
+ await page.evaluate(async()=>{await document.fonts.load('16px "LXGW WenKai Screen"');});
  const documentNode=await cdp.send('DOM.getDocument');
  const chineseNode=await cdp.send('DOM.querySelector',{nodeId:documentNode.root.nodeId,selector:'.detail-title-row h2'});
  const chineseFonts=await cdp.send('CSS.getPlatformFontsForNode',{nodeId:chineseNode.nodeId});
@@ -48,9 +52,16 @@ test('language switch preserves links, view, filters, search and installed fonts
 
 test('both language packs and fonts work after going offline',async({page,context})=>{
  test.setTimeout(90000);
+ const fontLoaded=page.waitForResponse(response=>response.url().endsWith('/fonts/lxgw/LXGWWenKaiScreen.ttf'));
  await page.goto('/');await expect(page.getByTestId('atlas-map')).toBeVisible();
  await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
  await page.waitForFunction(()=>!!navigator.serviceWorker.controller);
+ await page.locator('.module-nav').getByRole('button',{name:'护甲制作',exact:true}).click();
+ await expect(page.locator('.armor-results')).toBeVisible();
+ await page.locator('.module-nav').getByRole('button',{name:'活动日历',exact:true}).click();
+ await expect(page.locator('.current-activities')).toBeVisible();
+ await fontLoaded;
+ await page.evaluate(async()=>{await document.fonts.ready;});
  await context.setOffline(true);
  await selectOption(page.getByLabel('Language / 语言'), 'en');
  await page.locator('.module-nav').getByRole('button',{name:'Armor crafting',exact:true}).click();

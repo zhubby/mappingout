@@ -4,10 +4,11 @@
 index.ts: 语言偏好、界面文案与本机错误翻译。
 zh-CN.json: 简体中文界面文案与占位符。
 en.json: 英文界面文案；键与中文一致。
-content.ts: HTTP 兼容哈希校验、资料语言包加载与不可变投影。
+content.ts: worker 客户端、异步投影、来源映射与已访问路径信号。
+content.worker.ts: 资料流读取、超时、哈希和字段校验、语言投影。
 content-fields.ts: 稳定实体路径与可翻译字段提取。
 attributes.ts: 属性标识、别名与语言标签。
 attribute-labels.json: 属性中英文标签。
-fonts.css: 本地双语字体与语言菜单响应式布局。
+fonts.css: 延迟加载本地双语字体；布局由 app/styles.css 提供。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

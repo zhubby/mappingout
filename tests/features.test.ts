@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖真实护甲资料、Wiki 图像证据与个人存储。
- * [OUTPUT]: 验证材料身份与图像校验值、配方及活动周期。
+ * [OUTPUT]: 验证材料来源、护甲索引、配方和活动周期。
  * [POS]: 功能资料和领域回归；与浏览器交互验证互补。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -12,6 +12,7 @@ import 'fake-indexeddb/auto';
 import { openDB } from 'idb';
 import type { ActivityCatalog } from '../src/shared/contracts/calendar';
 import type { ArmorCatalog, ArmorPlan } from '../src/shared/contracts/armor';
+import { createArmorIndex } from '../src/features/armor/ArmorWorkshop';
 import { armorTotal, planPieces, saveArmorPlan, setArmorPiece } from '../src/features/armor/domain';
 import { dateInZone, dateStart, nextOccurrence, occurrenceAt, occurrencesOnDate, setActivityProgress } from '../src/features/calendar/domain';
 import { emptyPersonal } from '../src/storage/defaults';
@@ -29,6 +30,13 @@ const personal=()=>({...emptyPersonal(),characters:[{id:'a',name:'角色甲'},{i
 const offers=(title:string)=>armor.offers.filter(o=>o.armorId===armor.sets.find(s=>s.englishName===title)!.id);
 
 describe('reviewed armor recipes',()=>{
+  it('indexes offers by armor and keeps localized search text in catalog order',()=>{
+    const index=createArmorIndex(armor);
+    const set=armor.sets.find(row=>row.englishName==='Warrior Ascalon armor')!;
+    expect(index.offersByArmor.get(set.id)).toEqual(armor.offers.filter(offer=>offer.armorId===set.id));
+    expect(index.searchTextByArmor.get(set.id)).toContain(set.name.toLowerCase());
+    expect(index.searchTextByArmor.get(set.id)).toContain(armor.armorers.find(row=>row.id===index.offersByArmor.get(set.id)![0].armorerId)!.name.toLowerCase());
+  });
   it('validates all professions, image assets, material references and complete cycles',async()=>{expect(await validateFeatureData('public')).toEqual({armorSets:298,armorOffers:1057,activities:430});});
   it('ships every recipe material icon unchanged from its pinned Wiki source',()=>{
     const manifest=JSON.parse(fs.readFileSync('data/wiki/material-icons.json','utf8'));

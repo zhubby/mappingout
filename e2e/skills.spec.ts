@@ -74,24 +74,25 @@ test('Wiki resource icons and all menus use local themed controls',async({page})
  await selectOption(page.getByRole('combobox',{name:'技能版本'}),'pvp');
  await expect(page.locator('.skill-result')).toHaveCount(1);
 });
-test('mobile skill details and unseen icons remain usable offline',async({page,context})=>{
+test('visited skill details and icons remain usable offline',async({page,context})=>{
  await page.setViewportSize({width:390,height:844});
  await page.goto('/?view=skills&sq="Healing Signet"');
  await expect(page.locator('.skill-article')).toBeVisible();
  await page.evaluate(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise<void>(resolve=>navigator.serviceWorker.addEventListener('controllerchange',()=>resolve(),{once:true}));});
- await context.setOffline(true);
  await page.getByRole('textbox',{name:'搜索技能'}).fill('名称:"Resurrection Signet"');
- await expect(page.locator('.skill-result')).toHaveCount(1);
- await page.locator('.skill-result').click();
+ await expect(page.locator('.skill-result')).toHaveCount(1);await page.locator('.skill-result').click();
+ await expect.poll(()=>page.locator('.skill-article .skill-portrait').evaluate(image=>(image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+ await context.setOffline(true);
+ await page.reload();
  await expect(page.locator('.skill-article')).toContainText('Resurrection Signet');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
  expect(await page.locator('.skill-article .skill-portrait').evaluate(image=>(image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
 });
 test('missing legacy skill resources allow other tabs and a successful retry',async({page})=>{
- await page.route('**/data/skills.json',route=>route.fulfill({status:404,body:'missing'}));
+ await page.context().route('**/data/skills.json',route=>route.fulfill({status:404,body:'missing'}));
  await page.goto('/?view=skills');await expect(page.getByRole('alert')).toBeVisible();
  await expect(page.getByText('技能资料未安装；请更新离线资源后重试。')).toBeVisible();
  await page.getByRole('button',{name:'世界地图',exact:true}).click();await expect(page.locator('.map-panel')).toBeVisible();
- await page.unroute('**/data/skills.json');await page.getByRole('button',{name:'职业技能',exact:true}).click();
+ await page.context().unroute('**/data/skills.json');await page.getByRole('button',{name:'职业技能',exact:true}).click();
  await expect(page.getByRole('heading',{name:'职业技能',exact:true})).toBeVisible();
 });

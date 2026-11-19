@@ -102,6 +102,7 @@ test('installation backup includes committed quest rewards and character conditi
 test('update prompt waits while a custom menu has focus', async ({page}) => {
   await nativeBridge(page);
   await page.goto('/');
+  await expect(page.getByTestId('atlas-map')).toBeVisible();
   const language = page.getByRole('combobox', {name:'Language / 语言'});
   await language.click();
   await finishCheck(page);

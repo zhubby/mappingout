@@ -11,6 +11,9 @@
 /sw.js
   Cache-Control: no-cache
 
+/offline-assets.json
+  Cache-Control: no-cache
+
 /data/*
   Cache-Control: public, max-age=0, must-revalidate
 

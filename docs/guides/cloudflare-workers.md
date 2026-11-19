@@ -70,11 +70,11 @@ npm run deploy
 
 应用入口为 `/`，地图和筛选在查询参数中，例如 `/?kind=skill&map=2%3A2`。配置禁用缺失资源的 SPA 回退，错误的 JSON、图片、脚本和路径返回真实 404。`/index.html` 可能按 Cloudflare 默认 HTML 规则重定向到 `/`。
 
-Vite 输出到 `/build/`，文件名带内容哈希，使用一年 immutable 缓存。`/`、`/index.html`、`/sw.js` 使用 `no-cache`；`/data/*` 和固定名称的 `/assets/*` 使用 `max-age=0, must-revalidate`。规则由 `public/_headers` 随构建发布。
+Vite 输出到 `/build/`，文件名带内容哈希，使用一年 immutable 缓存。`/`、`/index.html`、`/sw.js` 和 `/offline-assets.json` 使用 `no-cache`；`/data/*` 和固定名称的 `/assets/*` 使用 `max-age=0, must-revalidate`。规则由 `public/_headers` 随构建发布。
 
-构建脚本按排序后的产物路径与内容生成缓存版本，覆盖代码、资料、图片、响应头和 Service Worker 模板。同样内容重复构建得到相同版本；修改任一发布输入会产生新版本。Service Worker 安装时重新获取入口、构建资源和资料库，安装成功才接管并清理旧的 MappingOut 缓存。报告和图片导航不会覆盖 HTML 入口，网络成功时缓存写入失败也不影响返回。
+构建脚本按排序后的产物路径与内容生成缓存版本，覆盖代码、资料、图片、响应头和 Service Worker 模板。同样内容重复构建得到相同版本；修改任一发布输入会产生新版本。构建还生成 `offline-assets.json`，列出完整静态资源。Service Worker 仅在 HTTPS 或本机回环地址安装，并在安装时缓存 HTML 入口及其 JS、CSS 资源。安装成功才接管并清理旧的 MappingOut 缓存。报告和图片导航不会覆盖 HTML 入口，网络成功时缓存写入失败也不影响返回。
 
-首次成功加载并完成应用预缓存后可离线打开应用。任务路线图、技能与资源图标、材料图标纳入预缓存；地图图片在访问后加入缓存。首次安装接管页面时，会补缓存当前显示的图片，覆盖图片早于 Service Worker 加载的情况。新版发布后旧地图缓存会清理，需在线访问地图以重新缓存。浏览器可能回收离线缓存。角色、笔记和进度仍由 IndexedDB 单独保存，缓存升级与部署回滚不会修改它们。
+成功的同源静态 GET 会在访问后缓存。内容 Worker 读取的资料和首次接管前已加载的脚本、样式也会补入缓存。用户可启动完整离线准备；Service Worker 读取 `offline-assets.json`，最多并发下载两个资源，跳过已缓存项目，并报告失败。用户可取消任务，再次启动会继续缺失资源。Service Worker 接管页面时也会缓存当前显示的图片。新版本会删除旧缓存；浏览器仍可回收离线缓存。角色、笔记和进度由 IndexedDB 单独保存，缓存升级与部署回滚不会修改它们。
 
 ## 回滚
 

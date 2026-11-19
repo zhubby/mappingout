@@ -36,6 +36,7 @@ Wiki 修订固定；机器辅助译文保持待审状态。
 程序更新在启动时或用户手动操作时检查。
 安装前完成资源准备、写入排空与个人备份。
 正式发布遵守现有资料、字体与版本校验。
+Web 仅按需缓存已访问资源；全量离线由用户手动准备。
 容器复用 Web 产物与缓存契约；个人记录留在浏览器。
 新增文件更新模块地图；业务文件维护 INPUT/OUTPUT/POS。
 [PROTOCOL]: Update this header on change, then check AGENTS.md

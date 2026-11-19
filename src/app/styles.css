@@ -1,6 +1,6 @@
 /*
  * [INPUT]: 依赖应用布局、主题和共用 Select 触发器。
- * [OUTPUT]: 提供地图、详情、弹窗和响应式布局样式。
+ * [OUTPUT]: 提供地图、详情、弹窗与首屏双语响应式布局。
  * [POS]: 界面基础样式；菜单浮层由 select.css 定义。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -31,3 +31,31 @@
 @media(max-height:680px) and (min-width:801px){.search-box{height:32px}.filter-grid{gap:5px}.filters .select-trigger{padding-top:4px;padding-bottom:4px}.attribute-filter{display:flex!important;align-items:center;gap:8px}.attribute-filter .select-trigger{margin:0;flex:1}.checkbox-label{font-size:8px!important}.search-footer{height:26px}}
 .npc-skill-source { white-space: pre-line; }
 .detail-stat { white-space: pre-line; }
+
+/* 双语布局必须先于空闲字体加载生效。 */
+.language-selector { display:flex; align-items:center; gap:6px; white-space:nowrap; font-size:12px; }
+.language-selector .select-trigger { width:auto; min-width:100px; padding:7px 20px 7px 8px; }
+.original-content pre { white-space:pre-wrap; overflow-wrap:anywhere; font-size:12px; line-height:1.65; }
+.topbar { height:auto; min-height:78px; padding-top:10px; padding-bottom:10px; gap:16px; flex-wrap:wrap; }
+.topbar nav { flex-wrap:wrap; justify-content:flex-end; gap:12px; }
+.topbar .top-title { flex:1; }
+:root:lang(en) .eyebrow { letter-spacing:1px; }
+:root:lang(en) .workspace { grid-template-columns: minmax(275px, 310px) minmax(220px, 1fr) minmax(275px, 320px); }
+.kind-tabs, .map-bottom, .backup-summary, .module-nav { flex-wrap:wrap; }
+.filter-grid label, .feature-filter-grid label { min-width:0; }
+.result-copy, .detail-title-row h2, .activity-card, .saved-plan, .armor-result { overflow-wrap:anywhere; }
+.module-nav button { min-height:40px; }
+@media(max-width:1150px) { .topbar .top-title,.topbar .local-status { display:none; } }
+@media(max-width:900px) {
+  .topbar { padding:10px 14px; min-height:64px; }
+  .topbar .brand { width:auto; }
+  .topbar nav { margin-left:auto; gap:8px; }
+  .language-selector>span { display:none; }
+  .language-selector .select-trigger { min-width:85px; }
+}
+@media(max-width:800px) { :root:lang(en) .workspace { display:flex; } }
+@media(max-width:500px) {
+  .topbar .brand { flex:1; }
+  .topbar nav { flex:1 1 100%; justify-content:space-between; }
+  .top-divider { display:none; }
+}

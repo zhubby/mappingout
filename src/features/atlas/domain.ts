@@ -1,13 +1,13 @@
 /**
  * [INPUT]: 依赖地图资料、统一翻译与完整个人记录。
- * [OUTPUT]: 提供地图资料查询、定位和探索进度变更。
+ * [OUTPUT]: 提供地图资料查询、角色进度索引、定位和探索进度变更。
  * [POS]: 地图领域边界；个人记录写入由应用编排。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { t } from '../../i18n';
 import { attributeId } from '../../i18n/attributes';
 import type { Catalog, Entry, Filters, Place } from '../../shared/contracts/catalog';
-import type { Personal } from '../../shared/contracts/personal';
+import type { Personal, Progress } from '../../shared/contracts/personal';
 export const defaultFilters: Filters = { q: '', campaign: '', region: '', zone: '', kind: 'skill', profession: '', attribute: '', incomplete: false, selected: '', map: '1:1' };
 export function normalizeFilters(f: Filters): Filters {
   return { ...f, attribute: !f.kind || f.kind === 'skill' ? attributeId(f.attribute) : '', profession: !f.kind || f.kind === 'skill' || f.kind === 'boss' ? f.profession : '' };
@@ -22,6 +22,11 @@ export function filtersSearch(f: Filters) {
   const p = new URLSearchParams(); Object.entries(f).forEach(([k,v]) => { if (typeof v === 'boolean') { if (v) p.set(k, '1'); } else if (v !== '') p.set(k,v); }); return `?${p}`;
 }
 export function completed(state: Personal, id: string) { return state.progress.find(p => p.characterId === state.preferences.characterId && p.entryId === id); }
+export function createProgressIndex(state: Personal, characterId = state.preferences.characterId): Map<string, Progress> {
+  const index = new Map<string, Progress>();
+  for (const progress of state.progress) if (progress.characterId === characterId) index.set(progress.entryId, progress);
+  return index;
+}
 export function trackable(e: Entry) { return (e.kind === 'skill' && !e.skill?.special) || e.kind === 'treasure' || (e.kind === 'zone' && e.vanquishable); }
 export function toggleProgress(state: Personal, entryId: string, date?: string): Personal {
   const characterId = state.preferences.characterId; if (!state.characters.some(c => c.id === characterId)) return state;
@@ -42,6 +47,7 @@ export function belongsToRegion(entry: Entry, region: string) {
 export function query(data: Catalog, f: Filters, state: Personal): Entry[] {
   f = normalizeFilters(f);
   const terms = f.q.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
+  const progress = f.incomplete ? createProgressIndex(state) : undefined;
   return data.records.filter(e => {
     if (f.kind && e.kind !== f.kind) return false;
     if (f.campaign && e.campaign !== Number(f.campaign) && !e.locations.some(l => l.region.startsWith(`${f.campaign}:`))) return false;
@@ -49,7 +55,7 @@ export function query(data: Catalog, f: Filters, state: Personal): Entry[] {
     if (f.zone && e.id !== `zone:${f.zone}` && !e.locations.some(l => l.zone === f.zone)) return false;
     if (f.profession && e.profession !== Number(f.profession)) return false;
     if (f.attribute && attributeId(e.attribute) !== f.attribute) return false;
-    if (f.incomplete && (!trackable(e) || completed(state, e.id)?.done)) return false;
+    if (f.incomplete && (!trackable(e) || progress?.get(e.id)?.done)) return false;
     const text = [e.name, e.englishName, e.searchAliases?.join(' '), e.description, e.attribute, e.details.join(' '), e.skill?.description,
       e.skill?.acquisition?.map(s => s.text).join(' '), e.legacy?.name, e.legacy?.description, e.legacy?.details.join(' '),
       e.locations.map(l => `${l.boss || ''} ${l.note}`).join(' ')].filter(Boolean).join(' ').toLocaleLowerCase();

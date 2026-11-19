@@ -1,0 +1,67 @@
+/*
+ * [INPUT]: 依赖应用的按钮主题、正文颜色和紧凑表单间距。
+ * [OUTPUT]: 排列离线准备说明、进度、错误和操作按钮。
+ * [POS]: OfflinePreparation 的局部样式；不修改全局页面布局。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
+.offline-preparation {
+  border-top: 1px solid #4a5b3b;
+  margin-top: 20px;
+  padding-top: 12px;
+}
+
+.offline-preparation h3 {
+  color: #d0b77f;
+  font-size: 14px;
+}
+
+.offline-preparation progress {
+  display: block;
+  width: 100%;
+  margin: 12px 0 4px;
+}
+
+.offline-preparation-count,
+.offline-preparation-note {
+  color: #b3bda8;
+  font-size: 12px;
+}
+
+.offline-preparation-status {
+  color: #d8c08d;
+  font-size: 12px;
+}
+
+.offline-preparation-errors {
+  max-height: 150px;
+  overflow: auto;
+  padding-left: 20px;
+  font-size: 11px;
+}
+
+.offline-preparation-errors li {
+  margin: 5px 0;
+  overflow-wrap: anywhere;
+}
+
+.offline-preparation-errors code {
+  display: block;
+  color: #d6c18e;
+}
+
+.offline-preparation-errors span {
+  color: #d4a495;
+}
+
+.offline-preparation-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.offline-preparation-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}

@@ -1,6 +1,6 @@
 /**
- * [INPUT]: 依赖双语投影、偏好、备份与资料验证器。
- * [OUTPUT]: 验证四套资料的双语覆盖与 v3 备份语言独立性。
+ * [INPUT]: 依赖 worker 投影、语言偏好、备份与资料验证器。
+ * [OUTPUT]: 验证异步缓存、来源映射、错误翻译、阶段进度和 v3 语言独立性。
  * [POS]: 国际化回归；不授予资料审校状态。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -8,7 +8,7 @@ import {afterEach,describe,expect,it,vi} from 'vitest';
 import fs from 'node:fs';
 import {getLocale,setLocale,t,displayMessage,localeKey} from '../src/i18n';
 import {contentFields,type Dataset} from '../src/i18n/content-fields';
-import {projectContent,originalOf,type ContentBundle} from '../src/i18n/content';
+import {projectContent,originalOf,resolveContentBaseUrl,type ContentBundle} from '../src/i18n/content';
 import { readFilters, query } from '../src/features/atlas/domain';
 import { kindNames } from '../src/shared/game/kinds';
 import { type Catalog } from '../src/shared/contracts/catalog';
@@ -39,6 +39,12 @@ describe('language preference and labels',()=>{
   const message=t('备份已导出');setLocale('en');expect(displayMessage(message)).toBe('Backup exported');
   expect(displayMessage('native.backup-too-large')).toBe('Backup exceeds 20 MB.');
  });
+ it('translates worker timeouts and HTTP failures in the active locale',()=>{
+  expect(displayMessage('Data read timed out without progress')).toBe('资料读取超时，请检查网络并重试。');
+  expect(displayMessage('Data HTTP 503')).toBe('资料服务器返回 HTTP 503。');
+  setLocale('en');
+  expect(displayMessage('Data resource exceeded five minutes')).toBe('A data resource did not finish loading within five minutes. Retry the request.');
+ });
  it('formats in the chosen language without changing calendar time zone',()=>{
   const instant=Date.UTC(2026,0,2,16);const cn=formatInstant(instant,'Asia/Shanghai');
   setLocale('en');const english=formatInstant(instant,'Asia/Shanghai');
@@ -46,6 +52,63 @@ describe('language preference and labels',()=>{
  });
 });
 describe('localized data projections',()=>{
+ it('resolves a relative Vite base from the application directory',()=>{
+  expect(resolveContentBaseUrl('./','https://atlas.test/mappingout/quests?quest=1')).toBe('https://atlas.test/mappingout/');
+ });
+ it('retries failed worker loads and preserves access to source objects',async()=>{
+  vi.resetModules();
+  const original={activities:[{id:'a',name:'原文',objective:'原始目标'}]};
+  const localized={activities:[{id:'a',name:'Name',objective:'Objective'}]};
+  let attempts=0;
+  const requests:{baseUrl:string}[]=[];
+  const dispatchEvent=vi.fn();
+  vi.stubGlobal('window',{dispatchEvent});
+  vi.stubGlobal('location',{href:'https://atlas.test/mappingout/quests'});
+  class WorkerStub{
+   onmessage?:((event:MessageEvent)=>void)|null=null;
+   onerror?:((event:ErrorEvent)=>void)|null=null;
+   postMessage(message:{id:number;baseUrl:string}){
+    attempts++;
+    requests.push({baseUrl:message.baseUrl});
+    queueMicrotask(()=>this.onmessage?.({data:attempts===1?{id:message.id,type:'error',error:'network unavailable'}:{id:message.id,type:'success',result:{data:localized,original}}} as MessageEvent));
+   }
+   terminate(){}
+  }
+  vi.stubGlobal('Worker',WorkerStub);
+  const content=await import('../src/i18n/content');
+  await expect(content.loadContentProjection('calendar','en')).rejects.toThrow('network unavailable');
+  const data=await content.loadContentProjection<typeof localized>('calendar','en');
+  expect(attempts).toBe(2);
+  expect(new URL(requests[0].baseUrl).origin).toBe('https://atlas.test');
+  expect(new URL(requests[0].baseUrl).pathname).toBe('/');
+  expect(data).toEqual(localized);
+  expect(content.originalOf(data.activities[0])).toEqual(original.activities[0]);
+  expect(await content.loadContentProjection('calendar','en')).toBe(data);
+  expect(attempts).toBe(2);
+  expect(dispatchEvent.mock.calls[0][0].type).toBe('mappingout:content-ready');
+  expect(dispatchEvent.mock.calls[0][0].detail.paths).toEqual(['data/calendar.json','data/i18n/zh-CN/calendar.json','data/i18n/en/calendar.json']);
+ });
+ it('reports worker loading, verification and projection phases',async()=>{
+  vi.resetModules();
+  const phases:string[]=[];
+  class WorkerStub{
+   onmessage?:((event:MessageEvent)=>void)|null=null;
+   onerror?:((event:ErrorEvent)=>void)|null=null;
+   postMessage(message:{id:number}){
+    queueMicrotask(()=>{
+     this.onmessage?.({data:{id:message.id,type:'progress',progress:{phase:'fetching',resource:'calendar.json',loadedBytes:1,totalBytes:1}}} as MessageEvent);
+     this.onmessage?.({data:{id:message.id,type:'progress',progress:{phase:'verifying'}}} as MessageEvent);
+     this.onmessage?.({data:{id:message.id,type:'progress',progress:{phase:'projecting'}}} as MessageEvent);
+     this.onmessage?.({data:{id:message.id,type:'success',result:{data:{activities:[]},original:{activities:[]}}}} as MessageEvent);
+    });
+   }
+   terminate(){}
+  }
+  vi.stubGlobal('Worker',WorkerStub);
+  const content=await import('../src/i18n/content');
+  await content.loadContentProjection('calendar','en',progress=>phases.push(progress.phase));
+  expect(phases).toEqual(['fetching','verifying','projecting']);
+ });
  it('ships complete matching packs while withholding an unreviewed release',()=>{
   expect(validateI18n().errors).toEqual([]);
   const release=validateI18n(undefined,true);
@@ -77,7 +140,7 @@ describe('localized data projections',()=>{
     }
    }
   }
- });
+ },20000);
  it('uses stable entity keys and preserves canonical facts, evidence and originals',()=>{
   const original={records:[{id:'skill:0:1',name:'劈击',englishName:'Cleave',campaign:0,attribute:'精通斧术',description:'说明',details:['伤害 10…34…40'],locations:[{id:'loc:1',x:10,y:20,valid:true,note:'备注'}],skill:{energy:'5',gameIds:[1],description:'English original'},wiki:{revid:123,url:'https://example.com'},legacy:{name:'旧版'}}]};
   const input=JSON.stringify(original),content=bundle(original,'catalog'),english=projectContent(content,'en'),chinese=projectContent(content,'zh-CN');

@@ -6,7 +6,7 @@
  */
 import { describe, expect, it, vi } from 'vitest';
 import fs from 'node:fs';
-import { completed, defaultFilters, filtersSearch, normalizeFilters, preferredPlace, query, readFilters, setProgress, toggleProgress } from '../src/features/atlas/domain';
+import { completed, createProgressIndex, defaultFilters, filtersSearch, normalizeFilters, preferredPlace, query, readFilters, setProgress, toggleProgress } from '../src/features/atlas/domain';
 import { deleteCharacter } from '../src/features/journal/domain';
 import { emptyPersonal } from '../src/storage/defaults';
 import { makeBackup, parseBackup } from '../src/storage/backup';
@@ -28,6 +28,13 @@ describe('queries and progress',()=>{
     const switched={...s,preferences:{...s.preferences,characterId:'b'}}; expect(completed(switched,'skill:0:1')).toBeUndefined();
     expect(deleteCharacter(s,'a').progress).toHaveLength(0);expect(deleteCharacter(s,'a').preferences.characterId).toBe('b');
     expect(query(catalog,{...defaultFilters,incomplete:true},s).some(e=>e.id==='skill:0:1')).toBe(false);
+  });
+  it('indexes incomplete filtering by entry for only the current character',()=>{
+    const s=setProgress(setProgress(personal(),'skill:0:1','a',false),'skill:0:1','b',true);
+    const index=createProgressIndex(s,'a');
+    expect(index.get('skill:0:1')).toMatchObject({characterId:'a',done:false});
+    expect(createProgressIndex(s,'b').get('skill:0:1')).toMatchObject({characterId:'b',done:true});
+    expect(query(catalog,{...defaultFilters,incomplete:true},s).some(entry=>entry.id==='skill:0:1')).toBe(true);
   });
   it('round trips shareable filters, Unicode, selection and map',()=>{ const f={...defaultFilters,q:'火 & 冰',selected:'skill:0:1',region:'1:6',map:'1:6',incomplete:true}; expect(readFilters(filtersSearch(f))).toEqual(f); });
   it('drops unsupported filters when changing type or opening an old shared URL',()=>{

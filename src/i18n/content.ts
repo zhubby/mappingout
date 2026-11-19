@@ -1,31 +1,107 @@
 /**
- * [INPUT]: 依赖本地资料、双语包、字段目录与 HTTP 兼容哈希。
- * [OUTPUT]: 提供不可变的资料投影、原文和双语检索别名。
- * [POS]: 全应用资料读取边界；失败请求可重新加载。
+ * [INPUT]: 依赖资料 worker、语言目录与 React 可消费的进度回调。
+ * [OUTPUT]: 提供异步资料投影、来源映射、进度和已访问路径信号。
+ * [POS]: 全应用资料读取边界；校验和投影都在 worker 内执行。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { contentFields, type Dataset } from './content-fields';
 import type { Locale } from './index';
-import { sha256Hex } from '../shared/browserCrypto';
 
 export interface LanguagePack { version: 1; locale: Locale; dataset: Dataset; sourceHash: string; englishHash?: string; baselineHash?: string; fields: Record<string,string> }
 export interface ContentBundle<T> { original: T; packs: Record<Locale,LanguagePack> }
-const requests=new Map<string,Promise<ContentBundle<unknown>>>();
+export type ContentPhase = 'fetching' | 'verifying' | 'projecting';
+export interface ContentProgress { phase: ContentPhase; resource?: string; resourceIndex?: number; resourceCount?: number; loadedBytes?: number; totalBytes?: number }
+export interface ContentReadyDetail { paths: string[] }
+export function resolveContentBaseUrl(baseUrl:string,currentUrl:string):string { return new URL(baseUrl,currentUrl).href; }
+interface WorkerRequest { id: number; dataset: Dataset; locale?: Locale; baseUrl: string }
+interface WorkerSuccess<T> { id: number; type: 'success'; result: T }
+interface WorkerFailure { id: number; type: 'error'; error: string }
+interface WorkerProgress { id: number; type: 'progress'; progress: ContentProgress }
+type WorkerReply<T> = WorkerSuccess<T> | WorkerFailure | WorkerProgress;
+interface ProjectionResult<T> { data: T; original: T }
+interface RequestEntry<T> { promise: Promise<T>; listeners: Set<(progress: ContentProgress) => void>; latest?: ContentProgress }
+const requests=new Map<string,RequestEntry<void>>();
+const projectionRequests=new Map<string,RequestEntry<unknown>>();
 const originals=new WeakMap<object,object>();
 const projections=new WeakMap<object,Partial<Record<Locale,unknown>>>();
+const pendingRequests=new Map<number,{resolve:(value:unknown)=>void;reject:(error:Error)=>void;progress?:(value:ContentProgress)=>void}>();
+let worker:Worker|undefined;
+let nextRequestId=0;
 export function originalOf<T extends object>(value:T):T { return (originals.get(value)??value) as T; }
+
+function linkOriginals(local:unknown,raw:unknown):void {
+  if(!local||!raw||typeof local!=='object'||typeof raw!=='object')return;
+  originals.set(local,raw);
+  if(Array.isArray(local))local.forEach((value,index)=>linkOriginals(value,(raw as unknown[])[index]));
+  else for(const key of Object.keys(local))linkOriginals((local as Record<string,unknown>)[key],(raw as Record<string,unknown>)[key]);
+}
+
+function receiveWorkerMessage(event:MessageEvent<WorkerReply<unknown>>):void {
+  const message=event.data,pending=pendingRequests.get(message.id);
+  if(!pending)return;
+  if(message.type==='progress'){
+    pending.progress?.(message.progress);
+    return;
+  }
+  pendingRequests.delete(message.id);
+  if(message.type==='error')pending.reject(new Error(message.error));
+  else pending.resolve(message.result);
+}
+
+function failWorkerRequests(event:ErrorEvent):void {
+  worker=undefined;
+  for(const pending of pendingRequests.values())pending.reject(new Error(event.message||'Content worker failed'));
+  pendingRequests.clear();
+}
+
+function getWorker():Worker {
+  if(!worker){
+    worker=new Worker(new URL('./content.worker.ts',import.meta.url),{type:'module'});
+    worker.onmessage=receiveWorkerMessage;
+    worker.onerror=failWorkerRequests;
+  }
+  return worker;
+}
+
+function requestWorker<T>(dataset:Dataset,locale:Locale|undefined,onProgress?:(progress:ContentProgress)=>void):Promise<T> {
+  return new Promise((resolve,reject)=>{
+    const id=++nextRequestId;
+    pendingRequests.set(id,{resolve:resolve as (value:unknown)=>void,reject,progress:onProgress});
+    const origin=typeof location==='undefined'?'http://mappingout.test/':location.href;
+    try{getWorker().postMessage({id,dataset,locale,baseUrl:resolveContentBaseUrl(import.meta.env.BASE_URL,origin)} satisfies WorkerRequest);}
+    catch(error){pendingRequests.delete(id);reject(error instanceof Error?error:new Error(String(error)));}
+  });
+}
+
+function cachedRequest<T>(cache:Map<string,RequestEntry<T>>,key:string,create:((report:(progress:ContentProgress)=>void)=>Promise<T>),onProgress?:((progress:ContentProgress)=>void)):Promise<T> {
+  let entry=cache.get(key);
+  if(!entry){
+    entry={listeners:new Set(),promise:Promise.resolve(undefined as T)};
+    const current=entry;
+    current.promise=create(progress=>{
+      current.latest=progress;
+      for(const listener of current.listeners)listener(progress);
+    }).then(value=>{current.listeners.clear();return value;}).catch(error=>{
+      current.listeners.clear();
+      if(cache.get(key)===current)cache.delete(key);
+      throw error;
+    });
+    cache.set(key,current);
+  }
+  if(onProgress){
+    entry.listeners.add(onProgress);
+    if(entry.latest)onProgress(entry.latest);
+    void entry.promise.finally(()=>entry?.listeners.delete(onProgress)).catch(()=>{});
+  }
+  return entry.promise;
+}
+
 export function projectContent<T>(bundle:ContentBundle<T>,locale:Locale):T {
   const existing=projections.get(bundle)?.[locale];if(existing)return existing as T;
   const pack=bundle.packs[locale];
   if(pack.locale!==locale)throw Error('Invalid content locale');
   const data=structuredClone(bundle.original);
-  function remember(local:unknown,raw:unknown){
-    if(!local||!raw||typeof local!=='object'||typeof raw!=='object')return;
-    originals.set(local,raw);
-    if(Array.isArray(local))local.forEach((v,i)=>remember(v,(raw as unknown[])[i]));
-    else for(const key of Object.keys(local))remember((local as Record<string,unknown>)[key],(raw as Record<string,unknown>)[key]);
-  }
-  remember(data,bundle.original);
+  linkOriginals(data,bundle.original);
   for(const field of contentFields(bundle.original,pack.dataset)) {
     const translated=pack.fields[field.key];
     if(typeof translated!=='string'||!translated.trim())throw Error(`Missing ${locale} translation: ${field.key}`);
@@ -50,21 +126,21 @@ export function projectContent<T>(bundle:ContentBundle<T>,locale:Locale):T {
   }
   projections.set(bundle,{...projections.get(bundle),[locale]:data});return data;
 }
-export function loadContent<T>(dataset:Dataset):Promise<ContentBundle<T>> {
-  let pending=requests.get(dataset);
-  if(!pending){
-    const read=async(path:string)=>{const response=await fetch(`${import.meta.env.BASE_URL}data/${path}`);if(!response.ok)throw Error(`Data HTTP ${response.status}`);return response.text();};
-    pending=Promise.all([read(`${dataset}.json`),read(`i18n/zh-CN/${dataset}.json`),read(`i18n/en/${dataset}.json`)]).then(async([raw,zh,en])=>{
-      const hash=await sha256Hex(raw);
-      const packs={'zh-CN':JSON.parse(zh) as LanguagePack,en:JSON.parse(en) as LanguagePack};
-      for(const [locale,pack]of Object.entries(packs))if(pack.version!==1||pack.dataset!==dataset||pack.locale!==locale||pack.sourceHash!==hash)throw Error(`Stale ${locale} content pack: ${dataset}`);
-      const englishHash=await sha256Hex(JSON.stringify(packs.en.fields));
-      if(packs.en.englishHash!==englishHash||packs['zh-CN'].englishHash!==englishHash||!packs.en.baselineHash||packs['zh-CN'].baselineHash!==packs.en.baselineHash)throw Error(`Stale English translation baseline: ${dataset}`);
-      const original=JSON.parse(raw);
-      for(const field of contentFields(original,dataset))for(const [locale,pack]of Object.entries(packs))if(!pack.fields[field.key]?.trim())throw Error(`Missing ${locale} translation: ${field.key}`);
-      return {original,packs};
-    }).catch(error=>{requests.delete(dataset);throw error;});
-    requests.set(dataset,pending);
-  }
-  return pending as Promise<ContentBundle<T>>;
+export function loadContent(dataset:Dataset,onProgress?:(progress:ContentProgress)=>void):Promise<void> {
+  return cachedRequest(requests,dataset,report=>requestWorker<void>(dataset,undefined,report),onProgress);
+}
+
+export function loadContentProjection<T>(dataset:Dataset,locale:Locale,onProgress?:(progress:ContentProgress)=>void):Promise<T> {
+  const key=`${dataset}:${locale}`;
+  const pending=cachedRequest(projectionRequests,key,async report=>{
+    const result=await requestWorker<ProjectionResult<T>>(dataset,locale,report);
+    linkOriginals(result.data,result.original);
+    return result.data;
+  },onProgress);
+  return pending.then(data=>{
+    if(typeof window!=='undefined')window.dispatchEvent(new CustomEvent<ContentReadyDetail>('mappingout:content-ready',{detail:{
+      paths:[`data/${dataset}.json`,`data/i18n/zh-CN/${dataset}.json`,`data/i18n/en/${dataset}.json`],
+    }}));
+    return data as T;
+  });
 }

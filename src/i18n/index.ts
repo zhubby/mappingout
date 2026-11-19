@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖 i18next、双语文案和本机语言偏好。
- * [OUTPUT]: 提供语言订阅、文案格式化和本机错误翻译。
+ * [OUTPUT]: 提供语言订阅、文案格式化和资料、原生错误翻译。
  * [POS]: 界面语言边界；用户记录原文不进入错误翻译。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -56,6 +56,10 @@ const nativeMessages: Record<string, UiKey> = {
 // Only use for application messages, never for notes, names, or plan titles.
 export function displayMessage(value: string): string {
   const code=value.replace(/^Error:\s*/, '').split(':')[0];
+  if(code==='Data read timed out without progress')return t('资料读取超时，请检查网络并重试。');
+  if(code==='Data resource exceeded five minutes')return t('资料超过五分钟仍未读取完成，请重试。');
+  const http=/^Data HTTP (\d+)$/.exec(value);
+  if(http)return t('资料服务器返回 HTTP {{v0}}。',{v0:http[1]});
   if(nativeMessages[code])return t(nativeMessages[code]);
   const saved=messages.get(value)||messages.get(value.replace(/^Error:\s*/, ''));
   if(!saved)return value;

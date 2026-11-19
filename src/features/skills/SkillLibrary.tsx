@@ -9,6 +9,7 @@ import {Search,Sparkles,SlidersHorizontal,X,ChevronRight} from 'lucide-react';
 import { DataStatus } from '../../shared/ui/DataStatus';
 import { useFeatureData } from '../../shared/content/useFeatureData';
 import { type FeatureProps } from '../../shared/contracts/feature';
+import type { Catalog } from '../../shared/contracts/catalog';
 import {t,useLocale} from '../../i18n';
 import {originalOf} from '../../i18n/content';
 import {attributeId} from '../../i18n/attributes';
@@ -20,8 +21,9 @@ import SkillDetails from './SkillDetails';
 import {SkillResources,modeLabel,resourceLabels,skillAsset} from './skill-ui';
 import Select from '../../shared/ui/Select';
 import './skills.css';
-export default function SkillLibrary({catalog,params,patch,navigateZone,manageResources}:FeatureProps){
- const locale=useLocale();const {data,error,retry}=useFeatureData<SkillCatalog>('skills.json');
+type CatalogFeatureProps=Omit<FeatureProps,'catalog'>&{catalog:Catalog};
+export default function SkillLibrary({catalog,params,patch,navigateZone,manageResources}:CatalogFeatureProps){
+ const locale=useLocale();const {data,error,progress,retry}=useFeatureData<SkillCatalog>('skills.json');
  const [validQuery,setValidQuery]=useState(''),[queryError,setQueryError]=useState<number>(),[limit,setLimit]=useState(100),[directory,setDirectory]=useState(true);
  const query=params.sq||'';
  useEffect(()=>{const timer=setTimeout(()=>{try{parseSkillQuery(query);setValidQuery(query);setQueryError(undefined);}catch(error){setQueryError(error instanceof SkillQueryError?error.position:0);}},150);return()=>clearTimeout(timer);},[query]);
@@ -32,7 +34,7 @@ export default function SkillLibrary({catalog,params,patch,navigateZone,manageRe
  const selected=matches.find(m=>m.skill.id===params.skill)||matches[0];
  const reset=()=>patch(Object.fromEntries(skillParamKeys.map(key=>[key,''])));
  useEffect(()=>setLimit(100),[validQuery,ranges,filters,params.sSort,levels]);
- if(error||!data)return <main className="feature-page skill-load"><DataStatus error={error} retry={retry}/>{error&&<><p>{t('技能资料未安装；请更新离线资源后重试。')}</p>{manageResources&&<button className="primary" onClick={manageResources}>{t('打开资源管理')}</button>}</>}</main>;
+ if(error||!data)return <main className="feature-page skill-load"><DataStatus error={error} retry={retry} progress={progress}/>{error&&<><p>{t('技能资料未安装；请更新离线资源后重试。')}</p>{manageResources&&<button className="primary" onClick={manageResources}>{t('打开资源管理')}</button>}</>}</main>;
  const visible=matches.slice(0,limit);if(selected&&!visible.includes(selected))visible.push(selected);
  return <main className="feature-page skill-page">
   <header className="feature-heading"><div><span className="eyebrow">{t('每一种技艺，皆有来处')}</span><h1><Sparkles size={25}/>{t('职业技能')}</h1><p>{data.skills.length.toLocaleString()} {t('技能')} · PvE / PvP · {t('高级检索')}</p></div><div className="skill-rank-control"><SlidersHorizontal size={16}/><label>{t('属性等级')}<input aria-label={t('属性等级')} type="number" min="0" max="20" value={levels.attribute} onChange={e=>patch({sRank:e.target.value})}/></label><small>{t('数值按当前等级计算')}</small></div></header>

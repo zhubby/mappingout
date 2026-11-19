@@ -19,8 +19,8 @@ import Select from '../../shared/ui/Select';
 function shiftDate(date:string,days:number) {return new Date(Date.parse(date+'T12:00:00Z')+days*86400000).toISOString().slice(0,10);}
 function validDate(date:string) {return /^\d{4}-\d{2}-\d{2}$/.test(date)&&date>='2013-05-13'&&date<='2100-12-31'&&Number.isFinite(Date.parse(date+'T12:00:00Z'))&&new Date(date+'T12:00:00Z').toISOString().slice(0,10)===date;}
 export default function ActivityCalendar(props:FeatureProps) {
-  const {data,error,retry}=useFeatureData<ActivityCatalog>('calendar.json');
-  return data?<Calendar {...props} data={data}/>:<DataStatus error={error} retry={retry}/>;
+  const {data,error,progress,retry}=useFeatureData<ActivityCatalog>('calendar.json');
+  return data?<Calendar {...props} data={data}/>:<DataStatus error={error} retry={retry} progress={progress}/>;
 }
 function Calendar({data,personal,params,patch,update,manageCharacters,navigateZone}:FeatureProps&{data:ActivityCatalog}) {
   const [now,setNow]=useState(Date.now), [searchLimit,setSearchLimit]=useState(20);

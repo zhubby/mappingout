@@ -76,7 +76,15 @@ test('feature data, lazy pages and visited armor previews work offline on a narr
   await page.setViewportSize({width:390,height:844});await page.goto('/?view=armor');await expect(page.locator('.armor-previews img').first()).toBeVisible();await readyWorker(page);
   await expect.poll(()=>page.evaluate(()=>Array.from(document.querySelectorAll<HTMLImageElement>('.armor-previews img')).every(img=>img.complete&&img.naturalWidth>0))).toBe(true);
   await expect.poll(()=>page.evaluate(async()=>{const img=document.querySelector<HTMLImageElement>('.armor-previews img');return !!img&&!!await caches.match(img.src);})).toBe(true);
-  await expect.poll(()=>page.evaluate(async()=>{const data=await (await fetch('/data/armor.json')).json();return (await Promise.all(data.materials.map((m:{icon:string})=>caches.match(new URL(m.icon,location.href).href)))).every(Boolean);})).toBe(true);
+  await expect.poll(()=>page.evaluate(async()=>!!await caches.match(new URL('data/armor.json',location.href)))).toBe(true);
+  await expect.poll(()=>page.evaluate(async()=>Promise.all(['data/i18n/zh-CN/armor.json','data/i18n/en/armor.json'].map(path=>caches.match(new URL(path,location.href)))).then(results=>results.every(Boolean)))).toBe(true);
+  await page.getByLabel('搜索护甲或制作商').fill('Warrior Obsidian armor');
+  await page.locator('.armor-result').first().click();
+  await expect(page.getByTestId('armor-materials').locator('img')).toHaveCount(4);
+  await expect.poll(()=>page.getByTestId('armor-materials').locator('img').evaluateAll(images=>images.every(image=>(image as HTMLImageElement).naturalWidth>0))).toBe(true);
+  await expect.poll(()=>page.getByTestId('armor-materials').locator('img').evaluateAll(async images=>(await Promise.all(images.map(image=>caches.match((image as HTMLImageElement).src)))).every(Boolean))).toBe(true);
+  await page.getByRole('button',{name:'活动日历',exact:true}).click();await expect(page.locator('.current-activities')).toBeVisible();
+  await page.getByRole('button',{name:'护甲制作',exact:true}).click();await expect(page.locator('.armor-results')).toBeVisible();
   await context.setOffline(true);await page.reload();await expect(page.getByRole('heading',{name:'护甲制作',exact:true})).toBeVisible();await expect.poll(()=>page.evaluate(()=>document.querySelector<HTMLImageElement>('.armor-previews img')?.naturalWidth||0)).toBeGreaterThan(0);
   await page.goto('/?view=armor&aq=Warrior+Obsidian+armor');
   await expect(page.getByTestId('armor-materials').locator('img')).toHaveCount(4);

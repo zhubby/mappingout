@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖固定 Wiki 事实、双语资料和翻译审校规则。
- * [OUTPUT]: 验证英文来源、数值签名、HTTP 哈希与审校绑定。
+ * [OUTPUT]: 验证英文来源、数值签名、worker 哈希、字段与资源超时。
  * [POS]: 资料准确性回归；防止译文覆盖事实或沿用失效审校。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -13,6 +13,17 @@ import {loadContent} from '../src/i18n/content';
 
 const read=(file:string)=>JSON.parse(fs.readFileSync(file,'utf8'));
 const hash=(value:string)=>createHash('sha256').update(value).digest('hex');
+function stubContentWorker(){
+  class WorkerStub{
+    onmessage?:((event:MessageEvent)=>void)|null=null;
+    onerror?:((event:ErrorEvent)=>void)|null=null;
+    postMessage(request:unknown){
+      void import('../src/i18n/content.worker').then(({handleContentRequest})=>handleContentRequest(request as never,message=>this.onmessage?.({data:message} as MessageEvent)));
+    }
+    terminate(){}
+  }
+  vi.stubGlobal('Worker',WorkerStub);
+}
 afterEach(()=>vi.unstubAllGlobals());
 
 describe('English Wiki authority',()=>{
@@ -44,8 +55,77 @@ describe('English Wiki authority',()=>{
     const raw=JSON.stringify({activities:[{id:'a',objective:'Damage reduced by 25%.'}]}),sourceHash=hash(raw);
     const fields={'activities/a/objective':'Damage reduced by 25%.'},englishHash=hash(JSON.stringify(fields));
     const common={version:1,dataset:'calendar',sourceHash,englishHash,baselineHash:'pinned-evidence'};
-    vi.stubGlobal('fetch',vi.fn(async(url:string)=>({ok:true,text:async()=>url.includes('/en/')?JSON.stringify({...common,locale:'en',fields:{'activities/a/objective':'Damage increased by 25%.'}}):url.includes('/zh-CN/')?JSON.stringify({...common,locale:'zh-CN',fields:{'activities/a/objective':'伤害降低 25%。'}}):raw})));
+    vi.stubGlobal('fetch',vi.fn(async(url:string)=>({ok:true,status:200,headers:{get:()=>null},body:null,text:async()=>url.includes('/en/')?JSON.stringify({...common,locale:'en',fields:{'activities/a/objective':'Damage increased by 25%.'}}):url.includes('/zh-CN/')?JSON.stringify({...common,locale:'zh-CN',fields:{'activities/a/objective':'伤害降低 25%。'}}):raw})));
+    stubContentWorker();
     await expect(loadContent('calendar')).rejects.toThrow('Stale English translation baseline');
+  });
+});
+
+describe('content worker',()=>{
+  function resources(){
+    const raw=JSON.stringify({activities:[{id:'a',name:'活动',objective:'Reach the city.'}]});
+    const fields={'activities/a/name':'Festival','activities/a/objective':'Reach the city.'};
+    const sourceHash=hash(raw),englishHash=hash(JSON.stringify(fields)),baselineHash='pinned-evidence';
+    const pack=(locale:'zh-CN'|'en',localized:Record<string,string>)=>JSON.stringify({version:1,dataset:'calendar',locale,sourceHash,englishHash,baselineHash,fields:localized});
+    return new Map([
+      ['/data/calendar.json',raw],
+      ['/data/i18n/zh-CN/calendar.json',pack('zh-CN',{'activities/a/name':'活动','activities/a/objective':'前往城市。'})],
+      ['/data/i18n/en/calendar.json',pack('en',fields)],
+    ]);
+  }
+  it('validates exact hashes and projects the requested locale off-thread',async()=>{
+    vi.resetModules();
+    const data=resources(),messages:any[]=[];
+    const fetcher=vi.fn(async(url:string)=>({ok:true,status:200,headers:{get:()=>null},body:null,text:async()=>data.get(url)!}));
+    const {handleContentRequest}=await import('../src/i18n/content.worker');
+    await handleContentRequest({id:1,dataset:'calendar',locale:'en',baseUrl:'/'},message=>messages.push(message),fetcher as never);
+    expect(messages.map(message=>message.type==='progress'?message.progress.phase:message.type)).toEqual(['fetching','fetching','fetching','verifying','projecting','success']);
+    expect(messages.at(-1).result.data.activities[0].name).toBe('Festival');
+    expect(messages.at(-1).result.original.activities[0].name).toBe('活动');
+  });
+  it('rejects packs whose English baseline hashes diverge',async()=>{
+    vi.resetModules();
+    const data=resources(),english=JSON.parse(data.get('/data/i18n/en/calendar.json')!);
+    english.baselineHash='different-evidence';
+    data.set('/data/i18n/en/calendar.json',JSON.stringify(english));
+    const messages:any[]=[];
+    const fetcher=vi.fn(async(url:string)=>({ok:true,status:200,headers:{get:()=>null},body:null,text:async()=>data.get(url)!}));
+    const {handleContentRequest}=await import('../src/i18n/content.worker');
+    await handleContentRequest({id:2,dataset:'calendar',locale:'en',baseUrl:'/'},message=>messages.push(message),fetcher as never);
+    expect(messages.at(-1)).toMatchObject({type:'error',error:'Stale English translation baseline: calendar'});
+  });
+  it('rejects language packs with a missing content field',async()=>{
+    vi.resetModules();
+    const data=resources(),chinese=JSON.parse(data.get('/data/i18n/zh-CN/calendar.json')!);
+    delete chinese.fields['activities/a/objective'];
+    data.set('/data/i18n/zh-CN/calendar.json',JSON.stringify(chinese));
+    const messages:any[]=[];
+    const fetcher=vi.fn(async(url:string)=>({ok:true,status:200,headers:{get:()=>null},body:null,text:async()=>data.get(url)!}));
+    const {handleContentRequest}=await import('../src/i18n/content.worker');
+    await handleContentRequest({id:3,dataset:'calendar',locale:'en',baseUrl:'/'},message=>messages.push(message),fetcher as never);
+    expect(messages.at(-1)).toMatchObject({type:'error',error:'Missing zh-CN translation: activities/a/objective'});
+  });
+  it('rejects resources that make no progress for thirty seconds',async()=>{
+    vi.resetModules();vi.useFakeTimers();
+    const {readTextResource}=await import('../src/i18n/content.worker');
+    const fetcher=vi.fn((_url:string,init:{signal:AbortSignal})=>new Promise((_resolve,reject)=>init.signal.addEventListener('abort',()=>reject(Error('aborted')))));
+    const reading=readTextResource('/data/calendar.json',()=>{},fetcher as never);
+    const rejection=expect(reading).rejects.toThrow('Data read timed out without progress');
+    await vi.advanceTimersByTimeAsync(30_000);
+    await rejection;
+    vi.useRealTimers();
+  });
+  it('rejects a resource after five minutes even while bytes keep arriving',async()=>{
+    vi.resetModules();vi.useFakeTimers();
+    const {readTextResource}=await import('../src/i18n/content.worker');
+    let timer:ReturnType<typeof setTimeout>;
+    const stream=new ReadableStream<Uint8Array>({start(controller){const send=()=>{controller.enqueue(new TextEncoder().encode('x'));timer=setTimeout(send,20_000);};timer=setTimeout(send,20_000);},cancel(){clearTimeout(timer);}});
+    const fetcher=vi.fn(async()=>({ok:true,status:200,headers:{get:()=>null},body:stream}));
+    const reading=readTextResource('/data/calendar.json',()=>{},fetcher as never);
+    const rejection=expect(reading).rejects.toThrow('Data resource exceeded five minutes');
+    await vi.advanceTimersByTimeAsync(300_000);
+    await rejection;
+    vi.useRealTimers();
   });
 });
 
@@ -56,9 +136,10 @@ describe.each([['HTTP without subtle', {}], ['no Crypto API', undefined]])('cont
     const raw=JSON.stringify({activities:[{id:'a',objective:'Damage reduced by 25%.'}]}),sourceHash=hash(raw);
     const fields={'activities/a/objective':'Damage reduced by 25%.'},englishHash=hash(JSON.stringify(fields));
     const common={version:1,dataset:'calendar',sourceHash,englishHash,baselineHash:'pinned-evidence'};
-    vi.stubGlobal('fetch',vi.fn(async(url:string)=>({ok:true,text:async()=>url.includes('/en/')?JSON.stringify({...common,locale:'en',fields:scenario==='changed English'?{'activities/a/objective':'Damage increased by 25%.'}:fields}):url.includes('/zh-CN/')?JSON.stringify({...common,locale:'zh-CN',fields:{'activities/a/objective':'伤害降低 25%。'}}):scenario==='changed source'?raw+' ':raw})));
+    vi.stubGlobal('fetch',vi.fn(async(url:string)=>({ok:true,status:200,headers:{get:()=>null},body:null,text:async()=>url.includes('/en/')?JSON.stringify({...common,locale:'en',fields:scenario==='changed English'?{'activities/a/objective':'Damage increased by 25%.'}:fields}):url.includes('/zh-CN/')?JSON.stringify({...common,locale:'zh-CN',fields:{'activities/a/objective':'伤害降低 25%。'}}):scenario==='changed source'?raw+' ':raw})));
+    stubContentWorker();
     const {loadContent:load}=await import('../src/i18n/content');
-    if(scenario==='valid')await expect(load('calendar')).resolves.toMatchObject({original:JSON.parse(raw)});
+    if(scenario==='valid')await expect(load('calendar')).resolves.toBeUndefined();
     else await expect(load('calendar')).rejects.toThrow(scenario==='changed source'?'Stale zh-CN content pack':'Stale English translation baseline');
   });
 });

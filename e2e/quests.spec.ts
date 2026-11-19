@@ -34,6 +34,66 @@ test('campaign and bilingual search persist while difficulty keeps the selected 
   await expect(page.locator('#quest-title')).toContainText('Cleansing Bukdek Byway (Hard mode)');
   await expect(page.locator('select')).toHaveCount(0);
 });
+test('direct quest links skip unrelated data and defer the large font until the guide is ready',async({page})=>{
+  const unrelated:string[]=[];let fontRequestedBeforeGuide=false;
+  page.on('request',request=>{
+    const url=request.url();
+    if(/\/data\/(catalog|calendar)\.json(?:\?|$)/.test(url))unrelated.push(url);
+  });
+  await page.route('**/fonts/**',async route=>{
+    if(!await page.locator('#quest-title').isVisible().catch(()=>false))fontRequestedBeforeGuide=true;
+    await route.abort();
+  });
+  await page.goto(url('The Great Northern Wall'));
+  await expect(page.locator('.quest-title [lang=en]')).toHaveText('The Great Northern Wall');
+  expect(unrelated).toEqual([]);
+  expect(fontRequestedBeforeGuide).toBe(false);
+});
+test('full offline preparation waits for the user to start it',async({page})=>{
+  let manifestRequests=0;
+  page.on('request',request=>{if(request.url().includes('/offline-assets.json'))manifestRequests++;});
+  await page.goto('/');await expect(page.locator('.leaflet-container')).toBeVisible();await readyWorker(page);
+  expect(manifestRequests).toBe(0);
+  await page.getByRole('button',{name:'离线资料准备'}).click();
+  const dialog=page.getByRole('dialog',{name:'离线资料准备'});
+  await expect(dialog.getByRole('button',{name:'开始离线准备'})).toBeEnabled();
+  await expect(dialog.getByRole('progressbar')).toHaveCount(0);
+  expect(manifestRequests).toBe(0);
+});
+test('manual full preparation opens previously unvisited feature data offline',async({page,context})=>{
+  test.setTimeout(120000);
+  await page.goto('/?view=calendar');
+  await expect(page.locator('.current-activities')).toBeVisible();
+  await readyWorker(page);
+  await page.getByRole('button',{name:'离线资料准备'}).click();
+  const dialog=page.getByRole('dialog',{name:'离线资料准备'});
+  await dialog.getByRole('button',{name:'开始离线准备'}).click();
+  await expect(dialog.getByText('离线资料已准备完成。')).toBeVisible({timeout:100000});
+  await page.getByRole('button',{name:'关闭弹窗'}).click();
+  await context.setOffline(true);
+  await page.goto(url('The Great Northern Wall'));
+  await expect(page.locator('.quest-article')).toBeVisible();
+  await page.goto('/?view=skills&sq="Healing Signet"');
+  await expect(page.locator('.skill-article')).toContainText('Healing Signet');
+  await page.goto('/?view=armor');
+  await expect(page.locator('.armor-results')).toBeVisible();
+});
+test('closing offline preparation cancels the worker task',async({page})=>{
+  await page.goto('/');await readyWorker(page);
+  const open=page.getByRole('button',{name:'离线资料准备'});
+  await open.click();
+  let dialog=page.getByRole('dialog',{name:'离线资料准备'});
+  await dialog.getByRole('button',{name:'开始离线准备'}).click();
+  await expect(dialog.getByRole('button',{name:'取消准备'})).toBeVisible();
+  await dialog.getByRole('button',{name:'关闭弹窗'}).click();
+  await expect(dialog).toHaveCount(0);
+  await open.click();
+  dialog=page.getByRole('dialog',{name:'离线资料准备'});
+  await dialog.getByRole('button',{name:'开始离线准备'}).click();
+  await expect(dialog.getByRole('button',{name:'取消准备'})).toBeVisible();
+  await dialog.getByRole('button',{name:'取消准备'}).click();
+  await expect(dialog.getByText('准备已取消，可继续准备。')).toBeVisible();
+});
 test('character completion and bonus survive reload, isolate modes and round-trip a v3 backup',async({page})=>{
   await page.goto(url('The Great Northern Wall'));await expect(page.locator('#quest-title')).toBeVisible();
   await createCharacter(page,'任务角色甲');
@@ -73,9 +133,35 @@ test('calendar and guides share the current rotation record without conflating p
   await page.getByRole('button',{name:'查看悬赏日历与本期记录',exact:true}).click();
   await expect(page.getByRole('button',{name:'本轮已完成 · 撤销',exact:true})).toBeVisible();
 });
-test('unvisited guides and route maps open offline on a narrow screen',async({page,context})=>{
-  test.setTimeout(60000);await page.setViewportSize({width:390,height:844});await page.goto('/');await readyWorker(page);
-  await context.setOffline(true);await page.goto(url('The Great Northern Wall'));
+test('calendar loads without the map catalog until atlas navigation',async({page})=>{
+  const catalogRequests:string[]=[];
+  page.on('request',request=>{if(new URL(request.url()).pathname.endsWith('/data/catalog.json'))catalogRequests.push(request.url());});
+  await page.goto('/?view=calendar&cKind=mission');
+  await expect(page.locator('.activity-card').first()).toBeVisible();
+  expect(catalogRequests).toEqual([]);
+  await page.getByRole('button',{name:'世界地图',exact:true}).click();
+  await expect(page.locator('.leaflet-container')).toBeVisible();
+  await expect.poll(()=>catalogRequests.length).toBeGreaterThan(0);
+});
+test('visited guides and route maps remain available offline on a narrow screen',async({page,context})=>{
+  await page.addInitScript(()=>{
+    const register=navigator.serviceWorker.register.bind(navigator.serviceWorker);
+    navigator.serviceWorker.register=(...args)=>new Promise<ServiceWorkerRegistration>((resolve,reject)=>{
+      (window as unknown as {startOfflineWorker:()=>void}).startOfflineWorker=()=>{void register(...args).then(resolve,reject);};
+    });
+  });
+  test.setTimeout(60000);await page.setViewportSize({width:390,height:844});await page.goto(url('The Great Northern Wall'));
+  await expect(page.locator('.quest-article')).toBeVisible();
+  await page.evaluate(()=>(window as unknown as {startOfflineWorker:()=>void}).startOfflineWorker());
+  await readyWorker(page);
+  await page.locator('.quest-route-maps').scrollIntoViewIfNeeded();
+  await expect.poll(()=>page.locator('.quest-images img').evaluateAll(images=>images.length>0&&images.every(img=>(img as HTMLImageElement).naturalWidth>0))).toBe(true);
+  await expect.poll(()=>page.evaluate(async()=>{
+    const paths=['data/quests.json','data/i18n/zh-CN/quests.json','data/i18n/en/quests.json',
+      ...performance.getEntriesByType('resource').map(entry=>entry.name).filter(url=>url.includes('/build/')&&/\.(js|css)$/.test(url))];
+    return (await Promise.all(paths.map(path=>caches.match(new URL(path,location.href))))).every(Boolean);
+  })).toBe(true);
+  await context.setOffline(true);await page.reload();
   await expect(page.locator('.quest-article')).toBeVisible();await expect(page.locator('.quest-guide-body')).toContainText(/./);
   await page.locator('.quest-route-maps').scrollIntoViewIfNeeded();
   await expect.poll(()=>page.locator('.quest-images img').evaluateAll(images=>images.length>0&&images.every(img=>(img as HTMLImageElement).naturalWidth>0))).toBe(true);
@@ -90,7 +176,7 @@ test('a verified quest region opens its existing map dossier',async({page})=>{
   await expect(page).toHaveURL(/selected=zone/);
 });
 test('a legacy resource set missing guides leaves the map and other tabs usable',async({page})=>{
-  await page.route('**/data/quests.json',route=>route.fulfill({status:404,body:'missing'}));
+  await page.context().route('**/data/quests.json',route=>route.fulfill({status:404,body:'missing'}));
   await page.goto('/?view=quests');await expect(page.getByRole('alert')).toBeVisible();
   await expect(page.getByText('旧版离线资料包可能尚未包含任务攻略。')).toBeVisible();
   await page.getByRole('button',{name:'世界地图',exact:true}).click();await expect(page.locator('.leaflet-container')).toBeVisible();

@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖真实个人存储、任务领域规则和内存 IndexedDB。
- * [OUTPUT]: 验证任务分支、角色隔离、奖励独立与 v3 数据迁移。
+ * [OUTPUT]: 验证任务分支、角色索引隔离、奖励独立与 v3 迁移。
  * [POS]: 任务持久化与前置语义的回归边界。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -8,7 +8,7 @@ import { describe, expect, it } from 'vitest';
 import { IDBFactory } from 'fake-indexeddb';
 import 'fake-indexeddb/auto';
 import { openDB } from 'idb';
-import { changeQuest, changeQuestProfile, questRecord, requirementState } from '../src/features/quests/domain';
+import { changeQuest, changeQuestProfile, createQuestEvaluator, questRecord, requirementState } from '../src/features/quests/domain';
 import { emptyPersonal } from '../src/storage/defaults';
 import { makeBackup, parseBackup } from '../src/storage/backup';
 import { personalStore } from '../src/storage/store';
@@ -40,6 +40,20 @@ describe('quest relationships and records',()=>{
     const personal=changeQuest(state(),'a','quest','hard',{completed:true});
     expect(requirementState({op:'quest',questId:'quest',mode:'normal'},personal)).toBe('blocked');
     expect(requirementState({op:'quest',questId:'quest',mode:'hard'},personal)).toBe('ready');
+  });
+  it('indexes progress and prerequisite results for one character without crossing modes',()=>{
+    let personal=changeQuest(state(),'a','arrival','normal',{completed:true});
+    personal=changeQuest(personal,'b','arrival','hard',{completed:true});
+    const requirement:QuestRequirement={op:'all',items:[done('arrival'),{op:'condition',id:'met-mentor',text:'Meet mentor'}]};
+    personal=changeQuestProfile(personal,'a',profile=>({...profile,conditions:{'met-mentor':true}}));
+    const a=createQuestEvaluator(personal,'a'),b=createQuestEvaluator(personal,'b');
+    expect(a.record('arrival','normal')?.completed).toBe(true);
+    expect(a.record('arrival','hard')).toBeUndefined();
+    expect(a.requirement({op:'quest',questId:'arrival',mode:'hard'})).toBe('blocked');
+    expect(a.requirement(requirement)).toBe('ready');
+    expect(b.requirement(requirement)).toBe('unknown');
+    expect(createQuestEvaluator(personal,'a')).toBe(a);
+    expect(createQuestEvaluator(personal,'missing').requirement(requirement)).toBe('unknown');
   });
   it('preserves bonus without main completion and normal progress when hard mode changes',()=>{
     let personal=changeQuest(state(),'a','mission','normal',{bonus:true});

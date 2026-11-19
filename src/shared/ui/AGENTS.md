@@ -1,7 +1,7 @@
 # ui/
 > L2 | Parent: ../AGENTS.md
 
-DataStatus.tsx: 展示资料加载状态和重试按钮。
+DataStatus.tsx: 展示资料下载、校验、投影进度与失败重试。
 LocalDocument.tsx: 读取并展示本地 JSON 或许可文本。
 Select.tsx: 提供统一外观、键盘选择和触摸选择的 Select。
 WikiDetails.tsx: 展示来源原文、事实说明及逐篇章任务攻略入口。

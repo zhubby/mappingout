@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖 Playwright 初始化脚本和真实桌面前端。
- * [OUTPUT]: 提供可控更新 IPC、备份故障与事件记录。
+ * [OUTPUT]: 提供可控更新 IPC、检查就绪等待、备份故障与事件记录。
  * [POS]: 测试原生边界替身；资料和个人存储仍执行真实代码。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -82,6 +82,7 @@ export async function nativeBridge(page: Page, initial: Partial<UpdateStatus> = 
 }
 
 export const finishCheck = async (page: Page) => {
+  await page.waitForFunction(() => (window as any).qa.actions.some((action: {command:string}) => action.command === 'desktop_update_check'));
   await page.evaluate(() => (window as any).qa.finishCheck());
   await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
 };

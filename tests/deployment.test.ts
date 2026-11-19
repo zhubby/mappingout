@@ -87,30 +87,46 @@ describe('bundled deployment data', { timeout: 30000 }, () => {
     await fs.copyFile('public/data/armor.json',path.join(dir,'data/armor.json'));
     const file=path.join(dir,'data/calendar.json'),data=JSON.parse(await fs.readFile(file,'utf8'));data.rotations[0].sequence.pop();await fs.writeFile(file,JSON.stringify(data));await expect(validateDeploymentData(dir)).rejects.toThrow('轮换序列不完整');
   });
-  it('includes feature catalogs, quest routes and lazy chunks in offline precaching',async()=>{
+  it('separates the small startup cache from the complete offline manifest',async()=>{
     const dir=await buildFixture();await fs.writeFile(path.join(dir,'data/armor.json'),'{}');await fs.writeFile(path.join(dir,'data/calendar.json'),'{}');await fs.writeFile(path.join(dir,'build/armor-123.js'),'lazy');
+    await fs.writeFile(path.join(dir,'AGENTS.md'),'project instructions');await fs.writeFile(path.join(dir,'assets/maps/AGENTS.md'),'asset instructions');
     await fs.mkdir(path.join(dir,'assets/materials'));await fs.writeFile(path.join(dir,'assets/materials/iron-ingot.png'),'icon');
     await fs.writeFile(path.join(dir,'data/quests.json'),'{}');await fs.mkdir(path.join(dir,'assets/quests'));await fs.writeFile(path.join(dir,'assets/quests/1-abcdef.webp'),'route');
     await fs.writeFile(path.join(dir,'data/skills.json'),'{}');await fs.mkdir(path.join(dir,'assets/skill-library'));await fs.mkdir(path.join(dir,'assets/skill-resources'));await fs.writeFile(path.join(dir,'assets/skill-library/123.jpg'),'skill');await fs.writeFile(path.join(dir,'assets/skill-resources/energy.png'),'resource');
-    expect((await finalizeBuild(dir)).precache).toEqual(expect.arrayContaining(['data/armor.json','data/calendar.json','data/quests.json','data/skills.json','build/armor-123.js','assets/materials/iron-ingot.png','assets/quests/1-abcdef.webp','assets/skill-library/123.jpg','assets/skill-resources/energy.png']));
+    const result=await finalizeBuild(dir);
+    expect(result.precache).toEqual(['build/content.worker-123.js','build/main-123.css','build/main-123.js']);
+    expect(result.offlineAssets).toEqual(expect.arrayContaining(['data/catalog.json','data/armor.json','data/calendar.json','data/quests.json','data/skills.json','build/armor-123.js','assets/materials/iron-ingot.png','assets/quests/1-abcdef.webp','assets/skill-library/123.jpg','assets/skill-resources/energy.png']));
+    expect(result.offlineAssets.some(name=>name==='AGENTS.md'||name.endsWith('/AGENTS.md'))).toBe(false);
+    expect(JSON.parse(await fs.readFile(path.join(dir,'offline-assets.json'),'utf8'))).toEqual(result.offlineAssets);
   });
 });
 
 async function buildFixture() {
   const dir = await directory();
   for (const folder of ['build', 'data', 'assets/maps']) await fs.mkdir(path.join(dir, folder), { recursive: true });
-  for (const [name, content] of Object.entries({ 'index.html': '<html></html>', '_headers': '/build/*\n  Cache-Control: immutable', 'build/main-123.js': 'app', 'build/main-123.css': 'style', 'data/catalog.json': '{}', 'assets/maps/1-1.jpg': 'map bytes' })) await fs.writeFile(path.join(dir, name), content);
+  for (const [name, content] of Object.entries({ 'index.html': '<html><head><link rel="stylesheet" href="./build/main-123.css"></head><body><script type="module" src="./build/main-123.js"></script></body></html>', '_headers': '/build/*\n  Cache-Control: immutable', 'build/main-123.js': 'app', 'build/main-123.css': 'style', 'build/content.worker-123.js':'worker', 'data/catalog.json': '{}', 'assets/maps/1-1.jpg': 'map bytes' })) await fs.writeFile(path.join(dir, name), content);
   return dir;
 }
 describe('release-specific offline worker', () => {
-  it('generates the same version on identical builds and precaches all built resources', async () => {
-    const dir = await buildFixture(), first = await finalizeBuild(dir);
+  it('keeps the declared application favicon in the startup shell cache', async () => {
+    const dir = await buildFixture();
+    const html = await fs.readFile(path.join(dir,'index.html'),'utf8');
+    await fs.writeFile(path.join(dir,'index.html'),html.replace('</head>','<link rel="icon" href="./build/icon-123.svg"></head>'));
+    await fs.writeFile(path.join(dir,'build/icon-123.svg'),'<svg/>');
+    expect((await finalizeBuild(dir)).precache).toContain('build/icon-123.svg');
+  });
+  it('generates a stable version and separates startup assets from offline assets', async () => {
+    const dir = await buildFixture();
+    const first = await finalizeBuild(dir);
     await fs.utimes(path.join(dir, 'index.html'), new Date(), new Date());
     expect(await finalizeBuild(dir)).toEqual(first);
     const sw = await fs.readFile(path.join(dir, 'sw.js'), 'utf8');
     expect(sw).toContain(`mappingout-${first.version}`);
     expect(sw).not.toContain('__BUILD_');
-    expect(first.precache).toEqual(['build/main-123.css', 'build/main-123.js', 'data/catalog.json']);
+    expect(first.precache).toEqual(['build/content.worker-123.js','build/main-123.css', 'build/main-123.js']);
+    expect(first.offlineAssets).toEqual(expect.arrayContaining(['build/content.worker-123.js','build/main-123.css','build/main-123.js','data/catalog.json','assets/maps/1-1.jpg']));
+    expect(first.offlineAssets).not.toContain('index.html');
+    expect(first.offlineAssets).not.toContain('_headers');
   });
   it.each(['index.html', 'data/catalog.json', 'assets/maps/1-1.jpg', 'build/main-123.js', '_headers'])('changes the version when %s changes', async name => {
     const dir = await buildFixture(), first = await finalizeBuild(dir);
@@ -122,7 +138,7 @@ describe('release-specific offline worker', () => {
     const template = path.join(await directory(), 'worker.js');
     await fs.writeFile(template, await fs.readFile('public/sw.js', 'utf8') + '\n// changed behavior');
     expect((await finalizeBuild(dir, template)).version).not.toBe(first.version);
-    await fs.rename(path.join(dir, 'build/main-123.js'), path.join(dir, 'build/main-456.js'));
+    await fs.rename(path.join(dir, 'assets/maps/1-1.jpg'), path.join(dir, 'assets/maps/1-2.jpg'));
     expect((await finalizeBuild(dir)).version).not.toBe(first.version);
   });
   it('keeps bundled review and license available when offline', async () => {
@@ -130,7 +146,7 @@ describe('release-specific offline worker', () => {
     await fs.mkdir(path.join(dir, 'licenses'));
     await fs.writeFile(path.join(dir, 'licenses/gfdl-1.3.txt'), 'license');
     await fs.writeFile(path.join(dir, 'data/wiki-review.json'), '{}');
-    expect((await finalizeBuild(dir)).precache).toEqual(expect.arrayContaining(['data/wiki-review.json', 'licenses/gfdl-1.3.txt']));
+    expect((await finalizeBuild(dir)).offlineAssets).toEqual(expect.arrayContaining(['data/wiki-review.json', 'licenses/gfdl-1.3.txt']));
   });
 });
 
@@ -143,7 +159,7 @@ describe('Workers asset routing and caching rules', () => {
   it('reserves immutable caching for hashed build files, with no overlapping policies', async () => {
     const headers = await fs.readFile('public/_headers', 'utf8');
     const rules = [...headers.matchAll(/^(\/[^\r\n]*)\r?\n\s+Cache-Control: ([^\r\n]+)/gm)];
-    for (const file of ['/', '/index.html', '/sw.js', '/data/catalog.json', '/data/report.json', '/assets/maps/1-1.jpg', '/assets/skills/0-1.jpg', '/build/main-abcd.js', '/build/main-abcd.css']) {
+    for (const file of ['/', '/index.html', '/sw.js', '/offline-assets.json', '/data/catalog.json', '/data/report.json', '/assets/maps/1-1.jpg', '/assets/skills/0-1.jpg', '/build/main-abcd.js', '/build/main-abcd.css']) {
       const policies = rules.filter(([, pattern]) => pattern.endsWith('*') ? file.startsWith(pattern.slice(0, -1)) : file === pattern).map(([, , value]) => value);
       expect(policies, file).toHaveLength(1);
       if (file.startsWith('/build/')) expect(policies[0]).toBe('public, max-age=31536000, immutable');

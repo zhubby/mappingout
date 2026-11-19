@@ -1,9 +1,10 @@
 /**
- * [INPUT]: 依赖活动资料、时区规则、统一菜单和个人进度。
+ * [INPUT]: 依赖活动资料、时区规则、菜单、个人进度与翻译来源说明。
  * [OUTPUT]: 提供轮换日历、活动筛选和完成记录界面。
  * [POS]: 日历视图；URL 保留筛选，App 保存个人进度。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
+import TranslationNotice from '../../shared/ui/TranslationNotice';
 import { t, getLocale } from '../../i18n';
 import { useEffect, useMemo, useState } from 'react';
 import { CalendarDays, Check, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -48,7 +49,7 @@ function Calendar({data,personal,params,patch,update,manageCharacters,navigateZo
   function card(occurrence:Occurrence) {
     const {activity:a,start,end}=occurrence, done=personal.activityProgress.some(p=>p.characterId===character?.id&&p.activityId===a.id&&p.start===new Date(start).toISOString()&&p.done),next=nextOccurrence(data,a.id,start);
     return <article key={a.id+start} className={`activity-card ${done?'activity-done':''}`} data-kind={a.kind}><div className="activity-card-title"><span className={`activity-kind ${a.kind}`}>{activityKindNames[a.kind]}</span><span className="activity-state">{start>now?t("周期预测"):end<=now?t("往期活动"):t("当前生效")}</span></div><h3>{a.name}</h3><p className="activity-period">{formatInstant(start,zone)} → {formatInstant(end,zone)}</p><p className="source-text">{a.objective}</p>{a.exchange&&<div className="traveler-materials"><span>{t("每份礼物：")}<b>{a.exchange.perGift} × {a.exchange.item}</b></span><span>{t("五份礼物：")}<b>{a.exchange.perGift*5} × {a.exchange.item}</b></span><small>{t("每账号每周上限 5 份；这里不记录兑换次数。")}</small></div>}
-      <details className="activity-details" open={params.activity===a.id}><summary>{t("任务详情与来源")}</summary><dl><dt>{t("领取／活动地点")}</dt><dd>{a.giver}{a.location&&` · ${a.location}`}</dd><dt>{t("交付地点")}</dt><dd>{a.turnIn}</dd><dt>{t("前置与限制")}</dt><dd className="source-text">{a.requirements}</dd><dt>{t("奖励／活动效果")}</dt><dd className="source-text">{a.rewards}</dd>{a.notes.trim()&&<><dt>{t("说明（含英文）")}</dt><dd className="source-text">{a.notes}</dd></>}</dl>{a.zoneId&&<button className="quiet" onClick={()=>navigateZone(a.zoneId!)}>{t("查看关联区域 →")}</button>}<OriginalContent value={a}/>{a.references.map(r=><SourceLink key={r.pageid} reference={r}/>)}</details>
+      <details className="activity-details" open={params.activity===a.id}><summary>{t("任务详情与来源")}</summary><dl><dt>{t("领取／活动地点")}</dt><dd>{a.giver}{a.location&&` · ${a.location}`}</dd><dt>{t("交付地点")}</dt><dd>{a.turnIn}</dd><dt>{t("前置与限制")}</dt><dd className="source-text">{a.requirements}</dd><dt>{t("奖励／活动效果")}</dt><dd className="source-text">{a.rewards}</dd>{a.notes.trim()&&<><dt>{t("说明（含英文）")}</dt><dd className="source-text">{a.notes}</dd></>}</dl>{a.zoneId&&<button className="quiet" onClick={()=>navigateZone(a.zoneId!)}>{t("查看关联区域 →")}</button>}<TranslationNotice value={a}/><OriginalContent value={a}/>{a.references.map(r=><SourceLink key={r.pageid} reference={r}/>)}</details>
       <div className="activity-actions">{trackableActivity(a.kind)&&<button className={`primary ${done?'completed':''}`} disabled={start>now} onClick={()=>character?update(s=>setActivityProgress(s,occurrence,character.id,!done)):manageCharacters()}>{done?<Check size={15}/>:null}{start>now?t("尚未开始"):!character?t("创建角色以记录"):done?t("本轮已完成 · 撤销"):t("标记本轮已完成")}</button>}{['mission','bounty','vanquish'].includes(a.kind)&&<button className="quiet" onClick={()=>patch({view:'quests',quest:`quest:gww:${a.references[0].pageid}`,qChapter:'',qMode:a.kind==='vanquish'?'hard':'normal',qKind:'',qStatus:'',qRegion:'',qq:''})}>{t('打开任务攻略')}</button>}{next&&<button className="quiet" onClick={()=>patch({date:dateInZone(next.start,zone),cKind:a.kind,cq:'',activity:a.id})}>{t("下一次：")}{formatInstant(next.start,zone)}</button>}</div>{a.kind==='combat'&&<p className="muted">{t("战斗任务可重复完成，勾选表示本轮至少完成过一次。")}</p>}
     </article>;
   }

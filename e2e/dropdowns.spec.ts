@@ -9,18 +9,18 @@ import {selectOption} from './select';
 
 test('atlas filters use custom menus and preserve empty values independently of map navigation', async ({page}, testInfo) => {
   await page.goto('/');
-  const campaign = page.getByRole('combobox', {name:'篇章筛选'});
+  const campaign = page.getByRole('combobox', {name:'篇章篩選'});
   await expect(campaign).toBeVisible();
   await expect(page.locator('select:visible')).toHaveCount(0);
   await selectOption(campaign, '2');
-  await selectOption(page.getByRole('combobox', {name:'地区筛选'}), '2:1');
-  await selectOption(page.getByRole('combobox', {name:'区域筛选'}), 'gww:10970');
+  await selectOption(page.getByRole('combobox', {name:'地區篩選'}), '2:1');
+  await selectOption(page.getByRole('combobox', {name:'區域篩選'}), 'gww:10970');
   await selectOption(campaign, '1');
-  await expect(page.getByRole('combobox', {name:'地区筛选'})).toHaveAttribute('data-value', '');
-  await expect(page.getByRole('combobox', {name:'区域筛选'})).toHaveAttribute('data-value', '');
+  await expect(page.getByRole('combobox', {name:'地區篩選'})).toHaveAttribute('data-value', '');
+  await expect(page.getByRole('combobox', {name:'區域篩選'})).toHaveAttribute('data-value', '');
   await selectOption(campaign, '');
-  await expect(page.getByRole('combobox', {name:'章节选择'})).toHaveAttribute('data-value', '2');
-  const map = page.getByRole('combobox', {name:'地图地区'});
+  await expect(page.getByRole('combobox', {name:'章節選擇'})).toHaveAttribute('data-value', '2');
+  const map = page.getByRole('combobox', {name:'地圖地區'});
   await map.click();
   await expect(page.getByRole('listbox').getByRole('option')).toHaveCount(4);
   await expect(page.getByRole('listbox').getByRole('group')).toHaveCount(0);
@@ -32,10 +32,10 @@ test('atlas filters use custom menus and preserve empty values independently of 
 
 test('map chapters constrain regions and follow shared links, reloads and location jumps', async ({page}) => {
   await page.goto('/?campaign=1&map=3:3');
-  const chapter = page.getByRole('combobox', {name:'章节选择'});
-  const map = page.getByRole('combobox', {name:'地图地区'});
-  const filters = page.getByRole('combobox', {name:'篇章筛选'});
-  await expect(page.locator('.breadcrumb > span')).toHaveText('世界地图');
+  const chapter = page.getByRole('combobox', {name:'章節選擇'});
+  const map = page.getByRole('combobox', {name:'地圖地區'});
+  const filters = page.getByRole('combobox', {name:'篇章篩選'});
+  await expect(page.locator('.breadcrumb > span')).toHaveText('世界地圖');
   await expect(page.locator('.breadcrumb').getByRole('combobox')).toHaveCount(2);
   await expect(chapter).toHaveAttribute('data-value', '3');
   await expect(map).toHaveAttribute('data-value', '3:3');
@@ -55,7 +55,7 @@ test('map chapters constrain regions and follow shared links, reloads and locati
   await expect(map).toHaveAttribute('data-value', '4:3');
   await page.goto('/?campaign=1&map=3:3&selected=skill:0:1');
   await expect(chapter).toHaveAttribute('data-value', '3');
-  await page.getByRole('button', {name:'定位地点 1', exact:true}).click();
+  await page.getByRole('button', {name:'定位地點 1', exact:true}).click();
   await expect(chapter).toHaveAttribute('data-value', '1');
   await expect(map).toHaveAttribute('data-value', /^1:/);
   await expect(page.locator('.atlas-marker.chosen').first()).toBeVisible();
@@ -63,10 +63,10 @@ test('map chapters constrain regions and follow shared links, reloads and locati
 
 test('three map levels remain visible in both languages across viewport sizes', async ({page}, testInfo) => {
   await page.goto('/?map=4:1');
-  for (const locale of ['zh-CN', 'en']) {
-    await selectOption(page.getByRole('combobox', {name:'Language / 语言'}), locale);
-    const chapter = page.getByRole('combobox', {name:locale === 'en' ? 'Chapter selection' : '章节选择'});
-    const map = page.getByRole('combobox', {name:locale === 'en' ? 'Map region' : '地图地区'});
+  for (const locale of ['zh-TW', 'en']) {
+    await selectOption(page.getByRole('combobox', {name:'Language / 語言'}), locale);
+    const chapter = page.getByRole('combobox', {name:locale === 'en' ? 'Chapter selection' : '章節選擇'});
+    const map = page.getByRole('combobox', {name:locale === 'en' ? 'Map region' : '地圖地區'});
     for (const width of [1440, 820, 560, 390, 320]) {
       await page.setViewportSize({width, height:920});
       await expect(page.locator('.breadcrumb > span')).toBeVisible();
@@ -81,7 +81,7 @@ test('three map levels remain visible in both languages across viewport sizes', 
       const bounds = await menu.boundingBox();
       expect(bounds!.x).toBeGreaterThanOrEqual(0);
       expect(bounds!.x + bounds!.width).toBeLessThanOrEqual(width);
-      if (width === 390 && locale === 'zh-CN') await page.screenshot({path:testInfo.outputPath('map-mobile-menu.png'), animations:'disabled'});
+      if (width === 390 && locale === 'zh-TW') await page.screenshot({path:testInfo.outputPath('map-mobile-menu.png'), animations:'disabled'});
       await page.keyboard.press('Escape');
     }
   }
@@ -89,7 +89,7 @@ test('three map levels remain visible in both languages across viewport sizes', 
 
 test('menus support keyboard navigation, typeahead, cancellation and outside clicks', async ({page}) => {
   await page.goto('/');
-  const language = page.getByRole('combobox', {name:'Language / 语言'});
+  const language = page.getByRole('combobox', {name:'Language / 語言'});
   await language.focus();
   await language.press('ArrowDown');
   await expect(page.getByRole('listbox')).toBeVisible();
@@ -119,7 +119,7 @@ test('menus support keyboard navigation, typeahead, cancellation and outside cli
 
 test('menus follow viewport resizing without horizontal overflow', async ({page}) => {
   await page.goto('/');
-  const language = page.getByRole('combobox', {name:'Language / 语言'});
+  const language = page.getByRole('combobox', {name:'Language / 語言'});
   for (const width of [1440, 820, 560, 390, 320]) {
     await page.setViewportSize({width, height:920});
     await language.click();
@@ -138,7 +138,7 @@ test.describe('mobile menus', () => {
 
   test('touch menus stay within the viewport and close after selection', async ({page}, testInfo) => {
     await page.goto('/?view=armor');
-    const profession = page.getByRole('combobox', {name:'护甲职业'});
+    const profession = page.getByRole('combobox', {name:'護甲職業'});
     await profession.tap();
     const menu = page.getByRole('listbox');
     await expect(menu).toBeVisible();

@@ -1,13 +1,16 @@
 /**
  * [INPUT]: 依赖资料 worker、语言目录与 React 可消费的进度回调。
- * [OUTPUT]: 提供异步资料投影、来源映射、进度和已访问路径信号。
+ * [OUTPUT]: 提供繁英投影、中文译名证据、旧名别名和已访问路径。
  * [POS]: 全应用资料读取边界；校验和投影都在 worker 内执行。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { contentFields, type Dataset } from './content-fields';
 import type { Locale } from './index';
 
-export interface LanguagePack { version: 1; locale: Locale; dataset: Dataset; sourceHash: string; englishHash?: string; baselineHash?: string; fields: Record<string,string> }
+interface NameSource { kind:string; references:{site:string;title:string;revid:number;revisionUrl:string}[] }
+export interface TranslationInfo { name?:NameSource; englishVerified:boolean }
+export interface LanguagePack { version: 1; locale: Locale; dataset: Dataset; sourceHash: string; englishHash?: string; baselineHash?: string; fields: Record<string,string>; nameSources?:Record<string,NameSource>; legacyAliases?:Record<string,string|string[]>; unverifiedFields?:string[] }
+export function translationOf(value:object):TranslationInfo|undefined {return (value as {translationInfo?:TranslationInfo}).translationInfo;}
 export interface ContentBundle<T> { original: T; packs: Record<Locale,LanguagePack> }
 export type ContentPhase = 'fetching' | 'verifying' | 'projecting';
 export interface ContentProgress { phase: ContentPhase; resource?: string; resourceIndex?: number; resourceCount?: number; loadedBytes?: number; totalBytes?: number }
@@ -110,17 +113,28 @@ export function projectContent<T>(bundle:ContentBundle<T>,locale:Locale):T {
     object[field.path.at(-1)!]=translated;
     if(pack.dataset==='skills'&&field.path[0]==='skills'&&field.path[2]==='variants'){
       const row=(data as {skills:{variants:{searchTexts?:string[]}[]}[]}).skills[field.path[1] as number].variants[field.path[3] as number];
-      (row.searchTexts??=[]).push(bundle.packs['zh-CN'].fields[field.key],bundle.packs.en.fields[field.key]);
+      (row.searchTexts??=[]).push(bundle.packs['zh-TW'].fields[field.key],bundle.packs.en.fields[field.key]);
+      const alias=bundle.packs['zh-TW'].legacyAliases?.[field.key];
+      if(alias)row.searchTexts!.push(...typeof alias==='string'?[alias]:alias);
     }
   }
+  // Index aliases once; large skill packs must not scan every field per row.
+  const aliasGroups=new Map<string,string[]>(),chinese=bundle.packs['zh-TW'];
+  for(const [key,text]of Object.entries(chinese.legacyAliases??{})){
+    const entity=key.split('/').slice(0,2).join('/');
+    const group=aliasGroups.get(entity)??[];group.push(...typeof text==='string'?[text]:text);aliasGroups.set(entity,group);
+  }
+  const unverified=new Set(chinese.unverifiedFields?.map(key=>key.split('/').slice(0,2).join('/')));
   // Search both languages without showing duplicate names in the interface.
-  for(const collection of ['records','sets','activities','materials','quests','skills']) {
+  for(const collection of ['records','sets','activities','materials','quests','skills','stories','chapters','offers','armorers','tracks']) {
     const rows=(data as Record<string,unknown[]>)[collection];
     const rawRows=(bundle.original as Record<string,Record<string,unknown>[]>)[collection];
     if(rows)rows.forEach((row,index)=>{
       const item=row as Record<string,unknown>,raw=rawRows[index];
-      item.searchAliases=[raw.name,raw.englishName,bundle.packs['zh-CN'].fields[`${collection}/${raw.id}/name`],bundle.packs.en.fields[`${collection}/${raw.id}/name`]].filter(Boolean);
-      if(collection==='quests')for(const field of ['region','givenBy','givenAt'])for(const language of ['zh-CN','en'] as const)(item.searchAliases as string[]).push(bundle.packs[language].fields[`quests/${raw.id}/${field}`]||'');
+      const entity=`${collection}/${raw.id??index}`,prefix=`${entity}/`;
+      item.searchAliases=[raw.name,raw.englishName,chinese.fields[`${prefix}name`],bundle.packs.en.fields[`${prefix}name`],...aliasGroups.get(entity)??[]].filter(Boolean);
+      if(locale==='zh-TW')item.translationInfo={name:chinese.nameSources?.[`${prefix}name`]??chinese.nameSources?.[`${prefix}title`],englishVerified:!unverified.has(entity)} satisfies TranslationInfo;
+      if(collection==='quests')for(const field of ['region','givenBy','givenAt'])for(const language of ['zh-TW','en'] as const)(item.searchAliases as string[]).push(bundle.packs[language].fields[`quests/${raw.id}/${field}`]||'');
       if(collection==='records')item.descriptionLanguage=locale==='en'?'en':'zh';
     });
   }
@@ -139,7 +153,7 @@ export function loadContentProjection<T>(dataset:Dataset,locale:Locale,onProgres
   },onProgress);
   return pending.then(data=>{
     if(typeof window!=='undefined')window.dispatchEvent(new CustomEvent<ContentReadyDetail>('mappingout:content-ready',{detail:{
-      paths:[`data/${dataset}.json`,`data/i18n/zh-CN/${dataset}.json`,`data/i18n/en/${dataset}.json`],
+      paths:[`data/${dataset}.json`,`data/i18n/zh-TW/${dataset}.json`,`data/i18n/en/${dataset}.json`],
     }}));
     return data as T;
   });

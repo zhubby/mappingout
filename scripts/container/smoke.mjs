@@ -52,7 +52,7 @@ assert.equal(catalog.headers.get('cache-control'), revalidate);
 const data = await catalog.json();
 assert.equal(data.campaigns.length, 4);
 assert.equal(data.regions.length, 20);
-for (const path of ['/data/armor.json', '/data/calendar.json', '/data/quests.json', '/data/skills.json', '/data/i18n/en/skills.json', '/data/i18n/zh-CN/quests.json']) {
+for (const path of ['/data/armor.json', '/data/calendar.json', '/data/quests.json', '/data/skills.json', '/data/i18n/en/skills.json', '/data/i18n/zh-TW/quests.json']) {
   const response = await request(path, { method: 'HEAD' });
   assert.match(response.headers.get('content-type') || '', /application\/json/);
   assert.equal(response.headers.get('cache-control'), revalidate);

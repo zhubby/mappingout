@@ -4,7 +4,8 @@
 # [PROTOCOL]: Update this header on change, then check AGENTS.md
 """Maintainer-only offline draft generator; models are never shipped in the app.
 
-Requires ctranslate2, sentencepiece and the Argos en_zh/zh_en 1.9 packages.
+Requires ctranslate2, sentencepiece, opencc-python-reimplemented and Argos en_zh 1.9.
+Traditional output remains a draft. The English baseline is never generated here.
 Protects game names and every numeric token by translating text between them.
 Outputs machine-draft records, which still require individual human review.
 Argos OPUS-MT 1.9 models: CC-BY 4.0; Jörg Tiedemann and Santhosh Thottingal,
@@ -15,6 +16,8 @@ import os
 import re
 import sys
 from pathlib import Path
+from opencc import OpenCC
+traditional = OpenCC('s2twp')
 import ctranslate2
 import sentencepiece as spm
 
@@ -60,7 +63,7 @@ def save():
     temporary.replace(destination)
     segment_file.write_text(json.dumps(segments,ensure_ascii=False),encoding='utf-8')
 
-for locale, direction in [('zh-CN','en_zh'),('en','zh_en')]:
+for locale, direction in [('zh-TW','en_zh')]:
     tasks=[task for task in pending if task['locale']==locale and task['key'] not in output]
     model=ROOT / f'releases/qa/argos-{direction}/translate-{direction}-1_9'
     tokenizer=spm.SentencePieceProcessor(model_file=str(model/'sentencepiece.model'))
@@ -93,7 +96,7 @@ for locale, direction in [('zh-CN','en_zh'),('en','zh_en')]:
             if needs_translation(part,locale):
                 translated.extend(segments[locale+'\0'+piece] for piece in split_long(part))
             else:translated.append(part)
-        value=''.join(translated)
+        value=traditional.convert(''.join(translated))
         value=token_pattern.sub(lambda match:task['tokens'][int(match[0][3:-3])],value)
         output[task['key']]={'text':value,'method':'machine-draft','provider':'Argos 1.9 offline, protected facts'}
     save()

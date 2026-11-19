@@ -15,7 +15,7 @@ for (const name of ['sw.js', '_headers']) await fs.rm(path.join(dist, name), { f
 for (const name of ['index.html', 'data/catalog.json', 'data/armor.json', 'data/calendar.json', 'data/quests.json', 'data/skills.json', 'licenses/gfdl-1.3.txt']) {
   await fs.access(path.join(dist, name));
 }
-for (const locale of ['zh-CN','en']) for (const dataset of ['catalog','armor','calendar','quests','skills']) {
+for (const locale of ['zh-TW','en']) for (const dataset of ['catalog','armor','calendar','quests','skills']) {
   await fs.access(path.join(dist, `data/i18n/${locale}/${dataset}.json`));
 }
 const fonts=JSON.parse(await fs.readFile(path.join(dist,'fonts/manifest.json'),'utf8'));

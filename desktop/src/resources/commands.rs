@@ -88,7 +88,7 @@ pub async fn resources_import(
                 .set_title(if locale.as_deref() == Some("en") {
                     "Import offline resources"
                 } else {
-                    "导入离线资源"
+                    "匯入離線資源"
                 })
                 .add_filter("MappingOut resources", &["json"])
                 .blocking_pick_file();

@@ -115,7 +115,7 @@ try {
   await expect(page.locator('.detail-title-row h2')).toHaveText('Cleave');
   const fontSession = await context.newCDPSession(page);
   await fontSession.send('DOM.enable'); await fontSession.send('CSS.enable');
-  for (const [locale, family, title] of [['en', 'Friz Quadrata Std', 'Cleave'], ['zh-CN', 'LXGW WenKai Screen', '劈击']]) {
+  for (const [locale, family, title] of [['en', 'Friz Quadrata Std', 'Cleave'], ['zh-TW', 'LXGW WenKai Screen', '劈击']]) {
     await page.getByLabel('Language / 语言').selectOption(locale);
     await expect(page.locator('.detail-title-row h2')).toHaveText(title);
     await page.evaluate(family => document.fonts.load(`16px "${family}"`), family);
@@ -133,7 +133,7 @@ try {
   await page.reload();
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   await expect(page.locator('.current-activities')).toBeVisible();
-  await page.getByLabel('Language / 语言').selectOption('zh-CN');
+  await page.getByLabel('Language / 语言').selectOption('zh-TW');
   await page.getByRole('button', {name: '世界地图', exact: true}).click();
   checks.push({check: 'offline-language-switch-fonts-search-feature-pages-and-preference', passed: true});
   await page.getByRole('banner').getByRole('button', { name: '创建探索者', exact: true }).click();

@@ -87,7 +87,7 @@ try{
  await page.getByTestId('results').getByRole('button').first().click();
  await expect(page.locator('.detail-title-row h2')).toHaveText('Cleave');
  const session=await browser.contexts()[0].newCDPSession(page);await session.send('DOM.enable');await session.send('CSS.enable');
- for(const [locale,family,title] of [['en','Friz Quadrata Std','Cleave'],['zh-CN','LXGW WenKai Screen','劈击']]){
+ for(const [locale,family,title] of [['en','Friz Quadrata Std','Cleave'],['zh-TW','LXGW WenKai Screen','劈击']]){
   await page.getByLabel('Language / 语言').selectOption(locale);await expect(page.locator('.detail-title-row h2')).toHaveText(title);
   await page.evaluate(family=>document.fonts.load(`16px "${family}"`),family);
   const {root}=await session.send('DOM.getDocument');const {nodeId}=await session.send('DOM.querySelector',{nodeId:root.nodeId,selector:'.detail-title-row h2'});

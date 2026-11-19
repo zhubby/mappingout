@@ -1,6 +1,6 @@
 /**
- * [INPUT]: 依赖界面翻译、五套双语资料、英文基线与字体许可。
- * [OUTPUT]: 校验字段覆盖、内容哈希与正式发布审校门禁。
+ * [INPUT]: 依赖繁英资料、固定中英文证据、来源记录与字体许可。
+ * [OUTPUT]: 校验字段覆盖、术语污染、内容哈希与正式发布审校门禁。
  * [POS]: 本地和正式构建共用的双语验证入口。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -11,12 +11,13 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import {contentFields,datasets} from '../../src/i18n/content-fields.ts';
 import {numericIssues,translationReviewMatches} from '../i18n/english-source.mjs';
+import {extractChineseTerms} from '../i18n/chinese-sources.mjs';
 const hash=value=>createHash('sha256').update(value).digest('hex');
 export function validateI18n(root=projectRoot,release=false){
  const read=file=>fs.readFileSync(path.join(root,file),'utf8');
  const json=file=>JSON.parse(read(file));
- const errors=[],stats={fields:0,pendingReview:0,numericReview:0,mixedLanguage:0,unverifiedEnglish:0};
- const zh=json('src/i18n/zh-CN.json'),en=json('src/i18n/en.json');
+ const errors=[],stats={fields:0,pendingReview:0,numericReview:0,mixedLanguage:0,unverifiedEnglish:0,sourcePlaceholders:0};
+ const zh=json('src/i18n/zh-TW.json'),en=json('src/i18n/en.json');
  if(JSON.stringify(Object.keys(zh).sort())!==JSON.stringify(Object.keys(en).sort()))errors.push('UI locale key sets differ');
  const placeholders=s=>[...s.matchAll(/\{\{\w+\}\}/g)].map(m=>m[0]).sort().join('|');
  for(const [key,value]of Object.entries(zh)){
@@ -24,6 +25,13 @@ export function validateI18n(root=projectRoot,release=false){
   else if(placeholders(value)!==placeholders(en[key]))errors.push(`UI interpolation mismatch: ${key}`);
  }
  const review=json('data/i18n/review.json').reviews;
+ const provenance=json('data/i18n/zh-TW-provenance.json');
+ const pages=[...json('data/i18n/chinese-sources.json').pages,...json('data/i18n/huiji-sources.json').pages];
+ for(const page of pages){
+  const text=page.captureKind==='rendered-table-transcription'?JSON.stringify(page.observedTerms):page.wikitext;
+  if(hash(text)!==page.sha256)errors.push(`Chinese source snapshot changed: ${page.site}/${page.title}`);
+ }
+ if(JSON.stringify(extractChineseTerms(pages))!==JSON.stringify(json('data/i18n/zh-TW-terms.json')))errors.push('Chinese terminology differs from pinned evidence');
  const wikiReferences=new Map();
  for(const dataset of datasets){
   const raw=read(`public/data/${dataset}.json`),data=JSON.parse(raw),fields=contentFields(data,dataset);
@@ -35,8 +43,9 @@ export function validateI18n(root=projectRoot,release=false){
   const unresolved=fields.filter(f=>!baseline.fields[f.key]).map(f=>f.key);
   if(JSON.stringify(unresolved)!==JSON.stringify(english.unverifiedFields))errors.push(`English review inventory differs: ${dataset}`);
   stats.unverifiedEnglish+=unresolved.length;
-  for(const locale of ['zh-CN','en']){
+  for(const locale of ['zh-TW','en']){
    const pack=json(`public/data/i18n/${locale}/${dataset}.json`);
+   if(locale==='zh-TW'&&provenance.datasets[dataset]?.packHash!==hash(JSON.stringify(pack)))errors.push(`Stale Chinese provenance: ${dataset}`);
    if(pack.sourceHash!==hash(raw)||pack.locale!==locale||pack.dataset!==dataset||pack.version!==1)errors.push(`Stale ${locale}/${dataset} pack`);
    if(pack.englishHash!==englishHash||pack.baselineHash!==baselineHash)errors.push(`Stale English binding: ${locale}/${dataset}`);
    const expected=new Set(fields.map(field=>field.key));
@@ -45,9 +54,15 @@ export function validateI18n(root=projectRoot,release=false){
     stats.fields++;
     const text=pack.fields[field.key];
     if(!text?.trim()){errors.push(`Missing ${locale}/${dataset}/${field.key}`);continue;}
-    if(/ZXQ\d+ZXQ|\[MO\d+\]|MISSING_TOKEN/.test(text))errors.push(`Unresolved placeholder: ${locale}/${dataset}/${field.key}`);
+    // Archived, unverified English gaps remain visible without granting source approval.
+    const sourceGap=locale==='en'&&!baseline.fields[field.key]&&text.includes('<unk>');
+    if(sourceGap)stats.sourcePlaceholders++;
+    if(/ZXQ\d+ZXQ|MOPROTECT|(?:PROT)?ECT\d+(?:END)?|\[MO\d+\]|MISSING_TOKEN|\u2581/.test(text)||text.includes('<unk>')&&!sourceGap)errors.push(`Unresolved placeholder: ${locale}/${dataset}/${field.key}`);
     if(locale==='en'&&/\p{Script=Han}/u.test(text))errors.push(`Chinese in English content: ${dataset}/${field.key}`);
-    if(locale==='zh-CN'){
+    if(locale==='zh-TW'){
+      if(/<br\b|(?:圖像|影像|檔案|文件|File|Image|Media):[^\s]*\.(?:png|jpe?g|gif|svg|webp)/i.test(text))errors.push(`Wiki presentation leaked into Chinese text: ${dataset}/${field.key}`);
+      const origin=provenance.adaptations[`${dataset}/${field.key}`]??provenance.texts[hash(english.fields[field.key])];
+      if(!origin||origin.translationHash!==hash(text))errors.push(`Missing Chinese text provenance: ${dataset}/${field.key}`);
       const allowed=new Set(['Wiki','wiki','NPC','Boss','boss','PvE','PvP','AR','HP','XP','UTC','GMT','GvG','PvX','GW','HM','NM','AoE','DPS','I','II','III','IV','V','X']);
       if([...text.matchAll(/[A-Za-z][A-Za-z'-]*/g)].some(match=>!allowed.has(match[0])))stats.mixedLanguage++;
     }
@@ -56,7 +71,7 @@ export function validateI18n(root=projectRoot,release=false){
     if(locale==='en'&&source&&text!==source.text)errors.push(`English differs from Wiki baseline: ${dataset}/${field.key}`);
     const record=review[`${locale}/${dataset}/${field.key}`];
     const approved=translationReviewMatches(source,text,record);
-    if(locale==='zh-CN'){
+    if(locale==='zh-TW'){
       if(!approved)stats.pendingReview++;
       const numeric=source?numericIssues(source.text,text):[];
       if(numeric.includes('corrupt-token')||(numeric.length&&!(approved&&record.numericReview)))stats.numericReview++;

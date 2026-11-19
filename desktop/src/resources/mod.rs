@@ -1,5 +1,5 @@
 //! [INPUT]: 依赖资源公钥、文件系统与 Tauri 资源接口。
-//! [OUTPUT]: 提供固定会话、任务及技能双语完整性校验与回退。
+//! [OUTPUT]: 提供固定会话、五套繁英资料完整性校验与旧包恢复入口。
 //! [POS]: 原生资源边界；传输、命令与测试由子模块实现。
 //! [PROTOCOL]: Update this header on change, then check AGENTS.md
 pub(crate) mod commands;
@@ -143,10 +143,31 @@ fn safe_path(value: &str) -> bool {
 }
 fn compatible(m: &Manifest, version: &str) -> bool {
     m.schema == 1
+        && supports_traditional(m)
         && VersionReq::parse(&m.client_range)
             .ok()
             .zip(Version::parse(version).ok())
             .is_some_and(|(r, v)| r.matches(&v))
+}
+// 混合频道中的旧签名保持可读。
+// 五套繁英资料齐全才可成为本版会话。
+fn supports_traditional(m: &Manifest) -> bool {
+    let paths: BTreeSet<_> = m
+        .packs
+        .iter()
+        .flat_map(|p| p.files.iter().map(|f| f.path.as_str()))
+        .collect();
+    ["catalog", "armor", "calendar", "quests", "skills"]
+        .iter()
+        .all(|dataset| {
+            [
+                format!("data/{dataset}.json"),
+                format!("data/i18n/en/{dataset}.json"),
+                format!("data/i18n/zh-TW/{dataset}.json"),
+            ]
+            .iter()
+            .all(|file| paths.contains(file.as_str()))
+        })
 }
 fn write_atomic<T: Serialize>(path: &Path, value: &T) -> Result<()> {
     let mut tmp =
@@ -231,9 +252,6 @@ fn validate_manifest(m: &Manifest, repository: &str) -> Result<()> {
         "data/i18n/en/catalog.json",
         "data/i18n/en/armor.json",
         "data/i18n/en/calendar.json",
-        "data/i18n/zh-CN/catalog.json",
-        "data/i18n/zh-CN/armor.json",
-        "data/i18n/zh-CN/calendar.json",
         "fonts/manifest.json",
         "licenses/gfdl-1.3.txt",
     ] {
@@ -241,15 +259,20 @@ fn validate_manifest(m: &Manifest, repository: &str) -> Result<()> {
             return Err("resources.incomplete".into());
         }
     }
-    // 旧资料包仍可启动；可选资料出现时须连同双语包安装。
+    // 旧频道保留可读；中文语言完整性由会话兼容检查约束。
     for dataset in ["quests", "skills"] {
         let files = [
             format!("data/{dataset}.json"),
             format!("data/i18n/en/{dataset}.json"),
-            format!("data/i18n/zh-cn/{dataset}.json"),
         ];
         if files.iter().any(|file| paths.contains(file))
-            && files.iter().any(|file| !paths.contains(file))
+            && (files.iter().any(|file| !paths.contains(file))
+                || ![
+                    format!("data/i18n/zh-cn/{dataset}.json"),
+                    format!("data/i18n/zh-tw/{dataset}.json"),
+                ]
+                .iter()
+                .any(|file| paths.contains(file)))
         {
             return Err("resources.incomplete".into());
         }

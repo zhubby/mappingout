@@ -7,7 +7,7 @@
 import { projectPath } from '../lib/paths.mjs';
 import fs from 'node:fs';
 import { translateBatch, translate } from './translate-public-text.mjs';
-const zh=JSON.parse(fs.readFileSync(projectPath('src/i18n/zh-CN.json'),'utf8'));
+const zh=JSON.parse(fs.readFileSync(projectPath('src/i18n/zh-TW.json'),'utf8'));
 const file='src/i18n/en.json';
 const en=fs.existsSync(projectPath(file))?JSON.parse(fs.readFileSync(projectPath(file),'utf8')):{};
 const queue=Object.keys(zh).filter(k=>!en[k]);

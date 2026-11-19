@@ -18,18 +18,18 @@ test('HTTP without secure-context Crypto APIs loads data and saves character pro
     Object.defineProperty(globalThis.crypto, 'subtle', { value: undefined });
     Object.defineProperty(globalThis.crypto, 'randomUUID', { value: undefined });
   });
-  await page.goto('/?kind=skill&q=' + encodeURIComponent('劈击'));
-  await expect(page.getByRole('heading', { name: '无法打开探索志', exact: true })).toHaveCount(0);
-  await page.getByRole('button', { name: '创建探索者', exact: true }).click();
+  await page.goto('/?kind=skill&q=' + encodeURIComponent('劈擊'));
+  await expect(page.getByRole('heading', { name: '無法開啟探索志', exact: true })).toHaveCount(0);
+  await page.getByRole('button', { name: '建立探索者', exact: true }).click();
   await page.getByRole('textbox', { name: '角色名' }).fill('HTTP 探索者');
-  await page.getByRole('button', { name: '创建探索者', exact: true }).last().click();
-  await page.getByRole('button', { name: '关闭弹窗' }).click();
+  await page.getByRole('button', { name: '建立探索者', exact: true }).last().click();
+  await page.getByRole('button', { name: '關閉彈窗' }).click();
   await page.locator('.result').first().click();
-  await page.getByRole('button', { name: '标记已捕获', exact: true }).click();
-  await expect(page.locator('.character-summary small')).toHaveText('已记录 1 个技能');
+  await page.getByRole('button', { name: '標記已捕獲', exact: true }).click();
+  await expect(page.locator('.character-summary small')).toHaveText('已記錄 1 個技能');
   await page.reload();
   await expect(page.locator('.character-summary')).toContainText('HTTP 探索者');
-  await expect(page.locator('.character-summary small')).toHaveText('已记录 1 个技能');
+  await expect(page.locator('.character-summary small')).toHaveText('已記錄 1 個技能');
 });
 
 test('container exposes health, font types, conditional and partial responses', async ({ request }) => {
@@ -77,16 +77,16 @@ test('character progress survives container recreation at the same origin', asyn
   expect(origin.hostname).toMatch(/^(127\.0\.0\.1|localhost|\[::1\])$/);
   expect(origin.port || '80').toBe(binding.HostPort);
 
-  await page.goto('/?kind=skill&q=' + encodeURIComponent('劈击'));
-  await page.getByRole('button', { name: '创建探索者', exact: true }).click();
-  await page.getByRole('textbox', { name: '角色名' }).fill('容器重建后的探索者');
-  await page.getByRole('button', { name: '创建探索者', exact: true }).last().click();
-  await page.getByRole('button', { name: '关闭弹窗' }).click();
+  await page.goto('/?kind=skill&q=' + encodeURIComponent('劈擊'));
+  await page.getByRole('button', { name: '建立探索者', exact: true }).click();
+  await page.getByRole('textbox', { name: '角色名' }).fill('容器重建後的探索者');
+  await page.getByRole('button', { name: '建立探索者', exact: true }).last().click();
+  await page.getByRole('button', { name: '關閉彈窗' }).click();
   await page.locator('.result').first().click();
-  await page.getByRole('button', { name: '标记已捕获', exact: true }).click();
-  await expect(page.locator('.character-summary small')).toHaveText('已记录 1 个技能');
+  await page.getByRole('button', { name: '標記已捕獲', exact: true }).click();
+  await expect(page.locator('.character-summary small')).toHaveText('已記錄 1 個技能');
   await page.reload();
-  await expect(page.getByRole('button', { name: '已完成 · 点击撤销', exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: '已完成 · 點選撤銷', exact: true })).toBeVisible();
 
   await docker('rm', '--force', container.Id);
   const host = binding.HostIp || '0.0.0.0';
@@ -103,7 +103,7 @@ test('character progress survives container recreation at the same origin', asyn
   }, { timeout: 30000 }).toBe(200);
   expect((await request.get('/?recreated=' + recreatedId)).status()).toBe(200);
   await page.reload();
-  await expect(page.locator('.character-summary')).toContainText('容器重建后的探索者');
-  await expect(page.locator('.character-summary small')).toHaveText('已记录 1 个技能');
-  await expect(page.getByRole('button', { name: '已完成 · 点击撤销', exact: true })).toBeVisible();
+  await expect(page.locator('.character-summary')).toContainText('容器重建後的探索者');
+  await expect(page.locator('.character-summary small')).toHaveText('已記錄 1 個技能');
+  await expect(page.getByRole('button', { name: '已完成 · 點選撤銷', exact: true })).toBeVisible();
 });

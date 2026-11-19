@@ -15,10 +15,13 @@ const root = projectRoot;
 export const releaseInputs = [
   ...['catalog', 'armor', 'calendar', 'quests', 'skills'].flatMap(dataset => [
     `public/data/${dataset}.json`, `data/i18n/baseline/${dataset}.json`,
-    ...['en', 'zh-CN'].map(locale => `public/data/i18n/${locale}/${dataset}.json`),
+    ...['en', 'zh-TW'].map(locale => `public/data/i18n/${locale}/${dataset}.json`),
   ]),
   'data/i18n/review.json', 'data/i18n/wiki-current-revisions.json',
-  'public/fonts/manifest.json', 'src/i18n/en.json', 'src/i18n/zh-CN.json',
+  'public/fonts/manifest.json', 'src/i18n/en.json', 'src/i18n/zh-TW.json',
+  'data/i18n/chinese-sources.json', 'data/i18n/huiji-sources.json',
+  'data/i18n/zh-TW-terms.json', 'data/i18n/zh-TW-editorial.json',
+  'data/i18n/zh-TW-provenance.json', 'data/i18n/legacy-search-aliases.json',
 ];
 export function releaseFingerprint(directory = root) {
   const hash = createHash('sha256');

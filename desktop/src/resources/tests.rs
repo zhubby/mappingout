@@ -50,38 +50,89 @@ fn restart(manager: &ResourceManager, version: &str) -> Arc<ResourceManager> {
     next
 }
 #[test]
-fn optional_data_requires_both_locales_while_legacy_resources_remain_valid() {
+fn traditional_release_range_excludes_legacy_clients() {
+    let config: serde_json::Value =
+        serde_json::from_str(include_str!("../../resources.config.json")).unwrap();
+    let range = VersionReq::parse(config["clientRange"].as_str().unwrap()).unwrap();
+    for version in ["1.2.0", "1.3.0", "1.3.1", "1.3.2"] {
+        assert!(!range.matches(&Version::parse(version).unwrap()));
+    }
+    assert!(range.matches(&Version::parse(VERSION).unwrap()));
+}
+#[test]
+fn traditional_sessions_require_all_five_locales() {
     let (_dir, manager, manifests, _source) = fixture();
     let mut manifest = manifests[0].clone();
     validate_manifest(&manifest, &manager.config.repository).unwrap();
-    for dataset in ["quests", "skills"] {
-        for (index, path) in [
+    assert!(compatible(&manifest, VERSION));
+    for dataset in ["catalog", "armor", "calendar", "quests", "skills"] {
+        for path in [
             format!("data/{dataset}.json"),
             format!("data/i18n/en/{dataset}.json"),
-            format!("data/i18n/zh-CN/{dataset}.json"),
+            format!("data/i18n/zh-TW/{dataset}.json"),
         ]
         .iter()
-        .enumerate()
         {
+            manifest = manifests[0].clone();
             manifest
                 .packs
                 .iter_mut()
                 .find(|pack| pack.kind == "data")
                 .unwrap()
                 .files
-                .push(File {
-                    path: path.clone(),
-                    bytes: 1,
-                    sha256: "a".repeat(64),
-                });
-            let result = validate_manifest(&manifest, &manager.config.repository);
-            if index < 2 {
-                assert_eq!(result.unwrap_err(), "resources.incomplete");
-            } else {
-                result.unwrap();
-            }
+                .retain(|file| &file.path != path);
+            assert!(!compatible(&manifest, VERSION));
         }
     }
+}
+#[test]
+fn legacy_signed_resources_enter_preparation_and_mixed_channels_offer_traditional() {
+    let (_dir, manager, manifests, source) = fixture();
+    let fixture: serde_json::Value =
+        serde_json::from_str(include_str!("../../../tests/fixtures/resources.json")).unwrap();
+    let envelope: Envelope = serde_json::from_value(fixture["legacyManifest"].clone()).unwrap();
+    let legacy: Manifest = verified(&envelope, &manager.config).unwrap();
+    validate_manifest(&legacy, &manager.config.repository).unwrap();
+    assert!(!compatible(&legacy, VERSION));
+    for pack in &legacy.packs {
+        manager
+            .extract(
+                &source.join(format!("{}-{}.zip", pack.kind, pack.sha256)),
+                pack,
+            )
+            .unwrap();
+    }
+    assert!(manager.complete(&legacy));
+    write_atomic(
+        &manager.manifest_path(&legacy.generation).unwrap(),
+        &envelope,
+    )
+    .unwrap();
+    manager.disk.lock().unwrap().active = Some(legacy.generation.clone());
+    manager.save_disk().unwrap();
+    let next = restart(&manager, VERSION);
+    assert!(!next.status.lock().unwrap().ready);
+    assert!(next.session.read().unwrap().is_none());
+    next.install(None, manifests[0].clone(), Some(&source))
+        .unwrap();
+    assert!(next.status.lock().unwrap().ready);
+    let channel = Channel {
+        schema: 1,
+        releases: vec![legacy, manifests[0].clone()],
+    };
+    manager
+        .offer(&channel, &channel_envelope(), VERSION)
+        .unwrap();
+    assert_eq!(
+        manager
+            .available
+            .lock()
+            .unwrap()
+            .as_ref()
+            .unwrap()
+            .generation,
+        manifests[0].generation
+    );
 }
 fn channel_envelope() -> Envelope {
     let fixture: serde_json::Value =
@@ -599,7 +650,7 @@ fn verifies_real_packs_and_signed_manifest() {
     let e: Envelope = serde_json::from_slice(&fs::read(envelope).unwrap()).unwrap();
     let m: Manifest = verified(&e, &manager.config).unwrap();
     validate_manifest(&m, &manager.config.repository).unwrap();
-    assert!(compatible(&m, VERSION));
+    assert_eq!(compatible(&m, VERSION), supports_traditional(&m));
     assert!(!compatible(&m, "9.0.0"));
     let mut bad = e.clone();
     bad.payload = B64.encode(b"{}");

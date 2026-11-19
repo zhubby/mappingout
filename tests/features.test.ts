@@ -132,7 +132,7 @@ describe('plans, occurrence records and versioned personal data',()=>{
     const state=setActivityProgress(personal(),o,'a',true,now);
     expect(state.progress).toEqual([]);expect(state.activityProgress).toHaveLength(1);
     const later=nextOccurrence(calendar,o.activity.id,now)!;
-    expect(()=>setActivityProgress(state,later,'a',true,now)).toThrow('未来');
+    expect(()=>setActivityProgress(state,later,'a',true,now)).toThrow('未來');
     expect(()=>setActivityProgress(state,occurrenceAt(calendar,'traveler',now)!,'a',true,now)).toThrow();
     expect(setActivityProgress(state,o,'b',true,now).activityProgress).toHaveLength(2);
     expect(deleteCharacter(state,'a').activityProgress).toEqual([]);

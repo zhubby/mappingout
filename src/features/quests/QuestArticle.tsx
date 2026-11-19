@@ -1,10 +1,11 @@
 /**
- * [INPUT]: 依赖任务攻略、角色状态、前置判断与统一菜单。
+ * [INPUT]: 依赖任务攻略、角色状态、前置判断、菜单与翻译来源说明。
  * [OUTPUT]: 展示攻略、前置条件、奖励记录和可放大的本地路线图。
  * [POS]: 任务详情呈现边界；写入统一交给应用个人数据队列。
  * 复选框即时反馈；队列结束后以已保存记录校正。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
+import TranslationNotice from '../../shared/ui/TranslationNotice';
 import { useEffect, useRef, useState } from 'react';
 import { BookOpen, Check, MapPin, Repeat2, ZoomIn, X } from 'lucide-react';
 import type { Personal } from '../../shared/contracts/personal';
@@ -49,7 +50,7 @@ export default function QuestArticle({ quest, quests, personal, mode, pending, o
   const next = quests.filter(q => q.recommendedAfter.includes(quest.id)).slice(0, 6);
   const related = quest.links.filter(link=>link.questId).map(link=>quests.find(q=>q.id===link.questId)).filter((q):q is QuestGuide=>!!q);
   return <article className="quest-article" aria-labelledby="quest-title">
-    <header className="quest-title"><div><span className="eyebrow">{t('每一步，都有方向')}</span><h2 id="quest-title">{profession && <img src={profession.icon} alt={profession.name}/>} {quest.name}</h2>{locale === 'zh-CN' && <p lang="en">{quest.englishName}</p>}</div><BookOpen size={30} strokeWidth={1}/></header>
+    <header className="quest-title"><div><span className="eyebrow">{t('每一步，都有方向')}</span><h2 id="quest-title">{profession && <img src={profession.icon} alt={profession.name}/>} {quest.name}</h2>{locale === 'zh-TW' && <p lang="en">{quest.englishName}</p>}</div><BookOpen size={30} strokeWidth={1}/></header>
     <div className="quest-meta"><span>{mode === 'hard' ? t('困难模式') : t('普通模式')}</span>{quest.region && <span><MapPin size={12}/>{quest.region}</span>}{quest.repeatable && <span><Repeat2 size={12}/>{t('可重复')}</span>}</div>
     {(quest.givenBy || quest.givenAt) && <dl className="quest-giver"><div><dt>{t('领取地点')}</dt><dd>{quest.givenAt || '—'}</dd></div><div><dt>{t('领取 NPC')}</dt><dd>{quest.givenBy || '—'}</dd></div></dl>}
     <section className="quest-tracking" aria-label={t('角色任务记录')}>
@@ -60,8 +61,8 @@ export default function QuestArticle({ quest, quests, personal, mode, pending, o
       {onPeriodProgress&&<><button className="quiet quest-period" disabled={pending} onClick={onPeriodProgress}>{periodDone?t('本轮已完成 · 撤销'):t('标记本轮已完成')}</button><p className="muted">{t('本轮悬赏记录与任务通关记录分别保存，重置后可再次记录。')}</p></>}{quest.activityId && <button className="quiet" onClick={openCalendar}>{t('查看悬赏日历与本期记录')}</button>}
     </section>
     <details className="quest-access"><summary>{t('前置任务与领取条件')}</summary><QuestRequirements requirement={quest.requirement} personal={personal} quests={quests} openQuest={openQuest} setCondition={onCondition} disabled={pending || !hasCharacter}/>{quest.allowedOrigins&&<p>{t('起始章节限制')} · {quest.allowedOrigins.map(id=>[t('预言'),t('盟与敌'),t('黑暗逆袭')][id-1]).join(' / ')}</p>}{profession && <p>{t('职业')} · {profession.name}</p>}<p className="muted">{t('条件由你确认；此应用不读取游戏中的任务日志。')}</p></details>
-    <div className="quest-reading-controls"><span>{t('任务流程与攻略')}</span>{locale === 'zh-CN' && <button className="quiet" aria-pressed={original} onClick={() => setOriginal(!original)}>{original ? t('阅读中文攻略') : t('阅读英文原文')}</button>}</div>
-    {locale === 'zh-CN' && !original && <p className="quest-translation-note">{t('中文攻略含机器辅助译文，尚待逐条校订；可切换英文原文核对。')}</p>}
+    <div className="quest-reading-controls"><span>{t('任务流程与攻略')}</span>{locale === 'zh-TW' && <button className="quiet" aria-pressed={original} onClick={() => setOriginal(!original)}>{original ? t('阅读中文攻略') : t('阅读英文原文')}</button>}</div>
+    {locale === 'zh-TW' && !original && <TranslationNotice value={quest}/>}
     {quest.guideQuality!=='detailed'&&<p className="quest-source-note">{quest.guideQuality==='target-notes'?t('Wiki 未单列此悬赏的详细攻略；下方补充目标区域的路线与注意事项。'):t('Wiki 未单列详细攻略；下方保留任务目标、NPC 操作指示和已知注意事项。')}</p>}
     <div className="quest-guide-body" lang={original ? 'en' : locale}>
       {article.sections.map(section => <section key={section.id} className={`quest-guide-section ${section.id.startsWith('notes') ? 'quest-notes' : ''}`}>

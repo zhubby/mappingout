@@ -1,9 +1,10 @@
 /**
- * [INPUT]: 依赖技能版本、匹配效果、等级上下文与已验证资料链接。
+ * [INPUT]: 依赖技能版本、匹配效果、等级上下文与翻译来源说明。
  * [OUTPUT]: 展示匹配版本的说明、成长、对照与获取来源。
  * [POS]: 技能百科只读文章；任务跳转清除旧难度筛选。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
+import TranslationNotice from '../../shared/ui/TranslationNotice';
 import {useState} from 'react';
 import {BookOpen,ExternalLink,MapPin,Copy} from 'lucide-react';
 import {t,useLocale} from '../../i18n';
@@ -45,9 +46,9 @@ export default function SkillDetails({skill,data,catalog,levels,match,params,pat
  const copy=async()=>{try{const url=new URL(location.href);url.searchParams.set('skill',skill.id);url.searchParams.set('sVersion',variant.id);await navigator.clipboard.writeText(url.href);setCopied(t('链接已复制'));}catch{setCopied(t('复制失败，请复制地址栏链接。'));}};
  const open=(id:string)=>patch({...Object.fromEntries(skillParamKeys.filter(key=>!['sRank','sRanks','sAttributes'].includes(key)).map(key=>[key,''])),skill:id});
  return <article className="skill-article" aria-labelledby="skill-title">
-  <header className="skill-title"><img className="skill-portrait" src={skillAsset(variant.image)} alt={skill.name} width="72" height="72"/><div><span className="eyebrow">{t('技能百科')}</span><h2 id="skill-title">{skill.name}</h2>{locale==='zh-CN'&&<p lang="en">{skill.englishName}</p>}<div className="skill-byline">{profession&&<img src={profession.icon} alt=""/>}<span>{profession?.name||t('通用技能')} · {variant.attribute}</span></div></div></header>
+  <header className="skill-title"><img className="skill-portrait" src={skillAsset(variant.image)} alt={skill.name} width="72" height="72"/><div><span className="eyebrow">{t('技能百科')}</span><h2 id="skill-title">{skill.name}</h2>{locale==='zh-TW'&&<p lang="en">{skill.englishName}</p>}<div className="skill-byline">{profession&&<img src={profession.icon} alt=""/>}<span>{profession?.name||t('通用技能')} · {variant.attribute}</span></div></div></header>
   <div className="skill-detail-controls">{skill.variants.length>1&&<><Select aria-label={t('显示版本')} value={variant.id} options={match.variants.map(v=>({value:v.id,label:modeLabel(v)}))} onValueChange={sVersion=>patch({sVersion})}/><label><input type="checkbox" checked={compare} onChange={e=>patch({sCompare:e.target.checked?'yes':''})}/>{t('对照 PvE／PvP')}</label></>}<button className="quiet" title={t('复制技能链接')} onClick={copy}><Copy size={14}/>{t('复制技能链接')}</button>{copied&&<span role="status">{copied}</span>}</div>
-  {locale==='zh-CN'&&<div className="skill-reading"><button className="quiet" aria-pressed={original} onClick={()=>setOriginal(!original)}>{original?t('阅读中文技能说明'):t('阅读英文技能原文')}</button>{!original&&<p>{t('中文技能含机器辅助译文，尚待逐条校订。')}</p>}</div>}
+  {locale==='zh-TW'&&<div className="skill-reading"><button className="quiet" aria-pressed={original} onClick={()=>setOriginal(!original)}>{original?t('阅读中文技能说明'):t('阅读英文技能原文')}</button>{!original&&<TranslationNotice value={skill}/>}</div>}
   <div className={`skill-versions${compare?' compare':''}`}>{versions.map(v=><Version key={v.id} variant={v} levels={levels} data={data} matched={(match.effects[v.id]||[]).map(e=>e.id)} original={original}/>)}</div>
   {!!content.acquisition.length&&<section className="skill-acquisition"><h3><BookOpen size={15}/>{t('获取技能')}</h3>{content.acquisition.map((source,index)=><div key={index}><p>{source.text}</p><div className="skill-acquisition-links">{source.questId&&<button className="quiet" onClick={()=>patch({view:'quests',quest:source.questId!,qChapter:'all',qMode:'',qKind:'',qRegion:'',qStatus:'',qq:''})}><BookOpen size={12}/>{t('任务攻略')}</button>}{source.zoneIds?.map(id=>{const zone=catalog.records.find(r=>r.id===id);return zone&&<button key={id} className="quiet" onClick={()=>navigateZone(id)}><MapPin size={12}/>{zone.name}</button>;})}<a href={(source.reference||variant.reference).revisionUrl} target="_blank" rel="noreferrer"><ExternalLink size={11}/>{t('获取方式')}</a></div></div>)}</section>}
   {!!content.notes.length&&<details className="skill-notes"><summary>{t('注意事项')}</summary>{content.notes.map((text,index)=><p key={index}>{text}</p>)}</details>}

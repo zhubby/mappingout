@@ -17,6 +17,17 @@ function variant(id:string,energy:number|null,recharge:number|null,effects:Skill
 function catalog(variants:SkillVariant[]):SkillCatalog{return {version:1,referenceVersion:'test',skills:[{id:'skill:1',name:'治疗纹章',englishName:'Healing Signet',legacyEntryIds:[],variants}],resourceIcons:[],tracks:[],coverage:{discovered:1,included:1,variants:variants.length,excluded:0,dynamicEffects:0}};}
 const options={levels:{attribute:12,titles:{}}};
 describe('skill query language',()=>{
+ it('accepts Traditional and historical numeric point units equally',()=>{
+  const data=catalog([variant('pve',5,10,[])]);
+  expect(searchSkills(data,'能量>=5點',options)).toEqual(searchSkills(data,'能量>=5点',options));
+ });
+ it('accepts Traditional Chinese fields, professions, effects and legacy aliases',()=>{
+  const v={...variant('pve',5,10,[effect('hit',{'12':30})]),profession:10,attribute:'Scythe Mastery',campaigns:[4],type:'Enchantment spell',tags:['Knockdown']};
+  const data=catalog([v]);
+  for(const query of ['職業:神喚使 屬性:鐮刀精通 章節:極地之眼 傷害>=20','職業:神唤 属性:镰刀精通 章节:北方之眼 伤害>=20','類型:加持魔法 標籤:擊倒 能量<=5']){
+   expect(searchSkills(data,query,options)).toHaveLength(1);
+  }
+ });
  it('reuses facets for stable skill data and rebuilds them when the catalog changes',()=>{
   const data=catalog([variant('pve',5,10,[])]);
   const first=skillFacets(data);

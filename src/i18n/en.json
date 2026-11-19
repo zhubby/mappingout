@@ -720,5 +720,14 @@
   "立即更新会先保存个人记录和备份，再自动安装并重新打开应用。": "Updating now saves your records and a backup, then installs the update and reopens the app.",
   "立即重启更新": "Restart and update now",
   "下次打开时更新": "Update next time I open the app",
-  "启动时自动检查并下载新版本，完成后由你选择更新时间。": "New versions are checked and downloaded at startup. You choose when to install them."
+  "启动时自动检查并下载新版本，完成后由你选择更新时间。": "New versions are checked and downloaded at startup. You choose when to install them.",
+  "译名有中文 Wiki 佐证；正文不代表已获中文来源核对。": "The name is supported by a Chinese Wiki; this does not verify the translated body.",
+  "译名暂无中文 Wiki 佐证，采用英文重译或编辑用词。": "The name uses an English translation or editorial label without Chinese Wiki corroboration.",
+  "繁体正文含机器辅助译文，尚待逐条校订；请对照英文原文。": "The Traditional Chinese body includes machine-assisted drafts pending review. Compare the English original.",
+  "部分英文内容仍待固定 Wiki 来源核实。": "Some English content still needs verification against pinned Wiki sources.",
+  "Healing Signet · 职业:战士 治疗>=150": "Healing Signet · profession:warrior healing>=150",
+  "职业:战士 治疗>=150": "profession:warrior healing>=150",
+  "版本:PvP 能量<=5 冷却<=10": "mode:pvp energy<=5 recharge<=10",
+  "效果:(指标:伤害 数值>=50 数值<=80)": "effect:(metric:damage value>=50 value<=80)",
+  "(标签:打断 OR 标签:击倒) NOT 精英:是": "(tag:interrupt OR tag:knockdown) NOT elite:yes"
 }

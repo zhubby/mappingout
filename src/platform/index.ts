@@ -12,7 +12,7 @@ export const isDesktop = import.meta.env.MODE === 'desktop';
 export async function syncDesktopLocale() {
   if(!isDesktop)return;
   const { getCurrentWindow } = await import('@tauri-apps/api/window');
-  await getCurrentWindow().setTitle(getLocale()==='en'?'MappingOut — Tyria Explorer':'MappingOut · 泰瑞亚探索志');
+  await getCurrentWindow().setTitle(getLocale()==='en'?'MappingOut — Tyria Explorer':'MappingOut · 泰瑞亞探索誌');
 }
 export interface LocalBackup { name: string; bytes: number; modified: number; kind: 'auto' | 'restore' }
 export interface DesktopInfo { version: string; backupDirectory: string; updateConfigured: boolean }

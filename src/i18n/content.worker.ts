@@ -97,7 +97,7 @@ export async function readTextResource(
 }
 
 async function fetchAndVerify(dataset:Dataset,baseUrl:string,report:ProgressReporter,fetcher:Fetcher):Promise<ContentWorkerBundle<unknown>> {
-  const paths=[`${dataset}.json`,`i18n/zh-CN/${dataset}.json`,`i18n/en/${dataset}.json`];
+  const paths=[`${dataset}.json`,`i18n/zh-TW/${dataset}.json`,`i18n/en/${dataset}.json`];
   const texts=await Promise.all(paths.map(async(path,index)=>{
     const result=await readTextResource(`${baseUrl}data/${path}`,value=>report({
       phase:'fetching',resource:path,resourceIndex:index+1,resourceCount:paths.length,
@@ -110,12 +110,12 @@ async function fetchAndVerify(dataset:Dataset,baseUrl:string,report:ProgressRepo
   const [raw,zh,en]=texts;
   const hash=await sha256Hex(raw);
   const packs={
-    'zh-CN':JSON.parse(zh) as LanguagePack,
+    'zh-TW':JSON.parse(zh) as LanguagePack,
     en:JSON.parse(en) as LanguagePack,
   };
   for(const [locale,pack]of Object.entries(packs))if(pack.version!==1||pack.dataset!==dataset||pack.locale!==locale||pack.sourceHash!==hash)throw Error(`Stale ${locale} content pack: ${dataset}`);
   const englishHash=await sha256Hex(JSON.stringify(packs.en.fields));
-  if(packs.en.englishHash!==englishHash||packs['zh-CN'].englishHash!==englishHash||!packs.en.baselineHash||packs['zh-CN'].baselineHash!==packs.en.baselineHash)throw Error(`Stale English translation baseline: ${dataset}`);
+  if(packs.en.englishHash!==englishHash||packs['zh-TW'].englishHash!==englishHash||!packs.en.baselineHash||packs['zh-TW'].baselineHash!==packs.en.baselineHash)throw Error(`Stale English translation baseline: ${dataset}`);
   const original=JSON.parse(raw);
   for(const field of contentFields(original,dataset))for(const [locale,pack]of Object.entries(packs))if(!pack.fields[field.key]?.trim())throw Error(`Missing ${locale} translation: ${field.key}`);
   return {original,packs};

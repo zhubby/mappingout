@@ -89,10 +89,10 @@ export function distributionTests() {
 
   test('worker activation cleans old release caches and preserves local characters', async ({ page }) => {
     await page.goto('/');
-    await page.getByRole('button', { name: '创建探索者', exact: true }).click();
-    await page.getByRole('textbox', { name: '角色名' }).fill('发布后仍保留的角色');
-    await page.getByRole('button', { name: '创建探索者', exact: true }).last().click();
-    await page.getByRole('button', { name: '关闭弹窗' }).click();
+    await page.getByRole('button', { name: '建立探索者', exact: true }).click();
+    await page.getByRole('textbox', { name: '角色名' }).fill('釋出後仍保留的角色');
+    await page.getByRole('button', { name: '建立探索者', exact: true }).last().click();
+    await page.getByRole('button', { name: '關閉彈窗' }).click();
     const result = await page.evaluate(async () => {
       async function activated(worker: ServiceWorker) {
         if (worker.state === 'activated') return;
@@ -118,6 +118,6 @@ export function distributionTests() {
     expect(result.after).toContain('unrelated-app');
     expect(result.script).toContain('?upgrade-verification');
     await page.reload();
-    await expect(page.locator('.character-summary')).toContainText('发布后仍保留的角色');
+    await expect(page.locator('.character-summary')).toContainText('釋出後仍保留的角色');
   });
 }

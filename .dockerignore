@@ -9,6 +9,10 @@
 !vite.config.ts
 !src/
 !src/**
+!desktop/
+!desktop/icons/
+!desktop/icons/icon-source.svg
+!desktop/icons/icon.ico
 !public/
 !public/**
 !data/

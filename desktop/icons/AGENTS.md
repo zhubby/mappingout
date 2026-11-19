@@ -10,8 +10,8 @@
 64x64.png: 应用图标源与安装包图形。
 icon-master.png: 应用图标源与安装包图形。
 icon-size-preview.png: 应用图标源与安装包图形。
-icon-source.svg: 应用图标源与安装包图形。
+icon-source.svg: 桌面图标源；Web favicon 由 Vite 输出哈希资源。
 icon.icns: 应用图标源与安装包图形。
-icon.ico: 应用图标源与安装包图形。
+icon.ico: Windows 安装图标与 Web favicon 兼容格式。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

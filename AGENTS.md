@@ -17,6 +17,7 @@ docs/ - guides 现行指南、releases 说明、verification 验收与 images �
 
 <config>
 package.json - Node.js >=24；前端开发、测试和桌面构建入口。
+index.html - Web 与桌面共用入口；页面元数据和网站图标声明。
 Dockerfile - Node.js 24 构建；Nginx 提供 amd64 与 arm64 静态站点。
 compose.yaml - GHCR 镜像、端口、只读文件系统与健康检查。
 playwright.container.config.ts - 最终容器镜像的浏览器分发验收。

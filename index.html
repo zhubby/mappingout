@@ -1,1 +1,22 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#111916"/><meta name="description" content="激战地图与资料探索工具：技能、Boss、绿装、收藏家、宠物与宝藏。"/><title>MappingOut · 泰瑞亚探索志</title></head><body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body></html>
+<!doctype html>
+<!--
+[INPUT]: 依赖 src/main.tsx 与 desktop/icons 共用图标。
+[OUTPUT]: 提供页面元数据、favicon 与 React 挂载节点。
+[POS]: Web 和桌面共用的 Vite HTML 入口。
+[PROTOCOL]: Update this header on change, then check AGENTS.md
+-->
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="theme-color" content="#111916"/>
+    <meta name="description" content="激战地图与资料探索工具：技能、Boss、绿装、收藏家、宠物与宝藏。"/>
+    <link rel="icon" href="/desktop/icons/icon.ico" sizes="16x16 24x24 32x32 48x48 64x64 128x128 256x256"/>
+    <link rel="icon" href="/desktop/icons/icon-source.svg" type="image/svg+xml" sizes="any"/>
+    <title>MappingOut · 泰瑞亚探索志</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

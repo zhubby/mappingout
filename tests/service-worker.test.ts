@@ -109,7 +109,7 @@ describe('offline shell and cache failures',()=>{
     expect(w.network.mock.calls.map(([request])=>request.url)).toEqual([w.base+'data/quests.json',w.base+'build/QuestGuides-abc.js']);
     expect(w.stored.has(w.base+'data/quests.json')).toBe(true);
     expect(w.stored.has(w.base+'build/QuestGuides-abc.js')).toBe(true);
-    await w.cacheVisited(['../outside.json','/data/armor.json','https://other.test/data/armor.json','//other.test/data/armor.json','data/../armor.json','data/%2e%2e/armor.json','data/armor.json?download=1','data/armor.json#fragment','data/unknown.json','assets/maps/1-1.jpg']);
+    await w.cacheVisited(['../outside.json','/data/armor.json','https://other.test/data/armor.json','//other.test/data/armor.json','data/../armor.json','data/%2e%2e/armor.json','data/armor.json?download=1','data/armor.json#fragment','data/unknown.json','assets/maps/1-1.jpg','data/i18n/zh-CN/catalog.json']);
     expect(w.network).toHaveBeenCalledTimes(2);
   });
   it('deduplicates concurrent visited requests and tolerates network or cache failures',async()=>{

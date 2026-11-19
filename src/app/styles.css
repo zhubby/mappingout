@@ -1,5 +1,5 @@
 /*
- * [INPUT]: 依赖应用布局、主题和共用 Select 触发器。
+ * [INPUT]: 依赖应用布局、主题、翻译说明和共用 Select 触发器。
  * [OUTPUT]: 提供视口内应用框架、地图、详情和双语布局。
  * [POS]: 界面基础样式；菜单浮层由 select.css 定义。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -12,6 +12,10 @@
 .wiki-source small { flex-basis: 100%; color: #9b9d99; font-size: 11px; }
 .wiki-provenance p, .wiki-disclosure p, .wiki-pending { font-size: 12px; line-height: 1.8; color: #a8aba5; }
 .wiki-pending { margin: 0; padding: 0 24px 16px; }
+.translation-notice { margin: 14px 0; line-height: 1.8; overflow-wrap: anywhere; }
+.translation-notice p { margin: 6px 0; }
+.translation-notice a { display: inline-block; margin-right: 8px; color: #c9b893; text-decoration: underline; text-underline-offset: 3px; }
+.detail-scroll > .translation-notice { margin: 0; padding: 0 24px 16px; }
 .wiki-disclosure summary, .story-guide summary { cursor: pointer; color: #d4bd86; font-size: 13px; }
 .story-guide { border-top: 1px solid #3e433b; padding: 18px 0; }
 .story-guide summary { font-size: 16px; font-weight: 600; }

@@ -269,6 +269,9 @@ impl ResourceManager {
         source: Option<&Path>,
     ) -> Result<()> {
         validate_manifest(&m, &self.config.repository)?;
+        if !super::supports_traditional(&m) {
+            return Err("resources.incomplete".into());
+        }
         for p in &m.packs {
             if self.pack_ready(p) {
                 continue;

@@ -17,15 +17,15 @@ import { makeBackup, parseBackup } from '../src/storage/backup';
 import { formatInstant } from '../src/features/calendar/domain';
 import {validateI18n} from '../scripts/validate/validate-i18n.mjs';
 
-afterEach(()=>{setLocale('zh-CN');vi.unstubAllGlobals();});
+afterEach(()=>{setLocale('zh-TW');vi.unstubAllGlobals();});
 function bundle<T>(original:T,dataset:Dataset):ContentBundle<T>{
  const fields=contentFields(original,dataset);
- const pack=(locale:'zh-CN'|'en')=>({version:1 as const,dataset,locale,sourceHash:'fixture',fields:Object.fromEntries(fields.map(f=>[f.key,locale==='en'?(f.english||'English '+f.key):'中文 '+f.key]))});
- return {original,packs:{'zh-CN':pack('zh-CN'),en:pack('en')}};
+ const pack=(locale:'zh-TW'|'en')=>({version:1 as const,dataset,locale,sourceHash:'fixture',fields:Object.fromEntries(fields.map(f=>[f.key,locale==='en'?(f.english||'English '+f.key):'中文 '+f.key]))});
+ return {original,packs:{'zh-TW':pack('zh-TW'),en:pack('en')}};
 }
 describe('language preference and labels',()=>{
- it('defaults to Simplified Chinese and updates module-level labels immediately',()=>{
-  expect(getLocale()).toBe('zh-CN');expect(kindNames.skill).toBe('技能');
+ it('defaults to Traditional Chinese and updates module-level labels immediately',()=>{
+  expect(getLocale()).toBe('zh-TW');expect(kindNames.skill).toBe('技能');
   setLocale('en');expect(kindNames.skill).toBe('Skills');expect(t('护甲制作')).toBe('Armor crafting');
  });
  it('persists separately from backup data, including restore',()=>{
@@ -40,8 +40,8 @@ describe('language preference and labels',()=>{
   expect(displayMessage('native.backup-too-large')).toBe('Backup exceeds 20 MB.');
  });
  it('translates worker timeouts and HTTP failures in the active locale',()=>{
-  expect(displayMessage('Data read timed out without progress')).toBe('资料读取超时，请检查网络并重试。');
-  expect(displayMessage('Data HTTP 503')).toBe('资料服务器返回 HTTP 503。');
+  expect(displayMessage('Data read timed out without progress')).toBe('資料讀取超時，請檢查網路並重試。');
+  expect(displayMessage('Data HTTP 503')).toBe('資料伺服器返回 HTTP 503。');
   setLocale('en');
   expect(displayMessage('Data resource exceeded five minutes')).toBe('A data resource did not finish loading within five minutes. Retry the request.');
  });
@@ -57,7 +57,7 @@ describe('localized data projections',()=>{
  });
  it('retries failed worker loads and preserves access to source objects',async()=>{
   vi.resetModules();
-  const original={activities:[{id:'a',name:'原文',objective:'原始目标'}]};
+  const original={activities:[{id:'a',name:'原文',objective:'原始目標'}]};
   const localized={activities:[{id:'a',name:'Name',objective:'Objective'}]};
   let attempts=0;
   const requests:{baseUrl:string}[]=[];
@@ -86,7 +86,7 @@ describe('localized data projections',()=>{
   expect(await content.loadContentProjection('calendar','en')).toBe(data);
   expect(attempts).toBe(2);
   expect(dispatchEvent.mock.calls[0][0].type).toBe('mappingout:content-ready');
-  expect(dispatchEvent.mock.calls[0][0].detail.paths).toEqual(['data/calendar.json','data/i18n/zh-CN/calendar.json','data/i18n/en/calendar.json']);
+  expect(dispatchEvent.mock.calls[0][0].detail.paths).toEqual(['data/calendar.json','data/i18n/zh-TW/calendar.json','data/i18n/en/calendar.json']);
  });
  it('reports worker loading, verification and projection phases',async()=>{
   vi.resetModules();
@@ -115,11 +115,23 @@ describe('localized data projections',()=>{
   expect(release.errors).toContain('Font distribution not approved: Friz Quadrata Std');
   expect(release.errors.some((error:string)=>error.includes('still require review'))).toBe(true);
  },20000); // Reads and hashes the complete corpus for normal and release checks.
+ it('retains archived English gaps as unverified and labels them in Traditional Chinese',()=>{
+  const english=JSON.parse(fs.readFileSync('public/data/i18n/en/catalog.json','utf8'));
+  const chinese=JSON.parse(fs.readFileSync('public/data/i18n/zh-TW/catalog.json','utf8'));
+  const gaps=Object.entries(english.fields).filter(([,text])=>(text as string).includes('<unk>'));
+  expect(gaps).toHaveLength(6);
+  for(const [key]of gaps){
+   expect(english.unverifiedFields).toContain(key);
+   expect(chinese.unverifiedFields).toContain(key);
+   expect(chinese.fields[key]).toContain('〔原始資料缺字〕');
+   expect(chinese.fields[key]).not.toContain('<unk>');
+  }
+ });
  it('preserves all shipped coordinates, recipes, progress identities and rotation facts',()=>{
   for(const dataset of ['catalog','armor','calendar','quests','skills'] as const){
    const original=JSON.parse(fs.readFileSync(`public/data/${dataset}.json`,'utf8'));
-   const packs=Object.fromEntries((['zh-CN','en'] as const).map(locale=>[locale,JSON.parse(fs.readFileSync(`public/data/i18n/${locale}/${dataset}.json`,'utf8'))]));
-   for(const locale of ['zh-CN','en'] as const){
+   const packs=Object.fromEntries((['zh-TW','en'] as const).map(locale=>[locale,JSON.parse(fs.readFileSync(`public/data/i18n/${locale}/${dataset}.json`,'utf8'))]));
+   for(const locale of ['zh-TW','en'] as const){
     const localized=projectContent({original,packs} as ContentBundle<typeof original>,locale);
     if(dataset==='catalog'){
      expect(localized.records.map((e:any)=>[e.id,e.campaign,e.profession,e.vanquishable,e.locations.map((p:any)=>[p.id,p.region,p.zone,p.x,p.y,p.valid]),e.wiki])).toEqual(original.records.map((e:any)=>[e.id,e.campaign,e.profession,e.vanquishable,e.locations.map((p:any)=>[p.id,p.region,p.zone,p.x,p.y,p.valid]),e.wiki]));
@@ -142,8 +154,8 @@ describe('localized data projections',()=>{
   }
  },20000);
  it('uses stable entity keys and preserves canonical facts, evidence and originals',()=>{
-  const original={records:[{id:'skill:0:1',name:'劈击',englishName:'Cleave',campaign:0,attribute:'精通斧术',description:'说明',details:['伤害 10…34…40'],locations:[{id:'loc:1',x:10,y:20,valid:true,note:'备注'}],skill:{energy:'5',gameIds:[1],description:'English original'},wiki:{revid:123,url:'https://example.com'},legacy:{name:'旧版'}}]};
-  const input=JSON.stringify(original),content=bundle(original,'catalog'),english=projectContent(content,'en'),chinese=projectContent(content,'zh-CN');
+  const original={records:[{id:'skill:0:1',name:'劈擊',englishName:'Cleave',campaign:0,attribute:'精通斧術',description:'說明',details:['傷害 10…34…40'],locations:[{id:'loc:1',x:10,y:20,valid:true,note:'備註'}],skill:{energy:'5',gameIds:[1],description:'English original'},wiki:{revid:123,url:'https://example.com'},legacy:{name:'舊版'}}]};
+  const input=JSON.stringify(original),content=bundle(original,'catalog'),english=projectContent(content,'en'),chinese=projectContent(content,'zh-TW');
   expect(english.records[0].name).toBe('Cleave');expect(originalOf(english.records[0])).toBe(original.records[0]);
   expect(english.records[0].locations[0]).toMatchObject({id:'loc:1',x:10,y:20,valid:true});
   expect(english.records[0].skill.energy).toBe('5');expect(english.records[0].wiki).toEqual(original.records[0].wiki);
@@ -151,12 +163,12 @@ describe('localized data projections',()=>{
   expect(contentFields(original,'catalog')[0].key).toBe('records/skill:0:1/name');
  });
  it('rejects missing translations instead of showing mixed content',()=>{
-  const content=bundle({activities:[{id:'a',name:'任务',objective:'Defeat a foe'}]},'calendar');
-  delete content.packs['zh-CN'].fields['activities/a/objective'];
-  expect(()=>projectContent(content,'zh-CN')).toThrow('Missing zh-CN translation');
+  const content=bundle({activities:[{id:'a',name:'任務',objective:'Defeat a foe'}]},'calendar');
+  delete content.packs['zh-TW'].fields['activities/a/objective'];
+  expect(()=>projectContent(content,'zh-TW')).toThrow('Missing zh-TW translation');
  });
  it('does not treat unresolved English aliases as confirmed identities',()=>{
-  const fields=contentFields({records:[{id:'boss:unresolved',name:'身份待核实',englishName:'Hundred Blades',wiki:{identityStatus:'unresolved'}}]},'catalog');
+  const fields=contentFields({records:[{id:'boss:unresolved',name:'身份待核實',englishName:'Hundred Blades',wiki:{identityStatus:'unresolved'}}]},'catalog');
   expect(fields[0].english).toBeUndefined();
  });
  it('preserves old attribute links and searches Chinese aliases in the English view',()=>{
@@ -165,5 +177,13 @@ describe('localized data projections',()=>{
   expect(filters.attribute).toBe('axe-mastery');expect(query(data,filters,emptyPersonal()).length).toBeGreaterThan(0);
   const entry={...data.records[0],name:'Cleave',attribute:'Axe Mastery',searchAliases:['劈击','Cleave']};
   expect(query({...data,records:[entry]},{...filters,q:'劈击'},emptyPersonal())[0].id).toBe(entry.id);
+ });
+ it('finds historical Simplified names and their Traditional forms in both views',()=>{
+  const original=JSON.parse(fs.readFileSync('public/data/catalog.json','utf8')) as Catalog;
+  const packs=Object.fromEntries((['zh-TW','en'] as const).map(locale=>[locale,JSON.parse(fs.readFileSync(`public/data/i18n/${locale}/catalog.json`,'utf8'))]));
+  for(const locale of ['zh-TW','en'] as const){
+   const catalog=projectContent({original,packs} as ContentBundle<Catalog>,locale);
+   for(const name of ['毁灭之鎚','毀滅之鎚'])expect(query(catalog,readFilters('?kind=skill&q='+encodeURIComponent(name)),emptyPersonal()).map(entry=>entry.id)).toContain('skill:0:2');
+  }
  });
 });

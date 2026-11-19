@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖双语字段、用户查询及技能版本契约。
+ * [INPUT]: 依赖简繁英查询别名、点数单位及技能版本契约。
  * [OUTPUT]: 提供含科学计数值的查询及版本内效果分项匹配。
  * [POS]: 技能高级检索的纯规则；不执行用户输入或网络请求。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -7,6 +7,7 @@
 import type {LibrarySkill,SkillCatalog,SkillEffect,SkillLevels,SkillSearchOptions,SkillMatch,SkillVariant} from '../../shared/contracts/skills';
 import {attributeId} from '../../i18n/attributes';
 import {originalOf} from '../../i18n/content';
+import traditional from '../../i18n/query-aliases.json';
 type Truth=boolean|null;
 type Node={kind:'all'}|{kind:'term';field:string;op:string;value:string}|{kind:'not';child:Node}|{kind:'effect';child:Node}|{kind:'and';left:Node;right:Node}|{kind:'or';left:Node;right:Node};
 type Token={text:string;position:number;quoted?:boolean};
@@ -20,7 +21,12 @@ const aliases:Record<string,string>={打断:'interrupt',移除加持:'enchantmen
 const canonical=(value:string)=>aliases[value]||normalizeSkillText(value).replace(/ spell(?= removal)/g,'').replace(/[ _]+/g,'-');
 const skillTypes:Record<string,string>={纹章:'signet',咒文魔法:'spell',加持魔法:'enchantment spell',闪现加持魔法:'flash enchantment spell',降咒魔法:'hex spell',武装魔法:'weapon spell',物品魔法:'item spell',缚灵仪式:'binding ritual',自然仪式:'nature ritual',态势:'stance',战嚎:'shout',圣歌:'chant',回响:'echo',准备技能:'preparation',陷阱:'trap',符号:'glyph',技能:'skill',触碰技能:'touch skill',引导攻击:'lead attack',副手攻击:'off-hand attack',双重攻击:'dual attack',宠物攻击:'pet attack'};
 const professions=[['none','通用'],['warrior','战士'],['ranger','游侠'],['monk','僧侣'],['necromancer','死灵','死灵法师'],['mesmer','幻术','幻术师'],['elementalist','元素','元素使'],['assassin','刺客'],['ritualist','祭祀'],['paragon','圣言者'],['dervish','神唤']];
-const campaigns=[['core','核心','通用'],['prophecies','预言'],['factions','盟与敌'],['nightfall','黑暗逆袭'],['eye of the north','北方之眼','eotn']];
+const campaigns=[['core','核心','通用'],['prophecies','预言','預言','阿斯卡隆戰記'],['factions','盟与敌','盟與敵'],['nightfall','黑暗逆袭','黑暗逆襲'],['eye of the north','北方之眼','極地之眼','eotn']];
+Object.assign(fields,traditional.fields);
+Object.assign(fields,{類型:'type',屬性:'attribute',標籤:'tag',傷害:'damage'});
+Object.assign(aliases,traditional.aliases);
+Object.assign(skillTypes,traditional.skillTypes);
+[['通用'],['戰士'],['遊俠'],['僧侶'],['死靈','死靈法師'],['幻術','幻術師'],['元素使'],['暗殺','暗殺者'],['祭祀者'],['聖言者'],['神喚','神喚使']].forEach((names,index)=>professions[index].push(...names));
 function lex(text:string):Token[]{
  const output:Token[]=[];let i=0;
  while(i<text.length){
@@ -55,7 +61,7 @@ export function parseSkillQuery(source:string):Node {
    p++;
    if(field==='effect'&&op===':'&&is('(')){p++;const child=or();if(!is(')'))fail('Expected )');p++;return {kind:'effect',child};}
    const value=tokens[p++];if(!value||!value.quoted&&['(',')','AND','OR','NOT'].includes(value.text.toUpperCase()))return fail('Expected a field value');
-   if((numeric.has(field)||metrics.has(field))&&(!/^[-+]?\d+(?:\.\d+)?(?:e[-+]?\d+)?(?:s|ms|%|秒|点|格)?$/i.test(value.text)||!Number.isFinite(parseFloat(value.text))))throw new SkillQueryError('Expected a numeric value',value.position);
+   if((numeric.has(field)||metrics.has(field))&&(!/^[-+]?\d+(?:\.\d+)?(?:e[-+]?\d+)?(?:s|ms|%|秒|点|點|格)?$/i.test(value.text)||!Number.isFinite(parseFloat(value.text))))throw new SkillQueryError('Expected a numeric value',value.position);
    const term:Node={kind:'term',field,op,value:value.text};
    return metrics.has(field)?{kind:'effect',child:{kind:'and',left:{kind:'term',field:'metric',op:':',value:field},right:{...term,field:'value'}}}:term;
   }

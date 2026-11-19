@@ -38,7 +38,7 @@ export default function ResourceGate(){
   if(ready)return <App/>;
   return <main className="resource-gate"><section><span className="eyebrow">MAPPINGOUT</span><h1>{t('准备离线资料')}</h1>
     <p>{t('首次使用需要准备地图、资料和字体。完成后即可离线使用。')}</p>
-    <Select aria-label="Language / 语言" value={locale} onValueChange={value=>setLocale(value as 'en'|'zh-CN')} options={[{value:'zh-CN',label:'简体中文'},{value:'en',label:'English'}]}/>
+    <Select aria-label="Language / 語言" value={locale} onValueChange={value=>setLocale(value as 'en'|'zh-TW')} options={[{value:'zh-TW',label:'繁體中文'},{value:'en',label:'English'}]}/>
     <p role="status">{error?resourceMessage(error):resourceMessage(status?.phase||'checking')}</p>
     {status?.total? <><progress max={status.total} value={status.completed}/><p>{Math.round(status.completed/1024/1024)} / {Math.round(status.total/1024/1024)} MiB</p></>:null}
     <div className="desktop-actions">{busy?<button onClick={()=>void cancelResources()}>{t('取消下载')}</button>:<><button className="primary" onClick={()=>void run()}>{t('重试下载')}</button><button onClick={()=>void run(true)}>{t('导入离线资源')}</button></>}</div>

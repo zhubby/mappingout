@@ -95,7 +95,7 @@ describe('backup and IndexedDB',()=>{
     expect((await personalStore.load()).progress[0].characterId).toBe('a');
     await personalStore.update(s=>deleteCharacter(s,'a'));
     const before=await personalStore.load();
-    await expect(personalStore.update(s=>setProgress(s,'skill:0:2','a',true))).rejects.toThrow('删除');
+    await expect(personalStore.update(s=>setProgress(s,'skill:0:2','a',true))).rejects.toThrow('刪除');
     expect(await personalStore.load()).toEqual(before);
   });
   it('does not undo progress when two pages set the same completed status',async()=>{

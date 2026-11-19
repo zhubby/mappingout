@@ -141,13 +141,13 @@ pub(crate) async fn save_backup(
             .set_title(if english {
                 "Export personal data"
             } else {
-                "导出个人数据"
+                "匯出個人資料"
             })
             .add_filter(
                 if english {
                     "MappingOut backup"
                 } else {
-                    "MappingOut 备份"
+                    "MappingOut 備份"
                 },
                 &["json"],
             )
@@ -180,13 +180,13 @@ pub(crate) async fn pick_backup(
             .set_title(if english {
                 "Restore from backup"
             } else {
-                "从备份恢复"
+                "從備份還原"
             })
             .add_filter(
                 if english {
                     "MappingOut backup"
                 } else {
-                    "MappingOut 备份"
+                    "MappingOut 備份"
                 },
                 &["json"],
             )

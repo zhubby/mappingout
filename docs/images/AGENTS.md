@@ -27,6 +27,7 @@ readme-skills.png: 英文 README 的技能检索与 PvE/PvP 对照。
 skills-desktop.png: 桌面技能检索、原始资源图标与版本对照。
 skills-filters.png: 职业多选、分面、资源范围和等级面板。
 skills-mobile.png: 手机技能目录收起后的详情和成长效果。
+traditional-query.png: 1.4.0 繁体称号查询、點单位与查询语法回归。
 zima-1.3.2-map.jpg: ZimaBoard2 上 1.3.2 新版地图与技能地点定位。
 zima-1.3.2-offline-http.jpg: ZimaBoard2 局域网 HTTP 下的离线准备限制。
 

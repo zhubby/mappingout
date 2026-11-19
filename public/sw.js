@@ -113,7 +113,7 @@ async function prepareOffline(port, controller) {
 async function cacheVisited(paths) {
   if (!Array.isArray(paths) || paths.length > 100) return;
   const valid = [...new Set(paths.filter(path => typeof path === 'string'
-    && (/^data\/(?:i18n\/(?:zh-CN|en)\/)?(?:catalog|armor|calendar|quests|skills)\.json$/.test(path)
+    && (/^data\/(?:i18n\/(?:zh-TW|en)\/)?(?:catalog|armor|calendar|quests|skills)\.json$/.test(path)
       || /^build\/[A-Za-z0-9_.-]+\.(?:js|css)$/.test(path))))];
   let cache;
   try { cache = await caches.open(CACHE); }

@@ -1,12 +1,12 @@
 {
-  "version": "1.3.2",
-  "reason": "The user explicitly requested merging, pushing, a new release and ZimaBoard testing on 2026-11-19. Re-evaluation confirms that content datasets, baselines, review records and font inputs are unchanged; the input fingerprint changes only for new bilingual performance and offline-preparation UI strings. The same five eligible editorial/licensing findings remain and are disclosed in the 1.3.2 release notes and progress update. This version-specific exception does not approve translations, claim a font license or waive integrity checks.",
-  "fingerprint": "1055a01c4a3211c7b1c2c7a90379607a05d1da5dc2a04bcf16c58441d04dc3ae",
+  "version": "1.4.0",
+  "reason": "The user explicitly requested all review fixes, a new version and ZimaBoard deployment on 2026-11-19. Re-evaluation covers the new Traditional Chinese corpus, pinned Chinese terminology and updated UI. The five recorded editorial/licensing findings remain disclosed in the release notes. All Traditional fields remain pending human review and Friz distribution remains unapproved. This exception is limited to 1.4.0 and this fingerprint; it does not waive integrity or source binding checks.",
+  "fingerprint": "6b92b4f229b71f697f0d8d7c32efff8044c442326819fcaae4301f0a5ea85561",
   "acceptedFindings": [
-    "131779 Chinese fields still require review against English Wiki",
-    "14086 Chinese fields still contain untranslated Latin words",
-    "1988 translated fields require numeric/token review",
+    "11214 Chinese fields still contain untranslated Latin words",
+    "133802 Chinese fields still require review against English Wiki",
     "2026 English fields still require Wiki source verification",
+    "373 translated fields require numeric/token review",
     "Font distribution not approved: Friz Quadrata Std"
   ]
 }

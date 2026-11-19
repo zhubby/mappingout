@@ -2,6 +2,6 @@
   "schema": 1,
   "repository": "zhubby/mappingout",
   "channelUrl": "https://github.com/zhubby/mappingout/releases/download/resources-channel-v1/channel.json",
-  "clientRange": ">=1.2.0, <2.0.0",
+  "clientRange": ">=1.4.0, <2.0.0",
   "publicKey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDRDMkJDOUZDQjg0QTAzQzIKUldUQ0EwcTQvTWtyVE5CNVp3elhGblYyUDBHbWVvSC8wa01xZFBrR0xWcnZEbnBpOHBWUEFPMzgK"
 }

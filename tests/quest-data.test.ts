@@ -19,7 +19,7 @@ describe('pinned quest evidence',()=>{
     const winds=data.quests.filter(q=>q.chapter==='winds'&&q.kind==='main');
     expect(winds.filter(q=>q.mode==='normal')).toHaveLength(35);
     expect(winds.filter(q=>q.mode==='hard')).toHaveLength(35);
-  });
+  },20000); // 全量来源与图片哈希校验使用独立等待上限。
   it('preserves access conditions while expressing parallel campaign branches',()=>{
     const trials=leaves(quest('Augury Rock').requirement).filter(r=>r.op==='quest');
     expect(trials.map(r=>r.questId)).toEqual(['Dunes of Despair','Thirsty River','Elona Reach'].map(t=>quest(t).id));

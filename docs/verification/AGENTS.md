@@ -13,5 +13,6 @@ desktop-verification.md: 1.0.0 历史桌面验收。
 project-structure-verification.md: 本次目录迁移的测试结果与验证边界。
 performance-optimization.md: 首次加载、内容 Worker、渐进缓存与全量离线验收。
 translation-accuracy-audit.md: 翻译准确性复核和未完成范围。
+traditional-chinese.md: 繁体迁移、审查修复、中文证据、资源兼容与发布部署验收。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

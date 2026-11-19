@@ -44,7 +44,7 @@ export function auditContent(root=projectRoot){
   for(const dataset of datasets){
     const bytes=fs.readFileSync(at(`public/data/${dataset}.json`)),data=JSON.parse(bytes);
     const existing=locale=>fs.existsSync(at(`public/data/i18n/${locale}/${dataset}.json`))?read(`public/data/i18n/${locale}/${dataset}.json`).fields:{};
-    const en=existing('en'),zh=existing('zh-CN');
+    const en=existing('en'),zh=existing('zh-TW');
     const baseline={version:2,dataset,sourceHash:sha256(bytes),fields:{}};
     for(const field of contentFields(data,dataset)){
       report.stats.fields++;

@@ -114,7 +114,7 @@ describe('localized data projections',()=>{
   const release=validateI18n(undefined,true);
   expect(release.errors).toContain('Font distribution not approved: Friz Quadrata Std');
   expect(release.errors.some((error:string)=>error.includes('still require review'))).toBe(true);
- },20000); // Reads and hashes the complete corpus for normal and release checks.
+ },60000); // 两次全语料读取和哈希保留共享 CI runner 的执行余量。
  it('retains archived English gaps as unverified and labels them in Traditional Chinese',()=>{
   const english=JSON.parse(fs.readFileSync('public/data/i18n/en/catalog.json','utf8'));
   const chinese=JSON.parse(fs.readFileSync('public/data/i18n/zh-TW/catalog.json','utf8'));

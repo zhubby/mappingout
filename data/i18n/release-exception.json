@@ -1,6 +1,6 @@
 {
-  "version": "1.4.1",
-  "reason": "The user explicitly requested merging to main, publishing a new version and deploying to ZimaBoard on 2026-11-20. Re-evaluation covers the new loading UI strings; game data, translations, review records and font inputs are unchanged from 1.4.0. The strict audit reports the same five editorial/licensing findings, disclosed in the release notes. Traditional fields remain pending human review and Friz distribution remains unapproved. This exception is limited to 1.4.1 and this fingerprint; it does not waive integrity or source binding checks.",
+  "version": "1.4.2",
+  "reason": "The user explicitly requested merging to main, publishing a new version and deploying to ZimaBoard on 2026-11-20. Re-evaluation covers the new loading UI strings; game data, translations, review records and font inputs are unchanged from 1.4.0. The unpublished 1.4.1 candidate exposed an insufficient corpus-test time budget on shared CI runners; 1.4.2 increases only that test timeout and keeps every assertion. The strict audit reports the same five editorial/licensing findings, disclosed in the release notes. Traditional fields remain pending human review and Friz distribution remains unapproved. This exception is limited to 1.4.2 and this fingerprint; it does not waive integrity or source binding checks.",
   "fingerprint": "bc0a866c2357c44c950230c4710d0350da33e422df6a717d990642b32ce3c885",
   "acceptedFindings": [
     "11214 Chinese fields still contain untranslated Latin words",

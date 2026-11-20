@@ -3,7 +3,7 @@
 
 auto-backup.test.ts: 快照合并、失败重试和卸载取消。
 browser-crypto.test.ts: 原生与 HTTP SHA-256 一致性、安全随机 UUID 格式。
-content-accuracy.test.ts: Wiki 校订字段、worker 哈希校验、资源超时与来源一致性。
+content-accuracy.test.ts: Wiki 事实、worker 校验、并行下载聚合、压缩长度与资源超时。
 container-release.test.ts: 容器事件分流、OCI 索引 HTTP 协议、公开拉取门禁与单调频道聚合。
 data.test.ts: 资料转换、引用与地图输入校验。
 deployment.test.ts: 构建输入、入口与图标预缓存、全量离线清单和部署规则。

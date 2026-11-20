@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖固定 Wiki 事实、双语资料和翻译审校规则。
- * [OUTPUT]: 验证英文来源、数值签名、worker 哈希、字段与资源超时。
+ * [OUTPUT]: 验证事实、数值、worker 校验、聚合进度与资源超时。
  * [POS]: 资料准确性回归；防止译文覆盖事实或沿用失效审校。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -79,9 +79,54 @@ describe('content worker',()=>{
     const fetcher=vi.fn(async(url:string)=>({ok:true,status:200,headers:{get:()=>null},body:null,text:async()=>data.get(url)!}));
     const {handleContentRequest}=await import('../src/i18n/content.worker');
     await handleContentRequest({id:1,dataset:'calendar',locale:'en',baseUrl:'/'},message=>messages.push(message),fetcher as never);
-    expect(messages.map(message=>message.type==='progress'?message.progress.phase:message.type)).toEqual(['fetching','fetching','fetching','verifying','projecting','success']);
+    const phases=messages.map(message=>message.type==='progress'?message.progress.phase:message.type);
+    expect(phases.filter((phase,index)=>phase!==phases[index-1])).toEqual(['fetching','verifying','projecting','success']);
     expect(messages.at(-1).result.data.activities[0].name).toBe('Festival');
     expect(messages.at(-1).result.original.activities[0].name).toBe('活動');
+  });
+  it('aggregates interleaved downloads without resetting bytes or counting a started file as complete',async()=>{
+    vi.resetModules();
+    const data=resources(),encoder=new TextEncoder();
+    const bodies=new Map([...data].map(([path,text])=>[path,encoder.encode(text)]));
+    const streams=new Map<string,ReadableStreamDefaultController<Uint8Array>>();
+    const messages:any[]=[];
+    const fetcher=vi.fn(async(url:string)=>new Response(new ReadableStream<Uint8Array>({start(controller){streams.set(url,controller);}}),{headers:{'content-length':String(bodies.get(url)!.length)}}));
+    const {handleContentRequest}=await import('../src/i18n/content.worker');
+    const pending=handleContentRequest({id:1,dataset:'calendar',locale:'en',baseUrl:'/'},message=>messages.push(message),fetcher as never);
+    const downloads=()=>messages.filter(message=>message.type==='progress'&&message.progress.phase==='fetching').map(message=>message.progress);
+    const total=[...bodies.values()].reduce((sum,body)=>sum+body.length,0);
+    await vi.waitFor(()=>expect(downloads().at(-1)?.totalBytes).toBe(total));
+    for(const [path,body]of bodies)streams.get(path)!.enqueue(body.slice(0,7));
+    await vi.waitFor(()=>expect(downloads().at(-1)?.loadedBytes).toBe(21));
+    expect(downloads().at(-1)?.completedResources).toBe(0);
+    const paths=[...bodies.keys()];
+    for(const path of [paths[2],paths[0],paths[1]]){
+      streams.get(path)!.enqueue(bodies.get(path)!.slice(7));
+      streams.get(path)!.close();
+    }
+    await pending;
+    const progress=downloads();
+    expect(progress.every((value,index)=>index===0||value.loadedBytes>=progress[index-1].loadedBytes)).toBe(true);
+    expect(progress.filter(value=>value.totalBytes!==undefined).every(value=>value.totalBytes===total)).toBe(true);
+    expect(progress.at(-1)).toMatchObject({loadedBytes:total,totalBytes:total,completedResources:3,resourceCount:3});
+    expect(messages.at(-1).type).toBe('success');
+  });
+  it.each([null,'gzip'])('keeps %s length indeterminate until the decoded stream completes',async(encoding)=>{
+    vi.resetModules();
+    const {readTextResource}=await import('../src/i18n/content.worker');
+    let controller!:ReadableStreamDefaultController<Uint8Array>;
+    const body=new TextEncoder().encode('資料內容');
+    const headers=encoding?{'content-encoding':encoding,'content-length':'2'}:{};
+    const fetcher=vi.fn(async()=>new Response(new ReadableStream<Uint8Array>({start(value){controller=value;}}),{headers}));
+    const progress:{loadedBytes:number;totalBytes?:number}[]=[];
+    const pending=readTextResource('/data/calendar.json',value=>progress.push(value),fetcher as never);
+    await vi.waitFor(()=>expect(progress).toHaveLength(1));
+    controller.enqueue(body);
+    await vi.waitFor(()=>expect(progress.at(-1)?.loadedBytes).toBe(body.length));
+    expect(progress.every(value=>value.totalBytes===undefined)).toBe(true);
+    controller.close();
+    await expect(pending).resolves.toBe('資料內容');
+    expect(progress.at(-1)).toEqual({loadedBytes:body.length,totalBytes:body.length});
   });
   it('rejects packs whose English baseline hashes diverge',async()=>{
     vi.resetModules();

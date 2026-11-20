@@ -1,7 +1,7 @@
 {
-  "version": "1.4.0",
-  "reason": "The user explicitly requested all review fixes, a new version and ZimaBoard deployment on 2026-11-19. Re-evaluation covers the new Traditional Chinese corpus, pinned Chinese terminology and updated UI. The five recorded editorial/licensing findings remain disclosed in the release notes. All Traditional fields remain pending human review and Friz distribution remains unapproved. This exception is limited to 1.4.0 and this fingerprint; it does not waive integrity or source binding checks.",
-  "fingerprint": "6b92b4f229b71f697f0d8d7c32efff8044c442326819fcaae4301f0a5ea85561",
+  "version": "1.4.1",
+  "reason": "The user explicitly requested merging to main, publishing a new version and deploying to ZimaBoard on 2026-11-20. Re-evaluation covers the new loading UI strings; game data, translations, review records and font inputs are unchanged from 1.4.0. The strict audit reports the same five editorial/licensing findings, disclosed in the release notes. Traditional fields remain pending human review and Friz distribution remains unapproved. This exception is limited to 1.4.1 and this fingerprint; it does not waive integrity or source binding checks.",
+  "fingerprint": "bc0a866c2357c44c950230c4710d0350da33e422df6a717d990642b32ce3c885",
   "acceptedFindings": [
     "11214 Chinese fields still contain untranslated Latin words",
     "133802 Chinese fields still require review against English Wiki",

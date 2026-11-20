@@ -1,0 +1,189 @@
+/*
+ * [INPUT]: 依赖 DataStatus 结构与应用深绿、金色主题。
+ * [OUTPUT]: 提供响应式进度条、指南针动效与静态减弱动效。
+ * [POS]: 共用资料等待界面的局部样式。
+ * [PROTOCOL]: Update this header on change, then check AGENTS.md
+ */
+.feature-status.data-status {
+  min-width: 0;
+  min-height: 280px;
+  padding: clamp(28px, 6vh, 72px) 24px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  place-content: center;
+  overflow: auto;
+}
+.data-status__content {
+  width: min(440px, 100%);
+  min-width: 0;
+  text-align: center;
+  animation: data-status-appear .4s ease-out both;
+}
+.data-status__emblem {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
+  margin: 0 auto 25px;
+  color: var(--gold);
+  border: 1px solid #ccb17b26;
+  border-radius: 50%;
+}
+.data-status__emblem::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border: 1px solid #ccb17b12;
+  border-radius: 50%;
+}
+.data-status__orbit {
+  position: absolute;
+  inset: -1px;
+  border: 1px solid transparent;
+  border-top-color: var(--gold);
+  border-right-color: #ccb17b55;
+  border-radius: 50%;
+  animation: data-status-orbit 4s linear infinite;
+}
+.data-status__orbit::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 10px;
+  right: 10px;
+  background: var(--gold);
+  transform: rotate(45deg);
+}
+.data-status__heading h2 {
+  margin: 0;
+  color: #e5ddca;
+  font-size: clamp(19px, 2.5vw, 23px);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: .06em;
+}
+.data-status__heading p {
+  margin: 9px 0 0;
+  color: #a6b1a5;
+  font-size: 12px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.data-status__download { margin-top: 32px; }
+.data-status__caption,
+.data-status__detail {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #c1c9ba;
+}
+.data-status__value {
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  letter-spacing: .04em;
+}
+.data-status__track {
+  position: relative;
+  height: 4px;
+  margin: 12px 0;
+  overflow: hidden;
+  background: var(--line);
+  border-radius: 2px;
+}
+.data-status__track progress {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  color: var(--gold);
+}
+.data-status__track progress::-webkit-progress-bar { background: transparent; }
+.data-status__track progress::-webkit-progress-value {
+  background: linear-gradient(90deg, #8d784e, #dfc58f);
+  border-radius: 2px;
+  transition: width .25s ease-out;
+}
+.data-status__track progress::-moz-progress-bar { background: var(--gold); }
+.data-status__track--flow progress { opacity: 0; }
+.data-status__track--flow > span {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 38%;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  animation: data-status-flow 2s ease-in-out infinite;
+}
+.data-status__detail {
+  min-height: 18px;
+  font-size: 10px;
+  color: #9ba89a;
+  font-variant-numeric: tabular-nums;
+}
+.data-status__detail > span:last-child { text-align: right; }
+.data-status__stages {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 28px 0 0;
+  padding: 21px 0 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+}
+.data-status__stages li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #99a397;
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: left;
+}
+.data-status__step {
+  display: grid;
+  place-items: center;
+  flex: 0 0 20px;
+  height: 20px;
+  border: 1px solid #536050;
+  border-radius: 50%;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.data-status__stages .is-current { color: var(--gold); }
+.is-current .data-status__step { border-color: #ccb17b99; background: #ccb17b12; }
+.data-status__stages .is-complete { color: var(--green); }
+.is-complete .data-status__step { border-color: #9ab59c55; background: #9ab59c0d; }
+.data-status--error .data-status__emblem { color: #d4ad8a; border-color: #d4ad8a40; }
+.data-status__retry { display: inline-flex; align-items: center; gap: 8px; margin-top: 24px; }
+.data-status__sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+@keyframes data-status-appear { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes data-status-orbit { to { transform: rotate(360deg); } }
+@keyframes data-status-flow { from { transform: translateX(-100%); } to { transform: translateX(365%); } }
+@media (max-width: 480px) {
+  .data-status { padding: 32px 24px; }
+  .data-status__emblem { width: 72px; height: 72px; margin-bottom: 20px; }
+  .data-status__stages { gap: 12px; }
+  .data-status__stages li { gap: 6px; font-size: 10px; }
+  .data-status__detail { flex-wrap: wrap; gap: 2px 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .data-status__content, .data-status__orbit, .data-status__track--flow > span { animation: none; }
+  .data-status__track--flow > span { left: 30%; }
+  .data-status__track progress::-webkit-progress-value { transition: none; }
+}

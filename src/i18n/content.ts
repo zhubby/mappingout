@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖资料 worker、语言目录与 React 可消费的进度回调。
- * [OUTPUT]: 提供繁英投影、中文译名证据、旧名别名和已访问路径。
+ * [OUTPUT]: 提供繁英投影、聚合进度、译名证据、旧名与已访问路径。
  * [POS]: 全应用资料读取边界；校验和投影都在 worker 内执行。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -13,7 +13,7 @@ export interface LanguagePack { version: 1; locale: Locale; dataset: Dataset; so
 export function translationOf(value:object):TranslationInfo|undefined {return (value as {translationInfo?:TranslationInfo}).translationInfo;}
 export interface ContentBundle<T> { original: T; packs: Record<Locale,LanguagePack> }
 export type ContentPhase = 'fetching' | 'verifying' | 'projecting';
-export interface ContentProgress { phase: ContentPhase; resource?: string; resourceIndex?: number; resourceCount?: number; loadedBytes?: number; totalBytes?: number }
+export interface ContentProgress { phase: ContentPhase; resource?: string; resourceIndex?: number; resourceCount?: number; completedResources?: number; loadedBytes?: number; totalBytes?: number }
 export interface ContentReadyDetail { paths: string[] }
 export function resolveContentBaseUrl(baseUrl:string,currentUrl:string):string { return new URL(baseUrl,currentUrl).href; }
 interface WorkerRequest { id: number; dataset: Dataset; locale?: Locale; baseUrl: string }

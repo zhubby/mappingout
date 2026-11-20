@@ -7,6 +7,7 @@ desktop-1.2.0-acceptance.md: 1.2.0 历史发布验收。
 desktop-1.3.0-acceptance.md: 1.3.0 三平台发布、更新签名与公开资源回读验收。
 desktop-1.3.1-acceptance.md: 1.3.1 审查修复、三平台 CI、公开安装包与更新签名验收。
 desktop-1.3.2-acceptance.md: 1.3.2 三平台与双架构发布、公开产物回读及 ZimaBoard2 验收。
+desktop-1.4.2-acceptance.md: 1.4.2 加载进度、CI 语料预算、公开发布与 ZimaBoard2 验收。
 desktop-resources-verification.md: 资源实施检查与设备验收边界。
 desktop-updates-verification.md: 自动测试、隔离 macOS 安装与发布边界。
 desktop-verification.md: 1.0.0 历史桌面验收。

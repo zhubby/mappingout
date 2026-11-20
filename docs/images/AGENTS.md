@@ -17,6 +17,8 @@ map-check-2.jpg: 代表性地图地标核对。
 map-check-3.jpg: 代表性地图地标核对。
 map-navigation-mobile.png: 手机三级地图导航与章节内地图菜单。
 mobile.png: 手机地图界面。
+loading-desktop.png: 桌面真实 HTTP 半程下载、聚合进度条与三步阶段。
+loading-mobile.png: 手机资料加载、完成数与三步阶段的窄屏布局。
 profession-legend-desktop.png: 桌面地图左上角展开的职业图例浮框。
 profession-legend-mobile.png: 手机两行五列职业图例与触摸按钮。
 quests-desktop.png: 桌面任务目录、攻略正文与角色记录。
@@ -32,5 +34,7 @@ zima-1.3.2-map.jpg: ZimaBoard2 上 1.3.2 新版地图与技能地点定位。
 zima-1.3.2-offline-http.jpg: ZimaBoard2 局域网 HTTP 下的离线准备限制。
 zima-1.4.0-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
 zima-1.4.0-query.jpg: ZimaBoard2 繁体称号、點单位和查询说明的实机结果。
+zima-1.4.2-loading.jpg: ZimaBoard2 真实下载量、流动进度条与三步阶段。
+zima-1.4.2-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

@@ -19,6 +19,7 @@ desktop-1.4.3-acceptance.md: 1.4.3 测试、公开发布与 ZimaBoard2 实机验
 desktop-1.4.4-acceptance.md: 1.4.4 校对批次、公开产物与 ZimaBoard2 部署验收。
 desktop-1.4.5-acceptance.md: 1.4.5 来源解析修复、公开签名与 ZimaBoard2 部署验收。
 desktop-1.4.7-acceptance.md: 1.4.7 校对批次、公开签名与 ZimaBoard2 部署验收。
+desktop-1.4.8-acceptance.md: 1.4.8 技能备注来源修复、校对批次、公开签名与 ZimaBoard2 验收。
 desktop-1.4.6-acceptance.md: 1.4.6 校对批次、公开签名与 ZimaBoard2 部署验收。
 traditional-chinese.md: 繁体迁移、审查修复、中文证据、资源兼容与发布部署验收。
 

@@ -16,6 +16,10 @@ quest-pass-3.json: 第三輪任務目標、攻略、警戒與失敗條件校對�
 armor-notes-npcs.json: 去除目錄指令後重新綁定的52條製作商備註。
 armor-notes-source-cleanup.json: 護甲性別比較、收藏家兌換表與染色備註重譯。
 placeholder-source-cleanup.json: 導師占位與兩種獨立再生效果的來源修正校對。
+armor-pass-4.json: 第四輪護甲套裝與獨立頭飾名稱逐項校對。
+skill-pass-4.json: 第四輪技能短文、過載與閃現加持條件校對。
+catalog-pass-4.json: 第四輪地圖技能類型、過載點數與模式標籤校對。
+quest-pass-4.json: 第四輪任務攻略、數量關係與失敗條件校對。
 coverage.json: 全量文本校对覆盖、未审范围与风险分类。
 
 条目记录 source、text、reason 与 bindings。

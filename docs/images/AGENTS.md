@@ -47,4 +47,8 @@ zima-1.4.5-skills.jpg: ZimaBoard2 属性 12 的 Life Siphon，保留衰减与再
 zima-1.4.5-config.jpg: ZimaBoard2 保存后回读的 1.4.5 镜像与容器参数。
 zima-1.4.5-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
 
+zima-1.4.6-config.jpg: ZimaBoard2 保存后回读的 1.4.6 镜像和完整参数。
+zima-1.4.6-loading.jpg: ZimaBoard2 真实任务下载量与三阶段加载进度。
+zima-1.4.6-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
+
 [PROTOCOL]: Update this header on change, then check AGENTS.md

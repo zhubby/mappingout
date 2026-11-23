@@ -36,5 +36,7 @@ zima-1.4.0-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中�
 zima-1.4.0-query.jpg: ZimaBoard2 繁体称号、點单位和查询说明的实机结果。
 zima-1.4.2-loading.jpg: ZimaBoard2 真实下载量、流动进度条与三步阶段。
 zima-1.4.2-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
+zima-1.4.3-loading.jpg: ZimaBoard2 新版真实下载量与三步加载进度。
+zima-1.4.3-progress.jpg: ZimaBoard2 校对后的任务页面与保留的角色记录。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

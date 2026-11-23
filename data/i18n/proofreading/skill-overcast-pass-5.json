@@ -2658,19 +2658,6 @@
       ]
     },
     {
-      "source": "*This spell's area of effect is determined when the spell is cast. As such, becoming Overcast while Lava Font is still in effect will not enlarge the area of an already cast font, nor will the spell's area be reduced partway through its duration by the caster's Overcast disappearing.\n\n{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.\nHero AI will use this spell without considering whether there are foes adjacent to them.",
-      "text": "* 此魔法的作用範圍在施放時決定。熔岩持續期間才進入過載狀態，不會擴大已施放的作用範圍；施放者的過載在持續期間消退，也不會使範圍縮小。\n\n〔過時資訊，待核實〕\n2019 年 2 月 5 日更新：請核實英雄 AI 行為是否已改變。\n英雄 AI 會使用此魔法，不考慮自身相鄰範圍內是否有敵人。",
-      "reason": "核對範圍在施放時鎖定；將過時資訊模板改為明確警示，保留 AI 需核實的邊界。",
-      "bindings": [
-        {
-          "dataset": "skills",
-          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/notes/0",
-          "englishHash": "43503c8f1339b9b3a3ee1f6d4b92395a3f752470c083e1377ef6ddaaebde6f6e",
-          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
-        }
-      ]
-    },
-    {
       "source": "bug: Hero AI will use this spell without considering whether there are foes adjacent to them.",
       "text": "來源記載的錯誤（過時，待核實）：英雄 AI 會使用此魔法，不考慮自身相鄰範圍內是否有敵人。",
       "reason": "核對同頁固定修訂的 Outdated info 警示；此獨立錯誤投影也保留過時待核實狀態，範圍為相鄰。",

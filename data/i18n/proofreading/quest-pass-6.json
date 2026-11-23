@@ -1,0 +1,699 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "This works with a single player. Pick up a crystal and go to the left-most (east) pedestal; ignoring the shrine near the gate. You should arrive as the Mantle are leaving after capturing it. Do not engage at this point. Attune the pedestal, then flag your party around it. As the Mantle return to reclaim this pedestal first, go back to the entrance to grab another crystal, and then go to the pedestal at the far right (south-west) side and attune it. Alternate between claiming the left and right pedestals, as the Mantle will usually succeed in capturing your AI-held pedestal; however, if you have a good team, your party will kill the runner's escort each time. Because you never attuned the top right pedestal, the Mantle will never attempt to get it back, so you can focus on cycling between the other two pedestals without worrying about that one. An added benefit of leaving that pedestal is that even if the Mantle are slightly faster than you and hold both pedestals for a few seconds, you will not fail the mission since they never control all three. Eventually the only Mantle left will be the runner. You will know this when you no longer see your party taking damage. (Be careful not to capture all of the pedestals at once!) Rejoin your party and kill the runner, either by using snare/spike skills if you have them, or by positioning your team in the runner's path as they head to a pedestal. Kill the Demagogue (who will now be standing alone in the Mantle camp) and claim any remaining pedestals.",
+      "text": "這個方法適用於單一玩家帶隊。拿起水晶，前往最左側（東方）的基座，不必理會大門旁的神殿。抵達時，白斗篷 應剛佔領基座並正要離開；此時不要交戰。調諧基座，再插旗讓隊伍守在周圍。白斗篷 會優先返回奪回這座基座；趁此時回入口再拿一顆水晶，前往最右側（西南方）的基座並調諧。接著交替佔領左右兩座基座。白斗篷 通常能奪下由 AI 隊員防守的基座；不過，隊伍實力足夠時，每次都能殺死運送水晶者的護衛。由於你從未調諧右上方的基座，白斗篷 不會嘗試奪回它，因此只需往返另外兩座基座。保留右上方基座還有一個好處：即使 白斗篷 比你稍快，短暫控制左右兩座基座，也不會同時控制全部三座，因此不會導致任務失敗。最後，白斗篷 只會剩下運送水晶者；隊伍不再受到傷害時，就表示護衛已清光。（注意不要同時佔領全部基座！）回到隊伍身邊，利用緩速或集中爆發傷害技能殺死運送水晶者；也可讓隊伍在他前往基座的路上攔截。殺死此時獨自留在 白斗篷 營地的 Demagogue，再佔領尚未調諧的基座。",
+      "reason": "修正 Mantle 被譯為地幔、循環佔點被譯為騎行及 snare/spike 的誤譯；保留單人帶隊、東與西南位置、右上基座不調諧及三座全失才失敗的條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:12183/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "008994072fb18feaaf38c1be1262395ca1a06bb6bd01d5923f773f3a95569fe5",
+          "evidenceHash": "c5006e4757af1f1156b81251af8e233cc80d5ca0e71512d05bee6fe567262efd"
+        }
+      ]
+    },
+    {
+      "source": "Once the Charr in the immediate vicinity of a Devourer are defeated by either you or the warband, you will have captured it; you can then command it to attack the Rangers (Charr Seekers) at either the bluff or the ones at the gate on its side (left/right) of the central path into the stronghold. There are four Seekers at each of these two points whom it will then attack; that makes for a total of four groups of four seekers each. Around every 10 seconds, three melee Charr will spawn at the teleporters located below the seekers at the bluffs on either side and proceed to move to the Devourer on their side and attack it. Should these Charr destroy a Devourer, you will be able to reactivate it in place by defeating the Charr near it; you would then instruct it again to attack the Rangers on its side at either the bluffs or the gate. You can keep the mission at a steady and unchanging state - even in Hard Mode - for so long as your team can keep the Charr at bay on the left side and you have the Devourers on either side attacking the Rangers. Should the Charr on the right side overwhelm the warband (especially in Hard Mode) you should be able to defeat the Charr on that side with your team; that will reactive that Devourer and resurrect the warband members in place and ready to resume defending the Devourer. Trying to take on the Rangers at any of the four positions is unnecessary and suicidal.",
+      "text": "你或戰隊擊敗 Devourer 附近的夏爾後，就能控制它，並命令它攻擊通往要塞中央道路同側（左側或右側）的遊俠，也就是 Charr Seekers；可選擇懸崖上或大門旁的目標。每側這兩個位置各有四名 Charr Seekers，兩側合計四群，每群四名。大約每隔 10 秒，兩側懸崖上 Charr Seekers 下方的傳送點會出現三名近戰夏爾，前往同側 Devourer 並攻擊它。若 Devourer 被摧毀，擊敗它附近的夏爾就能原地重新啟用，再命令它攻擊同側懸崖或大門旁的遊俠。只要隊伍能守住左側，且兩側 Devourer 持續攻擊遊俠，即使在困難模式也能維持這個局面。若右側夏爾壓倒戰隊，尤其在困難模式下，可帶隊前往右側清敵；這會重新啟用該側 Devourer，並讓戰隊成員原地復活，繼續防守。無須親自攻擊四處遊俠中的任何一處；這樣做只會白白送死。",
+      "reason": "統一 Rangers 為職業遊俠，保留 Devourer 與 Charr Seekers 身份；核對四群各四名、約10秒三名近戰增援及右側清敵後復活戰隊，修正 reactive 誤譯。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66444/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "422593802a9a526fc757b9108614763c42a9f8fcdb181f5a47c0f398d9edf6e1",
+          "evidenceHash": "6055839efda7907330cf854b820a1d0e1255742af3630f8cdec21d13a9bf5442"
+        }
+      ]
+    },
+    {
+      "source": "Keep left on entry. The first open area will contain Ice Imps, Frost Wurms, 3 large mobs of Whirling Wisps, Frozen Elementals, Ice Imps and a Frostmaw Spawn. Frost Siege Wurms and the Frostmaw Spawn tend to popup while attacking any mob near the entrance to the level. This area leads to a path with a side hallway on left. This left hallway is a dead-end but contains an area map and a collection of Dwarven Powder Kegs. The kegs can be used to break down walls but are not necessary. When the wurms near each wall are defeated a large snowball spawns and crashes into the wall, breaking it down. The path leads to a small open area to the north which can be bypassed. To the east, the path forks north and east. The fork is guarded by 3 mobs of popup Stormcloud Incubi, which should be carefully sweeped and pulled. The northern path contains a number of wurm popups and leads to a Beacon of Droknar. The eastern path leads to more wurm popups and a large empty chamber to the south. The next chamber to the northeast is guarded by Ice Imps, Frozen Elementals, Whirling Wisps, more mobs of popup Stormcloud Incubi, as well as 2 more popup groups of Frost Wurms and Frostmaw Spawn. Careful pulling here is advised to prevent a party wipe. When the last of the wurms guarding the cracked wall blocking the exit to the 4th level is defeated, a snowball will spawn and break the wall down.",
+      "text": "進入後靠左走。第一處開闊區域有 Ice Imps、Frost Wurms，以及三大群敵人，包括 Whirling Wisps、Frozen Elementals、Ice Imps 和一隻 Frostmaw Spawn。在本層入口附近攻擊任何一群敵人時，Frost Siege Wurms 和 Frostmaw Spawn 往往會突然現身。此區通往一條道路，左側有岔出的走廊。左側走廊是死路，但有區域地圖和一批 Dwarven Powder Kegs。火藥桶可用來炸牆，但並非必要：擊敗各面牆附近的 wurms 後，會出現大雪球，撞碎牆壁。道路通往北方一處可繞過的小空地；向東則會遇到分別朝北、朝東的岔路。岔路有三群突然現身的 Stormcloud Incubi，應謹慎探查並逐群引出。北路有多處 wurm 伏兵，通往 Beacon of Droknar。東路也有更多 wurm 伏兵，並通往南方的大型空房間。接著東北方的房間由 Ice Imps、Frozen Elementals、Whirling Wisps、更多 Stormcloud Incubi 伏兵，以及另外兩群 Frost Wurms 與 Frostmaw Spawn 伏兵守衛。此處應小心引怪，避免滅團。擊敗守在通往第 4 層出口裂牆前的最後一隻 wurm 後，會出現雪球撞碎牆壁。",
+      "reason": "修正三群被寫成三隻、伏兵被譯為彈出視窗及滅團誤譯；保留一隻 Frostmaw Spawn，不推算各群組成，並核對雪球破牆與第4層出口條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63669/sections/walkthrough-1/blocks/walkthrough-1-6-1/text",
+          "englishHash": "02ff0988151c78d28d1815e4c2b44c82de8c56e53738e68e17305ccc49efecf3",
+          "evidenceHash": "4191a4fa855d37c4a6307cb6d22d6b46a55d46060795642c4013334d26fc6d4a"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63616/sections/shared-quest:gww:63669-walkthrough-1/blocks/shared-quest:gww:63669-walkthrough-1-6-1/text",
+          "englishHash": "02ff0988151c78d28d1815e4c2b44c82de8c56e53738e68e17305ccc49efecf3",
+          "evidenceHash": "52007e54995b4563e246d5420fcc2fef1eb20937ca7b7a285e4ca3417d51ddff"
+        }
+      ]
+    },
+    {
+      "source": "You will come to where the Kournan forces are. General Bayel and the Hunger are on the other side of a narrow bridge which is well protected by several Kournan Bowman with an excellent height advantage and are difficult for melee party members to get to. Rather than trying to eliminate the Kournan Bowmen from the bridge, run right under the bridge and use it to shelter the party from the bow attacks. You can now either use non-projectile skills to kill the Kournan Bowmen or ignore them and make sure that any melee party members are protected while they attack in the open. The simplest option is to stay under the bridge with the Kournan Bowmen above you and hence obstructed. It is possible to aggro only General Bayel from a set position under the bridge. It will take some time, but if you're not too focused on melee damage, you should be able to take him out and safely pull the Hunger towards you. Kill both General Bayel and then the Hunger to end the mission. Alternatively if you run across the second bridge, past both General Bayel and the Hunger, the Hunger will follow your party to almost across the bridge. Attack him near the end of the second bridge and you will be fighting him alone. If he starts to almost die, he will try to go back to General Bayel. If you cripple him, you should be able to kill him before the General has the chance to heal him.",
+      "text": "接著會抵達Kournan 部隊所在之處。General Bayel 和 the Hunger 在窄橋另一側，由數名佔據高處的 Kournan Bowmen 保護；近戰隊員很難接近這些弓手。與其在橋上嘗試消滅弓手，不如直接跑到橋下，利用橋身遮擋箭矢。之後可用非投射物技能殺死弓手，也可忽略他們，但要保護在空地攻擊的近戰隊員。最簡單的方法是留在橋下，讓上方弓手的攻擊被地形阻擋。站在橋下的特定位置，可以只引到 General Bayel。這會花些時間，但若隊伍不過度依賴近戰傷害，應能殺死他，再安全引來 the Hunger。依序殺死 General Bayel 和 the Hunger 即可完成任務。另一個方法是穿過第二座橋，跑過這兩名敵人；the Hunger 會跟著隊伍，幾乎走完整座橋。在第二座橋盡頭附近攻擊他，即可單獨與他交戰。他瀕死時會試圖返回 General Bayel 身邊；若施加殘廢，應能趕在將軍治療他之前將其殺死。",
+      "reason": "區分橋下遮蔽與橋上交戰，將 cripple 明確譯為殘廢；保留先殺將軍再拉 the Hunger 與第二橋單拉的兩條分支。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:3608/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "54131aa5a2ed1394337228bb4ba1a24af3ec2dda0be4dafe8dc5e9576487f13e",
+          "evidenceHash": "ac2c54c6eb262e34f80ce1d830670e22929028b40d47198bd8b7758592129bbc"
+        }
+      ]
+    },
+    {
+      "source": "Alternately, you can have the Devourers clear most of the Rangers in a just-in-time fashion to let the Saurus barely survive and do its job. If playing with multiple players, have one each positioned at the Devourers; if playing with a single player, stay at the left Devourers. All other players, Heroes, and Henchmen should stay at the left Devourer and deal with continuously spawning melee Charr. As soon as both Devourers are active, set them to attack the Rangers at the buffs on their respective sides; a solo player would do this at the left Devourer and run to the right Devourer to do it on that side. The Devourers should nearly clear out the buffs just in time for the Saurus to appear in the Allies list. As soon as that happens, set the Devourers to attack the Rangers near the gate on their respective sides. This should create a small time window with very few surviving Rangers but long enough to let the Saurus pass through and break down the gate. Once that happens, the Rangers will stop respawning and you can command the Devourers to change targets till all remaining Rangers are defeated at all four locations; the warband will pitch in as well. Since the Devourers can be reactivated and there is an unlimited supply of Sauruses, there is never a need to panic or be in a hurry. This will work in Hard Mode as well.",
+      "text": "另一個方法是讓 Devourers 在適當時機清除大部分遊俠，讓 Saurus 剛好能活著完成破門。多名玩家遊玩時，可在兩側 Devourer 各安排一人；只有一名玩家時，先留在左側。其餘玩家、英雄及傭兵都應留在左側 Devourer，對付持續出現的近戰夏爾。兩側 Devourer 都啟用後，立即命令它們攻擊各自同側懸崖上的遊俠；單一玩家先在左側下令，再跑到右側下令。Devourers 應會在 Saurus 出現在盟友清單時，差不多清完懸崖上的遊俠。一看到 Saurus 出現，就改命令兩側 Devourer 攻擊各自同側大門附近的遊俠。這會創造一段只有少量遊俠存活的空檔，讓 Saurus 足以通過並撞破大門。破門後，遊俠不再重生；可繼續切換 Devourers 的目標，直到四個位置的剩餘遊俠全被擊敗，戰隊也會加入戰鬥。Devourers 可以重新啟用，Saurus 也會無限補充，因此不必驚慌或趕時間。困難模式同樣適用。",
+      "reason": "原文 buffs 依同段四處遊俠與前段 bluff 判為懸崖筆誤，修正成清除增益的誤譯；保留Saurus出現時切換目標、破門後停止重生與無限重試。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66444/sections/walkthrough-1/blocks/walkthrough-1-8-2/text",
+          "englishHash": "a1b2d292c91e72bf9b7b57cf80ec2201559bce9070dc42bdc1502fa7ea2d2bb4",
+          "evidenceHash": "6055839efda7907330cf854b820a1d0e1255742af3630f8cdec21d13a9bf5442"
+        }
+      ]
+    },
+    {
+      "source": "The key to victory will depend on how you make good use of Margrid. Rangers have 30 extra armor against elemental damage and are the best suited for these occasions. Since she is a required hero, use one of the first three individual hero flags to position her in the party composition. The hardest enemies in this mission are the Ruby Djinns and the Elementalist boss which spam Searing Flames, to reduce their damage output, disable their elite with skills like Distracting Shot, Magebane Shot and Diversion. Due to the Roaring Ethers energy removal, your hero will need a generous energy base pool in order to use skills, e.g.:30~40 and a good spec in Expertise. Once the Elementalist foe has been killed, only the Dervish Djinns will remain. Flagging this hero ahead of the main team is essential to survival, she can be placed just over the aggro bubble or a bit ahead, so that all foes target lock on her rather the entire team. At the central room, eliminate the enemies that cause environmental effects to remove pressure and make sure to use this hero to trigger the chest pop-ups. While performing this technique, it is vital to pay close attention to the radar and watch enemy positioning, make sure your projectile attacks and skills will not be obstructed by the walls of each narrow corridor.",
+      "text": "勝負關鍵在於善用 Margrid。遊俠對元素傷害有額外 30 點護甲，最適合這種場合。她是本任務必帶的英雄；請將她排入前三個可單獨插旗的英雄位置之一。本任務最難纏的是反覆使用 Searing Flames 的 Ruby Djinns 和元素使首領；可用 Distracting Shot、Magebane Shot、Diversion 等技能封鎖其精英技能，降低傷害輸出。Roaring Ethers 會移除能量，因此這名英雄需要充足的能量上限，例如 30～40，並在 Expertise 投入足夠點數。擊敗元素使敵人後，就只剩神喚使 Djinns。要讓隊伍存活，必須插旗將 Margrid 置於主隊前方，可放在警戒範圍邊緣外或稍遠處，讓敵人集中鎖定她，而非整隊。在中央房間，先消滅造成環境效果的敵人以減輕壓力，並讓她觸發寶箱附近的伏兵。採用這種方法時，務必留意雷達和敵人位置，確保投射物攻擊與技能不會被狹窄走廊的牆壁擋住。",
+      "reason": "修正 spam、英雄個別旗位、能量移除及寶箱伏兵誤譯；保留元素傷害額外30護甲、30至40能量及先鋒英雄吸引目標的主體。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:5752/sections/walkthrough-1/blocks/walkthrough-1-10-1/text",
+          "englishHash": "efb6c6c7e923a7e53565672d5c8eb083a4b83e9b87aecfa551744cbfb3d35328",
+          "evidenceHash": "9af7d37219a0414098f1c5fc44b51f1cd8f583de73e7afa1a456a02b9beb5b42"
+        }
+      ]
+    },
+    {
+      "source": "At the beginning of the mission, there are two bridges to the south; avoid fighting over them and use those structures as choke points instead. After crossing the second bridge, players will encounter a fork (both roads merge afterwards) and an overwhelming number of foes. Soon, a boss will spawn and all present patrols will rush towards it. Instead of engaging this huge army, it is advised to wait for them to go away and proceed to the south-east path to avoid such deadly threat. Another group of foes will be there. Before fighting these, make sure the big group has moved far enough away to avoid fighting both mobs. The Ancient Seer will be standing on the path to the south, \"guarded\" by at least (1) Burning Titan and must be saved for those willing to start the bonus. The Ancient Seer will not be attacked until within radar range of a party member. Continue to the south-west and you will arrive at a small area with different groups with overlapping patrols. The ground has ruptures and standing over them causes burning; watch positioning. Fight those foes separately to avoid over-aggro. Cross a third bridge to find the large open area where the three portals are located with numerous groups of foes.",
+      "text": "任務開始時，南方有兩座橋。避免在橋面交戰，改用橋口作為隘口。過第二座橋後會遇到岔路（兩路稍後會合），以及數量龐大的敵人。不久會出現一名首領，現場所有巡邏隊都會朝他衝去。建議先等大軍離開，再走東南方道路，避開這場危險的戰鬥。該處還有另一群敵人；開戰前先確認大群敵人已走得夠遠，避免同時引到兩群。Ancient Seer 站在南方道路上，由至少一隻 Burning Titan「看守」。若要啟動額外目標，必須救下他。只有隊員進入雷達範圍後，敵人才會攻擊 Ancient Seer。繼續向西南走，會到達一個小區域，內有數群巡邏路線互相交錯的敵人。地面裂隙會使站在上方的人燃燒，須留意站位。逐群交戰，避免引來過多敵人。過第三座橋後，即抵達三座傳送門所在的大型開闊區域，內有許多敵群。",
+      "reason": "修正 save 為救下NPC而非儲存、watch positioning 為注意站位；保留至少一隻守衛、雷達範圍觸發攻擊及三座橋的路線。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16173/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "df346b0ee12c0547a0cafef37327bb19ae8428a2da73993260d8ca2959ceaba6",
+          "evidenceHash": "ee494f5a61e3cc7699c005644591c05817f35977ed4bfd63cee3f16d53881e7d"
+        }
+      ]
+    },
+    {
+      "source": "After a few groups of undead have attacked and been defeated, Queen Aijundu will approach and attack. Once her health has been reduced a bit she will retreat and further undead will attack. There are quite a few bosses who spawn in the undead groups - keep an eye out for them. Aijundu will attack again when all the undead are killed, this time when you've damaged her enough she will allow you to use the wurms to cross the Desolation. Look out for enemies with hard resses: Awakened Acolytes, Awakened Cavaliers and especially the boss Chakeh the Lonely. Left alone these will resurrect fallen enemies on top of the new groups approaching you, which might overwhelm the party. Tip: If you feel your party is overwhelmed with attacking foes try running away from the Wurm Spoor. Not all enemies will follow you all the way to your new destination. This smaller group of enemies will be easier to individually target and take down. This also gives your party a chance to regroup, heal, and target the remaining foes left guarding the Wurm Spoor. Also it's not necessary to fight next to the Wurm Spoor. You can flag your party a fair distance away at the start and simply pull the successive groups of enemies.",
+      "text": "幾群不死生物進攻並被擊敗後，Queen Aijundu 會上前攻擊。她損失一些生命值後就會撤退，接著更多不死生物前來進攻。這些敵群會出現多名首領，務必留意。殺光不死生物後，Aijundu 會再次進攻；這次對她造成足夠傷害後，她就會允許你利用 wurms 穿越 Desolation。注意能反覆使用復活技能的敵人：Awakened Acolytes、Awakened Cavaliers，尤其是首領 Chakeh the Lonely。若放著不管，他們會不斷復活倒下的敵人，再加上陸續到來的新敵群，可能使隊伍難以招架。提示：若進攻的敵人太多，可嘗試遠離 Wurm Spoor 撤退。並非所有敵人都會一路追來；跟來的小群敵人較容易逐一集火擊殺。這也讓隊伍有機會重整、治療，再對付留守 Wurm Spoor 的敵人。其實不必在 Wurm Spoor 旁作戰：一開始即可插旗讓隊伍待在較遠處，再將一波波敵人引過來。",
+      "reason": "將 hard resses 從兇猛敵人修正為可重複使用的復活能力；保留女王兩次出擊、敵群復活加新援軍及遠離Wurm Spoor拉怪的戰術。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2801/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "5599385b56559a64b5d7568b2d50b2d377f546d4807bd52f590bae9341398f6f",
+          "evidenceHash": "fe825f096f30c0e83c2d3b0c2bca98f706674cad4fee869383fc352c159807be"
+        }
+      ]
+    },
+    {
+      "source": "It is at this Wurm Spoor (1 on the map) that you will tame Queen Aijundu, so set up for the fight. You should stage the fight from the hill over looking the Wurm Spoor which will give you a height advantage and keeps you away from the sulfur. If you are using heroes and henchmen, they should be pinned at the top of the hill at the point furthest from the sulfur and set to defensive mode. For a better idea, when Palawa Joko runs to the Wurm Spoor, he will stop before reaching it, then move to the other side, and then remain in that spot until you tame Aijundu. Flag your heroes and henchmen at the point he stops at before moving to his final position. If there is a minion master in your party, avoid fighting near Palawa Joko, since he will use Well of Darkness on recharge, exploiting the corpses that the minion master could have used; however, if your party doesn't have a minion master, it is recommended to fight near Palawa Joko, so he will create Wells of Darkness that will hinder hexed undead physical attackers and at the same time prevent Awakened Defilers from using those corpses to create Wells of Darkness that will hinder your party.",
+      "text": "你會在這處 Wurm Spoor（地圖上的 1）馴服 Queen Aijundu，先做好戰鬥準備。應在能俯瞰 Wurm Spoor 的山丘上迎戰，以取得高度優勢並遠離硫磺。使用英雄及傭兵時，插旗讓他們留在山頂距離硫磺最遠的位置，並設為防禦模式。可參考 帕勒瓦‧傑格 的行動：他跑向 Wurm Spoor 時，會先在抵達前停下，再繞到另一側，停在那裡直到你馴服 Aijundu。應把英雄和傭兵插旗定位在他前往最終位置之前的停留點。若隊伍有召喚亡靈僕從的角色，應避免在 帕勒瓦‧傑格 附近作戰，因為他的 Well of Darkness 一恢復就會施放，消耗原可用來召喚僕從的屍體。若隊伍沒有這類角色，則建議靠近 帕勒瓦‧傑格 作戰：他建立的 Well of Darkness 會妨礙受到咒術影響的不死物理攻擊者，同時阻止 Awakened Defilers 使用那些屍體，建立會妨礙你方隊伍的 Well of Darkness。",
+      "reason": "補齊舊譯截斷的後半段；核對地圖1、硫磺站位、英雄防禦模式及有無亡靈僕從角色時的屍體競用與敵我技能作用。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2801/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "c05c29adc2e30498cf0b939216c64f883baf0090b9eadda888457f829685e0aa",
+          "evidenceHash": "fe825f096f30c0e83c2d3b0c2bca98f706674cad4fee869383fc352c159807be"
+        }
+      ]
+    },
+    {
+      "source": "Leave from Tahnnakai Temple and head directly south to meet up with Miku. Once the mission has begun, follow the map route to eventually bring Miku to Ashu's location at the temple's center. Ministry of Purity groups spawn in each room that must be killed before moving onto the next. Furthermore, clearing the first group and every consecutive group within the temple will spawn more foes periodically at the temple's entrance, which will then chase after you. Note: These foes will not stay dead if you choose to fight them; they rez after being knocked out for a minute. Since it is not advised to fight the spawning foes, try to trigger every Hidden Switch in each room in order to close the gate to the previous room behind you. The important thing is to move quickly (kill group, trigger Hidden Switch, move on) because the gates do not stay closed forever, and eventually the Ministry forces will build up and easily outnumber you towards the end. Once Miku is brought to Ashu their dialogue will begin, and at that point the quest is completed (even if the Ministry rushes and wipes your party).",
+      "text": "從 Tahnnakai Temple 出發，直接往南與 Miku 會合。任務開始後，依地圖路線將 Miku 帶往神殿中央 Ashu 所在之處。每間房都會出現 Ministry of Purity 敵群，必須殺光才能前往下一間。此外，清除神殿內第一群及其後每一群敵人後，入口會定期出現更多敵人追趕隊伍。注意：若選擇迎戰，這些敵人也不會永久死亡；被打倒一分鐘後就會復活。不建議與這些追兵交戰，應盡量觸發各房間內的所有 Hidden Switch，關閉身後通往前一間房的大門。關鍵是快速完成「清敵、觸發開關、前進」的循環，因為大門不會一直關著；接近終點時，Ministry 部隊最終會累積到遠多於你方的人數。將 Miku 帶到 Ashu 身邊後，兩人會開始對話，此時任務就算完成，即使隨後 Ministry 部隊衝來使隊伍全滅也一樣。",
+      "reason": "修正追兵一分鐘後復活、Ministry被譯成魔法部與殺掉隊伍的誤譯；保留門會重開及對話開始即完成、之後滅團仍成功。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:289103/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "038c06b20dba407171e138fb82ffde173d6680d359724f058f1343d14351d886",
+          "evidenceHash": "9911d1548a1e819580f0cf1fa656673ec53fa407e059b4b1ee65353d1b9cd07e"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:289159/sections/shared-quest:gww:289103-walkthrough-1/blocks/shared-quest:gww:289103-walkthrough-1-1/text",
+          "englishHash": "038c06b20dba407171e138fb82ffde173d6680d359724f058f1343d14351d886",
+          "evidenceHash": "e2a9a940807486d610bb7900938630e237207785f5496adcabef7f5e558f3c45"
+        }
+      ]
+    },
+    {
+      "source": "With heroes, the most effective way to do this is to have a team of three guarding the north entrance. Ideally, this team should consist of a minion master, a healer (skills like heal area will help) and a nuker. Position them quite far forward. Use the minimap and learn the positions of the two entrances so you can re-flag even when they're not visible (they're between the patches of green - zooming in can help). Your team (you plus four heroes) should have high damage output. A team speed boost isn't necessary, but it will definitely help. Your team guards the southern entrance. Dispatch the incoming groups as quickly as possible and constantly look for incoming siege turtles. When you see one, run towards it, kill it, then run straight back to base. Don't be tempted to mop up any other enemies you see running around. Speed is of utmost priority here - use heavy AoE damage and kill the turtles and their guards as quickly as possible. The less time you spend outside the base, the better. It can help if you create spirits dotting the map as these will distract and slow down enemies.",
+      "text": "使用英雄時，最有效的方法是讓三人小隊守北入口，理想配置為一名召喚亡靈僕從的角色、一名治療者（Heal Area 之類的技能有幫助），以及一名範圍傷害施法者，並將他們配置在較前方。利用小地圖記住兩個入口的位置，這樣入口不在畫面中時也能重新插旗；入口位於綠色區塊之間，放大小地圖會更清楚。你與另外四名英雄組成的隊伍應有高傷害輸出，負責守南入口。全隊加速並非必要，但很有幫助。盡快殺掉來襲敵群，並持續注意攻城龜。看到攻城龜就衝去殺死，接著立刻返回基地，不要為了清掉附近其他敵人而逗留。此處速度最重要，應以高額範圍傷害盡快消滅攻城龜及護衛，盡量減少離開基地的時間。在地圖各處設置精靈也有幫助，能分散敵人注意力並拖慢進攻。",
+      "reason": "修正minion master、nuker及spirits的誤譯；保留北側三英雄、南側玩家加四英雄、攻城龜優先與快速回防。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:8469/sections/walkthrough-1/blocks/walkthrough-1-5-4/text",
+          "englishHash": "9005fa238b7cc989b6ae98ec910fd4cfb39e0d1a84da4a10ef1ba84b944d6dcc",
+          "evidenceHash": "6edba4c51bc7e50a2cf650775b5627770a33dab0506ad4a5da1afb90539d2a51"
+        }
+      ]
+    },
+    {
+      "source": "Level 1: Fight your way south down the winding path towards the Dungeon Lock. The enemies you encounter will be the same as on your last trip through this floor, except for the addition of some Shard Elementals and Hulking Shard Elementals near each patch of crystalline ground, which are just slightly stronger versions of the Cave Elementals encountered previously. At the south end of the dungeon, there will be a large chamber with numerous Charr, grawl, and elemental foes, so pull carefully to avoid over-aggro, and be mindful of two Charr Hunters circling the perimeter. Wyle Brimscourge will also be patrolling the area, and although he is a high-level warrior, he can be pulled and fought by himself, making him relatively simple to defeat. Time your most damaging abilities for when he uses Frenzy or Healing Signet. If you cannot withstand his attack damage, consider retreating up the slopes to the north to the edge of his following range, or using a pet or fire imp to tank. Wyle will drop a Dungeon Key, allowing you to open the lock and enter the portal to level 2.",
+      "text": "第 1 層：沿蜿蜒道路向南戰鬥，前往 Dungeon Lock。敵人與上次經過本層時相同，但每處結晶地面附近新增一些 Shard Elementals 和 Hulking Shard Elementals；牠們只是先前 Cave Elementals 的稍強版本。地城南端有一個大房間，聚集許多夏爾、grawl 和元素生物；應謹慎引怪，避免同時引來過多敵人，並留意沿外圍巡邏的兩名 Charr Hunters。Wyle Brimscourge 也會在此巡邏。他雖是高等級戰士，但可以單獨引出，因此相對容易擊敗。趁他使用 Frenzy 或 Healing Signet 時，施放傷害最高的技能。若無法承受他的攻擊，可退上北方斜坡，站到他追擊範圍的邊緣，或讓寵物、fire imp 承受攻擊。Wyle 會掉落 Dungeon Key，用來開鎖並穿過傳送門，進入第 2 層。",
+      "reason": "修正地城鎖被譯成船閘、進入第2層被譯成升級及獨立拉王的主體；保留兩名巡邏獵人和Frenzy／Healing Signet輸出時機。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:320080/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "e1765ff474c316afa20c437b16b9097b8e22c14e62196713116d77c8e2a6d470",
+          "evidenceHash": "766de80e40e2921d1f50c8dd12e81789eb9e63a488d3a38a92989bb7fe836d2b"
+        }
+      ]
+    },
+    {
+      "source": "Ashigun does not give you any clue where to go for this quest, nor do you get an arrow to help you. All you have to go on is his cryptic clues given to you through the objectives. The first thing is to go to the Mehtani Keys and you will get the next clue. Then travel east past the small village and over to the tower standing alone in the northeast corner of the map near Ajamduk, Hunter of the Sands. Head south and to where Behrdos will yell at you. Go past him to the Cyclone Palace's door at the southeast corner of the map. Then head northwest and stand under the arch. Look towards the pillars for your next clue. Run over to the pillar that has fallen down. You will then be directed to the west where there is a sunken ship. Once you get to the ship you will get an update telling you there is a huge boulder beyond the ship. It is a short distance west of the ship. Go to the far side of the boulder and it will tell you to kneel in the sand to find the treasure. /kneel to find Bobo. Once you have Bobo head back to Ashigun in Zehlon Reach and return it to him.",
+      "text": "Ashigun 不會直接說明任務目的地，也沒有方向箭頭可循；只能依任務目標中的隱晦提示尋找。先到 Mehtani Keys 取得下一條線索，再向東穿過小村莊，前往地圖東北角、Ajamduk, Hunter of the Sands 附近的獨立高塔。接著向南，走到 Behrdos 會對你喊話的地方，經過他抵達地圖東南角 Cyclone Palace 的門口。再向西北走，站在拱門下，望向柱子取得下一條線索，然後跑到倒下的柱子旁。接下來提示會引你往西，到一艘沉船。抵達後，任務更新會告知沉船後方有一塊巨石，位於船西側不遠處。繞到巨石另一側，提示會要求在沙地跪下尋找寶藏。輸入 /kneel 即可找到 Bobo。取得 Bobo 後，回 Zehlon Reach，把它交還 Ashigun。",
+      "reason": "保留逐站方位、無箭頭限制及NPC身份；將被翻譯的指令還原為可執行的/kneel，避免玩家無法找到Bobo。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25636/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "34c1871f9e26954413cdaadedcd4d7d226af6e9ec3a53434209ca6297db9347b",
+          "evidenceHash": "bb5248a0cc036fdb439b5766c2a4d66cacf8b3e6e3d0a4b0f1d4a7988ba62b98"
+        }
+      ]
+    },
+    {
+      "source": "Sometimes King Jalis Ironhammer will get stuck on a hill near the beginning of the mission. If this occurs, you must restart the mission, and try again. Sometimes if you take the bonus the first boss will stay outside the walls. Even if you kill that mob the spawns will stop. If this occurs, you must restart the mission, and try again. King Jalis may open the gates to the fort before killing all the mobs of city foes. After you clear the fort, the first objective will be counted as completed and you can complete the mission with remaining foes in the city. The extra foes sent to the fort from the Bonus are hostile towards all other enemies, even of the same kind. The bonus timer can be started before the cutscene depending on which foes you kill first. This will cause you to easily fail the bonus due to not enough time. The White Mantle and Mursaat foes that are supposedly spawned from the portal at the northernmost point of the mission actually appear in the clearing just south of the portal before running up to it and then starting their patrol route.",
+      "text": "King Jalis Ironhammer 有時會卡在任務起點附近的山丘上；發生時必須重新開始任務。有時接取額外目標後，第一名首領會留在城牆外，即使殺掉該敵群，後續敵人也不再出現；這種情況同樣必須重開。King Jalis 可能在城內敵群尚未清光時就打開堡壘大門。清完堡壘後，第一項目標仍會算完成，因此城裡還有敵人也能完成任務。額外目標派往堡壘的增援，會敵視其他所有敵人，連同類也不例外。依最先擊殺的敵人不同，額外目標計時可能在過場動畫前啟動，容易因時間不足而失敗。看似從任務最北端傳送門出現的 白斗篷 和 馬賽特，其實先在傳送門南側空地生成，再跑到傳送門，然後開始巡邏。",
+      "reason": "修正bonus為額外目標而非獎金、boss為首領而非老闆；區分兩種必須重開的卡關與城內留敵仍可完成的例外。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16592/sections/notes-1/blocks/notes-1-11/text",
+          "englishHash": "a1228c97fd9eeb65ac2448647d36d4e879ecc2ed9b9da203e7354192d46097d4",
+          "evidenceHash": "cf953d44b4cb20b9285f134dbc1ab107d7b95b3c1b7812ae740536615f248ad8"
+        }
+      ]
+    },
+    {
+      "source": "You will begin in an explorable version of Beknur Harbor and a countdown timer will start. Once the timer ends, the gates to the harbor will open and the first wave of Skale will rush in. A good tactic would be to bottleneck them in the opening of the gate with your melee fighters and hit them with AoE damage. This will kill off the lower level foes quickly and allow you to target the higher level ones. You need to be careful not to let them mob your casters and monks because with so many foes it is difficult for your casters to run away. Once the first wave starts, there will be constant waves of Skale until the quest ends, so be sure to have proper energy management and healing to endure the assault. The Skale Blighter can be particularly nasty because they carry Rotting Flesh and will spread disease quickly throughout your party. Consider bringing sufficient Condition removal to combat this. The last group to spawn will have Glug Klugg in it, finishing him and his small group will end the quest and you will be automatically returned to the Harbor.",
+      "text": "任務開始於 Beknur Harbor 的探索區版本，並啟動倒數計時。倒數結束後，港口大門打開，第一波 Skale 衝入。可讓近戰隊員堵在門口，配合範圍傷害，先迅速消滅低等級敵人，再集火高等級敵人。不要讓敵人包圍施法者和僧侶，因為敵人太多時，他們很難脫身。第一波開始後，Skale 會不斷來襲，直到任務結束；應準備適當的能量維持及治療能力，支撐整場攻勢。Skale Blighter 特別危險，因為會用 Rotting Flesh，迅速讓全隊感染疾病；可攜帶足夠的病症移除技能應對。最後一群敵人包含 Glug Klugg；擊敗他與同行的小隊後，任務完成，並自動將你送回港口。",
+      "reason": "核對倒數開門、持續波次及最後首領小隊全滅才完成；將Condition removal明確譯為病症移除並保留疾病來源技能。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25632/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "8d734b6e73cb892d249879e937c2bd7b1a13f36f788b65dfa2c9b4558afd800e",
+          "evidenceHash": "9e1bf9574123a9ace4ed7694f0b9bc26b27e2b9a3fcb31439d0756a6301ec538"
+        }
+      ]
+    },
+    {
+      "source": "Luxons will attack from all sides, coming down the paths from the north, west and south. Take care not to let any Luxon Elementalists or Luxon Warriors slip through to the Tree Singers, as they can kill the Tree Singers quickly. Luxon Rangers are a comparatively minor threat. At six timed points during this stage, a Siege Turtle will approach from a side path, its arrival announced by Baron Mirek Vasburg. The order of arrival is west, south, north, south, north and west. They will start firing at the Tree Singers if they reach the small hills, marked with X on the map, but the Tree Singers can survive a minimal bombardment and the turtles will soon redirect their fire on a Kurzick team attacking them. Don't let the Luxon Rangers distract you from protecting the Grove - the turtles are the primary threat. Killing the rangers and the two turtles to the west will trigger the cinematic and arrival of the Afflicted. You can optionally leave the rangers and turtles alive to the north and south, as they become additional allies during the Afflicted attack.",
+      "text": "勒克森部隊會沿北、西、南三條道路來襲。不要讓勒克森元素使或戰士突破防線接近 Tree Singers，因為他們能迅速殺死 Tree Singers；勒克森遊俠的威脅相對較小。本階段會在六個固定時間點出現攻城龜，由 Baron Mirek Vasburg 宣告，來襲方向依序為西、南、北、南、北、西。攻城龜抵達地圖標示 X 的小丘時，就會朝 Tree Singers 開火。Tree Singers 能承受少量砲擊；攻城龜遭庫茲柯隊伍攻擊後，也很快會轉移火力。不要為了對付勒克森遊俠而分心，保護 Grove 才是重點，攻城龜是主要威脅。殺死西側的遊俠和兩隻攻城龜後，會觸發過場動畫，接著 Afflicted 抵達。可選擇留下北側、南側的遊俠和攻城龜，因為 Afflicted 進攻時，他們會成為額外盟軍。",
+      "reason": "修正抵達小丘的主體是攻城龜而非Tree Singers；逐項保留六次方向順序、西側兩龜觸發及北南留敵轉盟友。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:8469/sections/walkthrough-1/blocks/walkthrough-1-5-2/text",
+          "englishHash": "fe411216dc53254cb6851ecca302e86280ca243e867a005644c3fbb0b32d88c4",
+          "evidenceHash": "6edba4c51bc7e50a2cf650775b5627770a33dab0506ad4a5da1afb90539d2a51"
+        }
+      ]
+    },
+    {
+      "source": "When fighting Shiro Tagachi and the Undead Lich don't back too far away from the temple or your whole party will die. Undead Lich occasionally stays an ally. Lyssa's Muse in the end cinematic says \"You must make a choice a mortal can make\" While the text reads \"Only a mortal can make\". Sometimes, despite having killed the Lich, Shiro and all Margonites in the shrine area, the mission will not end. This forces you to redo the entire mission, despite having completed all requirements. This can happen when sending heroes/henchmen ahead to capture the shrines and aggroing Shiro or the Lich before the dialogue begins. Breaking aggro and waiting for the dialogue may be enough to avoid this. The way to avoid this is to recall all of your heroes/henchmen back to you, outside of the Temple, then run in as a group. Running into the Temple while your heroes/henchmen are already inside will result in the dialogue not triggering, which may result in the bug. Sometimes, the gates will not open, you will have to restart the mission if this happens.",
+      "text": "與 Shiro Tagachi 和 Undead Lich 交戰時，不要退離神殿太遠，否則全隊都會死亡。Undead Lich 偶爾會維持盟友狀態。結尾過場中，Lyssa's Muse 的語音是「你必須做出一個凡人能做的選擇」，字幕卻寫「只有凡人能做」。有時即使已殺死 Lich、Shiro 及神殿區所有 Margonites，任務仍不結束，必須整場重做。這可能發生在先派英雄或傭兵佔領神殿，並在對話開始前引到 Shiro 或 Lich 時；脫離交戰並等待對話，有時足以避開此問題。避免方法是先把所有英雄及傭兵召回神殿外自己身邊，再全隊一起跑進去。若英雄或傭兵已在神殿內，你才進去，對話就不會觸發，可能導致此錯誤。有時大門不會打開；若遇到這種情況，也必須重新開始任務。",
+      "reason": "去除Shiro前的樣版殘留與被譯成白的錯誤，保留全隊死亡距離、盟友異常、語音字幕差異及完整防卡關進場順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:1253/sections/notes-1/blocks/notes-1-6/text",
+          "englishHash": "e977a8d2e2fd3dabdfebaa9b28338f437582932de8ae1805a6541525906fe466",
+          "evidenceHash": "47de11e40359c3b89880eea4a738fb98e08952af6a867fab88ad99e8503bb5f6"
+        }
+      ]
+    },
+    {
+      "source": "Killing all three members of Goss Aleessh's group will trigger a cutscene, where all allies including the Hero are teleported to where Aleessh originally patrols. Have your team utilize the slow totem to lure the last remaining member away from the bridge and enter the fortress. Once inside, before making the Ghostly Hero claim the altar, flag your H/H outside the fortress in preparation to kill Aleessh's team's remaining foe. Once the Hero begins to claim the altar and the timer begins, kill the remaining team member as quickly as possible before the enemies begin to surround the Ghostly Hero at the altar. Doing so will teleport the Ghostly Hero outside the fortress via the cutscene trick. Once outside the fortress, talk to the Hero to make him stay (safe spot). Now you have over nine minutes to complete the bonus while ensuring mission completion at the same time. The Ghostly Hero can remain alone and will be completely safe because the mission script sends the foes to the altar, not to the Hero.",
+      "text": "殺死 苟斯艾歷士 小隊全部三名成員後會觸發過場動畫，將所有盟友（包括 英雄之魂）傳送到 苟斯艾歷士 原本巡邏的位置。先利用緩速圖騰，把最後一名敵人引離橋樑，再進入堡壘。進堡後、讓 英雄之魂 佔領祭壇之前，先插旗將英雄與傭兵留在堡壘外，準備殺掉 苟斯艾歷士 小隊最後一人。英雄之魂 開始佔領祭壇、計時啟動後，應在敵人包圍祭壇上的他之前，盡快殺死最後一名敵人，利用過場動畫把 英雄之魂 傳送到堡壘外。出去與他交談，讓他停留在安全位置。如此就有超過九分鐘可完成額外目標，同時確保主線任務成功。英雄之魂 可獨自留在外面，完全安全，因為任務指令會把敵人送往祭壇，而非送到他身邊。",
+      "reason": "核對三名全殺觸發傳送、留下最後一人至計時後擊殺的順序；保留超過九分鐘、安全點與敵人前往祭壇而非NPC。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:14511/sections/walkthrough-1/blocks/walkthrough-1-10-2/text",
+          "englishHash": "9d253c46d24b8963843bd9fb9385bbd3651b041ddce8d08ca11ca4e256a1b7f0",
+          "evidenceHash": "bf9feb94a2a53e2d2dfc2b5cbfed80115b93175429029a39af08de84dc00503b"
+        }
+      ]
+    },
+    {
+      "source": "Level 2: Follow the passage down and east through some grawl, and as you turn to the north, you will see a vast chamber full of grawl and some patrolling Charr groups. Carefully cross to the north side of the chamber, pulling groups and keeping an eye on their patrol routes. Head for the western stairs on the north side, leading up to a room with more Shard Elementals and crystalline ground, then head directly north to encounter the first of three Charr patrols. Each patrol consists of one Charr Patrol Leader and a pair of Charr Patrol Stalkers. The stalkers are in a separate group and can easily be engaged separately from their leaders. Once you have killed this patrol, continue north past some more Shard Elementals to a passage leading to a crystal gate, where you will find the second patrol. Finally, head east past some oakhearts and ironhearts to find the third patrol in the northeast corner of the dungeon. Once all three patrols are dead, map travel back to Piken Square to claim the rewards.",
+      "text": "第 2 層：沿通道下行向東，穿過一些 grawl；轉向北後，會看見聚集大量 grawl 和幾隊夏爾巡邏隊的巨大房間。小心逐群引怪穿越到北側，並留意巡邏路線。走北側偏西的樓梯上去，進入有更多 Shard Elementals 及結晶地面的房間，再直接向北，遇到三支夏爾巡邏隊中的第一支。每隊由一名 Charr Patrol Leader 和兩名 Charr Patrol Stalkers 組成。Stalkers 屬於獨立敵群，容易與隊長分開交戰。殺掉第一隊後，繼續向北，經過更多 Shard Elementals，進入通往水晶大門的走廊，在此找到第二隊。最後向東，經過 oakhearts 和 ironhearts，在地城東北角找到第三隊。三支巡邏隊全滅後，使用地圖旅行返回 Piken Square 領取獎勵。",
+      "reason": "修正三支巡邏隊被寫成三名及自動返回的誤解；保留每隊1隊長加2追蹤者、追蹤者可分拉與三處行進順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:320080/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "448fddeed9eb2d1290beee237b87b3b5d666958f747866e5d56ff06024acecfb",
+          "evidenceHash": "766de80e40e2921d1f50c8dd12e81789eb9e63a488d3a38a92989bb7fe836d2b"
+        }
+      ]
+    },
+    {
+      "source": "This strategy is especially useful for additional XP and Cartographer. If the other strategies are too stressful, it is possible to simply skip the intermediate cutscene towards the beginning by clicking the \"Skip\" button. This tactic ultimately leaves Rurik on the other side of the inaccessible area but unable to move, which prevents the timer from functioning. This will allow you to explore the other portions of the map that are otherwise difficult to reach within the allotted time frame. Upon entering the final section, you will notice that, on the path that Rurik would normally take, the Ascalon Refugees and Ascalon Soldiers that spawn will still be killed, but there will be no mission failure as a result. In order to access the hostile areas, you must first use the Gear Lever on two of three Lever Mechanisms. From there, simply pull the enemies to make exploration simpler. To end the mission, use the Gear Lever on the third and final Lever Mechanism as you normally would.",
+      "text": "這個策略特別適合取得額外經驗值與推進版圖稱號。若其他方法壓力太大，可在靠近開頭的中途過場按「Skip」跳過。這會使 Rurik 留在無法進入區域的另一側，且無法移動，因而讓計時器停止運作。如此就能探索原本難在時限內抵達的地圖區域。進入最後一區時，Rurik 原定路線上出現的 Ascalon Refugees 和 Ascalon Soldiers 仍會被殺死，但不會因此導致任務失敗。要進入敵方區域，必須先用 Gear Lever 啟動三個 Lever Mechanisms 中的兩個；之後逐群引出敵人，方便探索。要結束任務時，照常用 Gear Lever 啟動第三個、也是最後一個 Lever Mechanism 即可。",
+      "reason": "修正Cartographer為稱號與pull為引怪；保留跳動畫卡住Rurik、難民死亡不失敗及先二後三的機關完成條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:12260/sections/walkthrough-1/blocks/walkthrough-1-6-1/text",
+          "englishHash": "4448e3b7818a317c11fa6bbad8b70abfbeb9021d1851277aa08c0428f52f871e",
+          "evidenceHash": "32a6730a9e4455d3655c51fe4a66f5cf77e8eafdffb4b3c8abc3e0b24a26d048"
+        }
+      ]
+    },
+    {
+      "source": "At point 3, there will be a large number of Kurzicks underneath the Leviathan, who will begin to rush the caravan after a short delay. These foes consist mainly of warriors, so place the smoke canister amongst the Young Turtles again. A wave of Kurzicks will then come from the north, again containing mainly warriors. Dispatch these as normal, and move on to point 4. Here there will be two groups of Kurzicks waiting, one to the south and one to the west. Aside from the juggernauts, these foes all use ranged attacks, so you may want to place the smoke canister near one group and let the Siege Turtles take them out while your party focuses on the other. However, beware that near the end of this fight two more Kurzick groups will come from the north and the west with large numbers of warriors, and you will want to move the smoke canister to the center of the caravan. If this gives you trouble, leave the canister in the middle of the caravan at the beginning of the fight.",
+      "text": "在地點 3，Leviathan 下方會有大批庫茲柯敵人，稍候便會衝向商隊。他們主要是戰士，因此再次把煙霧罐放在 Young Turtles 之間。隨後北方也會來一波以戰士為主的庫茲柯敵人。照常消滅他們，再前往地點 4。那裡有兩群庫茲柯敵人，分別在南側及西側等候。除了 juggernauts，其餘敵人都使用遠程攻擊，因此可把煙霧罐放到其中一群附近，讓攻城龜消滅他們，你的隊伍則集中對付另一群。不過，戰鬥接近尾聲時，北方與西方還會各來一群帶有大量戰士的庫茲柯敵人；此時應把煙霧罐移到商隊中央。若覺得臨時移動太難，也可在戰鬥開始時就把罐子留在商隊中央。",
+      "reason": "修正dispatch為消滅敵群而非排程；保留地點3與4、各波方位、遠程群與戰士援軍差異及煙霧罐兩種放置方式。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:17278/sections/walkthrough-1/blocks/walkthrough-1-5-4/text",
+          "englishHash": "5f4410db2ae425bc35fcf5533c2e0f3f41d82cc6e5ebf42b5e432f7bc1618b15",
+          "evidenceHash": "b7c8ecf54c506358eccb2ebcf064fe7a5c39ea72c9b939f6977bce30a66db6cf"
+        }
+      ]
+    },
+    {
+      "source": "When working with heroes and henchmen, the player can be surrounded by Golems and be unable to move or fight after picking up the crystal. If this happens, try to have your heroes kill the golem or golems trapping you, and then escape quickly because new golems will respawn. If this strategy fails, the only solution is to restart the quest. Another strategy is to use the key while flagging your heroes farther North towards the other keystone and lead all the golems together to body block you in a line so you can run around them after you drop the stone. Then move your heroes to body block the golems while you pick up the key and run it to the other keystone. No deaths or well armored units required. Just ensure your body block of the golems doesn't put them in the archway or you will have to pick it up and pull them back and may die from the attempt. (Again, typing /resign will result in being taken to Blimm in Magus Stones, giving you the chance to start again.)",
+      "text": "使用英雄與傭兵時，玩家拿起水晶後可能被 Golems 包圍，無法移動或戰鬥。若發生這種情況，可讓英雄殺掉擋路的 Golems，再迅速逃出，因為新的 Golems 會重生。此法若失敗，就只能重開任務。另一個方法是使用鑰匙時，先插旗讓英雄往北、朝另一塊 keystone 移動，並引導所有 Golems 排成一線擋住你；如此放下石頭後就能繞過牠們。接著移動英雄，用身體擋住 Golems，你則拿起鑰匙，送往另一塊 keystone。這不需要犧牲隊員，也不需要高護甲單位。但要確保卡位不會讓 Golems 堵在拱門裡，否則就得再次拿起鑰匙，把牠們引回來，過程中可能死亡。（再次提醒：輸入 /resign 會將你送到 Magus Stones 的 Blimm 身邊，讓你重新開始。）",
+      "reason": "修正keystone被譯成梯形石、run被譯成執行及卡位主體；保留重生導致須迅速逃出、無須犧牲或高護甲與/resign重試。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66521/sections/walkthrough-1/blocks/walkthrough-1-6-3/text",
+          "englishHash": "d6eb54c16499f65b096a5e61965a3c7a4d2ebb05ef8c03b9c6dde2c1d626153d",
+          "evidenceHash": "745f98a4ccba237da1e3b1016ddaefe6ed5d007ed1509ddd7a50c94cf436cc8d"
+        }
+      ]
+    },
+    {
+      "source": "Speak with Second Spear Binah by the gate to Churrhir Fields to the South of First Spear Dehvad to gain access to Churrhir Fields. Follow Tactician Haj's directions in using flags to direct the Heroes to each Area when asked. The flags are located at the bottom of the compass. There is a flag for each individual Hero, as well as one for the entire group. By clicking on a flag, and then click on the compass, players can position the hero to this location. Tactician Haj commands the party to take Area One, Two and Three respectively. There are two very easy to dispose of Razorback Skale at Area Two and Three. When each area's \"bar\" changes from red to blue, the party controls that area. Once all three are captured, Tactician Haj directs the party to return to Area One. Disable the flags by double-clicking the flag button for that Hero or group, or the red icon with the white cross to the right of the hero flags. See First Spear Dehvad in the city for the reward.",
+      "text": "與 First Spear Dehvad 南方、Churrhir Fields 大門旁的 Second Spear Binah 交談，即可進入 Churrhir Fields。依 Tactician Haj 的指示，在要求時使用旗幟將英雄派往各區。旗幟位於羅盤底部，既有各英雄的個別旗幟，也有全隊旗幟。點選旗幟，再點羅盤上的位置，即可讓英雄前往該處。Tactician Haj 會依序要求佔領 Area One、Area Two、Area Three。Area Two 和 Area Three 有兩隻很容易擊敗的 Razorback Skale。各區進度條由紅轉藍，就表示隊伍已控制該區。三區全部佔領後，Tactician Haj 會要求隊伍返回 Area One。雙擊對應英雄或全隊的旗幟按鈕，或點選英雄旗幟右側帶白色叉號的紅色圖示，即可取消旗幟指令。最後回城找 First Spear Dehvad 領取獎勵。",
+      "reason": "保留NPC軍階英文身份，修正三區佔領被譯成三人被捕；核對個別／全隊旗幟、紅轉藍判定及取消指令的兩種方式。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:1266/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "f1a4f971dcc1d895f8634a37869fc1ef3980607ac9ed8013a26b4ee1229a6423",
+          "evidenceHash": "d9436bc64652c9856a8bc7f4e4cb32928bd6e60eb8c3b1a9f0a03bed21d5eb57"
+        }
+      ]
+    },
+    {
+      "source": "You start at the middle of the south side of this floor, and will need to follow the purple path on the map to the right. Head northeast until you reach a large chamber filled with ruins and Charr, then hug the left wall heading north until you can start heading west again. Pass under the bridge, being careful of any Charr above. Just after the bridge, you may want to take a short detour south to clear out the Charr atop another bridge you will be passing under later. Continue west and you will reach a large foundry area, where your goal is to reach one of the stairways leading up to the higher walkways to the southwest. There is a resurrection shrine nearby, and from there you should be able to see the Boss Key lying on the overlook further south. After picking up the key, return to the red path on the map to the right, and fight your way around to the Boss Lock, then to the large open area to the southwest where Maz Scourgeheart and his elementals await you.",
+      "text": "你從本層南側中央出發，需沿右側地圖標示的紫色路線前進。先向東北走，直到進入滿是遺跡與夏爾的大房間，再貼著左牆向北，直到能再次轉往西方。從橋下穿過時，小心橋上的夏爾。過橋後，可先往南短暫繞路，清掉另一座橋上的夏爾；稍後你會從那座橋下經過。繼續向西，抵達大型鑄造區，目標是找到其中一座樓梯，登上西南方的高架走道。附近有復活神殿，從那裡應能看見更南方高處平台上的 Boss Key。拿到鑰匙後，回到右側地圖的紅色路線，一路戰鬥繞到 Boss Lock，再前往西南方大空地，迎戰 Maz Scourgeheart 和他的元素生物。",
+      "reason": "修正地圖在右側被誤當成路線向右；保留紫路取鑰匙、紅路開鎖、預清第二橋及南北西方位順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:320073/sections/shared-quest:gww:320090-walkthrough-1/blocks/shared-quest:gww:320090-walkthrough-1-10/text",
+          "englishHash": "dae72e16e7b24c32b09092881da2e13d4ab459c647657a3715ccf95f98810627",
+          "evidenceHash": "1ffdc7a1ffef7762bedd8ccd7654586d6c518a6b93bbae1890aa08f93ddb9e34"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:320090/sections/walkthrough-1/blocks/walkthrough-1-10/text",
+          "englishHash": "dae72e16e7b24c32b09092881da2e13d4ab459c647657a3715ccf95f98810627",
+          "evidenceHash": "c4485224a2a837a8510a0db0402cc6ee4e55047f7c6f09f55ff4bb8d5c683913"
+        }
+      ]
+    },
+    {
+      "source": "The quest marker for objective 3 is misleading. The star is close to the exit, but the objective only updates when you get close to the Dungeon Lock. The gate before the exit from the tunnels has no collision, and can be passed through regardless of whether the lever has been pulled. After exiting the Forsaken Tunnels, the quest marker is placed in The Northlands. To complete the quest, travel to Piken Square (pre-Searing) and talk to Adept Mullenix. The player's dialogue lines will trigger multiple times if there is more than one player in the party with the quest active. It is possible to skip the second dialogue if the player goes through the trapped area with crystals to the right. If doing so, quest objectives won't properly update. If the player exits the area through the final portal, all quest objectives will be reset, forcing the player to go all the way back to the first entrance (having to go twice through the tunnels with respawned enemies).",
+      "text": "第 3 項目標的任務標記具有誤導性：星號雖靠近出口，但只有接近 Dungeon Lock 時才會更新目標。隧道出口前的大門沒有碰撞阻擋，不論是否拉下拉桿都能穿過。離開 Forsaken Tunnels 後，任務標記會指向 The Northlands；但要完成任務，應前往崩壞前的 Piken Square，與 Adept Mullenix 交談。若隊伍有不只一名玩家正在執行此任務，玩家對話會重複觸發。若走右側有水晶的陷阱區，可能跳過第二段對話，導致任務目標無法正確更新。若再從最後的傳送門離開，所有任務目標都會重設，迫使玩家一路返回最初入口，也就是必須再穿越敵人已重生的隧道兩次。",
+      "reason": "區分星號與實際更新位置，修正trapped area為陷阱區；保留最終傳送門重設全部目標及兩次穿越重生敵人的後果。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:320074/sections/notes-1/blocks/notes-1-5/text",
+          "englishHash": "feb309fd2da0ab2758471a7ff857b5ca8ba71d532352de3aace8cb73135353cd",
+          "evidenceHash": "1dc37a55f230511a5ade864074132979fcd81f656a022dc0a6c7788c351db91c"
+        }
+      ]
+    },
+    {
+      "source": "Miyuki is just south of The Marketplace, battling a single Jade Brotherhood member. Help her defeat and interrogate him. Search for more Jade Brotherhood Members and Peasants in Wajjun Bazaar. Depending on the NPC you speak to, some of the options will increase the progress bar more than the other options, while other options won't increase the progress bar at all. Jade Brotherhood Members have a higher effect on the bar than the peasants with one exception. If you ask Peasant 1, \"Who's your daddy?\" he tells you his father is Yon Ruino. Speaking to Yon Ruino will greatly increase the bar's progress. After you have found enough evidence, head towards the Jade Brotherhood headquarters on the dock north of Wajjun Bazaar. Defeat Meijun's party to finish the quest. Make sure that Miyuki follows you while you gather information, or you will not be able to finish the quest, as Miyuki tends to get stuck between the NPCs and gets left behind.",
+      "text": "Miyuki 就在 The Marketplace 南方，正與一名 Jade Brotherhood 成員交戰。協助她擊敗並盤問對方，然後到 Wajjun Bazaar 尋找更多 Jade Brotherhood 成員和農民。依交談的 NPC 不同，各選項增加的進度也不同，部分選項完全不增加進度。Jade Brotherhood 成員通常比農民提供更多進度，但有一個例外：若問 Peasant 1「Who's your daddy?」，他會說父親是 Yon Ruino；再與 Yon Ruino 交談，可大幅增加進度。證據收集足夠後，前往 Wajjun Bazaar 北方碼頭上的 Jade Brotherhood 總部，擊敗 Meijun 的隊伍即可完成任務。收集情報時，務必確認 Miyuki 一直跟著，因為她容易卡在 NPC 之間而掉隊；若她沒跟上，就無法完成任務。",
+      "reason": "修正progress bar被譯成酒吧；保留選項進度差、Peasant 1至Yon Ruino例外分支與Miyuki必須同行的完成條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:289099/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "8553f4710d5d4735df12460cdd2c81a1a173e4adf8844b98850b604a73969080",
+          "evidenceHash": "d47f80da249ac8ee3a0c7675d3eaa3055dcb032f8a279667ecf13447e8e24100"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:289250/sections/shared-quest:gww:289099-walkthrough-1/blocks/shared-quest:gww:289099-walkthrough-1-1/text",
+          "englishHash": "8553f4710d5d4735df12460cdd2c81a1a173e4adf8844b98850b604a73969080",
+          "evidenceHash": "eee7a0010414b01da838c2555710607fcf5086c11e8cf7e565f34394f98de151"
+        }
+      ]
+    },
+    {
+      "source": "On your way back to the western passage, pick up a Dwarven Powder Keg (bundle) or clear out the group of Charr near the weakened wall and then return for it. Your next goal is to acquire the dungeon key to advance to the next level. Crack the wall to your right and ignore the cracked wall in the chamber you enter. Take the right passageway that will lead to a group of Charr (led by a boss). After finishing them off, continue down the passage to meet Rragar Maneater and still more Charr. You can pull about half of them without aggroing Rragar. As you kill off the group, Rragar will take off leaving behind the key. Return back to the wall you've cracked open. Head north-west. Magma Blisters will appear in the piles of magma, which can cause Burning when stepped on. After killing the blisters, turn left (west) and go down the ramp (the first ramp is a dead end the second is a tunnel; can be easy to miss if your screen is dark.",
+      "text": "返回西側通道途中，拿一個 Dwarven Powder Keg（攜帶物）；也可先清掉脆弱牆壁附近的夏爾，再回頭拿火藥桶。下一個目標是取得地城鑰匙，前往下一層。先炸開右側牆壁，進入房間後，不必理會裡面的裂牆。走右側通道，會遇到一群由首領帶領的夏爾。清完後繼續前進，遇到 Rragar Maneater 和更多夏爾。可以先引出約一半的敵人，而不引到 Rragar。消滅該敵群時，Rragar 會離開並留下鑰匙。回到你先前炸開的牆，往西北走。岩漿堆中會出現 Magma Blisters；踩上岩漿會造成燃燒。殺掉 Magma Blisters 後，左轉向西，走下斜坡。第一條斜坡是死路，第二條才是隧道；螢幕太暗時很容易錯過。",
+      "reason": "修正right為右側而非正確、bundle為攜帶物及下一層被譯為等級；保留約半群可單拉、Rragar離開留鑰匙和第二斜坡路線。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:67860/sections/shared-quest:gww:66441-walkthrough-1/blocks/shared-quest:gww:66441-walkthrough-1-4-3/text",
+          "englishHash": "83f2686dfa8b165604e9db7f0e86683e4dc6b337be6f70f448d6588598b334dd",
+          "evidenceHash": "c78bfa240c4ba0c8ad2c9c7f935e333ba57116cee565be26f62a467fecc57475"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66441/sections/walkthrough-1/blocks/walkthrough-1-4-3/text",
+          "englishHash": "83f2686dfa8b165604e9db7f0e86683e4dc6b337be6f70f448d6588598b334dd",
+          "evidenceHash": "841102fc3e03389e2bd5bbf94ddf8fc21d4a2bc7cf6f8a34d6fd715dc0201737"
+        }
+      ]
+    },
+    {
+      "source": "A safer alternative is to retreat back to the cave exit until the Mursaat patrol has moved ahead of your party, follow them at a safe distance to avoid combat as they clear out the Stone Summit on the road. The Mursaat will split up at the first fork in the path, half the patrol will head east to engage Virag Bladestone, while the other half goes west, crossing a section of the road under catapult fire. Siege damage won't kill the Mursaat as they keep moving, but you can send in a hero or use a long-range weapon to kite the Mursaat, keeping them in the fire zone so the catapults can quickly finish them off for you. Repeat this process with the remaining Mursaat patrol when they reach the next area under catapult fire. Try to wait until they are well within the fire zone before you pull, if you do it too soon, they will follow you before the catapults can finish them, risking Evennie to be killed and failing the mission.",
+      "text": "較安全的方法是先退回洞穴出口，等 馬賽特 巡邏隊走到你方前面，再保持安全距離跟隨，讓他們清掉路上的 Stone Summit，避免自己交戰。馬賽特 會在第一個岔路分開：一半往東迎戰 Virag Bladestone，另一半往西，穿越投石機轟擊的路段。他們持續移動時不會被投石機殺死；可派英雄或使用遠程武器引誘他們，讓他們留在轟擊區，交由投石機迅速消滅。剩餘的 馬賽特 巡邏隊走到下一處轟擊區時，重複此法。應等他們深入轟擊區後再引怪；若太早出手，他們會在投石機殺死他們前追上來，可能殺死 Evennie，導致任務失敗。",
+      "reason": "將catapult明確譯為投石機，保留東西分隊、利用持續轟擊及太早引怪會危及Evennie並失敗的因果。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:6707/sections/walkthrough-1/blocks/walkthrough-1-6-1/text",
+          "englishHash": "07ff0e903c71b5c55bad586ca8c4a20aa94efbaa3286c24ac18c10641bdd2e31",
+          "evidenceHash": "a39bfc6d65358d73e422e7b5d59ca38e0d635ae7bf2187352c15921a2f6e0ce7"
+        }
+      ]
+    },
+    {
+      "source": "During this quest most of the normal bestiary are replaced by level 40 titans. Before tackling titan groups for the first time, it is important to know the correct order to kill the titans. Frost Titans spawn a Titan's Malice and an Icy Brute. Titan's Malice spawn a Titan's Heart and Icy Brutes spawn Dark Titans. Frost Titans are powerful AoE elementalists, but they should be tackled last because of the amount of enemies they spawn. Icy Brutes and Dark Titans pale in comparison to Titan's Malice, Panic mesmers that effectively shut down entire caster groups, and Titan's Heart, competent healers. Titan's Heart should be spiked down first because they make killing the other Titans difficult and they don't spawn any enemies upon death. Titan's Malice should then be taken out next and their spawn immediately afterwards. The Brutes and Dark Titans can be mopped up before targeting the Frost Titans and his respective spawns.",
+      "text": "本任務期間，大多數普通敵人會被 40 級泰坦取代。首次挑戰泰坦敵群前，務必了解擊殺順序。Frost Titans 死後會產生 Titan's Malice 和 Icy Brute；Titan's Malice 再產生 Titan's Heart，Icy Brutes 則產生 Dark Titans。Frost Titans 是擅長範圍傷害的元素使，但因死亡會產生更多敵人，應最後處理。Icy Brutes 和 Dark Titans 的威脅遠低於 Titan's Malice 與 Titan's Heart：前者是使用 Panic、能有效封鎖整群施法者的幻術師，後者則是強力治療者。先集中爆發傷害殺死 Titan's Heart，因為牠們會讓其他泰坦更難擊殺，而且死亡不產生新敵人。接著殺 Titan's Malice，並立即處理牠們產生的敵人。清掉 Icy Brutes 和 Dark Titans 後，再對付 Frost Titans 及其死亡後產生的敵人。",
+      "reason": "修正bestiary、Panic mesmers及spike的錯譯；完整保留40級、兩條死亡衍生鏈和治療者優先、Frost Titans最後的順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:281166/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "162643e35c28eba2ee71ae7a00928be0cb418d23ae470559bdf63d760ff52072",
+          "evidenceHash": "53add6a392f72f9317a8b7cdf0caa8113ab4cbbe49aa4ff99da555c9f212c00b"
+        }
+      ]
+    },
+    {
+      "source": "Next you must travel from there to the Great Margonite Temple (structure at the bottom left of the map) using the wurms. You will have to defeat all of the enemies in the temple, then destroy it. There will be a ton of Graven Monoliths, but with your wurms, it should be no problem. There will also be Abaddon Shrines lining the outside of the temple. You will need to use each shrine, with the Rune of DOOM that you got earlier in your inventory. When you use each shrine, five Graven Monoliths will always spawn. With them will be either zero, two or four Margonites as well, except in the first shrine on the right-hand side when you first enter the temple. On the left-hand side, the first four Shrines will have only Monoliths, the last two will have two margonites. On the right-hand side, the first shrine will have three Margonite bosses, the next three will have four margonites and the last two will have two margonites.",
+      "text": "接著利用 wurms 前往 Great Margonite Temple，也就是地圖左下方的建築。必須先擊敗神殿內所有敵人，再摧毀神殿。這裡有大量 Graven Monoliths，但騎乘 wurms 應不難應付。神殿外側排列著 Abaddon Shrines，背包內必須帶著先前取得的 Rune of DOOM，並逐一使用各個 Abaddon Shrine。每使用一座，都必定出現五隻 Graven Monoliths，另有零、二或四名 Margonites 同時出現；剛進神殿時右側第一座是例外。左側前四座只有 Monoliths，最後兩座各另有兩名 Margonites。右側第一座另有三名 Margonite 首領，接著三座各另有四名 Margonites，最後兩座各另有兩名 Margonites。",
+      "reason": "修正Graven Monoliths被當成墓碑或石材；逐座核對固定五隻與額外0／2／4名、右側首座三首領例外及先清敵再摧毀。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25485/sections/walkthrough-1/blocks/walkthrough-1-4/text",
+          "englishHash": "2789ef1ca6d4ed52326f5b40d333d91398a0c0c3bfea9e2b44a0931aa98f973a",
+          "evidenceHash": "4306346422b5fce4810b1ec7e1e2eacb7ddc049e1be46ee77e70cecb9bf5bb0c"
+        }
+      ]
+    },
+    {
+      "source": "Remember that the mission becomes easier the more generals you kill as they will no longer summon more troops, so be assertive even if it means you suffer a few losses. If you send the Vabbians to the east gate (you should) then you can work from west to east, i.e. starting with General Doriah (the warrior). This will mean you have less running to do, and by the time you get to General Tirraj you should have a sizeable Vabbian force left to help you out (and absorb some of Tirraj's ridiculous spike damage). Go in for the kill - take out the priest (if there is one) and then the general - massive spike damage is your best friend, so a high-damage assassin build, air elementalist (or AoE fire elementalist if you've got snares) and mesmers are effective. When you go in for the kill, commit to it. Make sure you've got the energy reserves to get it, then you can retreat to regenerate before finishing off the group.",
+      "text": "將軍殺得越多，任務就越容易，因為死去的將軍不會再召來部隊；即使會有少量損失，也應積極進攻。建議將Vabbian 盟軍派往東門，讓你由西往東推進，先對付戰士 General Doriah。如此能減少往返路程；等你打到 General Tirraj 時，應還有相當數量的Vabbian 部隊可以支援，並分擔 Tirraj 極高的集中爆發傷害。突擊時，先殺祭司（若有），再殺將軍。高額集中爆發傷害最有效，因此高傷害刺客配置、風系元素使、幻術師都很適合；若有緩速手段，範圍火系元素使也有效。決定突擊就應全力完成擊殺，並預先確保能量足夠；殺掉主要目標後，再撤退恢復能量，最後清掉剩餘敵群。",
+      "reason": "修正general被譯成一般、spike為集中爆發傷害及snares為緩速；保留東門派援、西至東順序與先祭司後將軍。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:4552/sections/walkthrough-1/blocks/walkthrough-1-6/text",
+          "englishHash": "07f9c948eddee82ef3c643c1a789a5d786cd3cfa124f6fcfb3fb78d40ead673f",
+          "evidenceHash": "29eb7fa859900be30a2b3e40a0bdce8a55d2b9e0ae3286b02fdf58c8f9d83225"
+        }
+      ]
+    },
+    {
+      "source": "Armed with this knowledge on how to beat the Titans, fight your way through Tasca's Demise to Mineral Springs. Take either the upper or lower path, both have many Titan mobs to fight through. Note that many mobs patrol, and it is easy to over-aggro and wipe. Spawns of patrolling groups do not patrol with them, so you can pick off those smaller groups at your leisure. The Avicara also fight the Titans, but they are seriously overmatched, and need your help to defeat the Titans. Eviro Sectus's group is larger than most other mobs, with several Frost Titans. If you wipe, his group will patrol back and forth in a small part of the canyon area, allowing you to kill the lone Titans that spawn. The spawns don't have to be killed to complete the quest, just the original Titans in Eviro's group. DP removal is very helpful for the quest as a whole because it is very easy to wipe. If you have cons, they are also helpful.",
+      "text": "了解擊敗泰坦的方法後，從 Tasca's Demise 一路戰鬥前往 Mineral Springs。上路與下路都能走，兩條路都有許多泰坦敵群。多數敵群會巡邏，很容易同時引到太多敵人而滅團。巡邏敵群死亡後衍生的敵人不會跟著巡邏，因此可從容逐一清掉這些小群。Avicara 也會攻擊泰坦，但實力相差懸殊，需要你協助才能取勝。Eviro Sectus 的隊伍比大多數敵群更大，包含數隻 Frost Titans。若滅團，他的隊伍會在峽谷一小段範圍內往返巡邏，讓你有機會擊殺落單的衍生泰坦。完成任務只需殺光 Eviro 隊伍原本的泰坦，不必殺掉衍生的敵人。整個任務很容易滅團，因此移除死亡懲罰很有幫助；若有增益消耗品，也能派上用場。",
+      "reason": "修正cons被譯為缺點、wipe為滅團及DP為死亡懲罰；區分原始泰坦與死亡衍生敵人，保留只殺原始隊伍即可完成。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:281166/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "bc2f294af465b43163febc809367292aca46164875e2908623358312e7ed29c5",
+          "evidenceHash": "53add6a392f72f9317a8b7cdf0caa8113ab4cbbe49aa4ff99da555c9f212c00b"
+        }
+      ]
+    },
+    {
+      "source": "At point #4, clear out the small band of Kurzicks at the entrance to the Leviathan Pits. Now work your way north to point #6, going through point #3 or point #5, depending on which you have not cleared yet. There are two waves of Kurzicks at point #6 together with several juggernauts. Once they are all dead, head up to point #7 and talk to Petra to get a smoke canister. Drop it in the middle of the Young Turtles to protect them against the small incoming wave of Kurzicks. Once those are clear, the turtle caravan will start heading out. At point #1, a small band of Kurzicks will still spawn. Use the smoke canister to quickly deal with them. That would be the last you will see of Kurzicks. Escort the turtle caravan to the gates to trigger the cinematic. Remember to drop a smoke canister at the gates and fight the Afflicted at the gates. With the Siege Turtles' support, the Afflicted will go down quickly.",
+      "text": "在地點 4 清掉 Leviathan Pits 入口的小群庫茲柯敵人，再向北前往地點 6；途中依尚未清除的路線，選擇經過地點 3 或地點 5。地點 6 有兩波庫茲柯敵人及數名 juggernauts，全部殺光後，前往地點 7，與 Petra 交談取得煙霧罐。將罐子放在 Young Turtles 中央，保護牠們抵禦接近的小波庫茲柯敵人。清完後，烏龜商隊便開始出發。地點 1 仍會出現最後一小群庫茲柯敵人，使用煙霧罐迅速消滅他們。接著護送商隊到大門，觸發過場動畫。記得在大門放下煙霧罐，並在門口迎戰 Afflicted；有攻城龜支援，就能很快清掉敵人。",
+      "reason": "逐站核對4→6經3或5→7→1→大門，保留兩波與最後小群的數量關係、取得及放置煙霧罐和過場後敵種。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:17278/sections/walkthrough-1/blocks/walkthrough-1-7-5/text",
+          "englishHash": "beab3eb07e16d26833a3238c9ae19e83fa609ffb725fa04d21b054de4be25548",
+          "evidenceHash": "b7c8ecf54c506358eccb2ebcf064fe7a5c39ea72c9b939f6977bce30a66db6cf"
+        }
+      ]
+    },
+    {
+      "source": "Single Afflicted Rangers patrol this circular room clockwise and counter-clockwise. They, as well as the pairs of Temple Guardians protecting the bridges to the center, do not need to be killed to finish the mission. However, do take care of those patrols that might aggro on your backline while engaging the boss group. While fighting the last group, it is advisable to have your melee fighters pull the big enemy group onto the bridge and body block them there, thus protecting your backline. All enemies in the center need to be killed to finish the mission (even those that might not initially aggro with the rest of the group) - killing Vizu does not automatically end the mission. Also, watch out for powerful AoE. Sometimes your group will get mobbed and cannot advance beyond the bridge, and will be torn to pieces by AoE in seconds, try flagging heroes and henchman around for less damage to your party.",
+      "text": "單獨行動的 Afflicted Rangers 會沿圓形房間順時針及逆時針巡邏。他們和守在通往中央各座橋上的成對 Temple Guardians，都不是完成任務必殺的目標。不過，與首領敵群交戰時，仍要留意可能攻擊後排的巡邏敵人。對付最後一群敵人時，建議讓近戰隊員把大群敵人引上橋，利用身體卡位擋住，以保護後排。要完成任務，必須殺光中央所有敵人，包括一開始可能未隨整群進入戰鬥的敵人；只殺 Vizu 不會自動結束任務。也要小心高傷害的範圍攻擊。隊伍有時會被敵人包圍，卡在橋上無法前進，幾秒內就被範圍傷害消滅；可用旗幟分散英雄與傭兵的位置，減少全隊受到的傷害。",
+      "reason": "區分外圍巡邏與橋衛非必殺、中央全體必殺；修正Temple Guardians成對群體及分散插旗避免橋上範圍滅團。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:6582/sections/walkthrough-1/blocks/walkthrough-1-23/text",
+          "englishHash": "3908fb7e3201448c8bdbe2efc0710f3f3c7dedd588161838e0753c7a6eae014d",
+          "evidenceHash": "18091950a0feeec2b50aa9e17caf3f292f2c2e0b0367125c2709bb02c3464159"
+        }
+      ]
+    },
+    {
+      "source": "The goal of this mission is to reach Zen Daijun temple to find the source of the plague and extinguish it. Master Togo and Headmaster Vhang will help you through as allies and Master Togo must survive or the mission will fail. Follow Master Togo a short walk and you will see Miasma (purplish glowing air), an environmental effect that spreads between creatures of the same kind and cause -5 health degeneration. To counter this hazard, summon Zunraa (the guardian of this valley) by ringing the bell at any Shrine of Zunraa (wiki map: blue dots) found through the area. This ally can be called again if he is slain (but you can only have one at a time) and possesses the skill Blessing of the Kirin, used to cure your team of Miasma. Always pull enemies away from the Miasma to fight them or rush through it and fight on the other side. Avoid engaging two groups at the same time, never let them outnumber you.",
+      "text": "本任務目標是抵達 Zen Daijun 神殿，找出瘟疫源頭並將其消滅。藤吾大師 與 Headmaster Vhang 會作為盟友同行；藤吾大師 必須存活，否則任務失敗。跟著他走一小段路，就會看見紫色發光霧氣 Miasma。這種環境效果會在同類生物間傳播，造成 5 格生命衰減（-5）。要應對此危險，可在區域內任一 Shrine of Zunraa 敲鐘，召喚山谷守護者 Zunraa；Wiki 地圖以藍點標示神殿位置。他被殺後可再次召喚，但同時只能有一名。Zunraa 的 Blessing of the Kirin 能清除全隊的 Miasma。應將敵人引離霧氣再戰鬥，或衝過霧區到另一側迎戰。避免同時對付兩群敵人，也別讓敵人在人數上壓過你方。",
+      "reason": "核對Master Togo必須存活、同類傳播與-5生命衰減；保留敲鐘召喚、同時一名、死亡可重召及清除Miasma的能力。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:6576/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "0829e211453eaa096de7a0c9cb4e9f79f9a55bbf169703ecc37c2bfb807b7db1",
+          "evidenceHash": "552c572e0d6da0ac64510343733ee6099541948725b4e12959736118d163f4b1"
+        }
+      ]
+    },
+    {
+      "source": "Leave from the Sunspear Sanctuary, through the Command Post into Jahai Bluffs. From there keep going east until you reach the Fortress of Jahai. There are a large number of foes within the fort so it is advised to bring a longbow for pulling. Also area of effect skills are of great use. Skills like Panic, Spiteful Spirit, and Searing Flames can greatly help turn the odds. A minion master is also valuable in taking advantage of the number of corpses, but be careful as they can overaggro. The boss is at the very top of the fort and should not be too much of a problem if your party makes it to him without much difficulty. Speed tip: It is not necessary to fight all the Kournan foe and go to the top of the hill, if you aggro the Admiral from outside the fort - before crossing the bridge. Killing him is possible with skills that will ignore walls. This can avoid 6 or 7 mobs of Kournan.",
+      "text": "從 Sunspear Sanctuary 出發，經 Command Post 進入 Jahai Bluffs，再持續向東，直到 Fortress of Jahai。堡內敵人很多，建議帶長弓引怪。範圍技能也很實用，例如 Panic、Spiteful Spirit、Searing Flames，能大幅扭轉戰局。召喚亡靈僕從的角色也可利用大量屍體，但要小心僕從引到過多敵人。首領位於堡壘最高處；若隊伍能順利打到那裡，對付他應不會太難。加速技巧：過橋之前，可從堡壘外引到 Admiral，再用不受牆壁阻擋的技能殺死他。如此不必清光Kournan 敵人或登上山頂，可避開六至七群Kournan 敵人。",
+      "reason": "修正首領被譯為老闆、六七群被譯成六七隻及minion master身份；保留過橋前堡外引首領、技能穿牆攻擊的捷徑條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:209242/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "d91eeaa01abbde259ac12568295b9ebbdee1482c32793bc64251f2b74ab36c37",
+          "evidenceHash": "a11f8276138220781510866faf09166837e89b95445d9c7ffb8feb0cf7c446de"
+        }
+      ]
+    },
+    {
+      "source": "When you reach the central chamber of the inner temple, it is wise to kill off the 5 paired groups of warriors that surround the chamber, as they will run to join the fighting later. Maultooth will activate a pair of Charr Effigies. They are dangerous elementalists and lethal against unprepared parties, it is easier to kill them with Pain Inverter. Try to pull them from the side so that the two of them won't activate their highly damaging skills at the same time. Once pulled one at a time, the party can focus on one of the two sides of Charr, and then finally go for the center. Be aware that two Charr Flameshielders and two Charr Axemasters may also join the fray. Maultooth's group of two other Charr can be kept out of the fight with careful pulling. Take them on only after killing the Charr Effigies' group. Focus on Maultooth and interrupt his skills and he will go down quickly.",
+      "text": "抵達內殿中央房間後，建議先清掉周圍五組成對出現的戰士，因為他們稍後會趕來參戰。Maultooth 會啟動兩座 Charr Effigies；牠們是危險的元素使，能重創毫無準備的隊伍，使用 Pain Inverter 較容易擊敗。嘗試從側邊引怪，避免兩座同時發動高傷害技能。逐一引出後，可先集中清掉其中一側的夏爾，再清中央。注意另外兩名 Charr Flameshielders 與兩名 Charr Axemasters 也可能加入戰鬥。小心引怪，可讓 Maultooth 與另外兩名夏爾組成的小隊暫時不參戰；等清掉 Charr Effigies 的敵群後，再對付他們。集火 Maultooth 並打斷其技能，就能迅速擊敗他。",
+      "reason": "核對五組各成對、兩座雕像、兩名Flameshielders及兩名Axemasters；修正focus為集火並區分Maultooth加兩名夏爾小隊。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66440/sections/walkthrough-1/blocks/walkthrough-1-5/text",
+          "englishHash": "4fdd1d1af4481b16022d5c086483fc52fe48fc6876c450a92c4c59c2fd73cce4",
+          "evidenceHash": "949b77d930086dd8ab5f887903e4a002ccd505d8fc6195532766b68a26e672ac"
+        }
+      ]
+    },
+    {
+      "source": "Close to the start of the level, a massive snowball will be sent towards you but can be easily avoided by keeping close to the right hand wall. Go southwest through the opening and follow the map to the Dwarven Powder keg station - grab a keg and blow up the southern door. Follow the right wall, and then kill the Havok-kin you encounter, who drops a key. Blow up the ice wall with the keg, kill the Jotun group, and then unlock the gate with the key. Either cross the near bridge if it is down, or head north to the other bridge to cross the chasm. There will be groups of Vaettir that popup. Continue south and then pull the lever to lower the bridge - cross it and pickup the key (be careful not to harm yourself by triggering the Ice Jet traps). More Vaettir spawns will appear on the cleared path after pulling the lever. Backtrack and unlock the gate, and then continue to the portal.",
+      "text": "本層起點附近會有巨大雪球滾向隊伍，貼近右牆即可輕鬆避開。穿過開口往西南走，依地圖前往 Dwarven Powder Keg 補給點，拿火藥桶炸開南門。沿右牆走，殺掉遇到的 Havok-kin，取得掉落的鑰匙。用火藥桶炸毀冰牆，清掉 Jotun 敵群，再用鑰匙開門。若附近的橋已放下，就直接過橋；否則向北走另一座橋跨越深谷。途中會有 Vaettir 伏兵。繼續往南，拉動控制桿放下橋樑，再過橋拿鑰匙，小心別觸發 Ice Jet 陷阱而受傷。拉桿後，已清過的路線會再出現更多 Vaettir。原路返回開鎖，再繼續前往傳送門。",
+      "reason": "將bridge down修正為橋已放下而非倒塌；保留兩次鑰匙、火藥桶開路、拉桿後新伏兵及Ice Jet陷阱。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63690/sections/shared-quest:gww:64057-walkthrough-1/blocks/shared-quest:gww:64057-walkthrough-1-2/text",
+          "englishHash": "7a0ace90f6b9235ed1e1a6086d90bad5feb28caedb8a7d95dda21ef11eef5222",
+          "evidenceHash": "bcda8e1809c5638f137395a99f3946b3c6765ba7098ad8aaf26d4d2542fac7bf"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:64057/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "7a0ace90f6b9235ed1e1a6086d90bad5feb28caedb8a7d95dda21ef11eef5222",
+          "evidenceHash": "82eb86fd39cbc8e5a332716195866c32d47c7f71f65d443f5286abf68a214daf"
+        }
+      ]
+    },
+    {
+      "source": "Once you're in Pockmark Flats, head east and follow the path. You'll encounter a Crimson Devourer or two along with some Flash and Shatter Gargoyles and perhaps a Storm Rider or two. Head north until you reach the aqueduct/series of arches and head east, following the structure. You may have to fight some Wind Riders, Hulking Stone Elementals, and a Stone Elemental, but fight the Riders and the Elementals separately and you shouldn't have too much of a problem. Stick with the path and follow it southeast. You'll reach a point where you can take the first path north, but keep heading down until you reach the shoreline and follow that north. You'll have to follow a winding path up northeast, but after you crest the hill, Footman Quinn will be waiting for you (the green indicator on the second map). Alternatively, you can travel south from Serenity Temple through Pockmark Flats.",
+      "text": "進入 Pockmark Flats 後，沿道路向東走，會遇到一兩隻 Crimson Devourers、一些 Flash Gargoyles 和 Shatter Gargoyles，也可能有一兩隻 Storm Riders。往北走到水道橋及連續拱門處，再沿建築向東。途中可能須對付 Wind Riders、Hulking Stone Elementals 和 Stone Elemental；將 Riders 與元素生物分開交戰，應不會太難。沿道路繼續往東南。途中會遇到第一條向北的岔路，先不要轉入，繼續往下走到岸邊，再沿岸向北。接著沿蜿蜒道路往東北上山，越過山頂後，就能找到等候的 Footman Quinn，也就是第二張地圖的綠色標記。另一條路線是從 Serenity Temple 向南，穿越 Pockmark Flats。",
+      "reason": "補齊舊譯多段未翻譯英文及漏掉的水道橋轉向；保留一兩隻敵人數量、略過首個北岔路、沿岸北上和替代出發點。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:10454/sections/walkthrough-1/blocks/walkthrough-1-6-2/text",
+          "englishHash": "bc0811a515473c3780a0dcc436eb4c5bfe96c3e4925b52e8eb148c2c686cdf78",
+          "evidenceHash": "996853c82feca0b8ba97878de562d156455b1a6bea6000febfb602c752fc1501"
+        }
+      ]
+    },
+    {
+      "source": "Either quickly kill the Keymaster of Murakai, or follow it to the location of the dungeon floor map and kill it. The Keymaster will drop the dungeon key when slain. Proceed around the central chamber to the western side of the level. After unlocking the locked door, wait for the Murakai's Steward to finish speaking and slowly pull as many popups as possible from the room. Stay outside the range of the poison darts before killing the Steward and his group at the hill top. With his dungeon key backtrack to the first ramp and proceed north through a nearby tunnel which will take you to the northern side of the main chamber. Clear any undead along the way and run up the northern stairway to the boss door as fast as possible to minimize damage from the fire darts. It is not recommended to run through the center of the chamber as there are a lot more fire darts to contend with.",
+      "text": "可立即殺死 Keymaster of Murakai，也可跟著牠到地城樓層地圖的位置再殺。牠死後會掉落地城鑰匙。繞過中央房間，前往本層西側，開啟上鎖的門。等 Murakai's Steward 說完話，再慢慢把房內能引出的伏兵盡量引出。對付山丘頂端的 Steward 及其敵群時，應站在毒鏢射程外。取得牠的地城鑰匙後，回到第一條斜坡，穿過附近隧道向北，到主房間北側。清掉沿路不死生物，再盡快衝上北側樓梯抵達首領大門，以減少火鏢傷害。不建議穿過房間中央，因為那裡的火鏢更多。",
+      "reason": "修正伏兵被譯為彈出視窗及拿鑰匙回頭路線；保留兩次取鑰匙、等Steward對話、毒鏢射程外迎戰及北側避火鏢。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66993/sections/shared-quest:gww:66442-walkthrough-1/blocks/shared-quest:gww:66442-walkthrough-1-6-1/text",
+          "englishHash": "9d0d12bf34d6c34d794c76a502a94d384af73b7c825aeeba3fd53c71083caaf6",
+          "evidenceHash": "84d6fdb4ccc579fe0e0a8a991b0998bf9c4b68dc7b70c11b726bbcb73c37a40a"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66442/sections/walkthrough-1/blocks/walkthrough-1-6-1/text",
+          "englishHash": "9d0d12bf34d6c34d794c76a502a94d384af73b7c825aeeba3fd53c71083caaf6",
+          "evidenceHash": "4f86a61a7d47356085396ded23f09902fcdcd850423f98138d483e302e2af1d0"
+        }
+      ]
+    },
+    {
+      "source": "Head towards (1) on the map and you will see a path leading up with Mandragors patrolling down. After reaching the path Dunkoro will suggest you go to the western exit. Do not walk on the path at all as this can mean the failure of the objective, this applies to minions, heroes and henchmen. If the Mandragors are patrolling down when you reach the path, wait for them to make it to the water before engaging them to ensure safety of this bonus. The success of this suggestion is often confirmed when you reach the waterfall. You do not have to actually hear this suggestion to get credit for it, so feel free to simply head past the waterfall to begin with; however, if the suggestion does not update, you may have to go back over to the path to get Dunkoro to suggest anyway, just flag your party under the waterfall and go and get the suggestion yourself to risk no mistakes.",
+      "text": "前往地圖上的 1，會看見一條上坡路，Mandragors 正沿路向下巡邏。抵達路口後，Dunkoro 會建議改走西側出口。任何隊員都不要踏上這條上坡路，亡靈僕從、英雄與傭兵也一樣，否則可能使額外目標失敗。若抵達時 Mandragors 正往下走，等牠們到水中再交戰，確保額外目標安全。到達瀑布時，通常就能確認這項建議已算完成。其實不必親耳聽到建議也能獲得完成判定，因此一開始就直接經過瀑布也可以。不過，若目標沒有更新，可能仍須回路口讓 Dunkoro 提出建議；此時先插旗將隊伍留在瀑布下，再獨自前往觸發，以免隊員誤入上坡路。",
+      "reason": "明確禁止踏入的是上坡路，且包含僕從、英雄與傭兵；保留等巡邏下水、無須聽到對話也能判定及未更新時獨自補觸發。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:3608/sections/walkthrough-1/blocks/walkthrough-1-6-1/text",
+          "englishHash": "ead15ab174b40db67a35a482e3581ac50a667b57c491369de390e225b1fb70ba",
+          "evidenceHash": "ac2c54c6eb262e34f80ce1d830670e22929028b40d47198bd8b7758592129bbc"
+        }
+      ]
+    },
+    {
+      "source": "After leaving from The Marketplace head east. You will encounter two groups of Am Fah after crossing the second of two bridges (at point 1 on the wiki map). Try to engage only one group at a time, but don't worry, if your party wipes you will be resurrected nearby. If you hug the left side of the bridge as you cross it you have a good chance to not aggro the second group. After defeating the two groups of Am Fah continue to head east. You will come into contact with two groups of Am Fah, with a more manageable placement, as well as a statue of Balthazar (point 2) that you can kneel in front of while Favor of the Gods is active to acquire Morale Boosts and blessings. After killing the Am Fah enter a small alcove to the east. Once inside you will encounter Chung, the Attuned (point 3). As you approach Chung more enemies will drop from above, so be ready for a fight.",
+      "text": "從 The Marketplace 出發後向東走，過第二座橋後，會遇到兩群 Am Fah，也就是 Wiki 地圖的地點 1。盡量一次只對付一群；即使滅團，也會在附近復活。過橋時貼著左側走，較有機會不引到第二群。擊敗兩群後繼續向東，又會遇到兩群位置較易分開應對的 Am Fah，以及地點 2 的 Balthazar 雕像。Favor of the Gods 生效時，可在雕像前跪下，取得士氣提升及祝福。殺掉這裡的 Am Fah 後，進入東邊的小凹室，找到 Chung, the Attuned，也就是地點 3。接近 Chung 時，會有更多敵人從上方落下，務必準備迎戰。",
+      "reason": "修正滅團被寫成隊伍消滅玩家、Chung被誤換為激戰；保留兩次各兩群、過橋貼左、眾神恩寵限定的雕像祝福。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:9902/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "a6377f4baf048aba0822b6539a12809b1697778b107328bc4b6e551b73ad5e61",
+          "evidenceHash": "5b32f0011f44a87bf844e84a8f2e900a6afdc903d411bde30e55e47fde147711"
+        }
+      ]
+    },
+    {
+      "source": "This mission is one long trek through the jungle, with confusing branching paths and a wide variety of enemies along the way. Start out heading north and join a pair of White Mantle Knights heading into a clearing. Here you will meet the first of several Entangling Roots. When approached, these creatures will trigger the appearance of a gate of vines at each entrance to the clearing, cutting off your retreat and potentially stranding party members outside. They are also surrounded by hidden spawns including multiple Life Pods, which can make killing them a chore even with the White Mantle's help. Consider keeping back any warriors in the group to avoid triggering all of the popups at once. The vine gate does not block line of sight, and is not triggered by pets, minions, or your White Mantle allies. All gates disappear as soon as the Entangling Roots is killed.",
+      "text": "這個任務是一段漫長的叢林跋涉，沿途岔路繁雜、敵人種類眾多。先向北走，跟著兩名 白斗篷騎士 進入空地，會遇到本任務數隻 Entangling Roots 中的第一隻。靠近牠時，空地各入口會出現藤蔓門，切斷退路，也可能把隊友隔在外面。牠周圍還有包含多隻 Life Pods 的伏兵，即使有 白斗篷 幫忙，也可能難以擊殺。可先讓隊伍中的戰士退後，避免一次觸發所有伏兵。藤蔓門不會阻擋視線，寵物、亡靈僕從及 白斗篷 盟友也不會觸發它。殺死 Entangling Roots 後，所有藤蔓門便會消失。",
+      "reason": "修正隱藏敵群被譯成生成點、popups為伏兵；保留兩名盟軍、門隔離隊員、不擋視線及三類不會觸發者。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15268/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "c675dafadc86e72cae34805750a7eeb3d7b798b83cfdc6e19083cb307b206e70",
+          "evidenceHash": "86ad9a748768f1044d695204f37bb542a0d06822fb27d4308e044a55e6b53443"
+        }
+      ]
+    },
+    {
+      "source": "Enter Sunjiang District (explorable area) from Zin Ku Corridor, where Mhenlo will join your party. Follow the quest marker to Danika, fighting Am Fah along the way. Once you have talked to Danika you can map travel to Maatu Keep if you have it unlocked. If not, follow the quest marker to Pongmei Valley, fighting Am Fah and Afflicted along the way; once in Pongmei Valley follow the quest marker, watching out for the popup Ranger boss Meynsang the Sadistic (if you follow the quest marker directly), until you get to Danika and talk to her. After talking to Danika and Redemptor Karl, follow the quest marker to Tanglewood Copse. Once in Arborstone (explorable area) follow the quest marker to Lift Operator Shulz, being careful not to get stuck between the two groups of Wardens. Lift Operator Shulz will take you to Arborstone where you can collect the quest reward.",
+      "text": "從 Zin Ku Corridor 進入 Sunjiang District 的探索區，涵洛 會加入隊伍。沿任務標記前往 Danika，途中對付 Am Fah。與 Danika 交談後，若已解鎖 Maatu Keep，可直接用地圖傳送過去；若尚未解鎖，就沿標記前往 Pongmei Valley，途中會遇到 Am Fah 和 Afflicted。進入 Pongmei Valley 後繼續沿標記走，直到找到 Danika 並與她交談；若直接沿標記路線前進，要小心突然出現的遊俠首領 Meynsang the Sadistic。與 Danika 和 Redemptor Karl 交談後，沿任務標記前往 Tanglewood Copse。到了 Arborstone 探索區，再沿標記尋找 Lift Operator Shulz，避免被夾在兩群 Wardens 之間。Shulz 會帶你前往 Arborstone；抵達後即可領取任務獎勵。",
+      "reason": "修正map travel為地圖傳送與遊俠首領伏兵；保留Maatu Keep解鎖與未解鎖分支、兩群Wardens夾擊及探索區與目的地區別。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15310/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "081d8bdb5584eb120c639624d729940807bf079be1a3a0fe3b33c4312ae8c681",
+          "evidenceHash": "9ea6412f92df5858ca0c7b791afcca91af3356e0c8b198d55cc5341f55bb0183"
+        }
+      ]
+    },
+    {
+      "source": "After these foes have been dealt with, the caravan will begin moving again. At point 2 on the map, you will see Kurzicks waiting up ahead. The turtles will stop just before them, and then they will begin to rush to the caravan. You may place the canister amongst the Young Turtles again, but as this fight mostly involves ranger and spellcaster foes, it may be more effective to place the canister on the beach to the left, near the coral bed. When the initial foes are almost all dead, Argo will announce that a lot of Kurzicks are approaching. The Kurzicks will come from all three directions; pick off the Kurzick Elementalists quickly and focus on the juggernauts when they arrive, then attack the warriors (especially if you did not place the smoke canister within the caravan) and finally finish off the rangers. When all foes are dead, the caravan will move on.",
+      "text": "清掉這些敵人後，商隊會再次前進。地圖地點 2 的前方有庫茲柯敵人等候，烏龜會在接近他們前停下，接著敵人便衝向商隊。可再次將煙霧罐放在 Young Turtles 之間；不過，這場戰鬥以遊俠與施法者為主，把罐子放在左邊海灘的珊瑚區附近可能更有效。最初的敵人幾乎清光時，Argo 會宣布大批庫茲柯敵人正從三個方向接近。先迅速消滅庫茲柯元素使，juggernauts 抵達後優先集火他們，再對付戰士，最後清掉遊俠。若煙霧罐沒有放在商隊內，更要注意戰士。所有敵人都死後，商隊才會繼續移動。",
+      "reason": "修正衝向商隊的主體為敵人而非烏龜；保留三向援軍、元素使→juggernauts→戰士→遊俠順序及煙霧罐位置條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:17278/sections/walkthrough-1/blocks/walkthrough-1-5-3/text",
+          "englishHash": "e76a922591ca5be15b73daf8ca945ac3b302ce1f70623aef3420ddc695c29a13",
+          "evidenceHash": "b7c8ecf54c506358eccb2ebcf064fe7a5c39ea72c9b939f6977bce30a66db6cf"
+        }
+      ]
+    },
+    {
+      "source": "As a result of the environmental effect healers will be constantly active, and group-healing spells such as Heal Party are helpful to combat the effect. Luckily, the foes you face in this room are not difficult. As with the desert missions, Forgotten Sages should be the priority target. You'll also fight Enchanted Sword and Hammer pairs. Typically, players follow the western edge of the room, sometimes avoiding a few foes. Try to kill off the groups before engaging the Facet of Light boss. It uses Shield of Regeneration and Guardian as its primary defense. Enchantment removal, knock down or simply overwhelming damage per second should kill it quickly, opening the portal to the next room. Before the slope down towards the Facet's chamber, there is a small area where the Domain of Health Draining does not work. This might be used to prepare and regenerate.",
+      "text": "環境效果會讓治療者必須持續治療，Heal Party 等全隊治療法術有助於抵銷影響。幸好本房間的敵人不算難打。與沙漠任務相同，應優先對付 Forgotten Sages；另外還會遇到成對出現的 Enchanted Sword 與 Enchanted Hammer。通常沿房間西側走，有時能避開部分敵人。與首領 Facet of Light 交戰前，盡量先清掉周圍敵群。它主要靠 Shield of Regeneration 和 Guardian 防禦；移除加持、擊倒，或持續輸出足夠高的傷害，都能迅速擊敗它，開啟通往下一個房間的傳送門。在往下通往首領房間的斜坡前，有一小塊區域不受 Domain of Health Draining 影響，可在此準備及恢復。",
+      "reason": "核對治療壓力、優先賢者、劍鎚成對與首領兩種防禦技能；補明斜坡前免受環境效果區可供準備恢復。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:7350/sections/walkthrough-1/blocks/walkthrough-1-5/text",
+          "englishHash": "bd5159589b841bbb6e2ad201d480ee58ec9d3c14aaf68807fe65898d7d4975fc",
+          "evidenceHash": "cb28c7ad00430d70638007e45c509ad4e18ceaaee7ab42bc75f614c86431d832"
+        }
+      ]
+    },
+    {
+      "source": "To complete the bonus you need to rescue all five of the Chosen and escort them to Loamhurst unharmed. Chosen villagers will be added to the bottom of your party list as allies, which will help you tell which ones need to be saved. The second and fifth Chosen will be under attack by tengu immediately upon entering compass range, and the third and fourth will be dangerously close to wandering foes as well. Players should bring skills to assist in quickly killing the attackers or saving the Chosen with heals. Skills that hinder enemies at a distance (such as Ineptitude) are useful, as are speed boosts. Moving into close range to take advantage of Janthir's Gaze can significantly reduce the enemy's damage output. While fighting, don't forget about the Chosen you have already saved, since they can be attacked as you rush to the defence of the new Chosen.",
+      "text": "要完成額外目標，必須救出全部五名 Chosen，並將他們平安護送到 Loamhurst。被選中的村民會以盟友身分列在隊伍清單底部，方便辨認要救的人。第二及第五名 Chosen 一進入羅盤範圍，就會遭天狗攻擊；第三及第四名也非常靠近遊蕩敵人。應攜帶能快速殺死攻擊者，或以治療救下 Chosen 的技能。Ineptitude 等能遠距離妨礙敵人的技能，以及加速能力，都很有用。靠近敵人，利用 Janthir's Gaze，可大幅降低敵人的傷害輸出。戰鬥時也別忘了已救出的 Chosen；當你趕去保護新找到的村民時，他們仍可能受到攻擊。",
+      "reason": "核對五名全救、第二第五進羅盤即遇襲及第三第四鄰近巡怪；保留遠距牽制、近距Gaze與已救村民仍會受攻擊。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15265/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "a52f8601a4fea927f5efb05bc1bb5f98f26c0ff0f85342f856f832e481fe16e6",
+          "evidenceHash": "fe53edb58bb9af760ee0312dd7e5413a1ed843e11a4451d528ee587bd8b59ed6"
+        }
+      ]
+    },
+    {
+      "source": "The first potential recruit, Morik, can be found on a pier in the center of the north coast in Zehlon Reach. Speak to him to find out he doesn't have confidence in himself and would rather stay with Dahni. Speak to Dahni, who can be found a little south on the same pier. She is the second recruit and has already decided to join the Sunspears. She asks you to tell Morik that she is leaving. Talk to Morik and he will join the Sunspears. The third recruit, Ando, can be found southwest in a small village. Speak to him to find out he can't leave the village until he is certain that it will be safe without him protecting it. Head a little south and kill the group of five Irontooth Drakes that is threatening his village. Tell Ando that the threat is gone and he will join. Return to the Sunspear Great Hall and speak to Castellan Puuba to collect your reward.",
+      "text": "第一名可招募者 Morik 位於 Zehlon Reach 北岸中央的碼頭。與他交談，會得知他缺乏自信，寧願留在 Dahni 身邊。再與同一碼頭稍南方的 Dahni 交談；她是第二名可招募者，已決定加入Sunspears，並請你告訴 Morik 她要離開了。回去與 Morik 交談，他也會加入。第三人 Ando 位於西南方的小村莊。他要確定即使自己不留下保護，村子仍安全，才願意離開。往南走一小段，殺掉威脅村莊的那群五隻 Irontooth Drakes，再告訴 Ando 威脅已解除，他就會加入。最後回 Sunspear Great Hall，找 Castellan Puuba 領取獎勵。",
+      "reason": "核對Morik→Dahni→Morik的對話順序、Dahni女性代詞及Ando前置；保留一群五隻Drakes而不添加幼龍身份。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:18605/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "176f873064bde294a04d311a4f68eeeee5132722427373f10bcaa021eedda44a",
+          "evidenceHash": "b72e4cedb1c5e14946be6959489d0e960bd7793bab9ca00f9f26d74dea79744a"
+        }
+      ]
+    },
+    {
+      "source": "At the start, there are nine quarry sites controlled by the nightmare horde. Each site is guarded by a Shadow of Kanaxai. Defeating a Shadow of Kanaxai changes control of that site to your side and a Luxon Enchanter will spawn at that site. There are patrols that move to quarry sites that you control and attack the Luxon Enchanters there. When a Luxon Enchanter is defeated, the site changes control to the nightmare horde and a Shadow of Kanaxai spawns. The frequency and size of these patrols increases over time, but there can only be 4 groups present at any one time. Every 10 seconds, the nightmare horde's score and your score increases by the number of quarry sites that are controlled, which is indicated by the flags next to the scores. This mission does not have a time limit, however, once the nightmare horde has a score of 500 the challenge ends.",
+      "text": "一開始，九座採石場都由 nightmare horde 控制，每座都有一隻 Shadow of Kanaxai 守衛。擊敗它後，該採石場轉由你方控制，並出現一名 Luxon Enchanter。敵方巡邏隊會前往你方控制的採石場，攻擊那裡的 Luxon Enchanter。若 Enchanter 被殺，採石場便回到 nightmare horde 手中，並重新出現 Shadow of Kanaxai。巡邏隊出現的頻率及規模會隨時間增加，但同時最多只有四群。每 10 秒，雙方各按自己控制的採石場數量增加分數；分數旁的旗幟會顯示控制數量。本任務沒有時間上限，但 nightmare horde 得到 500 分時，挑戰就會結束。",
+      "reason": "將site從網站修正為採石場，保留Shadow of Kanaxai與Enchanter身份；核對九點、四群上限、10秒依控制數加分及敵方500分結束。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:8559/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "47f1e1c3da5f971f5b65fd651bdc94dbe0e09f57c4fb16a2c14ab52e98a62c48",
+          "evidenceHash": "9a1b65f52e32c27536dab8bd0475f8ecc6dbf3d2196f2049c5dcb3dfa67ec150"
+        }
+      ]
+    },
+    {
+      "source": "In the initial part of the mission, there is only a single path through which players can travel under each newly opened door onto the next tutorial. Once players kill the first boss (warrior), the Afflicted Horror, the tutorial is essentially over and the path becomes more liberal. Players can follow Master Togo from this stage to avoid confusion. Players with low level characters should take care through these areas and try not to aggravate more groups of animals than necessary as well as watch for area of effect spells from the Sickened Scribes. The final fight can be tough for low level characters. Mind in particular the Afflicted Soul Explosion which occurs when the boss dies. Master Togo can sometimes get obstructed by a chest spawn. If this happens before the menagerie area, the only way to continue is to restart the mission and try again.",
+      "text": "任務前半只有一條路，玩家依序穿過新開啟的門，進入下一段教學。殺死第一名首領，也就是戰士 Afflicted Horror 後，教學基本結束，道路選擇也較自由；此時可跟著 藤吾大師 走，避免迷路。低等級角色經過這些區域時要小心，別引到過多動物敵群，也要留意 Sickened Scribes 的範圍法術。最後一戰對低等級角色可能很吃力，尤其要注意首領死亡時觸發的 Afflicted Soul Explosion。藤吾大師 有時會被新出現的寶箱卡住；若在進入動物園區域前就發生這種情況，唯一能繼續的方法是重新開始任務。",
+      "reason": "保留首名首領是戰士、跟隨NPC的時點與死亡靈魂爆炸；明確寶箱卡住在動物園前時只能重開，避免改成一般路障。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:6265/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "6fd6f6586c98a1863805d07e9e43682a5ec17ed9c89a16e99fd5a833934a89a2",
+          "evidenceHash": "c4be56129fb3ab9587970fc480d68ac23749e205c4751da599f64c6b35a7ddd8"
+        }
+      ]
+    }
+  ]
+}

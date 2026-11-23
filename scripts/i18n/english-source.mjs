@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖固定英文事实、字段路径、护甲子页证据与审校记录。
+ * [INPUT]: 依赖固定英文事实、字段路径、备注依赖证据与审校记录。
  * [OUTPUT]: 提供英文来源、数量签名与译文审校校验。
  * [POS]: 双语基线的证据边界；草稿不作为来源。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -141,7 +141,10 @@ export function englishSource(data, dataset, field, manual = {}) {
     if(path[0]==='quests' && leaf==='name') return result(row.englishName,'wiki-title');
     return result(source, path.includes('requirement') ? 'wiki-facts' : 'wiki-text');
   }
-  if(dataset==='skills')return result(source,path[0]==='tracks'?'application-label':leaf==='name'?'wiki-title':'wiki-text',path[0]==='tracks'?[]:references);
+  if(dataset==='skills'){
+    if(path.includes('notes')&&owner?.noteReferences?.length)return result(source,'wiki-text',[...references,...owner.noteReferences]);
+    return result(source,path[0]==='tracks'?'application-label':leaf==='name'?'wiki-title':'wiki-text',path[0]==='tracks'?[]:references);
+  }
   if(labels.has(source))return result(labels.get(source),'application-text');
   for(const [pattern,prefix]of prefixes)if(pattern.test(source))return result(source.replace(pattern,prefix),'wiki-facts');
   if(!han(source))return result(source);

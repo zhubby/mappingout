@@ -24,6 +24,9 @@ skill-overcast-pass-5.json: 第五輪過載技能完整說明、動態模板與�
 quest-pass-5.json: 第五輪精英區任務攻略、敵群數量與存活條件校對。
 skill-pass-5.json: 第五輪技能作用主體、精靈儀式與配套動態模板校對。
 armor-pass-5.json: 第五輪護甲染色、取得條件、穿模與稱號備註校對。
+armor-pass-6.json: 第六轮剩余护甲正文、头饰、制作条件与模型备注校对。
+quest-pass-6.json: 第六轮任务长文、复活与对话条件、队伍旗帜和敌人数量校对。
+skill-notes-source-cleanup.json: 固定模板与表格展开后的技能备注重译、来源警示与数值轴校对。
 coverage.json: 全量文本校对覆盖、未审范围与风险分类。
 
 条目记录 source、text、reason 与 bindings。

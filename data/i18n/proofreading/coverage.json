@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T10:15:50.237Z",
+  "generatedAt": "2026-11-23T11:16:24.035Z",
   "scope": "All five Traditional Chinese and English data packs; UI reviewed separately",
   "reviewMethod": "Individual agent semantic comparison against exact English text and revision evidence; not human approval or in-game verification",
   "complete": false,
   "fields": 134129,
-  "distinctEnglish": 42859,
-  "reviewedFields": 11757,
-  "reviewedDistinctEnglish": 3306,
-  "remainingFields": 122372,
-  "remainingDistinctEnglish": 39760,
+  "distinctEnglish": 42858,
+  "reviewedFields": 12626,
+  "reviewedDistinctEnglish": 3550,
+  "remainingFields": 121503,
+  "remainingDistinctEnglish": 39520,
   "englishRevisionCheck": {
     "checkedAt": "2026-11-23T04:23:21.606Z",
-    "checked": 6897,
+    "checked": 6899,
     "changed": 0,
     "errors": 0
   },
@@ -140,15 +140,15 @@
       "dataset": "armor",
       "fields": 6180,
       "distinctEnglish": 839,
-      "reviewedFields": 5425,
-      "reviewedDistinctEnglish": 700,
-      "remainingFields": 755,
-      "remainingDistinctEnglish": 139,
+      "reviewedFields": 6180,
+      "reviewedDistinctEnglish": 839,
+      "remainingFields": 0,
+      "remainingDistinctEnglish": 0,
       "unverifiedEnglishFields": 0,
       "riskFields": {
         "literal-game-concept": 0,
         "source-placeholder": 0,
-        "conditional-mechanic": 124
+        "conditional-mechanic": 0
       },
       "riskExamples": []
     },
@@ -209,15 +209,15 @@
       "dataset": "quests",
       "fields": 37175,
       "distinctEnglish": 17897,
-      "reviewedFields": 1394,
-      "reviewedDistinctEnglish": 769,
-      "remainingFields": 35781,
-      "remainingDistinctEnglish": 17129,
+      "reviewedFields": 1451,
+      "reviewedDistinctEnglish": 819,
+      "remainingFields": 35724,
+      "remainingDistinctEnglish": 17079,
       "unverifiedEnglishFields": 0,
       "riskFields": {
         "literal-game-concept": 69,
         "source-placeholder": 15,
-        "conditional-mechanic": 3680
+        "conditional-mechanic": 3631
       },
       "riskExamples": [
         {
@@ -330,16 +330,16 @@
     {
       "dataset": "skills",
       "fields": 44208,
-      "distinctEnglish": 13481,
-      "reviewedFields": 3489,
-      "reviewedDistinctEnglish": 1720,
-      "remainingFields": 40719,
-      "remainingDistinctEnglish": 11809,
+      "distinctEnglish": 13480,
+      "reviewedFields": 3546,
+      "reviewedDistinctEnglish": 1775,
+      "remainingFields": 40662,
+      "remainingDistinctEnglish": 11754,
       "unverifiedEnglishFields": 0,
       "riskFields": {
-        "literal-game-concept": 253,
-        "source-placeholder": 42,
-        "conditional-mechanic": 4437
+        "literal-game-concept": 247,
+        "source-placeholder": 0,
+        "conditional-mechanic": 4403
       },
       "riskExamples": [
         {

@@ -1,0 +1,11 @@
+{
+  "title": "Template:Speed",
+  "pageid": 305750,
+  "revid": 2636862,
+  "revisedAt": "2019-02-18T18:49:56Z",
+  "sha1": "e9482502776a97fd5a819c0f50e7e7afceb004ef",
+  "url": "https://wiki.guildwars.com/wiki/Template:Speed",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Template%3ASpeed&oldid=2636862",
+  "retrievedAt": "2026-11-23T10:59:22.590Z",
+  "wikitext": "* This skill increases average speed by <span style=\"color: green; font-weight: bold;\">{{ #expr: {{{1|0}}} / {{{4|0}}} * 0.{{{3|0}}} * 100 round 2 }}...{{ #expr: (( {{{1|0}}} + 12 * ( {{{2|0}}} - {{{1|0}}} ) / 15 ) round 0 ) / {{{4|0}}} * 0.{{{3|0}}} * 100 round 2 }}...{{ #expr: {{{2|0}}} / {{{4|0}}} * 0.{{{3|0}}} * 100 round 2 }}%</span> if used every time it recharges.<noinclude>\n\n== Usage ==\nTo simplify the insertion of the note in the Notes section on pages of skills that provide a [[speed boost]]. The output of this template will provide green numbers for the average speed increase of [[attribute]] ranks 0, 12, and 15, each separated by ellipses. For speed boost skills which do not follow the 0...12...15 progression, use {{tl|gr2}}.\n\n<pre>{{speed|val_1|val_2|val_3|val_4}}</pre>\n\n; val_1\n: Speed boost [[duration]] at attribute rank 0\n; val_2\n: Speed boost duration at attribute rank 15\n; val_3\n: Speed boost %\n; val_4\n: Skill [[recharge time]]\n\n== Example ==\nOn [[\"Charge!\"]], <code><nowiki>{{speed|5|13|33|20}}</nowiki></code> will parse to: {{speed|5|13|33|20}}\n\n[[Category:Formatting templates|Speed]]\n[[Category:Skill templates|Speed]]\n[[Category:Skills that cause Increased Movement Speed|*Template]]</noinclude>"
+}

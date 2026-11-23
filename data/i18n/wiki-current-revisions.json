@@ -1,11 +1,11 @@
 {
   "checkedAt": "2026-11-23T04:23:21.606Z",
-  "referenceHash": "d03cc25ad901f4944ac37c210e992485a0cfd44dcda60a9c846e8389b1508714",
-  "checked": 6897,
+  "referenceHash": "01972e6f793657db5b32e9c3e9af0d4f2cf79ae95e6fcc938de02cb23b900737",
+  "checked": 6899,
   "changed": [],
   "errors": [],
   "checkMethod": "same-day-prior-complete-check-plus-incremental-online-readback",
-  "composedAt": "2026-11-23T06:58:10.700Z",
+  "composedAt": "2026-11-23T11:13:56.042Z",
   "coverageSegments": [
     {
       "checkMethod": "committed-complete-online-check",
@@ -24,7 +24,18 @@
         10586
       ],
       "evidence": "data/i18n/wiki-revision-increment-2026-11-23.json#/incrementalOnlineCheck"
+    },
+    {
+      "checkMethod": "incremental-online-readback",
+      "checkedAt": "2026-11-23T11:03:34.997Z",
+      "checked": 2,
+      "referenceHash": "838b1302a452267385984de4c3aaeebb0ff1031951f7f361984e285681944fed",
+      "pageids": [
+        305750,
+        304724
+      ],
+      "evidence": "data/i18n/wiki-revision-notes-2026-11-23.json#/incrementalOnlineCheck"
     }
   ],
-  "coverageEvidence": "data/i18n/wiki-revision-increment-2026-11-23.json"
+  "coverageEvidence": "data/i18n/wiki-revision-notes-2026-11-23.json"
 }

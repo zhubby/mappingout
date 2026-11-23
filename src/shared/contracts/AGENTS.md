@@ -7,6 +7,6 @@ catalog.ts: 提供地图资料、筛选与个人记录的共享契约。
 feature.ts: 提供可选地图目录、写入与功能页导航接口。
 personal.ts: 定义角色、进度、笔记与 v3 备份信封。
 quests.ts: 提供任务攻略、前置表达式和角色记录契约。
-skills.ts: 提供技能版本、资源、成长效果和查询上下文类型。
+skills.ts: 提供技能版本、备注依赖证据、成长效果和查询上下文类型。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

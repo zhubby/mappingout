@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖技能目录、覆盖证据、固定快照和图标清单。
- * [OUTPUT]: 校验可学习边界、版本、等级效果与媒体完整性。
+ * [OUTPUT]: 校验可学习边界、备注证据、等级效果与媒体完整性。
  * [POS]: 技能离线构建门禁；拒绝缺图、缺版本和失效引用。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -9,7 +9,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
-import {skillEligibility,compileGrowth} from '../wiki/lib/skill-library-facts.mjs';
+import {skillEligibility,compileGrowth,skillNoteFacts} from '../wiki/lib/skill-library-facts.mjs';
 import {compileEffects,resourcesOf,resourceKeys} from '../wiki/lib/skill-effects.mjs';
 import {templates,plainText} from '../wiki/lib/wikitext.mjs';
 const root = projectRoot;
@@ -37,6 +37,7 @@ export async function validateSkillData(publicDir=path.join(root,'public'), dire
   snapshots.set(key,page);return page;
  }
  const definitions={};for(const ref of report.growthTemplates){const p=await source(ref);definitions[p.title.replace(/^Template:/,'').toLowerCase()]=p.wikitext;}
+ const notePages=await Promise.all((data.references||[]).filter(ref=>['Template:Speed','Pious Renewal/table'].includes(ref.title)).map(source));
  async function image(file){
   if(checkedImages.has(file))return;
   if(!/^assets\/(?:skill-library|skill-resources)\/[a-z\d-]+\.(?:jpg|png)$/.test(file))fail(`图像路径无效 ${file}`);
@@ -58,6 +59,9 @@ export async function validateSkillData(publicDir=path.join(root,'public'), dire
    const decision=included.find(d=>d.pageid===page.pageid);
    if(!decision||!skillEligibility(page,discovery.classification[page.title]||[]).included||variant.id!==`skill-version:gww:${page.pageid}`||!variant.gameIds.length||!variant.description)fail(`技能边界或身份改变 ${page.title}`);
    if(plainText(fields.description)!==variant.description||JSON.stringify(resourcesOf(fields))!==JSON.stringify(variant.resources))fail(`技能事实改变 ${page.title}`);
+   const noteFacts=skillNoteFacts(page,notePages);
+   for(const ref of variant.noteReferences||[])await source(ref);
+   if(JSON.stringify([noteFacts.notes,...noteFacts.warnings].filter(Boolean))!==JSON.stringify(variant.notes)||JSON.stringify(noteFacts.noteReferences)!==JSON.stringify(variant.noteReferences||[]))fail(`备注正文或依赖改变 ${page.title}`);
    const effects=compileEffects(page,fields,compileGrowth(page,definitions),variant.reference);
    for(const key of ['effects','descriptionParts','descriptionTemplate'])if(JSON.stringify(effects[key])!==JSON.stringify(variant[key]))fail(`成长效果改变 ${page.title}/${key}`);
    for(const mode of variant.modes){const context=`${mode}:${variant.format||'standard'}`;if(!['pve','pvp'].includes(mode)||modes.has(context))fail(`版本模式重叠 ${page.title}`);modes.add(context);}

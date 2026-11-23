@@ -1,7 +1,7 @@
 /**
  * [INPUT]: 依赖 Wiki 表格文本及顶层分隔符解析。
- * [OUTPUT]: 展开跨行跨列单元格；可保留原文供领域转换。
- * [POS]: 配方与任务奖励共用表格边界；拒绝未闭合或嵌套表格。
+ * [OUTPUT]: 展开跨行跨列及混合表头分隔符，支持保留单元格原文。
+ * [POS]: 配方、任务与技能共用表格边界；拒绝未闭合或嵌套表格。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { plainText, splitTopLevel } from './wikitext.mjs';
@@ -32,10 +32,10 @@ export function wikiTables(source, { raw = false } = {}) {
     if (line.startsWith('|}')) { flush(); tables.push(table); table = undefined; continue; }
     if (line.startsWith('|+')) continue;
     if (/^[!|]/.test(line)) {
-      const delimiter = line.startsWith('!') && line.includes('!!') ? '!!' : '||';
-      for (const value of splitTopLevel(line.slice(1), delimiter)) {
+      const values=line.startsWith('!')?splitTopLevel(line.slice(1),'!!').flatMap(value=>splitTopLevel(value,'||')):splitTopLevel(line.slice(1),'||');
+      for (const value of values) {
         let text = value, attributes = '';
-        if (/^\s*(?:rowspan|colspan|style|align|class|width)\s*=/.test(value)) {
+        if (/^\s*(?:rowspan|colspan|style|align|class|width|nowrap)\s*=/.test(value)) {
           const pieces = splitTopLevel(value); attributes = pieces.shift(); text = pieces.join('|');
         }
         cells.push({ text: raw ? text.trim() : plainText(text), rowspan: Number(/rowspan\s*=\s*["']?(\d+)/i.exec(attributes)?.[1] || 1), colspan: Number(/colspan\s*=\s*["']?(\d+)/i.exec(attributes)?.[1] || 1) });

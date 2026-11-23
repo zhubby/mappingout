@@ -3,7 +3,7 @@
 
 auto-backup.test.ts: 快照合并、失败重试和卸载取消。
 browser-crypto.test.ts: 原生与 HTTP SHA-256 一致性、安全随机 UUID 格式。
-content-accuracy.test.ts: Wiki 事实、worker 校验、并行下载聚合、压缩长度与资源超时。
+content-accuracy.test.ts: Wiki 事实、备注依赖隔离、worker 校验、并行下载聚合与资源超时。
 container-release.test.ts: 容器事件分流、OCI 索引 HTTP 协议、公开拉取门禁与单调频道聚合。
 data.test.ts: 资料转换、引用与地图输入校验。
 deployment.test.ts: 构建输入、入口与图标预缓存、全量离线清单和部署规则。
@@ -13,7 +13,7 @@ domain.test.ts: 查询、当前角色进度索引与隔离。
 features.test.ts: 护甲性别列、子页与配方隔离、方案备注防篡改、材料和周期。
 quests.test.ts: 前置分支、角色范围评估、任务奖励与真实 v3 存储迁移。
 quest-data.test.ts: 固定来源比较符、导师占位、分节边界、技能授予、主线分支与奖励解析；全量校验有独立等待上限。
-skill-data.test.ts: 玩家技能边界、真实动态链接与再生衰减身份、备注隔离和成长符号。
+skill-data.test.ts: 技能边界、动态链接、再生衰减、备注模板引用、完整表格与歧义数值回归。
 skills.test.ts: 双语与科学计数值查询、稳定分面缓存及效果隔离。
 skill-description.test.ts: 真实 Cleave 重复效果、逐次符号与负数说明呈现。
 i18n.test.ts: 界面语言、资料投影、来源与备份兼容；全语料检查上限 60 秒。

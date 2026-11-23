@@ -12,9 +12,10 @@ quest-graph.mjs: 任务前置表达式、并行分支和推荐阅读顺序。
 quest-support.mjs: 固定玩法指南、精英区子任务及 NPC 操作指示补充。
 skill-effects.mjs: 展开链接标签后切成长说明；依局部词组区分再生衰减，保留符号并排除 sic。
 skill-facts.mjs: 技能参数与模式解析。
-skill-library-facts.mjs: 玩家可学习边界、备注排序元数据隔离与固定模板成长编译。
+skill-library-facts.mjs: 玩家可学习边界、备注编译入口与共用受限算术的固定成长编译。
+skill-notes.mjs: 固定备注模板与子页、表格轴与数值编译；保留来源警示和歧义单元格。
 source-facts.mjs: 来源字段解析。
-tables.mjs: Wiki 表格与跨行跨列解析。
+tables.mjs: Wiki 表格、混合表头分隔符与跨行跨列解析。
 translations.mjs: 中文校订查询。
 weapon-evidence.mjs: 武器来源证据解析。
 wikitext.mjs: 模板、链接与纯文本解析；sic 编辑提示不进入游戏正文。

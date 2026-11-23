@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "composedAt": "2026-11-23T11:13:56.042Z",
+  "checkMethod": "same-day-prior-complete-check-plus-two-incremental-readback-segments",
+  "scope": "The 6897 prior references retain their recorded check segments. Only two newly adopted skill-note dependencies were independently rechecked online in this batch.",
+  "previousReport": {
+    "checkedAt": "2026-11-23T04:23:21.606Z",
+    "referenceHash": "d03cc25ad901f4944ac37c210e992485a0cfd44dcda60a9c846e8389b1508714",
+    "checked": 6897,
+    "changed": [],
+    "errors": [],
+    "checkMethod": "same-day-prior-complete-check-plus-incremental-online-readback",
+    "composedAt": "2026-11-23T06:58:10.700Z",
+    "coverageSegments": [
+      {
+        "checkMethod": "committed-complete-online-check",
+        "checkedAt": "2026-11-23T04:23:21.606Z",
+        "checked": 6895,
+        "referenceHash": "8b483e63105c181f4cb6caa3c8ee6868142a73fde37ccde89c0356b21539623d",
+        "evidence": "data/i18n/wiki-revision-increment-2026-11-23.json#/priorCompleteCheck"
+      },
+      {
+        "checkMethod": "incremental-online-readback",
+        "checkedAt": "2026-11-23T06:48:40.961Z",
+        "checked": 2,
+        "referenceHash": "580fbde2c7d69dad8f37eae47d642301c872506b3c361623607fc718da195c05",
+        "pageids": [
+          5339,
+          10586
+        ],
+        "evidence": "data/i18n/wiki-revision-increment-2026-11-23.json#/incrementalOnlineCheck"
+      }
+    ],
+    "coverageEvidence": "data/i18n/wiki-revision-increment-2026-11-23.json"
+  },
+  "referenceComparison": {
+    "previousCount": 6897,
+    "previousReferenceHash": "d03cc25ad901f4944ac37c210e992485a0cfd44dcda60a9c846e8389b1508714",
+    "currentCount": 6899,
+    "currentReferenceHash": "01972e6f793657db5b32e9c3e9af0d4f2cf79ae95e6fcc938de02cb23b900737",
+    "unchanged": 6897,
+    "added": [
+      {
+        "title": "Template:Speed",
+        "pageid": 305750,
+        "revid": 2636862
+      },
+      {
+        "title": "Pious Renewal/table",
+        "pageid": 304724,
+        "revid": 2548529
+      }
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "incrementalOnlineCheck": {
+    "checkedAt": "2026-11-23T11:03:34.997Z",
+    "method": "incremental-online-metadata-readback",
+    "checks": [
+      {
+        "title": "Pious Renewal/table",
+        "pageid": 304724,
+        "pinned": 2548529,
+        "current": 2548529,
+        "revisedAt": "2013-06-06T11:20:03Z"
+      },
+      {
+        "title": "Template:Speed",
+        "pageid": 305750,
+        "pinned": 2636862,
+        "current": 2636862,
+        "revisedAt": "2019-02-18T18:49:56Z"
+      }
+    ],
+    "sourceArtifact": "releases/proofreading-pass-6/notes-revision-check.json",
+    "sourceArtifactSha256": "1e9a1eba1f3deba1d8cf7c1afd6e19e2b812711fe79709f87861a4fea71a8d3d",
+    "checked": 2,
+    "referenceHash": "838b1302a452267385984de4c3aaeebb0ff1031951f7f361984e285681944fed"
+  },
+  "limitations": [
+    "This is not a fresh complete online Wiki revision check.",
+    "Earlier references retain the timestamps of their original checks."
+  ]
+}

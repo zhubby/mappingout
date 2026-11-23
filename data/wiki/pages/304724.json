@@ -1,0 +1,11 @@
+{
+  "title": "Pious Renewal/table",
+  "pageid": 304724,
+  "revid": 2548529,
+  "revisedAt": "2013-06-06T11:20:03Z",
+  "sha1": "b38f4b479883278b5e845fe36718894952ebe7df",
+  "url": "https://wiki.guildwars.com/wiki/Pious_Renewal/table",
+  "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pious%20Renewal%2Ftable&oldid=2548529",
+  "retrievedAt": "2026-11-23T10:59:22.574Z",
+  "wikitext": "{| style=\"border: 1px solid #6A3; text-align:center; margin: 1em 0.25em;\" cellpadding=3 cellspacing=0\n|- style=\"background:#DFD;\" {{#vardefine:border|style=\"border-left: 1px solid #6A3;\"}}\n! [[Mysticism]]\n! {{#var:border}} | 0\n| {{#var:border}} | 1\n| {{#var:border}} | 2\n| {{#var:border}} | 3\n| {{#var:border}} | 4\n| {{#var:border}} | 5\n| {{#var:border}} | 6\n| {{#var:border}} | 7\n| {{#var:border}} | 8\n| {{#var:border}} | 9\n| {{#var:border}} | 10\n| {{#var:border}} | 11\n! {{#var:border}} | 12\n| {{#var:border}} | 13\n| {{#var:border}} | 14\n! {{#var:border}} | 15\n| {{#var:border}} | 16\n| {{#var:border}} | 17\n| {{#var:border}} | 18\n| {{#var:border}} | 19\n| {{#var:border}} | 20\n|- {{#vardefine:border2|style=\"border-left: 1px solid #6A3; border-top:1px solid #6A3\"}}\n! style=\"border-top:1px solid #6A3\" | Net cost/gain\n! {{#var:border2}} | -5\n| {{#var:border2}} | -5\n| {{#var:border2}} | -4\n| {{#var:border2}} | -3\n| {{#var:border2}} | -3\n| {{#var:border2}} | -2\n| {{#var:border2}} | -2\n| {{#var:border2}} | -2\n| {{#var:border2}} | 0\n| {{#var:border2}} | 0\n| {{#var:border2}} | 0\n| {{#var:border2}} | 1\n! {{#var:border2}} | 1\n| {{#var:border2}} | 2\n| {{#var:border2}} | 3\n! {{#var:border2}} | 3\n| {{#var:border2}} | 3\n| {{#var:border2}} | 4\n| {{#var:border2}} | 5\n| {{#var:border2}} | 5\n| {{#var:border2}} | 6\n|}"
+}

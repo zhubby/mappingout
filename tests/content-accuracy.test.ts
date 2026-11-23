@@ -43,6 +43,20 @@ describe('English Wiki authority',()=>{
     const unresolved={records:[{id:'green:1',kind:'green',name:'火之刃',englishName:"Hierophant's Chest",wiki:{identityStatus:'unresolved'}}]};
     expect(englishSource(unresolved,'catalog',contentFields(unresolved,'catalog')[0]).text).toBe('Unresolved legacy item');
   });
+  it('binds skill note dependencies without expanding description evidence',()=>{
+    const reference={title:'Skill (PvP)',pageid:1,revid:10};
+    const dependency={title:'Template:Speed',pageid:2,revid:20};
+    const data={skills:[{id:'skill:1',variants:[{id:'variant:1',description:'Move faster.',notes:['Average speed increases by 5%.'],reference,noteReferences:[dependency]}]}]};
+    const fields=contentFields(data,'skills');
+    const note=fields.find(f=>f.key.endsWith('/notes/0'))!;
+    const description=fields.find(f=>f.key.endsWith('/description'))!;
+    expect(englishSource(data,'skills',note).references).toEqual([reference,dependency]);
+    expect(englishSource(data,'skills',description).references).toEqual([reference]);
+    const changed=structuredClone(data);
+    changed.skills[0].variants[0].noteReferences[0].revid=21;
+    expect(englishSource(changed,'skills',note).references).not.toEqual(englishSource(data,'skills',note).references);
+    expect(englishSource(changed,'skills',description)).toEqual(englishSource(data,'skills',description));
+  });
   it('invalidates approval when English, its revision evidence, or Chinese changes',()=>{
     const text='傷害降低 25%。',source={englishHash:hash('25% less damage.'),evidenceHash:'revision-1'};
     const review={...source,translationHash:hash(text),reviewer:'manual'};

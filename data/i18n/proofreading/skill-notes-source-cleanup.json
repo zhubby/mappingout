@@ -1,0 +1,775 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "scope": "Reproofread every changed skill note after fixed-source template, table and warning compilation. Field bindings include only note-specific dependencies; no human or in-game approval is granted.",
+  "entries": [
+    {
+      "source": "* This skill increases average speed by 6.6...14.85...16.5% if used every time it recharges.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 6.6...14.85...16.5%。",
+      "reason": "核對回防PvE每次冷卻即用的平均速度增幅三個端點；不是單次加速幅度。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14943/variants/skill-version:gww:14943/notes/0",
+          "englishHash": "dd7bbc8c2b5bc8ac74cbf428c983d1918f920217a41602b4c35195f5c656fcca",
+          "evidenceHash": "b1535ff1106b9ac2daf51743492816c06cdb45e062b921b4ff431a04ea89ee11"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 5.28...11.88...13.2% if used every time it recharges.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 5.28...11.88...13.2%。",
+      "reason": "核對回防PvP較長冷卻所對應的三個平均速度數值，與PvE分開。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14943/variants/skill-version:gww:207662/notes/0",
+          "englishHash": "ae2c45d2287be35f65e81a3dc7cfdd0f9aa3f5f61b854dca7938708960c86eae",
+          "evidenceHash": "4abf7cdbc9b1b974dfeec5535435f7c76c14deb431e9f977292b5dd58f41a0a7"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 6.6...14.85...16.5% if used every time it recharges.\n*The health gain happens once per second when moving.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 6.6...14.85...16.5%。\n移動時，每秒獲得一次體力恢復。",
+      "reason": "核對敵人來襲PvE平均速度與移動時每秒一次恢復；不寫成站立亦恢復。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2616/variants/skill-version:gww:2616/notes/0",
+          "englishHash": "242b009771dac1431fafa0819cc31e626298766d99c7d5c1b0efbfbf8542c6d9",
+          "evidenceHash": "f20ceac8dd9aef757f96c8a7e276fb4d8256e5ee6143fc73333e210737e0c428"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 5.28...11.88...13.2% if used every time it recharges.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 5.28...11.88...13.2%。",
+      "reason": "核對敵人來襲PvP三個平均速度端點及冷卻即用前提。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2616/variants/skill-version:gww:136087/notes/0",
+          "englishHash": "ae2c45d2287be35f65e81a3dc7cfdd0f9aa3f5f61b854dca7938708960c86eae",
+          "evidenceHash": "60fb8690f9441cf1aab8694e5f9f9a7c37dae6bfb518cc71ae4f7e6a857d1019"
+        }
+      ]
+    },
+    {
+      "source": "* This skill only activates if you receive at least 1 XP from a foe death.\n* The benefits gained can be identified by the dialogue bubbles above the character's head:\nBoast \"Buwahahaha!\": Benefit: All conditions removed from self; Activation chance (%): 30%\nBoast \"Kneel Before Your Master!\": Benefit: Double XP gained; Activation chance (%): 20%\nBoast \"Knowledge is Power!\": Benefit: Healed for 50 health; Activation chance (%): 20%\nBoast \"You're No Match for My Brains!\": Benefit: Gain 5 energy; Activation chance (%): 20%\nBoast \"Is There Anything I Can't Do?\": Benefit: Recharge all skills; Activation chance (%): 10%\n\n* Skills that require a morale boost, such as Resurrection Signet, Sunspear Rebirth Signet, and Celestial skills, are not recharged by \"Is There Anything I Can't Do?\".\n* Experience scrolls stack with \"Kneel Before Your Master\".\n\nUnlike other skills without an activation time, this skill has the standard aftercast delay of 0.75 second and cannot be used while moving or activating another skill.",
+      "text": "只有從敵人死亡獲得至少 1 點經驗值時，此技能才會觸發。\n可透過角色頭上的對話泡泡辨認獲得的效果：\n「Buwahahaha!」：移除自身所有病症；觸發機率 30%。\n「Kneel Before Your Master!」：獲得雙倍經驗值；觸發機率 20%。\n「Knowledge is Power!」：恢復 50 點體力；觸發機率 20%。\n「You're No Match for My Brains!」：獲得 5 點能量；觸發機率 20%。\n「Is There Anything I Can't Do?」：使所有技能完成冷卻；觸發機率 10%。\n\n需要士氣提升才能恢復使用的技能，例如復活紋章、Sunspear Rebirth Signet 及天界技能，不會因「Is There Anything I Can't Do?」而完成冷卻。\n經驗值卷軸可與「Kneel Before Your Master」疊加。\n\n此技能雖然沒有施放時間，卻與其他同類技能不同，仍有標準的 0.75 秒施放後延遲，且不能在移動或使用另一技能時施放。",
+      "reason": "逐列核對五種效果、30/20/20/20/10機率、50體力與5能量；保留至少1經驗、士氣技能例外、卷軸疊加及0.75秒延遲，對話原句供辨識。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:58328/variants/skill-version:gww:58328/notes/0",
+          "englishHash": "979d7636147f6038f885915e2a5e98b9b9ca5ab83460d2b6ecec00f278a7ee11",
+          "evidenceHash": "afdd7c303b15b1e3261f340cf203f80c300ab00fbf4718ac1bd3bb53f2bf5baa"
+        }
+      ]
+    },
+    {
+      "source": "*This skill mimics the effect of the Guild Lord's Amulet of Protection.\n*Under Angelic Protection, you take the damage first and then are healed. If you take more damage than you have health remaining, you will die.\n*Unlike Protective Spirit, this skill will protect even against small damage packets if there are enough of them. An example would be the large mobs of Avicara Fierce in Mineral Springs who use Ignite Arrows and Dual Shot.\n*The effect of this skill isn't triggered by sacrificing health from skills such as Blood is Power.\n[Source flags a skill functionality change]\nUnlike most typeless skills with no activation time, this skill cannot be activated in the middle of another action and has a slight aftercast delay.",
+      "text": "此技能模仿 Guild Lord 的 Amulet of Protection 效果。\n受到天使守護保護時，你會先承受傷害，再獲得治療。若所受傷害超過剩餘體力，你仍會死亡。\n與精神守護不同，只要次數足夠，即使每次傷害很小，此技能也能提供保護。例如 Mineral Springs 的大群 Avicara Fierce 會使用爆烈箭與雙重箭。\n血之權能等技能造成的體力犧牲不會觸發此技能效果。\n［來源標示此技能的功能曾變更］\n與大多數無類型且沒有施放時間的技能不同，此技能不能在其他動作進行中施放，並有短暫的施放後延遲。",
+      "reason": "核對先傷害後治療及致命傷不救命、足夠小額傷害仍觸發、犧牲不觸發；保留來源功能變更標記與施放限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15225/variants/skill-version:gww:15225/notes/0",
+          "englishHash": "f1acb768eb1ed2e9573a9e3717c5cd4eabb1a81bfaa3f4e5910ff9f1eb12a9fa",
+          "evidenceHash": "f0e55304272592e3712fef1b8605f33019a33967cde1f3beb6e3e97d6e699862"
+        }
+      ]
+    },
+    {
+      "source": "* This is one of a handful of skills that specifically increase the duration of hexes.\nNo hexes are recharged if the user drops the ashes upon death.\n\nRitualist hex spells\n*Binding Chains\n*Dulled Weapon\n*Lamentation - already maintainable\n*Painful Bond - already maintainable and requires offensive binding spirits\n*Renewing Surge",
+      "text": "這是少數專門延長降咒持續時間的技能之一。\n若使用者死亡而掉落骨灰，不會使任何降咒技能完成冷卻。\n\n祭祀者降咒魔法：\n• 束縛鎖鍊\n• 遲鈍武器\n• 哀傷靈魂：原本就能持續維持。\n• 苦痛連結：原本就能持續維持，且需要攻擊型縛靈儀式精靈。\n• 復原震盪",
+      "reason": "核對死亡掉灰不重置任何降咒冷卻；保留五個祭祀者降咒及哀傷/苦痛原可維持、苦痛需攻擊精靈的限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6365/variants/skill-version:gww:6365/notes/0",
+          "englishHash": "9afa48cc1b9c74fb8c8bea5276f8809a14bd00eaaa15d6f6fbf71c4d798a003a",
+          "evidenceHash": "9a092fb81618f3e8035c6b36c3e3f24eba348c81ee02dcf324850d2bd146ac83"
+        }
+      ]
+    },
+    {
+      "source": "* Combine Echo and Arcane Echo to create echo chains, allowing you to use three copies of any single skill.\n* If the next skill after Arcane Echo is not a spell, this enchantment will end with no effect.\n* Arcane Echo will only recharge normally if no spell was copied. If a spell was copied, the copy remains for 20 seconds, after which Arcane Echo is disabled for 20 seconds.\n** Consider using Auspicious Incantation before Arcane Echo for energy management, since the recharge time will not be increased.\n* If used to copy a spell that can copy another skill or spell, the copy duration of that spell is used and will bypass Arcane Echo's 20-second copy duration.\n** E.g., if used to copy Echo, whatever skill that is copied by the Arcane Echo version of Echo will remain as that skill for 30 seconds and then revert back to Arcane Echo.\n*Arcane Echo's copying effect triggers first, before the effects of the spell that triggers it. For instance, when used to copy Gift of Health, the copy is disabled by Gift of Health's effect afterwards.\nArcane Echo's description omits the fact that it cannot copy itself.\n[Source information may be outdated]\n;February 05, 2019 update; please verify changes to AI behavior.",
+      "text": "將回音與魔法回音搭配，可形成回音鏈，讓你使用同一技能的三個副本。\n若使用魔法回音後的下一個技能不是咒文，此加持會結束且不產生效果。\n只有在沒有複製咒文時，魔法回音才會正常冷卻。若成功複製，副本會保留 20 秒，之後魔法回音會停用 20 秒。\n可考慮在魔法回音前使用幸運咒語補充能量，因為這種搭配不會增加實際冷卻時間。\n若複製的咒文本身也能複製其他技能或咒文，會採用該咒文的複製持續時間，而不受魔法回音的 20 秒限制。\n例如，用魔法回音複製回音後，該回音副本所複製的技能會保留 30 秒，然後還原為魔法回音。\n魔法回音會先觸發複製，再套用觸發咒文的效果。例如複製體力贈予時，副本之後仍會被體力贈予的效果停用。\n魔法回音的說明未提及它不能複製自己。\n［來源資訊可能已過時］\n來源針對 2019 年 02 月 05 日更新註記：請核實 AI 行為的變化。",
+      "reason": "核對三副本、20秒副本再停用20秒、巢狀回音採30秒及複製先於技能效果；保留不能自複製與2019更新待核實，不授予AI現況確認。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1681/variants/skill-version:gww:1681/notes/0",
+          "englishHash": "fbb3a0741374feba1833004b522aa3f9c9508ebee6465f3d46fc7a3f681649a9",
+          "evidenceHash": "2b1aad8f4162e0ff0207605ec3b7045336a43f976735ee436739ec7afe371f08"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 8.8...19.8...22% if used every time it recharges.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 8.8...19.8...22%。",
+      "reason": "核對霧之護甲平均速度的三端點與冷卻即用前提。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14852/variants/skill-version:gww:14852/notes/0",
+          "englishHash": "2da82af488b575b0ae111d657a0dc7f1001f99f395873be935b0e01a877dc704",
+          "evidenceHash": "5296640047b17b68ab10c54d90e5abcaf3403a3c18347e704c4173ac8a14b4c5"
+        }
+      ]
+    },
+    {
+      "source": "* The energy cost reduction is rounded down from 0.5. Table with energy cost reduction factored in:\n1 Energy spells cost: Spawning Power 0: 1; Spawning Power 1: 1; Spawning Power 2: 1; Spawning Power 3: 1; Spawning Power 4: 1; Spawning Power 5: 1; Spawning Power 6: 1; Spawning Power 7: 1; Spawning Power 8: 1; Spawning Power 9: 1; Spawning Power 10: 1; Spawning Power 11: 1; Spawning Power 12: 1; Spawning Power 13: 1; Spawning Power 14: 1; Spawning Power 15: 1; Spawning Power 16: 0; Spawning Power 17: 0; Spawning Power 18: 0; Spawning Power 19: 0; Spawning Power 20: 0; Spawning Power 21: 0\n3 Energy spells cost: Spawning Power 0: 3; Spawning Power 1: 3; Spawning Power 2: 3; Spawning Power 3: 3; Spawning Power 4: 2; Spawning Power 5: 2; Spawning Power 6: 2; Spawning Power 7: 2; Spawning Power 8: 2; Spawning Power 9: 2; Spawning Power 10: 2; Spawning Power 11: 2; Spawning Power 12: 2; Spawning Power 13: 2; Spawning Power 14: 2; Spawning Power 15: 2; Spawning Power 16: 1; Spawning Power 17: 1; Spawning Power 18: 1; Spawning Power 19: 1; Spawning Power 20: 1; Spawning Power 21: 1\n5 Energy spells/rituals cost: Spawning Power 0: 5; Spawning Power 1: 5; Spawning Power 2: 4; Spawning Power 3: 4; Spawning Power 4: 4; Spawning Power 5: 4; Spawning Power 6: 4; Spawning Power 7: 4; Spawning Power 8: 4; Spawning Power 9: 3; Spawning Power 10: 3; Spawning Power 11: 3; Spawning Power 12: 3; Spawning Power 13: 3; Spawning Power 14: 3; Spawning Power 15: 3; Spawning Power 16: 2; Spawning Power 17: 2; Spawning Power 18: 2; Spawning Power 19: 2; Spawning Power 20: 2; Spawning Power 21: 2\n10 Energy spells/rituals cost: Spawning Power 0: 10; Spawning Power 1: 9; Spawning Power 2: 9; Spawning Power 3: 9; Spawning Power 4: 8; Spawning Power 5: 8; Spawning Power 6: 8; Spawning Power 7: 7; Spawning Power 8: 7; Spawning Power 9: 7; Spawning Power 10: 7; Spawning Power 11: 6; Spawning Power 12: 6; Spawning Power 13: 6; Spawning Power 14: 5; Spawning Power 15: 5; Spawning Power 16: 5; Spawning Power 17: 4; Spawning Power 18: 4; Spawning Power 19: 4; Spawning Power 20: 4; Spawning Power 21: 3\n15 Energy spells/rituals cost: Spawning Power 0: 14; Spawning Power 1: 14; Spawning Power 2: 13; Spawning Power 3: 13; Spawning Power 4: 12; Spawning Power 5: 12; Spawning Power 6: 12; Spawning Power 7: 11; Spawning Power 8: 11; Spawning Power 9: 10; Spawning Power 10: 10; Spawning Power 11: 9; Spawning Power 12: 9; Spawning Power 13: 8; Spawning Power 14: 8; Spawning Power 15: 8; Spawning Power 16: 7; Spawning Power 17: 7; Spawning Power 18: 6; Spawning Power 19: 6; Spawning Power 20: 5; Spawning Power 21: 5\n25 Energy spells/rituals cost: Spawning Power 0: 24; Spawning Power 1: 23; Spawning Power 2: 22; Spawning Power 3: 22; Spawning Power 4: 21; Spawning Power 5: 20; Spawning Power 6: 19; Spawning Power 7: 19; Spawning Power 8: 18; Spawning Power 9: 17; Spawning Power 10: 16; Spawning Power 11: 16; Spawning Power 12: 15; Spawning Power 13: 14; Spawning Power 14: 13; Spawning Power 15: 13; Spawning Power 16: 12; Spawning Power 17: 11; Spawning Power 18: 10; Spawning Power 19: 10; Spawning Power 20: 9; Spawning Power 21: 8",
+      "text": "能量消耗的減免量遇到小數部分為 0.5 時向下取整。以下列出套用減免後的實際能量消耗：\n原消耗 1 點能量的咒文實際消耗: 召喚 0: 1; 召喚 1: 1; 召喚 2: 1; 召喚 3: 1; 召喚 4: 1; 召喚 5: 1; 召喚 6: 1; 召喚 7: 1; 召喚 8: 1; 召喚 9: 1; 召喚 10: 1; 召喚 11: 1; 召喚 12: 1; 召喚 13: 1; 召喚 14: 1; 召喚 15: 1; 召喚 16: 0; 召喚 17: 0; 召喚 18: 0; 召喚 19: 0; 召喚 20: 0; 召喚 21: 0\n原消耗 3 點能量的咒文實際消耗: 召喚 0: 3; 召喚 1: 3; 召喚 2: 3; 召喚 3: 3; 召喚 4: 2; 召喚 5: 2; 召喚 6: 2; 召喚 7: 2; 召喚 8: 2; 召喚 9: 2; 召喚 10: 2; 召喚 11: 2; 召喚 12: 2; 召喚 13: 2; 召喚 14: 2; 召喚 15: 2; 召喚 16: 1; 召喚 17: 1; 召喚 18: 1; 召喚 19: 1; 召喚 20: 1; 召喚 21: 1\n原消耗 5 點能量的咒文／儀式實際消耗: 召喚 0: 5; 召喚 1: 5; 召喚 2: 4; 召喚 3: 4; 召喚 4: 4; 召喚 5: 4; 召喚 6: 4; 召喚 7: 4; 召喚 8: 4; 召喚 9: 3; 召喚 10: 3; 召喚 11: 3; 召喚 12: 3; 召喚 13: 3; 召喚 14: 3; 召喚 15: 3; 召喚 16: 2; 召喚 17: 2; 召喚 18: 2; 召喚 19: 2; 召喚 20: 2; 召喚 21: 2\n原消耗 10 點能量的咒文／儀式實際消耗: 召喚 0: 10; 召喚 1: 9; 召喚 2: 9; 召喚 3: 9; 召喚 4: 8; 召喚 5: 8; 召喚 6: 8; 召喚 7: 7; 召喚 8: 7; 召喚 9: 7; 召喚 10: 7; 召喚 11: 6; 召喚 12: 6; 召喚 13: 6; 召喚 14: 5; 召喚 15: 5; 召喚 16: 5; 召喚 17: 4; 召喚 18: 4; 召喚 19: 4; 召喚 20: 4; 召喚 21: 3\n原消耗 15 點能量的咒文／儀式實際消耗: 召喚 0: 14; 召喚 1: 14; 召喚 2: 13; 召喚 3: 13; 召喚 4: 12; 召喚 5: 12; 召喚 6: 12; 召喚 7: 11; 召喚 8: 11; 召喚 9: 10; 召喚 10: 10; 召喚 11: 9; 召喚 12: 9; 召喚 13: 8; 召喚 14: 8; 召喚 15: 8; 召喚 16: 7; 召喚 17: 7; 召喚 18: 6; 召喚 19: 6; 召喚 20: 5; 召喚 21: 5\n原消耗 25 點能量的咒文／儀式實際消耗: 召喚 0: 24; 召喚 1: 23; 召喚 2: 22; 召喚 3: 22; 召喚 4: 21; 召喚 5: 20; 召喚 6: 19; 召喚 7: 19; 召喚 8: 18; 召喚 9: 17; 召喚 10: 16; 召喚 11: 16; 召喚 12: 15; 召喚 13: 14; 召喚 14: 13; 召喚 15: 13; 召喚 16: 12; 召喚 17: 11; 召喚 18: 10; 召喚 19: 10; 召喚 20: 9; 召喚 21: 8",
+      "reason": "逐列核對原消耗1/3/5/10/15/25共六行、召喚0–21全部22階的實際消耗；減免量0.5向下取整，不把表值當恢復能量。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5084/variants/skill-version:gww:5084/notes/0",
+          "englishHash": "add784da756d582624d6902eae02b60ec606e48d17931b19bfe2b8a49b3fb01f",
+          "evidenceHash": "22e7b4b21e1252ea18d75253c1be1deff96ee8c5c276abcc52965ae70f4c7720"
+        }
+      ]
+    },
+    {
+      "source": "* Synergy with Arcane Echo (and other copying skills), since whenever the copying skill becomes another skill it instantly starts off recharged, and the copy eventually expires, nullifying the added recharge.\n* Energy gain is rounded up from 0.5. The following table shows the energy gain resulting from casting a spell after Auspicious Incantation:\nProgression\n5 energy cost: Inspiration Magic 0: 6; Inspiration Magic 1: 6; Inspiration Magic 2: 6; Inspiration Magic 3: 6; Inspiration Magic 4: 7; Inspiration Magic 5: 7; Inspiration Magic 6: 7; Inspiration Magic 7: 8; Inspiration Magic 8: 8; Inspiration Magic 9: 8; Inspiration Magic 10: 8; Inspiration Magic 11: 9; Inspiration Magic 12: 9; Inspiration Magic 13: 9; Inspiration Magic 14: 10; Inspiration Magic 15: 10; Inspiration Magic 16: 10\n10 energy cost: Inspiration Magic 0: 11; Inspiration Magic 1: 12; Inspiration Magic 2: 12; Inspiration Magic 3: 13; Inspiration Magic 4: 13; Inspiration Magic 5: 14; Inspiration Magic 6: 15; Inspiration Magic 7: 15; Inspiration Magic 8: 16; Inspiration Magic 9: 16; Inspiration Magic 10: 17; Inspiration Magic 11: 18; Inspiration Magic 12: 18; Inspiration Magic 13: 19; Inspiration Magic 14: 19; Inspiration Magic 15: 20; Inspiration Magic 16: 21\n15 energy cost: Inspiration Magic 0: 16; Inspiration Magic 1: 17; Inspiration Magic 2: 18; Inspiration Magic 3: 19; Inspiration Magic 4: 20; Inspiration Magic 5: 21; Inspiration Magic 6: 22; Inspiration Magic 7: 23; Inspiration Magic 8: 24; Inspiration Magic 9: 25; Inspiration Magic 10: 26; Inspiration Magic 11: 26; Inspiration Magic 12: 27; Inspiration Magic 13: 28; Inspiration Magic 14: 29; Inspiration Magic 15: 30; Inspiration Magic 16: 31\n25 energy cost: Inspiration Magic 0: 28; Inspiration Magic 1: 29; Inspiration Magic 2: 30; Inspiration Magic 3: 32; Inspiration Magic 4: 33; Inspiration Magic 5: 35; Inspiration Magic 6: 36; Inspiration Magic 7: 38; Inspiration Magic 8: 40; Inspiration Magic 9: 41; Inspiration Magic 10: 42; Inspiration Magic 11: 44; Inspiration Magic 12: 46; Inspiration Magic 13: 47; Inspiration Magic 14: 48; Inspiration Magic 15: 50; Inspiration Magic 16: 52",
+      "text": "此技能適合搭配魔法回音及其他複製技能：當複製技能變成另一技能時，會立即成為已完成冷卻的狀態；副本最終也會消失，因此額外冷卻時間不再有影響。\n獲得的能量在小數部分為 0.5 時向上取整。以下列出使用幸運咒語後施放咒文所獲得的能量：\n屬性成長表：\n5 點原始能量消耗: 靈感魔法 0: 6; 靈感魔法 1: 6; 靈感魔法 2: 6; 靈感魔法 3: 6; 靈感魔法 4: 7; 靈感魔法 5: 7; 靈感魔法 6: 7; 靈感魔法 7: 8; 靈感魔法 8: 8; 靈感魔法 9: 8; 靈感魔法 10: 8; 靈感魔法 11: 9; 靈感魔法 12: 9; 靈感魔法 13: 9; 靈感魔法 14: 10; 靈感魔法 15: 10; 靈感魔法 16: 10\n10 點原始能量消耗: 靈感魔法 0: 11; 靈感魔法 1: 12; 靈感魔法 2: 12; 靈感魔法 3: 13; 靈感魔法 4: 13; 靈感魔法 5: 14; 靈感魔法 6: 15; 靈感魔法 7: 15; 靈感魔法 8: 16; 靈感魔法 9: 16; 靈感魔法 10: 17; 靈感魔法 11: 18; 靈感魔法 12: 18; 靈感魔法 13: 19; 靈感魔法 14: 19; 靈感魔法 15: 20; 靈感魔法 16: 21\n15 點原始能量消耗: 靈感魔法 0: 16; 靈感魔法 1: 17; 靈感魔法 2: 18; 靈感魔法 3: 19; 靈感魔法 4: 20; 靈感魔法 5: 21; 靈感魔法 6: 22; 靈感魔法 7: 23; 靈感魔法 8: 24; 靈感魔法 9: 25; 靈感魔法 10: 26; 靈感魔法 11: 26; 靈感魔法 12: 27; 靈感魔法 13: 28; 靈感魔法 14: 29; 靈感魔法 15: 30; 靈感魔法 16: 31\n25 點原始能量消耗: 靈感魔法 0: 28; 靈感魔法 1: 29; 靈感魔法 2: 30; 靈感魔法 3: 32; 靈感魔法 4: 33; 靈感魔法 5: 35; 靈感魔法 6: 36; 靈感魔法 7: 38; 靈感魔法 8: 40; 靈感魔法 9: 41; 靈感魔法 10: 42; 靈感魔法 11: 44; 靈感魔法 12: 46; 靈感魔法 13: 47; 靈感魔法 14: 48; 靈感魔法 15: 50; 靈感魔法 16: 52",
+      "reason": "核對複製技能消除額外冷卻的兩階段原因；保留0.5進位、5/10/15/25原消耗與靈感魔法0–16四行全部表值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1637/variants/skill-version:gww:1637/notes/0",
+          "englishHash": "6c93a6498945e05f0f2a752ca4e35d0e4707c7d1421efacfa062e10d3a9a40bc",
+          "evidenceHash": "0bd88ea32591eaa8cc4a3c2808adb2180ab8f51534b02a3e9a8599b4bd95dc59"
+        }
+      ]
+    },
+    {
+      "source": "Melee attacks also contribute to the bonus damage of this skill.\n* This skill counts itself as recharging for the damage bonus. These are the number of recharging melee attack skills required for maximum damage:\nDagger Mastery 0-4: Recharging melee attack skills: 8\nDagger Mastery 5-6: Recharging melee attack skills: 7\nDagger Mastery 7-8: Recharging melee attack skills: 6\nDagger Mastery 9-12: Recharging melee attack skills: 5\nDagger Mastery 13-19: Recharging melee attack skills: 4\nDagger Mastery 20+: Recharging melee attack skills: 3",
+      "text": "近戰攻擊也會增加此技能的額外傷害。\n計算額外傷害時，此技能本身也算正在冷卻。達到最高傷害所需的冷卻中近戰攻擊技能數如下：\n匕首精通 0–4：8 個。\n匕首精通 5–6：7 個。\n匕首精通 7–8：6 個。\n匕首精通 9–12：5 個。\n匕首精通 13–19：4 個。\n匕首精通 20 以上：3 個。",
+      "reason": "逐列核對匕首精通六段與8/7/6/5/4/3技能數，保留自身也計入及一般近戰攻擊也貢獻的來源註記。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6779/variants/skill-version:gww:6779/notes/0",
+          "englishHash": "74d46b58c981f37be1b2c2b7a78fb563a26e32d195223ee5c55ae9b4de254ee3",
+          "evidenceHash": "1631eab75ce1ff9a2ccfa30095f9f27da53b95faf19278e9cd0fc08fcbc67806"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 4.17...25...29.17% if used every time it recharges.\n* Some synergy with \"On Your Knees!\".\n* This stance can be maintained indefinitely under Dwarven Stability.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 4.17...25...29.17%。\n可與「On Your Knees!」搭配。\n在 Dwarven Stability 效果下，可無限期維持此態勢。",
+      "reason": "核對三個平均速度端點、指定搭配及矮人技能下無限維持態勢，未知中文技能名保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4070/variants/skill-version:gww:4070/notes/0",
+          "englishHash": "b8f90bc347d2a8dd0c8bf8ba999d2aa59de4539d9678783f57ad2b753e13d0dd",
+          "evidenceHash": "34851adc2a743c49a866d41f060e894ca7e7a9b86e513efd899b5a5897ad9e7a"
+        }
+      ]
+    },
+    {
+      "source": "* This skill is useful for maintaining Critical Defenses or Critical Agility since it's a guaranteed critical hit.\n* This skill is effective for maintaining your energy because, in addition to restoring energy itself, the critical hits also restore energy with Critical Strikes. The following table shows the total energy gain (excluding skill cost):\nProgression\nTotal energy gain: Critical Strikes 0: 2; Critical Strikes 1: 2; Critical Strikes 2: 2; Critical Strikes 3: 4; Critical Strikes 4: 6; Critical Strikes 5: 6; Critical Strikes 6: 6; Critical Strikes 7: 6; Critical Strikes 8: 8; Critical Strikes 9: 8; Critical Strikes 10: 8; Critical Strikes 11: 8; Critical Strikes 12: 10; Critical Strikes 13: 12; Critical Strikes 14: 12; Critical Strikes 15: 12; Critical Strikes 16: 12; Critical Strikes 17: 12; Critical Strikes 18: 14; Critical Strikes 19: 16; Critical Strikes 20: 16",
+      "text": "此技能必定造成致命一擊，因此適合維持 致命防禦 或薄暮之速。\n此技能有助於維持能量；除了本身恢復能量，致命一擊也會透過致命攻擊屬性恢復能量。以下列出總能量獲得量，未扣除技能本身消耗：\n屬性成長表：\n總能量獲得量: 致命攻擊 0: 2; 致命攻擊 1: 2; 致命攻擊 2: 2; 致命攻擊 3: 4; 致命攻擊 4: 6; 致命攻擊 5: 6; 致命攻擊 6: 6; 致命攻擊 7: 6; 致命攻擊 8: 8; 致命攻擊 9: 8; 致命攻擊 10: 8; 致命攻擊 11: 8; 致命攻擊 12: 10; 致命攻擊 13: 12; 致命攻擊 14: 12; 致命攻擊 15: 12; 致命攻擊 16: 12; 致命攻擊 17: 12; 致命攻擊 18: 14; 致命攻擊 19: 16; 致命攻擊 20: 16",
+      "reason": "核對必定致命與兩種能量來源；保留致命攻擊0–20全部21階能量表，數值未扣技能消耗，不混淆技能Critical Strike與屬性Critical Strikes。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14598/variants/skill-version:gww:14598/notes/0",
+          "englishHash": "956be0c3d8eada77186fb4250b2016dd86051f817ee2981ce42102bca5db07f1",
+          "evidenceHash": "11520cf037cd3bd7e6cc01840e4bc1bb83d084f46387d7258c5253e144c6e782"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 4.17...10.83...12.5% if used every time it recharges.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 4.17...10.83...12.5%。",
+      "reason": "核對黑暗逃脫三端點及平均速度前提，不誤寫單次加速比例。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6705/variants/skill-version:gww:6705/notes/0",
+          "englishHash": "b6a4691ac064a22753d42d6d8c3697a1ef85e636bd80ff16e648b01bde053a48",
+          "evidenceHash": "31c6ccb85b9bf2b08e872aa06824a33daa1a528d85b8b067e31771dd58b92076"
+        }
+      ]
+    },
+    {
+      "source": "Similar to Migraine, this skill does not decrease the activation time of dagger attack skills. Recharge time of dagger attack skills are affected as the skill describes.\n[Source information may be outdated]\n;February 05, 2019 update; please verify changes to AI behavior.",
+      "text": "與頭痛類似，此技能不會縮短匕首攻擊技能的啟動時間。匕首攻擊技能的冷卻時間仍會如技能說明所述受到影響。\n［來源資訊可能已過時］\n來源針對 2019 年 02 月 05 日更新註記：請核實 AI 行為的變化。",
+      "reason": "核對匕首攻擊啟動時間不受影響、冷卻仍受影響，保留2019更新AI待核實，不斷言舊AI備註仍適用。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14766/variants/skill-version:gww:14766/notes/0",
+          "englishHash": "e5ae563ea643bc112cf9471afc6255d1c2a372287dd6f2c65b6038cb5df59f1f",
+          "evidenceHash": "e8567f43e549553c6e85c4deb31df30adba81528b8acbf3c719333ae93300fac"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Destruction that deals armor-ignoring lightning damage.\n* Combine this with Ritual Lord or Soul Twisting for faster recharge and damage output.\n* Use with skills that destroy spirits to control the damage spike, such as Rupture Soul.\n* The following table shows the total lifespan (in seconds) needed to reach the desired breakpoints for maximum damage:\nProgression\nTotal lifespan: Channeling Magic 0: 30; Channeling Magic 1: 25; Channeling Magic 2: 19; Channeling Magic 3: 17; Channeling Magic 4: 15; Channeling Magic 5: 13; Channeling Magic 6: 12; Channeling Magic 7: 11; Channeling Magic 8: 10; Channeling Magic 9: 9; Channeling Magic 10: 9; Channeling Magic 11: 8; Channeling Magic 12: 8; Channeling Magic 13: 7; Channeling Magic 14: 7; Channeling Magic 15: 6; Channeling Magic 16: 6; Channeling Magic 17: 6; Channeling Magic 18: 6; Channeling Magic 19: 5; Channeling Magic 20: 5\n\nThis spirit deals no damage if the caster (or their corpse) is not in compass range.\nThe damage dealt is armor-ignoring lightning damage.\nThe non-concise and concise descriptions are identical.",
+      "text": "此技能會創造毀滅精靈，造成無視護甲的閃電傷害。\n搭配祭祀之主或生靈扭轉，可加快冷卻並提高傷害輸出。\n可搭配會摧毀精靈的技能（如生靈迸裂），控制爆發傷害的時機。\n以下列出達到最高傷害所需的總存活時間，單位為秒：\n屬性成長表：\n總存活時間: 導引魔法 0: 30; 導引魔法 1: 25; 導引魔法 2: 19; 導引魔法 3: 17; 導引魔法 4: 15; 導引魔法 5: 13; 導引魔法 6: 12; 導引魔法 7: 11; 導引魔法 8: 10; 導引魔法 9: 9; 導引魔法 10: 9; 導引魔法 11: 8; 導引魔法 12: 8; 導引魔法 13: 7; 導引魔法 14: 7; 導引魔法 15: 6; 導引魔法 16: 6; 導引魔法 17: 6; 導引魔法 18: 6; 導引魔法 19: 5; 導引魔法 20: 5\n\n施放者或其屍體若不在羅盤範圍內，此精靈不會造成傷害。\n造成的傷害為無視護甲的閃電傷害。\n完整說明與簡短說明相同。",
+      "reason": "逐階核對導引魔法0–20共21階存活秒數；保留祭祀之主或生靈扭轉搭配、摧靈控制爆發、羅盤限制及無視護甲的閃電傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2823/variants/skill-version:gww:2823/notes/0",
+          "englishHash": "c596233366dc4ef090eabbe0c816fb978c8f705c760618666bf068152b9c691d",
+          "evidenceHash": "3aac91269082a921d8e9ae0b2aae9bf3eab7688d8f10effb5ce5bbe68daa340f"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Destruction.\n* Use with skills that destroy spirits to control the damage spike, such as Rupture Soul.\n* This skill deals armor-ignoring lightning damage. \n\nLifespan needed to reach maximum (150) damage\nLifespan in seconds: Channeling Magic 0: 150; Channeling Magic 1: 75; Channeling Magic 2: 75; Channeling Magic 3: 50; Channeling Magic 4: 50; Channeling Magic 5: 38; Channeling Magic 6: 30; Channeling Magic 7: 30; Channeling Magic 8: 25; Channeling Magic 9: 25; Channeling Magic 10: 22; Channeling Magic 11: 19; Channeling Magic 12: 19; Channeling Magic 13: 17; Channeling Magic 14: 17; Channeling Magic 15: 15; Channeling Magic 16: 14; Channeling Magic 17: 14; Channeling Magic 18: 13; Channeling Magic 19: 13; Channeling Magic 20: 12; Channeling Magic 21: 11\n\nThis spirit deals no damage if the caster (or his corpse) is not in compass range.",
+      "text": "此技能會創造毀滅精靈。\n可搭配會摧毀精靈的技能（如生靈迸裂），控制爆發傷害的時機。\n此技能造成無視護甲的閃電傷害。\n\n達到最高 150 點傷害所需的存活時間：\n存活時間（秒）: 導引魔法 0: 150; 導引魔法 1: 75; 導引魔法 2: 75; 導引魔法 3: 50; 導引魔法 4: 50; 導引魔法 5: 38; 導引魔法 6: 30; 導引魔法 7: 30; 導引魔法 8: 25; 導引魔法 9: 25; 導引魔法 10: 22; 導引魔法 11: 19; 導引魔法 12: 19; 導引魔法 13: 17; 導引魔法 14: 17; 導引魔法 15: 15; 導引魔法 16: 14; 導引魔法 17: 14; 導引魔法 18: 13; 導引魔法 19: 13; 導引魔法 20: 12; 導引魔法 21: 11\n\n施放者或其屍體若不在羅盤範圍內，此精靈不會造成傷害。",
+      "reason": "逐階核對PvP最高150傷害與導引魔法0–21共22階秒數，與PvE表分開；保留摧靈、閃電傷害及羅盤條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2823/variants/skill-version:gww:207855/notes/0",
+          "englishHash": "0858fedc35604af90a7ff3d37731c37f2a24e9d09c72bd4c68d527f2526525b5",
+          "evidenceHash": "372fd9fd7cfa5d2dce6e3ce1a3e1385eebb3a74e7324753126097686a4e1a769"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 5.5...11...12.1% if used every time it recharges.\n* \"Projectiles\" means ranged attacks from weapons, not projectile spells.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 5.5...11...12.1%。\n此處的「投射物」指武器的遠距攻擊，不包括投射物咒文。",
+      "reason": "核對閃避平均速度三端點；projectiles限制武器遠攻，不把投射物咒文也列入。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6517/variants/skill-version:gww:6517/notes/0",
+          "englishHash": "03d7f6945f5156e3ee6391c3f202b814ab8930396cdd61046dbc2190b6f93cb0",
+          "evidenceHash": "d65ae2e5a76c3b9e817397264c01df5c5e911966fc7c1b3b0a33e5b607ab3def"
+        }
+      ]
+    },
+    {
+      "source": "* These are the number of recharging binding rituals required for maximum damage:\nSpawning Power 0-3: Recharging binding rituals: 7\nSpawning Power 4: Recharging binding rituals: 6\nSpawning Power 5-7: Recharging binding rituals: 5\nSpawning Power 8-10: Recharging binding rituals: 4\nSpawning Power 11-17: Recharging binding rituals: 3\nSpawning Power 18+: Recharging binding rituals: 2",
+      "text": "達到最高傷害所需的冷卻中縛靈儀式數如下：\n召喚 0–3：7 個。\n召喚 4：6 個。\n召喚 5–7：5 個。\n召喚 8–10：4 個。\n召喚 11–17：3 個。\n召喚 18 以上：2 個。",
+      "reason": "逐列核對召喚六段屬性與7/6/5/4/3/2縛靈儀式數，保留冷卻中限制及原表第一軸。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5102/variants/skill-version:gww:5102/notes/0",
+          "englishHash": "71e562e8e94f2b88f3123c14f0f5fc0472829d9654efed4c03a10fc74e85745b",
+          "evidenceHash": "b3c1092c1ebd9088ff6f32a7c71f68cd5cf7746812840a13ed8ad9283931cbde"
+        }
+      ]
+    },
+    {
+      "source": "* These are the number of enchantments required for maximum healing:\nWind Prayers 0: Enchantments: 1\nWind Prayers 1-5: Enchantments: 2\nWind Prayers 6-10: Enchantments: 3\nWind Prayers 11-15: Enchantments: 4\nWind Prayers 16-20: Enchantments: 5",
+      "text": "達到最高治療量所需的加持數如下：\n風之祈禱 0：1 個。\n風之祈禱 1–5：2 個。\n風之祈禱 6–10：3 個。\n風之祈禱 11–15：4 個。\n風之祈禱 16–20：5 個。",
+      "reason": "逐列核對風之祈禱五段屬性及1–5加持數；不是地之祈禱，不省略原表屬性軸。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14077/variants/skill-version:gww:14077/notes/0",
+          "englishHash": "80429df7441c397e392d4524a50f3266c24de56c4f31a404ec647b59ccd69e6e",
+          "evidenceHash": "11b14bddd3524cca22fd373b1e6e8d3af88f2dc22cc622f846b11a074c3cac92"
+        }
+      ]
+    },
+    {
+      "source": "* The amount of energy regained is rounded; for example, a 5 energy spell returns 1+3=4 energy instead of 3.5 energy.\n* When combined with one of the other attunements (e.g. Fire Attunement), 5 energy spells of the respective element can be cast for a net energy gain.\n* When combined with Glyph of Lesser Energy, energy is still refunded causing a net energy gain. This also applies to Glyph of Energy, however as another elite it has less practical application.\n\nCost 5: Attunement: 3; Elemental Attunement: 4; Combined: 7; Net cost: -2\nCost 10: Attunement: 4; Elemental Attunement: 6; Combined: 10; Net cost: 0\nCost 15: Attunement: 6; Elemental Attunement: 9; Combined: 15; Net cost: 0\nCost 25: Attunement: 9; Elemental Attunement: 14; Combined: 23; Net cost: 2",
+      "text": "恢復的能量會取整；例如，消耗 5 點能量的咒文會返還 1+3=4 點能量，而非 3.5 點。\n搭配其他調和技能（例如火之調和）時，施放該元素消耗 5 點能量的咒文可淨獲得能量。\n搭配微能符號時，仍會返還能量，因此可淨獲得能量。能量符號也適用，但它本身也是精英技能，實際搭配機會較少。\n\n原始消耗 5：單系調和返還 3；元素調和返還 4；合計返還 7；淨消耗 -2。\n原始消耗 10：單系調和返還 4；元素調和返還 6；合計返還 10；淨消耗 0。\n原始消耗 15：單系調和返還 6；元素調和返還 9；合計返還 15；淨消耗 0。\n原始消耗 25：單系調和返還 9；元素調和返還 14；合計返還 23；淨消耗 2。",
+      "reason": "逐行核對原消耗5/10/15/25、兩調和返還與淨消耗-2/0/0/2；保留1+3=4非3.5及符號搭配，負消耗代表淨獲得。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4064/variants/skill-version:gww:4064/notes/0",
+          "englishHash": "7a4efe4608b0c4663381af5a34edb99e1ec344442e9bf4d18be44dfbc5469aab",
+          "evidenceHash": "5d4460fef08ecd3d3129aa5b2d1700db494d036d786610b82f02e7caae373ea7"
+        }
+      ]
+    },
+    {
+      "source": "* The full description is correct; AoE hexes will inflict burning on all affected foes, not just the target.\n* Inflicts burning even when reapplying a hex.\n\nElementalist hex spells comparison\nSee: List of hex spells#Elementalist hex spells\n\nskill Ice Prison: Attribute: Water Magic; range: single-target; recharge: 30s\nskill Glimmering Mark: Attribute: Air Magic; range: single-target; recharge: 15s\nskill Teinai's Prison: Attribute: Water Magic; range: single-target; recharge: 15s\nskill Winter's Embrace: Attribute: Water Magic; range: single-target; recharge: 15s\nskill Icy Shackles: Attribute: Water Magic; range: single-target; recharge: 12s\nskill Lightning Surge: Attribute: Air Magic; range: single-target; recharge: 10s\nskill Shard Storm: Attribute: Water Magic; range: single-target; recharge: 10s\nskill Shatterstone: Attribute: Water Magic; range: single-target; recharge: 8s\nskill Freezing Gust: Attribute: Water Magic; range: single-target; recharge: 8s; notes: Not if target already has a water magic hex\nskill Incendiary Bonds: Attribute: Fire Magic; range: single-target; recharge: 7s; notes: causes burning in nearby range after 3s\nskill Smoldering Embers: Attribute: Fire Magic; range: single-target; recharge: 7s\nskill Lightning Strike: Attribute: Air Magic; range: single-target; recharge: 5s\nskill Mind Freeze: Attribute: Water Magic; range: single-target; recharge: 5s\nskill Ash Blast: Attribute: Earth Magic; range: adjacent; recharge: 15s; notes: requires an already burning foe\nskill Blurred Vision: Attribute: Water Magic; range: adjacent; recharge: 12s\nskill Ice Spikes: Attribute: Water Magic; range: adjacent; recharge: 10s\nskill Rust: Attribute: Water Magic; range: adjacent; recharge: 8s\nskill Chilling Winds: Attribute: Air Magic; range: adjacent; recharge: 8s; notes: extends the duration of the next Water Magic hex\nskill Mark of Rodgort: Attribute: Fire Magic; range: nearby; recharge: 15s; notes: causes burning on fire damage\nskill Earthen Shackles: Attribute: Earth Magic; range: nearby; recharge: 15s\nskill Grasping Earth: Attribute: Earth Magic; range: near self; recharge: 12s\nskill Frozen Burst: Attribute: Water Magic; range: near self; recharge: 8s\nskill Mirror of Ice: Attribute: Water Magic; range: near self and target ally; recharge: 7.5s; notes: 15s recharge unless one of the struck foes has a Water hex\nskill Deep Freeze: Attribute: Water Magic; range: in the area; recharge: 15s",
+      "text": "完整說明正確：範圍降咒會使所有受影響的敵人燃燒，而不只指定目標。\n再次施加降咒也會造成燃燒。\n\n元素使降咒魔法比較：\n參見來源的「List of hex spells#Elementalist hex spells」。\n\n冰之牢獄：屬性為水系魔法；範圍為單一目標；冷卻 30 秒。\n閃光印記：屬性為風系魔法；範圍為單一目標；冷卻 15 秒。\n邸內監禁：屬性為水系魔法；範圍為單一目標；冷卻 15 秒。\nWinter's Embrace：屬性為水系魔法；範圍為單一目標；冷卻 15 秒。\n冰冷束縛：屬性為水系魔法；範圍為單一目標；冷卻 12 秒。\n閃電震盪：屬性為風系魔法；範圍為單一目標；冷卻 10 秒。\n冰風暴：屬性為水系魔法；範圍為單一目標；冷卻 10 秒。\n碎裂冰石：屬性為水系魔法；範圍為單一目標；冷卻 8 秒。\n寒風：屬性為水系魔法；範圍為單一目標；冷卻 8 秒。目標已有水系魔法降咒時不適用。\n燃燒連結：屬性為火系魔法；範圍為單一目標；冷卻 7 秒。在 3 秒後使附近範圍內的敵人燃燒。\n陰燒餘燼：屬性為火系魔法；範圍為單一目標；冷卻 7 秒。\n閃電衝擊：屬性為風系魔法；範圍為單一目標；冷卻 5 秒。\n心靈凍結：屬性為水系魔法；範圍為單一目標；冷卻 5 秒。\n塵暴：屬性為地系魔法；範圍為相鄰；冷卻 15 秒。需要敵人已處於燃燒狀態。\n模糊視線：屬性為水系魔法；範圍為相鄰；冷卻 12 秒。\n冰之尖刺：屬性為水系魔法；範圍為相鄰；冷卻 10 秒。\n紋章鏽蝕：屬性為水系魔法；範圍為相鄰；冷卻 8 秒。\n嚴寒之風：屬性為風系魔法；範圍為相鄰；冷卻 8 秒。延長下一個水系魔法降咒的持續時間。\n洛葛特的印記：屬性為火系魔法；範圍為附近；冷卻 15 秒。受到火焰傷害時造成燃燒。\nEarthen Shackles：屬性為地系魔法；範圍為附近；冷卻 15 秒。\n地之束縛：屬性為地系魔法；範圍為自身附近；冷卻 12 秒。\n冰霜爆裂：屬性為水系魔法；範圍為自身附近；冷卻 8 秒。\n冰鏡：屬性為水系魔法；範圍為自身與目標盟友附近；冷卻 7.5 秒。若命中的敵人中沒有任何一個受到水系降咒影響，冷卻則為 15 秒。\n強力凍結：屬性為水系魔法；範圍為區域內；冷卻 15 秒。",
+      "reason": "逐列核對24種技能、屬性/範圍/冷卻軸及寒風、燃燒連結、塵暴、嚴寒之風、洛葛特、冰鏡條件；保留全範圍燃燒與重施降咒，未知技能專名維持英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16247/variants/skill-version:gww:16247/notes/0",
+          "englishHash": "a4cbdc573dd92fb59ebde89c5f0ac6316832a5e94d202b36859e8010faf1ad2d",
+          "evidenceHash": "69e20cd1e26b2ec9c1804d7cf43a5b6962202a3485de5ad68233b435652031c9"
+        }
+      ]
+    },
+    {
+      "source": "* Skills that disable non-attack skills (Tiger's Fury or Marauder's Shot for example) synergize well with this skill as it also deals extra damage for skills such as Charm Animal and Comfort Animal.\n* Damage from this skill is calculated at the time of activation on the skill bar, not when the animal companion uses it.\n* Enraged Lunge counts itself as a recharging Beast Mastery skill upon activation.\n* These are the number of recharging Beast Mastery skills required for maximum damage:\nBeast Mastery 0-6: Recharging Beast Mastery skills: 8\nBeast Mastery 7: Recharging Beast Mastery skills: 7\nBeast Mastery 8-9: Recharging Beast Mastery skills: 6\nBeast Mastery 10-12: Recharging Beast Mastery skills: 5\nBeast Mastery 13-17: Recharging Beast Mastery skills: 4\nBeast Mastery 18+: Recharging Beast Mastery skills: 3",
+      "text": "可搭配會停用非攻擊技能的技能，例如虎之怒或掠奪者射擊；迷魅動物、安慰動物等技能被停用時，也會增加此技能的額外傷害。\n傷害在技能列中啟動此技能時便已計算，而非動物夥伴實際使用時才計算。\n啟動時，暴怒衝刺本身也算正在冷卻的野獸支配技能。\n達到最高傷害所需的冷卻中野獸支配技能數如下：\n野獸支配 0–6：8 個。\n野獸支配 7：7 個。\n野獸支配 8–9：6 個。\n野獸支配 10–12：5 個。\n野獸支配 13–17：4 個。\n野獸支配 18 以上：3 個。",
+      "reason": "核對傷害在玩家啟動時計算、自身計入與停用非攻擊技能也增傷；逐列保留野獸支配六段及8/7/6/5/4/3技能數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2569/variants/skill-version:gww:215073/notes/0",
+          "englishHash": "117e149eb45f910381839e7f123c6d591b2384c8c3ee7b757fa908be692ed3a8",
+          "evidenceHash": "01b765ae40fcee122c4fed238a835a2529e613a4e36f543a2580a13c674d4236"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 2.75...19.25...22% if used every time it recharges.\n* Using this skill with Expertise of 11 or 12 or above alongside Dwarven Stability allows it to be permanently maintained if your Deldrimor rank is 5 or 4, respectively.\n* This skill is most often used for running and can be used with Dodge or similar skills for a non-stop speed boost.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 2.75...19.25...22%。\n搭配 Dwarven Stability 時，專精 11 且戴爾狄摩稱號第 5 級，或專精 12 以上且稱號第 4 級，皆可無間斷維持此技能。\n此技能常用於趕路，可搭配閃避或類似技能，持續維持移動速度加成。",
+      "reason": "核對三個平均速度端點；明列專精11配稱號5、專精12以上配稱號4的respectively關係，未知矮人技能名保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4053/variants/skill-version:gww:4053/notes/0",
+          "englishHash": "6dd23358b0e4dce68496fe230d59fbf21eae461063b0b159380b8780d41e9607",
+          "evidenceHash": "1c03d85332702901705feb483409805fb3d7eed26bef0903074eae68595b633c"
+        }
+      ]
+    },
+    {
+      "source": "* The energy cost reduction applies to base cost only; as a result, sometimes the skill will not save any energy due to Expertise. \n** The table below shows the net cost of bow attack skills while under the effect of this skill. Red = no difference in energy reduction compared to expertise alone, White = 1 energy reduction, Blue = 2 energy reduction. \n\n[Source header spans 22 columns, but lists 21 ranks]\nBase Cost 5: Expertise 0: 4; Expertise 1: 4; Expertise 2: 4; Expertise 3: 4 [Red]; Expertise 4: 4 [Red]; Expertise 5: 3; Expertise 6: 3; Expertise 7: 3; Expertise 8: 2; Expertise 9: 2; Expertise 10: 2; Expertise 11: 2; Expertise 12: 2; Expertise 13: 1; Expertise 14: 1; Expertise 15: 1; Expertise 16: 1; Expertise 17: 1; Expertise 18: 1 [Red]; Expertise 19: 1 [Red]; Expertise 20: 1 [Red]\nBase Cost 10: Expertise 0: 9; Expertise 1: 9; Expertise 2: 8; Expertise 3: 8; Expertise 4: 8 [Red]; Expertise 5: 7; Expertise 6: 7; Expertise 7: 6; Expertise 8: 5 [Blue]; Expertise 9: 5; Expertise 10: 5; Expertise 11: 4 [Blue]; Expertise 12: 4; Expertise 13: 4; Expertise 14: 4 [Red]; Expertise 15: 3; Expertise 16: 3; Expertise 17: 3 [Red]; Expertise 18: 2; Expertise 19: 2 [Red]; Expertise 20: 2 [Red]\nBase Cost 15: Expertise 0: 14; Expertise 1: 13; Expertise 2: 13; Expertise 3: 12; Expertise 4: 12; Expertise 5: 11; Expertise 6: 11 [Red]; Expertise 7: 10; Expertise 8: 9 [Blue]; Expertise 9: 8; Expertise 10: 8; Expertise 11: 7; Expertise 12: 7; Expertise 13: 6; Expertise 14: 6; Expertise 15: 5; Expertise 16: 5 [Red]; Expertise 17: 4; Expertise 18: 4 [Red]; Expertise 19: 3; Expertise 20: 3 [Red]\nBase Cost 25: Expertise 0: 24; Expertise 1: 23; Expertise 2: 22; Expertise 3: 21; Expertise 4: 20; Expertise 5: 19; Expertise 6: 18; Expertise 7: 17; Expertise 8: 16; Expertise 9: 15; Expertise 10: 14; Expertise 11: 13; Expertise 12: 12; Expertise 13: 11; Expertise 14: 10; Expertise 15: 9; Expertise 16: 8; Expertise 17: 7; Expertise 18: 6; Expertise 19: 6 [Red]; Expertise 20: 5 [Red]",
+      "text": "能量消耗減免只套用於基礎消耗；由於專精的影響，此技能有時不會額外節省能量。\n以下列出此技能生效時，弓攻擊技能的實際能量消耗。與只靠專精相比，紅色表示沒有額外減免，白色表示額外減少 1 點能量，藍色表示額外減少 2 點能量。\n\n［來源表頭跨 22 欄，但只列出 21 個等級］\n基礎消耗 5: 專精 0: 4; 專精 1: 4; 專精 2: 4; 專精 3: 4 ［紅色］; 專精 4: 4 ［紅色］; 專精 5: 3; 專精 6: 3; 專精 7: 3; 專精 8: 2; 專精 9: 2; 專精 10: 2; 專精 11: 2; 專精 12: 2; 專精 13: 1; 專精 14: 1; 專精 15: 1; 專精 16: 1; 專精 17: 1; 專精 18: 1 ［紅色］; 專精 19: 1 ［紅色］; 專精 20: 1 ［紅色］\n基礎消耗 10: 專精 0: 9; 專精 1: 9; 專精 2: 8; 專精 3: 8; 專精 4: 8 ［紅色］; 專精 5: 7; 專精 6: 7; 專精 7: 6; 專精 8: 5 ［藍色］; 專精 9: 5; 專精 10: 5; 專精 11: 4 ［藍色］; 專精 12: 4; 專精 13: 4; 專精 14: 4 ［紅色］; 專精 15: 3; 專精 16: 3; 專精 17: 3 ［紅色］; 專精 18: 2; 專精 19: 2 ［紅色］; 專精 20: 2 ［紅色］\n基礎消耗 15: 專精 0: 14; 專精 1: 13; 專精 2: 13; 專精 3: 12; 專精 4: 12; 專精 5: 11; 專精 6: 11 ［紅色］; 專精 7: 10; 專精 8: 9 ［藍色］; 專精 9: 8; 專精 10: 8; 專精 11: 7; 專精 12: 7; 專精 13: 6; 專精 14: 6; 專精 15: 5; 專精 16: 5 ［紅色］; 專精 17: 4; 專精 18: 4 ［紅色］; 專精 19: 3; 專精 20: 3 ［紅色］\n基礎消耗 25: 專精 0: 24; 專精 1: 23; 專精 2: 22; 專精 3: 21; 專精 4: 20; 專精 5: 19; 專精 6: 18; 專精 7: 17; 專精 8: 16; 專精 9: 15; 專精 10: 14; 專精 11: 13; 專精 12: 12; 專精 13: 11; 專精 14: 10; 專精 15: 9; 專精 16: 8; 專精 17: 7; 專精 18: 6; 專精 19: 6 ［紅色］; 專精 20: 5 ［紅色］",
+      "reason": "逐列核對5/10/15/25四行及專精0–20全部21階、紅藍標記；保留22欄/21等級來源差異，顏色比較對象是單用專精，不是總減免。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51924/variants/skill-version:gww:51924/notes/0",
+          "englishHash": "8e5fd3ecd3a5aaffb787981c60c065a14f975683e495384fca560031e6f6fe89",
+          "evidenceHash": "0c33889420f0756f9e8ac49d700ed3a2e44a491bcd4af3ebc90d94f1812acc07"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 10...22.5...25% if used every time it recharges.\n*Queue this skill while knocked down to avoid being quarterknocked.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 10...22.5...25%。\n被擊倒時預先排入此技能，可避免起身瞬間再次被擊倒（quarterknock）。",
+      "reason": "核對短促穩定PvE三端點與倒地時預排，保留quarterknock時機語意及英文術語。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:1381/notes/0",
+          "englishHash": "150083b604a1cec828f6a6969ce965dec161c339f8333b84ade3c47817041a13",
+          "evidenceHash": "e672aba05c18412b89c2170e8f408bca86f1e14df5e3353ec45f10991551ac7f"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 5...17.5...20% if used every time it recharges.\n*Queue this skill while knocked down to avoid being quarterknocked.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 5...17.5...20%。\n被擊倒時預先排入此技能，可避免起身瞬間再次被擊倒（quarterknock）。",
+      "reason": "核對短促穩定PvP的5/17.5/20平均速度，與PvE分開；保留倒地預排防再次擊倒。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:321764/notes/0",
+          "englishHash": "700ad66962955b9f4d8ed61d12612219192dd00f6216a0f8ebd797ac0f1b1307",
+          "evidenceHash": "5a3c188cb52e8858251d5de3f5845950395fd1c0f11e3d44a2a2b0284ca50921"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 5...17.5...20% if used every time it recharges.\n*Heroes will use and maintain it even when attacking a stationary foe.",
+      "text": "每次技能完成冷卻後立即使用，可使平均移動速度提高 5...17.5...20%。",
+      "reason": "核對獵捕者之速平均速度三端點及冷卻即用前提，不當成固定20%移速。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14382/variants/skill-version:gww:14382/notes/0",
+          "englishHash": "169ea627c15941c97cb1ebe5131f97277edf9d61fbc00941293bf666aea12fac",
+          "evidenceHash": "65f196448f30540496fa7eec9a8f23906340010cfa06197a74bc059ddc6f68c6"
+        }
+      ]
+    },
+    {
+      "source": "* The triggering damage is calculated before damage reduction, so a 55 Monk enchanted with Protective Spirit and Judge's Intervention could be dealt 60 damage, have that reduced to 5 damage, and still trigger Judge's Intervention.\n\n* Combines well with minions, but will not trigger if they die due to their natural health degeneration.\n* This skill can cause the highest armor-ignoring damage in one packet amongst all player-useable skills; however, Grenth's Balance can potentially cause a foe to lose more health.\nUnlike most other monk spells, Judge's Intervention does not invoke an animation upon the target.\n[Source information may be outdated]\n;February 05, 2019 update; please verify changes to AI behavior.\n* Heroes will use it on allies who have low health and are not in combat, such as minions when travelling between mobs.",
+      "text": "* 觸發判定使用減傷前的傷害。因此，一名同時受到精神守護與審判干涉加持的 55 僧侶，即使原本的 60 點傷害被降至 5 點，仍會觸發審判干涉。\n\n* 適合搭配不死生物，但不會因不死生物死於自然體力衰減而觸發。\n* 在玩家可用技能中，此技能能造成最高的單次無視防禦傷害；但古蘭斯的平衡仍可能使敵人失去更多體力。\n審判干涉與多數僧侶法術不同，不會在目標身上播放動畫。\n〔來源資訊可能已過時〕\n2019 年 2 月 05 日更新：請核實 AI 行為的變化。\n* 英雄會對體力偏低且未處於戰鬥中的盟友使用此技能，例如在敵群之間移動時的不死生物。",
+      "reason": "核對觸發前後的傷害次序、自然衰減例外與來源的 AI 過時警示。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13043/variants/skill-version:gww:13043/notes/0",
+          "englishHash": "65da959ae58cac633460a2b908560f754a8d6b2f796e2f97befe92ffe23c5825",
+          "evidenceHash": "ac1279351108f6c8f9f0cd77b9436de68034257f7338d9fe63e83e0ca09593da"
+        }
+      ]
+    },
+    {
+      "source": "*This spell's area of effect is determined when the spell is cast. As such, becoming Overcast while Lava Font is still in effect will not enlarge the area of an already cast font, nor will the spell's area be reduced partway through its duration by the caster's Overcast disappearing.\n\n[Source information may be outdated]\n;February 05, 2019 update; please verify changes to AI behavior.\nHero AI will use this spell without considering whether there are foes adjacent to them.",
+      "text": "* 此法術的作用範圍在施放時決定。因此，熔岩噴泉持續期間才進入過載，不會擴大已施放噴泉的範圍；施法者的過載中途消失，也不會縮小其範圍。\n\n〔來源資訊可能已過時〕\n2019 年 2 月 05 日更新：請核實 AI 行為的變化。\n英雄 AI 使用此法術時，不會考慮身邊相鄰範圍內是否有敵人。",
+      "reason": "保留施放時確定範圍的機制，將原始過時模板改為可讀警示並重審。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/notes/0",
+          "englishHash": "041af2a7f5437748e3ee2251460b77175d5efcc0269b443b41caf46e653785e7",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 2.75...19.25...22% if used every time it recharges.\n* This stance only ends when an enchantment or hex is cast on you while you are in the stance. Previously cast enchantments or hexes do not affect the duration (as in, the stance does not end instantly if entered while enchanted or hexed).",
+      "text": "* 每次冷卻結束便立即重用時，此技能使平均移動速度提高 2.75...19.25...22%。\n* 只有在此態勢生效期間，有加持或降咒施放在你身上，才會使態勢結束。先前已有的加持或降咒不影響持續時間；也就是說，已有加持或降咒時進入此態勢，不會使它立即結束。",
+      "reason": "區分平均移動速度、態勢生效期間新施放的效果與原有加持或降咒。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6585/variants/skill-version:gww:6585/notes/0",
+          "englishHash": "15e0210de86014fd095d47981d660b056140981abb158eb1d5ad3013879028e4",
+          "evidenceHash": "f16e657b244f78fe5328fa6d22142ff88158e7524f182371dd0770958a3fdb6d"
+        }
+      ]
+    },
+    {
+      "source": "Order of damage modifiers\nSee: Order of damage modifiers\n* Pain Inverter follows these general rules:\n:* Damage dealt to the hexed foe is calculated before damage reduction effects such as Protective Spirit, but after the damage reduction from Armor of Salvation.\n:* Does not apply to life draining skills such as Vampiric Bite.\n:* Does not apply to Duncan's Defense or Shield of Fire.\n:* Applies to passive damage skills such as Empathy, Backfire, or Clumsiness.\n:* Applies to traps that cause direct damage, such as Spike Trap.\n:* Applies to retaliation-based damage skills, e.g. Whirling Defense, Retribution, or Holy Wrath.\n\n* The base damage is capped at 80, but there is no limit on total damage. Pain Inverter can deal more than 80 damage by using damage modifying skills, including Frenzy and the Lightbringer title.\n\nGame mechanics\n* Pain Inverter triggers multiple times if the hexed foe hits multiple targets; each time a creature is hit, the skill produces a separate packet of damage, each of which is capped at 80. This makes PI especially effective in these situations: \n:* Against high-damage area of effect (AoE) spells (base damage is capped at 80 per affected ally) &mdash; examples: Searing Flames and Earthquake.\n:* Against damage over time (DoT) spells (base damage is capped at 80 per pulse) &mdash; examples: Searing Heat and Fire Storm. \n:* Against high-armor foes, especially bosses, since the damage ignores armor.\n:* Against blocking skills that deal damage to attackers &mdash; examples: Whirling Defense, Flashing Blades, and Gladiator's Defense\n:* Against foes using skills that generate extra packets of damage on attack &mdash; example: Ignite Arrows.\n\n* An obvious way to take advantage of PI's mechanics is to provide the target with lots of fodder for AoE and DoT skills, e.g. by bringing minions, spirits, Asura Summons, Summoning Stones and/or animal companions.",
+      "text": "傷害修正的套用順序\n參見：Order of damage modifiers\n* Pain Inverter 遵循下列一般規則：\n:* 對受降咒敵人造成的傷害，在精神守護等減傷效果之前計算，但在 Armor of Salvation 的減傷之後計算。\n:* 不適用於 Vampiric Bite 等吸取生命技能。\n:* 不適用於 Duncan's Defense 或 Shield of Fire。\n:* 適用於同理心、反噬或笨拙等被動造成傷害的技能。\n:* 適用於尖刺陷阱等直接造成傷害的陷阱。\n:* 適用於旋風防禦、報復或神聖憤怒等反擊傷害技能。\n\n* 基礎傷害上限為 80，但總傷害沒有此上限。搭配狂暴態勢、光明使者稱號等傷害修正效果時，Pain Inverter 能造成超過 80 的傷害。\n\n遊戲機制\n* 受降咒敵人命中多個目標時，Pain Inverter 會觸發多次；每個生物被命中時，都會產生各自獨立的一次傷害，每次上限均為 80。因此，此技能尤其適合下列情況：\n:* 對抗高傷害範圍法術：每名受影響盟友對應的基礎傷害上限為 80，例如爆裂火焰和地震。\n:* 對抗持續傷害法術：每次傷害脈衝的基礎傷害上限為 80，例如灼熱之焰和火焰風暴。\n:* 對抗高防禦敵人，尤其是 Boss，因為其傷害無視防禦。\n:* 對抗會傷害攻擊者的格擋技能，例如旋風防禦、閃光利刃和角鬥士防禦態勢。\n:* 對抗攻擊時產生額外傷害的技能，例如燃燒之箭。\n\n* 利用此機制的直接方法，是讓目標的範圍及持續傷害技能能命中大量單位，例如攜帶不死生物、精靈、阿蘇拉召喚物、召喚石及／或動物夥伴。",
+      "reason": "重審傷害修正先後、單次上限與多目標重複觸發；分節標題保留為可讀正文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:58305/variants/skill-version:gww:58305/notes/0",
+          "englishHash": "e9347c832417021e3412ec1e2a37abf02e7cfb273776fc3d53e12fc544e67dc9",
+          "evidenceHash": "90e4740a5e1254078f3920c2f4f2ffb19d408629483afb2160fdcad924bfad17"
+        }
+      ]
+    },
+    {
+      "source": "* The self-recharging effect occurs even if disabled by skills such as Diversion or Blackout.\n* This is a very effective feeder enchantment, since it has no effective recharge time and can provide for its own energy costs.\n\nNet cost/gain: Mysticism 0: -5; Mysticism 1: -5; Mysticism 2: -4; Mysticism 3: -3; Mysticism 4: -3; Mysticism 5: -2; Mysticism 6: -2; Mysticism 7: -2; Mysticism 8: 0; Mysticism 9: 0; Mysticism 10: 0; Mysticism 11: 1; Mysticism 12: 1; Mysticism 13: 2; Mysticism 14: 3; Mysticism 15: 3; Mysticism 16: 3; Mysticism 17: 4; Mysticism 18: 5; Mysticism 19: 5; Mysticism 20: 6",
+      "text": "* 即使被 Diversion 或 Blackout 等技能禁用，自行完成冷卻的效果仍會發生。\n* 此技能很適合充當供其他技能移除的加持，因為它實際上沒有冷卻等待，而且能補回自身的能量消耗。\n\n淨消耗／收益: 祕法 0: -5; 祕法 1: -5; 祕法 2: -4; 祕法 3: -3; 祕法 4: -3; 祕法 5: -2; 祕法 6: -2; 祕法 7: -2; 祕法 8: 0; 祕法 9: 0; 祕法 10: 0; 祕法 11: 1; 祕法 12: 1; 祕法 13: 2; 祕法 14: 3; 祕法 15: 3; 祕法 16: 3; 祕法 17: 4; 祕法 18: 5; 祕法 19: 5; 祕法 20: 6",
+      "reason": "依固定子頁逐格核對祕法 0 至 20 的帶符號淨收益，保留禁用後自行冷卻機制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4547/variants/skill-version:gww:4547/notes/0",
+          "englishHash": "d54064fd6f261887d2f3b8fd80d86325386ba7ea11f9acfbaea60d9bd2d8e0b3",
+          "evidenceHash": "c0141a6c807dfbc52e011c4d5d56950595bab258ef0c77e42ab5e64446a00711"
+        }
+      ]
+    },
+    {
+      "source": "The table below shows the net energy gained from this skill (when hitting a target when you have a preparation active).\n[Source header spans 22 columns, but lists 21 ranks]\n[Source table has inconsistent cell separators. Values retain source order; ambiguous cells have no rank assignment.]\nColumns: Marksmanship 0; Marksmanship 1; Marksmanship 2; Marksmanship 3; Marksmanship 4; Marksmanship 5; Marksmanship 6; Marksmanship 7; Marksmanship 8; Marksmanship 9; Marksmanship 10; Marksmanship 11; Marksmanship 12; Marksmanship 13; Marksmanship 14; Marksmanship 15; Marksmanship 16; Marksmanship 17; Marksmanship 18; Marksmanship 19; Marksmanship 20\nExpertise 0-2: -4; -3; -3; -2; -2; -1; -1; 0; 0; 1; 1; 2; 2; 3; 3; 4; 5; 5; 6; 6; 7 | 7\nExpertise 3-7: -3; -2; -2; -1; -1; 0; 0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 6; 6; 7; 7; 8 | 8\nExpertise 8-12: -2; -1; -1; 0; 0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 5; 6; 7; 7; 8; 8; 9 | 9\nExpertise 13-17: -1; 0; 0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 5; 6; 6; 7; 8; 8; 9; 9; 10 | 10\nExpertise 18-20: 0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 5; 6; 6; 7; 7; 8; 9; 9; 10; 10; 11 | 11",
+      "text": "下表顯示已有備戰技能生效時，使用此技能命中目標所得的淨能量。\n〔來源表頭跨 22 欄，但只列出 21 個等級〕\n〔來源表格的儲存格分隔符不一致。數值保留來源順序；有歧義的儲存格不指定等級。〕\n欄： 弓術精通 0; 弓術精通 1; 弓術精通 2; 弓術精通 3; 弓術精通 4; 弓術精通 5; 弓術精通 6; 弓術精通 7; 弓術精通 8; 弓術精通 9; 弓術精通 10; 弓術精通 11; 弓術精通 12; 弓術精通 13; 弓術精通 14; 弓術精通 15; 弓術精通 16; 弓術精通 17; 弓術精通 18; 弓術精通 19; 弓術精通 20\n專精 0-2: -4; -3; -3; -2; -2; -1; -1; 0; 0; 1; 1; 2; 2; 3; 3; 4; 5; 5; 6; 6; 7 | 7\n專精 3-7: -3; -2; -2; -1; -1; 0; 0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 6; 6; 7; 7; 8 | 8\n專精 8-12: -2; -1; -1; 0; 0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 5; 6; 7; 7; 8; 8; 9 | 9\n專精 13-17: -1; 0; 0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 5; 6; 6; 7; 8; 8; 9; 9; 10 | 10\n專精 18-20: 0; 1; 1; 2; 2; 3; 3; 4; 4; 5; 5; 6; 6; 7; 7; 8; 9; 9; 10; 10; 11 | 11",
+      "reason": "逐行核對備戰條件、兩個屬性軸及帶符號數值；保留來源末欄分隔歧義，不猜補等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1243/variants/skill-version:gww:1243/notes/0",
+          "englishHash": "f34747afa6bde01f53b35dc56bb4a7618bd25af30e1a3e67ef927498ee1f0d40",
+          "evidenceHash": "f52c9553eaf775bea3497a9dfaf069c6941bb414f9ab782b7b2b3a8c9a8f720d"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Quickening Zephyr.\n* The cost increase occurs at the beginning of the activation of a skill, while the recharge reduction occurs at the end.\n* Recharge times are rounded half to even.\n* The reduced recharge stacks multiplicatively with Fast Casting in PvE, for up to 74% recharge time reduction for Mesmer spells.\n* Quickening Zephyr can reduce its own recharge time from rank 10 onwards, if cast while under its own effect.\n* The energy skill cost is rounded half to even. The following table shows the energy skill cost increases in the presence of a Quickening Zephyr:\nIncrease: Base cost 1: 0; Base cost 5: 1; Base cost 10: 3; Base cost 15: 5; Base cost 25: 7\nTotal cost: Base cost 1: 1; Base cost 5: 6; Base cost 10: 13; Base cost 15: 20; Base cost 25: 32\n* Quickening Zephyr will ignore recharge increasing effects like Energizing Wind if it's cast first.",
+      "text": "* 此技能會創造活力微風精靈。\n* 技能開始施放時增加消耗，完成施放時才降低冷卻時間。\n* 冷卻時間採用四捨六入、恰好一半時取偶數的捨入方式。\n* 在 PvE 中，冷卻縮減與快速施法以乘法疊加，幻術師法術最多可降低 74% 的冷卻時間。\n* 屬性等級達 10 後，若在自身效果下施放，活力微風也能縮短自己的冷卻時間。\n* 技能的能量消耗同樣在恰好一半時取偶數。下表列出活力微風存在時，技能能量消耗的增加量：\n增加量： 基本消耗 1: 0; 基本消耗 5: 1; 基本消耗 10: 3; 基本消耗 15: 5; 基本消耗 25: 7\n總消耗： 基本消耗 1: 1; 基本消耗 5: 6; 基本消耗 10: 13; 基本消耗 15: 20; 基本消耗 25: 32\n* 若活力微風先被施放，它會忽略 Energizing Wind 等增加冷卻時間的效果。",
+      "reason": "保留起手與完成時的套用差異、取偶捨入、74% 上限及五種基本消耗的兩行對照。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6588/variants/skill-version:gww:6588/notes/0",
+          "englishHash": "bc5a3284b538772584b29fe1ef85892e1b769c83d40a6ac519f618df67de6035",
+          "evidenceHash": "435b15033e4760f4d5337b57473767b186dd7d2c76e69714343dc140c29e7c47"
+        }
+      ]
+    },
+    {
+      "source": "* Since only this skill's duration scales with beast mastery (it has no activation time or aftercast delay), but its cost scales with Expertise, there can be a compromise. The table below shows the theoretical energy cost per second depending on the ranks in both attributes:\nExpertise rank 0: Beast Mastery rank 0-9: 2.5; Beast Mastery rank 10: 2.27; Beast Mastery rank 11: 2.08; Beast Mastery rank 12-13: 1.92; Beast Mastery rank 14: 1.79\nExpertise rank 4: Beast Mastery rank 0-9: 2.1; Beast Mastery rank 10: 1.91; Beast Mastery rank 11: 1.75; Beast Mastery rank 12-13: 1.62; Beast Mastery rank 14: 1.5\nExpertise rank 9: Beast Mastery rank 0-9: 1.6; Beast Mastery rank 10: 1.45; Beast Mastery rank 11: 1.33; Beast Mastery rank 12-13: 1.23; Beast Mastery rank 14: 1.14\nExpertise rank 10: Beast Mastery rank 0-9: 1.5; Beast Mastery rank 10: 1.36; Beast Mastery rank 11: 1.25; Beast Mastery rank 12-13: 1.15; Beast Mastery rank 14: 1.07\nExpertise rank 11: Beast Mastery rank 0-9: 1.4; Beast Mastery rank 10: 1.27; Beast Mastery rank 11: 1.17; Beast Mastery rank 12-13: 1.08; Beast Mastery rank 14: 1\nExpertise rank 12: Beast Mastery rank 0-9: 1.3; Beast Mastery rank 10: 1.18; Beast Mastery rank 11: 1.08; Beast Mastery rank 12-13: 1; Beast Mastery rank 14: 0.93\nExpertise rank 13: Beast Mastery rank 0-9: 1.2; Beast Mastery rank 10: 1.09; Beast Mastery rank 11: 1; Beast Mastery rank 12-13: 0.92; Beast Mastery rank 14: 0.86\n:* Note that, as explained on the Beast Mastery page, \"the pet's base damage also increases with rank in the same way that mastering a weapon attribute does\" meaning that beast mastery values above 12 provide reduced pet damage increases.\n\nThe full description omits that this skill needs your pet to be alive to activate.",
+      "text": "* 只有此技能的持續時間隨野獸支配等級增加；它沒有施放時間或施放後延遲，而消耗則隨專精變動，因此兩者之間需要取捨。下表列出兩種屬性等級下，理論上的每秒能量消耗：\n專精等級 0: 野獸支配等級 0-9: 2.5; 野獸支配等級 10: 2.27; 野獸支配等級 11: 2.08; 野獸支配等級 12-13: 1.92; 野獸支配等級 14: 1.79\n專精等級 4: 野獸支配等級 0-9: 2.1; 野獸支配等級 10: 1.91; 野獸支配等級 11: 1.75; 野獸支配等級 12-13: 1.62; 野獸支配等級 14: 1.5\n專精等級 9: 野獸支配等級 0-9: 1.6; 野獸支配等級 10: 1.45; 野獸支配等級 11: 1.33; 野獸支配等級 12-13: 1.23; 野獸支配等級 14: 1.14\n專精等級 10: 野獸支配等級 0-9: 1.5; 野獸支配等級 10: 1.36; 野獸支配等級 11: 1.25; 野獸支配等級 12-13: 1.15; 野獸支配等級 14: 1.07\n專精等級 11: 野獸支配等級 0-9: 1.4; 野獸支配等級 10: 1.27; 野獸支配等級 11: 1.17; 野獸支配等級 12-13: 1.08; 野獸支配等級 14: 1\n專精等級 12: 野獸支配等級 0-9: 1.3; 野獸支配等級 10: 1.18; 野獸支配等級 11: 1.08; 野獸支配等級 12-13: 1; 野獸支配等級 14: 0.93\n專精等級 13: 野獸支配等級 0-9: 1.2; 野獸支配等級 10: 1.09; 野獸支配等級 11: 1; 野獸支配等級 12-13: 0.92; 野獸支配等級 14: 0.86\n:* 野獸支配頁面說明：「寵物的基本傷害也會隨等級增加，方式與精通武器屬性相同。」因此，野獸支配超過 12 後，寵物傷害的增幅會降低。\n\n完整說明漏寫了此技能必須在寵物存活時才能啟動。",
+      "reason": "逐格核對七行專精與五組野獸支配等級；保留每秒消耗、12 後遞減與寵物存活條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3950/variants/skill-version:gww:3950/notes/0",
+          "englishHash": "cbc6b144abc13f813e96ab3b7a9b6747c44d0ad04657ba3f73b99c559c087d55",
+          "evidenceHash": "476724b8246818a9bee1c872378416ba8275a15d6ace60dc19c2e3a0e5c79753"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Recuperation.\n* At a glance, a maximum of +3 health regeneration doesn't sound like a lot, but consider that it affects all allies within spirit range. (In regards to party healing, this equates to 17.6 health-to-energy ratio, multiplied by # of allies.) That includes non-party members such as allied NPCs (Master Togo, Mhenlo, etc.), minions, animal companions and, in the case of two-party cooperative missions, members of the other party.\n* Combined with Ritual Lord, a level 17 Recuperation will heal 8 health per second, for a maximum 424 health per ally within range throughout its lifespan at rank 19 Restoration Magic and 16 Spawning Power (with Ritual Lord). \n* The following table shows the total effective health gain received by all allies within spirit range:\nProgression\nTotal health gain: Restoration Magic 0: 30; Restoration Magic 1: 34; Restoration Magic 2: 38; Restoration Magic 3: 42; Restoration Magic 4: 94; Restoration Magic 5: 100; Restoration Magic 6: 106; Restoration Magic 7: 112; Restoration Magic 8: 118; Restoration Magic 9: 124; Restoration Magic 10: 130; Restoration Magic 11: 136; Restoration Magic 12: 234; Restoration Magic 13: 246; Restoration Magic 14: 258; Restoration Magic 15: 270; Restoration Magic 16: 282; Restoration Magic 17: 294; Restoration Magic 18: 306; Restoration Magic 19: 424; Restoration Magic 20: 440\nCost effectiveness: Restoration Magic 0: 1.2; Restoration Magic 1: 1.4; Restoration Magic 2: 1.5; Restoration Magic 3: 1.7; Restoration Magic 4: 3.8; Restoration Magic 5: 4; Restoration Magic 6: 4.2; Restoration Magic 7: 4.5; Restoration Magic 8: 4.7; Restoration Magic 9: 5; Restoration Magic 10: 5.2; Restoration Magic 11: 5.4; Restoration Magic 12: 9.4; Restoration Magic 13: 9.8; Restoration Magic 14: 10.3; Restoration Magic 15: 10.8; Restoration Magic 16: 11.3; Restoration Magic 17: 11.8; Restoration Magic 18: 12.2; Restoration Magic 19: 17; Restoration Magic 20: 17.6",
+      "text": "* 此技能會創造復原精靈。\n* 最高 +3 的體力再生乍看不多，但效果涵蓋精靈範圍內的所有盟友。以團隊治療來看，體力與能量的比值為 17.6，再乘以盟友數量。這也包括隊伍外的友方 NPC（例如 Master Togo、Mhenlo）、不死生物、動物夥伴，以及雙隊伍合作任務中的另一隊成員。\n* 搭配 Ritual Lord，在復原魔法 19、召喚 16（包含 Ritual Lord）的條件下，等級 17 的復原精靈每秒回復 8 點體力；在其整段存續期間，範圍內每名盟友最多可獲得 424 點體力。\n* 下表列出精靈範圍內盟友可獲得的總有效體力：\n成長表\n總體力收益: 復原魔法 0: 30; 復原魔法 1: 34; 復原魔法 2: 38; 復原魔法 3: 42; 復原魔法 4: 94; 復原魔法 5: 100; 復原魔法 6: 106; 復原魔法 7: 112; 復原魔法 8: 118; 復原魔法 9: 124; 復原魔法 10: 130; 復原魔法 11: 136; 復原魔法 12: 234; 復原魔法 13: 246; 復原魔法 14: 258; 復原魔法 15: 270; 復原魔法 16: 282; 復原魔法 17: 294; 復原魔法 18: 306; 復原魔法 19: 424; 復原魔法 20: 440\n能量效益: 復原魔法 0: 1.2; 復原魔法 1: 1.4; 復原魔法 2: 1.5; 復原魔法 3: 1.7; 復原魔法 4: 3.8; 復原魔法 5: 4; 復原魔法 6: 4.2; 復原魔法 7: 4.5; 復原魔法 8: 4.7; 復原魔法 9: 5; 復原魔法 10: 5.2; 復原魔法 11: 5.4; 復原魔法 12: 9.4; 復原魔法 13: 9.8; 復原魔法 14: 10.3; 復原魔法 15: 10.8; 復原魔法 16: 11.3; 復原魔法 17: 11.8; 復原魔法 18: 12.2; 復原魔法 19: 17; 復原魔法 20: 17.6",
+      "reason": "區分每名盟友收益與盟友總數，保留精靈等級、兩個屬性及全部21級收益與能量效益。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5884/variants/skill-version:gww:5884/notes/0",
+          "englishHash": "b4e234c5e5a9636277149decc374348ecade435f2ec52a19b5a695b5a2a792cf",
+          "evidenceHash": "9107f3919fa8d62817161d1261a77c692382187df5c86672fa507233bed5a79c"
+        }
+      ]
+    },
+    {
+      "source": "* This skill can be used without Charm Animal, Comfort Animal nor Heal as One equipped or when your animal companion is dead.\n* This skill increases average speed by 8.33...21.67...25% if used every time it recharges.\n* Animal companions already run faster than normal player speed so this may not be needed for the pet's benefit though it will still allow the pet to better catch a running target.\n* This skill will continue to be active for the pet even if the owner has activated another stance after it.\n* Consider using in combination with Feral Aggression.",
+      "text": "* 未裝備魅惑動物、Comfort Animal 或治癒合一時，仍可使用此技能；動物夥伴死亡時也可使用。\n* 每次冷卻結束便立即重用時，此技能使平均移動速度提高 8.33...21.67...25%。\n* 動物夥伴原本就跑得比玩家的一般速度快，因此寵物未必需要此增益，但仍能藉此更容易追上奔跑中的目標。\n* 主人之後啟動另一個態勢時，寵物身上的此技能仍會持續生效。\n* 可考慮搭配 Feral Aggression。",
+      "reason": "重審無寵物技能與寵物死亡時的可用性、主人切換態勢後的獨立效果及平均速度。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6505/variants/skill-version:gww:6505/notes/0",
+          "englishHash": "ec0a17164d54f90f2679b565b1d020ab87439286816d85741754bdf0d69c1fa1",
+          "evidenceHash": "769f18fcc17599aa05a2cf886fed399a02dad0071fd7be63325f148dfb7304db"
+        }
+      ]
+    },
+    {
+      "source": "* You gain energy and health from this skill’s own overcast cost.\n* You can quickly build up overcast to a useful amount by activating and canceling this skill a few times.\n* This spell takes fractional points of overcast into account. For example, if you cast this skill while you’re not otherwise overcast, you will gain 5 points of overcast as you start casting it. By the time you finish casting it, you will have already regenerated 0.3333333333333333 points of overcast and this skill will give you only 4 energy and 23 health, not 5 energy and 25 health.\n* It takes 15 seconds to fully recover from this skill’s overcast cost and maintain a stable level of overcast. When cast every 15 seconds, this skill gives the equivalent of 1 pip of energy regeneration for every 5 points of overcast. For ease of calculation and because fractional points of overcast aren’t visible in the user interface, this table ignores the 0.3333333333333333 point of overcast lost during this skill’s activation time.\nEffects when cast every 15 seconds\nNet energy gain: Overcast at start of activation 5: 5; Overcast at start of activation 15: 15; Overcast at start of activation 25: 25; Overcast at start of activation 35: 35; Overcast at start of activation 45: 45; Overcast at start of activation 55: 55\nEnergy gain/second: Overcast at start of activation 5: 0.34; Overcast at start of activation 15: 1.00; Overcast at start of activation 25: 1.66; Overcast at start of activation 35: 2.34; Overcast at start of activation 45: 3.00; Overcast at start of activation 55: 3.66\nEquivalent energy regeneration: Overcast at start of activation 5: +1; Overcast at start of activation 15: +3; Overcast at start of activation 25: +5; Overcast at start of activation 35: +7; Overcast at start of activation 45: +9; Overcast at start of activation 55: +11\nOvercast at end of activation: Overcast at start of activation 5: 10; Overcast at start of activation 15: 20; Overcast at start of activation 25: 30; Overcast at start of activation 35: 40; Overcast at start of activation 45: 50; Overcast at start of activation 55: 60\nHealth gain: Overcast at start of activation 5: 50; Overcast at start of activation 15: 100; Overcast at start of activation 25: 150; Overcast at start of activation 35: 200; Overcast at start of activation 45: 250; Overcast at start of activation 55: 300\nHealth gain/second: Overcast at start of activation 5: 3.33; Overcast at start of activation 15: 6.66; Overcast at start of activation 25: 10; Overcast at start of activation 35: 13.33; Overcast at start of activation 45: 16.66; Overcast at start of activation 55: 20\nEquivalent health regeneration: Overcast at start of activation 5: ≈+2; Overcast at start of activation 15: ≈+3; Overcast at start of activation 25: +5; Overcast at start of activation 35: ≈+7; Overcast at start of activation 45: ≈+8; Overcast at start of activation 55: +10",
+      "text": "* 此技能自身造成的過載，也會計入它帶來的能量與體力收益。\n* 反覆開始施放並取消此技能數次，可快速累積有用的過載量。\n* 此法術會計入非整數的過載值。例如，原本沒有過載時開始施放，會先獲得 5 點過載；施放完成時，已有 0.3333333333333333 點過載恢復，因此只會得到 4 點能量及 23 點體力，而不是 5 點能量及 25 點體力。\n* 此技能造成的過載需要 15 秒才能完全恢復，藉此維持穩定的過載值。每 15 秒施放一次時，每 5 點過載帶來的效果相當於 1 格能量再生。為便於計算，也因介面不顯示過載小數，下表忽略施放期間恢復的 0.3333333333333333 點過載。\n每 15 秒施放一次時的效果\n淨能量收益: 開始施放時的過載 5: 5; 開始施放時的過載 15: 15; 開始施放時的過載 25: 25; 開始施放時的過載 35: 35; 開始施放時的過載 45: 45; 開始施放時的過載 55: 55\n每秒能量收益: 開始施放時的過載 5: 0.34; 開始施放時的過載 15: 1.00; 開始施放時的過載 25: 1.66; 開始施放時的過載 35: 2.34; 開始施放時的過載 45: 3.00; 開始施放時的過載 55: 3.66\n等效能量再生: 開始施放時的過載 5: +1; 開始施放時的過載 15: +3; 開始施放時的過載 25: +5; 開始施放時的過載 35: +7; 開始施放時的過載 45: +9; 開始施放時的過載 55: +11\n完成施放時的過載: 開始施放時的過載 5: 10; 開始施放時的過載 15: 20; 開始施放時的過載 25: 30; 開始施放時的過載 35: 40; 開始施放時的過載 45: 50; 開始施放時的過載 55: 60\n體力收益: 開始施放時的過載 5: 50; 開始施放時的過載 15: 100; 開始施放時的過載 25: 150; 開始施放時的過載 35: 200; 開始施放時的過載 45: 250; 開始施放時的過載 55: 300\n每秒體力收益: 開始施放時的過載 5: 3.33; 開始施放時的過載 15: 6.66; 開始施放時的過載 25: 10; 開始施放時的過載 35: 13.33; 開始施放時的過載 45: 16.66; 開始施放時的過載 55: 20\n等效體力再生: 開始施放時的過載 5: ≈+2; 開始施放時的過載 15: ≈+3; 開始施放時的過載 25: +5; 開始施放時的過載 35: ≈+7; 開始施放時的過載 45: ≈+8; 開始施放時的過載 55: +10",
+      "reason": "逐格核對七行過載、體力與能量收益；保留小數恢復導致實際收益不同的例子及近似再生符號。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4334/variants/skill-version:gww:4334/notes/0",
+          "englishHash": "7649b8f20c0cd6b108f895695ea7b98aaccc44532664786e9d395a509a6d3989",
+          "evidenceHash": "53e2d777c267f2d6b98580d25c565a482227a844130caf51d6f14d5e9306f975"
+        }
+      ]
+    },
+    {
+      "source": "* Works well with Snow Storm, and Winter.\n* This hex will end on the target if the caster dies.\n\n[Research needed: Is the concise description incorrect or can this skill interrupt actions?]",
+      "text": "* 適合搭配 Snow Storm 與 Winter。\n* 施法者死亡時，目標身上的此降咒會結束。\n\n〔待研究：簡短說明是否有誤，還是此技能確實能中斷動作？〕",
+      "reason": "保留施法者死亡時結束與尚待研究的中斷疑問，不把疑問寫成已確認機制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15410/variants/skill-version:gww:15410/notes/0",
+          "englishHash": "749a57abcd944ecf24e53bc7be225755dcbecbc21ec2174d6ed8c1742173d35f",
+          "evidenceHash": "a908d41bd41259ea6b3394c825e0fc809feb35d366941fcacfa2c149b400040d"
+        }
+      ]
+    },
+    {
+      "source": "* Each time a character learns a new elite, they gain another point of progress in the relevant Skill Hunter title track.\n* Unlike other skills, it is possible to obtain multiple copies of Signet of Capture.\n* This skill counts as a PvE skill:\n** It cannot be equipped for PvP or by heroes.\n** You can equip up to three copies of this signet on your skill bar.\n** Although this allows you to have multiple elites after capturing, when you zone, you will be left with only one elite.\n*** The game will drop any extra elites on the left side of the skill bar.\n*** You may rearrange your skills so that the skill you wish to keep is on the right before you zone.\n* This skill cannot be Echoed, unlocked, or learned by using a skill tome.\n* Non-fleshy bosses leave a spot on the ground rather than a visible corpse.\n\nSignet of Capture's actual range is larger than earshot.\n\nDialogue (if no skills for your professions)\n: No valid skills were found. You can only capture skills that correspond to your profession.",
+      "text": "* 角色每學到一個新的精英技能，就會增加對應技能獵人稱號的進度。\n* 與其他技能不同，可以取得多個捕獲紋章。\n* 此技能視為 PvE 技能：\n** 無法在 PvP 中裝備，英雄也無法裝備。\n** 技能列最多可裝備三個捕獲紋章。\n** 雖然捕獲後能暫時擁有多個精英技能，切換區域後只會保留一個。\n*** 遊戲會移除技能列左側多餘的精英技能。\n*** 切換區域前，可將想保留的精英技能移至右側。\n* 此技能無法用回音複製，無法解鎖，也無法使用技能書學習。\n* 非血肉類 Boss 死後會在地面留下可供捕獲的位置，而不會留下可見屍體。\n\n捕獲紋章的實際範圍大於音量所及範圍。\n\n對話（沒有符合你職業的技能時）\n：找不到有效技能。你只能捕獲符合自身職業的技能。",
+      "reason": "核對捕獲後多精英的暫存與切圖移除方向，保留非血肉 Boss 的地面位置及對話條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1005/variants/skill-version:gww:1005/notes/0",
+          "englishHash": "76c6d7856af19739e44f98b878084f430152042ef72fed8c143e8cdda0d170b6",
+          "evidenceHash": "f2161cd4ca42d9e49e1cc2067bde0a5f633877ec133deb5b2382ab26d040759c"
+        }
+      ]
+    },
+    {
+      "source": "* Signet of Illusions has good synergy with spell copying skills (e.g. Inspired Hex or Arcane Thievery), since the copied skills will be used with a high effective rank.\n* Spells with a failure chance below a certain attribute rank (such as Slippery Ground) used while under this skill's effect retain their chance to fail.\n* Has no duration (this is one of the few skills that last indefinitely without an upkeep).\n* No Attribute spells still use charges.\n* Although they are not technically linked to attributes, Signet of Illusions will work with spells linked to title tracks.\nProgression\nEffective Asura / Deldrimor / Ebon Vanguard / Norn / Sunspear rank: Illusion Magic 0: 0; Illusion Magic 1: ‡; Illusion Magic 2: ‡; Illusion Magic 3: 1; Illusion Magic 4: ‡; Illusion Magic 5: ‡; Illusion Magic 6: 2; Illusion Magic 7: ‡; Illusion Magic 8: ‡; Illusion Magic 9: 3; Illusion Magic 10: ‡; Illusion Magic 11: ‡; Illusion Magic 12: 4; Illusion Magic 13: ‡; Illusion Magic 14: ‡; Illusion Magic 15: 5+\nEffective Friend of the Kurzicks / Luxons rank: Illusion Magic 0: 0; Illusion Magic 1: ‡; Illusion Magic 2: 1; Illusion Magic 3: ‡; Illusion Magic 4: ‡; Illusion Magic 5: 2; Illusion Magic 6: ‡; Illusion Magic 7: 3; Illusion Magic 8: ‡; Illusion Magic 9: ‡; Illusion Magic 10: 4; Illusion Magic 11: ‡; Illusion Magic 12: 5; Illusion Magic 13: ‡; Illusion Magic 14: ‡; Illusion Magic 15: 6+\n: ‡ The effective rank falls between that of two title track ranks.\n\nItems that grant a 20% chance of adding +1 to Illusion Magic do not affect spells cast while this signet is active. For example, you cannot use \"Master of My Domain\" to obtain rank 21 in the table above. Instead, spells will use the unmodified Illusion rank.",
+      "text": "* 幻術紋章適合搭配 Inspired Hex、Arcane Thievery 等複製法術，因為複製所得的技能會以較高的有效等級施放。\n* 若法術在屬性低於特定等級時有失敗機率（例如 Slippery Ground），受到此技能效果時仍保有該失敗機率。\n* 沒有持續時間限制；它是少數無須維持消耗、卻能無限持續的技能之一。\n* 無屬性的法術仍會消耗使用次數。\n* 雖然稱號並非屬性，幻術紋章仍適用於與稱號等級連動的法術。\n成長表\n阿蘇拉／戴爾狄摩／黑檀先鋒／諾恩／日戟的有效稱號等級: 幻術魔法 0: 0; 幻術魔法 1: ‡; 幻術魔法 2: ‡; 幻術魔法 3: 1; 幻術魔法 4: ‡; 幻術魔法 5: ‡; 幻術魔法 6: 2; 幻術魔法 7: ‡; 幻術魔法 8: ‡; 幻術魔法 9: 3; 幻術魔法 10: ‡; 幻術魔法 11: ‡; 幻術魔法 12: 4; 幻術魔法 13: ‡; 幻術魔法 14: ‡; 幻術魔法 15: 5+\n庫茲柯／勒克森之友的有效稱號等級: 幻術魔法 0: 0; 幻術魔法 1: ‡; 幻術魔法 2: 1; 幻術魔法 3: ‡; 幻術魔法 4: ‡; 幻術魔法 5: 2; 幻術魔法 6: ‡; 幻術魔法 7: 3; 幻術魔法 8: ‡; 幻術魔法 9: ‡; 幻術魔法 10: 4; 幻術魔法 11: ‡; 幻術魔法 12: 5; 幻術魔法 13: ‡; 幻術魔法 14: ‡; 幻術魔法 15: 6+\n：‡ 表示有效等級介於兩個稱號等級之間。\n\n提供 20% 機率使幻術魔法 +1 的物品，不會影響此紋章生效期間施放的法術。例如，不能靠「Master of My Domain」取得上表等級 21 的效果；法術會使用未經該物品修正的幻術魔法等級。",
+      "reason": "保留失敗機率、使用次數與稱號換算兩行表；區分物品暫時屬性加成與未修正等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1335/variants/skill-version:gww:1335/notes/0",
+          "englishHash": "7a98d6406956e7701587f14f8408abd96db98fffa54709108d49468d4084142a",
+          "evidenceHash": "186951243fd0483ffca7d5e571dbc6a17a9d60e17a9cb7fae2838c63b035bc1d"
+        }
+      ]
+    },
+    {
+      "source": "[Source information may be outdated]\n;February 05, 2019 update; please verify changes to AI behavior.\n* AI seems to cast it on targets with at least one adrenaline skill.\n* This skill may actually increase the Black Bear's damage per second by effectively preventing the use of Brutal Mauling.",
+      "text": "〔來源資訊可能已過時〕\n2019 年 2 月 05 日更新：請核實 AI 行為的變化。\n* AI 似乎會對至少裝備一個怒氣技能的目標施放此技能。\n* 此技能實際上可能因阻止 Black Bear 使用 Brutal Mauling，而提高牠的每秒傷害。",
+      "reason": "保留 AI 過時及似乎的證據強度，避免把阻止技能必然等同降低黑熊傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1604/variants/skill-version:gww:1604/notes/0",
+          "englishHash": "a5bbb48700fab37bccfb59a268df0ed541a8f67d7f4a184e9e9dccefd9dfcf1e",
+          "evidenceHash": "5ed5efe459f38fb0064eae85cb163d2b0b6d77dd7d898f19b40b4b87bf260bba"
+        }
+      ]
+    },
+    {
+      "source": "Progression\nSpawning Power 0: Net Energy Gain (Within Spirit Earshot): 2\nSpawning Power 1: Net Energy Gain (Within Spirit Earshot): 3\nSpawning Power 2: Net Energy Gain (Within Spirit Earshot): 7\nSpawning Power 3: Net Energy Gain (Within Spirit Earshot): 8\nSpawning Power 4: Net Energy Gain (Within Spirit Earshot): 8\nSpawning Power 5: Net Energy Gain (Within Spirit Earshot): 13\nSpawning Power 6: Net Energy Gain (Within Spirit Earshot): 14\nSpawning Power 7: Net Energy Gain (Within Spirit Earshot): 14\nSpawning Power 8: Net Energy Gain (Within Spirit Earshot): 19\nSpawning Power 9: Net Energy Gain (Within Spirit Earshot): 19\nSpawning Power 10: Net Energy Gain (Within Spirit Earshot): 20\nSpawning Power 11: Net Energy Gain (Within Spirit Earshot): 25\nSpawning Power 12: Net Energy Gain (Within Spirit Earshot): 25\nSpawning Power 13: Net Energy Gain (Within Spirit Earshot): 26\nSpawning Power 14: Net Energy Gain (Within Spirit Earshot): 30\nSpawning Power 15: Net Energy Gain (Within Spirit Earshot): 31\nSpawning Power 16: Net Energy Gain (Within Spirit Earshot): 32\nSpawning Power 17: Net Energy Gain (Within Spirit Earshot): 36\nSpawning Power 18: Net Energy Gain (Within Spirit Earshot): 37\nSpawning Power 19: Net Energy Gain (Within Spirit Earshot): 37\nSpawning Power 20: Net Energy Gain (Within Spirit Earshot): 42\nSpawning Power 21: Net Energy Gain (Within Spirit Earshot): 43",
+      "text": "成長表\n召喚 0: 淨能量收益（在精靈音量所及範圍內）: 2\n召喚 1: 淨能量收益（在精靈音量所及範圍內）: 3\n召喚 2: 淨能量收益（在精靈音量所及範圍內）: 7\n召喚 3: 淨能量收益（在精靈音量所及範圍內）: 8\n召喚 4: 淨能量收益（在精靈音量所及範圍內）: 8\n召喚 5: 淨能量收益（在精靈音量所及範圍內）: 13\n召喚 6: 淨能量收益（在精靈音量所及範圍內）: 14\n召喚 7: 淨能量收益（在精靈音量所及範圍內）: 14\n召喚 8: 淨能量收益（在精靈音量所及範圍內）: 19\n召喚 9: 淨能量收益（在精靈音量所及範圍內）: 19\n召喚 10: 淨能量收益（在精靈音量所及範圍內）: 20\n召喚 11: 淨能量收益（在精靈音量所及範圍內）: 25\n召喚 12: 淨能量收益（在精靈音量所及範圍內）: 25\n召喚 13: 淨能量收益（在精靈音量所及範圍內）: 26\n召喚 14: 淨能量收益（在精靈音量所及範圍內）: 30\n召喚 15: 淨能量收益（在精靈音量所及範圍內）: 31\n召喚 16: 淨能量收益（在精靈音量所及範圍內）: 32\n召喚 17: 淨能量收益（在精靈音量所及範圍內）: 36\n召喚 18: 淨能量收益（在精靈音量所及範圍內）: 37\n召喚 19: 淨能量收益（在精靈音量所及範圍內）: 37\n召喚 20: 淨能量收益（在精靈音量所及範圍內）: 42\n召喚 21: 淨能量收益（在精靈音量所及範圍內）: 43",
+      "reason": "逐級核對召喚 0 至 21 的全部22個淨能量值；在清理 HTML 前保留屬性軸與精靈範圍條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4230/variants/skill-version:gww:4230/notes/0",
+          "englishHash": "20440e384054a9448104bd7a2da38065a41d5146a28e460fb30adc34d310b913",
+          "evidenceHash": "b664c37ba5547ba0b7ca3e66784098ba1ac60fcb1c8850e6c543374769dfc81b"
+        }
+      ]
+    },
+    {
+      "source": "* There is a monster skill in Eye of the North with the same name.\n* The target does not suffer the conditional damage from a block.\n[Source flags a skill functionality change]",
+      "text": "* 北方之眼中有一個同名的怪物技能。\n* 遭格擋時，目標不會受到條件成立時的額外傷害。\n〔來源標示此技能的功能曾變更〕",
+      "reason": "保留玩家與同名怪物技能的區別、格擋條件及功能變更警示。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2427/variants/skill-version:gww:2427/notes/0",
+          "englishHash": "defd48a1a4a0a20b7289fb9a260793f16b2c62eec350df823f6fbffe6315c6f5",
+          "evidenceHash": "47e7a02195f952ae5f2c4a2073691a3b617ac1ed21da28eea300ca6ae96629c8"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 13.33...21.67...23.33% if used every time it recharges.",
+      "text": "* 每次冷卻結束便立即重用時，此技能使平均移動速度提高 13.33...21.67...23.33%。",
+      "reason": "固定 Speed 模板計算的是重複使用的平均移動速度增幅，並非持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3979/variants/skill-version:gww:3979/notes/0",
+          "englishHash": "b3a86b4adca730dc7c37788217511354ddb0355d884f143aa044d434087b4fe2",
+          "evidenceHash": "9094bcdba4051dddd6ffa19cf54f35d77fa2c6020bfda029a11707cd3be43e00"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 10...22.5...25% if used every time it recharges.\n* The energy gain is triggered by any elemental damage packet, even when that damage is 0.\n* Good synergy with Stone Striker or Greater Conflagration.",
+      "text": "* 每次冷卻結束便立即重用時，此技能使平均移動速度提高 10...22.5...25%。\n* 每次元素傷害都會觸發能量獲得，即使該次傷害為 0。\n* 適合搭配 Stone Striker 或更強大的火靈。",
+      "reason": "保留零傷害仍可觸發的條件及固定模板的平均速度數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6591/variants/skill-version:gww:6591/notes/0",
+          "englishHash": "c8962f27fee2cece7631e3ae3f9002826de9218ae1969887c0ea2b93c0fc78be",
+          "evidenceHash": "4d83ec3dba951778cd17cd42ece18d36b490354e6399985b5ce98f7b3b2d24aa"
+        }
+      ]
+    },
+    {
+      "source": "* Heroes do not cast this enchantment between battles, though they maintain it reliably during combat.\n* This skill can lower the strength of signets, since the Fast Casting rank is used, even when the linked attribute has a greater rank.\n* Symbolic Celerity works with signets linked to title tracks.\n\nProgression\nEffective rank: Ebon Vanguard: Fast Casting 0: 0; Fast Casting 1: ‡; Fast Casting 2: ‡; Fast Casting 3: 1; Fast Casting 4: ‡; Fast Casting 5: ‡; Fast Casting 6: 2; Fast Casting 7: ‡; Fast Casting 8: ‡; Fast Casting 9: 3; Fast Casting 10: ‡; Fast Casting 11: ‡; Fast Casting 12: 4; Fast Casting 13: ‡; Fast Casting 14: ‡; Fast Casting 15: 5+\nEffective rank: Sunspear: Fast Casting 0: 0; Fast Casting 1: 1; Fast Casting 2: ‡; Fast Casting 3: 2; Fast Casting 4: 3; Fast Casting 5: ‡; Fast Casting 6: 4; Fast Casting 7: 5; Fast Casting 8: ‡; Fast Casting 9: 6; Fast Casting 10: 7; Fast Casting 11: ‡; Fast Casting 12: 8; Fast Casting 13: 9; Fast Casting 14: ‡; Fast Casting 15: 10\nEffective rank: Lightbringer: Fast Casting 0: 0; Fast Casting 1: ‡; Fast Casting 2: ‡; Fast Casting 3: ‡; Fast Casting 4: ‡; Fast Casting 5: ‡; Fast Casting 6: ‡; Fast Casting 7: ‡; Fast Casting 8: ‡; Fast Casting 9: ‡; Fast Casting 10: ‡; Fast Casting 11: ‡; Fast Casting 12: 3; Fast Casting 13: ‡; Fast Casting 14: ‡; Fast Casting 15: 4+\nEffective rank: Kurzick / Luxon: Fast Casting 0: 0; Fast Casting 1: ‡; Fast Casting 2: 1; Fast Casting 3: ‡; Fast Casting 4: ‡; Fast Casting 5: 2; Fast Casting 6: ‡; Fast Casting 7: 3; Fast Casting 8: ‡; Fast Casting 9: ‡; Fast Casting 10: 4; Fast Casting 11: ‡; Fast Casting 12: 5; Fast Casting 13: ‡; Fast Casting 14: ‡; Fast Casting 15: 6+\n\n: ‡ The effective rank falls between that of two title track ranks.\n\nItems that grant a 20% chance of adding +1 to Fast Casting do not affect signets that are cast while this enchantment is active. For example, you cannot use \"Master of My Domain\" to obtain rank 21 in the table above. Instead, other signets will use the unmodified FC rank.",
+      "text": "* 英雄不會在戰鬥之間施放此加持，但在戰鬥中能可靠地維持它。\n* 此技能會使用快速施法等級，即使紋章原本連動的屬性等級更高，因此可能降低紋章效力。\n* 迅捷標誌適用於與稱號等級連動的紋章。\n\n成長表\n有效等級：黑檀先鋒: 快速施法 0: 0; 快速施法 1: ‡; 快速施法 2: ‡; 快速施法 3: 1; 快速施法 4: ‡; 快速施法 5: ‡; 快速施法 6: 2; 快速施法 7: ‡; 快速施法 8: ‡; 快速施法 9: 3; 快速施法 10: ‡; 快速施法 11: ‡; 快速施法 12: 4; 快速施法 13: ‡; 快速施法 14: ‡; 快速施法 15: 5+\n有效等級：日戟: 快速施法 0: 0; 快速施法 1: 1; 快速施法 2: ‡; 快速施法 3: 2; 快速施法 4: 3; 快速施法 5: ‡; 快速施法 6: 4; 快速施法 7: 5; 快速施法 8: ‡; 快速施法 9: 6; 快速施法 10: 7; 快速施法 11: ‡; 快速施法 12: 8; 快速施法 13: 9; 快速施法 14: ‡; 快速施法 15: 10\n有效等級：光明使者: 快速施法 0: 0; 快速施法 1: ‡; 快速施法 2: ‡; 快速施法 3: ‡; 快速施法 4: ‡; 快速施法 5: ‡; 快速施法 6: ‡; 快速施法 7: ‡; 快速施法 8: ‡; 快速施法 9: ‡; 快速施法 10: ‡; 快速施法 11: ‡; 快速施法 12: 3; 快速施法 13: ‡; 快速施法 14: ‡; 快速施法 15: 4+\n有效等級：庫茲柯／勒克森: 快速施法 0: 0; 快速施法 1: ‡; 快速施法 2: 1; 快速施法 3: ‡; 快速施法 4: ‡; 快速施法 5: 2; 快速施法 6: ‡; 快速施法 7: 3; 快速施法 8: ‡; 快速施法 9: ‡; 快速施法 10: 4; 快速施法 11: ‡; 快速施法 12: 5; 快速施法 13: ‡; 快速施法 14: ‡; 快速施法 15: 6+\n\n：‡ 表示有效等級介於兩個稱號等級之間。\n\n提供 20% 機率使快速施法 +1 的物品，不會影響此加持生效期間施放的紋章。例如，不能靠「Master of My Domain」取得上表等級 21 的效果；其他紋章會使用未經該物品修正的快速施法等級。",
+      "reason": "逐格核對四種稱號軸的換算與‡，保留等級較高仍被替代及物品加成不適用。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1522/variants/skill-version:gww:1522/notes/0",
+          "englishHash": "0dd4c4aafa5ffd4bca8a4b60124add6d18e68d937fa172aad1250f4e0e9e0a25",
+          "evidenceHash": "90f0e7173d9f72cdfff1305bd49c4f7d924035dd0557a1472b92f9a5ff9affb4"
+        }
+      ]
+    },
+    {
+      "source": "* Unlike all other skills that \"steal\" skills, this does not disable the corresponding original and instead is placed as a skill icon in the Effects Monitor. When you hover over the skill icons of elite spells in the Effects Monitor, their skill descriptions will appear to have effects based on their normal ranks, but the Fast Casting rank will be used when the spells are cast.\n* Symbols of Inspiration will only recharge normally if no skill was copied. If a skill was copied, Symbols of Inspiration is disabled for 15 seconds after the copy effect ends.\n* All elite spells on your skill bar will use your Fast Casting attribute rank even if they were obtained by other means, such as Arcane Mimicry, Arcane Thievery or Signet of Capture. This will work with skills linked to title tracks, specifically Norn Forms.\n\nProgression\nEffective Norn rank: Fast Casting 0: 0; Fast Casting 1: ‡; Fast Casting 2: ‡; Fast Casting 3: 1; Fast Casting 4: ‡; Fast Casting 5: ‡; Fast Casting 6: 2; Fast Casting 7: ‡; Fast Casting 8: ‡; Fast Casting 9: 3; Fast Casting 10: ‡; Fast Casting 11: ‡; Fast Casting 12: 4; Fast Casting 13: ‡; Fast Casting 14: ‡; Fast Casting 15: 5+\n: ‡ The effective rank falls between that of two title track ranks.\n* If your target does not have an elite skill for you to copy, the secondary effect that makes all elite spells use Fast Casting will still apply.\n* This skill is on the restricted list for Codex Arena.\n* The functionality of this skill has changed since its introduction; see its skill history for details.",
+      "text": "* 與其他「竊取」技能不同，此技能不會禁用對方的原技能，而會在效果監視器中加入技能圖示。將游標移到效果監視器中的精英法術圖示時，說明看似按原本屬性等級顯示，但實際施放會使用快速施法等級。\n* 只有未複製到技能時，靈感標誌才會正常冷卻。若有複製到技能，複製效果結束後，靈感標誌會被禁用 15 秒。\n* 技能列上的所有精英法術都會使用快速施法等級，即使它們透過 Arcane Mimicry、Arcane Thievery 或捕獲紋章等其他途徑取得。這也適用於與稱號連動的技能，尤其是諾恩變身。\n\n成長表\n諾恩有效稱號等級: 快速施法 0: 0; 快速施法 1: ‡; 快速施法 2: ‡; 快速施法 3: 1; 快速施法 4: ‡; 快速施法 5: ‡; 快速施法 6: 2; 快速施法 7: ‡; 快速施法 8: ‡; 快速施法 9: 3; 快速施法 10: ‡; 快速施法 11: ‡; 快速施法 12: 4; 快速施法 13: ‡; 快速施法 14: ‡; 快速施法 15: 5+\n：‡ 表示有效等級介於兩個稱號等級之間。\n* 即使目標沒有可供複製的精英技能，使所有精英法術使用快速施法的次要效果仍會生效。\n* 此技能列於 Codex Arena 的限制清單。\n* 此技能自推出後曾變更功能；詳情請見技能歷史。",
+      "reason": "區分未複製與複製後的冷卻、效果列預覽與實際屬性，逐格保留諾恩稱號換算。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1520/variants/skill-version:gww:1520/notes/0",
+          "englishHash": "5fc084e36b37e0110d34c1da161a9a017d1fc13a1220265632c59290995a1bdd",
+          "evidenceHash": "3eaf114e4359f32ad69fcac1bab55a57d14fe35c4c6b7421c4a67d85fb4a6ce8"
+        }
+      ]
+    },
+    {
+      "source": "[Research needed: Which effects do the Norn elite forms remove and which ones do they leave?]\n* When this skill is activated, most effects will be removed, including upkept enchantments, with some exceptions, but Ursan Blessing's effects still override any effects that affect attributes, health, or armor:\n** Bundles will still be held, including carried item spell bundles, \n** Summoned creatures will not be dismissed upon having their related skills removed.\n** Various skill effects: \n*** Air of Superiority. Its 10% chance to recharge skills on kill may allow early use of Totem of Man and earlier reuse of the Blessing.\n*** Protector's Defense\n*** Signet of Stamina, but its effect is fully overriden. \n*** Troll Unguent\n*** \"Together as One!\"\n*** Never Rampage Alone\n* For the first 30 seconds, it's impossible to use Totem of Man as it is recharging.\n* When the blessing ends, the skill bar is reverted, and Ursan Blessing starts recharging.\n* Since this blessing and all associated skills do not require a weapon to be used, they can be used while carrying bundles.\n* Combines well with Item Spells that have an effect when dropped such as Protective Was Kaolai or Blind Was Mingson.\n* Combines well with Binding Rituals since spirits will be maintained upon transformation and their attacks are affected by Ursan Roar. \n* Temporary mission skills such as Celestial Storm obtained while in this form will be lost upon leaving this form. They will be returned if they were received before entering this form\nAlthough it is classified as a Form, the caster does not change appearance.\nA new skill obtained (as a quest reward) while transformed may be used while in this form. After turning back to human form, the skill stays in the skill bar, but it becomes unusable until its position is swapped with another skill in the skills and attributes panel.",
+      "text": "〔待研究：諾恩精英變身會移除哪些效果，又會保留哪些效果？〕\n* 啟動此技能時，多數效果會被移除，包括須維持的加持，但仍有例外。即使效果保留，Ursan Blessing 仍會覆蓋影響屬性、體力或防禦的效果：\n** 手持物品仍會保留，包括持物法術產生的物品。\n** 即使對應技能被移除，已召喚的生物也不會被遣散。\n** 部分技能效果：\n*** Air of Superiority：擊殺時有 10% 機率使技能完成冷卻，可能讓你提早使用 Totem of Man，並提早再次使用此祝福。\n*** Protector's Defense。\n*** Signet of Stamina，但其效果會被完全覆蓋。\n*** Troll Unguent。\n*** 「Together as One!」。\n*** Never Rampage Alone。\n* 前 30 秒內，Totem of Man 正在冷卻，因此無法使用。\n* 祝福結束時，原技能列會恢復，Ursan Blessing 開始冷卻。\n* 此祝福及所有對應技能都不需要武器，因此手持物品時也能使用。\n* 適合搭配放下時會產生效果的持物法術，例如 Protective Was Kaolai 或 Blind Was Mingson。\n* 適合搭配約束儀式，因為變身後精靈仍會保留，牠們的攻擊也會受到 Ursan Roar 影響。\n* 若在此形態中取得 Celestial Storm 等任務臨時技能，離開形態時會失去它們；若在進入形態前已取得，則會恢復。\n雖然分類為變身，施法者的外觀不會改變。\n變身期間透過任務獎勵取得的新技能，可以在此形態中使用。恢復人形後，該技能仍留在技能列上，但必須在技能與屬性面板中，將其位置與另一個技能交換後，才能再次使用。",
+      "reason": "保留待研究範圍、例外效果與覆蓋關係；區分變身前後取得的臨時及永久技能。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:58325/variants/skill-version:gww:58325/notes/0",
+          "englishHash": "be54c990e6f13ab93968f260a52fc4f05e65bc03ad41529cbadd63fc94ebe467",
+          "evidenceHash": "3b29516407517aea6fecc2fd64de52c898444f8f828abbacb2b001383684c349"
+        }
+      ]
+    },
+    {
+      "source": "* Self-renewing enchantments (e.g. Lyssa's Aura, Vow of Revolution or Critical Defenses) do not renew this enchantment when they are renewed.\n* Vow of Piety triggers Soul Barbs with each reapplication.\n\n\nWhen a character is enchanted with Vow of Piety and at least one Air Magic, Earth Magic, Fire Magic or Water Magic enchantment (e.g. Windborne Speed), and loses all enchantments (e.g. due to the effects of Gaze of Contempt, Release Enchantments or Second Wind, but not Rend Enchantments nor Strip Enchantment that remove a certain number of enchantments), Vow of Piety will still be reapplied. This does not occur for Energy Storage, dervish nor monk enchantments. Video.",
+      "text": "* 會自行更新的加持（例如 Lyssa's Aura、Vow of Revolution 或 Critical Defenses）在更新時，不會同時更新此加持。\n* Vow of Piety 每次重新套用都會觸發 Soul Barbs。\n\n角色同時受到 Vow of Piety 和至少一個風系、地系、火系或水系魔法加持（例如 Windborne Speed）時，若失去全部加持（例如因 Gaze of Contempt、Release Enchantments 或 Second Wind，而非只移除特定數量加持的 Rend Enchantments 或 Strip Enchantment），Vow of Piety 仍會重新套用。能量儲存屬性、聖言者或僧侶的加持不會發生此現象。影片。",
+      "reason": "保留全部移除與定量移除的差別、四系加持條件與排除職業，影片參數殼不進入正文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14396/variants/skill-version:gww:14396/notes/0",
+          "englishHash": "3e4399c0807874d8459172b7ed2f57df8dd21c21c47ae7a54820b2643e09ddb4",
+          "evidenceHash": "891e43b25f5aff521ee18c18945731cdc4219cfb48ca075c7ab416ff2a917a22"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: When a character is enchanted with Vow of Piety and at least one Air Magic, Earth Magic, Fire Magic or Water Magic enchantment (e.g. Windborne Speed), and loses all enchantments (e.g. due to the effects of Gaze of Contempt, Release Enchantments or Second Wind, but not Rend Enchantments nor Strip Enchantment that remove a certain number of enchantments), Vow of Piety will still be reapplied. This does not occur for Energy Storage, dervish nor monk enchantments. Video.",
+      "text": "異常：角色同時受到 Vow of Piety 和至少一個風系、地系、火系或水系魔法加持（例如 Windborne Speed）時，若失去全部加持（例如因 Gaze of Contempt、Release Enchantments 或 Second Wind，而非只移除特定數量加持的 Rend Enchantments 或 Strip Enchantment），Vow of Piety 仍會重新套用。能量儲存屬性、聖言者或僧侶的加持不會發生此現象。影片。",
+      "reason": "依同一固定異常來源重譯警示欄，保留條件、反例與影片標籤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14396/variants/skill-version:gww:14396/notes/1",
+          "englishHash": "fdf8db6834f6ca570d6cf523413b02306e1f4b4c256e8b03288151ab0c3ade23",
+          "evidenceHash": "891e43b25f5aff521ee18c18945731cdc4219cfb48ca075c7ab416ff2a917a22"
+        }
+      ]
+    },
+    {
+      "source": "Similar to Ward of Weakness, this ward spell's recharge time cannot be decreased. For example, activating this ward spell while under the effects of Glyph of Renewal or Glyph of Swiftness will consume the glyph, but the recharge time will not be decreased. However, the recharge time can be increased, e.g., by Glyph of Sacrifice.\n[Source information may be outdated]\n;February 05, 2019 update; please verify changes to AI behavior.",
+      "text": "與 Ward of Weakness 類似，此結界法術的冷卻時間無法縮短。例如，在 Glyph of Renewal 或 Glyph of Swiftness 生效時施放，仍會消耗符號，但不會縮短冷卻時間。不過，冷卻時間仍可被延長，例如受到 Glyph of Sacrifice 影響時。\n〔來源資訊可能已過時〕\n2019 年 2 月 05 日更新：請核實 AI 行為的變化。",
+      "reason": "區分結界法術與加持、冷卻無法縮短及仍可延長，保留來源過時警示。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:11654/variants/skill-version:gww:11654/notes/0",
+          "englishHash": "e71e975831e55fe9d14e6de95a9e1a14725ee2b84adb5a5a2de47bdd14e6b248",
+          "evidenceHash": "990bf7d78888246f185d563ddae28635a2facf1077a28f8a84bf4214d285628c"
+        }
+      ]
+    },
+    {
+      "source": "* The amount of energy regained is rounded; for example, a 5 energy spell returns 3 energy instead of 2.5 energy, and a 15 energy spell returns 6 energy instead of 5.5 energy.",
+      "text": "* 回復的能量會取整數。例如，消耗 5 點能量的法術會返還 3 點能量，而不是 2.5 點；消耗 15 點能量的法術會返還 6 點，而不是 5.5 點。",
+      "reason": "依固定原文修復帶分數拼接，逐一保留5、3、2.5與15、6、5.5的對照。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:11209/variants/skill-version:gww:11209/notes/0",
+          "englishHash": "2efc3ef61f4cde04787797818827b7f23ee481b5f92e726482e4e5eda8028cca",
+          "evidenceHash": "2004977cc0f4703b2e338b95c3c1236a3d4632bf3b44168acb4079b674d9a682"
+        }
+      ]
+    },
+    {
+      "source": "* This skill takes effect as soon as damage is dealt. When triggered by an attack or skill that also applies a condition, that condition will be removed only if it is applied before the damage is dealt.\n** Condition-applying attack skills and preparations apply their conditions after the attack damage is dealt; Weapon of Remedy will not remove these conditions.\n** Enchantments such as Grenth's Grasp and Double Dragon which add a condition application to subsequent attacks or skills trigger before damage is dealt, allowing Weapon of Remedy to remove their conditions immediately if triggered by the same action.\n** Some spells, such as Immolate, deal damage before applying their conditions, whereas others, such as Eruption, apply conditions first. [Research needed: Lots more skills to test, if it's worth doing so. See talk page]\nIf used when taking damage from multiple sources from only one attack, Weapon of Remedy will trigger multiple times. For example, if a foe hexed with Barbs takes physical damage, Weapon of Remedy will trigger both for the physical damage and for the Barbs damage.",
+      "text": "* 此技能在造成傷害的當下生效。若觸發它的攻擊或技能同時施加病症，只有在傷害之前施加的病症，才會被移除。\n** 施加病症的攻擊技能與備戰技能，會在攻擊傷害之後才施加病症，因此治療武裝不會移除這些病症。\n** Grenth's Grasp、Double Dragon 等讓後續攻擊或技能施加病症的加持，會在傷害之前觸發；若由同一次動作觸發，治療武裝便能立即移除其病症。\n** Immolate 等法術先造成傷害再施加病症；Eruption 等其他法術則先施加病症。〔待研究：還有許多技能尚待測試；是否值得逐一測試，請參見討論頁。〕\n若單次攻擊同時帶來多個來源的傷害，治療武裝會觸發多次。例如，受 Barbs 降咒的敵人受到物理傷害時，治療武裝會分別因物理傷害與 Barbs 傷害而觸發。",
+      "reason": "核對病症施加與傷害的先後、多來源單次攻擊的多次觸發，保留尚待研究的來源限定。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4088/variants/skill-version:gww:4088/notes/0",
+          "englishHash": "8f1cb44ab5a8d39cf57a39b458c830638885c65a7ea477dc314956f1f6c30a4b",
+          "evidenceHash": "a396e95734a39773b952ba53b5bfe37457962e0a94544ebacf01d3f0f2cc1ec0"
+        }
+      ]
+    },
+    {
+      "source": "[Source information may be outdated]\n;February 05, 2019 update; please verify changes to AI behavior.",
+      "text": "〔來源資訊可能已過時〕\n2019 年 2 月 05 日更新：請核實 AI 行為的變化。",
+      "reason": "將過時 AI 行為標記轉為可讀警示，保留更新日期與核實要求。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14074/variants/skill-version:gww:14074/notes/0",
+          "englishHash": "1d26cf773e0d63c5859fd87bdeb0d8a80c6ec04f7f27219cfcf3fe921e12bd3e",
+          "evidenceHash": "873288212ada1ded6ccc178a7220ed198bb9379f62fd2a241b55a6e8b44ff212"
+        }
+      ]
+    },
+    {
+      "source": "*This is one of several skills that can remove enchantments that prevent spell targeting.\n*The damage is dealt after the enchantment removal.\n[Source flags a skill functionality change]",
+      "text": "* 此技能是少數能移除「使目標無法被法術指定」之加持的技能之一。\n* 傷害在加持移除之後才造成。\n〔來源標示此技能的功能曾變更〕",
+      "reason": "保留不可被法術指定的加持移除能力、傷害先後與功能變更警示。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14400/variants/skill-version:gww:14400/notes/0",
+          "englishHash": "0bb4b7c84ba41f392497a8e61699595b8efd8e3fcb1906d6220ca672738254f9",
+          "evidenceHash": "9e905ae5e90fc0a9d339d0bc50d7767e2583d83230a53691f25694c832a01b39"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 5.5...11...12.1% if used every time it recharges.\n* \"Projectiles\" means ranged attacks from weapons, not projectile spells.",
+      "text": "* 每次冷卻結束便立即重用時，此技能使平均移動速度提高 5.5...11...12.1%。\n*「投射物」指武器的遠程攻擊，並非投射物法術。",
+      "reason": "區分武器遠程投射物與法術，保留固定平均速度計算結果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6526/variants/skill-version:gww:6526/notes/0",
+          "englishHash": "03d7f6945f5156e3ee6391c3f202b814ab8930396cdd61046dbc2190b6f93cb0",
+          "evidenceHash": "beaed71a731180c09c2499d028038093fd15a8035ed13d6b09075c0b12483303"
+        }
+      ]
+    }
+  ]
+}

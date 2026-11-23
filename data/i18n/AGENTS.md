@@ -18,6 +18,7 @@ accuracy-audit.json: 英文事实、译文数量与来源审计。
 wiki-current-revisions.json: 当前 Wiki 修订检查结果。
 wiki-update-review.json: Wiki 修订变更的审查输入。
 source-revision-review-2026-11-23.json: 十二页英文差异、原文哈希、固定修订刷新与编译证据。
+armor-source-markup-audit.json: 護甲英文殘留的 Wiki 標記、模板與表格；逐字段固定待修範圍。
 ui-proofreading-2026-11-23.json: 全部 741 个界面键的繁英审读范围、逐键修订与字典哈希。
 skill-review-sources.json: 技能中文校订绑定的英文来源。
 release-exception.json: 正式发布例外与输入哈希。

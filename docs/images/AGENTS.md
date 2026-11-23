@@ -38,5 +38,9 @@ zima-1.4.2-loading.jpg: ZimaBoard2 真实下载量、流动进度条与三步阶
 zima-1.4.2-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
 zima-1.4.3-loading.jpg: ZimaBoard2 新版真实下载量与三步加载进度。
 zima-1.4.3-progress.jpg: ZimaBoard2 校对后的任务页面与保留的角色记录。
+zima-1.4.4-config.jpg: ZimaBoard2 保存后回读的 1.4.4 镜像与容器参数。
+zima-1.4.4-progress.jpg: ZimaBoard2 升级后保留的角色和任务进行中记录。
+zima-1.4.4-loading.jpg: ZimaBoard2 真实下载字节量与三阶段加载界面。
+zima-1.4.4-skills.jpg: ZimaBoard2 新版火鳳凰正文和属性 15 的动态数值。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

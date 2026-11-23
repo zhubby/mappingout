@@ -2,7 +2,7 @@
 
 本次记录日期：2026-11-23。
 首批交付版本：1.4.3。
-第二轮校对准备发布为 1.4.4，全文逐句校对未完成。
+第二轮校对已发布为 1.4.4，全文逐句校对未完成。
 
 ## 1.4.3 已发布范围
 
@@ -24,7 +24,7 @@
 人工批准计数与代理审读计数独立。
 当前后续批次的统计见 `data/i18n/proofreading/coverage.json`。
 
-## 发布后的第二轮校对
+## 1.4.4 已发布的第二轮校对
 
 本轮保留已发布的 1.4.3 标签。
 校对分支为 `codex/full-text-proofreading-continued`。
@@ -143,6 +143,7 @@ Friz 字体分发授权保持未批准。
 完整性与当前来源门禁保持执行。
 本次在线复核 6,895 个英文引用，差异和错误均为零。
 
-正式测试和部署结果见 [1.4.3 验收](desktop-1.4.3-acceptance.md)。
+首批测试和部署结果见 [1.4.3 验收](desktop-1.4.3-acceptance.md)。
+第二轮发布与部署结果见 [1.4.4 验收](desktop-1.4.4-acceptance.md)。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

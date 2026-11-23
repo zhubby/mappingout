@@ -27,6 +27,14 @@ armor-pass-5.json: 第五輪護甲染色、取得條件、穿模與稱號備註�
 armor-pass-6.json: 第六轮剩余护甲正文、头饰、制作条件与模型备注校对。
 quest-pass-6.json: 第六轮任务长文、复活与对话条件、队伍旗帜和敌人数量校对。
 skill-notes-source-cleanup.json: 固定模板与表格展开后的技能备注重译、来源警示与数值轴校对。
+catalog-pass-7-a.json: 第七轮地图头目、技能短文与物品外观校对，保留来源歧义。
+catalog-pass-7-b.json: 第七轮头目共用位置、技能条件与收藏家装备属性校对。
+catalog-pass-7-c.json: 第七轮装备受降咒条件、取得路径与未证实专名校对。
+calendar-pass-7-a.json: 第七轮前半日历攻略，核对敌群、技能建议与完成条件。
+calendar-pass-7-b.json: 第七轮后半日历攻略，核对轮换记录、异常与数量限制。
+quest-pass-7-a.json: 第七轮前半任务长文，核对路线、否定条件与触发时序。
+quest-pass-7-b.json: 第七轮后半任务长文，核对敌群、病症与失败条件。
+skill-pass-7.json: 第七轮技能长备注，核对叠加、技能栏复制与来源机制歧义。
 coverage.json: 全量文本校对覆盖、未审范围与风险分类。
 
 条目记录 source、text、reason 与 bindings。

@@ -1,0 +1,409 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "The party must defeat the four Celestial creatures to become \"Weh no Su\", Closer to the Stars. Each Celestial boss spawns at a fixed point on the map, marked by the green stars on the mission map. Once a Celestial boss is killed, it causes multiple weaker versions of the Celestials to spawn, they have some of the same skills as their Celestial boss and should be fought in the same way . These weaker versions also do re-spawn 3 minutes after being killed, so be on the move to avoid having to fight foes you have already defeated. The four bosses can be defeated in any order; however, it is easier if the party enters the far left portal first as the essences will be easier to fight. The key to succeed in this mission is to keep moving cautiously forwards, and not to hang around too long in the same spot.",
+      "text": "隊伍必須擊敗四隻天界生物，才能成為「Weh no Su」，也就是更接近星辰之人。四名天界首領各自出現在固定位置，任務地圖以綠色星號標示。每擊殺一名首領，就會出現多隻較弱的同類；牠們擁有該首領的部分技能，應採取相同的應對方式。這些較弱的敵人死亡 3 分鐘後會重新出現，因此要持續前進，避免反覆與已擊敗的敵人交戰。四名首領可依任意順序擊殺，但先走最左側傳送門會較容易，因為途中要對付的精華較好應付。成功關鍵是謹慎而持續地前進，不要在同一處停留太久。",
+      "reason": "依 Nahpui Quarter 核對四首領、綠星位置、較弱版本死亡 3 分鐘後重生及任意擊殺順序；修正分鐘與數字錯置，保留左側傳送門僅為較易路線。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:6580/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "773067f4dccf108385ca2d0b227923331c77e666f870a74520514b042ad3ba80",
+          "evidenceHash": "1e0bf58e1999d46dfb1c6bab8d1afaf64aa63929ef73b3b6add6fb3e2406d4e5"
+        }
+      ]
+    },
+    {
+      "source": "To gain the bonus, players have to complete the sequence in section two without harming the Sunspear Ghosts. By \"not harming\", the game means not killing them. (These NPCs can still sustain small amounts of damage, e.g. from Kormir's spear attacks.) Since Kormir will follow your party leader, pulling her away prevents her killing the ghosts. Abstain from summoning mindless allies (e.g. minions, spirits, NPCs from summoning stones, etc.) when nearby the Sunspear Ghosts. Also be careful when target calling, since henchmen and heroes can easily spike the ghosts - set heroes to Avoid Combat mode and disable aggressive skills when in the second room. Whilst the fire jets can harm other enemies, the ghosts are invulnerable to them. To get the Master's Reward, you must also prevent Kahdash from being killed.",
+      "text": "要取得額外獎勵，必須在不傷害陽矛幽靈的情況下完成第二區的流程。遊戲所謂「不傷害」，實際上是不能殺死他們；少量傷害仍可接受，例如科米爾的長矛攻擊。科米爾會跟隨隊長，因此將她帶離幽靈，就能避免她將其擊殺。靠近陽矛幽靈時，別召喚無法直接指揮的盟友，例如僕從、精靈或召喚石 NPC。指定攻擊目標時也要小心，英雄與傭兵很容易集火秒殺幽靈；在第二個房間中，將英雄設為避免戰鬥，並停用主動攻擊技能。噴火機關雖能傷害其他敵人，卻傷不到幽靈。若要取得大師級獎勵，還必須讓 Kahdash 存活。",
+      "reason": "依 Jokanur Diggings 額外目標核對不傷害實為不擊殺、科米爾跟隨隊長及 Kahdash 存活條件；區分可承受少量傷害與免疫噴火，修正爪牙和目標呼叫用語。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:4388/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "0d0aeb08f9a345ed53fa806c52c691924a90db05443a47360c1d00fe4bf521c0",
+          "evidenceHash": "ae1510a7971045fc313ad01dd05ff134dd7533ec318bc9af9b53e087713bce6b"
+        }
+      ]
+    },
+    {
+      "source": "Three of the golem types will amplify NOX's special attacks, to the point that N.O.X. will eventually be able to defeat the party with a single hit. However, all its skills during this stage are spells with long casting times; use interrupts, skills that daze, or other counters to his casting; this will allow you to defeat him while ignoring most of his reinforcements. Destroy Rectifiers that are in casting range of NOX to stop his healing, and destroy Breakers that are in attack range of the party to stop their conditions. Because of these golems, during this stage it is advantageous to keep NOX and the party still and use as little space to fight as safety allows. However, as you approach the threshold for the next stage you will want to clear out a larger area of golems and spread your party out.",
+      "text": "其中三種魔像會強化 N.O.X. 的特殊攻擊，最後甚至能讓它一擊消滅整隊。不過這個階段的技能全是施法時間很長的法術，可以用中斷、造成暈眩的技能，或其他反制施法的方法對付它，便能忽略大部分增援直接將其擊敗。摧毀施法範圍可涵蓋 N.O.X. 的 Rectifier，阻止治療；也要摧毀能攻擊到隊伍的 Breaker，避免牠們施加病症。因此，這一階段宜讓 N.O.X. 與隊伍保持原位，在安全容許下盡量縮小作戰範圍。不過，當戰況接近下一階段的轉換點時，就應清除更大範圍內的魔像，並讓隊員散開。",
+      "reason": "依 Deactivating N.O.X. 第二階段核對三種強化魔像、長施法中斷與兩種增援作用；還原治療及施加病症的主體，保留轉階段前須由集中改為散開。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:160131/sections/walkthrough-1/blocks/walkthrough-1-6-1/text",
+          "englishHash": "5ed742055b12ebc1e69934a953c93f7f27641b79935bd62776a30387a0ee7139",
+          "evidenceHash": "8fbb8bcf411c2c378acdabfb230f16024da3a1339da32bc168d9e5eb5a32e33c"
+        }
+      ]
+    },
+    {
+      "source": "All paths converge here. Upon reaching the wide open area with the closed door, several Stone Rain, two Stone Reapers and one Stone Soul will emerge from the stone pillars and gather around the Stone Judge boss. Try to intercept and take down one or two of the Stone Rains spawning next to you before they can join the group. Kill the Stone Judge last unless the Rains are overwhelming the party, since killing him causes Danika to rush towards the door to attempt to open it - whereby she aggros two Stone Crushers who awaken beside the doorway, and all surviving Elementals will also rush towards the door. Kill these to prevent them from interrupting Danika. The mission ends when Danika successfully opens the door, though this might be delayed a bit if she gets hit by falling boulders while opening it.",
+      "text": "所有路線都在此會合。抵達關閉大門前的寬闊空地時，數隻 Stone Rain、兩隻 Stone Reaper 及一隻 Stone Soul 會從石柱中出現，聚到首領 Stone Judge 身邊。盡量在附近出現的 Stone Rain 會合前，先攔下並擊殺一、兩隻。除非 Stone Rain 已壓得隊伍難以招架，否則最後再殺 Stone Judge；牠一死，Danika 就會衝去開門，引到門邊甦醒的兩隻 Stone Crusher，所有存活的元素生物也會衝向門口。消滅牠們，以免 Danika 受干擾。Danika 成功開門後，主線任務就會結束；若她開門時被落石擊中，可能稍有延遲。",
+      "reason": "依 Arborstone 封門段核對三類敵人數量、Stone Judge 最後擊殺的例外與 Danika 引出兩隻敵人；把雨勢誤譯還原為 Stone Rain，保留落石延遲開門。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:6877/sections/walkthrough-1/blocks/walkthrough-1-22/text",
+          "englishHash": "772b52e366fc9863d30a18b51021d6fdbf0b716d74bf032e68f4aefac39e7ff3",
+          "evidenceHash": "5c3488eaa966e02af77d948e09b66dc8c477b164fb4d802a57c9d1f188a34ca9"
+        }
+      ]
+    },
+    {
+      "source": "If taking the route from Jade Flats (Luxon), your party will only encounter Naga Warriors, Naga Archers, Naga Ritualists, Ssyn Coiled Grasp, and a few Kappa. Hex removal skills are unnecessary if your party does not contain any allies that require attacks and attack skills to deal damage, since your party will only encounter a total of two Kappas who use Blurred Vision and Shatterstone (whose end effect triggers even if the hex is removed). Consider not bringing blocking skills, since they can be bypassed by Naga Warriors and Archers. Naga Warriors and Archers can also interrupt with Distracting Blow and Concussion Shot, so consider skills that can prevent interrupts, inflict blind or cause misses. Consider Signet of Binding for Destruction spirits created by Naga Ritualists and Ssyn Coiled Grasp.",
+      "text": "從 Jade Flats（Luxon）出發時，隊伍只會遇到 Naga 戰士、Naga 弓箭手、Naga 祭祀、Ssyn Coiled Grasp 及少數河童。若隊內沒有依賴普攻與攻擊技能輸出的盟友，就不必攜帶移除咒術的技能；全程只有兩隻河童會用 Blurred Vision 與 Shatterstone，而且 Shatterstone 的結束效果即使咒術被移除也會觸發。也可考慮不帶格擋技能，因為 Naga 戰士與弓箭手能繞過格擋。他們還能用 Distracting Blow、Concussion Shot 中斷，因此可攜帶防止中斷、施加目盲或使攻擊失誤的技能。對付 Naga 祭祀與 Ssyn Coiled Grasp 創造的 Destruction 精靈，可考慮使用 Signet of Binding。",
+      "reason": "依 Ssuns, Blessed of Dwayna 賞金攻略核對路線限定、僅兩隻河童與咒術結束效果；修正購買烈酒為以 Signet of Binding 對付精靈，保留格擋可被繞過及中斷來源。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:213797/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "3b0318e863848d5432097ef61560bf4d11545b958aeb6762e7ea090a4d47c0d6",
+          "evidenceHash": "913132e67072c93217d3eae43199b49ed0651d85c0b780c0e25441a525d50ba2"
+        }
+      ]
+    },
+    {
+      "source": "As soon as everything is dead, the White Mantle will continue into the next clearing to the west, where there are multiple exits and converging patrols of Moss Scarabs. You might notice a Shining Blade Scout shouting and running deeper into the jungle; you do not have to catch these scouts, but take note of them, as they will always indicate the correct route to take. When in doubt, follow the map. Take the middle westward road along with any surviving White Mantle Knights; all three paths lead to an Entangling Roots, but on the correct path you will also see a boss ahead on the far side, which also has some hidden scarabs around it. Past the boss, you will come to an overlook where a cutscene will trigger, showing a Shining Blade Scout on another path creating a vine bridge to cross the gorge.",
+      "text": "清除所有敵人後，白斗篷會繼續往西，到下一片空地。那裡有多個出口，也有 Moss Scarab 巡邏隊交會。你可能看見光刃斥候一邊喊話、一邊跑進叢林深處；不用追上他們，但要留意其去向，因為他們總會指出正確路線。不確定時可參照地圖。與倖存的白斗篷騎士一起走中間那條向西的路。三條路都有 Entangling Roots，但正確路線的遠端還能看見一名首領，其周圍也藏著聖甲蟲。越過首領後，會到一處眺望點並觸發過場動畫，顯示另一條路上的光刃斥候造出藤橋、跨越峽谷。",
+      "reason": "依 The Wilds 核對清怪後西行、中央向西道路與斥候只指路無須追上；修正一切都消失了的主詞，保留三路皆有根但正路另有首領的辨識條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15268/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "53eacf30c90973b26dd405f13e0f87e3451fecfd06f5ef70cf4fe2bff534f256",
+          "evidenceHash": "86ad9a748768f1044d695204f37bb542a0d06822fb27d4308e044a55e6b53443"
+        }
+      ]
+    },
+    {
+      "source": "Proceed south-west until you come to the passage heading off to the North. Before you attack the group in front of the gate, be sure to eliminate the two White Mantle who try to sneak up on you from the open ground. Head around the bend until you can see the main entrance to the Temple of the Unseen. Try to pull the Mantle and Jade mobs out of the Mursaat tower effect separately (the Jade all possess high armor ratings meaning they die slower than the rest and pose more of a risk). After you have killed the mobs in the entrance, kill the Ether Seal producing the Ether Tower effect. The tower will quickly reduce your energy level to zero, making it hard to attack or heal with spells. Alternatively, kill the mobs nearby and then run past the seal; its effect does not reach into the next room.",
+      "text": "往西南前進，直到看見轉向北方的通道。攻擊門前敵群前，先消滅兩名試圖從空地偷襲的白斗篷。繞過轉角，直到看見 Temple of the Unseen 正門。盡量把白斗篷與翡翠敵群分別引出馬賽特塔的影響範圍；翡翠敵人的護甲很高，比其他敵人難殺，威脅也較大。清除入口敵群後，摧毀產生 Ether Tower 效果的 Ether Seal。塔會迅速將能量降到零，使法術攻擊與治療都難以施展。另一種方法是清除附近敵人後，直接跑過封印；其效果不會延伸到下一個房間。",
+      "reason": "依 Riverside Assassination 正面進攻路線核對兩名偷襲者、敵群分引與先清怪後破封印；保留可直接越過封印及效果不及下一房間的替代方案。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:255285/sections/walkthrough-1/blocks/walkthrough-1-4-1/text",
+          "englishHash": "c13bdd7c44a6217344fd839a2838fdc78423fc3f99155605b030d5bc661d5227",
+          "evidenceHash": "08c959976925b755adb68fe3a7f178a3c93e712649122a34cc4fb447d73b7aff"
+        }
+      ]
+    },
+    {
+      "source": "Note that the Quest Log indicates to \"follow the Flame Keepers\", but the name of the Charr the party must follow is \"Ember Bearer\". Sometimes Breena doesn't appear at point 2, possibly killed by the Charr boss near her. When this happens, you'll have to restart the mission and try again. The Flame that the Ember Bearers carry can get stuck on the wall of the tar pit or any minions, the Ember Bearers will carry on but when they get to the gate it doesn't open. However, if you pull them near The Flame and run off it will begin to follow them again. Sometimes the Ember Bearers will get caught at the gate they enter through and prevent the exit gate from being opened. The bonus is still completable as long as the entrance gate opens, but you will not be able to use the exit gate as a shortcut.",
+      "text": "任務紀錄雖寫著「跟隨 Flame Keepers」，實際要跟隨的夏爾卻名為 Ember Bearer。有時 Breena 不會出現在標記 2，可能已被附近的夏爾首領殺死；此時只能重開主線任務。Ember Bearer 攜帶的 The Flame 可能卡在焦油坑牆邊或僕從身上；搬運者仍會前進，但抵達大門時門不會開。可以將他們引回 The Flame 附近後跑開，讓火焰重新跟上。有時搬運者會卡在進入時的大門，導致出口門無法開啟。只要入口門能開，仍可完成額外目標，但無法再利用出口門抄近路。",
+      "reason": "依 Ruins of Surmia 核對日誌名稱與實際 NPC 名稱差異、Breena 缺席重開及火焰卡位；區分入口與出口門，保留入口開啟仍可完成額外目標。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:8564/sections/walkthrough-1/blocks/walkthrough-1-5-2/text",
+          "englishHash": "a999b1d369bfe95eb05bba9bafcfffa9a9ac1b094ddc344fc35acea00de09518",
+          "evidenceHash": "e8e007ca0575a71d9676ede72cb6617064d4315cc69b9c00727f022dfdfe6852"
+        }
+      ]
+    },
+    {
+      "source": "The main threat is from the Wind, Water and Earth Born Titans which are all elementalists with strong defensive skills. Always take them out first, then Rotting Titans, and leave Wild Growths for last. Of the Born Titans, concentrate on killing the Wind Born Titans before the others. They possess the ability to deal spike damage in groups, and have been known to deal over 180 damage with their Chain Lightning to multiple targets at once. They will also blind and weaken the attackers on your team using Blinding Flash and Enervating Charge. The Water and Earth Born Titans are not as dangerous: Earth Born Titans use Stone Daggers which deals relatively low damage, while Water Born Titans cast Maelstrom, which can be moved away from (you may have to manually flag heroes and henchmen, however).",
+      "text": "主要威脅是 Wind Born Titan、Water Born Titan 與 Earth Born Titan；牠們都是具有強力防禦技能的元素使。務必先消滅這三類，再殺 Rotting Titan，最後才處理 Wild Growth。其中又應優先擊殺 Wind Born Titan：牠們成群時能造成爆發傷害，Chain Lightning 曾同時對多個目標造成超過 180 點傷害，還會用 Blinding Flash、Enervating Charge 使隊伍中的攻擊者目盲與虛弱。水、土兩類相對不那麼危險：Earth Born Titan 的 Stone Daggers 傷害較低；Water Born Titan 的 Maelstrom 則可藉由離開範圍避開，但英雄與傭兵可能需要手動插旗移動。",
+      "reason": "依 Defend North Kryta Province 核對三類元素使先殺、風生優先與超過 180 的多目標傷害；修正 Wild Growth 為敵名而非野生植物，還原移開的是隊員。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:18603/sections/walkthrough-1/blocks/walkthrough-1-6/text",
+          "englishHash": "cf8757e9225e1416fa3f0363ddb6b743d50833c6e4a0fc51f3d614013ed5d188",
+          "evidenceHash": "3dd50c02cb7150695ceb1e251901d4997eebbfa526a6795aab10f1686544edcc"
+        }
+      ]
+    },
+    {
+      "source": "The second level has only slightly larger groups of Charr. Follow in the general direction of the quest marker and you'll soon see a lone Charr Prison Guard but behind a large group of Charr. Use a bow to draw out the Charr in small groups making it easier to attack them rather than a rush that almost certainly will end in death. He will attempt to run away. Just kill it and grab the key. Follow the path around and towards the next prison. Unlock it to find Cowl Fiercetongue inside, an elementalist. The quest marker will update and point to the exit to the next level. Head towards it. When you start seeing Bloodweavers, be careful. There are several hidden groups of spiders in the chamber with the exit which drop down. A group of spiders will approach when you are close to the exit portal.",
+      "text": "第二層的夏爾敵群只比前一層稍大。朝任務標記的大方向前進，很快就會看見一名落單的 Charr Prison Guard，但他前方擋著一大群夏爾。用弓將敵人分成小群引出，會比直接衝鋒容易得多；貿然衝入幾乎必死。守衛會試圖逃跑，擊殺他並拿取鑰匙即可。沿路繞到下一座牢房，開鎖救出裡面的元素使 Cowl Fiercetongue。任務標記會更新，指向通往下一層的出口，接著前往。開始看見 Bloodweaver 時就要小心：出口所在房間藏著數群會從上方落下的蜘蛛，靠近出口傳送門時還會有一群蜘蛛接近。",
+      "reason": "依 Warband of Brothers 第二層核對守衛逃跑、鑰匙救出元素使及下一層出口；修正出口下降的錯誤主詞，實際由蜘蛛從上方落下。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66440/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "daf4cee209f7aac398496e4a4c7d4d23a9cde67018eed6888163ebd9f1bfd5fa",
+          "evidenceHash": "949b77d930086dd8ab5f887903e4a002ccd505d8fc6195532766b68a26e672ac"
+        }
+      ]
+    },
+    {
+      "source": "On the path to the Flame Djinn, you will encounter four burnt corpses. When you get close enough, the djinn will charge after you. The djinn has a monster skill, Consuming Flames, that could be problematic if your party does not stay close together. Consuming Flames will heal the djinn as well as any party members close to it, so minor healing is all that is needed. To quickly kill the djinn, follow the green star on your compass to the right. There will be dredge there who will help you fight it, as well as give you a boon that makes you hit for 15 points extra. Doing this will drop the djinn quickly. Note, the djinn will follow you anywhere you go, so you do not have to continually draw him to the dredge. Return to Krak Flamewhip for your reward when you have destroyed the djinn.",
+      "text": "前往 Flame Djinn 的路上，會遇見四具燒焦的屍體。靠得夠近時，巨靈就會衝過來追擊。牠的怪物技能 Consuming Flames 會治療自身及靠近牠的隊員；若隊員沒有聚在一起，便可能難以應付，聚近後則只需少量額外治療。想快速擊殺牠，可循羅盤上的綠色星號向右走。那裡的掘地人會協助作戰，還會給予每次命中額外造成 15 點傷害的恩賜，能迅速打倒巨靈。牠會一路跟著你，不必反覆將牠引到掘地人身邊。消滅巨靈後，回去向 Krak Flamewhip 領獎。",
+      "reason": "依 Fire in the Hole 核對四具屍體、Consuming Flames 同時治療敵我與掘地人協助；修正 dredge 為掘地人、15 分為每次命中額外傷害，保留巨靈持續追隨。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25365/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "2271db2e721d4f574bd9543152daa7dba547f62ef7be39d4a86028e0e5f9b06b",
+          "evidenceHash": "1119962b240774fc49955a49afec28b06dfbe24481613efd2bab4ea066f82458"
+        }
+      ]
+    },
+    {
+      "source": "Go out into the Plains of Jarin and head south. Once you reach the fissure, click on it to be taken to the Caverns Below Kamadan. Inside you will face a circle of Corsairs. They are all level 7, and so shouldn't pose much of a threat. If you follow the path, you will eventually run into a level 11 Corsair Lookout. He will be accompanied by a level 8, a level 7, and a level 3 Corsair. When you continue along the path, you will come to a large room, where 5 Corsairs of various levels (none over level 10) will run toward you. Turn north and run to the end of the hallway. Then turn east, where you will soon see two dwarves. Pass them and continue, and you will soon hit a cinematic. The Beginning of the End is the follow-up primary quest that is automatically added to your quest log.",
+      "text": "進入 Plains of Jarin 後向南走，到裂縫處點選裂縫，即可進入 Caverns Below Kamadan。裡面有一圈海盜，全部都是 7 級，威脅應該不大。沿路前進會遇到一名 11 級 Corsair Lookout，身邊另有 8 級、7 級及 3 級海盜各一名。繼續沿路走到大房間時，會有 5 名不同等級的海盜衝過來，等級都不超過 10。接著向北走到走廊盡頭，再轉向東，很快就會看見兩名矮人。經過他們後繼續前進，就會觸發過場動畫；後續主要任務 The Beginning of the End 會自動加入任務紀錄。",
+      "reason": "依 Hole of Istan 核對 7 級起始敵人、11 級瞭望兵與 8、7、3 級隨從，以及五名不超過 10 級敵人；修正瞭望臺的人物誤譯與過場動畫。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63167/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "569a1e934ac7c3f703d19100945bd5ed529008eb10a5e524b4448ed606f82915",
+          "evidenceHash": "986bd89a90cfdaee4b0e625b07ec4427488fd2f519128054268e5263926c22cd"
+        }
+      ]
+    },
+    {
+      "source": "Just before you enter the area with the three pedestals, you will see a Shining Blade warrior named Less Longbow near two White Mantle Knights. As you approach (to within 2 aggro circles), the Mantle will engage him in combat if Less is close enough. You will have to join the fight and save Less. If Less dies the bonus cannot be completed. To avoid this, it is possible to flag heroes/henchmen ahead; use the mission map to position them before triggering. After the two Knights are dead, speak to Less to trigger the bonus. Note: to receive credit for the bonus, you must speak to this NPC before you kill the Demagogue. Less must complete the dialogue before the Demagogue is killed to receive the bonus. (However, once you have done so, you will receive credit even if he dies later.)",
+      "text": "進入三座基座所在區域前，會看見光刃戰士 Less Longbow，附近有兩名白斗篷騎士。玩家接近至約兩個警戒圈距離內時，若 Less 也夠近，騎士就會與他交戰。必須加入戰鬥並救下 Less；他若死亡，就無法完成額外目標。可先透過任務地圖將英雄與傭兵插旗到前方，再靠近觸發戰鬥。擊殺兩名騎士後，與 Less 交談以啟動額外目標。注意：必須在擊殺 Demagogue 前與他交談，而且整段對話必須先結束，才能計入額外獎勵。一旦完成對話，即使 Less 之後死亡，仍可獲得額外獎勵。",
+      "reason": "依 Aurora Glade 核對兩個警戒圈、兩名騎士及 Less 對話完成時機；修正 save Less 被譯為節省更少的錢，區分對話前死亡失敗與對話後死亡仍有效。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:12183/sections/walkthrough-1/blocks/walkthrough-1-9-1/text",
+          "englishHash": "da8153d5ffc6dd2733b1fb2381a95edff857aa77e052f56d6deeae9b6d132934",
+          "evidenceHash": "c5006e4757af1f1156b81251af8e233cc80d5ca0e71512d05bee6fe567262efd"
+        }
+      ]
+    },
+    {
+      "source": "Backtrack to the starting cave, and head in a northeasterly direction, aiming for the other end of the bridge. You will pass by a resurrection shrine, some heavy machinery, and a big cavern hung with chains. This is aimed at clearing away the stationary mobs before returning all the way to Orozar to lower the bridge. The subsequent run to the entrance will be much easier. An option here is that you bring with you a Master Gear from a gearbox (there is one by the brother and some on the way) and use that to lower the bridge from the other side (saving you the time to run back) - hurry over the bridge to pick up the brother and continue the quest because lowering the bridge will trigger some large patrols that will come the way you used when first entering the brother's cave.",
+      "text": "折返起始洞穴，朝東北走，前往橋的另一端。沿途會經過復活神殿、重型機械與懸掛鎖鏈的大洞窟。這樣可先清除固定敵群，再一路回到 Orozar 身邊放下橋，之後跑向入口會容易得多。另一個選項是從齒輪箱取出 Master Gear 帶著走；兄弟附近有一個齒輪箱，沿途也有幾個。用齒輪從橋的另一端放下橋，便能省去折返時間。不過要趕快過橋接走兄弟、繼續任務，因為放橋會觸發數支大型巡邏隊，沿著你最初進入兄弟洞穴的路線前來。",
+      "reason": "依 Noble Intentions Plan B 核對先繞東北清固定敵群及從另一端用齒輪放橋；修正齒輪箱在兄弟附近而非兄弟持有，保留放橋觸發巡邏與須趕快接走兄弟。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25359/sections/walkthrough-1/blocks/walkthrough-1-4-2/text",
+          "englishHash": "4462cbc00e7d573f7cf47898351f9ce1f924d911daf4d6a92e65d426c56cf759",
+          "evidenceHash": "ef0e285463f2336de513d47b93ed499ad767ff4947e39921806789cd4329afd9"
+        }
+      ]
+    },
+    {
+      "source": "Talk to Olias to have him join your party as an ally, then follow the map, fighting each group of enemies along the way. You will first encounter two groups of two Thorn Stalkers, then three groups of two Jungle Trolls, and finally two groups of White Mantle. The first White Mantle group consists of two Zealots and a Seeker, and the second group consists of a Zealot, a Seeker, and an Abbot. When you arrive at the Bloodstone, you will meet the necromancer boss Erulai the Inimical. Wait for Erulai and Olias to finish talking, then fight Erulai until he is low on health. After more dialogue, two Blades of Corruption and one Arm of Insanity will spawn and be hostile to both Erulai and your party. Kill them, then return to Kamadan and speak to Clerk Arlon to collect your reward.",
+      "text": "與 Olias 交談，讓他以盟友身分加入，再依地圖前進，逐群擊敗沿路敵人。先遇到兩群各 2 隻 Thorn Stalker，再遇到三群各 2 隻 Jungle Troll，最後是兩群白斗篷。第一群白斗篷有兩名 Zealot 及一名 Seeker；第二群有 Zealot、Seeker、Abbot 各一名。抵達血石後，會遇到死靈法師首領 Erulai the Inimical。等 Erulai 與 Olias 談完，再將 Erulai 打到低生命值。另一段對話後，會出現兩隻 Blade of Corruption 與一隻 Arm of Insanity，牠們同時敵視 Erulai 與玩家隊伍。將牠們消滅後，返回卡馬丹，向 Clerk Arlon 領獎。",
+      "reason": "依 All for One and One for Justice 核對兩群各二、三群各二、兩群白斗篷的精確編制；保留 Erulai 低血對話觸發及三隻新敵人同時敵對雙方，避免把敵名當武器。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25731/sections/walkthrough-1/blocks/walkthrough-1-4/text",
+          "englishHash": "15b2eb4bacae7ac7719e26c51447a617e63deafb6f828b07a6ef4e6cd053c42a",
+          "evidenceHash": "396f1a12fef161b5a39119429700ebded661a9a7e1082067dafda233aef341f2"
+        }
+      ]
+    },
+    {
+      "source": "The recommended way to reach Jedeh is to start from the Mouth of Torment. Take the western exit to the Ruptured Heart and make your way to the portal to Crystal Overlook. There will be a few mobs of Graven Monoliths, Margonites and Giants to defeat or avoid. Once you reach the Overlook, the most direct route to Jedeh is indicated by the blue line on the map. However, this will take you through several groups of Djinn, who can be tough to fight especially in Hard Mode. An alternative that is more time-consuming but less lethal is to turn left after entering the map, and board a Junundu. Go through the sulfurous area in the middle of the map and approach Jedeh from the east rather than the northeast. All the mobs you meet along the way should be small and easily disposed of.",
+      "text": "建議從 Mouth of Torment 出發，走西側出口進入 Ruptured Heart，再前往通往 Crystal Overlook 的傳送門。沿途須擊敗或避開幾群 Graven Monolith、瑪骨奈與巨人。進入 Crystal Overlook 後，地圖藍線標示通往 Jedeh 的最直接路線，但會穿過數群巨靈，尤其在困難模式下相當難打。另一條路較花時間但較安全：進入地圖後左轉，騎上 Junundu，穿過地圖中央的硫磺區，從東側而非東北側接近 Jedeh。沿途遇到的敵群規模應較小，容易消滅。",
+      "reason": "依 Jedeh the Mighty 賞金攻略核對 Mouth of Torment 西出口、藍線直達與騎 Junundu 繞路兩方案；修正 less lethal 為較安全，small mobs 為敵群較小而非怪物體型較小。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:205612/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "bcf674271eb806d6ec613c1c5efbfe617d7910beebd509130a243a6bf6ddb65c",
+          "evidenceHash": "ab5cf700b39396b0518fee1a18595b0c24478a7b48ee8ecc7bf8072c4a21a684"
+        }
+      ]
+    },
+    {
+      "source": "The bonus can be started by talking to Breena Stavinson (point 2 on the wiki map) who is captive and guarded by a Charr boss. She will inform you about the Flame Keeper Charrs's ritual which consist of transferring their Sacred Flame towards a Flame Temple nearby. The objective is to gain entrance past a locked gate (point 4) by following the Charr (without attacking them) and waiting for them to open it. Once the gate is open you can kill the Ember Bearers. Go extinguish the Flame Temple by killing the four Flame Keepers guarding the Cauldron of Cataclysm to complete the bonus (point 3). It is a lot faster to exit the back gate clockwise to meet up with the main path than it is to go all the way back and follow the non-bonus path counter-clockwise, past where Breena was.",
+      "text": "與被夏爾首領俘虜看守的 Breena Stavinson 交談（Wiki 地圖標記 2），即可啟動額外目標。她會說明 Flame Keeper 夏爾的儀式：將 Sacred Flame 搬往附近的 Flame Temple。你必須跟隨夏爾，不要攻擊他們，等他們打開標記 4 的鎖門後進入。門一開，就可以擊殺 Ember Bearer。接著前往 Flame Temple，殺死守衛 Cauldron of Cataclysm 的四名 Flame Keeper，熄滅神殿火焰，即可完成額外目標（標記 3）。之後從後門順時針走回主路，比原路折返、經過 Breena 所在處，再沿非額外目標路線逆時針繞行快得多。",
+      "reason": "依 Ruins of Surmia 核對標記 2 接取、標記 4 跟隨開門及標記 3 四名守衛；修正老闆與 Charrs 誤成查爾斯，保留門開後才可殺搬運者。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:8564/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "509e6cd4f93d805d42a52a3f470b9a386a63af6c68d254a675f77710322eb6ee",
+          "evidenceHash": "e8e007ca0575a71d9676ede72cb6617064d4315cc69b9c00727f022dfdfe6852"
+        }
+      ]
+    },
+    {
+      "source": "The bonus is to kill additional two Harbingers of Twilight and their associated Margonite mobs. These are located inside the Kournan fort surrounded by Margonites to the south of where the Harbinger of Nightfall spawns. You will need the Vial of Purified Water to defeat these, so you must complete the siege on the village first. The first Harbinger is at the entrance to the fort area, while the second is located further into the fort; they can be killed like the other Harbingers using the Vial of Purified Water. When fighting near or in the fort, take note of your party's position, especially heroes and henchmen, and ensure that the walls of the fort are not obstructing your attacks. It is recommended to pull the mobs into more level or open spaces before engaging them.",
+      "text": "額外目標是再擊殺兩隻 Harbinger of Twilight，以及牠們身邊的瑪骨奈敵群。牠們位於高楠堡壘內，周圍有瑪骨奈；位置在 Harbinger of Nightfall 出現處的南方。擊敗牠們需要 Vial of Purified Water，因此必須先完成村莊防衛戰。第一隻位於堡壘區域入口，第二隻則在更深處；使用 Vial of Purified Water，與其他 Harbinger 的打法相同。在堡壘內外作戰時，要留意全隊站位，尤其是英雄與傭兵，確保城牆沒有擋住攻擊。建議先把敵群引到較平坦或開闊的地方，再交戰。",
+      "reason": "依 Nundu Bay 額外目標核對須連同伴隨敵群擊殺、南方堡壘兩處位置與先完成村莊防衛；修正 more level 為較平坦地面而非更高水平，保留城牆阻擋射線。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2826/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "e7defd7eaf5a6c7787cc57bbbd78e87bc81337983140cbd752e49591ff044cc1",
+          "evidenceHash": "9eb82910ede37f897a8c5d7447ed9df85e89e7e50e958c1f2191d3e49f4e0a27"
+        }
+      ]
+    },
+    {
+      "source": "Several waves of Margonites, starting with groups of two and increasing to groups of six, will approach the village, attacking through alternating entrances. The last group of the first wave will be led by the Monk boss Priest Zein Zuu. When he has been defeated, a Harbinger of Twilight will spawn. From close range, use the Vial of Purified Water against it to ensure you're doing damage and dispatch it. After that, a group led by Elementalist boss Scribe Wensal will spawn, followed by a group led by Paragon boss Commander Chutal. Another Harbinger of Twilight will spawn next, and finally a group led by Zealot Sheoli. Once she is defeated you are free to travel out of the village to the old Kournan fort, as there are no more groups which might come and kill Elder Jonah.",
+      "text": "數波瑪骨奈會交替從不同入口進攻村莊，敵群規模由 2 隻逐步增加到 6 隻。第一波最後一群由僧侶首領 Priest Zein Zuu 率領。擊敗他後，會出現一隻 Harbinger of Twilight；靠近後使用 Vial of Purified Water，確保能造成傷害並將其消滅。之後會依序出現元素使首領 Scribe Wensal 率領的敵群、聖言者首領 Commander Chutal 率領的敵群、另一隻 Harbinger of Twilight，最後是 Zealot Sheoli 率領的敵群。擊敗她後，就能離開村莊前往舊高楠堡壘，因為不會再有敵群前來殺害 Elder Jonah。",
+      "reason": "依 Nundu Bay 核對二至六隻規模、三位職業首領及兩次 Harbinger 的出現順序；移除 Commander 的英雄對戰頭銜污染，保留最後擊敗 Sheoli 才能放心離村。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2826/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "3918ac9643ea61e4d1c2d64aa7dca0728a1fcad6609f7b18517e79d97020f706",
+          "evidenceHash": "9eb82910ede37f897a8c5d7447ed9df85e89e7e50e958c1f2191d3e49f4e0a27"
+        }
+      ]
+    },
+    {
+      "source": "Level 3: Once in the chamber, activate the golems again. This room is not very big, and the goal is simple: defeat all the Destroyers there. Clear the nearest groups then pull the Disc of Chaos up the stairs (or just leave it for last), as its devastating, powerful attacks are much easier to suppress when it is by itself. Most of its attacks are point-blank, so standard tanking procedures should be sufficient until it is defeated. Setting the golems to ranged may keep them active longer. Alternatively, having the golems set to defensive and staying within their range is viable if you are having trouble keeping your party alive. Because the disc is an Elementalist, assigning one character to daze it and attack it with a weapon will nearly eliminate the threat it poses.",
+      "text": "第 3 層：進入房間後，再次啟用魔像。房間不大，目標很簡單：消滅所有毀滅者。先清除最近的敵群，再將 Disc of Chaos 引上樓梯，或留到最後再打；牠單獨作戰時，強力攻擊更容易壓制。牠大多數攻擊都在近身範圍內生效，採用一般坦怪方式應足以應付。將魔像設為遠程模式，可能讓它們維持啟用更久。若難以保住隊伍，也可改設防禦模式，並留在魔像作用範圍內。Disc of Chaos 是元素使，指定一名隊員對牠施加暈眩並持續用武器攻擊，就能幾乎消除其威脅。",
+      "reason": "依 Destruction's Depths 第 3 層核對先清近群與首領單獨作戰、魔像遠程或防禦兩模式；修正 point-blank 為近身範圍、daze 為暈眩及 disc 為敵名。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:67311/sections/walkthrough-1/blocks/walkthrough-1-5/text",
+          "englishHash": "55b3a3ed9ae23e7de6fb1885816abb90c8869df2b52f8907a69a7b41f96419fc",
+          "evidenceHash": "05c772091b8b6990a94e4149794a5d957e29b51ed5c58e17dd76b13aa2fecc5b"
+        }
+      ]
+    },
+    {
+      "source": "From Cavalon follow the path on the mission map east then north. The chest is located in the southwest corner of Maishang Hills, point 1 on the mission map. Sergeant Rodrik and the Outcast crew will start a conversation once you get close, and soon will become hostile and attack. After the fight is over, grab the chest and follow the path marked on the mission map. After crossing the bridge at point 2, you will need to turn almost 180 degrees to the left and take the path heading south. Take the chest to Gyala Hatchery which is in the southeast corner of the same territory. The Kappa and Naga you encounter along this path are quite strong so come prepared. Also as you approach the beach at the end, you will run into a group of Naga which includes Stsou Swiftscale.",
+      "text": "從 Cavalon 出發，依任務地圖的路線先向東、再向北走。箱子位於 Maishang Hills 西南角，也就是地圖標記 1。靠近後，Sergeant Rodrik 與 Outcast 成員會開始對話，不久便會轉為敵對並攻擊。打完後拿起箱子，沿地圖標示路線前進。通過標記 2 的橋後，幾乎向左轉 180 度，改走向南的小路，將箱子送往同區域東南角的 Gyala Hatchery。沿途河童與 Naga 很強，務必做好準備。接近最後的海灘時，還會遇到包含 Stsou Swiftscale 在內的一群 Naga。",
+      "reason": "依 Stolen Eggs 核對先東後北取箱、橋後近 180 度左轉南行及東南角交付；修正靠近的主體為玩家，保留海灘首領與沿路敵人風險。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:17261/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "b46883552338a029f99fc4743a5b4f7c87557d6bfb0171dd27b507877aae748d",
+          "evidenceHash": "6e407f8bdf8c2b6d7249428d8541f8faa6bd88b895196e0bbfc2cbc76485022b"
+        }
+      ]
+    },
+    {
+      "source": "The best method for gaining points is seeking and killing Lost Souls. Kill the first few Maddened Spirits until you have unlocked two areas. Then, start running in your wurm through the areas. There are three spawn points in the northwestern corner (one on rocky ground), three in the northeastern corner, one in the southeastern corner (on rocky ground) and two in the southwestern corner. When you start running, go through each area methodically, scanning for lost souls. Do not fight the Spirits. Let them chase you and use your tunnel skill to keep ahead of them. When you find a lost soul, make sure you have some space between you and the spirits before you kill it. Then, tunnel quickly away. This will take a while, but done effectively you can rack up many points.",
+      "text": "最有效的得分方式，是尋找並擊殺 Lost Soul。先殺幾隻 Maddened Spirit，直到解鎖兩個區域，再騎著沙蟲穿梭各區。西北角有 3 個出現點，其中 1 個在岩地；東北角有 3 個；東南角有 1 個，在岩地；西南角則有 2 個。開始移動後，有順序地巡查各區尋找 Lost Soul，不要與追來的 Maddened Spirit 交戰。讓牠們追著你，使用鑽地技能保持距離。找到 Lost Soul 時，先確保已與追兵拉開一段距離，再將其擊殺，接著立即鑽地離開。這個方法需要時間，但操作得當就能累積大量分數。",
+      "reason": "依 Remains of Sahlahja 核對先開兩區、四角出現點 3／3／1／2 及兩處岩地；區分應殺的 Lost Soul 與應避開的 Maddened Spirit，修正沙蟲與鑽地技能語意。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16562/sections/walkthrough-1/blocks/walkthrough-1-4-3/text",
+          "englishHash": "39b3706f67fee86e221ccb3927fc34d6f06d190acafe786bd8481c1d473b98de",
+          "evidenceHash": "c471e1d73b297686dee222f24d0b50b3eea2cf1a5d0a499feb272e95b3b03e20"
+        }
+      ]
+    },
+    {
+      "source": "Meet up with Library Envoy Chukeht (4) in the Hidden City, and follow the quest pointer to each of the djinn lords (1) and (2). After doing this, head to the large open area where the altars are (3). It is a very good idea to clear this area of djinn before activating both Altar of Water and Altar of Fire, since even more djinn will spawn when you do. After placing the essences on the altars (i.e. touching both), you must flee back to the entry portal of the Hidden City; do not map out, as this will leave the quest unfinished. Instead, wait for Chukeht to arrive at the entrance. Once he slowly walks towards the exit, the quest will update. If he does not start moving by himself, consider moving slightly closer to the exit portal than the quest marker indicates.",
+      "text": "在 Hidden City 與 Library Envoy Chukeht 會合（4），依任務指標找到兩位巨靈領主（1、2）。完成後，前往祭壇所在的大空地（3）。建議先清除該區巨靈，再啟用 Altar of Water 與 Altar of Fire，因為啟用後會出現更多巨靈。將精華放上兩座祭壇，也就是分別觸碰兩座祭壇後，必須逃回 Hidden City 的入口傳送門。不要使用地圖傳送離開，否則任務不會完成；應等待 Chukeht 抵達入口。他開始慢慢走向出口時，任務就會更新。若他沒有自行移動，可試著站到比任務標記更靠近出口傳送門的位置。",
+      "reason": "依 Gift of the Djinn 核對四處地圖標記、兩祭壇觸發增援及入口等待 NPC；修正 map out 被譯為繪製地圖，保留傳送離開不能完成與靠近出口促進移動。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:5065/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "5db58f82c5e06b9206d0f92d797c9d8b5bbac60d60388084e9c5e4346d2127c2",
+          "evidenceHash": "d23b8d6f4a824ffefda87e26e6ccd713a56d504f20eea7a1adb95fc176a16555"
+        }
+      ]
+    },
+    {
+      "source": "There are several groups in this chamber, but you only have to take out 3 or 4: a group that spawns near the entryway; a group that spawns near the boss lock; the group that spawns with a Cursed Brigand (who carries the final key); and perhaps one more group. After taking out the group near the entrance, light the two stands to the left and right of the entrance. Then, carefully walk around and between any other mobs to light two braziers up the center of the room and two more in the back. If you have heroes and henchmen, flag them to the back so they do not accidentally aggro any foes and take down the Brigand's group, which has now spawned. From this position, you can also confront the group blocking the boss lock, safely leaving room to maneuver and retreat.",
+      "text": "房間裡有多群敵人，但只需消滅 3 至 4 群：入口附近的一群、首領鎖附近的一群、與持有最後鑰匙的 Cursed Brigand 一同出現的一群，以及可能還要再清一群。清除入口敵群後，點燃入口左右兩座火台，再小心繞過或穿行於其他敵群之間，點燃房間中央的兩座火盆及後方另外兩座。若帶有英雄與傭兵，將他們插旗到後方，以免意外引到敵人；接著消滅此時已出現的 Brigand 敵群。從這個位置，也能對付擋住首領鎖的敵群，同時保留安全的走位與撤退空間。",
+      "reason": "依 Lost Souls 第 3 層正文及 Shards of Orr 共用綁定核對三至四群、入口二座及中央後方各二座；修正 take out 為消滅，區分插旗防誤引與接著擊敗 Brigand 的動作。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:68711/sections/walkthrough-1/blocks/walkthrough-1-6-3/text",
+          "englishHash": "8966b96880707fe2055aa5dad5cbad0a59480a2ad146cc833ab7683623d78bd7",
+          "evidenceHash": "33b75665721df199abf9cd60b3e5f71be6f3c17c8be1181a9701d33e67e33c2a"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66402/sections/shared-quest:gww:68711-walkthrough-1/blocks/shared-quest:gww:68711-walkthrough-1-6-3/text",
+          "englishHash": "8966b96880707fe2055aa5dad5cbad0a59480a2ad146cc833ab7683623d78bd7",
+          "evidenceHash": "07ad7f0be7b0e90b0bae04a4a9e8630cea628d15adc0c908c8e101ecc4bd58b8"
+        }
+      ]
+    },
+    {
+      "source": "If you choose to ignore Dunkoro, the mission is pretty straight-forward. From the area where you kill the ambushing Corsairs there are two exits which head to the north. Head up the one which will take you west, you'll meet a group of Corsairs coming down. Follow the river here until you get to an open area and follow the wall running perpendicular to the river, that is, turn right. After following this you'll come to another exit to the right. Walk into this area. You should see two Corsair Runners. Head up to where they are and follow the runner which goes straight north - the one that doesn't run through the insects. Additional Corsairs will arrive. Continue the way the Corsair was running after finishing this group and follow the path as it goes downwards.",
+      "text": "若選擇不理會 Dunkoro 的建議，主線路線相當直接。從消滅海盜伏兵的區域有兩個通往北方的出口，選擇會帶你往西的那條路，途中會遇到一群迎面下來的海盜。沿河走到空地後，沿著與河流垂直的牆壁走，也就是右轉。繼續走會到另一個位於右側的出口，進入該區後應能看見兩名 Corsair Runner。靠近後，跟著直往北跑、沒有穿過蟲群的那一名。接著還會有海盜抵達；清除這群敵人後，沿著逃跑者的方向繼續走，再順著小路往下。",
+      "reason": "依 Moddok Crevice 核對忽略 Dunkoro 的非額外目標路線、右轉沿垂直河流的牆與選北行逃跑者；修正路線誤成船、迎面下坡誤成降落及跑向誤成執行方式。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:3608/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "613046f679b18ec6022dcb8bc0d66cc134b989cdaa0c80151eedde7c472352b3",
+          "evidenceHash": "ac2c54c6eb262e34f80ce1d830670e22929028b40d47198bd8b7758592129bbc"
+        }
+      ]
+    },
+    {
+      "source": "Kill the groups of Margonites up to the Harbinger of Nightfall (point 2 on the map). The Harbinger does not share aggro with the groups around it, so pulling is a good tactic. Try killing everything around the Harbinger before directing attention to the Harbinger itself. As the Harbinger of Nightfall becomes weaker, he will summon two additional groups of Margonites, once at 50% health and another at 25% health. The summoned Margonites will take some time to arrive so it may be a good strategy to retreat and engage the newly summoned foes before returning to the Harbinger, although he can be defeated before the arrival of the additional Margonites. Destroy the Harbinger of Nightfall the same way you killed the Harbingers of Twilight to complete the mission.",
+      "text": "消滅沿路瑪骨奈敵群，直到 Harbinger of Nightfall 所在處（地圖標記 2）。牠與周圍敵群不會連動引怪，因此適合逐群引出。盡量先清光周圍敵人，再對付牠。當牠的生命值分別降至 50% 與 25% 時，各會召喚一群瑪骨奈，共兩群。增援抵達需要一些時間，可以先撤退、消滅新召喚的敵人，再回頭打牠；也可以趕在增援抵達前直接將牠擊殺。用先前擊敗 Harbinger of Twilight 的方式消滅 Harbinger of Nightfall，即可完成主線任務。",
+      "reason": "依 Nundu Bay 核對首領與敵群不共用警戒、首領半血及四分之一血各叫一群；修正百分比被誤套在增援身上，保留先退清增援或趕在抵達前擊殺兩策略。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2826/sections/walkthrough-1/blocks/walkthrough-1-5/text",
+          "englishHash": "d6b8e2aafa761f659b40c1ddf57ae2de1594198bb7fda804a042763b18365442",
+          "evidenceHash": "9eb82910ede37f897a8c5d7447ed9df85e89e7e50e958c1f2191d3e49f4e0a27"
+        }
+      ]
+    },
+    {
+      "source": "When you enter Mehtani Keys, there will be a group of sailors standing in front of a shrine-like structure on the first small island southeast of the exit into Kodlonu Hamlet. When you approach them, they will join your party as allies and begin their ritual. Soon, three Water Djinn will spawn and attack. Defend the sailors from harm. The second wave and third wave consists of three and five Djinn respectively. It is not difficult at all to keep the sailors alive. Once the three waves have been defeated, Kinya Kela will appear to hand you the Blessing of Wind and Water. Consider clearing out the nearby Skale before triggering the quest, as the skale may attack the sailors and make it more difficult to defend them. Return to Castellan Puuba for your reward.",
+      "text": "進入 Mehtani Keys 後，在通往 Kodlonu Hamlet 的出口東南方第一座小島上，會看見一群水手站在神殿般的建築前。靠近後，他們會以盟友身分加入隊伍並開始儀式。很快三隻 Water Djinn 會出現攻擊，務必保護水手。第二波與第三波分別有 3 隻、5 隻巨靈，保住水手並不困難。擊敗三波後，Kinya Kela 會出現，交給你 Blessing of Wind and Water。建議觸發任務前先清除附近 Skale，避免牠們攻擊水手、增加防守難度。完成後返回 Castellan Puuba 領獎。",
+      "reason": "依 War Preparations (Wind and Water) 核對出口東南方小島與三波 3／3／5；保留先清 Skale 的防守目的，修正 return 的影返技能污染為正常返回領獎。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25661/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "a4cab645ea02b2cb52bde575519aa4fce9b2c92d3e34933ab3fc8e7bb3525024",
+          "evidenceHash": "c083d91688891572ddd5b96574dc844af9157c195ff274364fdc03718d226699"
+        }
+      ]
+    },
+    {
+      "source": "The mission has three more sections, each with some Forgotten, a boss and a priest. A timer starts and at every two minutes mark, if the priest of a group is still alive, all defeated foes are resurrected; thus timing is highly important. Focus your firepower on the Priest first but if your party shows difficulty, pull back to prevent being instantly swarmed by the respawned foes. Defeating all foes opens the gate to the next section. Between sections, the timer stops and will reset when the next gate is opened, allowing enough time to regenerate and recharge before tackling the next area. Remember that if the Ghostly Hero dies, the mission is over. If you're unsure whether your healers can keep him alive, leave him behind the gate by talking to him once.",
+      "text": "接下來還有三個區段，每段都有一些被遺忘者、一名首領與一名祭司。計時開始後，每到 2 分鐘的倍數時點，只要該敵群的祭司仍活著，已倒下的敵人就會復活，因此掌握時機非常重要。先集中火力擊殺祭司；若隊伍難以應付，就撤回，以免瞬間被復活的敵人包圍。清除全部敵人後，通往下一區的大門才會開啟。區段之間計時會暫停，下一道門開啟時重新計時，讓隊伍有足夠時間恢復狀態與等待技能冷卻。記住，英雄之魂一旦死亡，主線任務就會結束。若不確定治療者能否保住他，可與他交談一次，讓他留在門後。",
+      "reason": "依 Thirsty River 核對三區段、敵方祭司每兩分鐘復活機制及區段間暫停重置；修正聚能器與充電，避免把敵方祭司誤認玩家隊員，保留英雄之魂死亡失敗。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11469/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "b7c1f5e093a57fdc833554da1230ea6dad9fd3bd52aa1e3a32b1badb334086ab",
+          "evidenceHash": "19b14828c0bcaff8164ca1d1545d119b7966be2ecbfcc4da204b90dc0a1c8b85"
+        }
+      ]
+    },
+    {
+      "source": "Since Rornak must survive to complete the bonus, consider first clearing the path to yellow point 2 before leading him there. Yellow point 2 houses two mobs of two Dolyak Riders and several Stone Summit. Luring some of these foes away from the Riders and their considerable healing potential may prove a worthy tactic. Be cautious in your attempts to lure the enemies, especially in Hard mode or with henchmen, as the Dolyak Riders will follow as soon as you attack any member of the mob. Consider spreading the enemy lines to accomplish this task with the use of bodyblocking on the road nearby the start of the yellow line that leads to yellow point 2. With the party correctly positioned, pull the enemies into your waiting ambush and crush them with impunity.",
+      "text": "Rornak 必須存活才能完成額外目標，因此可先清出通往黃點 2 的道路，再帶他過去。黃點 2 有兩群敵人，每群包含兩名 Dolyak Rider 與數名石峰矮人。可嘗試將部分敵人引離治療能力強的騎手。引怪時要小心，尤其在困難模式或帶傭兵時：只要攻擊敵群中的任何成員，Dolyak Rider 也會跟上。可在通往黃點 2 的黃線起點附近道路上，用身體擋路來分隔敵人。隊伍站好位置後，再將敵群引入預設埋伏，安全地將其消滅。",
+      "reason": "依 The Frost Gate 額外目標核對 Rornak 存活、兩群各兩名 Dolyak Rider 與黃線起點卡位；修正敵群被譯成兩隻小怪及總量混淆，保留攻擊任一成員騎手即跟進。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:12260/sections/walkthrough-1/blocks/walkthrough-1-7-6/text",
+          "englishHash": "c941a32cdd87b18a4b1fe70aa5591361dfc82cc211d13a31b86adde9b3e51e5e",
+          "evidenceHash": "32a6730a9e4455d3655c51fe4a66f5cf77e8eafdffb4b3c8abc3e0b24a26d048"
+        }
+      ]
+    },
+    {
+      "source": "Kill the Cursed Brigand to the immediate left of the portal. When it dies, a chest spawns with an unlit torch, which you will need for most of this level. Take down the mob that blocks the way to a lit brazier and then light all the flame braziers in the circular graveyard room. Be ready for a large mob of undead and enchanted that spawn in a random spot within the room after the final one ignites; they must be killed before the exit door will open for you. Next, make your way to the tiled room to light the 2 of 4 unlit flame braziers, spawning yet another mob including a Cursed Brigand. Kill the Brigand to get the dungeon key to exit the level (he can be pulled away from his group). Leave the torch behind and head for the exit to the next level.",
+      "text": "先擊殺傳送門緊鄰左側的 Cursed Brigand。牠死後會出現一個箱子，內有未點燃的火把，這一層大部分流程都會用到。清除擋在已點燃火盆前的敵群，再點燃圓形墓室內所有火盆。最後一座點燃後，房內隨機位置會出現大群不死生物與附魔敵人，必須全數消滅，出口門才會開。接著前往鋪磚房間，點燃四座未點燃火盆中的兩座，便會再出現包含 Cursed Brigand 的敵群。擊殺 Brigand，取得離開本層所需的地下城鑰匙；可將牠單獨引離敵群。最後放下火把，前往通往下一層的出口。",
+      "reason": "依 Lost Souls 第 2 層正文及 Shards of Orr 共用綁定核對左側鑰匙敵人、最後火盆刷怪與清怪開門；修正 2 of 4 被誤譯為二或四，保留火把留在本層。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:68711/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "e7d2c621272876fec626f2c00cd4e45b658933ccfd68fa3b3317d0918db8ed5f",
+          "evidenceHash": "33b75665721df199abf9cd60b3e5f71be6f3c17c8be1181a9701d33e67e33c2a"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66402/sections/shared-quest:gww:68711-walkthrough-1/blocks/shared-quest:gww:68711-walkthrough-1-5-1/text",
+          "englishHash": "e7d2c621272876fec626f2c00cd4e45b658933ccfd68fa3b3317d0918db8ed5f",
+          "evidenceHash": "07ad7f0be7b0e90b0bae04a4a9e8630cea628d15adc0c908c8e101ecc4bd58b8"
+        }
+      ]
+    }
+  ]
+}

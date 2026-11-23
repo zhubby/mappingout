@@ -1,0 +1,486 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "* It is located in the area where there are two Mantid Hatchlings, but does not always spawn. Killing the two Mantid Hatchlings will cause two Mantid Drones to popup and attack. Killing both the Mantid Drones will cause another three mantids to popup - a Mantid Monitor, a Mantid Drone, and either Yunlai Deathkeeper or a Mantid Darkwing.\n* As noted above, this boss may or may not spawn. If it does not spawn, a level 6 Mantid Darkwing will spawn instead, so just map travel back to the Minister Cho's Estate oupost and make the journey again until Yunlai spawns.\n* Yunlai will always spawn if you adhere strictly to the following approach. When entering the temple and before killing any mantids, go immediately to the left chamber. There you will find a Mantid Monitor: kill it. Next, kill the two Mantid Drone Hatchlings. Two Mantid Drones will popup: kill them, and two Mantid Drones and Yunlai will popup. Killing any other mantid other than the ones mentioned, may prevent Yunlai from appearing.",
+      "text": "* Yunlai Deathkeeper 位於有兩隻 Mantid Hatchling 的區域，但不一定出現。殺死這兩隻 Mantid Hatchling 後，會冒出兩隻 Mantid Drone 並發動攻擊。再殺死這兩隻 Mantid Drone 後，會冒出三隻螳螂：一隻 Mantid Monitor、一隻 Mantid Drone，以及 Yunlai Deathkeeper 或一隻螳螂黑翼。\n* 如上所述，此頭目不一定出現。若未出現，便會由一隻 6 級螳螂黑翼代替。可用地圖旅行返回 Minister Cho's Estate 前哨站，再走一次，直到 Yunlai Deathkeeper 出現。\n* 依來源所述，嚴格按以下順序行動即可讓 Yunlai Deathkeeper 出現：進入寺廟後，先不要殺任何螳螂，立即前往左側房間，殺死其中的 Mantid Monitor。接著殺死兩隻 Mantid Drone Hatchling；兩隻 Mantid Drone 會冒出。殺死它們後，會再冒出兩隻 Mantid Drone 和 Yunlai Deathkeeper。殺死上述以外的螳螂，可能使 Yunlai Deathkeeper 不再出現。",
+      "reason": "spawn 和 popup 指敵人出現，並非產卵；修正 Drone 被譯為無人機。保留兩段各自的敵群組成及嚴格擊殺順序，不調和來源條件差異。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:2:54024e872e6f1204/npc/notes",
+          "englishHash": "4809558445da5b2d3db63c264311a8cca1297418f81a75c938615912d39b8d7d",
+          "evidenceHash": "2f9845d9f3331fdf75211f03794d79b3a5b12186d74e4db6e577bfbe6571eb8b"
+        }
+      ]
+    },
+    {
+      "source": "* Unlike other zombies, it does not take double damage from holy damage.\n* Rotscale has 17700 health in Hard Mode. It's accompanied by two Damned Clerics, a Necrid Horseman, four Rotting Dragons, and three Skeleton Bowmasters.\n* Five Smoke Phantoms popup at the bridge leading to Rotscale while fighting Rotscale and its group.\n* Certain areas past the bridge around Rotscale periodically inflicts poison on party members and allies.\n* You can pay for two buffs after summoning a Champion of Balthazar at the statue of Balthazar near the bridge to Rotscale:\n** Morale Boost for {{cost|100}}: the usual +2% Morale Boost.\n** Holy Blessing for {{cost|50}}: +25 maximum health and +3 health regeneration.\n* While Rotscale can be killed during A Vengeance of Blades, doing so will not complete the related Zaishen Bounty.\n* Rotscale is one of the few non-boss creatures that drops a unique weapon. Because it is not a boss, you cannot use a Signet of Capture on it.",
+      "text": "* 與其他殭屍不同，惡臭骨龍不會承受雙倍神聖傷害。\n* 困難模式下，惡臭骨龍有 17700 點體力，身旁有兩名地獄牧師、一名那奎德騎師、四隻 Rotting Dragon 和三名骷髏弓箭手。\n* 與惡臭骨龍及其敵群戰鬥時，通往牠的橋上會冒出五隻灰色幽靈。\n* 橋另一端、惡臭骨龍周圍的部分區域，會定期使隊伍成員及盟友中毒。\n* 在通往惡臭骨龍的橋旁，於巴薩澤雕像召喚 Champion of Balthazar 後，可付費取得兩種增益：\n** 士氣提升，費用 100 金幣：一般的 +2% 士氣提升。\n** Holy Blessing，費用 50 金幣：最大體力 +25、體力再生 +3。\n* 雖然在 A Vengeance of Blades 期間可以殺死惡臭骨龍，但不會因此完成對應的戰承懸賞。\n* 惡臭骨龍是少數會掉落獨特武器的非頭目生物。由於牠不是頭目，無法對牠使用捕捉紋章。",
+      "reason": "修正隊伍、體力、敵人種類與士氣誤譯；逐項保留 17700、2/1/4/3/5 及增益數值。固定 Template:Cost 修訂 2602205 確認單參數為金幣，故將兩個未展開模板譯為 100 與 50 金幣。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:cc2fba562584396e/npc/notes",
+          "englishHash": "c03c8de382c656228a60ad25063b59b21f786168a97366719932c82540fe6139",
+          "evidenceHash": "b37646a2880b9ace30d3ff5b0b9c80b1da6b98ee72e5543eb971b97682ac2d49"
+        }
+      ]
+    },
+    {
+      "source": "* To make the fight easier draw him away from his spawn point towards the City of Torc'qua. Putting your casters behind the fortress wall will allow them to cast spells in relative safety (Jadoth and his ranged allies will be unable to hit them).\n** Alternatively there is a cliff on the other side of the fortress. Hiding your casters beneath that cliff will yield similar results.\n* Jadoth's group has two monks, make sure to take enough anti-healing skills.\n* He is very powerful and will make short work of parties approaching him when allowing him to cast his Storm of Judgment too often. Soothing Images and Diversion are effective counters.\n* A Spirit of Truth will spawn near to the reward Chest after his death.\n* To get the Torc'qua Chest, all Margonites must be killed. You may find that a couple hide beyond the hill towards The Stygian Veil. Approaching this area will cause them to come toward you.",
+      "text": "* 為了降低戰鬥難度，可將霸王 賈多司從出現位置引向 City of Torc'qua。讓施法者站在要塞牆後，可較安全地施法；賈多司及其遠距攻擊盟友無法擊中他們。\n** 另一種做法是利用要塞另一側的懸崖。讓施法者藏在崖下，也能達到類似效果。\n* 賈多司的敵群有兩名僧侶，請攜帶足夠的抑制治療技能。\n* 他非常強大；若讓他頻繁施放 Storm of Judgment，接近他的隊伍很快就會被擊敗。意念平靜和牽制可有效應對。\n* 他死亡後，獎勵寶箱附近會出現一個 Spirit of Truth。\n* 必須殺死所有瑪貢尼特，才能取得 Torc'qua Chest。少數敵人可能藏在通往 The Stygian Veil 方向的山丘後方；接近該區域時，他們便會朝你走來。",
+      "reason": "casters 是施法者，couple 是少數敵人；修正腳輪、夫妻及計數器等誤譯。保留兩處掩蔽位置、兩名僧侶及全滅瑪貢尼特的開箱條件。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:3:06f6ae5c11a412ec/npc/notes",
+          "englishHash": "6098b94deb619badc3e0e92a4f5d2e74bd9dd1b65997daf754693cc41d23ace2",
+          "evidenceHash": "f91ed4c2b7eb6b784ddc5dadde1ffe2b8c16b58cdb3b4c2ebb5c8790f0695ac3"
+        }
+      ]
+    },
+    {
+      "source": "Wiki notes: * This kit used to be the only means of salvaging equipment modifiers while in pre-Searing Ascalon, including weapon upgrades, Runes, or Insignias. With the introduction of The Purveyor players are able to obtain the Infinite Superior Salvage Kit in pre-Searing Ascalon.\n* As with any kit, its value will decrease proportionally as it is used.\n* Although it is gold, identifying it will not contribute to the Wisdom title track (however it will increase the value of the kit if sold to a merchant).\n* These kits can be used to salvage rare crafting materials, but there is no point in doing so: rare materials cannot be used in pre-Searing Ascalon.\n* The base chance, before the Wisdom and Treasure Hunter bonuses, of breaking an item upon salvaging an upgrade is 50%.",
+      "text": "維基備註：\n* 此拆解工具曾是崩壞前阿斯卡隆唯一能拆取裝備強化組件的工具，包括武器升級組件、符文和徽記。The Purveyor 加入後，玩家也能在崩壞前阿斯卡隆取得 Infinite Superior Salvage Kit。\n* 與其他工具一樣，使用次數減少時，其價值也會按比例降低。\n* 雖然此工具是金色物品，鑑定它並不會增加智慧者稱號進度，但能提高賣給商人時的價值。\n* 此工具可以拆解出稀有製作材料，但這些材料在崩壞前阿斯卡隆無法使用，因此這樣拆解沒有實際用途。\n* 拆取升級組件時，未計入智慧者與寶箱獵人稱號加成前，物品被破壞的基本機率為 50%。",
+      "reason": "pre-Searing 是崩壞前地區，salvage 是拆解，title track 是稱號進度；保留新增工具來源及先算 50% 基礎破壞率、再計稱號加成的關係。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:1:8c5c9f712b06ef37/details/3",
+          "englishHash": "bdcd9142124d4d81981585545ae0598b11c607fc064573e457c18d2471dafff1",
+          "evidenceHash": "4bbba5edf615e02878bb27413e4c8a90d6b1064b7b9540d0c9bb08a378a86511"
+        }
+      ]
+    },
+    {
+      "source": "* The path shown on the map can be quite difficult due to the 3 closely gathered groups of Margonites and Torment creatures on the other side. Still, it is possible to lure one group away from the others. An alternative would be to take a right turn in front of the bridge and follow the path from there on (staying near the west edge of the path) until one goes around to cross a black bridge that leads directly to the boss. There are small mobs along the way, but this should be remedied with a decent party. This is a longer, but safer way to approach the boss without having to suffer any sort of death penalty.\n\n* This boss does not spawn in the mission. You must enter the zone from the Gate of Fear and then exit to Domain of Pain to reach the boss.",
+      "text": "* 地圖所示路線的另一側，有三群彼此靠得很近的瑪貢尼特與苦痛生物，因此行進相當困難；仍可嘗試單獨引出其中一群。另一條路線是在橋前右轉，沿路靠西側前進，繞行至一座直接通往頭目的黑橋。沿途有少量敵群，配置得當的隊伍應能應付。這條路較長，但接近頭目時較安全，也較能避免承受死亡懲罰。\n\n* 此頭目不會在主線任務中出現。必須由 Gate of Fear 進入該區域，再轉往苦痛領地，才能到達頭目所在處。",
+      "reason": "修正三群敵人、隊伍、頭目與死亡懲罰，並保留橋前右轉及靠西緣的繞行方向。Domain of Pain 的中文來源括註不作地名正文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:3:e97a600c0b4a69a2/npc/notes",
+          "englishHash": "35dd602e6ce7d49e42693fba1804b66cb03975a5a406a92801e1e0a553032b26",
+          "evidenceHash": "c9ed596ede54d3d7d81a8d37c6c209d3e819f737856977f70917a63de16f4d9f"
+        }
+      ]
+    },
+    {
+      "source": "*Unlike other scarabs, she is a ranged attacker.\n*Sometimes she is hidden at first and won't pop up until a party member approaches her spawn point. \n*She is surrounded by several Scarab Nest Builders who use lots of traps. Melee characters should be especially careful.\n*The Scarab Nest Builders surrounding Kepkhet won't move if attacked from flatbow or longbow range.\n*Kepkhet can be pulled and won't return to the nest if at least one of the Scarab Nest Builders has been killed.\n*If she casts Mark of Protection on herself, applying a condition or hex will cause her to use Contemplation of Purity which will remove Mark of Protection.\n*Aurek the Scarab Hunter in Augury Rock (outpost) tells you of her existence and that he has been hunting her.",
+      "text": "* 與其他聖甲蟲不同，柯柏海特食隨者使用遠距攻擊。\n* 她有時起初藏在地下，直到隊伍成員接近出現位置才會冒出。\n* 她周圍有數隻會使用大量陷阱的 Scarab Nest Builder；近戰角色須特別小心。\n* 在平底弓或長弓射程內攻擊時，她周圍的 Scarab Nest Builder 不會移動。\n* 只要至少殺死一隻 Scarab Nest Builder，就能將她引離巢穴，而且她不會返回。\n* 若她對自己施放守護印記，可對她施加病症或降咒，誘使她使用純淨的冥想，從而移除守護印記。\n* 占卜之石前哨站的 Aurek the Scarab Hunter 會提到她的存在，以及他一直在獵捕她的事。",
+      "reason": "characters 是角色，hex 是降咒；修正字元與十六進位。核對至少一隻築巢者、弓射程不移動及藉純淨的冥想移除守護印記的條件。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:5a42971dd168bdf1/npc/notes",
+          "englishHash": "30c29ec346ff98db91ca41c9892fb1d9e3a1372b8ad69255f293f4833f5d2ceb",
+          "evidenceHash": "4a4668d263ddb54bd5721b2d009470512b0e99ff945ab954bdc2660a0b0aada1"
+        }
+      ]
+    },
+    {
+      "source": "*The Facet of Existence has a random spawn location in Riven Earth. Known spawn locations:\n*#Northwest of the Golem Foundry.\n*#Directly east from Rata Sum, before the second resurrection shrine.\n*#Up the hill slightly southwest of the center resurrection shrine.\n*#Northeast of center, northeast of the short bridge north of center, between the northern and northeastern resurrection shrines (see map).\n*#Southeast corner, in the raised area overlooking the waterfall from the north.\n*As the first spawn point is so close to Rata Sum, it may be worth reloading the map until you get this spawn. It can be reached without combat.",
+      "text": "* Facet of Existence 會隨機出現在撕裂大地。已知出現位置如下：\n*# Golem Foundry 西北方。\n*# 洛達頂點正東方、第二座復活神殿之前。\n*# 中央復活神殿稍偏西南的山坡上。\n*# 地圖中央偏東北、中央北側短橋的東北方，介於北方與東北方的復活神殿之間（見地圖）。\n*# 東南角的高地，從北側俯瞰瀑布的位置。\n* 由於第一處出現位置很靠近洛達頂點，可考慮反覆重新進入地圖，直到牠出現在這裡；前往該處不需戰鬥。",
+      "reason": "修正產卵與生成用詞；逐一保留五個出現位置及第一位置可無戰鬥到達的來源敘述。缺乏可信中文身份的頭目與設施保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:4:7086a2700915a67d/npc/notes",
+          "englishHash": "f611becc7f94d5a012956c24852715c363323bbc95154da36d82bf19024f6aa5",
+          "evidenceHash": "ff97be9786fa1cdb6caca72aa19162b4682a6fb6a9cd6bb0642aaa4305202d6e"
+        }
+      ]
+    },
+    {
+      "source": "* He has the same skills as Waeng and the two do not appear in the same instance of a zone.\n* In Bukdek Byway and Shenzun Tunnels, this boss does not spawn until approaching his location.\n** As with other areas in the game near bridges and tunnels, you might not be able to see his animated form until you get closer to him (especially in Shenzun Tunnels).\n*Although he might seem to appear earlier, you can only kill him in his true spawning location, which can be identified by following the quest starburst or the maps on this page.",
+      "text": "* Lou, of the Knives 與 Waeng 使用相同技能，兩者不會出現在同一次進入的區域副本中。\n* 在巴德克小徑與申贊通道，必須接近他的位置，頭目才會出現。\n** 和遊戲中其他橋梁、隧道附近區域一樣，靠近之前可能看不到他的活動模型；申贊通道尤其如此。\n* 即使看起來較早就已出現，也只能在他真正的出現位置殺死他。可沿任務星形標記，或參照來源頁地圖辨認位置。",
+      "reason": "instance 是區域副本，spawn 是出現位置；保留兩頭目互斥、模型顯示距離與真正可擊殺位置的區別。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:2:de1f9b2476fca5e3/npc/notes",
+          "englishHash": "ee57aee1030f75d641aa563f8e2a47fb8f5729e6d511d94ffd21b7f105f4b0bf",
+          "evidenceHash": "fda5481888462f76964a999cad7055c4094331b817b7f5ac3db88db0283f2451"
+        }
+      ]
+    },
+    {
+      "source": "* The Facet of Death has a random spawn location in Sparkfly Swamp. Known spawn locations:\n*# Eastern edge of the central clearing, up the hill to the south of the easternmost edge of the swamp. \n*# Southeast of center, at the three way crossroads north of the resurrection shrine.\n*# In the center of the Agari territory.\n*# Northeast of center, at the three way crossroads between the resurrection shrine at the eastern edge of the swamp and Brynn Earthporter's alcove.",
+      "text": "* Facet of Death 會隨機出現在火星蠅沼澤。已知出現位置如下：\n*# 中央空地的東側邊緣，沿沼澤最東端以南的山坡上行。\n*# 地圖中央偏東南、復活神殿北方的三岔路口。\n*# Agari 領地中央。\n*# 地圖中央偏東北，沼澤東緣復活神殿與 Brynn Earthporter 所在凹處之間的三岔路口。",
+      "reason": "spawn 不是產卵，three way crossroads 是三岔路口；保留四處方向，移除 Brynn Earthporter 的字面造名。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:4:5e81e60b0cb17ca2/npc/notes",
+          "englishHash": "aee3d48d7cb008e9886cdc1c4fba57a71d13739d490d3858c648374ac0d451f7",
+          "evidenceHash": "a013944adac76d904b5fa891492289c3995dad0a6aaa428ba8d53991b604d7dc"
+        }
+      ]
+    },
+    {
+      "source": "* Conditions and elemental damage are ineffective against this boss when it uses Avatar of Melandru. \n** Keep her interrupted - she is much easier to kill if her form is not active.\n** Kill the guards and healers before attempting to take on the boss.\n** In hard mode, applying Hexes will make things much easier.\n* Party wide protection skills like Aegis work well.\n* Consider bringing two Signets of Capture since Bubahl Icehands is just south of this boss.",
+      "text": "* 依固定來源所述，此頭目使用梅蘭朵化身時，病症及元素傷害對她無效。\n** 持續中斷她的技能；她未處於化身形態時較容易擊殺。\n** 挑戰頭目前，先殺死守衛與治療者。\n** 困難模式下，施加降咒能讓戰鬥容易許多。\n* 神賜之盾等能保護全隊的技能相當有效。\n* 可考慮攜帶兩個捕捉紋章，因為 Bubahl Icehands 就在此頭目南方。",
+      "reason": "Conditions 與 Hexes 分別為病症與降咒；修正十六進位及捕獲徽記。保留來源對化身免疫的說法，與玩家技能版本的機制差異仍待核實。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:3:264aa9468204bb5b/npc/notes",
+          "englishHash": "a5a74f7ce979b0640cf957697ed4129492d4e040ccab03fb9d5d3562c85889ce",
+          "evidenceHash": "e98c4489ba0e6de18af052bf5a93715207fec7bff3037030972e203ed82e4dff"
+        }
+      ]
+    },
+    {
+      "source": "* Although only the two bosses Ferk Mallet and Vulg Painbrain share the two spawn locations, sometimes one of those locations is vacant and only one of those two bosses is present. Note that the boss spawning on the southern location will usually start moving as soon as a player comes into radar range and may ambush players from behind when they are moving forward on the regular mission path, if they advance slowly.",
+      "text": "* 巨鎚坡克與大力士弗格共用兩處出現位置，但有時其中一處為空，兩名頭目只會出現一名。南側位置的頭目通常在玩家進入雷達範圍時就會開始移動；若玩家沿一般主線任務路線緩慢前進，便可能遭他從後方伏擊。",
+      "reason": "修正產卵；核對兩處位置不保證同時有兩名頭目，並保留南側頭目啟動移動及背襲的條件。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:9c0ee2107a404495/npc/notes",
+          "englishHash": "2199480dec5bdab57bd7fe66c47196af411e7c2956d08d050a6391d35023da81",
+          "evidenceHash": "bbda288a64c364acc5f364ed2fe9fda79517e61b2de2b39bafb4e4b2d8c48264"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:02b0f5d8975a1b8c/npc/notes",
+          "englishHash": "2199480dec5bdab57bd7fe66c47196af411e7c2956d08d050a6391d35023da81",
+          "evidenceHash": "bbda288a64c364acc5f364ed2fe9fda79517e61b2de2b39bafb4e4b2d8c48264"
+        }
+      ]
+    },
+    {
+      "source": "*When Screecher and her group are killed, another group of elite skree will spawn. Shortly after spawning, the group will flee to the Resplendent Makuun portal and disappear.\n* If Scratcher is still alive, the harpies near her will remain until she also is defeated.",
+      "text": "* 殺死 Screecher 及其敵群後，會再出現一群精英 Skree。出現後不久，他們會逃向 Resplendent Makuun 傳送門並消失。\n* 若 Scratcher 仍然活著，她附近的鷹身女妖會留下，直到她也被擊敗。",
+      "reason": "修正產卵；區分 Screecher 與 Scratcher，保留新敵群逃離與另一群持續留下的不同條件。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:3:198d0ded4834b2e5/npc/notes",
+          "englishHash": "134321f2634da94f276f27b61b679467a41deda4d7c359c79825ce63f234791d",
+          "evidenceHash": "2d5b59fcfb0b64837993c9df6ea36d3ac4222e39ae5b5d6215a4efaa887f7fc8"
+        }
+      ]
+    },
+    {
+      "source": "Elite Form. (10…74…90 seconds.) You deal holy damage. Whenever you use a Dervish attack skill, you lose 1 hex. Heal allies in earshot for 5…41…50 Health when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+      "text": "精英形態。持續 10…74…90 秒。你造成神聖傷害。每當你使用神喚使攻擊技能，便移除自身 1 個降咒。每當你失去一個神喚使加持，便為音量所及範圍內的盟友恢復 5…41…50 點體力。此技能停用 45 秒。",
+      "reason": "Form 為形態，hex 為降咒；核對此 PvE 版本治療音量所及範圍內盟友，而非僅治療自己。保留全部成長與停用秒數。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:130/skill/conciseDescription",
+          "englishHash": "a2c2408952b8192364a7f535c2705f021d5745bd727e2386fd0b424151301c79",
+          "evidenceHash": "9469e93d876214f23207f8b7267c7c2dfd9a59a9399ebe93f42f68a71c854ed6"
+        }
+      ]
+    },
+    {
+      "source": "Elite Ward Spell. (5…13…15 seconds.) Allies in this ward have +1…3…3 Health regeneration, +12…22…24 armor, and +12…22…24 additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 30 seconds.",
+      "text": "精英結界魔法。持續 5…13…15 秒。此結界內的盟友獲得 +1…3…3 體力再生、+12…22…24 防禦，並額外獲得對抗元素傷害的 +12…22…24 防禦。精靈不受影響。此魔法停用 30 秒。",
+      "reason": "Ward 是結界而非病房，Spirits 是精靈；區分一般防禦與額外元素防禦，保留兩組數值及停用時間。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:197/skill/pvp/conciseDescription",
+          "englishHash": "9ec66a75b2a9f4b339338b56bb99a99499cb035c7f1afa7066bfb3ba540b7692",
+          "evidenceHash": "2ace09638978b72101b9f442f98908b5f32be83ecf32e3532c7aaff96e4cd5b3"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. Resurrects target party member (full Health, full Energy). End effect: this ally dies and leaves an exploited corpse. Does not incur a death penalty. 50% failure chance unless Divine Favor 5 or more.",
+      "text": "精英加持魔法。復活目標隊伍成員，恢復全部體力與能量。結束效果：該盟友死亡，並留下一具已被利用的屍體；不產生死亡懲罰。神恩未達 5 級時，有 50% 機率失敗。",
+      "reason": "death penalty 是死亡懲罰，exploited corpse 是已被利用的屍體；明確表達神恩少於 5 才有 50% 失敗率。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:164/skill/pvp/conciseDescription",
+          "englishHash": "16ed370984ac42331c6a600ff46ed05b322382249c45e7cfc5d9efc015942a73",
+          "evidenceHash": "183d6be8a7138da0e0bdabb42aac3cea3be4dc657b82b2d3ed975a7f74428887"
+        }
+      ]
+    },
+    {
+      "source": "Elite Flash Enchantment Spell. (30 seconds.) Deal +3…25…30 earth damage with your melee attacks. Initial Effect: Blinds nearby foes for 1…6…7 seconds. End Effect: removes Blindness. No effect unless wielding an earth weapon.",
+      "text": "精英閃現加持魔法。持續 30 秒。你的近戰攻擊額外造成 +3…25…30 土系傷害；此額外傷害僅在持用土系武器時生效。初始效果：使附近敵人盲目 1…6…7 秒。結束效果：移除自身的盲目。",
+      "reason": "依固定頁完整說明釐清：持用土系武器限制額外近戰傷害，結束時解除的是自身盲目。簡述灰字對限制範圍較寬，保留此來源差異於審讀證據。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:126/skill/conciseDescription",
+          "englishHash": "dda4bb03a3ad6ea4cf4a4aec15a84992f48f244dd6c619d514d24f3a871bed0a",
+          "evidenceHash": "9a1f249dcc9681ab6f8a2e020488f359a1940d64af94a14738cccfd17016bf2b"
+        }
+      ]
+    },
+    {
+      "source": "Elite Form. (10…74…90 seconds.) Deal holy damage. You lose 1 hex whenever you use a Dervish attack skill. Heal yourself for 5…41…50 Health whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+      "text": "精英形態。持續 10…74…90 秒。你造成神聖傷害。每當你使用神喚使攻擊技能，便移除自身 1 個降咒。每當你失去一個神喚使加持，便為自己恢復 5…41…50 點體力。此技能停用 45 秒。",
+      "reason": "修正表格與十六進位；此 PvP 版本明確治療自己，與 PvE 版本的音量所及範圍盟友治療分開保留。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:130/skill/pvp/conciseDescription",
+          "englishHash": "9d286410fd4b9b130e6b2269efcfc0563d1a13113dc051777a663381b41c29d1",
+          "evidenceHash": "8fb3605b65c084f211d62c6d08159b1e0b59883df2528ecfbb18539cc194a41c"
+        }
+      ]
+    },
+    {
+      "source": "Contrary to the description, Peace and Harmony doesn't cause conditions and hexes to expire 90% faster. Instead, all new conditions and hexes, applied during the enchantment, will have their duration reduced by 90%.",
+      "text": "平靜與和諧的實際機制與說明不同：它不會使病症與降咒加快 90% 結束，而是讓加持生效期間新施加的所有病症與降咒，持續時間縮短 90%。",
+      "reason": "修正條件與十六進位；精確區分加快既有效果結束與縮短新施加效果的持續時間，保留說明與實際機制的差異。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:163/skill/warnings/0/text",
+          "englishHash": "5b8252d0eff97de3c88cc05a0fed1c19c8ca9ae8738f815d41cf0eee2c660b73",
+          "evidenceHash": "1a9f15d2f427d0ef3ffec4c6fb215a5a4ec1967baec0e8ba581c90bae59a2c1e"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:163/skill/pvp/warnings/0/text",
+          "englishHash": "5b8252d0eff97de3c88cc05a0fed1c19c8ca9ae8738f815d41cf0eee2c660b73",
+          "evidenceHash": "b3ebd6a6c4a1b06b361e42b7a04f01b327a9221d3fd256cece753b9920515dc1"
+        }
+      ]
+    },
+    {
+      "source": "Wiki notes: * Other items with this appearance:\n**Warrior Aegis of the Condemned (unique)\n**Paragon Bastion of the Condemned (unique)\n**WarriorParagon Shadow Shield\n**Paragon Shield of the Condemned (unique)",
+      "text": "維基備註：\n* 使用相同外觀的其他物品：\n** 戰士：Aegis of the Condemned（獨特）\n** 聖言者：Bastion of the Condemned（獨特）\n** 戰士／聖言者：陰影盾\n** 聖言者：Shield of the Condemned（獨特）",
+      "reason": "依固定快照的職業圖示，將 WarriorParagon 分為戰士／聖言者；職業是物品標籤，不是名稱的一部分。未知中文的獨特盾保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:1:8594f230fd423c7d/details/3",
+          "englishHash": "38f6858e1a9f212972bde081bd1a173aa7de7aea4cfd1f07295283a8d3307c4d",
+          "evidenceHash": "7b52dce04d0ac22d8b96379c7d37bd13bfa0f143606784380121aab6052accbe"
+        }
+      ]
+    },
+    {
+      "source": "Wiki notes: * Other items with this appearance:\n**Warrior Aegis of the Condemned (unique)\n**Paragon Bastion of the Condemned (unique)\n**WarriorParagon Shadow Shield\n**Warrior Victo's Bulwark (unique)",
+      "text": "維基備註：\n* 使用相同外觀的其他物品：\n** 戰士：Aegis of the Condemned（獨特）\n** 聖言者：Bastion of the Condemned（獨特）\n** 戰士／聖言者：陰影盾\n** 戰士：維多的堡壘盾（獨特）",
+      "reason": "核對四件同外觀盾與職業圖示；拆開連寫的 WarriorParagon，避免將職業拼進物品名，並保留維多的堡壘盾身份。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:de2ce93e4304afda/details/5",
+          "englishHash": "9e78b4b26f02303217593feb24abd6873eb31275d3f5d8b34671df0c438330b4",
+          "evidenceHash": "adaafd28e33e9fecb71fc6d0514e7089f5103d94cff4832da1bf30df47bc6fcc"
+        }
+      ]
+    },
+    {
+      "source": "Wiki notes: * Other items with this appearance:\n**Warrior Aegis of the Condemned (unique)\n**WarriorParagon Shadow Shield\n**Paragon Shield of the Condemned (unique)\n**Warrior Victo's Bulwark (unique)",
+      "text": "維基備註：\n* 使用相同外觀的其他物品：\n** 戰士：Aegis of the Condemned（獨特）\n** 戰士／聖言者：陰影盾\n** 聖言者：Shield of the Condemned（獨特）\n** 戰士：維多的堡壘盾（獨特）",
+      "reason": "逐項核對此版同外觀物品清單，保留四件盾的差異；職業圖示獨立成標籤，移除死刑犯等未證實的物品造名。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:953211809d9724e0/details/4",
+          "englishHash": "5703531604bc6b1f488ad6ce9618523feb14257d6cd1c130e1d44f800b6fa6fe",
+          "evidenceHash": "e8b3bd1932427e06edc3b958f665da269e99dc9166c4932dabddf9df48ab1c55"
+        }
+      ]
+    },
+    {
+      "source": "Wiki notes: *This item is popular as both Gertrud and Telamon, who offer 20/20 wands and foci, do not offer a Restoration wand.\n*This item uses the Spawning Wand skin, dyed silver.\nSee: 20/20",
+      "text": "維基備註：\n* Gertrud 與 Telamon 雖然提供 20/20 魔杖及法器，卻都不提供復原魔法魔杖，因此此物品很受歡迎。\n* 此物品使用染成銀色的 Spawning Wand 外觀。\n參見：20/20",
+      "reason": "Restoration 指復原魔法，foci 是法器；Spawning Wand 是外觀名稱，不是產卵手杖。保留兩名商人均缺少此類魔杖的因果。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:2:b235925df67c1a41/details/3",
+          "englishHash": "38e04eaba604b8deafd2c95519c6e981f3b38d378a331d172bc74e5de88d28bf",
+          "evidenceHash": "33c9b0987e5ff75270eddad9af7cc7817931eb4bb294b34c94f3a1908c7976d3"
+        }
+      ]
+    },
+    {
+      "source": "Skills (see the full list for mode and spawn conditions): \"Together as One!\" · Time Ward · Confusing Images · Conjure Phantasm · Sum of All Fears · Mantra of Persistence · Energizing Wind",
+      "text": "技能（完整清單另列模式與出現條件）：\"Together as One!\" · Time Ward · Confusing Images · 召喚幻影 · Sum of All Fears · 持久頌歌 · 能量之風",
+      "reason": "核對七個技能的順序及模式／出現條件提示；有固定中文術語者沿用，缺可信中文身份者保留英文，移除時間病房等字面造名。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:4:e01c513bbe1c8e21/details/2",
+          "englishHash": "c652d8b9ef3862a7a24e81a8a19eab7f2a86b913be48ec8d3a2739726d17c655",
+          "evidenceHash": "6358bc1ef29bd88416c9972803328438bb8270b631c90c2a1df5a8bd8b109858"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/boss:4:afda21b9ac0f6c65/details/2",
+          "englishHash": "c652d8b9ef3862a7a24e81a8a19eab7f2a86b913be48ec8d3a2739726d17c655",
+          "evidenceHash": "440c1538a5f390089b04196ed983a9eeba32299013a50bbcf6a05560969e836f"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. Target ally loses 0…3…4 conditions and hex[es]. Conditions and hexes expire 90% faster on that ally (1…3…3 seconds). Disables your Smiting Prayers (20 seconds).",
+      "text": "精英加持魔法。移除目標盟友身上的 0…3…4 個病症及降咒。持續 1…3…3 秒，該盟友身上的病症及降咒加快 90% 結束。你的懲戒祈禱技能停用 20 秒。",
+      "reason": "修正十六進位及殘留複數標記，保留 PvP 的 0…3…4 移除量及說明原句；實際機制與說明的差異由獨立備註保留。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:163/skill/pvp/conciseDescription",
+          "englishHash": "b9c31b12170bc9e602b37af6fd87e76dd5cc3554fa4cc7e08d527dbba63e8ae5",
+          "evidenceHash": "b3ebd6a6c4a1b06b361e42b7a04f01b327a9221d3fd256cece753b9920515dc1"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. Target ally loses 0…7…9 conditions and hex[es]. Conditions and hexes expire 90% faster on that ally (1…3…3 seconds). Disables your Smiting Prayers (20 seconds).",
+      "text": "精英加持魔法。移除目標盟友身上的 0…7…9 個病症及降咒。持續 1…3…3 秒，該盟友身上的病症及降咒加快 90% 結束。你的懲戒祈禱技能停用 20 秒。",
+      "reason": "核對 PvE 移除量為 0…7…9，與 PvP 分開；修正降咒及自身懲戒祈禱技能停用的主體，保留說明與機制備註的界線。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:163/skill/conciseDescription",
+          "englishHash": "a9ffdcc3cc14850247e73b09afad60f2b1dab18cae25992be04ad69a9d825739",
+          "evidenceHash": "1a9f15d2f427d0ef3ffec4c6fb215a5a4ec1967baec0e8ba581c90bae59a2c1e"
+        }
+      ]
+    },
+    {
+      "source": "Earth Staff · Energy +4\n Earth damage: 4-7 · 3 Earth Magic · Armor +5 (vs Lightning damage)\n Armor +3 (while casting)\n Armor +3 (while Enchanted)\n Energy +3 (while Hexed)",
+      "text": "地之法杖 · 能量 +4\n土系傷害：4-7 · 需求：地系魔法 3 · 防禦 +5（對抗閃電傷害）\n防禦 +3（施法時）\n防禦 +3（受到加持時）\n能量 +3（受到降咒時）",
+      "reason": "分清 vs、while casting、while Enchanted 與 while Hexed 的條件；修正投射及十六進位，並保留四項獨立加成。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:268/details/3",
+          "englishHash": "b9c8fffa3494d6b43dbfda5a600b65053289f2213c97e327a3702f09f5124854",
+          "evidenceHash": "562fd8f6b8b64d1416cd1e5c0ca22f8422cdce8ae78afd7a0b1f2d01396afc49"
+        }
+      ]
+    },
+    {
+      "source": "* Chung and two groups of Am Fah ambush the party as a player character approaches the spawning location marked on the map. \n* Chung's damage output is unusually high.",
+      "text": "* 玩家角色接近地圖所標示的出現位置時，Chung, the Attuned 與兩群安費會伏擊隊伍。\n* Chung, the Attuned 的傷害輸出異常高。",
+      "reason": "修正產卵並統一頭目身份；術語表對 Chung 的激戰譯名顯然受網站名稱污染，因此保留英文，不採用激戰或鄭。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:2:364b5e8addec4f8c/npc/notes",
+          "englishHash": "45895cf6f16b1b1eb77edebc98ec94d59d37c7ad65b28ae4b5afce2b514fdb5a",
+          "evidenceHash": "44136d3ba6c5a585b29cc25beba2264fba493bab8e8cceb8b1a523dce67e3c60"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/boss:2:ffa1f1c23f4a52c8/npc/notes",
+          "englishHash": "45895cf6f16b1b1eb77edebc98ec94d59d37c7ad65b28ae4b5afce2b514fdb5a",
+          "evidenceHash": "44136d3ba6c5a585b29cc25beba2264fba493bab8e8cceb8b1a523dce67e3c60"
+        }
+      ]
+    },
+    {
+      "source": "Elite Ward Spell. (6…17…20 seconds.) Allies in this ward cast spells 15…19…20% faster and recharge skills 15…19…20% faster. Allied spirits are not affected. PvE Skill",
+      "text": "精英結界魔法。持續 6…17…20 秒。此結界內盟友的魔法施法時間縮短 15…19…20%，技能冷卻時間縮短 15…19…20%。友方精靈不受影響。PvE 技能。",
+      "reason": "依固定頁的 Decreased Activation Time、Decreased Recharge Time 與備註，將兩種 faster 百分比明確表達為施法及冷卻時間縮短；保留精靈例外與 PvE 限制。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:4:347/skill/conciseDescription",
+          "englishHash": "63ef8159cd8b51e91ca3a822cd40d1980f41f771726329761c9471b3b8535fef",
+          "evidenceHash": "b5a5b6499f5612879c912bcbb240ec1f55dbeb7935a86c6f73f9660007da5e20"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Projectile: deals 40…50 damage to target and adjacent foes. Deals 45…70 more damage and inflicts Cracked Armor condition (14…20 seconds) to Destroyers.",
+      "text": "魔法。投射物：對目標及其相鄰敵人造成 40…50 點傷害。對毀滅者額外造成 45…70 點傷害，並使其防禦破裂 14…20 秒。",
+      "reason": "Destroyers 是敵人種類毀滅者，不是驅逐艦；區分一般範圍傷害與僅對毀滅者的額外傷害及病症。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:4:309/skill/conciseDescription",
+          "englishHash": "83f51b1939120624e1e9abc3fc91f3e77b723cb5ace72cbf1f7fd5d2eb2abf6f",
+          "evidenceHash": "410b9421889ff0aab8a9c7a10ad48ef97b44e64f92a075deb5a2b073395733a1"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Creates a level 1…8…10 spirit (30…198…240 second lifespan). Overcast-causing spells cast within range cause an additional 10 Overcast.",
+      "text": "精英自然儀式。創造一個 1…8…10 級的精靈，存續 30…198…240 秒。在其範圍內施放原本會造成過載的魔法，會額外造成 10 點過載。",
+      "reason": "Overcast 是過載，spirit 是精靈；保留只對原本會造成過載的魔法增加 10 點，不擴大到全部魔法。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:2:219/skill/conciseDescription",
+          "englishHash": "f51892b5d75b163f069e09e34ea066060bd712a780829227cb0508c6f5814602",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        }
+      ]
+    },
+    {
+      "source": "Elite Hex Spell. (30 seconds.) Every time target foe is healed, the healer takes 20…68…80 damage. Ends if target is suffering from a Smiting Prayers hex.",
+      "text": "精英降咒魔法。持續 30 秒。每當目標敵人受到治療，治療者便承受 20…68…80 點傷害。若目標受到懲戒祈禱降咒影響，此降咒便結束。",
+      "reason": "核對傷害由治療者承受，而非被治療目標；修正懲戒祈禱降咒的結束條件及十六進位誤譯。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:2:235/skill/conciseDescription",
+          "englishHash": "49170cc4a067ae815967023f2ee319a367e8b57fb2731a15b422d4285aede93e",
+          "evidenceHash": "b9eeee87266703a1fa6fe66c3281135d8087bd743841c91acde28b757754f015"
+        }
+      ]
+    },
+    {
+      "source": "Ward Spell. (5 seconds.) Causes -4…6 Health degeneration to foes in the area. End effect: inflicts Disease condition (12…20 seconds) to foes in the area.",
+      "text": "結界魔法。持續 5 秒。使範圍內敵人承受 -4…6 體力衰減。結束效果：使範圍內敵人染病 12…20 秒。",
+      "reason": "Ward 是結界；區分持續期間的體力衰減與結束時施加疾病，保留來源的 -4…6 成長表示，不猜補符號。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:4:302/skill/conciseDescription",
+          "englishHash": "7740afdbcc6a8687fafd5dfb4dbe6e073ee9de818d797d3fbf1987c47389e661",
+          "evidenceHash": "3e36928ab061e37def19dac0cf5f40fc73bed7fd2ec9e56a93e60733cce78b3c"
+        }
+      ]
+    },
+    {
+      "source": "Elite Spell. Removes one hex from target ally. Removal effect: deals 30…78…90 damage and removes one enchantment from foes in the area of this ally.",
+      "text": "精英魔法。移除目標盟友身上的一個降咒。移除效果：對該盟友範圍內的敵人造成 30…78…90 點傷害，並各移除一個加持。",
+      "reason": "修正十六進位；保留成功移除降咒才觸發的效果，並明確傷害與加持移除都作用於盟友周圍敵人。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:72/skill/conciseDescription",
+          "englishHash": "a011de95504a4627101e5b32cbff5e4911f820a9fea17234d85c205578368aae",
+          "evidenceHash": "dac2f4b12bd2ac2b3c6eb3a4bb96de655ec931c82ab9488dfc21060cec192f6b"
+        }
+      ]
+    },
+    {
+      "source": "*This boss is sometimes ganked by mobs and will be killed. A free morale boost can be obtained this way just by watching the show near the area.",
+      "text": "* 此頭目有時會被其他敵群圍攻並殺死。只要在附近旁觀，也能因此獲得一次士氣提升。",
+      "reason": "morale boost 是士氣提升，不是計程車氣；ganked 指遭敵群圍攻，保留玩家不需親自擊殺也能獲得士氣的條件。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:2:607f9a4c78ddcdce/npc/notes",
+          "englishHash": "4e8cc20f7eb14671213dc712934e79cec081076afbf05dafd1e99424e653f6d1",
+          "evidenceHash": "e554e8485952bf6148fb4415c5c3753be127625429e406a9de73e8a3059e5a53"
+        }
+      ]
+    },
+    {
+      "source": "* Ayassah Hess shares his spawn point with Byssha Hisst, Custodian Fidius, Custodian Kora, Cyss Gresshla and Dassk Arossyss. He may not spawn.",
+      "text": "* Ayassah Hess與 Byssha Hisst、Custodian Fidius、Custodian Kora、Cyss Gresshla 及 Dassk Arossyss 共用同一出現位置，因此他不一定出現。",
+      "reason": "spawn 是出現而非產卵；核對五名共用位置頭目。Ayassah Hess 與 Goss Aleessh 的中文模板內容相同，身份不唯一，故保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:13b56c3d61c47ad7/npc/notes",
+          "englishHash": "2aa6e0e3b667497cd55411ba4e99c9a4355a050bd84430bf761e2c669bdce1b0",
+          "evidenceHash": "e69ba4c7c762eb9fa2ecc6155d3e4f08187a52b5c15747fefd06b1c21bae3a8a"
+        }
+      ]
+    }
+  ]
+}

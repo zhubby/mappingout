@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "Korshek's group includes several Roaring Ethers and at least one other Djinn. There are also up to three satellite groups, each consisting of more Djinn and Roaring Ethers. In hard mode, Ruby Djinn can hit very hard with Liquid Flame (over 200 damage) and Korshek follows with Searing Flames which can deal over 250 damage against 60 armor rating characters. This means, even with no death penalty, the entire party can be wiped in two to three hits, as these are AoE attacks. Consider getting the Shielding Branches blessing from the Melandru's Watcher outside of Tihark Orchard to reduce the damage caused by Korshek and Ruby Djinn.\n\n=== Skill recommendations ===\n\n; Countering Searing Flames\nThere are several techniques to effectively counter Searing Flames:\n* Bring skills that interrupt or inflict Dazed.\n* Use Frigid Armor to prevent being set on fire. \n* Signet of Humility will prevent Searing Flames from being cast; Diversion will disable it for an extended period.\n* The boss will quickly kill itself while hexed with either Pain Inverter or Spoil Victor.\n\n; Other skills\n\n* Ward Against Elements or Ward Against Harm will reduce the elemental damage.\n* Winter converts all elemental damage to cold damage, which deals more damage to Ruby Djinns.\n* Extinguish and Breath of the Great Dwarf remove Burning from all party members.\n* Frozen Soil will prevent the Roaring Ethers from using Resurrection Signet.\n* The ethers are the only fleshy foes in Korshek's group, so it does not help much to bring skills that cause Bleeding, Disease, or Poison; similarly, skills that exploit corpses are ineffective for this battle.\n* Consider going to open the Do Not Touch Treasure in Forum Highlands after killing Korshek the Immolated, which is near the boss' location.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "Korshek 的隊伍包含數隻 Roaring Ether，以及至少一隻其他巨靈怪。周圍另有最多三支隊伍，每支都由更多巨靈怪與 Roaring Ether 組成。在困難模式中，紅寶石巨靈的液態火焰傷害極高，可超過 200；Korshek 隨後施放的爆裂火焰，對護甲值為 60 的角色可造成超過 250 傷害。這些都是範圍攻擊，因此即使沒有死亡懲罰，全隊仍可能在兩至三次攻擊內被消滅。可考慮向 Tihark Orchard 外的 Melandru's Watcher 取得 Shielding Branches 祝福，減少 Korshek 與紅寶石巨靈造成的傷害。\n\n=== 技能建議 ===\n\n; 對抗爆裂火焰\n可用下列方法有效對抗爆裂火焰：\n* 攜帶能打斷或施加暈眩的技能。\n* 使用冰凍護甲，防止陷入燃燒。\n* 謙卑紋章能阻止首領施放爆裂火焰；牽制則能讓該技能長時間無法使用。\n* 首領受到 Pain Inverter 或勝者的掠奪降咒時，會迅速因自身攻擊而死亡。\n\n; 其他技能\n\n* 元素結界或守護結界能減少元素傷害。\n* 寒冬會將所有元素傷害轉為寒冷傷害，對紅寶石巨靈造成更多傷害。\n* 熄滅與 Breath of the Great Dwarf 能移除全體隊員的燃燒。\n* 凍土能阻止 Roaring Ether 使用復活紋章。\n* Roaring Ether 是 Korshek 隊伍中唯一的血肉生物，因此攜帶施加流血、疾病或中毒的技能幫助有限；同樣地，利用屍體的技能在這場戰鬥中也難以發揮作用。\n* 擊殺宰殺者 科薛克後，可考慮順道開啟高地廣場的 Do Not Touch 寶藏，其位置靠近首領。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "依固定攻略核對最多三支周邊隊伍、兩種傷害與護甲值、死亡懲罰及範圍滅團條件。修正施咒對象、血肉生物與復活阻止效果；寒冬建議保留原頁說法，未以其他來源改寫機制。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:203120/notes",
+          "englishHash": "ee6695e1352f53edb253afddf42f80ad6ef1aefd1200ca423c461934fd60687e",
+          "evidenceHash": "73142ed7413911559564184b8658a71f3a818b70e7485b87f85035473e000e6b"
+        }
+      ]
+    },
+    {
+      "source": "If you follow the path in the the map posted on the right, you will only encounter Marrow Scarabs, Minotaurs, Rockshot Devourers, and Scarab Nest Builders on your way to Kepkhet Marrowfeast. Hex removal skills are unnecessary, as the aforementioned foes do not cast hexes.\n\nAvoid using condition-inflicting skills on Marrow Scarabs, as they will use Plague Touch and then Virulence. Marrow Scarabs use Well of the Profane, so either interrupt its activation, avoid bringing enchantments with long recharge times, and/or move away from corpses before they are exploited to create a Well of the Profane.\n\nRockshot Devourers and Scarab Nest Builders use Distracting Shot, so skills that block, inflict the blind condition, cause misses, or prevent interruption can be helpful. They also use numerous traps, so it may be a good idea to have one party member walk ahead of the party to trigger the traps and prevent the entire party from taking damage.\n\nSometimes Kepkhet Marrowfeast is hidden at first and won't popup until a party member approaches her spawn point. The Scarab Nest Builders surrounding Kepkhet Marrowfeast won't move if attacked from flatbow or longbow range, so you can cause Kepkhet Marrowfeast to deplete her energy by healing and protecting the Scarab Nest Builder prior to your party engaging Kepkhet Marrowfeast. When you go near Kepkhet Marrowfeast, several Marrow Scarabs will popup. If Kepkhet Marrowfeast casts Mark of Protection on herself, applying a condition or hex will cause her to use Contemplation of Purity and remove Mark of Protection.\n* Consider completing this quest at the same time as the Family Soul quest, since it also requires you to kill her.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "沿右側地圖標示的路線前往柯柏海特食隨者，途中只會遇到 Marrow Scarab、牛頭怪、碎石蠍與 Scarab Nest Builder。這些敵人不施放降咒，因此無須攜帶移除降咒的技能。\n\n避免對 Marrow Scarab 使用施加病症的技能，因為牠們會先使用疫病之觸，再使用惡毒。牠們也會使用褻瀆之池；可以打斷其啟動，避免攜帶冷卻時間很長的加持，或在屍體被用來建立褻瀆之池前離開屍體附近。\n\n碎石蠍與 Scarab Nest Builder 會使用震暈之箭，因此格擋、致盲、使攻擊失準或防止打斷的技能都有幫助。牠們也會設置許多陷阱，可讓一名隊員走在前方觸發陷阱，避免全隊同時受傷。\n\n柯柏海特食隨者有時會先隱藏，直到隊員接近其出現位置才現身。以平底弓或長弓射程攻擊她周圍的 Scarab Nest Builder 時，這些敵人不會移動。可藉此讓她不斷治療、保護 Scarab Nest Builder，以便在隊伍正式與她交戰前耗盡她的能量。接近她時，另有數隻 Marrow Scarab 會突然出現。若她對自己施放守護印記，對她施加病症或降咒，便會誘使她使用純淨的冥想，連同守護印記一起移除。\n* 可考慮與 Family Soul 任務一起完成，因為該任務也要求擊殺她。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "逐段核對病症轉移的技能次序、褻瀆之池與陷阱對策。明確能量耗盡的主體是首領，並修正 hex 誤作十六進位及首領自移除守護印記的條件。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:200414/notes",
+          "englishHash": "e517f52fdb3fb6f7113f6065fe6c61cf1d6f657855450f79c83638fff9103868",
+          "evidenceHash": "2251df222f5b948a09fb6ef78034109a2091598ac1f5a9c04bb80ea4671f0d27"
+        }
+      ]
+    },
+    {
+      "source": "Head north through the Tahnnakai Temple explorable area from Zin Ku Corridor. Be prepared for area of effect fire damage from the Temple Guardians around him. If you follow the path in the the map posted on the right, you will only encounter Temple Guardians on your way to Quansong Spiritspeak. \n\n===Skill recommendations===\n* You will not encounter any physical attackers, so skills that block, cause misses, or inflict the blind condition are less effective here; however, Temple Guardians have Stun on Critical Hit.\n* Quansong Spiritspeak and Temple Guardians are not fleshy creatures, so skills that exploit corpses and inflict bleeding, disease, or poison are ineffective against them.\n* You will only encounter spellcaster mobs, so consider bringing anti-caster skills and/or various Ranger nature rituals that can benefit your party but cannot benefit the Temple Guardians (such as Favorable Winds, Infuriating Heat, and Winnowing).\n* Temple Guardians have less armor rating against cold damage, so consider bringing Winter or skills that deal cold damage. Consider bringing Water Magic hex spells that snare and deal cold damage (i.e. Deep Freeze, Ice Spikes, Mind Freeze, and Shard Storm), which will slow their movement speed and can help in preventing them from reaching your midline/backline and dealing point blank area of effect damage from Temple Guardians' Double Dragon and Quansong Spiritspeak's Ancestors' Rage.\n* Temple Guardians have less armor rating against blunt damage, so consider using a weapon that deals blunt damage.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "從辛庫走廊向北穿過譚納凱神殿探索區。準備應付通靈者 魁嵩周圍 Temple Guardian 造成的範圍火焰傷害。依右側地圖的路線前進，抵達魁嵩前只會遇到 Temple Guardian。\n\n=== 技能建議 ===\n* 途中沒有物理攻擊者，因此格擋、使攻擊失準或致盲的技能效益較低；不過 Temple Guardian 具有 Stun on Critical Hit。\n* 魁嵩與 Temple Guardian 都不是血肉生物，利用屍體或施加流血、疾病、中毒的技能對牠們無效。\n* 途中只有施法者敵群，可考慮攜帶反制施法者的技能，或能讓隊伍受益、卻不會讓 Temple Guardian 受益的遊俠自然儀式，例如順風、怒火與吹拂之風。\n* Temple Guardian 對寒冷傷害的護甲值較低，可攜帶寒冬或造成寒冷傷害的技能。能減速並造成寒冷傷害的水系降咒魔法，例如強力凍結、冰之尖刺、心靈凍結與冰風暴，可降低牠們的移動速度，協助阻止牠們接近隊伍中排或後排，以 Temple Guardian 的雙龍及魁嵩的先人的盛怒造成近身範圍傷害。\n* Temple Guardian 對鈍擊傷害的護甲值也較低，可考慮使用造成鈍擊傷害的武器。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對辛庫走廊北行路線、無物理攻擊者的例外技能、非血肉限制與兩種弱點。修正自然儀式受益對象及近身範圍傷害的施放者，技能專名依可信術語或保留英文。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:203752/notes",
+          "englishHash": "fea769e6f892a81b64621f35dc1a25389af67e6705678b4dd9a7c346370afb92",
+          "evidenceHash": "971c6576a702ab2b429cf5cfa7aa032fcb5c33740985b2e3478e8708113b9d19"
+        }
+      ]
+    },
+    {
+      "source": "Once a player gets in radar range of the spawn point location, either Harn or Maxine will spawn and begin patrolling around the island. The boss will go counter-clockwise on its patrol path, so it is best to go clockwise through its patrol path as the boss will move toward you when it spawns and you avoid needing to chase the boss through numerous mobs. If you go clockwise through its patrol path, there are mobs of Flesh Golems and Mahgo Hydras that patrol in a circle outside of Ember Light Camp. Your party can stay near the Resurrection Shrine and pull each mob.\n\n===Skill recommendations===\n*If you go clockwise through its patrol path:\n**You will only encounter spellcaster mobs (Dark Flame Dryders, Drakes, Flesh Golems, Mahgo Hydras, and Phantoms), so consider bringing anti-caster skills and/or various Ranger nature rituals that can benefit your party but cannot benefit the enemy spellcasters (such as Favorable Winds, Infuriating Heat, Toxicity since Dark Flame Dryders use Chilblains, and Winnowing).\n**The only physical attackers will be the Bone Minions created by the Flesh Golems via Animate Bone Minions, so skills that block, cause misses, or inflict the blind condition are less effective here.\n*This quest was first offered on April 25, 2009.\n*If you go clockwise through the boss' patrol path, you can take this opportunity to obtain a Volcanic Rock.\n*It's possible for Harn or Maxine to spawn at the beach on the north part of their path\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "玩家一進入出現位置的雷達範圍，Harn 或 Maxine 其中一人就會出現，並開始繞島巡邏。首領沿路線逆時針巡邏，因此最好順時針前進；首領出現後會迎面走來，便不用穿過多支敵群追趕。順時針走時，殘火營地外會有鮮血高崙與碼果三頭龍的敵群繞圈巡邏。隊伍可留在復活祭壇附近，逐群引開交戰。\n\n=== 技能建議 ===\n* 若沿巡邏路線順時針前進：\n** 途中只有施法者敵群，包括黑火蛛化精靈、龍獸、鮮血高崙、碼果三頭龍與幽靈。可攜帶反制施法者的技能，或能讓隊伍受益、卻不會讓敵方施法者受益的遊俠自然儀式，例如順風、怒火、毒性及吹拂之風。毒性的建議與黑火蛛化精靈會使用凍傷有關。\n** 唯一的物理攻擊者，是鮮血高崙透過操縱骸骨爪牙召喚的 Bone Minion，因此格擋、使攻擊失準或致盲的技能效益較低。\n* 此任務於 2009 年 4 月 25 日首次提供。\n* 沿首領巡邏路線順時針前進時，可順道取得火山岩。\n* Harn 或 Maxine 也可能在巡邏路線北段的海灘出現。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對逆時針巡邏與順時針迎戰、祭壇逐群引敵及北段出現位置。依快照修正物理攻擊者為 Bone Minion，保留毒性與凍傷的關係及首次日期。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:199595/notes",
+          "englishHash": "4156d0cac4f6220a22a4a87c675980f5e880d0f788edcd5890d4a821c6fe24ce",
+          "evidenceHash": "b137ba8c5fb9a6338255ce8258ed6217cb1cebdd98331028bbf3941b153e2e0c"
+        }
+      ]
+    },
+    {
+      "source": "The route from Cavalon doesn't require you to fight Ssyn Coiled Grasp. Exit into the Archipelagos and head east, dispatching the first mob of fish that you encounter, then continue until you reach the edge of the map and head south. Now head for the boss, killing the patroling Naga and the two stationary Naga mobs in front of the boss. Engage and kill Ssuns, Blessed of Dwayna to complete the bounty. \n\nIf taking the route from Jade Flats (Luxon), your party will only encounter Naga Warriors, Naga Archers, Naga Ritualists, Ssyn Coiled Grasp, and a few Kappa. Hex removal skills are unnecessary if your party does not contain any allies that require attacks and attack skills to deal damage, since your party will only encounter a total of two Kappas who use Blurred Vision and Shatterstone (whose end effect triggers even if the hex is removed). Consider not bringing blocking skills, since they can be bypassed by Naga Warriors and Archers. Naga Warriors and Archers can also interrupt with Distracting Blow and Concussion Shot, so consider skills that can prevent interrupts, inflict blind or cause misses. Consider Signet of Binding for Destruction spirits created by Naga Ritualists and Ssyn Coiled Grasp.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "從卡瓦隆出發的路線無須與 Ssyn Coiled Grasp 交戰。離開據點進入群島後向東走，消滅遇到的第一群魚類敵人，繼續走到地圖邊緣再往南。接著前往首領處，清除巡邏的納迦及首領前方兩群固定不動的納迦。與薇娜的祝福 桑斯交戰並擊殺他，即可完成懸賞。\n\n若從翡翠淺灘（勒克森）出發，途中只會遇到納迦戰士、納迦弓手、納迦祭祀者、Ssyn Coiled Grasp 及少量 Kappa。若隊伍中沒有依靠普通攻擊或攻擊技能輸出的盟友，就無須攜帶移除降咒的技能：途中總共只會遇到兩隻 Kappa，會使用模糊視線與碎裂冰石，而碎裂冰石即使被移除，結束效果仍會觸發。可考慮省去格擋技能，因為納迦戰士與弓手能繞過格擋。牠們也會以虛晃打擊與迷惑之箭打斷技能，因此可攜帶防止打斷、致盲或使攻擊失準的技能。對於納迦祭祀者與 Ssyn Coiled Grasp 建立的毀滅精靈，可考慮使用束縛紋章。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "分別核對兩條路線、兩群固定納迦與兩隻 Kappa。保留免帶降咒移除的隊伍條件及碎裂冰石移除仍觸發效果，將 spirits 修正為精靈並明確束縛目標。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:213797/notes",
+          "englishHash": "56e21d60e2ac064f55acef6219f4e1488060a1066d8531898c4704328e9a0207",
+          "evidenceHash": "913132e67072c93217d3eae43199b49ed0651d85c0b780c0e25441a525d50ba2"
+        }
+      ]
+    },
+    {
+      "source": "Head to the Nahpui Quarter outpost and enter the Undercity from Wajjun Bazaar, as Chung is much closer to that exit than the Bukdek Byway exit. Be careful when approaching his spawn location, because he will not appear until you approach his location; and when he does appear, two other groups of Am Fah will also popup for an ambush. These groups can all be pulled separately; there is no need to try to kill everyone at the same time.\n*Killing Chung in his alternate location during the quest Eliminate the Am Fah does not count toward completion. He must be killed at his normal spawn in the Undercity.\n*His group is spawned automatically during the quest It Ends Here.\n*If a party member has Seek out Brother Tosai active, the walk to the Undercity will have allied Am Fah on it.\n*If a party member has the quest Chasing Zenmai active (particularly, if said party member has reached said quest's second objective in the quest log), he will not spawn at the marked location.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "前往納普區前哨站，經瓦江市場進入 Undercity；Chung 的位置比起巴德克小徑出口，距離這個出口近得多。接近他的出現位置時要小心：他會在隊員靠近後才現身，並有另外兩支安費隊伍同時出現伏擊。這些隊伍都能分別引開，無須一次與所有敵人交戰。\n* 在 Eliminate the Am Fah 任務的替代位置擊殺 Chung，不計入本任務。必須在 Undercity 的正常出現位置擊殺他。\n* 進行 It Ends Here 任務時，他的隊伍會自動出現。\n* 若隊員正在進行 Seek out Brother Tosai，前往 Undercity 的路上會有友方安費。\n* 若隊員正在進行 Chasing Zenmai，尤其是任務日誌已推進至第二項目標時，Chung 不會在標記位置出現。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對兩支額外伏擊隊伍、可分開引敵、替代位置不計完成及三項任務狀態。中文詞庫的 Chung 身分譯名遭污染，保留英文專名與未證實的任務名，避免把此首領寫成激戰。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:200551/notes",
+          "englishHash": "21cf99331729125cfeacc77380670d789b97ed76bf020e91b8628ce8d36df0d1",
+          "evidenceHash": "0fa852eb14f9daaca635cad12e64c7f64c3dccba84a41f0d825cb79bd7a9f038"
+        }
+      ]
+    },
+    {
+      "source": "Leave from the Sunspear Sanctuary, through the Command Post into Jahai Bluffs. From there keep going east until you reach the Fortress of Jahai. There are a large number of foes within the fort so it is advised to bring a longbow for pulling. Also area of effect skills are of great use. Skills like Panic, Spiteful Spirit, and Searing Flames can greatly help turn the odds. A minion master is also valuable in taking advantage of the number of corpses, but be careful as they can overaggro. The boss is at the very top of the fort and should not be too much of a problem if your party makes it to him without much difficulty.\nSpeed tip: It is not necessary to fight all the Kournan foe and go to the top of the hill, if you aggro the Admiral from outside the fort - before crossing the bridge. Killing him is possible with skills that will ignore walls. This can avoid 6 or 7 mobs of Kournan.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "從日戟避難所出發，經指揮所進入夏亥峭壁，再持續向東走到 Fortress of Jahai。堡內敵人眾多，建議攜帶長弓引敵。範圍技能也很有用，例如恐慌、惡靈附身及爆裂火焰，都有助於扭轉戰局。召喚僕從的死靈法師可利用大量屍體，但要小心僕從引到過多敵人。首領位於堡壘最上方；若隊伍能順利抵達，與他交戰應不會太困難。\n快速完成的技巧：過橋前，先從堡壘外引到 Admiral，便無須打倒所有高楠敵人或登上山頂。可用不受牆壁阻隔的技能擊殺他，藉此避開六至七群高楠敵人。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對避難所至堡壘的東行路線、僕從引敵風險與橋外擊殺位置。明確六至七指敵群而非敵人數量，並修正首領與牆壁阻隔的語意。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:209242/notes",
+          "englishHash": "25e782ba667345a98e23667fc604e8c3ca3100fdb72aba587b66b5c3009d18e8",
+          "evidenceHash": "a11f8276138220781510866faf09166837e89b95445d9c7ffb8feb0cf7c446de"
+        }
+      ]
+    },
+    {
+      "source": "The shortest route would be to enter the Undercity from Vizunah Square (Local Quarter), if unlocked. There are plenty of Kappa surrounding Baubao who use Turtle Shell, so plan accordingly.\n* Baubao will not spawn if When Kappa Attack is active.\n* Consider completing this quest at the same time as the Chung, the Attuned Zaishen quest, since that quest is available from the Zaishen Bounty signpost on the third day after this quest (based on the Zaishen Bounty cycle) and both bosses are found in the Undercity.\n* Sometimes Baubao's mob will aggro a mob of Am Fahs nearby, making the fight easier for you.\n**Consider using this to your advantage as it only has to be attacked by you once to be \"killed\" by you.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "若已解鎖，從薇茹廣場（本地區域）進入 Undercity 是最短路線。Baubao 周圍有許多會使用 Turtle Shell 的 Kappa，請事先準備對策。\n* 若正在進行 When Kappa Attack，Baubao 不會出現。\n* 可考慮與 Chung, the Attuned 的戰承懸賞一起完成。依戰承懸賞輪換順序，Chung 的任務會在本任務之後第三天由戰承懸賞告示牌提供，而兩名首領都位於 Undercity。\n* Baubao 的隊伍有時會與附近一群安費交戰，讓戰鬥更容易。\n** 可利用這場交戰；只要你攻擊過 Baubao 一次，便能取得他的擊殺判定。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對已解鎖前提、阻止出現的任務及第三天的相對輪換日期。恢復 Chung 懸賞的完整身分，將 mob 改為敵群，明確一次攻擊取得擊殺判定的對象為 Baubao。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:203387/notes",
+          "englishHash": "b460ef1504b73354b34f6b993b98d39141e050c97efa98bb1a8c64b3ca432f18",
+          "evidenceHash": "119e0eb79a2af4f264927762e94680ba08dd93008ce6d4d91e38476e123ca1c8"
+        }
+      ]
+    },
+    {
+      "source": "Enter from Leviathan Pits. Go towards the gate where the Outcasts and Luxons are fighting. You can try to slip by them while they fight, but in hard mode the Outcasts kill the Luxons quite quickly. After you pass the gate, take the left side of the fork and hug the hillside going northwest. Then go towards the massive jade wave - there are many north-south groups with overlapping patrol paths along the way that can be avoided, or farmed for reputation (approximately 60 enemies, including 4 bosses). Be aware of over-aggroing as new patrols arrive. From there you will be able to scout out the boss patrolling along the jade. Try to pull foes away first as they may get aggroed while you fight the boss.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "從利拜亞森礦場進入，前往 Outcast 與勒克森交戰的大門。可趁雙方戰鬥時溜過，但困難模式下，Outcast 會很快擊殺勒克森。過門後在岔路選左側，貼著山坡向西北走，再前往巨大的翡翠浪。沿途有許多南北分布、巡邏路線互相重疊的敵群；可以避開，也可以擊殺以取得聲望，總計約 60 名敵人，含四名首領。新巡邏隊到來時，要小心引到過多敵群。抵達後便能觀察沿翡翠地形巡邏的首領。先試著把周圍敵人引開，以免與首領交戰時把牠們也引入戰鬥。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對過門後左岔、西北貼山、翡翠浪與巡邏方向。保留約六十敵人含四首領的範圍，修正 over-aggro 為額外引敵而非侵略。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:202972/notes",
+          "englishHash": "d34ba6923a035289123a7da11aa41b23202264ae1a5aca6024c5466a8b0e1388",
+          "evidenceHash": "a2cbdeb0c668dbb9adbb5274fd3aae96d8f4558bcde4b925cd0912da46d6ab86"
+        }
+      ]
+    },
+    {
+      "source": "It is highly recommended to bring enchantment removal skills as this boss will use Stoneflesh Aura and Armor of Earth, potentially reducing any damage dealt to him to 0. Also, make sure to space everyone out accordingly as this boss can wipe out your entire party with just one Shockwave if you're balled up. On the other hand, Pain Inverter can cause massive damage to him when he uses Shockwave, so consider bringing a minion master. Bringing a source of the Dazed condition (such as Broad Head Arrow) is also useful.\n*Consider bringing two minion masters. After a couple groups of Raptors you will have plenty of minions, thus making this quite easy to accomplish with the Pain Inverter strategy.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "強烈建議攜帶移除加持的技能。首領會使用石體靈氣與地之護甲，可能將受到的傷害降至 0。務必讓全隊適當分散；若聚在一起，他只需一次衝擊波便可能消滅全隊。另一方面，他使用衝擊波時，Pain Inverter 能對他造成大量傷害，因此可考慮攜帶召喚僕從的死靈法師。能施加暈眩的技能，例如闊首箭，也很有用。\n* 可考慮攜帶兩名召喚僕從的死靈法師。擊殺幾群毒瑞克斯後，就有足夠的僕從，能更容易以 Pain Inverter 戰術完成任務。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對傷害降至零、聚團才可能被單次衝擊波滅團及 Pain Inverter 的觸發時機。將 minion master 統一為召喚僕從的死靈法師，保留兩名與幾群毒瑞克斯的數量。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:204688/notes",
+          "englishHash": "c75f7d94f52df19cada88a383f6fefcc8c6ee03820e27724cb1f3abcf888550e",
+          "evidenceHash": "60eb2cb217a881c15f9a23e22c8de229fc580d2877577774b6333fa37f010531"
+        }
+      ]
+    },
+    {
+      "source": "Proceed west from Yahnur Market, down the hills, across several bridges and into the plains area near the center of Vehtendi Valley. Note that this boss is near several patrols of other Heket, including other bosses. It is possible to get to this boss while avoiding the other groups.\n\nAlternately take the easier route, heading south into Forum Highlands from the Kodash Bazaar and hugging the eastern-most wall, where you will only have to fight 1 to 3 mobs of heket. Continue south through the portal into Vehtendi Valley. Head south, around the slope and Jarimiya is directly ahead of you.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "從雅諾爾市集向西走，下山、跨過數座橋，進入巍天帝峽谷中央附近的平原。首領附近有多支青蛙族群巡邏隊，其中也有其他首領。可避開其他隊伍，直接抵達目標首領。\n\n另一條較容易的路線，是從 Kodash Bazaar 向南進入高地廣場，沿最東側牆邊前進，途中只需與一至三群青蛙族群交戰。繼續向南穿過傳送門進入巍天帝峽谷，再往南繞過斜坡，Jarimiya 就在正前方。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對兩條路線各自的起點、方向、橋梁、傳送門及斜坡。將一至三的單位補正為敵群，保留可避開其他巡邏隊與首領的路線限制。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:205329/notes",
+          "englishHash": "5d06c8bf15cd63de7dab395347d5ca6ceb491ad5fb5f295c40f5f538efc54a68",
+          "evidenceHash": "39fd9d708eb316f5152b6338a608e5f1e6e34693b6bf9fb38ee7d81e3dde7cfd"
+        }
+      ]
+    },
+    {
+      "source": "Vengeful Aatxe are impervious to virtually all forms of damage and cannot be targeted by skills or attacks, but are killed automatically upon the death of their Keeper of Souls. As such, for practical purposes, the quest calls for the killing of a Keeper of Souls.\n\nSee Unwanted Guests for a walkthrough of the quest.\n\nIt is possible, but tedious and difficult, to kill one through a combination of life stealing. See Invulnerability for more information.\n* This quest was first offered on 11th May 2009\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "復仇牛頭怪幾乎免疫所有形式的傷害，也無法成為技能或攻擊的目標；但與牠對應的 Keeper of Souls 一死，牠就會自動死亡。因此，實際上通常是透過擊殺 Keeper of Souls 完成本任務。\n\n詳細攻略請參閱 Unwanted Guests。\n\n組合多種體力竊取效果，也有可能直接擊殺一隻復仇牛頭怪，但過程繁瑣且困難。更多資訊請參閱 Invulnerability。\n* 此任務於 2009 年 5 月 11 日首次提供。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對對應 Keeper 死亡引發自動死亡，並保留直接體力竊取擊殺的例外。修正把怪物寫成一個人的指代錯誤及首次提供日期。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:202175/notes",
+          "englishHash": "5cd54e9e812310f4a25ba99b60cbd4b2f19f15c7a0394a4461aa6645627b5ae1",
+          "evidenceHash": "21f26e80c6fb13af03ec614d1d6b43d9195d606c578bd535d4754610700ac9fa"
+        }
+      ]
+    },
+    {
+      "source": "From Senji's Corner, walk out the southern exit into Nahpui Quarter (explorable area). Follow the path as indicated on the map. (Directly under the Q in \"Nahpui Quarter\" on the map, be careful for an over-aggro of Jade Brotherhood, especially if using heroes and henchmen.) When fighting Royen, you may want to move up on the hill above him to remove his damage bonus due to his elevation, but, his skills are all pet based so the elevation bonus only applies to his auto-attacks.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "從山吉之街的南側出口進入納普區探索區，依地圖標示的路線前進。在地圖英文名稱「Nahpui Quarter」字母 Q 的正下方，要小心引到過多翡翠兄弟會敵人，帶英雄與傭兵時尤其如此。與 Royen 交戰時，可移到他上方的山坡，消除他因高地取得的傷害加成。不過他的技能全是寵物技能，高地加成只影響他的普通攻擊。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對南出口與英文地圖字母 Q 的定位，不把譯名中的字元當地圖標記。明確高地只加成普通攻擊，並將 henchmen 修正為傭兵。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:206749/notes",
+          "englishHash": "12ec8bc10b85a3a8d85a2fb9507efb19d55b4fe49fc3a7dbd884d0a1a7fce109",
+          "evidenceHash": "20bf9a8a524e5e63e9faa4a086dccf6ca5983b0a6fad59d5ef1d103fc40576d5"
+        }
+      ]
+    },
+    {
+      "source": "When you enter the Underworld, you'll arrive at the yellow spot on the map. Finish the first part of Clear the Chamber to open the doors, then proceed south towards Twin Serpent Mountains. Until then, you will mostly encounter warrior foes.\n\nMove up the mountains, keeping your distance from the Obsidian Behemoths and their traps. Several groups of Charged Blacknesses patrol here. To finish this quest, one of their groups needs to be killed.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "進入 Underworld 後，會抵達地圖上的黃色標記處。先完成 Clear the Chamber 的第一階段開門，再向南前往 Twin Serpent Mountains；抵達前主要會遇到戰士敵人。\n\n沿山路向上走，與 Obsidian Behemoth 及其陷阱保持距離。此處有數群暗黑幽靈巡邏；消滅其中一群即可完成任務。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對先完成開門階段再南行上山的順序。依可信術語恢復暗黑幽靈身分，明確完成條件為一整群，保留巨獸與陷阱距離。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:202581/notes",
+          "englishHash": "7c55ab74c5cacae118ca6764657d7ff8366b60510afc56051eea93c9fd8c9257",
+          "evidenceHash": "1a7f0a1431e1271167a6a724d1746ca09693d9571b718cd7256f637dd8dee2de"
+        }
+      ]
+    },
+    {
+      "source": "After completing the repeatable quests To the Rescue!, The Rifts Between Us and Deathbringer Company in Ravenheart Gloom, the Greater Darkness will spawn along with two of the Darknesses. They're easy to kill, but will spawn additional foes on death.\n\nKilling or even surviving the additional foes is not required for this quest, but will progress the quest Mallyx the Unyielding and spawn a reward chest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "完成 Ravenheart Gloom 的三項可重複任務 To the Rescue!、The Rifts Between Us 與 Deathbringer Company 後，Greater Darkness 會與兩隻 Darkness 一起出現。牠們不難擊殺，但死亡時會再產生其他敵人。\n\n本懸賞不要求你擊殺這些額外敵人，也不要求在牠們的攻擊下存活。不過，繼續完成這場額外戰鬥會推進 Mallyx the Unyielding 任務，並產生獎勵寶箱。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對三項可重複任務為出現前提及兩隻伴隨敵人的數量。將額外戰鬥與本懸賞完成條件分開，避免誤稱擊殺首領本身必定推進 Mallyx 並生箱。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:202700/notes",
+          "englishHash": "7b1af48fb07e6369fc008dc2891884bd8d45d3f71794784e098f50d19f808c87",
+          "evidenceHash": "8ba366e3e84c4b44aeedd98ce87ac90ab7ba164fbe8cdbadaac2ba1e96bb4c9a"
+        }
+      ]
+    },
+    {
+      "source": "There is an Oni popup group just to the east of Kunvie, so it is important to spawn them separately and kill them well away from any possible aggro. Kunvie and their group hit hard, so make sure that one well-protected party member or a tank takes the multiple Ride the Lightning, and be sure the party is spread out to avoid multiple AoE skills. Also Pain Inverter helps a great deal in killing Kunvie.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "Kunvie 正東方有一群會突然出現的 Oni，務必將牠們單獨引出，並帶到不會引來其他敵人的位置擊殺。Kunvie 與其隊伍的攻擊很強，應讓一名受到充分保護的隊員或坦克承受多次閃電傳送，其他隊員則分散站位，避免多個範圍技能同時波及全隊。Pain Inverter 也很有助於擊殺 Kunvie。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對東側 Oni 必須分開觸發與隔離交戰。修正 takes 為承受多次閃電傳送，避免誤導玩家自行施放，保留分散站位的範圍傷害條件。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:200140/notes",
+          "englishHash": "ab96324d461f62170b4abf1d03fb343c9770e5894e1462d5d2a7541443bd7622",
+          "evidenceHash": "789df3a2c122f21e1ddb68ceebf2010970b2d74186f290bca688c5f6e8d00d8a"
+        }
+      ]
+    },
+    {
+      "source": "[Incomplete source section]\nThis is a Grawl boss, near the center of Sacnoth Valley. He is surrounded by many Grawl followers. In particular, there are quite a few Grawl Dark Priests in the area, which can keep each other, and Fozzy, alive for a very long time. When coming from Doomlore Shrine it's very easy when you take the siege devourer.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "[來源段落尚未完整]\n這名穴居人首領位於聖諾谷中央附近，周圍有許多穴居人隨從。附近尤其有不少穴居人黑暗祭司，能互相治療，讓彼此與 Fozzy 長時間存活。從末日傳說神殿出發時，搭乘 siege devourer 會讓這場戰鬥容易許多。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "保留固定頁的段落未完成警示，將 source section 修正為來源段落。核對祭司互相維持存活及從神殿出發搭乘攻城生物的戰術，不將它誤成輕易取得該生物。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:212709/notes",
+          "englishHash": "b6a3eb7a37a80f0f327b679b5f11db8770431c1a3c9e8b46aa4ab553f3a42d96",
+          "evidenceHash": "03cecbcd802177130dad0babcf049c4376da2a1b89d8556a68e2e923e960f4ad"
+        }
+      ]
+    },
+    {
+      "source": "In the City of Torc'qua, complete the quest The City of Torc'qua to spawn Lord Jadoth. See Mallyx the Unyielding (quest) for tactics against him.\n\nThe Zaishen quest only requires killing Lord Jadoth himself, but doing a bit of extra work to kill his mob will progress the Mallyx the Unyielding quest and reward you with a Torc'qua Chest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "在 City of Torc'qua 完成 The City of Torc'qua 任務後，霸王 賈多司才會出現。對付他的戰術請參閱 Mallyx the Unyielding 任務攻略。\n\n本戰承懸賞只要求擊殺賈多司本人。不過，若再花些力氣清除他的整支隊伍，就能推進 Mallyx the Unyielding 任務，並獲得 Torc'qua Chest。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對同名區域與前置任務的區別。明確懸賞僅需首領，推進 Mallyx 與寶箱另需清除敵群，避免把 mob 譯為個別生物。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:211063/notes",
+          "englishHash": "30b5058d3e651beb839f4ad37402d51cc4fba813ccb6600677d97fa171aff611",
+          "evidenceHash": "e717891eda2b227ad18baf9fd1ca65d92691e7855cd013bf5e435adbee22cd91"
+        }
+      ]
+    },
+    {
+      "source": "The easiest way to receive credit for this quest is to receive Kilroy Stonekin's buff, \"Kilroy Stonekin\", and run past all of the enemies directly to Fronis Irontoe. You can bypass the final blockade by staying to the right side. \n\nAlternatively, see the walkthrough at Kilroy Stonekin's Punch-Out Extravaganza!.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "取得本任務擊殺判定最簡單的方法，是先獲得基羅伊石族提供的「Kilroy Stonekin」增益，再穿過所有敵人，直接跑到鐵趾 弗朗尼。靠右側前進即可繞過最後一道封鎖。\n\n也可參閱 Kilroy Stonekin's Punch-Out Extravaganza! 的詳細攻略。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對同名 NPC 與增益效果的區別，將 credit 明確為任務擊殺判定。保留越過所有敵人、最後封鎖靠右繞過及替代攻略入口。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:207139/notes",
+          "englishHash": "5d9e609dc8389196da8c437da7b547e33ccdbd1692efc1b717712cc590f46315",
+          "evidenceHash": "09cd58045f808fdd4a71bf4d60d8d040bbf5dbfd9191d9047570b99b90200492"
+        }
+      ]
+    },
+    {
+      "source": "[Incomplete source section]\nSee The Jade Quarry for general mechanics and tips on strategy.\n\nFor 3 wins, you earn 5 coins per win; for 5 wins, 9 coins/win; and for 9 wins, 11 2/3 coins/win. \n*To maximize the faction yield, turn the quest in after 3 wins.\n*For maximum Zaishen Coin efficiency, turn in the quest after 9 wins.\n\nCompletion can be repeated during the same day. A tick here records at least one completion.",
+      "text": "[來源段落尚未完整]\n一般機制與戰術建議請參閱翡翠礦場。\n\n累積三勝時，平均每勝獲得 5 枚代幣；五勝時為 9 枚；九勝時為 11 又 2/3 枚。\n* 若要最大化陣營值收益，三勝後就交付任務。\n* 若要提高戰承代幣效率，則在九勝後交付任務。\n\n同一天可以重複完成；此處勾選表示當天至少完成過一次。",
+      "reason": "核對三勝、五勝、九勝的平均代幣收益與分數，未將平均值誤寫成各階段額外獎勵。保留陣營值和代幣的不同最佳交付點、來源不完整及當天勾選語意。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:199792/notes",
+          "englishHash": "f4853331575fb5af44537a36ed534206c94e3191ab7d1c9cc4113a8b4ea7c201",
+          "evidenceHash": "08af56fd404179c616823f6a1514e493a450b8396a8be113aae020ddbe207a3f"
+        }
+      ]
+    },
+    {
+      "source": "The best way to kill the Mage of the Sands is to head straight for him and attack him with everything you have. If you try to pick off the creatures immediately around him his group could quickly overwhelm your party.\n\nThe skill Pain Inverter is very effective against Droajam.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "擊殺 Mage of the Sands 最好的方法，是直接衝向他，集中全部火力攻擊。若先逐一清除他身邊的敵人，他的隊伍可能很快就會壓垮你的隊伍。\n\nPain Inverter 對 Droajam 非常有效。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對攻略要求先集中攻擊首領，與先清周邊敵人的風險相對應。保留 Mage of the Sands 與 Droajam 身分，移除將 Mage 誤匹配為法師傭兵的污染。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:201652/notes",
+          "englishHash": "16ede039def6cb49028d202485997ef2920159c0d528629276080971345fb86f",
+          "evidenceHash": "84c0e0f0441ae826880cc852222363429fc56ac9d86aeb79e1e8d6d7fc444250"
+        }
+      ]
+    },
+    {
+      "source": "As per the Crystal Method walkthrough.\n* This quest was first offered on 13th May 2009\n* When doing this quest, walk through the door to the dungeon as this will put you into the dungeon and not the story mode quest; do not interact with the Inscription Stone.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Crystal Method 的詳細攻略進行。\n* 此任務於 2009 年 5 月 13 日首次提供。\n* 執行本任務時，直接穿過地下城入口，才能進入地下城，而不是劇情任務模式；不要與 Inscription Stone 互動。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對地下城入口與石碑互動會進入不同模式的關鍵條件，保留禁止互動與首次日期。石碑名稱無可信中文身分，不沿用鑄印 Stone 的局部詞匹配。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:202502/notes",
+          "englishHash": "d913529aefb8608bb4799efdc93437aceaa866d08cd4929f5cfd3b2f32b55fac",
+          "evidenceHash": "728cd50510b315d311879a86ba894d65d766fc7f95b7eed432ee80f590833b59"
+        }
+      ]
+    },
+    {
+      "source": "See Alliance battle.\n*The most efficient method to gain Zaishen coins is if you can consistently get the first bonus within the first two wins, then turn in the quest and retake. \nThough the quest says \"at least 200 points\", the first bonus actually requires victory by more than 200 points.\nCompletion can be repeated during the same day. A tick here records at least one completion.",
+      "text": "請參閱同盟戰。\n* 若能穩定在前兩場勝利內取得第一項額外獎勵，最有效率的戰承代幣取得方式，就是達成後交付任務，再重新接取。\n雖然任務文字寫「至少 200 分」，第一項額外獎勵實際上要求以超過 200 分的差距獲勝。\n同一天可以重複完成；此處勾選表示當天至少完成過一次。",
+      "reason": "核對最有效率的前提為前兩勝內達成第一項額外獎勵。明確超過二百分指勝負分差，保留與任務至少二百分字面要求的來源異常。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:199404/notes",
+          "englishHash": "83c3886e31af34838181b71d9a5cb1c245a5dd956906fd2a28346c44f7e9eeff",
+          "evidenceHash": "037f03879c0de0bf91762196a07611a8f884e21ffe0c8d5a21a7c80266792e6c"
+        }
+      ]
+    },
+    {
+      "source": "Head east from Gadd's Encampment. He patrols in a small area just to the north west of Bloodstone Caves. He is often accompanied by a patrol of raptors.\nEarthbind, Weakness, \"Can't Touch This!\" and/or Pain Inverter are particularly effective.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "從蓋德營區向東走。首領會在血石洞西北方的一小片區域巡邏，身旁常有一支毒瑞克斯巡邏隊。\n地縛、虛弱、「別碰我！」及 Pain Inverter 都特別有效。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對東行與洞穴西北方定位。依可信繁體術語修正自然儀式、虛弱病症及戰嚎名稱，保留伴隨巡邏隊為常見而非必定出現。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:211725/notes",
+          "englishHash": "d332adb420d2ac76545448c6e1e81dba49843dd7ffc45195dacb45db7c190647",
+          "evidenceHash": "3af7cb95c93a6868d5bc8c99822b0d5508fcf17b7a1f63437b92db66b68309b2"
+        }
+      ]
+    },
+    {
+      "source": "Leave Gunnar's Hold into Norrhart Domains and travel west. Continue to proceed to the cave system that is marked with the Warning to Travelers sign. Once inside the cave you will find Fenrir directly to the left - surrounded by Kveldulf.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "從甘拿的佔領地進入諾恩之心領地，向西走，繼續前往立有 Warning to Travelers 告示牌的洞穴。進入後，芬瑞就在左側，周圍有 Kveldulf。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對據點出口、西行、告示牌與進洞左側的順序。使用有中文證據的諾恩之心領地與芬瑞，告示牌及伴隨敵人保留英文身分。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:200898/notes",
+          "englishHash": "f584d3155ec7832a58a763122d0c3b2fc59263951e578c216798c8a1eefe0ded",
+          "evidenceHash": "3fe7c3918fc61a8e18b92382ee9e6eda3f1647e50d747614a1358e93a6f9b319"
+        }
+      ]
+    },
+    {
+      "source": "As per the Jokanur Diggings mission.\nKahdash is considered a Sunspear Ghost, so the first bonus objective is not completed if he dies. The bonus objective text should instead be Complete the mission with three Sunspear Ghosts left alive.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Jokanur Diggings 戰鬥任務的攻略進行。\nKahdash 也被計為日戟幽靈；如果他死亡，第一項額外目標便無法完成。該目標文字應為：「完成戰鬥任務，並讓三名日戟幽靈保持存活。」\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對來源 bug 的例外對象 Kahdash 與存活數量三名。明確第一項額外目標失敗的條件，使用日戟而非無中文證據的陽矛稱呼。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:203119/notes",
+          "englishHash": "743a8b5c3eee6411938ce8e5ec0de836a4d349563c35dc74e3ae0147081e62be",
+          "evidenceHash": "38f0cecf34c5b13fef733b5020ae514a45a725a6f43742c263f2f61e8aaef171"
+        }
+      ]
+    },
+    {
+      "source": "See Fort Aspenwood (mission) for tips and tricks.\n\nFor 3 wins, you earn 5 coins per win; for 5 wins, 9 coins/win; and for 9 wins, 11 2/3 coins/win. To maximize the faction yield, turn the quest in after 3 wins; for maximum Zaishen Coin efficiency, turn in the quest after 9 wins.\n\nCompletion can be repeated during the same day. A tick here records at least one completion.",
+      "text": "提示與技巧請參閱楊木要塞戰鬥任務。\n\n累積三勝時，平均每勝獲得 5 枚代幣；五勝時為 9 枚；九勝時為 11 又 2/3 枚。若要最大化陣營值收益，三勝後就交付任務；若要提高戰承代幣效率，則在九勝後交付任務。\n\n同一天可以重複完成；此處勾選表示當天至少完成過一次。",
+      "reason": "核對三個勝場階段與每勝平均收益，保留十一又三分之二的精確值。區分陣營值與代幣效率的交付時機，並核對同一天重複完成的記錄範圍。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:200550/notes",
+          "englishHash": "cbfab8b0d001ff0d10402e403031d6aa470f3986eab8cb0007ed8e9ae54532fe",
+          "evidenceHash": "a8f1b4567eaa2014fe159d9f2308da099801540d737483e007cc1a0ecc9eb8eb"
+        }
+      ]
+    },
+    {
+      "source": "\n* This area is harder if War in Kryta is active.\n* Consider completing this quest at the same time as the Verata, Destor the Truth Seeker, Justiciar Amilyn, and/or Justiciar Marron bounties.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "* 若科瑞塔戰爭劇情處於啟用狀態，此區域會更難。\n* 可考慮與芙瑞達、Destor the Truth Seeker、Justiciar Amilyn 或 Justiciar Marron 的懸賞一起完成。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對區域難度的科瑞塔戰爭前提，以及可合併的四項懸賞。保留可信芙瑞達譯名，其餘身分不沿用未證實的直譯專名。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:276873/notes",
+          "englishHash": "498c377c7fe688cf375fa34902e031a5ac0a6ad11e04a884e6c910fca9bd04fb",
+          "evidenceHash": "22060986342cab5df8baf78559bc0fcc03b9a40dcc8086fd5fcc3666d9ce9b99"
+        }
+      ]
+    },
+    {
+      "source": "As per Myish, Lady of the Lake.\n*Consider completing this quest at the same time as the Worthy Deeds (Done Dirt Cheap) quest, since it also requires you to kill her as one objective.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "請參閱 Myish, Lady of the Lake 的注意事項。\n* 可考慮與力量的證明任務一起完成，因為該任務的其中一項目標也要求擊殺她。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對 As per 指向攻略注意事項而非人物發言。依可信術語恢復 Worthy Deeds (Done Dirt Cheap) 為力量的證明，保留擊殺只是其中一項目標。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:205873/notes",
+          "englishHash": "5596f2d83136f3d3654b1342b2b14f367a4b0916915da2ed443fdb657f03b85a",
+          "evidenceHash": "ee83bda40fe1da8ca36f660d4b8a84d16a2c09dfbfda392629845b346f7f8e64"
+        }
+      ]
+    },
+    {
+      "source": "As per the Thunderhead Keep mission.\n*This quest was first offered on April 25, 2009.\n*In order to receive credit for the first bonus objective, you must complete the mission.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依雷雲要塞戰鬥任務的攻略進行。\n* 此任務於 2009 年 4 月 25 日首次提供。\n* 必須完成戰鬥任務，第一項額外目標才會計為達成。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對首次提供日期及第一項額外目標仍須完成整場戰鬥任務。將 credit 改為達成判定，避免誤稱額外積分。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:199594/notes",
+          "englishHash": "46e60f83141f4062855fd96d3a96fcbac1afef6d48a5144d6c4d8e29d9983a9f",
+          "evidenceHash": "3fbac3c93ce89c6b3125f52dce43f3e8d80db89140220a69fdb7467e45f93682"
+        }
+      ]
+    }
+  ]
+}

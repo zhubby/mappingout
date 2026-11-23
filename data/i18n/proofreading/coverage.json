@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T11:16:24.035Z",
+  "generatedAt": "2026-11-23T12:34:14.323Z",
   "scope": "All five Traditional Chinese and English data packs; UI reviewed separately",
   "reviewMethod": "Individual agent semantic comparison against exact English text and revision evidence; not human approval or in-game verification",
   "complete": false,
   "fields": 134129,
   "distinctEnglish": 42858,
-  "reviewedFields": 12626,
-  "reviewedDistinctEnglish": 3550,
-  "remainingFields": 121503,
-  "remainingDistinctEnglish": 39520,
+  "reviewedFields": 12923,
+  "reviewedDistinctEnglish": 3819,
+  "remainingFields": 121206,
+  "remainingDistinctEnglish": 39270,
   "englishRevisionCheck": {
     "checkedAt": "2026-11-23T04:23:21.606Z",
     "checked": 6899,
@@ -21,114 +21,111 @@
       "dataset": "catalog",
       "fields": 43282,
       "distinctEnglish": 14933,
-      "reviewedFields": 1205,
-      "reviewedDistinctEnglish": 232,
-      "remainingFields": 42077,
-      "remainingDistinctEnglish": 14703,
+      "reviewedFields": 1316,
+      "reviewedDistinctEnglish": 332,
+      "remainingFields": 41966,
+      "remainingDistinctEnglish": 14602,
       "unverifiedEnglishFields": 2026,
       "riskFields": {
-        "literal-game-concept": 127,
-        "source-placeholder": 16,
-        "conditional-mechanic": 2701
+        "literal-game-concept": 16,
+        "source-placeholder": 15,
+        "conditional-mechanic": 2643
       },
       "riskExamples": [
         {
-          "key": "records/boss:4:b7faead0ccd3d1f6/description",
-          "english": "Destroyer Chest · Completion reward for Raven's Point. Chest rewards are separate from direct boss drops.",
-          "chinese": "驅逐艦寶箱 · 渡鴉岬角的完成獎勵。 寶箱獎勵與直接 Boss 掉落是分開的。",
+          "key": "records/skill:0:8/locations/loc:1bbb2c958717d630/note",
+          "english": "He's not a pledged spawner, and he won't be there forever.",
+          "chinese": "他不是一個承諾的產卵者，他不會永遠在那裡。",
           "flags": [
             "literal-game-concept"
           ]
         },
         {
-          "key": "records/green:4:de2ce93e4304afda/description",
-          "english": "The Shield of the Condemned is a unique shield dropped by Vraxx the Condemned, a boss in Cathedral of Flames.",
-          "chinese": "死刑犯的盾是火焰大教堂中的 Boss 死刑者 Vraxx 掉落的獨特護盾。",
+          "key": "records/skill:0:8/locations/loc:c9a7f1f509035c16/note",
+          "english": "He's not a pledged spawner, and he won't be there forever.",
+          "chinese": "他不是一個承諾的產卵者，他不會永遠在那裡。",
           "flags": [
             "literal-game-concept"
           ]
         },
         {
-          "key": "records/green:4:5bf04f3c4486c280/description",
-          "english": "Eye of the North\n* Raven's Point\n** Destroyer Chest",
-          "chinese": "極地之眼 * 渡鴉岬角 ** 驅逐艦寶箱",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
-          "key": "records/green:4:74fbb8bbae5a4af2/description",
-          "english": ";Eye of the North\n*Raven's Point\n**Destroyer Chest",
-          "chinese": ";極地之眼\n*渡鴉岬角\n**驅逐艦寶箱",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
-          "key": "records/green:4:e783d008c9008138/description",
-          "english": ";Eye of the North\n*Depths of Tyria\n**Raven's Point\n***Destroyer Chest",
-          "chinese": ";極地之眼\n*泰瑞亞深處\n**渡鴉岬角\n***驅逐艦寶箱",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
-          "key": "records/green:1:e1e398dc590c002b/details/1",
-          "english": "Energy +5 (while Hexed)",
-          "chinese": "能量 +5（十六進位時）",
+          "key": "records/skill:0:30/locations/loc:f6fc819f26852695/note",
+          "english": "The Stone Peaks were only found at the map location and allowed to complete their rituals andSpawning PowerHe'll only meet him when he does.",
+          "chinese": "石峰只能在地圖位置找到，並被允許完成他們的儀式和產卵力量，只有當他這樣做時，他才會遇到他。",
           "flags": [
             "literal-game-concept",
             "conditional-mechanic"
           ]
         },
         {
-          "key": "records/green:1:8594f230fd423c7d/details/3",
-          "english": "Wiki notes: * Other items with this appearance:\n**Warrior Aegis of the Condemned (unique)\n**Paragon Bastion of the Condemned (unique)\n**WarriorParagon Shadow Shield\n**Paragon Shield of the Condemned (unique)",
-          "chinese": "維基註釋： * 具有此外觀的其他專案：\n**戰士神賜之盾死刑犯（獨特）\n**聖言者被譴責者的堡壘（獨特）\n**WarriorParagon 陰影盾\n**被譴責者的聖言者盾（獨一無二）",
+          "key": "records/skill:1:159/locations/loc:8fe65a4c740a7f58/note",
+          "english": "In the north-east corner near Marshall Whitman or in the heart of grief, south of the entrance and west of the room of Sean Stonerit, during Orozal Heston's mission,6A randombossOne of the spawning sites.nAlkar, the high priest there, returned the book of Lubicon but not during this mission.",
+          "chinese": "在馬歇爾·惠特曼附近的東北角或悲傷的中心，入口以南和肖恩·斯通裡特房間以西，在奧羅薩爾·赫斯頓的任務期間，6A隨機boss的產卵地點之一。 nAlkar，那裡的大祭司，歸還了盧比孔之書，但在這次任務中沒有歸還。",
           "flags": [
             "literal-game-concept"
           ]
         },
         {
-          "key": "records/green:1:8c5c9f712b06ef37/details/3",
-          "english": "Wiki notes: * This kit used to be the only means of salvaging equipment modifiers while in pre-Searing Ascalon, including weapon upgrades, Runes, or Insignias. With the introduction of The Purveyor players are able to obtain the Infinite Superior Salvage Kit in pre-Searing Ascalon.\n* As with any kit, its value will decrease proportionally as it is used.\n* Although it is gold, identifying it will not contribute to the Wisdom title track (however it will increase the value of the kit if sold to a merchant).\n* These kits can be used to salvage rare crafting materials, but there is no point in doing so: rare materials cannot be used in pre-Searing Ascalon.\n* The base chance, before the Wisdom and Treasure Hunter bonuses, of breaking an item upon salvaging an upgrade is 50%.",
-          "chinese": "維基註解： * 此套件曾經是在崩壞阿斯卡隆之前搶救裝備修飾符的唯一方法，包括武器升級、符文或徽章。隨著 The Purveyor 的推出，玩家能夠在崩壞阿斯卡隆之前獲得無限高階拆解工具。\n* 與任何套件一樣，其價值會隨著使用而按比例減少。\n* 雖然它是金色的，但識別它不會對智慧者主打歌做出貢獻（但如果出售給商人，它會增加套件的價值）。\n* 這些套件可用於搶救稀有製作材料，但這樣做沒有意義：稀有材料不能在崩壞阿斯卡隆之前使用。\n* 在智慧者和寶箱獵人獎勵之前，搶救升級時破壞物品的基本機率為 50%。",
+          "key": "records/skill:1:189/locations/loc:bc223f1e2d66f3e5/note",
+          "english": "During the Lysa password mission \\nKnown spawning location: \\\\n- The pond west of Latassum.n- Center northwest, between the open areas and the waterfall.n- The center's three mountains south of the centre.n- Far northwest corner.",
+          "chinese": "在萊莎密碼任務期間\\n已知的產卵地點：\\n- 拉塔蘇姆以西的池塘。 n- 中心西北，在開放區域和瀑布之間。 n- 中心以南的三座山脈。 n- 遠西北角。",
           "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
+            "literal-game-concept"
           ]
         },
         {
-          "key": "records/collector:1:8/details/5",
-          "english": "Crimson Carapace Shield · Armor: 16 · 9 Tactics · Health +60 (while hexed)\nReceived damage -3 (while hexed)",
-          "chinese": "血腥外殼之盾 · 防禦: 16 · 9 戰術 · 體力 +60（十六進位）\n受到傷害 -3（施咒時）",
+          "key": "records/skill:3:134/locations/loc:4d315e910cdb2c6d/note",
+          "english": "During \"Komir password\" <unk>nKnown spawning location: \\\\n- Frox Falls is south of the water.n- Northeast of the center, north-west of the lake, northwest of it.n- Venturi.PreservationThe waters of the southwest.n- Venturi.PreservationThe water is just east of the district.",
+          "chinese": "在「科米爾密碼」期間〔原始資料缺字〕n已知產卵地點： \\\\n- 弗羅克斯瀑佈在水域的南部。 n- 中心的東北部，湖的西北部，湖的西北部。 n- 文丘裡保護區西南方的水域。 n- 文丘裡保護區的水域就在該地區的東部。",
           "flags": [
             "literal-game-concept",
-            "conditional-mechanic"
+            "source-placeholder"
           ]
         },
         {
-          "key": "records/collector:1:19/details/3",
-          "english": "Emboldened Carapace Shield · Armor 16 · 9 Strength · Health +60 (while Hexed) \n Received physical damage -3 (while Hexed)",
-          "chinese": "加粗甲殼盾 · 防禦 16 · 9 力量 · 體力 +60 （十六進位）\n 受物理傷害 -3（施咒時）",
+          "key": "records/boss:1:b69972d11dacc00c/locations/loc:1bbb2c958717d630/note",
+          "english": "He's not a pledged spawner, and he won't be there forever.",
+          "chinese": "他不是一個承諾的產卵者，他不會永遠在那裡。",
           "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
+            "literal-game-concept"
           ]
         },
         {
-          "key": "records/collector:1:266/details/6",
-          "english": "Ascalon Longbow · Piercing damage: 11-18 · 3 Marksmanship · Damage +10% (while hexed) \n Damage +10% (while Health is below 40%)",
-          "chinese": "阿斯卡隆長弓 · 穿刺傷害: 11-18 · 3 弓術精通 · 傷害 +10%（十六進位）\n 傷害 +10%（而體力低於 40%）",
+          "key": "records/boss:1:255f502a20dcf01e/locations/loc:c9a7f1f509035c16/note",
+          "english": "He's not a pledged spawner, and he won't be there forever.",
+          "chinese": "他不是一個承諾的產卵者，他不會永遠在那裡。",
           "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
+            "literal-game-concept"
           ]
         },
         {
-          "key": "records/collector:1:268/details/3",
-          "english": "Earth Staff · Energy +4\n Earth damage: 4-7 · 3 Earth Magic · Armor +5 (vs Lightning damage)\n Armor +3 (while casting)\n Armor +3 (while Enchanted)\n Energy +3 (while Hexed)",
-          "chinese": "地之法杖 · 能量 +4\n 土系傷害：4-7 · 3 地系魔法 · 防禦 +5（與閃電傷害）\n 防禦 +3（投射時）\n 防禦 +3（同時附魔）\n 能量 +3（十六進位時）",
+          "key": "records/boss:1:772c5751bc6c16b1/locations/loc:8fe65a4c740a7f58/note",
+          "english": "In the north-east corner near Marshall Whitman or in the heart of grief, south of the entrance and west of the room of Sean Stonerit, during Orozal Heston's mission,6A randombossOne of the spawning sites.nAlkar, the high priest there, returned the book of Lubicon but not during this mission.",
+          "chinese": "在馬歇爾·惠特曼附近的東北角或悲傷的中心，入口以南和肖恩·斯通裡特房間以西，在奧羅薩爾·赫斯頓的任務期間，6A隨機boss的產卵地點之一。 nAlkar，那裡的大祭司，歸還了盧比孔之書，但在這次任務中沒有歸還。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/green:1:c2716355779cdc75/locations/loc:8fe65a4c740a7f58/note",
+          "english": "In the north-east corner near Marshall Whitman or in the heart of grief, south of the entrance and west of the room of Sean Stonerit, during Orozal Heston's mission,6A randombossOne of the spawning sites.nAlkar, the high priest there, returned the book of Lubicon but not during this mission.",
+          "chinese": "在馬歇爾·惠特曼附近的東北角或悲傷的中心，入口以南和肖恩·斯通裡特房間以西，在奧羅薩爾·赫斯頓的任務期間，6A隨機boss的產卵地點之一。 nAlkar，那裡的大祭司，歸還了盧比孔之書，但在這次任務中沒有歸還。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/green:1:d5259fea362a2977/locations/loc:8fe65a4c740a7f58/note",
+          "english": "In the north-east corner near Marshall Whitman or in the heart of grief, south of the entrance and west of the room of Sean Stonerit, during Orozal Heston's mission,6A randombossOne of the spawning sites.nAlkar, the high priest there, returned the book of Lubicon but not during this mission.",
+          "chinese": "在馬歇爾·惠特曼附近的東北角或悲傷的中心，入口以南和肖恩·斯通裡特房間以西，在奧羅薩爾·赫斯頓的任務期間，6A隨機boss的產卵地點之一。 nAlkar，那裡的大祭司，歸還了盧比孔之書，但在這次任務中沒有歸還。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/boss:4:f937cf5d1b8d2776/locations/loc:f6fc819f26852695/note",
+          "english": "The Stone Peaks were only found at the map location and allowed to complete their rituals andSpawning PowerHe'll only meet him when he does.",
+          "chinese": "石峰只能在地圖位置找到，並被允許完成他們的儀式和產卵力量，只有當他這樣做時，他才會遇到他。",
           "flags": [
             "literal-game-concept",
             "conditional-mechanic"
@@ -156,68 +153,31 @@
       "dataset": "calendar",
       "fields": 3284,
       "distinctEnglish": 1249,
-      "reviewedFields": 244,
-      "reviewedDistinctEnglish": 65,
-      "remainingFields": 3040,
-      "remainingDistinctEnglish": 1184,
+      "reviewedFields": 304,
+      "reviewedDistinctEnglish": 125,
+      "remainingFields": 2980,
+      "remainingDistinctEnglish": 1124,
       "unverifiedEnglishFields": 0,
       "riskFields": {
-        "literal-game-concept": 4,
-        "source-placeholder": 3,
-        "conditional-mechanic": 296
+        "literal-game-concept": 0,
+        "source-placeholder": 1,
+        "conditional-mechanic": 275
       },
-      "riskExamples": [
-        {
-          "key": "activities/activity:gww:203120/notes",
-          "english": "Korshek's group includes several Roaring Ethers and at least one other Djinn. There are also up to three satellite groups, each consisting of more Djinn and Roaring Ethers. In hard mode, Ruby Djinn can hit very hard with Liquid Flame (over 200 damage) and Korshek follows with Searing Flames which can deal over 250 damage against 60 armor rating characters. This means, even with no death penalty, the entire party can be wiped in two to three hits, as these are AoE attacks. Consider getting the Shielding Branches blessing from the Melandru's Watcher outside of Tihark Orchard to reduce the damage caused by Korshek and Ruby Djinn.\n\n=== Skill recommendations ===\n\n; Countering Searing Flames\nThere are several techniques to effectively counter Searing Flames:\n* Bring skills that interrupt or inflict Dazed.\n* Use Frigid Armor to prevent being set on fire. \n* Signet of Humility will prevent Searing Flames from being cast; Diversion will disable it for an extended period.\n* The boss will quickly kill itself while hexed with either Pain Inverter or Spoil Victor.\n\n; Other skills\n\n* Ward Against Elements or Ward Against Harm will reduce the elemental damage.\n* Winter converts all elemental damage to cold damage, which deals more damage to Ruby Djinns.\n* Extinguish and Breath of the Great Dwarf remove Burning from all party members.\n* Frozen Soil will prevent the Roaring Ethers from using Resurrection Signet.\n* The ethers are the only fleshy foes in Korshek's group, so it does not help much to bring skills that cause Bleeding, Disease, or Poison; similarly, skills that exploit corpses are ineffective for this battle.\n* Consider going to open the Do Not Touch Treasure in Forum Highlands after killing Korshek the Immolated, which is near the boss' location.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
-          "chinese": "Korshek 的團隊包括幾個 Roaring Ethers 和至少一個其他巨靈怪。還有多達三個衛星組，每個衛星組由更多的巨靈怪和 Roaring Ethers 組成。在困難模式下，紅寶石巨靈可以使用液態火焰進行非常猛烈的攻擊（超過 200 傷害），而 Korshek 則使用爆裂火焰，它可以對 60 裝甲等級角色造成超過 250 的傷害。這意味著，即使沒有死刑，整個隊伍也可以在兩到三擊中被消滅，因為這些都是範圍性攻擊。考慮從提哈克果園外的梅蘭朵守望者那裡獲得遮蔽樹枝的祝福，以減少 Korshek 和紅寶石巨靈造成的傷害。\n\n=== 技能建議 ===\n\n;對抗爆裂火焰\n有多種技術可以有效對抗爆裂火焰：\n* 帶來打斷或造成暈眩的技能。\n* 使用冰凍護甲防止起火。 \n* 謙卑紋章將阻止爆裂火焰被施放； 牽制將長時間停用它。\n* 當使用苦痛變頻器或勝者的掠奪施咒時，Boss 會快速自殺。\n\n;其他技能\n\n* 元素結界或守護結界將減少元素傷害。\n* 寒冬將所有元素傷害轉化為寒冷傷害，這對紅寶石魔靈造成更多傷害。\n* 熄滅和偉大矮人的呼吸消除了所有隊伍成員的燃燒。\n* 凍土將阻止咆哮以太使用復活紋章。\n* 以太是Korshek團隊中唯一的肉質敵人，因此帶來導致流血、疾病或中毒的技能並沒有多大幫助；同樣的，利用屍體的技能對於這場戰鬥也是無效的。\n* 殺死靠近boss位置的宰殺者科薛克後，考慮開啟高地廣場中的請勿觸控寶藏。\n完成記錄屬於接受任務的輪替。它不會改變永久技能或征服進步。",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "activities/activity:gww:203752/notes",
-          "english": "Head north through the Tahnnakai Temple explorable area from Zin Ku Corridor. Be prepared for area of effect fire damage from the Temple Guardians around him. If you follow the path in the the map posted on the right, you will only encounter Temple Guardians on your way to Quansong Spiritspeak. \n\n===Skill recommendations===\n* You will not encounter any physical attackers, so skills that block, cause misses, or inflict the blind condition are less effective here; however, Temple Guardians have Stun on Critical Hit.\n* Quansong Spiritspeak and Temple Guardians are not fleshy creatures, so skills that exploit corpses and inflict bleeding, disease, or poison are ineffective against them.\n* You will only encounter spellcaster mobs, so consider bringing anti-caster skills and/or various Ranger nature rituals that can benefit your party but cannot benefit the Temple Guardians (such as Favorable Winds, Infuriating Heat, and Winnowing).\n* Temple Guardians have less armor rating against cold damage, so consider bringing Winter or skills that deal cold damage. Consider bringing Water Magic hex spells that snare and deal cold damage (i.e. Deep Freeze, Ice Spikes, Mind Freeze, and Shard Storm), which will slow their movement speed and can help in preventing them from reaching your midline/backline and dealing point blank area of effect damage from Temple Guardians' Double Dragon and Quansong Spiritspeak's Ancestors' Rage.\n* Temple Guardians have less armor rating against blunt damage, so consider using a weapon that deals blunt damage.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
-          "chinese": "向北穿過譚納凱神殿可探索區域從辛庫走廊 。做好應對周圍聖殿守護者造成的區域火焰傷害的準備。如果你沿著右邊地圖上的路徑走，你只會在去的路上遇到神廟守護者。 通靈者魁嵩 。 \n\n=== 技能推薦===\n* 你不會遇到任何物理攻擊者，因此格擋、失手、致盲的技能在這裡效果較差；然而，聖殿守護者在暴擊時會暈眩。\n* 通靈者魁嵩神殿守護者不是肉質生物，因此利用屍體並造成流血、疾病或中毒的技能對他們無效。\n*你只會遇到施法者小怪，所以考慮帶上反施法者技能和/或各種遊俠可以使你的隊伍受益但不能使神殿守護者受益的自然儀式（例如順風 , 怒火 , 和吹拂之風 ）。\n* 神殿守護者對寒冷傷害的護甲等級較低，所以考慮帶上寒冬或造成寒冷傷害的技能。考慮帶水系魔法誘捕並造成寒冷傷害的十六進製法術（即強力凍結 , 冰之尖刺 , 心靈凍結 , 和冰風暴 ），這會減慢他們的移動速度，並有助於防止他們到達你的中線/後線並造成聖殿守護者的空白區域效果傷害雙龍和通靈者魁嵩的先人的盛怒 。\n* 聖殿守衛針對鈍器傷害的護甲等級較低，因此請考慮使用造成鈍器傷害的武器。\n\n完成記錄屬於接受任務的輪替。它不會改變永久技能或征服進步。",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "activities/activity:gww:199595/notes",
-          "english": "Once a player gets in radar range of the spawn point location, either Harn or Maxine will spawn and begin patrolling around the island. The boss will go counter-clockwise on its patrol path, so it is best to go clockwise through its patrol path as the boss will move toward you when it spawns and you avoid needing to chase the boss through numerous mobs. If you go clockwise through its patrol path, there are mobs of Flesh Golems and Mahgo Hydras that patrol in a circle outside of Ember Light Camp. Your party can stay near the Resurrection Shrine and pull each mob.\n\n===Skill recommendations===\n*If you go clockwise through its patrol path:\n**You will only encounter spellcaster mobs (Dark Flame Dryders, Drakes, Flesh Golems, Mahgo Hydras, and Phantoms), so consider bringing anti-caster skills and/or various Ranger nature rituals that can benefit your party but cannot benefit the enemy spellcasters (such as Favorable Winds, Infuriating Heat, Toxicity since Dark Flame Dryders use Chilblains, and Winnowing).\n**The only physical attackers will be the Bone Minions created by the Flesh Golems via Animate Bone Minions, so skills that block, cause misses, or inflict the blind condition are less effective here.\n*This quest was first offered on April 25, 2009.\n*If you go clockwise through the boss' patrol path, you can take this opportunity to obtain a Volcanic Rock.\n*It's possible for Harn or Maxine to spawn at the beach on the north part of their path\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
-          "chinese": "一旦玩家進入重生點位置的雷達範圍，哈恩或瑪克辛就會重生並開始在島嶼周圍巡邏。 Boss 會在其巡邏路徑上逆時針行走，因此最好順時針行走其巡邏路徑，因為 Boss 在生成時會向您移動，並且您無需在眾多小怪中追逐 Boss。如果你順時針穿過它的巡邏路徑，就會有血肉傀儡和瑪戈九頭蛇的小怪在外面一圈巡邏。 殘火營地 。您的聚會可以住在附近復活祭壇並拉動每個小怪。\n\n=== 技能推薦===\n*如果你順時針穿過它的巡邏路徑：\n**你只會遇到施法者小怪（暗焰乾燥者、龍、肉傀儡、瑪戈九頭蛇和幻影），所以考慮帶上反施法者技能和/或各種遊俠可以使你的隊伍受益但不能使敵方施法者受益的自然儀式（例如順風 , 怒火 , 毒性自從暗焰乾燥機使用以來凍傷 , 和吹拂之風 ）。\n**唯一的物理攻擊者將是由血肉傀儡通過操縱骸骨爪牙 ，因此格擋、造成失誤或造成失明狀態的技能在這裡效果較差。\n*此任務於四月首次提供 25 , 2009 。\n*如果你順時針穿過boss的巡邏路徑，你可以藉此機會獲得火山岩 。\n*哈恩或瑪克辛有可能在其路徑北部的海灘上生成\n完成記錄屬於接受任務的輪替。它不會改變永久技能或征服進步。",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "activities/activity:gww:200414/notes",
-          "english": "If you follow the path in the the map posted on the right, you will only encounter Marrow Scarabs, Minotaurs, Rockshot Devourers, and Scarab Nest Builders on your way to Kepkhet Marrowfeast. Hex removal skills are unnecessary, as the aforementioned foes do not cast hexes.\n\nAvoid using condition-inflicting skills on Marrow Scarabs, as they will use Plague Touch and then Virulence. Marrow Scarabs use Well of the Profane, so either interrupt its activation, avoid bringing enchantments with long recharge times, and/or move away from corpses before they are exploited to create a Well of the Profane.\n\nRockshot Devourers and Scarab Nest Builders use Distracting Shot, so skills that block, inflict the blind condition, cause misses, or prevent interruption can be helpful. They also use numerous traps, so it may be a good idea to have one party member walk ahead of the party to trigger the traps and prevent the entire party from taking damage.\n\nSometimes Kepkhet Marrowfeast is hidden at first and won't popup until a party member approaches her spawn point. The Scarab Nest Builders surrounding Kepkhet Marrowfeast won't move if attacked from flatbow or longbow range, so you can cause Kepkhet Marrowfeast to deplete her energy by healing and protecting the Scarab Nest Builder prior to your party engaging Kepkhet Marrowfeast. When you go near Kepkhet Marrowfeast, several Marrow Scarabs will popup. If Kepkhet Marrowfeast casts Mark of Protection on herself, applying a condition or hex will cause her to use Contemplation of Purity and remove Mark of Protection.\n* Consider completing this quest at the same time as the Family Soul quest, since it also requires you to kill her.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
-          "chinese": "如果您按照右側地圖中的路徑前進，則在前往柯柏海特食隨者的途中只會遇到骨髓聖甲蟲、牛頭怪、Rockshot 蠍和聖甲蟲築巢者。去除妖術的技能是不必要的，因為上述敵人不會施放妖術。\n\n避免對骨髓聖甲蟲使用造成條件的技能，因為它們會使用疫病之觸，然後使用惡毒。骨髓聖甲蟲使用褻瀆之池，因此要麼中斷其啟用，避免帶來較長充電時間的加持，和/或在屍體被利用以建立褻瀆之池之前遠離屍體。\n\nRockshot 蠍和 Scarab Nest Builders 使用震暈之箭，因此阻擋、造成盲態、導致錯誤或防止中斷的技能可能會有所幫助。他們也使用許多陷阱，因此最好讓一名隊伍成員走在隊伍前面來觸發陷阱並防止整個隊伍受到傷害。\n\n有時，柯柏海特食隨者一開始是隱藏的，直到隊伍成員接近她的重生點時才會彈出。如果受到平弓或長弓範圍的攻擊，柯柏海特食隨者周圍的聖甲蟲築巢者將不會移動，因此您可以在您的隊伍與柯柏海特食隨者交戰之前透過治療和保護聖甲蟲築巢者來耗盡柯柏海特食隨者的能量。當你靠近柯柏海特食隨者時，會彈出幾隻骨髓聖甲蟲。如果柯柏海特食隨者對自己施放守護印記，則套用條件或十六進位將導致她使用純淨的冥想並移除守護印記。\n*考慮與家庭靈魂任務同時完成這個任務，因為它也需要你殺死她。\n完成記錄屬於接受任務的輪替。它不會改變永久技能或征服進步。",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        }
-      ]
+      "riskExamples": []
     },
     {
       "dataset": "quests",
       "fields": 37175,
       "distinctEnglish": 17897,
-      "reviewedFields": 1451,
-      "reviewedDistinctEnglish": 819,
-      "remainingFields": 35724,
-      "remainingDistinctEnglish": 17079,
+      "reviewedFields": 1522,
+      "reviewedDistinctEnglish": 879,
+      "remainingFields": 35653,
+      "remainingDistinctEnglish": 17019,
       "unverifiedEnglishFields": 0,
       "riskFields": {
-        "literal-game-concept": 69,
+        "literal-game-concept": 68,
         "source-placeholder": 15,
-        "conditional-mechanic": 3631
+        "conditional-mechanic": 3572
       },
       "riskExamples": [
         {
@@ -331,15 +291,15 @@
       "dataset": "skills",
       "fields": 44208,
       "distinctEnglish": 13480,
-      "reviewedFields": 3546,
-      "reviewedDistinctEnglish": 1775,
-      "remainingFields": 40662,
-      "remainingDistinctEnglish": 11754,
+      "reviewedFields": 3601,
+      "reviewedDistinctEnglish": 1830,
+      "remainingFields": 40607,
+      "remainingDistinctEnglish": 11699,
       "unverifiedEnglishFields": 0,
       "riskFields": {
-        "literal-game-concept": 247,
+        "literal-game-concept": 241,
         "source-placeholder": 0,
-        "conditional-mechanic": 4403
+        "conditional-mechanic": 4350
       },
       "riskExamples": [
         {

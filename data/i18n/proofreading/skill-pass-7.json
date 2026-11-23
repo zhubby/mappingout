@@ -1,0 +1,722 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "*The damage is done by the enchantment and not by the attack.\n** Blindness, missing and blocking cannot prevent the damage from being inflicted.\n** Flurry will increase attack speed without lowering the damage.\n* Attacks are initiated but never hit:\n** Effects that activate when an enemy is struck by an attack, such as Vampiric and Zealous mods and the early ending of Feigned Neutrality do not trigger.\n** No adrenaline is gained from making an attack.\n** Even if a skill description does not specifically mention that it triggers on hit, most attack buffs will not trigger, such as Strength of Honor, Warmonger's Weapon (and other on-attack weapon spells), or Soul Taker.\n** When using the appropriate weapon type, Hundred Blades and Vow of Strength will trigger successfully.\n** You cannot score a critical hit.\n** Failed attacks such as Dagger Attacks out of sequence (such as using most Dual Attacks without an offhand) will not trigger damage.\n** Dagger Attack chain marks will not trigger from attack skills.\n*** Dagger attacks that require a chain can still be used if the appropriate marks are already present (from spells that count as lead attacks or off-hand attacks, or casting Illusionary Weaponry after setting up part of a chain). Notably, this allows dual attacks to be chained until the enemy dies.\n*** When used with the correct chain requirements, dual attacks will double strike, but no additional effects will occur (e.g. Death Blossom will not hit multiple targets).\n** Skills that require an attack (such as Empathy or Clumsiness) will still trigger.\n** Attack from scythes and attack skills that can deal multiple attacks will cause the damage to be inflicted on several foes. Damage will trigger twice on a double strike.\n* This is one of the few skills that can damage invulnerable foes (such as the Base Defender), though this requires an indirect attack such as Cyclone Axe.\n* The main spell of an IW mesmer.\nSimilarly to \"I Am Unstoppable!\" and Mantra of Signets, the armor provided by this skill is only applied at the end of the armor calculation. As such, it is not counted in the bonus armor cap of +25 and is not reduced by Armor penetration.",
+      "text": "* 傷害由加持造成，而非攻擊本身造成。\n** 盲目、未命中及格擋都無法阻止這項傷害。\n** 疾風攻勢會提高攻擊速度，卻不會降低這項傷害。\n* 攻擊會發動，但永遠不會命中：\n** 需要攻擊命中敵人才觸發的效果不會生效，例如吸血與熱望武器改造的效果，以及陰影庇護提前結束的效果。\n** 發動攻擊不會獲得怒氣。\n** 即使技能說明沒有明寫「命中時觸發」，多數攻擊增益仍不會觸發，例如榮耀之力、好戰者武裝（及其他依賴攻擊命中的武裝法術）或 Soul Taker。\n** 使用相應武器時，快速劍與力量誓約仍能觸發。\n** 攻擊無法暴擊。\n** 失敗的攻擊不會造成這項傷害，例如未按連擊順序使用匕首攻擊（如未先使用副手攻擊，就使用多數雙重攻擊）。\n** 攻擊技能不會產生匕首連擊標記。\n*** 若目標已帶有相應標記，仍能使用需要連擊的匕首攻擊。標記可來自視為前導攻擊或副手攻擊的法術，也可先完成部分連擊，再施放 Illusionary Weaponry。這使你能連續使用雙重攻擊，直到敵人死亡。\n*** 符合連擊條件時，雙重攻擊仍會打擊兩次，但不會產生其他附加效果，例如死神之花不會攻擊多個目標。\n** 以發動攻擊為觸發條件的技能（如自虐或笨拙）仍會觸發。\n** 鐮刀攻擊及可發動多次攻擊的攻擊技能，能對多名敵人造成這項傷害。雙重打擊會觸發兩次傷害。\n* 這是少數能傷害無敵敵人的技能之一，例如 Base Defender；但必須透過旋風斧等間接攻擊。\n* 這是 IW 幻術師配置的核心法術。\n與「我勢不可擋！」及紋章頌歌相同，此技能提供的護甲只在護甲計算的最後階段加入。因此，這項加成不計入 +25 的額外護甲上限，也不受護甲穿透影響。",
+      "reason": "區分發動攻擊與命中；修正怒氣、雙重打擊、匕首連擊標記及護甲穿透，保留快速劍與力量誓約的例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1583/variants/skill-version:gww:1583/notes/0",
+          "englishHash": "b9710cb9728c374a4cfe5b64727c17f420a1184551330834df2b6b2644a1fad9",
+          "evidenceHash": "1dc922c6f136287c6ff163345401126838be308ee51d8e81fe9db3ebcd417b43"
+        }
+      ]
+    },
+    {
+      "source": "* This skill overrides any existing modifiers, including: skills that boost elemental attributes (e.g. Elemental Lord), runes, Weakness and consumables (e.g. Candy Corn).\n** Bonuses will take effect if they are applied after Master of Magic (e.g. remove/reapply headgear before casting).\n***Removing and reapplying runes has no effect.\n** Renewing Master of Magic whilst under the attribute boosting modifiers will retain the higher attribute ranks and not reset them to the rank predicted by Master of Magic.\n** Renewing Master of Magic while boosted by Heroic Refrain will cause the boost to not be renewed even if the echo is renewed. Recast Heroic Refrain immediately after renewing Master of Magic.\n* Journey to the North takes precedence, setting only one attribute to 12 (and any others to 9). [Source claim needs verification]\n* The most effective uses of this skill are:\n** To boost the effectiveness of low-level characters, since it can allow them to reach and maintain an elemental attribute rank of 9 at only rank 3 in Energy Storage. \n** To maximize the strength of Prismatic Insignia (raising an elementalist's armor by 20).\n** To free attribute points for builds that draw on several elementalist attributes or to meet the requirement of certain weapons (notably shields).\n* The amount of energy regained is rounded down: 5 energy spells return 1 energy, 15 energy spells return 4 and 25 energy spells return 7.\n* The amount of energy regained considers only the base cost of the spells, without any modifiers, such as Glyph of Lesser Energy or Quickening Zephyr.\n* Elemental spells refers to spells associated with the four elemental attributes, rather than spells that deal elemental damage.\nWhile under the effects of Master of Magic, being weakened with attribute points in elemental ranks will cause elemental ranks to lower by 1. Elemental attributes without attribute points in will not lower by 1.",
+      "text": "* 此技能會覆蓋所有既有修正，包括提升元素屬性的技能（如 Elemental Lord）、符文、虛弱，以及消耗品（如栗米糖）。\n** 在 Master of Magic 之後套用的加成才會生效（原文舉例為「施法前脫下再戴上頭部裝備」；此處時序表述有矛盾，仍待核實）。\n*** 拆下再裝回符文不會生效。\n** 在屬性提升效果存在時續施 Master of Magic，會保留較高的屬性等級，不會重設為 Master of Magic 所設定的等級。\n** 在 Heroic Refrain 提升屬性時續施 Master of Magic，會使該屬性加成不再隨迴響的續期而恢復，即使迴響本身已續期。續施 Master of Magic 後，應立即重新施放 Heroic Refrain。\n* Journey to the North 優先生效，只將一項屬性設為 12，其他屬性則設為 9。[此來源說法仍待核實]\n* 此技能最有效的用途包括：\n** 強化低等級角色：只需能量儲存等級 3，即可使元素屬性達到並維持在等級 9。\n** 充分發揮 Prismatic Insignia 的效果，使元素使護甲提高 20。\n** 讓需要多種元素使屬性的配置節省屬性點，或滿足特定武器的需求，尤其是盾牌。\n* 恢復的能量向下取整：耗能 5 的法術恢復 1 點，耗能 15 的法術恢復 4 點，耗能 25 的法術恢復 7 點。\n* 恢復量只依據法術的基礎耗能，不計入微能符號或活力微風等修正。\n* 「元素法術」指歸屬四種元素屬性的法術，而非所有造成元素傷害的法術。\n在 Master of Magic 效果下，若某項元素屬性曾投入屬性點，虛弱會使該屬性降低 1 級；未投入屬性點的元素屬性不會因此降低 1 級。",
+      "reason": "修正能量儲存 3 與元素屬性 9 的對應、迴響續期及耗能向下取整；明示固定英文的頭部裝備時序矛盾並保留來源待核實標記。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4340/variants/skill-version:gww:4340/notes/0",
+          "englishHash": "256921a3ddf2cd79f5d5dc6c5e2d48a30358b0849cf694c0d1cffdde5bedc61f",
+          "evidenceHash": "5d81c247809a051ab6f73fc75b1202688f2955c7e92a41e22428e41fa8f38a7c"
+        }
+      ]
+    },
+    {
+      "source": "* Echo can copy powerful skills with long recharge times, doubling the rate at which they can be used.\n* Use it to copy skills with short recharge times in order to spam them, e.g. adrenaline skills that have any recharge time.\n* Combine Echo with Arcane Echo to create Echo chains, allowing you to have three copies of a skill at once. Add Arcane Mimicry to create multiple copies of a party member's elite.\n* Echo will only recharge normally if no skill was copied. If a skill was copied, the copy remains for 30 seconds, after which Echo is disabled for 10 seconds.\n* Use Auspicious Incantation to help manage energy costs (especially since Echo chains consume a lot of energy); the downside is mitigated since the disabled skill gets replaced shortly after.\n* To capture Echo from a boss that has just copied a skill, wait 30 seconds (for the effect to wear off) before using your Signet of Capture.\n* If used to copy a skill that can copy another skill or spell, the copy duration of that skill is used and will bypass Echo's 30-second copy duration, but Echo will still be disabled for 10 seconds afterwards.\n** E.g., if used to copy Arcane Larceny/Thievery with Domination Magic rank 15, whatever spell that is stolen from a foe by the Echo version of Arcane Larceny/Thievery will remain as that stolen spell for 35 seconds and then revert back to Echo.\n** E.g., if used to copy Arcane Larceny/Thievery with Domination Magic rank 0, whatever spell that is stolen from a foe by the Echo version of Arcane Larceny/Thievery will remain as that stolen spell for 5 seconds and then revert back to Echo.\n*Echo's copying effect triggers first, before the effects of the skill that triggers it. For instance, when used to copy Blackout, the copy is disabled for 5 seconds.\nEcho's description omits the fact that it cannot copy a Signet of Capture and itself.",
+      "text": "* Echo 可複製冷卻時間長的強力技能，使其可使用頻率加倍。\n* 也可用來複製冷卻時間短的技能，以便連續使用，例如帶有冷卻時間的怒氣技能。\n* 將 Echo 與魔法回音搭配，可形成複製鏈，同時持有同一技能的三個副本。再加入魔力模仿，還能建立某一隊伍成員精英技能的多份副本。\n* 只有未複製任何技能時，Echo 才會正常進入冷卻。若已複製技能，副本會保留 30 秒，之後 Echo 會被禁用 10 秒。\n* 幸運咒語可協助支應能量消耗，尤其是耗能很高的 Echo 複製鏈。被禁用的技能很快會被替換，因此能減輕其缺點。\n* 若要從剛複製技能的首領捕捉 Echo，須先等待 30 秒，讓複製效果結束，再使用捕捉紋章。\n* 若複製的技能本身也能複製技能或法術，則採用該技能自己的複製持續時間，取代 Echo 的 30 秒限制；效果結束後，Echo 仍會被禁用 10 秒。\n** 例如，支配魔法等級 15 時，用 Echo 複製盜竊魔法或魔法竊取，再偷取敵人的法術，該法術會保留 35 秒，然後才變回 Echo。\n** 支配魔法等級 0 時，同樣方式偷取的法術會保留 5 秒，然後變回 Echo。\n* Echo 的複製效果先於觸發它的技能效果生效。例如用來複製意識喪失時，副本也會被禁用 5 秒。\nEcho 的說明未提及它無法複製捕捉紋章，也無法複製自身。",
+      "reason": "消除 spam、boss、party member 的機譯錯誤；逐項保留 30/10 秒與複製技能覆蓋持續時間的 35/5 秒例子及效果觸發順序。 複製對象為同一位隊伍成員的精英技能，不是多名成員。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1305/variants/skill-version:gww:1305/notes/0",
+          "englishHash": "05bc1c61d0bee26078897d55aa5597d3ce23e2956ac1d1ca9a6952b75e83fa28",
+          "evidenceHash": "75e2149b541e151b846c716220bb781d8099a86b784158248ca7d60100d2e292"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Extinction.\n* This skill does not affect creatures with no creature type, such as most Titans (with the exception of titans in the Domain of Anguish).\n* Beware of the possible backfire of this skill on your party or allied NPCs.\n** M.O.X., Jora, Pyre Fierceshot, Ogden Stonehealer, Vekk and Zhed Shadowhoof are respectively golem, norn, charr, dwarf, asura and centaur heroes. If using this skill, use those heroes rather than other human heroes of the same profession, as long as the area doesn't have other members of the same type (i.e. avoid using Pyre while in the Charr Homelands and Ascalon areas, Ogden while in the Southern and Northern Shiverpeaks, and Zhed when in the Maguuma Jungle; Jora is generally safe since Avarr the Fallen and Johon the Oxflinger are the only Norn foes you can kill).\n** Not all allied human NPCs are considered the same creature type for the purposes of this ritual. For example, service NPCs (collectors, merchants, etc) and many non-hostile NPCs (including allies but not henchmen party members) each have their own species category separate from both each other and players.\n* This skill is particularly lethal to minions, as most of them will already be below the 90% health requisite due to their innate health degeneration.\n* Consider using with disease, as it also affects members of the same type and allows to reach the 90% requisite more easily.\n* As with all nature rituals, being in range of 2 EoE spirits does not increase the damage - only the stronger EoE takes effect.\n:* If 2 creatures are each in range of a different EoE (and each other), the EoE that deals damage will be the one in range of the creature that died.",
+      "text": "* 此技能會創造一個 Spirit of Extinction。\n* 此技能不影響沒有生物類型的生物，例如多數泰坦；悲難之門中的泰坦除外。\n* 留意此技能反過來傷害己方隊伍或盟友 NPC 的風險。\n** M.O.X.、喬拉、Pyre Fierceshot、Ogden Stonehealer、Vekk 與 Zhed Shadowhoof，依序是魔像、諾恩、夏爾、矮人、阿修羅與半人馬英雄。使用此技能時，若所在地沒有同類型的其他生物，可優先選用這些英雄，取代同職業的人類英雄。例如，在夏爾家園區與阿斯卡隆地區避免使用 Pyre；在南、北席娃山脈避免使用 Ogden；在梅古瑪叢林避免使用 Zhed。喬拉通常安全，因為能被你擊殺的諾恩敵人只有 Avarr the Fallen 與 Johon the Oxflinger。\n** 就此自然儀式而言，並非所有人類盟友 NPC 都屬於同一生物類型。例如服務 NPC（收藏家、商人等）與許多非敵對 NPC，各自擁有獨立的物種類別，彼此不同，也與玩家不同。這包括盟友 NPC，但不包括加入隊伍的傭兵。\n* 此技能對僕從特別致命，因為多數僕從會因天生的體力衰減，早已低於觸發所需的 90% 體力門檻。\n* 可考慮搭配疾病；疾病同樣會影響同類型的生物，讓它們更容易降至 90% 體力以下。\n* 與所有自然儀式相同，同時處於兩個 EoE 精靈範圍內不會增加傷害，只會由較強的 EoE 生效。\n:* 若兩個生物各自處於不同 EoE 的範圍內，且彼此也在作用範圍內，則由死亡生物所在範圍的 EoE 造成傷害。",
+      "reason": "恢復泰坦例外、六名非人類英雄及各地區風險；區分盟友與隊伍傭兵，修正 90% 體力門檻及兩個自然儀式的傷害歸屬。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2511/variants/skill-version:gww:2511/notes/0",
+          "englishHash": "8ebc8e0a50f62ec780e2dce2e50182ec8c205be48b4f1b14c158ad4ef368072d",
+          "evidenceHash": "6f4e570ceb8699bc0bf7f1bde6ebe3dd720d0a0ad2920a79919db3c980c84418"
+        }
+      ]
+    },
+    {
+      "source": "* After reaching the first allegiance rank, Kurzick/Luxon Supporter, level 20 characters may learn this skill from a Kurzick Bureaucrat or Luxon Scavenger for 3,000 faction.\n* The skill icon for the Kurzick version is on top, and the icon for the Luxon version is on the bottom.\n* This skill shadow steps all spirits you control in compass range to your location, thus has a greater range than Draw Spirit.\n* This skill shares most of the quirks of other shadow steps:\n** If the caster is standing on or below a bridge, the spirits may move to either side of the bridge; this is consistent with the game's inability to understand three dimensions.\n** If a spirit is targeted by an area damage over time spell, the area of effect sometimes moves with the spirit.\n** Unlike other shadow steps, this will not cancel any skills the spirits were activating when stepping.\n* If there are more than one spirit of the same type within compass range, the nearest shadow steps to your location and others are destroyed.\n* Since Summon Spirits' range is about radar range and the limitation of duplicate allied spirits is about 3/5 of radar range, you can make tactical use of two sets of spirits as follows: When you come within radar range of the next anticipated battle location set up your 1st set of spirits and then move to that location. When your binding rituals recharge, set up a 2nd set of spirits and draw the opponents to them and use them as meat shield. When all or most of the 2nd set have died, cast Summon Spirits to draw the 1st set to the battle, even if the binding rituals have not yet recharged.",
+      "text": "* 角色達到 20 級，且效忠等級達到第一級「庫茲柯／勒克森支持者」後，可向庫茲柯理事或勒克森拾荒者花費 3,000 陣營值學習此技能。\n* 庫茲柯版本的技能圖示在上，勒克森版本在下。\n* 此技能會讓羅盤範圍內所有由你控制的精靈，以暗影步移到你的位置，因此範圍大於靈之牽引。\n* 此技能具有多數暗影步共有的特殊現象：\n** 施法者站在橋上或橋下時，精靈可能移到橋的任一側；這源於遊戲無法正確判讀三維位置。\n** 精靈若成為區域持續傷害法術的目標，效果區域有時會隨精靈移動。\n** 與其他暗影步不同，精靈移動時不會取消正在發動的技能。\n* 若羅盤範圍內存在多個同類型精靈，最近的一個會以暗影步移到你身邊，其餘則會被摧毀。\n* 召喚精靈的範圍約等於雷達範圍，而友方同類精靈的重複限制距離約為雷達範圍的 3/5，因此可採用兩套精靈戰術：進入下一處預定戰場的雷達範圍時，先設置第一套精靈，再前往戰場。等縛靈儀式冷卻完畢，設置第二套精靈，將敵人引來，讓第二套充當肉盾。第二套全部或大部分死亡後，施放召喚精靈，將第一套拉入戰場，即使此時縛靈儀式尚未冷卻完畢也能如此操作。",
+      "reason": "修正同類精靈最近者移動、其餘被摧毀的主語；完整保留羅盤範圍與 3/5 雷達限制，以及兩套精靈的施放和冷卻順序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:41156/variants/skill-version:gww:41156/notes/0",
+          "englishHash": "6ff2c70132ec671fcf6ef0b8d90964a2b6de3c395a25bd68755759a563918e4f",
+          "evidenceHash": "0eeb701c83a89e4c29943fdcf668d98ce40e2d2596e30c799f89000b66b75d8d"
+        }
+      ]
+    },
+    {
+      "source": "* When using Arcane Mimicry on an ally that has more than one elite skill, the first elite skill from the left on their skill bar is copied. Accordingly, keep Arcane Mimicry to the right of any intended elite skill(s) if the team build requires mutual mimicry.\n* If used on an ally without a non-form elite skill, Arcane Mimicry recharges instead.\n**Heroes (and presumably other NPCs) cannot use this skill to copy any PvE-only skill.\n* A successful Arcane Mimicry does not recharge like other skills: after the copy effect ends, the skill is disabled for 60 seconds.\n* Maintained enchantments, skills that last indefinitely without an upkeep or skills that renew themselves copied with Arcane Mimicry will continue to be maintained, active or renewable even after expiration of Arcane Mimicry copy effect.\n* Signet of Illusions or Symbols of Inspiration can be used to boost the attribute rank of a relevant copied elite.\n* Players are able to copy elite skills which are not available from their skill list, but use them only when certain conditions are met:\n** if the skill is a core skill or belongs to a campaign available on the account, the player (and their heroes) can use it even if it has not been unlocked.\n** if the skill belongs to a campaign unavailable to the account, it will be copied to the skill bar but cannot be used by the playable character (remaining locked like PvE-only skills are in a PvP area).\n** heroes are able to copy and use skills from any campaigns available and unavailable to an account, but the player cannot force the use of skills from campaigns unavailable to them.",
+      "text": "* 對持有多個精英技能的盟友使用魔力模仿時，會複製其技能欄由左起第一個精英技能。因此，若隊伍配置需要互相模仿，應將魔力模仿放在預定複製的精英技能右側。\n* 若盟友沒有任何非型態類的精英技能，魔力模仿會直接進入冷卻。\n** 英雄（推測也包括其他 NPC）無法用此技能複製任何 PvE 專用技能。\n* 成功複製後，魔力模仿不會像一般技能那樣冷卻：複製效果結束後，此技能會被禁用 60 秒。\n* 透過魔力模仿複製的維持型加持、無須維持費用即可永久存在的技能，以及能自行續期的技能，即使複製效果結束，仍可繼續維持、生效或續期。\n* 幻術紋章或靈感標誌可提高所複製精英技能對應的屬性等級。\n* 玩家可複製技能清單中沒有的精英技能，但須符合以下條件才能使用：\n** 若是核心技能，或屬於帳號已擁有的戰役，玩家及其英雄即使尚未解鎖，也能使用。\n** 若屬於帳號未擁有的戰役，技能仍會複製到技能欄，但玩家角色無法使用；它會維持鎖定，如同 PvP 區域中的 PvE 專用技能。\n** 英雄能複製並使用任何戰役的技能，不論帳號是否擁有該戰役；但玩家無法手動命令英雄使用自己未擁有戰役的技能。",
+      "reason": "區分未持有非型態精英時的冷卻與成功複製後禁用；恢復維持加持和自行續期，以及玩家與英雄的帳號戰役限制差異。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1680/variants/skill-version:gww:1680/notes/0",
+          "englishHash": "cfec6a9c103eed49bf6727f634af7c8f5a781e41d611bb3799659401627507b4",
+          "evidenceHash": "248a8ff59e08d92449227fb5620e6f1ad3b557f735eb087b7047ca0cb3e28d12"
+        }
+      ]
+    },
+    {
+      "source": "* When used against Charr, the Ebon Vanguard Assassin can survive long enough to complete up to two attack chains. When used against other foes, the Assassin only has enough time for a single attack chain.\n** All its skills are unblockable\n** His Iron Palm will knock down foes that are hexed or suffering from a condition.\n* You can create multiple Assassins in an area.\n* It is not infused nor does it leave an exploitable corpse.\n* When its summoning period ends, it appears to Shadow Step into nothingness.\n* It will be higher than level 20 if cast under the effects of Signet of Illusions with an Illusion Magic rank 17 or more.\n\nThe Assassin doesn't shadow step; it is spawned directly next to the target.\nThe Assassin is counted as a created creature for Spirit's Gift, Explosive Growth, and Boon of Creation. However, it does not count as a summoned creature and is not affected by Spawning Power. Despite this classification, it is not affected by sulfur.\nThough the Assassin does not count towards the minion cap, summoning one will cause the game to check the players minion control limit, potentially destroying any minions over the limit.\nThe Assassin does not always target the foe targeted by the caster, but instead targets the foe closest to its creation point.\nVery rarely, the assassin may survive indefinitely. This can occur if resurrected by an enemy-created Restoration spirit, as by Reborn Irukandji.",
+      "text": "* 對夏爾使用時，黑檀先鋒隊暗殺者的存在時間足以完成最多兩套連擊；對其他敵人使用時，只夠完成一套。\n** 他的所有技能都無法被格擋。\n** 他的鐵掌會擊倒帶有降咒或病症的敵人。\n* 同一區域可同時創造多名暗殺者。\n* 他未經灌注魔力，也不會留下可利用的屍體。\n* 召喚時間結束時，他看起來會以暗影步消失。\n* 若在幻術魔法等級至少 17 的幻術紋章效果下施放，暗殺者的等級會超過 20。\n\n暗殺者實際上不會以暗影步抵達，而是直接生成在目標旁。\n對生靈天賦、爆發增長及創物者恩賜而言，暗殺者算是被創造的生物。然而，他不算召喚生物，也不受召喚屬性影響。儘管如此，他仍不受硫磺影響。\n暗殺者本身不計入僕從上限，但召喚他時，遊戲仍會檢查玩家的僕從控制上限，因而可能摧毀超出上限的僕從。\n暗殺者不一定攻擊施法者指定的敵人，而會攻擊距離生成位置最近的敵人。\n極少數情況下，暗殺者可永久存活。例如，他被敵方創造的復甦精靈復活時就可能發生，Reborn Irukandji 所創造的精靈便是一例。",
+      "reason": "將 condition 校正為病症而非疾病，修正召喚屬性、灌注魔力及僕從上限的主語，保留直接生成、最近敵人與敵方復活的例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:63124/variants/skill-version:gww:63124/notes/0",
+          "englishHash": "11a270c16aac2966c25d5629535cf208f0d5fa346ca74b658d9aa0aef941e565",
+          "evidenceHash": "a07f3dde2209b21bb6d08c7c220fa62e2bcd1b2e77b6c03506b6322937ff8bc7"
+        }
+      ]
+    },
+    {
+      "source": "* While under the effect of this skill, attacks with a bow will deal armor-respecting fire damage to all foes in an area adjacent to the landing area of each shot arrow, before the arrow itself hits.\n** The explosion occurs regardless of whether the arrow actually hits its target (even if it misses, strays or is blocked).\n** Multiple-arrow attacks (Dual Shot, Forked Arrow, Triple Shot and Incendiary Arrows) will trigger an explosion for each arrow.\n** The fact that the explosion triggers first is relevant for skills such as Reversal of Fortune or Reversal of Damage.\n** Unlike Kindle Arrows, the damage type of the arrows is not converted to fire, thus:\n*** This skill alone will not be enough to make the arrows meet the condition of Conjure Flame's bonus damage without using a fiery bowstring.\n*** The fire damage of the explosion, however, can be used to trigger burning on foes hexed with Mark of Rodgort without the need of a fiery bowstring. \n*** This also allows the main arrow attack to benefit from physical damage triggers, such as Winnowing, Mark of Pain or Barbs, even if the secondary preparation-caused explosions deal fire damage.\n** The explosion itself is not an attack. The damage will not be increased by effects increasing the damage of attacks such as modifiers on the bow or skills like Ursan Roar or \"Together as One!\". However it is increased by Ebon Battle Standard of Honor.",
+      "text": "* 此技能生效時，每支弓箭都會在箭矢本身命中前，先對落點緊鄰範圍內的所有敵人造成受護甲減免的火焰傷害。\n** 不論箭矢是否命中目標，爆炸都會發生；未命中、偏離或被格擋也不例外。\n** 多箭攻擊（雙重箭、雙箭、Triple Shot 及燃燒之箭）會讓每支箭各觸發一次爆炸。\n** 爆炸先於箭矢命中的順序，會影響幸運逆轉或傷害反轉等技能。\n** 與火箭不同，此技能不會將箭矢的傷害類型轉成火焰，因此：\n*** 未使用火焰弓弦時，單靠此技能無法讓箭矢符合召喚火焰的額外傷害條件。\n*** 但爆炸的火焰傷害可使帶有洛葛特的印記降咒的敵人陷入燃燒，無須火焰弓弦。\n*** 即使準備技能造成的次要爆炸是火焰傷害，箭矢本身仍可觸發吹拂之風、痛苦印記或荊棘等依賴物理傷害的效果。\n** 爆炸本身不是攻擊。弓的傷害修正，或 Ursan Roar、「Together as One!」等提高攻擊傷害的效果，都不會提高爆炸傷害；Ebon Battle Standard of Honor 則能提高它。",
+      "reason": "區分箭矢物理傷害與受護甲減免的火焰爆炸，保留爆炸先結算、每箭一次，以及攻擊增傷無效但戰旗有效的例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6579/variants/skill-version:gww:6579/notes/0",
+          "englishHash": "d18d164e50a7268743447db1cf8f46655b1049dd8284c450c24eda087b602ea8",
+          "evidenceHash": "4069070e5deac6919552edefca948aed05b37d97a7f639c859d2e23d1c1e882a"
+        }
+      ]
+    },
+    {
+      "source": "* This skill will activate only if you do not have an animal companion and the target is a charmable animal. \n** It can target friendly and hostile creatures, but not allies nor animals already charmed to be pets.\n** If you try to use it on an invalid target, it will fail to activate (and you will see the relevant error message in red text).\n* Once an animal is charmed, there is no special value to bringing this skill over Comfort Animal or Heal as One in PvE.\n* Although this skill is unaffected by your rank in Beast Mastery, your pet's attacks benefit from a higher rank and you recover more quickly if your pet dies.\n* Even if you replace this skill with another (e.g. a mission-specific skill such as Disarm Trap), your pet will remain with you. If you rezone and retain the replacement skill, the pet will not zone with you.\n* PvE characters and heroes have to charm their own pets; PvP players start off with an Elder Wolf.\n* Be careful when charming a pet with nearby heroes or henchmen: the target will become hostile and could be killed. To prevent this, flag your allies farther away and/or set heroes to avoid combat. \n* There are six special versions of this skill, notably the one used in the Codex Arena.\nAlthough technically considered a pet, occasionally a charmed animal will retain the red wording associated with a hostile enemy just after completing the charm animal skill.",
+      "text": "* 只有你尚無動物夥伴，且目標是可馴服動物時，此技能才會發動。\n** 可指定友好或敵對生物，但不能指定盟友，也不能指定已被馴服為寵物的動物。\n** 若對無效目標使用，技能不會發動，並會以紅字顯示相應的錯誤訊息。\n* 動物馴服後，在 PvE 中攜帶此技能，並不比攜帶安慰動物或治癒合一有特殊優勢。\n* 雖然此技能不受野獸支配等級影響，但提高該屬性仍能強化寵物攻擊，也能縮短寵物死亡時你的技能恢復所需時間。\n* 即使此技能被其他技能取代，例如任務專用技能 Disarm Trap，寵物仍會留在身邊。但若保留替代技能並切換區域，寵物就不會隨你進入新區域。\n* PvE 角色與英雄必須自行馴服寵物；PvP 角色起初便擁有一隻 Elder Wolf。\n* 附近有英雄或傭兵時，馴服寵物須格外留意：目標會變成敵對，因而可能被殺死。可將盟友旗標設在較遠處，或將英雄設為避免戰鬥，來防止此事。\n* 此技能共有六種特殊版本，其中包括 Codex Arena 使用的版本。\n動物完成馴服後，雖然已被視為寵物，偶爾仍會暫時保留敵對生物使用的紅色名稱文字。",
+      "reason": "修正 charmable 為可馴服、rezone 為切換區域；保留友好生物與盟友的差別、替換技能後寵物跨區限制及英雄傭兵誤殺風險。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1490/variants/skill-version:gww:1490/notes/0",
+          "englishHash": "0bec3dc1b2b41b5f7cf43f671098f47057a2c2e2a80bc7c39d91485526388d1f",
+          "evidenceHash": "7cf1ebcd7251e9da12b45cc5687870252fd864a5b9f20c1ab246561a3f3b3db2"
+        }
+      ]
+    },
+    {
+      "source": "*Intensity's area of effect damage triggers on one elemental damage packet done by a spell after Intensity is activated.\n**The concise description is correct; untargeted spells such as Inferno can still trigger Intensity.\n**High damage packets from spells such as Fireball, Rodgort's Invocation, Lightning Orb, Lightning Surge or Lightning Hammer are usually better to optimize intensity's effect. \n**Try to target foes with the lowest armor rating, typically casters and foes affected with Cracked Armor.\n**Conjure spells do not trigger Intensity (nor does any non-spell source of damage, such as attacks, regardless of damage type).\n*The damage ignores armor.\n*This skill can be activated while moving or activating a skill; you can also use it after you cast the spell to be intensified if there is a delay between the end of the casting and the damage packet, e.g. Meteor Shower &rarr; Intensity.\n*Outside of elementalist skills, high elemental damage is mostly found in Death Magic (Deathly Swarm and Icy Veins being of note), and Spawning Power/Channeling Magic (Rupture Soul, Spirit Rift and Destructive was Glaive being of note). Some PvE skills are also eligible, namely Snow Storm and (combined with other effects to convert it to elemental damage) Ebon Vanguard Sniper Support.\n\nWhen sorting skills by campaign, this is listed under Core although it's a Nightfall skill.",
+      "text": "* Intensity 發動後，法術造成的一次元素傷害會觸發它的範圍傷害。\n** 簡短說明的描述正確；地獄火等不指定目標的法術仍能觸發 Intensity。\n** 使用單次傷害較高的法術，通常更能發揮效果，例如火球、洛葛特的魔咒、閃電球、閃電震盪或閃電之鎚。\n** 優先攻擊護甲最低的敵人，通常是施法者或帶有護甲破損的敵人。\n** Conjure 系列法術不會觸發 Intensity；任何非法術來源的傷害也不會觸發，例如攻擊，不論其傷害類型為何。\n* 此技能的傷害無視護甲。\n* 移動中或正在發動其他技能時，都能發動此技能。若法術施放完畢與傷害結算之間有延遲，也可先施放要強化的法術，再使用 Intensity，例如「隕石雨 → Intensity」。\n* 除元素使技能外，較高的元素傷害也常見於死亡魔法（尤其是致命蟲群與冰冷紋理），以及召喚／導引魔法（尤其是生靈迸裂、生靈裂縫與毀滅者葛雷薇）。部分 PvE 技能也符合條件，包括 Snow Storm，以及搭配其他效果將傷害轉為元素傷害的 Ebon Vanguard Sniper Support。\n\n按戰役排序技能時，此技能雖屬黑暗逆襲，卻會列在核心分類。",
+      "reason": "釐清一次元素傷害觸發與額外範圍傷害無視護甲的區別；修正護甲破損及 Conjure 系列，保留施法後延遲發動與分類錯誤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:41117/variants/skill-version:gww:41117/notes/0",
+          "englishHash": "51cf98e2472bd194a04ab7d8a0a6717af058b3395a1c6ee62072d4813b1d9a9b",
+          "evidenceHash": "5a96b9add5245deadf886bd5e59e0a7b5743e7998d328fd045b7c90ad57bc023"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Vampirism that uses the Vampirism attack skill.\n* The attacks used by this spirit steal life, so it does not receive the bonus damage from Signet of Ghostly Might.\n* The amount which you are healed will always be the same because Vampirism heals you. The amount of health left on a target only affects how much the spirit is healed by the life stealing, not how much you are healed. Therefore, additional life stealing from Spiritleech Aura does not give additional healing to you.\n\nContrary to the description, the healing from this skill is gained through life stealing rather than a heal. Therefore, the heal is unaffected by hexes that reduce healing such as Lingering Curse or Defile Flesh, and the spirit will not take damage from healer-punishing hexes such as Scourge Healing or Soul Bind.\n\nThe distance of healing is much greater than spirit range and it seems that healing covers all the current location.\n\nThe Spirit of Vampirism's attack skill is a monster skill independent of the Sunspear rank. Unlike the progression of other Sunspear skills after the May 17, 2012 update, Vampirism's life stealing continues to follow the progression prior to that update (i.e. maximum effectiveness is reached at Sunspear rank 10 instead of 5) even though the descriptions display 20 life stealing from rank 5 to 9.",
+      "text": "* 此技能會創造一個使用 Vampirism 攻擊技能的 Spirit of Vampirism。\n* 此精靈的攻擊會偷取生命，因此不會獲得生靈神力紋章的額外傷害。\n* Vampirism 給你的恢復量固定不變。目標剩餘體力只會影響精靈透過偷取生命恢復多少體力，不會影響你的恢復量。因此，Spiritleech Aura 額外偷取的生命不會讓你獲得更多恢復。\n\n與說明不同，此技能透過偷取生命恢復體力，並非治療。因此，強力詛咒或肉體敗壞等降低治療量的降咒不會影響其恢復量；精靈也不會受到災禍治癒或靈魂束縛等懲罰治療者的降咒傷害。\n\n恢復體力的距離遠大於精靈範圍，看來可涵蓋目前所在的整個區域。\n\nSpirit of Vampirism 的攻擊技能是獨立於日戟等級的怪物技能。其他日戟技能在 2012 年 5 月 17 日更新後採用新的成長曲線，但 Vampirism 的偷取生命量仍遵循更新前的曲線：日戟等級 10 才達到最大效果，而非等級 5。即使等級 5 至 9 的說明都顯示偷取 20 點生命，實際效果仍是如此。",
+      "reason": "區分玩家固定恢復量與精靈偷取生命量，補回生靈神力紋章不增傷及非治療性質，完整保留 2012 更新與等級 10/5 的說明差異。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:41123/variants/skill-version:gww:41123/notes/0",
+          "englishHash": "6128078c7e837a29a701218df517d49e725e50ef2662e36d6d9ac1110a51322e",
+          "evidenceHash": "a7e53c6295379588c6b2beba068fe416edfbdf45957bc3f81b81dfccb395ec69"
+        }
+      ]
+    },
+    {
+      "source": "* Although it only allows you to disconnect one minion or to take control of one, its quick recharge and low energy cost is good for taking small groups of minions or taking masterless undead.\n* Good synergy with Malign Intervention.\n* Although it is possible to take control of a minion, it is not possible to take control of effects on that minion. For example, Death Nova will damage the enemies of whoever cast it and not the present controller of the minion. Similarly, Dwayna's Sorrow will heal the party of the caster. The exception to this is Jagged Bones, which will create a minion under the control of whoever controls the minion when it dies.\nWhen casting Verata's Gaze on a masterless minion that was in a well, the effects of that well will persist even after the minion leaves, until the well expires.\nWhen used on a Bone Horror immediately after it was created via Malign Intervention, the Bone Horror becomes stuck and will not move until you engage an enemy.\nIf this is cast on a minion, it will still follow its original owner, not the new owner. If the minion is turned hostile and then has this skill used on it as it is being summoned, it will follow the user of this skill, however if too slow it will follow its original owner again.\nThis skill has no aftercast delay.",
+      "text": "* 雖然每次只能解除一個僕從的控制權或取得一個僕從的控制權，但冷卻短、耗能低，適合奪取小群僕從或收編無主的不死生物。\n* 可與惡性感染良好搭配。\n* 奪取僕從不會改變它身上效果的歸屬。例如死亡新星會傷害原施法者的敵人，而非依目前僕從控制者判定敵我；薇娜的憂傷也會治療原施法者的隊伍。鋸齒骸骨則是例外：它會為僕從死亡當下的控制者創造新的僕從。\n對身處井類法術範圍內的無主僕從施放 Verata's Gaze 後，即使僕從離開井的範圍，該井的效果仍會持續，直到井本身結束。\n若對剛由惡性感染創造的 Bone Horror 立即使用此技能，它會卡在原地，直到你與敵人交戰才移動。\n對僕從施放此技能後，它仍會跟隨原主人，而非新主人。不過，若先讓僕從轉為敵對，再在它被召喚出來的過程中使用此技能，它會跟隨此技能的使用者；若施放太慢，它仍會跟隨原主人。\n此技能沒有施法後延遲。",
+      "reason": "將 disconnect 校正為解除控制權，釐清死亡新星和薇娜的憂傷沿用原施法者、鋸齒骸骨採死亡時控制者；保留井效果及跟隨原主人的異常。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16190/variants/skill-version:gww:16190/notes/0",
+          "englishHash": "575cf97ba59a44a35d9673713b5bee10141c01a1938fc356a6ec26e497cabc9c",
+          "evidenceHash": "3c3b33c08d6d7ea373d65b45bd190a39deed57e6cfa93d4e406af608744dd1fb"
+        }
+      ]
+    },
+    {
+      "source": "* Combat stats at level 20 (rank 5 or above): \n** It will normally do three attacks between Stoning with one cast every 6 seconds. However, it benefits from its staff's chance for half recharge time of spells 20% of the time. On these occasions it will complete its second normal attack at 2.625 seconds before casting Stoning again (see Activation Time and Attack speed). \n** Its normal attacks deal between 16 and 46 earth damage on targets with 60 armor, and can benefit from weapon spells.\n** It has 15 in Earth Magic.\n** It has enough energy to use stoning 10 times during its lifespan, and will use it 9-10 times depending on the staff's recharge effect. As such, using a skill that reduces recharge time, like Ebon Battle Standard of Wisdom, will not have any noticable effect unless combined with a skill that grants energy. \n* When the summon dies, it leaves a non-exploitable corpse. \n* The summoned Naga is not infused against Spectral Agony.\n* Its Stoning works best if one or more members of the party inflict Weakness on targets. However, it will not always cast the spell on weakened foes.\n* It is considered a non-spirit ally.\n\nThe description is misleading: you can have one active Asura Summon per player.",
+      "text": "* 召喚物等級 20 時的戰鬥數據（聲望等級 5 以上）：\n** 通常每兩次石箭之間會進行三次普通攻擊，石箭每 6 秒施放一次。但其法杖有 20% 機率使法術冷卻時間減半；觸發時，它會在 2.625 秒完成第二次普通攻擊，隨即再次施放石箭，詳見施展時間與攻擊速度。\n** 普通攻擊對護甲 60 的目標造成 16 至 46 點土系傷害，並可受武裝法術加成。\n** 地系魔法等級為 15。\n** 存在期間的能量足以施放 10 次石箭；依法杖冷卻減半效果，實際會施放 9 至 10 次。因此，單用 Ebon Battle Standard of Wisdom 等縮短冷卻的技能不會產生明顯效果，還須搭配提供能量的技能。\n* 召喚物死亡時，會留下一具無法利用的屍體。\n* 召喚出的納迦未經灌注魔力，無法藉此抵禦 Spectral Agony。\n* 隊伍中若有人對目標施加虛弱，便能充分發揮其石箭效果；但它不一定會對帶有虛弱的敵人施放。\n* 它算是非精靈盟友。\n\n說明具有誤導性：每名玩家同時只能有一個阿修羅召喚物。",
+      "reason": "修正 staff 為法杖及 20% 冷卻減半機率，保留 2.625 秒、9–10 次與能量瓶頸；釐清非精靈盟友及每位玩家共用一個阿修羅召喚物限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:58309/variants/skill-version:gww:58309/notes/0",
+          "englishHash": "5ee59b1dbb7c36192c29039b7edc5b5098335ebdccde98bee7bc142fb04255b2",
+          "evidenceHash": "4c3e0877f6e52eb857bb4fce9c16d1391761436c3e00d5e3e644df8cd717d0be"
+        }
+      ]
+    },
+    {
+      "source": "* The energy loss can be split between multiple characters maintaining the same enchantment on one character. Two characters with 8 Protection Prayers will each lose 2 energy per hit. Three characters at 13 Protection Prayers will each only lose 1 energy per hit. Two characters at 13 Protection Prayers will lose 2 and 1 energy, respectively. The first to cast takes the larger energy burden on an odd split. If characters are at differing attribute ranks of Protection Prayers, the lowest rank is used.\n**If the enchantment is split up so that each bonder will lose 1 energy, then each of the bonders can cast Life Bond on the character that is the target of Protective Bond, and then Balthazar's Spirit on themselves to cover all of the energy cost, and maintain Protective Bond as long as it isn't stripped. However, Life Bond only splits up damage from attacks, so 1 energy will still be lost for each packet of damage from non-attack damage. As long as the non-attack damage isn't reduced to zero, 1 energy can usually still be gained from Essence Bond.\n* If more than one character is maintaining this enchantment and one character runs out of energy, all other characters stop maintaining the enchantment.",
+      "text": "* 多名角色對同一角色維持此加持時，可以分攤能量損失。兩名防護祈禱等級 8 的角色，每次受擊各失去 2 點能量。三名防護祈禱等級 13 的角色，每次受擊各只失去 1 點。兩名等級 13 的角色則分別失去 2 點與 1 點。無法均分時，最先施放者承擔較多耗能。若各施法者的防護祈禱等級不同，會採用最低等級。\n** 若已分攤至每名維持者各失去 1 點能量，每人可再對 Protective Bond 的目標施放生命連結，並對自己施放巴薩澤的精神，以補足全部耗能，讓 Protective Bond 在未被移除時持續維持。不過，生命連結只分攤攻擊傷害，因此每次非攻擊傷害仍會消耗 1 點能量。只要該非攻擊傷害未降至零，通常仍可透過本質連結獲得 1 點能量。\n* 多名角色維持此加持時，只要一人耗盡能量，其他所有角色也會停止維持此加持。",
+      "reason": "明確保留 8 級雙人及 13 級雙人、三人的耗能分攤數值，修正最低屬性與先施放者負擔；區分攻擊和非攻擊傷害的能量回補。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13793/variants/skill-version:gww:13793/notes/0",
+          "englishHash": "1bfa35642d8fb2d10a29695d732970720516c6d91ee960d809bdfb09f5133f23",
+          "evidenceHash": "1edf6300ea90d690726cadcfd5e3214d7d9250c1a3174d42acd4b66fe37fc474"
+        }
+      ]
+    },
+    {
+      "source": "* As with all life stealing, this skill can only heal you for the amount of health that the target has left. As such, be sure you target a minion with plenty of health if you need the healing effect.\n* Can be combined with Death Nova, although Putrid Flesh may be preferred in that regard.\n* The health of minions follows the formula health=level*20+80, so the life stealing is a guaranteed kill on minions with level equal to your level of Death Magic+1, unless the minion's health has been increased by Spawning Power. \n** Assuming a caster both summons the minion and steals health from it, and stays at the same Death Magic rank while doing so, the minion is guaranteed to die if it was a jagged horror or a bone minion. Any other minion (except Star Servant or Flesh Golem) will die if the caster is at rank 7 or less in Death Magic, and be left with maximum 20 health at higher ranks. Flesh Golems will lose around 70% of their health.\n*** Can be used with Jagged Bones as a steady source of jagged horrors.\n*** Using Aura of the Lich will spawn a bone horror and then increase the Death Magic rank by 1, effectively allowing to kill the summoned bone horror from full health at any Death Magic rank.",
+      "text": "* 與所有偷取生命效果相同，此技能能為你恢復的體力，不會超過目標的剩餘體力。因此，需要恢復體力時，應選擇體力充足的僕從。\n* 可搭配死亡新星，但若為此用途，惡臭肉體可能更適合。\n* 僕從體力的公式為「體力＝等級 × 20 ＋ 80」。因此，若僕從等級等於你的死亡魔法等級加 1，此技能的偷取生命量必定足以殺死它；但召喚屬性提高了僕從體力時除外。\n** 假設同一施法者召喚僕從並偷取其生命，且過程中死亡魔法等級不變，Jagged Horror 或 Bone Minion 必定會死亡。其他僕從（Star Servant 與鮮血高崙除外）在施法者死亡魔法等級不高於 7 時也會死亡；高於 7 時，則最多剩下 20 點體力。鮮血高崙約會失去 70% 體力。\n*** 可搭配鋸齒骸骨，持續獲得 Jagged Horror。\n*** 巫妖靈氣會先創造 Bone Horror，再使死亡魔法等級提高 1。因此，無論原本的死亡魔法等級多少，都能用此技能殺死剛召喚、體力全滿的 Bone Horror。",
+      "reason": "補回「必定殺死」的結論與召喚屬性例外；逐一保留僕從體力公式、死亡魔法 7 級分界及巫妖靈氣先召喚後加 1 的時序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16188/variants/skill-version:gww:16188/notes/0",
+          "englishHash": "ab80a2c7ab6252a951ac60e93b67d431e7c81d1ddefbfce1b2df22000c9995f1",
+          "evidenceHash": "36869c292337cadf87c79eadfef2953b489810f206b833dc7ef849c4fa58f576"
+        }
+      ]
+    },
+    {
+      "source": "* This skill is a staple energy management skill for primary paragons, even at 0 command, as it allows to trigger the Leadership's energy gain effect frequently and without halting attacks.\n** It can also indirectly help primary Assassins via Critical Strikes.\n* This skill can help party members to meet the critical hit-dependent effects of skills such as Keen Arrow.\n* As with most skills affecting the next attack, this shout will affect attacks already in-flight when used.\n* The shout seems to end before the attack hits, triggering relevant Finales before the attack connects, but Soldier's Strike is still unblockable.\n* Synergizes with a minion master since:\n** It affects allies, so the more minions the party has, the more damage will be added by this skill.\n** Unlike party members and pets that gain bonus damage from attack skills, generally all of the damage of minions is their base damage, causing them to benefit disproportionally from landing critical hits.\n\nContrary to what the description suggests, this skill triggers on hit rather than on attack. For instance, if Cyclone Axe hits several foes, only one of them has increased chance to be critically hit.",
+      "text": "* 這是主職業為聖言者時常用的能量維持技能。即使命令等級為 0，仍可頻繁觸發領導的能量獲取效果，而且不會中斷攻擊。\n** 也可透過致命攻擊屬性，間接幫助主職業為暗殺者的角色。\n* 此技能可協助隊伍成員觸發鋒銳之箭等需要暴擊的技能效果。\n* 與多數影響下一次攻擊的技能相同，此戰嚎也會作用於發動時已在飛行途中的攻擊。\n* 戰嚎看來會在攻擊命中前結束，因此相應的 Finale 系列效果會先觸發；但士兵之擊仍然無法被格擋。\n* 與僕從大師的搭配良好，原因如下：\n** 此技能影響盟友，因此隊伍擁有越多僕從，它帶來的額外傷害就越多。\n** 隊伍成員與寵物能透過攻擊技能獲得額外傷害；僕從則通常所有傷害都屬於基礎傷害，因此暴擊對僕從的增益格外顯著。\n\n與說明暗示的機制不同，此技能在命中時觸發，而非發動攻擊時觸發。例如旋風斧命中多名敵人時，只有其中一名敵人被暴擊的機率會提高。",
+      "reason": "修正 primary 為主職業、Paragon 為聖言者與 Finale 系列誤譯；釐清飛行中攻擊、命中前結束及多目標只有一次暴擊機率加成。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14934/variants/skill-version:gww:14934/notes/0",
+          "englishHash": "1ca800f3ed3aa40cffc57a879954ea4ecb021679ff42572b49398bac803c0e4b",
+          "evidenceHash": "8379caa9054cfb83b495b04345d5e6d9a85570d8a04a33092b778cd928f5a125"
+        }
+      ]
+    },
+    {
+      "source": "* This skill does not only increase the damage from attacks. It increases all armor-respecting damage. For example: \n** It will increase the damage of Stoning but not Obsidian Flame. \n** It will increase the damage of skills that deal damage indirectly, such as Smoldering Embers, Spike Trap and Fire Storm, but not from similar skills inflicting armor ignoring damage such as Wastrel's Demise or Chaos Storm. \n** For non-attack skills, it will not increase typed armor-ignoring damage, such as Holy damage or Shadow damage. It also does not increase the physical damage from Splinter Weapon or Whirling Defense.\n** Attack skills that deal entirely armor-ignoring damage, such as Banishing Strike, are still increased.\n* The bonus damage is Armor-ignoring. \n* The bonus damage is dealt as long as the damage dealer remains standing in the ward; damage from ranged physical attacks as well as from area damage over time skills, such as Fire Storm or Spike Trap, increases while the caster stands in the ward, and will decrease if they leave it.\n* The bonus damage is part of the original damage packet (e. g. Barbs and Mark of Pain will not trigger again on physical attacks).",
+      "text": "* 此技能不只提高攻擊傷害，也會提高所有受護甲減免的傷害。例如：\n** 會提高石箭的傷害，但不會提高黑曜石火焰的傷害。\n** 會提高陰燒餘燼、尖刺陷阱及火焰風暴等間接傷害技能的傷害；但不會提高瓦斯崔之死或混沌風暴等無視護甲傷害技能的傷害。\n** 對非攻擊技能而言，即使無視護甲傷害帶有神聖或暗影等傷害類型，仍不會獲得加成。爆刺武裝或旋風防禦的物理傷害也不會提高。\n** 但完全造成無視護甲傷害的攻擊技能，例如 Banishing Strike，仍會獲得加成。\n* 這項額外傷害無視護甲。\n* 只要傷害來源的角色仍站在結界內，就能獲得額外傷害。遠程物理攻擊，以及火焰風暴或尖刺陷阱等區域持續傷害技能，都會在施法者站在結界內時增傷；離開後傷害便會降低。\n* 額外傷害會併入原本的單次傷害，不會另算一次。因此，物理攻擊不會藉此再次觸發荊棘或痛苦印記。",
+      "reason": "校正 armor-respecting 為受護甲減免、ward 為結界，保留完全無視護甲的攻擊技能仍增傷之例外，及額外傷害併入同次傷害的機制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59022/variants/skill-version:gww:59022/notes/0",
+          "englishHash": "26fef29274cab583e97b1c2114a2098e94fad3d0a72d9c4da02ea02d3f3d6244",
+          "evidenceHash": "0f50b8f46d50faf3176aa6262a959044189e0525433c8f1b6e2d137a83aacfc8"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Winter.\n* Mechanically, this skill is vastly different than how Conflagration, Greater Conflagration, Kindle Arrows and elemental bowstrings work:\n** Spirit of Winter will not allow you to trigger the requirement of Conjure Frost, as it changes the elemental damage received to cold, rather than change the damage output of an elemental weapon to cold. \n** Conflagration, Greater Conflagration, Kindle Arrows and Elemental bowstrings change the damage type output to fire or other elements, which allows you to trigger conjure spells with them, but not with Winter.\n* Because of this, Winter will not stop Conjure Flame from working with Kindle Arrows when under it's effect; it will simply change the final damage caused on the enemy from Fire to Cold Damage.\n** Hence winter will not ever activate Conjure Frost on you, but will be able to activate cold damage reception triggers on the enemy such as Spinal Shivers.\n* Great synergy with skills like Mantra of Frost or Spinal Shivers.\nUnlike Greater Conflagration or Conflagration this skill requires either the attacker or the damage receiver to be inside the spirit area of effect.",
+      "text": "* 此技能會創造一個 Spirit of Winter。\n* 此技能的機制與火靈、Greater Conflagration、火箭及元素弓弦有很大差別：\n** Spirit of Winter 將接收端的元素傷害改為冰冷傷害，並未將元素武器輸出的傷害改為冰冷，因此無法讓你的攻擊符合召喚冰霜的觸發條件。\n** 火靈、Greater Conflagration、火箭及元素弓弦會將輸出的傷害類型改成火焰或其他元素，因而能觸發相應的 Conjure 系列法術；寒冬則不能。\n* 因此，寒冬不會阻止火箭搭配召喚火焰生效；它只會將敵人最終受到的火焰傷害改成冰冷傷害。\n** 寒冬本身永遠不會讓你觸發召喚冰霜，但能觸發敵人身上以受到冰冷傷害為條件的效果，例如刺骨惡寒。\n* 可與冰霜頌歌或刺骨惡寒等技能良好搭配。\n與 Greater Conflagration 或火靈不同，只要攻擊者或傷害承受者其中一方位於精靈的效果範圍內，此技能就能作用。",
+      "reason": "明確區分輸出端轉換與接收端轉換，保留無法觸發召喚冰霜但能觸發刺骨惡寒，以及攻擊者或承受者任一在範圍即可的條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/notes/0",
+          "englishHash": "05639545e9e21a99b19afa753c1cf7677eea02b44cf62501e425435b975707a8",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Conflagration.\n* Mechanically, this skill is vastly different than how Winter works:\n** Winter will not allow you to trigger the requirement of Conjure Frost, as it changes the elemental damage received to cold, rather than change the damage output of an elemental weapon to cold. \n** Conflagration changes the damage type output to fire, like Kindle Arrows, which will allow you to trigger Conjure Flame with it on its own.\n* Because of this, this skill can be used to replace fiery bowstring, and synergizes with Conjure Flame and/or Mark of Rodgort fire damage requirements.\n** This allows you to use to use Zealous or Vampiric bowstrings along with a fire damage bow, which is an important benefit for buiilds focusing in multiple attack skills and Conjure Flame.\n** However, beware that the skill's damage type change will also stop physical damage triggers such as Winnowing, Mark of Pain or Barbs from working when the effect is active.\n\nThis spirit also causes Bone Fiend attacks and spear attacks to strike with fire damage.\nUnlike Winter, this skill requires the attacker to be inside the spirit area of effect.",
+      "text": "* 此技能會創造一個 Spirit of Conflagration。\n* 此技能的機制與寒冬有很大差別：\n** 寒冬將接收端的元素傷害改為冰冷傷害，並未將元素武器輸出的傷害改為冰冷，因此無法滿足召喚冰霜的觸發條件。\n** 火靈則與火箭相同，會將輸出的傷害類型改為火焰，因此單靠此效果即可觸發召喚火焰。\n* 此技能可取代火焰弓弦，並滿足召喚火焰或洛葛特的印記所需的火焰傷害條件。\n** 因而可改用熱望或吸血弓弦，同時仍讓弓造成火焰傷害；這對以多個攻擊技能搭配召喚火焰的配置相當有利。\n** 但傷害類型改變後，效果期間便無法觸發吹拂之風、痛苦印記或荊棘等依賴物理傷害的效果。\n\n此精靈也會讓 Bone Fiend 的攻擊及矛攻擊造成火焰傷害。\n與寒冬不同，此技能必須由攻擊者位於精靈效果範圍內才會作用。",
+      "reason": "修正 fire 為火焰傷害而非開火，保留取代弓弦、物理觸發失效與 Bone Fiend/矛也會轉換；明確此技能要求攻擊者在範圍內。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6535/variants/skill-version:gww:6535/notes/0",
+          "englishHash": "fed9c51936a2aefa624fd5f176521ed1725e40191054abff8352bcaee963363f",
+          "evidenceHash": "0e6531ebd865b16a0e6b76142965819a79779f53f394305ef02114c3973bf21c"
+        }
+      ]
+    },
+    {
+      "source": "Unlike most skills that increase the rate of adrenaline gain by a multiplier, this doubles all non-multiplier sources of adrenaline, not just the basic 1 strike from making an attack.\n* Enduring Harmony extends the duration of this shout to 30 seconds, even at 0 Leadership.\n* Often used to fuel and maintain \"Save Yourselves!\".\n\n;Warrior / Paragon\n\"For Great Justice!\" is a staple skill for Paragons and Warriors, as these professions tend to rely on adrenaline skills to compensate for their low energy regeneration. \n* This skill can function as an indirect energy management tool for Paragons by allowing an increased use of adrenaline-based shouts and chants to trigger Leadership's energy gain more often. \n** The shouts \"Go for the Eyes!\" and \"The Power Is Yours!\" are in particular effective, as they have low adrenaline costs, no activation time and no recharge time. \n* Combines very well with Dragon Slash at 10 or higher Swordsmanship, as the doubled adrenaline gain equals the cost of Dragon Slash itself. This allows the attack skill to be used repeatedly, while also rapidly fueling all other equipped adrenaline skills.",
+      "text": "多數提高怒氣獲取速率的技能只提供倍率加成；此技能則會使所有非倍率來源的怒氣加倍，不只攻擊所獲得的基本 1 擊怒氣。\n* 即使領導等級為 0，恆久福音仍能將此戰嚎的持續時間延長至 30 秒。\n* 常用來累積怒氣，以施放並維持「Save Yourselves!」。\n\n;戰士／聖言者\n「For Great Justice!」是聖言者與戰士的常用技能，因為這兩個職業常依賴怒氣技能，彌補偏低的能量恢復速率。\n* 對聖言者而言，此技能也能間接支援能量維持：更頻繁使用消耗怒氣的戰嚎與聖歌，就能更頻繁觸發領導的能量獲取效果。\n** 「攻擊要害！」與「力量在我！」特別有效，因為兩者怒氣消耗低，無發動時間，也無冷卻時間。\n* 精通劍術等級達到 10 以上時，與龍斬搭配尤其有效；加倍後獲得的怒氣正好等於龍斬本身的消耗，因此可連續使用龍斬，同時快速替其他攜帶的怒氣技能累積怒氣。",
+      "reason": "將 adrenaline 統一為怒氣並保留非倍率來源加倍的範圍；修正聖言者、聖歌及兩個已核定戰嚎名稱，保留龍斬精通劍術 10 級門檻。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14644/variants/skill-version:gww:14644/notes/0",
+          "englishHash": "127b219116e0b32c689c0a2cfee7fd95cc07e685b8329f18dfdd57d9962b6fe5",
+          "evidenceHash": "33ffacebf3a611aeaf7d8a1b9c8e8349f0d8113ae38b6ad1592c7e4d935f5caa"
+        }
+      ]
+    },
+    {
+      "source": "* Unlike Distracting Strike, no damage packet is displayed when hitting the target.\n** Barbs, and the damage increase from Soul Taker, Order of Pain, Strength of Honor, and Conjures will not trigger.\n* A hit is still registered on the target:\n** Adrenaline (and energy if using a Zealous weapon modifier) is gained as usual. \n** Scythe attacks will hit up to two additional adjacent foes (interrupting them and foes adjacent to them).\n** Adrenaline gain from Mark of Fury and Dark Fury, Blood Bond's healing, and Soul Taker's health sacrifice will occur.\n** Life stealing from a Vampiric weapon modifier, Avatar of Grenth, Grenth's Aura and Order of the Vampire will occur.\n** Splinter Weapon will trigger.\n** Distracting Blow needs to hit for its interruption to occur. If Distracting Blow misses (due to blind for instance) or the user is under the effects of Illusionary Weaponry, the interruption will not occur. \nThe concise description is incorrect: the adjacent foes are interrupted but not attacked. Notably, you won't gain adrenaline from them, and Illusionary Weaponry will not damage them (unless wielding a scythe).",
+      "text": "* 與 Distracting Strike 不同，此技能命中目標時不會顯示傷害數值。\n** 荊棘，以及 Soul Taker、痛苦命令、榮耀之力和 Conjure 系列提供的增傷都不會觸發。\n* 目標仍會被判定為遭到命中：\n** 照常獲得怒氣；若使用熱望武器改造，也會獲得能量。\n** 使用鐮刀時，最多會額外命中兩名緊鄰敵人，並打斷這些敵人與各自緊鄰的敵人。\n** 狂暴印記與暗黑憤怒的怒氣獲取、血之連結的治療，以及 Soul Taker 的體力犧牲仍會觸發。\n** 吸血武器改造、古蘭斯化身、Grenth's Aura 與吸血鬼命令的偷取生命仍會觸發。\n** 爆刺武裝仍會觸發。\n** Distracting Blow 必須命中才能打斷。若因盲目等原因未命中，或使用者處於幻象武器效果下，就不會打斷。\n簡短說明有誤：緊鄰敵人會被打斷，但不會遭到攻擊。因此，你不會從這些敵人獲得怒氣，幻象武器也不會傷害它們；使用鐮刀時則有例外。",
+      "reason": "將 hit 從點選修正為命中，逐項區分無傷害數值仍命中、攻擊增傷不觸發、偷取生命仍觸發；保留緊鄰只打斷及鐮刀例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15209/variants/skill-version:gww:15209/notes/0",
+          "englishHash": "62cfe46c6dc5ce42bee20dfb3957292ebc8b5dc4fd620483ffac5f00a8b27e00",
+          "evidenceHash": "7069f57df0072d7ea101c38555bc110c37d65db1eabff90a4f4f62d39b9f1c4f"
+        }
+      ]
+    },
+    {
+      "source": "* The damage reduction increases with every hit received. Damage from the first hit will be reduced by 5, damage from the second by 10, damage from the third by 15 and so on, until the enchantment ends or is recast.\n* This skill is particularly useful for a tank absorbing a lot of damage. For a low armor rating tank being hit rapidly, coupling this skill with Spirit Bond is extremely beneficial, as Spirit Bond takes care of sustaining the tank at first, and thereafter Shield of Absorption usually reduces any damage to zero.\n* Combines well with Seed of Life when the target of both enchantments is under heavy attack (e.g. a character tanking).\n* One of the better enchantments to use with any way of extending Monk Enchantments, such as the Of Enchanting Weapon upgrade and Blessed Aura due to how this enchantment improves its effectiveness the longer it lasts.\n* For characters upholding Melandru's Accord, unlocking Tahlkora will not unlock this skill for other heroes or skill trainers. As a result, it only becomes available much later in Nightfall, in the Desolation or the Gate of Torment instead of Istan.",
+      "text": "* 每次受擊後，傷害減免量都會增加。第一擊減少 5 點傷害，第二擊減少 10 點，第三擊減少 15 點，依此類推，直到加持結束或重新施放。\n* 此技能特別適合承受大量傷害的坦克。若低護甲坦克遭到密集攻擊，搭配精神連結效果極佳：起初由精神連結維持其體力，之後吸收盾通常就能將傷害降至零。\n* 兩項加持的共同目標受到猛烈攻擊時，例如正在坦怪的角色，可與 Seed of Life 良好搭配。\n* 此加持維持越久，效果就越強，因此特別適合搭配延長僧侶加持的效果，例如「附魔」武器升級與祝福靈氣。\n* 對遵守 Melandru's Accord 的角色而言，解鎖 Tahlkora 不會替其他英雄或技能訓練師解鎖此技能。因此，必須等到黑暗逆襲較後期的荒蕪之地或苦痛之門才能取得，而非在艾斯坦取得。",
+      "reason": "保留逐擊 5/10/15 減傷與重施重設，恢復 Of Enchanting 武器升級的責任及延長加持原因；保留 Melandru 挑戰規則造成的解鎖例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13048/variants/skill-version:gww:13048/notes/0",
+          "englishHash": "6bbb4c7e23c4cb7ae074833c93401f3d602d482ba7cdaa3850cab272cb1cd0ac",
+          "evidenceHash": "69b45b5a18fe65a7a82365127e116c16b9e7cbb59c3e05f7623e379655f81f09"
+        }
+      ]
+    },
+    {
+      "source": "*As with any doublecast skill, NPCs will use this skill as soon as there is an enemy within the spell's area of effect range of an ally.\n*If a foe is targeted, the nearest ally (which can be the caster) will be enchanted instead. If nothing is targeted, Double Dragon will only be applied to the caster (the nearest ally).\n**This is the only offensive doublecast skill that does not deal double damage when targeting yourself, because Double Dragon does not have an initial effect. This is due to game mechanics: you cannot be affected by two of the same enchantment.\n*Burning is applied before the effect of skills, thus Double Dragon combines well with skills that require a condition (e.g. Virulence or Vile Miasma) or burning (e.g. Glowing Gaze or Searing Flames).\nIf a foe with a spell targeting prevention skill is targeted, Double Dragon will fail, despite the enchantment applying to the ally nearest to the target foe.\nWhenever a target under the effects of Double Dragon is interrupted, the animation restarts.\nUnlike most area damage over time skills, Double Dragon does not cause AI to scatter.",
+      "text": "* 與其他雙重施放技能相同，只要有敵人進入某名盟友周圍、相當於此法術效果範圍的距離，NPC 就會使用此技能。\n* 若指定敵人，則改為加持距離該敵人最近的盟友，此盟友也可能是施法者。若未指定目標，雙龍只會作用於施法者自身，也就是最近的盟友。\n** 這是唯一在指定自身時不會造成雙倍傷害的進攻型雙重施放技能，因為雙龍沒有初始效果；遊戲機制也不允許同時受到兩個相同加持影響。\n* 燃燒會先於技能效果施加，因此雙龍適合搭配需要病症的技能（如惡毒或惡劣毒氣），以及需要燃燒的技能（如灼熱凝視或爆裂火焰）。\n若指定的敵人受到防止法術指定的技能保護，雙龍便會失敗，即使實際加持對象是距離該敵人最近的盟友。\n受到雙龍影響的目標每次被打斷時，動畫都會重新播放。\n與多數區域持續傷害技能不同，雙龍不會使 AI 敵人散開。",
+      "reason": "修正 condition 為病症，釐清指定敵人時最近盟友的參照點、無初始效果導致自施不雙倍；保留敵方防指定仍令加持失敗及被打斷動畫。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3618/variants/skill-version:gww:3618/notes/0",
+          "englishHash": "cc2d95c1fb5eda4e7cfe03c6e241d8a051f8b1ae239d98c4a131a2b776992c30",
+          "evidenceHash": "a75e18bc135e874ce6eba7148e5af81f85adb6993a8b37975f5e8f6cdfd7a7ad"
+        }
+      ]
+    },
+    {
+      "source": "* The bonus damage begins to apply after the first damage pulse.\n* Synergises with Psychic Instability.\n* Useful to cover other hexes that punish foes for using skills, such as Diversion or Shame, forcing your target to choose between taking the damage or suffering the covered hex's effect.\n** However, this skill does not cover other hexes if the target uses their own hex removal skill, since activation of the hex removal will end Wastrel's Demise, allowing the skill to remove the next hex in the effects monitor.\n* This skill is very effective against targets that do not use skills (e.g. minions or pets) or rarely use them (e.g. The Jade Quarry Carrier Juggernauts and Hauler Turtles activate their skill, Carrier Defense, under limited situations); it does the maximum damage against them and adjacent foes.\nIf the hex is reapplied before it ends, Wastrel's Demise will continue to add up the bonus damage until the first hex would have run out. After that, the bonus damage cycle will start over.\nUnlike most area damage over time skills, Wastrel's Demise does not cause AI to scatter.",
+      "text": "* 額外傷害從第一次傷害脈衝之後才開始加入。\n* 可與精神失衡良好搭配。\n* 可用來覆蓋牽制或羞愧等懲罰使用技能的降咒，迫使目標在承受傷害與觸發下層降咒之間作選擇。\n** 但若目標自行使用移除降咒的技能，就無法保護下層降咒。因為一發動移除技能，瓦斯崔之死便會結束，讓該移除技能轉而移除效果列中的下一個降咒。\n* 此技能對不使用技能的目標（如僕從或寵物），或很少使用技能的目標特別有效。例如 The Jade Quarry 的 Carrier Juggernaut 與 Hauler Turtle，只有在特定情況下才會使用 Carrier Defense；此技能能對這些目標及其緊鄰敵人造成最大傷害。\n若在原降咒結束前重新施加，瓦斯崔之死的額外傷害仍會持續累積，直到原降咒本應結束的時間。之後，額外傷害才會開始新一輪循環。\n與多數區域持續傷害技能不同，瓦斯崔之死不會使 AI 敵人散開。",
+      "reason": "將 hex 從十六進位修正為降咒，恢復覆蓋降咒遇自行解除時失效的先後順序；保留重施不立即重設增傷與不施技能生物的例子。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1513/variants/skill-version:gww:1513/notes/0",
+          "englishHash": "f1d1766934623da2bcda900766f588e13da4c7b13669645c579dc11c0ca0a776",
+          "evidenceHash": "49e25ee0167fd692cdea84643505a871b1c92c477132d03e509c5a392cdcef33"
+        }
+      ]
+    },
+    {
+      "source": "* This skill is the only player skill that can spawn exploitable corpses. \n* The corpses created by this skill will count as dead allies for the purpose of \"I Will Avenge You!\".\n* Multiple additional exploitable corpses have a few notable consequences:\n** Taste of Death or Feast for the Dead can be used more effectively, for instance, to respectively make Blood of the Master safer or keep the minion army alive longer.\n** Allows a team to carry multiple corpse exploitation skills without worrying about running out of corpses. \n** Allows a minion master to always have one Flesh Golem and a few other minions alive, even in areas where exploitable corpses are scarce, as long as the team can find at least one corpse to animate the first golem.\n*** A player or hero bringing sacrifice skills, such as a saccer or a Blood is Power build, can kill themselves to provide this initial corpse.\n* A Flesh Golem's size is determined by its level; the higher the level, the larger the minion.\nOn some very rare occasions, living NPCs will spawn rather than corpses when the golem dies.",
+      "text": "* 這是唯一能產生可利用屍體的玩家技能。\n* 對「我要報仇!」而言，此技能產生的屍體算作死亡盟友。\n* 額外產生多具可利用屍體，帶來以下用途：\n** 更有效地使用死亡滋味或死亡盛宴，例如分別降低主人之血的使用風險，或讓僕從軍團存活更久。\n** 讓隊伍能攜帶多個利用屍體的技能，不必擔心屍體耗盡。\n** 即使所在地缺乏可利用屍體，只要先找到一具屍體來創造第一個鮮血高崙，僕從大師就能持續保有一個鮮血高崙與其他數個僕從。\n*** 攜帶體力犧牲技能的玩家或英雄，例如以犧牲體力為用途的角色，或血之權能配置，可以犧牲至死亡，提供最初的屍體。\n* 鮮血高崙的體型由等級決定，等級越高，體型越大。\n極少數情況下，高崙死亡時會產生活著的 NPC，而非屍體。",
+      "reason": "區分可利用屍體與死亡盟友判定，保留首具屍體的取得方式、死亡滋味與死亡盛宴各自用途，以及高崙死亡生成活 NPC 的罕見異常。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3952/variants/skill-version:gww:3952/notes/0",
+          "englishHash": "b3f4d0bf9710dcb09bedf7e84f75b058993db134896bf7beec6d5db4afd5f4b9",
+          "evidenceHash": "2f952781fc439e98d266f7930e9ccb99177650ae897ed9e8cd9c4bb3a539e811"
+        }
+      ]
+    },
+    {
+      "source": "* Because it has a quick cast time and no energy cost, this skill is a favorite for most forms of PvP.\n* Since it only recharges on morale boosts (usually gained by killing bosses in PvE or flag objectives in PvP), this skill is significantly less useful in situations in which players will be fighting a long time with no morale boosts (i.e. the Underworld).\n* This skill is referred to as a \"soft\" resurrection (contrary to a \"hard\" resurrection skill such as Death Pact Signet or Flesh of my Flesh) due to the fact it can only be used once per morale boost.\n* As with any other skill, a morale boost will not recharge the signet if it is hidden while you are under the effect of a form with form-specific skill bar, e.g. if you kill a boss while under the effects of Ursan Blessing.\n\nThis skill, along with all other skills, recharges when zoning, despite the description text stating it requires a morale boost.\nWhen used on an invalid target, this skill incorrectly gives the \"Invalid spell target.\" message rather than the generic \"Invalid target.\" message.",
+      "text": "* 施放時間短且不消耗能量，因此是多數 PvP 模式常用的技能。\n* 此技能只會在士氣提升時恢復可用，通常來自 PvE 擊殺首領，或 PvP 完成旗幟目標。因此，在冥界等長時間戰鬥且沒有士氣提升的情境中，用處明顯較小。\n* 每次士氣提升後只能使用一次，因此被稱為「軟復活」；死契紋章或 Flesh of my Flesh 等可重複使用的技能則稱為「硬復活」。\n* 與其他技能相同，若處於帶有專屬技能欄的型態，使此紋章被隱藏，士氣提升便無法讓它恢復可用。例如在 Ursan Blessing 效果下擊殺首領時，就是如此。\n\n雖然說明寫著需要士氣提升，但此技能和其他技能一樣，切換區域後也會恢復可用。\n對無效目標使用時，此技能會錯誤顯示「無效的法術目標。」而非一般的「無效的目標。」訊息。",
+      "reason": "修正 flag objectives、Underworld 及 zoning 的機譯，保留每次士氣提升只能使用一次、型態隱藏技能例外與錯誤訊息差異。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1501/variants/skill-version:gww:1501/notes/0",
+          "englishHash": "59f4b9f6c7d5695b38c418bec63d24d3cd7cf2dbcfa4b0d18da8c66dc2e8f000",
+          "evidenceHash": "11438dbe928f353f62e76aa385909a4dc15cd4e79041795824a0e561b582295d"
+        }
+      ]
+    },
+    {
+      "source": "* Heroes do not use this skill on non-attacking foes.\n* Lightning Javelin and Spear of Lightning are the only two skills that uses this line-shaped area of effect.\n** The projectile is identical to a staff's attack, and follows a high arc, similar to that of a flatbow.\n** The projectile strikes foes adjacent to the target, and all foes adjacent to the projectile's flight-path originating from the caster.\n** The projectile seemingly acknowledges \"facing\", as it does not affect \"flanking\" adjacent foes' immediate position to the caster's \"left/right sides and rear\", when facing relative to the target; despite the area of effect being centered on the caster.\n** If the target foe evades towards the spell caster and the projectile misses far, the targeted foe will not receive any damage even if they are still in the projectiles flight path. This is commonly seen using lightning javelin to engage a fight with npcs.\n** If the target is line of sight obstructed, the other foes in the aoe will still be struck even if they too would normally be obstructed.",
+      "text": "* 英雄不會對未在攻擊的敵人使用此技能。\n* 閃電標槍與閃電之矛是僅有的兩個使用這種直線形效果範圍的技能。\n** 投射物與法杖攻擊相同，沿著類似平底弓的高拋物線飛行。\n** 投射物會命中目標緊鄰的敵人，以及從施法者出發、整條飛行路徑緊鄰的所有敵人。\n** 投射物似乎會考量面向：雖然效果範圍以施法者為中心，但當施法者面向目標時，不會影響緊鄰其左右兩側及後方、處於側翼位置的敵人。\n** 若目標向施法者方向閃避，導致投射物大幅偏離，即使目標仍在飛行路徑上，也不會受到傷害。用閃電標槍向 NPC 開戰時常可看到此現象。\n** 若目標因視線遮蔽而受阻，效果範圍內的其他敵人仍會被命中，即使它們原本也應受到視線遮蔽。",
+      "reason": "將 non-attacking 限定為未在攻擊而非不攻擊類型敵人；保留直線範圍、面向排除側後方、向施法者閃避與視線遮蔽的各項異常。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1942/variants/skill-version:gww:1942/notes/0",
+          "englishHash": "5cafdba16ccf3bd454100204123c026c077279fdfc50c4ea65147e987f96f6ef",
+          "evidenceHash": "b105a10a571d767f48aefd374fbe7228434ee4725ac4e9e2d3907640fbf4705d"
+        }
+      ]
+    },
+    {
+      "source": "This also converts chaos, dark, holy and spirit attacks damage types into earth damage.[Source claim needs verification]\nThis skill does not convert damage but instead forces the damage type of all dealt damage to be earth damage. For example when applying Winter on top of stone striker, physical damage is not converted into earth damage, since winter has no effect on it - it still considers the damage to be of physical type. This is irrespective of which damage converting skill is used first.\n* While under this effect, outgoing attacks do not benefit from Conjure spells and (if melee) do benefit from Ebon Dust Aura.\n** This is the case even when conflicting damage type conversions are in effect, regardless of the order they are applied. Most other skills (such as Dust Cloak and Grenth's Fingers) use the most recently applied effect for this purpose instead.\n* Good synergy with Mantra of Earth or Storm Chaser.\n* Consider using with Geomancer Insignia, Earthbound Insignia and a shield or focus item with a \"Like a Rolling Stone\" inscription.",
+      "text": "此技能也會將混沌、黑暗、神聖及精靈攻擊的傷害類型改為土系傷害。[此來源說法仍待核實]\n此技能並非一般的傷害轉換，而是強制所有造成的傷害採用土系傷害類型。固定來源接著舉例：在 Stone Striker 上疊加寒冬時，物理傷害不會轉為土系傷害，因為寒冬對它無效，仍將它視為物理傷害；無論先使用哪個轉換傷害的技能都一樣。這段範例與前句的類型表述不一致，仍待核實。\n* 此效果生效時，你發出的攻擊不會獲得 Conjure 系列法術加成；若是近戰攻擊，則會受益於烏塵靈氣。\n** 即使同時存在互相衝突的傷害類型轉換，無論套用順序如何，仍是如此。其他多數技能（如塵土掩蔽與古蘭斯之指）則依最後套用的效果判定。\n* 可與大地頌歌或追風者良好搭配。\n* 可考慮搭配 Geomancer Insignia、Earthbound Insignia，以及帶有「Like a Rolling Stone」銘文的盾牌或法器。",
+      "reason": "區分強制傷害類型與一般轉換，保留 Conjure/烏塵及順序例外；原頁將強制土系與物理不轉土系並列有歧義，明示待核實而未改寫英文結論。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16244/variants/skill-version:gww:16244/notes/0",
+          "englishHash": "78092e450d5e37af077f7e387622a9265e75236389fef808027e2543224444cb",
+          "evidenceHash": "b9077c465162c148ba331a672d08cb349eb79c95aeca0c2b2b7fe1ef76643407"
+        }
+      ]
+    },
+    {
+      "source": "* Essence Bond will not trigger unless damage is taken, so it might not trigger if the target is protected by skills such as Shielding Hands. However, it will trigger through Shield of Absorption.\n* As with any maintained enchantment, heroes only use this skill during combat and stop maintaining it at other times.\n** They will use it on any ally taking damage and will even maintain it on multiple allies (will stop maintaining when they are no longer taking damage).\n* Essence Bond pays for its its own upkeep as long as the bonded ally suffers physical or elemental damage at least once every three seconds.\n** Most martial foes attack fast enough to meet this requirement.\n** The skill is frequently used for solo farming against multiple foes, since it can restore nearly all energy back to the caster. \n*** Balthazar's Spirit can be a better choice where foes deal other types of damage.\n*** The two skills are combined for 55 monks and 600 builds.\n** It is frequently used on tanks to help maintain the monk's energy.",
+      "text": "* 本質連結必須在目標實際受到傷害時才會觸發，因此目標受到防禦之手等技能保護時，可能不會觸發；但吸收盾不會阻止它觸發。\n* 與其他維持型加持相同，英雄只在戰鬥中使用此技能，其他時間會停止維持。\n** 英雄會對任何受到傷害的盟友使用，甚至同時在多名盟友身上維持；盟友不再受到傷害時便會停止維持。\n* 只要受此加持的盟友每 3 秒至少受到一次物理或元素傷害，本質連結獲得的能量就足以抵銷自身的維持耗能。\n** 多數使用武器攻擊的敵人，其攻擊速度足以滿足此條件。\n** 此技能常用於單人刷取、同時面對多名敵人的情境，因為它幾乎能補回施法者所有消耗的能量。\n*** 若敵人造成其他類型的傷害，巴薩澤的精神可能更適合。\n*** 55 僧侶及 600 配置會同時使用這兩個技能。\n** 此技能也常施放在坦克身上，以維持僧侶的能量。",
+      "reason": "保留實際傷害門檻與吸收盾例外；將 upkeep 校正為維持耗能、martial foes 為武器攻擊敵人，保留每 3 秒及 55/600 配置。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2777/variants/skill-version:gww:2777/notes/0",
+          "englishHash": "bfd1372bbd6b2a4ae00f43d91beaba25b94d1522a0ef82065731820859676049",
+          "evidenceHash": "522aeee44220270f2a745eed5c9670eaad7d3200318a3854f0538372de8e5ccd"
+        }
+      ]
+    },
+    {
+      "source": "*This skill will remain on an ally even if all enchantments end or are removed, but the speed boost will be lost until another enchantment is applied.\n*This skill increases average speed by 4.17...14.17...16.67% if used every time it recharges and ally/allies is/are enchanted for the full duration of Godspeed. \n* If the team members do not already use their own enchantments, one can use the following options to enchant and get the speed boost on as many of them as possible:\n** Party wide enchantments spells: Aegis, Dwayna's Sorrow, Magnetic Surge, Swirling Aura, Magnetic Aura (all three if overcast) and order spells. \n*** Dwayna's Sorrow is the only one to combine both perfect upkeep and long lasting duration. It is also notably cheap with a short casting time.\n** Spammable long-lasting enchantments: Tainted Flesh or Vigorous Spirit mostly. \n** Maintained enchantments. \nThis skill doesn't have punctuation in its name like other shouts, even though the character still shouts it with the punctuation.",
+      "text": "* 即使盟友身上的所有加持結束或被移除，此技能仍會留在盟友身上；但速度加成會暫停，直到再次獲得加持。\n* 若每次冷卻完畢就使用，且盟友在 Godspeed 全程都有加持，平均速度會提高 4.17...14.17...16.67%。\n* 若隊伍成員原本未自行使用加持，可選擇下列方式，讓盡可能多的隊員獲得加持及速度提升：\n** 全隊加持法術：神賜之盾、薇娜的憂傷，以及在過載時影響全隊的 Magnetic Surge、旋渦靈氣、磁能靈氣，還有命令系列法術。\n*** 其中只有薇娜的憂傷能同時做到無間斷維持與長持續時間；它也耗能低、施放快。\n** 可頻繁施放的長效加持，主要是腐敗肉體或精力充沛。\n** 維持型加持。\n此技能名稱不像其他吶喊那樣帶有標點，但角色實際喊出時仍會使用相應標點。",
+      "reason": "修正 overcast 為過載、spam 為頻繁施放、orders 為命令系列；保留三項元素使技能的過載條件、平均速度數列及失去加持後暫停加速。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15218/variants/skill-version:gww:15218/notes/0",
+          "englishHash": "63a59cdd2d5027980bf4149ff07d68cb4b00bcdb0d16a952121132b17d53acf5",
+          "evidenceHash": "b26a83a39c0a71f5c54813e36668d1df64de8d895398db7bd48f7f41d0791f25"
+        }
+      ]
+    },
+    {
+      "source": "* The caster receives the Death Penalty reduction when the hexed foe dies, regardless of who delivered the killing blow.\n* If you kill a boss hexed with Asuran Scan, the order of effects is to your favor. You will first lose 5% Death Penalty and then gain the morale boost.\n* This hex only applies to attacks that would be blocked and attacks affected by Blindness or skill effects that cause attacks to miss; it does not prevent hits from straying, being obstructed, or being dodged. It also does not prevent failure due to unmet requirements, e.g. Oath Shot will still fail 50% of the time if Expertise is below 8, and lead, off-hand, and dual attacks must still be executed in the correct sequence.\n* This is the only hex without a specified activation time. It casts instantly, but it has an aftercast delay and cannot be used in mid-action.\n\nFoes affected by this skill cannot miss.\n\nWhile target foe is hexed, you cannot miss other foes.\n\nThis hex also prevents the target from blocking your attacks.",
+      "text": "* 帶有此降咒的敵人死亡時，無論由誰給予最後一擊，施法者都會獲得死亡懲罰減免。\n* 若擊殺帶有 Asuran Scan 的首領，效果順序對你有利：先減少 5% 死亡懲罰，再獲得士氣提升。\n* 此降咒只作用於原本會被格擋的攻擊，以及因盲目或技能效果而未命中的攻擊；無法防止偏離、視線遮蔽或被閃躲。它也無法避免未滿足條件造成的失敗，例如專精低於 8 時，誓言之箭仍有 50% 機率失敗；前導攻擊、副手攻擊與雙重攻擊也仍須遵循正確順序。\n* 這是唯一未列出發動時間的降咒。它會瞬間施放，但仍有施法後延遲，而且無法在其他動作進行中使用。\n\n受到此技能影響的敵人也不會因未命中判定而失手。\n\n只要目標敵人仍帶有此降咒，你攻擊其他敵人也不會因未命中判定而失手。\n\n此降咒也會阻止目標格擋你的攻擊。",
+      "reason": "修正 Death Penalty 為死亡懲罰，將未命中、格擋、偏離、遮蔽及閃躲分開；保留專精 8 以下的條件失敗、敵人自身與其他敵人兩項異常。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:58290/variants/skill-version:gww:58290/notes/0",
+          "englishHash": "7220028077bc5f2065086993634c7bf1c3b78b37bbf09985a8c58da7a03c125d",
+          "evidenceHash": "245a77af1f1378c04e3c7a7353c354924f5607ba13eeaae61573047465038b78"
+        }
+      ]
+    },
+    {
+      "source": "*It is the party members of the target that gets the healing, not those of the caster.\n**If used on a minion, all allied minions will receive the health instead of party members.\n*Only the party members in compass range of the target will be healed.\n*The enchantment ends if the target leaves the caster's compass range.\n* Combines well with Shield of Absorption when the target of both enchantments is under heavy attack (e.g. a character tanking).\n*Works very well when used on an emo who has a Life Bond on a tank.\n*This skill will trigger if the damage received is 0, unlike Essence Bond. \nIf two people cast this spell on one target, both will take effect; however, only one enchantment will show on the effects monitor.\nThe heal amount is based on your rank of Divine Favor at the time of each hit rather than at the initial casting, i.e. if your attributes are increased/decreased while the enchantment is in effect, the heal amount will change accordingly.\nThis skill actually causes health gain.",
+      "text": "* 獲得恢復的是目標所屬隊伍的成員，而非施法者所屬隊伍的成員。\n** 若對僕從使用，獲得體力的會是所有友方僕從，而非隊伍成員。\n* 只有位於目標羅盤範圍內的隊伍成員會獲得恢復。\n* 目標離開施法者的羅盤範圍時，加持便會結束。\n* 若兩項加持的共同目標受到猛烈攻擊，例如正在坦怪的角色，可與吸收盾良好搭配。\n* 對已在坦克身上維持生命連結的 emo 配置使用，效果極佳。\n* 與本質連結不同，即使實際受到的傷害為 0，此技能仍會觸發。\n若兩人對同一目標施放，兩個效果都會生效，但效果列只會顯示一個加持。\n每次受擊時，恢復量都依施法者當下的神恩等級判定，而非最初施放時的等級。因此，加持期間若屬性提高或降低，恢復量也會跟著改變。\n此技能實際提供的是體力獲得效果。",
+      "reason": "釐清目標隊伍而非施法者隊伍，及對僕從改為全友方僕從；保留目標/施法者雙羅盤限制、零傷觸發與逐次受擊讀取神恩的時點。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:41109/variants/skill-version:gww:41109/notes/0",
+          "englishHash": "c9fe59dd89bc0609567dd0d551bcb4ff52d312ac89db5112c38afb4d83f439d6",
+          "evidenceHash": "abc238fb16131e8097cb8d416cb7808dec7ff0adb4df3633037053986ac93163"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Fury that uses the Gaze of Fury attack skill. \n* Can target and destroy enemy spirits as well.\n** This is notably useful in Sunjiang District in Factions, and in the Domain of Anguish when facing Mallyx the Unyielding \n* Consider using with Destruction, Life, and Restoration.\n* Use on spirits that will expire soon, and spirits that will die soon, notably from their own effect, such as Agony. \n* Can be recast on an already created Spirit of Fury, allowing one to recycle the spirit indefinitely.\nCan be used on any target, not just spirits; can also be cast without a target. If the target is not an enemy spirit, it will destroy the spirit closest to the target. If cast without a target, it will destroy the spirit closest to the caster.\nUsing this skill while targeting an ally (including spirits) will stop automatic health regeneration.\nIf multiple spirits occupy exactly the same spot, using Gaze of Fury on one of them may destroy one of the others instead.",
+      "text": "* 此技能會創造一個使用 Gaze of Fury 攻擊技能的 Spirit of Fury。\n* 也能指定並摧毀敵方精靈。\n** 在盟與敵的孫江行政區，以及悲難之門對抗 Mallyx the Unyielding 時，尤其有用。\n* 可考慮與毀滅、生命及復甦搭配。\n* 適合用在即將到期，或即將死亡的精靈，尤其是 Agony 等因自身效果而將死亡的精靈。\n* 可對已創造的 Spirit of Fury 再次施放，讓精靈無限循環再利用。\n此技能能指定任何目標，不限精靈，也能在不指定目標時施放。若目標不是敵方精靈，會摧毀距離目標最近的精靈；未指定目標時，則會摧毀距離施法者最近的精靈。\n指定盟友（包括精靈）使用此技能，會中止自然體力恢復。\n若多個精靈位於完全相同的位置，對其中一個使用 Gaze of Fury 時，可能會摧毀另一個精靈。",
+      "reason": "統一 spirit 為精靈，恢復盟與敵中孫江行政區的從屬關係；釐清敵方精靈目標、其他目標與無目標三種摧毀選擇，保留自然恢復中止異常。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6456/variants/skill-version:gww:6456/notes/0",
+          "englishHash": "bdeb61cad4f194fb2f7a82df06da063799edc62c2a08936891b95050c763de0a",
+          "evidenceHash": "64b5d6cf606cfe2f841024af603abf15301015f61992f507cf923e6262eaddc1"
+        }
+      ]
+    },
+    {
+      "source": "* This skill only recharges Resurrection Signet or Sunspear Rebirth Signet if they were disabled by another skill (e.g. by Distracting Shot); it will not recharge them if they were used to resurrect.\n* Combines well with Symbolic Posture or Mantra of Inscriptions.\n* Since this skill can and will recharge all signets, including those without any investment in their attribute, consider using Symbolic Celerity to cast your signets based on your current rank in Fast Casting only.\n* Other signets' bonus effects apply before the interrupt caused by Keystone.\n* Gao Han of the Rings is an ally, but getting him killed by enemies during the Redemption for the Lost quest allows you to capture the skill.\n\nSome non-English descriptions incorrectly expand the area of effect beyond adjacent foes: the French full description adds nearby foes and the German concise description adds the target.\n\nAt ranks 0-1 Fast Casting, all signets activated within the duration will deal damage and interrupt foes.",
+      "text": "* 只有復活紋章或 Sunspear Rebirth Signet 被其他技能（如震暈之箭）禁用時，此技能才能使其恢復可用；若它們已被用來復活，就不會恢復。\n* 可與紋章姿態或碑銘頌歌良好搭配。\n* 此技能會使所有紋章恢復可用，即使對應屬性未投入任何點數也一樣。因此，可考慮使用迅捷標誌，讓紋章只依目前的快速施法等級施放。\n* 其他紋章的額外效果，會先於 Keystone Signet 造成的打斷生效。\n* Gao Han of the Rings 是盟友，但在 Redemption for the Lost 任務中讓他被敵人殺死，便可從他身上捕捉此技能。\n\n部分非英文說明錯將效果範圍擴大到緊鄰敵人之外：法文完整說明加入了附近敵人，德文簡短說明則加入了目標。\n\n快速施法等級為 0 至 1 時，持續期間發動的所有紋章都會造成傷害並打斷敵人。",
+      "reason": "修正 Keystone 的梯形校正誤譯與紋章術語，保留已用復活不可恢復但遭技能禁用可恢復；逐項保留外語範圍錯誤與快速施法 0–1 的例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1653/variants/skill-version:gww:1653/notes/0",
+          "englishHash": "7cbd6a4002229bbc3f8694072743ed7c43bdb6afa14ecbf6c0ae609f8271d9a7",
+          "evidenceHash": "91ac38f0f8d50ea4d13576e7ca70e9d2ea4313e5a8afbbe02a7054c0763a7d0f"
+        }
+      ]
+    },
+    {
+      "source": "* Arcane Thievery does not distinguish between spells that are already disabled or recharging. It can steal a spell that was already disabled by the effects of another skill, such as Diversion, or a recharging spell whose recharge exceeds the duration of Arcane Thievery's disabling effect, such as Meteor Shower.\n* This cannot be activated on a target with no spells. \"That target has no spells to steal.\" appears when you attempt to. \n* If you die when the duration of Arcane Thievery has not ended, the stolen spell on your skill bar will revert back to Arcane Thievery (similar to other skills that can copy skills); however, the target's spell will remain disabled for the full duration. This allows you to use Arcane Thievery to disable two spells at the same time if you are resurrected before the disable duration of the prior use of Arcane Thievery has ended.\n* This can be used to interfere with skill chains on professions that tend to use only a few spells, e.g. primary Assassins.",
+      "text": "* 魔法竊取不會排除已被禁用或正在冷卻的法術。它可能偷到已被牽制等技能禁用的法術，也可能偷到隕石雨等冷卻時間比魔法竊取禁用時間更長的法術。\n* 無法對沒有法術的目標發動；嘗試時會顯示「該目標沒有可偷取的法術。」\n* 若你在魔法竊取持續時間結束前死亡，技能欄上偷來的法術會變回魔法竊取，與其他複製技能相似；但敵人的法術仍會被禁用完整持續時間。因此，若在前一次禁用結束前復活，就能再次使用魔法竊取，同時禁用兩個法術。\n* 可用來破壞通常只攜帶少數法術的職業之技能連段，例如主職業為暗殺者的角色。",
+      "reason": "區分法術既有冷卻與此技能新增禁用，保留死亡重設自身而敵方禁用完整延續，以及復活後同時禁用兩法術；修正 primary Assassin。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1465/variants/skill-version:gww:1465/notes/0",
+          "englishHash": "bceef642ae1b40cef22fb1091ecb10d6fb131a4e88b7625553397f815cbb1ebe",
+          "evidenceHash": "a12d803d0247a6fda526f693cd40b03277f6c9e931c7189631bebb827c049d1a"
+        }
+      ]
+    },
+    {
+      "source": "* This skill reduces all types of damage, including armor-ignoring damage.\n* This is a popular damage reduction skill for farming, sometimes coupled with Protective Spirit (cast before Stoneflesh Aura) with less than 330 health, to ensure losing no health at all. This build is known as the 330Hp, similarly to the 600 and 55 Monk build.\n* When removed with a damaging removal skill, such as Shatter Enchantment, the damage from the removal will still be reduced.\n* This skill can be particularly effective against Assassins, as many of their builds deal much of their damage through critical hits and rely on them for energy management.\nThis enchantment does not actually make you immune to critical hits, but prevents extra damage from them. As such, effects that may result from them, such as knock down, or the re-applying effect of Critical Agility and Critical Defenses will still apply. However, the damage-nullified critical hit will not trigger the energy gain of Critical Strikes.",
+      "text": "* 此技能會減少所有類型的傷害，包括無視護甲的傷害。\n* 這是常用於刷取的減傷技能。有時會在體力低於 330 時，搭配先施放的精神守護，再施放 Stoneflesh Aura，以確保完全不損失體力。此配置稱為 330Hp，類似 600 與 55 僧侶配置。\n* 即使被加持粉碎等會造成傷害的移除技能消除，移除當下的傷害仍會受到減免。\n* 此技能對暗殺者特別有效，因為許多暗殺者配置仰賴暴擊造成傷害並維持能量。\n此加持實際上不會使你免疫暴擊，而是阻止暴擊的額外傷害。因此，暴擊觸發的擊倒、薄暮之速或致命防禦的重新套用等效果仍會生效。不過，被消除額外傷害的暴擊，不會觸發致命攻擊的能量獲取效果。",
+      "reason": "修正 farming 與 build 的機譯，保留精神守護先施放、體力低於 330 的條件；明確免除暴擊額外傷害不等於免疫暴擊，並保留能量觸發例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14670/variants/skill-version:gww:14670/notes/0",
+          "englishHash": "35b46095ff6cdc57d7d3b0e56e1d3fd06e0a7f3e6151b683bd425419d17cd869",
+          "evidenceHash": "c90788f548416bf3a064ba102fe8d96c7020b277357be761f09f20b8bd9fb38d"
+        }
+      ]
+    },
+    {
+      "source": "* Arcane Larceny does not distinguish between spells that are already disabled or recharging. It can steal a spell that was already disabled by the effects of another skill, such as Diversion, or a recharging spell whose recharge exceeds the duration of Arcane Larceny's disabling effect, such as Meteor Shower.\n* This cannot be activated on a target with no spells. \"That target has no spells to steal.\" appears when you attempt to.\n* If you die when the duration of Arcane Larceny has not ended, the stolen spell on your skill bar will revert back to Arcane Larceny (similar to other skills that can copy skills); however, the target's spell will remain disabled for the full duration. This allows you to use Arcane Larceny to disable two spells at the same time if you are resurrected before the disable duration of the prior use of Arcane Larceny has ended.\n* This can be used to interfere with skill chains on professions that tend to use only a few spells, e.g. primary Assassins.",
+      "text": "* 盜竊魔法不會排除已被禁用或正在冷卻的法術。它可能偷到已被牽制等技能禁用的法術，也可能偷到隕石雨等冷卻時間比盜竊魔法禁用時間更長的法術。\n* 無法對沒有法術的目標發動；嘗試時會顯示「該目標沒有可偷取的法術。」\n* 若你在盜竊魔法持續時間結束前死亡，技能欄上偷來的法術會變回盜竊魔法，與其他複製技能相似；但敵人的法術仍會被禁用完整持續時間。因此，若在前一次禁用結束前復活，就能再次使用盜竊魔法，同時禁用兩個法術。\n* 可用來破壞通常只攜帶少數法術的職業之技能連段，例如主職業為暗殺者的角色。",
+      "reason": "依本頁獨立核對盜竊魔法的冷卻與禁用，保留死亡後自身還原但敵方禁用不縮短，以及復活再禁用第二法術的條件；不與魔法竊取混名。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1466/variants/skill-version:gww:1466/notes/0",
+          "englishHash": "a6690ea3871437cbc6cfaa0dea59f49d814f88be34fb6a8dba85c3a0c0366231",
+          "evidenceHash": "4c3ed5f62481ec65b9a60df4465f7c449606294cec841c87cea46abf7d3bbbf1"
+        }
+      ]
+    },
+    {
+      "source": "* The fastest sure way to capture this skill is from Taskmaster Durgon with the quest Dredging the Depths entering from Vlox's Falls.\n* Lieutenant Mahgma, found in Fronis Irontoe's Lair during Kilroy Stonekin's Punch-Out Extravaganza!, also has Dwarven Battle Stance, but it cannot be captured from him as your skill bar is replaced with Dwarven brawling skills.\n* This stance can be maintained indefinitely if used in combination with Dwarven Stability.\n* The interrupt lands before the attack skill does. If the enemy is set to resume attacking after their action would complete, they will then transition into an \"attacking\" state after being interrupted. This will satisfy both Counter Blow and Counterattack's conditional bonuses against attacking foes. This significantly increases the reliability of these two skills in PvE, even against caster targets. This will not work if you hit them during Aftercast delay, as the interrupt will not apply to a target in that state.",
+      "text": "* 最快且可靠的捕捉方式，是接取 Dredging the Depths，從 Vlox's Falls 進入，再從 Taskmaster Durgon 身上捕捉。\n* 在 Kilroy Stonekin's Punch-Out Extravaganza! 期間，鐵趾 佛朗尼的巢穴中的 Lieutenant Mahgma 也持有 Dwarven Battle Stance；但技能欄會被矮人格鬥技能取代，因此無法從他身上捕捉。\n* 搭配 Dwarven Stability，可持續維持此態勢。\n* 打斷會先於攻擊技能命中。若敵人原本會在目前動作結束後恢復攻擊，被打斷後就會轉入「攻擊中」狀態，因此能滿足反擊之鎚與反擊對攻擊中敵人的額外效果條件。這可大幅提高兩個技能在 PvE 的可靠性，即使目標是施法者也有效。但若在目標的施法後延遲期間命中，就無法如此觸發，因為該狀態下不會受到打斷。",
+      "reason": "保留接任務再由 Vlox 進入的捕捉路徑，避免杜撰 NPC 譯名；釐清打斷先於攻擊、敵人轉為攻擊中，以及施法後延遲不能觸發的條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4074/variants/skill-version:gww:4074/notes/0",
+          "englishHash": "c248da69a2fe4c472ab16039c14283b0963479e7c68970da329d0d3ff9936982",
+          "evidenceHash": "5a3656656e56f25a608a4978c49a59c7fbc29c4f2fee744d7e1d1b55ca9de9c0"
+        }
+      ]
+    },
+    {
+      "source": "* This skill only recharges Resurrection Signet, Sunspear Rebirth Signet or Celestial skills if they were disabled by another skill (e.g. by Distracting Shot); it will not recharge them if they were used successfully.\n* This skill is sometimes used by trappers, as it allows them to plant another set of traps or nature rituals without waiting out the long recharge time.\n* Combine with Determined Shot, which recharges all your attack skills if it fails to hit. This can be used to rapidly recharge Oath Shot.\n** This tactic can be extended with Shadow Sanctuary, which almost guarantees a miss.\n** Add \"Dodge This!\" or Asuran Scan to the skill chain to ensure that Oath Shot hits through block and/or blind, bear in mind it will still have a 50% chance to miss when below 8 Expertise.\n* The 50% miss chance is actually a 50% fail chance and cannot be prevented with effects such as Asuran Scan. Oath Shot will still go into recharge, unlike in regular attack skill failure.",
+      "text": "* 只有復活紋章、Sunspear Rebirth Signet 或天界技能被其他技能（如震暈之箭）禁用時，此技能才能使其恢復可用；若先前已成功使用，就不會恢復。\n* 陷阱配置有時會使用此技能，讓角色無須等待漫長冷卻，即可再次設置一套陷阱或自然儀式。\n* 可搭配決心之箭；該技能未命中時，會使所有攻擊技能冷卻完畢，因此可快速重置誓言之箭。\n** 再搭配 Shadow Sanctuary，可讓未命中幾乎必定發生。\n** 在連段中加入「Dodge This!」或 Asuran Scan，能讓誓言之箭穿過格擋或盲目的影響而命中；但專精低於 8 時，仍有 50% 機率失敗。\n* 所謂 50% 未命中機率，實際是 50% 技能失敗機率，無法透過 Asuran Scan 等效果避免。與一般攻擊技能失敗不同，誓言之箭失敗後仍會進入冷卻。",
+      "reason": "區分未命中與條件失敗，保留專精 8 門檻及失敗仍冷卻；釐清 Shadow Sanctuary 是讓決心之箭未命中，並保留天界/復活技能僅遭禁用時可恢復。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2694/variants/skill-version:gww:2694/notes/0",
+          "englishHash": "2512b102a3323c2c2131fcb87c95b8627f4bb18ebb79cf46e769824d21369222",
+          "evidenceHash": "06d585090a57b874856bc77469860bc269ec3795e909baf2d0cc31c05c2c8f80"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Restoration.\n* This skill can bypass Frozen Soil's effect since this skill can indirectly resurrect party members and the caster.\n** Cannot be cast in the range of a Frozen Soil spirit.\n** Use this before Frozen Soil, to provide a means to resurrect your own team while suppressing enemy resurrections. \n* Combine with Feast of Souls for rapid healing after resurrection. Rupture Soul or Spirit to Flesh can respectively provide damage or healing before resurrection.\n* Can be recast with skills that shorten the recharge times of Binding Rituals, such as Soul Twisting or Ritual Lord, to control when the resurrection occurs.\n* If your entire party dies before this spirit does, you will not get resurrected.\n* You can prevent enemy resurrections by using Signet of Binding on hostile Restoration spirits.\n\nThis spirit will also resurrect creatures created via summoning stones that were dead and in the area of the spirit.",
+      "text": "* 此技能會創造一個 Spirit of Restoration。\n* 此技能間接復活隊伍成員與施法者，因此能繞過凍土的效果。\n** 但不能在凍土精靈範圍內施放。\n** 先施放此技能，再施放凍土，就能在阻止敵方復活時，保留復活己方隊伍的方法。\n* 搭配生靈饗宴，可在復活後迅速恢復體力；生靈迸裂或生靈之血，則分別能在復活前造成傷害或提供治療。\n* 搭配生靈扭轉、祭祀之主等縮短束縛儀式冷卻的技能，可再次施放此技能，藉此控制復活時機。\n* 若整支隊伍都比此精靈先死亡，就不會被復活。\n* 對敵方復甦精靈使用束縛紋章，可防止敵人藉它復活。\n\n此精靈也會復活效果範圍內已死亡、由召喚石創造的生物。",
+      "reason": "保留凍土中不能施放但先放可繞過的時序，修正 Binding Ritual 為束縛儀式；釐清整隊先死亡不復活及召喚石生物也可復活。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6337/variants/skill-version:gww:6337/notes/0",
+          "englishHash": "9fdb104e40710544c0b3dea19a42c388df32349eb5545065fa5658c11825f1f5",
+          "evidenceHash": "6c9d05d2ccc65d24bb32b61448441374f50635f8042ca61134ff587ed7aa2324"
+        }
+      ]
+    },
+    {
+      "source": "* The effects of this spell occur when a minion dies. Thus, Shambling Horrors will produce two Jagged Horrors on death in total, Flesh Golems will still leave an exploitable corpse, Bone Minions can be used to create Jagged Horrors of a higher level than they were and finally, Jagged Horrors created by this skill may be recycled endlessly.\n* The created Jagged Horror is bound to the previous minion's controller, not to the Jagged Bones' user.\n** Jagged Horrors created by this enchantment will trigger Explosive Growth, Boon of Creation and Spirit's Gift if the previous minion's controller had one of those enchantments active.\n** Minions created benefit from the controller's Spawning Power.\n* Unless a minion is targeted, Jagged Bones will be cast on a random minion that is not already enchanted with Jagged Bones.\n* The bleeding lasts for 25 seconds.\nThe descriptions do not mention the duration of the bleeding inflicted by the Jagged Horror.",
+      "text": "* 此法術在僕從死亡時才生效。因此，Shambling Horror 死亡時總共會產生兩個 Jagged Horror；鮮血高崙仍會留下可利用的屍體；Bone Minion 可轉成等級比原本更高的 Jagged Horror；此技能創造的 Jagged Horror 也能不斷循環再利用。\n* 新創造的 Jagged Horror 歸原僕從的控制者所有，而非鋸齒骸骨的施法者。\n** 若原僕從控制者身上有爆發增長、創物者恩賜或生靈天賦，新創造的 Jagged Horror 便會觸發對應加持。\n** 新僕從會受益於其控制者的召喚屬性。\n* 若未指定僕從，鋸齒骸骨會隨機施放在尚未帶有鋸齒骸骨的僕從身上。\n* 流血持續 25 秒。\n技能說明未提及 Jagged Horror 造成的流血持續時間。",
+      "reason": "修正 controller 為控制者而非控制器，明確新僕從採原控制者的加持與召喚屬性；保留兩個 Jagged Horror、屍體與 25 秒流血。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4321/variants/skill-version:gww:4321/notes/0",
+          "englishHash": "5c9dce546f5d19e6e866ca00d80517e9482d60308abd30cc8979522df714f1b8",
+          "evidenceHash": "c4e9dcdcba72ed74c86630e8ebc81582693e47f6721f6278687eb5fb3fd3595d"
+        }
+      ]
+    },
+    {
+      "source": "* Consider bringing a cancel stance so that you get to choose when you return to your activation location.\n* If you reuse this skill before its duration ends (for example, through recharge from Morale Boost), you will shadow step to the second target (as expected), but you will return to your original location (from the first time you used the skill).\n* When the stance ends, the character is returned to his original location via shadow step.\n* Avoid using with adrenaline attack skills; the adrenaline will be lost when those skills are disabled.\n* This is the only shadow step skill that teleports you to your target and lacks an aftercast delay, which allows you to attack your target instantly. Since Shadow Walk disables your attack skills, it is not commonly used with martial professions; however, spellcaster professions that rely on close combat skills, such as Star Burst or saccers that rely on Death Nova, may find this skill useful.",
+      "text": "* 可考慮攜帶用來取消目前態勢的另一個態勢，讓你自行選擇何時返回發動位置。\n* 若在持續時間結束前再次使用，例如透過士氣提升重置冷卻，你會如預期以暗影步移到第二個目標身邊；但返回時，仍會回到第一次使用此技能的位置。\n* 態勢結束時，角色會以暗影步返回原位置。\n* 避免搭配怒氣攻擊技能；這些技能被禁用時，已累積的怒氣會流失。\n* 這是唯一會將你移到目標身邊、且沒有施法後延遲的暗影步技能，因而能立即攻擊目標。不過，Shadow Walk 會禁用攻擊技能，因此使用武器的職業通常不會採用。依賴近身技能的施法職業則可能受益，例如使用星爆，或以體力犧牲搭配死亡新星的配置。",
+      "reason": "區分施法後延遲與施法時間，將 cancel stance 解釋為以另一態勢取消；保留重用回第一位置、禁用損失怒氣，並修正 saccer 非空投者。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13709/variants/skill-version:gww:13709/notes/0",
+          "englishHash": "0dd71217866b248789755063b11ad4647f354506699a0500b89ddbbb37691c98",
+          "evidenceHash": "6f09b43c622c00a653742a07d7a8fd5f588961a1c6faa980478f1aa017e94367"
+        }
+      ]
+    },
+    {
+      "source": "When Release Enchantments (or any skill that removes \"all enchantments\") triggers the damage effects of Mirage Cloak or Aura of Holy Might, it behaves inconsistently compared to skills that remove a specific number of enchantments:\n\nMirage Cloak: Damage will only trigger for a restricted list of Dervish enchantments (Aura of Thorns, Balthazar's Rage, Pious Renewal, Dust Cloak, Staggering Force, Grenth's Fingers, and itself).\n\nAura of Holy Might: Damage will trigger for all Dervish enchantments except Eternal Aura, Shield of Force, Grenth's Aura, and Vow of Revolution.\n\nSkills that remove a defined number of enchantments (like Rend Enchantments or standard Dervish teardowns) do not suffer from these restrictions.\n* This spell affects party members in party range.\n* The enchantments are removed first, voiding any possible healing bonus from Unyielding Aura.\n** However, Vigorous Spirit will trigger its healing before being removed.",
+      "text": "釋放加持或其他移除「所有加持」的技能，觸發魔幻掩蔽或 Aura of Holy Might 的傷害時，行為與只移除指定數量加持的技能不同：\n\n魔幻掩蔽：只有移除下列神喚使加持才會觸發傷害：荊棘靈氣、巴薩澤盛怒、神性修補、塵土掩蔽、驚天神力、古蘭斯之指，以及魔幻掩蔽本身。\n\nAura of Holy Might：移除神喚使加持都會觸發傷害，但 Eternal Aura、Shield of Force、Grenth's Aura 與 Vow of Revolution 除外。\n\n移除指定數量加持的技能，例如粉碎加持或一般神喚使主動移除加持的技能，沒有這些限制。\n* 此法術會影響隊伍範圍內的隊伍成員。\n* 加持會先被移除，因此無法獲得堅毅靈氣原本可能提供的治療加成。\n** 但精力充沛會在被移除前先觸發治療。",
+      "reason": "釐清移除所有與移除指定數量的不同觸發清單，保留七項魔幻掩蔽清單與四項 Aura 例外；修正 teardowns，區分堅毅靈氣與精力充沛時序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2907/variants/skill-version:gww:2907/notes/0",
+          "englishHash": "b57cce87d823125b4a8407de18069d44f2787a7d6060c54577e00ce45a3e9a8f",
+          "evidenceHash": "de11190417d93e6befa65e1f8ced1b25dbbacafce16d411be17b2f9cb2d70cd1"
+        }
+      ]
+    },
+    {
+      "source": "* Damage reduction is effective for as long as the target is hexed, i.e. if an attack lands after the hex ends (e.g. if the attacker dies while attacking), the attack will deal normal damage and if an attack iniated before the hex begins lands after the hex is applied, it'll deal less damage.\n* Any attack triggers the damage, whether or not it hits; you are still affected even if missed, blocked, or enchanted with Illusionary Weaponry. Similarly, you are damaged for each attack made from attack skills that can deal multiple attacks and for each foe hit with a scythe.\n* Combine with Reckless Haste in Normal mode to cause the damage to trigger more often.\n\n;Hard mode\n* This skill is more effective in Hard mode because foes (including spellcasters) attack faster.\n* Hard Mode AI enemies will only cast this on a martial profession wielding a martial weapon.\n\nEmpathy triggers on failed attack skills, whereas Vigorous Spirit does not.",
+      "text": "* 減傷只在目標仍帶有降咒時生效。因此，若攻擊在降咒結束後才命中，例如攻擊者在攻擊途中死亡，便會造成正常傷害；若攻擊在施加降咒前已發動、卻在降咒生效後才命中，傷害就會降低。\n* 任何攻擊都會觸發傷害，不論是否命中；未命中、被格擋或受到幻象武器加持時也一樣。多次攻擊技能的每一次攻擊，以及鐮刀每命中一名敵人，都會分別讓攻擊者受到傷害。\n* 在普通模式可搭配失心瘋，讓傷害更頻繁觸發。\n\n;困難模式\n* 困難模式敵人（包括施法者）攻擊較快，因此此技能更有效。\n* 困難模式的 AI 敵人，只會對持用近戰武器、弓或矛的武器職業角色施放此技能。\n\n自虐會在攻擊技能失敗時觸發，精力充沛則不會。",
+      "reason": "修正 hex 機譯並依命中時是否仍帶降咒判定減傷；保留未命中/格擋仍反傷、鐮刀逐敵人觸發、困難 AI 的職業加武器雙條件與失敗技能例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1475/variants/skill-version:gww:1475/notes/0",
+          "englishHash": "c195fdf0384ca5ac522358ca4b26aecd313a014b330a03229163b86a0047ea85",
+          "evidenceHash": "a52828923beaa140d958fb781170731fe0fd608120da6fcb6c3c63bee0316255"
+        }
+      ]
+    },
+    {
+      "source": "* The spell requires the target to leave an exploitable corpse; but does not exploit the corpse.\n* Healing modifiers stack multiplicatively. Combining with Deep Wound or Lingering Curse will amount to -36% healing.\n* Verata's Gaze can be used to gain control of the masterless Bone Horror.\n** Alternatively, if you do not intend to take control of the minion, Swap can be used to shadow step it away from your team (preferably in the opposing team). It also provides a suitable target to trigger the bonus effects of Holy Spear.\n* Heroes tend to spam this skill regardless of whether the target or enemy group has healing skills, leading to several extra Bone Horrors per fight.\n* Since the Bone Horror is created masterless, it will not trigger skills that depend on summoned creature creation such as Boon of Creation. It also does not gain extra max health from Spawning Power. \n\nCannot be used on non-fleshy targets.",
+      "text": "* 此法術要求目標會留下可利用屍體，但不會利用或消耗該屍體。\n* 治療量修正採乘法疊加；與重傷或強力詛咒搭配，合計會使治療量降低 36%。\n* 可用芙瑞達的凝視取得無主 Bone Horror 的控制權。\n** 若不打算控制它，也可使用交替，讓它以暗影步遠離己方隊伍，最好移入敵隊之中。它也能作為觸發 Holy Spear 額外效果的合適目標。\n* 不論目標或敵群是否擁有治療技能，英雄都傾向頻繁施放此技能，因此每場戰鬥通常會多出數個 Bone Horror。\n* Bone Horror 創造時沒有主人，因此不會觸發創物者恩賜等依賴創造召喚生物的技能，也不會從召喚屬性獲得額外的最大體力。\n\n不能對非血肉目標使用。",
+      "reason": "將 spam 校正為頻繁施放，保留屍體可用但不消耗、乘法疊加 -36% 與交替送往敵群；釐清無主使創造觸發及召喚體力加成不生效。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16183/variants/skill-version:gww:16183/notes/0",
+          "englishHash": "a95597d1093fc019b94f638f9c3c10a2d3366248d5e414e0a721bd481cf20b06",
+          "evidenceHash": "a106b633d0abe1eff144c372c6e80975987dc52828330e55efb3930f865cf996"
+        }
+      ]
+    },
+    {
+      "source": "* Fevered Dreams will spread the Dazed it applies.\n* Dazed will cover the new condition.\n* Since the hex will not trigger when reapplying conditions, consider using Hypochondria or Crystal Wave to remove all conditions before reapplying them. Reap Impurities will remove one condition, likely Dazed. \n* Works well with shouts inflicting conditions, most notably \"You Move Like a Dwarf!\", \"You Are All Weaklings!\", and \"Finish Him!\". \nApplying or reapplying the hex on a target suffering from one or more condition(s) will trigger the Dazed effect.\nThe Dazed caused by this hex is always spread to foes in the area, even if the target was already Dazed.\nThe Dazed caused by this hex triggers Fragility twice upon application on the target (but not on surrounding foes).\nIf two foes hexed with Fevered Dreams are next to each other and one of them starts suffering from a new condition, both will be Dazed.",
+      "text": "* 惡夢傳染會擴散它自己施加的暈眩。\n* 暈眩會覆蓋在新施加的病症之上。\n* 重新施加既有病症不會觸發此降咒，因此可考慮先用免疫破壞或水晶波動移除所有病症，再重新施加。污穢回收會移除一個病症，很可能是暈眩。\n* 適合搭配造成病症的吶喊，尤其是「You Move Like a Dwarf!」、「You Are All Weaklings!」與「Finish Him!」。\n對已帶有至少一種病症的目標施加或重新施加此降咒，會觸發暈眩。\n此降咒造成的暈眩一定會擴散到範圍內的敵人，即使目標原本已帶有暈眩。\n此降咒在目標身上施加暈眩時，會觸發兩次脆弱；周圍敵人則不會觸發兩次。\n若兩名帶有惡夢傳染的敵人彼此相鄰，其中一名開始受到新的病症，兩者都會陷入暈眩。",
+      "reason": "區分重施病症不觸發與重施降咒可觸發，明確暈眩覆蓋新病症的順序；保留既有暈眩仍擴散、主目標脆弱雙觸發及雙降咒相鄰互傳。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1568/variants/skill-version:gww:1568/notes/0",
+          "englishHash": "6d35ca7cbab89878e64bc72c92d415ba3f80917a813de188659f5321b1bdf93a",
+          "evidenceHash": "062a992a8bb4642fe544b56c9d4bcdface4cfc2b7137ebfec3d154a489f008f5"
+        }
+      ]
+    },
+    {
+      "source": "*This spell's animation is similar to those of some Paragon skills like \"Fall Back!\" and Focused Anger, as well as the Ritualist skill Destructive Was Glaive.\n*This hex works slightly different depending on whether or not the target is casting an enemy-targeting spell when this hex is first applied to them. If not, the effect will immediately trigger the next time the target tries to cast an enemy-targeting spell. If so, the effect will trigger upon the enemy-targeting spell finishing its activation (if the hex remains on them). \n*Note that since only directly enemy-targeting spells will be affected self-centered spells such as Shockwave will be unaffected. \n\nMistrust will take effect if the hexed character attempts to cast a spell on any NPC hostile to them, including other foes. For example, in Varajar Fells, an Ice Imp's Maelstrom will fail if they attempt to cast it on a Modniir Hunter.",
+      "text": "* 此法術的動畫與「回防！」、集聚怒氣等聖言者技能，以及祭祀者的毀滅者葛雷薇相似。\n* 首次施加此降咒時，目標是否已在施放指定敵人的法術，會影響觸發時機。若尚未施放，則在下次嘗試施放指定敵人的法術時立即觸發；若已在施放，則在該法術發動完成時才觸發，前提是降咒仍存在。\n* 只有直接指定敵人的法術受影響，因此衝擊波等以自身為中心的法術不受影響。\n\n帶有 Mistrust 的角色嘗試對任何與自己敵對的 NPC 施法時，都會觸發，即使該 NPC 也是玩家的敵人。例如在維拉戛陣地，冰小惡魔若嘗試對莫得米獵人施放水漩渦，法術就會失敗。",
+      "reason": "修正回防技能名稱與 hex 機譯，保留施咒前已在施法和下次施法的不同觸發時點；釐清 enemy 以被施咒者敵我關係判定而非玩家陣營。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1488/variants/skill-version:gww:1488/notes/0",
+          "englishHash": "65d94608180896c633c4cae4077179c5f0f1d4f033284a2dc7f6c2962837be6b",
+          "evidenceHash": "12f18ffc1051774f91f66736a800b7d9fd64d2b9905050d7f4c709bc35663fd5"
+        }
+      ]
+    },
+    {
+      "source": "With skills that remove \"all enchantments\" (such as Contemplation of Purity), an instance of this skill's damage will trigger for each Dervish enchantment except for Eternal Aura, Shield of Force, Grenth's Aura, or Vow of Revolution. By contrast, there is no restriction on which Dervish enchantments will trigger damage if a specific number of enchantments is removed (such as by Rend Enchantments or Dervish teardowns), as long as they cover Aura of Holy Might (plus Aura of Holy Might itself).\n*After reaching the first allegiance rank, Kurzick/Luxon Supporter, level 20 characters may learn this skill from a Kurzick Bureaucrat or Luxon Scavenger for 3,000 faction.\n*The skill icon for the Kurzick version is on top, and the icon for the Luxon version is on the bottom.\n*This skill triggers itself when it ends.\n*Pious Renewal synergizes with this skill because of its \"recharge on end\" effect.",
+      "text": "使用移除「所有加持」的技能，例如純淨的冥想時，每移除一項神喚使加持，都會觸發一次 Aura of Holy Might 的傷害；但 Eternal Aura、Shield of Force、Grenth's Aura 與 Vow of Revolution 除外。若只移除指定數量的加持，例如使用粉碎加持或神喚使主動移除加持的技能，就沒有上述種類限制；只要該神喚使加持覆蓋在 Aura of Holy Might 之上，或移除 Aura of Holy Might 本身，就能觸發。\n* 角色達到 20 級，且效忠等級達到第一級「庫茲柯／勒克森支持者」後，可向庫茲柯理事或勒克森拾荒者花費 3,000 陣營值學習此技能。\n* 庫茲柯版本的技能圖示在上，勒克森版本在下。\n* 此技能本身結束時，也會觸發自己的效果。\n* 神性修補在結束時會立即冷卻完畢，因此與此技能搭配良好。",
+      "reason": "保留移除全部的四項例外，明確只移除指定數量時需覆蓋於此加持之上或移除自身；修正神性修補結束立即冷卻，保留 20 級與 3,000 陣營值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:41148/variants/skill-version:gww:41148/notes/0",
+          "englishHash": "cd9af4bccf7c6a9aee7c1236feddd3193faf89e1ae7e19b2d9aee558ed9ea411",
+          "evidenceHash": "0377964a9165feb760690888b10ead414180ab7f6a4d2ac83de5d85d103602d6"
+        }
+      ]
+    },
+    {
+      "source": "When Contemplation of Purity (or any skill that removes \"all enchantments\") triggers the damage effects of Mirage Cloak or Aura of Holy Might, it behaves inconsistently compared to skills that remove a specific number of enchantments:\n\nMirage Cloak: Damage will only trigger for a restricted list of Dervish enchantments (Aura of Thorns, Balthazar's Rage, Pious Renewal, Dust Cloak, Staggering Force, Grenth's Fingers, and itself).\n\nAura of Holy Might: Damage will trigger for all Dervish enchantments except Eternal Aura, Shield of Force, Grenth's Aura, and Vow of Revolution.\n\nSkills that remove a defined number of enchantments (like Rend Enchantments or standard Dervish teardowns) do not suffer from these restrictions.\n* Synergizes with enchantments with a positive end effect.\n**This includes most Dervish Enchantments, making this skill a potentially effective replacement for teardowns.",
+      "text": "純淨的冥想或其他移除「所有加持」的技能，觸發魔幻掩蔽或 Aura of Holy Might 的傷害時，行為與只移除指定數量加持的技能不同：\n\n魔幻掩蔽：只有移除下列神喚使加持才會觸發傷害：荊棘靈氣、巴薩澤盛怒、神性修補、塵土掩蔽、驚天神力、古蘭斯之指，以及魔幻掩蔽本身。\n\nAura of Holy Might：移除神喚使加持都會觸發傷害，但 Eternal Aura、Shield of Force、Grenth's Aura 與 Vow of Revolution 除外。\n\n移除指定數量加持的技能，例如粉碎加持或一般神喚使主動移除加持的技能，沒有這些限制。\n* 適合搭配結束時具有有利效果的加持。\n** 多數神喚使加持都屬此類，因此此技能可有效取代部分主動移除加持的技能。",
+      "reason": "依本頁獨立保留魔幻掩蔽七項清單和 Aura 四項例外；將 positive end effect 改為加持結束的有利效果，將 teardown 校正為主動移除加持。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2900/variants/skill-version:gww:2900/notes/0",
+          "englishHash": "e1f763b97ade9388fdcc02079faecf7fff87c8461fafd17bdaf0191c2dfb0c99",
+          "evidenceHash": "d1ddd9db74e9073047cf161da69219f3cf7cb73fe070c959d645d18732ed40c2"
+        }
+      ]
+    },
+    {
+      "source": "* The skill and the Hidden Treasures are commonly referred to as LoD.\n* This skill is required to spawn the Silver Vaettir.\n\n\n;Hidden Objects\n* Hidden objects can only be found in dungeons.\n** There are no hidden objects in Fronis Irontoe's Lair, Slavers' Exile, or in any underground instance entered as part of a primary quest.\n* Using the skill will expose any nearby hidden objects; any remaining ones within compass range will ping yellow on the compass and be marked by a green shimmer over its location.\n** A yellow ping does not sound for the objects already shimmering.\n** The shimmer remains for a short period of time.\n* Hidden objects include:\n** Ghostly allies, i.e. a level 24 Dwarven Ghost.\n** Hidden Treasures.\n** Secret passages, such as the wall in the first level of Raven's Point that crumbles once the players are in front of it.\n** Switches that open doors.",
+      "text": "* 此技能與隱藏寶藏常簡稱為 LoD。\n* 必須使用此技能，才會使 Silver Vaettir 出現。\n\n\n;隱藏物件\n* 隱藏物件只存在於地下城。\n** 鐵趾 佛朗尼的巢穴、奴隸商人放逐地，以及在主線任務中進入的任何地下副本，都沒有隱藏物件。\n* 使用技能會顯露附近的隱藏物件；羅盤範圍內尚未顯露的物件，會在羅盤上發出黃色提示，並在所在位置出現綠色微光。\n** 已在發光的物件不會再次發出黃色提示音。\n** 微光只會短暫持續。\n* 隱藏物件包括：\n** 幽靈盟友，即等級 24 的 Dwarven Ghost。\n** 隱藏寶藏。\n** 秘密通道，例如渡鴉岬角第一層的牆；玩家走到牆前時，它就會崩塌。\n** 開門的開關。",
+      "reason": "修正 instance 為副本及 compass 為羅盤，區分附近直接顯露與羅盤內剩餘物件提示；保留三類無隱藏物件場景、24 級盟友及秘密牆。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:18427/variants/skill-version:gww:18427/notes/0",
+          "englishHash": "a8686888a94c089a17c0dbf3d4cf15d49d577151d432aa6424b27524566857cb",
+          "evidenceHash": "918357d5440cf2844f44e0188e4ae88c60a16328b14007617c65effaf754deae"
+        }
+      ]
+    },
+    {
+      "source": "* \"Create\" includes spawning minions, Asura summons, and Ebon Vanguard Assassin.\n* Synergy with skills that can create multiple summoned creatures, since this skill triggers when each creature is created.\n** This skill will trigger simultaneously for each creature created when using Animate Bone Minions, Aura of the Lich, or Signet of Spirits.\n** Using Animate Shambling Horror will trigger this skill two times eventually: once when the Shambling Horror is animated, and then once again when it dies and a Jagged Horror is spawned.\n** Jagged Horrors created via Jagged Bones will trigger this skill.\n* The healing occurs before any effect that can happen due to a spirit's death when renewing it ; therefore the condition \"below 90% Health\" of Lacerate and Edge of Extinction will be checked after the healing, but the bleeding from Lacerate will not be removed if applied.",
+      "text": "* 「創造」包括生成僕從、阿修羅召喚物，以及黑檀先鋒隊暗殺者。\n* 適合搭配能創造多個召喚生物的技能，因為每創造一個生物都會觸發此技能。\n** 使用操縱骸骨爪牙、巫妖靈氣或縛靈紋章時，每個同時創造的生物都會各自觸發一次。\n** 操縱爬行骸骨最終會觸發兩次：第一次是創造 Shambling Horror 時，第二次是它死亡並產生 Jagged Horror 時。\n** 透過鋸齒骸骨創造的 Jagged Horror 也會觸發此技能。\n* 重新創造精靈時，此技能的治療會先於舊精靈死亡可能觸發的效果。因此，撕裂與滅絕之地的「體力低於 90%」條件會在治療後才檢查；若之後被撕裂施加流血，該流血就不會被這次效果移除。",
+      "reason": "修正 animate 為創造而非動畫、spirit 為精靈；逐生物觸發與死後再創造觸發分開，保留先治療再查 90% 門檻且新流血無法回頭移除的時序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5062/variants/skill-version:gww:5062/notes/0",
+          "englishHash": "b77e855b49e8e7e6267c2d59dc6f08bbc83578b31c4c980bdc33dd57399843da",
+          "evidenceHash": "b4b06288bb1b4992999e579e2c46fa7703fb4a0752261e247fd359fd565d6764"
+        }
+      ]
+    },
+    {
+      "source": "* You lose exactly 8 energy from the -4 pips over 6 seconds.\n* If the signet is renewed before it ends, the caster will gain energy for each time the skill was activated.\n* This skill will provide more total energy gain per second than Ether Signet.\n* Signet of Recall is particularly useful:\n**When encountering heavy energy denial, e.g. from a Mursaat Tower (the energy degeneration from Signet of Recall will have no effect since your energy has already been depleted).\n**When you already have Ether Signet on your skill bar and need even more energy without having to use skills that require energy. \n**When you are facing many short battles (since Signet of Recall can be used right before the battle, during which time the energy degeneration is not disadvantageous).\n**When energy hiding, you will not lose any energy from this skill while your current energy is 0.",
+      "text": "* 6 秒內的 -4 格能量恢復速率，恰好會使你損失 8 點能量。\n* 若在效果結束前再次使用此紋章，每次發動都會分別讓施法者獲得能量。\n* 此技能每秒提供的總能量比精神紋章更多。\n* Signet of Recall 尤其適合以下情境：\n** 遭遇嚴重能量壓制，例如 Mursaat Tower。若能量早已耗盡，此技能的能量衰減就不會造成額外損失。\n** 技能欄已攜帶精神紋章，仍需要更多能量，但又不想使用需要消耗能量的技能。\n** 連續進行許多短戰鬥時；可在開戰前使用，讓能量衰減發生在不會造成不利影響的時段。\n** 採用 energy hiding（隱藏能量）戰術時；目前能量為 0，就不會因本技能再損失能量。",
+      "reason": "將 pips 校正為能量恢復格數，保留 -4 格、6 秒、8 點的換算與重施每次獨立給能量；修正能量壓制及零能量時衰減不再扣能量。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51846/variants/skill-version:gww:51846/notes/0",
+          "englishHash": "08a66602a7624cac435cac2fdb6e89dc9cf87b2b6b54ed10bf7ac7e8cf1ceda4",
+          "evidenceHash": "41cec1e8617a16e8c9ec14af4657b9858c7a931176f8b9f78634d61dace3fe8a"
+        }
+      ]
+    },
+    {
+      "source": "*This skill will increase the damage done by a minion, but not by an animal companion.\n**A maxed (+4) Heroic Refrain increases the damage of a Level 20 Bone Fiend by around 13%.\n*At 16 Leadership, this skill may be cast by the player character on themselves to raise their Leadership attribute to 19. This meets the threshold required for Heroic Refrain to provide a +4 boost to all attributes. \n**Another subsequent casting on the player will then also raise their Leadership attribute to 20, maximising energy gain from casting party wide shouts and chants.\n* This skill only increases the primary profession's primary and secondary attributes and the secondary profession's secondary attributes. It doesn't increase other attributes, even those with a rank above 0 (for instance due to blessings, skills such as Seven Weapons Stance or \"Of the (Profession)\" modifiers).",
+      "text": "* 此技能會提高僕從造成的傷害，但不會提高動物夥伴的傷害。\n** 最高加成（+4）的 Heroic Refrain，會使等級 20 的 Bone Fiend 傷害提高約 13%。\n* 領導等級為 16 時，玩家可先對自己施放，使領導提高至 19，達到 Heroic Refrain 為各屬性提供 +4 加成所需的門檻。\n** 再對自己施放一次，就能將領導提高至 20，使全隊吶喊與聖歌帶來的能量獲取量達到最大。\n* 此技能只會提高主職業的主屬性與其他屬性，以及副職業的非主屬性。其餘屬性都不會提高，即使那些屬性已因祝福、七械態勢或「Of the (Profession)」武器修正而高於 0 也一樣。",
+      "reason": "保留僕從增傷而寵物不增傷及 20 級約 13%；逐步釐清領導 16→19→20 的兩次施放，明確不提高副職業主屬性或其他職業屬性。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313308/variants/skill-version:gww:313308/notes/0",
+          "englishHash": "e51b93b4be5db84cff1ff5b398692c5ba56a42acdbdaa8f058c6e1b0cb1ba250",
+          "evidenceHash": "ca31723f2754ee11e37d4ac9d3391776984b2e3bad7ef61a9cc060f35d5ac8f7"
+        }
+      ]
+    },
+    {
+      "source": "*Synergizes well with attack skills that can cause multiple attacks with a sword (Sun and Moon Slash, Whirlwind Attack, and Twin Moon Sweep) and with hex spells that deal damage whenever the hexed foe takes physical damage (Barbs and Mark of Pain).\n**When Whirlwind Attack is used, this skill will trigger for each adjacent foe attacked.\n*Because this triggers on attack, you don't actually have to hit for the damage to occur.\n*The damage from Hundred Blades is inflicted before the damage from your sword. This is relevant for skills such as Reversal of Fortune or Empathy.\n*Because this damages all \"adjacent foes\", kiting opponents will avoid damage if they have moved away by the time the attack connects.\n*If you are using an emote when using this skill, no animation will show until you stop doing the emote. The animation will stack with several Hundred Blades.",
+      "text": "* 適合搭配能用劍發動多次攻擊的技能，例如日月斬、Whirlwind Attack 與雙月掃蕩；也適合搭配荊棘、痛苦印記等在帶有降咒的敵人受到物理傷害時觸發傷害的降咒。\n** 使用 Whirlwind Attack 時，每名被攻擊的緊鄰敵人都會各觸發一次此技能。\n* 此技能在發動攻擊時觸發，因此即使沒有命中，也會造成傷害。\n* 快速劍的傷害會先於劍本身的傷害結算；這會影響幸運逆轉或自虐等技能。\n* 此技能只傷害「緊鄰敵人」，因此走位拉開距離的對手，若在攻擊結算時已離開範圍，就能避開傷害。\n* 若在做表情動作時使用此技能，技能動畫會等到表情動作停止後才顯示。多次快速劍的動畫會疊加。",
+      "reason": "保留發動攻擊而非命中觸發、旋風逐名敵人觸發及先於劍傷結算；修正 kite 為走位拉距離、emote 為表情動作，避免傷害與動畫混淆。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3282/variants/skill-version:gww:3282/notes/0",
+          "englishHash": "bd417bbb4eb9e7ad0040f8c674bd254707b7905d9adeb1f4117dbd0b1266eff0",
+          "evidenceHash": "681e31a6ef2c594c430552733c1337f27277afb0585eb57aa6e2308593cc8842"
+        }
+      ]
+    },
+    {
+      "source": "* Although there is immediate visual indication of rocks hitting the ground, the first damage and knock down event does not occur until 3 seconds after the spell has been cast.\n** Since the earliest knock down occurs after the first 3 seconds, it is recommended that foes are snared when the spell is cast.\n* If knock down length is increased to 3 seconds (from Earthbind or a Stonefist Insignia), then foes will either be knocked down two times with a 3 second delay, two times with a perfect quarterknock, or three times with two perfect quarterknocks.\n* This is one of the few spells that makes full use of Glyph of Energy.\n* Be wary of foes using this skill against your party, especially if it is composed of mostly henchmen and heroes, as they will all stand in approximately the range of the attack (unless you order them to move), devastating your party.",
+      "text": "* 雖然畫面會立即顯示岩石落地，但第一次傷害與擊倒，要到法術施放完畢 3 秒後才會發生。\n** 最早的擊倒在 3 秒後，因此建議施放時先限制敵人的移動速度。\n* 若透過地縛或石拳徽記，將擊倒時間延長至 3 秒，敵人可能受到兩次擊倒且中間相隔 3 秒、兩次擊倒且達成一次完美的 quarterknock 銜接，或三次擊倒且達成兩次完美的 quarterknock 銜接。\n* 這是少數能充分發揮能量符號效果的法術之一。\n* 敵人對隊伍使用此技能時須特別留意，尤其隊伍以傭兵與英雄為主時。若不命令他們移動，他們往往都會站在攻擊範圍附近，導致隊伍遭受重創。",
+      "reason": "釐清施放完畢 3 秒後才首次結算，將 snare 校正為限制移速；保留延長擊倒後三種結果與 1/2 次 quarterknock，不將術語誤譯為敲擊。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5096/variants/skill-version:gww:5096/notes/0",
+          "englishHash": "286404576236102956b797ff3665f5f72822711597ca8c1fcd4d973dea9f531f",
+          "evidenceHash": "d982837250d4ad1340fd0fdd7147daba7ce134bb52626daaff515fe7e2631a6b"
+        }
+      ]
+    }
+  ]
+}

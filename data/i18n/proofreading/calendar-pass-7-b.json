@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "As per the Vizunah Square mission.\n*Similar to the mission, completing in under 35 minutes when doing this quest in Hard mode will still gain you the first bonus objective.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依薇茹廣場戰鬥任務的攻略進行。\n* 與戰鬥任務本身的規則相同，以困難模式進行此懸賞時，耗時少於 35 分鐘完成，仍可達成第一項額外目標。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對困難模式與未滿三十五分鐘的嚴格時間門檻，保留仍可達成第一項額外目標的含義，未擴成三十五分鐘整也合格。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:207701/notes",
+          "englishHash": "f638ecb01092259fd0c393648d7233552cb94ad53bb451e51e6ed6d72c0318da",
+          "evidenceHash": "adbfc7432e06b3f82cad68f8bbfea7b5d94bbee1caf9470caddedbef0c835464"
+        }
+      ]
+    },
+    {
+      "source": "As per Defending the Breach. Note that unlike that quest, you have to defeat all the Destroyers in the final room to finish this (as with spawning the chest).\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Defending the Breach 的攻略進行。不過，與該任務不同，本懸賞必須消滅最後房間內的所有毀滅者才能完成；這也與讓寶箱出現的條件相同。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對本懸賞與參照任務的完成條件差異，明確最後房間所有毀滅者都必須擊殺。刪除捍衛違規行為的錯誤專名直譯，保留寶箱條件類比。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:206188/notes",
+          "englishHash": "71aaf1c84767da1a2b963c96141934857a25ff9dc1557a1cd9504d250901a461",
+          "evidenceHash": "aa2f4d06f8d38fc037b66b662e030bfbf3c2d79e58377d4ebafcaad32468aec5"
+        }
+      ]
+    },
+    {
+      "source": "See the Temple of the Damned walkthrough for information on reaching Murakai, Lady of the Night and for tips on defeating her.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "前往夜之女 幕蘭凱的路線與擊敗她的技巧，請參閱 Temple of the Damned 的詳細攻略。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對攻略同時提供抵達路線與戰術，保留女性首領指代及可信幕蘭凱名稱；未將來源標題直譯冒充官方地名。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:204868/notes",
+          "englishHash": "11ea86e0b96e5dca5d699fdea564cfa4a81e7598439e124d166f70b9c08800c0",
+          "evidenceHash": "fd527e8e340948f2fcca88e706cb0f7537dec6c3ffc401a212edc612ae0b564d"
+        }
+      ]
+    },
+    {
+      "source": "As per the Consulate Docks mission.\n*In order to receive credit for the first bonus objective, you must complete the mission.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Consulate Docks 戰鬥任務的攻略進行。\n* 必須完成戰鬥任務，第一項額外目標才會計為達成。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對攻略參照與額外目標的完整任務完成前提。將 credit 修正為達成判定，不把任務完成條件譯成積分獎勵。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:200279/notes",
+          "englishHash": "4a59953730d29d1b42f0426ea5e589063b8fdb80bdf449e0d52cc59a496508b0",
+          "evidenceHash": "6f166b910b07d2abcb8838b6b75785f14e33e7093a1ad4224a757b892bad4572"
+        }
+      ]
+    },
+    {
+      "source": "As per the Pogahn Passage mission.\nThe quest reward is greater than that of other Zaishen quests from the region.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依波甘驛站戰鬥任務的攻略進行。\n此任務的獎勵高於同地區的其他戰承任務。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對來源標記為異常的獎勵比較，保留比較範圍僅為同地區其他戰承任務，不推導具體數值或更廣區域。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:275616/notes",
+          "englishHash": "3c075584ad4a652be57d3715b1eb1dc6fba0c1d0a6cebeffd873b6b16292a4ac",
+          "evidenceHash": "76ba7164124b12c4ce10f2b23f27d7bd2cc7f6476acefcedc3ad794013be36d6"
+        }
+      ]
+    },
+    {
+      "source": "See Nulfastu, Earthbound.\n*The quest Worthy Deeds (Done Dirt Cheap) has this boss as one of its objectives.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "請參閱地縛 納法斯圖的注意事項。\n* 力量的證明任務也將擊殺這名首領列為其中一項目標。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對攻略連到首領的注意事項，及同一首領也是另一任務的部分目標。依可信術語將錯誤直譯任務名改為力量的證明，未暗示僅殺首領就完成全部目標。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:201196/notes",
+          "englishHash": "0862cc5e677c512789adc91566dc8d11f20bc7192a1668998fb4da992e8c2f4b",
+          "evidenceHash": "1b759fc2434ab850e9aaad8eb240f7af8efffbb436de0545d24151ddb737a0b9"
+        }
+      ]
+    },
+    {
+      "source": "As per the Tihark Orchard mission.\nThis is a solo mission and you must be the only person in your party.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Tihark Orchard 戰鬥任務的攻略進行。\n這是單人戰鬥任務，隊伍中只能有你一人。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對本關卡為單人任務，保留只能獨自組隊的限制。來源未補充其他操作條件，譯文不擴充進入或完成規則。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:204891/notes",
+          "englishHash": "41c7dcada4a3bde872ad27be61c8c5b109f48d9a77b5f2d0b06f7de79a7a5913",
+          "evidenceHash": "cb1e5925e914fe831715eefc408a8886814f4bada8f8fc1b8d0e19a2bd48cb1d"
+        }
+      ]
+    },
+    {
+      "source": "Form a party of eight along with seven player characters and/or henchmen in the Heroes' Ascent outpost. Check out possible meta builds on PvXwiki.\n\nCompletion can be repeated during the same day. A tick here records at least one completion.",
+      "text": "在英雄之路前哨站，與另外七名玩家角色或傭兵組成八人隊伍。可在 PvXwiki 查看主流技能配置。\n\n同一天可以重複完成；此處勾選表示當天至少完成過一次。",
+      "reason": "核對自己加上另外七名成員共八人，成員可由玩家與傭兵混合組成。修正 henchmen 與 meta builds 的誤譯，保留當天至少一次的記錄範圍。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:199992/notes",
+          "englishHash": "9777294f61cead08f9c970f159adb2885cbb4a0dc30536d42ddbab0acd61eb05",
+          "evidenceHash": "bcab58bc2107e037b16a9dce56540a5be72d1b6c7857f5c034cf644dc303899d"
+        }
+      ]
+    },
+    {
+      "source": "See Rotscale.\n*Killing Rotscale during A Vengeance of Blades does not complete this quest.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "請參閱惡臭骨龍的攻略。\n* 在 A Vengeance of Blades 期間擊殺惡臭骨龍，不能完成本懸賞。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對特定劇情任務中的擊殺不計入本懸賞。恢復 A Vengeance of Blades 的完整英文任務身分，避免 Vengeance 被單獨替換成技能名復仇意志。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:201058/notes",
+          "englishHash": "1aa3615766300586b96ca3b6cda66d4905a6b715f35adade70c5b54725a1a65c",
+          "evidenceHash": "781402dfbbbb3bc65f4f3430a355d2e374621fbc5c4191a758099d231d65da81"
+        }
+      ]
+    },
+    {
+      "source": "See Breaching the Stygian Veil.\n* There is also a Zaishen quest for the Stygian Lords.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "請參閱 Breaching the Stygian Veil 的攻略。\n* 另外也有以 Stygian Lords 為目標的戰承懸賞。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對此筆是 Stygian Underlords 懸賞，備註另指 Stygian Lords 懸賞。保留兩種英文身分，避免將不同首領群混為同一目標。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:212525/notes",
+          "englishHash": "86111cd2f5d2c7e58417070ac2c083a0c41a34e653b375d6cf8bc8bab3f70731",
+          "evidenceHash": "fdb5817d6683201685b665b5b816e710c03b1c0bdc98728658aba165890e5fe1"
+        }
+      ]
+    },
+    {
+      "source": "As per Abaddon's Mouth.\n*This quest was offered for the first time on July 22, 2009.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依地獄隘口的攻略進行。\n* 此任務於 2009 年 7 月 22 日首次提供。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對地獄隘口來源與首次提供日期的年月日，將錯置的日期格式改為完整中文日期。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:213189/notes",
+          "englishHash": "59ec1a81547e500fb65d360324dfb10090a36e92cb0f4146ce41c26a404e8a92",
+          "evidenceHash": "5ff7eee5217952bbbe280e321982465c12ea9cfc006414f41b91d1be29945c8c"
+        }
+      ]
+    },
+    {
+      "source": "As per the Dasha Vestibule mission.\n*This quest was first offered on May 10, 2009.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依達沙走廊戰鬥任務的攻略進行。\n* 此任務於 2009 年 5 月 10 日首次提供。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對達沙走廊為攻略參照，及首次提供日期為二零零九年五月十日，未將公告日期當成任務開放日期。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:201968/notes",
+          "englishHash": "12b1b1e9eeda542cb799196298e899421688865282c70fb37a7aad0447f879e3",
+          "evidenceHash": "13b68fe8a909741bffe5afa92b6428edf8fe7d2be99e1f2baac2112065fe1311"
+        }
+      ]
+    },
+    {
+      "source": "As per the Raisu Palace mission.\n*This quest was first offered on April 26, 2009.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依萊蘇皇宮戰鬥任務的攻略進行。\n* 此任務於 2009 年 4 月 26 日首次提供。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對萊蘇皇宮固定攻略與首次提供日期，保留四月二十六日，移除英文日期排序造成的閱讀歧義。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:199793/notes",
+          "englishHash": "9b2c1c75de1167efaade1f9b0d0b38aaa488c6cfa2cd113b0d5c6ee51a655a72",
+          "evidenceHash": "a1324a8acdd997a219693007cf6a0f4a179862463a177099ef82e280662cc648"
+        }
+      ]
+    },
+    {
+      "source": "As per the Arborstone mission.\n*This quest was first offered on June 1st, 2009.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Arborstone 戰鬥任務的攻略進行。\n* 此任務於 2009 年 6 月 1 日首次提供。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對參照戰鬥任務及六月一日的序數日期。來源標題沒有可信中文身分，保留英文並移除 1st 殘留。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:205337/notes",
+          "englishHash": "fdcfa4504d6e1d50dbf568884ee65f55d87101a9d8c2b8fa598bdb060bcb8eaf",
+          "evidenceHash": "7e3a7f3d211c4e78ca1627897402ebf971bf6c41a9866a5614b2423f5f85ebd7"
+        }
+      ]
+    },
+    {
+      "source": "As per the Selvetarm portion of The Last Hierophant quest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 The Last Hierophant 任務攻略中的希維塔姆段落進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對攻略只指向 The Last Hierophant 中的希維塔姆樓層段落，未將整項任務列為本懸賞必要流程。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:205732/notes",
+          "englishHash": "541a61c895233146fc1f61eaec5573cd53b21fe80b8997cb7965539a6451ae70",
+          "evidenceHash": "14d6b404aef51a9ba66c2975ddaefdeae131ca74ba3eeadf58322ba1b9f61d71"
+        }
+      ]
+    },
+    {
+      "source": "As per the Assault on the Stronghold quest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依襲擊根據地任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對固定頁明確指向 Assault on the Stronghold 任務，使用可信繁體任務名襲擊根據地，將省略式根據改為可操作的攻略指引。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:202174/notes",
+          "englishHash": "01eec25bd23ce424a0e0a67a482e146386a317df6a9642a2183cce82c13a96e5",
+          "evidenceHash": "86759c959897babbbb45638af1ee87b15a9eec0b10eee98d81c18bf7eaf45b41"
+        }
+      ]
+    },
+    {
+      "source": "As per the Grand Court of Sebelkeh mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Grand Court of Sebelkeh 戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對 mission 在此為遊戲戰鬥任務而非使命。Grand Court of Sebelkeh 無可信中文身分時保留英文，不沿用泛化的法院直譯。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:203750/notes",
+          "englishHash": "32a4417247cb258975b61b659047064065759e85723d7e6b7cb44b22a71cb612",
+          "evidenceHash": "3c6d8e1fac735bca98aeae65b31f3ff304e18171ebb1629aa5ed428c67a56682"
+        }
+      ]
+    },
+    {
+      "source": "Quest involved: Little Workshop of Horrors.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "涉及的任務為 Little Workshop of Horrors。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對來源僅標示涉及的任務，並未宣稱接取前提或必須完成該任務。保留英文任務身分，避免將關聯提高為完成條件。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:203201/notes",
+          "englishHash": "881f07dd5da0df7207d3d288b3baa2ce8407ede165e2e6edb64f343d2ac583a3",
+          "evidenceHash": "0fed6fb21e2b6b2a18b953a00e0b421c46b1bdc9a69a61b0400efda28cea7f71"
+        }
+      ]
+    },
+    {
+      "source": "As per the Iron Mines of Moladune mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依莫拉登礦山戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對 Iron Mines of Moladune 的固定戰鬥任務參照，使用可信莫拉登礦山名稱；未增補來源沒有提供的路線或條件。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:204684/notes",
+          "englishHash": "7c1d09b3304728670921dd6e08b4b1a7ce21390dbe8ba4f396fcf64c7e027cf7",
+          "evidenceHash": "4654325ace66824402e74e1847a742a53b9a60df25f1251d7041f2851062245c"
+        }
+      ]
+    },
+    {
+      "source": "As per the Minister Cho's Estate mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Minister Cho's Estate 戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對參照的是 Minister Cho's Estate 戰鬥任務，保留完整英文身分，不將現代部長用詞直譯成未證實的遊戲地名。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:203908/notes",
+          "englishHash": "383692ae39ef51bed33f840f47b13999fdf6dad9198591904426fb1253c56d6b",
+          "evidenceHash": "4e0ab89d6ae0f92fb3f344b3fd45fc66e306c45a86e7274d8ca84b53b700ecb9"
+        }
+      ]
+    },
+    {
+      "source": "\nThe quest name, objectives, and dialogue refers to \"Random Arenas\" as \"Random Arena\".\nCompletion can be repeated during the same day. A tick here records at least one completion.",
+      "text": "此任務的名稱、目標與對話，將英文複數名稱「Random Arenas」寫成單數「Random Arena」。\n同一天可以重複完成；此處勾選表示當天至少完成過一次。",
+      "reason": "核對來源異常是英文名稱的單複數差異，不能把兩者都譯成隨機競技場而失去資訊。保留原英文拼寫與三處受影響文字，並核對重複完成記錄範圍。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:200336/notes",
+          "englishHash": "e3a287654455e642b956086b48b0718f1f288ccf88d46ee4f8e382372d521eed",
+          "evidenceHash": "4366e212fa974aef7c1f661a92a4f19d5312db5644464030999550203e6c81ef"
+        }
+      ]
+    },
+    {
+      "source": "As per The Great Northern Wall mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依北方長城戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對固定頁指向 The Great Northern Wall 戰鬥任務的攻略，使用可信北方長城譯名，未將參照文字誤讀為額外任務目標。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:213796/notes",
+          "englishHash": "5aa2eff434287d94f093798f86ed87280035377e7e4b3cee3ef68da7ff4c5672",
+          "evidenceHash": "28eaec35b4bc5b60cbad04120c7fb2ce4a9a037ff70e75abf473e2d74fc9e6b8"
+        }
+      ]
+    },
+    {
+      "source": "As per the Ice Caves of Sorrow mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依悲傷冰谷戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對固定頁指向 Ice Caves of Sorrow 戰鬥任務攻略，保留可信悲傷冰谷譯名及攻略參照語意。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:212398/notes",
+          "englishHash": "45117c8bcb6bd8e45cb5052307b5d7b7eaa305f2c0ad8aa1057e1965fac9022c",
+          "evidenceHash": "ffea7d96a1ffb924c4768f358be94c1d6ba195e1c9281e20779b1db3bf9f4c5c"
+        }
+      ]
+    },
+    {
+      "source": "As per Blood Washes Blood walkthrough.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依血債血償的詳細攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對 Blood Washes Blood 的 walkthrough 連結，將演練改為詳細攻略，使用可信血債血償譯名。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:199371/notes",
+          "englishHash": "ba32647cc0c9eff5b8695355bea8ad25b24019741f3242afae837ddb6c7055c6",
+          "evidenceHash": "57ec495057462110f28e7f7e127a86a6afff8769fc2312224d66d3b2f3b4616f"
+        }
+      ]
+    },
+    {
+      "source": "As per the Destruction's Depths quest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依破壞的深淵任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對 Destruction's Depths 任務的固定攻略參照，沿用有中文證據的破壞的深淵，未擴充地下城完成條件。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:205970/notes",
+          "englishHash": "4003a85c1d9fb6bc9a0fa21ecb145f674fa9204b72896f5e58f65ecacd4cbfd1",
+          "evidenceHash": "e21f383f955ca1bf4ab57e8ea239dd3d30a95349756b88329e4bb27bd58876a2"
+        }
+      ]
+    },
+    {
+      "source": "As per the Gate of Desolation mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依荒蕪之地入口戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對 Gate of Desolation 指向戰鬥任務攻略，沿用可信荒蕪之地入口名稱，避免把入口字面解讀為額外移動指示。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:212707/notes",
+          "englishHash": "e9b940069f79b2c0c99f0566af96741477931c3858832418dbc488d11f6a6ed1",
+          "evidenceHash": "a1bdcc12644f61f78e6ae951dfa3bd427ec01946bb835a79c9b1d264ed02662d"
+        }
+      ]
+    },
+    {
+      "source": "As per the Kodonur Crossroads mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依科登諾入口戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對 Kodonur Crossroads 的固定戰鬥任務參照，使用可信科登諾入口名稱，將 As per 表達為依攻略進行。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:205730/notes",
+          "englishHash": "0ccf6cf269929e77022a04006a608323d2b71515d1e6084cde5826de6d09e053",
+          "evidenceHash": "ab012d8bb291f3f88fd7b6e82bbb228abf845461bce1b83e139e9cb7690b138c"
+        }
+      ]
+    },
+    {
+      "source": "As per The Anvil of Dragrimmar quest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 The Anvil of Dragrimmar 任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對本懸賞目標 Remnant of Antiquities 的攻略參照為另一命名任務 The Anvil of Dragrimmar。保留該任務英文身分，不把它改成懸賞目標的名稱。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:204062/notes",
+          "englishHash": "9f3208898ed10c8d3732260fa0278abbca260a97fbdcaa240b3d587456d514a6",
+          "evidenceHash": "cf5692960f8ca729d271f35801f58c3ce47c328696025c1d1f8351d8aa5839ad"
+        }
+      ]
+    },
+    {
+      "source": "As per the Against the Charr mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依對抗夏爾戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對 Against the Charr 的戰鬥任務攻略參照，使用可信對抗夏爾譯名，不增加未在此來源列出的目標。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:203388/notes",
+          "englishHash": "ae330ee25e4e7305cf8e9a331adbcac693093419a7a1d499190fefa9379639b1",
+          "evidenceHash": "fd6731935815b600705ac662a58b466b64e6f0de8e0719938ec803865466d9ac"
+        }
+      ]
+    },
+    {
+      "source": "As per the quest Khobay the Betrayer.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Khobay the Betrayer 任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變永久的技能或征服進度。",
+      "reason": "核對懸賞 Lord Khobay 的攻略參照是 Khobay the Betrayer 任務。保留兩者身分差異，不將未證實的中文專名當成官方名稱。",
+      "bindings": [
+        {
+          "dataset": "calendar",
+          "key": "activities/activity:gww:206080/notes",
+          "englishHash": "f8b6846039d40a71a475d69a60cf07041a5439bef88c46ee126477d7e5f157e6",
+          "evidenceHash": "965cd40d927a948748e515f733f58e3d1b919bc20bcc8ef98c384a6b8b45bf2d"
+        }
+      ]
+    }
+  ]
+}

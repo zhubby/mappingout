@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "* Byssha Hisst shares his spawn point with Ayassah Hess, Custodian Fidius, Custodian Kora, Cyss Gresshla and Dassk Arossyss. He may not spawn.",
+      "text": "* Byssha Hisst 與Ayassah Hess、Custodian Fidius、Custodian Kora、Cyss Gresshla 及 Dassk Arossyss 共用同一出現位置，因此他不一定出現。",
+      "reason": "核對主體為 Byssha Hisst，將 spawn 改為出現；保留與另外五名頭目共用位置、並非必定出現的限制。 Ayassah Hess 的中文模板存在同名衝突，保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:40489b0196919417/npc/notes",
+          "englishHash": "44a6d0dc4c3d5a3ec3179d1fcae2c865599e2ed295c47ef849458b3f2afa8ef7",
+          "evidenceHash": "805ad0e375bb5192092eeb8801d92e7b0c43ffd5ca02cd4000f4503705113ff1"
+        }
+      ]
+    },
+    {
+      "source": "* Custodian Fidius shares his spawn point with Ayassah Hess, Byssha Hisst, Custodian Kora, Cyss Gresshla and Dassk Arossyss. He may not spawn.",
+      "text": "* Custodian Fidius 與Ayassah Hess、Byssha Hisst、Custodian Kora、Cyss Gresshla 及 Dassk Arossyss 共用同一出現位置，因此他不一定出現。",
+      "reason": "核對主體與共用位置名單；移除監護人這一未證實的專名譯法，並修正產卵。 Ayassah Hess 的中文模板存在同名衝突，保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:04aa3294319ccd44/npc/notes",
+          "englishHash": "40e99d654cdd67748e9b4b5b3e6263e6561113c76d6527a0817a90b9ba3b460b",
+          "evidenceHash": "fb39772d83d4e45d7651eb51559e7f95834920607a3af1dd057d57bec2e28b1c"
+        }
+      ]
+    },
+    {
+      "source": "* Custodian Kora shares his spawn point with Ayassah Hess, Byssha Hisst, Custodian Fidius, Cyss Gresshla and Dassk Arossyss. He may not spawn.",
+      "text": "* Custodian Kora 與Ayassah Hess、Byssha Hisst、Custodian Fidius、Cyss Gresshla 及 Dassk Arossyss 共用同一出現位置，因此他不一定出現。",
+      "reason": "此條主體是 Custodian Kora，並非 Fidius；逐項保留另外五個身份，修正監護人造名與產卵。 Ayassah Hess 的中文模板存在同名衝突，保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:e83306aec809ac18/npc/notes",
+          "englishHash": "8014ff25836e37c52747976e3b6448a420baea65d47bd5985ea031c998ef1a9e",
+          "evidenceHash": "61253f5902cec72dc29665ae48c543d2197b2a1237a214b64067e9df97c34c56"
+        }
+      ]
+    },
+    {
+      "source": "* Cyss Gresshla shares his spawn point with Ayassah Hess, Byssha Hisst, Custodian Fidius, Custodian Kora and Dassk Arossyss. He may not spawn.",
+      "text": "* Cyss Gresshla 與Ayassah Hess、Byssha Hisst、Custodian Fidius、Custodian Kora 及 Dassk Arossyss 共用同一出現位置，因此他不一定出現。",
+      "reason": "核對 Cyss Gresshla 的共用位置清單及不保證出現的條件；spawn 不指繁殖產卵。 Ayassah Hess 的中文模板存在同名衝突，保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:8a05ad7af782df8a/npc/notes",
+          "englishHash": "2a46e5b0a81249a7a853bf118b15f187ecb4a5d30d13597c46b0e0156626beb0",
+          "evidenceHash": "cb8435b3390123ff91de1564f6546b17f76202495e535281b2b3323c7a2569aa"
+        }
+      ]
+    },
+    {
+      "source": "* Dassk Arossyss shares his spawn point with Ayassah Hess, Byssha Hisst, Custodian Fidius, Custodian Kora and Cyss Gresshla. He may not spawn.",
+      "text": "* Dassk Arossyss 與Ayassah Hess、Byssha Hisst、Custodian Fidius、Custodian Kora 及 Cyss Gresshla 共用同一出現位置，因此他不一定出現。",
+      "reason": "shares spawn point 指共用出現位置，並非分享重生點；保留六名頭目共用位置的敘述，不改為必定出現。 Ayassah Hess 的中文模板存在同名衝突，保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:1:84677b7978e65476/npc/notes",
+          "englishHash": "4df5d3dfa8eb5f84177fa40e5497e24285a067cf7ba5f3068956d668b992f483",
+          "evidenceHash": "64715b5967776fcfa0ebb2f7fda36dee14a737826d4851003cd939ea5d7b9afa"
+        }
+      ]
+    },
+    {
+      "source": "Elite Hex Spell. (5 seconds.) Causes -1…5…6 Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end.",
+      "text": "精英降咒魔法。持續 5 秒。造成 -1…5…6 體力衰減。續期條件：危險迴圈即將結束時，目標敵人仍受到另一個降咒影響。",
+      "reason": "Renewal 是此降咒續期，並非一般更新；修正另一個十六進位，保留結束判定時的條件。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:2:245/skill/conciseDescription",
+          "englishHash": "b9ae0f9931a45d9df2a9431229729aea55da7ff052617c5bbb9d2b4d6dca9469",
+          "evidenceHash": "2cb398c025991da2f515474be9a5e364655c1be8366c8db3affe0f8f54299b7d"
+        }
+      ]
+    },
+    {
+      "source": "Acquisition: Bastion of the Condemned is a unique shield dropped by Vraxx the Condemned, a boss who can be found in Cathedral of Flames.",
+      "text": "取得方式：Bastion of the Condemned 是一面獨特盾牌，由火焰大教堂的頭目 Vraxx the Condemned 掉落。",
+      "reason": "核對獨特盾牌、掉落頭目與地區，移除死刑犯等未取得可信中文身份的造名。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:953211809d9724e0/details/3",
+          "englishHash": "fe071ad430e8caa8a6cf517d53b9a49964a1cf4a39a05c8a6e9ca05359cdbab4",
+          "evidenceHash": "e8b3bd1932427e06edc3b958f665da269e99dc9166c4932dabddf9df48ab1c55"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. Spells cast 20…44…50% faster and recharge 40…72…80% faster. Continuously gain Overcast while active. PvE Skill",
+      "text": "精英加持魔法。魔法施法時間縮短 20…44…50%，魔法冷卻時間縮短 40…72…80%。生效期間持續增加過載。PvE 技能。",
+      "reason": "固定頁將兩項效果列為施法時間及冷卻時間減少，備註亦確認 recharge reduction；明確縮短的是時間，並修正過載被誤譯為陰天。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:343/skill/conciseDescription",
+          "englishHash": "9abeaf10d0df050c02444cabdfcf4ceadadd8a8584541a7b022c13d2ec4ce68c",
+          "evidenceHash": "301e51d096ab872517f0b7e06137622d7d81d572e5678b870ec51956765a66e0"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Deals 20…30 damage to target and nearby foes. You gain 2 Energy (maximum 12…20) for each of these foes with a condition or hex.",
+      "text": "紋章。對目標及附近敵人造成 20…30 點傷害。這些敵人每有一名受到病症或降咒影響，你便獲得 2 點能量，最多 12…20 點。",
+      "reason": "修正十六進位；保留能量僅按本次受擊敵人中的病症／降咒目標計算，以及每名 2 點與總上限。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:2:361/skill/conciseDescription",
+          "englishHash": "f22e842be2a9a8edb7b23ac2565628177ea42e351ce8283617ac29a5976c728f",
+          "evidenceHash": "5a44b8dd67c1dda3e83cc6cdab0c2778a5c4fefc4ffd00cee1947d1049ddf7e0"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/skill:2:362/skill/conciseDescription",
+          "englishHash": "f22e842be2a9a8edb7b23ac2565628177ea42e351ce8283617ac29a5976c728f",
+          "evidenceHash": "5a44b8dd67c1dda3e83cc6cdab0c2778a5c4fefc4ffd00cee1947d1049ddf7e0"
+        }
+      ]
+    },
+    {
+      "source": "Elite Flash Enchantment Spell. (20 seconds.) Inflicts Crippled (1…9…11 seconds) with your attack skills and transfer 1…3…3 conditions.",
+      "text": "精英閃現加持魔法。持續 20 秒。你的攻擊技能使該敵人殘廢 1…9…11 秒，並將自身 1…3…3 個病症轉移給該敵人。",
+      "reason": "依固定頁完整說明補明病症由自身轉移給受擊敵人；保留攻擊技能觸發、殘廢時間及病症數量，修正快閃記憶體誤譯。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:138/skill/conciseDescription",
+          "englishHash": "43a3e7b4d9c6cdcb66f60a25c6112990dea733123f7b94cb7621ca16a442f9c7",
+          "evidenceHash": "fb40808b3ad31b73c81a9a42f7351579d9b48d36c91c4c35ad2267bd42e07517"
+        }
+      ]
+    },
+    {
+      "source": "Ward Spell. (14…20 seconds.) Spells that allies in this ward cast have a 44…60% chance to recharge 50% faster. Spirits are unaffected.",
+      "text": "結界魔法。持續 14…20 秒。此結界內盟友施放的魔法，有 44…60% 機率使冷卻時間縮短 50%。精靈不受影響。",
+      "reason": "依固定頁完整說明的 halve skill recharge，50% 指冷卻時間減半；44…60% 才是觸發機率。保留兩者區別及精靈例外。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:4:327/skill/conciseDescription",
+          "englishHash": "9e4b9c27f7d7b669efb3e7756849f59c2a5d04cd20dd4c053c4d6c9e64cfee0e",
+          "evidenceHash": "c9cc539157558e8e3f4f5c7ae6d4c618e9c84fdcd41cf688b683dd6206cf3235"
+        }
+      ]
+    },
+    {
+      "source": "Elite Glyph. Your next 1…3…3 spells do[es] not cause Overcast and costs 10…22…25 less Energy. Gain 1…2…2 to all elemental attributes.",
+      "text": "精英符號。你接下來的 1…3…3 個魔法不會造成過載，且各減少 10…22…25 點能量消耗。所有元素屬性提高 1…2…2。",
+      "reason": "修正陰天及減去能量；逐項保留魔法次數、每次節省能量和所有元素屬性的加成，不混淆三組成長。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:199/skill/conciseDescription",
+          "englishHash": "c13d2ed8fda8cb85b3ee72e1308152e6db1d8d393655704ee4e6ee46083c3e15",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "Wicked Staff · Energy +4 \n Dark damage: 4-7 · 3 Curses · Reduces physical damage by 2 (while Hexed) \n Damage +10% (vs. hexed foes)",
+      "text": "邪惡法杖 · 能量 +4\n暗影傷害：4-7 · 需求：詛咒 3 · 承受的物理傷害減少 2（自身受到降咒時）\n傷害 +10%（對受到降咒的敵人）",
+      "reason": "核對兩個 Hexed 的主體不同：減傷要求自己受到降咒，傷害加成要求敵人受到降咒；修正六角與傷害減少方向。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:282/details/2",
+          "englishHash": "6d03a8de924fb6142f33878910742a1661dfb4134e767664ec8f5dddf989b98a",
+          "evidenceHash": "cbdd97be9fec3fd12e05346f5135c864fb6adb30ff86a5190252ed08e0a7d809"
+        }
+      ]
+    },
+    {
+      "source": "Ascalon Longbow · Piercing damage: 11-18 · 3 Marksmanship · Damage +10% (while hexed) \n Damage +10% (while Health is below 40%)",
+      "text": "Ascalon Longbow · 穿刺傷害：11-18 · 需求：弓術精通 3 · 傷害 +10%（自身受到降咒時）\n傷害 +10%（體力低於 40% 時）",
+      "reason": "逐項保留 11-18 傷害、需求 3 與兩個各 +10% 的條件；while hexed 指自身受到降咒，並非十六進位。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:266/details/6",
+          "englishHash": "2a1a286af4a202f984244e4bbcb25cf61bf4d5d679fa7708024850f25d04aa62",
+          "evidenceHash": "987bd4971165fc81b3a5e23c6b08ef4791e91f952a3b4fe2d1002888936008e9"
+        }
+      ]
+    },
+    {
+      "source": "Ward Spell. (14…20 seconds.) Allies in this ward deal +8…15 damage and +7…10 more damage against Charr. Spirits are unaffected.",
+      "text": "結界魔法。持續 14…20 秒。此結界內盟友造成的傷害增加 +8…15；對夏爾再額外增加 +7…10。精靈不受影響。",
+      "reason": "修正原譯將基礎加成也限定對夏爾的錯誤；明確第二組才是對夏爾的額外傷害，保留精靈例外。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:4:320/skill/conciseDescription",
+          "englishHash": "75ca3179adfba65ac3e29c913d2eb7f15a8585b904d1f9c787d4a20745589258",
+          "evidenceHash": "0f50b8f46d50faf3176aa6262a959044189e0525433c8f1b6e2d137a83aacfc8"
+        }
+      ]
+    },
+    {
+      "source": "Elite Stance. (8…18…20 seconds.) You have +4 Health regeneration and +1 Energy regeneration for each condition and hex on you.",
+      "text": "精英態勢。持續 8…18…20 秒。你身上每有一個病症或降咒，便獲得 +4 體力再生及 +1 能量再生。",
+      "reason": "每一個病症與每一個降咒分別計數，並非必須兩者成對；保留 +4 體力再生與 +1 能量再生。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:160/skill/conciseDescription",
+          "englishHash": "2a00fc818c2b992cc0cd69c0231724de7459ef753a875d6db874b164395b90e3",
+          "evidenceHash": "3437569db9cbb9aef386502add077d76d092c8757d4c44e6f5b33a858f55167d"
+        }
+      ]
+    },
+    {
+      "source": "Smiting Staff · Energy +4\nHoly Dmg: 4-7 · 3 Smiting Prayers · Energy + 5 (while hexed)\nDamage +10% (while Health is below 50%)",
+      "text": "懲戒法杖 · 能量 +4\n神聖傷害：4-7 · 需求：懲戒祈禱 3 · 能量 +5（自身受到降咒時）\n傷害 +10%（體力低於 50% 時）",
+      "reason": "修正十六進位並明確能量加成作用於自身受降咒時；保留基本能量與條件能量兩項及低於 50% 的嚴格條件。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:271/details/4",
+          "englishHash": "ab88dc074ba535389743ae611d3f9c7073bb211e98c02efe251679bffaac57ea",
+          "evidenceHash": "5b4684cdbbb1ab788e346af910e337ef42513aba50aa4fefe56bc743c28c7b64"
+        }
+      ]
+    },
+    {
+      "source": "War Hammer of Charrslaying* · Blunt damage: 13-20 · 3 Hammer Mastery · Health +20 (while in a Stance)\nDamage +20% (vs. Charr)",
+      "text": "War Hammer of Charrslaying* · 鈍擊傷害：13-20 · 需求：精通鎚術 3 · 體力 +20（處於態勢時）\n傷害 +20%（對夏爾）",
+      "reason": "Charrslaying 是武器修飾身份，並非字元鋪設；缺可信完整中文名時保留英文及星號，區分態勢體力與對夏爾傷害條件。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:276/details/3",
+          "englishHash": "ed98152eaf7d766d8abce31246f9561ed29751645016c3918492253e5e44e1d0",
+          "evidenceHash": "a1d0bb035210d58898a5fa6320edb7217b55f17108c779eaa2daca86ba4713db"
+        }
+      ]
+    },
+    {
+      "source": "Emboldened Carapace Shield · Armor 16 · 9 Strength · Health +60 (while Hexed) \n Received physical damage -3 (while Hexed)",
+      "text": "Emboldened Carapace Shield · 防禦 16 · 需求：力量 9 · 體力 +60（自身受到降咒時）\n承受的物理傷害 -3（自身受到降咒時）",
+      "reason": "兩項條件均是受到降咒，不是施咒時；保留力量需求與僅物理減傷，移除未證實的加粗物品造名。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:19/details/3",
+          "englishHash": "2246b5fc7303729bcdb7ec0b8d19b9a0fb3ca5bfb7ec8f31bb1064cb6de72ed4",
+          "evidenceHash": "8c60044eeade878296be30eb06afeb2c7a29680a856d8d8838cdc3564d9da4b1"
+        }
+      ]
+    },
+    {
+      "source": "Jeweled Staff · Energy +4 \n Chaos damage 4-7 · 3 Illusion Magic · Damage + 10% (vs Hexed foes) \n Energy + 5 (while Hexed)",
+      "text": "寶石法杖 · 能量 +4\n渾沌傷害：4-7 · 需求：幻術魔法 3 · 傷害 +10%（對受到降咒的敵人）\n能量 +5（自身受到降咒時）",
+      "reason": "核對敵人受降咒時增加傷害、自身受降咒時增加能量，修正兩處不同主體的 Hexed，保留渾沌傷害及需求。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:270/details/1",
+          "englishHash": "5bd5a3929478bbc33de03e1f2485df1140093f018f298f4423f772c85a7ac401",
+          "evidenceHash": "349a08b0909129bc265dacd235cc5b0d2007976e61b09ddfc41b277d5d9e7cce"
+        }
+      ]
+    },
+    {
+      "source": "Ward Spell. (14…20 seconds.) Allies in this ward have +24 armor and +24 more armor against Charr. Spirits are unaffected.",
+      "text": "結界魔法。持續 14…20 秒。此結界內盟友獲得 +24 防禦；對抗夏爾時再額外獲得 +24 防禦。精靈不受影響。",
+      "reason": "修正病房及精神；保留全體防禦與對夏爾額外防禦的疊加關係，兩項各為 +24。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:4:326/skill/conciseDescription",
+          "englishHash": "45f7a15c0b9a56e7065493b3afd266c21ba98e63f0dc28f77cca90ade670dc6d",
+          "evidenceHash": "7d7552bdf6b98f05f1930e6bb76494669c3799323d1451aee43a11dff337d6ec"
+        }
+      ]
+    },
+    {
+      "source": "Elite Flash Enchantment Spell. (8 seconds.) End Effect: recharges itself and you gain 0…4…5 Energy and 0…24…30 Health.",
+      "text": "精英閃現加持魔法。持續 8 秒。結束效果：此技能立即恢復，且你獲得 0…4…5 點能量及 0…24…30 點體力。",
+      "reason": "Flash 指閃現加持，recharges itself 指技能自身恢復；明確所有收益在結束時觸發，保留兩組成長。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:134/skill/conciseDescription",
+          "englishHash": "028db589e97090cd2df033c0ea55a8dc2ac53276a184dbe98b2734f63e551baa",
+          "evidenceHash": "6481fcfd2696570fb6943db5cb0209fb36616920017928f2c31777666a44327f"
+        }
+      ]
+    },
+    {
+      "source": "Crimson Carapace Shield · Armor +9 · 6 Tactics · Health +45 (while Hexed)\n Received Physical Damage -2 (while Hexed)",
+      "text": "血腥外殼之盾 · 防禦 +9 · 需求：戰術 6 · 體力 +45（自身受到降咒時）\n承受的物理傷害 -2（自身受到降咒時）",
+      "reason": "Hexed 的條件在兩項加成相同；保留此版本的防禦 +9、戰術 6、體力 +45 及物理減傷 -2，不與高需求版本混用。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:314/details/5",
+          "englishHash": "3e313b57e519f72d08d64471e08f52051e014da023f39b378d66b9f43c925469",
+          "evidenceHash": "2d8285baf4300adfaf8a7a8e450e024868446f4862eafc5b12fbca002cb6d0b5"
+        }
+      ]
+    },
+    {
+      "source": "Elite Spell. Removes 1…3…3 hex[es]. For each hex removed, target ally loses one condition and gains 15…63…75 Health.",
+      "text": "精英魔法。移除目標盟友身上的 1…3…3 個降咒。每移除一個降咒，該盟友便移除一個病症，並恢復 15…63…75 點體力。",
+      "reason": "修正十六進位；核對每個成功移除的降咒各觸發一次病症移除與治療，受益者為目標盟友。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:56/skill/conciseDescription",
+          "englishHash": "fffbbaaf9ed8b5d9e283456e7997ac6b5ce250b37ccc67000d042ade6f93ab28",
+          "evidenceHash": "244092072073476319ceb7d9f70135fe1a772d0df5f4abd91f9f775b991b8f91"
+        }
+      ]
+    },
+    {
+      "source": "The Dazed caused by this hex triggers Fragility twice upon application on the target (but not on surrounding foes).",
+      "text": "此降咒對目標施加暈眩時，會在目標身上觸發兩次脆弱；周圍敵人不會因此觸發兩次。",
+      "reason": "修正十六進位，保留兩次觸發只適用於主目標的例外，不將周圍敵人譯為完全不受暈眩影響。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:184/skill/warnings/2/text",
+          "englishHash": "254fcad209b5c68eeab14c4c77e96deab2d39f036db531875e6a06d20e170eb0",
+          "evidenceHash": "062a992a8bb4642fe544b56c9d4bcdface4cfc2b7137ebfec3d154a489f008f5"
+        }
+      ]
+    },
+    {
+      "source": "Applying or reapplying the hex on a target suffering from one or more condition(s) will trigger the Dazed effect.",
+      "text": "對已受到至少一個病症影響的目標，施加或重新施加此降咒，都會觸發暈眩效果。",
+      "reason": "核對至少一個病症的前提，以及首次施加和重新施加皆觸發；將十六進位改為降咒。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:184/skill/warnings/0/text",
+          "englishHash": "9d74cb06afbe028b4c7a8f7b9011349d58a50e00822a0f5fbf59bd39a317cd37",
+          "evidenceHash": "062a992a8bb4642fe544b56c9d4bcdface4cfc2b7137ebfec3d154a489f008f5"
+        }
+      ]
+    },
+    {
+      "source": "The Shield of the Condemned is a unique shield dropped by Vraxx the Condemned, a boss in Cathedral of Flames.",
+      "text": "Shield of the Condemned 是一面獨特盾牌，由火焰大教堂的頭目 Vraxx the Condemned 掉落。",
+      "reason": "核對物品、頭目及地區三者的掉落關係；物品和頭目缺可信中文身份，保留英文，移除死刑者等造名。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:de2ce93e4304afda/description",
+          "englishHash": "f6460d7e50a1e36375464705812890a586757cf6e221c00f26371b5d9ca4e6f7",
+          "evidenceHash": "adaafd28e33e9fecb71fc6d0514e7089f5103d94cff4832da1bf30df47bc6fcc"
+        }
+      ]
+    },
+    {
+      "source": "Crimson Carapace Shield · Armor: 16 · 9 Tactics · Health +60 (while hexed)\nReceived damage -3 (while hexed)",
+      "text": "血腥外殼之盾 · 防禦 16 · 需求：戰術 9 · 體力 +60（自身受到降咒時）\n承受的傷害 -3（自身受到降咒時）",
+      "reason": "此來源減傷未限定物理傷害，保留較廣的傷害範圍；兩個 while hexed 都是自身受到降咒，不是施咒時。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:8/details/5",
+          "englishHash": "37959aa05c0a14544a3d1ba73fcf2f9b37295aaaab7bc9855ab9af11eb8df8f8",
+          "evidenceHash": "6b05696c5dc27b657284645a6bc2f5f95a9ed8e9ec498c50cb3049c109080122"
+        }
+      ]
+    },
+    {
+      "source": "Destroyer Chest · Completion reward for Raven's Point. Chest rewards are separate from direct boss drops.",
+      "text": "Destroyer Chest · 完成渡鴉岬角的獎勵。寶箱獎勵與頭目直接掉落的物品分開計算。",
+      "reason": "Destroyer Chest 是獎勵寶箱身份，並非驅逐艦；保留完成地城取得寶箱與頭目直接掉落的區別。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:4:b7faead0ccd3d1f6/description",
+          "englishHash": "091cbf3d4f77444f57ad02227b14b54614140b69d6205f161530fe9fc687d6e2",
+          "evidenceHash": "0e954c03387a51623a00858d1c3ae6cc807027d2c6de9a3f9c48c444793d7c14"
+        }
+      ]
+    },
+    {
+      "source": "Runic Hammer of Fortitude* · Blunt Dmg: 13-20 · 3 Hammer Mastery · Damage +15% (while Hexed) \n Health +20",
+      "text": "Runic Hammer of Fortitude* · 鈍擊傷害：13-20 · 需求：精通鎚術 3 · 傷害 +15%（自身受到降咒時）\n體力 +20",
+      "reason": "核對 +15% 傷害的受降咒條件，體力 +20 沒有此限制；保留完整武器英文身份、星號及數值。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:273/details/5",
+          "englishHash": "4bb53e4caf7cd0ca5a2c879b0b85019ca24a40bf41b98e72221e657627fa37ee",
+          "evidenceHash": "1f30786a760712e3a3ef973d27217d073aece5616b6f174fd66715a69673bc30"
+        }
+      ]
+    },
+    {
+      "source": "The Dazed caused by this hex is always spread to foes in the area, even if the target was already Dazed.",
+      "text": "此降咒造成的暈眩，一律會擴散至範圍內的敵人，即使目標原本已經暈眩。",
+      "reason": "核對目標原有暈眩不阻止向周圍擴散；修正十六進位，不誤寫成僅首次施加才擴散。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:1:184/skill/warnings/1/text",
+          "englishHash": "31d8180a4919e73bd393a77fa342f5ebe22f0a0b4d9c7e8ce635175595a1a1d4",
+          "evidenceHash": "062a992a8bb4642fe544b56c9d4bcdface4cfc2b7137ebfec3d154a489f008f5"
+        }
+      ]
+    },
+    {
+      "source": "War Hammer of Charrslaying* · Blunt damage 13-20 · 3 Hammer Mastery · Health +20\nDamage +20% (vs. Charr)",
+      "text": "War Hammer of Charrslaying* · 鈍擊傷害：13-20 · 需求：精通鎚術 3 · 體力 +20\n傷害 +20%（對夏爾）",
+      "reason": "此條體力加成沒有態勢條件，與另一把同名武器分開；修正字元鋪設並保留 +20 體力、對夏爾 +20% 傷害與星號。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:270/details/5",
+          "englishHash": "87b5963b523a3a014907b1b6894013cd88f4799fa4140e07c35c7bdad4383d37",
+          "evidenceHash": "349a08b0909129bc265dacd235cc5b0d2007976e61b09ddfc41b277d5d9e7cce"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. (9…12 seconds.) You cannot miss target foe. If you kill this foe, you lose 5% Death Penalty.",
+      "text": "降咒魔法。持續 9…12 秒。你對目標敵人的攻擊不會未命中。受到此降咒的目標死亡時，自身死亡懲罰降低 5%；無論最後一擊由誰完成。",
+      "reason": "固定頁簡述寫由你擊殺，但備註明確說最後一擊可由任何人完成；依備註釐清觸發條件，並將死刑改為死亡懲罰。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:4:298/skill/conciseDescription",
+          "englishHash": "7189e7296e1b8047ad0a5ed58946b8bb7fc95f684888d26e969011a2f0544e9a",
+          "evidenceHash": "245a77af1f1378c04e3c7a7353c354924f5607ba13eeaae61573047465038b78"
+        }
+      ]
+    },
+    {
+      "source": "Elite Flash Enchantment Spell. (3…13…15 seconds.) You attack, move and gain adrenaline 25% faster.",
+      "text": "精英閃現加持魔法。持續 3…13…15 秒。你的攻擊速度、移動速度與累積怒氣的速度皆加快 25%。",
+      "reason": "此 PvE 版本包含攻擊、移動、怒氣三項速度，各為 25%；Flash 不是快閃記憶體，adrenaline 沿用怒氣。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:139/skill/conciseDescription",
+          "englishHash": "bd526911d09f659b3f4ee8dd30dce79282f476b48065af5b50839d8ee8fb39b8",
+          "evidenceHash": "46e940c1d81991028c77282de44231b6fe6005cc16aedd2c24300218479cb6d8"
+        }
+      ]
+    },
+    {
+      "source": "Elite Spell. You gain 1 Energy and 5 Health for each point of Overcast. You lose all enchantments.",
+      "text": "精英魔法。你每有 1 點過載，便獲得 1 點能量及 5 點體力。你失去所有加持。",
+      "reason": "Overcast 是過載，enchantments 是加持；明確每點過載的兩項收益，保留移除所有加持的代價。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:2:260/skill/conciseDescription",
+          "englishHash": "8e39a8343db088767e3f1f535737973b5136107c9decd1b3e2a52863cf336d64",
+          "evidenceHash": "53e2d777c267f2d6b98580d25c565a482227a844130caf51d6f14d5e9306f975"
+        }
+      ]
+    }
+  ]
+}

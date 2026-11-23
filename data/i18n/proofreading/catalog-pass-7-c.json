@@ -1,0 +1,440 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "Elite Signet. Removes one hex and one condition. No effect unless target ally is enchanted.",
+      "text": "精英紋章。移除目標盟友身上的一個降咒及一個病症。目標盟友未受到加持時，不生效。",
+      "reason": "修正十六進位及附魔；加持是效果生效前提，兩個被移除的效果都屬於目標盟友。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:60/skill/conciseDescription",
+          "englishHash": "0d4f130aec68474c33a34d9b1fe3ff8d26461d04006dc72dead2f2374ff9f8a1",
+          "evidenceHash": "ec4bb5b5361c3ad96724439cb9409b4d2f917cfd53e706722f9ff8cdd90e55cc"
+        }
+      ]
+    },
+    {
+      "source": "Elite Flash Enchantment Spell. (2…7…8 seconds.) You attack and gain adrenaline 25% faster.",
+      "text": "精英閃現加持魔法。持續 2…7…8 秒。你的攻擊速度與累積怒氣的速度皆加快 25%。",
+      "reason": "核對 PvP 版本僅有攻擊與怒氣速度，不含 PvE 的移動加速；保留 2…7…8 秒及兩項 25%。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:139/skill/pvp/conciseDescription",
+          "englishHash": "63c481810606f55ffb6ec9b08c160312e14d25b6b629b7e1b9f762b7259362b6",
+          "evidenceHash": "5a0d012fcf046f4bfd222c2a3826eac303638e01d37dd695bdde78d26a57540a"
+        }
+      ]
+    },
+    {
+      "source": "Butterfly Knives · Slashing damage: 7-17 · 9 Dagger Mastery · Damage +20% (while Hexed)",
+      "text": "Butterfly Knives · 砍擊傷害：7-17 · 需求：匕首精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對砍擊傷害、需求 9 及自身受降咒的 +20% 加成；缺可信中文物品身份時保留英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:85/details/1",
+          "englishHash": "d6392c9571bcfba49b2460946e5ed985b5f780be4f9114e15676d70a5e922665",
+          "evidenceHash": "63e9ad7c649c3a7bdd85201d1bb6844cbdb3cab7c92c09cada4d711c8be5e351"
+        }
+      ]
+    },
+    {
+      "source": "Butterfly Knives · Slashing damage: 7-17 · 9 Dagger Mastery · Damage +20% (while hexed)",
+      "text": "Butterfly Knives · 砍擊傷害：7-17 · 需求：匕首精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "此獨立來源的數值與另一收藏家相同，仍逐項核對其砍擊、需求及加成；修正 while hexed 為自身受降咒。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:96/details/1",
+          "englishHash": "fee5bf7864688c66d1e4835437bedabecb4dbe6a703b3c67101be2129520302b",
+          "evidenceHash": "9340cb92ab1d3170847509776e2732af30d3dec3dd5faebdce09eb6649e9bfeb"
+        }
+      ]
+    },
+    {
+      "source": "Dirks · Piercing damage: 7-17 · 9 Dagger Mastery · Damage +20% (while Hexed) · 125 gold",
+      "text": "Dirks · 穿刺傷害：7-17 · 需求：匕首精通 9 · 傷害 +20%（自身受到降咒時）· 125 金幣",
+      "reason": "保留此收藏家條目的額外 125 金幣價格；修正受降咒條件與被音譯成德克斯的物品身份。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:77/details/1",
+          "englishHash": "425c593a612f25ef5d2bed10da19f346749271d19e5ed0441e5c2eef6e5830ad",
+          "evidenceHash": "d69c6af4b1190066e196c72921ce05b3ba1337b187b43b081830ff32b33373e6"
+        }
+      ]
+    },
+    {
+      "source": "Acquisition: ;Eye of the North\n*Depths of Tyria\n**Raven's Point\n***Destroyer Chest",
+      "text": "取得方式：極地之眼\n* 泰瑞亞深處\n** 渡鴉岬角\n*** Destroyer Chest",
+      "reason": "保留資料片、地城區域、地城與獎勵寶箱四層取得路徑；Destroyer Chest 缺可信中文身份，不沿用驅逐艦寶箱。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:e783d008c9008138/details/1",
+          "englishHash": "42131df75935e237e66618167e21aaf882e69bfd8756b8df68b323a01a68a0bb",
+          "evidenceHash": "4ff9d540ef5c65847ffdc2ce2d02bc114ca40dc59d2e7e12bed21473906df3b8"
+        }
+      ]
+    },
+    {
+      "source": "Dadao Sword · Slashing damage: 15-22 · 9 Swordsmanship · Damage +20% (while hexed)",
+      "text": "Dadao Sword · 砍擊傷害：15-22 · 需求：精通劍術 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對劍術需求、15-22 傷害與受降咒加成；保留英文物品名，避免將 Dadao 無證據寫成大道。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:101/details/5",
+          "englishHash": "99ad47ef8066b6e7b48494630b8c3784c0ec04047ea1a726de371246161ce65b",
+          "evidenceHash": "682f50f30a9119bf9429b2eb003fd77a5890c268ba8d8e21049f3d7377509f81"
+        }
+      ]
+    },
+    {
+      "source": "Long Sword* · Slashing damage: 13-19 · 6 Swordsmanship · Damage +20% (while hexed)",
+      "text": "長劍* · 砍擊傷害：13-19 · 需求：精通劍術 6 · 傷害 +20%（自身受到降咒時）",
+      "reason": "逐項保留此低需求長劍的 13-19 傷害與需求 6；修正十六進位，保留星號標記。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:317/details/5",
+          "englishHash": "3c5d7655c78e8d547fbdeefd593166afcf72619d07b2e34e94fd99dc315d24ce",
+          "evidenceHash": "e41d5ce1066eef1cd4904f9118369b83d6c1b692384d2b56aac5a4bd7716c026"
+        }
+      ]
+    },
+    {
+      "source": "Long Sword* · Slashing damage: 14-20 · 8 Swordsmanship · Damage +20% (while Hexed)",
+      "text": "長劍* · 砍擊傷害：14-20 · 需求：精通劍術 8 · 傷害 +20%（自身受到降咒時）",
+      "reason": "此版長劍為 14-20 傷害、需求 8，與另一收藏家版本分開核對；保留 +20% 受降咒加成及星號。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:331/details/5",
+          "englishHash": "11fbef276de9fa37061a4aa3de391e8cbabea66e8286a5cad57ac930573d896e",
+          "evidenceHash": "4f8a16d5870d8014204fd46a0835db2189fc05a3d170fc504e6876d2bf9e4068"
+        }
+      ]
+    },
+    {
+      "source": "Recurve Bow · Piercing damage: 15-28 · 9 Marksmanship · Damage +20% (while hexed)",
+      "text": "反曲弓 · 穿刺傷害：15-28 · 需求：弓術精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對反曲弓的穿刺傷害、需求 9 與 while hexed 主體；加成要求自身受降咒，並非敵人受降咒。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:106/details/5",
+          "englishHash": "91054823a278b4b4bd0bf07d981926994eaa146b90ade4bfa1b401164a842906",
+          "evidenceHash": "250620429ba3154d57ce14b6a70137504c291dcb52776e2636c00f5f907e3b63"
+        }
+      ]
+    },
+    {
+      "source": "Dirks · Piercing damage: 7-17 · 9 Dagger Mastery · Damage +15% (vs hexed Foes)",
+      "text": "Dirks · 穿刺傷害：7-17 · 需求：匕首精通 9 · 傷害 +15%（對受到降咒的敵人）",
+      "reason": "此條是對受降咒敵人 +15%，與自身受降咒 +20% 的 Dirks 不同；保留不同目標條件和百分比。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:66/details/1",
+          "englishHash": "e8c235cb6d13fc0b87b3302f0f8c3449b1363c5d8c94afb6d8298ae28fa42cba",
+          "evidenceHash": "4e9d5721b5207d753d6e91622712cf356af668b8567a4723ff8d3a00be45f21b"
+        }
+      ]
+    },
+    {
+      "source": "Melon Hammer · Blunt Dmg: 19-35 · 9 Hammer Mastery · Damage +20% (while Hexed)",
+      "text": "Melon Hammer · 鈍擊傷害：19-35 · 需求：精通鎚術 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對鈍擊傷害 19-35、鎚術需求 9 與受降咒加成；完整保留英文身份，移除半英半中的 Melon 鎚。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:93/details/4",
+          "englishHash": "77d611c87c588e057a4e5b10d0de8943e1e3d23f0fdf28d75221290b096e02a4",
+          "evidenceHash": "3258bba684679c057ed790a7947ca2cbda4f70174ffdaf7449dc962361c4e013"
+        }
+      ]
+    },
+    {
+      "source": "Shortbow · Piercing damage: 15-28 · 9 Marksmanship · Damage +20% (while hexed)",
+      "text": "短弓 · 穿刺傷害：15-28 · 需求：弓術精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "固定中文模板 Short Bow 修訂 7244 支持短弓；核對 15-28 穿刺傷害、需求 9 與自身受到降咒時 +20% 傷害。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:55/details/5",
+          "englishHash": "71744ad5e95d7322aed2bcef88feb14ec4fb2d195a29b1dee04db500c3070f06",
+          "evidenceHash": "2cce0cdeb671d3e0a20d28d438b30532dd10d1f744669956aa5c6cb3056051f7"
+        }
+      ]
+    },
+    {
+      "source": "Flatbow · Piercing damage: 15-28 · 9 Marksmanship · Damage +20% (while Hexed)",
+      "text": "平底弓 · 穿刺傷害：15-28 · 需求：弓術精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對平底弓的 15-28 穿刺、需求 9 及 +20% 條件；保留有中文來源的名稱並修正十六進位。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:79/details/5",
+          "englishHash": "8a1becd5ce00772982dd4a5b7b32054d97b7df453cb56f980b2edb505fad9412",
+          "evidenceHash": "f0835063bd969bea8b56e7bc46f23fd4701326c088d3e008b8284358ecf3d960"
+        }
+      ]
+    },
+    {
+      "source": "Hornbow · Piercing damage: 15-28 · 9 Marksmanship · Damage +20% (while hexed)",
+      "text": "Hornbow · 穿刺傷害：15-28 · 需求：弓術精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "逐項核對 Hornbow 的數值與自身受降咒條件；保留現有英文物品身份，不憑字面另造中文名。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:87/details/6",
+          "englishHash": "42b38ceb13b856780d50ba4eb8cfc01b7c8985b3fdc1560e2958a99b099b9f77",
+          "evidenceHash": "b530bf0ccf267697df67a767b1da850e5ef4dac65992ffc7db748d89ef3ad5de"
+        }
+      ]
+    },
+    {
+      "source": "Longbow · Piercing damage: 15-28 · 9 Marksmanship · Damage +20% (while Hexed)",
+      "text": "長弓 · 穿刺傷害：15-28 · 需求：弓術精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對長弓的傷害與需求不變，將 while Hexed 改為自身受到降咒，而非十六進位。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:53/details/6",
+          "englishHash": "311e33255639c82da1325712ededaffd75cd410007eff55572d51a8c092a1837",
+          "evidenceHash": "ee844e8b7689ac025426efed84b80ddba45f56f1c3c912d86496f03ae416333e"
+        }
+      ]
+    },
+    {
+      "source": "Dirks · Piercing damage: 7-17 · 9 Dagger Mastery · Damage +20% (while hexed)",
+      "text": "Dirks · 穿刺傷害：7-17 · 需求：匕首精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對兩個來源均為同一 +20% 自身受降咒版本，保留共用譯文；不與 +15% 對受降咒敵人版本混用。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:52/details/1",
+          "englishHash": "783ac249407071357f875a64d4b122e3560c211b04d4d6861bc5ae9977fb65f2",
+          "evidenceHash": "d4f9f0b86af9c95096c9d5a0ceab12cfd63c90338c6b9a8a380e22299eaafab5"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:106/details/1",
+          "englishHash": "783ac249407071357f875a64d4b122e3560c211b04d4d6861bc5ae9977fb65f2",
+          "evidenceHash": "250620429ba3154d57ce14b6a70137504c291dcb52776e2636c00f5f907e3b63"
+        }
+      ]
+    },
+    {
+      "source": "Cleaver · Slashing damage: 6-28 · 9 Axe Mastery · Damage +20% (while hexed)",
+      "text": "切割斧 · 砍擊傷害：6-28 · 需求：精通斧術 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對斧的 6-28 砍擊及精通斧術需求，修正受降咒條件；保留已有中文來源的切割斧身份。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:97/details/5",
+          "englishHash": "0f23c3ca7b4372751ccd17810c672c824cf9cce3d8ed3147052fc43eeffbe4ec",
+          "evidenceHash": "85de58ec6e5b493109cf63793959f2dce494b03cf5a4b3728af690ee80eaa20c"
+        }
+      ]
+    },
+    {
+      "source": "Dirks · Piercing Dmg: 7-17 · 9 Dagger Mastery · Damage +20% (while Hexed)",
+      "text": "Dirks · 穿刺傷害：7-17 · 需求：匕首精通 9 · 傷害 +20%（自身受到降咒時）",
+      "reason": "核對此收藏家提供的穿刺版本、需求 9 與 +20%；移除德克造名，將 Hexed 明確譯為自身受到降咒。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:2:65/details/1",
+          "englishHash": "4c3d8ba0ff06e24e77c22601f4e1820d4b46279f56bbbe9162c77eebb9a3b442",
+          "evidenceHash": "84814d95c908e21512ba11c5dab5d68e9471062534fee43a22e7d2b640aa3fe2"
+        }
+      ]
+    },
+    {
+      "source": ";Eye of the North\n*Depths of Tyria\n**Raven's Point\n***Destroyer Chest",
+      "text": "極地之眼\n* 泰瑞亞深處\n** 渡鴉岬角\n*** Destroyer Chest",
+      "reason": "核對獨立取得欄的四層路徑，與帶取得方式前綴的文字分開綁定；移除驅逐艦寶箱誤譯。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:e783d008c9008138/description",
+          "englishHash": "dccae958ef06cce4e2af32617a44c6e82f7427072f55b7cf0cf5cec56d5866c2",
+          "evidenceHash": "4ff9d540ef5c65847ffdc2ce2d02bc114ca40dc59d2e7e12bed21473906df3b8"
+        }
+      ]
+    },
+    {
+      "source": "Elite Spell. Heals for 10…98…120. Removes one condition and one hex.",
+      "text": "精英魔法。恢復 10…98…120 點體力，並移除一個病症及一個降咒。",
+      "reason": "補明恢復的單位為體力，修正刪除與十六進位；保留一個病症、一個降咒及完整治療成長。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:2:221/skill/conciseDescription",
+          "englishHash": "879f2c571fe7dde290b24280539d753b083ca509129880e1cd9b071543684f40",
+          "evidenceHash": "2914b8a63af3f9a7d8c73e85e227402599047a665af02a052c8dc2fc734e753b"
+        }
+      ]
+    },
+    {
+      "source": "Acquisition: Eye of the North\n* Raven's Point\n** Destroyer Chest",
+      "text": "取得方式：極地之眼\n* 渡鴉岬角\n** Destroyer Chest",
+      "reason": "保留此物品來源僅有的資料片、地城、寶箱三層取得路徑，不補入另一物品的泰瑞亞深處層。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:5bf04f3c4486c280/details/2",
+          "englishHash": "d2045fab3c9b508879368d7169426116d6fd995aaece7efc76fd2dbbcddbf129",
+          "evidenceHash": "78643831db4d9f5198c979d18f3cbe9e8674ec8dfed4940e22def29b21dcda37"
+        }
+      ]
+    },
+    {
+      "source": "Acquisition: ;Eye of the North\n*Raven's Point\n**Destroyer Chest",
+      "text": "取得方式：極地之眼\n* 渡鴉岬角\n** Destroyer Chest",
+      "reason": "逐項核對 Aureate Blade 的取得階層，移除維基標題分號與驅逐艦誤譯，不更動地城身份。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:74fbb8bbae5a4af2/details/1",
+          "englishHash": "5ff7680fe3e947c0408b36dd3cf056634fffce1eb9c8477eef5de72a77711560",
+          "evidenceHash": "d669a313a78ee718b1c937ed5a7c38ee6e33e4e6fc0cb8e6f4ae97a54580ed80"
+        }
+      ]
+    },
+    {
+      "source": "Accursed Icon · Energy +6 · 5 Curses · Armor + 7 (while hexed)",
+      "text": "詛咒圖像 · 能量 +6 · 需求：詛咒 5 · 防禦 +7（自身受到降咒時）",
+      "reason": "沿用 Accursed Icon 的可信中文名詛咒圖像；核對能量、需求與自身受降咒防禦加成。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/collector:1:271/details/2",
+          "englishHash": "4660e791b2e4edf6ea65746ecc0fb8909c160da0259b75d246a957765bc1af43",
+          "evidenceHash": "5b4684cdbbb1ab788e346af910e337ef42513aba50aa4fefe56bc743c28c7b64"
+        }
+      ]
+    },
+    {
+      "source": "Lev the Condemned (North Kryta Province (War in Kryta))",
+      "text": "Lev the Condemned（科瑞塔北部，科瑞塔戰爭期間）",
+      "reason": "括註描述出現地點與戰役狀態，不是頭目名字的一部分；缺可信中文身份，保留完整英文，移除死刑犯列夫造名。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/skill:3:139/skill/acquisition/0/text",
+          "englishHash": "ef75b8917bd0e8b1df04f1c31d078c6cb2f9898724db7d678c35a283bd6f321a",
+          "evidenceHash": "46e940c1d81991028c77282de44231b6fe6005cc16aedd2c24300218479cb6d8"
+        }
+      ]
+    },
+    {
+      "source": "Eye of the North\n* Raven's Point\n** Destroyer Chest",
+      "text": "極地之眼\n* 渡鴉岬角\n** Destroyer Chest",
+      "reason": "修復被壓平的取得路徑換行與階層，核對資料片、地城和獎勵寶箱，移除驅逐艦誤譯。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:5bf04f3c4486c280/description",
+          "englishHash": "9a416768e808c6b8a31d974f5fe82eca693a289b0082c2c1136506bb57aaf5ac",
+          "evidenceHash": "78643831db4d9f5198c979d18f3cbe9e8674ec8dfed4940e22def29b21dcda37"
+        }
+      ]
+    },
+    {
+      "source": ";Eye of the North\n*Raven's Point\n**Destroyer Chest",
+      "text": "極地之眼\n* 渡鴉岬角\n** Destroyer Chest",
+      "reason": "核對此獨立欄位的三層路徑與地城身份，去掉標題分號，將未證實的寶箱中文名還原為英文。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:4:74fbb8bbae5a4af2/description",
+          "englishHash": "e50a1de556ecbc342248a8e9a90d4c2b797385d4b4784763666ebd70cc4c6c14",
+          "evidenceHash": "d669a313a78ee718b1c937ed5a7c38ee6e33e4e6fc0cb8e6f4ae97a54580ed80"
+        }
+      ]
+    },
+    {
+      "source": "Received Physical damage -3 (while Hexed)",
+      "text": "承受的物理傷害 -3（自身受到降咒時）",
+      "reason": "received damage 指承受傷害，while Hexed 指自身受降咒；保留僅物理傷害 -3 的限制。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:2:1abc625b4f54f3a9/details/1",
+          "englishHash": "8a7520223cd4d275608a485840afe49b9f54511d4056484a13dceada7dd7ccbf",
+          "evidenceHash": "e399278e79cda94d226891f4318147e8d9534982ae526f7041088b8dd75f6a66"
+        }
+      ]
+    },
+    {
+      "source": "Health +60 (while Hexed)",
+      "text": "體力 +60（自身受到降咒時）",
+      "reason": "核對四件獨特物品的共用屬性均為自身受降咒時體力 +60；不改成施法或目標敵人受降咒。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:2:fa65fa04673765bf/details/2",
+          "englishHash": "62a98a7b0a06b36c04b667f081c9e3f913deb28b11b15abad4b3c1057833ad51",
+          "evidenceHash": "45a185e6effbe9c282e2ba2094ff3c2e020a8139d2f640b646a118f0fb820163"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/green:2:1abc625b4f54f3a9/details/2",
+          "englishHash": "62a98a7b0a06b36c04b667f081c9e3f913deb28b11b15abad4b3c1057833ad51",
+          "evidenceHash": "e399278e79cda94d226891f4318147e8d9534982ae526f7041088b8dd75f6a66"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/green:2:9ba4de9ebe280121/details/2",
+          "englishHash": "62a98a7b0a06b36c04b667f081c9e3f913deb28b11b15abad4b3c1057833ad51",
+          "evidenceHash": "6ecf6cfaf5bd1b55373c2e6cd534e885135f0e8cba58a89e5262a0e839edc985"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/green:3:e0f1496b94cb0b3b/details/2",
+          "englishHash": "62a98a7b0a06b36c04b667f081c9e3f913deb28b11b15abad4b3c1057833ad51",
+          "evidenceHash": "f69924e67540cbca917c796b663535d17fa3fef3f5dd568ce2f60622cdea3961"
+        }
+      ]
+    },
+    {
+      "source": "Energy +5 (while Hexed)",
+      "text": "能量 +5（自身受到降咒時）",
+      "reason": "核對條件能量為 +5，while Hexed 作用於持有者；將十六進位改為受到降咒。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/green:1:e1e398dc590c002b/details/1",
+          "englishHash": "7ed4a2c0f6bc428722867fa17ea68a693920d796b5271284cb43fad7abc4b77b",
+          "evidenceHash": "708b201590c610b9cb5a2e6c5e8d595837e60f5e00df7c5a862d6abd14dd3509"
+        }
+      ]
+    },
+    {
+      "source": "Time Ward",
+      "text": "Time Ward",
+      "reason": "Time Ward 是技能身份；未找到可信中文名稱，保留英文，避免以時間病房誤導技能查找。",
+      "bindings": [
+        {
+          "dataset": "catalog",
+          "key": "records/boss:4:e01c513bbe1c8e21/npc/skills/1",
+          "englishHash": "49e11f34787a8929fe8f86754f51b13d808b543af6f5a9e4ba0dc23a4d308a01",
+          "evidenceHash": "1d8b47085bdfb36b7788a92bfafc354fe2c0b09c0809af620462da9074dfaa81"
+        },
+        {
+          "dataset": "catalog",
+          "key": "records/boss:4:afda21b9ac0f6c65/npc/skills/1",
+          "englishHash": "49e11f34787a8929fe8f86754f51b13d808b543af6f5a9e4ba0dc23a4d308a01",
+          "evidenceHash": "1d8b47085bdfb36b7788a92bfafc354fe2c0b09c0809af620462da9074dfaa81"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖固定技能说明、逐等级成长表与 Wiki 链接解析。
- * [OUTPUT]: 编译保留符号的固定效果、成长分项与资源语义。
+ * [OUTPUT]: 编译保留符号的效果与资源；按局部词组区分再生衰减。
  * [POS]: 技能数值与正文编译入口；先展开链接标签，再切分成长值。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -38,6 +38,8 @@ const sentenceAt=(text,position)=>{const before=text.slice(0,position).split(/\.
 function rangeMetric(source,start,end,context){
  const after=plainText(source.slice(end,end+100)),before=plainText(source.slice(Math.max(0,start-80),start));
  if(/^seconds?\b/i.test(after))return 'duration';
+ const rate=/^(?:health|energy)\s+(degeneration|regeneration)\b/i.exec(after);
+ if(rate)return rate[1].toLowerCase();
  if(/^(?:(?:fire|cold|lightning|earth|holy|dark|chaos|physical|slashing|piercing|blunt|armor.ignoring)\s+)?damage\b/i.test(after))return /additional|extra|\+\s*$/i.test(before)?'bonus-damage':'damage';
  if(/^health\b/i.test(after))return /steal|stolen/i.test(before)?'life-steal':/heal|gain|restore/i.test(before)?'healing':'other';
  return metricOf(context);

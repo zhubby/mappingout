@@ -1,7 +1,7 @@
 {
   "version": 1,
   "dataset": "armor",
-  "status": "unresolved",
+  "status": "resolved",
   "scope": "English armor fields containing Wiki metadata, unexpanded templates or raw tables; translation review does not resolve these English presentation defects",
   "distinctTexts": 64,
   "fields": 76,
@@ -70,5 +70,6 @@
     {"source":"__NOTOC__\nMateneh crafts the prestige Vabbian Armor for core, Factions and Nightfall professions.\n","flags":["toc-directive"],"bindings":[{"key":"armorers/armorer:gww:34722/notes","englishHash":"b270120f4cc7ff704bb66b0307b053762ad96ea5bcd5e7128775f5b1aee9e6ed","evidenceHash":"d11223ab41830abd77a14d3e7dee62601231a779cecc3bb350a63cf90e644398"}]},
     {"source":"__NOTOC__\nWei Qi crafts prestige armor for Factions professions using the ascended Exotic armor art. All armor is crafted with an empty insignia slot. Fellow armorers Koumei and Maiya are found next to Wei Qi.\n","flags":["toc-directive"],"bindings":[{"key":"armorers/armorer:gww:25808/notes","englishHash":"987ad3e6fc26e97e5e4e268361d05495ba4b2821bcbf5eb342b5c6a72d94f15c","evidenceHash":"46eb0e67a84ed1370858a01a1317cf4028c706c9af7928c1a3389123df1737ab"}]},
     {"source":"__NOTOC__\nMaiya crafts prestige armor for Factions professions using the ascended Imperial armor art. All armor is crafted with an empty insignia slot. Fellow armorers Koumei and Wei Qi can be found next to Maiya.\n","flags":["toc-directive"],"bindings":[{"key":"armorers/armorer:gww:25811/notes","englishHash":"0a248587d5ef17c7d74ccec42682a77010989836c8e47df4f22907ca43cb8910","evidenceHash":"597cfd4c2de1eed4212346323427b8c9433f44f3a149d5144dc3c748486186fa"}]}
-  ]
+  ],
+  "resolution": {"reviewStatus":"agent-reviewed-not-in-game-verified","originalDistinctTexts":64,"originalFields":76,"normalizedAdditionalFields":2,"remainingMarkupFields":0,"baselineSourceHash":"2b21bc9f615eab2d7ef0db6723cbf0fee8003366067f19bf4f8fccd4c94b347c","method":"Remove TOC directives; preserve gender columns and collector exchanges; bind transcluded notes to parent and subpage revisions; compare every offer note against its pinned source.","proofreadingFiles":["armor-notes-npcs.json","armor-notes-source-cleanup.json"]}
 }

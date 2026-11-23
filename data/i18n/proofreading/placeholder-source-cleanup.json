@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {"source":"Go out the gate to Lakeside County and talk to [Trainer].","text":"走出城門前往湖畔郡，與導師交談。","reason":"固定來源的Trainer是導師占位；保留交談對象，不沿用刪除標記後缺少對象的英文。","bindings":[{"dataset":"quests","key":"quests/quest:gww:3286/sections/objectives-1/blocks/objectives-1-1/text","englishHash":"4148ae8728ca100b4cfbcc78898db357b2f53e93ea01b582fb0638ddc4122bfe","evidenceHash":"f22c2ca69da78d7fb53d1d070321c38efb87db9ac4b090ee1efc54cd79d341c2"}]},
+    {"source":"Hex Spell. You lose all Energy. For [[MO:growth:0:var1]] seconds, target foe suffers [[MO:growth:0:var2]] Energy degeneration, and you experience [[MO:growth:0:var3]] Energy regeneration.","text":"降咒魔法。你失去所有能量。持續 [[MO:growth:0:var1]] 秒，目標敵人受到 [[MO:growth:0:var2]] 能量衰減，你獲得 [[MO:growth:0:var3]] 能量再生。","reason":"對照固定正文與成長表；敵人的衰減綁var2，自身再生綁var3。符號由獨立效果呈現，不將兩項相同數字當成同一效果。","bindings":[{"dataset":"skills","key":"skills/skill:gww:1645/variants/skill-version:gww:1645/descriptionTemplate","englishHash":"039550f2be22d28a31111ebb26be8159437a0cd3dad51a2db6f02fe1168795e5","evidenceHash":"4ca1dd66523c8c2b95b36d1c9e836c5be4317c56fcf698421bb5623b59784e61"}]},
+    {"source":"Hex Spell. For [[MO:growth:0:var1]] seconds, target foe suffers [[MO:growth:0:var2]] Health degeneration, and you gain [[MO:growth:0:var3]] Health regeneration.","text":"降咒魔法。持續 [[MO:growth:0:var1]] 秒，目標敵人受到 [[MO:growth:0:var2]] 體力衰減，你獲得 [[MO:growth:0:var3]] 體力再生。","reason":"逐項核對持續時間、敵人的體力衰減與自身體力再生；var2和var3保持獨立，不因數值相同而共用身份。","bindings":[{"dataset":"skills","key":"skills/skill:gww:1751/variants/skill-version:gww:1751/descriptionTemplate","englishHash":"8c5ee9a60a64f750c837bcfeaa5258c48a11709cf209b02066d6f62e7dcf1085","evidenceHash":"46f51004a4d50510db7c7da22df5473f54f283da3cfd8c69ba26c54516ec61a0"}]}
+  ]
+}

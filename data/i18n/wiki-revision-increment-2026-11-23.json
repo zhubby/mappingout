@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "composedAt": "2026-11-23T06:58:10.700Z",
+  "checkMethod": "same-day-prior-complete-check-plus-incremental-online-readback",
+  "scope": "Complete reference coverage from the committed same-day check and the two captured Collector revision readbacks. This is not a new complete online recheck.",
+  "priorCompleteCheck": {
+    "repositoryCommit": "87d8ed3332e66dd330c48cbd5b31cb8aa15edede",
+    "reportPath": "data/i18n/wiki-current-revisions.json",
+    "reportGitBlob": "02ed1ca620c842263f20fada97c94570077629bc",
+    "baselineGitBlobs": {
+      "data/i18n/baseline/catalog.json": "8bb5fe57fe89b5bd7eefad6dbfd159239e140402",
+      "data/i18n/baseline/armor.json": "e89d35e05876362716d5ad02c4688aec283c26c6",
+      "data/i18n/baseline/calendar.json": "b83085c8b6ed5e92942a0d5a7e2a5d6336e6b08d",
+      "data/i18n/baseline/quests.json": "e792691674003a17857e7c25b7eda57e4894c9f3",
+      "data/i18n/baseline/skills.json": "ff62337ca9d53c331b53250d3e39b885245f691e"
+    },
+    "report": {
+      "checkedAt": "2026-11-23T04:23:21.606Z",
+      "referenceHash": "8b483e63105c181f4cb6caa3c8ee6868142a73fde37ccde89c0356b21539623d",
+      "checked": 6895,
+      "changed": [],
+      "errors": []
+    },
+    "reproducedReferenceHash": "8b483e63105c181f4cb6caa3c8ee6868142a73fde37ccde89c0356b21539623d",
+    "reproducedReferences": 6895
+  },
+  "referenceComparison": {
+    "algorithm": "In datasets order, collect every baseline field reference into a Map keyed by pageid, sort Map values by pageid, then SHA-256 the UTF-8 JSON.stringify result; same as check-wiki-revisions.mjs and validate-i18n.mjs.",
+    "previousCount": 6895,
+    "previousReferenceHash": "8b483e63105c181f4cb6caa3c8ee6868142a73fde37ccde89c0356b21539623d",
+    "currentCount": 6897,
+    "currentReferenceHash": "d03cc25ad901f4944ac37c210e992485a0cfd44dcda60a9c846e8389b1508714",
+    "unchanged": 6895,
+    "added": [
+      {
+        "title": "Mesmer Krytan armor/Collector",
+        "pageid": 5339,
+        "revid": 2285763
+      },
+      {
+        "title": "Elementalist Krytan armor/Collector",
+        "pageid": 10586,
+        "revid": 2157072
+      }
+    ],
+    "removed": [],
+    "modified": []
+  },
+  "incrementalOnlineCheck": {
+    "sourceArtifact": "releases/proofreading-armor-source/collector-revision-check.json",
+    "sourceArtifactSha256": "de24b60b775d200ff387ba8f2a3b72fe7ddf5693b796d2b4b49a1d931dede839",
+    "checkedAt": "2026-11-23T06:48:40.961Z",
+    "checks": [
+      {
+        "title": "Mesmer Krytan armor/Collector",
+        "pageid": 5339,
+        "pinned": 2285763,
+        "current": 2285763
+      },
+      {
+        "title": "Elementalist Krytan armor/Collector",
+        "pageid": 10586,
+        "pinned": 2157072,
+        "current": 2157072
+      }
+    ],
+    "checked": 2,
+    "referenceHash": "580fbde2c7d69dad8f37eae47d642301c872506b3c361623607fc718da195c05"
+  },
+  "limitations": [
+    "The 6895 prior references retain the original complete-check timestamp.",
+    "Only the two added references have the later incremental-check timestamp.",
+    "No result from an interrupted later full check is counted as successful coverage."
+  ]
+}

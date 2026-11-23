@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖固定 Wiki 文本、模板解析和表格解析。
- * [OUTPUT]: 编译攻略分节、奖励模式、比较符与路线图。
+ * [OUTPUT]: 编译攻略分节、奖励模式、比较符、导师占位与路线图。
  * [POS]: 任务编译器的内容适配；前端不解释 Wiki 标记或 HTML。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -79,6 +79,8 @@ export function cleanQuestText(raw = '') {
   // 先展开内层链接，修正 Wiki 原文中偶见的嵌套或多余括号。
   for(let i=0;i<3;i++)value=value.replace(/\[\[([^\[\]|]+)\|((?:(?!\[\[)[\s\S])*?)\]\]/g,'$2').replace(/\[\[([^\[\]]+)\]\]/g,'$1');
   value=value.replace(/\]\]/g,'');
+  // 固定来源的导师占位不是 HTML；只转换已核实的字面量。
+  value=value.replaceAll('<Trainer>','[Trainer]');
   // 比较符之间不是 HTML 标签；仅移除具有合法标签名的标记。
   return plainText(value).replace(/\[https?:\/\/[^\s\]]+\]/g, '').replace(/<\/?[A-Za-z][\w:-]*(?:\s[^<>]*?)?\s*\/?>/g, '').replace(/&rarr;|&#8594;/g, ' → ').replace(/&(?:larr|darr|uarr);/g, ' · ').replace(/&(?:ndash|mdash);/g, ' — ').replace(/&lt;|&#0*60;|&#x0*3c;/gi, '<').replace(/&gt;|&#0*62;|&#x0*3e;/gi, '>').replace(/&le;|&#0*8804;|&#x0*2264;/gi, '≤').replace(/&ge;|&#0*8805;|&#x0*2265;/gi, '≥').replace(/&nbsp;|&#160;/g, ' ').replace(/[ \t]+/g, ' ').trim();
 }

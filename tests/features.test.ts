@@ -1,12 +1,14 @@
 /**
- * [INPUT]: 依赖真实护甲资料、Wiki 图像证据与个人存储。
- * [OUTPUT]: 验证材料来源、护甲索引、配方和活动周期。
+ * [INPUT]: 依赖护甲备注表格、来源审计、Wiki 图像与个人存储。
+ * [OUTPUT]: 验证备注语义与来源一致性、材料、配方和活动周期。
  * [POS]: 功能资料和领域回归；与浏览器交互验证互补。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { describe, expect, it } from 'vitest';
 import { createHash } from 'node:crypto';
 import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 import { IDBFactory } from 'fake-indexeddb';
 import 'fake-indexeddb/auto';
 import { openDB } from 'idb';
@@ -22,6 +24,7 @@ import { personalStore } from '../src/storage/store';
 import { deleteCharacter } from '../src/features/journal/domain';
 import { armorFacts } from '../scripts/wiki/lib/armor-facts.mjs';
 import { validateFeatureData } from '../scripts/validate/validate-features.mjs';
+import { auditContent } from '../scripts/i18n/audit-content.mjs';
 
 const armor:ArmorCatalog=JSON.parse(fs.readFileSync('public/data/armor.json','utf8'));
 const calendar:ActivityCatalog=JSON.parse(fs.readFileSync('public/data/calendar.json','utf8'));
@@ -83,6 +86,48 @@ describe('reviewed armor recipes',()=>{
     expect(armorFacts(source).offers[0].pieces).toHaveLength(5);
     expect(armorFacts(source).set.notes).toContain('rank 5');
   });
+  it('preserves female-first comparison columns instead of exposing Wiki table syntax',()=>{
+    const source=JSON.parse(fs.readFileSync('data/wiki/pages/67329.json','utf8'));
+    const notes=armorFacts(source).set.notes;
+    expect(notes).toContain('Mask: Female: Mesmer Costume Mask; Male: New Model');
+    expect(notes).toContain('Hose: Female: Mesmer Obsidian armor; Male: Mesmer Obsidian armor');
+    expect(notes).toContain('glow');
+    expect(notes).not.toMatch(/\{\{|\{\||\|\}/);
+  });
+  it('keeps different male and female appearances alongside shared armor components',()=>{
+    const source=JSON.parse(fs.readFileSync('data/wiki/pages/67570.json','utf8'));
+    const notes=armorFacts(source).set.notes;
+    expect(notes).toContain('Tunic: Male: Necromancer Krytan armor; Female: Necromancer Krytan armor');
+    expect(notes).toContain('Boots: Male: Necromancer Vabbian armor; Female: Unique');
+  });
+  it('expands a pinned collector subpage without turning its exchanges into crafting recipes',()=>{
+    const source=JSON.parse(fs.readFileSync('data/wiki/pages/5338.json','utf8'));
+    const collector=JSON.parse(fs.readFileSync('data/wiki/pages/5339.json','utf8'));
+    const facts=armorFacts(source,[collector]);
+    expect(facts.set.notes).toContain('Ascalon (pre-Searing): AR: 7; Krytan Attire: 5 Unnatural Seeds');
+    expect(facts.set.notes).toContain('Krytan Footwear: 3 Baked Husks / 5 Gargoyle Skulls');
+    expect(facts.set.noteReferences).toEqual([expect.objectContaining({pageid:5339,revid:2285763})]);
+    expect(facts.offers.every((offer:any)=>offer.reference.pageid===source.pageid&&offer.noteReferences[0].revid===2285763)).toBe(true);
+    expect(facts.offers.map((offer:any)=>[offer.location,offer.armorerTitle])).toEqual([['Bukdek Byway','Oroku']]);
+    expect(facts.set.notes).not.toMatch(/\{\{|\{\||action=edit|\[edit\]/);
+    expect(()=>armorFacts(source)).toThrow(/Missing armor note source.*Collector/);
+  });
+  it('rejects altered offer notes even when their pinned parent and subpage references remain valid',()=>{
+    const root=fs.mkdtempSync(path.join(os.tmpdir(),'mappingout-armor-notes-'));
+    try{
+      fs.symlinkSync(path.resolve('data'),path.join(root,'data'),'dir');
+      const dataPath=path.join(root,'public/data');fs.mkdirSync(dataPath,{recursive:true});
+      for(const entry of fs.readdirSync('public/data')){
+        if(entry==='armor.json')continue;
+        fs.symlinkSync(path.resolve('public/data',entry),path.join(dataPath,entry));
+      }
+      const altered=structuredClone(armor);
+      const offer=altered.offers.find(row=>row.armorId==='armor:gww:5338')!;
+      offer.notes='Incorrect collector exchanges with unchanged source references.';
+      fs.writeFileSync(path.join(dataPath,'armor.json'),JSON.stringify(altered));
+      expect(auditContent(root).report.evidenceErrors).toEqual(expect.arrayContaining([expect.objectContaining({key:`${offer.id}/notes`})]));
+    }finally{fs.rmSync(root,{recursive:true,force:true});}
+  },30000);
 });
 
 describe('game rotation boundaries and display dates',()=>{

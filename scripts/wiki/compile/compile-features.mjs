@@ -1,13 +1,13 @@
 /**
- * [INPUT]: 依赖 Wiki 快照、护甲图像和材料图标来源清单。
- * [OUTPUT]: 编译护甲配方、材料图标路径及活动周期资料。
+ * [INPUT]: 依赖 Wiki 快照、收藏家子页、图像和材料图标清单。
+ * [OUTPUT]: 编译护甲配方、带子页证据的备注与活动周期。
  * [POS]: 功能资料构建入口；保留来源修订与稳定编号。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { web, evidenceDir, readIndex, loadPage } from '../lib/client.mjs';
-import { armorFacts, materialId, materialNames, campaignIds } from '../lib/armor-facts.mjs';
+import { armorFacts, armorNotes, drakescaleDiscrepancy, materialId, materialNames, campaignIds } from '../lib/armor-facts.mjs';
 import { reference, npcFacts } from '../lib/content-facts.mjs';
 import { templates, plainText, section, links } from '../lib/wikitext.mjs';
 
@@ -21,16 +21,19 @@ const sets=[], offers=[], armorers=new Map(), issues=[], excluded=[], seen=new S
 for(const title of new Set([...discovery.roots,...discovery.related])) {
   const source=await loadPage(title,index);if(!source||seen.has(source.pageid))continue;seen.add(source.pageid);
   let facts;
-  try{facts=armorFacts(source);}catch(error){issues.push({title,message:error.message});continue;}
+  try{
+    const notePages=(await Promise.all(templates(source.wikitext).filter(t=>t.name.startsWith(':')).map(t=>loadPage(t.name.slice(1).trim(),index)))).filter(Boolean);
+    facts=armorFacts(source,notePages);
+  }catch(error){issues.push({title,message:error.message});continue;}
   if(!facts)continue;
   if(!facts.offers.length){excluded.push({title,reason:'No NPC crafting recipe; starter, collector, or trophy exchange only.'});continue;}
   for(const offer of facts.offers) {
     const npc=await page(offer.armorerTitle), npcData=npcFacts(npc), id=`armorer:gww:${npc.pageid}`;
-    if(!armorers.has(id))armorers.set(id,{id,name:npc.title,locations:npcData.areas,notes:plainText(npc.wikitext.split(/^==/m)[0].replace(templates(npc.wikitext,'NPC infobox')[0]?.raw||'',''))+'\n'+plainText(section(npc.wikitext,'Notes')),reference:reference(npc)});
+    if(!armorers.has(id))armorers.set(id,{id,name:npc.title,locations:npcData.areas,notes:armorNotes(npc.wikitext.split(/^==/m)[0].replace(templates(npc.wikitext,'NPC infobox')[0]?.raw||'',''))+'\n'+armorNotes(section(npc.wikitext,'Notes')),reference:reference(npc)});
     const {armorerTitle,...rest}=offer;
     const npcCampaign=plainText(templates(npc.wikitext,'NPC infobox')[0]?.fields.campaign||'');
     const campaign=offer.campaign||Object.entries(campaignIds).find(([name])=>name.toLowerCase()===npcCampaign.toLowerCase())?.[1]||0;
-    if(source.title==='Ranger Drakescale armor'&&offer.armorRating===55)rest.notes+='\n配方核对：此页总计栏写为 600 金币，与四个部位各 200 金币矛盾。Armorer 总表也列明该阶段单件费用 200 金币，本工具据单件合计为 800 金币；材料合计仍为 28 份鞣制皮革。';
+    if(source.title==='Ranger Drakescale armor'&&offer.armorRating===55)rest.notes+=drakescaleDiscrepancy;
     offers.push({...rest,campaign,armorerId:id,zoneId:zoneId(offer.location)});
   }
   const chineseProf=['通用','战士','游侠','僧侣','死灵法师','幻术师','元素使','刺客','祭祀','圣言使','神唤者'];

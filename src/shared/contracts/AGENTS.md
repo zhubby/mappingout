@@ -1,7 +1,7 @@
 # contracts/
 > L2 | Parent: ../AGENTS.md
 
-armor.ts: 定义护甲配方、材料、制作商与个人计划。
+armor.ts: 定义护甲配方、备注子页证据、材料、制作商与个人计划。
 calendar.ts: 定义活动、轮换、实例与个人完成记录。
 catalog.ts: 提供地图资料、筛选与个人记录的共享契约。
 feature.ts: 提供可选地图目录、写入与功能页导航接口。

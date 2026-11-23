@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖五套离线资料、Wiki 快照与文件图像来源。
+ * [INPUT]: 依赖五套离线资料、Wiki 母页与子页快照及图像来源。
  * [OUTPUT]: 提供英文基线与事实、数量和固定修订审计。
  * [POS]: 双语编译前的来源检查；不授予中文审校状态。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -12,7 +12,7 @@ import {contentFields,datasets} from '../../src/i18n/content-fields.ts';
 import {englishSource,numericIssues,sha256} from './english-source.mjs';
 import {skillFacts} from '../wiki/lib/skill-facts.mjs';
 import {npcFacts,weaponFacts} from '../wiki/lib/content-facts.mjs';
-import {armorFacts} from '../wiki/lib/armor-facts.mjs';
+import {armorFacts,drakescaleDiscrepancy} from '../wiki/lib/armor-facts.mjs';
 import {collectorTableFacts} from '../wiki/lib/collector-facts.mjs';
 import {locationFacts} from '../wiki/lib/location-facts.mjs';
 import {headingSection} from '../wiki/lib/source-facts.mjs';
@@ -154,11 +154,16 @@ export function auditContent(root=projectRoot){
       }
     }
     if(dataset==='armor')for(const set of data.sets){
-      const facts=armorFacts(page(set.reference));
+      const facts=armorFacts(page(set.reference),(set.noteReferences||[]).map(page));
       same(facts.set.englishName,set.englishName,`${set.id}/name`);
+      same(facts.set.notes,set.notes,`${set.id}/notes`);
+      same(facts.set.noteReferences,set.noteReferences,`${set.id}/noteReferences`);
       for(const offer of data.offers.filter(o=>o.armorId===set.id)){
         const expected=facts.offers.find(o=>o.id===offer.id);
         for(const key of ['armorRating','ratingByProfession','pieces'])same(expected?.[key],offer[key],`${offer.id}/${key}`);
+        same(expected?.noteReferences,offer.noteReferences,`${offer.id}/noteReferences`);
+        const applicationNote=set.englishName==='Ranger Drakescale armor'&&offer.armorRating===55?drakescaleDiscrepancy:'';
+        same(expected&&expected.notes+applicationNote,offer.notes,`${offer.id}/notes`);
         report.evidence.armorOffers++;
       }
       report.evidence.armorSets++;

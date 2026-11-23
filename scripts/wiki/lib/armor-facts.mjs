@@ -1,7 +1,7 @@
 /**
- * [INPUT]: 依赖 Wiki 表格、信息框、材料模板与修订引用。
- * [OUTPUT]: 解析护甲外观、制作商、单件材料和金币。
- * [POS]: 护甲资料的纯事实解析；不访问网络。
+ * [INPUT]: 依赖 Wiki 表格、信息框、固定收藏家子页与修订引用。
+ * [OUTPUT]: 解析护甲配方与备注；保留性别列和子页证据。
+ * [POS]: 护甲资料的纯事实解析；未知模板保留，不访问网络。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import { createHash } from 'node:crypto';
@@ -11,6 +11,7 @@ import { reference } from './content-facts.mjs';
 
 export const professionNames=['Warrior','Ranger','Monk','Necromancer','Mesmer','Elementalist','Assassin','Ritualist','Paragon','Dervish'];
 export const campaignIds={Core:0,Prophecies:1,Factions:2,Nightfall:3,'Eye of the North':4};
+export const drakescaleDiscrepancy='\n配方核对：此页总计栏写为 600 金币，与四个部位各 200 金币矛盾。Armorer 总表也列明该阶段单件费用 200 金币，本工具据单件合计为 800 金币；材料合计仍为 28 份鞣制皮革。';
 export const materialNames={Iron:['Iron Ingot','铁锭'],Steel:['Steel Ingot','钢锭'],Cloth:['Bolt of Cloth','布料'],Silk:['Bolt of Silk','丝绸'],Linen:['Bolt of Linen','亚麻布'],Damask:['Bolt of Damask','锦缎'],Hide:['Tanned Hide Square','鞣制皮革'],Leather:['Leather Square','皮革'],Fur:['Fur Square','毛皮'],Wood:['Wood Plank','木板'],Bone:['Bone','骨头'],Dust:['Pile of Glittering Dust','闪光尘'],Feather:['Feather','羽毛'],Scale:['Scale','鳞片'],Chitin:['Chitin Fragment','甲壳碎片'],'Deldrimor Steel':['Deldrimor Steel Ingot','戴尔狄摩钢锭'],'Elonian Leather':['Elonian Leather Square','伊洛那皮革'],Ecto:['Glob of Ectoplasm','灵质球'],Obsidian:['Obsidian Shard','黑曜石碎片'],'Obsidian Shard':['Obsidian Shard','黑曜石碎片'],Ruby:['Ruby','红宝石'],Sapphire:['Sapphire','蓝宝石'],Amber:['Amber Chunk','琥珀块'],Jadeite:['Jadeite Shard','翡翠碎片'],'Jadeite Shard':['Jadeite Shard','翡翠碎片'],'Amber Chunk':['Amber Chunk','琥珀块'],'Monstrous Claw':['Monstrous Claw','巨兽爪'],'Monstrous Fang':['Monstrous Fang','巨兽牙'],'Monstrous Eye':['Monstrous Eye','巨兽眼'],Granite:['Granite Slab','花岗岩板'],'Spiritwood':['Spiritwood Plank','灵木板'],'Spiritwood Plank':['Spiritwood Plank','灵木板'],Onyx:['Onyx Gemstone','缟玛瑙宝石'],Diamond:['Diamond','钻石'],'Deldrimor Steel Ingot':['Deldrimor Steel Ingot','戴尔狄摩钢锭']};
 export const materialId=name=>'material:'+name.toLowerCase().replace(/[^a-z0-9]+/g,'-');
 Object.assign(materialNames,{Shard:['Obsidian Shard','黑曜石碎片'],Parchment:['Roll of Parchment','羊皮纸'],Vellum:['Roll of Vellum','精制羊皮纸'],Fiber:['Plant Fiber','植物纤维'],'Glass Vial':['Tempered Glass Vial','淬炼玻璃瓶'],Ink:['Vial of Ink','墨水瓶'],Charcoal:['Lump of Charcoal','木炭']});
@@ -41,16 +42,37 @@ function slot(name) {
   if(/boot|shoe|sandal|foot|slipper|greave/i.test(name))return 'feet';
   return 'chest';
 }
-export function armorFacts(page) {
+export function armorNotes(source) {
+  const cell=value=>plainText(value.replace(/<span\b[^>]*class="plainlinks"[^>]*>[\s\S]*?<\/span>/gi,'').replace(/\{\{\s*male\s*\}\}\s*\{\{\s*female\s*\}\}/gi,'Male / Female').replace(/\{\{\s*(male|female)\s*\}\}/gi,(_all,gender)=>gender.toLowerCase()==='male'?'Male':'Female').replace(/<br\s*\/?\s*>/gi,' / '));
+  const text=source.replace(/__NOTOC__/g,'').replace(/^\{\|[\s\S]*?^\|\}/gm,raw=>{
+    const rows=wikiTables(raw,{raw:true})[0].map(row=>row.map(cell));
+    const captions=[];
+    while(rows.length&&new Set(rows[0]).size===1)captions.push(rows.shift()[0]);
+    const header=rows.shift();
+    if(!header?.length||rows.some(row=>row.length!==header.length))throw Error('Invalid armor note table');
+    return [...captions,...rows.map(row=>`${row[0]}: ${row.slice(1).map((value,i)=>`${header[i+1]}: ${value}`).join('; ')}`)].join('\n');
+  });
+  return plainText(text);
+}
+export function armorFacts(page,notePages=[]) {
   const box=templates(page.wikitext,'armor art infobox')[0]?.fields;
   if(!box)return null;
   const profession=professionNames.indexOf(plainText(box.profession))+1;
   const campaigns=Object.keys(campaignIds).filter(c=>plainText(box.campaign).toLowerCase().includes(c.toLowerCase())).map(c=>campaignIds[c]);
-  const intro=page.wikitext.split(/^==/m)[0].replace(templates(page.wikitext,'armor art infobox')[0].raw,'').split('{|')[0];
-  const notes=plainText(`${intro}\n${section(page.wikitext,'Notes')}`).replace(/__NOTOC__/g,'');
-  const set={id:`armor:gww:${page.pageid}`,name:page.title,englishName:page.title,profession,campaigns,category:/\[\[Category:Prestige armor/i.test(page.wikitext)?'elite':/specialgallery/i.test(page.wikitext)?'special':'basic',images:{},notes,reference:reference(page)};
-  const offers=[];
   const tables=wikiTables(page.wikitext.replace(/<!--[\s\S]*?-->/g,''),{raw:true});
+  const hasRecipes=tables.some(table=>table.some(row=>/^Location$/i.test(plainText(row[0]))&&/Armorer|Crafter/i.test(plainText(row[1]))&&/Cost/i.test(plainText(row[3]||''))));
+  const intro=page.wikitext.split(/^==/m)[0].replace(templates(page.wikitext,'armor art infobox')[0].raw,'').split('{|')[0];
+  let noteSource=`${intro}\n${section(page.wikitext,'Notes')}`;
+  const noteReferences=[];
+  for(const template of templates(noteSource).filter(t=>hasRecipes&&t.name.startsWith(':'))){
+    const title=template.name.slice(1).trim(),dependency=notePages.find(source=>source.title===title);
+    if(!dependency||Object.keys(template.fields).length)throw Error(`Missing armor note source: ${title}`);
+    noteSource=noteSource.replace(template.raw,dependency.wikitext.replace(/<noinclude\b[^>]*>[\s\S]*?<\/noinclude>/gi,''));
+    if(!noteReferences.some(ref=>ref.pageid===dependency.pageid))noteReferences.push(reference(dependency));
+  }
+  const notes=armorNotes(noteSource),noteEvidence=noteReferences.length?{noteReferences}:{};
+  const set={id:`armor:gww:${page.pageid}`,name:page.title,englishName:page.title,profession,campaigns,category:/\[\[Category:Prestige armor/i.test(page.wikitext)?'elite':/specialgallery/i.test(page.wikitext)?'special':'basic',images:{},notes,...noteEvidence,reference:reference(page)};
+  const offers=[];
   for(const table of tables) {
     const header=table.find(row=>/^Location$/i.test(plainText(row[0]))&&/Armorer|Crafter/i.test(plainText(row[1])));
     if(!header)continue;
@@ -86,7 +108,7 @@ export function armorFacts(page) {
           if(same&&JSON.stringify(same)!==JSON.stringify(piece))throw Error(`Conflicting piece ${page.title}`);
           if(!same)existing.pieces.push(piece);
         }
-      } else offers.push({id:`offer:${page.pageid}:${key}`,armorId:set.id,armorerTitle,location,campaign,armorRating:Number(rating.split(/[-–]/)[0]),...(rating.includes('-')||rating.includes('–')?{ratingByProfession:{1:80,2:70,3:60,4:60,5:60,6:60,7:70,8:60,9:80,10:70}}:{}),pieces,notes,reference:reference(page)});
+      } else offers.push({id:`offer:${page.pageid}:${key}`,armorId:set.id,armorerTitle,location,campaign,armorRating:Number(rating.split(/[-–]/)[0]),...(rating.includes('-')||rating.includes('–')?{ratingByProfession:{1:80,2:70,3:60,4:60,5:60,6:60,7:70,8:60,9:80,10:70}}:{}),pieces,notes,...noteEvidence,reference:reference(page)});
     }
   }
   return {set,offers};

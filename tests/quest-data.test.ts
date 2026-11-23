@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖固定任务资料、Wiki 解析器与部署验证器。
- * [OUTPUT]: 验证主线分支、攻略复用、奖励比较符与同级分节边界。
+ * [OUTPUT]: 验证主线分支、攻略复用、奖励比较符、导师占位与同级分节边界。
  * [POS]: 任务资料语义回归；不以界面快照替代来源校验。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -73,6 +73,12 @@ describe('safe quest text conversion',()=>{
     const overview=sections.find(section=>section.id==='overview-1')!;
     expect(overview.title).toBe('Overview');
     expect(overview.blocks[0].text).toContain('Miller Quang, a resident of the area');
+  });
+  it('retains the pinned War Preparations trainer placeholder without preserving arbitrary tags',()=>{
+    const page=JSON.parse(fs.readFileSync('data/wiki/pages/3286.json','utf8'));
+    const objectives=questSections(page).find(section=>section.id==='objectives-1')!;
+    expect(objectives.blocks.map(block=>block.text)).toEqual(['Go out the gate to Lakeside County and talk to [Trainer].']);
+    expect(cleanQuestText('<Trainer class="trainer">Guide</Trainer> <Unknown>Other</Unknown>')).toBe('Guide Other');
   });
   it('retains early skill grants as a separate reward section from the pinned Talon quest',()=>{
     const page=JSON.parse(fs.readFileSync('data/wiki/pages/25378.json','utf8'));

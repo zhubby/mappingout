@@ -11,6 +11,11 @@ armor-pass-2.json: 第二轮護甲配方、材料與製作限制校對。
 quest-pass-2.json: 第二輪任務攻略與失敗條件校對。
 skill-pass-2.json: 第二輪技能正文、動態模板與同源地圖說明校對。
 catalog-pass-2.json: 第二輪名稱、技能類型與輪換說明校對。
+skill-pass-3.json: 第三輪技能條件、作用對象與動態模板校對。
+quest-pass-3.json: 第三輪任務目標、攻略、警戒與失敗條件校對。
+armor-notes-npcs.json: 去除目錄指令後重新綁定的52條製作商備註。
+armor-notes-source-cleanup.json: 護甲性別比較、收藏家兌換表與染色備註重譯。
+placeholder-source-cleanup.json: 導師占位與兩種獨立再生效果的來源修正校對。
 coverage.json: 全量文本校对覆盖、未审范围与风险分类。
 
 条目记录 source、text、reason 与 bindings。

@@ -14,7 +14,7 @@ desktop-verification.md: 1.0.0 历史桌面验收。
 project-structure-verification.md: 本次目录迁移的测试结果与验证边界。
 performance-optimization.md: 首次加载、内容 Worker、渐进缓存与全量离线验收。
 translation-accuracy-audit.md: 翻译准确性复核和未完成范围。
-full-text-proofreading.md: 1.4.3 与 1.4.4 逐文本审读、动态展示和完整待审范围。
+full-text-proofreading.md: 1.4.3 至 1.4.5 逐文本审读、来源解析修复和完整待审范围。
 desktop-1.4.3-acceptance.md: 1.4.3 测试、公开发布与 ZimaBoard2 实机验收。
 desktop-1.4.4-acceptance.md: 1.4.4 校对批次、公开产物与 ZimaBoard2 部署验收。
 traditional-chinese.md: 繁体迁移、审查修复、中文证据、资源兼容与发布部署验收。

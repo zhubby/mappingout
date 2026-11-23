@@ -10,10 +10,10 @@ deployment.test.ts: 构建输入、入口与图标预缓存、全量离线清单
 desktop-release.test.ts: 三平台版本、安装盘、签名与下载地址的发布聚合回归。
 desktop-updates.test.ts: 启动更新、延期安装与重启数据屏障。
 domain.test.ts: 查询、当前角色进度索引与隔离。
-features.test.ts: 材料原图来源与哈希、护甲索引、配方和活动周期。
+features.test.ts: 护甲性别列、子页与配方隔离、方案备注防篡改、材料和周期。
 quests.test.ts: 前置分支、角色范围评估、任务奖励与真实 v3 存储迁移。
-quest-data.test.ts: 固定来源比较符、分节边界、技能授予、主线分支与奖励解析；全量校验有独立等待上限。
-skill-data.test.ts: 玩家技能边界、真实动态链接与备注元数据隔离、成长符号和护甲指标。
+quest-data.test.ts: 固定来源比较符、导师占位、分节边界、技能授予、主线分支与奖励解析；全量校验有独立等待上限。
+skill-data.test.ts: 玩家技能边界、真实动态链接与再生衰减身份、备注隔离和成长符号。
 skills.test.ts: 双语与科学计数值查询、稳定分面缓存及效果隔离。
 skill-description.test.ts: 真实 Cleave 重复效果、逐次符号与负数说明呈现。
 i18n.test.ts: 界面语言、资料投影、来源与备份兼容；全语料检查上限 60 秒。

@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖固定技能快照、技能来源判定、成长与效果编译器。
- * [OUTPUT]: 验证动态链接隔离、备注元数据、收录边界与成长指标。
+ * [OUTPUT]: 验证动态链接、再生衰减身份、备注元数据与收录边界。
  * [POS]: 技能数据语义回归；以独立预期值核对 Wiki 规则。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -27,6 +27,26 @@ describe('fixed skill notes',()=>{
  });
 });
 describe('fixed skill effects',()=>{
+ it.each([
+  [1645,'Ether Lord','5…9…10','Energy','Hex Spell. You lose all Energy. For [[MO:growth:0:var1]] seconds, target foe suffers [[MO:growth:0:var2]] Energy degeneration, and you experience [[MO:growth:0:var3]] Energy regeneration.'],
+  [1751,'Life Siphon','12…22…24','Health','Hex Spell. For [[MO:growth:0:var1]] seconds, target foe suffers [[MO:growth:0:var2]] Health degeneration, and you gain [[MO:growth:0:var3]] Health regeneration.'],
+ ])('keeps the real %i %s degeneration and regeneration on separate growth effects',(pageid,_name,duration,resource,expected)=>{
+  const source=JSON.parse(fs.readFileSync(`data/wiki/pages/${pageid}.json`,'utf8'));
+  const progression=JSON.parse(fs.readFileSync('data/wiki/pages/11540.json','utf8'));
+  const fields=templates(source.wikitext,'Skill infobox')[0].fields;
+  const growth=compileGrowth(source,{'skill progression':progression.wikitext});
+  const result=compileEffects(source,fields,growth,{});
+  expect(result.descriptionParts.filter(part=>part.effectId).map(part=>({effectId:part.effectId,raw:part.raw}))).toEqual([
+   {effectId:'growth:0:var1',raw:duration},
+   {effectId:'growth:0:var2',raw:'-1…3…3'},
+   {effectId:'growth:0:var3',raw:'+1…3…3'},
+  ]);
+  expect(result.descriptionTemplate).toBe(expected);
+  expect(result.effects.filter(effect=>['growth:0:var2','growth:0:var3'].includes(effect.id))).toMatchObject([
+   {id:'growth:0:var2',label:`${resource} degeneration`,metric:'degeneration',values:{0:1,12:3,15:3}},
+   {id:'growth:0:var3',label:`${resource} regeneration`,metric:'regeneration',values:{0:1,12:3,15:3}},
+  ]);
+ });
  it.each([
   [11193,'Enchantment Spell. For 30 seconds, you gain [[MO:growth:0:var1]] armor, but move [[MO:growth:0:var2]] slower.'],
   [12218,'Enchantment Spell. For 7 seconds, you are set on fire and move [[MO:growth:0:var1]] faster. When Burning Speed ends, all adjacent foes are set on fire for [[MO:growth:0:var2]] seconds.'],

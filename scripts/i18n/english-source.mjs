@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖固定英文事实、字段路径与审校记录。
+ * [INPUT]: 依赖固定英文事实、字段路径、护甲子页证据与审校记录。
  * [OUTPUT]: 提供英文来源、数量签名与译文审校校验。
  * [POS]: 双语基线的证据边界；草稿不作为来源。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -113,6 +113,7 @@ export function englishSource(data, dataset, field, manual = {}) {
     }
   }
   if(dataset==='armor'){
+    if(leaf==='notes'&&row.noteReferences?.length)return result(source,'wiki-text',[...references,...row.noteReferences]);
     if(path[0]==='sets'&&leaf==='name')return result(row.englishName,'wiki-title');
     if(path[0]==='materials'&&leaf==='name')return result(row.englishName,'wiki-title',data.references||[]);
     if(path[0]==='offers'&&leaf==='notes'&&han(source))return result(source.slice(0,source.indexOf('\n配方核对：'))+'\nRecipe discrepancy: the page lists 600 gold in the total column, but four pieces at 200 gold each total 800 gold. The Armorer table also lists 200 gold per piece. This application totals the individual pieces as 800 gold and 28 Tanned Hide Squares.','wiki-facts', [...references,...(data.references||[])]);

@@ -1,12 +1,12 @@
 {
-  "version": "1.4.6",
-  "reason": "The user explicitly requested merging to main, committing and pushing, publishing a new version, and deploying to ZimaBoard on 2026-11-23. This incremental release adds 689 exact agent semantic review bindings and revises 386 Traditional Chinese field positions, covering armor names, 100 quest passages, 40 concise skill texts, and 12 catalog labels. Cumulative agent coverage is 10346 fields, with 123783 field positions still unreviewed. Full-text proofreading remains incomplete; agent review does not grant human or in-game approval. The release notes disclose the five current strict findings, including the unapproved Friz distribution license. This exception accepts only those findings for 1.4.6 and the exact input fingerprint. The unchanged English baseline retains the same-day complete check plus two independent incremental readbacks. Integrity and stale bindings continue to block release.",
-  "fingerprint": "17bb30f51e6bd7c4e8c485aafa12c9d9dd2405d9ba85770aeef12b98ae0a6dd0",
+  "version": "1.4.7",
+  "reason": "The user explicitly requested merging to main, committing and pushing, publishing a new version, and deploying to ZimaBoard on 2026-11-23. This fifth incremental batch adds 1411 exact agent semantic review bindings and revises 1331 Traditional Chinese field positions, covering armor notes, quest passages, skill descriptions, templates, conditions and mechanics evidence. Cumulative agent coverage is 11757 fields, with 122372 field positions still unreviewed. Full-text proofreading remains incomplete; agent review does not grant human or in-game approval. The release notes disclose the five current strict findings and unresolved skill markup, including the unapproved Friz distribution license. This exception accepts only those findings for 1.4.7 and the exact input fingerprint. English baseline and source revisions are unchanged; the same-day complete check and two independent incremental readbacks remain recorded. Integrity and stale bindings continue to block release.",
+  "fingerprint": "23878795bc8476e20de80bc13d7666ef83d32d0f8c3c7addcdffca56c5727e19",
   "acceptedFindings": [
-    "11625 Chinese fields still contain untranslated Latin words",
+    "11937 Chinese fields still contain untranslated Latin words",
     "134129 Chinese fields still require review against English Wiki",
     "2026 English fields still require Wiki source verification",
-    "363 translated fields require numeric/token review",
+    "372 translated fields require numeric/token review",
     "Font distribution not approved: Friz Quadrata Std"
   ]
 }

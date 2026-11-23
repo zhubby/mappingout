@@ -20,8 +20,10 @@ wiki-revision-increment-2026-11-23.json: 同日完整检查的旧基线复算、
 wiki-update-review.json: Wiki 修订变更的审查输入。
 source-revision-review-2026-11-23.json: 十二页英文差异、原文哈希、固定修订刷新与编译证据。
 armor-source-markup-audit.json: 護甲標記殘留的歷史範圍、修復方法與零殘留基線綁定。
+skill-source-markup-audit.json: 技能備註原始標記的固定基線範圍、數值遺失風險與尚未修復清單。
 ui-proofreading-2026-11-23.json: 全部 741 个界面键的繁英审读范围、逐键修订与字典哈希。
 skill-review-sources.json: 技能中文校订绑定的英文来源。
+skill-mechanics-review-2026-11-23.json: 八種技能完整說明、簡短說明與機制備註的固定證據和歧義決策。
 release-exception.json: 正式发布例外与输入哈希。
 overrides.json: 既有标签与资料翻译覆盖。
 drafts.json: 原资料翻译草稿。

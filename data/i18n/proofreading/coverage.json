@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T08:01:42.817Z",
+  "generatedAt": "2026-11-23T10:15:50.237Z",
   "scope": "All five Traditional Chinese and English data packs; UI reviewed separately",
   "reviewMethod": "Individual agent semantic comparison against exact English text and revision evidence; not human approval or in-game verification",
   "complete": false,
   "fields": 134129,
   "distinctEnglish": 42859,
-  "reviewedFields": 10346,
-  "reviewedDistinctEnglish": 2647,
-  "remainingFields": 123783,
-  "remainingDistinctEnglish": 40357,
+  "reviewedFields": 11757,
+  "reviewedDistinctEnglish": 3306,
+  "remainingFields": 122372,
+  "remainingDistinctEnglish": 39760,
   "englishRevisionCheck": {
     "checkedAt": "2026-11-23T04:23:21.606Z",
     "checked": 6897,
@@ -140,15 +140,15 @@
       "dataset": "armor",
       "fields": 6180,
       "distinctEnglish": 839,
-      "reviewedFields": 4733,
-      "reviewedDistinctEnglish": 550,
-      "remainingFields": 1447,
-      "remainingDistinctEnglish": 289,
+      "reviewedFields": 5425,
+      "reviewedDistinctEnglish": 700,
+      "remainingFields": 755,
+      "remainingDistinctEnglish": 139,
       "unverifiedEnglishFields": 0,
       "riskFields": {
         "literal-game-concept": 0,
         "source-placeholder": 0,
-        "conditional-mechanic": 359
+        "conditional-mechanic": 124
       },
       "riskExamples": []
     },
@@ -209,15 +209,15 @@
       "dataset": "quests",
       "fields": 37175,
       "distinctEnglish": 17897,
-      "reviewedFields": 1239,
-      "reviewedDistinctEnglish": 658,
-      "remainingFields": 35936,
-      "remainingDistinctEnglish": 17240,
+      "reviewedFields": 1394,
+      "reviewedDistinctEnglish": 769,
+      "remainingFields": 35781,
+      "remainingDistinctEnglish": 17129,
       "unverifiedEnglishFields": 0,
       "riskFields": {
         "literal-game-concept": 69,
         "source-placeholder": 15,
-        "conditional-mechanic": 3749
+        "conditional-mechanic": 3680
       },
       "riskExamples": [
         {
@@ -331,26 +331,17 @@
       "dataset": "skills",
       "fields": 44208,
       "distinctEnglish": 13481,
-      "reviewedFields": 2925,
-      "reviewedDistinctEnglish": 1321,
-      "remainingFields": 41283,
-      "remainingDistinctEnglish": 12161,
+      "reviewedFields": 3489,
+      "reviewedDistinctEnglish": 1720,
+      "remainingFields": 40719,
+      "remainingDistinctEnglish": 11809,
       "unverifiedEnglishFields": 0,
       "riskFields": {
-        "literal-game-concept": 285,
-        "source-placeholder": 43,
-        "conditional-mechanic": 4671
+        "literal-game-concept": 253,
+        "source-placeholder": 42,
+        "conditional-mechanic": 4437
       },
       "riskExamples": [
-        {
-          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/description",
-          "english": "Enchantment Spell. For 22…40 seconds, target ally has +24 armor, +60 maximum Health, and an additional +24 armor against Destroyers.",
-          "chinese": "加持魔法。在 22…40 秒內，目標盟友擁有 +24 護甲、+60 最大體力，以及針對驅逐艦的額外 +24 護甲。",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
         {
           "key": "skills/skill:gww:64072/variants/skill-version:gww:64072/conciseDescription",
           "english": "Shout. (30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal 25…33% more damage. Affected party members die when it ends, but do not receive a death penalty.",
@@ -438,6 +429,14 @@
           "key": "skills/skill:gww:59022/variants/skill-version:gww:59022/conciseDescription",
           "english": "Ward Spell. (14…20 seconds.) Allies in this ward deal +8…15 damage and +7…10 more damage against Charr. Spirits are unaffected.",
           "chinese": "病房咒文魔法。 （14…20 秒。）此守衛中的盟友對夏爾造成 +8…15 傷害，並對 +7…10 造成更多傷害。精神不受影響。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:59023/variants/skill-version:gww:59023/conciseDescription",
+          "english": "Ward Spell. (14…20 seconds.) Spells that allies in this ward cast have a 44…60% chance to recharge 50% faster. Spirits are unaffected.",
+          "chinese": "病房咒文魔法。 （14…20 秒。）此守衛中的盟友施展的法術有 44…60% 機會更快地為 50% 充能。精神不受影響。",
           "flags": [
             "literal-game-concept"
           ]

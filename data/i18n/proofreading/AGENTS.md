@@ -20,6 +20,10 @@ armor-pass-4.json: 第四輪護甲套裝與獨立頭飾名稱逐項校對。
 skill-pass-4.json: 第四輪技能短文、過載與閃現加持條件校對。
 catalog-pass-4.json: 第四輪地圖技能類型、過載點數與模式標籤校對。
 quest-pass-4.json: 第四輪任務攻略、數量關係與失敗條件校對。
+skill-overcast-pass-5.json: 第五輪過載技能完整說明、動態模板與效果條件校對。
+quest-pass-5.json: 第五輪精英區任務攻略、敵群數量與存活條件校對。
+skill-pass-5.json: 第五輪技能作用主體、精靈儀式與配套動態模板校對。
+armor-pass-5.json: 第五輪護甲染色、取得條件、穿模與稱號備註校對。
 coverage.json: 全量文本校对覆盖、未审范围与风险分类。
 
 条目记录 source、text、reason 与 bindings。

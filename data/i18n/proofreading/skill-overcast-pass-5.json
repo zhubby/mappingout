@@ -1,0 +1,2895 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "Elite Nature Ritual. Create a level 1…8…10 spirit. Spells cast within its range that cause Overcast cause an additional 10 Overcast. This spirit dies after 30…198…240 seconds.",
+      "text": "精英自然儀式。創造等級 1…8…10 的精靈。在其範圍內施放原本會造成過載的魔法時，額外累積 10 點過載。此精靈在 30…198…240 秒後死亡。",
+      "reason": "核對精靈等級、壽命與施法範圍；額外過載僅適用於原本會造成過載的魔法。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/description",
+          "englishHash": "0119848753b7974212d2ff0f83536ab41b0e77d90de0c1ec3441950167ab612b",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Spells cast within its range that cause Overcast cause an additional 10 Overcast. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "精英自然儀式。創造等級 [[MO:growth:0:var1]] 的精靈。在其範圍內施放原本會造成過載的魔法時，額外累積 10 點過載。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "核對精靈等級、壽命與施法範圍；額外過載僅適用於原本會造成過載的魔法。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/descriptionTemplate",
+          "englishHash": "c64150a1257509dfae0421150ed2fb5332f0462e288a16a698fc0d2cf91ab80b",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        }
+      ]
+    },
+    {
+      "source": "Dual Attack. Must follow a lead attack. Target foe's action is interrupted. If that action was casting a spell, target foe suffers 10 Overcast.",
+      "text": "雙重攻擊。必須接在引導攻擊之後。中斷目標敵人的動作。若中斷的是施放魔法，使目標敵人累積 10 點過載。",
+      "reason": "核對引導攻擊前置、中斷動作與施法時才累積過載的條件；目標為敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14498/variants/skill-version:gww:14498/description",
+          "englishHash": "4b2f2daf27058b1cc40e4a1d19486a0fbe71e6e6217cab07f19d58994abf1994",
+          "evidenceHash": "6024d0f4b6889a7ddc196c5881ddc6e9907165e260ca86ed39312827a09e1465"
+        }
+      ]
+    },
+    {
+      "source": "Dual Attack. Must follow a lead attack. Target foe's action is interrupted. If that action was casting a spell, target foe suffers 10 Overcast.",
+      "text": "雙重攻擊。必須接在引導攻擊之後。中斷目標敵人的動作。若中斷的是施放魔法，使目標敵人累積 10 點過載。",
+      "reason": "核對引導攻擊前置、中斷動作與施法時才累積過載的條件；目標為敵人。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14498/variants/skill-version:gww:14498/descriptionTemplate",
+          "englishHash": "4b2f2daf27058b1cc40e4a1d19486a0fbe71e6e6217cab07f19d58994abf1994",
+          "evidenceHash": "6024d0f4b6889a7ddc196c5881ddc6e9907165e260ca86ed39312827a09e1465"
+        }
+      ]
+    },
+    {
+      "source": "Elite Glyph. Your next 1…3…3 spells do[es] not cause Overcast and costs 10…22…25 less Energy to cast. Your elemental attributes are increased by 1…2…2.",
+      "text": "精英符號。接下來 1…3…3 個魔法不會造成過載，且施放時的能量消耗減少 10…22…25 點。你的元素屬性提高 1…2…2。",
+      "reason": "核對免過載的魔法次數、能量費用減少量與元素屬性加成；不是扣除後的最終費用。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/description",
+          "englishHash": "76e119038b20355618b8f3817d1d80723e0f7ad3362b2e856846f57c495d5811",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "Elite Glyph. Your next [[MO:growth:0:var1]] spells do[es] not cause Overcast and costs [[MO:growth:0:var2]] less Energy to cast. Your elemental attributes are increased by [[MO:growth:0:var3]] .",
+      "text": "精英符號。接下來 [[MO:growth:0:var1]] 個魔法不會造成過載，且施放時的能量消耗減少 [[MO:growth:0:var2]] 點。你的元素屬性提高 [[MO:growth:0:var3]]。",
+      "reason": "核對免過載的魔法次數、能量費用減少量與元素屬性加成；不是扣除後的最終費用。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/descriptionTemplate",
+          "englishHash": "8ad27147e9ad616c2aca164b106a59d1715434ebc1a6b37682139fec36bd8d19",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 8…14…15 seconds, you have +15 armor. Your Air Magic spells that target a foe activate and recharge 33% faster, but you are Overcast by 2 points.",
+      "text": "加持魔法。持續 8…14…15 秒，獲得 +15 護甲。你以敵人為目標的風系魔法，施放與冷卻速度提高 33%，但會使你累積 2 點過載。",
+      "reason": "核對持續時間、護甲與兩種速度；僅以敵人為目標的風系魔法獲益並造成過載代價。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/description",
+          "englishHash": "5e1f41bc5158333ae8488920feeef289ab96680adb3acfa73015768481cc2fe5",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For [[MO:growth:0:var1]] seconds, you have +15 armor. Your Air Magic spells that target a foe activate and recharge 33% faster, but you are Overcast by 2 points.",
+      "text": "加持魔法。持續 [[MO:growth:0:var1]] 秒，獲得 +15 護甲。你以敵人為目標的風系魔法，施放與冷卻速度提高 33%，但會使你累積 2 點過載。",
+      "reason": "核對持續時間、護甲與兩種速度；僅以敵人為目標的風系魔法獲益並造成過載代價。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/descriptionTemplate",
+          "englishHash": "d1892428c0ee757c5ee3755ae97e62d1590edaadf7e50b15d861aaf1e97e5917",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        }
+      ]
+    },
+    {
+      "source": "Spell. For 5 seconds, foes adjacent to the location where this spell was cast are struck for 5…41…50 fire damage each second. If you are Overcast, this spell strikes nearby foes instead of adjacent ones.",
+      "text": "咒文魔法。持續 5 秒，每秒對施放位置的相鄰敵人造成 5…41…50 點火焰傷害。若你處於過載狀態，作用範圍由相鄰擴大至附近。",
+      "reason": "修正陰暗誤譯為過載；核對傷害固定於施放位置、每秒一次與相鄰擴大至附近。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/description",
+          "englishHash": "435a03e32f00e13143649e10960821fb440d17469a354aa622b64418eba1d72e",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        }
+      ]
+    },
+    {
+      "source": "Spell. For 5 seconds, foes adjacent to the location where this spell was cast are struck for [[MO:growth:0:var1]] fire damage each second. If you are Overcast, this spell strikes nearby foes instead of adjacent ones.",
+      "text": "咒文魔法。持續 5 秒，每秒對施放位置的相鄰敵人造成 [[MO:growth:0:var1]] 點火焰傷害。若你處於過載狀態，作用範圍由相鄰擴大至附近。",
+      "reason": "修正陰暗誤譯為過載；核對傷害固定於施放位置、每秒一次與相鄰擴大至附近。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/descriptionTemplate",
+          "englishHash": "36e5c4e716fdab89496ba24593a630465e2ef128501fd55d48aaf65330e8f276",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. While you maintain this enchantment, your spells cast 20…44…50% faster, and recharge 40…72…80% faster, but you continuously gain Overcast. PvE Skill",
+      "text": "精英加持魔法。維持此加持期間，魔法施放速度提高 20…44…50%，冷卻速度提高 40…72…80%，但會持續累積過載。PvE 技能。",
+      "reason": "核對維持期間的兩種速度加成、持續累積的過載與 PvE 限定；模板百分號由效果詞元提供。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313293/variants/skill-version:gww:313293/description",
+          "englishHash": "7684a248fbc6c59c76a6ce57ad6d5ddbb16ff7612961a07b5ad155313a45f0fe",
+          "evidenceHash": "301e51d096ab872517f0b7e06137622d7d81d572e5678b870ec51956765a66e0"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. While you maintain this enchantment, your spells cast [[MO:growth:0:var1]] faster, and recharge [[MO:growth:0:var2]] faster, but you continuously gain Overcast. PvE Skill",
+      "text": "精英加持魔法。維持此加持期間，魔法施放速度提高 [[MO:growth:0:var1]]，冷卻速度提高 [[MO:growth:0:var2]]，但會持續累積過載。PvE 技能。",
+      "reason": "核對維持期間的兩種速度加成、持續累積的過載與 PvE 限定；模板百分號由效果詞元提供。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313293/variants/skill-version:gww:313293/descriptionTemplate",
+          "englishHash": "9811aa9321f7350aa88f3ec16384d2f45c302ab6795b38d2d15ef86d32b25802",
+          "evidenceHash": "301e51d096ab872517f0b7e06137622d7d81d572e5678b870ec51956765a66e0"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target foe is struck for 10…26…30 lightning damage and has Cracked Armor for 5…17…20 seconds. This spell has 25% armor penetration. If you are Overcast, this spell strikes adjacent foes.",
+      "text": "咒文魔法。對目標敵人造成 10…26…30 點閃電傷害，並使其護甲破損 5…17…20 秒。此魔法具有 25% 護甲穿透。若你處於過載狀態，也命中目標的相鄰敵人。",
+      "reason": "核對閃電傷害、護甲破損與護甲穿透；過載時擴及目標的相鄰敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/description",
+          "englishHash": "0b794b56654040636289dcfb4d3fff3b119e845335eaa3abb92f471820ce13ad",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target foe is struck for [[MO:growth:0:var1]] lightning damage and has Cracked Armor for [[MO:growth:0:var2]] seconds. This spell has 25% armor penetration. If you are Overcast, this spell strikes adjacent foes.",
+      "text": "咒文魔法。對目標敵人造成 [[MO:growth:0:var1]] 點閃電傷害，並使其護甲破損 [[MO:growth:0:var2]] 秒。此魔法具有 25% 護甲穿透。若你處於過載狀態，也命中目標的相鄰敵人。",
+      "reason": "核對閃電傷害、護甲破損與護甲穿透；過載時擴及目標的相鄰敵人。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/descriptionTemplate",
+          "englishHash": "974b8b2cb113d523dde2187151f854aefddb55522a72e3dddbabaaf02bb3b8f6",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. While you maintain this enchantment, reduce overcast at a rate of 1…2…2 per second. You and all adjacent foes are afflicted with burning while this enchantment is active.",
+      "text": "加持魔法。維持此加持期間，每秒減少 1…2…2 點過載。此加持生效時，你與所有相鄰敵人都陷入燃燒狀態。",
+      "reason": "核對維持加持時每秒減少過載；燃燒同時影響自己與所有相鄰敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/description",
+          "englishHash": "d88f5e0627e518632d03d9c0f760a06c3bb8793acbf77512217ab84c642d1ff8",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. While you maintain this enchantment, reduce overcast at a rate of [[MO:growth:0:var1]] per second. You and all adjacent foes are afflicted with burning while this enchantment is active.",
+      "text": "加持魔法。維持此加持期間，每秒減少 [[MO:growth:0:var1]] 點過載。此加持生效時，你與所有相鄰敵人都陷入燃燒狀態。",
+      "reason": "核對維持加持時每秒減少過載；燃燒同時影響自己與所有相鄰敵人。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/descriptionTemplate",
+          "englishHash": "dec8a4cfec8b4e76b653709dd277b7220118333d238bde71647f0600df1189aa",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 3…6…7 seconds, you are enchanted with Swirling Aura and have 1…5…6 Health regeneration and a 50% chance to block projectiles. If you are Overcast when you cast this spell, all party members in earshot are also enchanted.",
+      "text": "加持魔法。持續 3…6…7 秒，受到旋渦靈氣加持，獲得 1…5…6 體力再生與 50% 投射物格擋機率。若施放此魔法時處於過載狀態，音量所及範圍內的所有隊伍成員也獲得此加持。",
+      "reason": "核對旋渦靈氣為加持而非著迷；過載判定在施放時，影響音量所及範圍內隊伍成員。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16268/variants/skill-version:gww:16268/description",
+          "englishHash": "9df7e9969bb738c297f80f2cefb76b0892f5fb638f1b338ef9c65b3befe2c306",
+          "evidenceHash": "6139e68c485fa2f5335908b11a68ca999000169d63dfd4cf76c37833650d7b28"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For [[MO:growth:0:var1]] seconds, you are enchanted with Swirling Aura and have [[MO:growth:0:var2]] Health regeneration and a 50% chance to block projectiles. If you are Overcast when you cast this spell, all party members in earshot are also enchanted.",
+      "text": "加持魔法。持續 [[MO:growth:0:var1]] 秒，受到旋渦靈氣加持，獲得 [[MO:growth:0:var2]] 體力再生與 50% 投射物格擋機率。若施放此魔法時處於過載狀態，音量所及範圍內的所有隊伍成員也獲得此加持。",
+      "reason": "核對旋渦靈氣為加持而非著迷；過載判定在施放時，影響音量所及範圍內隊伍成員。 動態模板逐詞對照正文，保留效果身份、次數與單位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16268/variants/skill-version:gww:16268/descriptionTemplate",
+          "englishHash": "af4192429a0fbc944791c9fbdf2f297aad060a9cc32e2d07a16a2e3a2e33e070",
+          "evidenceHash": "6139e68c485fa2f5335908b11a68ca999000169d63dfd4cf76c37833650d7b28"
+        }
+      ]
+    },
+    {
+      "source": "Target foe is struck for 5…33…40 lightning damage",
+      "text": "對目標敵人造成 5…33…40 點閃電傷害",
+      "reason": "核對初始傷害作用於目標敵人，保留三個屬性等級的數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1761/variants/skill-version:gww:1761/effects/growth:0:var1/condition",
+          "englishHash": "ed0233b2a08b13c109fcfd167a0ee4384445e068f6acfbf7e7d8c6665f48456d",
+          "evidenceHash": "3c0771ecb3916e09d281c8fcc6a008ee6fced6d98eeb57c044a0432fb862ba16"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, two foes near your target are struck for 15…71…85 lightning damage",
+      "text": "若你處於過載狀態，對目標附近的兩名敵人造成 15…71…85 點閃電傷害",
+      "reason": "修正陰天為過載；核對額外命中兩名敵人與目標附近的範圍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1761/variants/skill-version:gww:1761/effects/growth:0:var2/condition",
+          "englishHash": "568e3b69326e71e3cef3c0d295c09645574b843c928abc91f67fae2e3db3a128",
+          "evidenceHash": "3c0771ecb3916e09d281c8fcc6a008ee6fced6d98eeb57c044a0432fb862ba16"
+        }
+      ]
+    },
+    {
+      "source": "Damage from Arc Lightning has 25% armor penetration",
+      "text": "弧光閃電造成的傷害具有 25% 護甲穿透",
+      "reason": "核對護甲穿透修飾弧光閃電的傷害，而非獲得護甲。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1761/variants/skill-version:gww:1761/effects/fixed:2/condition",
+          "englishHash": "880ca5f7e5a8ed8cfbb0ca9c3cc16303c649d27f99850d01e7fb79475a2a5355",
+          "evidenceHash": "3c0771ecb3916e09d281c8fcc6a008ee6fced6d98eeb57c044a0432fb862ba16"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1761/variants/skill-version:gww:1761/effects/fixed:2/label",
+          "englishHash": "880ca5f7e5a8ed8cfbb0ca9c3cc16303c649d27f99850d01e7fb79475a2a5355",
+          "evidenceHash": "3c0771ecb3916e09d281c8fcc6a008ee6fced6d98eeb57c044a0432fb862ba16"
+        }
+      ]
+    },
+    {
+      "source": "For 1…8…10 seconds, all spells cast by the target foe cause 10 Overcast",
+      "text": "持續 1…8…10 秒，目標敵人施放的所有魔法都會使其累積 10 點過載",
+      "reason": "核對過載由目標敵人的每個魔法觸發，保留持續時間與點數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1516/variants/skill-version:gww:1516/effects/growth:0:var1/condition",
+          "englishHash": "698143327a9f4c5ac2854069f0bf11bddc6b19b2c55ada886c788a1c6d67b52a",
+          "evidenceHash": "6fd50bd7dd5b3380c9440b81f3d28fde0212554ee5a57743891259fc6286e662"
+        }
+      ]
+    },
+    {
+      "source": "For ◆ seconds, all spells cast by the target foe cause 10 Overcast",
+      "text": "持續 ◆ 秒，目標敵人施放的所有魔法都會使其累積 10 點過載",
+      "reason": "核對遮蔽時間的效果條件，保留過載代價與固定 10 點。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1516/variants/skill-version:gww:1516/effects/fixed:1/condition",
+          "englishHash": "e51baa992c186ff245cfdcf839fd0e3ce1696f05fc0b3708b0b934fed3b3183d",
+          "evidenceHash": "6fd50bd7dd5b3380c9440b81f3d28fde0212554ee5a57743891259fc6286e662"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1516/variants/skill-version:gww:1516/effects/fixed:1/label",
+          "englishHash": "e51baa992c186ff245cfdcf839fd0e3ce1696f05fc0b3708b0b934fed3b3183d",
+          "evidenceHash": "6fd50bd7dd5b3380c9440b81f3d28fde0212554ee5a57743891259fc6286e662"
+        }
+      ]
+    },
+    {
+      "source": "For 3…9…10 seconds you have a 50% chance to block while attacking",
+      "text": "持續 3…9…10 秒，攻擊時具有 50% 格擋機率",
+      "reason": "核對格擋只在攻擊時生效，保留時間與機率。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14075/variants/skill-version:gww:14075/effects/growth:0:var1/condition",
+          "englishHash": "6cee2dc66e55b4f61886ec78a23db945fea50211cde834e425ba96bc73f34c61",
+          "evidenceHash": "091fe8783a04ebc69d41de5975a3804f9ae47245f35dfe6d24da8926f162b888"
+        }
+      ]
+    },
+    {
+      "source": "When this enchantment ends, you inflict Weakness on all adjacent foes for 3…13…15 seconds",
+      "text": "此加持結束時，使所有相鄰敵人虛弱 3…13…15 秒",
+      "reason": "核對虛弱在加持結束時施加，範圍為相鄰。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14075/variants/skill-version:gww:14075/effects/growth:0:var2/condition",
+          "englishHash": "3abe0cf1ef99b89f2bfcc422d5b028ba80e9cdaeb56bdda10290736ee0af678e",
+          "evidenceHash": "091fe8783a04ebc69d41de5975a3804f9ae47245f35dfe6d24da8926f162b888"
+        }
+      ]
+    },
+    {
+      "source": "For ◆ seconds you have a 50% chance to block while attacking",
+      "text": "持續 ◆ 秒，攻擊時具有 50% 格擋機率",
+      "reason": "核對遮蔽時間的格擋條件，保留攻擊中限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14075/variants/skill-version:gww:14075/effects/fixed:2/condition",
+          "englishHash": "f30fd7792fc05bf37be2c17575709c12c7c1716debe1f1bfc7d919d2994713c3",
+          "evidenceHash": "091fe8783a04ebc69d41de5975a3804f9ae47245f35dfe6d24da8926f162b888"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14075/variants/skill-version:gww:14075/effects/fixed:2/label",
+          "englishHash": "f30fd7792fc05bf37be2c17575709c12c7c1716debe1f1bfc7d919d2994713c3",
+          "evidenceHash": "091fe8783a04ebc69d41de5975a3804f9ae47245f35dfe6d24da8926f162b888"
+        }
+      ]
+    },
+    {
+      "source": "All nearby foes begin Bleeding for 5…13…15 seconds",
+      "text": "使所有附近敵人流血 5…13…15 秒",
+      "reason": "核對初始流血的附近範圍與持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:1365/effects/growth:0:var1/condition",
+          "englishHash": "ffd4b505e9271f53d3126c0daae95241de52fa52caf8cdd328eecb5e9560dd2f",
+          "evidenceHash": "f089b550e0ff53882ddea1ecb0237f4fbb589641f36a29aae79b0b24fca887d0"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:278534/effects/growth:0:var1/condition",
+          "englishHash": "ffd4b505e9271f53d3126c0daae95241de52fa52caf8cdd328eecb5e9560dd2f",
+          "evidenceHash": "47175acf92298f6460756effe11a08fe06a2d49593285c73efb11520b1e98137"
+        }
+      ]
+    },
+    {
+      "source": "When this enchantment ends, all nearby foes are Crippled for 3…7…8 seconds",
+      "text": "此加持結束時，使所有附近敵人殘廢 3…7…8 秒",
+      "reason": "核對結束效果、附近範圍與殘廢字形。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:1365/effects/growth:0:var2/condition",
+          "englishHash": "86b979e88c644d7782a579c3f02f647ce3ca379f20c24248f877bd272244110a",
+          "evidenceHash": "f089b550e0ff53882ddea1ecb0237f4fbb589641f36a29aae79b0b24fca887d0"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:278534/effects/growth:0:var2/condition",
+          "englishHash": "86b979e88c644d7782a579c3f02f647ce3ca379f20c24248f877bd272244110a",
+          "evidenceHash": "47175acf92298f6460756effe11a08fe06a2d49593285c73efb11520b1e98137"
+        }
+      ]
+    },
+    {
+      "source": "For 30 seconds, this enchantment does nothing",
+      "text": "此加持持續 30 秒，期間沒有持續效果",
+      "reason": "核對僅加持存續期間沒有持續效果，不否定初始與結束效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:1365/effects/fixed:2/condition",
+          "englishHash": "587651b1980d3c56dfc1e89e85eb8b630c93b3738a69ac6b7723afd2959c6520",
+          "evidenceHash": "f089b550e0ff53882ddea1ecb0237f4fbb589641f36a29aae79b0b24fca887d0"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:278534/effects/fixed:2/condition",
+          "englishHash": "587651b1980d3c56dfc1e89e85eb8b630c93b3738a69ac6b7723afd2959c6520",
+          "evidenceHash": "47175acf92298f6460756effe11a08fe06a2d49593285c73efb11520b1e98137"
+        }
+      ]
+    },
+    {
+      "source": "All nearby foes are set on fire for 1…3…3 seconds",
+      "text": "使所有附近敵人燃燒 1…3…3 秒",
+      "reason": "核對燃燒狀態、附近範圍與持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/effects/growth:0:var1/condition",
+          "englishHash": "cd5c3de83b6bd1cee68a5ef4f2f6e987c34dda6b7cd99b4901fbafaae0e218da",
+          "evidenceHash": "a38050459f5b64db12cbad1197ba7693f5505d5f364863b4b1b82ad318c22149"
+        }
+      ]
+    },
+    {
+      "source": "When this enchantment ends, you gain 1…2…2 strikes of adrenaline if any foes are within earshot",
+      "text": "此加持結束時，若音量所及範圍內有敵人，獲得 1…2…2 次攻擊所累積的怒氣",
+      "reason": "修正腎上腺素打擊誤譯；核對加持結束時的敵人存在條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/effects/growth:0:var2/condition",
+          "englishHash": "697754da380c726e5047917c1bf07e12e99d5c5b6c1f506dd6d0ea74d2c86eb6",
+          "evidenceHash": "a38050459f5b64db12cbad1197ba7693f5505d5f364863b4b1b82ad318c22149"
+        }
+      ]
+    },
+    {
+      "source": "For 20 seconds afterward, this enchantment does nothing",
+      "text": "此後加持持續 20 秒，期間沒有持續效果",
+      "reason": "afterward 修飾此後的 20 秒期間，不是 20 秒後才無效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/effects/fixed:2/condition",
+          "englishHash": "07908a982e2c7e18c9327aef09f5499f396a490a2d433af58339393298cd2bb8",
+          "evidenceHash": "a38050459f5b64db12cbad1197ba7693f5505d5f364863b4b1b82ad318c22149"
+        }
+      ]
+    },
+    {
+      "source": "For 10 seconds, you gain +10 armor if you have a condition and gain 1…3…3 Health regen for each condition you are suffering from",
+      "text": "持續 10 秒，身上有病症時獲得 +10 護甲；每承受一項病症，獲得 1…3…3 體力再生",
+      "reason": "核對病症存在的護甲條件與依病症數量累加的體力再生。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/effects/growth:0:var1/condition",
+          "englishHash": "227ca632b3bb7c22e561abaf26c35719924b908d6c22b7c1ebb30883b6ebc309",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        }
+      ]
+    },
+    {
+      "source": "When this enchantment ends, you are cured of 1…2…2 conditions",
+      "text": "此加持結束時，移除自身 1…2…2 項病症",
+      "reason": "核對解除的是自己的病症，數值表示項數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/effects/growth:0:var2/condition",
+          "englishHash": "28017cb65840cb93bca0fa213e69fb2ff1e5323b9c4a5c15c4b1b5d0ec0b0170",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        }
+      ]
+    },
+    {
+      "source": "For 10 seconds, you gain +10 armor if you have a condition and gain ◆ Health regen for each condition you are suffering from",
+      "text": "持續 10 秒，身上有病症時獲得 +10 護甲；每承受一項病症，獲得 ◆ 體力再生",
+      "reason": "核對遮蔽再生數值的條件，保留病症與護甲關係。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/effects/fixed:2/condition",
+          "englishHash": "1614d8efc90e1726a8376afb784d59f7698dd3b861160c342c0a961c6c658bf0",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/effects/fixed:3/condition",
+          "englishHash": "1614d8efc90e1726a8376afb784d59f7698dd3b861160c342c0a961c6c658bf0",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/effects/fixed:3/label",
+          "englishHash": "1614d8efc90e1726a8376afb784d59f7698dd3b861160c342c0a961c6c658bf0",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        }
+      ]
+    },
+    {
+      "source": "All nearby foes are struck for 10…34…40 earth damage",
+      "text": "對所有附近敵人造成 10…34…40 點土系傷害",
+      "reason": "earth 為土系而非地球；核對附近範圍與傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:1378/effects/growth:0:var1/condition",
+          "englishHash": "cf64101f1ef1d93252e790733fb8d6d758b953a55d191c4078d733edea58213e",
+          "evidenceHash": "10354e68f048371160e8efdfbe8b9b0d6740d16474f3fff9ae44cff4b3746788"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12256/variants/skill-version:gww:12256/effects/growth:0:var1/condition",
+          "englishHash": "cf64101f1ef1d93252e790733fb8d6d758b953a55d191c4078d733edea58213e",
+          "evidenceHash": "eb4eb3e9fe09e3568dfc2cb74bf3d081a45d0c71d6ac0bb1b2dadbebf7d52687"
+        }
+      ]
+    },
+    {
+      "source": "When this enchantment ends, all nearby foes are Blinded for 1…3…4 seconds",
+      "text": "此加持結束時，使所有附近敵人盲目 1…3…4 秒",
+      "reason": "核對結束時施加盲目、附近範圍與持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:1378/effects/growth:0:var2/condition",
+          "englishHash": "16177af58b255e61fb80fad48655f559ec22147ff13512c61ec777c956345c27",
+          "evidenceHash": "10354e68f048371160e8efdfbe8b9b0d6740d16474f3fff9ae44cff4b3746788"
+        }
+      ]
+    },
+    {
+      "source": "For 30 seconds, your attacks deal earth damage",
+      "text": "持續 30 秒，攻擊造成土系傷害",
+      "reason": "核對攻擊傷害屬性轉為土系，並非額外傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:1378/effects/fixed:2/condition",
+          "englishHash": "180c5fb0429a84b25e42ac91b2356f5047953d6f3b59461b53a09ef0b0b06284",
+          "evidenceHash": "10354e68f048371160e8efdfbe8b9b0d6740d16474f3fff9ae44cff4b3746788"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:278536/effects/fixed:2/condition",
+          "englishHash": "180c5fb0429a84b25e42ac91b2356f5047953d6f3b59461b53a09ef0b0b06284",
+          "evidenceHash": "28f040470e07a8efcf8fffbc586d31fced57d392627196dbb7e59915d66199b2"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12256/variants/skill-version:gww:12256/effects/fixed:2/condition",
+          "englishHash": "180c5fb0429a84b25e42ac91b2356f5047953d6f3b59461b53a09ef0b0b06284",
+          "evidenceHash": "eb4eb3e9fe09e3568dfc2cb74bf3d081a45d0c71d6ac0bb1b2dadbebf7d52687"
+        }
+      ]
+    },
+    {
+      "source": "All adjacent foes are struck for 10…34…40 earth damage",
+      "text": "對所有相鄰敵人造成 10…34…40 點土系傷害",
+      "reason": "單獨核對 PvP 相鄰範圍，不套用附近範圍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:278536/effects/growth:0:var1/condition",
+          "englishHash": "7f605942632465f4833f7f99a9031993a6329bb9c402f4ca21dbdbeafc8d0b57",
+          "evidenceHash": "28f040470e07a8efcf8fffbc586d31fced57d392627196dbb7e59915d66199b2"
+        }
+      ]
+    },
+    {
+      "source": "When this enchantment ends, all adjacent foes are Blinded for 1…3…4 seconds",
+      "text": "此加持結束時，使所有相鄰敵人盲目 1…3…4 秒",
+      "reason": "核對 PvP 結束效果的相鄰範圍與盲目。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:278536/effects/growth:0:var2/condition",
+          "englishHash": "205a1b7844b7f750a8bc06e907b072e69a8b5404416da8ff9db5d433d621b0d3",
+          "evidenceHash": "28f040470e07a8efcf8fffbc586d31fced57d392627196dbb7e59915d66199b2"
+        }
+      ]
+    },
+    {
+      "source": "For 30 seconds, if you are wielding an earth weapon, your melee attacks deal +3…25…30 earth damage",
+      "text": "持續 30 秒，持用土系武器時，近身攻擊額外造成 +3…25…30 點土系傷害",
+      "reason": "核對土系武器僅限制近身附傷，保留加號與持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1380/variants/skill-version:gww:1380/effects/growth:0:var1/condition",
+          "englishHash": "b8e15e1ab6cc18f2a86c7141e737f690fb5d2b22d02087d7418bd522130ce196",
+          "evidenceHash": "9a1f249dcc9681ab6f8a2e020488f359a1940d64af94a14738cccfd17016bf2b"
+        }
+      ]
+    },
+    {
+      "source": "When you cast this enchantment, all nearby foes are Blinded for 1…6…7 seconds",
+      "text": "施放此加持時，使所有附近敵人盲目 1…6…7 秒",
+      "reason": "核對初始盲目沒有附加土系武器條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1380/variants/skill-version:gww:1380/effects/growth:0:var2/condition",
+          "englishHash": "7f7d49c0fae852b97e96b36c588fb794331383e0110a326898995bfc8e634a86",
+          "evidenceHash": "9a1f249dcc9681ab6f8a2e020488f359a1940d64af94a14738cccfd17016bf2b"
+        }
+      ]
+    },
+    {
+      "source": "For 30 seconds, if you are wielding an earth weapon, your melee attacks deal ◆ earth damage",
+      "text": "持續 30 秒，持用土系武器時，近身攻擊額外造成 ◆ 點土系傷害",
+      "reason": "核對遮蔽傷害的條件，仍保留土系武器與近身攻擊限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1380/variants/skill-version:gww:1380/effects/fixed:2/condition",
+          "englishHash": "5790065751e6f36c2d28ebfcc9b6c13badc31833c1473dc9b7fac8b7adcd3a53",
+          "evidenceHash": "9a1f249dcc9681ab6f8a2e020488f359a1940d64af94a14738cccfd17016bf2b"
+        }
+      ]
+    },
+    {
+      "source": "For 7 seconds, you move 25% faster",
+      "text": "持續 7 秒，移動速度提高 25%",
+      "reason": "核對移動速度加成百分比與持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14081/variants/skill-version:gww:14081/effects/fixed:0/condition",
+          "englishHash": "b1529bd42369f0f65efe5b8357e016816768d2ba311e518fa7d19d3c93432a35",
+          "evidenceHash": "5595d39d55a5525ecb0f1831e62afc398d7db03adc2173649ce747202e166441"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14081/variants/skill-version:gww:14081/effects/fixed:1/condition",
+          "englishHash": "b1529bd42369f0f65efe5b8357e016816768d2ba311e518fa7d19d3c93432a35",
+          "evidenceHash": "5595d39d55a5525ecb0f1831e62afc398d7db03adc2173649ce747202e166441"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14081/variants/skill-version:gww:14081/effects/fixed:1/label",
+          "englishHash": "b1529bd42369f0f65efe5b8357e016816768d2ba311e518fa7d19d3c93432a35",
+          "evidenceHash": "5595d39d55a5525ecb0f1831e62afc398d7db03adc2173649ce747202e166441"
+        }
+      ]
+    },
+    {
+      "source": "If this enchantment ends prematurely, you lose 1 condition",
+      "text": "若此加持提前結束，移除自身 1 項病症",
+      "reason": "核對提前結束才解除病症，對象為自己。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14081/variants/skill-version:gww:14081/effects/fixed:2/condition",
+          "englishHash": "615c2cecb1dd84fca1b7df2f9029eff57e1327812d845fb4ade05bb0e04318e5",
+          "evidenceHash": "5595d39d55a5525ecb0f1831e62afc398d7db03adc2173649ce747202e166441"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14081/variants/skill-version:gww:14081/effects/fixed:2/label",
+          "englishHash": "615c2cecb1dd84fca1b7df2f9029eff57e1327812d845fb4ade05bb0e04318e5",
+          "evidenceHash": "5595d39d55a5525ecb0f1831e62afc398d7db03adc2173649ce747202e166441"
+        }
+      ]
+    },
+    {
+      "source": "Create a level 1…8…10 spirit",
+      "text": "創造等級 1…8…10 的精靈",
+      "reason": "修正水平精神誤譯，數值表示精靈等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/effects/growth:0:var1/condition",
+          "englishHash": "dd6adf1dc8a99caf4b21468435fcb012824c738258151928cbb584536a9d313f",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        }
+      ]
+    },
+    {
+      "source": "This spirit dies after 30…198…240 seconds",
+      "text": "此精靈在 30…198…240 秒後死亡",
+      "reason": "核對數值表示精靈壽命，統一精靈用詞。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/effects/growth:0:var2/condition",
+          "englishHash": "c0879898adf52e5bf0316b4cc6968b8f88b6d83e123207992388788f19a99722",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        }
+      ]
+    },
+    {
+      "source": "Spells cast within its range that cause Overcast cause an additional 10 Overcast",
+      "text": "在其範圍內施放原本會造成過載的魔法時，額外累積 10 點過載",
+      "reason": "核對僅原本造成過載的魔法受影響，並保留額外點數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/effects/fixed:2/condition",
+          "englishHash": "d92cc0f8e0b9ec3fe0ad5a3e5f5d068cdb7e582e41b97309659604c5fec74d5f",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/effects/fixed:2/label",
+          "englishHash": "d92cc0f8e0b9ec3fe0ad5a3e5f5d068cdb7e582e41b97309659604c5fec74d5f",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        }
+      ]
+    },
+    {
+      "source": "If that action was casting a spell, target foe suffers 10 Overcast",
+      "text": "若該動作是施放魔法，使目標敵人累積 10 點過載",
+      "reason": "核對動作類型條件與承受過載的目標敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14498/variants/skill-version:gww:14498/effects/fixed:0/condition",
+          "englishHash": "d792a231a02bcdfe1ace4726add3afe360d48e0921f4b06e8f320b879d9f6087",
+          "evidenceHash": "6024d0f4b6889a7ddc196c5881ddc6e9907165e260ca86ed39312827a09e1465"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14498/variants/skill-version:gww:14498/effects/fixed:0/label",
+          "englishHash": "d792a231a02bcdfe1ace4726add3afe360d48e0921f4b06e8f320b879d9f6087",
+          "evidenceHash": "6024d0f4b6889a7ddc196c5881ddc6e9907165e260ca86ed39312827a09e1465"
+        }
+      ]
+    },
+    {
+      "source": "Send out a flare that strikes target foe for 20…56…65 fire damage if it hits",
+      "text": "發射火焰投射物，命中目標敵人時造成 20…56…65 點火焰傷害",
+      "reason": "flare 是傷害投射物而非照明彈；保留命中條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2752/variants/skill-version:gww:2752/effects/growth:0:var1/condition",
+          "englishHash": "679315f40c5cee9346234f9e67a2470e3f9e04d1d049a91087e2bd78e3ac7bc5",
+          "evidenceHash": "d0d914fb195f099d2c792d5dfaba74e1326ecaaa7885d1f57ef9cd16b78d7601"
+        }
+      ]
+    },
+    {
+      "source": "For 4…9…10 seconds, you cannot be knocked down and move 25% faster",
+      "text": "持續 4…9…10 秒，無法被擊倒，移動速度提高 25%",
+      "reason": "核對 PvE 免擊倒與加速同時生效。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:1381/effects/growth:0:var1/condition",
+          "englishHash": "6ea1619702f7aa684a74ff7925d06e50c1e77834996384ebcd06310b6b2984d9",
+          "evidenceHash": "6f0382d1a41a3449edf419e9caaadbcfe5d5179b1cc0401dfce9b924c608f977"
+        }
+      ]
+    },
+    {
+      "source": "For ◆ seconds, you cannot be knocked down and move 25% faster",
+      "text": "持續 ◆ 秒，無法被擊倒，移動速度提高 25%",
+      "reason": "核對遮蔽時間的免擊倒與移速條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:1381/effects/fixed:1/condition",
+          "englishHash": "cde9a9e1b286fdb241a670550e393d31ffc279ba1cfd373fd48d68375915540c",
+          "evidenceHash": "6f0382d1a41a3449edf419e9caaadbcfe5d5179b1cc0401dfce9b924c608f977"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:321764/effects/fixed:1/condition",
+          "englishHash": "cde9a9e1b286fdb241a670550e393d31ffc279ba1cfd373fd48d68375915540c",
+          "evidenceHash": "64a74df40d95a6ff6925241ed640e4c575b87fd638cf9b7934be689bd201d290"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:1381/effects/fixed:1/label",
+          "englishHash": "cde9a9e1b286fdb241a670550e393d31ffc279ba1cfd373fd48d68375915540c",
+          "evidenceHash": "6f0382d1a41a3449edf419e9caaadbcfe5d5179b1cc0401dfce9b924c608f977"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:321764/effects/fixed:1/label",
+          "englishHash": "cde9a9e1b286fdb241a670550e393d31ffc279ba1cfd373fd48d68375915540c",
+          "evidenceHash": "64a74df40d95a6ff6925241ed640e4c575b87fd638cf9b7934be689bd201d290"
+        }
+      ]
+    },
+    {
+      "source": "For 2…7…8 seconds, you cannot be knocked down and move 25% faster",
+      "text": "持續 2…7…8 秒，無法被擊倒，移動速度提高 25%",
+      "reason": "單獨核對 PvP 時間，保留免擊倒與移速。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:321764/effects/growth:0:var1/condition",
+          "englishHash": "a9cd5361ad68633cc55848e5a0431ecb3342074f428cb893d4cebff30d970afd",
+          "evidenceHash": "64a74df40d95a6ff6925241ed640e4c575b87fd638cf9b7934be689bd201d290"
+        }
+      ]
+    },
+    {
+      "source": "Your next 1…3…3 spells do[es] not cause Overcast and costs 10…22…25 less Energy to cast",
+      "text": "接下來 1…3…3 個魔法不會造成過載，且施放時的能量消耗減少 10…22…25 點",
+      "reason": "核對魔法次數與費用減少量，修正陰暗誤譯。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/effects/growth:0:var1/condition",
+          "englishHash": "69c1e81a319664c5b17eb14eab781c800bbea27855c018e3485bdfdcb6462de1",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/effects/growth:0:var2/condition",
+          "englishHash": "69c1e81a319664c5b17eb14eab781c800bbea27855c018e3485bdfdcb6462de1",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "Your elemental attributes are increased by 1…2…2",
+      "text": "你的元素屬性提高 1…2…2",
+      "reason": "核對數值是屬性加成量，不是主體。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/effects/growth:0:var3/condition",
+          "englishHash": "04992f688189c2b2fb94cc809083f23c65a0cff80b3c76b56631a37245aa319b",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "All nearby foes take 5…25…30 holy damage",
+      "text": "對所有附近敵人造成 5…25…30 點神聖傷害",
+      "reason": "核對附近範圍、神聖傷害與數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12262/variants/skill-version:gww:12262/effects/growth:0:var1/condition",
+          "englishHash": "6aefdfc8f65a7d13f0c7cfaff39ba4292443d4134b588179bc4dfd32fcae564a",
+          "evidenceHash": "978f44e9c61cc9cb901569044f3caaa63d3fee2cac490df1d014291bd6ce2c49"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/growth:0:var1/condition",
+          "englishHash": "6aefdfc8f65a7d13f0c7cfaff39ba4292443d4134b588179bc4dfd32fcae564a",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    },
+    {
+      "source": "When this enchantment ends, all nearby foes are set on fire for 2…4…5 seconds",
+      "text": "此加持結束時，使所有附近敵人燃燒 2…4…5 秒",
+      "reason": "核對結束時施加燃燒、附近範圍與時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12262/variants/skill-version:gww:12262/effects/growth:0:var2/condition",
+          "englishHash": "e5d0b5d4c727f6c3ee497791beef0031dcc44b45d4b3a6647d5bb08829e902ea",
+          "evidenceHash": "978f44e9c61cc9cb901569044f3caaa63d3fee2cac490df1d014291bd6ce2c49"
+        }
+      ]
+    },
+    {
+      "source": "For 30 seconds, your attacks deal holy damage",
+      "text": "持續 30 秒，攻擊造成神聖傷害",
+      "reason": "核對攻擊的傷害屬性與持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12262/variants/skill-version:gww:12262/effects/fixed:2/condition",
+          "englishHash": "381963d3f0f393eaa2f3f0e9d76013fea3f85a6edc76da956953ee70224bcb56",
+          "evidenceHash": "978f44e9c61cc9cb901569044f3caaa63d3fee2cac490df1d014291bd6ce2c49"
+        }
+      ]
+    },
+    {
+      "source": "Send out an Ice Spear, striking target foe for 10…50…60 cold damage if it hits",
+      "text": "發射冰之矛，命中目標敵人時造成 10…50…60 點冰冷傷害",
+      "reason": "核對投射物命中條件，統一冰冷傷害用詞。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14131/variants/skill-version:gww:14131/effects/growth:0:var1/condition",
+          "englishHash": "eab8014601bb5e352ddc3f4963e9f9b91546856571b3e1c88715a696678b5e56",
+          "evidenceHash": "006a0aedbae8087d780b5ca1e98b1c0fd2cb525bfbe05fc7b83dfd398e4f8047"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, you gain +1…3…4 Health regeneration for 5 seconds",
+      "text": "若你處於過載狀態，獲得 +1…3…4 體力再生，持續 5 秒",
+      "reason": "核對過載條件、再生對象為自己與固定時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14131/variants/skill-version:gww:14131/effects/growth:0:var2/condition",
+          "englishHash": "7e55ebaa1b54851600ade63e372ed2bf743a1958e40b85af8e68e0d289582e39",
+          "evidenceHash": "006a0aedbae8087d780b5ca1e98b1c0fd2cb525bfbe05fc7b83dfd398e4f8047"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, you gain ◆ Health regeneration for 5 seconds",
+      "text": "若你處於過載狀態，獲得 ◆ 體力再生，持續 5 秒",
+      "reason": "核對遮蔽再生數值的過載條件，保留固定 5 秒。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14131/variants/skill-version:gww:14131/effects/fixed:2/condition",
+          "englishHash": "4125a8a2dac5708a597e50c65a395c690cd11249ae25bb42292da4d9ad6e0d95",
+          "evidenceHash": "006a0aedbae8087d780b5ca1e98b1c0fd2cb525bfbe05fc7b83dfd398e4f8047"
+        }
+      ]
+    },
+    {
+      "source": "For 8…14…15 seconds, you have +15 armor",
+      "text": "持續 8…14…15 秒，獲得 +15 護甲",
+      "reason": "核對持續時間、正護甲加成與數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/effects/growth:0:var1/condition",
+          "englishHash": "f9f4ca3da5361546c2ec4feafb7341a84813a3febd1395c2580743aeccdfd8b3",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        }
+      ]
+    },
+    {
+      "source": "For ◆ seconds, you have +15 armor",
+      "text": "持續 ◆ 秒，獲得 +15 護甲",
+      "reason": "核對遮蔽時間的護甲條件，保留加號。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/effects/fixed:1/condition",
+          "englishHash": "118633e0d2afead52a80e9e311665625c9d5ec4f32b3b8b6af63907f3aac240a",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/effects/fixed:1/label",
+          "englishHash": "118633e0d2afead52a80e9e311665625c9d5ec4f32b3b8b6af63907f3aac240a",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        }
+      ]
+    },
+    {
+      "source": "Your Air Magic spells that target a foe activate and recharge 33% faster, but you are Overcast by 2 points",
+      "text": "你以敵人為目標的風系魔法，施放與冷卻速度提高 33%，但會使你累積 2 點過載",
+      "reason": "核對風系魔法須以敵人為目標；兩種速度及過載代價獨立保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/effects/fixed:2/condition",
+          "englishHash": "ad52ad34e57b0c6f3cd45d4602c2e8771b88844f3151966e6073b617c01c7fab",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/effects/fixed:3/condition",
+          "englishHash": "ad52ad34e57b0c6f3cd45d4602c2e8771b88844f3151966e6073b617c01c7fab",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/effects/fixed:2/label",
+          "englishHash": "ad52ad34e57b0c6f3cd45d4602c2e8771b88844f3151966e6073b617c01c7fab",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/effects/fixed:3/label",
+          "englishHash": "ad52ad34e57b0c6f3cd45d4602c2e8771b88844f3151966e6073b617c01c7fab",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        }
+      ]
+    },
+    {
+      "source": "For 5 seconds, foes adjacent to the location where this spell was cast are struck for 5…41…50 fire damage each second",
+      "text": "持續 5 秒，每秒對施放位置的相鄰敵人造成 5…41…50 點火焰傷害",
+      "reason": "核對 Lava Font 的固定位置、相鄰範圍與每秒傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/effects/growth:0:var1/condition",
+          "englishHash": "5ca697d52aea9ed54e00197c63bb5cdc725e3b0c3d7a79371f8eefaf0420669c",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        }
+      ]
+    },
+    {
+      "source": "For 5 seconds, foes adjacent to the location where this spell was cast are struck for ◆ fire damage each second",
+      "text": "持續 5 秒，每秒對施放位置的相鄰敵人造成 ◆ 點火焰傷害",
+      "reason": "核對 Lava Font 遮蔽傷害的效果條件，範圍仍為相鄰。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/effects/fixed:1/condition",
+          "englishHash": "666e7511440c53ea35ec4c8799d2e8ed8252050055f7ce263f95eaf62490a1c3",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        }
+      ]
+    },
+    {
+      "source": "Strike target foe for 10…50…60 lightning damage",
+      "text": "對目標敵人造成 10…50…60 點閃電傷害",
+      "reason": "核對初始傷害與目標敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/effects/growth:0:var1/condition",
+          "englishHash": "2567209378882049629c79f742b4249b5a704ccbd81df91fc3690876b962d11b",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        }
+      ]
+    },
+    {
+      "source": "When this hex ends, that foe is struck again for 20…36…40 lightning damage",
+      "text": "此降咒結束時，再次對該敵人造成 20…36…40 點閃電傷害",
+      "reason": "核對第二次傷害在降咒結束時觸發，目標保持同一敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/effects/growth:0:var2/condition",
+          "englishHash": "1cb442bac71f29eae8b43224771dbaa5a009877b2457aeebec15bc50eac653ce",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        }
+      ]
+    },
+    {
+      "source": "This spell has 25% armor penetration",
+      "text": "此魔法具有 25% 護甲穿透",
+      "reason": "核對穿透百分比屬於此魔法，並非護甲增加。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/effects/fixed:2/condition",
+          "englishHash": "204c389eb63eb8f2b827c6f2568c8bb39b09ddf867eefa18e7454790a0076727",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/effects/fixed:2/condition",
+          "englishHash": "204c389eb63eb8f2b827c6f2568c8bb39b09ddf867eefa18e7454790a0076727",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/effects/fixed:2/label",
+          "englishHash": "204c389eb63eb8f2b827c6f2568c8bb39b09ddf867eefa18e7454790a0076727",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/effects/fixed:2/label",
+          "englishHash": "204c389eb63eb8f2b827c6f2568c8bb39b09ddf867eefa18e7454790a0076727",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, that foe is hexed with Lightning Strike for 3 seconds",
+      "text": "若你處於過載狀態，對該敵人施加閃電衝擊降咒，持續 3 秒",
+      "reason": "核對過載才施加降咒，保留固定中文技能身份與時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/effects/fixed:3/condition",
+          "englishHash": "19e6966690019ec00fef85201c9441966630f357d09d04295bebbdd347742aae",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        }
+      ]
+    },
+    {
+      "source": "For 1…7…8 seconds, you block the next attack against you and deal 10…42…50 damage to your attacker",
+      "text": "持續 1…7…8 秒，格擋下一次對你的攻擊，並對攻擊者造成 10…42…50 點傷害",
+      "reason": "核對僅下一次攻擊、傷害對象為攻擊者。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14379/variants/skill-version:gww:14379/effects/growth:0:var1/condition",
+          "englishHash": "38f242be9b594571d77668d8f8e887aafdfb493a87cdac56a2a13e5d378043de",
+          "evidenceHash": "a7308b2db475807125d5ded026df25965edd8b3e4e32a35fcd5debf8e5dea53c"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14379/variants/skill-version:gww:14379/effects/growth:0:var2/condition",
+          "englishHash": "38f242be9b594571d77668d8f8e887aafdfb493a87cdac56a2a13e5d378043de",
+          "evidenceHash": "a7308b2db475807125d5ded026df25965edd8b3e4e32a35fcd5debf8e5dea53c"
+        }
+      ]
+    },
+    {
+      "source": "For 20 seconds, you have a 40% chance to block and an extra 4…9…10% for each additional enchantment (max 80%)",
+      "text": "持續 20 秒，具有 40% 格擋機率；每多一項加持，額外提高 4…9…10%，最高為 80%",
+      "reason": "核對基礎格擋、逐加持的增幅及最高上限。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/growth:0:var1/condition",
+          "englishHash": "c766db1a764aac5ad29c5c33abd6a2f5f56f5259f36484eaf70cb48d6ee38f09",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        }
+      ]
+    },
+    {
+      "source": "All nearby foes are struck for 10…34…40 earth damage each time a Dervish enchantment is removed from you",
+      "text": "每當自身的一項神喚使加持被移除，對所有附近敵人造成 10…34…40 點土系傷害",
+      "reason": "核對觸發限於神喚使加持被移除，傷害範圍為附近。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/growth:0:var2/condition",
+          "englishHash": "1f44b3adae8670eae949bce5a5ded019ce0114e31cc5c9ef4517d50040c7c30b",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        }
+      ]
+    },
+    {
+      "source": "For 20 seconds, you have a 40% chance to block and an extra ◆ for each additional enchantment (max 80%)",
+      "text": "持續 20 秒，具有 40% 格擋機率；每多一項加持，額外提高 ◆，最高為 80%",
+      "reason": "核對遮蔽格擋增幅的條件，保留基礎機率與上限。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/fixed:2/condition",
+          "englishHash": "0dc9503c6f9cb44a3ccd07eb0651395a4eb1cdd48148cf8d3462655614e3e07b",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/fixed:3/condition",
+          "englishHash": "0dc9503c6f9cb44a3ccd07eb0651395a4eb1cdd48148cf8d3462655614e3e07b",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/fixed:4/condition",
+          "englishHash": "0dc9503c6f9cb44a3ccd07eb0651395a4eb1cdd48148cf8d3462655614e3e07b",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/fixed:3/label",
+          "englishHash": "0dc9503c6f9cb44a3ccd07eb0651395a4eb1cdd48148cf8d3462655614e3e07b",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/fixed:4/label",
+          "englishHash": "0dc9503c6f9cb44a3ccd07eb0651395a4eb1cdd48148cf8d3462655614e3e07b",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        }
+      ]
+    },
+    {
+      "source": "For 1…6…7 seconds, you have a 30…54…60% chance to block incoming attacks",
+      "text": "持續 1…6…7 秒，具有 30…54…60% 格擋來襲攻擊的機率",
+      "reason": "核對 PvP 的固定格擋機率與持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:321800/effects/growth:0:var1/condition",
+          "englishHash": "7d6e13a356e5aa61d19fe3957f40228382b9549030d11618d3f2f55f998b9ff1",
+          "evidenceHash": "2b13f4c64a1c1f40767fd9b8e363470854ae6eb60b3579ea4717a571f8095e00"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:321800/effects/growth:0:var2/condition",
+          "englishHash": "7d6e13a356e5aa61d19fe3957f40228382b9549030d11618d3f2f55f998b9ff1",
+          "evidenceHash": "2b13f4c64a1c1f40767fd9b8e363470854ae6eb60b3579ea4717a571f8095e00"
+        }
+      ]
+    },
+    {
+      "source": "When you cast this enchantment, all nearby foes are struck for 10…34…40 earth damage",
+      "text": "施放此加持時，對所有附近敵人造成 10…34…40 點土系傷害",
+      "reason": "核對傷害在施放時觸發，不是結束時。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:321800/effects/growth:0:var3/condition",
+          "englishHash": "0d1da01afbf73a2d86325954d0957e415444461f75254ae0caa7f2b6dc94bed3",
+          "evidenceHash": "2b13f4c64a1c1f40767fd9b8e363470854ae6eb60b3579ea4717a571f8095e00"
+        }
+      ]
+    },
+    {
+      "source": "All adjacent foes suffer from Disease for 1…8…10 seconds",
+      "text": "使所有相鄰敵人感染疾病 1…8…10 秒",
+      "reason": "核對 PvE 疾病時間與相鄰範圍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12857/variants/skill-version:gww:12857/effects/growth:0:var1/condition",
+          "englishHash": "e11c46ee6ea15e09c86d8330f3d14fa825ad4e4461215b079f2cdbb75bcdcfa9",
+          "evidenceHash": "5fa5b6cde838010088147420ca3a16791dcacb102225f0915619553302427d43"
+        }
+      ]
+    },
+    {
+      "source": "For 20 seconds, nothing happens",
+      "text": "加持持續 20 秒，期間沒有持續效果",
+      "reason": "核對中間存續期間無效果，不否定初始與結束效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12857/variants/skill-version:gww:12857/effects/fixed:1/condition",
+          "englishHash": "dbfc131aa57c9b425619cc2f5e0cef599aa76d6005cae7a011509c8a62cb99d3",
+          "evidenceHash": "5fa5b6cde838010088147420ca3a16791dcacb102225f0915619553302427d43"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12857/variants/skill-version:gww:321758/effects/fixed:1/condition",
+          "englishHash": "dbfc131aa57c9b425619cc2f5e0cef599aa76d6005cae7a011509c8a62cb99d3",
+          "evidenceHash": "d1d0d023777384ae4b57d7471dc095518cfa6fb9ddf9ea4eb8bf1e6cdb053e0e"
+        }
+      ]
+    },
+    {
+      "source": "All adjacent foes suffer from Disease for 2…5…6 seconds",
+      "text": "使所有相鄰敵人感染疾病 2…5…6 秒",
+      "reason": "單獨核對 PvP 疾病時間，不套用 PvE。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12857/variants/skill-version:gww:321758/effects/growth:0:var1/condition",
+          "englishHash": "3d2c1940ec255d01dfc30724193cecd68646dd37126afdbc5a95d0d1603e0b15",
+          "evidenceHash": "d1d0d023777384ae4b57d7471dc095518cfa6fb9ddf9ea4eb8bf1e6cdb053e0e"
+        }
+      ]
+    },
+    {
+      "source": "While you maintain this enchantment, your spells cast 20…44…50% faster, and recharge 40…72…80% faster, but you continuously gain Overcast",
+      "text": "維持此加持期間，魔法施放速度提高 20…44…50%，冷卻速度提高 40…72…80%，但會持續累積過載",
+      "reason": "核對兩組百分比分別修飾施放與冷卻，並保留持續過載代價。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313293/variants/skill-version:gww:313293/effects/growth:0:var1/condition",
+          "englishHash": "06eed4a9c2268bfb5206ce4c0eed454607ca0e675a2d2487fb8dd256c3591afd",
+          "evidenceHash": "301e51d096ab872517f0b7e06137622d7d81d572e5678b870ec51956765a66e0"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313293/variants/skill-version:gww:313293/effects/growth:0:var2/condition",
+          "englishHash": "06eed4a9c2268bfb5206ce4c0eed454607ca0e675a2d2487fb8dd256c3591afd",
+          "evidenceHash": "301e51d096ab872517f0b7e06137622d7d81d572e5678b870ec51956765a66e0"
+        }
+      ]
+    },
+    {
+      "source": "This explosion strikes your target and nearby foes for 10…50…60 fire damage",
+      "text": "此爆炸對目標及附近敵人造成 10…50…60 點火焰傷害",
+      "reason": "核對爆炸同時命中目標與附近敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:10796/variants/skill-version:gww:10796/effects/growth:0:var1/condition",
+          "englishHash": "b6e9cbfa195a6dc00602a80657914ffd6a2c5d5eab85261c6e2d75890024fb98",
+          "evidenceHash": "9a1a3a0f9b1404b4c8b5863777cbc245fbf0ed52bdb19dfc2c43883dc3ebb69d"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, allies in the blast radius are healed for 20…68…80 Health",
+      "text": "若你處於過載狀態，為爆炸範圍內的盟友恢復 20…68…80 點體力",
+      "reason": "核對治療對象限於爆炸範圍內盟友，必須處於過載狀態。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:10796/variants/skill-version:gww:10796/effects/growth:0:var2/condition",
+          "englishHash": "44bf07c0108c1068cfa748a0ba3c5a4c6ec4a555677fc2d40de53d0984a14e21",
+          "evidenceHash": "9a1a3a0f9b1404b4c8b5863777cbc245fbf0ed52bdb19dfc2c43883dc3ebb69d"
+        }
+      ]
+    },
+    {
+      "source": "Deals 10…70…85 cold damage to target and adjacent foes",
+      "text": "對目標及相鄰敵人造成 10…70…85 點冰冷傷害",
+      "reason": "核對冰冷傷害同時命中目標與相鄰敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16263/variants/skill-version:gww:16263/effects/growth:0:var1/condition",
+          "englishHash": "9e5d46a08264d5f91ed61ea5fe179f96605be0de376c9e50f6aaa5c20384b955",
+          "evidenceHash": "1ce334f31e6e42e72519f9d79e6985be6b77c053ad1364e6cbfa5aa6758ba29e"
+        }
+      ]
+    },
+    {
+      "source": "For 5…17…20 seconds, target foe and all adjacent foes take twice as long to activate signets",
+      "text": "持續 5…17…20 秒，目標敵人及所有相鄰敵人使用紋章的時間變為兩倍",
+      "reason": "核對紋章使用時間加倍，並非冷卻時間加倍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16263/variants/skill-version:gww:16263/effects/growth:0:var2/condition",
+          "englishHash": "51c27e685dc466384a0b373da06dae79c176a70d03200b3bb9f89e1cfa3f1fff",
+          "evidenceHash": "1ce334f31e6e42e72519f9d79e6985be6b77c053ad1364e6cbfa5aa6758ba29e"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, foes struck with Rust have their signets interrupted and disabled for 1…8…10 seconds",
+      "text": "若你處於過載狀態，被紋章鏽蝕命中的敵人，其紋章會被中斷並停用 1…8…10 秒",
+      "reason": "核對過載限定的紋章中斷與停用，保留技能身份和時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16263/variants/skill-version:gww:16263/effects/growth:0:var3/condition",
+          "englishHash": "8de95847964048188ffc37a2276c723899d7c92f00f5ca04caa231e52a436380",
+          "evidenceHash": "1ce334f31e6e42e72519f9d79e6985be6b77c053ad1364e6cbfa5aa6758ba29e"
+        }
+      ]
+    },
+    {
+      "source": "For 30 seconds, the next 1…4…5 times you hit with a scythe, all other adjacent foes take 10…50…60 earth damage",
+      "text": "持續 30 秒，接下來 1…4…5 次用鐮刀命中時，對其他所有相鄰敵人造成 10…50…60 點土系傷害",
+      "reason": "核對命中次數的上限與排除主要命中目標的其他敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1396/variants/skill-version:gww:1396/effects/growth:0:var1/condition",
+          "englishHash": "91abc109d2ea6d045b691c3b34035250d68d9457d1172cb5393f083fdfa94231",
+          "evidenceHash": "411bb99797619f9631af922a9a17af8955e133aab015c8c39b1a9b705b8adb61"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1396/variants/skill-version:gww:1396/effects/growth:0:var2/condition",
+          "englishHash": "91abc109d2ea6d045b691c3b34035250d68d9457d1172cb5393f083fdfa94231",
+          "evidenceHash": "411bb99797619f9631af922a9a17af8955e133aab015c8c39b1a9b705b8adb61"
+        }
+      ]
+    },
+    {
+      "source": "For 30 seconds, the next ◆ times you hit with a scythe, all other adjacent foes take ◆ earth damage",
+      "text": "持續 30 秒，接下來 ◆ 次用鐮刀命中時，對其他所有相鄰敵人造成 ◆ 點土系傷害",
+      "reason": "逐項核對兩個遮蔽數值分別為命中次數與傷害，保留相鄰範圍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1396/variants/skill-version:gww:1396/effects/fixed:2/condition",
+          "englishHash": "e7a94845a9b51773b10cb0218584b00adeac74439521c2fba17ece7bd9e428c1",
+          "evidenceHash": "411bb99797619f9631af922a9a17af8955e133aab015c8c39b1a9b705b8adb61"
+        }
+      ]
+    },
+    {
+      "source": "You gain 1 Energy and 5 Health for each point of Energy restricted by Overcast",
+      "text": "每點受到過載限制的能量，讓你獲得 1 點能量與 5 點體力",
+      "reason": "核對回復按過載限制的能量點數計算，保留兩種回復量。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4334/variants/skill-version:gww:4334/effects/fixed:0/condition",
+          "englishHash": "cdd61a249d71bb9de5af11b60497ca4252d0090a6d7b3ed4ec50092c234ef523",
+          "evidenceHash": "53e2d777c267f2d6b98580d25c565a482227a844130caf51d6f14d5e9306f975"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4334/variants/skill-version:gww:4334/effects/fixed:1/condition",
+          "englishHash": "cdd61a249d71bb9de5af11b60497ca4252d0090a6d7b3ed4ec50092c234ef523",
+          "evidenceHash": "53e2d777c267f2d6b98580d25c565a482227a844130caf51d6f14d5e9306f975"
+        }
+      ]
+    },
+    {
+      "source": "Target foe is struck for 10…26…30 lightning damage and has Cracked Armor for 5…17…20 seconds",
+      "text": "對目標敵人造成 10…26…30 點閃電傷害，並使其護甲破損 5…17…20 秒",
+      "reason": "核對護甲破損是病症，傷害與時間分別保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/effects/growth:0:var1/condition",
+          "englishHash": "e7dc3015934fb1c45a400936b61d7975dda9a45f3d9f3931df82128330c0ea95",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/effects/growth:0:var2/condition",
+          "englishHash": "e7dc3015934fb1c45a400936b61d7975dda9a45f3d9f3931df82128330c0ea95",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        }
+      ]
+    },
+    {
+      "source": "Target foe is struck for 10…58…70 fire damage",
+      "text": "對目標敵人造成 10…58…70 點火焰傷害",
+      "reason": "核對初始火焰傷害與目標敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16250/variants/skill-version:gww:16250/effects/growth:0:var1/condition",
+          "englishHash": "4c394f0c689f31d046e4c7cef96d6acf32942888f88e1d7bc47c6e2e255ce776",
+          "evidenceHash": "3808e5122f4e9153e8ed92801680f2d4087780503e711a9023d388dee4355a8d"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, that foe is hexed with Smoldering Embers for 3 seconds and takes 5…21…25 additional fire damage each second",
+      "text": "若你處於過載狀態，對該敵人施加陰燒餘燼降咒，持續 3 秒，每秒額外造成 5…21…25 點火焰傷害",
+      "reason": "核對過載觸發同一目標的三秒降咒，傷害每秒造成。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16250/variants/skill-version:gww:16250/effects/growth:0:var2/condition",
+          "englishHash": "c8b8c884a92db1dfcaf770399dce3016e3b420264c5b9dcb3ce48d02cadfe38e",
+          "evidenceHash": "3808e5122f4e9153e8ed92801680f2d4087780503e711a9023d388dee4355a8d"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, that foe is hexed with Smoldering Embers for 3 seconds and takes ◆ additional fire damage each second",
+      "text": "若你處於過載狀態，對該敵人施加陰燒餘燼降咒，持續 3 秒，每秒額外造成 ◆ 點火焰傷害",
+      "reason": "核對遮蔽傷害的過載條件與每秒頻率，保留固定中文技能身份。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16250/variants/skill-version:gww:16250/effects/fixed:2/condition",
+          "englishHash": "6b0af488c5874d6f6c426222bb340ea1d83f255c02079d45f6a79d9c3e05c814",
+          "evidenceHash": "3808e5122f4e9153e8ed92801680f2d4087780503e711a9023d388dee4355a8d"
+        }
+      ]
+    },
+    {
+      "source": "While you maintain this enchantment, reduce overcast at a rate of 1…2…2 per second",
+      "text": "維持此加持期間，每秒減少 1…2…2 點過載",
+      "reason": "核對減少的是過載點數，需維持此加持。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/effects/growth:0:var1/condition",
+          "englishHash": "47cb438f8dbe851713606563cb49e12487b928d1f5289129b94722ca95883148",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/effects/growth:0:var2/condition",
+          "englishHash": "47cb438f8dbe851713606563cb49e12487b928d1f5289129b94722ca95883148",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        }
+      ]
+    },
+    {
+      "source": "When this enchantment ends, all nearby foes have Cracked Armor for 1…8…10 seconds",
+      "text": "此加持結束時，使所有附近敵人護甲破損 1…8…10 秒",
+      "reason": "核對護甲破損在加持結束時施加，範圍為附近。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12256/variants/skill-version:gww:12256/effects/growth:0:var2/condition",
+          "englishHash": "35b0d7a3b7883c37f7f4a946eab8a0a09c73d95f10e7676778d08edf15b9b892",
+          "evidenceHash": "eb4eb3e9fe09e3568dfc2cb74bf3d081a45d0c71d6ac0bb1b2dadbebf7d52687"
+        }
+      ]
+    },
+    {
+      "source": "Each Stone Dagger strikes target foe for 8…28…33 earth damage if it hits",
+      "text": "每枚石匕首命中目標敵人時，造成 8…28…33 點土系傷害",
+      "reason": "核對每枚投射物各自造成傷害，需命中目標。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14135/variants/skill-version:gww:14135/effects/growth:0:var1/condition",
+          "englishHash": "860130e1c437fb566fd7a4a584ba77eb0dd3c0c81175fe77287e1578ac7440cb",
+          "evidenceHash": "f910dc96b2b07a967816419f82b928ff7d30ba8ab661fa47c09e3c12b8cecd57"
+        }
+      ]
+    },
+    {
+      "source": "If you are Overcast, each projectile inflicts Bleeding for 1…4…5 seconds",
+      "text": "若你處於過載狀態，每枚投射物都會造成流血，持續 1…4…5 秒",
+      "reason": "核對每枚投射物均附加流血，須處於過載狀態。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14135/variants/skill-version:gww:14135/effects/growth:0:var2/condition",
+          "englishHash": "7d83d80914c99504de4a6141c43a66f82565de389062dcdacdfc87bc6ae3384a",
+          "evidenceHash": "f910dc96b2b07a967816419f82b928ff7d30ba8ab661fa47c09e3c12b8cecd57"
+        }
+      ]
+    },
+    {
+      "source": "For 3…6…7 seconds, you are enchanted with Swirling Aura and have 1…5…6 Health regeneration and a 50% chance to block projectiles",
+      "text": "持續 3…6…7 秒，受到旋渦靈氣加持，獲得 1…5…6 體力再生與 50% 投射物格擋機率",
+      "reason": "核對加持狀態、體力再生與投射物格擋，不是一般攻擊格擋。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16268/variants/skill-version:gww:16268/effects/growth:0:var1/condition",
+          "englishHash": "d2c76e13e6f87a4253d531f61444559c913e33a2c5cb6bfd9d0bfb63e4d11902",
+          "evidenceHash": "6139e68c485fa2f5335908b11a68ca999000169d63dfd4cf76c37833650d7b28"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16268/variants/skill-version:gww:16268/effects/growth:0:var2/condition",
+          "englishHash": "d2c76e13e6f87a4253d531f61444559c913e33a2c5cb6bfd9d0bfb63e4d11902",
+          "evidenceHash": "6139e68c485fa2f5335908b11a68ca999000169d63dfd4cf76c37833650d7b28"
+        }
+      ]
+    },
+    {
+      "source": "For ◆ seconds, you are enchanted with Swirling Aura and have ◆ Health regeneration and a 50% chance to block projectiles",
+      "text": "持續 ◆ 秒，受到旋渦靈氣加持，獲得 ◆ 體力再生與 50% 投射物格擋機率",
+      "reason": "核對兩個遮蔽數值分別表示時間與再生，保留投射物限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16268/variants/skill-version:gww:16268/effects/fixed:2/condition",
+          "englishHash": "9dbfa1a84a10264894b35b9e07fdb773f7c6b9ddfa7bd61eb5fe87e2ede1c92c",
+          "evidenceHash": "6139e68c485fa2f5335908b11a68ca999000169d63dfd4cf76c37833650d7b28"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16268/variants/skill-version:gww:16268/effects/fixed:2/label",
+          "englishHash": "9dbfa1a84a10264894b35b9e07fdb773f7c6b9ddfa7bd61eb5fe87e2ede1c92c",
+          "evidenceHash": "6139e68c485fa2f5335908b11a68ca999000169d63dfd4cf76c37833650d7b28"
+        }
+      ]
+    },
+    {
+      "source": "For 5…21…25 seconds you take 5…29…35% less damage from spells",
+      "text": "持續 5…21…25 秒，受到的魔法傷害減少 5…29…35%",
+      "reason": "核對減少受到的魔法傷害，而非降低自己的輸出。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12255/variants/skill-version:gww:12255/effects/growth:0:var1/condition",
+          "englishHash": "1ca0d067d687ed5ad5fc0e104a02fc2f2ee18f9c17c6267f92378e434ac65b8a",
+          "evidenceHash": "c5f3cf28b3252905cc5020afbe1fec7e67b3933f5da55d9fcc00635a8b73f610"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12255/variants/skill-version:gww:12255/effects/growth:0:var3/condition",
+          "englishHash": "1ca0d067d687ed5ad5fc0e104a02fc2f2ee18f9c17c6267f92378e434ac65b8a",
+          "evidenceHash": "c5f3cf28b3252905cc5020afbe1fec7e67b3933f5da55d9fcc00635a8b73f610"
+        }
+      ]
+    },
+    {
+      "source": "When you cast this enchantment, all nearby foes are struck for 5…41…50 piercing damage",
+      "text": "施放此加持時，對所有附近敵人造成 5…41…50 點穿刺傷害",
+      "reason": "核對初始穿刺傷害、附近範圍與三段數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12255/variants/skill-version:gww:12255/effects/growth:0:var2/condition",
+          "englishHash": "f3dff5031dfe2d09464ad612e8e4d971072852457fe9dda5dc9e4375b02c8b37",
+          "evidenceHash": "c5f3cf28b3252905cc5020afbe1fec7e67b3933f5da55d9fcc00635a8b73f610"
+        }
+      ]
+    },
+    {
+      "source": "All adjacent foes take 15…63…75 cold damage",
+      "text": "對所有相鄰敵人造成 15…63…75 點冰冷傷害",
+      "reason": "核對相鄰範圍與冰冷傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2404/variants/skill-version:gww:2404/effects/growth:0:var1/condition",
+          "englishHash": "018ef5536f49da1667b84d42885410fed2108eb35b8c8d8e95d25ff3b725278a",
+          "evidenceHash": "1da41662f155da5dd02df3d6a61dea4d4abc8092a5e2a0dc3095b74ec972c8af"
+        }
+      ]
+    },
+    {
+      "source": "For 5…21…25 seconds, you have -1 Energy regeneration, and gain 1 Energy whenever you hit a foe",
+      "text": "持續 5…21…25 秒，獲得 -1 能量再生，每次命中敵人時獲得 1 點能量",
+      "reason": "核對負能量再生與每次命中回能是兩項並存效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/growth:0:var2/condition",
+          "englishHash": "3651e5fcb421614f4ef4ef3f5039c89ac7bbb8069e83fbf61906f6a5ba720daf",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    },
+    {
+      "source": "If this enchantment ends prematurely, you gain 1…4…5 Energy",
+      "text": "若此加持提前結束，獲得 1…4…5 點能量",
+      "reason": "核對僅提前結束時獲得能量，保留回復量。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/growth:0:var3/condition",
+          "englishHash": "35b8369d6a45d23f5c903c0ffb883be1898b0d9e5fa1936422bcb836f6b3f8b4",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    },
+    {
+      "source": "For ◆ seconds, you have -1 Energy regeneration, and gain 1 Energy whenever you hit a foe",
+      "text": "持續 ◆ 秒，獲得 -1 能量再生，每次命中敵人時獲得 1 點能量",
+      "reason": "核對遮蔽時間的負再生與命中回能條件，保留負號。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/fixed:3/condition",
+          "englishHash": "dd83ee9d4554198994612a2173a3323ce14483f52eee2f25608a70eb77d772a9",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/fixed:4/condition",
+          "englishHash": "dd83ee9d4554198994612a2173a3323ce14483f52eee2f25608a70eb77d772a9",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    },
+    {
+      "source": "Lightning damage",
+      "text": "閃電傷害",
+      "reason": "核對閃電傷害效果標籤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1761/variants/skill-version:gww:1761/effects/growth:0:var1/label",
+          "englishHash": "cd3fe61a562e38cff382074d770aaa06e8a6b9585154be52d94920aea7435d0f",
+          "evidenceHash": "3c0771ecb3916e09d281c8fcc6a008ee6fced6d98eeb57c044a0432fb862ba16"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/effects/growth:0:var1/label",
+          "englishHash": "cd3fe61a562e38cff382074d770aaa06e8a6b9585154be52d94920aea7435d0f",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        }
+      ]
+    },
+    {
+      "source": "Nearby lightning damage",
+      "text": "附近敵人的閃電傷害",
+      "reason": "核對第二段傷害作用於目標附近敵人，不是物件損壞。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1761/variants/skill-version:gww:1761/effects/growth:0:var2/label",
+          "englishHash": "e9eece20b9914ab48418499f44b6eb231cb123e1b27d076748181ea565941153",
+          "evidenceHash": "3c0771ecb3916e09d281c8fcc6a008ee6fced6d98eeb57c044a0432fb862ba16"
+        }
+      ]
+    },
+    {
+      "source": "Duration",
+      "text": "持續時間",
+      "reason": "逐位置核對數值表示效果持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1516/variants/skill-version:gww:1516/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "6fd50bd7dd5b3380c9440b81f3d28fde0212554ee5a57743891259fc6286e662"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14075/variants/skill-version:gww:14075/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "091fe8783a04ebc69d41de5975a3804f9ae47245f35dfe6d24da8926f162b888"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:1365/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "f089b550e0ff53882ddea1ecb0237f4fbb589641f36a29aae79b0b24fca887d0"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:278534/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "47175acf92298f6460756effe11a08fe06a2d49593285c73efb11520b1e98137"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "a38050459f5b64db12cbad1197ba7693f5505d5f364863b4b1b82ad318c22149"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:1378/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "10354e68f048371160e8efdfbe8b9b0d6740d16474f3fff9ae44cff4b3746788"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:278536/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "28f040470e07a8efcf8fffbc586d31fced57d392627196dbb7e59915d66199b2"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1380/variants/skill-version:gww:1380/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "9a1f249dcc9681ab6f8a2e020488f359a1940d64af94a14738cccfd17016bf2b"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14081/variants/skill-version:gww:14081/effects/fixed:0/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "5595d39d55a5525ecb0f1831e62afc398d7db03adc2173649ce747202e166441"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/effects/growth:0:var2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:1381/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "6f0382d1a41a3449edf419e9caaadbcfe5d5179b1cc0401dfce9b924c608f977"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1381/variants/skill-version:gww:321764/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "64a74df40d95a6ff6925241ed640e4c575b87fd638cf9b7934be689bd201d290"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12262/variants/skill-version:gww:12262/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "978f44e9c61cc9cb901569044f3caaa63d3fee2cac490df1d014291bd6ce2c49"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14131/variants/skill-version:gww:14131/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "006a0aedbae8087d780b5ca1e98b1c0fd2cb525bfbe05fc7b83dfd398e4f8047"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/effects/fixed:1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/effects/fixed:3/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14379/variants/skill-version:gww:14379/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "a7308b2db475807125d5ded026df25965edd8b3e4e32a35fcd5debf8e5dea53c"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:321800/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "2b13f4c64a1c1f40767fd9b8e363470854ae6eb60b3579ea4717a571f8095e00"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12857/variants/skill-version:gww:12857/effects/fixed:1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "5fa5b6cde838010088147420ca3a16791dcacb102225f0915619553302427d43"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12857/variants/skill-version:gww:321758/effects/fixed:1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "d1d0d023777384ae4b57d7471dc095518cfa6fb9ddf9ea4eb8bf1e6cdb053e0e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16263/variants/skill-version:gww:16263/effects/growth:0:var2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "1ce334f31e6e42e72519f9d79e6985be6b77c053ad1364e6cbfa5aa6758ba29e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1396/variants/skill-version:gww:1396/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "411bb99797619f9631af922a9a17af8955e133aab015c8c39b1a9b705b8adb61"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16250/variants/skill-version:gww:16250/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "3808e5122f4e9153e8ed92801680f2d4087780503e711a9023d388dee4355a8d"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12256/variants/skill-version:gww:12256/effects/fixed:2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "eb4eb3e9fe09e3568dfc2cb74bf3d081a45d0c71d6ac0bb1b2dadbebf7d52687"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16268/variants/skill-version:gww:16268/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "6139e68c485fa2f5335908b11a68ca999000169d63dfd4cf76c37833650d7b28"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12255/variants/skill-version:gww:12255/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "c5f3cf28b3252905cc5020afbe1fec7e67b3933f5da55d9fcc00635a8b73f610"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/growth:0:var2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    },
+    {
+      "source": "Weakness duration",
+      "text": "虛弱持續時間",
+      "reason": "核對病症身份為虛弱。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14075/variants/skill-version:gww:14075/effects/growth:0:var2/label",
+          "englishHash": "44afb8171d6983d610283aaf5589adc1554511d7bf05a18ae4d70a3d0967fed2",
+          "evidenceHash": "091fe8783a04ebc69d41de5975a3804f9ae47245f35dfe6d24da8926f162b888"
+        }
+      ]
+    },
+    {
+      "source": "Bleeding duration",
+      "text": "流血持續時間",
+      "reason": "核對病症身份為流血。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:1365/effects/growth:0:var1/label",
+          "englishHash": "f924161c66acdeb779f3f9fd7d2f09f865cdf23fbf31310d73c59232ace9503f",
+          "evidenceHash": "f089b550e0ff53882ddea1ecb0237f4fbb589641f36a29aae79b0b24fca887d0"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:278534/effects/growth:0:var1/label",
+          "englishHash": "f924161c66acdeb779f3f9fd7d2f09f865cdf23fbf31310d73c59232ace9503f",
+          "evidenceHash": "47175acf92298f6460756effe11a08fe06a2d49593285c73efb11520b1e98137"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14135/variants/skill-version:gww:14135/effects/growth:0:var2/label",
+          "englishHash": "f924161c66acdeb779f3f9fd7d2f09f865cdf23fbf31310d73c59232ace9503f",
+          "evidenceHash": "f910dc96b2b07a967816419f82b928ff7d30ba8ab661fa47c09e3c12b8cecd57"
+        }
+      ]
+    },
+    {
+      "source": "Crippled duration",
+      "text": "殘廢持續時間",
+      "reason": "核對病症身份為殘廢，修正錯字。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:1365/effects/growth:0:var2/label",
+          "englishHash": "1f0fb8a47ab13a42a54ecaab3071d407a9edd2641fe710bb4359715c6ebf6c9d",
+          "evidenceHash": "f089b550e0ff53882ddea1ecb0237f4fbb589641f36a29aae79b0b24fca887d0"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:278534/effects/growth:0:var2/label",
+          "englishHash": "1f0fb8a47ab13a42a54ecaab3071d407a9edd2641fe710bb4359715c6ebf6c9d",
+          "evidenceHash": "47175acf92298f6460756effe11a08fe06a2d49593285c73efb11520b1e98137"
+        }
+      ]
+    },
+    {
+      "source": "Burning duration",
+      "text": "燃燒持續時間",
+      "reason": "核對病症身份為燃燒。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/effects/growth:0:var1/label",
+          "englishHash": "f896687066e947671b00d0524cdde9b05726b7baf512052c91245f5f45b3cb60",
+          "evidenceHash": "a38050459f5b64db12cbad1197ba7693f5505d5f364863b4b1b82ad318c22149"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12262/variants/skill-version:gww:12262/effects/growth:0:var2/label",
+          "englishHash": "f896687066e947671b00d0524cdde9b05726b7baf512052c91245f5f45b3cb60",
+          "evidenceHash": "978f44e9c61cc9cb901569044f3caaa63d3fee2cac490df1d014291bd6ce2c49"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/effects/growth:0:var2/label",
+          "englishHash": "f896687066e947671b00d0524cdde9b05726b7baf512052c91245f5f45b3cb60",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        }
+      ]
+    },
+    {
+      "source": "Adrenaline gain",
+      "text": "怒氣獲得量",
+      "reason": "核對數值是獲得怒氣的量。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/effects/growth:0:var2/label",
+          "englishHash": "fe903fef02bf4442276b824a60aad0c3d86295703982b40f08ad86ed4cb4bad6",
+          "evidenceHash": "a38050459f5b64db12cbad1197ba7693f5505d5f364863b4b1b82ad318c22149"
+        }
+      ]
+    },
+    {
+      "source": "Health regeneration",
+      "text": "體力再生",
+      "reason": "核對再生效果，與即時體力恢復分開。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/effects/growth:0:var1/label",
+          "englishHash": "59b4d94e252f34bc58e0998f499757d13640fc6b6f83fbbf8d1582a6303699c7",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14131/variants/skill-version:gww:14131/effects/growth:0:var2/label",
+          "englishHash": "59b4d94e252f34bc58e0998f499757d13640fc6b6f83fbbf8d1582a6303699c7",
+          "evidenceHash": "006a0aedbae8087d780b5ca1e98b1c0fd2cb525bfbe05fc7b83dfd398e4f8047"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16268/variants/skill-version:gww:16268/effects/growth:0:var2/label",
+          "englishHash": "59b4d94e252f34bc58e0998f499757d13640fc6b6f83fbbf8d1582a6303699c7",
+          "evidenceHash": "6139e68c485fa2f5335908b11a68ca999000169d63dfd4cf76c37833650d7b28"
+        }
+      ]
+    },
+    {
+      "source": "Conditions removed",
+      "text": "移除病症數量",
+      "reason": "核對數值表示解除的病症項數，不是刪除條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/effects/growth:0:var2/label",
+          "englishHash": "6ad6867bce15722f0ef38cebc24137ecd533c57c038b1723282353e06c7675a8",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        }
+      ]
+    },
+    {
+      "source": "Earth damage",
+      "text": "土系傷害",
+      "reason": "核對土系傷害效果標籤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:1378/effects/growth:0:var1/label",
+          "englishHash": "dc70e133166213b6446b23a4e1cab0ee7bda504a220658bcbb0b2c98d5876d51",
+          "evidenceHash": "10354e68f048371160e8efdfbe8b9b0d6740d16474f3fff9ae44cff4b3746788"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:278536/effects/growth:0:var1/label",
+          "englishHash": "dc70e133166213b6446b23a4e1cab0ee7bda504a220658bcbb0b2c98d5876d51",
+          "evidenceHash": "28f040470e07a8efcf8fffbc586d31fced57d392627196dbb7e59915d66199b2"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/growth:0:var2/label",
+          "englishHash": "dc70e133166213b6446b23a4e1cab0ee7bda504a220658bcbb0b2c98d5876d51",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:321800/effects/growth:0:var3/label",
+          "englishHash": "dc70e133166213b6446b23a4e1cab0ee7bda504a220658bcbb0b2c98d5876d51",
+          "evidenceHash": "2b13f4c64a1c1f40767fd9b8e363470854ae6eb60b3579ea4717a571f8095e00"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1396/variants/skill-version:gww:1396/effects/growth:0:var2/label",
+          "englishHash": "dc70e133166213b6446b23a4e1cab0ee7bda504a220658bcbb0b2c98d5876d51",
+          "evidenceHash": "411bb99797619f9631af922a9a17af8955e133aab015c8c39b1a9b705b8adb61"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12256/variants/skill-version:gww:12256/effects/growth:0:var1/label",
+          "englishHash": "dc70e133166213b6446b23a4e1cab0ee7bda504a220658bcbb0b2c98d5876d51",
+          "evidenceHash": "eb4eb3e9fe09e3568dfc2cb74bf3d081a45d0c71d6ac0bb1b2dadbebf7d52687"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14135/variants/skill-version:gww:14135/effects/growth:0:var1/label",
+          "englishHash": "dc70e133166213b6446b23a4e1cab0ee7bda504a220658bcbb0b2c98d5876d51",
+          "evidenceHash": "f910dc96b2b07a967816419f82b928ff7d30ba8ab661fa47c09e3c12b8cecd57"
+        }
+      ]
+    },
+    {
+      "source": "Blind duration",
+      "text": "盲目持續時間",
+      "reason": "核對 Blind 為盲目病症，不是盲點。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:1378/effects/growth:0:var2/label",
+          "englishHash": "9d9c909f9c7c84254a14fd0fa6869f32d02441f97aff4e23312dec44b22b1871",
+          "evidenceHash": "10354e68f048371160e8efdfbe8b9b0d6740d16474f3fff9ae44cff4b3746788"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:278536/effects/growth:0:var2/label",
+          "englishHash": "9d9c909f9c7c84254a14fd0fa6869f32d02441f97aff4e23312dec44b22b1871",
+          "evidenceHash": "28f040470e07a8efcf8fffbc586d31fced57d392627196dbb7e59915d66199b2"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1380/variants/skill-version:gww:1380/effects/growth:0:var2/label",
+          "englishHash": "9d9c909f9c7c84254a14fd0fa6869f32d02441f97aff4e23312dec44b22b1871",
+          "evidenceHash": "9a1f249dcc9681ab6f8a2e020488f359a1940d64af94a14738cccfd17016bf2b"
+        }
+      ]
+    },
+    {
+      "source": "+ Earth damage",
+      "text": "+ 土系傷害",
+      "reason": "核對額外土系傷害，保留正號。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1380/variants/skill-version:gww:1380/effects/growth:0:var1/label",
+          "englishHash": "60e474356e9d0658c23b40da7da27631269576a8fa530c2bb1c3d20a0c6db704",
+          "evidenceHash": "9a1f249dcc9681ab6f8a2e020488f359a1940d64af94a14738cccfd17016bf2b"
+        }
+      ]
+    },
+    {
+      "source": "Level",
+      "text": "等級",
+      "reason": "核對數值表示精靈等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        }
+      ]
+    },
+    {
+      "source": "Fire damage",
+      "text": "火焰傷害",
+      "reason": "核對火焰傷害效果標籤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2752/variants/skill-version:gww:2752/effects/growth:0:var1/label",
+          "englishHash": "80aa75e2ed5df720c6a7a620d7ea00b4dee83ff8d9a36af9749e42fa77fcb2e3",
+          "evidenceHash": "d0d914fb195f099d2c792d5dfaba74e1326ecaaa7885d1f57ef9cd16b78d7601"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/effects/growth:0:var1/label",
+          "englishHash": "80aa75e2ed5df720c6a7a620d7ea00b4dee83ff8d9a36af9749e42fa77fcb2e3",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:10796/variants/skill-version:gww:10796/effects/growth:0:var1/label",
+          "englishHash": "80aa75e2ed5df720c6a7a620d7ea00b4dee83ff8d9a36af9749e42fa77fcb2e3",
+          "evidenceHash": "9a1a3a0f9b1404b4c8b5863777cbc245fbf0ed52bdb19dfc2c43883dc3ebb69d"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16250/variants/skill-version:gww:16250/effects/growth:0:var1/label",
+          "englishHash": "80aa75e2ed5df720c6a7a620d7ea00b4dee83ff8d9a36af9749e42fa77fcb2e3",
+          "evidenceHash": "3808e5122f4e9153e8ed92801680f2d4087780503e711a9023d388dee4355a8d"
+        }
+      ]
+    },
+    {
+      "source": "Spells affected",
+      "text": "影響的魔法數量",
+      "reason": "核對符號影響的魔法次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/effects/growth:0:var1/label",
+          "englishHash": "b741fcb8a6ce4ecd02232f03739d053c16d52f3945bfed38dd1662752c51627c",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "Energy reduction",
+      "text": "能量消耗減少量",
+      "reason": "核對數值減少施法費用，並非扣除現有能量。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/effects/growth:0:var2/label",
+          "englishHash": "5f91dcf78a686293ec3c42333ffd4de05dffa7b36b5da281bd84aed071b2913e",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "Attribute increase",
+      "text": "屬性增加量",
+      "reason": "核對元素屬性加成數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/effects/growth:0:var3/label",
+          "englishHash": "a09f2acf04d2ba00ecb5fe8388d6d9cb679172d6b188dc8301e70517936cbabf",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "Holy damage",
+      "text": "神聖傷害",
+      "reason": "核對神聖傷害效果標籤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12262/variants/skill-version:gww:12262/effects/growth:0:var1/label",
+          "englishHash": "f80378a3fcee9929cb6da5574f29b8ad90e89975b04a720c8ac6f5b4907ed2d4",
+          "evidenceHash": "978f44e9c61cc9cb901569044f3caaa63d3fee2cac490df1d014291bd6ce2c49"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/growth:0:var1/label",
+          "englishHash": "f80378a3fcee9929cb6da5574f29b8ad90e89975b04a720c8ac6f5b4907ed2d4",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    },
+    {
+      "source": "Cold damage",
+      "text": "冰冷傷害",
+      "reason": "核對 cold damage 為冰冷傷害，不是冰凍病症。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14131/variants/skill-version:gww:14131/effects/growth:0:var1/label",
+          "englishHash": "6dcffe0e7a3c10d436e04c2e833c4f6a6e74febe2eb5a8e5db2b417a1a602731",
+          "evidenceHash": "006a0aedbae8087d780b5ca1e98b1c0fd2cb525bfbe05fc7b83dfd398e4f8047"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16263/variants/skill-version:gww:16263/effects/growth:0:var1/label",
+          "englishHash": "6dcffe0e7a3c10d436e04c2e833c4f6a6e74febe2eb5a8e5db2b417a1a602731",
+          "evidenceHash": "1ce334f31e6e42e72519f9d79e6985be6b77c053ad1364e6cbfa5aa6758ba29e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2404/variants/skill-version:gww:2404/effects/growth:0:var1/label",
+          "englishHash": "6dcffe0e7a3c10d436e04c2e833c4f6a6e74febe2eb5a8e5db2b417a1a602731",
+          "evidenceHash": "1da41662f155da5dd02df3d6a61dea4d4abc8092a5e2a0dc3095b74ec972c8af"
+        }
+      ]
+    },
+    {
+      "source": "Initial Lightning damage",
+      "text": "初始閃電傷害",
+      "reason": "核對施放時造成的第一段閃電傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/effects/growth:0:var1/label",
+          "englishHash": "7557377df167e624868a828d79135451ddb590b01a21c3b9bdc0b3ab2c5e8d72",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        }
+      ]
+    },
+    {
+      "source": "Final Lightning damage",
+      "text": "結束時的閃電傷害",
+      "reason": "核對降咒結束時造成的第二段閃電傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/effects/growth:0:var2/label",
+          "englishHash": "1ab9fbfa749ee3209fe3aab2f814aa078db3ce27750743b51c70c51e0cc35237",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        }
+      ]
+    },
+    {
+      "source": "Damage",
+      "text": "傷害",
+      "reason": "核對傷害數值標籤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14379/variants/skill-version:gww:14379/effects/growth:0:var2/label",
+          "englishHash": "0c874f581a4534f15f1ed12c4a9c84723b647e51a0385aa92ea270691cb76b29",
+          "evidenceHash": "a7308b2db475807125d5ded026df25965edd8b3e4e32a35fcd5debf8e5dea53c"
+        }
+      ]
+    },
+    {
+      "source": "Block chance per enchantment",
+      "text": "每項額外加持的格擋機率增幅",
+      "reason": "核對每項額外加持增加格擋機率，不是各自獨立機率。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/effects/growth:0:var1/label",
+          "englishHash": "ec8d55c762626f29ea5bcdf4be3a6e9e0d3720c9e9c87ca94b87a2c14eb8c58a",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        }
+      ]
+    },
+    {
+      "source": "Chance to block",
+      "text": "格擋機率",
+      "reason": "核對數值表示格擋機率。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:321800/effects/growth:0:var2/label",
+          "englishHash": "5e1cf40746c55edb9380f869844c6bc4f9f5defd09704b75ff92e34851a7dc50",
+          "evidenceHash": "2b13f4c64a1c1f40767fd9b8e363470854ae6eb60b3579ea4717a571f8095e00"
+        }
+      ]
+    },
+    {
+      "source": "Disease duration",
+      "text": "疾病持續時間",
+      "reason": "核對 Disease 病症持續時間，不是一般病程。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12857/variants/skill-version:gww:12857/effects/growth:0:var1/label",
+          "englishHash": "7a48bb2c2145bb12f65c692db7aa2d73aea0815d342036a1a9fe02a2add8d8d5",
+          "evidenceHash": "5fa5b6cde838010088147420ca3a16791dcacb102225f0915619553302427d43"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12857/variants/skill-version:gww:321758/effects/growth:0:var1/label",
+          "englishHash": "7a48bb2c2145bb12f65c692db7aa2d73aea0815d342036a1a9fe02a2add8d8d5",
+          "evidenceHash": "d1d0d023777384ae4b57d7471dc095518cfa6fb9ddf9ea4eb8bf1e6cdb053e0e"
+        }
+      ]
+    },
+    {
+      "source": "Casting %",
+      "text": "施放速度增幅 %",
+      "reason": "核對百分比修飾魔法施放速度，不是鑄造。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313293/variants/skill-version:gww:313293/effects/growth:0:var1/label",
+          "englishHash": "77419c691b446011280acecda32cd1e6f580d658cc7fceca868b25e295bb1ba8",
+          "evidenceHash": "301e51d096ab872517f0b7e06137622d7d81d572e5678b870ec51956765a66e0"
+        }
+      ]
+    },
+    {
+      "source": "Recharge %",
+      "text": "冷卻速度增幅 %",
+      "reason": "核對百分比修飾冷卻速度，不是儲值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313293/variants/skill-version:gww:313293/effects/growth:0:var2/label",
+          "englishHash": "834e033057d3985130875fc275a8c82c19afb485884dcef910dffb2f868e98b7",
+          "evidenceHash": "301e51d096ab872517f0b7e06137622d7d81d572e5678b870ec51956765a66e0"
+        }
+      ]
+    },
+    {
+      "source": "Healing",
+      "text": "治療量",
+      "reason": "核對即時體力恢復量，不是再生。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:10796/variants/skill-version:gww:10796/effects/growth:0:var2/label",
+          "englishHash": "44bc3799892c50fad1f4f76100cd74ebf28f922da6f977a772352d3291b92fdf",
+          "evidenceHash": "9a1a3a0f9b1404b4c8b5863777cbc245fbf0ed52bdb19dfc2c43883dc3ebb69d"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4334/variants/skill-version:gww:4334/effects/fixed:1/label",
+          "englishHash": "44bc3799892c50fad1f4f76100cd74ebf28f922da6f977a772352d3291b92fdf",
+          "evidenceHash": "53e2d777c267f2d6b98580d25c565a482227a844130caf51d6f14d5e9306f975"
+        }
+      ]
+    },
+    {
+      "source": "Disable duration",
+      "text": "停用持續時間",
+      "reason": "核對紋章停用的持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16263/variants/skill-version:gww:16263/effects/growth:0:var3/label",
+          "englishHash": "f1e22de7682088d2e1d5f757982eaffc418c64cb0e51287e5639fc5f6ac0c105",
+          "evidenceHash": "1ce334f31e6e42e72519f9d79e6985be6b77c053ad1364e6cbfa5aa6758ba29e"
+        }
+      ]
+    },
+    {
+      "source": "Attacks affected",
+      "text": "影響的攻擊次數",
+      "reason": "核對加持影響的鐮刀命中次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1396/variants/skill-version:gww:1396/effects/growth:0:var1/label",
+          "englishHash": "ebb20d8d7beaba3e04e2b42cc4923a8455ff026932c6c4be3be344a514de485f",
+          "evidenceHash": "411bb99797619f9631af922a9a17af8955e133aab015c8c39b1a9b705b8adb61"
+        }
+      ]
+    },
+    {
+      "source": "Energy gain",
+      "text": "能量獲得量",
+      "reason": "核對獲得能量的點數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4334/variants/skill-version:gww:4334/effects/fixed:0/label",
+          "englishHash": "aa2940c9447a9d3e972677d647549a9c3c8b5fe4969aae1a7322c9da9a1dc202",
+          "evidenceHash": "53e2d777c267f2d6b98580d25c565a482227a844130caf51d6f14d5e9306f975"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/growth:0:var3/label",
+          "englishHash": "aa2940c9447a9d3e972677d647549a9c3c8b5fe4969aae1a7322c9da9a1dc202",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/fixed:4/label",
+          "englishHash": "aa2940c9447a9d3e972677d647549a9c3c8b5fe4969aae1a7322c9da9a1dc202",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    },
+    {
+      "source": "Cracked Armor duration",
+      "text": "護甲破損持續時間",
+      "reason": "核對 Cracked Armor 病症身份與時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/effects/growth:0:var2/label",
+          "englishHash": "df74d9d0c5922aea1a4e5609ac19ca4f4bf8509bf96afc9780e3961c6454e975",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12256/variants/skill-version:gww:12256/effects/growth:0:var2/label",
+          "englishHash": "df74d9d0c5922aea1a4e5609ac19ca4f4bf8509bf96afc9780e3961c6454e975",
+          "evidenceHash": "eb4eb3e9fe09e3568dfc2cb74bf3d081a45d0c71d6ac0bb1b2dadbebf7d52687"
+        }
+      ]
+    },
+    {
+      "source": "Fire damage each second",
+      "text": "每秒火焰傷害",
+      "reason": "核對傷害每秒發生。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16250/variants/skill-version:gww:16250/effects/growth:0:var2/label",
+          "englishHash": "991eb981cb1b0223e932234c7b6d431faa00839b5a932122fd348bc6c59ecb54",
+          "evidenceHash": "3808e5122f4e9153e8ed92801680f2d4087780503e711a9023d388dee4355a8d"
+        }
+      ]
+    },
+    {
+      "source": "Overcast reduction",
+      "text": "過載減少量",
+      "reason": "核對減少過載的點數，修正陰減少。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/effects/growth:0:var1/label",
+          "englishHash": "0d2292023aa845feba9f8fdf94f20a5bcf2a03fba1c189c7712f97781b68867e",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        }
+      ]
+    },
+    {
+      "source": "Piercing damage",
+      "text": "穿刺傷害",
+      "reason": "核對穿刺傷害效果標籤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12255/variants/skill-version:gww:12255/effects/growth:0:var2/label",
+          "englishHash": "4814bd2cd81db6de2b49a96dcac3ec6089e9f97ca9a2de8a83e773de24a5f955",
+          "evidenceHash": "c5f3cf28b3252905cc5020afbe1fec7e67b3933f5da55d9fcc00635a8b73f610"
+        }
+      ]
+    },
+    {
+      "source": "Spell damage reduction",
+      "text": "受到的魔法傷害減少幅度",
+      "reason": "核對減傷作用於自己受到的魔法傷害，不限制為 Spell 單一類型。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12255/variants/skill-version:gww:12255/effects/growth:0:var3/label",
+          "englishHash": "9f2fb860cb5f67d835125bede8b9227f1a21967e45a97370d8488cd42f3de327",
+          "evidenceHash": "c5f3cf28b3252905cc5020afbe1fec7e67b3933f5da55d9fcc00635a8b73f610"
+        }
+      ]
+    },
+    {
+      "source": "Energy",
+      "text": "能量",
+      "reason": "核對能量數值標籤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/effects/fixed:3/label",
+          "englishHash": "f2fcd3f7dccadd194c4c5a54a5102c9559487743ac236a6236301e4418d0dd7c",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    },
+    {
+      "source": "When this skill's functionality changed, the Polish description was updated incorrectly. It mentions too little additional damage while Overcast:\nSpell. Deals 5…33…40 lightning damage. Deals 5…33…40 lightning damage to two nearby foes if you are Overcast. 25% armor penetration.",
+      "text": "此技能機制變更時，波蘭文說明更新有誤，將過載時的額外傷害寫得過低：\n咒文魔法。造成 5…33…40 點閃電傷害。若你處於過載狀態，對附近兩名敵人造成 5…33…40 點閃電傷害。具有 25% 護甲穿透。",
+      "reason": "核對這是波蘭文舊說明的錯誤範例；保留被指出有誤的引文數值，不誤當目前正確傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1761/variants/skill-version:gww:1761/notes/0",
+          "englishHash": "6361d287d8549c26767b80c80cb42d776bc75ec46688f0d6ffb98d8f1492e459",
+          "evidenceHash": "3c0771ecb3916e09d281c8fcc6a008ee6fced6d98eeb57c044a0432fb862ba16"
+        }
+      ]
+    },
+    {
+      "source": "bug: When this skill's functionality changed, the Polish description was updated incorrectly. It mentions too little additional damage while Overcast:\nSpell. Deals 5…33…40 lightning damage. Deals 5…33…40 lightning damage to two nearby foes if you are Overcast. 25% armor penetration.",
+      "text": "錯誤：此技能機制變更時，波蘭文說明更新有誤，將過載時的額外傷害寫得過低：\n咒文魔法。造成 5…33…40 點閃電傷害。若你處於過載狀態，對附近兩名敵人造成 5…33…40 點閃電傷害。具有 25% 護甲穿透。",
+      "reason": "核對錯誤標記及波蘭文引文；保留錯誤示例的三段數值而不擅自修成目前傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1761/variants/skill-version:gww:1761/notes/1",
+          "englishHash": "c53c7f47ea243f8603eaaa7f99aecc3ff9ad6c70cf7b55f151066a6aa37f09f7",
+          "evidenceHash": "3c0771ecb3916e09d281c8fcc6a008ee6fced6d98eeb57c044a0432fb862ba16"
+        }
+      ]
+    },
+    {
+      "source": "* Targets hexed by Arcane Languor will suffer a total 20 additional overcast after successfully casting a spell that normally has overcast in the presence of Equinox.\n* Overcast occurs after the spell completes casting.",
+      "text": "* 受到魔法耗盡降咒的目標，在晝夜的範圍內成功施放原本會造成過載的魔法後，總共額外累積 20 點過載。\n* 過載在魔法施放完成後產生。",
+      "reason": "核對魔法耗盡與晝夜疊加的額外過載；後一句描述此降咒的觸發時點。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1516/variants/skill-version:gww:1516/notes/0",
+          "englishHash": "ab6dfa111a9078657bdcf4b14a4ad43f29f17bbc9e8836bbba1857494352d6ed",
+          "evidenceHash": "6fd50bd7dd5b3380c9440b81f3d28fde0212554ee5a57743891259fc6286e662"
+        }
+      ]
+    },
+    {
+      "source": "* You can get a quick adrenaline boost at the start of a battle by using this skill 10-15 seconds before engaging the enemy.\n\nSimilar to other skills with an end effect, the end effect of Balthazar's Rage will trigger upon death. When a character who died while enchanted with Balthazar's Rage is resurrected, the adrenaline gained from this skill's end effect will still be active on the character, instead of having no adrenaline when resurrected.",
+      "text": "* 在接敵前 10-15 秒使用此技能，可在戰鬥開始時迅速獲得怒氣。\n\n與其他具有結束效果的技能相同，巴薩澤盛怒的結束效果會在死亡時觸發。角色在此加持生效期間死亡，復活後仍保有結束效果所獲得的怒氣，而非以零怒氣復活。",
+      "reason": "核對交戰前的時間與死亡時觸發；角色是在加持期間死亡，不是因加持而死。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/notes/0",
+          "englishHash": "00295babd4547c7e3e48166735d96baec9a714118643ea611afcb0bd4fd52b2e",
+          "evidenceHash": "a38050459f5b64db12cbad1197ba7693f5505d5f364863b4b1b82ad318c22149"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: Similar to other skills with an end effect, the end effect of Balthazar's Rage will trigger upon death. When a character who died while enchanted with Balthazar's Rage is resurrected, the adrenaline gained from this skill's end effect will still be active on the character, instead of having no adrenaline when resurrected.",
+      "text": "異常：與其他具有結束效果的技能相同，巴薩澤盛怒的結束效果會在死亡時觸發。角色在此加持生效期間死亡，復活後仍保有結束效果所獲得的怒氣，而非以零怒氣復活。",
+      "reason": "核對異常備註的死亡與復活先後，修正因加持而死的因果誤譯。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/notes/1",
+          "englishHash": "81f2e02dab3ecc970f7f37d875402ed2a92f84cae9acabf0057a23a994a1e9cf",
+          "evidenceHash": "a38050459f5b64db12cbad1197ba7693f5505d5f364863b4b1b82ad318c22149"
+        }
+      ]
+    },
+    {
+      "source": "* Heroes will maintain this skill in combat even when fighting enemies that don't apply any conditions. This is useful for triggering skills that trigger when an enchantment ends, such as forms. \n* When used in conjunction with an attack skill that removes an enchantment, conditions are cured before the hit lands.\n* If the condition removal effect is unwanted (to keep Conviction's regeneration and armor increase effects), it can be worth considering using an enchanting upgrade component (or an effect reducing recharge time) to maintain this skill on yourself, as conditions are not removed if the enchantment is reapplied before it ends.",
+      "text": "* 英雄在戰鬥中會維持此技能，即使敵人不施加任何病症也一樣。這有助於觸發加持結束時生效的技能，例如形態。\n* 搭配會移除加持的攻擊技能時，病症會在攻擊命中前解除。\n* 若想避免移除病症，以保留信念的體力再生與護甲加成，可考慮使用延長加持時間的武器升級組件，或縮短冷卻時間的效果，來持續維持此技能。在加持結束前重新施加加持，就不會移除病症。",
+      "reason": "核對病症、命中前解除及重新施加加持的對象；不是重新施加病症。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/notes/0",
+          "englishHash": "766953ad4f16605945d033e70709d3a6da95ec1c4f74ec75285c2bec0459ab1f",
+          "evidenceHash": "92010dcf9d2366bd5f3a000670c9f2fb9b652e234ac52b218e0178eca031cfaa"
+        }
+      ]
+    },
+    {
+      "source": "* A skill that changes your weapon damage type to earth damage, like Staggering Force or Dust Cloak, will count as wielding an earth weapon.\n* The added earth damage is armor-ignoring.\n* Queue this skill while knocked down to avoid being quarterknocked by physical attacks.",
+      "text": "* 將武器傷害屬性改為土系的技能，例如驚天神力或塵土掩蔽，會被視為持用土系武器。\n* 額外的土系傷害無視護甲。\n* 被擊倒時將此技能排入施放佇列，可避免起身後立刻又被物理攻擊擊倒（quarterknock）。",
+      "reason": "核對傷害屬性轉換可滿足武器條件、附傷無視護甲；quarterknock 保留起身再遭擊倒的時序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1380/variants/skill-version:gww:1380/notes/0",
+          "englishHash": "2772129e7aa37c3ab3ae40b490459be15c8fdd2b3b199394ab451413cf61591c",
+          "evidenceHash": "9a1f249dcc9681ab6f8a2e020488f359a1940d64af94a14738cccfd17016bf2b"
+        }
+      ]
+    },
+    {
+      "source": "* This skill increases average speed by 11.67% if used every time it recharges. \n* This can be maintained indefinitely with Extend Enchantments at Mysticism 11 (or 9 when using a 20% of Enchanting weapon).",
+      "text": "* 每次冷卻完成就使用此技能，平均移動速度可提高 11.67%。\n* 搭配加持延展，祕法達 11 時可無限維持此技能；若使用延長加持時間 20% 的武器，祕法只需達 9。",
+      "reason": "核對冷卻後重施的平均速度，以及祕法 11 或武器加成下 9 的二擇門檻。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14081/variants/skill-version:gww:14081/notes/0",
+          "englishHash": "4eabdd353e14989b58090c371323105d0f81b10521c20b75dd69b178865183aa",
+          "evidenceHash": "5595d39d55a5525ecb0f1831e62afc398d7db03adc2173649ce747202e166441"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Equinox.\n* The additional overcast caused by Equinox triggers only after the spell is cast successfully, whereas ordinary overcast occurs when activation begins.\n* The additional overcast stacks with Arcane Languor, resulting in a total 20 additional overcast when using a spell that causes overcast.",
+      "text": "* 此技能會創造 Spirit of Equinox。\n* 晝夜造成的額外過載僅在魔法成功施放後觸發；一般過載則在開始施放時產生。\n* 額外過載可與魔法耗盡疊加。施放會造成過載的魔法時，總共額外累積 20 點過載。",
+      "reason": "核對精靈身份、成功施放與開始施放的不同時點；未證實中文精靈名保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4273/variants/skill-version:gww:4273/notes/0",
+          "englishHash": "fdf559762848919322120a25e4553be4e229ce941a9cc835b12f312635e32950",
+          "evidenceHash": "fd20b2653e8a7f3a457d4877eae4253dd1c2ac918b89112c91896703c782ff75"
+        }
+      ]
+    },
+    {
+      "source": "*Exhausting Assault is the only dual attack skill that doesn't require an off-hand attack skill to precede it.\n*This skill will inflict overcast on its target even if the interruption is prevented.\n*As this is an attack skill, the activation time is actually 0.25 second.\n*If the target is skill queuing, this attack can interrupt two skills. This way, it is possible to inflict 20 overcast with one attack.\n*A target elementalist may actually benefit from the effects of this skill, as some of their skills gain additional effects while the caster is overcast.",
+      "text": "* 衰竭突襲是唯一不要求先使用副手攻擊技能的雙重攻擊技能。\n* 即使中斷被阻止，此技能仍會使目標累積過載。\n* 由於此技能是攻擊技能，實際施放時間為 0.25 秒。\n* 若目標已將技能排入佇列，此攻擊能中斷兩個技能。因此一次攻擊可造成 20 點過載。\n* 目標元素使反而可能受益，因為部分元素使技能在施放者處於過載狀態時會有額外效果。",
+      "reason": "核對雙重攻擊前置例外、中斷防護仍累積過載、技能佇列的雙中斷與元素使受益條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14498/variants/skill-version:gww:14498/notes/0",
+          "englishHash": "a7822154bbd9816f470e3f600a43dcb43ffe8649afb765c024cbc26077a5e8a1",
+          "evidenceHash": "6024d0f4b6889a7ddc196c5881ddc6e9907165e260ca86ed39312827a09e1465"
+        }
+      ]
+    },
+    {
+      "source": "* Glyph of Energy only cancels the base overcast cost of the spells, not overcast caused by other sources. \n** Arcane Languor and Iron Mist will still cause overcast on spells. \n** Over the Limit will still generate passive overcast. \n** Equinox and Sheer Exhaustion will not cause overcast. \n* Skills that let Glyph of Energy use its full potential are Maelstrom, Meteor Shower, Earthquake, and its duplicate Dragon's Stomp.\n* A cancelled spell will still consume one use of the glyph. \n* Non-spell elemental skills (Lightning Touch, Shock, Glyph of Immolation and Glyph of Swiftness) will take advantage of the bonus and will not count as a use of the glyph. \n* Any elemental attribute raised to at least 9 will trigger the bonus armor from Prismatic Insignia.\n* Has no duration (this is one of the few skills that last indefinitely without an upkeep).",
+      "text": "* 能量符號只取消魔法本身的基本過載消耗，不取消其他來源造成的過載。\n** 魔法耗盡與鐵之迷霧仍會使施放的魔法造成過載。\n** Over the Limit 仍會被動累積過載。\n** 晝夜與 Sheer Exhaustion 不會造成過載。\n* 水漩渦、隕石雨、地震及其同效技能 地龍踩踏 能充分發揮能量符號的效益。\n* 取消施放的魔法仍會消耗符號的一次使用機會。\n* 不屬於魔法的元素技能（閃電之觸、電擊、Glyph of Immolation 與 Glyph of Swiftness）可獲得加成，且不消耗符號的使用次數。\n* 任何元素屬性提高至至少 9，都會觸發 Prismatic Insignia 的額外護甲。\n* 沒有持續時間限制，是少數無須維持消耗即可無限持續的技能之一。",
+      "reason": "逐項核對來源備註列出的過載例外、取消施放仍消耗次數、非魔法技能不消耗次數與屬性門檻；無固定中文身份的名稱保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4236/variants/skill-version:gww:4236/notes/0",
+          "englishHash": "42cb379b28a229a15c0c4bdc68ba4a3a281309283813eebc03e226c1c6f0fa8a",
+          "evidenceHash": "795faa63c4c3e52b9ca6a282fbbfa1851380b413eb063ba4e3b3e821984868fd"
+        }
+      ]
+    },
+    {
+      "source": "* The initial holy damage dealt by this skill is armor-ignoring damage; the holy damage dealt by attacks is armor-respecting.\n* Heroes will maintain this enchantment out of combat. They will also attempt to move into range of enemies to deal damage with it, which may be undesirable for ranged attacking heroes.",
+      "text": "* 此技能的初始神聖傷害無視護甲；攻擊造成的神聖傷害則依護甲計算。\n* 英雄會在非戰鬥狀態維持此加持，也會嘗試靠近敵人，以此技能造成傷害。這種走位對遠程攻擊英雄可能不利。",
+      "reason": "核對兩種神聖傷害對護甲的不同計算方式，以及英雄主動靠近敵人的行為。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12262/variants/skill-version:gww:12262/notes/0",
+          "englishHash": "2a5673f5d1ec0393b75df81c0020ceb989b268ed1dadc3487ee9fa01fe880a56",
+          "evidenceHash": "978f44e9c61cc9cb901569044f3caaa63d3fee2cac490df1d014291bd6ce2c49"
+        }
+      ]
+    },
+    {
+      "source": "Similar to other enchantments that target a foe, foes affected by Well of the Profane or spirits cannot be targeted by this enchantment.",
+      "text": "與其他以敵人為目標的加持相同，受褻瀆之池影響的敵人，以及精靈，均無法成為此加持的目標。",
+      "reason": "核對並列對象為受池影響的敵人與精靈；不是受精靈影響的敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14131/variants/skill-version:gww:14131/notes/0",
+          "englishHash": "6e3cbd0b78fd83afadffef0d89674a7efdf18a6d27828fb7099991e372eef9f7",
+          "evidenceHash": "006a0aedbae8087d780b5ca1e98b1c0fd2cb525bfbe05fc7b83dfd398e4f8047"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: Similar to other enchantments that target a foe, foes affected by Well of the Profane or spirits cannot be targeted by this enchantment.",
+      "text": "異常：與其他以敵人為目標的加持相同，受褻瀆之池影響的敵人，以及精靈，均無法成為此加持的目標。",
+      "reason": "核對異常備註的並列主語，保留精靈不能成為加持目標的獨立限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14131/variants/skill-version:gww:14131/notes/1",
+          "englishHash": "763dee8959a65782dab9d7003940fd06838e37dc853a50a7d47b77dbe8fc6b6e",
+          "evidenceHash": "006a0aedbae8087d780b5ca1e98b1c0fd2cb525bfbe05fc7b83dfd398e4f8047"
+        }
+      ]
+    },
+    {
+      "source": "The effects of this skill apply to all spells, regardless of target or attribute.\n* It takes 6s to recover from 2 points of overcast. If you cast more than three spells while under the effect of this enchantment, you will not be able to completely recover from this skill's overcast during its recharge.\n** If you are concerned about building up too much overcast, consider a lower attribute investment and shorter enchantment duration. Only use the spells that really need the reduced casting time and recharge time while enchanted by Iron Mist. Cast your other spells when this enchantment has worn off. Non-spell skills can be activated any time. Alternatively, use Soul Ignition to recover from Overcast.\n* The overcast caused by this skill is not increased by Equinox, and not prevented by Glyph of Energy.\n* The overcast caused by casting a spell is applied in time to trigger that spell’s additional effects.",
+      "text": "此技能的效果適用於所有魔法，不限目標或屬性。\n* 消退 2 點過載需要 6 秒。若此加持生效期間施放超過三個魔法，就無法在此技能冷卻完成前完全消退它造成的過載。\n** 若擔心過載累積過多，可降低屬性投入，縮短加持時間。在鐵之迷霧生效時，只施放確實需要縮短施放與冷卻時間的魔法；其他魔法留待加持結束後使用。不屬於魔法的技能可隨時使用。也可用 Soul Ignition 消退過載。\n* 此技能造成的過載不會被晝夜增加，也不會被能量符號阻止。\n* 施放魔法造成的過載會及時生效，足以觸發該魔法的額外效果。",
+      "reason": "核對來源所記載的實際效果例外、6 秒單位、超過三個魔法的門檻與過載生效時序；不把非魔法技能誤譯為非法技能。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/notes/0",
+          "englishHash": "79c17e4e4cca4b5d8304a211fa10ede692f0cf8ed373922e28a0c17d32229632",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        }
+      ]
+    },
+    {
+      "source": "bug: The effects of this skill apply to all spells, regardless of target or attribute.",
+      "text": "錯誤：此技能的效果適用於所有魔法，不限目標或屬性。",
+      "reason": "保留來源的錯誤標記，說明實際效果超出正式技能說明的限制，不改寫為遊戲內已核實。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15151/variants/skill-version:gww:15151/notes/1",
+          "englishHash": "9b8f03aaf91528bce1529a9775ecc5f33a28683df17be08bf3bd83e86a7bb154",
+          "evidenceHash": "efad42a73cb3e93f937c41f5286c0ba74fbd322ca59d75e5854b8911151c5564"
+        }
+      ]
+    },
+    {
+      "source": "*This spell's area of effect is determined when the spell is cast. As such, becoming Overcast while Lava Font is still in effect will not enlarge the area of an already cast font, nor will the spell's area be reduced partway through its duration by the caster's Overcast disappearing.\n\n{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.\nHero AI will use this spell without considering whether there are foes adjacent to them.",
+      "text": "* 此魔法的作用範圍在施放時決定。熔岩持續期間才進入過載狀態，不會擴大已施放的作用範圍；施放者的過載在持續期間消退，也不會使範圍縮小。\n\n〔過時資訊，待核實〕\n2019 年 2 月 5 日更新：請核實英雄 AI 行為是否已改變。\n英雄 AI 會使用此魔法，不考慮自身相鄰範圍內是否有敵人。",
+      "reason": "核對範圍在施放時鎖定；將過時資訊模板改為明確警示，保留 AI 需核實的邊界。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/notes/0",
+          "englishHash": "43503c8f1339b9b3a3ee1f6d4b92395a3f752470c083e1377ef6ddaaebde6f6e",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        }
+      ]
+    },
+    {
+      "source": "bug: Hero AI will use this spell without considering whether there are foes adjacent to them.",
+      "text": "來源記載的錯誤（過時，待核實）：英雄 AI 會使用此魔法，不考慮自身相鄰範圍內是否有敵人。",
+      "reason": "核對同頁固定修訂的 Outdated info 警示；此獨立錯誤投影也保留過時待核實狀態，範圍為相鄰。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13710/variants/skill-version:gww:13710/notes/1",
+          "englishHash": "f20706e5112ec58c490d4d6ec9938abf1cc22281fbf6b7e95a361c279dd35eb6",
+          "evidenceHash": "5a653cc8871e69b6ab400d489c99bc41cd981a2213a77f452fd453daf8ffd68e"
+        }
+      ]
+    },
+    {
+      "source": "* Provided that the prerequisites for additional damage of the skills are met, Lightning Bolt, Lightning Hammer, Lightning Orb, and Mind Shock deal the same amount of damage from Air Magic rank 14 to 16.\nSimilar to Incendiary Bonds and Lightning Surge, removing the hex before it ends will negate the end effect, unlike Shatterstone and most other skills with an end effect.\nDespite the ambiguity of the concise description, the end effect damage also has 25% armor penetration.",
+      "text": "* 在各技能的額外傷害條件成立時，風系魔法等級 14 至 16 的雷光之箭、閃電之鎚、閃電球與心靈震暴，造成的傷害相同。\n與燃燒連結和閃電震盪相同，提前移除此降咒會取消結束效果；這與碎裂冰石及大多數具有結束效果的技能不同。\n雖然簡短說明不夠明確，結束效果造成的傷害也具有 25% 護甲穿透。",
+      "reason": "核對額外傷害的前提、屬性等級範圍、提前移除取消結束效果與第二段穿透。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/notes/0",
+          "englishHash": "196bdf6eb975dac05396871e0d525e916a91fe62c2793c4cbcf215d1d84c3c75",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: Similar to Incendiary Bonds and Lightning Surge, removing the hex before it ends will negate the end effect, unlike Shatterstone and most other skills with an end effect.",
+      "text": "異常：與燃燒連結和閃電震盪相同，提前移除此降咒會取消結束效果；這與碎裂冰石及大多數具有結束效果的技能不同。",
+      "reason": "核對提前移除與正常結束的區別，保留與其他技能的對照。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/notes/1",
+          "englishHash": "b0ca81fb936616a3527465a70aa6feb845b1e8dc5bee66c14f6f12257940dbc5",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: Despite the ambiguity of the concise description, the end effect damage also has 25% armor penetration.",
+      "text": "異常：雖然簡短說明不夠明確，結束效果造成的傷害也具有 25% 護甲穿透。",
+      "reason": "核對第二段傷害同樣具有護甲穿透。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1950/variants/skill-version:gww:1950/notes/2",
+          "englishHash": "7dc9a599d21fb903c55af3f87324c05a5bc35e9ac3f441910f5c576abc16b5cf",
+          "evidenceHash": "cd34d3fe44f734e95ccd7cfa46a46a6934dff7d251a8f74582d611594fe2b554"
+        }
+      ]
+    },
+    {
+      "source": "* Contrary to the concise description, this skill does not reflect damage but instead deals a set amount to your attacker upon blocking an attack.",
+      "text": "* 與簡短說明相反，此技能不反射原攻擊的傷害；格擋一次攻擊時，會對攻擊者造成固定數值的傷害。",
+      "reason": "核對來源明確區分傷害反射與固定傷害，保留格擋觸發條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14379/variants/skill-version:gww:14379/notes/0",
+          "englishHash": "6a5d16d0aa2bc0064879a5fd7f2da5bef93d1b2ac82d25d51b6470528dedf354",
+          "evidenceHash": "a7308b2db475807125d5ded026df25965edd8b3e4e32a35fcd5debf8e5dea53c"
+        }
+      ]
+    },
+    {
+      "source": "With skills that remove \"all enchantments\" (such as Contemplation of Purity), the only Dervish enchantments this skill's damage can trigger for are Aura of Thorns, Balthazar's Rage, Pious Renewal, Dust Cloak, Staggering Force, Grenth's Fingers, and Mirage Cloak itself. By contrast, there is no restriction on which Dervish enchantments will trigger damage if a specific number of enchantments is removed (such as by Rend Enchantments or Dervish teardowns), as long as they cover Mirage Cloak (plus Mirage Cloak itself).\n*This skill triggers itself when it ends.\n*Pious Renewal synergizes with this skill because of its \"recharge on end\" effect.\nThe concise description omits that block chance is capped to 80%.",
+      "text": "使用移除「所有加持」的技能，例如純淨的冥想時，只有移除荊棘靈氣、巴薩澤盛怒、神性修補、塵土掩蔽、驚天神力、古蘭斯之指，以及魔幻掩蔽本身，才會觸發此技能的傷害。若移除的是特定數量的加持，例如粉碎加持或神喚使的拆除加持技能，則可由任何神喚使加持觸發；條件是該加持施加在魔幻掩蔽之後，魔幻掩蔽本身也包含在內。\n* 此技能結束時，也會觸發自己的傷害效果。\n* 神性修補在結束時立即完成冷卻，因此與此技能搭配良好。\n簡短說明省略了格擋機率最高為 80% 的限制。",
+      "reason": "核對全部移除與指定數量移除的不同限制；cover 指後施加的加持順序，並非視覺覆蓋。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/notes/0",
+          "englishHash": "e100ae9d6748e5497e05be28ea3eeded167b08a29a8d06e16d4fea2f4480c18d",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: With skills that remove \"all enchantments\" (such as Contemplation of Purity), the only Dervish enchantments this skill's damage can trigger for are Aura of Thorns, Balthazar's Rage, Pious Renewal, Dust Cloak, Staggering Force, Grenth's Fingers, and Mirage Cloak itself. By contrast, there is no restriction on which Dervish enchantments will trigger damage if a specific number of enchantments is removed (such as by Rend Enchantments or Dervish teardowns), as long as they cover Mirage Cloak (plus Mirage Cloak itself).",
+      "text": "異常：使用移除「所有加持」的技能，例如純淨的冥想時，只有移除荊棘靈氣、巴薩澤盛怒、神性修補、塵土掩蔽、驚天神力、古蘭斯之指，以及魔幻掩蔽本身，才會觸發此技能的傷害。若移除的是特定數量的加持，例如粉碎加持或神喚使的拆除加持技能，則可由任何神喚使加持觸發；條件是該加持施加在魔幻掩蔽之後，魔幻掩蔽本身也包含在內。",
+      "reason": "核對異常備註的兩類移除方式與加持順序限制，不誤作所有神喚使加持都能在全部移除時觸發。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/notes/1",
+          "englishHash": "19b8bcfe3b24d4684f4964f74581b067b66b4d21d90230ea534438b07f5b91f0",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        }
+      ]
+    },
+    {
+      "source": "bug: The concise description omits that block chance is capped to 80%.",
+      "text": "錯誤：簡短說明省略了格擋機率最高為 80% 的限制。",
+      "reason": "核對被省略的是最高機率上限，不是額外提高 80%。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1384/variants/skill-version:gww:1384/notes/2",
+          "englishHash": "b70489df17dba93dbfa39aab9a861003a3fb6afcc4bb0e1ddebd7196fcf90909",
+          "evidenceHash": "b001325cd292c925b856b548324f8c418790e335da7f51525355c07efab02e40"
+        }
+      ]
+    },
+    {
+      "source": "* Due to the extremely high passive overcast, Soul Ignition is strongly recommended.\n* The recharge reduction stacks with Fast Casting for Mesmer spells.\n*This skill has both regular upkeep cost and overcast \"upkeep\". The overcast rate is three points of overcast per second.\n**Assuming this is the only overcast skill used, and that it is recast every time it recharges, the enchantment must be dismissed around 2 seconds after casting it to avoid building overcast.\n*Overcast caused by this spell will not be negated with Glyph of Energy.",
+      "text": "* 由於此技能被動累積過載的速度極高，強烈建議搭配 Soul Ignition。\n* 施放幻術師魔法時，冷卻縮減可與快速施法疊加。\n* 此技能同時具有一般維持消耗與過載「維持」消耗；每秒累積三點過載。\n** 假設沒有使用其他造成過載的技能，且每次冷卻完成就重新施放，必須在施放後約 2 秒解除加持，才能避免過載持續累積。\n* 此魔法造成的過載不會被能量符號抵消。",
+      "reason": "核對雙重維持代價、每秒三點、約兩秒後解除及計算假設；專名無固定中文證據保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313293/variants/skill-version:gww:313293/notes/0",
+          "englishHash": "09550005f3e7a5f1146b95dac7c202f118d75f39b8416f612e659e2b7988e10f",
+          "evidenceHash": "301e51d096ab872517f0b7e06137622d7d81d572e5678b870ec51956765a66e0"
+        }
+      ]
+    },
+    {
+      "source": "* The projectile's arc is much higher than similar spells like Fireball.\n* This spell will not fail if the target dies during its casting.\n* The healing does not affect allied spirits.\n* Useful when playing alongside a Minion Master or close combat professions, as they will benefit from the healing reliably if they're targeting the same enemy.",
+      "text": "* 投射物的拋物線比火球等類似魔法高得多。\n* 即使目標在施放期間死亡，此魔法也不會失敗。\n* 治療效果不影響友方精靈。\n* 與操縱不死生物的角色或近戰職業搭配時很有用；若他們攻擊同一名敵人，就能穩定受益於治療效果。",
+      "reason": "核對投射物軌跡、目標死亡仍可施放、精靈治療例外；Minion Master 是操縱不死生物的玩法。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:10796/variants/skill-version:gww:10796/notes/0",
+          "englishHash": "69633b8ce5760cd209b780cd7d96415842370d2e411c5112e438e09e0b0757db",
+          "evidenceHash": "9a1a3a0f9b1404b4c8b5863777cbc245fbf0ed52bdb19dfc2c43883dc3ebb69d"
+        }
+      ]
+    },
+    {
+      "source": "* Very useful in Random Arenas, as almost everyone is likely to have a Resurrection Signet equipped.\n* The description is ambiguous. Rust will only disable a single signet on a target, and only if that target is casting a signet when struck. Additionally, Rust will disable that signet even if the target is under an effect that prevents interruption.\n* Rust will not fail if the target dies before the skill completes casting.",
+      "text": "* 在隨機競技場很有用，因為幾乎每個人都可能裝備復活紋章。\n* 說明不夠明確：紋章鏽蝕只會停用目標的一個紋章，而且目標必須在命中時正在使用該紋章。即使目標受到防止中斷的效果保護，紋章鏽蝕仍會停用該紋章。\n* 即使目標在施放完成前死亡，紋章鏽蝕也不會失敗。",
+      "reason": "核對只停用正在使用的一個紋章，防中斷不防停用，並保留目標死亡例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16263/variants/skill-version:gww:16263/notes/0",
+          "englishHash": "2510243e6209c30bbac19d13e7fa81045e0c1fbfe215c60c5fef8af01b13bcea",
+          "evidenceHash": "1ce334f31e6e42e72519f9d79e6985be6b77c053ad1364e6cbfa5aa6758ba29e"
+        }
+      ]
+    },
+    {
+      "source": "* Like Lightning Hammer, Cracked Armor is applied after calculating damage.",
+      "text": "* 與閃電之鎚相同，先計算傷害，之後才施加護甲破損。",
+      "reason": "核對傷害計算與施加病症的先後順序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51868/variants/skill-version:gww:51868/notes/0",
+          "englishHash": "df9072e78717f47083f962e8858346e6350c9d7340d7a9b3eef3e80c596e0568",
+          "evidenceHash": "4778c7b8f9027f44905af97cc49cac34557dd90825f772bc66650ffee5e520ec"
+        }
+      ]
+    },
+    {
+      "source": "* The Burning duration is applied every second and matches the amount of Overcast removed.\n** Under all attribute ranks, Burning is continuous for the purpose of skills like Fragility and Contagion (unless the condition is removed, in which case it will be reapplied the next second).\n* Combine with Frigid Armor to prevent the burning on the user.\n* Can be used to counteract the overcast building effects of Over the Limit or Iron Mist.\n* Although not stated in the skill description, the enchantment automatically ends when the user has no overcast.\n* Unlike the PvE-only elite skills, the descriptions fail to mention that this is a PvE skill.\n* At low Energy Storage ranks, Purifying Veil prevents burning on the user entirely. Recovery is, as noted on the skill's own page, a reduction in duration and requires more than 50% reduction to reduce a 1 second duration burn to a value that is rounded to 0.\nThe animation of the Burning condition does not occur the first time the skill is used in an explorable area.",
+      "text": "* 每秒施加一次燃燒，燃燒持續秒數與移除的過載點數相同。\n** 在任何屬性等級下，對脆弱、病症蔓延等技能而言，燃燒都視為連續持續；若病症被移除，則在下一秒重新施加。\n* 搭配冰凍護甲可防止使用者燃燒。\n* 可用於抵消 Over the Limit 或鐵之迷霧累積過載的效果。\n* 雖然技能說明沒有提及，使用者沒有過載時，此加持會自動結束。\n* 與僅限 PvE 的精英技能不同，此技能的說明沒有標明它是 PvE 技能。\n* 能量儲存等級較低時，Purifying Veil 可完全防止使用者燃燒。痊癒的效果如其技能頁所述，是縮短持續時間；必須縮短超過 50%，才能讓持續 1 秒的燃燒四捨五入為 0 秒。\n第一次在可探索區域使用此技能時，不會出現燃燒病症的動畫。",
+      "reason": "核對逐秒施加與燃燒連續判定、無過載自動結束、PvE 限定及嚴格超過 50% 的取整門檻。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/notes/0",
+          "englishHash": "5969de753889a949b36a25d4fc37ba31faf99f405e1335afda451df2f2daf6eb",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: * Although not stated in the skill description, the enchantment automatically ends when the user has no overcast.\n* Unlike the PvE-only elite skills, the descriptions fail to mention that this is a PvE skill.\n* At low Energy Storage ranks, Purifying Veil prevents burning on the user entirely. Recovery is, as noted on the skill's own page, a reduction in duration and requires more than 50% reduction to reduce a 1 second duration burn to a value that is rounded to 0.",
+      "text": "異常：\n* 雖然技能說明沒有提及，使用者沒有過載時，此加持會自動結束。\n* 與僅限 PvE 的精英技能不同，此技能的說明沒有標明它是 PvE 技能。\n* 能量儲存等級較低時，Purifying Veil 可完全防止使用者燃燒。痊癒的效果如其技能頁所述，是縮短持續時間；必須縮短超過 50%，才能讓持續 1 秒的燃燒四捨五入為 0 秒。",
+      "reason": "核對三項異常分別為自動結束、模式標記與持續時間取整，保留嚴格大於的門檻。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/notes/1",
+          "englishHash": "f3f3b897206d6f91f64fdbfabbfe18544fbea0b2e1ca4f1d6ae21582c1b9212c",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        }
+      ]
+    },
+    {
+      "source": "bug: The animation of the Burning condition does not occur the first time the skill is used in an explorable area.",
+      "text": "錯誤：第一次在可探索區域使用此技能時，不會出現燃燒病症的動畫。",
+      "reason": "核對錯誤僅限第一次使用時的視覺動畫，不擴大為沒有燃燒效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:321740/variants/skill-version:gww:321740/notes/2",
+          "englishHash": "97e7f8eb1e4e6f45fc95e595e9b4879f55b64c8e383fadb845dc11d7669c67f0",
+          "evidenceHash": "3b393b41448df96a9000f7eeb60ab68f968667c1dd31b8de017b292c38e2acd4"
+        }
+      ]
+    },
+    {
+      "source": "* This spell is an effective knock down even with no points in Air Magic.\n* The enemies do not have to be attacking the user to be knocked down.\n* This skill combines well with Aftershock.",
+      "text": "* 即使未投入任何風系魔法屬性點，此魔法仍能有效擊倒敵人。\n* 敵人不必正在攻擊使用者，也會被擊倒。\n* 此技能適合搭配餘震。",
+      "reason": "核對零屬性點仍可擊倒、無須敵人正在攻擊的條件與搭配技能。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2404/variants/skill-version:gww:2404/notes/0",
+          "englishHash": "b9ebac2e14d0ad107416841d9ba96028bc866d5e3a394859e735f1d416bf9acf",
+          "evidenceHash": "1da41662f155da5dd02df3d6a61dea4d4abc8092a5e2a0dc3095b74ec972c8af"
+        }
+      ]
+    },
+    {
+      "source": "*No energy gain if recast.",
+      "text": "* 在此加持結束前重新施放，不會獲得能量。",
+      "reason": "核對 recast 指再次施放加持，不是重鑄裝備；能量來自提前結束而非覆蓋。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12822/variants/skill-version:gww:12822/notes/0",
+          "englishHash": "5a941fb892d2775dfb5271748224ba60f0f1a42c10d91b6cc07bfa948e3ad5aa",
+          "evidenceHash": "637a6a9030677a442b9141be4dcc00205a190758befb8e59cbb39c553bde80f6"
+        }
+      ]
+    }
+  ]
+}

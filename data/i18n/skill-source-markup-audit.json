@@ -1,0 +1,1724 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-23T10:12:46.032Z",
+  "scope": "Current baseline/skills note fields only; distinct English and field positions are counted separately.",
+  "baselineSha256": "8927a5f22161494fc57ba6b35763b7a90ab160adb8696ae4ceadf54925a93812",
+  "method": "Raw markers are counted from exact baseline text. Existing proofreading bindings do not clean English source, so both all residuals and unreviewed subsets are reported.",
+  "summary": {
+    "noteFields": 1535,
+    "distinctEnglishNotes": 1449,
+    "fieldsWithRawMarkup": 56,
+    "distinctEnglishWithRawMarkup": 54,
+    "unreviewedFieldsWithRawMarkup": 54,
+    "unreviewedDistinctEnglishWithRawMarkup": 52,
+    "sortingOrEditorDirectives": 0
+  },
+  "categories": {
+    "template:speed": {
+      "distinctEnglish": 15,
+      "fields": 17,
+      "unreviewedDistinctEnglish": 15,
+      "unreviewedFields": 17,
+      "occurrencesDistinctEnglish": 15,
+      "occurrencesFields": 17,
+      "representativeKeys": [
+        "skills/skill:gww:14943/variants/skill-version:gww:14943/notes/0",
+        "skills/skill:gww:14943/variants/skill-version:gww:207662/notes/0",
+        "skills/skill:gww:2616/variants/skill-version:gww:2616/notes/0",
+        "skills/skill:gww:14852/variants/skill-version:gww:14852/notes/0"
+      ]
+    },
+    "template:stdt": {
+      "distinctEnglish": 10,
+      "fields": 10,
+      "unreviewedDistinctEnglish": 10,
+      "unreviewedFields": 10,
+      "occurrencesDistinctEnglish": 10,
+      "occurrencesFields": 10,
+      "representativeKeys": [
+        "skills/skill:gww:58328/variants/skill-version:gww:58328/notes/0",
+        "skills/skill:gww:5084/variants/skill-version:gww:5084/notes/0",
+        "skills/skill:gww:6779/variants/skill-version:gww:6779/notes/0",
+        "skills/skill:gww:2823/variants/skill-version:gww:207855/notes/0"
+      ]
+    },
+    "wiki-table": {
+      "distinctEnglish": 22,
+      "fields": 22,
+      "unreviewedDistinctEnglish": 22,
+      "unreviewedFields": 22,
+      "occurrencesDistinctEnglish": 22,
+      "occurrencesFields": 22,
+      "representativeKeys": [
+        "skills/skill:gww:58328/variants/skill-version:gww:58328/notes/0",
+        "skills/skill:gww:5084/variants/skill-version:gww:5084/notes/0",
+        "skills/skill:gww:1637/variants/skill-version:gww:1637/notes/0",
+        "skills/skill:gww:6779/variants/skill-version:gww:6779/notes/0"
+      ]
+    },
+    "template:skill change": {
+      "distinctEnglish": 3,
+      "fields": 3,
+      "unreviewedDistinctEnglish": 3,
+      "unreviewedFields": 3,
+      "occurrencesDistinctEnglish": 3,
+      "occurrencesFields": 3,
+      "representativeKeys": [
+        "skills/skill:gww:15225/variants/skill-version:gww:15225/notes/0",
+        "skills/skill:gww:2427/variants/skill-version:gww:2427/notes/0",
+        "skills/skill:gww:14400/variants/skill-version:gww:14400/notes/0"
+      ]
+    },
+    "template:outdated info": {
+      "distinctEnglish": 7,
+      "fields": 7,
+      "unreviewedDistinctEnglish": 6,
+      "unreviewedFields": 6,
+      "occurrencesDistinctEnglish": 7,
+      "occurrencesFields": 7,
+      "representativeKeys": [
+        "skills/skill:gww:1681/variants/skill-version:gww:1681/notes/0",
+        "skills/skill:gww:14766/variants/skill-version:gww:14766/notes/0",
+        "skills/skill:gww:13043/variants/skill-version:gww:13043/notes/0",
+        "skills/skill:gww:13710/variants/skill-version:gww:13710/notes/0"
+      ]
+    },
+    "template:/table": {
+      "distinctEnglish": 1,
+      "fields": 1,
+      "unreviewedDistinctEnglish": 1,
+      "unreviewedFields": 1,
+      "occurrencesDistinctEnglish": 1,
+      "occurrencesFields": 1,
+      "representativeKeys": [
+        "skills/skill:gww:4547/variants/skill-version:gww:4547/notes/0"
+      ]
+    },
+    "template:research needed": {
+      "distinctEnglish": 3,
+      "fields": 3,
+      "unreviewedDistinctEnglish": 2,
+      "unreviewedFields": 2,
+      "occurrencesDistinctEnglish": 3,
+      "occurrencesFields": 3,
+      "representativeKeys": [
+        "skills/skill:gww:15410/variants/skill-version:gww:15410/notes/0",
+        "skills/skill:gww:58325/variants/skill-version:gww:58325/notes/0",
+        "skills/skill:gww:4088/variants/skill-version:gww:4088/notes/0"
+      ]
+    },
+    "template:[triple-brace parameter]": {
+      "distinctEnglish": 2,
+      "fields": 2,
+      "unreviewedDistinctEnglish": 2,
+      "unreviewedFields": 2,
+      "occurrencesDistinctEnglish": 2,
+      "occurrencesFields": 2,
+      "representativeKeys": [
+        "skills/skill:gww:14396/variants/skill-version:gww:14396/notes/0",
+        "skills/skill:gww:14396/variants/skill-version:gww:14396/notes/1"
+      ]
+    },
+    "template:energy": {
+      "distinctEnglish": 1,
+      "fields": 1,
+      "unreviewedDistinctEnglish": 1,
+      "unreviewedFields": 1,
+      "occurrencesDistinctEnglish": 6,
+      "occurrencesFields": 6,
+      "representativeKeys": [
+        "skills/skill:gww:11209/variants/skill-version:gww:11209/notes/0"
+      ]
+    }
+  },
+  "rows": [
+    {
+      "source": "{{speed|4|10|33|20}}",
+      "keys": [
+        "skills/skill:gww:14943/variants/skill-version:gww:14943/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14943/variants/skill-version:gww:14943/notes/0"
+      ],
+      "references": [
+        {
+          "title": "\"Fall Back!\"",
+          "pageid": 14943,
+          "revid": 2716036
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|4|10|33|20}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|4|10|33|25}}",
+      "keys": [
+        "skills/skill:gww:14943/variants/skill-version:gww:207662/notes/0",
+        "skills/skill:gww:2616/variants/skill-version:gww:136087/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14943/variants/skill-version:gww:207662/notes/0",
+        "skills/skill:gww:2616/variants/skill-version:gww:136087/notes/0"
+      ],
+      "references": [
+        {
+          "title": "\"Fall Back!\" (PvP)",
+          "pageid": 207662,
+          "revid": 2709753
+        },
+        {
+          "title": "\"Incoming!\" (PvP)",
+          "pageid": 136087,
+          "revid": 2645987
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|4|10|33|25}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|4|10|33|20}}\n*The health gain happens once per second when moving.",
+      "keys": [
+        "skills/skill:gww:2616/variants/skill-version:gww:2616/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:2616/variants/skill-version:gww:2616/notes/0"
+      ],
+      "references": [
+        {
+          "title": "\"Incoming!\"",
+          "pageid": 2616,
+          "revid": 2733390
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|4|10|33|20}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* This skill only activates if you receive at least 1 XP from a foe death.\n* The benefits gained can be identified by the dialogue bubbles above the character's head:\n::{| {{STDT|#6A3}}\n|- align=\"center\" valign=\"top\"\n|- style=\"background:#ADA;\"\n! Boast !! Benefit || Activation chance (%)\n|- align=\"center\"\n| \"Buwahahaha!\" || All conditions removed from self || 30%\n|- align=\"center\"\n| \"Kneel Before Your Master!\" || Double XP gained || 20% \n|- align=\"center\"\n| \"Knowledge is Power!\" || Healed for 50 health || 20%\n|- align=\"center\"\n| \"You're No Match for My Brains!\" || Gain 5 energy || 20%\n|- align=\"center\"\n| \"Is There Anything I Can't Do?\" || Recharge all skills || 10%\n|}\n\n* Skills that require a morale boost, such as Resurrection Signet, Sunspear Rebirth Signet, and Celestial skills, are not recharged by \"Is There Anything I Can't Do?\".\n* Experience scrolls stack with \"Kneel Before Your Master\".\n\nUnlike other skills without an activation time, this skill has the standard aftercast delay of 0.75 second and cannot be used while moving or activating another skill.",
+      "keys": [
+        "skills/skill:gww:58328/variants/skill-version:gww:58328/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:58328/variants/skill-version:gww:58328/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Air of Superiority",
+          "pageid": 58328,
+          "revid": 2680287
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT|#6A3}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "*This skill mimics the effect of the Guild Lord's Amulet of Protection.\n*Under Angelic Protection, you take the damage first and then are healed. If you take more damage than you have health remaining, you will die.\n*Unlike Protective Spirit, this skill will protect even against small damage packets if there are enough of them. An example would be the large mobs of Avicara Fierce in Mineral Springs who use Ignite Arrows and Dual Shot.\n*The effect of this skill isn't triggered by sacrificing health from skills such as Blood is Power.\n{{Skill change}}\nUnlike most typeless skills with no activation time, this skill cannot be activated in the middle of another action and has a slight aftercast delay.",
+      "keys": [
+        "skills/skill:gww:15225/variants/skill-version:gww:15225/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:15225/variants/skill-version:gww:15225/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Angelic Protection",
+          "pageid": 15225,
+          "revid": 2721035
+        }
+      ],
+      "counts": {
+        "template:skill change": 1
+      },
+      "templates": [
+        {
+          "name": "skill change",
+          "raw": "{{Skill change}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* Combine Echo and Arcane Echo to create echo chains, allowing you to use three copies of any single skill.\n* If the next skill after Arcane Echo is not a spell, this enchantment will end with no effect.\n* Arcane Echo will only recharge normally if no spell was copied. If a spell was copied, the copy remains for 20 seconds, after which Arcane Echo is disabled for 20 seconds.\n** Consider using Auspicious Incantation before Arcane Echo for energy management, since the recharge time will not be increased.\n* If used to copy a spell that can copy another skill or spell, the copy duration of that spell is used and will bypass Arcane Echo's 20-second copy duration.\n** E.g., if used to copy Echo, whatever skill that is copied by the Arcane Echo version of Echo will remain as that skill for 30 seconds and then revert back to Arcane Echo.\n*Arcane Echo's copying effect triggers first, before the effects of the spell that triggers it. For instance, when used to copy Gift of Health, the copy is disabled by Gift of Health's effect afterwards.\nArcane Echo's description omits the fact that it cannot copy itself.\n{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.",
+      "keys": [
+        "skills/skill:gww:1681/variants/skill-version:gww:1681/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1681/variants/skill-version:gww:1681/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Arcane Echo",
+          "pageid": 1681,
+          "revid": 2724886
+        }
+      ],
+      "counts": {
+        "template:outdated info": 1
+      },
+      "templates": [
+        {
+          "name": "outdated info",
+          "raw": "{{Outdated info|}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|8|20|33|30}}",
+      "keys": [
+        "skills/skill:gww:14852/variants/skill-version:gww:14852/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14852/variants/skill-version:gww:14852/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Armor of Mist",
+          "pageid": 14852,
+          "revid": 2733083
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|8|20|33|30}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* The energy cost reduction is rounded down from 0.5. Table with energy cost reduction factored in:\n:{| {{STDT}}\n|-\n!Spawning Power||0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21\n|- align=\"center\"\n| 1 Energy spells cost||1||1||1||1||1||1||1||1||1||1||1||1||1||1||1||1||bgcolor=\"lightblue\"|0||0||0||0||0||0\n|- align=\"center\"\n| 3 Energy spells cost||3||3||3||3||bgcolor=\"lightblue\"|2||2||2||2||2||2||2||2||2||2||2||2||bgcolor=\"lightblue\"|1||1||1||1||1||1\n|- align=\"center\"\n| 5 Energy spells/rituals cost||5||5||bgcolor=\"lightblue\"|4||4||4||4||4||4||4||bgcolor=\"lightblue\"|3||3||3||3||3||3||3||bgcolor=\"lightblue\"|2||2||2||2||2||2\n|- align=\"center\"\n| 10 Energy spells/rituals cost||10||bgcolor=\"lightblue\"|9||9||9||bgcolor=\"lightblue\"|8||8||8||bgcolor=\"lightblue\"|7||7||7||7||bgcolor=\"lightblue\"|6||6||6||bgcolor=\"lightblue\"|5||5||5||bgcolor=\"lightblue\"|4||4||4||4||bgcolor=\"lightblue\"|3\n|- align=\"center\"\n| 15 Energy spells/rituals cost||bgcolor=\"lightblue\"|14||14||bgcolor=\"lightblue\"|13||13||bgcolor=\"lightblue\"|12||12||12||bgcolor=\"lightblue\"|11||11||bgcolor=\"lightblue\"|10||10||bgcolor=\"lightblue\"|9||9||bgcolor=\"lightblue\"|8||8||8||bgcolor=\"lightblue\"|7||7||bgcolor=\"lightblue\"|6||6||bgcolor=\"lightblue\"|5||5\n|- align=\"center\"\n| 25 Energy spells/rituals cost||bgcolor=\"lightblue\"|24||bgcolor=\"lightblue\"|23||bgcolor=\"lightblue\"|22||22||bgcolor=\"lightblue\"|21||bgcolor=\"lightblue\"|20||bgcolor=\"lightblue\"|19||19||bgcolor=\"lightblue\"|18||bgcolor=\"lightblue\"|17||bgcolor=\"lightblue\"|16||16||bgcolor=\"lightblue\"|15||bgcolor=\"lightblue\"|14||bgcolor=\"lightblue\"|13||13||bgcolor=\"lightblue\"|12||bgcolor=\"lightblue\"|11||bgcolor=\"lightblue\"|10||10||bgcolor=\"lightblue\"|9||bgcolor=\"lightblue\"|8\n|}",
+      "keys": [
+        "skills/skill:gww:5084/variants/skill-version:gww:5084/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:5084/variants/skill-version:gww:5084/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Attuned Was Songkai",
+          "pageid": 5084,
+          "revid": 2732769
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* Synergy with Arcane Echo (and other copying skills), since whenever the copying skill becomes another skill it instantly starts off recharged, and the copy eventually expires, nullifying the added recharge.\n* Energy gain is rounded up from 0.5. The following table shows the energy gain resulting from casting a spell after Auspicious Incantation:\n:{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"23\" |Progression\n|- colspan=\"23\" style=\"background:#DFD;\"\n! Inspiration Magic !! 0 !! 1 !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10 !! 11 !! 12 !! 13 !! 14 !! 15 !! 16\n|-\n| 5 energy cost || 6 || 6 || 6 || 6 || 7 || 7 || 7 || 8 || 8 || 8 || 8 || 9 || 9 || 9 || 10 || 10 || 10\n|-\n| 10 energy cost || 11 || 12 || 12 || 13 || 13 || 14 || 15 || 15 || 16 || 16 || 17 || 18 || 18 || 19 || 19 || 20 || 21\n|-\n| 15 energy cost || 16 || 17 || 18 || 19 || 20 || 21 || 22 || 23 || 24 || 25 || 26 || 26 || 27 || 28 || 29 || 30 || 31\n|-\n| 25 energy cost || 28 || 29 || 30 || 32 || 33 || 35 || 36 || 38 || 40 || 41 || 42 || 44 || 46 || 47 || 48 || 50 || 52\n|}",
+      "keys": [
+        "skills/skill:gww:1637/variants/skill-version:gww:1637/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1637/variants/skill-version:gww:1637/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Auspicious Incantation",
+          "pageid": 1637,
+          "revid": 2732839
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "Melee attacks also contribute to the bonus damage of this skill.\n* This skill counts itself as recharging for the damage bonus. These are the number of recharging melee attack skills required for maximum damage:\n:{| {{STDT}}\n|- style=\"background:#ADA;\"\n! Dagger Mastery !! Recharging melee attack skills\n|- align=\"center\"\n| 0-4 || 8\n|- align=\"center\"\n| 5-6 || 7\n|- align=\"center\"\n| 7-8 || 6\n|- align=\"center\"\n| 9-12 || 5\n|- align=\"center\"\n| 13-19 || 4\n|- align=\"center\"\n| 20+ || 3\n|}",
+      "keys": [
+        "skills/skill:gww:6779/variants/skill-version:gww:6779/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:6779/variants/skill-version:gww:6779/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Blades of Steel",
+          "pageid": 6779,
+          "revid": 2733184
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|1|7|50|12}}\n* Some synergy with \"On Your Knees!\".\n* This stance can be maintained indefinitely under Dwarven Stability.",
+      "keys": [
+        "skills/skill:gww:4070/variants/skill-version:gww:4070/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:4070/variants/skill-version:gww:4070/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Bull's Charge",
+          "pageid": 4070,
+          "revid": 2726445
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|1|7|50|12}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* This skill is useful for maintaining Critical Defenses or Critical Agility since it's a guaranteed critical hit.\n* This skill is effective for maintaining your energy because, in addition to restoring energy itself, the critical hits also restore energy with Critical Strikes. The following table shows the total energy gain (excluding skill cost):\n:{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"23\" |Progression\n|- colspan=\"23\" style=\"background:#DFD;\"\n!Critical Strikes\n|0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20\n|-\n! Total energy gain\n|2||2||2||4||6||6||6||6||8||8||8||8||10||12||12||12||12||12||14||16||16\n|}",
+      "keys": [
+        "skills/skill:gww:14598/variants/skill-version:gww:14598/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14598/variants/skill-version:gww:14598/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Critical Strike",
+          "pageid": 14598,
+          "revid": 2733183
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|5|15|25|30}}",
+      "keys": [
+        "skills/skill:gww:6705/variants/skill-version:gww:6705/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:6705/variants/skill-version:gww:6705/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Dark Escape",
+          "pageid": 6705,
+          "revid": 2683966
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|5|15|25|30}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "Similar to Migraine, this skill does not decrease the activation time of dagger attack skills. Recharge time of dagger attack skills are affected as the skill describes.\n{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.",
+      "keys": [
+        "skills/skill:gww:14766/variants/skill-version:gww:14766/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14766/variants/skill-version:gww:14766/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Deadly Paradox",
+          "pageid": 14766,
+          "revid": 2684024
+        }
+      ],
+      "counts": {
+        "template:outdated info": 1
+      },
+      "templates": [
+        {
+          "name": "outdated info",
+          "raw": "{{Outdated info|}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* This skill creates a Spirit of Destruction that deals armor-ignoring lightning damage.\n* Combine this with Ritual Lord or Soul Twisting for faster recharge and damage output.\n* Use with skills that destroy spirits to control the damage spike, such as Rupture Soul.\n* The following table shows the total lifespan (in seconds) needed to reach the desired breakpoints for maximum damage:\n:{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"23\" |Progression\n|- colspan=\"23\" style=\"background:#DFD;\"\n! Channeling Magic\n| 0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20\n|-\n! Total lifespan\n| 30||25||19||17||15||13||12||11||10||9||9||8||8||7||7||6||6||6||6||5||5\n|}\n\nThis spirit deals no damage if the caster (or their corpse) is not in compass range.\nThe damage dealt is armor-ignoring lightning damage.\nThe non-concise and concise descriptions are identical.",
+      "keys": [
+        "skills/skill:gww:2823/variants/skill-version:gww:2823/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:2823/variants/skill-version:gww:2823/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Destruction",
+          "pageid": 2823,
+          "revid": 2721292
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "* This skill creates a Spirit of Destruction.\n* Use with skills that destroy spirits to control the damage spike, such as Rupture Soul.\n* This skill deals armor-ignoring lightning damage. \n\n{| {{STDT|+=text-align: center}}\n! colspan=\"23\" | Lifespan needed to reach maximum (150) damage\n|- \n! Channeling Magic ||0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20||21\n|- \n| Lifespan in seconds ||150||75||75||50||50||38||30||30||25||25||22||19||19||17||17||15||14||14||13||13||12||11\n|}\n\nThis spirit deals no damage if the caster (or his corpse) is not in compass range.",
+      "keys": [
+        "skills/skill:gww:2823/variants/skill-version:gww:207855/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:2823/variants/skill-version:gww:207855/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Destruction (PvP)",
+          "pageid": 207855,
+          "revid": 2628698
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT|+=text-align: center}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|5|11|33|30}}\n* \"Projectiles\" means ranged attacks from weapons, not projectile spells.",
+      "keys": [
+        "skills/skill:gww:6517/variants/skill-version:gww:6517/notes/0",
+        "skills/skill:gww:6526/variants/skill-version:gww:6526/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:6517/variants/skill-version:gww:6517/notes/0",
+        "skills/skill:gww:6526/variants/skill-version:gww:6526/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Dodge",
+          "pageid": 6517,
+          "revid": 2732827
+        },
+        {
+          "title": "Zojun's Haste",
+          "pageid": 6526,
+          "revid": 2732788
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|5|11|33|30}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* These are the number of recharging binding rituals required for maximum damage:\n:{| {{STDT}}\n|- style=\"background:#ADA;\"\n! Spawning Power !! Recharging binding rituals \n|- align=\"center\"\n| 0-3 || 7\n|- align=\"center\"\n| 4 || 6\n|- align=\"center\"\n| 5-7 || 5\n|- align=\"center\"\n| 8-10 || 4\n|- align=\"center\"\n| 11-17 || 3\n|- align=\"center\"\n| 18+ || 2\n|}",
+      "keys": [
+        "skills/skill:gww:5102/variants/skill-version:gww:5102/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:5102/variants/skill-version:gww:5102/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Doom",
+          "pageid": 5102,
+          "revid": 2720293
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* These are the number of enchantments required for maximum healing:\n:{| {{STDT}}\n|- style=\"background:#ADA;\"\n! Wind Prayers !! Enchantments\n|- align=\"center\"\n| 0 || 1\n|- align=\"center\"\n| 1-5 || 2\n|- align=\"center\"\n| 6-10 || 3\n|- align=\"center\"\n| 11-15 || 4\n|- align=\"center\"\n| 16-20 || 5\n|}",
+      "keys": [
+        "skills/skill:gww:14077/variants/skill-version:gww:14077/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14077/variants/skill-version:gww:14077/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Dwayna's Touch",
+          "pageid": 14077,
+          "revid": 2721027
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* The amount of energy regained is rounded; for example, a 5 energy spell returns 1+3=4 energy instead of 30.5 energy.\n* When combined with one of the other attunements (e.g. Fire Attunement), 5 energy spells of the respective element can be cast for a net energy gain.\n* When combined with Glyph of Lesser Energy, energy is still refunded causing a net energy gain. This also applies to Glyph of Energy, however as another elite it has less practical application.\n\n::{| {{STDT|silver}}\n|-\n! Cost||Attunement||Elemental Attunement||Combined||Net cost\n|- align=\"center\"\n| 5||3||4||7||-2\n|- align=\"center\"\n| 10||4||6||10||0\n|- align=\"center\"\n| 15||6||9||15||0\n|- align=\"center\"\n| 25||9||14||23||2\n|}",
+      "keys": [
+        "skills/skill:gww:4064/variants/skill-version:gww:4064/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:4064/variants/skill-version:gww:4064/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Elemental Attunement",
+          "pageid": 4064,
+          "revid": 2740296
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT|silver}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* The full description is correct; AoE hexes will inflict burning on all affected foes, not just the target.\n* Inflicts burning even when reapplying a hex.\n\n=== Elementalist hex spells comparison ===\nSee: List of hex spells#Elementalist hex spells\n\n{| class=\"wikitable sortable\"\n|-\n! skill\n! Attribute\n! range\n! recharge\n! notes\n|-\n| Ice Prison\n| Water Magic\n| single-target\n| 30s\n|-\n| Glimmering Mark\n| Air Magic\n| single-target\n| 15s\n|-\n| Teinai's Prison \n| Water Magic\n| single-target\n| 15s\n|-\n| Winter's Embrace \n| Water Magic\n| single-target\n| 15s\n|-\n| Icy Shackles\n| Water Magic\n| single-target\n| 12s\n|-\n| Lightning Surge\n| Air Magic\n| single-target\n| 10s\n|-\n| Shard Storm\n| Water Magic\n| single-target\n| 10s\n|-\n| Shatterstone \n| Water Magic\n| single-target\n| 8s\n|-\n| Freezing Gust\n| Water Magic\n| single-target\n| 8s\n| Not if target already has a water magic hex\n|-\n| Incendiary Bonds \n| Fire Magic\n| single-target\n| 7s\n| causes burning in nearby range after 3s\n|-\n| Smoldering Embers\n| Fire Magic\n| single-target\n| 7s\n|-\n| Lightning Strike\n| Air Magic\n| single-target\n| 5s\n|-\n| Mind Freeze\n| Water Magic\n| single-target\n| 5s\n|-\n| Ash Blast\n| Earth Magic\n| adjacent\n| 15s\n| requires an already burning foe\n|-\n| Blurred Vision\n| Water Magic\n| adjacent\n| 12s\n|-\n| Ice Spikes\n| Water Magic\n| adjacent\n| 10s\n|-\n| Rust\n| Water Magic\n| adjacent\n| 8s\n|-\n| Chilling Winds\n| Air Magic\n| adjacent\n| 8s\n| extends the duration of the next Water Magic hex \n|-\n| Mark of Rodgort\n| Fire Magic\n| nearby\n| 15s\n| causes burning on fire damage\n|-\n| Earthen Shackles\n| Earth Magic\n| nearby\n| 15s\n|-\n| Grasping Earth\n| Earth Magic\n| near self\n| 12s\n|-\n| Frozen Burst\n| Water Magic\n| near self\n| 8s\n|-\n| Mirror of Ice\n| Water Magic\n| near self and target ally\n| 7.5s\n| 15s recharge unless one of the struck foes has a Water hex\n|-\n| Deep Freeze\n| Water Magic\n| in the area\n| 15s\n|}",
+      "keys": [
+        "skills/skill:gww:16247/variants/skill-version:gww:16247/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:16247/variants/skill-version:gww:16247/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Elemental Flame",
+          "pageid": 16247,
+          "revid": 2711841
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "* Skills that disable non-attack skills (Tiger's Fury or Marauder's Shot for example) synergize well with this skill as it also deals extra damage for skills such as Charm Animal and Comfort Animal.\n* Damage from this skill is calculated at the time of activation on the skill bar, not when the animal companion uses it.\n* Enraged Lunge counts itself as a recharging Beast Mastery skill upon activation.\n* These are the number of recharging Beast Mastery skills required for maximum damage:\n:{| {{STDT}}\n|- style=\"background:#ADA;\"\n! Beast Mastery !! Recharging Beast Mastery skills \n|- align=\"center\"\n| 0-6 || 8\n|- align=\"center\"\n| 7 || 7\n|- align=\"center\"\n| 8-9 || 6\n|- align=\"center\"\n| 10-12 || 5\n|- align=\"center\"\n| 13-17 || 4\n|- align=\"center\"\n| 18+ || 3\n|}",
+      "keys": [
+        "skills/skill:gww:2569/variants/skill-version:gww:215073/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:2569/variants/skill-version:gww:215073/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Enraged Lunge (PvP)",
+          "pageid": 215073,
+          "revid": 2738428
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|1|8|33|12}}\n* Using this skill with Expertise of 11 or 12 or above alongside Dwarven Stability allows it to be permanently maintained if your Deldrimor rank is 5 or 4, respectively.\n* This skill is most often used for running and can be used with Dodge or similar skills for a non-stop speed boost.",
+      "keys": [
+        "skills/skill:gww:4053/variants/skill-version:gww:4053/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:4053/variants/skill-version:gww:4053/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Escape",
+          "pageid": 4053,
+          "revid": 2695828
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|1|8|33|12}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* The energy cost reduction applies to base cost only; as a result, sometimes the skill will not save any energy due to Expertise. \n** The table below shows the net cost of bow attack skills while under the effect of this skill. Red = no difference in energy reduction compared to expertise alone, White = 1 energy reduction, Blue = 2 energy reduction. \n\n:{| border=1 cellspacing=0 cellpadding=3\n|- style=\"background:lightgray;\"\n!rowspan=2|Base Cost!!colspan=22|Expertise\n|- style=\"background:lightgray;\"\n!0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20\n|- align=\"center\"\n|5||4||4||4||bgcolor=\"lightcoral\"|4||bgcolor=\"lightcoral\"|4||3||3||3||2||2||2||2||2||1||1||1||1||1||bgcolor=\"lightcoral\"|1||bgcolor=\"lightcoral\"|1||bgcolor=\"lightcoral\"|1\n|- align=\"center\"\n|10||9||9||8||8||bgcolor=\"lightcoral\"|8||7||7||6||bgcolor=\"skyblue\"|5||5||5||bgcolor=\"skyblue\"|4||4||4||bgcolor=\"lightcoral\"|4||3||3||bgcolor=\"lightcoral\"|3||2||bgcolor=\"lightcoral\"|2||bgcolor=\"lightcoral\"|2\n|- align=\"center\"\n|15||14||13||13||12||12||11||bgcolor=\"lightcoral\"|11||10||bgcolor=\"skyblue\"|9||8||8||7||7||6||6||5||bgcolor=\"lightcoral\"|5||4||bgcolor=\"lightcoral\"|4||3||bgcolor=\"lightcoral\"|3\n|- align=\"center\"\n|25||24||23||22||21||20||19||18||17||16||15||14||13||12||11||10||9||8||7||6||bgcolor=\"lightcoral\"|6||bgcolor=\"lightcoral\"|5\n|}",
+      "keys": [
+        "skills/skill:gww:51924/variants/skill-version:gww:51924/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:51924/variants/skill-version:gww:51924/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Expert Focus",
+          "pageid": 51924,
+          "revid": 2733288
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|4|10|25|10}}\n*Queue this skill while knocked down to avoid being quarterknocked.",
+      "keys": [
+        "skills/skill:gww:1381/variants/skill-version:gww:1381/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1381/variants/skill-version:gww:1381/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Fleeting Stability",
+          "pageid": 1381,
+          "revid": 2738429
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|4|10|25|10}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|2|8|25|10}}\n*Queue this skill while knocked down to avoid being quarterknocked.",
+      "keys": [
+        "skills/skill:gww:1381/variants/skill-version:gww:321764/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1381/variants/skill-version:gww:321764/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Fleeting Stability (PvP)",
+          "pageid": 321764,
+          "revid": 2738540
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|2|8|25|10}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|2|8|25|10}}\n*Heroes will use and maintain it even when attacking a stationary foe.",
+      "keys": [
+        "skills/skill:gww:14382/variants/skill-version:gww:14382/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14382/variants/skill-version:gww:14382/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Harrier's Haste",
+          "pageid": 14382,
+          "revid": 2733272
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|2|8|25|10}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* The triggering damage is calculated before damage reduction, so a 55 Monk enchanted with Protective Spirit and Judge's Intervention could be dealt 60 damage, have that reduced to 5 damage, and still trigger Judge's Intervention.\n\n* Combines well with minions, but will not trigger if they die due to their natural health degeneration.\n* This skill can cause the highest armor-ignoring damage in one packet amongst all player-useable skills; however, Grenth's Balance can potentially cause a foe to lose more health.\nUnlike most other monk spells, Judge's Intervention does not invoke an animation upon the target.\n{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.\n* Heroes will use it on allies who have low health and are not in combat, such as minions when travelling between mobs.",
+      "keys": [
+        "skills/skill:gww:13043/variants/skill-version:gww:13043/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:13043/variants/skill-version:gww:13043/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Judge's Intervention",
+          "pageid": 13043,
+          "revid": 2683585
+        }
+      ],
+      "counts": {
+        "template:outdated info": 1
+      },
+      "templates": [
+        {
+          "name": "outdated info",
+          "raw": "{{Outdated info|}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "*This spell's area of effect is determined when the spell is cast. As such, becoming Overcast while Lava Font is still in effect will not enlarge the area of an already cast font, nor will the spell's area be reduced partway through its duration by the caster's Overcast disappearing.\n\n{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.\nHero AI will use this spell without considering whether there are foes adjacent to them.",
+      "keys": [
+        "skills/skill:gww:13710/variants/skill-version:gww:13710/notes/0"
+      ],
+      "unreviewedKeys": [],
+      "references": [
+        {
+          "title": "Lava Font",
+          "pageid": 13710,
+          "revid": 2731689
+        }
+      ],
+      "counts": {
+        "template:outdated info": 1
+      },
+      "templates": [
+        {
+          "name": "outdated info",
+          "raw": "{{Outdated info|}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|1|8|33|12}}\n* This stance only ends when an enchantment or hex is cast on you while you are in the stance. Previously cast enchantments or hexes do not affect the duration (as in, the stance does not end instantly if entered while enchanted or hexed).",
+      "keys": [
+        "skills/skill:gww:6585/variants/skill-version:gww:6585/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:6585/variants/skill-version:gww:6585/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Natural Stride",
+          "pageid": 6585,
+          "revid": 2719212
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|1|8|33|12}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* The self-recharging effect occurs even if disabled by skills such as Diversion or Blackout.\n* This is a very effective feeder enchantment, since it has no effective recharge time and can provide for its own energy costs.\n\n{{/table}}",
+      "keys": [
+        "skills/skill:gww:4547/variants/skill-version:gww:4547/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:4547/variants/skill-version:gww:4547/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Pious Renewal",
+          "pageid": 4547,
+          "revid": 2691197
+        }
+      ],
+      "counts": {
+        "template:/table": 1
+      },
+      "templates": [
+        {
+          "name": "/table",
+          "raw": "{{/table}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "The table below shows the net energy gained from this skill (when hitting a target when you have a preparation active).\n:{| border=1 cellspacing=0 cellpadding=3\n|- style=\"background:lightgray;\"\n!rowspan=2|Expertise!!colspan=22|Marksmanship\n|- style=\"background:lightgray;\"\n!0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20\n|- align=\"center\"\n|0-2||-4||-3||-3||-2||-2||-1||-1||0||0||1||1||2||2||3||3||4||5||5||6||6||7|7\n|- align=\"center\"\n|3-7||-3||-2||-2||-1||-1||0||0||1||1||2||2||3||3||4||4||5||6||6||7||7||8|8\n|- align=\"center\"\n|8-12||-2||-1||-1||0||0||1||1||2||2||3||3||4||4||5||5||6||7||7||8||8||9|9\n|- align=\"center\"\n|13-17||-1||0||0||1||1||2||2||3||3||4||4||5||5||6||6||7||8||8||9||9||10|10\n|- align=\"center\"\n|18-20||0||1||1||2||2||3||3||4||4||5||5||6||6||7||7||8||9||9||10||10||11|11\n|}",
+      "keys": [
+        "skills/skill:gww:1243/variants/skill-version:gww:1243/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1243/variants/skill-version:gww:1243/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Prepared Shot",
+          "pageid": 1243,
+          "revid": 2733220
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "* This skill creates a Spirit of Quickening Zephyr.\n* The cost increase occurs at the beginning of the activation of a skill, while the recharge reduction occurs at the end.\n* Recharge times are rounded half to even.\n* The reduced recharge stacks multiplicatively with Fast Casting in PvE, for up to 74% recharge time reduction for Mesmer spells.\n* Quickening Zephyr can reduce its own recharge time from rank 10 onwards, if cast while under its own effect.\n* The energy skill cost is rounded half to even. The following table shows the energy skill cost increases in the presence of a Quickening Zephyr:\n:{| {{STDT}}\n|- align=\"center\" style=\"background:lightgray;\"\n!Base cost \n! width=\"12px\"| 1 || width=\"12px\"| 5 || width=\"12px\"| 10 || width=\"12px\"| 15 || width=\"12px\"| 25\n|- align=\"center\"\n|Increase\n| 0 || 1 || 3 || 5 || 7\n|- align=\"center\"\n|Total cost\n| 1 || 6 || 13 || 20 || 32\n|}\n* Quickening Zephyr will ignore recharge increasing effects like Energizing Wind if it's cast first.",
+      "keys": [
+        "skills/skill:gww:6588/variants/skill-version:gww:6588/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:6588/variants/skill-version:gww:6588/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Quickening Zephyr",
+          "pageid": 6588,
+          "revid": 2732155
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* Since only this skill's duration scales with beast mastery (it has no activation time or aftercast delay), but its cost scales with Expertise, there can be a compromise. The table below shows the theoretical energy cost per second depending on the ranks in both attributes:\n:{|{{STDT}}\n|- \n!rowspan=\"2\" |Expertise rank\n!colspan=\"5\" | Beast Mastery rank\n|-\n!0-9!!10!!11!!12-13!!14\n|-\n!0\n|2.5||2.27||2.08||1.92||1.79\n|-\n!4\n|2.1||1.91||1.75||1.62||1.5\n|-\n!9\n|1.6||1.45||1.33||1.23||1.14\n|-\n!10\n|1.5||1.36||1.25||1.15||1.07\n|-\n!11\n|1.4||1.27||1.17||1.08||1\n|-\n!12\n|1.3||1.18||1.08||1||0.93\n|-\n!13\n|1.2||1.09||1||0.92||0.86\n|}\n:* Note that, as explained on the Beast Mastery page, \"the pet's base damage also increases with rank in the same way that mastering a weapon attribute does\" meaning that beast mastery values above 12 provide reduced pet damage increases.\n\nThe full description omits that this skill needs your pet to be alive to activate.",
+      "keys": [
+        "skills/skill:gww:3950/variants/skill-version:gww:3950/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:3950/variants/skill-version:gww:3950/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Rampage as One",
+          "pageid": 3950,
+          "revid": 2667420
+        }
+      ],
+      "counts": {
+        "template:stdt": 1,
+        "wiki-table": 1
+      },
+      "templates": [
+        {
+          "name": "stdt",
+          "raw": "{{STDT}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* This skill creates a Spirit of Recuperation.\n* At a glance, a maximum of +3 health regeneration doesn't sound like a lot, but consider that it affects all allies within spirit range. (In regards to party healing, this equates to 17.6 health-to-energy ratio, multiplied by # of allies.) That includes non-party members such as allied NPCs (Master Togo, Mhenlo, etc.), minions, animal companions and, in the case of two-party cooperative missions, members of the other party.\n* Combined with Ritual Lord, a level 17 Recuperation will heal 8 health per second, for a maximum 424 health per ally within range throughout its lifespan at rank 19 Restoration Magic and 16 Spawning Power (with Ritual Lord). \n* The following table shows the total effective health gain received by all allies within spirit range:\n:{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"23\" |Progression\n|- colspan=\"23\" style=\"background:#DFD;\"\n! Restoration Magic\n| 0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15||16||17||18||19||20\n|-\n! Total health gain\n| 30||34||38||42||94||100||106||112||118||124||130||136||234||246||258||270||282||294||306||424||440\n|-\n! Cost effectiveness\n| 1.2||1.4||1.5||1.7||3.8||4||4.2||4.5||4.7||5||5.2||5.4||9.4||9.8||10.3||10.8||11.3||11.8||12.2||17||17.6\n|}",
+      "keys": [
+        "skills/skill:gww:5884/variants/skill-version:gww:5884/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:5884/variants/skill-version:gww:5884/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Recuperation",
+          "pageid": 5884,
+          "revid": 2733176
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "* This skill can be used without Charm Animal, Comfort Animal nor Heal as One equipped or when your animal companion is dead.\n{{speed|5|15|25|15}}\n* Animal companions already run faster than normal player speed so this may not be needed for the pet's benefit though it will still allow the pet to better catch a running target.\n* This skill will continue to be active for the pet even if the owner has activated another stance after it.\n* Consider using in combination with Feral Aggression.",
+      "keys": [
+        "skills/skill:gww:6505/variants/skill-version:gww:6505/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:6505/variants/skill-version:gww:6505/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Run as One",
+          "pageid": 6505,
+          "revid": 2683481
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|5|15|25|15}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* You gain energy and health from this skill’s own overcast cost.\n* You can quickly build up overcast to a useful amount by activating and canceling this skill a few times.\n* This spell takes fractional points of overcast into account. For example, if you cast this skill while you’re not otherwise overcast, you will gain 5 points of overcast as you start casting it. By the time you finish casting it, you will have already regenerated 0.3333333333333333 points of overcast and this skill will give you only 4 energy and 23 health, not 5 energy and 25 health.\n* It takes 15 seconds to fully recover from this skill’s overcast cost and maintain a stable level of overcast. When cast every 15 seconds, this skill gives the equivalent of 1 pip of energy regeneration for every 5 points of overcast. For ease of calculation and because fractional points of overcast aren’t visible in the user interface, this table ignores the 0.3333333333333333 point of overcast lost during this skill’s activation time.\n:{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"23\" |Effects when cast every 15 seconds\n|- style=\"background:#DFD;\"\n! Overcast at start of activation\n| 5 || 15 || 25 || 35 || 45 || 55\n|-\n! Net energy gain\n| 5 || 15 || 25 || 35 || 45 || 55\n|-\n! Energy gain/second\n| 0.34 || 1.00 || 1.66 || 2.34 || 3.00 || 3.66\n|-\n! Equivalent energy regeneration\n| +1 || +3 || +5 || +7 || +9 || +11\n|- style=\"background:#DFD;\"\n! Overcast at end of activation\n| 10 || 20 || 30 || 40 || 50 || 60\n|-\n! Health gain\n| 50 || 100 || 150 || 200 || 250 || 300\n|-\n! Health gain/second\n| 3.33 || 6.66 || 10 || 13.33 || 16.66 || 20\n|-\n! Equivalent health regeneration\n| ≈+2 || ≈+3 || +5 || ≈+7 || ≈+8 || +10\n|-\n|}",
+      "keys": [
+        "skills/skill:gww:4334/variants/skill-version:gww:4334/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:4334/variants/skill-version:gww:4334/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Second Wind",
+          "pageid": 4334,
+          "revid": 2691022
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "* Works well with Snow Storm, and Winter.\n* This hex will end on the target if the caster dies.\n\n{{research needed|Is the concise description incorrect or can this skill interrupt actions?}}",
+      "keys": [
+        "skills/skill:gww:15410/variants/skill-version:gww:15410/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:15410/variants/skill-version:gww:15410/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Shivers of Dread",
+          "pageid": 15410,
+          "revid": 2720775
+        }
+      ],
+      "counts": {
+        "template:research needed": 1
+      },
+      "templates": [
+        {
+          "name": "research needed",
+          "raw": "{{research needed|Is the concise description incorrect or can this skill interrupt actions?}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* Signet of Illusions has good synergy with spell copying skills (e.g. Inspired Hex or Arcane Thievery), since the copied skills will be used with a high effective rank.\n* Spells with a failure chance below a certain attribute rank (such as Slippery Ground) used while under this skill's effect retain their chance to fail.\n* Has no duration (this is one of the few skills that last indefinitely without an upkeep).\n* No Attribute spells still use charges.\n* Although they are not technically linked to attributes, Signet of Illusions will work with spells linked to title tracks.\n:{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"17\" |Progression\n|- colspan=\"17\" style=\"background:#DFD;\"\n!Illusion Magic\n|0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15\n|-\n! Effective Asura / Deldrimor / Ebon Vanguard / Norn / Sunspear rank\n|0||‡||‡||1||‡||‡||2||‡||‡||3||‡||‡||4||‡||‡||5+\n|-\n! Effective Friend of the Kurzicks / Luxons rank\n|0||‡||1||‡||‡||2||‡||3||‡||‡||4||‡||5||‡||‡||6+\n|}\n: ‡ The effective rank falls between that of two title track ranks.\n\nItems that grant a 20% chance of adding +1 to Illusion Magic do not affect spells cast while this signet is active. For example, you cannot use \"Master of My Domain\" to obtain rank 21 in the table above. Instead, spells will use the unmodified Illusion rank.",
+      "keys": [
+        "skills/skill:gww:1335/variants/skill-version:gww:1335/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1335/variants/skill-version:gww:1335/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Signet of Illusions",
+          "pageid": 1335,
+          "revid": 2740644
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.\n* AI seems to cast it on targets with at least one adrenaline skill.\n* This skill may actually increase the Black Bear's damage per second by effectively preventing the use of Brutal Mauling.",
+      "keys": [
+        "skills/skill:gww:1604/variants/skill-version:gww:1604/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1604/variants/skill-version:gww:1604/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Soothing Images",
+          "pageid": 1604,
+          "revid": 2714814
+        }
+      ],
+      "counts": {
+        "template:outdated info": 1
+      },
+      "templates": [
+        {
+          "name": "outdated info",
+          "raw": "{{Outdated info|}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{| class=\"skill-progression\" cellpadding=\"0\" cellspacing=\"0\"\n! colspan=\"2\" | Progression\n|-\n| nowrap=\"nowrap\" style=\"font-weight: bold;vertical-align: top;\" |\n Spawning Power\n Net Energy Gain (Within Spirit Earshot)\n| style=\"vertical-align: top;\" |\n \n 0\n 2\n\n \n 1\n 3 \n\n \n 2\n 7 \n\n \n 3\n 8 \n\n \n 4\n 8\n\n \n 5\n 13\n\n \n 6\n 14 \n\n \n 7\n 14 \n\n \n 8\n 19 \n\n \n 9\n 19 \n\n \n 10\n 20 \n\n \n 11\n 25 \n\n \n 12\n 25 \n\n \n 13\n 26 \n\n \n 14\n 30 \n\n \n 15\n 31 \n\n \n 16\n 32 \n\n \n 17\n 36 \n\n \n 18\n 37 \n\n \n 19\n 37 \n\n \n 20\n 42 \n\n \n 21\n 43 \n\n|}",
+      "keys": [
+        "skills/skill:gww:4230/variants/skill-version:gww:4230/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:4230/variants/skill-version:gww:4230/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Spirit Channeling",
+          "pageid": 4230,
+          "revid": 2733203
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "* There is a monster skill in Eye of the North with the same name.\n* The target does not suffer the conditional damage from a block.\n{{Skill change}}",
+      "keys": [
+        "skills/skill:gww:2427/variants/skill-version:gww:2427/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:2427/variants/skill-version:gww:2427/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Splinter Shot",
+          "pageid": 2427,
+          "revid": 2733161
+        }
+      ],
+      "counts": {
+        "template:skill change": 1
+      },
+      "templates": [
+        {
+          "name": "skill change",
+          "raw": "{{Skill change}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|8|14|25|15}}",
+      "keys": [
+        "skills/skill:gww:3979/variants/skill-version:gww:3979/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:3979/variants/skill-version:gww:3979/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Sprint",
+          "pageid": 3979,
+          "revid": 2684282
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|8|14|25|15}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{speed|8|20|25|20}}\n* The energy gain is triggered by any elemental damage packet, even when that damage is 0.\n* Good synergy with Stone Striker or Greater Conflagration.",
+      "keys": [
+        "skills/skill:gww:6591/variants/skill-version:gww:6591/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:6591/variants/skill-version:gww:6591/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Storm Chaser",
+          "pageid": 6591,
+          "revid": 2683457
+        }
+      ],
+      "counts": {
+        "template:speed": 1
+      },
+      "templates": [
+        {
+          "name": "speed",
+          "raw": "{{speed|8|20|25|20}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* Heroes do not cast this enchantment between battles, though they maintain it reliably during combat.\n* This skill can lower the strength of signets, since the Fast Casting rank is used, even when the linked attribute has a greater rank.\n* Symbolic Celerity works with signets linked to title tracks.\n\n:{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"17\" |Progression\n|- colspan=\"17\" style=\"background:#DFD;\"\n! align=left| Fast Casting\n|0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15\n|-\n! align=left| Effective rank: Ebon Vanguard\n|0||‡||‡||1||‡||‡||2||‡||‡||3||‡||‡||4||‡||‡||5+\n|-\n! align=left| Effective rank: Sunspear\n|0||1||‡||2||3||‡||4||5||‡||6||7||‡||8||9||‡||10\n|-\n! align=left| Effective rank: Lightbringer\n|0||‡||‡||‡||‡||‡||‡||‡||‡||‡||‡||‡||3||‡||‡||4+\n|-\n! align=left| Effective rank: Kurzick / Luxon\n|0||‡||1||‡||‡||2||‡||3||‡||‡||4||‡||5||‡||‡||6+\n|}\n\n: ‡ The effective rank falls between that of two title track ranks.\n\nItems that grant a 20% chance of adding +1 to Fast Casting do not affect signets that are cast while this enchantment is active. For example, you cannot use \"Master of My Domain\" to obtain rank 21 in the table above. Instead, other signets will use the unmodified FC rank.",
+      "keys": [
+        "skills/skill:gww:1522/variants/skill-version:gww:1522/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1522/variants/skill-version:gww:1522/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Symbolic Celerity",
+          "pageid": 1522,
+          "revid": 2739250
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "* Unlike all other skills that \"steal\" skills, this does not disable the corresponding original and instead is placed as a skill icon in the Effects Monitor. When you hover over the skill icons of elite spells in the Effects Monitor, their skill descriptions will appear to have effects based on their normal ranks, but the Fast Casting rank will be used when the spells are cast.\n* Symbols of Inspiration will only recharge normally if no skill was copied. If a skill was copied, Symbols of Inspiration is disabled for 15 seconds after the copy effect ends.\n* All elite spells on your skill bar will use your Fast Casting attribute rank even if they were obtained by other means, such as Arcane Mimicry, Arcane Thievery or Signet of Capture. This will work with skills linked to title tracks, specifically Norn Forms.\n\n:{| style=\"margin:1em 0.25em; border:1px solid #6A3; border-collapse:collapse; text-align:center;\" cellpadding=\"3\" cellspacing=\"0\" rules=\"all\"\n|- style=\"background:#ADA;\"\n| colspan=\"17\" |Progression\n|- colspan=\"17\" style=\"background:#DFD;\"\n!Fast Casting\n|0||1||2||3||4||5||6||7||8||9||10||11||12||13||14||15\n|-\n! Effective Norn rank\n|0||‡||‡||1||‡||‡||2||‡||‡||3||‡||‡||4||‡||‡||5+\n|}\n: ‡ The effective rank falls between that of two title track ranks.\n* If your target does not have an elite skill for you to copy, the secondary effect that makes all elite spells use Fast Casting will still apply.\n* This skill is on the restricted list for Codex Arena.\n* The functionality of this skill has changed since its introduction; see its skill history for details.",
+      "keys": [
+        "skills/skill:gww:1520/variants/skill-version:gww:1520/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:1520/variants/skill-version:gww:1520/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Symbols of Inspiration",
+          "pageid": 1520,
+          "revid": 2739301
+        }
+      ],
+      "counts": {
+        "wiki-table": 1
+      },
+      "templates": [],
+      "htmlTags": []
+    },
+    {
+      "source": "{{research needed|Which effects do the Norn elite forms remove and which ones do they leave?}}\n* When this skill is activated, most effects will be removed, including upkept enchantments, with some exceptions, but Ursan Blessing's effects still override any effects that affect attributes, health, or armor:\n** Bundles will still be held, including carried item spell bundles, \n** Summoned creatures will not be dismissed upon having their related skills removed.\n** Various skill effects: \n*** Air of Superiority. Its 10% chance to recharge skills on kill may allow early use of Totem of Man and earlier reuse of the Blessing.\n*** Protector's Defense\n*** Signet of Stamina, but its effect is fully overriden. \n*** Troll Unguent\n*** \"Together as One!\"\n*** Never Rampage Alone\n* For the first 30 seconds, it's impossible to use Totem of Man as it is recharging.\n* When the blessing ends, the skill bar is reverted, and Ursan Blessing starts recharging.\n* Since this blessing and all associated skills do not require a weapon to be used, they can be used while carrying bundles.\n* Combines well with Item Spells that have an effect when dropped such as Protective Was Kaolai or Blind Was Mingson.\n* Combines well with Binding Rituals since spirits will be maintained upon transformation and their attacks are affected by Ursan Roar. \n* Temporary mission skills such as Celestial Storm obtained while in this form will be lost upon leaving this form. They will be returned if they were received before entering this form\nAlthough it is classified as a Form, the caster does not change appearance.\nA new skill obtained (as a quest reward) while transformed may be used while in this form. After turning back to human form, the skill stays in the skill bar, but it becomes unusable until its position is swapped with another skill in the skills and attributes panel.",
+      "keys": [
+        "skills/skill:gww:58325/variants/skill-version:gww:58325/notes/0"
+      ],
+      "unreviewedKeys": [],
+      "references": [
+        {
+          "title": "Ursan Blessing",
+          "pageid": 58325,
+          "revid": 2743607
+        }
+      ],
+      "counts": {
+        "template:research needed": 1
+      },
+      "templates": [
+        {
+          "name": "research needed",
+          "raw": "{{research needed|Which effects do the Norn elite forms remove and which ones do they leave?}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* Self-renewing enchantments (e.g. Lyssa's Aura, Vow of Revolution or Critical Defenses) do not renew this enchantment when they are renewed.\n* Vow of Piety triggers Soul Barbs with each reapplication.\n\n\nWhen a character is enchanted with Vow of Piety and at least one Air Magic, Earth Magic, Fire Magic or Water Magic enchantment (e.g. Windborne Speed), and loses all enchantments (e.g. due to the effects of Gaze of Contempt, Release Enchantments or Second Wind, but not Rend Enchantments nor Strip Enchantment that remove a certain number of enchantments), Vow of Piety will still be reapplied. This does not occur for Energy Storage, dervish nor monk enchantments. {{{|Video}}}.",
+      "keys": [
+        "skills/skill:gww:14396/variants/skill-version:gww:14396/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14396/variants/skill-version:gww:14396/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Vow of Piety",
+          "pageid": 14396,
+          "revid": 2733232
+        }
+      ],
+      "counts": {
+        "template:[triple-brace parameter]": 1
+      },
+      "templates": [
+        {
+          "name": "[triple-brace parameter]",
+          "raw": "{{{|Video}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "anomaly: When a character is enchanted with Vow of Piety and at least one Air Magic, Earth Magic, Fire Magic or Water Magic enchantment (e.g. Windborne Speed), and loses all enchantments (e.g. due to the effects of Gaze of Contempt, Release Enchantments or Second Wind, but not Rend Enchantments nor Strip Enchantment that remove a certain number of enchantments), Vow of Piety will still be reapplied. This does not occur for Energy Storage, dervish nor monk enchantments. {{{|Video}}}.",
+      "keys": [
+        "skills/skill:gww:14396/variants/skill-version:gww:14396/notes/1"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14396/variants/skill-version:gww:14396/notes/1"
+      ],
+      "references": [
+        {
+          "title": "Vow of Piety",
+          "pageid": 14396,
+          "revid": 2733232
+        }
+      ],
+      "counts": {
+        "template:[triple-brace parameter]": 1
+      },
+      "templates": [
+        {
+          "name": "[triple-brace parameter]",
+          "raw": "{{{|Video}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "Similar to Ward of Weakness, this ward spell's recharge time cannot be decreased. For example, activating this ward spell while under the effects of Glyph of Renewal or Glyph of Swiftness will consume the glyph, but the recharge time will not be decreased. However, the recharge time can be increased, e.g., by Glyph of Sacrifice.\n{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.",
+      "keys": [
+        "skills/skill:gww:11654/variants/skill-version:gww:11654/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:11654/variants/skill-version:gww:11654/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Ward of Stability",
+          "pageid": 11654,
+          "revid": 2683940
+        }
+      ],
+      "counts": {
+        "template:outdated info": 1
+      },
+      "templates": [
+        {
+          "name": "outdated info",
+          "raw": "{{Outdated info|}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* The amount of energy regained is rounded; for example, a 5{{energy}} spell returns 3{{energy}} instead of 2.5{{energy}}, and a 15{{energy}} spell returns 6{{energy}} instead of 5.5{{energy}}.",
+      "keys": [
+        "skills/skill:gww:11209/variants/skill-version:gww:11209/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:11209/variants/skill-version:gww:11209/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Water Attunement",
+          "pageid": 11209,
+          "revid": 2718871
+        }
+      ],
+      "counts": {
+        "template:energy": 6
+      },
+      "templates": [
+        {
+          "name": "energy",
+          "raw": "{{energy}}"
+        },
+        {
+          "name": "energy",
+          "raw": "{{energy}}"
+        },
+        {
+          "name": "energy",
+          "raw": "{{energy}}"
+        },
+        {
+          "name": "energy",
+          "raw": "{{energy}}"
+        },
+        {
+          "name": "energy",
+          "raw": "{{energy}}"
+        },
+        {
+          "name": "energy",
+          "raw": "{{energy}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "* This skill takes effect as soon as damage is dealt. When triggered by an attack or skill that also applies a condition, that condition will be removed only if it is applied before the damage is dealt.\n** Condition-applying attack skills and preparations apply their conditions after the attack damage is dealt; Weapon of Remedy will not remove these conditions.\n** Enchantments such as Grenth's Grasp and Double Dragon which add a condition application to subsequent attacks or skills trigger before damage is dealt, allowing Weapon of Remedy to remove their conditions immediately if triggered by the same action.\n** Some spells, such as Immolate, deal damage before applying their conditions, whereas others, such as Eruption, apply conditions first. {{research needed|Lots more skills to test, if it's worth doing so. See talk page}}\nIf used when taking damage from multiple sources from only one attack, Weapon of Remedy will trigger multiple times. For example, if a foe hexed with Barbs takes physical damage, Weapon of Remedy will trigger both for the physical damage and for the Barbs damage.",
+      "keys": [
+        "skills/skill:gww:4088/variants/skill-version:gww:4088/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:4088/variants/skill-version:gww:4088/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Weapon of Remedy",
+          "pageid": 4088,
+          "revid": 2740841
+        }
+      ],
+      "counts": {
+        "template:research needed": 1
+      },
+      "templates": [
+        {
+          "name": "research needed",
+          "raw": "{{research needed|Lots more skills to test, if it's worth doing so. See talk page}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "{{Outdated info|}}\n;February 05, 2019 update; please verify changes to AI behavior.",
+      "keys": [
+        "skills/skill:gww:14074/variants/skill-version:gww:14074/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14074/variants/skill-version:gww:14074/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Wearying Strike",
+          "pageid": 14074,
+          "revid": 2684212
+        }
+      ],
+      "counts": {
+        "template:outdated info": 1
+      },
+      "templates": [
+        {
+          "name": "outdated info",
+          "raw": "{{Outdated info|}}"
+        }
+      ],
+      "htmlTags": []
+    },
+    {
+      "source": "*This is one of several skills that can remove enchantments that prevent spell targeting.\n*The damage is dealt after the enchantment removal.\n{{Skill change}}",
+      "keys": [
+        "skills/skill:gww:14400/variants/skill-version:gww:14400/notes/0"
+      ],
+      "unreviewedKeys": [
+        "skills/skill:gww:14400/variants/skill-version:gww:14400/notes/0"
+      ],
+      "references": [
+        {
+          "title": "Winds of Disenchantment",
+          "pageid": 14400,
+          "revid": 2721031
+        }
+      ],
+      "counts": {
+        "template:skill change": 1
+      },
+      "templates": [
+        {
+          "name": "skill change",
+          "raw": "{{Skill change}}"
+        }
+      ],
+      "htmlTags": []
+    }
+  ],
+  "existingArmorNotesReuseProbe": {
+    "preparation": "Normalize colon indentation before table openers, then call existing armorNotes on raw Notes section; no controlled inputs changed.",
+    "rows": [
+      {
+        "key": "skills/skill:gww:58328/variants/skill-version:gww:58328/notes/0",
+        "title": "Air of Superiority",
+        "result": "Invalid armor note table"
+      },
+      {
+        "key": "skills/skill:gww:5084/variants/skill-version:gww:5084/notes/0",
+        "title": "Attuned Was Songkai",
+        "result": "parsed",
+        "remainingMarkup": true,
+        "preview": "* The energy cost reduction is rounded down from 0.5. Table with energy cost reduction factored in:\n1 Energy spells cost: 0: 1; 1: 1; 2: 1; 3: 1; 4: 1; 5: 1; 6: 1; 7: 1; 8: 1; 9: 1"
+      },
+      {
+        "key": "skills/skill:gww:1637/variants/skill-version:gww:1637/notes/0",
+        "title": "Auspicious Incantation",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* Synergy with Arcane Echo (and other copying skills), since whenever the copying skill becomes another skill it instantly starts off recharged, and the copy eventually expires, nu"
+      },
+      {
+        "key": "skills/skill:gww:6779/variants/skill-version:gww:6779/notes/0",
+        "title": "Blades of Steel",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "Melee attacks also contribute to the bonus damage of this skill.\n* This skill counts itself as recharging for the damage bonus. These are the number of recharging melee attack skil"
+      },
+      {
+        "key": "skills/skill:gww:14598/variants/skill-version:gww:14598/notes/0",
+        "title": "Critical Strike",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* This skill is useful for maintaining Critical Defenses or Critical Agility since it's a guaranteed critical hit.\n* This skill is effective for maintaining your energy because, in"
+      },
+      {
+        "key": "skills/skill:gww:2823/variants/skill-version:gww:2823/notes/0",
+        "title": "Destruction",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* This skill creates a Spirit of Destruction that deals armor-ignoring lightning damage.\n* Combine this with Ritual Lord or Soul Twisting for faster recharge and damage output.\n* U"
+      },
+      {
+        "key": "skills/skill:gww:2823/variants/skill-version:gww:207855/notes/0",
+        "title": "Destruction (PvP)",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* This skill creates a Spirit of Destruction.\n* Use with skills that destroy spirits to control the damage spike, such as Rupture Soul.\n* This skill deals armor-ignoring lightning "
+      },
+      {
+        "key": "skills/skill:gww:5102/variants/skill-version:gww:5102/notes/0",
+        "title": "Doom",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* These are the number of recharging binding rituals required for maximum damage:\n0-3: Recharging binding rituals: 7\n4: Recharging binding rituals: 6\n5-7: Recharging binding ritual"
+      },
+      {
+        "key": "skills/skill:gww:14077/variants/skill-version:gww:14077/notes/0",
+        "title": "Dwayna's Touch",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* These are the number of enchantments required for maximum healing:\n0: Enchantments: 1\n1-5: Enchantments: 2\n6-10: Enchantments: 3\n11-15: Enchantments: 4\n16-20: Enchantments: 5"
+      },
+      {
+        "key": "skills/skill:gww:4064/variants/skill-version:gww:4064/notes/0",
+        "title": "Elemental Attunement",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* The amount of energy regained is rounded; for example, a 5 energy spell returns 1+3=4 energy instead of 30.5 energy.\n* When combined with one of the other attunements (e.g. Fire "
+      },
+      {
+        "key": "skills/skill:gww:16247/variants/skill-version:gww:16247/notes/0",
+        "title": "Elemental Flame",
+        "result": "Invalid armor note table"
+      },
+      {
+        "key": "skills/skill:gww:2569/variants/skill-version:gww:215073/notes/0",
+        "title": "Enraged Lunge (PvP)",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* Skills that disable non-attack skills (Tiger's Fury or Marauder's Shot for example) synergize well with this skill as it also deals extra damage for skills such as Charm Animal a"
+      },
+      {
+        "key": "skills/skill:gww:51924/variants/skill-version:gww:51924/notes/0",
+        "title": "Expert Focus",
+        "result": "Invalid armor note table"
+      },
+      {
+        "key": "skills/skill:gww:1243/variants/skill-version:gww:1243/notes/0",
+        "title": "Prepared Shot",
+        "result": "Invalid armor note table"
+      },
+      {
+        "key": "skills/skill:gww:6588/variants/skill-version:gww:6588/notes/0",
+        "title": "Quickening Zephyr",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* This skill creates a Spirit of Quickening Zephyr.\n* The cost increase occurs at the beginning of the activation of a skill, while the recharge reduction occurs at the end.\n* Rech"
+      },
+      {
+        "key": "skills/skill:gww:3950/variants/skill-version:gww:3950/notes/0",
+        "title": "Rampage as One",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* Since only this skill's duration scales with beast mastery (it has no activation time or aftercast delay), but its cost scales with Expertise, there can be a compromise. The tabl"
+      },
+      {
+        "key": "skills/skill:gww:5884/variants/skill-version:gww:5884/notes/0",
+        "title": "Recuperation",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* This skill creates a Spirit of Recuperation.\n* At a glance, a maximum of +3 health regeneration doesn't sound like a lot, but consider that it affects all allies within spirit ra"
+      },
+      {
+        "key": "skills/skill:gww:4334/variants/skill-version:gww:4334/notes/0",
+        "title": "Second Wind",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* You gain energy and health from this skill’s own overcast cost.\n* You can quickly build up overcast to a useful amount by activating and canceling this skill a few times.\n* This "
+      },
+      {
+        "key": "skills/skill:gww:1335/variants/skill-version:gww:1335/notes/0",
+        "title": "Signet of Illusions",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* Signet of Illusions has good synergy with spell copying skills (e.g. Inspired Hex or Arcane Thievery), since the copied skills will be used with a high effective rank.\n* Spells w"
+      },
+      {
+        "key": "skills/skill:gww:4230/variants/skill-version:gww:4230/notes/0",
+        "title": "Spirit Channeling",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "Progression"
+      },
+      {
+        "key": "skills/skill:gww:1522/variants/skill-version:gww:1522/notes/0",
+        "title": "Symbolic Celerity",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* Heroes do not cast this enchantment between battles, though they maintain it reliably during combat.\n* This skill can lower the strength of signets, since the Fast Casting rank i"
+      },
+      {
+        "key": "skills/skill:gww:1520/variants/skill-version:gww:1520/notes/0",
+        "title": "Symbols of Inspiration",
+        "result": "parsed",
+        "remainingMarkup": false,
+        "preview": "* Unlike all other skills that \"steal\" skills, this does not disable the corresponding original and instead is placed as a skill icon in the Effects Monitor. When you hover over th"
+      }
+    ],
+    "summary": {
+      "tables": 22,
+      "parsed": 18,
+      "rejected": 4,
+      "knownSilentDataLoss": [
+        "Spirit Channeling / page4230: conversion returns Progression only, dropping all ranks and values."
+      ],
+      "remainingPresentationMarkup": [
+        "Attuned Was Songkai / page5084: bgcolor cell attributes survive conversion."
+      ],
+      "notNumericLossCertified": true
+    }
+  },
+  "readOnlySpeedTemplateObservation": {
+    "observedAt": "2026-11-23T10:16:18.839Z",
+    "pageid": 305750,
+    "revid": 2636862,
+    "timestamp": "2019-02-18T18:49:56Z",
+    "url": "https://wiki.guildwars.com/index.php?title=Template%3ASpeed&oldid=2636862",
+    "responseSha256": "05385251dcef7dd6f6518483415d88b7ad6bae0a8578596484bd42adda2f3e61",
+    "adoptedIntoControlledSources": false,
+    "meaning": "Average movement speed increase if reused immediately on recharge. Parameters are duration at attribute 0, duration at attribute 15, boost percentage, and recharge seconds. Output ranks are 0,12,15, with rank12 duration rounded to integer before division; final averages rounded to 2 decimal places.",
+    "examples": [
+      {
+        "input": "{{speed|4|10|25|10}}",
+        "averagePercent": [
+          10,
+          22.5,
+          25
+        ]
+      },
+      {
+        "input": "{{speed|2|8|25|10}}",
+        "averagePercent": [
+          5,
+          17.5,
+          20
+        ]
+      }
+    ]
+  },
+  "classification": {
+    "speed": "Calculated mechanic summary: expand only from fixed template evidence; never delete parameter numbers.",
+    "stdt": "Table styling: discard only after retaining all table captions, row/column labels and cell data.",
+    "outdated info": "Source reliability warning: render an explicit marker and retain warning scope/date and following content.",
+    "skill change": "History/editorial notice: render a history reference or remove only the empty formatting shell after checking its template meaning.",
+    "research needed": "Source uncertainty: render pending-research marker and preserve the question; not a verified mechanic.",
+    "/table": "Relative source transclusion: preserve until fixed Pious Renewal/table source is acquired and bound; must not be deleted.",
+    "[triple-brace parameter]": "Presentation parameter with default external Video label in raw Vow of Piety source; resolve fallback label and retain video identity rather than rendering braces.",
+    "energy": "Unit icon: expand to Energy so adjacent numerical values retain their unit.",
+    "wiki-table": "Semantic numeric table: convert with row/column association intact; reject malformed structures rather than dropping cells."
+  },
+  "status": "identified-not-fixed",
+  "boundary": "此文件記錄英文 Notes 原始標記缺口；不授予校對完成、人工批准或遊戲內核驗。Speed 線上觀察尚未採納為固定編譯來源。"
+}

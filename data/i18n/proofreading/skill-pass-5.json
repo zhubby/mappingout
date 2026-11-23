@@ -1,0 +1,3513 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "Binding Ritual. Create a level 1…13…16 spirit. This spirit heals all party members within earshot for 3…9…10 Health each second. This spirit loses 3…9…10 Health for each party member healed in this way. This spirit dies after 30…78…90 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…13…16 的精靈。此精靈每秒為音量所及範圍內的所有隊伍成員恢復 3…9…10 點體力。每以此方式治療一名隊伍成員，此精靈失去 3…9…10 點體力。此精靈在 30…78…90 秒後死亡。",
+      "reason": "修正縛靈儀式、精靈與隊伍成員的誤譯；治療按每秒結算，精靈按每名獲治療隊員支付體力，兩處同一效果值保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51865/variants/skill-version:gww:207694/description",
+          "englishHash": "6a75a0a25e26c36ed421fdb7ab5208dff78960f09674994fdc4e5fd9b449505b",
+          "evidenceHash": "e450b0a48d5e08282a61a7ed5b55e6461decb90579f1aecc68694645f54c7d3a"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. This spirit heals all party members within earshot for [[MO:growth:0:var2]] Health each second. This spirit loses [[MO:growth:0:var2]] Health for each party member healed in this way. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。此精靈每秒為音量所及範圍內的所有隊伍成員恢復 [[MO:growth:0:var2]] 點體力。每以此方式治療一名隊伍成員，此精靈失去 [[MO:growth:0:var2]] 點體力。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "修正縛靈儀式、精靈與隊伍成員的誤譯；治療按每秒結算，精靈按每名獲治療隊員支付體力，兩處同一效果值保留。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 的精靈等級，保留每秒治療與每名隊員的精靈體力代價，不套用 PvP 等級。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51865/variants/skill-version:gww:207694/descriptionTemplate",
+          "englishHash": "e8ff8c113a11e89324f81b5f0d5cf8738ee7398e51784d76dd5cfb7689e28d77",
+          "evidenceHash": "e450b0a48d5e08282a61a7ed5b55e6461decb90579f1aecc68694645f54c7d3a"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51865/variants/skill-version:gww:51865/descriptionTemplate",
+          "englishHash": "e8ff8c113a11e89324f81b5f0d5cf8738ee7398e51784d76dd5cfb7689e28d77",
+          "evidenceHash": "f46493f4ad25cac9be13c18e386b1ecdf103117049668ec89d1d8390ebf9816b"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…16…20 spirit. This spirit heals all party members within earshot for 3…9…10 Health each second. This spirit loses 3…9…10 Health for each party member healed in this way. This spirit dies after 30…78…90 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…16…20 的精靈。此精靈每秒為音量所及範圍內的所有隊伍成員恢復 3…9…10 點體力。每以此方式治療一名隊伍成員，此精靈失去 3…9…10 點體力。此精靈在 30…78…90 秒後死亡。",
+      "reason": "獨立核對 PvE 的精靈等級，保留每秒治療與每名隊員的精靈體力代價，不套用 PvP 等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51865/variants/skill-version:gww:51865/description",
+          "englishHash": "abc3c317147bbac9236fd0fe9c50d64d88fe1c3479b73f0d1206f6c5c8952e19",
+          "evidenceHash": "f46493f4ad25cac9be13c18e386b1ecdf103117049668ec89d1d8390ebf9816b"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…7…8 spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after 30…54…60 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…7…8 的精靈。其範圍內的非精靈盟友每次受到傷害或體力竊取時，該數值減少 15 點，而此精靈承受 15 點傷害。此精靈在 30…54…60 秒後死亡。",
+      "reason": "精靈並非精神；逐項保留非精靈盟友、傷害及體力竊取兩種減免對象和精靈承傷，核對 PvP 等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6329/variants/skill-version:gww:207632/description",
+          "englishHash": "d541c3da503a211d4f7e68f5c0ec990d0729609d3ac6b7570727ef0e80063e00",
+          "evidenceHash": "3ab0438dffeca33cdfca2967069357fe8e950ce9e0b528de9ed2b96ac5a51111"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內的非精靈盟友每次受到傷害或體力竊取時，該數值減少 15 點，而此精靈承受 15 點傷害。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "精靈並非精神；逐項保留非精靈盟友、傷害及體力竊取兩種減免對象和精靈承傷，核對 PvP 等級。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 等級及壽命；固定 15 點同時用於盟友減免和精靈承傷，不誤寫成轉移所有傷害。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6329/variants/skill-version:gww:207632/descriptionTemplate",
+          "englishHash": "8fbacdf3de56908479ab64a2605a280580db6e5d9577023600e3d7a114f91ff9",
+          "evidenceHash": "3ab0438dffeca33cdfca2967069357fe8e950ce9e0b528de9ed2b96ac5a51111"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6329/variants/skill-version:gww:6329/descriptionTemplate",
+          "englishHash": "8fbacdf3de56908479ab64a2605a280580db6e5d9577023600e3d7a114f91ff9",
+          "evidenceHash": "2f48a41a671b549e2a5df54056744eec99a10049a3a4b4c0a5e5edc502455adb"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…10…12 spirit. Whenever a non-spirit ally in its range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage. This spirit dies after 30…54…60 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…10…12 的精靈。其範圍內的非精靈盟友每次受到傷害或體力竊取時，該數值減少 15 點，而此精靈承受 15 點傷害。此精靈在 30…54…60 秒後死亡。",
+      "reason": "獨立核對 PvE 等級及壽命；固定 15 點同時用於盟友減免和精靈承傷，不誤寫成轉移所有傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6329/variants/skill-version:gww:6329/description",
+          "englishHash": "93602b4df42b1bdb0492f8452cdb598c434601b4e166269dae37d0edd39015de",
+          "evidenceHash": "2f48a41a671b549e2a5df54056744eec99a10049a3a4b4c0a5e5edc502455adb"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…7…8 spirit. Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack. When this spirit prevents damage, it loses 75…51…45 Health. This spirit lasts 30…54…60 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…7…8 的精靈。其範圍內的非精靈盟友，單次傷害造成的體力損失不超過各自最大體力的 10%（包含魔法與紋章傷害）。每當此精靈阻止傷害，它失去 75…51…45 點體力。此精靈持續 30…54…60 秒。",
+      "reason": "PvE/PvP 固定頁面均以 anomaly 明確指出魔法與紋章傷害也會減免；據此澄清單次傷害上限，並分別核對等級、精靈支付的體力與壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/description",
+          "englishHash": "ccea32fb6d736fb655217a8952edf758198d7601b1d1ce747dfa22052de7ecab",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Shelter",
+          "pageid": 6332,
+          "revid": 2720898,
+          "sha1": "6739c47026ed2ddede3b5f9ab7e523a4ad2e5881",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shelter&oldid=2720898"
+        },
+        {
+          "title": "Shelter (PvP)",
+          "pageid": 207628,
+          "revid": 2720899,
+          "sha1": "41ca8c243733b424efd0c144ee5ec1942ce223f1",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shelter%20(PvP)&oldid=2720899"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack. When this spirit prevents damage, it loses [[MO:growth:0:var2]] Health. This spirit lasts [[MO:growth:0:var3]] seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內的非精靈盟友，單次傷害造成的體力損失不超過各自最大體力的 10%（包含魔法與紋章傷害）。每當此精靈阻止傷害，它失去 [[MO:growth:0:var2]] 點體力。此精靈持續 [[MO:growth:0:var3]] 秒。",
+      "reason": "PvE/PvP 固定頁面均以 anomaly 明確指出魔法與紋章傷害也會減免；據此澄清單次傷害上限，並分別核對等級、精靈支付的體力與壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/descriptionTemplate",
+          "englishHash": "0dfdafe147895767684daa79f1828bd1502d562b056a6289bf3d926484c917ac",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/descriptionTemplate",
+          "englishHash": "0dfdafe147895767684daa79f1828bd1502d562b056a6289bf3d926484c917ac",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Shelter",
+          "pageid": 6332,
+          "revid": 2720898,
+          "sha1": "6739c47026ed2ddede3b5f9ab7e523a4ad2e5881",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shelter&oldid=2720898"
+        },
+        {
+          "title": "Shelter (PvP)",
+          "pageid": 207628,
+          "revid": 2720899,
+          "sha1": "41ca8c243733b424efd0c144ee5ec1942ce223f1",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shelter%20(PvP)&oldid=2720899"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…10…12 spirit. Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack. When this spirit prevents damage, it loses 75…51…45 Health. This spirit lasts 30…54…60 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…10…12 的精靈。其範圍內的非精靈盟友，單次傷害造成的體力損失不超過各自最大體力的 10%（包含魔法與紋章傷害）。每當此精靈阻止傷害，它失去 75…51…45 點體力。此精靈持續 30…54…60 秒。",
+      "reason": "PvE/PvP 固定頁面均以 anomaly 明確指出魔法與紋章傷害也會減免；據此澄清單次傷害上限，並分別核對等級、精靈支付的體力與壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/description",
+          "englishHash": "b0702d468e0e810b7936dee9ccdc95b6de0f5a76da0fb1c352eb9f1457ed836d",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Shelter",
+          "pageid": 6332,
+          "revid": 2720898,
+          "sha1": "6739c47026ed2ddede3b5f9ab7e523a4ad2e5881",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shelter&oldid=2720898"
+        },
+        {
+          "title": "Shelter (PvP)",
+          "pageid": 207628,
+          "revid": 2720899,
+          "sha1": "41ca8c243733b424efd0c144ee5ec1942ce223f1",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shelter%20(PvP)&oldid=2720899"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 5…17…20 seconds, whenever a spell you cast is interrupted, that spell is instantly recharged.",
+      "text": "加持魔法。持續 5…17…20 秒，每當你施放的魔法被中斷，該魔法立即完成冷卻。",
+      "reason": "recharged 指立即完成冷卻，不是恢復體力或恢復施放；觸發條件是施放者的魔法遭中斷。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1517/variants/skill-version:gww:1517/description",
+          "englishHash": "effb1ef229300e233b8d58f8c9bd040697b20e7cbfa02f1edee7e1d8dcf36bfd",
+          "evidenceHash": "7337ac801753c9a377fab922193032252bb4ba605d42c474c26e1a281a1d643a"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For [[MO:growth:0:var1]] seconds, whenever a spell you cast is interrupted, that spell is instantly recharged.",
+      "text": "加持魔法。持續 [[MO:growth:0:var1]] 秒，每當你施放的魔法被中斷，該魔法立即完成冷卻。",
+      "reason": "recharged 指立即完成冷卻，不是恢復體力或恢復施放；觸發條件是施放者的魔法遭中斷。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1517/variants/skill-version:gww:1517/descriptionTemplate",
+          "englishHash": "71d748e5a73865f065868c6832e8275263c4d0130cfba296cf64b29887ed577a",
+          "evidenceHash": "7337ac801753c9a377fab922193032252bb4ba605d42c474c26e1a281a1d643a"
+        }
+      ]
+    },
+    {
+      "source": "Elite Hex Spell. If target foe is casting a spell or chant, that skill is interrupted and for 10 seconds, whenever that foe casts a spell, you steal up to 5…13…15 Energy from that foe.",
+      "text": "精英降咒魔法。若目標敵人正在施放魔法或聖歌，中斷該技能，並在接下來 10 秒內，每當該敵人施放魔法，你便從其身上竊取最多 5…13…15 點能量。",
+      "reason": "原文的中斷與後續竊能均依賴命中施放中的魔法或聖歌；後續只由施放魔法觸發，並保留最多的上限。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1668/variants/skill-version:gww:1668/description",
+          "englishHash": "78c4e0aef32c532fe5627d18e13099a4552b7c9fe818c16a3e873989bd4d87ad",
+          "evidenceHash": "bbe2ec550a5f0ac7a7e22cadb323c6b96418cb49109dbd2b88c33a4012b33d8c"
+        }
+      ]
+    },
+    {
+      "source": "Elite Hex Spell. If target foe is casting a spell or chant, that skill is interrupted and for 10 seconds, whenever that foe casts a spell, you steal up to [[MO:growth:0:var1]] Energy from that foe.",
+      "text": "精英降咒魔法。若目標敵人正在施放魔法或聖歌，中斷該技能，並在接下來 10 秒內，每當該敵人施放魔法，你便從其身上竊取最多 [[MO:growth:0:var1]] 點能量。",
+      "reason": "原文的中斷與後續竊能均依賴命中施放中的魔法或聖歌；後續只由施放魔法觸發，並保留最多的上限。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1668/variants/skill-version:gww:1668/descriptionTemplate",
+          "englishHash": "1cd0ac93de9da453d8046cde3db6a1cb2fcbebb4e7293aa8fc163b30c71c5895",
+          "evidenceHash": "bbe2ec550a5f0ac7a7e22cadb323c6b96418cb49109dbd2b88c33a4012b33d8c"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. For non-spirit creatures within its range, arrows move twice as fast and strike for +6 damage. This spirit dies after 30…198…240 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內非精靈生物射出的箭矢，飛行速度加倍，並造成 +6 點額外傷害。此精靈在 30…198…240 秒後死亡。",
+      "reason": "核對箭矢飛行速度而非攻擊速度；+6 為額外傷害，效果對象包括範圍內所有非精靈生物。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2223/variants/skill-version:gww:2223/description",
+          "englishHash": "217ede217f7560afea678221d3bd7339df9b43f532afa977407e4d91701ea0f7",
+          "evidenceHash": "9bc3b245c3f8074727041477587a92bce3cd9b821dfaac93c495c74b63a2f32f"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For non-spirit creatures within its range, arrows move twice as fast and strike for +6 damage. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內非精靈生物射出的箭矢，飛行速度加倍，並造成 +6 點額外傷害。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "核對箭矢飛行速度而非攻擊速度；+6 為額外傷害，效果對象包括範圍內所有非精靈生物。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2223/variants/skill-version:gww:2223/descriptionTemplate",
+          "englishHash": "adce5759794cd4fc12eccab27d62c8268dc2414b7653c6b96fbb216227e01353",
+          "evidenceHash": "9bc3b245c3f8074727041477587a92bce3cd9b821dfaac93c495c74b63a2f32f"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…5…6 spirit. For non-spirit creatures within its range, all skills cost 15 less Energy (minimum cost 10 Energy), and skills recharge 25% slower. This spirit dies after 1…48…60 seconds.",
+      "text": "自然儀式。創造一個等級 1…5…6 的精靈。其範圍內非精靈生物的所有技能，能量消耗減少 15 點，但最低仍為 10 點能量；技能冷卻速度降低 25%。此精靈在 1…48…60 秒後死亡。",
+      "reason": "費用是減少 15 且有最低 10 點，並非用 15 減去能量；保留冷卻變慢的百分比及所有非精靈生物。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2567/variants/skill-version:gww:2567/description",
+          "englishHash": "d215dd388d9ddf6c4ff3ac1bc255b2f49ca0d20548156089a21d0d3e67602a4c",
+          "evidenceHash": "41a43b9bb7477858fa91fab3c7256197d4acfde6d927323148a879847e9e5c50"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For non-spirit creatures within its range, all skills cost 15 less Energy (minimum cost 10 Energy), and skills recharge 25% slower. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內非精靈生物的所有技能，能量消耗減少 15 點，但最低仍為 10 點能量；技能冷卻速度降低 25%。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "費用是減少 15 且有最低 10 點，並非用 15 減去能量；保留冷卻變慢的百分比及所有非精靈生物。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2567/variants/skill-version:gww:2567/descriptionTemplate",
+          "englishHash": "20724e7e8df3824fb9ff133c0c52cdc1767184dc08dcca065bdd2cf42b957ea6",
+          "evidenceHash": "41a43b9bb7477858fa91fab3c7256197d4acfde6d927323148a879847e9e5c50"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…8…10 spirit. Conditions on allies within range of this spirit expire 20…44…50% faster. This spirit dies after 30…54…60 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…8…10 的精靈。此精靈範圍內盟友身上的病症持續時間縮短 20…44…50%。此精靈在 30…54…60 秒後死亡。",
+      "reason": "固定 Recovery 修訂 2732878 的 anomaly 明確指出，是病症持續時間按該百分比縮短，不是消退速度提高。兩模式均創造 Spirit of Recovery；分別保留各模式等級與壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/description",
+          "englishHash": "284600b2f19246d097e5f814faaeb777e75254e9a9b00b741fad2370dafddbbf",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Recovery",
+          "pageid": 4096,
+          "revid": 2732878,
+          "sha1": "b68e29bdebe3fee50231bd07ec1567d03d168f92",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery&oldid=2732878"
+        },
+        {
+          "title": "Recovery (PvP)",
+          "pageid": 207698,
+          "revid": 2732860,
+          "sha1": "4ecfe8dfb4e639eb118e7eae2ce4790a33fd24ad",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery%20(PvP)&oldid=2732860"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. Conditions on allies within range of this spirit expire [[MO:growth:0:var2]] faster. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。此精靈範圍內盟友身上的病症持續時間縮短 [[MO:growth:0:var2]]。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "固定 Recovery 修訂 2732878 的 anomaly 明確指出，是病症持續時間按該百分比縮短，不是消退速度提高。兩模式均創造 Spirit of Recovery；分別保留各模式等級與壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/descriptionTemplate",
+          "englishHash": "768c341fe7b4dbe19c7453f1e5f601c954f81eb2622aa86a5bebb4421c52e101",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/descriptionTemplate",
+          "englishHash": "768c341fe7b4dbe19c7453f1e5f601c954f81eb2622aa86a5bebb4421c52e101",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Recovery",
+          "pageid": 4096,
+          "revid": 2732878,
+          "sha1": "b68e29bdebe3fee50231bd07ec1567d03d168f92",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery&oldid=2732878"
+        },
+        {
+          "title": "Recovery (PvP)",
+          "pageid": 207698,
+          "revid": 2732860,
+          "sha1": "4ecfe8dfb4e639eb118e7eae2ce4790a33fd24ad",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery%20(PvP)&oldid=2732860"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…11…14 spirit. Conditions on allies within range of this spirit expire 20…44…50% faster. This spirit dies after 30…54…60 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…11…14 的精靈。此精靈範圍內盟友身上的病症持續時間縮短 20…44…50%。此精靈在 30…54…60 秒後死亡。",
+      "reason": "固定 Recovery 修訂 2732878 的 anomaly 明確指出，是病症持續時間按該百分比縮短，不是消退速度提高。兩模式均創造 Spirit of Recovery；分別保留各模式等級與壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/description",
+          "englishHash": "3b7b1a47b9859e38e9180e7ffacb41fb4e84e8d0923c0ac1992f66a3054c0c97",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Recovery",
+          "pageid": 4096,
+          "revid": 2732878,
+          "sha1": "b68e29bdebe3fee50231bd07ec1567d03d168f92",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery&oldid=2732878"
+        },
+        {
+          "title": "Recovery (PvP)",
+          "pageid": 207698,
+          "revid": 2732860,
+          "sha1": "4ecfe8dfb4e639eb118e7eae2ce4790a33fd24ad",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery%20(PvP)&oldid=2732860"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…8…10 spirit. Non-spirit allies within its range gain +1…3…3 Health regeneration. This spirit dies after 15…39…45 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…8…10 的精靈。其範圍內的非精靈盟友獲得 +1…3…3 體力再生。此精靈在 15…39…45 秒後死亡。",
+      "reason": "將精神改為精靈；保留非精靈盟友限制、正體力再生與 PvP 等級及壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5884/variants/skill-version:gww:207696/description",
+          "englishHash": "ccb15591d11491d1891ab3800a542320f39467e1c0f8b53462a3960abd5267d3",
+          "evidenceHash": "7841adb0347e3cf20139215f8acb6f9ea5dd73ceda781ca9d9e7fd3a6c5c7f60"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. Non-spirit allies within its range gain [[MO:growth:0:var2]] Health regeneration. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內的非精靈盟友獲得 [[MO:growth:0:var2]] 體力再生。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "將精神改為精靈；保留非精靈盟友限制、正體力再生與 PvP 等級及壽命。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 等級；再生並非一次治療，保留效果詞元攜帶的正號。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5884/variants/skill-version:gww:207696/descriptionTemplate",
+          "englishHash": "6685b56d44fc047e4ecf1a907ac3512a3ccfbe7f0be809b4aab8c4c161319f3a",
+          "evidenceHash": "7841adb0347e3cf20139215f8acb6f9ea5dd73ceda781ca9d9e7fd3a6c5c7f60"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5884/variants/skill-version:gww:5884/descriptionTemplate",
+          "englishHash": "6685b56d44fc047e4ecf1a907ac3512a3ccfbe7f0be809b4aab8c4c161319f3a",
+          "evidenceHash": "9107f3919fa8d62817161d1261a77c692382187df5c86672fa507233bed5a79c"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…11…14 spirit. Non-spirit allies within its range gain +1…3…3 Health regeneration. This spirit dies after 15…39…45 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…11…14 的精靈。其範圍內的非精靈盟友獲得 +1…3…3 體力再生。此精靈在 15…39…45 秒後死亡。",
+      "reason": "獨立核對 PvE 等級；再生並非一次治療，保留效果詞元攜帶的正號。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5884/variants/skill-version:gww:5884/description",
+          "englishHash": "8edad53ae6a0c0244dd68950df2bc8299cfd23aa49b10b1719126c36266861ce",
+          "evidenceHash": "9107f3919fa8d62817161d1261a77c692382187df5c86672fa507233bed5a79c"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. For non-spirit creatures within its range, all healing is reduced by 20%. If any of your attacks hit, you gain 5 Health. This spirit dies after 30…198…240 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內非精靈生物受到的所有治療量減少 20%。範圍內每個非精靈生物的攻擊命中時，該生物獲得 5 點體力。此精靈在 30…198…240 秒後死亡。",
+      "reason": "同頁固定修訂 2735073 的簡短說明明確指出，範圍內非精靈生物每次攻擊命中都各自獲得 5 點體力；不是只由施放者獲得。保留精靈等級、壽命與治療減少 20%。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/description",
+          "englishHash": "fa5e1b8f7d31f20b2a0523bdd66ca462dff5d3c3b7e702ae5e50fb7b84e76b0b",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Predatory Season",
+          "pageid": 6502,
+          "revid": 2735073,
+          "field": "concise description",
+          "sha1": "e4cedc917b8f5499aee25f65b58eed357ae0a039"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For non-spirit creatures within its range, all healing is reduced by 20%. If any of your attacks hit, you gain 5 Health. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內非精靈生物受到的所有治療量減少 20%。範圍內每個非精靈生物的攻擊命中時，該生物獲得 5 點體力。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "同頁固定修訂 2735073 的簡短說明明確指出，範圍內非精靈生物每次攻擊命中都各自獲得 5 點體力；不是只由施放者獲得。保留精靈等級、壽命與治療減少 20%。 動態模板保留等級與壽命的獨立效果詞元。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/descriptionTemplate",
+          "englishHash": "0ee29889015bcff359a0d5ed0e64c7a891aa20d583d6ad2db02974b62f40926d",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Predatory Season",
+          "pageid": 6502,
+          "revid": 2735073,
+          "field": "concise description",
+          "sha1": "e4cedc917b8f5499aee25f65b58eed357ae0a039"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 Spirit. For non-Spirit creatures within its range, Signets cost 10 Energy to use. This Spirit dies after 30…198…240 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內的非精靈生物使用紋章時，需消耗 10 點能量。此精靈在 30…198…240 秒後死亡。",
+      "reason": "Signet 統一為紋章；核對增加的是使用紋章的能量費用，效果同時涵蓋敵我非精靈生物。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6503/variants/skill-version:gww:6503/description",
+          "englishHash": "92e714eac8470c03fc2e09a8ec4430d85409451d970e3cff088f19c6089db9a7",
+          "evidenceHash": "f5dc00e8ad07dca23c7f8d217073d03fa403c0fb04c53efa47f073be23b71139"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] Spirit. For non-Spirit creatures within its range, Signets cost 10 Energy to use. This Spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內的非精靈生物使用紋章時，需消耗 10 點能量。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "Signet 統一為紋章；核對增加的是使用紋章的能量費用，效果同時涵蓋敵我非精靈生物。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6503/variants/skill-version:gww:6503/descriptionTemplate",
+          "englishHash": "5b90a232d6f3d05656379e43c68f6d889ad68f8395382e0e8802fdb413c3555e",
+          "evidenceHash": "f5dc00e8ad07dca23c7f8d217073d03fa403c0fb04c53efa47f073be23b71139"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. For non-spirit creatures within its range, all skills recharge twice as fast and cost 30% more of the base Energy to cast. This spirit dies after 15…75…90 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內非精靈生物的所有技能，冷卻速度加倍，且施放所需能量比基礎消耗增加 30%。此精靈在 15…75…90 秒後死亡。",
+      "reason": "twice as fast 是速度變為兩倍；費用按基礎能量增加三成，不套用到已調整費用。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6588/variants/skill-version:gww:6588/description",
+          "englishHash": "071b989f4df3fecff29e1e8e376134596e57c3f57134126a0279ca1e931812b1",
+          "evidenceHash": "435b15033e4760f4d5337b57473767b186dd7d2c76e69714343dc140c29e7c47"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For non-spirit creatures within its range, all skills recharge twice as fast and cost 30% more of the base Energy to cast. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內非精靈生物的所有技能，冷卻速度加倍，且施放所需能量比基礎消耗增加 30%。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "twice as fast 是速度變為兩倍；費用按基礎能量增加三成，不套用到已調整費用。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6588/variants/skill-version:gww:6588/descriptionTemplate",
+          "englishHash": "c23365e3ea3dabc64de4c91673b12d5d8bdca12d1acb5440e2c349860f27204b",
+          "evidenceHash": "435b15033e4760f4d5337b57473767b186dd7d2c76e69714343dc140c29e7c47"
+        }
+      ]
+    },
+    {
+      "source": "Elite Hex Spell. For 10 seconds, target foe casts enchantments 100…180…200% slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10…82…100 damage and all adjacent foes take 75% of that damage.",
+      "text": "精英降咒魔法。持續 10 秒，目標敵人施放加持魔法所需時間延長 100…180…200%。施加此降咒時，若目標敵人身上沒有加持，該敵人受到 10…82…100 點傷害，所有與其相鄰的敵人則受到該傷害的 75%。",
+      "reason": "區分降咒與加持；傷害判斷只在施加時檢查無加持，75% 以目標所受這次傷害為基準，而非敵人最大體力。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:1476/description",
+          "englishHash": "d4348e3a8b88eb1c1cb5ae8611dea9f4d3769f3412d02aa47c8bf98d056d4b29",
+          "evidenceHash": "27ce48c8e4b805b489cb90072d55d95046690e23580f0b0ea23a9eb1645cbed8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:253948/description",
+          "englishHash": "d4348e3a8b88eb1c1cb5ae8611dea9f4d3769f3412d02aa47c8bf98d056d4b29",
+          "evidenceHash": "33616332144a51f084c1982c345452e2cb50cd15a70bb065354ae3ce65cb8170"
+        }
+      ]
+    },
+    {
+      "source": "Elite Hex Spell. For 10 seconds, target foe casts enchantments [[MO:growth:0:var1]] slower. If target foe is not under the effects of an enchantment when this hex is applied, that foe takes [[MO:growth:0:var2]] damage and all adjacent foes take 75% of that damage.",
+      "text": "精英降咒魔法。持續 10 秒，目標敵人施放加持魔法所需時間延長 [[MO:growth:0:var1]]。施加此降咒時，若目標敵人身上沒有加持，該敵人受到 [[MO:growth:0:var2]] 點傷害，所有與其相鄰的敵人則受到該傷害的 75%。",
+      "reason": "區分降咒與加持；傷害判斷只在施加時檢查無加持，75% 以目標所受這次傷害為基準，而非敵人最大體力。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:1476/descriptionTemplate",
+          "englishHash": "bd7b6b588ef08e20df3d76e876378e954f496a6c165924885417e85612a54073",
+          "evidenceHash": "27ce48c8e4b805b489cb90072d55d95046690e23580f0b0ea23a9eb1645cbed8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:253948/descriptionTemplate",
+          "englishHash": "bd7b6b588ef08e20df3d76e876378e954f496a6c165924885417e85612a54073",
+          "evidenceHash": "33616332144a51f084c1982c345452e2cb50cd15a70bb065354ae3ce65cb8170"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Remove one enchantment from target foe. All of that foe's party members also lose that same enchantment.",
+      "text": "咒文魔法。移除目標敵人的一項加持。該敵人的所有隊伍成員也失去同一項加持。",
+      "reason": "all of that foe 的範圍是目標敵人所屬隊伍，並非場上所有敵人；同一加持不能誤譯為魅力。 all of that foe 的範圍是目標敵人所屬隊伍，並非場上所有敵人；同一加持不能誤譯為魅力。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1487/variants/skill-version:gww:1487/description",
+          "englishHash": "4b5fa7c7decd6dc1306dee940550e852354d4897a3ca4ea0ddf64543234fe555",
+          "evidenceHash": "0f28d6fd99b40ff85941cfa5f6e2e367fcbd0f64b519ed1a6f8c364b29036bf2"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1487/variants/skill-version:gww:1487/descriptionTemplate",
+          "englishHash": "4b5fa7c7decd6dc1306dee940550e852354d4897a3ca4ea0ddf64543234fe555",
+          "evidenceHash": "0f28d6fd99b40ff85941cfa5f6e2e367fcbd0f64b519ed1a6f8c364b29036bf2"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1487/variants/skill-version:gww:253808/description",
+          "englishHash": "4b5fa7c7decd6dc1306dee940550e852354d4897a3ca4ea0ddf64543234fe555",
+          "evidenceHash": "501ed043bb79691aab34c3db1e2b6fd09b8dce00dfed58ab3ba32b8e310e8c15"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1487/variants/skill-version:gww:253808/descriptionTemplate",
+          "englishHash": "4b5fa7c7decd6dc1306dee940550e852354d4897a3ca4ea0ddf64543234fe555",
+          "evidenceHash": "501ed043bb79691aab34c3db1e2b6fd09b8dce00dfed58ab3ba32b8e310e8c15"
+        }
+      ]
+    },
+    {
+      "source": "Sword Attack. If this attack hits, it interrupts target foe's action. If that action was a spell, you deal 1…32…40 extra damage.",
+      "text": "劍術技能。若此攻擊命中，中斷目標敵人的動作。若被中斷的動作是魔法，造成 1…32…40 點額外傷害。",
+      "reason": "核對中斷依賴命中，額外傷害進一步要求被中斷動作為魔法；保留兩層條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14878/variants/skill-version:gww:14878/description",
+          "englishHash": "73130119a3f4bc04c26c5ca0703eb0ff8d6fb3173956dde2c38bea17802134e8",
+          "evidenceHash": "c2ca28859379c7414758367b7b8501a3a566d9bed419ac5972eacb1790b3773c"
+        }
+      ]
+    },
+    {
+      "source": "Sword Attack. If this attack hits, it interrupts target foe's action. If that action was a spell, you deal [[MO:growth:0:var1]] extra damage.",
+      "text": "劍術技能。若此攻擊命中，中斷目標敵人的動作。若被中斷的動作是魔法，造成 [[MO:growth:0:var1]] 點額外傷害。",
+      "reason": "核對中斷依賴命中，額外傷害進一步要求被中斷動作為魔法；保留兩層條件。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14878/variants/skill-version:gww:14878/descriptionTemplate",
+          "englishHash": "06f6cffaa80dc2e62b809cb1bbde1a2c308bf72df5112bb5745a986f37571159",
+          "evidenceHash": "c2ca28859379c7414758367b7b8501a3a566d9bed419ac5972eacb1790b3773c"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Target foe takes 15…63…75 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 5…41…50 damage.",
+      "text": "紋章。目標敵人受到 15…63…75 點傷害。若該敵人受到降咒或加持影響，其相鄰敵人受到 5…41…50 點傷害。",
+      "reason": "hex 為降咒；核對主目標無條件傷害與相鄰敵人有條件傷害的兩組數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1509/variants/skill-version:gww:1509/description",
+          "englishHash": "14a2d8aa1950b8c0b7923733c5977308da435d108117f170d4e472e7acd07dd2",
+          "evidenceHash": "ea3cb525b6ceb8433ebd23ad05ad8177de921da0de92902bfa2fe2c123e72345"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Target foe takes [[MO:growth:0:var1]] damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take [[MO:growth:0:var2]] damage.",
+      "text": "紋章。目標敵人受到 [[MO:growth:0:var1]] 點傷害。若該敵人受到降咒或加持影響，其相鄰敵人受到 [[MO:growth:0:var2]] 點傷害。",
+      "reason": "hex 為降咒；核對主目標無條件傷害與相鄰敵人有條件傷害的兩組數值。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1509/variants/skill-version:gww:1509/descriptionTemplate",
+          "englishHash": "272360cae7fc7aa315e8452f62a9ec36de988ea7f4197a8e8333ae976b98265a",
+          "evidenceHash": "ea3cb525b6ceb8433ebd23ad05ad8177de921da0de92902bfa2fe2c123e72345"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Target foe takes 10…50…60 damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take 10…50…60 damage. All your non-Mesmer skills except signets are disabled for 10 seconds.",
+      "text": "紋章。目標敵人受到 10…50…60 點傷害。若該敵人受到降咒或加持影響，其相鄰敵人受到 10…50…60 點傷害。你所有非幻術師技能，除了紋章以外，均停用 10 秒。",
+      "reason": "獨立核對 PvP 同值雙次傷害和停用限制；紋章作為例外不被停用，重複效果詞元兩次均保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1509/variants/skill-version:gww:253814/description",
+          "englishHash": "1498d980c78d653528bb6bbbc6eb9cf5ab6bb29e604c9ea136272d5af2428914",
+          "evidenceHash": "0326356800fd0310549d391282b9e68fb0450b030dd035d08bd08ac982b14de0"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Target foe takes [[MO:growth:0:var1]] damage. If that foe is under the effects of a hex or enchantment, foes adjacent to your target take [[MO:growth:0:var1]] damage. All your non-Mesmer skills except signets are disabled for 10 seconds.",
+      "text": "紋章。目標敵人受到 [[MO:growth:0:var1]] 點傷害。若該敵人受到降咒或加持影響，其相鄰敵人受到 [[MO:growth:0:var1]] 點傷害。你所有非幻術師技能，除了紋章以外，均停用 10 秒。",
+      "reason": "獨立核對 PvP 同值雙次傷害和停用限制；紋章作為例外不被停用，重複效果詞元兩次均保留。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1509/variants/skill-version:gww:253814/descriptionTemplate",
+          "englishHash": "7c623004fcab849acc01e03e9cd80a473ee83ce0c54f9437574dd2d26d1c457b",
+          "evidenceHash": "0326356800fd0310549d391282b9e68fb0450b030dd035d08bd08ac982b14de0"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For 10…30…35 seconds, chants and shouts last 50% longer on target non-spirit ally.",
+      "text": "迴響。持續 10…30…35 秒，目標非精靈盟友身上的聖歌與戰嚎，持續時間延長 50%。",
+      "reason": "採固定技能類型聖歌、戰嚎與迴響；延長的是目標身上的持續時間，並排除精靈盟友。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15230/variants/skill-version:gww:15230/description",
+          "englishHash": "d97a8db9ee0fe132172c5046494777e8f6d0cb8fb29de5e1fa0fb0c030d388ee",
+          "evidenceHash": "b4374d75d8961c734b79482369b28b237894dfce2459bdfa677b1e3c6541ed69"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For [[MO:growth:0:var1]] seconds, chants and shouts last 50% longer on target non-spirit ally.",
+      "text": "迴響。持續 [[MO:growth:0:var1]] 秒，目標非精靈盟友身上的聖歌與戰嚎，持續時間延長 50%。",
+      "reason": "採固定技能類型聖歌、戰嚎與迴響；延長的是目標身上的持續時間，並排除精靈盟友。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15230/variants/skill-version:gww:15230/descriptionTemplate",
+          "englishHash": "8568439f1de0381f110bea7ca93eecb612727b269efabf5e1e90ced3581d7433",
+          "evidenceHash": "b4374d75d8961c734b79482369b28b237894dfce2459bdfa677b1e3c6541ed69"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For 10…30…35 seconds, whenever a shout or chant ends on target non-spirit ally, that ally gains 1…2…2 Energy.",
+      "text": "迴響。持續 10…30…35 秒，每當目標非精靈盟友身上的戰嚎或聖歌結束，該盟友獲得 1…2…2 點能量。",
+      "reason": "核對能量在戰嚎或聖歌結束時給予目標盟友，而非施放迴響時或施放者獲得。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15238/variants/skill-version:gww:15238/description",
+          "englishHash": "999ba96db4dd3765497ff154aaa115f3575980aa768cd8e9b963f24989c2f717",
+          "evidenceHash": "bd8a4ac7549f0edb7743e293b01529cb27fcd5584d3b67ed9fe141b95d09feaa"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For [[MO:growth:0:var1]] seconds, whenever a shout or chant ends on target non-spirit ally, that ally gains [[MO:growth:0:var2]] Energy.",
+      "text": "迴響。持續 [[MO:growth:0:var1]] 秒，每當目標非精靈盟友身上的戰嚎或聖歌結束，該盟友獲得 [[MO:growth:0:var2]] 點能量。",
+      "reason": "核對能量在戰嚎或聖歌結束時給予目標盟友，而非施放迴響時或施放者獲得。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15238/variants/skill-version:gww:15238/descriptionTemplate",
+          "englishHash": "ea84914ac7e55706349c03e6c306c92ce252513730e47ce8cb3f934d019ff05a",
+          "evidenceHash": "bd8a4ac7549f0edb7743e293b01529cb27fcd5584d3b67ed9fe141b95d09feaa"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For 10…30…35 seconds, whenever a chant or shout ends on target non-spirit ally, that ally is healed for 15…63…75 Health.",
+      "text": "迴響。持續 10…30…35 秒，每當目標非精靈盟友身上的聖歌或戰嚎結束，該盟友恢復 15…63…75 點體力。",
+      "reason": "修正治療量被寫成時間範圍；核對聖歌或戰嚎結束才觸發目標盟友治療。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15239/variants/skill-version:gww:15239/description",
+          "englishHash": "324ae266ed241cf2a85f29fe1bfb14447b5636966103ff56815d79d05de38c87",
+          "evidenceHash": "be623a1aaa58e111fcc648e66348522cfc7eb20689873e5ff1f4f328c96ce0cf"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For [[MO:growth:0:var1]] seconds, whenever a chant or shout ends on target non-spirit ally, that ally is healed for [[MO:growth:0:var2]] Health.",
+      "text": "迴響。持續 [[MO:growth:0:var1]] 秒，每當目標非精靈盟友身上的聖歌或戰嚎結束，該盟友恢復 [[MO:growth:0:var2]] 點體力。",
+      "reason": "修正治療量被寫成時間範圍；核對聖歌或戰嚎結束才觸發目標盟友治療。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15239/variants/skill-version:gww:15239/descriptionTemplate",
+          "englishHash": "3beab2df7789dc3c4b44c0d2a4f694dcdcb5052a89318211306349a9da194f69",
+          "evidenceHash": "be623a1aaa58e111fcc648e66348522cfc7eb20689873e5ff1f4f328c96ce0cf"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For 10…30…35 seconds, the next 5 times that a chant or shout ends on target non-spirit ally, that ally is healed for 15…63…75 Health.",
+      "text": "迴響。持續 10…30…35 秒，接下來 5 次目標非精靈盟友身上的聖歌或戰嚎結束時，該盟友恢復 15…63…75 點體力。",
+      "reason": "獨立核對 PvP 最多接下來五次結束觸發的限制，不能套用 PvE 每次觸發版本。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15239/variants/skill-version:gww:221974/description",
+          "englishHash": "02cf061e3d1b077c50ad6bd542f55710a175e5bbb35671d59547c718ff3f6ab9",
+          "evidenceHash": "a3586e6d2df6e413c5901414109c9487da83374c45a98f14dcd820686fc36d1a"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For [[MO:growth:0:var1]] seconds, the next 5 times that a chant or shout ends on target non-spirit ally, that ally is healed for [[MO:growth:0:var2]] Health.",
+      "text": "迴響。持續 [[MO:growth:0:var1]] 秒，接下來 5 次目標非精靈盟友身上的聖歌或戰嚎結束時，該盟友恢復 [[MO:growth:0:var2]] 點體力。",
+      "reason": "獨立核對 PvP 最多接下來五次結束觸發的限制，不能套用 PvE 每次觸發版本。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15239/variants/skill-version:gww:221974/descriptionTemplate",
+          "englishHash": "ede034d0ef941a20d364d88fafeb1c8632c91d806a7a1bb1c86a67e154362747",
+          "evidenceHash": "a3586e6d2df6e413c5901414109c9487da83374c45a98f14dcd820686fc36d1a"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For 15 seconds, target non-spirit ally has +2…3…3 Health regeneration. This echo is reapplied every time a chant or shout ends on that ally.",
+      "text": "迴響。持續 15 秒，目標非精靈盟友獲得 +2…3…3 體力再生。每當該盟友身上的聖歌或戰嚎結束，重新施加此迴響。",
+      "reason": "核對體力再生不是一次治療；聖歌或戰嚎結束會重新施加迴響，保留固定十五秒與正號。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15244/variants/skill-version:gww:15244/description",
+          "englishHash": "52582f6b30d96db34bfc1280138329d5077d307e2da8c4918ec95734a21d6075",
+          "evidenceHash": "42022f8bf2302558b7b562d6d0328f9ec8e639e9bdefcd5ce6dff243865edcd1"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For 15 seconds, target non-spirit ally has [[MO:growth:0:var1]] Health regeneration. This echo is reapplied every time a chant or shout ends on that ally.",
+      "text": "迴響。持續 15 秒，目標非精靈盟友獲得 [[MO:growth:0:var1]] 體力再生。每當該盟友身上的聖歌或戰嚎結束，重新施加此迴響。",
+      "reason": "核對體力再生不是一次治療；聖歌或戰嚎結束會重新施加迴響，保留固定十五秒與正號。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15244/variants/skill-version:gww:15244/descriptionTemplate",
+          "englishHash": "1ad6229433e9e6cd0c265999c46ae0669f1679ad8c45a831048795403c60297e",
+          "evidenceHash": "42022f8bf2302558b7b562d6d0328f9ec8e639e9bdefcd5ce6dff243865edcd1"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For 10…30…35 seconds, target non-spirit ally loses 1 condition whenever a chant or shout ends on that ally.",
+      "text": "迴響。持續 10…30…35 秒，每當目標非精靈盟友身上的聖歌或戰嚎結束，移除該盟友身上 1 項病症。",
+      "reason": "condition 是病症而非泛指狀態；核對結束觸發與只移除目標盟友一項病症。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15245/variants/skill-version:gww:15245/description",
+          "englishHash": "ede4e0b73e4e906c19b3bf66ebb0c5c9373287db825f39373db7ccecaf260f42",
+          "evidenceHash": "230ca3a947b20bac86d04e89476a26264890bd7ea341c68eb38b7699b690e2c9"
+        }
+      ]
+    },
+    {
+      "source": "Echo. For [[MO:growth:0:var1]] seconds, target non-spirit ally loses 1 condition whenever a chant or shout ends on that ally.",
+      "text": "迴響。持續 [[MO:growth:0:var1]] 秒，每當目標非精靈盟友身上的聖歌或戰嚎結束，移除該盟友身上 1 項病症。",
+      "reason": "condition 是病症而非泛指狀態；核對結束觸發與只移除目標盟友一項病症。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15245/variants/skill-version:gww:15245/descriptionTemplate",
+          "englishHash": "d28e6eb97bf6350c065fd16439abb2bb8c6006a0a7d24a3d69b78f58d171bbed",
+          "evidenceHash": "230ca3a947b20bac86d04e89476a26264890bd7ea341c68eb38b7699b690e2c9"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Shadow Step to target spirit.",
+      "text": "咒文魔法。以闇影步移至目標精靈身旁。",
+      "reason": "精神是錯誤的目標類型；核對闇影步的目的地為選定精靈，沒有額外限制為盟方。 精神是錯誤的目標類型；核對闇影步的目的地為選定精靈，沒有額外限制為盟方。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16274/variants/skill-version:gww:16274/description",
+          "englishHash": "bcf1b5e6adf14acee9b7cb6a6fa9f000ff7d3a98f7e9418986aa8ef6b7366074",
+          "evidenceHash": "23d26020e57a28d8f8590ac9979cb223967b91574d8ab7fb33aa57ef026768ca"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16274/variants/skill-version:gww:16274/descriptionTemplate",
+          "englishHash": "bcf1b5e6adf14acee9b7cb6a6fa9f000ff7d3a98f7e9418986aa8ef6b7366074",
+          "evidenceHash": "23d26020e57a28d8f8590ac9979cb223967b91574d8ab7fb33aa57ef026768ca"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Interrupt target foe's action. If that action was a spell, you gain 3…13…15 Energy.",
+      "text": "紋章。中斷目標敵人的動作。若被中斷的動作是魔法，你獲得 3…13…15 點能量。",
+      "reason": "核對中斷任何動作，但只有魔法中斷成功才回復能量，施放者為回能對象。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1652/variants/skill-version:gww:1652/description",
+          "englishHash": "7f066f25ed0b2736744036768d25467ec3fe77c5019cc72f135a25aca79b44a0",
+          "evidenceHash": "3e3486d2df187854e72c3e47499d1c0a2f0943737d9beefc392ef0d4b6d83b9c"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Interrupt target foe's action. If that action was a spell, you gain [[MO:growth:0:var1]] Energy.",
+      "text": "紋章。中斷目標敵人的動作。若被中斷的動作是魔法，你獲得 [[MO:growth:0:var1]] 點能量。",
+      "reason": "核對中斷任何動作，但只有魔法中斷成功才回復能量，施放者為回能對象。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1652/variants/skill-version:gww:1652/descriptionTemplate",
+          "englishHash": "14342c8375dba899b3898b2421d8493d50ff1eb5f56e5b028cf9e5fcb8e51691",
+          "evidenceHash": "3e3486d2df187854e72c3e47499d1c0a2f0943737d9beefc392ef0d4b6d83b9c"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. Remove an enchantment from target foe. If an enchantment is removed, for the next 1…16…20 seconds, your next enchantment spell casts 0…1…1 seconds faster and costs 1…8…10 less Energy.",
+      "text": "加持魔法。移除目標敵人的一項加持。若成功移除加持，接下來 1…16…20 秒內，你的下一個加持魔法，施放時間縮短 0…1…1 秒，能量消耗減少 1…8…10 點。",
+      "reason": "分開核對效果有效期限、施放時間減秒及費用減點；兩項減免僅適用下一個加持魔法，且需成功移除敵方加持。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1749/variants/skill-version:gww:1749/description",
+          "englishHash": "21147bd4a20cdaae4cbbc3f76e58adffb4c793a5c08d106f97046b953d496d4e",
+          "evidenceHash": "f52f996cefe0f273991515e2153e416bc975ebf93506c912902033c7e029a521"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. Remove an enchantment from target foe. If an enchantment is removed, for the next [[MO:growth:0:var1]] seconds, your next enchantment spell casts [[MO:growth:0:var2]] seconds faster and costs [[MO:growth:0:var3]] less Energy.",
+      "text": "加持魔法。移除目標敵人的一項加持。若成功移除加持，接下來 [[MO:growth:0:var1]] 秒內，你的下一個加持魔法，施放時間縮短 [[MO:growth:0:var2]] 秒，能量消耗減少 [[MO:growth:0:var3]] 點。",
+      "reason": "分開核對效果有效期限、施放時間減秒及費用減點；兩項減免僅適用下一個加持魔法，且需成功移除敵方加持。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1749/variants/skill-version:gww:1749/descriptionTemplate",
+          "englishHash": "292bf9d68be6cb3f3d407c831e61963b0bc8c2633a9f8e5641fba818aaac503c",
+          "evidenceHash": "f52f996cefe0f273991515e2153e416bc975ebf93506c912902033c7e029a521"
+        }
+      ]
+    },
+    {
+      "source": "Bow Attack. If Savage Shot hits, your target's action is interrupted. If that action was a spell, you strike for +13…25…28 damage.",
+      "text": "弓術技能。若野性之箭命中，中斷目標的動作。若被中斷的動作是魔法，造成 +13…25…28 點額外傷害。",
+      "reason": "保留命中才能中斷，額外傷害須被中斷動作為魔法；野性之箭名稱採固定中文證據。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2414/variants/skill-version:gww:2414/description",
+          "englishHash": "875fef8cb56757cea77389ce861ac8099ef46bce52f01eef4384151940836eaf",
+          "evidenceHash": "546a41a5992271a7431aea3e3f598219def5bcac39f1596107d0bae4255ad2b3"
+        }
+      ]
+    },
+    {
+      "source": "Bow Attack. If Savage Shot hits, your target's action is interrupted. If that action was a spell, you strike for [[MO:growth:0:var1]] damage.",
+      "text": "弓術技能。若野性之箭命中，中斷目標的動作。若被中斷的動作是魔法，造成 [[MO:growth:0:var1]] 點額外傷害。",
+      "reason": "保留命中才能中斷，額外傷害須被中斷動作為魔法；野性之箭名稱採固定中文證據。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2414/variants/skill-version:gww:2414/descriptionTemplate",
+          "englishHash": "99acd26ee880944241a29f7a996ce675385062a7eebc8b218f98a021a71d3983",
+          "evidenceHash": "546a41a5992271a7431aea3e3f598219def5bcac39f1596107d0bae4255ad2b3"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. Non-spirit creatures within range have +50…130…150 maximum Health and gain +8 armor. This spirit dies after 15…75…90 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。範圍內的非精靈生物獲得 +50…130…150 最大體力與 +8 護甲。此精靈在 15…75…90 秒後死亡。",
+      "reason": "核對增加最大體力而非直接治療；非精靈生物包括敵我，並保留固定護甲及壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2830/variants/skill-version:gww:2830/description",
+          "englishHash": "c667586545c4a18f00d0d2ae63f45543a9d2ecea0f6c76b204d3ed24919ad298",
+          "evidenceHash": "9a023aa55886f5a06932ae20b1aa4894cb86a6c43954d2a8c055d2a29dbfbaa3"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Non-spirit creatures within range have [[MO:growth:0:var2]] maximum Health and gain +8 armor. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。範圍內的非精靈生物獲得 [[MO:growth:0:var2]] 最大體力與 +8 護甲。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "核對增加最大體力而非直接治療；非精靈生物包括敵我，並保留固定護甲及壽命。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2830/variants/skill-version:gww:2830/descriptionTemplate",
+          "englishHash": "7ab3148db9d76b073c4f5bdc1e2f2cc7495cad227a033a680e77fd7d8d4edcde",
+          "evidenceHash": "9a023aa55886f5a06932ae20b1aa4894cb86a6c43954d2a8c055d2a29dbfbaa3"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Create a level 1…8…10 spirit. Bleeding creatures within its range suffer -2 Health degeneration. When this spirit dies, all non-spirit creatures within its range that have less than 90% Health begin Bleeding for 5…21…25 seconds. This spirit dies after 30…198…240 seconds.",
+      "text": "精英自然儀式。創造一個等級 1…8…10 的精靈。其範圍內正在流血的生物承受 -2 體力衰減。此精靈死亡時，其範圍內體力低於 90% 的所有非精靈生物，開始流血，持續 5…21…25 秒。此精靈在 30…198…240 秒後死亡。",
+      "reason": "區分流血生物的持續衰減與精靈死亡時才判定的九成體力門檻；原譯的所有時間條件不成立。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2834/variants/skill-version:gww:2834/description",
+          "englishHash": "2f10dc140df36d7048d45ce20b62b962ac5b8524a19dff8df027870d7058471d",
+          "evidenceHash": "9dc612b6812443ec306d731633e459ea1b1ef3b0a9ad3d4309658ed451aa06f1"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Bleeding creatures within its range suffer -2 Health degeneration. When this spirit dies, all non-spirit creatures within its range that have less than 90% Health begin Bleeding for [[MO:growth:0:var2]] seconds. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "精英自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內正在流血的生物承受 -2 體力衰減。此精靈死亡時，其範圍內體力低於 90% 的所有非精靈生物，開始流血，持續 [[MO:growth:0:var2]] 秒。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "區分流血生物的持續衰減與精靈死亡時才判定的九成體力門檻；原譯的所有時間條件不成立。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2834/variants/skill-version:gww:2834/descriptionTemplate",
+          "englishHash": "8386940db4668b965cd1a137e223a4d4ffcda018e42744d05fe3bce1ab0415a4",
+          "evidenceHash": "9dc612b6812443ec306d731633e459ea1b1ef3b0a9ad3d4309658ed451aa06f1"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. While you maintain this enchantment, target ally gains +2 Health regeneration. That ally is healed for 30…150…180 Health when Watchful Spirit ends.",
+      "text": "加持魔法。維持此加持期間，目標盟友獲得 +2 體力再生。「精神清醒」結束時，該盟友恢復 30…150…180 點體力。",
+      "reason": "核對維持期再生及結束瞬間治療；治療量不屬於持續時間，名稱沿用固定中文來源。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2914/variants/skill-version:gww:2914/description",
+          "englishHash": "0e36b963df963d235190e411fd6e048195fc75e2e474a48ddf8e7659398fd223",
+          "evidenceHash": "888d8b31b282fb24e2f47e07e5c58fb7fc2f5acdd69c7e08b475aefd45200237"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. While you maintain this enchantment, target ally gains +2 Health regeneration. That ally is healed for [[MO:growth:0:var1]] Health when Watchful Spirit ends.",
+      "text": "加持魔法。維持此加持期間，目標盟友獲得 +2 體力再生。「精神清醒」結束時，該盟友恢復 [[MO:growth:0:var1]] 點體力。",
+      "reason": "核對維持期再生及結束瞬間治療；治療量不屬於持續時間，名稱沿用固定中文來源。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2914/variants/skill-version:gww:2914/descriptionTemplate",
+          "englishHash": "b9c5b6701bcb0b2b155e79010ea7611e0ae68efeb0b1276890662858fe624212",
+          "evidenceHash": "888d8b31b282fb24e2f47e07e5c58fb7fc2f5acdd69c7e08b475aefd45200237"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target ally is healed for 25…85…100. This spell is easily interrupted.",
+      "text": "咒文魔法。為目標盟友恢復 25…85…100 點體力。此魔法容易被中斷。",
+      "reason": "將不成句的因數值治療改為明確治療量；保留容易遭中斷的施放限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2925/variants/skill-version:gww:2925/description",
+          "englishHash": "fb30a15135ee10eedb0fa891c7fedeeb85129cf1d7fb2c576636a10b0388d38f",
+          "evidenceHash": "925e26cffed37acf6f4e49e24220c84b252323a6391fdb1028514800a762d3e7"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target ally is healed for [[MO:growth:0:var1]] . This spell is easily interrupted.",
+      "text": "咒文魔法。為目標盟友恢復 [[MO:growth:0:var1]] 點體力。此魔法容易被中斷。",
+      "reason": "將不成句的因數值治療改為明確治療量；保留容易遭中斷的施放限制。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2925/variants/skill-version:gww:2925/descriptionTemplate",
+          "englishHash": "6b3cf699d589f1d6161bd8ef6e532223c80df29f7cd429179a36821f69ee5e7a",
+          "evidenceHash": "925e26cffed37acf6f4e49e24220c84b252323a6391fdb1028514800a762d3e7"
+        }
+      ]
+    },
+    {
+      "source": "Elite Weapon Spell. For 3…17…20 seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell. PvE Skill",
+      "text": "精英武裝魔法。持續 3…17…20 秒，音量所及範圍內每名非精靈盟友，都獲得隨機一種武裝魔法的效果。PvE 技能。",
+      "reason": "固定類型為武裝魔法；核對隨機效果逐盟友給予、非精靈限制與音量所及範圍，保留 PvE 限定。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313297/variants/skill-version:gww:313297/description",
+          "englishHash": "75205a7642e56574dacf3e5e949c00688197e253bf00b02666a77fb1b482c8dd",
+          "evidenceHash": "b8170f5f5910d34412fa502a2f77d6f932e3eaf939c8f4d42b52fad6c8e382ca"
+        }
+      ]
+    },
+    {
+      "source": "Elite Weapon Spell. For [[MO:growth:0:var1]] seconds, each non-spirit ally in earshot gains the effect of a random Weapon Spell. PvE Skill",
+      "text": "精英武裝魔法。持續 [[MO:growth:0:var1]] 秒，音量所及範圍內每名非精靈盟友，都獲得隨機一種武裝魔法的效果。PvE 技能。",
+      "reason": "固定類型為武裝魔法；核對隨機效果逐盟友給予、非精靈限制與音量所及範圍，保留 PvE 限定。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313297/variants/skill-version:gww:313297/descriptionTemplate",
+          "englishHash": "0a8bb87719346d8f6b60fed70a28b616eda028b6050e6bd2f0b3825180d32e92",
+          "evidenceHash": "b8170f5f5910d34412fa502a2f77d6f932e3eaf939c8f4d42b52fad6c8e382ca"
+        }
+      ]
+    },
+    {
+      "source": "Elite Echo. For 3…13…15 seconds, target non-spirit ally gains +1…3…3 to all attributes. This echo is reapplied every time a chant or shout ends on that ally. PvE Skill",
+      "text": "精英迴響。持續 3…13…15 秒，目標非精靈盟友的所有屬性提高 +1…3…3。每當該盟友身上的聖歌或戰嚎結束，重新施加此迴響。PvE 技能。",
+      "reason": "核對所有屬性加成與結束時重新施加，並保留非精靈目標及 PvE 限定；正號由效果詞元提供。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313308/variants/skill-version:gww:313308/description",
+          "englishHash": "6589332c6f617167d8cdba55749aa07fb092097feda95c03f9b503af271de33c",
+          "evidenceHash": "ca31723f2754ee11e37d4ac9d3391776984b2e3bad7ef61a9cc060f35d5ac8f7"
+        }
+      ]
+    },
+    {
+      "source": "Elite Echo. For [[MO:growth:0:var1]] seconds, target non-spirit ally gains [[MO:growth:0:var2]] to all attributes. This echo is reapplied every time a chant or shout ends on that ally. PvE Skill",
+      "text": "精英迴響。持續 [[MO:growth:0:var1]] 秒，目標非精靈盟友的所有屬性提高 [[MO:growth:0:var2]]。每當該盟友身上的聖歌或戰嚎結束，重新施加此迴響。PvE 技能。",
+      "reason": "核對所有屬性加成與結束時重新施加，並保留非精靈目標及 PvE 限定；正號由效果詞元提供。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313308/variants/skill-version:gww:313308/descriptionTemplate",
+          "englishHash": "7a4cd4f4316325bfb799c1f8fed5d2ca1e1fd116df2db8e54e7c28682739e022",
+          "evidenceHash": "ca31723f2754ee11e37d4ac9d3391776984b2e3bad7ef61a9cc060f35d5ac8f7"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. For 5…17…20 seconds, target foe and all nearby foes suffer -0…2…3 Health degeneration. When this hex is applied, these foes take 10…42…50 damage if you are within earshot of a spirit or corpse.",
+      "text": "降咒魔法。持續 5…17…20 秒，目標敵人及所有附近敵人承受 -0…2…3 體力衰減。施加此降咒時，若你在精靈或屍體的音量所及範圍內，這些敵人受到 10…42…50 點傷害。",
+      "reason": "核對附近敵人的衰減與施加當下的條件傷害；距離條件以施放者到精靈或屍體為準，不是目標敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3143/variants/skill-version:gww:3143/description",
+          "englishHash": "eaa151dfa63acd487da6ed96e4ba9ffde6ea0357c8011e360d5e3049aa118830",
+          "evidenceHash": "2248a06caa808cbca54442b7c07ee68a0855e307031d4d5389dac9aa02410ad1"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. For [[MO:growth:0:var1]] seconds, target foe and all nearby foes suffer [[MO:growth:0:var2]] Health degeneration. When this hex is applied, these foes take [[MO:growth:0:var3]] damage if you are within earshot of a spirit or corpse.",
+      "text": "降咒魔法。持續 [[MO:growth:0:var1]] 秒，目標敵人及所有附近敵人承受 [[MO:growth:0:var2]] 體力衰減。施加此降咒時，若你在精靈或屍體的音量所及範圍內，這些敵人受到 [[MO:growth:0:var3]] 點傷害。",
+      "reason": "核對附近敵人的衰減與施加當下的條件傷害；距離條件以施放者到精靈或屍體為準，不是目標敵人。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3143/variants/skill-version:gww:3143/descriptionTemplate",
+          "englishHash": "ea1ba16b9b2c8a228edc2ddf8e0ce3d3b0b7f34a5856e0c007e95d4b16eec8ab",
+          "evidenceHash": "2248a06caa808cbca54442b7c07ee68a0855e307031d4d5389dac9aa02410ad1"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Create a level 1…8…10 spirit. For non-spirit creatures within its range, all physical damage is fire damage instead. This spirit dies after 30…198…240 seconds.",
+      "text": "精英自然儀式。創造一個等級 1…8…10 的精靈。其範圍內非精靈生物造成的所有物理傷害，改為火焰傷害。此精靈在 30…198…240 秒後死亡。",
+      "reason": "同頁固定修訂 2731263 的 anomaly 明確要求攻擊者位於精靈範圍內；核對轉換的是範圍內非精靈生物造成的物理傷害，不是牠們受到的傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/description",
+          "englishHash": "d3d0a49979210c3a498fb9d5685705cca9c6fb98247a7d12d55ffeefc8af81d8",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Greater Conflagration",
+          "pageid": 4087,
+          "revid": 2731263,
+          "sha1": "223c20a4aa97da657772d5ee6dff6154f6715a9c",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Greater%20Conflagration&oldid=2731263"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For non-spirit creatures within its range, all physical damage is fire damage instead. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "精英自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內非精靈生物造成的所有物理傷害，改為火焰傷害。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "同頁固定修訂 2731263 的 anomaly 明確要求攻擊者位於精靈範圍內；核對轉換的是範圍內非精靈生物造成的物理傷害，不是牠們受到的傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/descriptionTemplate",
+          "englishHash": "3d057c0330c2d6c1467d46d1c84abc2f9991e76f55fd749322907dd89d3eac9c",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Greater Conflagration",
+          "pageid": 4087,
+          "revid": 2731263,
+          "sha1": "223c20a4aa97da657772d5ee6dff6154f6715a9c",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Greater%20Conflagration&oldid=2731263"
+        }
+      ]
+    },
+    {
+      "source": "Elite Binding Ritual. Create a level 1…8…10 spirit. Every 4 seconds, this spirit heals one non-spirit ally in the area for 10…94…115 Health. This spirit dies after 90 seconds.",
+      "text": "精英縛靈儀式。創造一個等級 1…8…10 的精靈。此精靈每 4 秒為區域內一名非精靈盟友恢復 10…94…115 點體力。此精靈在 90 秒後死亡。",
+      "reason": "治療量不是持續時間；核對每四秒只治療一名區域內非精靈盟友，保留 PvP 等級及九十秒壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4222/variants/skill-version:gww:207683/description",
+          "englishHash": "e60c9ba351a6345161fd92dfc2ca9464752891a455bdc0e574861ba94c343f46",
+          "evidenceHash": "b439897e340a769329e04a70d65c1d0c27202adaf20e9ec1a47d29081d09813b"
+        }
+      ]
+    },
+    {
+      "source": "Elite Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. Every 4 seconds, this spirit heals one non-spirit ally in the area for [[MO:growth:0:var2]] Health. This spirit dies after 90 seconds.",
+      "text": "精英縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。此精靈每 4 秒為區域內一名非精靈盟友恢復 [[MO:growth:0:var2]] 點體力。此精靈在 90 秒後死亡。",
+      "reason": "治療量不是持續時間；核對每四秒只治療一名區域內非精靈盟友，保留 PvP 等級及九十秒壽命。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 精靈等級；每次治療一名盟友，不擴大為所有盟友。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4222/variants/skill-version:gww:207683/descriptionTemplate",
+          "englishHash": "757eec2c12797a305adebc1df796cfbf0ed08fbff4909bdc0b426df7d9887dbf",
+          "evidenceHash": "b439897e340a769329e04a70d65c1d0c27202adaf20e9ec1a47d29081d09813b"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4222/variants/skill-version:gww:4222/descriptionTemplate",
+          "englishHash": "757eec2c12797a305adebc1df796cfbf0ed08fbff4909bdc0b426df7d9887dbf",
+          "evidenceHash": "b9d3c7b2034a357c62e07f2cb8529ebf8a003dd7544b48d49d1ac741b9659cab"
+        }
+      ]
+    },
+    {
+      "source": "Elite Binding Ritual. Create a level 1…11…14 spirit. Every 4 seconds, this spirit heals one non-spirit ally in the area for 10…94…115 Health. This spirit dies after 90 seconds.",
+      "text": "精英縛靈儀式。創造一個等級 1…11…14 的精靈。此精靈每 4 秒為區域內一名非精靈盟友恢復 10…94…115 點體力。此精靈在 90 秒後死亡。",
+      "reason": "獨立核對 PvE 精靈等級；每次治療一名盟友，不擴大為所有盟友。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4222/variants/skill-version:gww:4222/description",
+          "englishHash": "f18b9d9621f2f2b7a5f66ed9976486b7f4f8f6e8e816978bb4232519632d4af5",
+          "evidenceHash": "b9d3c7b2034a357c62e07f2cb8529ebf8a003dd7544b48d49d1ac741b9659cab"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Create a level 1…8…10 spirit. Whenever a non-spirit creature in its range reaches 0 Energy, that creature takes 20…60…70 damage. This spirit dies after 30…150…180 seconds.",
+      "text": "精英自然儀式。創造一個等級 1…8…10 的精靈。其範圍內每當一個非精靈生物的能量降至 0，該生物受到 20…60…70 點傷害。此精靈在 30…150…180 秒後死亡。",
+      "reason": "核對能量降至零才觸發一次傷害，不是零能量期間每秒傷害；保留非精靈生物與壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4274/variants/skill-version:gww:4274/description",
+          "englishHash": "15cba6829341c53ce22acc825d108f2add07553cd930e9a03c94e63c474c3625",
+          "evidenceHash": "4d86ae0a57103452f8b2a7b64eb8871660109547ad1b00bb2b8d7578c1aaa6a0"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Whenever a non-spirit creature in its range reaches 0 Energy, that creature takes [[MO:growth:0:var2]] damage. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "精英自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內每當一個非精靈生物的能量降至 0，該生物受到 [[MO:growth:0:var2]] 點傷害。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "核對能量降至零才觸發一次傷害，不是零能量期間每秒傷害；保留非精靈生物與壽命。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4274/variants/skill-version:gww:4274/descriptionTemplate",
+          "englishHash": "276728173a51645eb213491713337e2448def2043c7e2262a3d3d0be662dabb8",
+          "evidenceHash": "4d86ae0a57103452f8b2a7b64eb8871660109547ad1b00bb2b8d7578c1aaa6a0"
+        }
+      ]
+    },
+    {
+      "source": "Elite Skill. For 3 seconds, all damage you take is reduced by 75%. When Ether Prism ends, you gain 5…17…20 Energy.",
+      "text": "精英技能。持續 3 秒，你受到的所有傷害減少 75%。「精神稜鏡」結束時，你獲得 5…17…20 點能量。",
+      "reason": "核對所有傷害減少四分之三及技能結束時回能，並保留固定中文來源的精神稜鏡名稱。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4339/variants/skill-version:gww:4339/description",
+          "englishHash": "1d85ab3b6f1aae4a35081a88ae59e0a9de5d03c145c0c009e0bc914e0cc31bf9",
+          "evidenceHash": "0476cc1f34e0d960484a6b6e241c7281efcbb3ed8d677780b086a47a8abfc2ee"
+        }
+      ]
+    },
+    {
+      "source": "Elite Skill. For 3 seconds, all damage you take is reduced by 75%. When Ether Prism ends, you gain [[MO:growth:0:var1]] Energy.",
+      "text": "精英技能。持續 3 秒，你受到的所有傷害減少 75%。「精神稜鏡」結束時，你獲得 [[MO:growth:0:var1]] 點能量。",
+      "reason": "核對所有傷害減少四分之三及技能結束時回能，並保留固定中文來源的精神稜鏡名稱。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4339/variants/skill-version:gww:4339/descriptionTemplate",
+          "englishHash": "af07df5df7d85190366a5dae37f36cd6710bdec9396537e4d6e362fddb1575f7",
+          "evidenceHash": "0476cc1f34e0d960484a6b6e241c7281efcbb3ed8d677780b086a47a8abfc2ee"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target touched allied spirit is destroyed. All nearby allies are healed for 30…198…240.",
+      "text": "咒文魔法。摧毀碰觸的目標盟方精靈，為所有附近盟友恢復 30…198…240 點體力。",
+      "reason": "touched 是碰觸距離，allied spirit 是盟方精靈；修正治療量誤作附近範圍數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5070/variants/skill-version:gww:5070/description",
+          "englishHash": "494916db5b22f03d571feadb57a4f8dadcec002fa7c4bdc2c4c640e58a54c393",
+          "evidenceHash": "5403e08b638279b43de7fed38f2fc46b01a6a49fd301c6ac86c776d636f05597"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target touched allied spirit is destroyed. All nearby allies are healed for [[MO:growth:0:var1]] .",
+      "text": "咒文魔法。摧毀碰觸的目標盟方精靈，為所有附近盟友恢復 [[MO:growth:0:var1]] 點體力。",
+      "reason": "touched 是碰觸距離，allied spirit 是盟方精靈；修正治療量誤作附近範圍數值。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5070/variants/skill-version:gww:5070/descriptionTemplate",
+          "englishHash": "ad74c759a667c1bd8d04198cd46ed46cb47f9ae12d394508c0e06fcbd288180e",
+          "evidenceHash": "5403e08b638279b43de7fed38f2fc46b01a6a49fd301c6ac86c776d636f05597"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…8…10 spirit. All allies within its range holding an item gain 15…39…45 maximum Health and 10 maximum Energy. This spirit dies after 15…51…60 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…8…10 的精靈。其範圍內所有正持有物品的盟友，最大體力增加 15…39…45 點，最大能量增加 10 點。此精靈在 15…51…60 秒後死亡。",
+      "reason": "核對須持有物品的盟友限制；兩項增加均為最大值而非回復值，保留 PvP 等級與壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5097/variants/skill-version:gww:207715/description",
+          "englishHash": "e5489e124264dbcbd651fb128c2d92e933ea8e98b2471a12364e533c9592c1e0",
+          "evidenceHash": "8c35233d116780c82c68ac8040762fedb4ef23d2067bbc089cb92e9671e8db66"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. All allies within its range holding an item gain [[MO:growth:0:var2]] maximum Health and 10 maximum Energy. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內所有正持有物品的盟友，最大體力增加 [[MO:growth:0:var2]] 點，最大能量增加 10 點。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "核對須持有物品的盟友限制；兩項增加均為最大值而非回復值，保留 PvP 等級與壽命。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 等級；持物限制與最大體力、最大能量分別保留，不誤加非精靈限制。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5097/variants/skill-version:gww:207715/descriptionTemplate",
+          "englishHash": "354249a061c72f8bdfecc4b54d98b82c408fd4f45560cc582674c4fa9ab1949b",
+          "evidenceHash": "8c35233d116780c82c68ac8040762fedb4ef23d2067bbc089cb92e9671e8db66"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5097/variants/skill-version:gww:5097/descriptionTemplate",
+          "englishHash": "354249a061c72f8bdfecc4b54d98b82c408fd4f45560cc582674c4fa9ab1949b",
+          "evidenceHash": "69261da992e4debb27775b6cc9474441d4766dca594c8fbe799e4a5209ae8d32"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…11…14 spirit. All allies within its range holding an item gain 15…39…45 maximum Health and 10 maximum Energy. This spirit dies after 15…51…60 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…11…14 的精靈。其範圍內所有正持有物品的盟友，最大體力增加 15…39…45 點，最大能量增加 10 點。此精靈在 15…51…60 秒後死亡。",
+      "reason": "獨立核對 PvE 等級；持物限制與最大體力、最大能量分別保留，不誤加非精靈限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5097/variants/skill-version:gww:5097/description",
+          "englishHash": "f5479e94ff0f3dd412e2c3144122bc3f3c9b6ba5e79b5a2d9ef372fcd983f3c0",
+          "evidenceHash": "69261da992e4debb27775b6cc9474441d4766dca594c8fbe799e4a5209ae8d32"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. For 5…21…25 seconds, target foe suffers -1…3…3 Health degeneration. If that foe dies while under the effects of this hex, all nearby foes take 25…73…85 damage.",
+      "text": "降咒魔法。持續 5…21…25 秒，目標敵人承受 -1…3…3 體力衰減。若該敵人在此降咒作用期間死亡，所有附近敵人受到 25…73…85 點傷害。",
+      "reason": "區分衰減與直接傷害；範圍傷害需目標帶著本降咒死亡，並以死者附近敵人為對象。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51857/variants/skill-version:gww:51857/description",
+          "englishHash": "5a0549cbb6fe079ab1d9c9cc5d104e9a54fbd13244c68e311627cc520c5b1e11",
+          "evidenceHash": "ceb7de504134e874ea72ec0d6af807b7065ec250019108f802ed52ed1a7cefa3"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. For [[MO:growth:0:var1]] seconds, target foe suffers [[MO:growth:0:var2]] Health degeneration. If that foe dies while under the effects of this hex, all nearby foes take [[MO:growth:0:var3]] damage.",
+      "text": "降咒魔法。持續 [[MO:growth:0:var1]] 秒，目標敵人承受 [[MO:growth:0:var2]] 體力衰減。若該敵人在此降咒作用期間死亡，所有附近敵人受到 [[MO:growth:0:var3]] 點傷害。",
+      "reason": "區分衰減與直接傷害；範圍傷害需目標帶著本降咒死亡，並以死者附近敵人為對象。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51857/variants/skill-version:gww:51857/descriptionTemplate",
+          "englishHash": "a73411c4fbc2d9274eb91dfccd42087feee77afd928d3fc53068e415bdd2888a",
+          "evidenceHash": "ceb7de504134e874ea72ec0d6af807b7065ec250019108f802ed52ed1a7cefa3"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 2 seconds, target ally is enchanted with Patient Spirit. Unless this enchantment ends prematurely, that ally is healed for 30…102…120 Health when the enchantment ends.",
+      "text": "加持魔法。以 Patient Spirit 加持目標盟友，持續 2 秒。若此加持沒有提前結束，結束時為該盟友恢復 30…102…120 點體力。",
+      "reason": "unless 保留提前結束便不治療的限制；Patient Spirit 無固定中文名稱證據，保留英文身份。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51886/variants/skill-version:gww:51886/description",
+          "englishHash": "8262e0c0b1874264a7d6c42915147072d5c772c005afcbcd22b990d65da33232",
+          "evidenceHash": "47756c4c460e1bf1a897041284f7f0c41fb62a74ec3e1f39f6b386679c47fa00"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 2 seconds, target ally is enchanted with Patient Spirit. Unless this enchantment ends prematurely, that ally is healed for [[MO:growth:0:var1]] Health when the enchantment ends.",
+      "text": "加持魔法。以 Patient Spirit 加持目標盟友，持續 2 秒。若此加持沒有提前結束，結束時為該盟友恢復 [[MO:growth:0:var1]] 點體力。",
+      "reason": "unless 保留提前結束便不治療的限制；Patient Spirit 無固定中文名稱證據，保留英文身份。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51886/variants/skill-version:gww:51886/descriptionTemplate",
+          "englishHash": "45b737c9ebc7245eef3eeeb7bd5df16ef18642aae69d6f7b6e89deb7a0d9de6c",
+          "evidenceHash": "47756c4c460e1bf1a897041284f7f0c41fb62a74ec3e1f39f6b386679c47fa00"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…8…10 spirit. When this spirit dies, all non-spirit allies within its range are healed for 1…6…7 Health for each second this spirit was alive. This spirit dies after 20 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…8…10 的精靈。此精靈死亡時，為範圍內所有非精靈盟友恢復體力；每名盟友的治療量為 1…6…7 點乘以此精靈的存活秒數。此精靈在 20 秒後死亡。",
+      "reason": "核對治療在死亡時一次按存活秒數結算，不是在存活期間每秒治療；保留 PvP 等級與二十秒壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5888/variants/skill-version:gww:208132/description",
+          "englishHash": "2701b91d453c95432a7c01fabc81019d622c4131cdb6a230c57efb3c1bbab42f",
+          "evidenceHash": "f580625cffba04d943c6830ad45351fdaf61103cf62513a065bffe5d5668a8eb"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. When this spirit dies, all non-spirit allies within its range are healed for [[MO:growth:0:var2]] Health for each second this spirit was alive. This spirit dies after 20 seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。此精靈死亡時，為範圍內所有非精靈盟友恢復體力；每名盟友的治療量為 [[MO:growth:0:var2]] 點乘以此精靈的存活秒數。此精靈在 20 秒後死亡。",
+      "reason": "核對治療在死亡時一次按存活秒數結算，不是在存活期間每秒治療；保留 PvP 等級與二十秒壽命。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 精靈等級；治療總量按精靈已存活的秒數乘算，且只在精靈死亡時結算。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5888/variants/skill-version:gww:208132/descriptionTemplate",
+          "englishHash": "4508e277d458a2f387a50bb9ec124c3ca2e03698aff3fe6ea382546632f442b2",
+          "evidenceHash": "f580625cffba04d943c6830ad45351fdaf61103cf62513a065bffe5d5668a8eb"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5888/variants/skill-version:gww:5888/descriptionTemplate",
+          "englishHash": "4508e277d458a2f387a50bb9ec124c3ca2e03698aff3fe6ea382546632f442b2",
+          "evidenceHash": "084fe2f74851c99db28f4db17177688a6e124f0b0c6b8817beb48b7cf3f8eee3"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…11…14 spirit. When this spirit dies, all non-spirit allies within its range are healed for 1…6…7 Health for each second this spirit was alive. This spirit dies after 20 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…11…14 的精靈。此精靈死亡時，為範圍內所有非精靈盟友恢復體力；每名盟友的治療量為 1…6…7 點乘以此精靈的存活秒數。此精靈在 20 秒後死亡。",
+      "reason": "獨立核對 PvE 精靈等級；治療總量按精靈已存活的秒數乘算，且只在精靈死亡時結算。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5888/variants/skill-version:gww:5888/description",
+          "englishHash": "4755b1f1185a6ecb5b7a29ceabfa7723a15ad7794434dc1ebe5fd31ef3d3092f",
+          "evidenceHash": "084fe2f74851c99db28f4db17177688a6e124f0b0c6b8817beb48b7cf3f8eee3"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 22…40 seconds, target ally has +24 armor, +60 maximum Health, and an additional +24 armor against Destroyers.",
+      "text": "加持魔法。持續 22…40 秒，目標盟友獲得 +24 護甲、+60 最大體力，對抗 Destroyers 時再額外獲得 +24 護甲。",
+      "reason": "Destroyers 是敵人種類而非驅逐艦，缺乏固定中文身份時保留英文；額外護甲只在對抗該種類時適用。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/description",
+          "englishHash": "0056b66ba6308064cea519d3f2815a47beaed3df4ab2fe3c4390192364b2b48a",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For [[MO:growth:0:var1]] seconds, target ally has +24 armor, +60 maximum Health, and an additional +24 armor against Destroyers.",
+      "text": "加持魔法。持續 [[MO:growth:0:var1]] 秒，目標盟友獲得 +24 護甲、+60 最大體力，對抗 Destroyers 時再額外獲得 +24 護甲。",
+      "reason": "Destroyers 是敵人種類而非驅逐艦，缺乏固定中文身份時保留英文；額外護甲只在對抗該種類時適用。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/descriptionTemplate",
+          "englishHash": "f21cd98282c1d56cf4a4206b135eaf481ccdee3ca20b7e42e2ccad483ae45fd4",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        }
+      ]
+    },
+    {
+      "source": "Ebon Vanguard Ritual. Create a level 4…10 Spirit. All foes within its range have 15% chance to miss with ranged attacks. This spirit dies after 54…90 seconds.",
+      "text": "黑檀儀式。創造一個等級 4…10 的精靈。其範圍內所有敵人的遠程攻擊，有 15% 機率無法命中。此精靈在 54…90 秒後死亡。",
+      "reason": "核對百分之十五是敵方遠程攻擊的失手機率，不是未獲遠端攻擊機會；精靈等級和壽命各自保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:63118/variants/skill-version:gww:63118/description",
+          "englishHash": "54b890d2c357a7509c32333f36e3ee9d315a8bd18a2af03baf6353da3612652d",
+          "evidenceHash": "028a38845c14d45b8279dc8a703f3b43cf3e40a66ccbbd0bbaa2e897b3452698"
+        }
+      ]
+    },
+    {
+      "source": "Ebon Vanguard Ritual. Create a level [[MO:growth:0:var1]] Spirit. All foes within its range have 15% chance to miss with ranged attacks. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "黑檀儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內所有敵人的遠程攻擊，有 15% 機率無法命中。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "核對百分之十五是敵方遠程攻擊的失手機率，不是未獲遠端攻擊機會；精靈等級和壽命各自保留。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:63118/variants/skill-version:gww:63118/descriptionTemplate",
+          "englishHash": "c7271a347265dcab8d27866cb984910087a225d07f4aed381d4cc124c85e779f",
+          "evidenceHash": "028a38845c14d45b8279dc8a703f3b43cf3e40a66ccbbd0bbaa2e897b3452698"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…8…10 spirit. The spirit's attacks deal 5…17…20 damage and cause Blindness for 1…5…6 seconds. This spirit dies after 30 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…8…10 的精靈。此精靈的攻擊造成 5…17…20 點傷害，並使目標盲目 1…5…6 秒。此精靈在 30 秒後死亡。",
+      "reason": "核對成長詞元順序並非編號順序：傷害為 var3，盲目時間為 var2；失明統一為來源支持的盲目。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6333/variants/skill-version:gww:6333/description",
+          "englishHash": "a9f8b122152eed8f2aa78fd73d0145a73976e997becb0df370554d8f83d7c00f",
+          "evidenceHash": "01d60c75948d1f82a110657cf2cb38a998eefd24d53593700b95ec16881aed65"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. The spirit's attacks deal [[MO:growth:0:var3]] damage and cause Blindness for [[MO:growth:0:var2]] seconds. This spirit dies after 30 seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。此精靈的攻擊造成 [[MO:growth:0:var3]] 點傷害，並使目標盲目 [[MO:growth:0:var2]] 秒。此精靈在 30 秒後死亡。",
+      "reason": "核對成長詞元順序並非編號順序：傷害為 var3，盲目時間為 var2；失明統一為來源支持的盲目。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6333/variants/skill-version:gww:6333/descriptionTemplate",
+          "englishHash": "81672b9b1cce3017f1ac8af094610406dd9a7cd376cf3d7b42bce0f566399c29",
+          "evidenceHash": "01d60c75948d1f82a110657cf2cb38a998eefd24d53593700b95ec16881aed65"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…8…10 spirit. When this spirit dies, all party members in the area are resurrected with 5…41…50% Health and zero Energy. This spirit dies after 30 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…8…10 的精靈。此精靈死亡時，使區域內所有隊伍成員復活，體力為 5…41…50%，能量為 0。此精靈在 30 秒後死亡。",
+      "reason": "黨員應為隊伍成員；核對死亡觸發的區域復活、百分比體力與零能量，並保留 PvP 等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6337/variants/skill-version:gww:207631/description",
+          "englishHash": "508fbc1138b04f4b866295f75349113f7d850eafc87fd9e645136b0f7296d2ba",
+          "evidenceHash": "65e63c4cdc0054ea932ef7780ab74c4572e3af8b0c4d86eab74cf99f30c1ea20"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. When this spirit dies, all party members in the area are resurrected with [[MO:growth:0:var2]] Health and zero Energy. This spirit dies after 30 seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。此精靈死亡時，使區域內所有隊伍成員復活，體力為 [[MO:growth:0:var2]]，能量為 0。此精靈在 30 秒後死亡。",
+      "reason": "黨員應為隊伍成員；核對死亡觸發的區域復活、百分比體力與零能量，並保留 PvP 等級。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 等級；復活只涵蓋區域內隊伍成員，百分比詞元不應誤作固定體力點數。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6337/variants/skill-version:gww:207631/descriptionTemplate",
+          "englishHash": "d251f7563197adb324d4e5d80bdbd9d26fbba79cba36ad75f710697332ad6518",
+          "evidenceHash": "65e63c4cdc0054ea932ef7780ab74c4572e3af8b0c4d86eab74cf99f30c1ea20"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6337/variants/skill-version:gww:6337/descriptionTemplate",
+          "englishHash": "d251f7563197adb324d4e5d80bdbd9d26fbba79cba36ad75f710697332ad6518",
+          "evidenceHash": "6c9d05d2ccc65d24bb32b61448441374f50635f8042ca61134ff587ed7aa2324"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…11…14 spirit. When this spirit dies, all party members in the area are resurrected with 5…41…50% Health and zero Energy. This spirit dies after 30 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…11…14 的精靈。此精靈死亡時，使區域內所有隊伍成員復活，體力為 5…41…50%，能量為 0。此精靈在 30 秒後死亡。",
+      "reason": "獨立核對 PvE 等級；復活只涵蓋區域內隊伍成員，百分比詞元不應誤作固定體力點數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6337/variants/skill-version:gww:6337/description",
+          "englishHash": "82d3d3507eaf0a6c6e21ad248c5e9bba033acb834531bae56ae36bfadfdc46a5",
+          "evidenceHash": "6c9d05d2ccc65d24bb32b61448441374f50635f8042ca61134ff587ed7aa2324"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…7…8 spirit. This spirit's attacks deal 5…25…30 damage. This spirit dies after 30…126…150 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…7…8 的精靈。此精靈的攻擊造成 5…25…30 點傷害。此精靈在 30…126…150 秒後死亡。",
+      "reason": "核對 PvP 等級、精靈攻擊傷害及壽命；修正縛靈儀式和精靈術語。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6338/variants/skill-version:gww:207533/description",
+          "englishHash": "d337b39d3b0be56ce8a391cb48369bebc4a6eecd44b026654625e6d0e973a2aa",
+          "evidenceHash": "32712d8a21ac5fbaae5778ad85e842e5388d0d91916855a5ae4f1d50fc857a03"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level [[MO:growth:0:var1]] spirit. This spirit's attacks deal [[MO:growth:0:var2]] damage. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "縛靈儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。此精靈的攻擊造成 [[MO:growth:0:var2]] 點傷害。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "核對 PvP 等級、精靈攻擊傷害及壽命；修正縛靈儀式和精靈術語。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 精靈等級；傷害屬於精靈攻擊，不是施放儀式時的直接傷害。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6338/variants/skill-version:gww:207533/descriptionTemplate",
+          "englishHash": "bb418e7961b340dbe92b7c2fbc192aae995bac00a9cc92467c49748d17bebefa",
+          "evidenceHash": "32712d8a21ac5fbaae5778ad85e842e5388d0d91916855a5ae4f1d50fc857a03"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6338/variants/skill-version:gww:6338/descriptionTemplate",
+          "englishHash": "bb418e7961b340dbe92b7c2fbc192aae995bac00a9cc92467c49748d17bebefa",
+          "evidenceHash": "7b5c2a9102568bf3d262ea0a2580a10bbe92f81d49ed133c30cd74a4b44fb779"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Create a level 1…10…12 spirit. This spirit's attacks deal 5…25…30 damage. This spirit dies after 30…126…150 seconds.",
+      "text": "縛靈儀式。創造一個等級 1…10…12 的精靈。此精靈的攻擊造成 5…25…30 點傷害。此精靈在 30…126…150 秒後死亡。",
+      "reason": "獨立核對 PvE 精靈等級；傷害屬於精靈攻擊，不是施放儀式時的直接傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6338/variants/skill-version:gww:6338/description",
+          "englishHash": "816b60a3da949b5c4121bb9d449753c52b8cdbcc8b26b444b75a7eb5cc8bcf88",
+          "evidenceHash": "7b5c2a9102568bf3d262ea0a2580a10bbe92f81d49ed133c30cd74a4b44fb779"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. For each enchantment on a non-spirit creature within range, that creature has +27…125…150 maximum Health. This spirit dies after 30…198…240 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。範圍內的非精靈生物，身上每有一項加持，便獲得 +27…125…150 最大體力。此精靈在 30…198…240 秒後死亡。",
+      "reason": "核對最大體力加成按生物自身加持數量逐項累加，並非單次回復或由精靈身上的加持決定。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6510/variants/skill-version:gww:6510/description",
+          "englishHash": "a8b34ae88cffd1bdc6bfb2663b2f57bef904b44930a760c4f1e9ba24d05157c4",
+          "evidenceHash": "0a0b34a45927117f134c4d14ff122dd7d9919bc9582b241e29389343538b1e09"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For each enchantment on a non-spirit creature within range, that creature has [[MO:growth:0:var2]] maximum Health. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。範圍內的非精靈生物，身上每有一項加持，便獲得 [[MO:growth:0:var2]] 最大體力。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "核對最大體力加成按生物自身加持數量逐項累加，並非單次回復或由精靈身上的加持決定。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6510/variants/skill-version:gww:6510/descriptionTemplate",
+          "englishHash": "03bf3dad81f1c295305355afabc5df1c4484d489ca9d789f3f9d9bd3608df6ad",
+          "evidenceHash": "0a0b34a45927117f134c4d14ff122dd7d9919bc9582b241e29389343538b1e09"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. Poisoned or Diseased creatures within its range suffer -2 Health degeneration. This spirit dies after 30…150…180 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內中毒或感染疾病的生物，承受 -2 體力衰減。此精靈在 30…150…180 秒後死亡。",
+      "reason": "核對中毒或疾病任一病症即可觸發，衰減不是直接傷害；原文未排除精靈，不增加非精靈限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6512/variants/skill-version:gww:6512/description",
+          "englishHash": "f14a9b4093af4a3e2416cc9f328238cbcaf1b18f580dd2c54c37ed1259b0d7ac",
+          "evidenceHash": "83b4d8054f9009d20c71e70bef6477464eeceec9b7c758a3495cc1875451fd0c"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Poisoned or Diseased creatures within its range suffer -2 Health degeneration. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內中毒或感染疾病的生物，承受 -2 體力衰減。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "核對中毒或疾病任一病症即可觸發，衰減不是直接傷害；原文未排除精靈，不增加非精靈限制。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6512/variants/skill-version:gww:6512/descriptionTemplate",
+          "englishHash": "7f634fcd8228bc791091e35ff07b06bc66b6145eb50d9d43d0cd762801ebe0c3",
+          "evidenceHash": "83b4d8054f9009d20c71e70bef6477464eeceec9b7c758a3495cc1875451fd0c"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. Non-spirit creatures within its range cannot activate resurrection skills. This spirit dies after 30…150…180 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內的非精靈生物無法啟動復活技能。此精靈在 30…150…180 秒後死亡。",
+      "reason": "核對禁止啟動的是復活技能，沒有擴大為所有技能或一切復活來源；保留非精靈限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6573/variants/skill-version:gww:6573/description",
+          "englishHash": "7783813ab59fbacc76feead6d54037e6dd414343a7f044cd05435d57a74b300c",
+          "evidenceHash": "dc951a1b9a4c47f921001abfc016fb5436bef74a97ba14762d192f6e621cefa8"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Non-spirit creatures within its range cannot activate resurrection skills. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內的非精靈生物無法啟動復活技能。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "核對禁止啟動的是復活技能，沒有擴大為所有技能或一切復活來源；保留非精靈限制。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6573/variants/skill-version:gww:6573/descriptionTemplate",
+          "englishHash": "3ca38655a005043de753c3e881e6168961b00b641efe9c63b6b165fe6a400523",
+          "evidenceHash": "dc951a1b9a4c47f921001abfc016fb5436bef74a97ba14762d192f6e621cefa8"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. Non-spirit creatures within its range move 10% slower and speed boosts have no effect. This spirit dies after 30…150…180 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內非精靈生物的移動速度降低 10%，且移動加速效果無效。此精靈在 30…150…180 秒後死亡。",
+      "reason": "核對移動減速與移動加速無效是兩項效果，不把 speed boosts 擴大為施法或攻擊加速。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6584/variants/skill-version:gww:6584/description",
+          "englishHash": "b5bc37fdfe222db69fd3e764d1935d00b263e43a99a5c4983d4ab0da312dec76",
+          "evidenceHash": "5a2dcf1fd7a23e00edc9aab08c811b62daccbfa0c210c2e5c216ea5c90d32054"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Non-spirit creatures within its range move 10% slower and speed boosts have no effect. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內非精靈生物的移動速度降低 10%，且移動加速效果無效。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "核對移動減速與移動加速無效是兩項效果，不把 speed boosts 擴大為施法或攻擊加速。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6584/variants/skill-version:gww:6584/descriptionTemplate",
+          "englishHash": "f88ebc11ae2301553c98c9be214b8267badd4f7309cc18188563228b093cf4ee",
+          "evidenceHash": "5a2dcf1fd7a23e00edc9aab08c811b62daccbfa0c210c2e5c216ea5c90d32054"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. For 30…198…240 seconds, enchantments and hexes cast by non-spirit creatures in range take 50…70…75% longer to cast, and it costs twice as much Energy to maintain enchantments. This spirit dies after 30…198…240 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。持續 30…198…240 秒，範圍內非精靈生物施放加持與降咒魔法的時間延長 50…70…75%，維持加持的能量消耗加倍。此精靈在 30…198…240 秒後死亡。",
+      "reason": "核對 PvP 加持與降咒的施放時間百分比及維持費用加倍；兩處持續時間使用相同效果詞元。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6586/variants/skill-version:gww:321778/description",
+          "englishHash": "f3c2b58c1acf2f48838ec56ef119832b81909e98686488f5dc9436b0c29cd48e",
+          "evidenceHash": "04c45f3705d32ae34cd0bb07c445bdacc5280488e8b2930944e3830fe814d8c6"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For [[MO:growth:0:var2]] seconds, enchantments and hexes cast by non-spirit creatures in range take [[MO:growth:0:var3]] longer to cast, and it costs twice as much Energy to maintain enchantments. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。持續 [[MO:growth:0:var2]] 秒，範圍內非精靈生物施放加持與降咒魔法的時間延長 [[MO:growth:0:var3]]，維持加持的能量消耗加倍。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "核對 PvP 加持與降咒的施放時間百分比及維持費用加倍；兩處持續時間使用相同效果詞元。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6586/variants/skill-version:gww:321778/descriptionTemplate",
+          "englishHash": "fd5432222a9857be1e757ee18b39e3b10d854c662f93b7335a4b822ebc100c9c",
+          "evidenceHash": "04c45f3705d32ae34cd0bb07c445bdacc5280488e8b2930944e3830fe814d8c6"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. For 30…198…240 seconds, enchantments and hexes cast by non-spirit creatures in range take twice as long to cast, and it costs twice as much Energy to maintain enchantments. This spirit dies after 30…198…240 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。持續 30…198…240 秒，範圍內非精靈生物施放加持與降咒魔法的時間加倍，維持加持的能量消耗也加倍。此精靈在 30…198…240 秒後死亡。",
+      "reason": "獨立核對 PvE 施放時間固定加倍，不能套用 PvP 成長百分比；維持耗能另行加倍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6586/variants/skill-version:gww:6586/description",
+          "englishHash": "53fadfa67a25cb10c8bb187825b0612884c6943b7d77566940fdd28dc6ba7afd",
+          "evidenceHash": "bc3b2090a5e88c98121433f7876cdb8f0ca4a2cd85ff52fff9a67bbe0242e157"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For [[MO:growth:0:var2]] seconds, enchantments and hexes cast by non-spirit creatures in range take twice as long to cast, and it costs twice as much Energy to maintain enchantments. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。持續 [[MO:growth:0:var2]] 秒，範圍內非精靈生物施放加持與降咒魔法的時間加倍，維持加持的能量消耗也加倍。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "獨立核對 PvE 施放時間固定加倍，不能套用 PvP 成長百分比；維持耗能另行加倍。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6586/variants/skill-version:gww:6586/descriptionTemplate",
+          "englishHash": "3839e90a3288203aeb286bab23561e2dd1b9b27a56789b210046f2212940b0a4",
+          "evidenceHash": "bc3b2090a5e88c98121433f7876cdb8f0ca4a2cd85ff52fff9a67bbe0242e157"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. When any creature within its range dies, conditions on that creature spread to any creature in the area already suffering from a condition. This spirit dies after 30…150…180 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內任何生物死亡時，該生物身上的病症會傳播給區域內已受到病症影響的所有生物。此精靈在 30…150…180 秒後死亡。",
+      "reason": "核對傳播目標須原本已帶有至少一項病症，死亡生物與受傳播生物均未限制敵我或非精靈。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6587/variants/skill-version:gww:6587/description",
+          "englishHash": "ae2868dd67f221f3990d17d27a0bdc23e15c3cd68579ac8e953661c93a9a0a20",
+          "evidenceHash": "3b87e9e37e98968e9718abadb09aaf8f57d67034927ec8e890213540e0fd97ed"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. When any creature within its range dies, conditions on that creature spread to any creature in the area already suffering from a condition. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內任何生物死亡時，該生物身上的病症會傳播給區域內已受到病症影響的所有生物。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "核對傳播目標須原本已帶有至少一項病症，死亡生物與受傳播生物均未限制敵我或非精靈。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6587/variants/skill-version:gww:6587/descriptionTemplate",
+          "englishHash": "1e53ead7cc00e5ba5e7b0ec569b0dfd36b7522930cbc4db8c168ae8e9a963dea",
+          "evidenceHash": "3b87e9e37e98968e9718abadb09aaf8f57d67034927ec8e890213540e0fd97ed"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. Chants and shouts cost 1…4…5 more Energy. This spirit dies after 30…150…180 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。聖歌與戰嚎的能量消耗增加 1…4…5 點。此精靈在 30…150…180 秒後死亡。",
+      "reason": "將口號與喊叫改為固定技能類型聖歌與戰嚎；增加的是能量費用而非效果值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6589/variants/skill-version:gww:6589/description",
+          "englishHash": "5339b9ed5faccf3df95b036ca76582b4b6ab9075341aee6e1286d8c13d7816a8",
+          "evidenceHash": "599ddca0506d9eb1bac37a073d7a77f5a5cb78bdab323f696893efe79d2c00d5"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Chants and shouts cost [[MO:growth:0:var2]] more Energy. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。聖歌與戰嚎的能量消耗增加 [[MO:growth:0:var2]] 點。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "將口號與喊叫改為固定技能類型聖歌與戰嚎；增加的是能量費用而非效果值。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6589/variants/skill-version:gww:6589/descriptionTemplate",
+          "englishHash": "0d4cc9b6cc460f1296b661c672520526f06066dd618c488dc68945db33e8d92b",
+          "evidenceHash": "599ddca0506d9eb1bac37a073d7a77f5a5cb78bdab323f696893efe79d2c00d5"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. Enchantments cast by non-spirit creatures within its range expire 10…26…30% faster. This spirit dies after 15…99…120 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內非精靈生物施放的加持，消退速度提高 10…26…30%。此精靈在 15…99…120 秒後死亡。",
+      "reason": "獨立核對 PvP 加持消退百分比與壽命，修正關卡及精神誤譯，不誤作施放速度。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6594/variants/skill-version:gww:321744/description",
+          "englishHash": "8e4aeabc3f970e3bb63a90e1d9ae92f83895bd58efc104e0f723bafcab1fdee8",
+          "evidenceHash": "254c13114b66eba41cc15ac1a25ebc73413614244398135d901d1187de298b8b"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Enchantments cast by non-spirit creatures within its range expire [[MO:growth:0:var2]] faster. This spirit dies after [[MO:growth:0:var3]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。其範圍內非精靈生物施放的加持，消退速度提高 [[MO:growth:0:var2]]。此精靈在 [[MO:growth:0:var3]] 秒後死亡。",
+      "reason": "獨立核對 PvP 加持消退百分比與壽命，修正關卡及精神誤譯，不誤作施放速度。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvE 較高的加持消退加速，不套用 PvP 百分比；百分號由效果詞元提供。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6594/variants/skill-version:gww:321744/descriptionTemplate",
+          "englishHash": "4a6c298489dc0bb5d31281893baa4e1d8194153a57665fa2975ba8bba4aab726",
+          "evidenceHash": "254c13114b66eba41cc15ac1a25ebc73413614244398135d901d1187de298b8b"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6594/variants/skill-version:gww:6594/descriptionTemplate",
+          "englishHash": "4a6c298489dc0bb5d31281893baa4e1d8194153a57665fa2975ba8bba4aab726",
+          "evidenceHash": "b5a50dec5b8a6beae37c1b3f07d09c86266c9b95ca294093a27eb3bccccc7533"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. Enchantments cast by non-spirit creatures within its range expire 20…44…50% faster. This spirit dies after 15…99…120 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。其範圍內非精靈生物施放的加持，消退速度提高 20…44…50%。此精靈在 15…99…120 秒後死亡。",
+      "reason": "獨立核對 PvE 較高的加持消退加速，不套用 PvP 百分比；百分號由效果詞元提供。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6594/variants/skill-version:gww:6594/description",
+          "englishHash": "991f3badfa9dca1feae9898491ca20063d98c6ffd3c10cadb9b53c26aabcc2ab",
+          "evidenceHash": "b5a50dec5b8a6beae37c1b3f07d09c86266c9b95ca294093a27eb3bccccc7533"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. Non-spirit creatures within range take 4 additional damage whenever they take physical damage. This spirit dies after 30…198…240 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。範圍內的非精靈生物，每次造成物理傷害時，額外造成 4 點傷害；受傷目標可包含精靈。此精靈在 30…198…240 秒後死亡。",
+      "reason": "固定 Winnowing 修訂 2732151 的 bug 明確指出，實際為範圍內生物造成額外傷害，而非受到額外傷害。受傷目標可包含精靈；保留等級、壽命與四點附傷。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/description",
+          "englishHash": "d2005f4d9401b3408874bf1196045972c2954e2bcfc5ba06a08188483d620d32",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Winnowing",
+          "pageid": 6597,
+          "revid": 2732151,
+          "sha1": "387f1afa729816554812cad14e9b448bf4d7b8a5",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winnowing&oldid=2732151"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. Non-spirit creatures within range take 4 additional damage whenever they take physical damage. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。範圍內的非精靈生物，每次造成物理傷害時，額外造成 4 點傷害；受傷目標可包含精靈。此精靈在 [[MO:growth:0:var2]] 秒後死亡。",
+      "reason": "固定 Winnowing 修訂 2732151 的 bug 明確指出，實際為範圍內生物造成額外傷害，而非受到額外傷害。受傷目標可包含精靈；保留等級、壽命與四點附傷。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/descriptionTemplate",
+          "englishHash": "9c83002c0e1e406e4da2dd8bce074eecd7a61158da24d7aff4c7698905f6bce8",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Winnowing",
+          "pageid": 6597,
+          "revid": 2732151,
+          "sha1": "387f1afa729816554812cad14e9b448bf4d7b8a5",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winnowing&oldid=2732151"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level 1…8…10 spirit. For creatures within its range, all elemental damage is cold damage instead. This spirit dies after 30…198…240 seconds.",
+      "text": "自然儀式。創造一個等級 1…8…10 的精靈。若攻擊者或受傷者任一位於其範圍內，最終承受的元素傷害改為冰冷傷害，不改變武器的輸出屬性。此精靈在 30…198…240 秒後死亡。〔來源對精靈適用範圍的說明不一致，待核實。〕",
+      "reason": "同頁固定修訂 2739561 的 Notes 區分最終承受傷害與武器輸出，anomaly 指出攻擊者或受傷者任一在範圍內即可。完整與簡短說明對精靈的排除範圍不一致，明示待核實。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/description",
+          "englishHash": "f49b5ac2715fffb70af8eb024c315b9bb5bd85aa01723365b52d9db6b351ea59",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Winter",
+          "pageid": 6599,
+          "revid": 2739561,
+          "sha1": "97a5ac8d468bd24a94f75c5d1fa18cd98b239854",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winter&oldid=2739561"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Create a level [[MO:growth:0:var1]] spirit. For creatures within its range, all elemental damage is cold damage instead. This spirit dies after [[MO:growth:0:var2]] seconds.",
+      "text": "自然儀式。創造一個等級 [[MO:growth:0:var1]] 的精靈。若攻擊者或受傷者任一位於其範圍內，最終承受的元素傷害改為冰冷傷害，不改變武器的輸出屬性。此精靈在 [[MO:growth:0:var2]] 秒後死亡。〔來源對精靈適用範圍的說明不一致，待核實。〕",
+      "reason": "同頁固定修訂 2739561 的 Notes 區分最終承受傷害與武器輸出，anomaly 指出攻擊者或受傷者任一在範圍內即可。完整與簡短說明對精靈的排除範圍不一致，明示待核實。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/descriptionTemplate",
+          "englishHash": "71a8333f8e7e4559ce03fadccc02cc41858d39941bc2d6273910f07125be2d71",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Winter",
+          "pageid": 6599,
+          "revid": 2739561,
+          "sha1": "97a5ac8d468bd24a94f75c5d1fa18cd98b239854",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winter&oldid=2739561"
+        }
+      ]
+    },
+    {
+      "source": "Melee Attack. You remove 1 Dervish enchantment. If a Dervish enchantment was removed, this skill recharges 75% faster and adjacent foes take 15…35…40 damage.",
+      "text": "近身攻擊技能。移除自身 1 項神喚使加持。若成功移除神喚使加持，此技能的冷卻加快 75%，並對相鄰敵人造成 15…35…40 點傷害。",
+      "reason": "核對移除自身神喚使加持才同時觸發加快冷卻與範圍傷害；recharge 不是恢復體力，保留 PvP 數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12253/variants/skill-version:gww:274799/description",
+          "englishHash": "358fc4d132fa4d896e76aed8b6e9fcd3550cea1c1287255c788ec55aee28a3c6",
+          "evidenceHash": "0ee8c345dca4abb29a7b785e263e5816060440662b777ca08eade0dc0541e583"
+        }
+      ]
+    },
+    {
+      "source": "Melee Attack. You remove 1 Dervish enchantment. If a Dervish enchantment was removed, this skill recharges 75% faster and adjacent foes take [[MO:growth:0:var1]] damage.",
+      "text": "近身攻擊技能。移除自身 1 項神喚使加持。若成功移除神喚使加持，此技能的冷卻加快 75%，並對相鄰敵人造成 [[MO:growth:0:var1]] 點傷害。",
+      "reason": "核對移除自身神喚使加持才同時觸發加快冷卻與範圍傷害；recharge 不是恢復體力，保留 PvP 數值。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12253/variants/skill-version:gww:274799/descriptionTemplate",
+          "englishHash": "77d17a9295d42537b48a314f61d1ab56f5cb0344ae72ffbf7cc42be2ec8f9ac4",
+          "evidenceHash": "0ee8c345dca4abb29a7b785e263e5816060440662b777ca08eade0dc0541e583"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 20 seconds, every time you successfully hit with an attack, you gain 3…13…15 Health for each enchantment on you (maximum 25 Health).",
+      "text": "加持魔法。持續 20 秒，每當你的攻擊成功命中，你身上每有一項加持，便恢復 3…13…15 點體力，每次最多恢復 25 點體力。",
+      "reason": "治療對象是施放者，並非各項加持本身；核對每次命中按加持數乘算且有二十五點總上限。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12258/variants/skill-version:gww:12258/description",
+          "englishHash": "15f47f280c02142cfb5bc9dfaae092d767938b4f8f5d880d0a9aa3620feddb17",
+          "evidenceHash": "1bb9eec0b6dde3668bdbe7362c9e4ac95636244b50b6d426ebaf5a422c28df85"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 20 seconds, every time you successfully hit with an attack, you gain [[MO:growth:0:var1]] Health for each enchantment on you (maximum 25 Health).",
+      "text": "加持魔法。持續 20 秒，每當你的攻擊成功命中，你身上每有一項加持，便恢復 [[MO:growth:0:var1]] 點體力，每次最多恢復 25 點體力。",
+      "reason": "治療對象是施放者，並非各項加持本身；核對每次命中按加持數乘算且有二十五點總上限。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12258/variants/skill-version:gww:12258/descriptionTemplate",
+          "englishHash": "a48576421e86ef820adebd61a44ca0f49d5f5a8bce4047ee9cede103ae79ca5a",
+          "evidenceHash": "1bb9eec0b6dde3668bdbe7362c9e4ac95636244b50b6d426ebaf5a422c28df85"
+        }
+      ]
+    },
+    {
+      "source": "Bow Attack. If this attack hits, you deal +10…22…25 damage. If your target is within earshot, that foe begins Bleeding for 5…17…20 seconds.",
+      "text": "弓術技能。若此攻擊命中，造成 +10…22…25 點額外傷害。若目標在音量所及範圍內，使其流血 5…17…20 秒。",
+      "reason": "核對命中額外傷害與音量所及範圍的流血條件，保留兩組數值與傷害加號。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1234/variants/skill-version:gww:1234/description",
+          "englishHash": "9879f33c4435d568b9bdc5db44d8fdb96bb67a489bbe474718336e6d03c43116",
+          "evidenceHash": "d26e59da26928fd0ca02d691c56eb70c0a7c7f3131f6b966d7072602838b7965"
+        }
+      ]
+    },
+    {
+      "source": "Bow Attack. If this attack hits, you deal [[MO:growth:0:var1]] damage. If your target is within earshot, that foe begins Bleeding for [[MO:growth:0:var2]] seconds.",
+      "text": "弓術技能。若此攻擊命中，造成 [[MO:growth:0:var1]] 點額外傷害。若目標在音量所及範圍內，使其流血 [[MO:growth:0:var2]] 秒。",
+      "reason": "核對命中額外傷害與音量所及範圍的流血條件，保留兩組數值與傷害加號。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1234/variants/skill-version:gww:1234/descriptionTemplate",
+          "englishHash": "0e665927c0947867a5332d655e52ae743f83d7925ae8340a38a3adfdcb9a6c27",
+          "evidenceHash": "d26e59da26928fd0ca02d691c56eb70c0a7c7f3131f6b966d7072602838b7965"
+        }
+      ]
+    },
+    {
+      "source": "Sword Attack. If this attack hits, the opponent begins Bleeding for 5…21…25 seconds, losing Health over time.",
+      "text": "劍術技能。若此攻擊命中，使對手流血 5…21…25 秒，期間持續失去體力。",
+      "reason": "核對命中才施加流血及持續時間；失去體力描述流血的持續作用，不誤作命中額外傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12400/variants/skill-version:gww:12400/description",
+          "englishHash": "0ddceffb623289c43ae60d01a13f00a86c69fbc1fb691b9f7f76c4e0e1249a37",
+          "evidenceHash": "98b62851309d92abad6105a61f16699082b9e228cf74926b019cf7e02b672b3a"
+        }
+      ]
+    },
+    {
+      "source": "Sword Attack. If this attack hits, the opponent begins Bleeding for [[MO:growth:0:var1]] seconds, losing Health over time.",
+      "text": "劍術技能。若此攻擊命中，使對手流血 [[MO:growth:0:var1]] 秒，期間持續失去體力。",
+      "reason": "核對命中才施加流血及持續時間；失去體力描述流血的持續作用，不誤作命中額外傷害。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12400/variants/skill-version:gww:12400/descriptionTemplate",
+          "englishHash": "22d2f232b6791b3e3e46b3dad5d3bec3195fc950dee78fa9dae767e8f744ed39",
+          "evidenceHash": "98b62851309d92abad6105a61f16699082b9e228cf74926b019cf7e02b672b3a"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 4…9…10 seconds, you have +7 Health regeneration and +80 armor. This enchantment ends if you successfully hit with an attack or use a skill.",
+      "text": "加持魔法。持續 4…9…10 秒，你獲得 +7 體力再生與 +80 護甲。若你的攻擊成功命中，或你使用技能，此加持結束。",
+      "reason": "核對攻擊必須成功命中才結束，但使用任一技能本身即結束；再生與護甲為兩項獨立固定加成。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12404/variants/skill-version:gww:12404/description",
+          "englishHash": "818d1f559268da0b15ce990fe47b0fda33959f0045e530812ec374935897cc6c",
+          "evidenceHash": "ffa3af2e60e19bee8f1c017da87b93fbebf09785a03f6da97f7bc63d7018df68"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For [[MO:growth:0:var1]] seconds, you have +7 Health regeneration and +80 armor. This enchantment ends if you successfully hit with an attack or use a skill.",
+      "text": "加持魔法。持續 [[MO:growth:0:var1]] 秒，你獲得 +7 體力再生與 +80 護甲。若你的攻擊成功命中，或你使用技能，此加持結束。",
+      "reason": "核對攻擊必須成功命中才結束，但使用任一技能本身即結束；再生與護甲為兩項獨立固定加成。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12404/variants/skill-version:gww:12404/descriptionTemplate",
+          "englishHash": "23b13877335b4f5dd9bae8638a0bd767b0bf013cabbaa5841b791b212d57138b",
+          "evidenceHash": "ffa3af2e60e19bee8f1c017da87b93fbebf09785a03f6da97f7bc63d7018df68"
+        }
+      ]
+    },
+    {
+      "source": "Melee Attack. If this attack hits, you strike for +10…34…40 damage.",
+      "text": "近身攻擊技能。若此攻擊命中，造成 +10…34…40 點額外傷害。",
+      "reason": "原譯顛倒傷害主體；命中時由你造成額外傷害，不是自己受到傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12410/variants/skill-version:gww:12410/description",
+          "englishHash": "9ad6c0a3bbbfd64a9449e7fc4a7b0860c16c015b3bcebb08c87d993b048ed405",
+          "evidenceHash": "6c9bdc15d47941bbdeb6066e80d1123e0b000b760beb71f4a742e6feb3e91ea4"
+        }
+      ]
+    },
+    {
+      "source": "Melee Attack. If this attack hits, you strike for [[MO:growth:0:var1]] damage.",
+      "text": "近身攻擊技能。若此攻擊命中，造成 [[MO:growth:0:var1]] 點額外傷害。",
+      "reason": "原譯顛倒傷害主體；命中時由你造成額外傷害，不是自己受到傷害。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12410/variants/skill-version:gww:12410/descriptionTemplate",
+          "englishHash": "8e0109210702659328fe02c21644d9759323a8e53e57cb9876185ac7261b36f4",
+          "evidenceHash": "6c9bdc15d47941bbdeb6066e80d1123e0b000b760beb71f4a742e6feb3e91ea4"
+        }
+      ]
+    },
+    {
+      "source": "Bow Attack. If this attack hits, you strike for +5…17…20 damage. If you land a critical hit, you deal an additional +5…21…25 damage.",
+      "text": "弓術技能。若此攻擊命中，造成 +5…17…20 點額外傷害。若打出致命一擊，再造成 +5…21…25 點額外傷害。",
+      "reason": "修正受到傷害及重擊誤義；命中加成與致命一擊再加成分開計算，保留兩組正值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1242/variants/skill-version:gww:1242/description",
+          "englishHash": "8122ba7e778d8b2b9c5aee571ce2d4b08cec1cdf468197579091dad5133f2c1b",
+          "evidenceHash": "f97f012de30b73aa0143a886a002fa041148dbbe34f28f27919fd5165818ac60"
+        }
+      ]
+    },
+    {
+      "source": "Bow Attack. If this attack hits, you strike for [[MO:growth:0:var1]] damage. If you land a critical hit, you deal an additional [[MO:growth:0:var2]] damage.",
+      "text": "弓術技能。若此攻擊命中，造成 [[MO:growth:0:var1]] 點額外傷害。若打出致命一擊，再造成 [[MO:growth:0:var2]] 點額外傷害。",
+      "reason": "修正受到傷害及重擊誤義；命中加成與致命一擊再加成分開計算，保留兩組正值。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。 獨立核對 PvP 較低首段與較高致命加成，不套用 PvE 數值；施放者是造成傷害的一方。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1242/variants/skill-version:gww:1242/descriptionTemplate",
+          "englishHash": "8ae445a60d4b8b0ef8fd83ab02575dd039db862bb4d1d224efa31913b0f21ac2",
+          "evidenceHash": "f97f012de30b73aa0143a886a002fa041148dbbe34f28f27919fd5165818ac60"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1242/variants/skill-version:gww:240764/descriptionTemplate",
+          "englishHash": "8ae445a60d4b8b0ef8fd83ab02575dd039db862bb4d1d224efa31913b0f21ac2",
+          "evidenceHash": "fd69eed94f2526e08b9ca43d2fddb38d7e143de094cb0f9dd02eb851be5e16c7"
+        }
+      ]
+    },
+    {
+      "source": "Bow Attack. If this attack hits, you strike for +5…13…15 damage. If you land a critical hit, you deal an additional +5…25…30 damage.",
+      "text": "弓術技能。若此攻擊命中，造成 +5…13…15 點額外傷害。若打出致命一擊，再造成 +5…25…30 點額外傷害。",
+      "reason": "獨立核對 PvP 較低首段與較高致命加成，不套用 PvE 數值；施放者是造成傷害的一方。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1242/variants/skill-version:gww:240764/description",
+          "englishHash": "f651cd2fa0e17bc4bb771a32b7f0ca681866e9efa777d6b711be62f2301a5505",
+          "evidenceHash": "fd69eed94f2526e08b9ca43d2fddb38d7e143de094cb0f9dd02eb851be5e16c7"
+        }
+      ]
+    },
+    {
+      "source": "Elite Bow Attack. If this attack hits, you strike for +10…22…25 damage. If you are under the effects of a preparation, you gain 1…7…9 Energy.",
+      "text": "精英弓術技能。若此攻擊命中，造成 +10…22…25 點額外傷害。若你受到準備技能的效果影響，獲得 1…7…9 點能量。",
+      "reason": "修正造成傷害主體及 preparation 製劑誤譯；回能條件是具有準備技能效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1243/variants/skill-version:gww:1243/description",
+          "englishHash": "45073b1beb7cc2db0279539614cd23a7a8880f454dbe58c69cac8a3553a2f6c4",
+          "evidenceHash": "f52c9553eaf775bea3497a9dfaf069c6941bb414f9ab782b7b2b3a8c9a8f720d"
+        }
+      ]
+    },
+    {
+      "source": "Elite Bow Attack. If this attack hits, you strike for [[MO:growth:0:var1]] damage. If you are under the effects of a preparation, you gain [[MO:growth:0:var2]] Energy.",
+      "text": "精英弓術技能。若此攻擊命中，造成 [[MO:growth:0:var1]] 點額外傷害。若你受到準備技能的效果影響，獲得 [[MO:growth:0:var2]] 點能量。",
+      "reason": "修正造成傷害主體及 preparation 製劑誤譯；回能條件是具有準備技能效果。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1243/variants/skill-version:gww:1243/descriptionTemplate",
+          "englishHash": "f4ffbf3b8167db42f46a293d43f670ae0cb734c71c8ddf5aecd9b60972757520",
+          "evidenceHash": "f52c9553eaf775bea3497a9dfaf069c6941bb414f9ab782b7b2b3a8c9a8f720d"
+        }
+      ]
+    },
+    {
+      "source": "Pet Attack. Your animal companion attempts a Predator's Pounce that deals +5…29…35 damage. If that attack hits, your animal companion gains 5…41…50 Health.",
+      "text": "寵物攻擊。你的動物夥伴嘗試使用獵食者突襲，造成 +5…29…35 點額外傷害。若此攻擊命中，動物夥伴恢復 5…41…50 點體力。",
+      "reason": "核對攻擊與命中回復均由動物夥伴執行或獲得，不是玩家；保留固定中文技能名。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1244/variants/skill-version:gww:1244/description",
+          "englishHash": "180f8618fdbc3bce0e49759f4e9a32fbfaf8e199ed85e5d6ae9668b67e91be31",
+          "evidenceHash": "26ab342eaa6be769e28ce6e04c6dd47c9083c0442925d91077561672ed551262"
+        }
+      ]
+    },
+    {
+      "source": "Pet Attack. Your animal companion attempts a Predator's Pounce that deals [[MO:growth:0:var1]] damage. If that attack hits, your animal companion gains [[MO:growth:0:var2]] Health.",
+      "text": "寵物攻擊。你的動物夥伴嘗試使用獵食者突襲，造成 [[MO:growth:0:var1]] 點額外傷害。若此攻擊命中，動物夥伴恢復 [[MO:growth:0:var2]] 點體力。",
+      "reason": "核對攻擊與命中回復均由動物夥伴執行或獲得，不是玩家；保留固定中文技能名。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1244/variants/skill-version:gww:1244/descriptionTemplate",
+          "englishHash": "f5c1af4b273bb5b78ea96c8679e4c4b77faa89e9080aca5fd5aeb2c892023445",
+          "evidenceHash": "26ab342eaa6be769e28ce6e04c6dd47c9083c0442925d91077561672ed551262"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target foe and all nearby foes are struck for 15…99…120 fire damage and set on fire for 1…3…3 seconds.",
+      "text": "咒文魔法。對目標敵人及所有附近敵人造成 15…99…120 點火焰傷害，並使其燃燒 1…3…3 秒。",
+      "reason": "核對目標及附近敵人均同時受到火焰傷害和燃燒；時間只修飾燃燒，非直接傷害持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12698/variants/skill-version:gww:12698/description",
+          "englishHash": "2314fdbe668776e029ae983e8d3e059d78209616f4abf4d4ab0d0ff4590fe830",
+          "evidenceHash": "db3a99bc2d2b346b91ec827f89cdee85552964a93f304a1cb503b4f1be7ebe70"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target foe and all nearby foes are struck for [[MO:growth:0:var1]] fire damage and set on fire for [[MO:growth:0:var2]] seconds.",
+      "text": "咒文魔法。對目標敵人及所有附近敵人造成 [[MO:growth:0:var1]] 點火焰傷害，並使其燃燒 [[MO:growth:0:var2]] 秒。",
+      "reason": "核對目標及附近敵人均同時受到火焰傷害和燃燒；時間只修飾燃燒，非直接傷害持續時間。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12698/variants/skill-version:gww:12698/descriptionTemplate",
+          "englishHash": "35926b8d6e4d01b0976148ea9ba31cd8ccb6d5d52eb079d083f0c2e2ddd02759",
+          "evidenceHash": "db3a99bc2d2b346b91ec827f89cdee85552964a93f304a1cb503b4f1be7ebe70"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Your next 1…13…16 attacks deal +5 damage.",
+      "text": "紋章。接下來 1…13…16 次攻擊造成 +5 點額外傷害。",
+      "reason": "原譯下一次數次語法不清；核對成長數值表示攻擊次數，固定加成為五點。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12702/variants/skill-version:gww:12702/description",
+          "englishHash": "4508e9cde8943eb6a620846c4ebc15c946c3894e61cdd1b71c104dcea77b1da4",
+          "evidenceHash": "385edeba3d216020eba83b1e22e7df309af78975dfa3f180668144981a2ad92b"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Your next [[MO:growth:0:var1]] attacks deal +5 damage.",
+      "text": "紋章。接下來 [[MO:growth:0:var1]] 次攻擊造成 +5 點額外傷害。",
+      "reason": "原譯下一次數次語法不清；核對成長數值表示攻擊次數，固定加成為五點。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12702/variants/skill-version:gww:12702/descriptionTemplate",
+          "englishHash": "3b6a7ce128ac0e172b4b72e1429a2d8e21a5d4a934f50d3c2a0dd986cae3960a",
+          "evidenceHash": "385edeba3d216020eba83b1e22e7df309af78975dfa3f180668144981a2ad92b"
+        }
+      ]
+    },
+    {
+      "source": "Stance. You remove 1 Dervish enchantment and for 1…6…7 seconds you move 25% faster. If an enchantment was removed you move 50% faster instead.",
+      "text": "態勢。移除自身 1 項神喚使加持，並在 1…6…7 秒內使移動速度提高 25%。若成功移除加持，則改為提高 50%。",
+      "reason": "核對移除加持成功時以百分之五十取代百分之二十五，不是兩種加速相加。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12825/variants/skill-version:gww:12825/description",
+          "englishHash": "4a8e984553cf8950a2dbecbc55cac5d534a7179ab06fe614a378e7d9dfecaead",
+          "evidenceHash": "c3a5764879061e2aa748b4bfa79c8dc0516faedb8b1a7b89283a81ade8f34360"
+        }
+      ]
+    },
+    {
+      "source": "Stance. You remove 1 Dervish enchantment and for [[MO:growth:0:var1]] seconds you move 25% faster. If an enchantment was removed you move 50% faster instead.",
+      "text": "態勢。移除自身 1 項神喚使加持，並在 [[MO:growth:0:var1]] 秒內使移動速度提高 25%。若成功移除加持，則改為提高 50%。",
+      "reason": "核對移除加持成功時以百分之五十取代百分之二十五，不是兩種加速相加。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12825/variants/skill-version:gww:12825/descriptionTemplate",
+          "englishHash": "ec3359d2e0e67b66591b549321a420767239f5418fb032eb5c8ef914fa4cb441",
+          "evidenceHash": "c3a5764879061e2aa748b4bfa79c8dc0516faedb8b1a7b89283a81ade8f34360"
+        }
+      ]
+    },
+    {
+      "source": "Skill. For 10 seconds, your next Dervish enchantment lasts 10…122…150% longer.",
+      "text": "技能。接下來 10 秒內，你施放的下一個神喚使加持，持續時間延長 10…122…150%。",
+      "reason": "十秒是等待下一個加持施放的有效期限；成長百分比才是該加持持續時間的延長比例。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12826/variants/skill-version:gww:12826/description",
+          "englishHash": "c7e88aed85911ce5e806765ba6ad233f1fb12cddb66cde833506d3aa7ae578e6",
+          "evidenceHash": "4538f1187cce4a913044c287628d8b116fecacc4d6ab708078b2ef1edad8408f"
+        }
+      ]
+    },
+    {
+      "source": "Skill. For 10 seconds, your next Dervish enchantment lasts [[MO:growth:0:var1]] longer.",
+      "text": "技能。接下來 10 秒內，你施放的下一個神喚使加持，持續時間延長 [[MO:growth:0:var1]]。",
+      "reason": "十秒是等待下一個加持施放的有效期限；成長百分比才是該加持持續時間的延長比例。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12826/variants/skill-version:gww:12826/descriptionTemplate",
+          "englishHash": "33cf6b3330440d24452ad2cf1496c22a5a940c9619c2f14cf4c8036323ab79ac",
+          "evidenceHash": "4538f1187cce4a913044c287628d8b116fecacc4d6ab708078b2ef1edad8408f"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. You gain 1…3…3 Energy for each foe within earshot, maximum 8 Energy. For 10 seconds afterward, this enchantment does nothing. When this enchantment ends, you gain 1…3…3 Energy for each foe within earshot, maximum 8 Energy.",
+      "text": "加持魔法。音量所及範圍內每有一名敵人，你獲得 1…3…3 點能量，最多 8 點。接下來 10 秒內，此加持沒有其他效果。此加持結束時，再依音量所及範圍內的敵人數量，每名獲得 1…3…3 點能量，最多 8 點。",
+      "reason": "原譯把持續十秒誤為十秒之後；核對施放和結束各自按敵人數回能且各有八點上限，兩次詞元均保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12845/variants/skill-version:gww:12845/description",
+          "englishHash": "726a878342a89d07e0a2ebcfee79f66bfb0bc3a80ad64e277da07ab785b77858",
+          "evidenceHash": "954205e2a11b9cad8b7fe9a8957b45be8658ebd21ba9c6f4065aad6664af51fa"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. You gain [[MO:growth:0:var1]] Energy for each foe within earshot, maximum 8 Energy. For 10 seconds afterward, this enchantment does nothing. When this enchantment ends, you gain [[MO:growth:0:var1]] Energy for each foe within earshot, maximum 8 Energy.",
+      "text": "加持魔法。音量所及範圍內每有一名敵人，你獲得 [[MO:growth:0:var1]] 點能量，最多 8 點。接下來 10 秒內，此加持沒有其他效果。此加持結束時，再依音量所及範圍內的敵人數量，每名獲得 [[MO:growth:0:var1]] 點能量，最多 8 點。",
+      "reason": "原譯把持續十秒誤為十秒之後；核對施放和結束各自按敵人數回能且各有八點上限，兩次詞元均保留。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12845/variants/skill-version:gww:12845/descriptionTemplate",
+          "englishHash": "ce1f4c6a3709683c3aeed5e011702e51057f13fb6623fe3745eabb407cde7fc9",
+          "evidenceHash": "954205e2a11b9cad8b7fe9a8957b45be8658ebd21ba9c6f4065aad6664af51fa"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. Lose all adrenaline. For 20 seconds, you gain 1…3…4 Energy every time an enchantment on you ends.",
+      "text": "加持魔法。失去所有怒氣。持續 20 秒，每當你身上的一項加持結束，獲得 1…3…4 點能量。",
+      "reason": "adrenaline 為怒氣，不是腎上腺素；核對先失去全部怒氣，再於持續期按加持結束逐項回能。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12855/variants/skill-version:gww:12855/description",
+          "englishHash": "f6e6e40a274ad3b027855daeea6ace3ff8badabe9f0ae7defc640b9fd7033988",
+          "evidenceHash": "211a842d378cc661d162eac0ac7139191600d32d2c4df5b15d58ce659052b24d"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. Lose all adrenaline. For 20 seconds, you gain [[MO:growth:0:var1]] Energy every time an enchantment on you ends.",
+      "text": "加持魔法。失去所有怒氣。持續 20 秒，每當你身上的一項加持結束，獲得 [[MO:growth:0:var1]] 點能量。",
+      "reason": "adrenaline 為怒氣，不是腎上腺素；核對先失去全部怒氣，再於持續期按加持結束逐項回能。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12855/variants/skill-version:gww:12855/descriptionTemplate",
+          "englishHash": "21b54b9d424938df2b753b17943adbb18daa3291c86a22cc3b972f4d4aceecf8",
+          "evidenceHash": "211a842d378cc661d162eac0ac7139191600d32d2c4df5b15d58ce659052b24d"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Target foe takes 25 holy damage for each enchantment on you (maximum 30…102…120 holy damage).",
+      "text": "紋章。你身上每有一項加持，目標敵人便受到 25 點神聖傷害，總傷害最多 30…102…120 點。",
+      "reason": "核對按施放者身上的加持數乘算，成長值是本次總神聖傷害上限，而非每項上限。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12993/variants/skill-version:gww:12993/description",
+          "englishHash": "708ca257ec4cc45c8b9791140287a4d970ab70bfdd27165864fa982ee6858f9b",
+          "evidenceHash": "19638b918bac67c67440212c0dd01e17d87691107bcaa1a7f2a87c48771f8c4a"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Target foe takes 25 holy damage for each enchantment on you (maximum [[MO:growth:0:var1]] holy damage).",
+      "text": "紋章。你身上每有一項加持，目標敵人便受到 25 點神聖傷害，總傷害最多 [[MO:growth:0:var1]] 點。",
+      "reason": "核對按施放者身上的加持數乘算，成長值是本次總神聖傷害上限，而非每項上限。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:12993/variants/skill-version:gww:12993/descriptionTemplate",
+          "englishHash": "cc6108de90590dddec371512e7f6f28209fb63c0bff56d740361f11ad7bd1a89",
+          "evidenceHash": "19638b918bac67c67440212c0dd01e17d87691107bcaa1a7f2a87c48771f8c4a"
+        }
+      ]
+    },
+    {
+      "source": "Stance. For 8 seconds, you attack 33% faster but take 200…160…150% damage.",
+      "text": "態勢。持續 8 秒，你的攻擊速度提高 33%，但承受的傷害變為通常的 200…160…150%。",
+      "reason": "核對 PvP 的傷害百分比是總倍率，不是額外增加百分比；固定八秒與攻速加成保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1302/variants/skill-version:gww:321794/description",
+          "englishHash": "861a8bdd41fc5b09f20954847338e7c845c4411a52e152dae7c551d11def103e",
+          "evidenceHash": "75d4f2a830e388444226029b0eb26b34438591eb9e0174c08b82c283e504c912"
+        }
+      ]
+    },
+    {
+      "source": "Stance. For 8 seconds, you attack 33% faster but take [[MO:growth:0:var1]] damage.",
+      "text": "態勢。持續 8 秒，你的攻擊速度提高 33%，但承受的傷害變為通常的 [[MO:growth:0:var1]]。",
+      "reason": "核對 PvP 的傷害百分比是總倍率，不是額外增加百分比；固定八秒與攻速加成保留。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1302/variants/skill-version:gww:321794/descriptionTemplate",
+          "englishHash": "ced90501aabfd995792b852a5671fcf91f453d0a113592807453da93ea877d79",
+          "evidenceHash": "75d4f2a830e388444226029b0eb26b34438591eb9e0174c08b82c283e504c912"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. For 30 seconds, each time target foe is the target of an enchantment, the caster of that enchantment takes 15…63…75 damage.",
+      "text": "降咒魔法。持續 30 秒，每當目標敵人成為加持魔法的目標，該加持的施放者受到 15…63…75 點傷害。",
+      "reason": "核對受傷的是加持施放者，不是帶有本降咒的敵人；保留每次成為目標的觸發範圍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13030/variants/skill-version:gww:13030/description",
+          "englishHash": "05e117f852ab7a7f601b47e0fab75930a83e9e38cb3a9285fcb4d4ddd67fcbfa",
+          "evidenceHash": "907022044af2fe8d0d5e2e2ac73fbf7f746823447ce4f24cd2301e16f28936db"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. For 30 seconds, each time target foe is the target of an enchantment, the caster of that enchantment takes [[MO:growth:0:var1]] damage.",
+      "text": "降咒魔法。持續 30 秒，每當目標敵人成為加持魔法的目標，該加持的施放者受到 [[MO:growth:0:var1]] 點傷害。",
+      "reason": "核對受傷的是加持施放者，不是帶有本降咒的敵人；保留每次成為目標的觸發範圍。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13030/variants/skill-version:gww:13030/descriptionTemplate",
+          "englishHash": "ba5ad79cb25d2486b93c72230ef53c10231274f6f14331f394c513aae2806f7b",
+          "evidenceHash": "907022044af2fe8d0d5e2e2ac73fbf7f746823447ce4f24cd2301e16f28936db"
+        }
+      ]
+    },
+    {
+      "source": "Stance. For 8 seconds, you have a 75% chance to block incoming attacks, but take double damage.",
+      "text": "態勢。持續 8 秒，你有 75% 機率格擋攻擊，但受到雙倍傷害。",
+      "reason": "核對格擋機率與雙倍承傷同時存在；incoming attacks 指受到的攻擊，統一格擋術語。 核對格擋機率與雙倍承傷同時存在；incoming attacks 指受到的攻擊，統一格擋術語。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13036/variants/skill-version:gww:13036/description",
+          "englishHash": "b039016dc00b5f2685f75755f7418d5fa4469360e2ced919383a9e0cf45c31de",
+          "evidenceHash": "546046dbcb35ea43391269dc08e6ef80325cffe6b89ca5c3100f671258dfa757"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13036/variants/skill-version:gww:13036/descriptionTemplate",
+          "englishHash": "b039016dc00b5f2685f75755f7418d5fa4469360e2ced919383a9e0cf45c31de",
+          "evidenceHash": "546046dbcb35ea43391269dc08e6ef80325cffe6b89ca5c3100f671258dfa757"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 8 seconds, the next time target ally would take damage, the foe dealing the damage takes that damage instead (maximum 5…61…75).",
+      "text": "加持魔法。持續 8 秒，目標盟友下一次即將受到傷害時，改由造成該傷害的敵人承受，最多 5…61…75 點。",
+      "reason": "next time 是下一次事件，不是下一個盟友；核對傷害替代及對敵方承傷上限，不另行推測超額傷害機制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13039/variants/skill-version:gww:13039/description",
+          "englishHash": "89e097e4374e21b8c2de019facc330e264d910b4e7f06f3c09a12e16ac0a3b1a",
+          "evidenceHash": "c35f6d2ce266f607331854e1c916034af9a94875fa747e80fd8251fb4b2385a7"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 8 seconds, the next time target ally would take damage, the foe dealing the damage takes that damage instead (maximum [[MO:growth:0:var1]] ).",
+      "text": "加持魔法。持續 8 秒，目標盟友下一次即將受到傷害時，改由造成該傷害的敵人承受，最多 [[MO:growth:0:var1]] 點。",
+      "reason": "next time 是下一次事件，不是下一個盟友；核對傷害替代及對敵方承傷上限，不另行推測超額傷害機制。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13039/variants/skill-version:gww:13039/descriptionTemplate",
+          "englishHash": "348ac6fea2c8a86faef3ed76efa174586a2992b95da1f130f21edaa146a775bc",
+          "evidenceHash": "c35f6d2ce266f607331854e1c916034af9a94875fa747e80fd8251fb4b2385a7"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 10 seconds, the next time target ally receives damage that would be fatal, the damage is negated and one nearby foe takes 30…150…180 holy damage.",
+      "text": "加持魔法。持續 10 秒，目標盟友下一次即將受到致命傷害時，抵消該傷害，並對一名附近敵人造成 30…150…180 點神聖傷害。",
+      "reason": "核對只由下一次致命傷害觸發，且神聖傷害只擊中一名附近敵人；保留抵消而非治療。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13043/variants/skill-version:gww:13043/description",
+          "englishHash": "2b1f77f3e67421f01e43942e58fc9c981f887c6bcbc0136e595e001c954b1992",
+          "evidenceHash": "ac1279351108f6c8f9f0cd77b9436de68034257f7338d9fe63e83e0ca09593da"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 10 seconds, the next time target ally receives damage that would be fatal, the damage is negated and one nearby foe takes [[MO:growth:0:var1]] holy damage.",
+      "text": "加持魔法。持續 10 秒，目標盟友下一次即將受到致命傷害時，抵消該傷害，並對一名附近敵人造成 [[MO:growth:0:var1]] 點神聖傷害。",
+      "reason": "核對只由下一次致命傷害觸發，且神聖傷害只擊中一名附近敵人；保留抵消而非治療。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13043/variants/skill-version:gww:13043/descriptionTemplate",
+          "englishHash": "f90d22074a34d48782726f742e83f87371d8fd6cea99b623e1c7a7ddff9a19b4",
+          "evidenceHash": "ac1279351108f6c8f9f0cd77b9436de68034257f7338d9fe63e83e0ca09593da"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 6 seconds, you gain 5…9…10 Health regeneration. When Shadow Refuge ends, you gain 40…88…100 Health if you are attacking.",
+      "text": "加持魔法。持續 6 秒，你獲得 5…9…10 體力再生。「暗影庇護」結束時，若你正在攻擊，恢復 40…88…100 點體力。",
+      "reason": "核對體力再生與結束治療分開；正在攻擊只限制結束治療，不限制六秒再生，名稱依固定中文來源。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13045/variants/skill-version:gww:13045/description",
+          "englishHash": "db1a1a3ec1eee51fe73cce3fa37eacf6ce44e039e6fb2810b775f336ac5c1a41",
+          "evidenceHash": "763546555da0d761f9dadec4ed104b239c4dd5d1adabc3440631d3f5a18fd451"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 6 seconds, you gain [[MO:growth:0:var1]] Health regeneration. When Shadow Refuge ends, you gain [[MO:growth:0:var2]] Health if you are attacking.",
+      "text": "加持魔法。持續 6 秒，你獲得 [[MO:growth:0:var1]] 體力再生。「暗影庇護」結束時，若你正在攻擊，恢復 [[MO:growth:0:var2]] 點體力。",
+      "reason": "核對體力再生與結束治療分開；正在攻擊只限制結束治療，不限制六秒再生，名稱依固定中文來源。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13045/variants/skill-version:gww:13045/descriptionTemplate",
+          "englishHash": "86ae8092c2eb73ee8c5f1c406fd2792197ef6ce61435c1a235b14ab707442533",
+          "evidenceHash": "763546555da0d761f9dadec4ed104b239c4dd5d1adabc3440631d3f5a18fd451"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 3…6…7 seconds, damage received by target ally is reduced by 5 each time that ally is hit while under the effects of this enchantment.",
+      "text": "加持魔法。持續 3…6…7 秒，目標盟友每次在此加持期間被命中，受到傷害的減免量便增加 5 點。",
+      "reason": "同頁固定英文備註明確說明減傷依命中累加為五、十、十五點；據此釐清正文，不誤寫成每次僅固定減五點。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13048/variants/skill-version:gww:13048/description",
+          "englishHash": "3df17bfb67770d637616bcdc01e99052fefb919073efd0963298c76cefaa98f2",
+          "evidenceHash": "69b45b5a18fe65a7a82365127e116c16b9e7cbb59c3e05f7623e379655f81f09"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For [[MO:growth:0:var1]] seconds, damage received by target ally is reduced by 5 each time that ally is hit while under the effects of this enchantment.",
+      "text": "加持魔法。持續 [[MO:growth:0:var1]] 秒，目標盟友每次在此加持期間被命中，受到傷害的減免量便增加 5 點。",
+      "reason": "同頁固定英文備註明確說明減傷依命中累加為五、十、十五點；據此釐清正文，不誤寫成每次僅固定減五點。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13048/variants/skill-version:gww:13048/descriptionTemplate",
+          "englishHash": "0e2605a02b91200816aed95b83afef563a5de1e2c51a94b7bf2b75317b181781",
+          "evidenceHash": "69b45b5a18fe65a7a82365127e116c16b9e7cbb59c3e05f7623e379655f81f09"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. For 30 seconds, Echo is replaced with the next skill you use. Echo acts as this skill for 30 seconds.",
+      "text": "精英加持魔法。接下來 30 秒內，「回音」會被你使用的下一個技能取代。「回音」變成該技能，持續 30 秒。",
+      "reason": "Echo 的技能名是回音，與技能類型迴響不同；核對等待使用下一技能及替代後各自三十秒的期限。 Echo 的技能名是回音，與技能類型迴響不同；核對等待使用下一技能及替代後各自三十秒的期限。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1305/variants/skill-version:gww:1305/description",
+          "englishHash": "aacd1280ec898ee874eceb4b5716b8e74871241d521e3dada1f6256af90abebb",
+          "evidenceHash": "75e2149b541e151b846c716220bb781d8099a86b784158248ca7d60100d2e292"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1305/variants/skill-version:gww:1305/descriptionTemplate",
+          "englishHash": "aacd1280ec898ee874eceb4b5716b8e74871241d521e3dada1f6256af90abebb",
+          "evidenceHash": "75e2149b541e151b846c716220bb781d8099a86b784158248ca7d60100d2e292"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For 5…10…11 seconds, target ally has a 50% chance to block attacks from enchanted foes.",
+      "text": "加持魔法。持續 5…10…11 秒，目標盟友有 50% 機率格擋受到加持的敵人所發動的攻擊。",
+      "reason": "核對攻擊來源須帶有加持，而非受保護盟友必須帶加持；保留格擋機率與持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13053/variants/skill-version:gww:13053/description",
+          "englishHash": "ec9b053d289c0a68aba15925009c0998250782a373652ac95a0ad0686da59097",
+          "evidenceHash": "6ab1ea2462f2c50cf93fb78ff10fe22f1829f5b5ff5fa661d787b173df2af100"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. For [[MO:growth:0:var1]] seconds, target ally has a 50% chance to block attacks from enchanted foes.",
+      "text": "加持魔法。持續 [[MO:growth:0:var1]] 秒，目標盟友有 50% 機率格擋受到加持的敵人所發動的攻擊。",
+      "reason": "核對攻擊來源須帶有加持，而非受保護盟友必須帶加持；保留格擋機率與持續時間。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13053/variants/skill-version:gww:13053/descriptionTemplate",
+          "englishHash": "b97d95061da8706b29f1b085f4d208cc6c2d25ba74576d1515fccacaff04749a",
+          "evidenceHash": "6ab1ea2462f2c50cf93fb78ff10fe22f1829f5b5ff5fa661d787b173df2af100"
+        }
+      ]
+    },
+    {
+      "source": "Skill. Touched target foe takes 10…46…55 holy damage. If knocked down, your target takes an additional 10…46…55 holy damage.",
+      "text": "技能。碰觸的目標敵人受到 10…46…55 點神聖傷害。若該敵人已被擊倒，再受到 10…46…55 點神聖傷害。",
+      "reason": "核對擊倒條件主體為目標敵人，不是施放者；兩組相同成長值仍是兩種獨立效果詞元。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13058/variants/skill-version:gww:13058/description",
+          "englishHash": "288898ec6d89a12572769629688865a29d550d581d6cb1a71efcbd69da3f762b",
+          "evidenceHash": "b38f83d0c1f68af10e3fd4b2fd4b4f265ed779883008d43f4e3f3d187ca83306"
+        }
+      ]
+    },
+    {
+      "source": "Skill. Touched target foe takes [[MO:growth:0:var1]] holy damage. If knocked down, your target takes an additional [[MO:growth:0:var2]] holy damage.",
+      "text": "技能。碰觸的目標敵人受到 [[MO:growth:0:var1]] 點神聖傷害。若該敵人已被擊倒，再受到 [[MO:growth:0:var2]] 點神聖傷害。",
+      "reason": "核對擊倒條件主體為目標敵人，不是施放者；兩組相同成長值仍是兩種獨立效果詞元。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13058/variants/skill-version:gww:13058/descriptionTemplate",
+          "englishHash": "c835dc2b7dc00734c4469fb0728da8102783c3787dbb01fda63bd475e058f391",
+          "evidenceHash": "b38f83d0c1f68af10e3fd4b2fd4b4f265ed779883008d43f4e3f3d187ca83306"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Spear of Light flies toward target foe and deals 26…50…56 holy damage if it hits. Spear of Light deals +15…51…60 damage if it hits an attacking foe.",
+      "text": "咒文魔法。光之標槍飛向目標敵人，命中時造成 26…50…56 點神聖傷害。若命中正在攻擊的敵人，再造成 +15…51…60 點額外傷害。",
+      "reason": "attacking foe 指正在攻擊的敵人；核對投射物命中條件、基礎神聖傷害與額外傷害兩部分。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13066/variants/skill-version:gww:13066/description",
+          "englishHash": "fddf60be511c1bb2c63b13ba9fc4c56aaa8fa2b225a78f52fd10eecc12b25428",
+          "evidenceHash": "de4c96543117ae5cdb68d61ff6624357afcdc0ae03c756b7e993232d04b65977"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Spear of Light flies toward target foe and deals [[MO:growth:0:var1]] holy damage if it hits. Spear of Light deals [[MO:growth:0:var2]] damage if it hits an attacking foe.",
+      "text": "咒文魔法。光之標槍飛向目標敵人，命中時造成 [[MO:growth:0:var1]] 點神聖傷害。若命中正在攻擊的敵人，再造成 [[MO:growth:0:var2]] 點額外傷害。",
+      "reason": "attacking foe 指正在攻擊的敵人；核對投射物命中條件、基礎神聖傷害與額外傷害兩部分。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13066/variants/skill-version:gww:13066/descriptionTemplate",
+          "englishHash": "fc19a5cb2fc851cf31a3a4edd3fe86376fca3828987804666289bcaafaa2a9c8",
+          "evidenceHash": "de4c96543117ae5cdb68d61ff6624357afcdc0ae03c756b7e993232d04b65977"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Target foe takes 5…41…50 holy damage and +5…9…10 holy damage for each adrenaline skill that foe has.",
+      "text": "紋章。對目標敵人造成 5…41…50 點神聖傷害；該敵人每有一項怒氣技能，再造成 +5…9…10 點神聖傷害。",
+      "reason": "原譯將基礎傷害也納入逐項乘算；核對首段只一次，額外傷害才按目標擁有的怒氣技能數計算。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13084/variants/skill-version:gww:13084/description",
+          "englishHash": "f0cd12d92fb0e65714b412aeae3e89ef7785ad76c86281e81b95a7c9c6f12dff",
+          "evidenceHash": "6309eafdcdc9be54e4b8f1f4680144023a7ad145134db092e2063f563581a8b9"
+        }
+      ]
+    },
+    {
+      "source": "Signet. Target foe takes [[MO:growth:0:var1]] holy damage and [[MO:growth:0:var2]] holy damage for each adrenaline skill that foe has.",
+      "text": "紋章。對目標敵人造成 [[MO:growth:0:var1]] 點神聖傷害；該敵人每有一項怒氣技能，再造成 [[MO:growth:0:var2]] 點神聖傷害。",
+      "reason": "原譯將基礎傷害也納入逐項乘算；核對首段只一次，額外傷害才按目標擁有的怒氣技能數計算。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13084/variants/skill-version:gww:13084/descriptionTemplate",
+          "englishHash": "d8fecbf8b3541cb82094c4d5cf285b6efc2367ad939926d7ff2b8e8a60d90f5b",
+          "evidenceHash": "6309eafdcdc9be54e4b8f1f4680144023a7ad145134db092e2063f563581a8b9"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target fleshy foe becomes Diseased for 10…22…25 seconds, slowly losing Health.",
+      "text": "咒文魔法。使具有血肉的目標敵人感染疾病 10…22…25 秒，期間逐漸失去體力。",
+      "reason": "fleshy 是具有血肉的敵人類型，Diseased 是疾病病症；保留病症時間及持續失去體力。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13113/variants/skill-version:gww:13113/description",
+          "englishHash": "ba7006607a6fd811cb1e6dba9de99c8f102ef4fa7a05a5825e781cf35493da82",
+          "evidenceHash": "82945cd2120c56f7acd2a7126b55c27f9050da2c3dc484c57b14a03d5d07474b"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Target fleshy foe becomes Diseased for [[MO:growth:0:var1]] seconds, slowly losing Health.",
+      "text": "咒文魔法。使具有血肉的目標敵人感染疾病 [[MO:growth:0:var1]] 秒，期間逐漸失去體力。",
+      "reason": "fleshy 是具有血肉的敵人類型，Diseased 是疾病病症；保留病症時間及持續失去體力。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13113/variants/skill-version:gww:13113/descriptionTemplate",
+          "englishHash": "8ce36b29405487140346d85dd53751ce1a8552109eb21ead3af7bee86b9de792",
+          "evidenceHash": "82945cd2120c56f7acd2a7126b55c27f9050da2c3dc484c57b14a03d5d07474b"
+        }
+      ]
+    },
+    {
+      "source": "Sword Attack. If this attack hits a Bleeding foe, you strike for 5…17…20 more damage and that foe suffers a Deep Wound, lowering that foe's maximum Health by 20% for 5…17…20 seconds.",
+      "text": "劍術技能。若此攻擊命中正在流血的敵人，造成 5…17…20 點額外傷害，並使其重傷 5…17…20 秒，最大體力降低 20%。",
+      "reason": "核對命中流血敵人才同時產生額外傷害與重傷；重傷是病症而非另一段傷害，同值詞元兩處均保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13124/variants/skill-version:gww:13124/description",
+          "englishHash": "b64c15a3ef2db793cbcb7fa2325dca6b7b4678d22964e238091b909144771ae9",
+          "evidenceHash": "9751281ba1a18b4cf4919540399deebba34de0e84bc760831e8f42dcfd1c5467"
+        }
+      ]
+    },
+    {
+      "source": "Sword Attack. If this attack hits a Bleeding foe, you strike for [[MO:growth:0:var2]] more damage and that foe suffers a Deep Wound, lowering that foe's maximum Health by 20% for [[MO:growth:0:var2]] seconds.",
+      "text": "劍術技能。若此攻擊命中正在流血的敵人，造成 [[MO:growth:0:var2]] 點額外傷害，並使其重傷 [[MO:growth:0:var2]] 秒，最大體力降低 20%。",
+      "reason": "核對命中流血敵人才同時產生額外傷害與重傷；重傷是病症而非另一段傷害，同值詞元兩處均保留。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13124/variants/skill-version:gww:13124/descriptionTemplate",
+          "englishHash": "f91bc3dfd544e260e22d046a866981953d92d18aa10ee73cb3881e8050f9c54d",
+          "evidenceHash": "9751281ba1a18b4cf4919540399deebba34de0e84bc760831e8f42dcfd1c5467"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. Remove one hex from target ally. If a hex was removed in this way, for 5…9…10 seconds, the next time target ally would take damage, that damage is reduced by 5…41…50.",
+      "text": "加持魔法。移除目標盟友身上的一項降咒。若以此方式成功移除降咒，持續 5…9…10 秒，該盟友下一次即將受到的傷害減少 5…41…50 點。",
+      "reason": "核對先成功解降咒才獲得後續一次減傷，時間與減傷量是兩組獨立成長值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13129/variants/skill-version:gww:13129/description",
+          "englishHash": "c32c1760489d72b9c0f86f98b012e0afaf12377190e4bfcd65176c2559723d62",
+          "evidenceHash": "0c1549faf8386c5835a161742c1c411ab026d5693c56c6d8313cf8730084adcc"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. Remove one hex from target ally. If a hex was removed in this way, for [[MO:growth:0:var1]] seconds, the next time target ally would take damage, that damage is reduced by [[MO:growth:0:var2]] .",
+      "text": "加持魔法。移除目標盟友身上的一項降咒。若以此方式成功移除降咒，持續 [[MO:growth:0:var1]] 秒，該盟友下一次即將受到的傷害減少 [[MO:growth:0:var2]] 點。",
+      "reason": "核對先成功解降咒才獲得後續一次減傷，時間與減傷量是兩組獨立成長值。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13129/variants/skill-version:gww:13129/descriptionTemplate",
+          "englishHash": "8051613660b465c8192004a9d28b6f87779738ec49dd399eb1040b7d00ce2e49",
+          "evidenceHash": "0c1549faf8386c5835a161742c1c411ab026d5693c56c6d8313cf8730084adcc"
+        }
+      ]
+    },
+    {
+      "source": "Spell. For 5 seconds, foes adjacent to the location in which the spell was cast take 8…27…32 holy damage each second.",
+      "text": "咒文魔法。持續 5 秒，施放此魔法時所在位置的相鄰敵人，每秒受到 8…27…32 點神聖傷害。",
+      "reason": "核對傷害區域固定於施放位置，不隨施放者移動；相鄰範圍、每秒傷害與五秒持續各自保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13266/variants/skill-version:gww:13266/description",
+          "englishHash": "b108d39dade2ba5a3e0b9ed77e904fd6ee1f5267680ba56fe10c9dae5a1ca297",
+          "evidenceHash": "3f8ec8d392341b81d15614802b11bef39d7d39d2e84de4af4b3be250f52de5ed"
+        }
+      ]
+    },
+    {
+      "source": "Spell. For 5 seconds, foes adjacent to the location in which the spell was cast take [[MO:growth:0:var1]] holy damage each second.",
+      "text": "咒文魔法。持續 5 秒，施放此魔法時所在位置的相鄰敵人，每秒受到 [[MO:growth:0:var1]] 點神聖傷害。",
+      "reason": "核對傷害區域固定於施放位置，不隨施放者移動；相鄰範圍、每秒傷害與五秒持續各自保留。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13266/variants/skill-version:gww:13266/descriptionTemplate",
+          "englishHash": "b36f26a0fe0146ff8675f1ca19cc5744c8e6b03e2276ec480b05801865f8f7f4",
+          "evidenceHash": "3f8ec8d392341b81d15614802b11bef39d7d39d2e84de4af4b3be250f52de5ed"
+        }
+      ]
+    },
+    {
+      "source": "Elite Signet. Your next 1…3…3 non-Illusion spells use your Illusion attribute instead of its normal attribute.",
+      "text": "精英紋章。接下來 1…3…3 個不屬於幻術魔法的魔法，改用你的幻術魔法屬性計算效果，取代各自原本的屬性。",
+      "reason": "Illusion 指幻術魔法屬性；核對只替代接下來指定次數的非幻術魔法，並非改變所有技能屬性。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1335/variants/skill-version:gww:1335/description",
+          "englishHash": "bcb220789bc86cff556df6dfabd99f44467842a3f9f740af52cff3f800c8fe57",
+          "evidenceHash": "186951243fd0483ffca7d5e571dbc6a17a9d60e17a9cb7fae2838c63b035bc1d"
+        }
+      ]
+    },
+    {
+      "source": "Elite Signet. Your next [[MO:growth:0:var1]] non-Illusion spells use your Illusion attribute instead of its normal attribute.",
+      "text": "精英紋章。接下來 [[MO:growth:0:var1]] 個不屬於幻術魔法的魔法，改用你的幻術魔法屬性計算效果，取代各自原本的屬性。",
+      "reason": "Illusion 指幻術魔法屬性；核對只替代接下來指定次數的非幻術魔法，並非改變所有技能屬性。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1335/variants/skill-version:gww:1335/descriptionTemplate",
+          "englishHash": "979e8c5c28a978b50e0b4dad491b87c4facc56232da025fe542209267515aa31",
+          "evidenceHash": "186951243fd0483ffca7d5e571dbc6a17a9d60e17a9cb7fae2838c63b035bc1d"
+        }
+      ]
+    },
+    {
+      "source": "Melee Attack. If this attack hits, you strike for +5…17…20 damage. If this attack is blocked, your target is knocked down and suffers 10…29…34 damage.",
+      "text": "近身攻擊技能。若此攻擊命中，造成 +5…17…20 點額外傷害。若此攻擊被格擋，則擊倒目標並造成 10…29…34 點傷害。",
+      "reason": "修正命中時傷害主體反轉；核對命中與被格擋是不同分支，被格擋仍觸發擊倒和獨立傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13447/variants/skill-version:gww:13447/description",
+          "englishHash": "7bff65942283739a766b6d9f8aac140e1a3904c7ae71fa85606bf7095941c677",
+          "evidenceHash": "ae586de9678bd49e7f7478d1ba7dfe03b5478bbf64dbb05e9ae6a4828bbeeb40"
+        }
+      ]
+    },
+    {
+      "source": "Melee Attack. If this attack hits, you strike for [[MO:growth:0:var1]] damage. If this attack is blocked, your target is knocked down and suffers [[MO:growth:0:var2]] damage.",
+      "text": "近身攻擊技能。若此攻擊命中，造成 [[MO:growth:0:var1]] 點額外傷害。若此攻擊被格擋，則擊倒目標並造成 [[MO:growth:0:var2]] 點傷害。",
+      "reason": "修正命中時傷害主體反轉；核對命中與被格擋是不同分支，被格擋仍觸發擊倒和獨立傷害。 動態模板逐項核對效果身份、數值位置、正負號、百分號與重複次數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13447/variants/skill-version:gww:13447/descriptionTemplate",
+          "englishHash": "f27ecdaf21dc7a8140c58e49b589ba49e75fd95073574c18b471c89ca4583a34",
+          "evidenceHash": "ae586de9678bd49e7f7478d1ba7dfe03b5478bbf64dbb05e9ae6a4828bbeeb40"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Creates a level 1…8…10 spirit (30…198…240 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits.",
+      "text": "自然儀式。創造等級 1…8…10 的精靈，存活 30…198…240 秒。範圍內生物受到的治療量減少 20%。每個生物的攻擊命中時，該生物獲得 5 點體力。這些效果不影響精靈。",
+      "reason": "核對等級、壽命、治療減少量與每個生物自己攻擊命中時的體力獲得；不影響精靈。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/conciseDescription",
+          "englishHash": "f960ddf6dbb8cd48498f868c155092d704994488daa0f4d22a3aa10b0a4768b9",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        }
+      ]
+    },
+    {
+      "source": "Level",
+      "text": "等級",
+      "reason": "核對精靈等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/effects/growth:0:var1/label",
+          "englishHash": "1709305c9fa966d14f56f0da3c3614bbc10adcf53d72f90341bb96d24afcfca3",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ]
+    },
+    {
+      "source": "Duration",
+      "text": "持續時間",
+      "reason": "核對精靈壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/effects/growth:0:var2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/effects/growth:0:var1/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/effects/growth:0:var2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/effects/growth:0:var3/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/effects/growth:0:var3/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/effects/growth:0:var3/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/effects/growth:0:var3/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/effects/growth:0:var2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/effects/growth:0:var2/label",
+          "englishHash": "4fc52a3c4c558b517c463b22d86d0e3b9cfd4255c98fe3510f9075b37ab419c9",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ]
+    },
+    {
+      "source": "For non-spirit creatures within its range, all healing is reduced by 20%",
+      "text": "範圍內非精靈生物受到的所有治療量減少 20%",
+      "reason": "核對治療減少的受影響生物範圍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/effects/fixed:2/label",
+          "englishHash": "6ec43ef450a4c59b07d71748d2d09809734d83afdcd7a6d3ed8c5d01003bdd8f",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        }
+      ]
+    },
+    {
+      "source": "Healing",
+      "text": "體力獲得量",
+      "reason": "依同頁 health gain 備註區分直接獲得體力與治療，不受本技能的治療減少影響。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/effects/fixed:3/label",
+          "englishHash": "44bc3799892c50fad1f4f76100cd74ebf28f922da6f977a772352d3291b92fdf",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        }
+      ]
+    },
+    {
+      "source": "Create a level 1…8…10 spirit",
+      "text": "創造等級 1…8…10 的精靈",
+      "reason": "核對創造精靈與等級數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/effects/growth:0:var1/condition",
+          "englishHash": "dd6adf1dc8a99caf4b21468435fcb012824c738258151928cbb584536a9d313f",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/effects/growth:0:var1/condition",
+          "englishHash": "dd6adf1dc8a99caf4b21468435fcb012824c738258151928cbb584536a9d313f",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/effects/growth:0:var1/condition",
+          "englishHash": "dd6adf1dc8a99caf4b21468435fcb012824c738258151928cbb584536a9d313f",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/effects/growth:0:var1/condition",
+          "englishHash": "dd6adf1dc8a99caf4b21468435fcb012824c738258151928cbb584536a9d313f",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/effects/growth:0:var1/condition",
+          "englishHash": "dd6adf1dc8a99caf4b21468435fcb012824c738258151928cbb584536a9d313f",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ]
+    },
+    {
+      "source": "This spirit dies after 30…198…240 seconds",
+      "text": "此精靈在 30…198…240 秒後死亡",
+      "reason": "核對精靈存活時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/effects/growth:0:var2/condition",
+          "englishHash": "c0879898adf52e5bf0316b4cc6968b8f88b6d83e123207992388788f19a99722",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/effects/growth:0:var2/condition",
+          "englishHash": "c0879898adf52e5bf0316b4cc6968b8f88b6d83e123207992388788f19a99722",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/effects/growth:0:var2/condition",
+          "englishHash": "c0879898adf52e5bf0316b4cc6968b8f88b6d83e123207992388788f19a99722",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/effects/growth:0:var2/condition",
+          "englishHash": "c0879898adf52e5bf0316b4cc6968b8f88b6d83e123207992388788f19a99722",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ]
+    },
+    {
+      "source": "For non-spirit creatures within its range, all healing is reduced by 20%",
+      "text": "範圍內非精靈生物受到的所有治療量減少 20%",
+      "reason": "核對治療減少的受影響生物範圍。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/effects/fixed:2/condition",
+          "englishHash": "6ec43ef450a4c59b07d71748d2d09809734d83afdcd7a6d3ed8c5d01003bdd8f",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        }
+      ]
+    },
+    {
+      "source": "If any of your attacks hit, you gain 5 Health",
+      "text": "範圍內每個非精靈生物的攻擊命中時，該生物獲得 5 點體力",
+      "reason": "依同頁簡短說明澄清每個生物各自命中獲得體力，並非僅施放者。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6502/variants/skill-version:gww:6502/effects/fixed:3/condition",
+          "englishHash": "f81edcb35d522a17b169c406d695c4deb67719c67fdbab47917e7d84e20a1c41",
+          "evidenceHash": "462249213fc16eb30df7efdfc1191f6d59142df49cd7c7d4ae7fa5b245aa4142"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. (22…40 seconds.) +24 armor and +60 maximum Health. Additional +24 armor against Destroyers.",
+      "text": "加持魔法。持續 22…40 秒，獲得 +24 護甲與 +60 最大體力。對抗 Destroyers 時再額外獲得 +24 護甲。",
+      "reason": "對照同頁固定完整說明與機制備註，核對簡短說明的範圍、數值與限制；來源矛盾保留待核實，不授予遊戲內批准。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/conciseDescription",
+          "englishHash": "721cfe90ea31e22337b73f36b78d2548735c1197c6e37723fdb000614d1f5bc6",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        }
+      ]
+    },
+    {
+      "source": "Elite Nature Ritual. Creates a level 1…8…10 spirit (30…198…240 second lifespan). Converts physical damage to fire damage for creatures in range. Does not affect spirits.",
+      "text": "精英自然儀式。創造等級 1…8…10 的精靈，存活 30…198…240 秒。範圍內非精靈生物造成的物理傷害改為火焰傷害。",
+      "reason": "對照同頁固定完整說明與機制備註，核對簡短說明的範圍、數值與限制；來源矛盾保留待核實，不授予遊戲內批准。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/conciseDescription",
+          "englishHash": "d6974aea3bc63a683942c57e3bb9f1c0f18de2718fb8438bbb2852bd745d55fc",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Creates a level 1…11…14 spirit (30…54…60 second lifespan). Conditions on allies in range expire 20…44…50% faster.",
+      "text": "縛靈儀式。創造等級 1…11…14 的精靈，存活 30…54…60 秒。範圍內盟友的病症持續時間縮短 20…44…50%。",
+      "reason": "對照同頁固定完整說明與機制備註，核對簡短說明的範圍、數值與限制；來源矛盾保留待核實，不授予遊戲內批准。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/conciseDescription",
+          "englishHash": "8a76b33e4a413688137b12b11701ac512ca2d6df44bea53e208fbf393482a118",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Creates a level 1…8…10 spirit (30…54…60 second lifespan). Conditions on allies in range expire 20…44…50% faster.",
+      "text": "縛靈儀式。創造等級 1…8…10 的精靈，存活 30…54…60 秒。範圍內盟友的病症持續時間縮短 20…44…50%。",
+      "reason": "對照同頁固定完整說明與機制備註，核對簡短說明的範圍、數值與限制；來源矛盾保留待核實，不授予遊戲內批准。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/conciseDescription",
+          "englishHash": "63225583110bc2c76241be4fd95f0226e5010f51f10f657455f5ce5264b5aa2c",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Creates a level 1…10…12 spirit (30…54…60 second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses 75…51…45 Health.",
+      "text": "縛靈儀式。創造等級 1…10…12 的精靈，存活 30…54…60 秒。範圍內非精靈盟友，單次傷害造成的體力損失不超過各自最大體力的 10%（包含魔法與紋章傷害）。阻止傷害的代價：此精靈失去 75…51…45 點體力。",
+      "reason": "對照同頁固定完整說明與機制備註，核對簡短說明的範圍、數值與限制；來源矛盾保留待核實，不授予遊戲內批准。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/conciseDescription",
+          "englishHash": "f82eb040f6437a4a3254896dc053745192e60dd28386fc775fae63f3520a02e9",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        }
+      ]
+    },
+    {
+      "source": "Binding Ritual. Creates a level 1…7…8 spirit (30…54…60 second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses 75…51…45 Health.",
+      "text": "縛靈儀式。創造等級 1…7…8 的精靈，存活 30…54…60 秒。範圍內非精靈盟友，單次傷害造成的體力損失不超過各自最大體力的 10%（包含魔法與紋章傷害）。阻止傷害的代價：此精靈失去 75…51…45 點體力。",
+      "reason": "對照同頁固定完整說明與機制備註，核對簡短說明的範圍、數值與限制；來源矛盾保留待核實，不授予遊戲內批准。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/conciseDescription",
+          "englishHash": "ba13d67134ea3c2470acb6c0ef6211aa360827ba4f7e09db1faee6dad51472a5",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Creates a level 1…8…10 spirit (30…198…240 second lifespan). Increases physical damage by +4 for creatures in range. Does not affect spirits.",
+      "text": "自然儀式。創造等級 1…8…10 的精靈，存活 30…198…240 秒。範圍內非精靈生物造成的物理傷害增加 +4；受傷目標可包含精靈。",
+      "reason": "對照同頁固定完整說明與機制備註，核對簡短說明的範圍、數值與限制；來源矛盾保留待核實，不授予遊戲內批准。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/conciseDescription",
+          "englishHash": "f6a26b18e7daa4d35f8cee7bde3b5a00c89f47d058911f58804b1152af9698f0",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        }
+      ]
+    },
+    {
+      "source": "Nature Ritual. Creates a level 1…8…10 spirit (30…198…240 second lifespan). Converts elemental damage to cold damage for creatures in range. Does not affect spirits.",
+      "text": "自然儀式。創造等級 1…8…10 的精靈，存活 30…198…240 秒。攻擊者或受傷者任一位於範圍內時，最終承受的元素傷害改為冰冷傷害，不改變武器的輸出屬性。〔來源對精靈適用範圍的說明不一致，待核實。〕",
+      "reason": "對照同頁固定完整說明與機制備註，核對簡短說明的範圍、數值與限制；來源矛盾保留待核實，不授予遊戲內批准。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/conciseDescription",
+          "englishHash": "8490cd80895a71e86b94b64149914f508da844959c837dfffa80501acbbe5e18",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ]
+    },
+    {
+      "source": "For ◆ seconds, target ally has +24 armor, +60 maximum Health, and an additional +24 armor against Destroyers",
+      "text": "持續 ◆ 秒，目標盟友獲得 +24 護甲、+60 最大體力，對抗 Destroyers 時再額外獲得 +24 護甲",
+      "reason": "核對遮蔽時間的正式數值；額外護甲只在對抗 Destroyers 時適用，實際上限另見備註。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/effects/fixed:1/label",
+          "englishHash": "b07267970cb4274b402bc0bc16a4ccd6790147cda0227a6652eb3f6107a2bb88",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/effects/fixed:2/label",
+          "englishHash": "b07267970cb4274b402bc0bc16a4ccd6790147cda0227a6652eb3f6107a2bb88",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/effects/fixed:3/label",
+          "englishHash": "b07267970cb4274b402bc0bc16a4ccd6790147cda0227a6652eb3f6107a2bb88",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/effects/fixed:1/condition",
+          "englishHash": "b07267970cb4274b402bc0bc16a4ccd6790147cda0227a6652eb3f6107a2bb88",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/effects/fixed:2/condition",
+          "englishHash": "b07267970cb4274b402bc0bc16a4ccd6790147cda0227a6652eb3f6107a2bb88",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/effects/fixed:3/condition",
+          "englishHash": "b07267970cb4274b402bc0bc16a4ccd6790147cda0227a6652eb3f6107a2bb88",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        }
+      ]
+    },
+    {
+      "source": "Faster condition expiration %",
+      "text": "病症持續時間縮短 %",
+      "reason": "依同頁 anomaly 澄清百分比縮短的是持續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/effects/growth:0:var2/label",
+          "englishHash": "ef911e21232399775eca8c0e0c80de99a1a3f32058911be13ed5944f79ccd1fb",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/effects/growth:0:var2/label",
+          "englishHash": "ef911e21232399775eca8c0e0c80de99a1a3f32058911be13ed5944f79ccd1fb",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        }
+      ]
+    },
+    {
+      "source": "Health loss",
+      "text": "精靈體力損失",
+      "reason": "核對代價由精靈支付，並非受保護盟友。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/effects/growth:0:var2/label",
+          "englishHash": "5dd7d63f6eccf833a45cd109c924c6ad2038beb898f74b3022dfe340da9ff3d0",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/effects/growth:0:var2/label",
+          "englishHash": "5dd7d63f6eccf833a45cd109c924c6ad2038beb898f74b3022dfe340da9ff3d0",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        }
+      ]
+    },
+    {
+      "source": "Non-spirit allies within its range cannot lose more than 10% maximum Health from a single attack",
+      "text": "其範圍內非精靈盟友，單次傷害造成的體力損失不超過各自最大體力的 10%（包含魔法與紋章傷害）",
+      "reason": "依兩模式同頁 anomaly 澄清傷害類型，保留個別盟友最大體力上限。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/effects/fixed:3/label",
+          "englishHash": "3435e38e5c3ffdefbe23e6d07e8ff3f16bad2bf6a0a243a7ee4794f49ab3b15a",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/effects/fixed:3/label",
+          "englishHash": "3435e38e5c3ffdefbe23e6d07e8ff3f16bad2bf6a0a243a7ee4794f49ab3b15a",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/effects/fixed:3/condition",
+          "englishHash": "3435e38e5c3ffdefbe23e6d07e8ff3f16bad2bf6a0a243a7ee4794f49ab3b15a",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/effects/fixed:3/condition",
+          "englishHash": "3435e38e5c3ffdefbe23e6d07e8ff3f16bad2bf6a0a243a7ee4794f49ab3b15a",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        }
+      ]
+    },
+    {
+      "source": "Non-spirit creatures within range take 4 additional damage whenever they take physical damage",
+      "text": "範圍內非精靈生物每次造成物理傷害時，額外造成 4 點傷害；受傷目標可包含精靈",
+      "reason": "依同頁 Winnowing bug 澄清攻擊者與受傷者的主體，不沿用已被指出有誤的完整說明。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/effects/fixed:2/label",
+          "englishHash": "881e2b5b9b5fa1ba87927285e6afbc697dee8bd5dcfa894d0c69be428d7cc9a0",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/effects/fixed:2/condition",
+          "englishHash": "881e2b5b9b5fa1ba87927285e6afbc697dee8bd5dcfa894d0c69be428d7cc9a0",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        }
+      ]
+    },
+    {
+      "source": "For 22…40 seconds, target ally has +24 armor, +60 maximum Health, and an additional +24 armor against Destroyers",
+      "text": "持續 22…40 秒，目標盟友獲得 +24 護甲、+60 最大體力，對抗 Destroyers 時再額外獲得 +24 護甲",
+      "reason": "保留正式說明數值與敵人種類；實際疊加上限另在同頁錯誤備註說明。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/effects/growth:0:var1/condition",
+          "englishHash": "af300d43247d7cc32f34783c53bb51f7c3899dde2cf43b52cd60925549a1cbc1",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        }
+      ]
+    },
+    {
+      "source": "Create a level 1…11…14 spirit",
+      "text": "創造等級 1…11…14 的精靈",
+      "reason": "核對 PvE 精靈等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/effects/growth:0:var1/condition",
+          "englishHash": "83cbe4ac154fee991bc93f9a08b3e414307703822e8a23abc6b82016b7e78aa7",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        }
+      ]
+    },
+    {
+      "source": "Conditions on allies within range of this spirit expire 20…44…50% faster",
+      "text": "此精靈範圍內盟友的病症持續時間縮短 20…44…50%",
+      "reason": "依固定 Recovery anomaly 澄清持續時間縮短，不是速度提高。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/effects/growth:0:var2/condition",
+          "englishHash": "a7857d8b684393f1cd4534394866962088537a6e701b561c6be4ab2c9d062f6e",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/effects/growth:0:var2/condition",
+          "englishHash": "a7857d8b684393f1cd4534394866962088537a6e701b561c6be4ab2c9d062f6e",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        }
+      ]
+    },
+    {
+      "source": "This spirit dies after 30…54…60 seconds",
+      "text": "此精靈在 30…54…60 秒後死亡",
+      "reason": "核對精靈壽命。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/effects/growth:0:var3/condition",
+          "englishHash": "e826d2a1b9bed047e9d59a4752420a6ae82e1083782c0c73a43a6f734bee51c2",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:207698/effects/growth:0:var3/condition",
+          "englishHash": "e826d2a1b9bed047e9d59a4752420a6ae82e1083782c0c73a43a6f734bee51c2",
+          "evidenceHash": "1f1e68928140c4ca9a4c2b9dad6b3bc99855a2d44e34b8c764c8c60b56b9d1b8"
+        }
+      ]
+    },
+    {
+      "source": "Create a level 1…10…12 spirit",
+      "text": "創造等級 1…10…12 的精靈",
+      "reason": "核對 Shelter PvE 精靈等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/effects/growth:0:var1/condition",
+          "englishHash": "905f488742827b48d1ed7332bf03da59149fcc7edafb92c74972c6832b43ba8c",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        }
+      ]
+    },
+    {
+      "source": "When this spirit prevents damage, it loses 75…51…45 Health",
+      "text": "此精靈每次阻止傷害時，自身失去 75…51…45 點體力",
+      "reason": "核對支付體力的主體與每次觸發。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/effects/growth:0:var2/condition",
+          "englishHash": "bb07e5aa32862d4b0feefe2a66d7ad94b1aa5cd9a073f644a75f886bcb826ac3",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/effects/growth:0:var2/condition",
+          "englishHash": "bb07e5aa32862d4b0feefe2a66d7ad94b1aa5cd9a073f644a75f886bcb826ac3",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        }
+      ]
+    },
+    {
+      "source": "This spirit lasts 30…54…60 seconds",
+      "text": "此精靈持續 30…54…60 秒",
+      "reason": "核對精靈存續時間。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/effects/growth:0:var3/condition",
+          "englishHash": "7788c64ae23cc7f6cff7301e0a20d6e6685e6b8563350c8f8bc7b8758391d963",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/effects/growth:0:var3/condition",
+          "englishHash": "7788c64ae23cc7f6cff7301e0a20d6e6685e6b8563350c8f8bc7b8758391d963",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        }
+      ]
+    },
+    {
+      "source": "Create a level 1…7…8 spirit",
+      "text": "創造等級 1…7…8 的精靈",
+      "reason": "核對 Shelter PvP 精靈等級。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/effects/growth:0:var1/condition",
+          "englishHash": "93b12ef56cee3e557c9aa50dc0c355be7a57bb0729d7b673dfceaa18e5b91ccb",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        }
+      ]
+    },
+    {
+      "source": "bug: The armor bonus while fighting Destroyers is calculated as two sources, the initial +24 armor and then the +24 armor against Destroyers. The armor bonus is therefore capped at +25 armor due to effect stacking (giving a 35.2% damage reduction bonus).",
+      "text": "錯誤：對抗 Destroyers 時，護甲加成被分成兩個來源計算：基礎 +24 護甲，以及對抗 Destroyers 的額外 +24 護甲。因此受效果疊加限制，護甲加成合計最高為 +25，相當於 35.2% 傷害減免。",
+      "reason": "核對兩項加成受上限限制，不能把正式說明直接相加為 +48；保留來源所列減傷百分比。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/notes/1",
+          "englishHash": "84a1ae448f3871cc82bb05825dd0dcbbdf02078ffe1f0ccbab4e671d315658f4",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: Unlike Winter this skill requires the attacker to be inside the spirit area of effect.",
+      "text": "異常：與 Winter 不同，此技能要求攻擊者位於精靈的作用範圍內。",
+      "reason": "核對範圍條件限定攻擊者，不是受傷者。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/notes/1",
+          "englishHash": "d44801c4b101750dab8653fe60203143bde125a0e985940a6e1efed348f31b60",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: Rather than conditions expiring at a faster rate, their duration is reduced by the stated percentage.",
+      "text": "異常：實際效果不是讓病症更快消退，而是按所列百分比縮短病症持續時間。",
+      "reason": "保留來源的異常標記，區分時間縮短與速率提高的不同計算。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4096/variants/skill-version:gww:4096/notes/2",
+          "englishHash": "155a84cf599079070f12022adfc806484d3e1152e9a7d24bf7e84cf7dbf095c0",
+          "evidenceHash": "4d949de161f978def01f6bfe2890d2ed6839a0d89901b7de5a2fbb4d8a615b1e"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: While skill descriptions state \"attacks\", damage from spells and signets is also reduced.",
+      "text": "異常：雖然技能說明寫的是「攻擊」，魔法與紋章造成的傷害也會減免。",
+      "reason": "核對正式描述與實際傷害類型的來源差異。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/notes/2",
+          "englishHash": "ee79d6acd3a765d9b9e72ae86fc61df202a980a779106da0d8720faeae0e3ec6",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:207628/notes/1",
+          "englishHash": "ee79d6acd3a765d9b9e72ae86fc61df202a980a779106da0d8720faeae0e3ec6",
+          "evidenceHash": "ab64aa4c74e164b27ea00a4606d030300442d73634ea046f8d7c66f3e11b5358"
+        }
+      ]
+    },
+    {
+      "source": "bug: Contrary to the full description, creatures in range deal +4 damage, not receive. This means that all creatures, including spirits, do take +4 damage.",
+      "text": "錯誤：與完整說明相反，範圍內生物是額外造成 +4 點傷害，而非額外受到傷害。因此，包括精靈在內的所有生物都會承受這 +4 點額外傷害。",
+      "reason": "核對來源明確指出的傷害主體反轉及受傷目標可含精靈。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6597/variants/skill-version:gww:6597/notes/1",
+          "englishHash": "c0c158ae3f5d501a9626d6d355004473a9d39f2a64af7713da7f9f1d49812a46",
+          "evidenceHash": "262a177ad2e0efd998fb64ef1c4791eb19dc757fb1474e723ef7fb963ca8f469"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: Unlike Greater Conflagration or Conflagration this skill requires either the attacker or the damage receiver to be inside the spirit area of effect.",
+      "text": "異常：與 Greater Conflagration 或 Conflagration 不同，此技能只要求攻擊者或受傷者任一位於精靈的作用範圍內。",
+      "reason": "核對 either 的任一條件，不要求雙方同時在範圍內。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6599/variants/skill-version:gww:6599/notes/1",
+          "englishHash": "1be486d71bcb6c22a6b64038b025c16e261993071c568997049715bfbe6bfcd7",
+          "evidenceHash": "2bb252ab14c572a4350d45a82c67d03f8696458e525449d04472e85fcad87132"
+        }
+      ]
+    }
+  ]
+}

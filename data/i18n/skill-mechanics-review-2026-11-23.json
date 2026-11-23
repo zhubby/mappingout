@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "status": "agent-reviewed-not-in-game-verified",
+  "method": "逐項對照固定同頁完整說明、簡短說明與備註；來源清楚指出的歧義採取語境校訂，不聲稱遊戲內核驗。",
+  "cases": [
+    {
+      "skill": "Predatory Season",
+      "pages": [
+        6502
+      ],
+      "decision": "範圍內非精靈生物各自攻擊命中時獲得體力；不是僅施放者。",
+      "evidenceKinds": [
+        "concise description",
+        "Notes"
+      ],
+      "sources": [
+        {
+          "title": "Predatory Season",
+          "pageid": 6502,
+          "revid": 2735073,
+          "sha1": "e4cedc917b8f5499aee25f65b58eed357ae0a039",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Predatory%20Season&oldid=2735073",
+          "sourcePath": "data/wiki/pages/6502.json",
+          "sha256": "c437957514a33923bc9c939d414d94d4d71e1d1027cf62de4bb95fa49ebcf50b",
+          "description": "[[Nature Ritual]]. Create a level {{gr|1|10}} [[spirit]]. For non-spirit [[creature]]s within its [[Spirit range|range]], all [[heal]]ing is reduced by 20%. If any of your [[attack]]s hit, you [[Health gain|gain]] 5 [[Health]]. This spirit dies after {{gr|30|240}} seconds.",
+          "conciseDescription": "Nature Ritual. Creates a level {{gr|1|10}} spirit ({{gr|30|240}} second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits.",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "skill": "Recovery",
+      "pages": [
+        4096,
+        207698
+      ],
+      "decision": "百分比縮短病症持續時間，不是提高消退速度；兩模式創造同名精靈。",
+      "evidenceKinds": [
+        "anomaly",
+        "Notes"
+      ],
+      "sources": [
+        {
+          "title": "Recovery",
+          "pageid": 4096,
+          "revid": 2732878,
+          "sha1": "b68e29bdebe3fee50231bd07ec1567d03d168f92",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery&oldid=2732878",
+          "sourcePath": "data/wiki/pages/4096.json",
+          "sha256": "1afbe5ac8cfe620d155ed49940413ed4682a4116c6bf6a1684597ba2bb94dad1",
+          "description": "[[Binding Ritual]]. Create a level {{gr|1|14}} [[spirit]]. [[Condition]]s on [[ally|allies]] within [[Spirit range|range]] of this spirit expire {{gr|20|50||%}} faster. This spirit dies after {{gr|30|60}} seconds.",
+          "conciseDescription": "Binding Ritual. Creates a level {{gr|1|14}} spirit ({{gr|30|60}} second lifespan). Conditions on allies in range expire {{gr|20|50||%}} faster.",
+          "warnings": [
+            {
+              "kind": "Bug",
+              "text": "The French translation of [[Spirit of Recovery]] is the same as [[Spirit of Recuperation]] but with a lower case \"r\", which can be misleading."
+            },
+            {
+              "kind": "anomaly",
+              "text": "Rather than conditions expiring at a faster rate, their duration is reduced by the stated percentage."
+            }
+          ]
+        },
+        {
+          "title": "Recovery (PvP)",
+          "pageid": 207698,
+          "revid": 2732860,
+          "sha1": "4ecfe8dfb4e639eb118e7eae2ce4790a33fd24ad",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Recovery%20(PvP)&oldid=2732860",
+          "sourcePath": "data/wiki/pages/207698.json",
+          "sha256": "7822775519fe1571c9f32e766da02acbf2f6f9afe1249f8527247a0e652e8ff7",
+          "description": "[[Binding Ritual]]. Create a level {{gr|1|10}} [[spirit]]. [[Condition]]s on [[ally|allies]] within [[Spirit range|range]] of this spirit expire {{gr|20|50||%}} faster. This spirit dies after {{gr|30|60}} seconds.",
+          "conciseDescription": "Binding Ritual. Creates a level {{gr|1|10}} spirit ({{gr|30|60}} second lifespan). Conditions on allies in range expire {{gr|20|50||%}} faster.",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "skill": "Winnowing",
+      "pages": [
+        6597
+      ],
+      "decision": "範圍內非精靈生物造成物理傷害時附加四點；受傷者可包含精靈。",
+      "evidenceKinds": [
+        "bug",
+        "concise description"
+      ],
+      "sources": [
+        {
+          "title": "Winnowing",
+          "pageid": 6597,
+          "revid": 2732151,
+          "sha1": "387f1afa729816554812cad14e9b448bf4d7b8a5",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winnowing&oldid=2732151",
+          "sourcePath": "data/wiki/pages/6597.json",
+          "sha256": "fe6b8526bd774558b10f1207d968e81a789befb67a93ba3ea71350c70426688e",
+          "description": "[[Nature Ritual]]. Create a level {{gr|1|10}} [[spirit]].  Non-spirit [[creature]]s within [[Spirit range|range]] take 4 additional [[damage]] whenever they take [[physical damage]].  This spirit dies after {{gr|30|240}} seconds.",
+          "conciseDescription": "Nature Ritual. Creates a level {{gr|1|10}} spirit ({{gr|30|240}} second lifespan). Increases physical damage by +4 for creatures in range. Does not affect spirits.",
+          "warnings": [
+            {
+              "kind": "bug",
+              "text": "Contrary to the full description, creatures in range deal +4 damage, not receive. This means that all creatures, including spirits, do take +4 damage."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "Shelter",
+      "pages": [
+        6332,
+        207628
+      ],
+      "decision": "單次傷害上限包含魔法與紋章；依兩模式各自 anomaly 澄清。",
+      "evidenceKinds": [
+        "anomaly"
+      ],
+      "sources": [
+        {
+          "title": "Shelter",
+          "pageid": 6332,
+          "revid": 2720898,
+          "sha1": "6739c47026ed2ddede3b5f9ab7e523a4ad2e5881",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shelter&oldid=2720898",
+          "sourcePath": "data/wiki/pages/6332.json",
+          "sha256": "a17758e6281fec0014f2237e45e7fd86136be0f6860888a115f4125c05aa77dc",
+          "description": "[[Binding Ritual]]. Create a level {{gr|1|12}} [[spirit]]. Non-spirit [[Ally|allies]] within its [[Spirit range|range]] cannot lose more than 10% maximum [[Health]] from a single [[attack]]. When this spirit prevents [[damage]], it loses {{gr|75|45}} Health. This spirit lasts {{gr|30|60}} seconds.",
+          "conciseDescription": "Binding Ritual. Creates a level {{gr|1|12}} spirit ({{gr|30|60}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. {{gray|Damage prevention cost: this spirit loses {{gr|75|45}} Health.}}",
+          "warnings": [
+            {
+              "kind": "anomaly",
+              "text": "[[Armor of Unfeeling]] will reduce the health loss of this spirit caused by its damage mitigation effect."
+            },
+            {
+              "kind": "anomaly",
+              "text": "While skill descriptions state \"attacks\", [[damage]] from [[spell]]s and [[signet]]s is also reduced."
+            },
+            {
+              "kind": "anomaly",
+              "text": "Shelter's effect persists briefly after it prevents damage in a way that would have killed it ([https://youtu.be/7AFx0dp8_-o video])."
+            }
+          ]
+        },
+        {
+          "title": "Shelter (PvP)",
+          "pageid": 207628,
+          "revid": 2720899,
+          "sha1": "41ca8c243733b424efd0c144ee5ec1942ce223f1",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shelter%20(PvP)&oldid=2720899",
+          "sourcePath": "data/wiki/pages/207628.json",
+          "sha256": "e9e5f8d4fd83a4220e9d9ef1ecd9055a9b2423b51e14058ab7c73f2f73502319",
+          "description": "[[Binding Ritual]]. Create a level {{gr|1|8}} [[spirit]]. Non-spirit [[Ally|allies]] within its [[Spirit range|range]] cannot lose more than 10% maximum [[Health]] from a single [[attack]]. When this spirit prevents [[damage]], it loses {{gr|75|45}} Health. This spirit lasts {{gr|30|60}} seconds.",
+          "conciseDescription": "Binding Ritual. Creates a level {{gr|1|8}} spirit ({{gr|30|60}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. {{gray|Damage prevention cost: this spirit loses {{gr|75|45}} Health.}}",
+          "warnings": [
+            {
+              "kind": "anomaly",
+              "text": "While skill descriptions state \"attacks\", [[damage]] from [[spell]]s and [[signet]]s is also reduced."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "Greater Conflagration",
+      "pages": [
+        4087
+      ],
+      "decision": "轉換範圍內攻擊者造成的物理傷害，受傷者所在位置不是觸發條件。",
+      "evidenceKinds": [
+        "anomaly"
+      ],
+      "sources": [
+        {
+          "title": "Greater Conflagration",
+          "pageid": 4087,
+          "revid": 2731263,
+          "sha1": "223c20a4aa97da657772d5ee6dff6154f6715a9c",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Greater%20Conflagration&oldid=2731263",
+          "sourcePath": "data/wiki/pages/4087.json",
+          "sha256": "7dcec23a053320fb9648f931db98040d7177fd94e462f71dcaadf19417c23f5f",
+          "description": "[[Elite]] [[Nature Ritual]]. Create a level {{gr|1|10}} [[spirit]]. For non-spirit [[creature]]s within its [[Spirit range|range]], all [[physical damage]] is [[fire damage]] instead. This spirit dies after {{gr|30|240}} seconds.",
+          "conciseDescription": "Elite Nature Ritual. Creates a level {{gr|1|10}} spirit ({{gr|30|240}} second lifespan). Converts physical damage to fire damage for creatures in range. Does not affect spirits.",
+          "warnings": [
+            {
+              "kind": "anomaly",
+              "text": "Unlike [[Winter]] this skill requires the ''attacker'' to be inside the spirit [[area of effect]]."
+            },
+            {
+              "kind": "bug",
+              "text": "Does not properly convert the physical damage of certain skills (notably: [[Ebon Vanguard Sniper Support]] and [[Veil of Thorns]]). As a result, the skill chain will not trigger the conditional effects of other skills that depend on fire damage (in particular, for [[Intensity]])."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "Winter",
+      "pages": [
+        6599
+      ],
+      "decision": "轉換最終承受的元素傷害；攻擊者或受傷者任一在範圍內即可。",
+      "evidenceKinds": [
+        "anomaly",
+        "Notes",
+        "concise description"
+      ],
+      "unresolved": "完整說明沒有排除精靈，簡短說明卻排除精靈；顯示待核實。",
+      "sources": [
+        {
+          "title": "Winter",
+          "pageid": 6599,
+          "revid": 2739561,
+          "sha1": "97a5ac8d468bd24a94f75c5d1fa18cd98b239854",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winter&oldid=2739561",
+          "sourcePath": "data/wiki/pages/6599.json",
+          "sha256": "bc9bccd327308695b57ac335a68ed796691c1b3e5e1c04171188fced68a01d2a",
+          "description": "[[Nature Ritual]]. Create a level {{gr|1|10}} [[spirit]]. For [[creature]]s within its [[Spirit range|range]], all [[elemental damage]] is [[cold damage]] instead. This spirit dies after {{gr|30|240}} seconds.",
+          "conciseDescription": "Nature Ritual. Creates a level {{gr|1|10}} spirit ({{gr|30|240}} second lifespan). Converts elemental damage to cold damage for creatures in range. Does not affect spirits.",
+          "warnings": [
+            {
+              "kind": "anomaly",
+              "text": "Unlike [[Greater Conflagration]] or [[Conflagration]] this skill requires ''either'' the attacker or the damage receiver to be inside the spirit [[area of effect]]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "Great Dwarf Armor",
+      "pages": [
+        59250
+      ],
+      "decision": "正式說明保留 +24 與額外 +24；獨立錯誤備註說明實際疊加上限 +25 及 35.2% 減傷。",
+      "evidenceKinds": [
+        "bug"
+      ],
+      "sources": [
+        {
+          "title": "Great Dwarf Armor",
+          "pageid": 59250,
+          "revid": 2645605,
+          "sha1": "ab78dab90068a230d8813835fdf52ba0f4f0dbf3",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Great%20Dwarf%20Armor&oldid=2645605",
+          "sourcePath": "data/wiki/pages/59250.json",
+          "sha256": "5c2793aa74a32d91ec81ad9c446e7f58cf598d8131bb254efe4ef878001702d6",
+          "description": "[[Enchantment Spell]]. For {{gr2|22|40}} seconds, [[target]] [[ally]] has +24 [[Armor rating|armor]], +60 maximum [[Health]], and an additional +24 armor against [[Destroyer]]s.",
+          "conciseDescription": "Enchantment Spell.  ({{gr2|22|40}} seconds.)  +24 armor and +60 maximum Health.  Additional +24 armor against Destroyers.",
+          "warnings": [
+            {
+              "kind": "bug",
+              "text": "The armor bonus while fighting Destroyers is calculated as two sources, the initial +24 armor and then the +24 armor against Destroyers. The armor bonus is therefore capped at +25 armor due to [[effect stacking]] (giving a 35.2% [[damage reduction]] bonus)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "Shield of Absorption",
+      "pages": [
+        13048
+      ],
+      "decision": "每次受到傷害的減免逐次累加為五、十、十五等。",
+      "evidenceKinds": [
+        "Notes"
+      ],
+      "sources": [
+        {
+          "title": "Shield of Absorption",
+          "pageid": 13048,
+          "revid": 2723195,
+          "sha1": "22b572c2eb720eb7d672075223bd6521ad9c1936",
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Shield%20of%20Absorption&oldid=2723195",
+          "sourcePath": "data/wiki/pages/13048.json",
+          "sha256": "c71876f77b4fb1e6091f6f4f847be1ca3b14f97f826186b5540d00291f074146",
+          "description": "[[Enchantment Spell]]. For {{gr|3|7}} seconds, [[damage]] received by [[target]] [[ally]] is [[Damage reduction|reduced]] by 5 each time that ally is hit while under the effects of this enchantment.",
+          "conciseDescription": "Enchantment Spell. ({{gr|3|7}} seconds.) Reduces incoming damage by 5 each time target ally takes damage.",
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

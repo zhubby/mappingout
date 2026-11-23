@@ -1,0 +1,1723 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "To get to the Fissure of Woe, all players of the party must be Ascended or Weh no Su (Elonian characters may instead complete the quest Hunted!). Players must then either use a Passage Scroll to the Fissure of Woe (in Embark Beach or any of the following locations below), or pay 1000 gold to the Champion of Balthazar at a Statue of Balthazar in any of the following locations:",
+      "text": "要進入災難裂痕，隊伍中的所有玩家都必須取得 Ascended 或 Weh no Su 資格；伊洛那出身角色也可改以完成 Hunted! 任務取得資格。之後，玩家須在征途海灘或下列任一地點使用 Passage Scroll to the Fissure of Woe，或在下列任一地點的巴薩澤雕像前，向 Champion of Balthazar 支付 1000 金幣：",
+      "reason": "核對全體玩家的資格、伊洛那替代條件，以及卷軸與付費兩種入口；支付對象不是稱號。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/requirements-1/blocks/requirements-1-1/text",
+          "englishHash": "078147ccb7e26c1c439f07c33707436f45854ec59210774e449e6204cd52fd7d",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "Only party members who are Ascended, Weh no Su or characters created in Guild Wars Nightfall who have completed Hunted! may enter the Fissure of Woe: Heroes may enter, but Henchmen may not.",
+      "text": "隊伍中只有取得 Ascended、Weh no Su 資格，或在《黑暗逆襲》建立且已完成 Hunted! 任務的角色，才能進入災難裂痕。英雄可進入，傭兵不可。",
+      "reason": "將資格條件分為三種，Hunted! 只限制黑暗逆襲出身角色；may 表示進入權限。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "94c630fded4ed4d34d8ecfa5b32cc9d3712e8aa939767ef7d4b7d5b33663241e",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "Shadow weapons (The only other locations are in Nightfall: the Nightfallen Garden and the Domain of Anguish.)",
+      "text": "Shadow weapons（其他掉落地點只在《黑暗逆襲》：Nightfallen Garden 與悲難之門。）",
+      "reason": "核對限定的是其他掉落地點；武器系列與未核實地名保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-3/text",
+          "englishHash": "c816107b0e3a097414d51d994409cc60f2a0e4ea2c044dce2f3144f791467601",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "Obsidian Shards. (Although there is one Obsidian Furnace Drake in Nightfall that also drops them.)",
+      "text": "黑曜石碎片。（不過，《黑暗逆襲》中也有一隻 Obsidian Furnace Drake 會掉落此材料。）",
+      "reason": "保留一隻敵人的例外掉落來源，不將專名逐字改成未核實中文名。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-4/text",
+          "englishHash": "ed8671c687484784e8cabdd763defec6e00d61df3378d276cd1faeaac7060413",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "Globs of Ectoplasm can, very rarely, drop from the Banshees that spawn after taking The Wailing Lord.",
+      "text": "接受 The Wailing Lord 任務後出現的 Banshees，極少數情況下會掉落心靈之玉。",
+      "reason": "taking 指接受任務而非捕獲領主；Glob of Ectoplasm 採固定中文術語心靈之玉。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-5/text",
+          "englishHash": "8ba5913f8d6d87743cc883bef2e72d290f8babd63d82a48323ee2c1462bc032d",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "You can repeat the area's quests each time you enter the Fissure of Woe. After completing all eleven,",
+      "text": "每次進入災難裂痕，都可以重新進行區域內的任務。完成全部十一項任務後，",
+      "reason": "eleven 指十一項任務，並非十一點鐘；統一固定地名。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-7/text",
+          "englishHash": "3cc4ebc56f957999fdfb1a3169adc0d660013830c4a1629719252ff3e4edf515",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "You will see the message, \"Balthazar has acknowledged the great deeds you have performed. Return to the forge in the Temple of War to claim your reward\".",
+      "text": "你會看到訊息：「巴薩澤已認可你的偉大事蹟。請返回 Temple of War 的熔爐領取獎勵。」",
+      "reason": "Return 是返回地點，不是影返技能；保留領獎位置與訊息語義。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-8/text",
+          "englishHash": "60a16818ad7bd2cbfd3c8466a0b87cd806029fafaa8f76cbd79ad50e51358f95",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "After the first time, you can add the Eternal Conqueror of The Fissure of Woe statue to your \"Honor\" monument.",
+      "text": "首次完成後，可將 Eternal Conqueror of The Fissure of Woe 雕像加入「榮譽」紀念碑。",
+      "reason": "first time 指首次完成的解鎖條件；雕像專名保留英文身份。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-10/text",
+          "englishHash": "0ff4f2bae31fb4cf9774606db945c1114fa398bb4e7b394f6efd7efdd7b0a90d",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "The Eternal Forgemaster will buy items in your inventory when he returns to the forge, after you keep it safe from attack.",
+      "text": "保護熔爐免受攻擊後，Eternal Forgemaster 返回熔爐時，會收購你物品欄中的物品。",
+      "reason": "it 指需要保護的熔爐；buy 是商人收購物品欄物品。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-11/text",
+          "englishHash": "cf8f56aa0b716b9512c3d1ff61eec6fd0b1ceab7e9d4c990e968c325a8de8f84",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "If all members of your party die; there are no resurrection shrines, so a wipe results in mission failure.",
+      "text": "若隊伍全員死亡，就會任務失敗，因為區域內沒有復活神殿。",
+      "reason": "wipe 指滅團，不是擦除資料；保留全員死亡與無復活神殿的因果。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-14/text",
+          "englishHash": "915fa3b9631dcf999839e948dd9b1898cf7930c4a56ab51660fe10ac2219defc",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "If you allow any of your allies to die. (Be sure to clear any nearby patrols to prevent this.)",
+      "text": "若讓任一盟友死亡。（務必先清除附近的巡邏隊，以避免此事。）",
+      "reason": "保留任一盟友死亡的失敗條件，巡邏清理是預防建議。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-16/text",
+          "englishHash": "4e330ac71c3e65e905eb4b8e935d24b40fec558d33730acf4cb4694de6a03581",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "The sole exception to this is Eternal Lord Taeres. However, should he die before you take his quest, Tower of Strength, you will be unable to spawn the Chest of Woe.",
+      "text": "唯一的例外是 Eternal Lord Taeres。但若他在你接受其任務 Tower of Strength 之前死亡，就無法讓 Chest of Woe 出現。",
+      "reason": "保留盟友死亡例外，以及必須在接受任務前死亡才阻止寶箱出現的條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-17/text",
+          "englishHash": "deb8eb7e1c9cb986fe82a1377f7a404b28488a1d258b56a1044856a455850b6f",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "Be sure to obtain the quest for the Miniature Ceratadon from Merrise, Sworn to Seas, at embark beach if attempting to do this dungeon in Hard Mode for the first time since the 2025 anniversary update.",
+      "text": "自 2025 年週年更新後，若首次嘗試以困難模式完成此地下城，務必先在征途海灘向 Merrise, Sworn to Seas 接受取得 Miniature Ceratadon 的任務。",
+      "reason": "首次困難模式條件以2025週年更新為界；NPC完整身份不拆成敘述。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-23/text",
+          "englishHash": "7f34be8b842add2ad937502cb76bdbcecd47c81ed8aef3e44e4ef2df68e391f1",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "The lava in the Fissure of Woe is harmless. On rare occasions, a Shadow Ranger will spawn inside the Tower of Courage, preventing quest completion unless your party can kill it without having a line of sight.",
+      "text": "災難裂痕中的熔岩不會造成傷害。極少數情況下，Shadow Ranger 會出現在 Tower of Courage 內；除非隊伍能在沒有視線的情況下擊殺它，否則就無法完成任務。",
+      "reason": "無視線擊殺是完成任務的必要替代條件；沒有將熔岩誤作傷害來源。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-24/text",
+          "englishHash": "31e84c22e9eb8c1d64fbc437c0aea5c81df4bcfe4c54fd45c56fbf41b7fd1014",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "0: spawn point. Beware of patrolling mobs near this spot as it is easy to over aggro the nearby mobs. Do NOT take the quest from Rastigan yet.",
+      "text": "0：進入區域後的起始位置。留意附近的巡邏敵群，此處很容易同時引到過多敵人。此時不要向 Rastigan 接任務。",
+      "reason": "spawn point 指玩家起點，over aggro 指過量引怪；保留暫緩接任務警告。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-1/text",
+          "englishHash": "ef3f7ca4381fd8305e6bf05bf0377e1aa686ebb8e3c6195267d59ae4b6b01c33",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "2: clear the remaining groups around the Tower of Courage. Rastigan will join the fight but you should be able to protect him now. Rastigan will open the tower gate and mobs will spawn in it. Take the quest Tower of Courage that should now be completed (quest 1) and take the follow-up quest for later.",
+      "text": "2：清除 Tower of Courage 周圍剩餘的敵群。Rastigan 會加入戰鬥，但此時應已能保護他。他會打開塔門，塔內隨即出現敵人。接受此時應已達成目標的 Tower of Courage 任務（任務 1），並接下後續任務，留待稍後進行。",
+      "reason": "for later 指現在接下後續任務、之後再做，並非稍後才接受；保留塔內出怪順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-3/text",
+          "englishHash": "be5a8091a6dc56059713fad351a0fd8aa092085a7c463769a28ab3139e3a8ade",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "3*: (optional) head north to the Great Battle Field and clear it from patrolling mobs from east to west. Beware of regular pop up enemies. You may want to trigger some mobs pop on Priest of Menzies location while he hasn't spawned yet.",
+      "text": "3*：（可選）向北前往 Great Battle Field，由東向西清除巡邏敵群。小心不時突然出現的敵人。Priest of Menzies 尚未出現時，可先到其所在位置，觸發潛伏敵人現身。",
+      "reason": "regular pop up 指潛伏敵人冒出；先觸發敵群的時點是首領尚未出現時。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-4/text",
+          "englishHash": "45abcb67b734349c23cc274b77def6651e1b4ce7c05f7179f9a3816a0c59d1d5",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "4: West of the Great Battle Field, clear the shadow mob camp. Clearing it spawns NPCs. Take the quests Army of Darkness from Kromril the Eternal (for later) and The Eternal Forgemaster from Eternal Weaponsmith.",
+      "text": "4：在 Great Battle Field 西側清除 Shadow 敵群營地。清完後會出現 NPC。向 Kromril the Eternal 接受 Army of Darkness，留待稍後進行；並向 Eternal Weaponsmith 接受 The Eternal Forgemaster。",
+      "reason": "核對兩名任務提供者各自對應的任務，以及清營後NPC才出現。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-5/text",
+          "englishHash": "6528d275de6517056c2510004e1448ee63d0d73a5d60053d15341226468c4c5c",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "5: move towards Temple of War. Clear the mob in front of the gate and beware of the incoming mobs behind you (fight them or rush in the temple ignoring them). Enter the temple and carefully clear groups on the first floor all around, then clear the last foes on the top of the temple to complete the quest (quest 2). The Eternal Forgemaster will appear.",
+      "text": "5：前往 Temple of War。清除門前敵群，並提防從身後過來的敵人；可以與其交戰，也可不理會並衝進神殿。進入後，小心清除一樓四周的敵群，再擊敗神殿頂部最後的敵人以完成任務（任務 2）。接著 Eternal Forgemaster 會出現。",
+      "reason": "保留身後敵群的兩種處理方法與一樓至頂部的清敵順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-6/text",
+          "englishHash": "9344530074e9f44750efa0c358d84a25a05cf1b4802a7b70ef64fac94f9bfad6",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "6: take the quest Defend the Temple of War. Enemies come to the upper platform in pairs so no need to rush. They may take their time to move. The Eternal Forgemaster must survive. Once done (quest 3), other allied NPC's will in the temple. The south gate of temple is now open, you can defeat the group on this side and take care of incoming group right after just as for the north entrance.",
+      "text": "6：接受 Defend the Temple of War。敵人會成對前往上層平台，不必急於迎擊；它們可能過一陣子才移動。Eternal Forgemaster 必須存活。完成後（任務 3），神殿內會出現其他友方 NPC。此時南門已開，可先擊敗南側敵群，再處理隨後前來的敵群，做法與北側入口相同。",
+      "reason": "move 指移動而非搬家；保留成對來敵、鍛造者存活與南門兩批敵人的順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-7/text",
+          "englishHash": "7a5e3ee930d6761d0391cd0db70b9dad4450244b36f031a09251e0f1b392a1b8",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "8: in the Temple, take both quests from Forgemaster and the one from Eternal Lord Taeres. You will focus on quest Restore the Temple of War first.",
+      "text": "8：在神殿內向 Forgemaster 接受兩個任務，再向 Eternal Lord Taeres 接受一個任務。先進行 Restore the Temple of War。",
+      "reason": "明確保留兩個加一個的任務數量，以及優先進行的任務。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-9/text",
+          "englishHash": "3e7dc491202a28e515acd8e808589a52106556ae4c000432551e1a88a7b63080",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "10: clear the Spider Cave from Seeds of Corruption that spawn with the Forgemaster's quest (quest 4). Sneak to the Shore to kill the second Shard Wolf there.",
+      "text": "10：清除 Spider Cave 內因 Forgemaster 任務而出現的 Seeds of Corruption（任務 4）。再悄悄前往海岸，擊殺那裡的第二隻 Shard Wolf。",
+      "reason": "明確任務觸發敵群與第二隻狼的位置；專名保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-11/text",
+          "englishHash": "54e8015f6d580f3fcb2b4a6d10367970dcda242ebacb2a602d6e8279d1df0275",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "At this point: return to the Forgemaster to complete the quest. He will offer Obsidian armor crafting.",
+      "text": "此時返回 Forgemaster 處完成任務。他將提供黑曜石護甲的製作服務。",
+      "reason": "完成任務後才解鎖護甲製作服務，沒有變成直接獲得護甲。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-12/text",
+          "englishHash": "3fbd3cbecc6a927ed59eb0fa4231a0624bfb7072fbb68f8d8894157d5867bf84",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "11: head north toward the Tower of Strengh for the associated quest. Cautiously clear the zone up to the tower, you'll find multiple patrols overlaping and spawns. Be sure to kill the 5 Shadow Patrols. A third Shard Wolf will be there as well. Go back toward Temple of War to trigger the Tower Mage route, that will wait for you before the tower.",
+      "text": "11：向北前往 Tower of Strength，進行對應任務。小心清除沿途直到塔樓的敵人，此處巡邏路線互相重疊，也有新出現的敵群。務必擊殺 5 隻 Shadow Patrol。第三隻 Shard Wolf 也在此處。返回 Temple of War 方向，觸發 Tower Mage 出發；他會在塔前等你。",
+      "reason": "Tower Mage 是會等待玩家的 NPC；固定 Tower of Strength 修訂 2690181 明確指出五個目標是單隻野獸，不是五支巡邏隊。保留第三隻 Shard Wolf 與移動方向。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-1/text",
+          "englishHash": "916a8092a47896efa35e9f02a3b63962526771ad3572493edbefb49f3d5b2cee",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ],
+      "contextReferences": [
+        {
+          "title": "Tower of Strength",
+          "pageid": 25346,
+          "revid": 2690181,
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Tower%20of%20Strength&oldid=2690181",
+          "sha1": "49fe945f8f96670f18ccb65362b2439aff86f5ae"
+        }
+      ]
+    },
+    {
+      "source": "12: in the meantime, move south-east to the Lake of Fire for the Khobay the Betrayer quest. You can pull Khobay's group (or hopefully boss only) away from the last wurm if needed. Killing him will complete the quest (quest 5).",
+      "text": "12：在此期間，向東南前往 Lake of Fire，進行 Khobay the Betrayer 任務。必要時可將 Khobay 的敵群引離最後一隻 wurm，最好能只引出首領。擊殺他即可完成任務（任務 5）。",
+      "reason": "boss 指首領而非老闆；拉怪目標與最後一隻wurm分開，單引首領只是理想結果。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-2/text",
+          "englishHash": "3f2b7373c95e256d9fff13d8ae7aeaaf5788bd50cdfa1b09fbc97be90b980c88",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "13: go back to Tower of Strength. After the NPC opens the tower, kill the last mob that will spawn inside to complete the quest (quest 6).",
+      "text": "13：返回 Tower of Strength。NPC 打開塔門後，擊殺塔內出現的最後一隻敵人，即可完成任務（任務 6）。",
+      "reason": "保留開塔後出現的最後一隻敵人及其完成條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-3/text",
+          "englishHash": "f53b782a8d4f37849a594d7c34a79acf42ac2016b777ce5f33a63991b826e68e",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "14: move north to find Miko the Unchained and clear patrol that are wandering here.",
+      "text": "14：向北尋找 Miko the Unchained，並清除在此遊走的巡邏隊。",
+      "reason": "Miko the Unchained 是完整人物身份；清理對象是當地巡邏隊。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-4/text",
+          "englishHash": "4b0cbbec201f283f267edabf0f8dd55d3a2b906b78542480b6fc71c9b0390821",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "15*: (optional) without Miko's quest, cautiously clear the Burning Forest, at least the main path to the end of the zone. There are multiple patrols overlapping, and any seemingly isolated mob is actually grouped with mixed foes. A fourth Shard Wolf is found here.",
+      "text": "15*：（可選）尚未接受 Miko 任務時，小心清除 Burning Forest，至少清通主路直到區域盡頭。此處有多支巡邏隊路線重疊，看似落單的敵人其實也與其他種類的敵人同組。第四隻 Shard Wolf 在此。",
+      "reason": "without quest 指接任務前清場；isolated mob仍屬混合敵群，不是暴民。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-5/text",
+          "englishHash": "c9c472dc674fca8ce2054df7a626fc610578b30b812f195b00a650c158b18f6f",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "16: get back to Miko and take his quest, then kill the 4 groups that appeared at the back of the Forest (quest 7). If you did not clear the zone, you may sneak to the right but do not forgot the fourth Shard Wolf.",
+      "text": "16：返回 Miko 處接受任務，再擊殺森林後方出現的 4 組敵人（任務 7）。若未事先清場，可從右側悄悄通過，但別忘了第四隻 Shard Wolf。",
+      "reason": "核對四組敵人、未清場替代路線，以及不能遺漏第四隻狼。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-6/text",
+          "englishHash": "b230e482f43fc23000e9e1e25683f895324df08192de982326cee9b28e3a5069",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "17: head west, back to the Great Battle Field. Go north to complete the quest you took at point 3 by killing the Priest of Menzies. You may pull its surrounding groups away first then engage the lonely boss, or possibly pull the boss directly from below the cliff. He will drop a quest item you need to give back to the NPC (quest 8). On your way, you'll find a fifth Shard Wolf to kill.",
+      "text": "17：向西返回 Great Battle Field，再向北擊殺 Priest of Menzies，完成步驟 3 接下的任務。可先引開周圍敵群，再對付落單的首領；也可能直接從懸崖下方引出首領。他會掉落須交還 NPC 的任務物品（任務 8）。沿途還要擊殺第五隻 Shard Wolf。",
+      "reason": "保留原文步驟3的任務引用、兩種引怪方法及交還掉落物；boss不作日常詞義。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-7/text",
+          "englishHash": "4ead213b95e562dad91315fe8e850c200e1f19a6d12a5488502064e2a410d4ee",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "18: move west toward the Forest of the Wailing Lord for The Wailing Lord quest you received at point 2. Note that the zone will include an seemingly hostile foe, the Wailing Lord, but he must NOT be harmed. Clear the zone, without crossing the bridge leading to the Wailing Lord. A sixth Shard Wolf can be killed here, in north part, that could be pulled from main path. Be sure to clean the main path and south part, north is not needed.",
+      "text": "18：向西前往 Forest of the Wailing Lord，進行步驟 2 接下的 The Wailing Lord。區域內的 Wailing Lord 看似敵對，但絕對不能傷害他。清除此區時，不要越過通往他的橋。北側有第六隻 Shard Wolf，可從主路將其引出擊殺。務必清除主路與南側敵人；北側不必清場。",
+      "reason": "保留不可傷害指定NPC、不可過橋及只清主路南側的範圍；北側狼可單獨引出。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-8/text",
+          "englishHash": "716b9392c367a9ce3e5d4eff6c6a15a9e4833ddc1b56e5fdf27ff5c54032a558",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "19: Carefully pull Banshees across the bridge, without harming the Wailing Lord. You can enter in Wailing Lord aggro zone, he will not attack you, but beware to have heroes flagged further. Try to pull out skeletons across the bridge as well. After you kill them all, the Wailing Lord will turn friendly and Shadow Beasts will spawns. You can validate the quest (quest 9) and take A Gift of Griffons. For this one you'll need to escort Griffons to Tower of Courage.",
+      "text": "19：小心將 Banshees 引過橋，避免傷害 Wailing Lord。你可進入他的警戒範圍，他不會攻擊你；但務必用旗幟讓英雄停在較遠處。也盡量將骷髏引過橋。全部擊殺後，Wailing Lord 會轉為友方，並出現 Shadow Beasts。此時可交付任務（任務 9），再接受 A Gift of Griffons，護送獅鷲前往 Tower of Courage。",
+      "reason": "flagged further 指英雄停留較遠位置以免誤傷，不是進一步標記；保留敵友轉換與接護送任務時序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-9/text",
+          "englishHash": "ab3b8cc9e166f9d900b68d5017364122b404aba8d8fe45b7a5de19fb76ef5c61",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "20*: (optional) as Griffons may be killed easily, you may want to make your way to Tower of Courage without them and quietly fight the hostile groups that appeared with this quest. This is safer but take a little bit more time. Griffons should stand still until you approach them but sometimes they rush to you right away. In this case, you may need to flag your heroes forward and let them deal with the fights, while you keep Griffons safe.",
+      "text": "20*：（可選）獅鷲容易死亡，可先不帶牠們，獨自清通前往 Tower of Courage 的道路，穩妥地擊敗接任務後出現的敵群。這樣較安全，但稍費時間。獅鷲通常會留在原地，直到你靠近；有時卻會立即跑來。若發生此事，可用旗幟讓英雄向前迎戰，自己留下保護獅鷲。",
+      "reason": "保留先清路再帶護送目標的策略，以及獅鷲提前跟隨時由英雄向前作戰的分工。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-10/text",
+          "englishHash": "a733f8a31eca988fe89671a194a5551bc3d1a4e381460fb607462defcb3858e8",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "21: approach the Griffons so they start following you. Lead them to Rastigan to complete the quest (quest 10).",
+      "text": "21：靠近獅鷲，使牠們開始跟隨你，再帶到 Rastigan 處完成任務（任務 10）。",
+      "reason": "following 是跟隨護送者，不是追蹤獵物；保留啟動跟隨的靠近條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-11/text",
+          "englishHash": "57fff79d5453992ef94df523f555a9f374b197e3274aa44a9ee9626919fe0892",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "22: the seventh and last Shard Wolf will be found just south of the tower. Kill him to complete the last quest (quest 11).",
+      "text": "22：第七隻也是最後一隻 Shard Wolf 位於塔樓正南方。擊殺牠即可完成最後一個任務（任務 11）。",
+      "reason": "保留最後一隻狼的序號、位置及第十一個任務完成條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-12/text",
+          "englishHash": "011f9153030eea958bee5f842eb4bac88f942f0ba5887a203f0cae213a4669d4",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "At this point, even without getting quests rewards yet, The Fissure of Woe is completed! Make your way back to Temple of War to open the Chest of Woe. You can pick up quests rewards and resign to leave.",
+      "text": "此時，即使尚未領取任務獎勵，也已完成災難裂痕！返回 Temple of War 開啟 Chest of Woe，之後可領取任務獎勵，再使用投降離開。",
+      "reason": "resign 是遊戲投降操作而非辭職；任務目標完成與領獎分開。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-3-13/text",
+          "englishHash": "f1fb7311aafd22f8ff5ce9211a39ac2b40b45a8f9e9af7238a66db4c198b3450",
+          "evidenceHash": "d08e00b91f0981120d3714acc1296a6616e93092ba4ddb86670dfccc834c10f7"
+        }
+      ]
+    },
+    {
+      "source": "Once you have completed Cleansing Morostav Trail, you can take this quest to restore default spawns in Cantha, except in an area affected by any other Winds of Change quest.",
+      "text": "完成 Cleansing Morostav Trail 後，可接受此任務，使凱珊恢復預設敵人配置；但受到其他 Winds of Change 任務影響的區域除外。",
+      "reason": "default spawns 是敵人配置，不只是生成點；保留其他進行中任務造成的區域例外。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "7c836ed135896e6a8b4b3730c3f30c2b16677b38e6cfb976f6e11ba8c69afe4d",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/instructions-dialogue/blocks/instructions-6/text",
+          "englishHash": "7c836ed135896e6a8b4b3730c3f30c2b16677b38e6cfb976f6e11ba8c69afe4d",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        }
+      ]
+    },
+    {
+      "source": "This allows you to continue the Winds of Change storyline without abandoning Memories of Purity.",
+      "text": "這讓你可以繼續進行 Winds of Change 故事線，而不必放棄 Memories of Purity。",
+      "reason": "保留故事線與並存任務身份，without abandoning不誤作完成或放棄條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "77756dcdd63f7c83bc6501457a91e695267d325e1e995dbf8ec4e2ee991cfc52",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/instructions-dialogue/blocks/instructions-7/text",
+          "englishHash": "77756dcdd63f7c83bc6501457a91e695267d325e1e995dbf8ec4e2ee991cfc52",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        }
+      ]
+    },
+    {
+      "source": "In areas with an active Winds of Change quest, you are likely to see the original spawns, in addition to those foes that spawn due to the quest.",
+      "text": "在有進行中 Winds of Change 任務的區域，除了任務觸發的敵人外，也可能同時看到原本的敵人配置。",
+      "reason": "original spawns 指原敵人配置，並與任務新增敵人同時存在。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/notes-1/blocks/notes-1-3/text",
+          "englishHash": "264a14f31f5e3a4710874e845df874f2c783c63e580409c5ff2c3522ac31f661",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/instructions-dialogue/blocks/instructions-8/text",
+          "englishHash": "264a14f31f5e3a4710874e845df874f2c783c63e580409c5ff2c3522ac31f661",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        }
+      ]
+    },
+    {
+      "source": "The quest doesn't stop Winds of Change related dialogues between NPCs from happening.",
+      "text": "此任務不會阻止 NPC 之間出現 Winds of Change 的對話。",
+      "reason": "保留否定範圍：敵人配置改變不取消NPC對話；故事線專名保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/notes-1/blocks/notes-1-4/text",
+          "englishHash": "181eba1679c455f4657b989e04d7c3f0578cd78bf85bcf77b092e41c2dd8222d",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/instructions-dialogue/blocks/instructions-9/text",
+          "englishHash": "181eba1679c455f4657b989e04d7c3f0578cd78bf85bcf77b092e41c2dd8222d",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        }
+      ]
+    },
+    {
+      "source": "[Flashback Quest]: While this quest is in your Quest Log, the lands of Cantha will revisit the time of the Afflicted.",
+      "text": "[回溯任務]：只要此任務仍在任務日誌中，凱珊就會回到 Afflicted 出沒的時期。",
+      "reason": "while 條件是任務留在日誌；Afflicted是敵人類別，不作受難者泛稱。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/instructions-dialogue/blocks/instructions-2/text",
+          "englishHash": "1b313b94b1eb847399fbd048cdee7a94cf1674ca00eeba5a799ecffeaa2d6d6a",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        }
+      ]
+    },
+    {
+      "source": "\"Greetings, citizen! Have you heard the news? Thanks to the tireless efforts of Cantha's people, led by the Ministry of Purity, the plague that has cursed our great nation has finally been driven out.\"",
+      "text": "「你好，市民！你聽說了嗎？在 Ministry of Purity 的帶領下，凱珊人民不懈努力，終於驅除了肆虐這個偉大國家的瘟疫。」",
+      "reason": "保留政府組織領導、人民努力及已驅逐瘟疫的敘述；修正引號與新聞措辭。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/instructions-dialogue/blocks/instructions-3/text",
+          "englishHash": "315a7601e085d194e21f0c581f397c2322dabed7fb117525ce66c271131a3c3d",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        }
+      ]
+    },
+    {
+      "source": "\"Allow me to share with you the story of these struggles, that we may honor the sacrifices of those who have fallen in this noble task.\"",
+      "text": "「請容我向你講述這場抗爭，藉此紀念那些為這項崇高使命犧牲的人。」",
+      "reason": "share story 是講述抗爭經過，honor sacrifices是紀念犧牲者；統一繁體引號。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295349/sections/instructions-dialogue/blocks/instructions-4/text",
+          "englishHash": "2e957514dd03ea2c8fbacb09ee8b948e6a43b6e4ad83a8d38adb7e60c6c003e4",
+          "evidenceHash": "c7afb12260739be7d83660151c32908d20daff7443ab69f2b4e0562c06109348"
+        }
+      ]
+    },
+    {
+      "source": "To get to the Underworld, all players of the party must be Ascended or Weh no Su (Elonian characters may instead complete the quest Hunted!). The party must be in one of the locations below and have a player either use a Passage Scroll to the Underworld or pay 1000 gold to the Voice of Grenth at a Statue of Grenth.",
+      "text": "要進入地下世界，隊伍中的所有玩家都必須取得 Ascended 或 Weh no Su 資格；伊洛那出身角色也可改以完成 Hunted! 任務取得資格。隊伍須位於下列任一地點，再由一名玩家使用 Passage Scroll to the Underworld，或在古蘭斯雕像前向 Voice of Grenth 支付 1000 金幣。",
+      "reason": "保留全員資格與一人使用卷軸或付費的分別；Elonian替代條件不作可能完成。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/requirements-1/blocks/requirements-1-1/text",
+          "englishHash": "e78d0d454d97bcc822370dbcf48cab14b97c5174ea7393b5fb8c71f343569f2c",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "If your party wipes, you will be kicked out of the area. This will also happen if certain allies die.",
+      "text": "若隊伍滅團，就會被移出此區域；某些盟友死亡時也會如此。",
+      "reason": "wipe 是滅團，且指定盟友死亡也是獨立移出條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "5364054351c4a92a3a8d29e702ff48b10d9559e1272aa316ffa2356a34bf7f42",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "Successfully completing all of the quests in a single session once will unlock the quest The Nightman Cometh from King Frozenwind. After taking this quest players can go inside the Hall of Judgement. When every player is inside the Hall of Judgement, Dhuum, who resides there, will become aggressive and players can defeat him. Defeating Dhuum will unlock a statue in the Hall of Monuments and allow each party member to open the Underworld Chest once.",
+      "text": "只要有一次在同一趟探索中完成全部任務，就會解鎖 King Frozenwind 提供的 The Nightman Cometh。接受此任務後，玩家即可進入 Hall of Judgement。所有玩家都進入後，多姆才會轉為敵對，讓玩家挑戰。擊敗他會解鎖史蹟殿堂中的一座雕像，並讓每名隊員各開啟一次 Underworld Chest。",
+      "reason": "taking 是接受而非完成任務；明確所有玩家到場、每人一次開箱及首次整趟完成的解鎖。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/notes-1/blocks/notes-1-3/text",
+          "englishHash": "cfa3191e3db1f8ee0f696091b0b3371a0effacfdacf937f10cd9e5c4b43bbd40",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "The Underworld is home to the Black Widow, which can only be found there and only after completing certain quests.",
+      "text": "地下世界是黑寡婦唯一的出沒地，而且必須完成特定任務後才會出現。",
+      "reason": "兩項only分別限制地點與任務完成條件，不僅是找到牠的建議。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/notes-1/blocks/notes-1-5/text",
+          "englishHash": "cdde258fb8effbbd48480c86b581970c5a014cc247b314b4de0e2afedb20b9a5",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "Approximately 50 Skeletons of Dhuum, which can be farmed throughout the year for Every Bit Helps if you stockpiled Everlasting Mobstoppers, spawn in the Underworld without quests. From quests, there are additional spawns:",
+      "text": "不接任務時，地下世界約有 50 隻 Skeletons of Dhuum。若事先囤積 Everlasting Mobstoppers，就可全年刷取牠們來完成 Every Bit Helps。任務還會額外生成下列敵人：",
+      "reason": "恢復約50隻、全年刷取用途與囤道具前提；不是養殖敵人或儲存暴徒。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/notes-1/blocks/notes-1-7/text",
+          "englishHash": "5a16b2d8afb965cf1b830b29b7dafb39d4c1fff72f078baff864b638ab748d2e",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "If Gwen is a member of your party, you will see a conversation between her and her mother, Sarah. Yet another dialogue will be triggered if both Gwen and Keiran Thackeray are present.",
+      "text": "若關在隊伍中，你會看到她與母親 Sarah 的對話。若關與 Keiran Thackeray 同時在場，還會觸發另一段對話。",
+      "reason": "兩組觸發條件分開；另一段對話要求兩名角色同時在場。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/notes-1/blocks/notes-1-13/text",
+          "englishHash": "530c5026b04d5f74c6e985cba919d62eb18e814e3687f7051a91e52f4ef8e676",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "Dhuum will not become active until all players are present and can enter the hall together: be sure to bring skills or items to resurrect any dead party members and ensure that none of the others walk away from the computer too soon.",
+      "text": "所有玩家到場並能一同進入大廳後，多姆才會啟動。務必攜帶能復活陣亡隊員的技能或物品，也別讓其他玩家太早離開電腦。",
+      "reason": "保留多姆啟動須全員具備入場能力，以及復活與避免提前離席兩項準備。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/notes-1/blocks/notes-1-14/text",
+          "englishHash": "7820ab0e1aa98caba17869b3e8199d090628ed45ecf2f9b2b39e023779326bd8",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "When planning to complete this area in hard mode, it can be a good idea to first obtain the quest Miniature Companion: The Underworld from Merrise, Sworn to Seas in Embark Beach. This quest rewards 2025 experience, 2006 gold and the Miniature Mad King's Guard.",
+      "text": "若打算以困難模式完成此區域，建議先在征途海灘向 Merrise, Sworn to Seas 接受 Miniature Companion: The Underworld。任務獎勵為 2025 經驗值、2006 金幣與 Miniature Mad King's Guard。",
+      "reason": "完整NPC及任務專名保留英文，並逐項保留2025經驗、2006金幣與迷你寵物獎勵。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/notes-1/blocks/notes-1-19/text",
+          "englishHash": "701da15a17090a2c80c6af933d3bb37c9dfc5468fd822435d5fd9a6df82ad536",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "Allies created by summoning stones are not teleported with the party when talking to a Reaper. This can cause wipes on certain quests. One example is getting the Reaper of the Labyrinth killed during The Unwanted Guests. If your party begins the fight with Dhuum before King Frozenwind walks past the gate, he will be stuck outside. About a minute after your party defeats Dhuum, King Frozenwind and the Ice Elementals will spawn inside the Hall of Judgment. Sometimes King Frozenwind will not appear once Dhuum dies and the chest will not appear as a result.",
+      "text": "與 Reaper 交談進行傳送時，召喚石創造的盟友不會隨隊伍一起傳送。這可能導致某些任務滅團，例如在 The Unwanted Guests 期間害 Reaper of the Labyrinth 死亡。若 King Frozenwind 尚未穿過大門，隊伍就開始與多姆作戰，他會被困在門外。擊敗多姆約一分鐘後，King Frozenwind 與 Ice Elementals 會出現在 Hall of Judgment 內。有時多姆死亡後 King Frozenwind 不會出現，寶箱也因此無法出現。",
+      "reason": "wipe不作任務資料擦除；保留召喚盟友不傳送、國王被關門外及寶箱缺失的不同條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/notes-1/blocks/notes-1-20/text",
+          "englishHash": "edcc92e47ffd62753f8fea951e73ec250262d599fc813ed6c873c4c2e3f68254",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        }
+      ]
+    },
+    {
+      "source": "Important note: This quest is a legendary death trap for players new to the Underworld. It is important to advise these players not to take the quest before entering to avoid any problems caused by the groups of Grasping Darknesses spawned by this quest. Clearing the area of all Bladed Aatxes before taking this quest is beneficial. However, aggroing a number of Aatxes and Grasping Darknesses at the same time may serve as a stress test for the party, and show whether it is up to the challenges of The Underworld.",
+      "text": "重要提醒：這項任務對初次探索地下世界的玩家而言，是出了名的死亡陷阱。進入前就應提醒他們不要隨意接任務，避免任務生成的 Grasping Darknesses 敵群帶來麻煩。接任務前先清除區域內全部 Bladed Aatxes 會更有利。不過，同時引到多隻 Aatxes 與 Grasping Darknesses，也可作為隊伍的壓力測試，檢驗是否足以應付地下世界的挑戰。",
+      "reason": "before entering修飾事先告知新手，不是進入前能接任務；aggro指引怪而非單純攻擊。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16621-walkthrough-quest:gww:16621/blocks/elite-quest:gww:16621-walkthrough-1-1/text",
+          "englishHash": "e8fbfe6cb08cb9bd527a554bf3eb741c673fa8ed105c9d26f73974dd098509f5",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16621/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "e8fbfe6cb08cb9bd527a554bf3eb741c673fa8ed105c9d26f73974dd098509f5",
+          "evidenceHash": "a6d1b7582c44d889719ddf2855010c7d972ecf98a10e878a4066903cffe6f827"
+        }
+      ]
+    },
+    {
+      "source": "After eliminating all three groups the doors out of the beginning area will open, revealing the paths to the rest of the Underworld. There are two paths which take you to the next target of the quest, the Terrorweb Dryders. The north-western path is shorter, but leads the party to a tight passage which leads to the destination chamber filled with enemy groups. When approaching from this direction it is hard to pull enemies one group at a time. The north-eastern route is a bit longer and has some small enemy groups in it, but pulling of the groups in the chamber is a lot easier from this side.",
+      "text": "消滅全部三組敵人後，起始區域的門會開啟，通往地下世界其他區域。有兩條路可到達下一個任務目標 Terrorweb Dryders。西北路較短，卻經過狹窄通道，直達擠滿敵群的房間，從這側很難逐組引怪。東北路稍長，沿途有幾小組敵人，但較容易從這側逐組引出房間內的敵人。",
+      "reason": "Dryder是敵人而非烘乾機；保留兩條路長短、敵群分布和逐組引怪難度的比較。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16621-walkthrough-quest:gww:16621/blocks/elite-quest:gww:16621-walkthrough-1-3/text",
+          "englishHash": "3b88f2a98e3471995278f7a5fbbb6833ddbba41404f1dd1ff03e403eb670b032",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16621/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "3b88f2a98e3471995278f7a5fbbb6833ddbba41404f1dd1ff03e403eb670b032",
+          "evidenceHash": "a6d1b7582c44d889719ddf2855010c7d972ecf98a10e878a4066903cffe6f827"
+        }
+      ]
+    },
+    {
+      "source": "Important note: Advise all players to not take any further quests from the Reaper. Each of the quests offered spawn additional enemies, which might be hard to fight without extra preparations such as clearing certain areas of their regular enemy groups. Also, the quests Escort of Souls and Unwanted Guests are almost impossible to complete at the same time, because in Escort of Souls you need to protect a group of New Souls following your party and in the other you will face the nearly invincible Vengeful Aatxes.",
+      "text": "重要提醒：告知所有玩家不要再向 Reaper 接其他任務。每項任務都會生成額外敵人；若未先清除部分區域的原有敵群等準備，可能難以應付。Escort of Souls 與 Unwanted Guests 也幾乎無法同時完成：前者須保護跟隨隊伍的 New Souls，後者則要面對幾乎無敵的復仇牛頭怪。",
+      "reason": "保留額外出怪與事前清場的因果；兩個任務不能並做的理由是保護目標對上近乎無敵敵人。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16621-walkthrough-quest:gww:16621/blocks/elite-quest:gww:16621-walkthrough-1-5/text",
+          "englishHash": "6aa01e9f67a0eab5fa54254bfab486367ffc96387da687761bed7ec42bde6cc7",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16621/sections/walkthrough-1/blocks/walkthrough-1-5/text",
+          "englishHash": "6aa01e9f67a0eab5fa54254bfab486367ffc96387da687761bed7ec42bde6cc7",
+          "evidenceHash": "a6d1b7582c44d889719ddf2855010c7d972ecf98a10e878a4066903cffe6f827"
+        }
+      ]
+    },
+    {
+      "source": "The safest way to do this quest is to clear all the way to the Reaper of the Forgotten Vale before taking any quests from the Reaper of the Labyrinth. There should be one or two pairs of Bladed Aatxes and four groups of Grasping Darknesses along the way. There is also a group of Coldfire Nights and Stalking Nights that patrols near the statue of Grenth in Forgotten Vale.",
+      "text": "最安全的做法，是在向 Reaper of the Labyrinth 接任何任務前，先清通前往 Reaper of the Forgotten Vale 的道路。沿途應有一至兩對 Bladed Aatxes，以及四組 Grasping Darknesses。Forgotten Vale 的古蘭斯雕像附近，另有一組 Coldfire Nights 與 Stalking Nights 巡邏。",
+      "reason": "保留一至兩對、四組及混合巡邏群的數量；不是一兩把利刃或夜晚事件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16671-walkthrough-quest:gww:16671/blocks/elite-quest:gww:16671-walkthrough-1-1/text",
+          "englishHash": "95601d5ef3e8023aed775241df61fbecd22c43f822574b8ff90f911ff5744790",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16671/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "95601d5ef3e8023aed775241df61fbecd22c43f822574b8ff90f911ff5744790",
+          "evidenceHash": "300adc8ca7ad2eafff0bf51947ac36e4778165e58aa41bfe211b8f085f958d14"
+        }
+      ]
+    },
+    {
+      "source": "Do not teleport back to the Reaper of the Forgotten Vale, which leaves the New Souls to walk to the first group of Mindblade Spectres. Instead, have one group member start the quest while the rest of the group stands at first spawning point and kills the group before the New Souls arrive. Try to stay ahead of the group of New Souls or have a good watchful monk.",
+      "text": "不要傳送回 Reaper of the Forgotten Vale 處，否則 New Souls 會自行走向第一組 Mindblade Spectres。應由一名隊員開始任務，其餘隊員守在第一個出怪點，在 New Souls 抵達前消滅敵群。盡量走在 New Souls 前方，或安排一名可靠且留意狀況的僧侶保護。",
+      "reason": "傳送回去會讓護送目標先行遇敵；分工為一人接任務，其餘在首個出怪點清敵。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16671-walkthrough-quest:gww:16671/blocks/elite-quest:gww:16671-walkthrough-1-3/text",
+          "englishHash": "ede8841daa13d1bfb082adbe57c3d544bb12506919d49ab9c31770ee26ff5f62",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16671/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "ede8841daa13d1bfb082adbe57c3d544bb12506919d49ab9c31770ee26ff5f62",
+          "evidenceHash": "300adc8ca7ad2eafff0bf51947ac36e4778165e58aa41bfe211b8f085f958d14"
+        }
+      ]
+    },
+    {
+      "source": "Note: New Souls will walk towards Vale and will die before you can finish backtracking.",
+      "text": "注意：New Souls 會往山谷走，在你沿原路趕回之前就會死亡。",
+      "reason": "保留護送目標自行行走與回頭趕路來不及保護的確定後果，專名不作泛指靈魂。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16671-walkthrough-quest:gww:16671/blocks/elite-quest:gww:16671-walkthrough-1-4/text",
+          "englishHash": "1c2a6257aeb75968a9e6793cf5ce008ad177024cf075b3eae064d274339b5b54",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16671/sections/walkthrough-1/blocks/walkthrough-1-4/text",
+          "englishHash": "1c2a6257aeb75968a9e6793cf5ce008ad177024cf075b3eae064d274339b5b54",
+          "evidenceHash": "300adc8ca7ad2eafff0bf51947ac36e4778165e58aa41bfe211b8f085f958d14"
+        }
+      ]
+    },
+    {
+      "source": "Note: Before taking this quest you should clear the entire Labyrinth and free the Reapers of Forgotten Vale and Ice Wastes so that you can use the teleport function to attack the Keeper of Souls from behind. The quest Escort of Souls should not be taken at the same time.",
+      "text": "注意：接任務前，應清除整個 Labyrinth，並解救 Forgotten Vale 與 Ice Wastes 的 Reapers，才能利用傳送功能從後方攻擊 Keeper of Souls。不要同時接受 Escort of Souls。",
+      "reason": "解救兩區Reapers是取得傳送繞後能力的準備；不得並接指定護送任務。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16672-walkthrough-quest:gww:16672/blocks/elite-quest:gww:16672-walkthrough-1-1/text",
+          "englishHash": "7851243c46921dd406ef18bac5decda953771ebda4a56564f238128c5ccf6efd",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16672/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "7851243c46921dd406ef18bac5decda953771ebda4a56564f238128c5ccf6efd",
+          "evidenceHash": "6828748caebf4181d8270b6e4d07295326e503be2dc9953d4e72e285f4347d77"
+        }
+      ]
+    },
+    {
+      "source": "Once you accept the quest, six clusters of foes spawn throughout the Labyrinth. Each cluster consists of one Keeper of Souls, two groups of three Terrorweb Dryders, three groupless Skeletons of Dhuum and two groups of three Vengeful Aatxes. The Vengeful Aatxes are invulnerable, but they do less damage than Bladed Aatxes. In each cluster, the Aatxes and Dryders die immediately when the Keeper of Souls of the same cluster is killed. To complete the quest you need to kill all six Keepers of Souls.",
+      "text": "接受任務後，Labyrinth 各處會出現六個敵群集結點。每處包括一名 Keeper of Souls、兩組各三隻 Terrorweb Dryders、三隻不屬於任何敵群的 Skeletons of Dhuum，以及兩組各三隻復仇牛頭怪。復仇牛頭怪不會受到傷害，但攻擊傷害低於 Bladed Aatxes。各處的 Keeper of Souls 死亡時，同處的 Aatxes 與 Dryders 會立即死亡。擊殺全部六名 Keepers of Souls 即可完成任務。",
+      "reason": "three groupless指三隻未編組骷髏而非三組；逐項核對每處敵群構成、連動死亡與六名目標。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16672-walkthrough-quest:gww:16672/blocks/elite-quest:gww:16672-walkthrough-1-2/text",
+          "englishHash": "01b81f8cacac7acfbc644e680386d2794711d8a6386e9780838ffa0e99235bfb",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16672/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "01b81f8cacac7acfbc644e680386d2794711d8a6386e9780838ffa0e99235bfb",
+          "evidenceHash": "6828748caebf4181d8270b6e4d07295326e503be2dc9953d4e72e285f4347d77"
+        }
+      ]
+    },
+    {
+      "source": "In some cases when you approach a cluster from behind you can kill all Terrorweb Dryders without aggroing the Aatxes or the Keeper. After killing them you will sometimes have a clear path to the Keeper of Souls and sometimes you will be required to aggro the Vengeful Aatxes on the way. The Keeper of Souls is easy to kill, but if you have to aggro the Aatxes you might have a tough time depending on your party. If possible someone should tank the Aatxes while the rest of the party kills the Keeper or the Dryders. You can also utilize traps which will knock down and cripple the otherwise invulnerable Aatxes.",
+      "text": "有時從敵群後方接近，可以在不引到 Aatxes 或 Keeper 的情況下，先殺光 Terrorweb Dryders。之後有時能直接接近 Keeper of Souls，有時途中仍須引到復仇牛頭怪。Keeper of Souls 很容易擊殺；但若引到 Aatxes，難度便取決於隊伍能力。若可行，安排一人牽制並承受 Aatxes 的攻擊，其餘人擊殺 Keeper 或 Dryders。也可利用陷阱，擊倒並使原本不受傷害的 Aatxes 殘廢。",
+      "reason": "aggro與tank分別為引到及承傷牽制；cripple是殘廢病症而非虛弱，保留路徑不確定性。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16672-walkthrough-quest:gww:16672/blocks/elite-quest:gww:16672-walkthrough-1-3/text",
+          "englishHash": "8e170940c076189c44762ed4180788c6de4eb13495493bbc733c82901b690b69",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16672/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "8e170940c076189c44762ed4180788c6de4eb13495493bbc733c82901b690b69",
+          "evidenceHash": "6828748caebf4181d8270b6e4d07295326e503be2dc9953d4e72e285f4347d77"
+        }
+      ]
+    },
+    {
+      "source": "After clearing all of the groups you can return to the Reaper of the Labyrinth to get your reward.",
+      "text": "清除所有敵群後，即可返回 Reaper of the Labyrinth 處領取獎勵。",
+      "reason": "groups指敵群；保留清場後返回指定NPC領獎的順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16672-walkthrough-quest:gww:16672/blocks/elite-quest:gww:16672-walkthrough-1-4/text",
+          "englishHash": "ef85f6ebb5dc100115749802a17a19f9859a542eef187dfc6e932e8ec4480126",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16672/sections/walkthrough-1/blocks/walkthrough-1-4/text",
+          "englishHash": "ef85f6ebb5dc100115749802a17a19f9859a542eef187dfc6e932e8ec4480126",
+          "evidenceHash": "6828748caebf4181d8270b6e4d07295326e503be2dc9953d4e72e285f4347d77"
+        }
+      ]
+    },
+    {
+      "source": "Completing this quest will require you to travel the whole Underworld, killing groups of three Terrorweb Dryders at the six other monuments of Grenth. Upon accepting the quest one group of Terrorwebs will spawn next to each of the monuments. When your party kills one of the groups the corresponding Reaper is spawned next to the monument.",
+      "text": "這項任務要你走遍地下世界，在其餘六座古蘭斯紀念碑處，各擊殺一組三隻 Terrorweb Dryders。接受任務後，每座紀念碑旁都會出現一組。擊殺某組敵人後，對應的 Reaper 就會出現在該紀念碑旁。",
+      "reason": "三隻是每組數量而非六處總數；保留每處擊殺對應解救NPC的關係。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16673-walkthrough-quest:gww:16673/blocks/elite-quest:gww:16673-walkthrough-1-1/text",
+          "englishHash": "d4c5d182ea0b971479ebb656ea2ce6b9fc1586d6f63fd6bd2eb6ba6ae413c7cc",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16673/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "d4c5d182ea0b971479ebb656ea2ce6b9fc1586d6f63fd6bd2eb6ba6ae413c7cc",
+          "evidenceHash": "fa6a21443cdfcb8f7b209cd218b251ea3d7699358acfffacab5a626b17b8e714"
+        }
+      ]
+    },
+    {
+      "source": "As the quest suggests, once a Reaper is freed, you will be able to speak to him and he can teleport you to any other Reaper that you have freed. The Reapers also have quests to offer, but be aware that taking any quests without consulting the party is unwise as they tend to spawn dangerous groups and might cause a party wipe if the party isn't prepared.",
+      "text": "如任務所述，解救 Reaper 後可與其交談，傳送到其他已解救的 Reaper 處。Reapers 也會提供任務，但未與隊伍商量就接任務並不明智：這些任務往往會生成危險敵群，隊伍準備不足時可能滅團。",
+      "reason": "傳送目的地限已解救Reaper，接任務前商量是避免額外出怪滅團的建議。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16673-walkthrough-quest:gww:16673/blocks/elite-quest:gww:16673-walkthrough-1-3/text",
+          "englishHash": "b93d33b6828b4215b64ec45448a4dfc82c10fd25165584289eacdf297395df1e",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16673/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "b93d33b6828b4215b64ec45448a4dfc82c10fd25165584289eacdf297395df1e",
+          "evidenceHash": "fa6a21443cdfcb8f7b209cd218b251ea3d7699358acfffacab5a626b17b8e714"
+        }
+      ]
+    },
+    {
+      "source": "Note: Although it is very tempting to take the quest immediately after completing the preceding quest or soon after clearing one or two nearby areas due to the offered teleportation possibility, it might be wise to clear the furthermost problematic monuments before accepting the quest to avoid having to fight against the Terrorwebs and the other enemies surrounding the monuments at the same time.",
+      "text": "注意：任務提供的傳送功能很有吸引力，但不要因此在完成前置任務後，或剛清完附近一兩個區域，就急著接受。較穩妥的做法，是接任務前先清除最遠、最棘手的紀念碑周圍敵人，避免同時對付任務生成的 Terrorwebs 與原有敵群。",
+      "reason": "重點是先清較遠難處，再接任務取得傳送；保留兩類敵群同時交戰的風險。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16673-walkthrough-quest:gww:16673/blocks/elite-quest:gww:16673-walkthrough-1-4/text",
+          "englishHash": "a6f0917d8af0af658986b12322ac5cfc873155fb61a43b0d27e8b8c05b084b9e",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16673/sections/walkthrough-1/blocks/walkthrough-1-4/text",
+          "englishHash": "a6f0917d8af0af658986b12322ac5cfc873155fb61a43b0d27e8b8c05b084b9e",
+          "evidenceHash": "fa6a21443cdfcb8f7b209cd218b251ea3d7699358acfffacab5a626b17b8e714"
+        }
+      ]
+    },
+    {
+      "source": "It is highly advisable to have only one player take the quest while the rest of the party waits near the Bone Pit, where a group of four Tortured Spirits will spawn one by one as soon as the quest is taken. If any of these spirits are killed, you will be forced to go back to the outpost, so make sure that your team protects them. These spirits will attack foes, and actively run to enemies if they come within aggro range.",
+      "text": "強烈建議只派一名玩家接任務，其餘隊員在 Bone Pit 附近等候。一接任務，四個 Tortured Spirits 就會逐一出現。任一個遭擊殺，都會迫使隊伍返回前哨站，務必保護牠們。牠們會攻擊敵人，敵人進入警戒範圍時還會主動衝上前。",
+      "reason": "明確四個逐一出現、任一死亡即返回前哨站，以及護送目標主動引戰的警戒風險。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25517-walkthrough-quest:gww:25517/blocks/elite-quest:gww:25517-walkthrough-1-1/text",
+          "englishHash": "196a75cb69f8c208ade2c12251405b5f23e357867d6eb76e8866229ee40e155c",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25517/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "196a75cb69f8c208ade2c12251405b5f23e357867d6eb76e8866229ee40e155c",
+          "evidenceHash": "91d69c1dd5f0d5e02b416c75c296f423ee1d920c54459bffd093415c450719b2"
+        }
+      ]
+    },
+    {
+      "source": "Once you've killed the dryders and skeletons the spirits will walk to the Reaper and the quest will be completed.",
+      "text": "擊殺 Dryders 與骷髏後，靈魂會走向 Reaper，接著任務完成。",
+      "reason": "Dryder不作乾燥者；保留清敵後靈魂走到NPC才完成的順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25517-walkthrough-quest:gww:25517/blocks/elite-quest:gww:25517-walkthrough-1-3/text",
+          "englishHash": "6ccc4d13838a3c364521128b2a21e3f55673250503d23b349312d22a6affc986",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25517/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "6ccc4d13838a3c364521128b2a21e3f55673250503d23b349312d22a6affc986",
+          "evidenceHash": "91d69c1dd5f0d5e02b416c75c296f423ee1d920c54459bffd093415c450719b2"
+        }
+      ]
+    },
+    {
+      "source": "After accepting this quest, the four horsemen begin their approach toward the Reaper from the middle section of the Chaos Planes. The horsemen, accompanied by several Terrorweb Dryders, split into two groups approaching from separate sides. The groups will attempt to eliminate the Reaper, returning the party to the outpost from which they entered the Underworld.",
+      "text": "接受任務後，四名騎士會從 Chaos Planes 中部開始朝 Reaper 前進。他們帶著數隻 Terrorweb Dryders，分成兩組從不同方向逼近，企圖擊殺 Reaper；若成功，隊伍就會被送回進入地下世界前所在的前哨站。",
+      "reason": "明確敵軍擊殺Reaper才導致返回，不是移動本身送回；保留四騎士分兩路。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25518-walkthrough-quest:gww:25518/blocks/elite-quest:gww:25518-walkthrough-1-1/text",
+          "englishHash": "091fe772e6c4de1a2e06a6a3ec532996226e10fa08ddac22e43fa08e0b4d30c1",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25518/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "091fe772e6c4de1a2e06a6a3ec532996226e10fa08ddac22e43fa08e0b4d30c1",
+          "evidenceHash": "2ba59de69885afe064d69d8e0da90db1a77aff4b4fb398aa8b671961440c6eac"
+        }
+      ]
+    },
+    {
+      "source": "This quest is arguably the most difficult in the underworld, requiring a good strategy to survive.",
+      "text": "這項任務可說是地下世界最困難的任務，需要妥善的策略才能存活。",
+      "reason": "保留原文評估語氣與存活需要策略，地名統一為地下世界。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25518-walkthrough-quest:gww:25518/blocks/elite-quest:gww:25518-walkthrough-1-2/text",
+          "englishHash": "18cf8cfc1187fc4319858e25b265fe29483e30a07159c0ca1369b9c78ec70d7e",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25518/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "18cf8cfc1187fc4319858e25b265fe29483e30a07159c0ca1369b9c78ec70d7e",
+          "evidenceHash": "2ba59de69885afe064d69d8e0da90db1a77aff4b4fb398aa8b671961440c6eac"
+        }
+      ]
+    },
+    {
+      "source": "Spread out around the Reaper and make your stand there. Keep your distance to each other and to the Reaper to mitigate the Dryders' AoE spells - flag your heroes if you brought any.",
+      "text": "在 Reaper 周圍分散站位並固守。彼此以及與 Reaper 之間都要保持距離，以減輕 Dryders 範圍魔法的影響；若帶了英雄，就用旗幟安排他們的站位。",
+      "reason": "旗幟用於具體分散站位；保留隊員彼此和隊員到Reaper兩種距離。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25518-walkthrough-quest:gww:25518/blocks/elite-quest:gww:25518-walkthrough-1-5-1/text",
+          "englishHash": "55b800f6a05fb7b58517d0a9adf0f45cb68a2cfcd87b65626967f1d7fc3b5b2d",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25518/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "55b800f6a05fb7b58517d0a9adf0f45cb68a2cfcd87b65626967f1d7fc3b5b2d",
+          "evidenceHash": "2ba59de69885afe064d69d8e0da90db1a77aff4b4fb398aa8b671961440c6eac"
+        }
+      ]
+    },
+    {
+      "source": "Your healers' priority should be to keep the Reaper alive. Everyone else must focus on dispatching or disabling the incoming foes. With a sufficiently strong party, you will outlast the waves, completing the quest.",
+      "text": "治療者應優先確保 Reaper 存活，其他人則集中擊殺或牽制來襲敵人。隊伍實力足夠時，就能撐過各波攻勢並完成任務。",
+      "reason": "disabling不等於再次消滅；outlast waves是撐過攻勢，不是戰勝海浪。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25518-walkthrough-quest:gww:25518/blocks/elite-quest:gww:25518-walkthrough-1-5-2/text",
+          "englishHash": "b45257b97b3310746e83bf388d22ad5a8101cff9ce85a750e5401f1bf563269f",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25518/sections/walkthrough-1/blocks/walkthrough-1-5-2/text",
+          "englishHash": "b45257b97b3310746e83bf388d22ad5a8101cff9ce85a750e5401f1bf563269f",
+          "evidenceHash": "2ba59de69885afe064d69d8e0da90db1a77aff4b4fb398aa8b671961440c6eac"
+        }
+      ]
+    },
+    {
+      "source": "This works well in normal mode and can be done with a 7-hero-team. In hard mode, more elaborate strategies are needed.",
+      "text": "此策略在普通模式很有效，帶 7 名英雄也能完成；困難模式則需要更周密的策略。",
+      "reason": "7-hero-team指玩家帶七英雄隊伍；保留策略適用模式差別。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25518-walkthrough-quest:gww:25518/blocks/elite-quest:gww:25518-walkthrough-1-5-3/text",
+          "englishHash": "3db3d9a0138e48d2552e5fb764db4ffc11681bf6a125d08f68a4f34fc1641e1e",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25518/sections/walkthrough-1/blocks/walkthrough-1-5-3/text",
+          "englishHash": "3db3d9a0138e48d2552e5fb764db4ffc11681bf6a125d08f68a4f34fc1641e1e",
+          "evidenceHash": "2ba59de69885afe064d69d8e0da90db1a77aff4b4fb398aa8b671961440c6eac"
+        }
+      ]
+    },
+    {
+      "source": "Use one or two party members to delay one side while everyone else kills the other.",
+      "text": "派一至兩名隊員拖住一側敵人，其餘人先消滅另一側。",
+      "reason": "保留一至兩人拖延與主力擊殺兩側分工，非任選一側全部交戰。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25518-walkthrough-quest:gww:25518/blocks/elite-quest:gww:25518-walkthrough-1-6-1/text",
+          "englishHash": "75fb19274a0a603364827a51520c3873f13b8b396f8ce989e1d2190f8db8b56f",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25518/sections/walkthrough-1/blocks/walkthrough-1-6-1/text",
+          "englishHash": "75fb19274a0a603364827a51520c3873f13b8b396f8ce989e1d2190f8db8b56f",
+          "evidenceHash": "2ba59de69885afe064d69d8e0da90db1a77aff4b4fb398aa8b671961440c6eac"
+        }
+      ]
+    },
+    {
+      "source": "This strategy needs a dedicated tank to draw aggro and block the foes on one side. A tank with permanent spell targeting prevention should be able to do it alone, otherwise help from a healer may be needed. The tank will last longer with knockdown prevention, Mantra of Flame and anything that boosts armor. The healer must be very careful not to draw aggro, keeping out of range, only approaching the tank when needed.",
+      "text": "此策略需要專人吸引敵人並擋住一側攻勢。若該承傷者能持續維持無法被魔法指定的效果，應可獨自支撐；否則可能需要治療者協助。防止擊倒、火焰頌歌及提高護甲的效果，都能延長存活時間。治療者須格外小心，避免引到敵人，平時保持在範圍外，必要時才靠近承傷者。",
+      "reason": "spell targeting prevention是不能被魔法指定，不是減傷；tank為承傷者，保留治療者避免引怪的限制。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25518-walkthrough-quest:gww:25518/blocks/elite-quest:gww:25518-walkthrough-1-6-2/text",
+          "englishHash": "3306f9935c499df4301313840e95674d5afedf0d6d83d5057bfe24f3e2f440c0",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25518/sections/walkthrough-1/blocks/walkthrough-1-6-2/text",
+          "englishHash": "3306f9935c499df4301313840e95674d5afedf0d6d83d5057bfe24f3e2f440c0",
+          "evidenceHash": "2ba59de69885afe064d69d8e0da90db1a77aff4b4fb398aa8b671961440c6eac"
+        }
+      ]
+    },
+    {
+      "source": "When the tank is ready, the other party members can accept the quest and intercept all spawns from the other side. Running as far as possible towards the spawns results in earlier kills, reducing the time your tank needs to hold out. On the other hand, staying closer to the reaper allows you to take measures should the tank fall.",
+      "text": "承傷者準備好後，其餘隊員即可接任務，攔截另一側出現的所有敵人。盡量向出怪處推進，可以更早擊殺敵人，縮短承傷者必須支撐的時間；但若留在 Reaper 附近，承傷者陣亡時便較容易應變。",
+      "reason": "tank fall是承傷者陣亡而非坦克掉落；保留前推速殺與靠後應變的策略取捨。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25518-walkthrough-quest:gww:25518/blocks/elite-quest:gww:25518-walkthrough-1-6-3/text",
+          "englishHash": "dd7a83050d5ff3b7e8e1eef47d61b6d992c6a2b962a492dd57cc7ac20ab14d70",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25518/sections/walkthrough-1/blocks/walkthrough-1-6-3/text",
+          "englishHash": "dd7a83050d5ff3b7e8e1eef47d61b6d992c6a2b962a492dd57cc7ac20ab14d70",
+          "evidenceHash": "2ba59de69885afe064d69d8e0da90db1a77aff4b4fb398aa8b671961440c6eac"
+        }
+      ]
+    },
+    {
+      "source": "You should clear the closest patrolling groups of Coldfire Nights and Stalking Nights before taking the quest. When you take the quest, five groups of three hostile Tortured Spirits spawn nearby. Four of the groups spawn in the village in the midst of the allied Tortured Spirits and start attacking them. The last group will spawn on the nearby hill and can be ignored until the other groups have been handled.",
+      "text": "接任務前，先清除最近的 Coldfire Nights 與 Stalking Nights 巡邏隊。接任務後，附近會出現五組敵對 Tortured Spirits，每組三個。其中四組出現在村中友方 Tortured Spirits 之間，並開始攻擊牠們；最後一組出現在附近山丘，可先不理會，待其他四組處理完再打。",
+      "reason": "保留五組各三個、四組村內一組山丘，以及敵我靈魂身份；spawn不是重生盟友。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25521-walkthrough-quest:gww:25521/blocks/elite-quest:gww:25521-walkthrough-1-1/text",
+          "englishHash": "b551a517290c083e15d26a6139b583e0329701ac913a341e301e4d1078249ddb",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25521/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "b551a517290c083e15d26a6139b583e0329701ac913a341e301e4d1078249ddb",
+          "evidenceHash": "6ed40ef67453b2faeaa06b6e4fddd3a42e45df50f4e23c72c249e55a293a403e"
+        }
+      ]
+    },
+    {
+      "source": "Killing the hostile Tortured Spirits isn't as simple as killing a regular level 15 enemy. They use Illusionary Weaponry with a high level of Illusion Magic, inflicting 40 points of armor ignoring damage per hit. A full group of three spirits will therefore cause a very high amount of damage if they gang up on a single target.",
+      "text": "敵對 Tortured Spirits 並不像一般 15 級敵人那麼好對付。牠們以高幻術魔法等級施放 Illusionary Weaponry，每次命中造成 40 點無視護甲的傷害。因此，一整組三個靈魂若集中攻擊同一目標，傷害會非常高。",
+      "reason": "armor ignoring修飾40點傷害，不是造成護甲；保留等級15與三敵集火的風險。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25521-walkthrough-quest:gww:25521/blocks/elite-quest:gww:25521-walkthrough-1-2/text",
+          "englishHash": "7ffd53ed0757c666fe8cf9e85ee343c3436e98fdae469884e19da0c1bffc9eff",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25521/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "7ffd53ed0757c666fe8cf9e85ee343c3436e98fdae469884e19da0c1bffc9eff",
+          "evidenceHash": "6ed40ef67453b2faeaa06b6e4fddd3a42e45df50f4e23c72c249e55a293a403e"
+        }
+      ]
+    },
+    {
+      "source": "In addition to having to cope with the enemy, you need to protect the allied spirits. If all of them die your quest will fail. In addition, the hostile spirits will attack Mayor Alegheri and the Reaper after killing all other spirits. If the mayor or reaper die your party will be returned to the outpost from which you left to the Underworld. The allied spirits far away will most likely die before you can reach them, so make sure to protect atleast one of the nearest allied spirits. Even one survivor is enough. If possible a monk should concentrate on healing one of the spirits, but you can also use traps, AoE and interruption.",
+      "text": "除了對付敵人，也要保護友方靈魂；若全數死亡，任務就會失敗。敵對靈魂殺光其他靈魂後，還會攻擊 Mayor Alegheri 與 Reaper。若市長或 Reaper 死亡，隊伍就會被送回進入地下世界前所在的前哨站。遠處的友方靈魂很可能在你趕到前死亡，因此務必保護附近至少一個；只要一個存活就夠了。若可行，讓僧侶專心治療一個靈魂，也可運用陷阱、範圍傷害與中斷技能。",
+      "reason": "區分全部友方靈魂死亡的失敗、關鍵NPC死亡的強制返回，以及至少一個存活即可的門檻。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25521-walkthrough-quest:gww:25521/blocks/elite-quest:gww:25521-walkthrough-1-3/text",
+          "englishHash": "3131d9e27349ac620f9cbaf0ca4243be8435215820594e17658464d63e1ade5f",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25521/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "3131d9e27349ac620f9cbaf0ca4243be8435215820594e17658464d63e1ade5f",
+          "evidenceHash": "6ed40ef67453b2faeaa06b6e4fddd3a42e45df50f4e23c72c249e55a293a403e"
+        }
+      ]
+    },
+    {
+      "source": "After defeating the hostile spirits in the village you can take out the last group on the hill. Then talk to the Reaper to receive your reward.",
+      "text": "擊敗村內的敵對靈魂後，再消滅山丘上的最後一組，接著與 Reaper 交談領取獎勵。",
+      "reason": "保留村內優先、山丘最後及交談領獎的順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25521-walkthrough-quest:gww:25521/blocks/elite-quest:gww:25521-walkthrough-1-4/text",
+          "englishHash": "c5da61dae4fda538c703a2b93418336f5b552c49d0e6f6435c94b8104815226d",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25521/sections/walkthrough-1/blocks/walkthrough-1-4/text",
+          "englishHash": "c5da61dae4fda538c703a2b93418336f5b552c49d0e6f6435c94b8104815226d",
+          "evidenceHash": "6ed40ef67453b2faeaa06b6e4fddd3a42e45df50f4e23c72c249e55a293a403e"
+        }
+      ]
+    },
+    {
+      "source": "Completing the quest will spawn an unlocked chest and a Black Widow next to the monument of Grenth, allowing a party member to charm it. If charming the pet, remember to ask the others not to attack it when it turns hostile. The chest will drop a random purple or gold item to one random member of the party.",
+      "text": "完成任務後，古蘭斯紀念碑旁會出現一個未上鎖寶箱與一隻黑寡婦，隊員可將牠馴服為寵物。馴服時，記得請其他人在牠轉為敵對後不要攻擊。寶箱會隨機分配一件紫色或金色物品給一名隨機隊員。",
+      "reason": "charm指馴服寵物而非施魅惑病症；保留轉敵對時禁止隊友攻擊與單人隨機物品。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25521-walkthrough-quest:gww:25521/blocks/elite-quest:gww:25521-walkthrough-1-5/text",
+          "englishHash": "ffdc8c1cd61dcccb030a74ae55cfabf99ea5a58a0c4ba2164b6e8ac152cbd925",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25521/sections/walkthrough-1/blocks/walkthrough-1-5/text",
+          "englishHash": "ffdc8c1cd61dcccb030a74ae55cfabf99ea5a58a0c4ba2164b6e8ac152cbd925",
+          "evidenceHash": "6ed40ef67453b2faeaa06b6e4fddd3a42e45df50f4e23c72c249e55a293a403e"
+        }
+      ]
+    },
+    {
+      "source": "Tip: There is a trick to avoid the possibility of failing the quest. The friendly spirits you need to protect will spawn to the area after you kill the Grasping Darknesses near Mayor Alegheri. If you leave the first Darkness group alive, some of the spirits will not spawn making it so you cannot fail the quest. Just remember to avoid aggroing the darknesses when fighting the Wrathful Spirits. After you have cleared the area of most of the Wrathful Spirits you can kill the Grasping Darknesses.",
+      "text": "提示：有個技巧能避免任務失敗。需要保護的友方靈魂，會在你擊殺 Mayor Alegheri 附近的 Grasping Darknesses 後出現。若留下第一組不殺，部分靈魂便不會出現，任務也就不會因牠們死亡而失敗。與 Wrathful Spirits 作戰時，記得避免引到 Grasping Darknesses。清除區域內大部分 Wrathful Spirits 後，再擊殺 Grasping Darknesses。",
+      "reason": "aggro是引怪；保留留下第一組以延後友方靈魂出現的技巧，不把名稱變成抽象黑暗力量。 末句明確重述 Grasping Darknesses，避免與 Wrathful Spirits 混淆。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25521-walkthrough-quest:gww:25521/blocks/elite-quest:gww:25521-walkthrough-1-6/text",
+          "englishHash": "c00688eee2bfc7044a2f3163235b6b7556d42467c99a38c2a6000308869267a5",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25521/sections/walkthrough-1/blocks/walkthrough-1-6/text",
+          "englishHash": "c00688eee2bfc7044a2f3163235b6b7556d42467c99a38c2a6000308869267a5",
+          "evidenceHash": "6ed40ef67453b2faeaa06b6e4fddd3a42e45df50f4e23c72c249e55a293a403e"
+        }
+      ]
+    },
+    {
+      "source": "Once this quest is activated, groups of enemies will start spawning northeast. Each wave consists of separate groups of two yellow Terrorweb Dryders, one or two silver Terrorweb Dryders, and one Skeleton of Dhuum. One group will head towards King Frozenwind, while the other heads toward the Reaper of the Ice Wastes (see the map). A total of three waves will spawn within a short span of time. King Frozenwind has four level 28 Ice Elementals to assist him, but they will fall quickly to the fire spells of the dryders. You must protect both King Frozenwind and the Reaper. If either of them dies, your party is taken back to the outpost from which you entered the Underworld. You can either split your team into two groups which take one group of foes at a time or you can take all foes as a whole group if you aggro them at their spawn-point. Note that the following waves spawn quickly, so you will need to take them down quickly.",
+      "text": "任務開始後，東北方會陸續出現敵群。每波分成不同組，包含兩隻黃色 Terrorweb Dryders、一至兩隻銀色 Terrorweb Dryders，以及一隻 Skeleton of Dhuum。一組前往 King Frozenwind，另一組前往 Reaper of the Ice Wastes（見地圖）。短時間內共出現三波。King Frozenwind 有四隻 28 級 Ice Elementals 協助，但牠們很快就會死於 Dryders 的火焰魔法。必須同時保護國王與 Reaper；任一死亡，隊伍都會被送回進入地下世界前所在的前哨站。可以分成兩隊各自對付一組敵人，也可以在出怪點一次引到全部敵人，集中全隊迎戰。後續波次很快就會出現，務必迅速清敵。",
+      "reason": "保留三波、四隻28級盟友、任一關鍵NPC死亡失敗與兩種分隊策略；Skeleton of Dhuum不是骷髏或多姆二選一。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25515-walkthrough-quest:gww:25515/blocks/elite-quest:gww:25515-walkthrough-1-1/text",
+          "englishHash": "f920e3186074f0c745a4825bde02fde5678200545fd443609750cb752e3441b9",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25515/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "f920e3186074f0c745a4825bde02fde5678200545fd443609750cb752e3441b9",
+          "evidenceHash": "ca8436b998f9ea7856932bc02c07504776051bc78ac2bc793b97e884191309a6"
+        }
+      ]
+    },
+    {
+      "source": "King Frozenwind and his allies can take down a group of 4 Terrorweb Dryders, thanks to his Ward Against Harm. This can lighten the load on your team if you position yourselves to primarily defend the Reaper, who is practically defenseless.",
+      "text": "King Frozenwind 擁有 Ward Against Harm，因此他與盟友能擊敗一組 4 隻 Terrorweb Dryders。若隊伍將主要兵力配置在幾乎毫無自保能力的 Reaper 附近，可藉此減輕負擔。",
+      "reason": "明確國王的結界能力足以應付四敵，主力保護缺乏自保的Reaper是部署策略。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25515-walkthrough-quest:gww:25515/blocks/elite-quest:gww:25515-walkthrough-1-2/text",
+          "englishHash": "d6aa748686b0ae31757fdbd0036f7a61cc8ef062ea26932fc29427480f709ad0",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25515/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "d6aa748686b0ae31757fdbd0036f7a61cc8ef062ea26932fc29427480f709ad0",
+          "evidenceHash": "ca8436b998f9ea7856932bc02c07504776051bc78ac2bc793b97e884191309a6"
+        }
+      ]
+    },
+    {
+      "source": "The Terrorweb Queen spawns in a small passageway accompanied by four Obsidian Guardians. Four Obsidian Guardians, three Skeletons of Dhuum, and four Terrorweb Dryders also spawn on each side of her room, so make sure to take caution when attacking these enemies. The Obsidian Guardians' regular attacks can sometimes knock down foes and they will use wards to defend themselves and the Terrorweb Queen. It is possible to first kill the enemies on one side, then to teleport to a Reaper on the other side of by talking to the Reaper so that it would be easier to defeat the queen when all of her guardians are dead.",
+      "text": "Terrorweb Queen 會出現在一條小通道內，身旁有四隻 Obsidian Guardians。房間左右兩側還各會出現四隻 Obsidian Guardians、三隻 Skeletons of Dhuum 與四隻 Terrorweb Dryders，交戰時務必小心。Obsidian Guardians 的普通攻擊有時會擊倒敵人，並會施放結界保護自己與女王。可先清除一側敵人，再與 Reaper 交談，傳送到另一側的 Reaper 處繼續清場；護衛全滅後，就較容易擊敗女王。",
+      "reason": "on each side是兩側各有完整一組數量；regular attacks是普通攻擊，wards是結界。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25519-walkthrough-quest:gww:25519/blocks/elite-quest:gww:25519-walkthrough-1-1/text",
+          "englishHash": "965916df75e7e18dd8e48de0955ae61b853b1c7bdb63128720fe1a5ee5043b56",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25519/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "965916df75e7e18dd8e48de0955ae61b853b1c7bdb63128720fe1a5ee5043b56",
+          "evidenceHash": "8bd3a7a497db1a844ddf8a4a636f91766da152af054a8bfd34dab54e5c382648"
+        }
+      ]
+    },
+    {
+      "source": "It is also possible to simply pull the queen away from the guardians and to complete the quest from one side. She can attack from a long distance so the puller may need to back up further than usual to get her out of the defensive wards.",
+      "text": "也可直接將女王引離護衛，從同一側完成任務。她能從遠處攻擊，因此引怪者可能須比平時退得更遠，才能將她引出防禦結界。",
+      "reason": "puller是引怪者而非拉車者；後退目的為使女王離開防禦結界。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25519-walkthrough-quest:gww:25519/blocks/elite-quest:gww:25519-walkthrough-1-2/text",
+          "englishHash": "c2f6304771146d79ef43df3cd161b4ff33afae7b3f3389c09d3a303cbab11e62",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25519/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "c2f6304771146d79ef43df3cd161b4ff33afae7b3f3389c09d3a303cbab11e62",
+          "evidenceHash": "8bd3a7a497db1a844ddf8a4a636f91766da152af054a8bfd34dab54e5c382648"
+        }
+      ]
+    },
+    {
+      "source": "As soon as you take the quest the Slayer will spawn at the bottom of the hill and will move slowly towards the Reaper whom you need to defend. As there is enough room to maneuvre, make sure to do all fighting away from the Reaper. The Slayer itself should pose no threat, however after it will spawn four Keepers of Souls, four yellow Terrorweb Dryders and four silver Terrorweb Dryders. These groups will slowly advance to the Reaper simultaneously. It is possible to pull the Keepers of Souls forward to buy some time, but due to the close proximity of the groups this may instead cause all 12 dryders to follow.",
+      "text": "接受任務後，Slayer 立刻出現在山丘下，緩慢走向你需要保護的 Reaper。場地足夠迂迴，務必在遠離 Reaper 的位置交戰。Slayer 本身威脅不大，但隨後還會出現四名 Keepers of Souls、四隻黃色 Terrorweb Dryders 與四隻銀色 Terrorweb Dryders，這些敵群會同時緩慢前進。可嘗試先引出 Keepers of Souls 爭取時間；但各組距離很近，也可能反而讓全部 12 隻 Dryders 一起跟來。",
+      "reason": "after it指隨後生成，不是Slayer召喚；保留原文12隻的總稱，未以推測改寫數量。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25516-walkthrough-quest:gww:25516/blocks/elite-quest:gww:25516-walkthrough-1-1/text",
+          "englishHash": "0c46b90d047fe274bcb1da0d51052cd59136aba5d07106920ea5b7c03237c69b",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25516/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "0c46b90d047fe274bcb1da0d51052cd59136aba5d07106920ea5b7c03237c69b",
+          "evidenceHash": "c1d49839448df896bc0759d095118509af9e0e8ff8f49688d2f167317a199059"
+        }
+      ]
+    },
+    {
+      "source": "In order to survive it is essential to spread the party out and negate the danger from AoE damage. The key to victory lies in the clustering of the dryders, where they easy to keep in check with AoE damage and skills like Panic. Due to the sheer number of dryders perfect clusters are hard to force, so deal with the situation as it develops and focus on dryders that are near each other.",
+      "text": "要存活，就必須分散隊伍，降低範圍傷害的威脅。獲勝關鍵在於敵方 Dryders 聚集時，容易被範圍傷害與 Panic 等技能壓制。但敵人數量太多，很難讓牠們整齊聚在一起；應依現場狀況應變，優先處理彼此靠近的 Dryders。",
+      "reason": "控制者是玩家以範圍技能壓制敵群，不是敵人控制傷害；保留我方分散與敵方聚集的不同對象。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25516-walkthrough-quest:gww:25516/blocks/elite-quest:gww:25516-walkthrough-1-2/text",
+          "englishHash": "5408deb49a28da602f42bad2cfc226d5b3dc8eeb81f984816d79077aa553d2f4",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25516/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "5408deb49a28da602f42bad2cfc226d5b3dc8eeb81f984816d79077aa553d2f4",
+          "evidenceHash": "c1d49839448df896bc0759d095118509af9e0e8ff8f49688d2f167317a199059"
+        }
+      ]
+    },
+    {
+      "source": "It is possible to accept the quest reward after the death of the Slayer, but make sure you take out the groups of Keepers of Souls and Terrorweb Dryders before leaving. Otherwise, they will destroy the Reaper, causing your removal from the Underworld.",
+      "text": "Slayer 死亡後即可領取任務獎勵，但離開前務必清除 Keepers of Souls 與 Terrorweb Dryders 的敵群。否則牠們會殺死 Reaper，讓你被移出地下世界。",
+      "reason": "任務可領獎不代表安全離場；保留敵群殺死NPC後強制移出的後果。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25516-walkthrough-quest:gww:25516/blocks/elite-quest:gww:25516-walkthrough-1-3/text",
+          "englishHash": "fc89cdb71e369259274ea277637637adac981a0e69c7ec5c55990e87ef4db625",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25516/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "fc89cdb71e369259274ea277637637adac981a0e69c7ec5c55990e87ef4db625",
+          "evidenceHash": "c1d49839448df896bc0759d095118509af9e0e8ff8f49688d2f167317a199059"
+        }
+      ]
+    },
+    {
+      "source": "Death in Spirit Form is supposed to be permanent, since the Curse of Dhuum prevents the use of resurrection skills during this battle. But resurrection scrolls and \"By Ural's Hammer!\" still work, as does pre-casting delayed resurrection skills like Unyielding Aura before entering the room.",
+      "text": "由於 Curse of Dhuum 使這場戰鬥無法使用復活技能，靈魂形態下死亡原本應無法復活。但復活卷軸與「By Ural's Hammer!」仍有效；在進房前預先施放 Unyielding Aura 等延遲復活技能也有效。",
+      "reason": "保留禁止復活技能與三類仍有效例外；預先施放限制在入房前，專名不猜中文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:232300-walkthrough-quest:gww:232300/blocks/elite-quest:gww:232300-walkthrough-1-3/text",
+          "englishHash": "ea636a4c11e38f7927facef0d817c855a9ebb2178d9a7dc804b30d8802304b67",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:232300/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "ea636a4c11e38f7927facef0d817c855a9ebb2178d9a7dc804b30d8802304b67",
+          "evidenceHash": "b759cf8ff407f2e27a12bfc345c5069a1668df7f2a4d1f5fb2530a2e2c145dde"
+        }
+      ]
+    },
+    {
+      "source": "There are two goals in this battle. One is to fill the Dhuum's Rest bar, which is achieved gradually with the skill Dhuum's Rest used by the Reapers and by players in Spirit Form. The other is to damage Dhuum directly, bringing him below 25% health. When both goals are met, the fight is over and you can collect the reward from King Frozenwind.",
+      "text": "這場戰鬥有兩個目標：一是由 Reapers 與靈魂形態玩家使用 Dhuum's Rest 技能，逐步填滿 Dhuum's Rest 量表；二是直接攻擊多姆，使其體力降至 25% 以下。兩者都達成後，戰鬥才會結束，即可向 King Frozenwind 領取獎勵。",
+      "reason": "兩個目標必須同時達成；below25%保留嚴格低於，並區分技能與同名量表。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:232300-walkthrough-quest:gww:232300/blocks/elite-quest:gww:232300-walkthrough-1-5/text",
+          "englishHash": "4eedc33e628efd02c52582f50f6ae3f08b52eaebd5ba4120032257143b2f2fbd",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:232300/sections/walkthrough-1/blocks/walkthrough-1-5/text",
+          "englishHash": "4eedc33e628efd02c52582f50f6ae3f08b52eaebd5ba4120032257143b2f2fbd",
+          "evidenceHash": "b759cf8ff407f2e27a12bfc345c5069a1668df7f2a4d1f5fb2530a2e2c145dde"
+        }
+      ]
+    },
+    {
+      "source": "Throughout the battle, make sure to kill all of the Minions of Dhuum and Champions of Dhuum that Dhuum periodically summons; if you don't kill them, they'll swarm your team. Because of the amount of skeletons and the easiness of killing them, Edge of Extinction is a good tool for keeping their numbers down. Avoid using the spirit form skill Encase Skeletal, since it prevents the target from taking damage; as more and more come it gets harder to keep them all in check and easier for them to swarm.",
+      "text": "整場戰鬥中，務必擊殺多姆定期召喚的所有 Minions of Dhuum 與 Champions of Dhuum，否則牠們會大量圍攻隊伍。骷髏數量多且容易擊殺，因此 Edge of Extinction 很適合壓低牠們的數量。避免使用靈魂形態技能 Encase Skeletal，因為它會使目標無法受到傷害；敵人越積越多，就越難控制，也越容易形成圍攻。",
+      "reason": "Encase Skeletal阻止目標受傷，會讓敵人累積；數量增加的主體是骷髏而非人。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:232300-walkthrough-quest:gww:232300/blocks/elite-quest:gww:232300-walkthrough-1-6/text",
+          "englishHash": "f3b5f9ffc741a216b159d17350e2ac03ca8e2f6a1ceb78d6a0cb20be7f3eee7f",
+          "evidenceHash": "f1a4f2d5088ece32d9e20c83ba7672fa87f6dfbf16579305a58ccf26e04c80fc"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:232300/sections/walkthrough-1/blocks/walkthrough-1-6/text",
+          "englishHash": "f3b5f9ffc741a216b159d17350e2ac03ca8e2f6a1ceb78d6a0cb20be7f3eee7f",
+          "evidenceHash": "b759cf8ff407f2e27a12bfc345c5069a1668df7f2a4d1f5fb2530a2e2c145dde"
+        }
+      ]
+    },
+    {
+      "source": "Koss, Dunkoro, Melonni, and Tahlkora are unlocked after talking to Kormir. They will all be level 15, rather than the level they have during the quest.",
+      "text": "與 Kormir 交談後，會解鎖寇斯、Dunkoro、梅隆妮與 Tahlkora。他們都會是 15 級，而不是任務進行期間的等級。",
+      "reason": "逐名核對解鎖英雄與統一15級；不是沿用任務期間各自不同等級。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15061/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "a18133924c2731dc649e40f32386f85539e3aaf6be07b8c3c6adbf6d26288634",
+          "evidenceHash": "fa15ff6f9a75f810c8ac6548e36c0f2f61c9710de089792d15c4dc8723703322"
+        }
+      ]
+    },
+    {
+      "source": "At the same time you will be given an extra copy of the weapons these heroes come with. These weapons are more powerful than the ones they're currently equipped with, and more adapted to their (higher) level.",
+      "text": "同時，你還會額外獲得一套這些英雄自帶的武器。這些武器比他們當時裝備的更強，也更適合他們提高後的等級。",
+      "reason": "extra copy指額外一套英雄配備，強度比較對象是當時裝備；不把copy理解成檔案。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15061/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "5b78a9ace94fab44073820901bf0e6fc6d9a015572c1882bd3c42f3a931e1700",
+          "evidenceHash": "fa15ff6f9a75f810c8ac6548e36c0f2f61c9710de089792d15c4dc8723703322"
+        }
+      ]
+    },
+    {
+      "source": "When Nightfall was released, the 4 heroes were recruited at the same level that they were recruited in the Nightfall campaign (Koss at level 2, Dunkoro at level 6, Melonni at level 8 and Tahlkora at level 12). This was changed later, probably due to the fact that foreign characters were very soon faced with the Consulate Docks mission where all foes are level 20 (thus, rendering the heroes quite useless). At that time, Securing Champion's Dawn and A Land of Heroes didn't exist.",
+      "text": "《黑暗逆襲》剛推出時，這 4 名英雄的加入等級與該篇章原本相同：寇斯 2 級、Dunkoro 6 級、梅隆妮 8 級、Tahlkora 12 級。後來才調整，可能因為外來角色很快就會面對 Consulate Docks；該合作任務的敵人全為 20 級，使低等英雄幾乎派不上用場。當時還沒有 Securing Champion's Dawn 與 A Land of Heroes 這兩項任務。",
+      "reason": "released是作品推出；保留四名英雄各自等級、原因僅推測與兩項任務當時不存在的歷史資訊。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15061/sections/notes-1/blocks/notes-1-3/text",
+          "englishHash": "968d65448b3934b239cf20c06b1eea7adbd0f0089d802e190545d61d080d5e27",
+          "evidenceHash": "fa15ff6f9a75f810c8ac6548e36c0f2f61c9710de089792d15c4dc8723703322"
+        }
+      ]
+    },
+    {
+      "source": "Characters who obtained heroes under level 15 are stuck with them, even if they have not yet completed this quest:",
+      "text": "若角色當初取得的是未滿 15 級的英雄，就仍須沿用那些英雄；即使尚未完成此任務，也不會自動更換：",
+      "reason": "stuck with them指保留已解鎖英雄及其起始等級，不是角色被困；under15是未滿15級。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15061/sections/notes-1/blocks/notes-1-4/text",
+          "englishHash": "ef5ea8a5dece71a2139563ca27fb7c49653b6f2d3dd893103af9a48a1a526dac",
+          "evidenceHash": "fa15ff6f9a75f810c8ac6548e36c0f2f61c9710de089792d15c4dc8723703322"
+        }
+      ]
+    },
+    {
+      "source": "Abandoning the quest and retaking it will not fix their levels. (the levels were set when the heroes were first unlocked)",
+      "text": "放棄後重新接受任務，也不會修正英雄的等級。（等級在首次解鎖英雄時就已決定。）",
+      "reason": "保留重接無法重設與首次解鎖時決定等級的因果，並非物品損壞修復。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15061/sections/notes-1/blocks/notes-1-5/text",
+          "englishHash": "d32498e17c5ae4034be5c939b7351ddb61396d0a53ab008d7ec796d83ce6f399",
+          "evidenceHash": "fa15ff6f9a75f810c8ac6548e36c0f2f61c9710de089792d15c4dc8723703322"
+        }
+      ]
+    },
+    {
+      "source": "You must be the foreign recruits Kormir told me to expect. It's good to see so many heroes from beyond these shores coming to our aid. Spearmarshal Kormir is awaiting for you in the Plains of Jarin. You should hurry and catch up to her; she seems even more driven than normal these days and probably won't wait around long.",
+      "text": "你們就是 Kormir 說會前來的外籍新兵吧。很高興有這麼多遠渡重洋的英雄來支援我們。Spearmarshal Kormir 正在賈林平原等你們。快去追上她吧；這些天她似乎比平時更積極，大概不會等太久。",
+      "reason": "保留外籍招募與等待位置；Spearmarshal為人物頭銜，不生造矛元帥官方譯名。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15061/sections/instructions-dialogue/blocks/instructions-2/text",
+          "englishHash": "86cb761232a61de8990ac03d7b0903382a8994a0bef7d72b96fc2bba93aab705",
+          "evidenceHash": "fa15ff6f9a75f810c8ac6548e36c0f2f61c9710de089792d15c4dc8723703322"
+        }
+      ]
+    },
+    {
+      "source": "Completing this quest changes the foes that appear in Morostav Trail, specifically, Afflicted will no longer spawn. The Ritualist's Construct also disappears after completion of this quest, which makes Soul Twisting much more time-consuming to capture without Memories of Purity active.",
+      "text": "完成此任務會改變摩洛神秘通道的敵人配置，其中 Afflicted 將不再出現。Ritualist's Construct 也會在完成後消失；若沒有讓 Memories of Purity 保持進行中，往後要捕捉生靈扭轉就會更費時。",
+      "reason": "Soul Twisting是技能捕捉，非捕捉生物；明確完成任務後兩類敵人消失及恢復任務的條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:283486/sections/environment-1/blocks/environment-1-1/text",
+          "englishHash": "ba036e6bb6a8f1e1e3f56272837f7a4feccae1932e5956bb32e0a8ee24300539",
+          "evidenceHash": "fe4c0cb2b66210d329d4b4e6119d63bdcd4d0468a6cb8b025a4ed6bbe7bc8e34"
+        }
+      ]
+    },
+    {
+      "source": "With the exception of Initiate Zei Ri, all ministry allies do not resurrect if they are killed.",
+      "text": "除了 Initiate Zei Ri，其餘 Ministry 友方 NPC 遭擊殺後都不會復活。",
+      "reason": "ministry是組織身份而非神職職業；明確唯一復活例外。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:283486/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "69d75b345cc94bce49a4f64d72b0397c209a9e1babbb6813d8347e51d515c28d",
+          "evidenceHash": "fe4c0cb2b66210d329d4b4e6119d63bdcd4d0468a6cb8b025a4ed6bbe7bc8e34"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:283875/sections/shared-quest:gww:283486-notes-1/blocks/shared-quest:gww:283486-notes-1-1/text",
+          "englishHash": "69d75b345cc94bce49a4f64d72b0397c209a9e1babbb6813d8347e51d515c28d",
+          "evidenceHash": "9ba1f41afc39d1e0c3415cf688b90ed89ca96b07ef9afe2d79132ffdce1cb48f"
+        }
+      ]
+    },
+    {
+      "source": "If you accept this quest after completing A Second Profession, the objective to speak with a Town Crier will not appear and you will be unable to obtain the reward.",
+      "text": "若完成副職業修練後才接受此任務，「與城鎮傳令交談」的目標就不會出現，也無法領取獎勵。",
+      "reason": "保留先完成前一任務、後接受本任務的次序，以及目標缺失導致無法領獎。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:320696/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "af3a892823a04fc07de2abdaf89e53f6d3283e3e33388f81259232539f801351",
+          "evidenceHash": "42d423cffe346afd0a3b765423f098de42bdcb8c049b5ea3a3e23571f6c8458e"
+        }
+      ]
+    },
+    {
+      "source": "This quest is automatically added to the Quest Log upon completion of the Encounter in the Depths cinematic of any one of the preceding quests. This quest is also automatically completed and removed upon entering the Asura Gate, and the follow-up quest, Against the Destroyers is automatically added.",
+      "text": "完成任一前置任務的 Encounter in the Depths 過場動畫後，此任務會自動加入任務日誌。進入 Asura Gate 時，它會自動完成並移除，同時自動加入後續任務 Against the Destroyers。",
+      "reason": "自動加入在任一前置動畫結束後，自動完成在進門時；保留後續任務自動接續。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63264/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "7099ca8059e7b62c7d8115e8217cfd612d2b6745bbd5d2eafd3eb42ca1ba9b53",
+          "evidenceHash": "1c55eee840fc1e4e058d8eb55b7194ba02f68e8e4dd19b1de094e7bad22d140a"
+        }
+      ]
+    },
+    {
+      "source": "The Quest Log says the quest is given in the Tunnels Below Cantha regardless of which continent you came from.",
+      "text": "無論你來自哪個大陸，任務日誌都會將任務取得地點記為 Tunnels Below Cantha。",
+      "reason": "日誌錯誤顯示固定地點，不代表各大陸實際取得位置相同；保留來源地名身份。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63264/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "aa96c5268e0dfbde42b0c38961b4f20bdf2b301a748c09c33e24419c7011475b",
+          "evidenceHash": "1c55eee840fc1e4e058d8eb55b7194ba02f68e8e4dd19b1de094e7bad22d140a"
+        }
+      ]
+    },
+    {
+      "source": "Trying to fight the Destroyers is a bad idea: the chance of winning is slim and it takes a great part of your time. Also, you can easily go to the gate without a speed boost and without any combat.",
+      "text": "不建議試著擊敗 Destroyers：勝算很低，還會耗費大量時間。其實不用加速，也不必戰鬥，就能輕鬆抵達大門。",
+      "reason": "保留對戰低勝率與可完全避戰、不需加速兩項替代路線特性。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63264/sections/notes-1/blocks/notes-1-3/text",
+          "englishHash": "baa5d30b9c76b00412fb7fbaadf34e611b341d696374825919d6d078215fea22",
+          "evidenceHash": "1c55eee840fc1e4e058d8eb55b7194ba02f68e8e4dd19b1de094e7bad22d140a"
+        }
+      ]
+    },
+    {
+      "source": "The fact that they are all melee-fighters opens up for the possibility of clumping them up and knocking them down with area knockdowns like Meteor, Earth Shaker and Grasping Was Kuurong.",
+      "text": "由於牠們全是近戰敵人，可以設法讓牠們聚集，再用隕石、震動大地與 Grasping Was Kuurong 等範圍擊倒技能牽制。",
+      "reason": "melee-fighters是近戰敵人而非必然戰士職業；保留聚怪後範圍擊倒策略。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63264/sections/notes-1/blocks/notes-1-6/text",
+          "englishHash": "faae1952e09f3fc8dd487a11977c6fc87ca87d79c5cd706f28a4b1320160a29a",
+          "evidenceHash": "1c55eee840fc1e4e058d8eb55b7194ba02f68e8e4dd19b1de094e7bad22d140a"
+        }
+      ]
+    },
+    {
+      "source": "During the quest, the Guild Wars Eye of the North overture (from the login screen and character selection screen) plays.",
+      "text": "任務期間會播放《極地之眼》的序曲，也就是登入畫面與角色選擇畫面使用的樂曲。",
+      "reason": "釐清括號是同一樂曲的使用場景，並移除公會戰爭的字面產品誤譯。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63264/sections/notes-1/blocks/notes-1-9/text",
+          "englishHash": "42d7282f54ff27730a362ceb8b5743d239f695502b5da10ba1d8f623dee179d1",
+          "evidenceHash": "1c55eee840fc1e4e058d8eb55b7194ba02f68e8e4dd19b1de094e7bad22d140a"
+        }
+      ]
+    },
+    {
+      "source": "When \"Time remaining to escape\" runs out, your party automatically dies and a \"QUEST FAILED: Your group did not escape from the dungeon in time.\" message appears.",
+      "text": "「剩餘逃脫時間」歸零時，隊伍會自動全員死亡，並顯示訊息：「任務失敗：你的隊伍未能及時逃離地下城。」",
+      "reason": "保留倒數歸零、全隊死亡與失敗訊息的直接觸發關係。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63264/sections/notes-1/blocks/notes-1-11/text",
+          "englishHash": "a215adf11e4c62014aecf7f6330973be7a2d7892c10fc0306a3097d30d5cacd1",
+          "evidenceHash": "1c55eee840fc1e4e058d8eb55b7194ba02f68e8e4dd19b1de094e7bad22d140a"
+        }
+      ]
+    },
+    {
+      "source": "If you keep this quest active, all the quest NPCs will travel and fight with you in Bukdek Byway.",
+      "text": "只要讓此任務保持進行中，所有任務 NPC 都會在巴德克小徑陪你移動並一起戰鬥。",
+      "reason": "active是已接受且未結束的任務狀態；同行與參戰均限該區域。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25445/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "9ce59e9eb304166f7bf04dde14433c7fc3697b13a8faa05558f784db8ecdc714",
+          "evidenceHash": "a7b074998507af35b427c9fe4a5e0b4335629a4bdd45b9cd92ebe98358228a70"
+        }
+      ]
+    },
+    {
+      "source": "The Quest Log displays \"Dockhand Quangnai (Kaineng Docks)\" even though Bejunkan Pier is where Dockhand Quangnai is located and the quest is acquired.",
+      "text": "Dockhand Quangnai 實際位於君瞰碼頭，任務也在那裡取得，但任務日誌仍顯示「Dockhand Quangnai（凱寧船塢）」。",
+      "reason": "清楚區分實際NPC位置與日誌顯示錯誤；不是取得任務後改變地點。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25445/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "552a548d59bfcd7fad19f2079c356d62f495aa880c4c9551cf615c872cf14f69",
+          "evidenceHash": "a7b074998507af35b427c9fe4a5e0b4335629a4bdd45b9cd92ebe98358228a70"
+        }
+      ]
+    },
+    {
+      "source": "Even if the quest objectives, markers and exclamation marks update properly at the scrying pool, the First Vision will not be available until you talk to Jora in Ice Cliff Chasms.",
+      "text": "即使探知池的任務目標、標記與驚嘆號都已正確更新，也必須先在冰崖裂口與喬拉交談，才能觀看 First Vision。",
+      "reason": "直到交談前無法觀看的門檻，優先於已更新的任務標記；Vision保留事件身份。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63397/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "a6f92677a21c78f169a791ea93bcc66aff1ccc18f196072fe5d5df0f3a998efc",
+          "evidenceHash": "fcec79bbf576846574b7067908731b439c3e9d51ca95852ed89d12a392cb0e50"
+        }
+      ]
+    },
+    {
+      "source": "This quest is automatically added to the quest log upon completion of the preceding quest. Unlike most quests, it cannot be abandoned. This is due to not being able to reacquire it.",
+      "text": "完成前一項任務後，此任務會自動加入任務日誌。它與大多數任務不同，無法放棄，因為放棄後無法重新取得。",
+      "reason": "保留自動接取與不可放棄的因果；重新取得不作取得物品。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63397/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "e38a3715f4da88fd67dc861e9d1d72941e8f78319d5ceb64fcddec9a06d0a939",
+          "evidenceHash": "fcec79bbf576846574b7067908731b439c3e9d51ca95852ed89d12a392cb0e50"
+        }
+      ]
+    },
+    {
+      "source": "Once you leave Boreal Station and talk to Jora outside, you can either walk back or map travel back to the station, leave again, and collect the Norn Bounty at the resurrection shrine. If you continue on directly to the Eye of the North, you cannot get it until further along the path.",
+      "text": "離開 Boreal Station 並與外面的喬拉交談後，可步行返回或使用地圖旅行返回據點，再次出發，到復活神殿取得 Norn Bounty。若直接繼續前往極地之眼，則要走到更後面的路段才能取得。",
+      "reason": "map travel是地圖旅行而非繪製地圖；保留返站再出發可提早取得狩獵增益的路線差異。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63397/sections/notes-1/blocks/notes-1-3/text",
+          "englishHash": "afebb593d307bf2833ef36b3f97672f44ef6e0fd8118aab2c79a64c96944aa57",
+          "evidenceHash": "fcec79bbf576846574b7067908731b439c3e9d51ca95852ed89d12a392cb0e50"
+        }
+      ]
+    }
+  ]
+}

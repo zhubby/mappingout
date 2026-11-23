@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T12:52:16.780Z",
+  "generatedAt": "2026-11-23T13:39:55.354Z",
   "scope": "All five Traditional Chinese and English data packs; UI reviewed separately",
   "reviewMethod": "Individual agent semantic comparison against exact English text and revision evidence; not human approval or in-game verification",
   "complete": false,
   "fields": 134129,
   "distinctEnglish": 42858,
-  "reviewedFields": 13169,
-  "reviewedDistinctEnglish": 3939,
-  "remainingFields": 120960,
-  "remainingDistinctEnglish": 39150,
+  "reviewedFields": 13433,
+  "reviewedDistinctEnglish": 4128,
+  "remainingFields": 120696,
+  "remainingDistinctEnglish": 38951,
   "englishRevisionCheck": {
     "checkedAt": "2026-11-23T04:23:21.606Z",
     "checked": 6899,
@@ -153,15 +153,15 @@
       "dataset": "calendar",
       "fields": 3284,
       "distinctEnglish": 1249,
-      "reviewedFields": 484,
-      "reviewedDistinctEnglish": 180,
-      "remainingFields": 2800,
-      "remainingDistinctEnglish": 1069,
+      "reviewedFields": 589,
+      "reviewedDistinctEnglish": 240,
+      "remainingFields": 2695,
+      "remainingDistinctEnglish": 1009,
       "unverifiedEnglishFields": 0,
       "riskFields": {
         "literal-game-concept": 0,
         "source-placeholder": 0,
-        "conditional-mechanic": 275
+        "conditional-mechanic": 274
       },
       "riskExamples": []
     },
@@ -169,155 +169,33 @@
       "dataset": "quests",
       "fields": 37175,
       "distinctEnglish": 17897,
-      "reviewedFields": 1522,
-      "reviewedDistinctEnglish": 879,
-      "remainingFields": 35653,
-      "remainingDistinctEnglish": 17019,
+      "reviewedFields": 1590,
+      "reviewedDistinctEnglish": 938,
+      "remainingFields": 35585,
+      "remainingDistinctEnglish": 16960,
       "unverifiedEnglishFields": 0,
       "riskFields": {
-        "literal-game-concept": 68,
+        "literal-game-concept": 0,
         "source-placeholder": 15,
-        "conditional-mechanic": 3572
+        "conditional-mechanic": 3538
       },
-      "riskExamples": [
-        {
-          "key": "quests/quest:gww:25519/givenBy",
-          "english": "Reaper of the Spawning Pools",
-          "chinese": "產卵池的收割者",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:25519/givenAt",
-          "english": "Spawning Pools",
-          "chinese": "產卵池",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:45428/sections/rewards-1/blocks/rewards-1-5/text",
-          "english": "Armor +5 (while Hexed)",
-          "chinese": "防禦 +5（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:45428/sections/rewards-1/blocks/rewards-1-6/text",
-          "english": "Energy +7 (while Hexed)",
-          "chinese": "能量 +7（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:25499/sections/rewards-1/blocks/rewards-1-10/text",
-          "english": "Armor +4 (while Hexed)",
-          "chinese": "防禦 +4（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:25499/sections/rewards-1/blocks/rewards-1-11/text",
-          "english": "Damage +10% (while Hexed)",
-          "chinese": "傷害 +10%（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:25316/sections/rewards-1/blocks/rewards-1-6/text",
-          "english": "Armor +5 (while Hexed)",
-          "chinese": "防禦 +5（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:12177/sections/rewards-1/blocks/rewards-1-12/text",
-          "english": "Energy +3 (while Hexed)",
-          "chinese": "能量 +3（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:17607/sections/rewards-1/blocks/rewards-1-7/text",
-          "english": "Armor +7 (while Hexed)",
-          "chinese": "防禦 +7（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:25270/sections/rewards-1/blocks/rewards-1-11/text",
-          "english": "Damage +15% (vs. hexed foes)",
-          "chinese": "傷害 +15%（與十六進位敵人相比）",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:15321/sections/rewards-1/blocks/rewards-1-5/text",
-          "english": "Armor +4 (while Hexed)",
-          "chinese": "防禦 +4（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        },
-        {
-          "key": "quests/quest:gww:15321/sections/rewards-1/blocks/rewards-1-6/text",
-          "english": "Damage +10% (while Hexed)",
-          "chinese": "傷害 +10%（十六進位時）",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
-          ]
-        }
-      ]
+      "riskExamples": []
     },
     {
       "dataset": "skills",
       "fields": 44208,
       "distinctEnglish": 13480,
-      "reviewedFields": 3667,
-      "reviewedDistinctEnglish": 1895,
-      "remainingFields": 40541,
-      "remainingDistinctEnglish": 11634,
+      "reviewedFields": 3758,
+      "reviewedDistinctEnglish": 1975,
+      "remainingFields": 40450,
+      "remainingDistinctEnglish": 11554,
       "unverifiedEnglishFields": 0,
       "riskFields": {
-        "literal-game-concept": 234,
+        "literal-game-concept": 143,
         "source-placeholder": 0,
-        "conditional-mechanic": 4294
+        "conditional-mechanic": 4227
       },
       "riskExamples": [
-        {
-          "key": "skills/skill:gww:64072/variants/skill-version:gww:64072/conciseDescription",
-          "english": "Shout. (30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal 25…33% more damage. Affected party members die when it ends, but do not receive a death penalty.",
-          "chinese": "戰嚎。 （30 秒。） 復活所有死去的隊員都在聽得見的範圍內，並具有完整的體力和能量。受影響的隊伍成員會造成 25…33% 更多傷害。受影響的黨員在結束時死亡，但不會被判死刑。",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
-          "key": "skills/skill:gww:63802/variants/skill-version:gww:63802/conciseDescription",
-          "english": "Spell. Projectile: deals 40…50 damage to target and adjacent foes. Deals 45…70 more damage and inflicts Cracked Armor condition (14…20 seconds) to Destroyers.",
-          "chinese": "咒文魔法。投射物：對目標和鄰近敵人造成 40…50 傷害。對驅逐艦造成 45…70 更多傷害並造成防禦破裂狀態（14…20 秒）。",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
         {
           "key": "skills/skill:gww:58290/variants/skill-version:gww:58290/conciseDescription",
           "english": "Hex Spell. (9…12 seconds.) You cannot miss target foe. If you kill this foe, you lose 5% Death Penalty.",
@@ -328,36 +206,11 @@
           ]
         },
         {
-          "key": "skills/skill:gww:1308/variants/skill-version:gww:1308/conciseDescription",
-          "english": "Elite Form. (10…74…90 seconds.) You deal holy damage. Whenever you use a Dervish attack skill, you lose 1 hex. Heal allies in earshot for 5…41…50 Health when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
-          "chinese": "精英表格。 （10…74…90 秒。）你造成神聖傷害。每當您使用神喚使攻擊技能時，就會失去 1 十六進位。當您失去神喚使加持時，為 5…41…50 體力治療聽力範圍內的盟友。此技能將被停用 45 秒。",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
-          "key": "skills/skill:gww:1308/variants/skill-version:gww:274802/conciseDescription",
-          "english": "Elite Form. (10…74…90 seconds.) Deal holy damage. You lose 1 hex whenever you use a Dervish attack skill. Heal yourself for 5…41…50 Health whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
-          "chinese": "精英表格。 （10…74…90 秒。）造成神聖傷害。每當您使用神喚使攻擊技能時，您都會失去 1 十六進位。每當您失去神喚使加持時，請為 5…41…50 體力治療自己。此技能將被停用 45 秒。",
-          "flags": [
-            "literal-game-concept"
-          ]
-        },
-        {
           "key": "skills/skill:gww:2898/variants/skill-version:gww:2898/conciseDescription",
           "english": "Elite Spell. Heals for 10…98…120. Removes one condition and one hex.",
           "chinese": "精英咒文魔法。 10…98…120 的治療。刪除一個病症和一個十六進位。",
           "flags": [
             "literal-game-concept"
-          ]
-        },
-        {
-          "key": "skills/skill:gww:2900/variants/skill-version:gww:2900/conciseDescription",
-          "english": "Skill. You gain 0…64…80 Health and lose one hex and one condition for each enchantment on you (maximum 1…7…8 hexes and conditions). You lose all enchantments.",
-          "chinese": "技能。對於你身上的每個加持，你獲得 0…64…80 體力並失去一個十六進位制和一個病症（最多 1…7…8 十六進位制和病症）。你會失去所有的魅力。",
-          "flags": [
-            "literal-game-concept",
-            "conditional-mechanic"
           ]
         },
         {
@@ -397,6 +250,47 @@
           "key": "skills/skill:gww:59023/variants/skill-version:gww:59023/conciseDescription",
           "english": "Ward Spell. (14…20 seconds.) Spells that allies in this ward cast have a 44…60% chance to recharge 50% faster. Spirits are unaffected.",
           "chinese": "病房咒文魔法。 （14…20 秒。）此守衛中的盟友施展的法術有 44…60% 機會更快地為 50% 充能。精神不受影響。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:16247/variants/skill-version:gww:16247/conciseDescription",
+          "english": "Enchantment Spell. (10…30…35 seconds.) Inflicts Burning condition (1…4…5 seconds) whenever you apply an Elemental hex to a target.",
+          "chinese": "加持魔法。 （10…30…35 秒。）每當您對目標套用元素生物十六進位時，都會造成燃燒狀態（1…4…5 秒）。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:16247/variants/skill-version:gww:302377/conciseDescription",
+          "english": "Enchantment Spell. (5…17…20 seconds.) Inflicts Burning condition (1…2…2 seconds) whenever you apply an Elemental hex to a target.",
+          "chinese": "加持魔法。 （5…17…20 秒。）每當您對目標套用元素生物十六進位時，都會造成燃燒狀態（1…2…2 秒）。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:1644/variants/skill-version:gww:1644/conciseDescription",
+          "english": "Hex Spell. (10 seconds.) Causes -1 Energy degeneration. Causes 1…4…5 Energy loss if this hex ends early.",
+          "chinese": "降咒魔法。 （10 秒。）導致 -1 能量退化。如果此十六進位提前結束，則會導致 1…4…5 能量遺失。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:4553/variants/skill-version:gww:4553/conciseDescription",
+          "english": "Elite Flash Enchantment Spell. (20 seconds.) Inflicts Crippled (1…9…11 seconds) with your attack skills and transfer 1…3…3 conditions.",
+          "chinese": "精英快閃記憶體加持魔法。 （20秒。）用你的攻擊技能造成殘癈（1…9…11秒）並轉移1…3…3病症。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:14382/variants/skill-version:gww:14382/conciseDescription",
+          "english": "Flash Enchantment Spell. (2…7…8 seconds.) You move 25% faster and deal +3…10…12 damage to moving foes.",
+          "chinese": "快閃記憶體加持魔法。 （2…7…8 秒。）您移動 25% 的速度更快，並對移動的敵人造成 +3…10…12 傷害。",
           "flags": [
             "literal-game-concept"
           ]

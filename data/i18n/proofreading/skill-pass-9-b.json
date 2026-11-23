@@ -1,0 +1,587 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "Flash Enchantment Spell. (30 seconds.) Your attack skills remove enchantments from knocked-down foes. Initial effect: deals 10…34…40 cold damage to all nearby foes. End effect: nearby foes have Cracked Armor for 1…8…10 seconds.",
+      "text": "閃現加持魔法。持續 30 秒。你的攻擊技能會移除倒地敵人的加持。初始效果：對附近所有敵人造成 10…34…40 點冰凍傷害。結束效果：使附近敵人受到 Cracked Armor，持續 1…8…10 秒。",
+      "reason": "修正閃現加持與冰凍傷害術語；保留攻擊技能須對倒地敵人才移除加持，及初始傷害與結束病症的分別。Cracked Armor 缺可靠中文名，保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14391/variants/skill-version:gww:14391/conciseDescription",
+          "englishHash": "d34a4d8309fe3c1b2878900bd04fdf6586ea9935a7d941fce0833c5b77abab02",
+          "evidenceHash": "f6f95a20598fc5c61f6cee98c04345280397cb4aaf6e16236856862e8ea4691b"
+        }
+      ]
+    },
+    {
+      "source": "Unlike regular degeneration hexes, Vile Miasma causes a health bar to turn green such as poison or disease, or pink if used from bleeding.\n* Using this skill after Signet of Suffering or Glyph of Immolation will apply this hex.",
+      "text": "與一般造成體力衰減的降咒不同，惡劣毒氣會使體力條變成中毒或疾病時的綠色；若藉由流血觸發，則會變成粉紅色。\n* 在苦難紋章或 Glyph of Immolation 之後使用此技能，便能施加此降咒。",
+      "reason": "修正體力條、病症與降咒語義，保留綠色和藉流血觸發時粉紅色的異常；將兩個前置技能分開，Glyph of Immolation 無可信中文名則保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16016/variants/skill-version:gww:16016/notes/0",
+          "englishHash": "4dbd0149e6ca9d807b80abe78c5ac4c8a92b0e5817d655acaa493a7e46cfa3f3",
+          "evidenceHash": "08a682a97445e89d182b5a68e8a657fe86c5696c59f4fd28ffa58c1ce2760bbe"
+        }
+      ]
+    },
+    {
+      "source": "Elite Ward Spell. (5…13…15 seconds.) Allies in this ward have +1…3…3 Health regeneration, +12…22…24 armor, and +12…22…24 additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 30 seconds.",
+      "text": "精英結界魔法。持續 5…13…15 秒。結界內的盟友獲得 +1…3…3 體力再生、+12…22…24 護甲，以及額外對抗元素傷害的 +12…22…24 護甲。精靈不受影響。此技能會被禁用 30 秒。",
+      "reason": "修正病房為結界、精神為精靈；分開基礎護甲與對元素傷害的額外護甲，保留所有正號數值與 30 秒禁用的說明文字。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4234/variants/skill-version:gww:293522/conciseDescription",
+          "englishHash": "9ec66a75b2a9f4b339338b56bb99a99499cb035c7f1afa7066bfb3ba540b7692",
+          "evidenceHash": "2ace09638978b72101b9f442f98908b5f32be83ecf32e3532c7aaff96e4cd5b3"
+        }
+      ]
+    },
+    {
+      "source": "* Creatures affected by the shroud can still cast enchantments that do not require targeting (e.g. Shadow Form or Conjure Flame).\n* Foes with this hex cannot be targeted by enchantment spells that target a foe, like Ice Spear.",
+      "text": "* 受此降咒影響的生物，仍可施放不需指定目標的加持，例如暗影形態或召喚火焰。\n* 帶有此降咒的敵人，不能成為冰之矛等以敵人為目標的加持魔法之目標。",
+      "reason": "對照 PvE 與 PvP 固定來源，區分不需指定目標的自用加持仍可施放，以及指定敵人的加持無法選中帶此咒的敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4423/variants/skill-version:gww:4423/notes/0",
+          "englishHash": "b65866f995a22d68079703a3d59ef9fa2930846713325ac2bb33a388fa6e81d4",
+          "evidenceHash": "d2b0e1142200c7dcfd09d5ff4b2c44d6c62c83fbad1830756dcdb9f83d051d6e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4423/variants/skill-version:gww:321732/notes/0",
+          "englishHash": "b65866f995a22d68079703a3d59ef9fa2930846713325ac2bb33a388fa6e81d4",
+          "evidenceHash": "3b75ba9f8a1ad3cf9e9f79f1bbed8cc89f2dd37fe7c825a1f60d7d374afa7781"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. Resurrects target party member (full Health, full Energy). End effect: this ally dies and leaves an exploited corpse. Does not incur a death penalty. 50% failure chance unless Divine Favor 5 or more.",
+      "text": "精英加持魔法。復活指定隊員，使其體力與能量全滿。結束效果：該盟友死亡，並留下已被利用的屍體。不會造成死亡懲罰。若神恩低於 5，有 50% 機率失敗。",
+      "reason": "修正受剝削屍體為已被利用的屍體，死刑為死亡懲罰；保留完整復活、結束時死亡、神恩低於 5 與 50% 失敗機率。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2913/variants/skill-version:gww:154794/conciseDescription",
+          "englishHash": "16ed370984ac42331c6a600ff46ed05b322382249c45e7cfc5d9efc015942a73",
+          "evidenceHash": "183d6be8a7138da0e0bdabb42aac3cea3be4dc657b82b2d3ed975a7f74428887"
+        }
+      ]
+    },
+    {
+      "source": "* As a punishment hex, this skill is more effective in Hard mode since enemies have faster casting and are thus able to cast more often. \n* Unlike Backfire, the AI will cast until death while under the effects of this hex.",
+      "text": "* 此技能會懲罰敵人施法；困難模式的敵人施法較快，能更頻繁地施法，因此此降咒在該模式更有效。\n* 與魔力反噬不同，AI 在此降咒影響下仍會持續施法，直到死亡。",
+      "reason": "修正十六進位誤譯，保留困難模式施法頻率提高的因果；明確此降咒下 AI 不會如魔力反噬般停止致死施法。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1774/variants/skill-version:gww:1774/notes/0",
+          "englishHash": "83fbf39b2f616910b2342d02f365a9ad10c645a5d6ebc3443db2577d5e2cc92d",
+          "evidenceHash": "0dfcd173d74ebdddfc51ad8e9bb4043e9c679f9795576df40679db61c7ef510a"
+        }
+      ]
+    },
+    {
+      "source": "bug: Contrary to the description, Peace and Harmony doesn't cause conditions and hexes to expire 90% faster. Instead, all new conditions and hexes, applied during the enchantment, will have their duration reduced by 90%.",
+      "text": "錯誤：與技能說明不同，平靜與和諧不會讓病症與降咒加快 90% 失效；實際上，只有在此加持期間新施加的病症與降咒，持續時間才會縮短 90%。",
+      "reason": "保留 bug 標示並核對兩模式共用文字；區分加快失效與時長縮短，明確 90% 時長減少只作用於加持期間新增效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2906/variants/skill-version:gww:2906/notes/1",
+          "englishHash": "ebe31b0cd3d66dc63260452677ccc1157a3986fae8ebb651dcc42c64ba8e2b13",
+          "evidenceHash": "1a9f15d2f427d0ef3ffec4c6fb215a5a4ec1967baec0e8ba581c90bae59a2c1e"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2906/variants/skill-version:gww:321731/notes/1",
+          "englishHash": "ebe31b0cd3d66dc63260452677ccc1157a3986fae8ebb651dcc42c64ba8e2b13",
+          "evidenceHash": "b3ebd6a6c4a1b06b361e42b7a04f01b327a9221d3fd256cece753b9920515dc1"
+        }
+      ]
+    },
+    {
+      "source": "Shout. (30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal 25…33% more damage. Affected party members die when it ends, but do not receive a death penalty.",
+      "text": "戰嚎。持續 30 秒。復活音量所及範圍內所有死亡隊員，使其體力與能量全滿。受影響隊員造成的傷害提高 25…33%。效果結束時，這些隊員會死亡，但不會受到死亡懲罰。",
+      "reason": "修正黨員和死刑誤譯，保留音量所及範圍、全滿復活、25…33% 增傷與 30 秒結束後無死亡懲罰的死亡。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:64072/variants/skill-version:gww:64072/conciseDescription",
+          "englishHash": "9bfd89963ba583fc653dddfa8a5f934bb988247cec161235f735d8271e1a75a0",
+          "evidenceHash": "3659fc25db2a32845bfeb69cff163153e23534796d9a0d61f96673cf2a2d83f8"
+        }
+      ]
+    },
+    {
+      "source": "Elite Form. (10…74…90 seconds.) Deal holy damage. You lose 1 hex whenever you use a Dervish attack skill. Heal yourself for 5…41…50 Health whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+      "text": "精英型態。持續 10…74…90 秒。你造成神聖傷害。每當你使用神喚使攻擊技能，就移除自己的 1 個降咒。每當你失去神喚使加持，便為自己恢復 5…41…50 點體力。此技能會被禁用 45 秒。",
+      "reason": "修正型態與降咒用語；與 PvE 的範圍治療分開，保留 PvP 只治療自己的差異，以及使用攻擊技能的解咒條件與禁用秒數。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1308/variants/skill-version:gww:274802/conciseDescription",
+          "englishHash": "9d286410fd4b9b130e6b2269efcfc0563d1a13113dc051777a663381b41c29d1",
+          "evidenceHash": "8fb3605b65c084f211d62c6d08159b1e0b59883df2528ecfbb18539cc194a41c"
+        }
+      ]
+    },
+    {
+      "source": "* The +24 armor rating will reduce damage by ~34%; combines well with Ghost Forge Insignia for +15 armor rating to reduce damage by ~50%.\n* If Lightning Surge ends and is the last hex, the damage is still reduced.",
+      "text": "* +24 護甲可使傷害降低約 34%；搭配 Ghost Forge Insignia 額外提供的 +15 護甲，可使傷害降低約 50%。\n* 即使閃電震盪是最後一個降咒，其結束時的傷害仍會受到減免。",
+      "reason": "保留兩組護甲及近似減傷比例，不把額外 +15 誤作總值；明確最後一個降咒結束時的傷害仍減免，未知徽記名稱保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5877/variants/skill-version:gww:5877/notes/0",
+          "englishHash": "be7893d74cdd21a7a4d75931bbf381109a1b2d2c2bc91e8c7b2d1df2f0b87ca9",
+          "evidenceHash": "aab7e9c140ff6349489a41e91f23780dd6d77c905ed0094cd6e2bb3816c932f2"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. (5 seconds.) Each second while hexed, target foe and all foes adjacent to that foe take 1…8…10 damage. Foes take +1…8…10 damage each second this hex is in effect. Ends early if target foe uses a skill.",
+      "text": "降咒魔法。持續 5 秒。目標敵人及其所有緊鄰敵人每秒受到傷害，起始為 1…8…10 點；此降咒每生效一秒，每秒傷害就再增加 1…8…10 點。若目標敵人使用技能，降咒便提早結束。",
+      "reason": "明確第二組傷害是隨每個生效秒數累加，而非重複寫同一固定傷害；保留緊鄰範圍、5 秒及目標使用技能即提早結束。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1513/variants/skill-version:gww:1513/conciseDescription",
+          "englishHash": "82537a3f1fde550fe420dd4f4bcbbcdfaa71f0daf4b92d63a8a8a14252cfb7d0",
+          "evidenceHash": "49e25ee0167fd692cdea84643505a871b1c92c477132d03e509c5a392cdcef33"
+        }
+      ]
+    },
+    {
+      "source": "bug: The touched target will not necessarily have a hex removed if it is not a party member, runs out of range during cast or if there are 2…4…5 hexed party members in the party window above the target.",
+      "text": "錯誤：若觸碰的目標不是隊員、在施放期間離開範圍，或隊伍視窗中有 2…4…5 名帶有降咒的隊員排在目標上方，就不保證會移除該目標的一個降咒。",
+      "reason": "保留 bug 與不保證解咒而非必然失敗的措辭；分開非隊員、移出範圍和隊伍視窗排序三種條件，完整保留數量。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1648/variants/skill-version:gww:1648/notes/3",
+          "englishHash": "e7cb03be7ad350653a3de1c0e143161e840f0b2641c962c70365be0083703b9f",
+          "evidenceHash": "1ae19c3960bd1ae9394d5399538cb78b61c92ab52d10173932e79af692bf5804"
+        }
+      ]
+    },
+    {
+      "source": "Similar to other enchantments that target a foe, foes affected by Well of the Profane or spirits cannot be targeted by this enchantment.\nWhen Overcast, Magnetic Surge is applied to party members only.",
+      "text": "與其他以敵人為目標的加持相同，此加持無法指定受到褻瀆之池影響的敵人，也無法指定精靈。\n過載時，Magnetic Surge 只會對隊員施加加持。",
+      "reason": "修正原譯把精靈當成影響敵人的效果；精靈本身不能被指定，與褻瀆之池影響者並列。將陰天改為過載，保留只作用於隊員的異常。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51877/variants/skill-version:gww:51877/notes/0",
+          "englishHash": "9711db937405e97d03168b5fb947fc5e4155e632bf2f98f4c69a51e12f1d30cf",
+          "evidenceHash": "0829f8715afd9e316df147711f03319f7c648129007dcc85537c8b978ba7744f"
+        }
+      ]
+    },
+    {
+      "source": "* The AI will use this as a general hex removal skill, it does not prioritize targets with foes in range.\n** Heroes will run into range of enemies to trigger the damage before self-casting this skill.",
+      "text": "* AI 會將此技能當作一般解咒技能使用，不會優先選擇附近有敵人的目標。\n** 英雄對自己施放前，會先跑到能讓此技能的傷害波及敵人的距離內。",
+      "reason": "保留一般 AI 不優先選擇有敵人在範圍內的目標，以及英雄自施前先移動的特例；避免現譯讓傷害看似早於施法發生。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13889/variants/skill-version:gww:13889/notes/0",
+          "englishHash": "dc0b782166cfb7d4f5f03425f9d00fb5bac630444f00f41315d2af6c369289e1",
+          "evidenceHash": "2204e8587336fdbe6354cc8b8ade85d7edbf99b61eeae3228fbf86d1137b7676"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: If the hex is reapplied before it ends, Wastrel's Demise will continue to add up the bonus damage until the first hex would have run out. After that, the bonus damage cycle will start over.",
+      "text": "異常：若在降咒結束前重新施加，瓦斯崔之死仍會持續累加額外傷害，直到第一個降咒原本應結束的時間。之後，額外傷害的累加週期才會重新開始。",
+      "reason": "修正第一個十六進位用完等誤譯；精確保留重施不立即重置增傷，而要到原先降咒的截止時間才重啟累加的異常。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1513/variants/skill-version:gww:1513/notes/1",
+          "englishHash": "7785f968f2b32071f30527655d869c544c89acd9923a243fcda1e0b890a805d9",
+          "evidenceHash": "49e25ee0167fd692cdea84643505a871b1c92c477132d03e509c5a392cdcef33"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. (5…33…40 seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. If target foe's Energy drops to 0, Mind Wrack ends and that foe takes 15…83…100 damage.",
+      "text": "降咒魔法。持續 5…33…40 秒。敵人每次成為你非降咒類幻術師技能的目標時，就失去 1 點能量。若目標敵人的能量降至 0，心靈破壞便結束，且該敵人受到 15…83…100 點傷害。",
+      "reason": "保留 PvP 只有每次 1 點能量流失及歸零傷害，沒有加入 PvE 的每點能量額外傷害；修正非十六進位為非降咒類。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1483/variants/skill-version:gww:285394/conciseDescription",
+          "englishHash": "6068767303a9d55ba750ef40f2f03ef67c1948c4839bc65bd56b7c2f820e2ed0",
+          "evidenceHash": "4c6481a75bfd1c6c79229e399f4081391caaa845f674809536fa1cdad725d739"
+        }
+      ]
+    },
+    {
+      "source": "Flash Enchantment Spell. (30 seconds.) Your attacks deal cold damage. Initial effect: hits nearby foes for 10…34…40 cold damage. End effect: transfers 1…2…2 conditions to all nearby foes.",
+      "text": "閃現加持魔法。持續 30 秒。你的攻擊造成冰凍傷害。初始效果：對附近敵人造成 10…34…40 點冰凍傷害。結束效果：將你身上的 1…2…2 個病症轉移給附近所有敵人。",
+      "reason": "修正快閃記憶體與冷傷害用語；保留攻擊傷害類型、初始傷害與結束時轉移病症三個效果，明確病症來自使用者且波及所有附近敵人。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14084/variants/skill-version:gww:14084/conciseDescription",
+          "englishHash": "6d1e8b964ee27528a897380b6534c6cc9d1629cf72eab82869d22d9760e7e682",
+          "evidenceHash": "59eddc7e56f259f61dbbf11c2b31b1a500fbdaba0b29feb7010bf21911712f1b"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. Target ally loses 0…7…9 conditions and hex[es]. Conditions and hexes expire 90% faster on that ally (1…3…3 seconds). Disables your Smiting Prayers (20 seconds).",
+      "text": "精英加持魔法。移除目標盟友身上合計 0…7…9 個病症與降咒。在接下來的 1…3…3 秒內，該盟友的病症與降咒加快 90% 失效。禁用你所有懲戒祈禱技能 20 秒。",
+      "reason": "依固定備註的交替移除機制，明確數量為病症與降咒合計，移除英文複數殘留；短文忠實保留加快失效的說明，實際時長錯誤另由 bug 欄位說明。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2906/variants/skill-version:gww:2906/conciseDescription",
+          "englishHash": "a9ffdcc3cc14850247e73b09afad60f2b1dab18cae25992be04ad69a9d825739",
+          "evidenceHash": "1a9f15d2f427d0ef3ffec4c6fb215a5a4ec1967baec0e8ba581c90bae59a2c1e"
+        }
+      ]
+    },
+    {
+      "source": "Elite Enchantment Spell. Target ally loses 0…3…4 conditions and hex[es]. Conditions and hexes expire 90% faster on that ally (1…3…3 seconds). Disables your Smiting Prayers (20 seconds).",
+      "text": "精英加持魔法。移除目標盟友身上合計 0…3…4 個病症與降咒。在接下來的 1…3…3 秒內，該盟友的病症與降咒加快 90% 失效。禁用你所有懲戒祈禱技能 20 秒。",
+      "reason": "核對 PvP 只移除合計 0…3…4 個效果，與 PvE 數量分開；保留 1…3…3 秒、90% 及懲戒祈禱禁用 20 秒，機制 bug 由獨立欄位保留。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2906/variants/skill-version:gww:321731/conciseDescription",
+          "englishHash": "b9c31b12170bc9e602b37af6fd87e76dd5cc3554fa4cc7e08d527dbba63e8ae5",
+          "evidenceHash": "b3ebd6a6c4a1b06b361e42b7a04f01b327a9221d3fd256cece753b9920515dc1"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. (30 seconds.) Resurrects target party member (full Health, full Energy). This ally deals 25% more damage and does not incur death penalty. End effect: this ally dies.",
+      "text": "加持魔法。持續 30 秒。復活指定隊員，使其體力與能量全滿。該盟友造成的傷害提高 25%，且不會受到死亡懲罰。結束效果：該盟友死亡。",
+      "reason": "將死刑修正為死亡懲罰，保留全滿復活、25% 增傷和加持結束時死亡；沒有將一般免死亡懲罰限制為只有結束時才適用。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2785/variants/skill-version:gww:2785/conciseDescription",
+          "englishHash": "ef6cada13d0f9fd2add730fa550e329b1642b327881364d57084b694bad3ad0b",
+          "evidenceHash": "a18ec64310258dafabb5beb6c47fa3b8ce23674f3bc464b21e74a12e5a41f434"
+        }
+      ]
+    },
+    {
+      "source": "Flash Enchantment Spell. (20 seconds.) You deal 5…21…25 less damage and steal 5…21…25 Health when you hit with a scythe. Initial effect: steal 5…21…25 Health from all adjacent foes.",
+      "text": "閃現加持魔法。持續 20 秒。你以鐮刀命中時，造成的傷害減少 5…21…25 點，並偷取 5…21…25 點體力。初始效果：從所有緊鄰敵人各偷取 5…21…25 點體力。",
+      "reason": "修正閃現加持術語；區分鐮刀命中的減傷與偷取體力，以及施放當下對所有緊鄰敵人的偷取效果，保留三組相同數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51909/variants/skill-version:gww:51909/conciseDescription",
+          "englishHash": "b68ebca147b612608a2d7d4447aaa0bdb14ee35d8828e204aa8d7d9146b35774",
+          "evidenceHash": "0b270e9dfbd420cb387d23da3376cba1e53870d4aa4b7031950b5814d14b57fc"
+        }
+      ]
+    },
+    {
+      "source": "Flash Enchantment Spell. (1…5…6 seconds.) You move 33% faster. Deal 10…50…60 cold damage to all other nearby foes the next time you hit a foe and this enchantment ends.",
+      "text": "閃現加持魔法。持續 1…5…6 秒。你的移動速度提高 33%。下次命中敵人時，對附近所有其他敵人造成 10…50…60 點冰凍傷害，並結束此加持。",
+      "reason": "修正快閃記憶體誤譯；保留命中才觸發、傷害排除被命中的原目標、附近範圍與隨後加持結束，核對 PvE 傷害數值。 附近範圍不自行指定中心，保留簡述原文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14397/variants/skill-version:gww:14397/conciseDescription",
+          "englishHash": "3c15b43775e10ee73a046f3fbd59be604537dbeb96780ba9ba173b40e7ed45a2",
+          "evidenceHash": "440e7d039b810d17bdddf8f219a06a0bbb8b752cf512253405f243968e9f7cdd"
+        }
+      ]
+    },
+    {
+      "source": "Flash Enchantment Spell. (1…5…6 seconds.) You move 33% faster. Deal 10…42…50 cold damage to all other nearby foes the next time you hit a foe and this enchantment ends.",
+      "text": "閃現加持魔法。持續 1…5…6 秒。你的移動速度提高 33%。下次命中敵人時，對附近所有其他敵人造成 10…42…50 點冰凍傷害，並結束此加持。",
+      "reason": "對照 PvP 獨立來源保留 10…42…50 傷害，未混用 PvE 值；保留移速、命中觸發、其他附近敵人與加持結束的時序。 附近範圍不自行指定中心，保留簡述原文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14397/variants/skill-version:gww:321801/conciseDescription",
+          "englishHash": "56c1862fa535f335cd0cad718cd8ffb8dfd28a6d9698cad09147326dec57ff12",
+          "evidenceHash": "d3a3cee670f07cddc518633ae3b35caf0d179b95fb2d4147dde700e6c41392aa"
+        }
+      ]
+    },
+    {
+      "source": "For 10 seconds, target foe and adjacent foes take 15…39…45 damage whenever they use a skill and 5…41…50 additional damage if not under the effects of another Mesmer hex",
+      "text": "持續 10 秒。目標敵人與緊鄰敵人每次使用技能時，受到 15…39…45 點傷害；若未受到其他幻術師降咒影響，還會受到 5…41…50 點額外傷害。",
+      "reason": "修正十六進位與緊鄰範圍用語；保留每次使用技能的觸發與沒有另一個幻術師降咒才追加傷害的否定條件，完整保留 PvE 數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1510/variants/skill-version:gww:1510/effects/growth:0:var1/condition",
+          "englishHash": "02fad7099e5ea276fa07f4e8f3ab0275fc9b089abd3d8de86f5cc822b87f8eb3",
+          "evidenceHash": "0faf2387c821c4942f5c832d0ec126d92cd32640f433cc4e7032c5102aeaadef"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1510/variants/skill-version:gww:1510/effects/growth:0:var2/condition",
+          "englishHash": "02fad7099e5ea276fa07f4e8f3ab0275fc9b089abd3d8de86f5cc822b87f8eb3",
+          "evidenceHash": "0faf2387c821c4942f5c832d0ec126d92cd32640f433cc4e7032c5102aeaadef"
+        }
+      ]
+    },
+    {
+      "source": "For 10 seconds, target foe and adjacent foes take 10…26…30 damage whenever they use a skill and 5…33…40 additional damage if not under the effects of another Mesmer hex",
+      "text": "持續 10 秒。目標敵人與緊鄰敵人每次使用技能時，受到 10…26…30 點傷害；若未受到其他幻術師降咒影響，還會受到 5…33…40 點額外傷害。",
+      "reason": "獨立核對 PvP 的基礎與額外傷害，保留 10 秒及沒有其他幻術師降咒的條件，沒有沿用 PvE 較高數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1510/variants/skill-version:gww:268907/effects/growth:0:var1/condition",
+          "englishHash": "89370868762204b41ede6bfd2ffb9a6d7a249543ca57576f9b0148b50706498c",
+          "evidenceHash": "3bbe08b8911da7957730f9d2ab679e99dbdb4541b5c26f942d3c4d4f71d727e5"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1510/variants/skill-version:gww:268907/effects/growth:0:var2/condition",
+          "englishHash": "89370868762204b41ede6bfd2ffb9a6d7a249543ca57576f9b0148b50706498c",
+          "evidenceHash": "3bbe08b8911da7957730f9d2ab679e99dbdb4541b5c26f942d3c4d4f71d727e5"
+        }
+      ]
+    },
+    {
+      "source": "Elite Ward Spell. (6…17…20 seconds.) Allies in this ward cast spells 15…19…20% faster and recharge skills 15…19…20% faster. Allied spirits are not affected. PvE Skill",
+      "text": "精英結界魔法。持續 6…17…20 秒。結界內盟友的法術施放時間縮短 15…19…20%，技能冷卻時間縮短 15…19…20%。友方精靈不受影響。PvE 技能。",
+      "reason": "修正病房為結界；固定修訂 2738635 將兩效果列為 Decreased Activation Time 與 Decreased Recharge Time，備註也以冷卻時間縮短計算常駐條件，因此明確譯為時間縮短，與同源 catalog 一致；保留精靈排除與 PvE 限制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313296/variants/skill-version:gww:313296/conciseDescription",
+          "englishHash": "63ef8159cd8b51e91ca3a822cd40d1980f41f771726329761c9471b3b8535fef",
+          "evidenceHash": "b5a5b6499f5612879c912bcbb240ec1f55dbeb7935a86c6f73f9660007da5e20"
+        }
+      ]
+    },
+    {
+      "source": "Flash Enchantment Spell. (1…13…16 seconds.) Blocks the next 1 attack against you. Knocks down and inflicts Weakness (5…17…20 seconds) on all adjacent attacking foes.",
+      "text": "閃現加持魔法。持續 1…13…16 秒。格擋接下來 1 次對你的攻擊。格擋後，擊倒所有緊鄰且正在攻擊的敵人，並使其受到虛弱，持續 5…17…20 秒。",
+      "reason": "修正阻止為格擋；依同修訂完整說明補清格擋後才觸發，且只影響緊鄰、正在攻擊的敵人，5…17…20 秒是虛弱而非擊倒時長。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51894/variants/skill-version:gww:51894/conciseDescription",
+          "englishHash": "e61644a6adf62e0f98b435d8314d9fd8714a5f2fc2ddc96da8d22c22a27cbda5",
+          "evidenceHash": "335b6de1d1947b1e11682dd594c08c0d54b9318f13e7245a065dfa6733361766"
+        }
+      ]
+    },
+    {
+      "source": "For 5…33…40 seconds, whenever this foe is the target of any of your non-hex Mesmer skills, that foe loses 1 Energy and takes 5…21…25 damage per point of Energy lost",
+      "text": "持續 5…33…40 秒。每當該敵人成為你任何非降咒類幻術師技能的目標，就失去 1 點能量；每因此失去一點能量，便受到 5…21…25 點傷害。",
+      "reason": "修正非十六進位為非降咒類；保留必須是你的幻術師技能、每次失去 1 點能量及按流失點數計傷，不加入此段英文未列出的結束效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1483/variants/skill-version:gww:1483/effects/growth:0:var1/condition",
+          "englishHash": "e9ad691fe6a819d7f5170c5154c1f06bbfe38113d8618ab5bc89be22b6746e3c",
+          "evidenceHash": "ce4b1e100d7f0b288295183c316b92cc285784a644a9ff9de9b030fc346dfedb"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1483/variants/skill-version:gww:1483/effects/growth:0:var2/condition",
+          "englishHash": "e9ad691fe6a819d7f5170c5154c1f06bbfe38113d8618ab5bc89be22b6746e3c",
+          "evidenceHash": "ce4b1e100d7f0b288295183c316b92cc285784a644a9ff9de9b030fc346dfedb"
+        }
+      ]
+    },
+    {
+      "source": "Enchantment Spell. (5…9…10 seconds.) Removes one hex from target ally. The next damage this ally takes is reduced by 5…41…50. No effect unless this ally is hexed.",
+      "text": "加持魔法。持續 5…9…10 秒。移除目標盟友的一個降咒，並使該盟友下一次受到的傷害減少 5…41…50 點。若該盟友沒有降咒，此技能便無效。",
+      "reason": "修正因數值而減少的生硬誤譯，明確為下一次傷害減去固定點數；保留有降咒才生效及加持時長。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13129/variants/skill-version:gww:13129/conciseDescription",
+          "englishHash": "36a9032ed5217cac742fbaed929e5e1869a6b4855eb0df17f60f875aa63f4fdc",
+          "evidenceHash": "0c1549faf8386c5835a161742c1c411ab026d5693c56c6d8313cf8730084adcc"
+        }
+      ]
+    },
+    {
+      "source": "If target foe is not under the effects of an enchantment when this hex is applied, that foe takes 10…82…100 damage and all adjacent foes take 75% of that damage",
+      "text": "施加此降咒時，若目標敵人未受到加持影響，該敵人便受到 10…82…100 點傷害，所有緊鄰敵人則受到該傷害的 75%。",
+      "reason": "核對兩模式共用原文；明確在降咒施加當下檢查加持，75% 作用於原目標傷害，而非額外增加 75%。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:1476/effects/growth:0:var2/condition",
+          "englishHash": "a1684529c9161db35b1ef7f3b7d71547a9db822ed2c2242281a1885767661ce5",
+          "evidenceHash": "27ce48c8e4b805b489cb90072d55d95046690e23580f0b0ea23a9eb1645cbed8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:253948/effects/growth:0:var2/condition",
+          "englishHash": "a1684529c9161db35b1ef7f3b7d71547a9db822ed2c2242281a1885767661ce5",
+          "evidenceHash": "33616332144a51f084c1982c345452e2cb50cd15a70bb065354ae3ce65cb8170"
+        }
+      ]
+    },
+    {
+      "source": "* When used with Anguished Was Lingwah, this hex will last for 12 seconds.\nUnlike other hexes that affect the caster, this hex does not end if the caster dies.",
+      "text": "* 搭配痛苦者琳葳使用時，此降咒會持續 12 秒。\n與其他會影響施法者的降咒不同，即使施法者死亡，此降咒也不會結束。",
+      "reason": "修正十六進位和巫術為降咒；保留搭配技能後 12 秒及施法者死亡仍存續的異常，不將影響施法者誤成施加在施法者身上。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6455/variants/skill-version:gww:6455/notes/0",
+          "englishHash": "add8f75db320fedeafafc7b5a05fbda89d0300c0d9d895817cba5555fcb56537",
+          "evidenceHash": "9bca8bae2eaeeef9912fdf178695f25ec9a66ea482e0bab07568390b5e710977"
+        }
+      ]
+    },
+    {
+      "source": "Spell. Projectile: deals 40…50 damage to target and adjacent foes. Deals 45…70 more damage and inflicts Cracked Armor condition (14…20 seconds) to Destroyers.",
+      "text": "咒文魔法。投射物：對目標及緊鄰敵人造成 40…50 點傷害。對毀滅者額外造成 45…70 點傷害，並施加 Cracked Armor 病症，持續 14…20 秒。",
+      "reason": "修正 Destroyers 的驅逐艦誤譯為毀滅者；保留投射物、緊鄰傷害及只對毀滅者的額外傷害與病症，未證實中文病症名保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:63802/variants/skill-version:gww:63802/conciseDescription",
+          "englishHash": "83f51b1939120624e1e9abc3fc91f3e77b723cb5ace72cbf1f7fd5d2eb2abf6f",
+          "evidenceHash": "410b9421889ff0aab8a9c7a10ad48ef97b44e64f92a075deb5a2b073395733a1"
+        }
+      ]
+    },
+    {
+      "source": "Skill. You gain 0…64…80 Health and lose one hex and one condition for each enchantment on you (maximum 1…7…8 hexes and conditions). You lose all enchantments.",
+      "text": "技能。你身上每有一項加持，就獲得 0…64…80 點體力，並移除一個降咒與一個病症；最多移除 1…7…8 個降咒與病症。你會失去所有加持。",
+      "reason": "修正魅力為加持；保留每項加持分別給予體力、移除一咒及一病症，與獨立移除上限，不將全部加持損失誤作只移除部分。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2900/variants/skill-version:gww:2900/conciseDescription",
+          "englishHash": "4017dedd7d97fcd393c3fbad2f30671ef0bb9e4ad3a77cc58a2d3a7bf9e939da",
+          "evidenceHash": "d1ddd9db74e9073047cf161da69219f3cf7cb73fe070c959d645d18732ed40c2"
+        }
+      ]
+    },
+    {
+      "source": "* 50% slower attack speed means that the damage output of the hexed target (that deals damage with attacks and attack skills) is expected to decrease by 33%.",
+      "text": "* 攻擊速度減慢 50%，表示帶有此降咒、以一般攻擊及攻擊技能造成傷害的目標，其預期傷害輸出會降低 33%。",
+      "reason": "保留原文將攻擊減慢 50% 對應預期輸出下降 33% 的說明，不擅自改成輸出減半；限定對象以攻擊及攻擊技能造成傷害。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15393/variants/skill-version:gww:15393/notes/0",
+          "englishHash": "f215f1cf3f1e37c2e6618c0c9f7ded79b09e757e6cf7e1742f2666bbe9dc4b18",
+          "evidenceHash": "889716d38acfb639f9c327a786c59113238bafbcf74fe9608cb97e700770b350"
+        }
+      ]
+    },
+    {
+      "source": "For 10 seconds, target foe and adjacent foes take ◆ damage whenever they use a skill and ◆ additional damage if not under the effects of another Mesmer hex",
+      "text": "持續 10 秒。目標敵人與緊鄰敵人每次使用技能時，受到 ◆ 點傷害；若未受到其他幻術師降咒影響，還會受到 ◆ 點額外傷害。",
+      "reason": "核對兩模式共用占位文字；補回現譯遺漏的第二個 ◆，分別保留基礎與條件額外傷害，不以固定數值取代動態占位。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1510/variants/skill-version:gww:1510/effects/fixed:3/condition",
+          "englishHash": "0354c201212191c01e70bda2888fba1db8f3824abc40a05c66bcca8d700e72e1",
+          "evidenceHash": "0faf2387c821c4942f5c832d0ec126d92cd32640f433cc4e7032c5102aeaadef"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1510/variants/skill-version:gww:268907/effects/fixed:2/condition",
+          "englishHash": "0354c201212191c01e70bda2888fba1db8f3824abc40a05c66bcca8d700e72e1",
+          "evidenceHash": "3bbe08b8911da7957730f9d2ab679e99dbdb4541b5c26f942d3c4d4f71d727e5"
+        }
+      ]
+    },
+    {
+      "source": "* The hex will apply even if the interruption effect is prevented.\n* This skill causes a net energy loss of 2.67...6...6.67 if it lasts its full duration.",
+      "text": "* 即使打斷效果被阻止，仍會施加降咒。\n* 若效果持續完整時間，此技能會造成 2.67...6...6.67 點淨能量損失。",
+      "reason": "修正中斷與十六進位用語；保留打斷失敗不阻止降咒，以及完整持續才達到的淨能量損失，逐字保留小數數列。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1492/variants/skill-version:gww:1492/notes/0",
+          "englishHash": "26a488c158099b3c6c2ed3e87f270ea127166a4e25df4c590fab9ce3a0cd4059",
+          "evidenceHash": "9e37a4ff8fac1bfc7bbdf0a20598a3910e229e8979258017dcb8b1723572edda"
+        }
+      ]
+    },
+    {
+      "source": "Ward Spell. (5 seconds.) Causes -4…6 Health degeneration to foes in the area. End effect: inflicts Disease condition (12…20 seconds) to foes in the area.",
+      "text": "結界魔法。持續 5 秒。使區域內敵人受到 -4…6 體力衰減。結束效果：使區域內敵人受到疾病病症，持續 12…20 秒。",
+      "reason": "修正病房為結界；保留原文負號數列 -4…6 及 5 秒，分開持續期間的體力衰減與結束時的 12…20 秒疾病。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:58306/variants/skill-version:gww:58306/conciseDescription",
+          "englishHash": "7740afdbcc6a8687fafd5dfb4dbe6e073ee9de818d797d3fbf1987c47389e661",
+          "evidenceHash": "3e36928ab061e37def19dac0cf5f40fc73bed7fd2ec9e56a93e60733cce78b3c"
+        }
+      ]
+    },
+    {
+      "source": "Elite Hex Spell. (30 seconds.) Every time target foe is healed, the healer takes 20…68…80 damage. Ends if target is suffering from a Smiting Prayers hex.",
+      "text": "精英降咒魔法。持續 30 秒。目標敵人每次接受治療，治療者就受到 20…68…80 點傷害。若目標受到懲戒祈禱降咒影響，此降咒便結束。",
+      "reason": "明確傷害由治療者承受，而非被治療的敵人；保留每次治療觸發、30 秒及懲戒祈禱降咒使效果結束的條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4310/variants/skill-version:gww:4310/conciseDescription",
+          "englishHash": "49170cc4a067ae815967023f2ee319a367e8b57fb2731a15b422d4285aede93e",
+          "evidenceHash": "b9eeee87266703a1fa6fe66c3281135d8087bd743841c91acde28b757754f015"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. Causes -1…4…5 Health degeneration (10 seconds). Initial effect: deals 10…54…65 cold damage. Hex is only applied if target foe has a condition.",
+      "text": "降咒魔法。造成 -1…4…5 體力衰減，持續 10 秒。初始效果：造成 10…54…65 點冰凍傷害。只有目標敵人帶有病症時，才會施加降咒。",
+      "reason": "修正降咒與冰凍傷害術語，保留原負號衰減數列；將初始傷害與只在目標已有病症時才施加的降咒分清。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16016/variants/skill-version:gww:16016/conciseDescription",
+          "englishHash": "dcf3b3c329922feea068d426f2667fa86d5db3d8bf5d168b64ad188962213814",
+          "evidenceHash": "08a682a97445e89d182b5a68e8a657fe86c5696c59f4fd28ffa58c1ce2760bbe"
+        }
+      ]
+    },
+    {
+      "source": "If target foe is not under the effects of an enchantment when this hex is applied, that foe takes ◆ damage and all adjacent foes take 75% of that damage",
+      "text": "施加此降咒時，若目標敵人未受到加持影響，該敵人便受到 ◆ 點傷害，所有緊鄰敵人則受到該傷害的 75%。",
+      "reason": "核對四個占位綁定均使用同一英文；保留 ◆、施咒當下沒有加持的條件與緊鄰敵人承受 75% 的比例。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:1476/effects/fixed:4/label",
+          "englishHash": "fb408f0bb60d98d83a7b41be7850c72a3da2824728559b87ab2d50566727bc9d",
+          "evidenceHash": "27ce48c8e4b805b489cb90072d55d95046690e23580f0b0ea23a9eb1645cbed8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:253948/effects/fixed:4/label",
+          "englishHash": "fb408f0bb60d98d83a7b41be7850c72a3da2824728559b87ab2d50566727bc9d",
+          "evidenceHash": "33616332144a51f084c1982c345452e2cb50cd15a70bb065354ae3ce65cb8170"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:1476/effects/fixed:4/condition",
+          "englishHash": "fb408f0bb60d98d83a7b41be7850c72a3da2824728559b87ab2d50566727bc9d",
+          "evidenceHash": "27ce48c8e4b805b489cb90072d55d95046690e23580f0b0ea23a9eb1645cbed8"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1476/variants/skill-version:gww:253948/effects/fixed:4/condition",
+          "englishHash": "fb408f0bb60d98d83a7b41be7850c72a3da2824728559b87ab2d50566727bc9d",
+          "evidenceHash": "33616332144a51f084c1982c345452e2cb50cd15a70bb065354ae3ce65cb8170"
+        }
+      ]
+    }
+  ]
+}

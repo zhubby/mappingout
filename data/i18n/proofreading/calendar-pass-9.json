@@ -1,0 +1,532 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "* 5,000 Experience\n* 1,000 Gold\n* 2,500 Kurzick Faction\n* 2,500 Luxon Faction\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 2,500 庫茲柯陣營值\n* 2,500 勒克森陣營值\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "沉睡之水固定獎勵同時列出兩陣營各 2,500 點，不能擇一。將銅幣數量明確寫成完成目標後的獎勵，保留基本 30 與額外 45、75，並將 faction 寫為陣營值。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206186/rewards","englishHash":"9fa6282d2e59cbbc80e0ff8b6a50f5642a8c9d51bbfa2c8e00e23c523b85e17b","evidenceHash":"2ba26f6c9990ab7779dfadc05b85cc016de3c8eb5f87313af81b0f0f0c26a108"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience\n* 1,000 Gold\n* 500 Sunspear Promotion Points\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 500 日戟晉升點數\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "逐頁核對 Pogahn Passage、達沙走廊及薩崗諾稜堡的相同獎勵；修正 Sunspear Promotion 的促銷誤譯為日戟晉升點數，保留 500 點與 30／45／75 枚銅幣的基本及額外關係。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:275616/rewards","englishHash":"9c18c5f8bb2552187bfa9f1363ff09c5f57ed8ab0fbc30a043a17e71a3803c4d","evidenceHash":"76ba7164124b12c4ce10f2b23f27d7bd2cc7f6476acefcedc3ad794013be36d6"},
+        {"dataset":"calendar","key":"activities/activity:gww:201968/rewards","englishHash":"9c18c5f8bb2552187bfa9f1363ff09c5f57ed8ab0fbc30a043a17e71a3803c4d","evidenceHash":"13b68fe8a909741bffe5afa92b6428edf8fe7d2be99e1f2baac2112065fe1311"},
+        {"dataset":"calendar","key":"activities/activity:gww:200881/rewards","englishHash":"9c18c5f8bb2552187bfa9f1363ff09c5f57ed8ab0fbc30a043a17e71a3803c4d","evidenceHash":"3072fbcdfb51b81644ea61edb2f45e9ace7999b0183aefbde7a6095d9441053a"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience \n* 1,000 Gold \n* 500 Lightbringer points \n* Complete the Base Objective for 30 Zaishen Copper Coins. \n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins. \n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 500 光明點數\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "納度灣固定頁獎勵是 500 光明點數而非日戟點數；依 Lightbringer rank 統一名稱，保留經驗、金幣及基本 30、兩項額外 45／75 枚銅幣，不把銅幣誤寫成任務目標。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204217/rewards","englishHash":"ad6837268a50f8a1a80cccd8bbf3194667d004cc2f4e15dfa4023b7fa8ff734c","evidenceHash":"a6a3e70a898b3a5d573c97b9c7f3663418d8e75a7d8c654ab53cd6c64e280a77"}
+      ]
+    },
+    {
+      "source": "* 1,000 Experience\n* 250 Gold\n* 100 Sunspear Promotion Points\n* Complete the Base Objective for 15 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.",
+      "text": "* 1,000 經驗值\n* 250 金幣\n* 100 日戟晉升點數\n* 完成基本目標可獲得 15 枚戰承銅幣。\n* 完成第一項額外目標可另獲 22 枚戰承銅幣。\n* 完成第二項額外目標可另獲 37 枚戰承銅幣。",
+      "reason": "核對 Blacktide Den、Chahbek Village、Consulate Docks 及 Jokanur Diggings 四頁；翻譯殘留的 Sunspear Promotion Points，保留 1,000 經驗、250 金幣、100 晉升點數與 15／22／37 銅幣，不將 22 或 37 改成累計數。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199395/rewards","englishHash":"227902390e016ec3a21c3c114f9fdfa76cce8e7c84ee9a060af79bceac57adc7","evidenceHash":"80eef21bbfdd7f569e9dbe00274a1d7dd3af8e41168ece4d53608dfe2f8d2a07"},
+        {"dataset":"calendar","key":"activities/activity:gww:204575/rewards","englishHash":"227902390e016ec3a21c3c114f9fdfa76cce8e7c84ee9a060af79bceac57adc7","evidenceHash":"391c921eecb2d61d3cba5a12a84ee149968d8476357ba6c716d2bcb225e6aa74"},
+        {"dataset":"calendar","key":"activities/activity:gww:200279/rewards","englishHash":"227902390e016ec3a21c3c114f9fdfa76cce8e7c84ee9a060af79bceac57adc7","evidenceHash":"6f166b910b07d2abcb8838b6b75785f14e33e7093a1ad4224a757b892bad4572"},
+        {"dataset":"calendar","key":"activities/activity:gww:203119/rewards","englishHash":"227902390e016ec3a21c3c114f9fdfa76cce8e7c84ee9a060af79bceac57adc7","evidenceHash":"38f0cecf34c5b13fef733b5020ae514a45a725a6f43742c263f2f61e8aaef171"}
+      ]
+    },
+    {
+      "source": "* 3,000 Experience\n* 500 Gold\n* 300 Sunspear Promotion Points\n* Complete the Base Objective for 20 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.",
+      "text": "* 3,000 經驗值\n* 500 金幣\n* 300 日戟晉升點數\n* 完成基本目標可獲得 20 枚戰承銅幣。\n* 完成第一項額外目標可另獲 30 枚戰承銅幣。\n* 完成第二項額外目標可另獲 50 枚戰承銅幣。",
+      "reason": "逐頁核對里歐恩難民營、摩多克裂縫、凡特墓地、提哈克果園及科登諾路口；將促銷積分改為日戟晉升點數，保留 300 點及基本 20、額外 30／50 枚銅幣。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:216074/rewards","englishHash":"9fc2f2b744714ec750e099eb6b04c46b54756b91131f476506a02a54f08f55ea","evidenceHash":"a78138d3c27e8d7f66682d8ad0a8bf5d431eeda97e19a6be8632dbcb309f01be"},
+        {"dataset":"calendar","key":"activities/activity:gww:202816/rewards","englishHash":"9fc2f2b744714ec750e099eb6b04c46b54756b91131f476506a02a54f08f55ea","evidenceHash":"3e97bdbc4e69366b55f85e5d424b987e8ca1d7c15313f20299377f7c6053e984"},
+        {"dataset":"calendar","key":"activities/activity:gww:201491/rewards","englishHash":"9fc2f2b744714ec750e099eb6b04c46b54756b91131f476506a02a54f08f55ea","evidenceHash":"fbbcd50a5d589ee52bd37d74c7876c4c3f8f956200278302957315d30f83493a"},
+        {"dataset":"calendar","key":"activities/activity:gww:204891/rewards","englishHash":"9fc2f2b744714ec750e099eb6b04c46b54756b91131f476506a02a54f08f55ea","evidenceHash":"cb1e5925e914fe831715eefc408a8886814f4bada8f8fc1b8d0e19a2bd48cb1d"},
+        {"dataset":"calendar","key":"activities/activity:gww:205730/rewards","englishHash":"9fc2f2b744714ec750e099eb6b04c46b54756b91131f476506a02a54f08f55ea","evidenceHash":"ab012d8bb291f3f88fd7b6e82bbb228abf845461bce1b83e139e9cb7690b138c"}
+      ]
+    },
+    {
+      "source": "* Scout the enemy territory north of the Great Northern Wall and assess the strength of the Charr army.\n* *BONUS* Find and return the four pieces of Kilnn Testibrie's armor to his tomb.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 偵察北方長城以北的敵方領土，評估夏爾軍隊的實力。\n* *額外目標* 找齊 Kilnn Testibrie 的四件護甲，並送回他的墓地。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "核對偵察位置在長城以北、四件護甲均須尋回並送往墓地；使用可信北方長城名稱，保留未知中文姓名，將 See 的查閱誤譯改為向 NPC 領獎。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:213796/objective","englishHash":"f57c470cb111028441c667e04b33cdf5d372690063bfaa965f11e0b1257d973e","evidenceHash":"28eaec35b4bc5b60cbad04120c7fb2ce4a9a037ff70e75abf473e2d74fc9e6b8"}
+      ]
+    },
+    {
+      "source": "* Take Melonni to investigate the deaths of workers at the Jokanur Diggings in the ruins of Fahranur, the First City.\n* *BONUS* Complete the mission with two Sunspear Ghosts left alive.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶梅隆妮前往舊城 法蘭努爾的廢墟，調查卓坎諾挖掘點工人的死亡事件。\n* *額外目標* 完成戰鬥任務時，須有兩名 Sunspear Ghost 存活。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Take 是帶英雄同行，不是使用人物；依中文來源恢復兩處地名。目標原文列兩名 Sunspear Ghost，而同頁 bug 備註指出 Kahdash 也計數、實際須三名存活；本欄保留固定目標原文的兩名，差異另列證據。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203119/objective","englishHash":"564f09060e2bc043086ab41d7ab533da9306491fd13e932efcd75393f74eeb52","evidenceHash":"38f0cecf34c5b13fef733b5020ae514a45a725a6f43742c263f2f61e8aaef171"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience\n* 1,000 Gold\n* 500 Lightbringer Points\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 500 光明點數\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "核對希貝克大宮廷、瘋狂之門、摩拉廢墟、徵納群落及亞霸頓之門五頁；翻譯殘留的 Lightbringer Points，保留 500 光明點數及三階段 30／45／75 枚銅幣。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203750/rewards","englishHash":"ecd2dcf0f611c2de9b82a79df57f53a5cd34986a254a9784ff68551453ef7767","evidenceHash":"3c6d8e1fac735bca98aeae65b31f3ff304e18171ebb1629aa5ed428c67a56682"},
+        {"dataset":"calendar","key":"activities/activity:gww:208557/rewards","englishHash":"ecd2dcf0f611c2de9b82a79df57f53a5cd34986a254a9784ff68551453ef7767","evidenceHash":"78a796641e6c8f82f11d9bcdb39d7d81eda90b0fb17d7635aeb3afaf7eb085d1"},
+        {"dataset":"calendar","key":"activities/activity:gww:206289/rewards","englishHash":"ecd2dcf0f611c2de9b82a79df57f53a5cd34986a254a9784ff68551453ef7767","evidenceHash":"ab5171e604de4c3bec722f52e25850837403c360a7e6f7948e9a209ad3029fab"},
+        {"dataset":"calendar","key":"activities/activity:gww:206563/rewards","englishHash":"ecd2dcf0f611c2de9b82a79df57f53a5cd34986a254a9784ff68551453ef7767","evidenceHash":"bbd7599a882a90d9b996863f12dc3241e77bf7ffe7fed6cf64d265ce068cd345"},
+        {"dataset":"calendar","key":"activities/activity:gww:211562/rewards","englishHash":"ecd2dcf0f611c2de9b82a79df57f53a5cd34986a254a9784ff68551453ef7767","evidenceHash":"db6cdc381ba0101cf8b1363ad030538d81a94d41de12bb5a0964921949ce138f"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience\n* 1,000 Gold\n* 500 Lightbringer points\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 500 光明點數\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "逐頁核對 Gate of Desolation 與懲罰之門的獎勵；Lightbringer points 的小寫不改變身分，統一光明點數，並明確額外 45／75 枚銅幣是追加獎勵。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:212707/rewards","englishHash":"865fb6b906578d06e7b2a19a83d598bbb96e134e1a7282d3a229977fb39d186b","evidenceHash":"a1bdcc12644f61f78e6ae951dfa3bd427ec01946bb835a79c9b1d264ed02662d"},
+        {"dataset":"calendar","key":"activities/activity:gww:203548/rewards","englishHash":"865fb6b906578d06e7b2a19a83d598bbb96e134e1a7282d3a229977fb39d186b","evidenceHash":"ef25959667d9c11ddfeed0d42ad0a1bc87a5360617158fff763fa7b8a281681c"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience\n* 1,000 Gold\n* 2,500 Kurzick Faction\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 2,500 庫茲柯陣營值\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "亭石固定頁只列 2,500 庫茲柯陣營值，未列勒克森值；核對經驗、金幣及 30／45／75 枚銅幣，修正 faction 缺少點數含義及領獎條件倒置。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:205337/rewards","englishHash":"e84a25e2f5d08568a19924205e40840531054bfb3a37caf2a06c20ce71c3b765","evidenceHash":"7e3a7f3d211c4e78ca1627897402ebf971bf6c41a9866a5614b2423f5f85ebd7"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience\n* 1000 Gold\n* 2,500 Kurzick Faction\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 2,500 庫茲柯陣營值\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "永恆之林固定來源的 1000 Gold 與 1,000 相同，僅統一數字排版。保留單一庫茲柯陣營的 2,500 點，並分開基本銅幣與兩項追加獎勵。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202698/rewards","englishHash":"3fc4c206f4f7a9704c52af2188d40ce8adacd55c218ce7a6a09e2799db75e6e0","evidenceHash":"49d5cf4f8c42cacef8b86f491ee0f7c29e09679f8fef0fc215687e47aa0093cc"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience\n* 1,000 Gold\n* 2,500 Luxon Faction\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 2,500 勒克森陣營值\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "核對風神海床與蓋拉孵化所兩頁的勒克森獎勵，即使第二頁連到 Allegiance rank 仍顯示 Luxon Faction；保留 2,500 點及 30／45／75 銅幣，不錯配為庫茲柯。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201055/rewards","englishHash":"59d5a684893bffba42e5f32122913bb5e6b5a6e0c63a1113248342aab4c4a98a","evidenceHash":"6f1874508993e83bd699e55be62fd0978510747ccc619ccef7b3c1baacbe348e"},
+        {"dataset":"calendar","key":"activities/activity:gww:205872/rewards","englishHash":"59d5a684893bffba42e5f32122913bb5e6b5a6e0c63a1113248342aab4c4a98a","evidenceHash":"cf576afc7fa6d81086906bce09d62cd51b800dd9093d3bdf6dfcfae923b82355"}
+      ]
+    },
+    {
+      "source": "* Take the Master of Whispers to Rilohn Refuge in Kourna and defeat the demon in Mahnkelon Waterworks.\n* *BONUS* Complete the mission without shutting down the water pumps.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶喚言大師前往高楠的里歐恩難民營，擊敗 Mahnkelon Waterworks 中的惡魔。\n* *額外目標* 不關閉任何水泵，完成戰鬥任務。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "依英雄防具頁的可信身分將低語大師改為喚言大師，恢復里歐恩難民營。保留須攜帶指定英雄、擊敗指定地點惡魔，以及不得關閉水泵的否定條件，未知地名不另造譯名。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:216074/objective","englishHash":"2308a8e59742c0fb4e2d84e1b794b039cb120226c048a7c81a27bf6093715398","evidenceHash":"a78138d3c27e8d7f66682d8ad0a8bf5d431eeda97e19a6be8632dbcb309f01be"}
+      ]
+    },
+    {
+      "source": "* 1,500 Gold\n* 9,000 Balthazar Faction\n* Complete the Base Objective for 50 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 100 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 200 Zaishen Copper Coins.",
+      "text": "* 1,500 金幣\n* 9,000 巴薩澤陣營值\n* 完成基本目標可獲得 50 枚戰承銅幣。\n* 完成第一項額外目標可另獲 100 枚戰承銅幣。\n* 完成第二項額外目標可另獲 200 枚戰承銅幣。",
+      "reason": "英雄之路獎勵沒有經驗值；保留 1,500 金幣與 9,000 巴薩澤陣營值，修正派系字面翻譯，明確 50 枚基本獎勵及 100／200 枚額外獎勵。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199992/rewards","englishHash":"d6f17b31e348bea6fa95c2d839c1ef5fcd86545727eaee446f2494ba6693e200","evidenceHash":"bcab58bc2107e037b16a9dce56540a5be72d1b6c7857f5c034cf644dc303899d"}
+      ]
+    },
+    {
+      "source": "* 1,000 Gold\n* 6,000 Balthazar Faction\n* Complete the Base Objective for 25 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 100 Zaishen Copper Coins.",
+      "text": "* 1,000 金幣\n* 6,000 巴薩澤陣營值\n* 完成基本目標可獲得 25 枚戰承銅幣。\n* 完成第一項額外目標可另獲 50 枚戰承銅幣。\n* 完成第二項額外目標可另獲 100 枚戰承銅幣。",
+      "reason": "Codex Arena 固定獎勵是 1,000 金幣、6,000 巴薩澤陣營值及 25／50／100 銅幣，不能套用英雄之路較高數額；將銅幣條件改為完成目標後領取。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:227517/rewards","englishHash":"0697f01aa99ef22fb43ab6b15659dcb01d876f92dc697ea1da7c52d856c3bd90","evidenceHash":"165d6a7ee207e6c595af5025beaa544b8489852e17e2c5df7fc47b72a9994660"}
+      ]
+    },
+    {
+      "source": "* 500 Gold\n* 3,000 Balthazar Faction\n* Complete the Base Objective for 15 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 60 Zaishen Copper Coins.",
+      "text": "* 500 金幣\n* 3,000 巴薩澤陣營值\n* 完成基本目標可獲得 15 枚戰承銅幣。\n* 完成第一項額外目標可另獲 30 枚戰承銅幣。\n* 完成第二項額外目標可另獲 60 枚戰承銅幣。",
+      "reason": "核對 Random Arena 獎勵的 500 金幣、3,000 巴薩澤陣營值與基本 15、額外 30／60 枚銅幣；不把其他競技模式的獎勵帶入此處。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:200336/rewards","englishHash":"ff1fde0c628f296f12c2f44008d462e859666ad83114e09387c30f1fca88fbd6","evidenceHash":"4366e212fa974aef7c1f661a92a4f19d5312db5644464030999550203e6c81ef"}
+      ]
+    },
+    {
+      "source": "* 500 Gold\n* 5,000 Imperial Faction\n* Complete the Base Objective for 15 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 60 Zaishen Copper Coins.",
+      "text": "* 500 金幣\n* 5,000 帝國值\n* 完成基本目標可獲得 15 枚戰承銅幣。\n* 完成第一項額外目標可另獲 30 枚戰承銅幣。\n* 完成第二項額外目標可另獲 60 枚戰承銅幣。",
+      "reason": "逐頁核對翡翠礦場與楊木要塞獎勵；來源 Imperial faction 是帝國值，不是帝國派系或巴薩澤值。保留 5,000 點與 15／30／60 銅幣。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199792/rewards","englishHash":"396d21b443b01cf5b46ff8256957a23ce4c57cf34a757da73937522472ebf7dd","evidenceHash":"08af56fd404179c616823f6a1514e493a450b8396a8be113aae020ddbe207a3f"},
+        {"dataset":"calendar","key":"activities/activity:gww:200550/rewards","englishHash":"396d21b443b01cf5b46ff8256957a23ce4c57cf34a757da73937522472ebf7dd","evidenceHash":"a8f1b4567eaa2014fe159d9f2308da099801540d737483e007cc1a0ecc9eb8eb"}
+      ]
+    },
+    {
+      "source": "*1,500 Gold\n*9,000 Balthazar Faction\n*Complete the Base Objective for 50 Zaishen Copper Coins.\n*Complete the first *BONUS* Objective for an additional 100 Zaishen Copper Coins.\n*Complete the second *BONUS* Objective for an additional 200 Zaishen Copper Coins.",
+      "text": "* 1,500 金幣\n* 9,000 巴薩澤陣營值\n* 完成基本目標可獲得 50 枚戰承銅幣。\n* 完成第一項額外目標可另獲 100 枚戰承銅幣。\n* 完成第二項額外目標可另獲 200 枚戰承銅幣。",
+      "reason": "Guild Versus Guild 的 Gold 是金幣，不是黃金級。核對 1,500／9,000 與 50／100／200，統一列表空格並分開基本與追加銅幣。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199265/rewards","englishHash":"23cfc5eb46a6548e14af93b9dd8c378fd953c2393ee215f8cf4f097aa5703523","evidenceHash":"e3a08ae71a97c748805de0bf8bc05c096437c622cf4b0034d5ac944c5ad82e45"}
+      ]
+    },
+    {
+      "source": "*1,000 Gold\n*7,500 Imperial Faction\n*Complete the Base Objective for 25 Zaishen Copper Coins.\n*Complete the first *BONUS* Objective for an additional 50 Zaishen Copper Coins.\n*Complete the second *BONUS* Objective for an additional 100 Zaishen Copper Coins.",
+      "text": "* 1,000 金幣\n* 7,500 帝國值\n* 完成基本目標可獲得 25 枚戰承銅幣。\n* 完成第一項額外目標可另獲 50 枚戰承銅幣。\n* 完成第二項額外目標可另獲 100 枚戰承銅幣。",
+      "reason": "Alliance Battles 的 Gold 修正為金幣，Imperial Faction 依詞典寫為帝國值；保留 1,000 金幣、7,500 點及 25／50／100 枚銅幣，與其他帝國值模式分開。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199404/rewards","englishHash":"66d95317f8e17145552416f5939f8e4010feeae56587b9fdd3a356e3e58f9e37","evidenceHash":"037f03879c0de0bf91762196a07611a8f884e21ffe0c8d5a21a7c80266792e6c"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience\n* 1,000 Gold\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "逐頁核對八個共用此文本的戰鬥任務獎勵，均為 5,000 經驗、1,000 金幣及 30／45／75 銅幣；不增添來源未列出的陣營值或聲望點數，修正銅幣與目標的主從關係。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:212398/rewards","englishHash":"ab112d0cac34dee1bf3cb71a74fa2dc899612d9ea6e902dc17c288da8342116d","evidenceHash":"ffea7d96a1ffb924c4768f358be94c1d6ba195e1c9281e20779b1db3bf9f4c5c"},
+        {"dataset":"calendar","key":"activities/activity:gww:199793/rewards","englishHash":"ab112d0cac34dee1bf3cb71a74fa2dc899612d9ea6e902dc17c288da8342116d","evidenceHash":"a1324a8acdd997a219693007cf6a0f4a179862463a177099ef82e280662cc648"},
+        {"dataset":"calendar","key":"activities/activity:gww:213189/rewards","englishHash":"ab112d0cac34dee1bf3cb71a74fa2dc899612d9ea6e902dc17c288da8342116d","evidenceHash":"5ff7eee5217952bbbe280e321982465c12ea9cfc006414f41b91d1be29945c8c"},
+        {"dataset":"calendar","key":"activities/activity:gww:200144/rewards","englishHash":"ab112d0cac34dee1bf3cb71a74fa2dc899612d9ea6e902dc17c288da8342116d","evidenceHash":"f7084ae4689c4be0588574f994faabaa2464f60ed1cac70123adfcbd0ccf7edd"},
+        {"dataset":"calendar","key":"activities/activity:gww:216502/rewards","englishHash":"ab112d0cac34dee1bf3cb71a74fa2dc899612d9ea6e902dc17c288da8342116d","evidenceHash":"5cd6002ccfb7cc1912ddea9ec704b1b96bd9de1c603cc308d3ab316c5e8d168d"},
+        {"dataset":"calendar","key":"activities/activity:gww:199594/rewards","englishHash":"ab112d0cac34dee1bf3cb71a74fa2dc899612d9ea6e902dc17c288da8342116d","evidenceHash":"3fbac3c93ce89c6b3125f52dce43f3e8d80db89140220a69fdb7467e45f93682"},
+        {"dataset":"calendar","key":"activities/activity:gww:209241/rewards","englishHash":"ab112d0cac34dee1bf3cb71a74fa2dc899612d9ea6e902dc17c288da8342116d","evidenceHash":"8744ef732a75b2c62227773a202555959be89e7dd0c87b723da6605edda6e1dd"},
+        {"dataset":"calendar","key":"activities/activity:gww:203200/rewards","englishHash":"ab112d0cac34dee1bf3cb71a74fa2dc899612d9ea6e902dc17c288da8342116d","evidenceHash":"980be48caad3ac86568ef77866f2dc9443eeec7119167b1c3a468aaef068bbc3"}
+      ]
+    },
+    {
+      "source": "* 3,000 Experience\n* 500 Gold\n* Complete the Base Objective for 20 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.",
+      "text": "* 3,000 經驗值\n* 500 金幣\n* 完成基本目標可獲得 20 枚戰承銅幣。\n* 完成第一項額外目標可另獲 30 枚戰承銅幣。\n* 完成第二項額外目標可另獲 50 枚戰承銅幣。",
+      "reason": "逐頁核對十四個共用文本的固定獎勵，均為 3,000 經驗、500 金幣、基本 20 及追加 30／50 枚銅幣。D'Alessio 頁的不同代幣連結不改變顯示的銅幣身分，不另加未列聲望。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:211893/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"f86007ae15c39c6438b8265597adabbddf04a5f02431478b17aa782f798bf8f3"},
+        {"dataset":"calendar","key":"activities/activity:gww:202974/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"6d4909a6756eb9fa8bc74eab45b38c85dd462acd2a5fb3b1d7e3719c7c7f0935"},
+        {"dataset":"calendar","key":"activities/activity:gww:200425/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"4ce5a0b3a580cd59044605ed831a08185d7e09a8ff1cf9f9795dab2636f124b7"},
+        {"dataset":"calendar","key":"activities/activity:gww:201791/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"1cd835f57239d317b6e87536ff7297bbb1ae045266d0015ad56a31d7e0b79929"},
+        {"dataset":"calendar","key":"activities/activity:gww:206079/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"3861f5005951f6887b467af7d0a96e1d6c5a24647005ef4ba424d28b1f834a2f"},
+        {"dataset":"calendar","key":"activities/activity:gww:203642/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"49753b543fdbb2aa1836ff4f3276d6bbcc6fe2a64f7ad0842e3890acd33026ae"},
+        {"dataset":"calendar","key":"activities/activity:gww:200552/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"e1bcf345d87d78c601edb12c4be85afd80fc709bf85ec3e464d31cc7c24697c9"},
+        {"dataset":"calendar","key":"activities/activity:gww:201640/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"920b3982df432af40d701481ee747f9eb4d32aec6cfa00620df7d705377509cd"},
+        {"dataset":"calendar","key":"activities/activity:gww:215377/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"7fc928413e9bc91395a8b532207d06a7f8b9b2c86f87620134b92ab74fd83a60"},
+        {"dataset":"calendar","key":"activities/activity:gww:207584/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"2fb128369ffad6522cb735fb4f40a848f1cd428e8ecc8e5926357f9f23e9cf4e"},
+        {"dataset":"calendar","key":"activities/activity:gww:207701/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"adbfc7432e06b3f82cad68f8bbfea7b5d94bbee1caf9470caddedbef0c835464"},
+        {"dataset":"calendar","key":"activities/activity:gww:201251/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"bc7dd929f0fbcd2ce21bd9635d211cbf5777b81565c9dbc79cc499ded4644863"},
+        {"dataset":"calendar","key":"activities/activity:gww:204060/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"ef83f426ceed0593ae84885593f71ec1dedd9d1ac4070ef91e4c6b0386815ae6"},
+        {"dataset":"calendar","key":"activities/activity:gww:211064/rewards","englishHash":"3811d95cdc5f00d2bd60e827c04faa358b362ccc1b5ea6bf1385325263c1ed3c","evidenceHash":"f62a5cce529add31693b7974a714bc9a4a54fdab4fdabaa7e1640712eed44fee"}
+      ]
+    },
+    {
+      "source": "* 1,000 Experience\n* 250 Gold\n* Complete the Base Objective for 15 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 22 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 37 Zaishen Copper Coins.",
+      "text": "* 1,000 經驗值\n* 250 金幣\n* 完成基本目標可獲得 15 枚戰承銅幣。\n* 完成第一項額外目標可另獲 22 枚戰承銅幣。\n* 完成第二項額外目標可另獲 37 枚戰承銅幣。",
+      "reason": "逐頁核對九個共用文本的固定獎勵，包括禎台郡、北方長城及瑞尼克要塞；保留 1,000 經驗、250 金幣與 15／22／37 銅幣，不增加這些頁面未列的日戟點數。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202499/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"77ac179efabbd28fe23d1193f2456c1d45beca5c543e943b89594b0dd24ff35e"},
+        {"dataset":"calendar","key":"activities/activity:gww:213796/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"28eaec35b4bc5b60cbad04120c7fb2ce4a9a037ff70e75abf473e2d74fc9e6b8"},
+        {"dataset":"calendar","key":"activities/activity:gww:203265/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"3eb1a2b25bd16ff77e0a117d3769146ede5f802beff2d74e8f95a18fe49fca5d"},
+        {"dataset":"calendar","key":"activities/activity:gww:206409/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"a84a89a10befa7ff98e927af60b029cb3a204c57a03aad6762092782bcc37657"},
+        {"dataset":"calendar","key":"activities/activity:gww:202578/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"5f5d3857bac3fb9704954392a5d9c302bda83efa16c73c214408df8e37b3b337"},
+        {"dataset":"calendar","key":"activities/activity:gww:203908/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"4e0ab89d6ae0f92fb3f344b3fd45fc66e306c45a86e7274d8ca84b53b700ecb9"},
+        {"dataset":"calendar","key":"activities/activity:gww:202358/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"5c7b550205d949ccc8ccea2a91354ac3374efe8cbfed1c0d24748064d3afb609"},
+        {"dataset":"calendar","key":"activities/activity:gww:209385/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"8baa79789fc3f1c9e076406c702a7ae719c2c326aacda49beb3de8698a25d3a8"},
+        {"dataset":"calendar","key":"activities/activity:gww:205613/rewards","englishHash":"8ae71c3732240cb96482f25d50a013eb4594b7dc59aad99b10b4af4a218118b9","evidenceHash":"3aa82c083af4273b5d4f9c2d4534533713537656e2803a96117dd56122a19986"}
+      ]
+    },
+    {
+      "source": "*5,000 Experience\n*1,000 Gold\n* Complete the Base Objective for 30 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 45 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 75 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 完成基本目標可獲得 30 枚戰承銅幣。\n* 完成第一項額外目標可另獲 45 枚戰承銅幣。\n* 完成第二項額外目標可另獲 75 枚戰承銅幣。",
+      "reason": "莫拉登礦山固定獎勵雖缺少列表空格，仍是 5,000 經驗與 1,000 金幣。整理排版並將基本 30、額外 45／75 銅幣寫成獎勵，不更改數值。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204684/rewards","englishHash":"8998d3ccee1b877de203ce40d1ba20dd754e60970c9851a9b19b8410bfa45769","evidenceHash":"4654325ace66824402e74e1847a742a53b9a60df25f1251d7041f2851062245c"}
+      ]
+    },
+    {
+      "source": "*3,000 Experience\n*500 Gold\n* Complete the Base Objective for 20 Zaishen Copper Coins.\n* Complete the first *BONUS* Objective for an additional 30 Zaishen Copper Coins.\n* Complete the second *BONUS* Objective for an additional 50 Zaishen Copper Coins.",
+      "text": "* 3,000 經驗值\n* 500 金幣\n* 完成基本目標可獲得 20 枚戰承銅幣。\n* 完成第一項額外目標可另獲 30 枚戰承銅幣。\n* 完成第二項額外目標可另獲 50 枚戰承銅幣。",
+      "reason": "神聖沙灘固定獎勵為 3,000 經驗、500 金幣與 20／30／50 枚銅幣；補齊列表空格，釐清首項基本獎勵與後兩項追加獎勵，未合併成累計數。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204382/rewards","englishHash":"9e3a598441339c2e5af7643365f5a6c908506014bd7f6f84d607871f81b3439c","evidenceHash":"ae13fe165460bc8b5e6f28940be41441ba6b3fbb280b78203d800ab97736dff3"}
+      ]
+    },
+    {
+      "source": "* Take Tahlkora and close the torment rifts in the Sebelkeh Basilica.\n* *BONUS* Complete the mission in under 6 minutes (12 minutes in Hard Mode).\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶塔蔻拉同行，關閉 Sebelkeh Basilica 中的折磨裂隙。\n* *額外目標* 以少於 6 分鐘完成戰鬥任務；困難模式須少於 12 分鐘。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Take 是帶塔蔻拉同行，不是佔領人物；英雄防具頁提供可信姓名。保留普通與困難模式各自嚴格少於 6／12 分鐘的條件，與單獨的困難模式額外目標分開。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203750/objective","englishHash":"65a8357c372bc0fea5f679da999d2ebaac9e4f87e03271cc6ba370b6a88c1643","evidenceHash":"3c6d8e1fac735bca98aeae65b31f3ff304e18171ebb1629aa5ed428c67a56682"}
+      ]
+    },
+    {
+      "source": "* Locate and destroy the source of the spirit army in the Sunjiang District of Kaineng City.\n* *BONUS* Complete the mission in under 20 minutes.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在凱寧城的孫江行政區找出並摧毀精靈軍隊的源頭。\n* *額外目標* 以少於 20 分鐘完成戰鬥任務。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "核對目標是摧毀精靈軍隊的源頭，並保留 under 20 的嚴格時限。固定目標原有 sic 提示，同頁 Notes 另述困難模式可少於 25 分鐘；此目標欄依候選保留 20，來源差異另列證據，不擅改正文。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203200/objective","englishHash":"f89e0e43097351a9e5ee68d50dd3a42332779a8d4d2da3924ab14a56f90d426a","evidenceHash":"980be48caad3ac86568ef77866f2dc9443eeec7119167b1c3a468aaef068bbc3"}
+      ]
+    },
+    {
+      "source": "* Assist and protect Prince Rurik as he frees Ascalonians from the Charr in the Ruins of Surmia.\n* *BONUS* Extinguish the Charr temple flame.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 協助並保護盧瑞克王子，讓他在蘇米亞廢墟從夏爾手中救出阿斯卡隆人。\n* *額外目標* 熄滅夏爾神殿的火焰。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "明確被協助與保護的是盧瑞克王子，由他解救阿斯卡隆人；保留額外目標是熄滅神殿火焰，而非消滅整座神殿或添加救援數量。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:209385/objective","englishHash":"aa5531b4f9b4a9c76bc32fcc7176fc229257fce2c61e779ef8cd64ded439e5c4","evidenceHash":"8baa79789fc3f1c9e076406c702a7ae719c2c326aacda49beb3de8698a25d3a8"}
+      ]
+    },
+    {
+      "source": "*Take Zhed Shadowhoof and rescue Mirza Veldrunner from the Kodonur Crossroads in Kourna.\n* *BONUS* Kill the three cruel Taskmaster bosses.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶影爪 杰德同行，從高楠的科登諾路口救出 Mirza Veldrunner。\n* *額外目標* 擊殺三名殘忍的 Taskmaster 首領。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "依英雄防具頁修正 Zhed 的中文身分，使用可信科登諾路口，保留未證實中文的救援對象姓名。核對三名首領均屬 Taskmaster，不將職稱與一般敵人混同。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:205730/objective","englishHash":"5398c8a1811acc559bc179b351e79c9af42b26ca71e6b2d1a5e400eea8253684","evidenceHash":"ab012d8bb291f3f88fd7b6e82bbb228abf845461bce1b83e139e9cb7690b138c"}
+      ]
+    },
+    {
+      "source": "* Take Mhenlo and free the eight bound spirits in Tahnnakai Temple.\n* *BONUS* Complete the mission in under 20 minutes (30 in Hard Mode).\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶涵洛同行，解救譚納凱神殿中八個受束縛的靈魂。\n* *額外目標* 以少於 20 分鐘完成戰鬥任務；困難模式須少於 30 分鐘。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "修正拿起人物為攜帶涵洛同行；保留八個受束縛靈魂及 20／30 分鐘的模式對應，補足困難模式時間單位，under 均寫成嚴格少於。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201791/objective","englishHash":"780a2f53377f70e774c900c9ec442b8f5173551ca17985410f0d7cfdf9725179","evidenceHash":"1cd835f57239d317b6e87536ff7297bbb1ae045266d0015ad56a31d7e0b79929"}
+      ]
+    },
+    {
+      "source": "* Complete the three trials and defeat the three djinn in the Dasha Vestibule.\n* *BONUS* Collect three treasures of Ahdashim for Margrid.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在達沙走廊完成三項試煉，並擊敗三隻巨靈怪。\n* *額外目標* 為狡詐者 瑪格麗收集三件 Ahdashim 寶藏。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "逐項核對三項試煉、三隻巨靈怪與三件寶藏，三組數量不可合併。依英雄防具頁恢復 Margrid 的可信身分，未知 Ahdashim 不沿用未證音譯。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201968/objective","englishHash":"f7305797b9971f0554f77a8dbb3e7c181b871c4b7655578f843a0274daf4e036","evidenceHash":"13b68fe8a909741bffe5afa92b6428edf8fe7d2be99e1f2baac2112065fe1311"}
+      ]
+    },
+    {
+      "source": "*Take Koss and escort the Sunspear evacuees from the Venta Cemetery to the boat at Dajkah Inlet.\n* *BONUS* Neutralize all 12 guard posts.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶寇斯同行，護送日戟撤離者從凡特墓地前往 Dajkah Inlet 的船隻。\n* *額外目標* 清除全部 12 處哨所。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Take Koss 不是乘坐寇斯；改為帶英雄同行，使用可信凡特墓地及日戟名稱。保留護送起終點與全部 12 處哨所，未知 Dajkah Inlet 不另造音譯。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201491/objective","englishHash":"2a01661eff0f3af259d9b90aedb1e63df7952a8d864433f23ba2678e45c75e60","evidenceHash":"fbbcd50a5d589ee52bd37d74c7876c4c3f8f956200278302957315d30f83493a"}
+      ]
+    },
+    {
+      "source": "* Take Koss and defend the Garden of Seborhin against the demon horde.\n* *BONUS* Defeat two additional Harbingers and accompanying foes.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶寇斯同行，抵禦惡魔大軍，保衛希伯欣花園。\n* *額外目標* 擊敗另外兩名 Harbinger 及其隨行敵人。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "將拿起寇斯改為帶英雄同行，horde 是大軍而非部落。保留另外兩名 Harbinger 及伴隨敵人均須擊敗，不將額外敵人誤算為主要目標或只計首領。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206563/objective","englishHash":"953f787b83180a5b8ff5a15d5a61f345b89068fc262cc3806431245c68c9fa09","evidenceHash":"bbd7599a882a90d9b996863f12dc3241e77bf7ffe7fed6cf64d265ce068cd345"}
+      ]
+    },
+    {
+      "source": "* Take Tahlkora and stop the general from making a deal with the Corsairs in Blacktide Den.\n* *BONUS* Kill five Rinkhal Monitors.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶塔蔻拉同行，阻止將軍在黑潮之穴與海盜交易。\n* *額外目標* 擊殺五隻 Rinkhal Monitor。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "修正佔領塔爾科拉為帶可信姓名塔蔻拉同行，使用黑潮之穴。保留阻止交易的對象與五隻特殊敵人，不把 Monitor 當監工或使用人的量詞。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199395/objective","englishHash":"45adfe3a819b2e747119333396319001a59dac254d9f08c11824b19728471d16","evidenceHash":"80eef21bbfdd7f569e9dbe00274a1d7dd3af8e41168ece4d53608dfe2f8d2a07"}
+      ]
+    },
+    {
+      "source": "* Help Prince Rurik exit the besieged Nolani Academy and return to Rin.\n* *BONUS* Return the Tome of the Fallen to its pedestal.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 協助盧瑞克王子離開遭圍困的若拉尼學院，返回瑞恩。\n* *額外目標* 將 Tome of the Fallen 送回原本的基座。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Return 是將物品歸還基座，不是技能影返或把書固定。保留先離開被圍學院、返回瑞恩的行程，未知物品正式中文名保留英文身分。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206409/objective","englishHash":"cb8da94fe5754dd6419cd8604b5b3761afe0ebdaaef41374392cdceb987b2354","evidenceHash":"a84a89a10befa7ff98e927af60b029cb3a204c57a03aad6762092782bcc37657"}
+      ]
+    },
+    {
+      "source": "* Attune to and use the Henge Portal in the Aurora Glade before the White Mantle can do the same.\n* *BONUS* Kill the Demagogue.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 搶在白斗篷之前，啟用並使用歐若拉林地的丹拉維聖地傳送門。\n* *額外目標* 擊殺煽動者。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Attune to and use 包含啟用及使用兩步，須比白斗篷先完成，不是一般調整物件。核對傳送門與煽動者的中文身分，保留擊殺額外目標。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203642/objective","englishHash":"e4b1a76d3dda82e0102dd2f63da265018e386dc1f7e425d5625df77e548d631a","evidenceHash":"49753b543fdbb2aa1836ff4f3276d6bbcc6fe2a64f7ad0842e3890acd33026ae"}
+      ]
+    },
+    {
+      "source": "* Avenge the White Mantle Chosen by killing their murderer.\n* *BONUS* Awaken the four druids and speak with the Elder Druid.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 擊殺殺害白斗篷選民的兇手，為選民報仇。\n* *額外目標* 喚醒四名德魯依，並與 Elder Druid 交談。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "核對報仇對象為殺害選民的兇手；額外目標含喚醒四名德魯依及與指定長者交談兩項。Druid 統一為德魯依，未知長者專名保留英文，不混用德魯伊字形。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:211064/objective","englishHash":"fda6f44daecb6a0e6680a9ccd91446931134b19d50e26ee1b2c602f73523635a","evidenceHash":"f62a5cce529add31693b7974a714bc9a4a54fdab4fdabaa7e1640712eed44fee"}
+      ]
+    },
+    {
+      "source": "*Become Closer to the Stars within the Nahpui Quarter of Kaineng City.\n* *BONUS* Complete the mission in under 25 minutes.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在凱寧城的納普區達成「更接近星辰」（Closer to the Stars）。\n* *額外目標* 以少於 25 分鐘完成戰鬥任務。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Closer to the Stars 是此任務達成的特殊身分或狀態，保留英文以免誤解為往星星方向移動；使用可信納普區，保留嚴格少於 25 分鐘與獨立困難模式目標。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:200552/objective","englishHash":"a8df0cf8194b3a08f0a565f87bcd7836924340099b52c3de4fb0934d6f7d7252","evidenceHash":"e1bcf345d87d78c601edb12c4be85afd80fc709bf85ec3e464d31cc7c24697c9"}
+      ]
+    },
+    {
+      "source": "* Clear the way on the Ring of Fire islands.\n* *BONUS* Return the Spectral Essence from the Eidolon to the Ancient Seer.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在火環群島開闢通路。\n* *額外目標* 將從艾多倫取得的 Spectral Essence 交給 Ancient Seer。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "移除現譯的影返技能與 Template:Reclaim Essence 殘留，明確物品來自艾多倫、收件者為 Ancient Seer。未知物品及 NPC 中文身分保留英文，不將交付方向顛倒。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:200144/objective","englishHash":"8a66e7914a13a34bfa471cfb33437fbc83bab196859f6cc66bb8eb6bc2674ae1","evidenceHash":"f7084ae4689c4be0588574f994faabaa2464f60ed1cac70123adfcbd0ccf7edd"}
+      ]
+    },
+    {
+      "source": "* Safely deliver the Scepter of Orr to Vizier Khilbron.\n* *BONUS* Help the Restless Spirit find his final resting place.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 將 Scepter of Orr 安全送交基卜倫元老。\n* *額外目標* 協助 Restless Spirit 找到最終安息之處。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "核對主要目標是安全交付權杖給基卜倫元老，額外目標是協助固定連結的 Restless Spirit (Kryta) 安息；保留未證中文身分的物品及靈魂姓名，不另加護送路線。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204382/objective","englishHash":"f42d8fdb222befd7e1e30a5f78c3812720409bb618e7ed7121b3287595d47d51","evidenceHash":"ae13fe165460bc8b5e6f28940be41441ba6b3fbb280b78203d800ab97736dff3"}
+      ]
+    },
+    {
+      "source": "* Take Dunkoro through the Moddok Crevice into Vabbi.\n* *BONUS* Complete the mission by following Dunkoro's suggestions.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶唐克羅穿過摩多克裂縫，進入瓦貝。\n* *額外目標* 依照唐克羅的建議完成戰鬥任務。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "英雄防具頁提供 Dunkoro 的唐克羅名稱，移除殘留英文；保留穿越裂縫進入瓦貝的方向，以及必須遵從其建議才能達成首項額外目標。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202816/objective","englishHash":"793a5d26bf8f4d1eff69771ba82dea820ee3a53b01b4e49a68111cd2ab204a8e","evidenceHash":"3e97bdbc4e69366b55f85e5d424b987e8ca1d7c15313f20299377f7c6053e984"}
+      ]
+    },
+    {
+      "source": "* Retrieve the Urn of Saint Viktor from the cathedral in Arborstone.\n* *BONUS* Complete the mission in under 30 minutes.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 從亭石的大教堂取回 Urn of Saint Viktor。\n* *額外目標* 以少於 30 分鐘完成戰鬥任務。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "以中文模板的亭石身分取代阿伯斯通音譯，不帶入據點列表的主線分類字樣。保留取物地點是大教堂與嚴格少於 30 分鐘，未知骨灰甕正式中文名保留英文。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:205337/objective","englishHash":"6f82955d284e645ccd91783d747e092bfb057bd10c28c1599ed16fca0a1b9cde","evidenceHash":"7e3a7f3d211c4e78ca1627897402ebf971bf6c41a9866a5614b2423f5f85ebd7"}
+      ]
+    },
+    {
+      "source": "* Kill Abaddon's prophet in the Ruins of Morah.\n* *BONUS* Complete the mission in less than 8 minutes (10 in Hard Mode).\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在摩拉廢墟擊殺亞霸頓的先知。\n* *額外目標* 以少於 8 分鐘完成戰鬥任務；困難模式須少於 10 分鐘。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "固定連結指出先知的身分，但候選顯示仍是亞霸頓的先知，未擅自換名。將 less than 明確為少於，保留 8／10 分鐘的模式對應與獨立困難模式完成條件。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206289/objective","englishHash":"87971fc71dab56cf5bbd7042ea6b327830629dd6139d2e4789e2b5e3263f8d5e","evidenceHash":"ab5171e604de4c3bec722f52e25850837403c360a7e6f7948e9a209ad3029fab"}
+      ]
+    },
+    {
+      "source": "* Kill the Remnant of Antiquities and accompanying foes in the Sepulchre of Dragrimmar.\n* *BONUS* Kill the Remnant of Antiquities and accompanying foes in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在爪格林瑪墳墓擊殺殘餘的斷片及其隨行敵人。\n* *額外目標* 在困難模式下擊殺殘餘的斷片及其隨行敵人。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "首領與地名均有中文來源支持，沿用殘餘的斷片及爪格林瑪墳墓。明確普通及困難模式都要求隨行敵人一併消滅，此項只有一個額外目標，不新增第二項。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204062/objective","englishHash":"909020eb2ce891c4dd56e04cac51764c19c3247a61e03d5167e25cb50b617021","evidenceHash":"cf5692960f8ca729d271f35801f58c3ce47c328696025c1d1f8351d8aa5839ad"}
+      ]
+    },
+    {
+      "source": "* Defeat your Doppelganger at Augury Rock.\n* *BONUS* Complete the mission in under 10 minutes (2 minutes in Hard Mode).\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在占卜之石擊敗自己的分身。\n* *額外目標* 以少於 10 分鐘完成戰鬥任務；困難模式須少於 2 分鐘。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "核對目標是自己的 Doppelganger；保留普通少於 10 分鐘、困難少於 2 分鐘的不對稱時限，未因困難模式而誤把 2 改為較大數值。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:211893/objective","englishHash":"4ea0dea9aaa90bd42fec11b4af07829ea9b2535fb12732beffcfbea7e5f97dae","evidenceHash":"f86007ae15c39c6438b8265597adabbddf04a5f02431478b17aa782f798bf8f3"}
+      ]
+    },
+    {
+      "source": "* Free the rebel leaders imprisoned in the Ice Caves of Sorrow.\n* *BONUS* Relay news of Deldrimor's spy to the dwarves.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 解救被囚禁在悲傷冰谷的反抗軍領袖。\n* *額外目標* 將戴爾狄摩間諜的消息傳給矮人。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "保留解救對象是複數反抗軍領袖，不擅加數量；額外目標是轉達間諜的消息，而非營救間諜。核對悲傷冰谷與戴爾狄摩名稱及領獎 NPC。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:212398/objective","englishHash":"1f72975573e6870e0232e636707aceb198ff1ff78628355bcf0255e8681f16a0","evidenceHash":"ffea7d96a1ffb924c4768f358be94c1d6ba195e1c9281e20779b1db3bf9f4c5c"}
+      ]
+    },
+    {
+      "source": "* Take Dunkoro and release the tortured souls at the Gate of Pain.\n* *BONUS* Kill three additional Emissaries of Dhuum.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶唐克羅同行，解放懲罰之門中受折磨的靈魂。\n* *額外目標* 擊殺另外三名 Emissary of Dhuum。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Take 不是佔領唐克羅，改為帶英雄同行；三名 Emissary 是主要路線之外的額外目標，保留另外三名的限制，不把主目標靈魂與敵方使者混同。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203548/objective","englishHash":"b8d1e790e91c837aaac9935caae8355288b4ed0e5634dcb11775b324ffa484fe","evidenceHash":"ef25959667d9c11ddfeed0d42ad0a1bc87a5360617158fff763fa7b8a281681c"}
+      ]
+    },
+    {
+      "source": "* Protect Emperor Kisu from Shiro'ken.\n* *BONUS* Complete the mission in under 20 minutes (26 minutes in Hard Mode).\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 保護基肅皇帝，抵禦白影軍團。\n* *額外目標* 以少於 20 分鐘完成戰鬥任務；困難模式須少於 26 分鐘。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Protect from 是抵禦敵方襲擊，不是免受抽象影響；核對基肅皇帝與白影軍團的可信名稱。保留普通少於 20、困難少於 26 分鐘，與困難模式額外目標分開。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199793/objective","englishHash":"11ae68019523c2570d2aa36eac5308c1aafb354a98430ad0be3e5e527a4a62d2","evidenceHash":"a1324a8acdd997a219693007cf6a0f4a179862463a177099ef82e280662cc648"}
+      ]
+    },
+    {
+      "source": "* Cleanse Hakewood of undead and retrieve the Scepter of Orr.\n* *BONUS* Make an offering to the statue of Melandru.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 清除 Hakewood 的不死生物，並取回 Scepter of Orr。\n* *額外目標* 向梅蘭朵雕像獻上供品。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "保留清除不死生物與取回權杖兩項主要工作；offering 改為獻上供品，不憑空引入犧牲。未知 Hakewood 與權杖正式中文名保留英文，梅蘭朵沿用可信名稱。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:215377/objective","englishHash":"eb9260ec0d0797940441a7907f75f630c2106466d9861cf89a8d590ca4209898","evidenceHash":"7fc928413e9bc91395a8b532207d06a7f8b9b2c86f87620134b92ab74fd83a60"}
+      ]
+    },
+    {
+      "source": "* Help the Ghostly Hero reclaim his throne in the Dunes of Despair.\n* *BONUS* Defeat the three Forgotten generals.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 協助英雄之魂奪回絕望沙丘的王座。\n* *額外目標* 擊敗三名被遺忘者將軍。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "核對 Ghostly Hero 的可信英雄之魂身分，以及被遺忘者將軍恰為三名。主要目標是奪回王座，未混入其他英雄之魂任務的存活或計時條件。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:207584/objective","englishHash":"338093050d20d9a1f23cea557ad3a4938733ae06399a938fd20ec3ec3c5f81fe","evidenceHash":"2fb128369ffad6522cb735fb4f40a848f1cd428e8ecc8e5926357f9f23e9cf4e"}
+      ]
+    },
+    {
+      "source": "*Push the invading Charr forces back to the Great Northern Wall.\n* *BONUS* Rescue Deeter Saberlin from the Charr.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 將入侵的夏爾部隊擊退至北方長城。\n* *額外目標* 從夏爾手中救出 Deeter Saberlin。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "依固定連結 Great Northern Wall 恢復可信北方長城名稱；Push back 是擊退部隊，額外目標則是營救指定人物，不增加擊殺條件或未證中文姓名。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202578/objective","englishHash":"93d27441f7af9defe4493775d7a0c23562e7a69365c65d3d6f4711859897bacd","evidenceHash":"5f5d3857bac3fb9704954392a5d9c302bda83efa16c73c214408df8e37b3b337"}
+      ]
+    },
+    {
+      "source": "* Retake Thunderhead Keep\n* *BONUS* Light the beacons to draw additional Mursaat forces into Thunderhead Keep.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 奪回雷雲要塞。\n* *額外目標* 點燃烽火，將額外的馬賽特部隊引入雷雲要塞。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Retake 誤譯為重考，修正為奪回據點。核對點燃烽火是為了引入額外馬賽特部隊，不是驅趕或只要求點火，保留主目標與額外目標的差別。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199594/objective","englishHash":"a0537621e50192c2d09324c59b2a641560f92de4fc34b747c51e33c00720be3c","evidenceHash":"3fbac3c93ce89c6b3125f52dce43f3e8d80db89140220a69fdb7467e45f93682"}
+      ]
+    },
+    {
+      "source": "* Talk to the three Vabbi Princes about joining your cause.\n* *BONUS* Participate in five festival activities.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 與三位瓦貝王子商談，請他們加入你的陣線。\n* *額外目標* 參加五項節慶活動。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "加入你的事業改為商談加入陣線，保留交談對象為三位王子及須參加五項活動的兩組數量；未把活動完成條件擴大成來源未列出的勝利要求。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204891/objective","englishHash":"52737c9ac7cc4ae37890ad2260a23c77852959cbf9a82a6ad642fdfa176bd83c","evidenceHash":"cb1e5925e914fe831715eefc408a8886814f4bada8f8fc1b8d0e19a2bd48cb1d"}
+      ]
+    },
+    {
+      "source": "* 1,000 Experience\n* 500 Gold\n* 500 Kurzick Faction\n* 500 Luxon Faction\n* Complete the Base Objective for 20 Zaishen Copper Coins.\n* Complete the *BONUS* Objective for an additional 50 Zaishen Copper Coins.",
+      "text": "* 1,000 經驗值\n* 500 金幣\n* 500 庫茲柯陣營值\n* 500 勒克森陣營值\n* 完成基本目標可獲得 20 枚戰承銅幣。\n* 完成額外目標可另獲 50 枚戰承銅幣。",
+      "reason": "Kunvie 固定獎勵同時給兩陣營各 500 點，並非擇一；保留經驗、金幣與基本 20、額外 50 銅幣。本懸賞只有一個額外目標，不新增第一或第二階段。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:200140/rewards","englishHash":"823f1a2a84805e71bfb9b9b9faa7fc777f882165514b04ed6651bfd06ade9793","evidenceHash":"789df3a2c122f21e1ddb68ceebf2010970b2d74186f290bca688c5f6e8d00d8a"}
+      ]
+    },
+    {
+      "source": "* Open the Door of Komalie on the Ring of Fire Islands.\n* *BONUS* Guide the spirit of Leah Stone to her rest.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 開啟火環群島上的 Door of Komalie。\n* *額外目標* 引導 Leah Stone 的靈魂安息。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "保留開門與引導指定人物靈魂安息兩種不同目標。移除地域贅詞及未證實的 Leah 姓名音譯，未知門與人物的中文身分保留英文，不添加護送路線。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:213189/objective","englishHash":"d7f37db8ae1c31cd2d607f9985627c106b5f8e7734aa62e9606f85d7f3b60a15","evidenceHash":"5ff7eee5217952bbbe280e321982465c12ea9cfc006414f41b91d1be29945c8c"}
+      ]
+    },
+    {
+      "source": "* Rescue the Chosen hostages in the Wilds of the Maguuma Jungle.\n* *BONUS* Defeat the two centaur chieftains.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在梅古瑪叢林的荒原，救出遭挾持的選民。\n* *額外目標* 擊敗兩名半人馬酋長。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "Chosen 是此劇情的選民，不是泛指被選中的人質；The Wilds 採可信荒原名稱。保留兩名半人馬酋長及困難模式條件，不把首領數量與人質數量混用。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206079/objective","englishHash":"b57bf47b7bf05c04129eebf312c382fddaa42e0d34f6ab564ddeba8ff22c009b","evidenceHash":"3861f5005951f6887b467af7d0a96e1d6c5a24647005ef4ba424d28b1f834a2f"}
+      ]
+    },
+    {
+      "source": "* Find the traitor in the Iron Mines of Moladune. Defeat him and his guards.\n* *BONUS* Defeat The Inquisitor.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 在莫拉登礦山找出叛徒，擊敗他與他的守衛。\n* *額外目標* 擊敗 The Inquisitor。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "保留主要目標要求同時擊敗叛徒及守衛；The Inquisitor 是另一指定目標，未知正式中文名保留英文，不將通用審判官職稱誤當已核實專名。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204684/objective","englishHash":"a9a2d28cab0f0370b00c43e65d0199c0f32de06384b1938fbf317169db0b30d1","evidenceHash":"4654325ace66824402e74e1847a742a53b9a60df25f1251d7041f2851062245c"}
+      ]
+    },
+    {
+      "source": "* Take Melonni and defend the village of Ronjok. \n* *BONUS* Defeat two additional Harbingers of Nightfall. \n* *BONUS* Complete the mission in Hard Mode. \n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 帶梅隆妮同行，保衛羅鳩村。\n* *額外目標* 擊敗另外兩名 Harbinger of Nightfall。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "將拿下梅隆妮改為帶英雄同行，移除羅鳩村的村莊贅述。保留另外兩名 Harbinger of Nightfall 的完整身分，不以黑暗逆襲篇章名稱機械替換敵人專名。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204217/objective","englishHash":"0d968592ba98644b771fe552cfaee2f3a5046c846b2367dfda4e56f03c377111","evidenceHash":"a6a3e70a898b3a5d573c97b9c7f3663418d8e75a7d8c654ab53cd6c64e280a77"}
+      ]
+    },
+    {
+      "source": "*Destroy the undead in the swamp south of Lion's Arch.\n* *BONUS* Retrieve the Orrian Text for the Historian.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+      "text": "* 消滅獅子拱門南方沼澤中的不死生物。\n* *額外目標* 為歷史學家取回 Orrian Text。\n* *額外目標* 在困難模式下完成戰鬥任務。\n* 向 Zehnchu［戰承挑戰］領取獎勵。",
+      "reason": "核對沼澤位於獅子拱門南方，額外目標為向固定連結 Orrian Historian McClain 交付指定文本。未知物品正式中文名保留英文，不沿用奧裡安的機械音譯。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202358/objective","englishHash":"4ffb9b9445d274b55d2a9b6053f8c027c5362a4cef8e014c30c96ae1030d9e29","evidenceHash":"5c7b550205d949ccc8ccea2a91354ac3374efe8cbfed1c0d24748064d3afb609"}
+      ]
+    },
+    {
+      "source": "* 10,000 Experience\n* 1,500 Gold\n* 2,500 Vanguard reputation points\n* Complete the Base Objective for 40 Zaishen Copper Coins.\n* Complete the *BONUS* Objective for an additional 100 Zaishen Copper Coins.",
+      "text": "* 10,000 經驗值\n* 1,500 金幣\n* 2,500 黑檀先鋒隊名聲點數\n* 完成基本目標可獲得 40 枚戰承銅幣。\n* 完成額外目標可另獲 100 枚戰承銅幣。",
+      "reason": "逐頁核對 Ilsundur 與 Murakai 懸賞的 10,000 經驗、1,500 金幣及 2,500 點；固定連結指向 Ebon Vanguard rank，依中文模板寫成黑檀先鋒隊名聲點數，保留 40／100 銅幣。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:200753/rewards","englishHash":"942ad50e28949ee3b9f3a607048ffd178542669f5d78ab869c4193ab9c1e4810","evidenceHash":"60fd4aadb062dd500883b6fa135d97c7c40518eb116f0e8e63dffdb650968e0f"},
+        {"dataset":"calendar","key":"activities/activity:gww:204868/rewards","englishHash":"942ad50e28949ee3b9f3a607048ffd178542669f5d78ab869c4193ab9c1e4810","evidenceHash":"fd527e8e340948f2fcca88e706cb0f7537dec6c3ffc401a212edc612ae0b564d"}
+      ]
+    },
+    {
+      "source": "* 5,000 Experience\n* 1,000 Gold\n* 2,500 Vanguard reputation points\n* Complete the Base Objective for 40 Zaishen Copper Coins.\n* Complete the *BONUS* Objective for an additional 100 Zaishen Copper Coins.",
+      "text": "* 5,000 經驗值\n* 1,000 金幣\n* 2,500 黑檀先鋒隊名聲點數\n* 完成基本目標可獲得 40 枚戰承銅幣。\n* 完成額外目標可另獲 100 枚戰承銅幣。",
+      "reason": "Assault on the Stronghold 的獎勵為 5,000 經驗與 1,000 金幣，不能套用前一懸賞的較高數額；翻譯殘留 Vanguard reputation points，保留 2,500 黑檀名聲點數及基本 40、額外 100 銅幣。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202174/rewards","englishHash":"5a4f0ed4e2a1d7f4389d5803f36c643ab61bde8d16e24c79104fd03093ac2bf4","evidenceHash":"86759c959897babbbb45638af1ee87b15a9eec0b10eee98d81c18bf7eaf45b41"}
+      ]
+    }
+  ]
+}

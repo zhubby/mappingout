@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "Complete exploration of this area contributes approximately 3.0% to the Elonian Cartographer title track.",
+      "text": "完整探索此區域，可使 Elonian Cartographer 稱號進度增加約 3.0%。",
+      "reason": "title track 是稱號進度；保留完整探索、約值及 3.0% 的精度。完整稱號缺乏固定中文身份，沿既有校對保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:279502/sections/target-8891-notes-1/blocks/target-8891-notes-1-5/text",
+          "englishHash": "16d9701206c1162fa3dfcd59369d49092cc40af6dedfb1cfd83140341b2b7915",
+          "evidenceHash": "afa407e0d52459eaa3942bd88513a1ba4dd6126b367a5047db6f0b1343ef929a"
+        }
+      ]
+    },
+    {
+      "source": "Complete exploration of this area contributes approximately 3.1% to the Elonian Cartographer title track.",
+      "text": "完整探索此區域，可使 Elonian Cartographer 稱號進度增加約 3.1%。",
+      "reason": "核對此區的完整探索占比為約 3.1%，不套用相鄰條目的 3.0%；修正主打歌，完整稱號保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:279863/sections/target-8842-notes-1/blocks/target-8842-notes-1-5/text",
+          "englishHash": "ea55d59c95f625be6742d730d7a953b003de8a0ecabf28c505a4d58019e94485",
+          "evidenceHash": "0215220a46ce0182c3a01ef61350da3572418de32a769d72843e5c23dce0e80c"
+        }
+      ]
+    },
+    {
+      "source": "Complete exploration of this area will yield about 2.4% to the Canthan Cartographer title track.",
+      "text": "完整探索此區域，可使 Canthan Cartographer 稱號進度增加約 2.4%。",
+      "reason": "核對 Rhea’s Crater 的約 2.4% 與 Canthan 稱號身份；不遺漏約值，不將探索進度誤當獎勵。完整稱號保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:277488/sections/target-10533-notes-1/blocks/target-10533-notes-1-13/text",
+          "englishHash": "29a542e187bf3302d02e168eda81e8fc6d4e1eb90716d15775bd37070df830f0",
+          "evidenceHash": "55edd38cf92b0273c38625f4b9015dbc181e517aed8470c94880f2c29f0207c7"
+        }
+      ]
+    },
+    {
+      "source": "Complete exploration of this area will yield about 0.5% to the Canthan Cartographer title track.",
+      "text": "完整探索此區域，可使 Canthan Cartographer 稱號進度增加約 0.5%。",
+      "reason": "核對 Saoshang Trail 的約 0.5% 與完整探索條件；修正主打歌，保留百分比及未證實的完整英文稱號。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:277795/sections/target-10430-notes-1/blocks/target-10430-notes-1-1/text",
+          "englishHash": "78f0440c707cde124042247002978726d47c754af3e772c6fbed1b466f35b2b0",
+          "evidenceHash": "201cf8da3e249d386657b39e2a40a2c3862c9033beafce1babaa64c112e99355"
+        }
+      ]
+    },
+    {
+      "source": "Aspect of Exhaustion : While under this aspect, you suffer from overcast every 30 seconds.",
+      "text": "Aspect of Exhaustion：受到此效果影響時，每 30 秒會承受一次過載。",
+      "reason": "overcast 是過載，不是陰天；保留每 30 秒一次，不猜補過載點數。環境效果沒有固定中文名稱，保留英文身份。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:33971/sections/walkthrough-1/blocks/walkthrough-1-8-1/text",
+          "englishHash": "c7a92b4137dfe7d9dbcc769c7d869ab245a3a21349bc874f7e97fab01ad07a38",
+          "evidenceHash": "d23f1442fb00e433b8af1727475886aa65685e311a660ca4c388af0c21122655"
+        }
+      ]
+    },
+    {
+      "source": "Should you map back to town to remove any death penalty, you will restart the quest.",
+      "text": "若透過地圖旅行返回城鎮，以移除死亡懲罰，任務就會重新開始。",
+      "reason": "map back 是地圖旅行返城，不是映射；保留返城移除死亡懲罰會重開任務的後果，沒有聲稱只清除進度的一部分。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:23318/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "5acb876cf39fcbf077cf9bcc90e5b41bbb8401351583664973c62907a7cb1c0e",
+          "evidenceHash": "e7750d16fd17a73195cfde358b7db36b7a28282c45a6692f2283cdfe71fc7a08"
+        }
+      ]
+    },
+    {
+      "source": "The spawn location of the Facet of Destruction is random. Known spawn locations:",
+      "text": "Facet of Destruction 的出現位置會隨機決定。已知出現位置如下：",
+      "reason": "spawn location 指出現位置，修正產卵；此段僅引介隨機地點清單，未添加地點或坐標。Facet 身份沒有固定中文證據，保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:68604/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "34c133a5ac3795dcbf3ff26f7289b96352bed4e2fdf6f852691c6256ab183431",
+          "evidenceHash": "8839e27bdbdc1b90d842ceb4d3df960fca0bb606463666afe848878942549928"
+        }
+      ]
+    },
+    {
+      "source": "Consider maxing out your morale before venturing into the lake itself.",
+      "text": "進入湖區之前，可考慮先將士氣提升至上限。",
+      "reason": "morale 是士氣，不是計程車氣；保留進湖前及考慮先達上限的建議語氣，同文普通與困難模式均適用。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:11215/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "29be0a9c25ec49b79e93e8dfd85130bb3e97639ba30fde7e66007badf9aab4f2",
+          "evidenceHash": "b8d1cb95c717e525916f01a44207c4d9ccfc11a11a8d906078881114614c3dd9"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:281280/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "29be0a9c25ec49b79e93e8dfd85130bb3e97639ba30fde7e66007badf9aab4f2",
+          "evidenceHash": "e0cad0dc83866e1a288281e1815df788bd5b09976ee0f23c77b0916c80a908c1"
+        }
+      ]
+    },
+    {
+      "source": "The first time each boss ally dies, the party gains a morale boost.",
+      "text": "每一名盟方頭目第一次死亡時，隊伍都會獲得一次士氣提升。",
+      "reason": "保留每名、盟方頭目及首次死亡三項限制；不是任一隊員死亡都獲提升，也不暗示重複擊殺同一盟友能再次獲得。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:295212/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "83610c246ff5c3839b0d3ea352462f42efcf7740d38ac3682fa4cc9b14604328",
+          "evidenceHash": "eb45a55f173b0dc379f0fabae3a82ff8340e451a34164de3f45232d37e34e1bf"
+        }
+      ]
+    },
+    {
+      "source": "Return to Reaper of the Spawning Pools for your reward.",
+      "text": "返回 Reaper of the Spawning Pools 處領取獎勵。",
+      "reason": "Return 是返回，不是暗影步技能影返；任務給予者無固定中文身份，保留完整英文名稱，移除產卵池造名。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25519/sections/objectives-1/blocks/objectives-1-2/text",
+          "englishHash": "24ed9e1fb85a2e58f1aa108dbf04f4dc15b5aaabae703460276d742e911ef52b",
+          "evidenceHash": "8bd3a7a497db1a844ddf8a4a636f91766da152af054a8bfd34dab54e5c382648"
+        }
+      ]
+    },
+    {
+      "source": "Sheer Exhaustion: Every spell cast causes Overcast.",
+      "text": "Sheer Exhaustion：每次施放魔法都會造成過載。",
+      "reason": "Every spell cast 指每次施放魔法，Overcast 為過載；未添加固定來源未提供的過載點數。環境技能名稱保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2870/sections/walkthrough-1/blocks/walkthrough-1-7-4/text",
+          "englishHash": "d621ff5d6b1229b50fb83de4fecff0d4181b49418cc19c43b119c5643bba6092",
+          "evidenceHash": "e32e8a23c4779b924fa328487f4a9f0608d27f492b8cdd49b5d3e61898466b3a"
+        }
+      ]
+    },
+    {
+      "source": "Head south to meet the oncoming Destroyer threat.",
+      "text": "向南前進，迎擊來襲的毀滅者。",
+      "reason": "保留向南及敵人正來襲的任務目標；Destroyer 是毀滅者，不是驅逐艦，也不將 meet 譯成友善迎接。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63656/sections/objectives-1/blocks/objectives-1-2/text",
+          "englishHash": "75aebdf68f36fa2862f96fd229573c134cd318b4dd32074552b34d2e01993462",
+          "evidenceHash": "809df072292ccbfbce0dfe5108504329a8c20b57e4e7140aa2c36eff448ff345"
+        }
+      ]
+    },
+    {
+      "source": "Take advantage of casters damage and anti-melee.",
+      "text": "善用施法者造成的傷害，以及反制近戰的手段。",
+      "reason": "casters 是施法者而非腳輪；兩項建議分別為施法輸出與反近戰，未誤解為只需對施法者造成傷害。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:33971/sections/walkthrough-1/blocks/walkthrough-1-9-17/text",
+          "englishHash": "a961f840dc692540c75b088c1ad58346a7acff8bce9b90c339f098dba204d200",
+          "evidenceHash": "d23f1442fb00e433b8af1727475886aa65685e311a660ca4c388af0c21122655"
+        }
+      ]
+    },
+    {
+      "source": "Summon the Reaper of the Spawning Pools.",
+      "text": "召喚 Reaper of the Spawning Pools。",
+      "reason": "保留召喚這個指定 Reaper 的任務動作；沒有可信完整中文身份，因此保留英文，不將 Spawning Pools 猜成產卵池。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:16673/sections/objectives-1/blocks/objectives-1-4/text",
+          "englishHash": "4e07d78464c4c367432a6403f8555776b216b6a063c5fff8dce538afb3dce800",
+          "evidenceHash": "fa6a21443cdfcb8f7b209cd218b251ea3d7699358acfffacab5a626b17b8e714"
+        }
+      ]
+    },
+    {
+      "source": "Survive all six waves of destroyers.",
+      "text": "撐過全部六波毀滅者的攻勢。",
+      "reason": "核對須存活通過全部六波，而非只擊殺六隻；Destroyers 是毀滅者，未添擊殺全場敵人的額外條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:70081/sections/objectives-1/blocks/objectives-1-2/text",
+          "englishHash": "b5c2decb29fdf0d685d3befd8a1be9711f48a8d43743ae670be2afcddf2d8a97",
+          "evidenceHash": "0eb6547ad65047d2500d5813750fbb8b65bb397e1e1ad1a3a68fa24d8efe1d89"
+        }
+      ]
+    },
+    {
+      "source": "Reaper of the Spawning Pools",
+      "text": "Reaper of the Spawning Pools",
+      "reason": "任務給予者欄須保留完整 NPC 身份；固定中文術語未收錄該名稱，故移除未證實的產卵池收割者譯名並保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25519/givenBy",
+          "englishHash": "e4be4f66b1f7b94322b6be26a3a07ff392814b8d227ff5a340818b2b75bc0c15",
+          "evidenceHash": "8bd3a7a497db1a844ddf8a4a636f91766da152af054a8bfd34dab54e5c382648"
+        }
+      ]
+    },
+    {
+      "source": "Damage +15% (vs. hexed foes)",
+      "text": "傷害 +15%（對受到降咒的敵人）",
+      "reason": "vs. hexed foes 限制被攻擊敵人須受到降咒，不是自身條件，也不是與十六進位敵人比較；保留 +15%。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25270/sections/rewards-1/blocks/rewards-1-11/text",
+          "englishHash": "5e0534e500a8f964c962d2332f85dff614609d5e5388868848ba96e8f3601b26",
+          "evidenceHash": "cacf27d886eeda18032dfbfe02be87b5c3485ced188d97faa4d905900aa67dd2"
+        }
+      ]
+    },
+    {
+      "source": "Damage +10% (while Hexed)",
+      "text": "傷害 +10%（自身受到降咒時）",
+      "reason": "while Hexed 限制裝備使用者自身受降咒，與對受降咒敵人的 vs. 條件分開；逐一核對三個任務獎勵綁定及 +10%。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25499/sections/rewards-1/blocks/rewards-1-11/text",
+          "englishHash": "b081213960d5c1236c570f1dff1a4f503892c2b0466013e32786a6f7dd41da7e",
+          "evidenceHash": "c695a480853107eeb96d731fcb8ac5b5ff03d26a193064b50b89fa6e78861614"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15321/sections/rewards-1/blocks/rewards-1-6/text",
+          "englishHash": "b081213960d5c1236c570f1dff1a4f503892c2b0466013e32786a6f7dd41da7e",
+          "evidenceHash": "3e213822a448d28d9d28fa3b96a2f61b8123a99599bccc95e7035332ede5625c"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:10451/sections/rewards-1/blocks/rewards-1-9/text",
+          "englishHash": "b081213960d5c1236c570f1dff1a4f503892c2b0466013e32786a6f7dd41da7e",
+          "evidenceHash": "9d68d7e633001e00f15c34e270da6e6a34359a5a28a1e6b2b0ee564cf29c9759"
+        }
+      ]
+    },
+    {
+      "source": "Damage +15% (while Hexed)",
+      "text": "傷害 +15%（自身受到降咒時）",
+      "reason": "核對 Garfazz 任務獎勵的自身受降咒條件及 +15% 傷害，不套用其他任務的 +10% 或敵方受降咒條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:13725/sections/rewards-1/blocks/rewards-1-9/text",
+          "englishHash": "27e7e5c285101613c266042693589e0f532ebf0e7da8b9b638cda9553050c01e",
+          "evidenceHash": "c23d99a2ca584e1830d297c354b26308a8646874b70f9229dac2fcda4cc1ca55"
+        }
+      ]
+    },
+    {
+      "source": "Energy +10 (while Hexed)",
+      "text": "能量 +10（自身受到降咒時）",
+      "reason": "核對 Minaar 任務獎勵增加的是能量 +10，而非再生或傷害；條件作用於使用者自身受降咒。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:13724/sections/rewards-1/blocks/rewards-1-9/text",
+          "englishHash": "4dc3e9a91962f416af5a4193dfc79075a355bf44a8265540c780d5c91867b9e2",
+          "evidenceHash": "552c72bcd9f0032080c9183a34d1e2cbc9b395be44a3fe3bd2690ddf2d64c8d7"
+        }
+      ]
+    },
+    {
+      "source": "Health +15 (while Hexed)",
+      "text": "體力 +15（自身受到降咒時）",
+      "reason": "核對此獎勵的體力 +15 與自身受降咒條件，Hexed 不是十六進位，且加成不作用於敵人。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:13728/sections/rewards-1/blocks/rewards-1-10/text",
+          "englishHash": "9bd54108e4c4b663632211289215a24b9e99be65dee4129d63f08b368aafd3be",
+          "evidenceHash": "f8984df417d99903cfb887694e72055511befe35ee3b6f849c03f7b44a1a8f51"
+        }
+      ]
+    },
+    {
+      "source": "Energy +7 (while Hexed)",
+      "text": "能量 +7（自身受到降咒時）",
+      "reason": "核對 Althea 任務此獎勵為能量 +7，條件是使用者受降咒；保留加號，不改成能量恢復速率。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:45428/sections/rewards-1/blocks/rewards-1-6/text",
+          "englishHash": "b709dae0414e766c7d6eb2b3490247fa1618344c89de7a59ee94b27d3861cb7b",
+          "evidenceHash": "8080fae133d2adbba91b9020baf49dfbcbcd4a6fe2ff4a6cad08c11f42e48c03"
+        }
+      ]
+    },
+    {
+      "source": "Energy +3 (while Hexed)",
+      "text": "能量 +3（自身受到降咒時）",
+      "reason": "核對 Cities of Ascalon 的能量 +3 及自身受降咒限制；與其他能量 +7、+10 條目分開審讀。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:12177/sections/rewards-1/blocks/rewards-1-12/text",
+          "englishHash": "15f812420abced4a92f21f739b8b891a4ba1dcf5dea3b1531e8c4cf9438e4093",
+          "evidenceHash": "80d73bbaa20ec23f4e84577e8929099178d79b54810b7a52153b7c88035091ab"
+        }
+      ]
+    },
+    {
+      "source": "Health +5 (while Hexed)",
+      "text": "體力 +5（自身受到降咒時）",
+      "reason": "核對 The Rogue’s Replacement 的體力 +5 與自身受降咒條件；不是恢復 5 體力，也不是敵方條件。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25470/sections/rewards-1/blocks/rewards-1-7/text",
+          "englishHash": "a38afd5e6c8598bb2a985411159eb7626e47f7d9c7c7e2807a2a1943547ab72e",
+          "evidenceHash": "b6a8e2c0e8c33436277dd13a9ccd94e7b3af1a1294bab8ad8d80b18e4140d5fc"
+        }
+      ]
+    },
+    {
+      "source": "Armor +5 (while Hexed)",
+      "text": "防禦 +5（自身受到降咒時）",
+      "reason": "四個任務的同文獎勵均為防禦 +5，且使用者須受降咒；保留四個精確綁定，不與 +4 或 +7 防禦混同。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:45428/sections/rewards-1/blocks/rewards-1-5/text",
+          "englishHash": "920d894c64438495d27a59925eb3fcac68f6fa443d811360f152fe7607b7d718",
+          "evidenceHash": "8080fae133d2adbba91b9020baf49dfbcbcd4a6fe2ff4a6cad08c11f42e48c03"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25316/sections/rewards-1/blocks/rewards-1-6/text",
+          "englishHash": "920d894c64438495d27a59925eb3fcac68f6fa443d811360f152fe7607b7d718",
+          "evidenceHash": "c82f8f7edc6dc27d6047593c17b28fa4cadd623150766c58de771dceef0fd002"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:13728/sections/rewards-1/blocks/rewards-1-11/text",
+          "englishHash": "920d894c64438495d27a59925eb3fcac68f6fa443d811360f152fe7607b7d718",
+          "evidenceHash": "f8984df417d99903cfb887694e72055511befe35ee3b6f849c03f7b44a1a8f51"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:14927/sections/rewards-1/blocks/rewards-1-6/text",
+          "englishHash": "920d894c64438495d27a59925eb3fcac68f6fa443d811360f152fe7607b7d718",
+          "evidenceHash": "9a0b5828a50b35de77a3258019d1102453640eed8461ea7e620ed93580ea8fbe"
+        }
+      ]
+    },
+    {
+      "source": "Armor +4 (while Hexed)",
+      "text": "防禦 +4（自身受到降咒時）",
+      "reason": "分別核對 Across the Wall 與 Fires in the North 的防禦 +4；while Hexed 是使用者自身條件，與前項 +5 分開。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25499/sections/rewards-1/blocks/rewards-1-10/text",
+          "englishHash": "117cb1cd6a9c8d97db3bd65db8c9bd84e71bda62f2ac627ca162c04a12f0c4e2",
+          "evidenceHash": "c695a480853107eeb96d731fcb8ac5b5ff03d26a193064b50b89fa6e78861614"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15321/sections/rewards-1/blocks/rewards-1-5/text",
+          "englishHash": "117cb1cd6a9c8d97db3bd65db8c9bd84e71bda62f2ac627ca162c04a12f0c4e2",
+          "evidenceHash": "3e213822a448d28d9d28fa3b96a2f61b8123a99599bccc95e7035332ede5625c"
+        }
+      ]
+    },
+    {
+      "source": "Armor +7 (while Hexed)",
+      "text": "防禦 +7（自身受到降咒時）",
+      "reason": "核對 Counting the Fallen 此獎勵為防禦 +7，並明確自身受降咒的啟用條件；保留數值及加號。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:17607/sections/rewards-1/blocks/rewards-1-7/text",
+          "englishHash": "da1f6a3c90ff2b3db2ef1c8bbfe94ecdcb1b490036c346c50f8f9bb4bbb8c2ef",
+          "evidenceHash": "361e745b3d91347f66bc9f60d1f102beee7a5230d9b93cdb90a058b18f4fb663"
+        }
+      ]
+    },
+    {
+      "source": "Additional charr",
+      "text": "額外夏爾敵人",
+      "reason": "Charr 是夏爾種族，不是字元。固定 Forsaken Tunnels 表格按隊伍等級列額外敵人，保留此欄為新增敵人種類／數量的表頭，不誤成角色字元。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:320073/sections/notes-1/blocks/notes-1-11/cells/0/1",
+          "englishHash": "9fad9c4ab35932e18ab320f2235b611a52581fdcf5ca58c9086e0698d9f51998",
+          "evidenceHash": "1ffdc7a1ffef7762bedd8ccd7654586d6c518a6b93bbae1890aa08f93ddb9e34"
+        }
+      ]
+    },
+    {
+      "source": "Spawning Pools",
+      "text": "Spawning Pools",
+      "reason": "任務接取地點須保留 Spawning Pools 的區域身份；沒有固定中文名稱證據，不將 spawning 按字面造為產卵池。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25519/givenAt",
+          "englishHash": "9e6d51b96c2746c33b3a5b270095c1b537d2bec41fa37cea8a472e03829ab7dc",
+          "evidenceHash": "8bd3a7a497db1a844ddf8a4a636f91766da152af054a8bfd34dab54e5c382648"
+        }
+      ]
+    }
+  ]
+}

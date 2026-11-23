@@ -14,7 +14,7 @@ desktop-verification.md: 1.0.0 历史桌面验收。
 project-structure-verification.md: 本次目录迁移的测试结果与验证边界。
 performance-optimization.md: 首次加载、内容 Worker、渐进缓存与全量离线验收。
 translation-accuracy-audit.md: 翻译准确性复核和未完成范围。
-full-text-proofreading.md: 已发布校对批次、第七八轮交付、来源解析缺口和完整待审范围。
+full-text-proofreading.md: 已发布校对批次、第九轮交付、来源解析缺口和完整待审范围。
 desktop-1.4.3-acceptance.md: 1.4.3 测试、公开发布与 ZimaBoard2 实机验收。
 desktop-1.4.4-acceptance.md: 1.4.4 校对批次、公开产物与 ZimaBoard2 部署验收。
 desktop-1.4.5-acceptance.md: 1.4.5 来源解析修复、公开签名与 ZimaBoard2 部署验收。
@@ -22,6 +22,7 @@ desktop-1.4.7-acceptance.md: 1.4.7 校对批次、公开签名与 ZimaBoard2 部
 desktop-1.4.8-acceptance.md: 1.4.8 技能备注来源修复、校对批次、公开签名与 ZimaBoard2 验收。
 desktop-1.4.6-acceptance.md: 1.4.6 校对批次、公开签名与 ZimaBoard2 部署验收。
 desktop-1.4.9-acceptance.md: 1.4.9 校对、公开签名验证与待管理员登录的设备离线导入。
+desktop-1.4.10-acceptance.md: 1.4.10 校对、签名发布与 ZimaBoard2 部署验收。
 traditional-chinese.md: 繁体迁移、审查修复、中文证据、资源兼容与发布部署验收。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

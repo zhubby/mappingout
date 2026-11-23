@@ -1,0 +1,409 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "After killing the first group of wolves along the bridge, setup a spirit decoy at the entrance to the bridge (if you have no spirits, you can later just kill the suicidal creatures at range before they reach your party). Proceed to the next wolf spawn, and kill them. Moving further along the bridge will spawn a third group of Wolves, kill them and then kill any remaining Hopping Vampires and Thought Stealers that spawned at the start of the bridge beside your spirit decoy. Continue to the end of the bridge, where another group of Hopping Vampires and Thought Stealers will spawn.",
+      "text": "殺死橋上的第一群狼後，在橋頭設置精靈作誘餌；若沒有精靈，也可稍後在那些自殺式生物接近隊伍前，從遠處將牠們擊殺。接著前往下一群狼的出現位置，殺死牠們。繼續沿橋前進會引出第三群狼；消滅牠們後，再清除橋頭精靈誘餌旁出現、尚未被殺死的 Hopping Vampire 與 Thought Stealer。繼續走到橋尾，還會再出現一群 Hopping Vampire 與 Thought Stealer。",
+      "reason": "核對第一、第二、第三群狼及橋頭、橋尾的觸發順序；spirit 是精靈誘餌，spawn 是出現。補回無精靈時須在敵人抵達前遠距擊殺的替代做法；未證實的敵人名稱保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2870/sections/walkthrough-1/blocks/walkthrough-1-11-2/text",
+          "englishHash": "563d8dbbb326c71f29cbe22741e5f36cbaf97f8e4e24aaec12450a824f19e9f5",
+          "evidenceHash": "e32e8a23c4779b924fa328487f4a9f0608d27f492b8cdd49b5d3e61898466b3a"
+        }
+      ]
+    },
+    {
+      "source": "In general, you need to watch the composition of the incoming enemies. If there are any Spark of the Titans, take them down as fast as you can; they have the potential to deal a large amount of damage to the party. Next on the list are the Charr Lord casters — Charr Shaman Lord, Charr Flame Lord, Charr Mind Lord, and Charr Ashen Lord. Turn your attention to any Charr Axe Lords and Charr Stalker Lords before tackling the Armageddon Lord. You can pretty much ignore the regular level 8 or 9 Charr, as they usually die to any AoE damage when you're attacking the Charr Lords.",
+      "text": "留意來襲敵群的組成。若有泰坦火花，應盡快擊殺，因為牠們可能對隊伍造成大量傷害。接著處理夏爾領主中的施法者：Charr Shaman Lord、Charr Flame Lord、Charr Mind Lord 與 Charr Ashen Lord。再對付 Charr Axe Lord 及 Charr Stalker Lord，最後才處理末日領主。一般 8 或 9 級夏爾大致可以忽略；攻擊夏爾領主時，牠們通常會死於範圍傷害。",
+      "reason": "依序保留泰坦火花、四類施法領主、兩類武器領主、末日領主的處理優先級；party 是隊伍而非政黨。保留 8 或 9 級及範圍傷害條件，無可信中文身份的六種領主保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25351/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "4790a868300fd32dfb5b2ab3767378f5510397227026e61f802cd60da9007795",
+          "evidenceHash": "71a44d9823e4dbef5de5aa60409b914731daaa3d9b603395ae69a69955634b39"
+        }
+      ]
+    },
+    {
+      "source": "For those who have difficulty with hydras, an easier route is from the Thirsty River. There is a hidden entrance into the gorge to the extreme west of where the path opens up. Hug the southern wall and you will turn northward passing under a rope bridge guarded by a Dune Burrower at each end. This route is somewhat shorter as well, and there are 3 Losaru bosses that are fairly easy to kill, providing a nice +6% to your morale. An image of this route can be found on the discussion page.",
+      "text": "若難以應付三頭龍，從乾枯河流出發會比較容易。在道路開闊處的最西端，有一個通往峽谷的隱藏入口。貼著南側牆壁前進，路線會轉向北方，從一座繩橋下方穿過；橋的兩端各有一隻沙漠鑽地蟲把守。這條路也稍短，途中有三名容易擊殺的羅沙魯頭目，可合計提供 +6% 士氣提升。來源討論頁有此路線的圖片。",
+      "reason": "Hydra 沿固定中文術語用三頭龍；保留最西入口、貼南牆轉北、從繩橋下方通過的方向。核對三名頭目合計 +6% 士氣，避免計程車氣與走過橋面的誤義。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:18549/sections/walkthrough-1/blocks/walkthrough-1-5-1/text",
+          "englishHash": "6ca57d6ec4253eea97fcadbe7bf52c3ddb8ed08ce3373dcc201d393b569d5bab",
+          "evidenceHash": "b5a55f9702c3e7ed5f567c754fb40066d495d717616ce4572c9013e943ecbb33"
+        }
+      ]
+    },
+    {
+      "source": "Kill each Tormented Land once - another will spawn nearby until the original ten are killed, at which point an Earthen Abomination spawns. Kill the Abomination and from this point on you can ignore these creatures. Two minutes later, the spawning process will begin again. The first 11 unique kills contribute to experience, leave drops, and count towards vanquishing; killing the re-spawned ones does not; the Earthen Abomination boss gives the morale boost only after first kill.",
+      "text": "每隻 Tormented Land 各擊殺一次；每殺死一隻，附近就會再出現另一隻，直到最初的十隻全被擊殺，接著會出現一隻 Earthen Abomination。殺死牠後，便可忽略這些生物。兩分鐘後，整個出現流程會重新開始。只有最初 11 個不同個體的首次擊殺會提供經驗、掉落物及征服擊殺數；擊殺重新出現的個體不會。Earthen Abomination 頭目也只有第一次被擊殺時才提供士氣提升。",
+      "reason": "固定 Turai’s Procession 備註將 Tormented Land 列為敵人，而非地名；保留十隻加一隻、兩分鐘重啟及僅首次 11 個個體計經驗／掉落／征服的限制，頭目士氣亦只給首次。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:278507/sections/target-8892-notes-1/blocks/target-8892-notes-1-7/text",
+          "englishHash": "be765374d3f8aa8907b168f176168cbcbb83a31c7f033eadd434a00c7cc1d816",
+          "evidenceHash": "1790e351b6da4c8cce415d98f20f4718b2ab1a47ce3afc52542ce314e729e281"
+        }
+      ]
+    },
+    {
+      "source": "Pull all the visible groups of Thorn Wolves and Greater Blood Drinkers towards the gate, one group at a time. Killing one group of foes will enable another to spawn within the room at a random location, also bear in mind the underground patrols move around, so don't go too far into the room. NOTE: If your party advances too far into the room before the patrols and random spawns arrive, the entry doors will close behind you, cutting off any escape.",
+      "text": "將所有看得見的 Thorn Wolf 與 Greater Blood Drinker 敵群逐群引向大門。每消滅一群敵人，房內隨機位置就能再出現另一群；地下巡邏隊也會移動，因此不要深入房間。注意：若隊伍在巡邏隊及隨機出現的敵群抵達前，就深入房內，入口門會在身後關閉，切斷所有退路。",
+      "reason": "pull 是逐群引敵，不是拉出保護；保留擊殺一群才使下一群隨機出現、地下巡邏會移動及過早深入會關門斷退路的條件。無可信中文身份的兩種敵人保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2870/sections/walkthrough-1/blocks/walkthrough-1-17-1/text",
+          "englishHash": "fdfe23f9923d8914218ef12afbf4f383005e409f3dc13a5dadfe5d9649af662a",
+          "evidenceHash": "e32e8a23c4779b924fa328487f4a9f0608d27f492b8cdd49b5d3e61898466b3a"
+        }
+      ]
+    },
+    {
+      "source": "Once all enemies have been killed, the quest itself will be over, and it becomes possible to accept the quest reward from Captain Sulahresh (a good way of removing Death Penalty for the group). Once the quest reward has been accepted, Lord Jadoth and his army of Margonites will arrive through the gate leading to the Stygian Veil, allowing you to spawn a Torc'qua Chest and progress the quest Mallyx the Unyielding. See there for strategies.",
+      "text": "殺死所有敵人後，任務本身便告完成，可向 Captain Sulahresh 領取獎勵；這也是消除全隊死亡懲罰的好方法。領取獎勵後，霸王 賈多司與瑪貢尼特大軍會從通往 The Stygian Veil 的大門抵達。此後可進一步使 Torc'qua Chest 出現，並推進 Mallyx the Unyielding 任務；戰術請參閱該任務攻略。",
+      "reason": "區分全滅完成任務、領取獎勵、賈多司大軍到場的先後；Death Penalty 是死亡懲罰，不是死刑。allowing 保留為後續可推進及出現寶箱的機會，不聲稱領獎立即取得寶箱。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:15666/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "f5f57a7fe8499ab8326585d194f6f7dc44da24221834d1a6639efe1823c10837",
+          "evidenceHash": "a078b111f11e84010cae3e3e110d7eaf0b4800770aa6ff8dbf55c7864c67f637"
+        }
+      ]
+    },
+    {
+      "source": "If you are unable to prevent the spell, it is essential to keep moving in order to stay out of the Diamondshard Mist. The party should spread out so that multiple party members avoid taking heavy damage simultaneously. If the entire party dies, there is a nearby resurrection shrine, so you can return to the assault before the boss can recover completely. A persistent party can defeat the Remnant regardless of Death Penalty.",
+      "text": "若無法阻止該法術，就必須持續移動，避開 Diamondshard Mist。隊員應分散，避免多人同時承受大量傷害。若全隊死亡，附近有復活神殿，可在頭目完全恢復前返回繼續攻擊。只要持續進攻，即使有死亡懲罰，隊伍仍能擊敗殘餘的斷片。",
+      "reason": "核對不能阻止施法時改為移動避霧、分散及全滅後趁未回滿返回的戰術；Remnant 指本任務頭目殘餘的斷片，並非殘黨；死亡懲罰不等同死刑。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63756/sections/shared-quest:gww:64458-walkthrough-1/blocks/shared-quest:gww:64458-walkthrough-1-4/text",
+          "englishHash": "892343c3f01434ca8610b449c8658531233a79b194c90f1bd634bd8e30d92879",
+          "evidenceHash": "2f2916fe704cb5f024b433993babb20de6f43a28412185162ab4b8dd05d76003"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:64458/sections/walkthrough-1/blocks/walkthrough-1-4/text",
+          "englishHash": "892343c3f01434ca8610b449c8658531233a79b194c90f1bd634bd8e30d92879",
+          "evidenceHash": "ed938b84cbf310e2f36e7928ccae0ca4acdbd39726e0aef90e3ed8d90d378315"
+        }
+      ]
+    },
+    {
+      "source": "Wulk Cragfist spawns as a hostile for all characters and turns into an ally after being defeated, despite the fact that only Factions characters can take his quest, Revenge of the Yeti. Sometimes, a Water Buffalo (near the second rabbit cage) will spawn in the middle of two trees and be unable to move. Inside Zhengjo Temple, two Mantid Hatchlings will attack the Mantid Monitor near to where they spawn.",
+      "text": "對所有角色而言，Wulk Cragfist 起初都以敵對身份出現，被擊敗後才成為盟友；但只有《盟與敵》出身的角色能接取他的 Revenge of the Yeti 任務。有時第二個兔籠附近的水牛會出現在兩棵樹之間，因而無法移動。征臼神殿內，兩隻 Mantid Hatchling 會攻擊牠們出現位置附近的 Mantid Monitor。",
+      "reason": "逐項核對三個 bug 註記：所有角色先遇敵對 Wulk、僅盟與敵出身者能接任務、水牛卡兩樹及兩隻幼體攻擊 Monitor。移除產卵、巨蜥等誤義，不猜未證實 NPC 譯名。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:278481/sections/target-10426-notes-1/blocks/target-10426-notes-1-28/text",
+          "englishHash": "5e648131c5a1d19e5cc4cf1138d4c3cf5eb1697e6190f65cdbdb6f10612eca6d",
+          "evidenceHash": "ed52a516a109c712aaa74c3949a6dcd0fca2c36e66f22359e145daf98c0fedef"
+        }
+      ]
+    },
+    {
+      "source": "There will now be three Flame Djinn in the circle. You most certainly don't want to aggro all of them at the same time, so get back out of the circle quickly to regenerate. Pull one of them at a time outside the circle and interrupt the Consuming Flames skill to kill it faster. Even with a large Death Penalty it shouldn't be too big of a problem to kill one of them.",
+      "text": "此時圓圈內會有三隻 Flame Djinn。務必避免同時引到全部敵人，應迅速退到圈外恢復。每次只將其中一隻引到圈外，並打斷牠的 Consuming Flames，以加快擊殺。即使死亡懲罰很高，單獨殺死一隻應仍不至於太困難。",
+      "reason": "核對三隻、逐隻引出圈外及打斷 Consuming Flames 的動作；aggro 不等於一次攻擊所有人，pull 不是保護。保留高死亡懲罰下仍只建議單隻處理的範圍。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25354/sections/walkthrough-1/blocks/walkthrough-1-11/text",
+          "englishHash": "e7c0a411f344726844e5be370481b400946cd6b3948d11d914f4ba6185cc7e29",
+          "evidenceHash": "4557734c9f5367da8dfbbd695075361eb869c67356b90c4af023c636e8b662cc"
+        }
+      ]
+    },
+    {
+      "source": "Casters are rendered useless here. To clear this section more easily, pull the patrolling Outcasts into the entrance. Teams can place tanks, spirits, minions across the gate to set up a body-blocking wall. Once the patrols are killed, only Outcast Raiders and the Aspect of Failure will remain in room at an elevated level.",
+      "text": "施法者在此處無法發揮作用。要更容易清除此區，可將巡邏的 Outcast 引到入口。隊伍可讓坦克、精靈及僕從橫列在大門處，以身體阻擋通道。消滅巡邏隊後，房內高處便只剩 Outcast Raider 與 Aspect of Failure。",
+      "reason": "casters 是施法者，spirits／minions 是精靈／僕從；固定頁下一段提及平台及將 Aspect 引下，證實 elevated level 指較高地形，不是較高等級。保留卡位牆與清巡邏順序。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:33971/sections/walkthrough-1/blocks/walkthrough-1-13-2/text",
+          "englishHash": "8fd7d4efd45d7065f417fb8208a591c52461f44ad6f6e4afe17f30c2a7264d39",
+          "evidenceHash": "d23f1442fb00e433b8af1727475886aa65685e311a660ca4c388af0c21122655"
+        }
+      ]
+    },
+    {
+      "source": "Talk to Jiaju Tai at the docks in Lions Arch to gain passage to D'Alessio Seaboard. The Jade Cloak in Justiciar Kasandra's group can be isolated, but the others are more difficult to pull. This group has so many casters bunched in a tight area that a Mesmer armed with Panic can neutralize them, even in hard mode.",
+      "text": "在獅子拱門碼頭與加貝泰交談，即可前往達雷西海濱。Justiciar Kasandra 敵群中的 Jade Cloak 可以單獨引開，其餘敵人則較難分離。大量施法者擠在狹小區域內，因此攜帶恐慌的幻術師即使在困難模式，也能有效壓制他們。",
+      "reason": "核對加貝泰及達雷西海濱的固定中文身份；isolate／pull 是單獨引敵。修正腳輪為施法者，保留即使困難模式仍能用恐慌壓制的條件，不猜未證實頭目及敵人譯名。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:258029/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "85f9020b9ba76fe96c6e1dca2604696af2ab4358ae7be1b6f01ac4ef6a65b9ae",
+          "evidenceHash": "5ed37f345e622147264a8548105a1f8425c2955a1359da30ddc081d757609c2f"
+        }
+      ]
+    },
+    {
+      "source": "You can also fill the spawning area with traps before taking the quest. By concentrating the traps in one or two corners of this area, you should be able to take out one or two Guardians without any trouble. The queen will most likely survive any such attempts.",
+      "text": "也可在接取任務前，於敵人出現區域布滿陷阱。將陷阱集中在該區一至兩個角落，應能輕易擊殺一至兩名 Guardian；女王則很可能仍能存活。",
+      "reason": "spawn area 是敵人出現區域；保留接任務前設陷阱、一至兩角落對應一至兩名 Guardian，以及女王大多不會因此死亡的保留語氣。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25519/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "40786cddb7cb562d7b27787dc8f180a4a8164c1c521a94e43b06e19c1edd80c9",
+          "evidenceHash": "8bd3a7a497db1a844ddf8a4a636f91766da152af054a8bfd34dab54e5c382648"
+        }
+      ]
+    },
+    {
+      "source": "Consumables: Bring some items that remove DP or give party bonuses to health and attributes. This is a long mission, and even with a good team, dying is an occupational hazard. A morale boost at critical points can potentially make or break an Urgoz run.",
+      "text": "消耗品：攜帶能移除死亡懲罰，或提高全隊體力及屬性的物品。這場任務很長，即使隊伍配置良好，死亡仍難以避免；在關鍵時刻獲得士氣提升，可能決定這次爾果挑戰的成敗。",
+      "reason": "DP 是死亡懲罰，health／attributes bonuses 是體力及屬性加成；修正職業病與計程車氣。Urgoz run 指一次挑戰，保留關鍵士氣可能決定成敗的語氣。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2870/sections/walkthrough-1/blocks/walkthrough-1-21-6/text",
+          "englishHash": "1df935a7b5bc883d7859e841f4790d699b9e534487c868fb11792d5b271ef63e",
+          "evidenceHash": "e32e8a23c4779b924fa328487f4a9f0608d27f492b8cdd49b5d3e61898466b3a"
+        }
+      ]
+    },
+    {
+      "source": "When vanquishing normally, take care when engaging the numerous Jade Brotherhood mobs. Spread out the party before engaging, as the casters can easily cause a party wipe. Anti-melee skills and elemental damage protection or mitigation are recommended.",
+      "text": "一般進行征服時，與大量翡翠兄弟會敵群交戰要格外小心。開戰前先分散隊員，因為敵方施法者很容易造成全隊覆滅。建議攜帶反制近戰的技能，以及能防護或減輕元素傷害的技能。",
+      "reason": "vanquishing 是征服而非一般擊敗；修正腳輪及隊伍消失為施法者造成滅團。保留開戰前分散、反近戰與元素減傷兩種建議。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:278668/sections/target-10988-notes-1/blocks/target-10988-notes-1-5/text",
+          "englishHash": "19b684bf92370a9ffaa8fe0700a7f3d68d9f88c3d0416d830bb2bf718ae56a95",
+          "evidenceHash": "f6016cd62bacec3f630ee58646de6eb948405221b747d7333b9056fd9c0ec9ea"
+        }
+      ]
+    },
+    {
+      "source": "Faintedheartedness is a very weak hex, and its main use is to trigger Soul Barbs' damage. Soul Barbs, on the other hand, is quite strong and works with all hexes, including Siphon Strength and mesmer hexes such as Conjure Phantasm and Imagined Burden.",
+      "text": "懦弱（本段原文寫作 Faintedheartedness）是效果較弱的降咒，主要用途是觸發靈魂荊棘的傷害。靈魂荊棘則相當強，能與所有降咒搭配，包括吸取力量，以及召喚幻影、意念負荷等幻術師降咒。",
+      "reason": "hex 為降咒、mesmer 為幻術師。同頁 Early benefits 明列 Faintheartedness，與中文術語懦弱對應；正文 Faintedheartedness 拼寫保留註明，不改 source。保留靈魂荊棘對所有降咒生效。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:19052/sections/walkthrough-1/blocks/walkthrough-1-3/text",
+          "englishHash": "3e1cbe4e9abf0a18e81b9efd5b7ee93b67091bc418264a083955183b3fe440d9",
+          "evidenceHash": "ded82c75f6a7c5e397fd328153285b1571c40d6a13a318a1c1ecc75f8e2beb01"
+        }
+      ]
+    },
+    {
+      "source": "Sends out a wave of lava that deals 100 fire damage to all Burning foes. While submerged in lava, the Great Destroyer gains 10 Health regeneration and is immune to all damage. Lava Wave ends after 12 seconds or if all other Destroyers are destroyed.",
+      "text": "釋放一波熔岩，對所有處於燃燒的敵人造成 100 點火焰傷害。潛入熔岩期間，大毀滅者獲得 10 點體力再生，且免疫所有傷害。Lava Wave 會在 12 秒後結束；若其他毀滅者全部被消滅，也會結束。",
+      "reason": "核對傷害只對燃燒敵人、100 火傷、10 體力再生及 12 秒或其他毀滅者全滅兩個結束條件；Destroyers 是毀滅者，不是驅逐艦。來源免疫敘述原樣保留，不擴大核驗。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:68265/sections/walkthrough-1/blocks/walkthrough-1-5-2/cells/6/1",
+          "englishHash": "2db57db7b48e78815573a8843eee7acfbb106e37a130b3c9b5db51ed94578a92",
+          "evidenceHash": "229eac5c1f345a61da43901c6cf2a5de3c244b376143ed46ad992d0a1dc3c226"
+        }
+      ]
+    },
+    {
+      "source": "If the quest \"Between a Rock...\" is active, after killing the first group within the Fortress of Jahai, several groups of margonites will spawn and head to your location. Make sure you kill all of them before engaging the groups inside.",
+      "text": "若正在進行 Between a Rock... 任務，在 Fortress of Jahai 內殺死第一群敵人後，會再出現數群瑪貢尼特，朝隊伍的位置前進。務必先消滅這些敵群，再與要塞內其餘敵群交戰。",
+      "reason": "保留任務啟用、擊殺要塞內第一群才觸發數群增援的條件；all of them 指瑪貢尼特增援，不是全部人物。任務與要塞未有完整中文身份，保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:279687/sections/target-8942-notes-1/blocks/target-8942-notes-1-8/text",
+          "englishHash": "c1ecdd26fe54c5558d3677c1a038439a7d0b323750d5fea7bb2d9e2541fd5aa7",
+          "evidenceHash": "ff1f773f15722585232fe886c7461d93383f67e4ea54ab1b2d203f8a75d9d76c"
+        }
+      ]
+    },
+    {
+      "source": "This area comprises approximately 6% of the mappable area in Eye of the North; you can uncover most of it during the G.O.L.E.M. mission by killing the originally spawning Destroyers and before activating the kilns.",
+      "text": "此區約占《極地之眼》可探索地圖面積的 6%。進行 G.O.L.E.M. 任務時，先殺死最初出現的毀滅者，並在啟動窯爐之前探索，就能揭開此區大部分地圖。",
+      "reason": "保留約 6% 為整個極地之眼可揭開地圖的占比；探索時機在殺死最初敵人後、啟動窯爐前，不將後半句誤拆成任務目標。Destroyers 為毀滅者。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:276380/sections/target-68869-notes-1/blocks/target-68869-notes-1-10/text",
+          "englishHash": "762e9943dd3023c53bd187b012c3a204a3d7ff356ccce01cb16732ec541ecabe",
+          "evidenceHash": "f41ccab6802073f4a541d4482fb9145d2e0b291ca52305c4114acfb56e9c5cf8"
+        }
+      ]
+    },
+    {
+      "source": "The Bog Skales use health degeneration and corpse exploitation. Consider bringing Interrupts and hex removal to use against them. A minion master can help reduce the available corpses for exploitation.",
+      "text": "泥鱗怪會造成體力衰減，並利用屍體。可攜帶打斷及移除降咒的技能對付牠們；召喚僕從的死靈法師也能消耗屍體，減少敵人可利用的數量。",
+      "reason": "補譯遺留英文，Bog Skale 依固定中文為泥鱗怪；hex removal 是移除降咒。僕從大師減少可用屍體是戰術因果，不是減少現有僕從。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:279434/sections/target-10170-notes-1/blocks/target-10170-notes-1-6/text",
+          "englishHash": "47fd4fdd0d3228bdf4aa58cfb93a63b7b242db8f507e4f9a9cd22d1d50d25cde",
+          "evidenceHash": "e6c3a605eff55ae4b3d5408553dac4d002854cd664a11dd929a9c0bd3e202f4f"
+        }
+      ]
+    },
+    {
+      "source": "Because of the high level charr and low level henchmen, it is best to either go with other players or with heroes. Also, due to the small party size, the party must be well balanced.",
+      "text": "夏爾等級高，傭兵等級卻低，因此最好與其他玩家或英雄同行。此外，隊伍人數上限較少，配置必須均衡。",
+      "reason": "henchmen 是傭兵而非追隨者，party 是隊伍而非政黨；保留敵我等級差與小隊人數導致須均衡配置的兩項理由。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:25351/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "573f4a954c1be0400a5e7130d6c126823f44759982ab1ca746bb86907fe2a592",
+          "evidenceHash": "71a44d9823e4dbef5de5aa60409b914731daaa3d9b603395ae69a69955634b39"
+        }
+      ]
+    },
+    {
+      "source": "When you resign, you get the usual, message that \"Your party was defeated\". However, you remain alive and centaurs continue to attack you until you're returned to the outpost.",
+      "text": "認輸時，仍會出現慣常的「你的隊伍已被擊敗」訊息；但角色實際上仍活著，半人馬也會繼續攻擊，直到你被送回前哨站。",
+      "reason": "resign 是認輸而非辭職；usual 修飾慣常訊息，不表示偶爾才出現。區分系統宣告被擊敗與角色仍存活受攻擊，結束點是被送回前哨站，不是死亡。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:63659/sections/notes-1/blocks/notes-1-3/text",
+          "englishHash": "b8eb570f8ae4cb28182b9fc357e724cb6cbfd830a72f3be91fa24152644d0f93",
+          "evidenceHash": "241f83dceaa339fe54cf849d42bb382b09033aaa8fd78369a73f4da4a7204455"
+        }
+      ]
+    },
+    {
+      "source": "Breathes a cone of fire that hits foes for 80 fire damage and 40 more fire damage for each enchantment on them. All Destroyers in the affected area are healed for 80 Health.",
+      "text": "噴出錐形火焰，對敵人造成 80 點火焰傷害；每名敵人身上每有一個加持，便再承受 40 點火焰傷害。效果範圍內的所有毀滅者則恢復 80 點體力。",
+      "reason": "逐一核對 80 基礎傷害、各敵人每個加持增加 40 傷害及毀滅者獲得 80 治療；不是每個加持被傷害，也不是在 80 體力期間治療。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:68265/sections/walkthrough-1/blocks/walkthrough-1-5-2/cells/7/1",
+          "englishHash": "3b7ef6b3611a464c2be6dd9c7ef7fd4ee80b03518ce63c2499a9e59875117d5b",
+          "evidenceHash": "229eac5c1f345a61da43901c6cf2a5de3c244b376143ed46ad992d0a1dc3c226"
+        }
+      ]
+    },
+    {
+      "source": "After completion of the Eye of the North storyline, the small number of Destroyers in the north are actually separated into two hostile groups that will fight each other.",
+      "text": "完成《極地之眼》主線劇情後，北方少量毀滅者實際上會分成彼此敵對的兩群，互相交戰。",
+      "reason": "Destroyers 指毀滅者；保留須完成主線劇情、位於北方及兩群彼此敵對的條件，未把敵對關係改成對玩家敵對。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:276380/sections/target-68869-notes-1/blocks/target-68869-notes-1-9/text",
+          "englishHash": "ce246d0ca3f4fce18c0790e3ee433d24ca258e35ec1d23ac1161106561139c77",
+          "evidenceHash": "f41ccab6802073f4a541d4482fb9145d2e0b291ca52305c4114acfb56e9c5cf8"
+        }
+      ]
+    },
+    {
+      "source": "Pets: Bring as many pets as you can. The party size of 12 means that a pet shield can be incredibly useful, especially since pets do not accrue Death Penalty.",
+      "text": "寵物：盡可能多帶寵物。此任務可組成 12 人隊伍，讓寵物在前方充當屏障會相當有用，尤其寵物不會累積死亡懲罰。",
+      "reason": "12 指隊伍人數，不是寵物數；pet shield 是讓寵物充當屏障，而非施加護盾。Death Penalty 為死亡懲罰，保留寵物不累積的理由。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2870/sections/walkthrough-1/blocks/walkthrough-1-21-5/text",
+          "englishHash": "44158212d72d9414e1bebc7acca2a2c8f74ebc44050b17f6b41ca692be7856b7",
+          "evidenceHash": "e32e8a23c4779b924fa328487f4a9f0608d27f492b8cdd49b5d3e61898466b3a"
+        }
+      ]
+    },
+    {
+      "source": "Talk to Jiaju Tai in Lions Arch to gain access to D'Alessio Seaboard (explorable area). The party will spawn at the beach south of the village Hakewood.",
+      "text": "在獅子拱門與加貝泰交談，即可進入達雷西海濱探索區。隊伍會出現在 Hakewood 村南方的海灘。",
+      "reason": "核對固定加貝泰與達雷西海濱名稱，explorable area 明確為探索區；party spawn 是隊伍進入位置。保留村南方海灘，Hakewood 未證實中文則保留英文。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:256162/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "englishHash": "c2a1e8723c331c3727cfb15d6f0657783d241e736b7a41438330817e81d60402",
+          "evidenceHash": "b6ed1fa5b31a3578701fecafac1dcb4fe4f779de8325411128c3dfd7b7c3434f"
+        }
+      ]
+    },
+    {
+      "source": "Her ghost may spawn inside solid objects, making it impossible to interact with her. Rezone to make her spawn in a different location.",
+      "text": "她的幽靈有時會出現在實體物件內，導致無法互動。離開後重新進入區域，可讓她改在其他位置出現。",
+      "reason": "rezone 是離開並重進區域，不是磁碟重新分割；保留卡入實體物件造成無法互動，以及重進使位置改變的解法。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:13727/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "d808fbac31701991748450d66c987d028b8fe31d5259a26aa9e4b8cc0464cdca",
+          "evidenceHash": "358f342654bcc6affc85894350a72d6bc9d71f7127a70ebdda7dbd75fc5f887b"
+        }
+      ]
+    },
+    {
+      "source": "There are two routes to the first portal. Each route has a boulder trap, being rolled over by a boulder does not cause Death Penalty.",
+      "text": "通往第一個傳送門有兩條路線，每條都有巨石陷阱。即使被巨石輾過而死亡，也不會增加死亡懲罰。",
+      "reason": "核對兩條路各有巨石陷阱，保留巨石致死不產生死亡懲罰的例外；Death Penalty 不是死刑。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:66456/sections/notes-1/blocks/notes-1-2/text",
+          "englishHash": "d3873c60bc1f46372d721b7e62916740d0e032201e7a0bf3a69b419fe35101fd",
+          "evidenceHash": "49bb453f54a9e46153111006c9231ee6a0dca9beed1a529adcdd20657ba7a949"
+        }
+      ]
+    },
+    {
+      "source": "You can reach the spawning site faster from the Central Transfer Chamber, if you have completed Destruction's Depths.",
+      "text": "若已完成破壞的深淵，從中央傳送室出發，能更快抵達出現地點。",
+      "reason": "保留先完成 Destruction’s Depths 才能採用中央傳送室捷徑的前提；spawn site 是出現地點，任務名沿固定中文破壞的深淵。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:67232/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "744ea819b8c5aa9767a1d54d59cbae779e15847be97814b4f34d23d212d95883",
+          "evidenceHash": "fdae5d3f0ca9932109ea98688a6a6ce484169f19b6c5a33063201535aa7625b7"
+        }
+      ]
+    },
+    {
+      "source": "The Facet of Spirit spawns randomly in Arbor Bay at one of several predetermined locations. Known spawn locations:",
+      "text": "Facet of Spirit 會在 Arbor Bay 的數個固定地點中，隨機選擇一處出現。已知出現位置如下：",
+      "reason": "保留多個預定地點中隨機選一處的機制；Facet of Spirit 與 Arbor Bay 無固定中文身份則保留英文，不猜精神面或喬木灣。此段只引介後續清單。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:69013/sections/walkthrough-1/blocks/walkthrough-1-2/text",
+          "englishHash": "0e1e1f3ffadc615db4e576926013d5817dcd6b99983fa4f66ff1146a263def94",
+          "evidenceHash": "b4e2c026256f35d0769d1e5511f15203fbff6904a084ac9454e960130ae39856"
+        }
+      ]
+    },
+    {
+      "source": "As with any underground area, exploration of this map does not count towards the Cartographer title track.",
+      "text": "與其他地下區域一樣，探索這張地圖不會計入製圖稱號進度。",
+      "reason": "Cartographer title track 是探索製圖稱號進度，不是主打歌；保留地下區域不計入的否定條件，同文兩處綁定共同核對。",
+      "bindings": [
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:33971/sections/notes-1/blocks/notes-1-3/text",
+          "englishHash": "f1cce6f312c24d137c95fc7962de0ed256c0ae2a37013299e03909114ec02669",
+          "evidenceHash": "d23f1442fb00e433b8af1727475886aa65685e311a660ca4c388af0c21122655"
+        },
+        {
+          "dataset": "quests",
+          "key": "quests/quest:gww:2870/sections/notes-1/blocks/notes-1-1/text",
+          "englishHash": "f1cce6f312c24d137c95fc7962de0ed256c0ae2a37013299e03909114ec02669",
+          "evidenceHash": "e32e8a23c4779b924fa328487f4a9f0608d27f492b8cdd49b5d3e61898466b3a"
+        }
+      ]
+    }
+  ]
+}

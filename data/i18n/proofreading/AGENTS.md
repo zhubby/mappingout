@@ -9,7 +9,7 @@ quest-source-cleanup.json: 奖励比较符、分节、技能授予与更新来�
 revision-refresh.json: 十二页来源更新后的新正文、装备属性与获技能条件。
 armor-pass-2.json: 第二轮護甲配方、材料與製作限制校對。
 quest-pass-2.json: 第二輪任務攻略與失敗條件校對。
-skill-pass-2.json: 第二輪技能正文、動態模板與同源地圖說明校對。
+skill-pass-2.json: 第二輪技能正文、動態模板與同源地圖說明校對；第九輪對齊 Time Ward 與 Lyssa's Haste 時間縮短。
 catalog-pass-2.json: 第二輪名稱、技能類型與輪換說明校對。
 skill-pass-3.json: 第三輪技能條件、作用對象與動態模板校對。
 quest-pass-3.json: 第三輪任務目標、攻略、警戒與失敗條件校對。
@@ -38,6 +38,11 @@ skill-pass-7.json: 第七轮技能长备注，核对叠加、技能栏复制与�
 calendar-pass-8.json: 第八轮日历攻略参照、任务专名与轮换记录语义校对。
 skill-pass-8-a.json: 第八轮前半技能备注，核对治疗时序、触发门槛与队伍对象。
 skill-pass-8-b.json: 第八轮后半技能备注，核对攻击命中、叠加、减伤与冷却条件。
+quest-pass-9-a.json: 第九轮前半任务攻略、敌群出现与伤害条件校对。
+quest-pass-9-b.json: 第九轮后半任务目标、探索比例与降咒装备条件校对。
+calendar-pass-9.json: 第九轮日历目标、普通与困难奖励及前置条件校对。
+skill-pass-9-a.json: 第九轮前半技能条件、降咒对象与过载机制校对。
+skill-pass-9-b.json: 第九轮后半技能短文、病症、数值与动态占位校对。
 coverage.json: 全量文本校对覆盖、未审范围与风险分类。
 
 条目记录 source、text、reason 与 bindings。

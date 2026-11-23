@@ -1,0 +1,533 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "* Because this is not a spell, this will not count toward the 10-spell limit on Glyph of Elemental Power or 1…3…3-spell limit on Glyph of Energy, but will still get the stat boost.\n* Frequently used by melee characters, especially warrior and assassin, to meet the knocked-down target requirement of certain skills. The touch range is not an issue.\n**Warriors can extend the knockdown by 1 second using a Stonefist Insignia.\n**Warriors relying on Adrenaline will not mind the overcast toll.\n**The knockdown will occur at Air Magic 0.\n**Can be used while blinded or affected by anti-melee hexes such as Ineptitude. Additionally, it cannot be blocked.",
+      "text": "* 此技能不是法術，因此不會消耗元素力量符號的 10 次法術額度，或能量符號的 1…3…3 次法術額度，卻仍可獲得相應加成。\n* 近戰角色常用此技能，尤其是戰士與暗殺者，以滿足其他技能要求目標倒地的條件；觸碰距離對他們不成問題。\n** 戰士可用石拳徽記將擊倒延長 1 秒。\n** 依賴怒氣的戰士，通常不介意過載的代價。\n** 即使風系魔法等級為 0，也能擊倒。\n** 受到盲目或愚蠢等反制近戰的降咒影響時，仍可使用；此技能也無法被格擋。",
+      "reason": "修正 overcast 為過載、stat boost 為加成，保留非施法不消耗符號次數但仍受益；逐項核對風系 0 可擊倒、盲目可用及不可格擋。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2394/variants/skill-version:gww:2394/notes/0",
+          "englishHash": "38ff9b961c60e521b2c128f6fce99ba71d6844a3b71ade8e77446bbc9f691d38",
+          "evidenceHash": "7bbd56d06c47a209102a51e711da1cdd15f1c50adcb07c23602a9854d2881072"
+        }
+      ]
+    },
+    {
+      "source": "* Contrary to Mark of Insecurity, this hex actually makes enchantments expire faster.\n* This hex only affects the length of enchantments used on the target after the hex is applied; previously applied enchantments are not affected, nor will removing the hex restore the original length of effects already shortened.\n* The enchantment is removed before this hex is applied. This is relevant for Holy Veil.\nIf an enchantment duration is reduced below 1 second, it behaves as if it was not applied.\nAlthough the description says \"150…270…300% faster\", the actual behavior is \"at 150…270…300% the normal rate\", which is only 50…170…200% faster.",
+      "text": "* 與 Mark of Insecurity 不同，此降咒確實會加快加持到期。\n* 只影響此降咒生效後才施加在目標身上的加持；既有加持不受影響。移除此降咒，也不會恢復已被縮短的持續時間。\n* 會先移除加持，再施加此降咒；這會影響神聖遮罩。\n若加持持續時間被縮至低於 1 秒，效果就如同未曾施加。\n說明雖寫「加快 150…270…300%」，實際卻是「以正常速率的 150…270…300% 到期」，也就是只加快 50…170…200%。",
+      "reason": "區分加快到期與原時長減少，保留只影響新加持及移除不復原；修正百分比基準，明確 150…270…300% 正常速率只比原速率多 50…170…200%。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1538/variants/skill-version:gww:1538/notes/0",
+          "englishHash": "e8b08694acca19473dc10f878c60b2122fcd3df588f1d0ee130de38bf902b625",
+          "evidenceHash": "6d2602ff72b4acbecab6de2526d2546ab3bbc74a475e8126dd4bfd6fcdff7c0c"
+        }
+      ]
+    },
+    {
+      "source": "* When looking for skills to meet Discord's conditions, consider those that either inflict their hexes or conditions in an area (e.g. Barbed Signet, Blood Bond) or have low energy costs, cast times, and recharge times (e.g. Parasitic Bond, Enfeeble).\n** Similarly, Glyph of Immolation (followed by any hex that targets a foe) will set up Discord by applying the condition and hex together. (If the foe has already been hexed, just casting Discord is sufficient; the damage triggers because the Glyph's condition is applied before Discord checks the target's status.)\n* This is the backbone skill for the PvE team build Discordway.",
+      "text": "* 為滿足協調破壞的條件，可選擇範圍施加降咒或病症的技能，如荊棘紋章、血之連結，或耗能低、施放快、冷卻短的技能，如寄生連結、衰弱。\n** Glyph of Immolation 後接任何指定敵人的降咒，能一起施加病症與降咒，為協調破壞鋪好條件。若敵人已有降咒，直接施放協調破壞即可：符號會先施加病症，協調破壞之後才檢查目標狀態，因此仍能造成傷害。\n* 這是 PvE 隊伍配置 Discordway 的核心技能。",
+      "reason": "修正 condition 為病症，區分範圍與低耗能技能的兩種準備方式；保留符號先上病症、協調破壞後檢查，所以既有降咒時可直接施放的時序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4313/variants/skill-version:gww:4313/notes/0",
+          "englishHash": "3bb023d969291048a04859f077680ec1bd36d62ca86667d76ef1eb62fd196144",
+          "evidenceHash": "25e3ed616f5e7b6961f6d4267ec85b641362809390300519563fa5ea0cfbd9af"
+        }
+      ]
+    },
+    {
+      "source": "* This spell does not need to interrupt a foe for the hex to be applied.\n* If the hex is ended early by any source, the second interrupt will be triggered. This makes Web of Disruption useful with Shatter Delusions or Drain Delusions.\n* Be careful giving this skill to heroes, as they treat it as a regular hex and will use it on foes who aren't using any skills.\nThis skill's standard description does not specify whether it can interrupt only skills or all actions, including attacks. The effect is clarified in the concise description which states that both the initial and ending interrupts only affect skills.",
+      "text": "* 即使未成功打斷敵人，仍可施加此降咒。\n* 無論由何種來源提早結束降咒，都會觸發第二次打斷，因此適合搭配幻覺粉碎或枯竭幻象。\n* 交給英雄使用時須小心；英雄會視為一般降咒，對沒有使用技能的敵人也會施放。\n完整說明未明確指出打斷只影響技能，還是連普通攻擊等動作也受影響。簡短說明則說明清楚：最初與結束時的兩次打斷，都只影響技能。",
+      "reason": "恢復施加降咒不以打斷成功為條件、任意提前結束都可二次打斷；明確兩次打斷只針對技能，保留英雄誤作一般降咒的行為。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1686/variants/skill-version:gww:1686/notes/0",
+          "englishHash": "593db3a527e640fc8e3706b45446756961677d170dabdc3c005bb90ea8bbe11c",
+          "evidenceHash": "1194983a9936a01359108cbaeccbf2adb24051c60852d71c2b6eda22133a833e"
+        }
+      ]
+    },
+    {
+      "source": "* Consider using Mind Wrack in order to give you a visual cue when the target is out of energy while adding damage to the spike.\n* Can be extremely effective against Elementalists due to the high energy total that Energy Storage can give them.\n* Consider using this skill on newly resurrected foes, as they may have low energy and/or low health.\n\nAneurysm does not take overcast into account when calculating how much energy to generate; as such, it combines well with skills that force overcast (such as Arcane Languor or Exhausting Assault) as it will deal high damage without actually returning energy.",
+      "text": "* 可搭配心靈破壞，在目標能量耗盡時提供視覺提示，同時增加爆發傷害。\n* 元素使可透過能量儲存擁有很高的能量上限，因此此技能對他們特別有效。\n* 可考慮對剛復活的敵人使用，因為他們的能量或體力可能很低。\n\nAneurysm 計算要恢復多少能量時，不會考量過載。因此，搭配魔法耗盡或衰竭突襲等強制造成過載的技能，可在未實際恢復能量的情況下造成高傷害。",
+      "reason": "將 spike 校正為爆發傷害、overcast 為過載、Elementalist 為元素使；保留高能量上限、剛復活目標及計算忽略過載導致有傷害卻不回能量。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51841/variants/skill-version:gww:51841/notes/0",
+          "englishHash": "98d166e1701100419f25a169fd3a05fe6ea9835dd0547cb54ae6aff854986c8d",
+          "evidenceHash": "b75abee8cd16f85b49a9a5ff5270f79011e6e323f83b8d4cedfd2365aa31239c"
+        }
+      ]
+    },
+    {
+      "source": "See: Battery\n* The health sacrifice is rounded half to even and can be as low as 0 if the maximum health of the user is low enough, which makes it possible to continuously use the skill without actually losing health.\n** To reach 1 health, a character can wear multiple armor pieces with superior attribute runes, stack Death Penalty and even wear some equipment such as the -50 health Grim Cesta or offhand items with a \"Life is Pain\" inscription.\n** Awaken the Blood does not increase the health sacrifice to a lethal amount for a character with a maximum health of 1.",
+      "text": "請參閱 Battery。\n* 體力犧牲採一般取整、恰好位於半數時取偶數的規則。若使用者最大體力夠低，犧牲量可為 0，因此能連續施放而不實際損失體力。\n** 要降至 1 點體力，可穿多件附有高階屬性符文的護甲、累積死亡懲罰，並裝備 -50 體力的 Grim Cesta，或帶有「Life is Pain」銘文的副手物品。\n** 最大體力為 1 時，血之覺醒也不會將犧牲量提高到足以致命。",
+      "reason": "修正 rounded half to even 為僅半數情形取偶數，不是總取偶數；保留 0 犧牲、1 體力、-50 裝備與血之覺醒不致命，未知戰術及物品名留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1738/variants/skill-version:gww:1738/notes/0",
+          "englishHash": "bb5c7dd3b00df7c7c3ce6a90d637b0964f8dd43591c27baa28fa30fad60f822a",
+          "evidenceHash": "3748b9e5b579aced386ccee41293fc9871e09f156ea4365b984658b99a7553ab"
+        }
+      ]
+    },
+    {
+      "source": "* The damage from Scourge Healing is applied before the heal. This means that it's possible to kill oneself by using a self-healing skill while hexed by Scourge Healing, if it deals more damage than you have health remaining.\n* This skill only affects skills that directly heal (e.g. Ether Feast or Healing Signet). It does not affect health gain via Divine Favor or life stealing, indirect healing via Divine Boon, health regeneration, or similar effects.\nThis hex does not trigger for Heal Area, Karei's Healing Circle, and Healing Ring.",
+      "text": "* 災禍治癒先造成傷害，再提供治療。若反傷高於剩餘體力，帶有此降咒的人使用自我治療技能，可能在獲得治療前死亡。\n* 只影響直接治療的技能，如精神饗宴或治療紋章。不影響神恩或偷取生命帶來的體力獲得、神之恩賜的間接治療、體力恢復速率或類似效果。\n區域治癒、嘉黎光環與治療光環不會觸發此降咒。",
+      "reason": "釐清先反傷後治療可能致死的主客體；保留直接治療與神恩、偷取生命、神之恩賜、體力恢復速率的排除，及三個不觸發技能。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1600/variants/skill-version:gww:1600/notes/0",
+          "englishHash": "86663702eec86694d11132910540a1b36de576319a0b04c4dc9729e2652d4b78",
+          "evidenceHash": "ab1f57f39e44d5255c64aae25de32d07e0048f5d63fdb3449b00994cd3a35466"
+        }
+      ]
+    },
+    {
+      "source": "* This skill will still deal damage if an enchantment or hex is renewed, whether by being recast or by reapplying itself (such as with Critical Defenses, Lyssa's Aura, Kinetic Armor, or Recurring Insecurity).\n* Damage occurs when the enemy gains the effect of an enchantment or hex. Accordingly:\n** Using an enchantment spell on an enemy will not trigger Soul Barbs damage.\n** Spells that only count as hexes under certain conditions, such as Lightning Strike or Ash Blast, will not trigger Soul Barbs damage unless their condition is met.",
+      "text": "* 加持或降咒再次生效時，仍會造成傷害，不論是重新施放，還是自行續期，如致命防禦、麗莎靈氣、魔動護甲或危險循環。\n* 傷害在敵人實際獲得加持或降咒效果時發生，因此：\n** 對敵人施放加持法術，不會觸發靈魂荊棘傷害。\n** 閃電衝擊或塵暴等只在特定條件下算作降咒的法術，只有滿足該條件，才會觸發靈魂荊棘傷害。",
+      "reason": "修正妖術及十六進位為降咒，區分施放與目標實際獲得效果；保留重施或自行續期均觸發，以及條件型降咒只有條件成立才觸發。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:15411/variants/skill-version:gww:15411/notes/0",
+          "englishHash": "8897a1f8dfe3e581601a644566d27c7df6b881a460dadfbabceea91468e6a511",
+          "evidenceHash": "aa8c2eb50ea5642852120424c2a8bd8bc8623166158b12c86466596298a91c0c"
+        }
+      ]
+    },
+    {
+      "source": "* As with any doublecast skill, NPCs will use this skill as soon as there is an enemy within the spell's area of effect range of an ally.\n* Foes suffer two damage packets if the caster is targeted; the skill also recharges 50% faster (in effect, the second packet hits a hexed target, triggering the effect).\n* As this is a Hex Spell that can target an ally, Holy Veil will double this skill's casting time when it is used on a target enchanted with it, despite the fact that this ally will not be hexed.",
+      "text": "* 與其他雙重施放技能相同，只要有敵人進入某名盟友周圍、相當於此法術效果範圍的距離，NPC 就會使用此技能。\n* 指定施法者自己時，敵人會受到兩次傷害，技能冷卻時間也會縮短 50%；因為第二次傷害會命中已帶有降咒的目標，觸發該效果。\n* 此技能是可指定盟友的降咒法術。因此，若指定帶有神聖遮罩的目標，施放時間仍會加倍，即使該盟友實際不會被施加降咒。",
+      "reason": "修正二次傷害時目標已帶降咒的冷卻觸發，保留 50%；明確指定盟友仍因降咒法術類型受神聖遮罩影響，避免把加持者或施法者混淆。 固定修訂將此效果列為 Decreased Recharge Time，故明確為冷卻時間縮短 50%，不換算比例。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4331/variants/skill-version:gww:4331/notes/0",
+          "englishHash": "06541027421a9675aa53f04b560842f1fb89a7c2bf27b85a854d73a4e4dd0284",
+          "evidenceHash": "da5bb77b57e1d28f15e2cfbb82043e549db350c9c64b4d544ca005629722d49f"
+        }
+      ]
+    },
+    {
+      "source": "* The health degeneration will affect spirits and cannot be removed (i.e. it is not a hex).\n* The degeneration does not stack; if a foe is affected by a second Cry of Pain, the duration will be renewed.\n* The damage and degeneration will be applied regardless of whether a skill was interrupted.\n* The concise description is slightly unclear as to whom the health degeneration will be applied.\nThis is the only skill that has health degeneration shown with positive value in the description.",
+      "text": "* 體力衰減會影響精靈，且無法移除，因為它不是降咒。\n* 衰減不會疊加；敵人受到第二次 Cry of Pain 時，只會更新持續時間。\n* 不論是否成功打斷技能，都會造成傷害與體力衰減。\n* 簡短說明未清楚指出，體力衰減會施加給誰。\n這是唯一在說明中以正數表示體力衰減的技能。",
+      "reason": "將 health degeneration 校正為體力衰減、spirits 為精靈；保留非降咒不可移除、不疊加只續期與不需打斷成功，正數是數值符號而非正面價值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:41105/variants/skill-version:gww:41105/notes/0",
+          "englishHash": "abf8ca7046ad424480b63808cd53a9cbf4f2b33acd8ce6d485269f00aaaee620",
+          "evidenceHash": "a8ca8277e906662ee316c502d3113a327ad6780f1f98ebf76b358e4db2bf74a1"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Anguish that uses the Anguish attack skill.\n* Synergizes with Painful Bond.\n* Synergizes well with Blood Bond which grants healing to the spirit while also fulfilling the requirement for a hexed target. \n* On hexed foes, Anguish also doubles the bonus damage from Signet of Ghostly Might and Anthem of Envy.\n* Spiritleech Aura combines poorly with Anguish, as the damage reduction penalty significantly reduces the effectiveness of this spirit.",
+      "text": "* 此技能會創造使用苦惱攻擊技能的 Spirit of Anguish。\n* 可與苦痛連結良好搭配。\n* 血之連結既能治療精靈，也能讓目標帶有降咒，滿足技能條件。\n* 攻擊帶有降咒的敵人時，苦惱也會使生靈神力紋章與妒忌聖歌的額外傷害加倍。\n* 與 Spiritleech Aura 搭配不佳，因為其降低傷害的代價，會大幅削弱精靈的效果。",
+      "reason": "釐清血之連結治療的是精靈、降咒施在敵人，保留兩種增傷也加倍；維持 Spiritleech Aura 的負面搭配結論，不將減傷誤作防禦加成。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6410/variants/skill-version:gww:6410/notes/0",
+          "englishHash": "81a7c89bfb3ef47dfb619d41fdb640cd63bf2ef2771cc39ef3fa7153dba42c4d",
+          "evidenceHash": "4f371b2329e9ecfd3ff3e5c2baa8c12268c567f5496226b0a31f14d22a3d3a83"
+        }
+      ]
+    },
+    {
+      "source": "* This skill will not fail if the target dies while it is being activated.\n* Combines well with hex spells that hex foes in an area of effect, such as Reckless Haste, Suffering or Meekness.\n* Cannot be captured from some unique foes that use it:\n** Rotscale, Selvetarm, and Fendi Nin are boss-like foes, not bosses.\n** The death of the Inscribed Guardian at the end of Finding the Bloodstone triggers a cinematic, leaving no time to capture the skill.",
+      "text": "* 目標在技能發動期間死亡，也不會使此技能失敗。\n* 適合搭配失心瘋、苦難或溫順等範圍施加降咒的法術。\n* 某些使用此技能的特殊敵人，無法供你捕捉：\n** 惡臭骨龍、希維塔姆與梵帝寧是類首領敵人，並非真正的首領。\n** 尋找血石結尾的 Inscribed Guardian 死亡後會立即觸發過場動畫，沒有時間捕捉技能。",
+      "reason": "保留目標死亡不使發動失敗、三名類首領不可捕捉及動畫封鎖捕捉時機；修正 boss 類型與範圍降咒術語，未知守護者專名留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4120/variants/skill-version:gww:4120/notes/0",
+          "englishHash": "e0b8d45f538a5c3a9a775e91ea7720021e2b95626c60b214642389edeaa09018",
+          "evidenceHash": "40b7dedb0ce403a90f201ee0c249d4997c21de8d43834de60e0ef6ab1066638a"
+        }
+      ]
+    },
+    {
+      "source": "*The shield animation which appears when casting this spell always faces the north.\n*The words \"Bork! Bork! Bork!\" appear at the end of this skill's Bork! Bork! Bork! concise description.\nThe armor bonus while fighting Destroyers is calculated as two sources, the initial +24 armor and then the +24 armor against Destroyers. The armor bonus is therefore capped at +25 armor due to effect stacking (giving a 35.2% damage reduction bonus).",
+      "text": "* 施放此法術時出現的盾牌動畫，永遠朝向北方。\n* 在「Bork! Bork! Bork!」語言版本的簡短說明末尾，會出現「Bork! Bork! Bork!」字樣。\n對抗毀滅者時，護甲加成分成兩個來源：原有的 +24 護甲，以及對毀滅者額外提供的 +24 護甲。因此受效果疊加規則限制，合計上限為 +25 護甲，提供 35.2% 減傷。",
+      "reason": "修正 Destroyers 從驅逐艦為毀滅者，保留兩個 +24 來源受 +25 上限限制及 35.2%；Bork 是語言版本與原字樣，不應音譯打散。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:59250/variants/skill-version:gww:59250/notes/0",
+          "englishHash": "2c665613d8329c44e71bca6502f9bf3d812df1ba92a09a29b9fb7a75b9c6fcf4",
+          "evidenceHash": "097c25d77ec51633ed21611a8a6fec0cfea511765e69cf8b4009f805a5f20680"
+        }
+      ]
+    },
+    {
+      "source": "* This spell is often utilized by Monks in PvP using a technique called pre-veiling.\n* Recasting this spell on a target on which it is still active will not remove a hex.\n* Heroes use Holy Veil effectively to remove hexes as they immediately stop maintaining this enchantment.\n* The foe AI (e.g. Juniper Barks) will continue to maintain Holy Veil when they are hexed and will not stop maintaining it to remove a hex.",
+      "text": "* PvP 僧侶常以此法術進行稱為 pre-veiling 的預先加持技巧。\n* 目標已帶有此技能時，再次施放不會移除降咒。\n* 英雄會立即停止維持神聖遮罩，因此能有效用來移除降咒。\n* 敵方 AI，例如 Juniper Bark，被施加降咒時仍會繼續維持神聖遮罩，不會藉停止維持來移除降咒。",
+      "reason": "區分對已帶此加持者重施與一般目標，保留重施不解咒；明確英雄立即停止維持、敵方 AI 卻持續維持的相反行為。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1514/variants/skill-version:gww:1514/notes/0",
+          "englishHash": "513392d5c0085d8a5137672edb1a1a1360b8c30e709d513d9bc2e75abe5cf301",
+          "evidenceHash": "c7551088e60f33ee8ea720ec859af4aa91ce855fa2908f2964362e7594b17031"
+        }
+      ]
+    },
+    {
+      "source": "*This skill removes a hex and then removes a condition.\n*Since it has no energy cost and needs an enchanted target, this skill is useful for bonders, as well as any Protection Prayers monk builds that need passive energy management.\n*Useful for self-removal of hex spells that trigger on casting a spell, such as Shame, Mark of Subversion or Backfire, since they can be removed without triggering their effect.",
+      "text": "* 此技能先移除一個降咒，再移除一個病症。\n* 不消耗能量，但要求目標帶有加持，因此適合維持加持的僧侶，以及需要被動維持能量的防護祈禱配置。\n* 適合自行移除羞愧、破壞印記或魔力反噬等在施放法術時觸發的降咒，因為移除過程不會觸發它們的效果。",
+      "reason": "修正 condition 為病症、enchanted 為帶有加持及 bonder 角色；保留先降咒後病症的順序，紋章移除施法懲罰降咒卻不觸發的用途。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2782/variants/skill-version:gww:2782/notes/0",
+          "englishHash": "1a238100a4d354891e0395be10b5d17a1c5954da1645dd54448151ca16416c9d",
+          "evidenceHash": "ec4bb5b5361c3ad96724439cb9409b4d2f917cfd53e706722f9ff8cdd90e55cc"
+        }
+      ]
+    },
+    {
+      "source": "* Ash Blast does not count as a hex spell unless it hits a burning foe. Skills that check for hexed foes (e.g. Soul Barbs) or skills that trigger when the user casts a hex spell (e.g. Elemental Flame) do not trigger if Ash Blast does not hit a burning foe.\n* If used with Glyph of Immolation, the burning triggers first, thus meeting the requirement to apply the hex spell on the target.",
+      "text": "* 塵暴只有命中燃燒中的敵人時，才算降咒法術。若未命中燃燒敵人，就不會觸發靈魂荊棘等檢查目標降咒的效果，或元素火焰等以施放降咒法術為條件的效果。\n* 搭配 Glyph of Immolation 時，會先施加燃燒，因此能滿足對目標施加降咒的條件。",
+      "reason": "將十六進位還原為降咒，分清檢查目標降咒與使用者施放降咒兩種效果；保留燃燒先觸發使符號配合成立的時序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:11204/variants/skill-version:gww:11204/notes/0",
+          "englishHash": "6947aea56592eba5bcab227f8a94820c62d549c84c6da70907c5dfb4d6633ce2",
+          "evidenceHash": "d0cc8fa51570a064c26ffd93ac328fbe142ceeb5989d4b2807a5f9c545215adf"
+        }
+      ]
+    },
+    {
+      "source": "*This form uses female monk animations, regardless of your character's gender or profession.\n*All actions (including skill activations, attacks, and movement) will be cancelled when this form ends.\n*The hex removal will take place after the Dervish attack skill has been used. Skills like Empathy will still deal damage for this attack.\n*The hero M.O.X. has a unique skin for this form.",
+      "text": "* 無論角色性別或職業，此型態都使用女性僧侶的動作。\n* 型態結束時，所有動作都會取消，包括技能發動、攻擊與移動。\n* 會先使用神喚使攻擊技能，再移除降咒，因此自虐等技能仍會因這次攻擊造成傷害。\n* 英雄 M.O.X. 使用此型態時，有獨特外觀。",
+      "reason": "保留 PvP 版先使用神喚使攻擊技能才解咒的機制，因此自虐仍反傷；修正皮膚為外觀，核對所有動作於型態結束取消。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1308/variants/skill-version:gww:274802/notes/0",
+          "englishHash": "e96704351e4c945cac2d17a46b0c139f7b31c888ec4016262fec253352ce4622",
+          "evidenceHash": "8fb3605b65c084f211d62c6d08159b1e0b59883df2528ecfbb18539cc194a41c"
+        }
+      ]
+    },
+    {
+      "source": "* This skill cannot \"steal\" monster-only hex spells (e.g. Crystal Bonds); however, the energy gain does happen and Inspired Hex recharges instantly.\n* This skill is not susceptible to recharge-lengthening skills like Diversion.\n* If the caster is in the process of casting the copied hex spell at the end of the 20 seconds copy duration, the casting of the spell will fail.",
+      "text": "* 無法「偷取」Crystal Bonds 等怪物專用降咒法術；但仍會獲得能量，降咒吸收也會立即冷卻完畢。\n* 此技能不受牽制等延長冷卻的技能影響。\n* 20 秒複製期間結束時，若仍在施放複製來的降咒法術，該次施放會失敗。",
+      "reason": "修正 Crystal Bonds 的債券誤譯並保留英文身分；核對不可偷怪物技能仍回能量、冷卻延長免疫及 20 秒到期令未完成施法失敗。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1646/variants/skill-version:gww:1646/notes/0",
+          "englishHash": "eeac58ad8950797aa39416bfe55fdb22e4bf69ae7b2ed1ac3cb2372ea29529ea",
+          "evidenceHash": "a307a8adb7f755b8750e0ff8f946f6131d2e035c2025b7ad92bb53e5cbd2502e"
+        }
+      ]
+    },
+    {
+      "source": "* This skill cannot \"steal\" monster-only hex spells (e.g. Crystal Bonds); however, the energy gain does happen and Revealed Hex recharges instantly.\n* This skill is not susceptible to recharge-lengthening skills like Diversion.\n* If the caster is in the process of casting the copied hex spell at the end of the 20 seconds copy duration, the casting of the spell will fail.",
+      "text": "* 無法「偷取」Crystal Bonds 等怪物專用降咒法術；但仍會獲得能量，降咒顯露也會立即冷卻完畢。\n* 此技能不受牽制等延長冷卻的技能影響。\n* 20 秒複製期間結束時，若仍在施放複製來的降咒法術，該次施放會失敗。",
+      "reason": "依降咒顯露獨立核對怪物降咒不可偷取但回能量照常；保留延長冷卻無效與 20 秒到期打斷未完成施放，不混用降咒吸收名稱。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1670/variants/skill-version:gww:1670/notes/0",
+          "englishHash": "9d108e8a2abf34b59b4fcf8304e343a70009d525d79a122647d0bae6e90b1601",
+          "evidenceHash": "3d24b1b935fdbf8d795005ae9864ffe61c7840b7773313e158f81e0ee6fef12b"
+        }
+      ]
+    },
+    {
+      "source": "* This is one of the few skills that can cause maximum health degeneration on its own.\n* Cracked Armor does not need to be pre-applied to trigger the secondary effect. Degeneration occurs whenever a target suffers from this hex at the same time as Cracked Armor.\n** For example, casting Teinai's Crystals after this skill will inflict all effects from both skills.",
+      "text": "* 這是少數能單獨造成最高程度體力衰減的技能之一。\n* 不必預先施加 Cracked Armor 才能觸發次要效果；只要目標同時帶有此降咒與 Cracked Armor，就會產生衰減。\n** 例如先施放此技能，再施放邸內水晶，兩個技能的全部效果都會生效。",
+      "reason": "區分同時存在與必須預先施加的條件，保留邸內水晶後施也能生效；修正健康退化為體力衰減，不替未證實病症專名另造中文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16269/variants/skill-version:gww:16269/notes/0",
+          "englishHash": "b20f8006fdf5620026e80f8896c1a761467e0038e97cd652901198c6f4224713",
+          "evidenceHash": "5c4f2010d3e2a197e7888a237a8dc965ba786777b0b156c105817fde4be437bd"
+        }
+      ]
+    },
+    {
+      "source": "* This hex only affects the duration of enchantments and stances used on the target after the hex is applied, previously applied stances and enchantments are not affected, nor will removing the hex restore the original duration of effects already shortened.\n* Faster expiration in this case means a decrease in duration (contrary to Air of Disenchantment).",
+      "text": "* 此降咒只會影響施咒後才對目標施加的加持與態勢之持續時間；先前已存在的加持與態勢不受影響。移除此降咒，也不會讓已縮短的效果恢復原本的持續時間。\n* 此處的「更快失效」是指縮短持續時間，與反加持氣息的機制不同。",
+      "reason": "修正 hex 誤譯為十六進位；明確限定施咒後新增的加持與態勢，保留解咒不恢復時長，以及與反加持氣息的計時差異。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4436/variants/skill-version:gww:4436/notes/0",
+          "englishHash": "8bae3431dd356dd0c8b0e8b22416d5253d3dd9195bdd93943be7aaa8ebe333a4",
+          "evidenceHash": "74a16e94c788d54164fad3d9c662b1f337602c3a87536a7dbd92b05b10813c39"
+        }
+      ]
+    },
+    {
+      "source": "* Unlike Mistrust, this hex does not apply the direct damage the next time the target activates a skill. The direct damage is applied only if this hex is cast while the target is activating a skill.\n* This is an excellent cover hex due to the short casting time, which makes it hard for foes to remove the covered hex before the cover hex has been applied.",
+      "text": "* 與疑惑不同，此降咒不會等到目標下次發動技能時才造成直接傷害；只有在目標正在發動技能時施放此降咒，才會造成直接傷害。\n* 此技能施法時間短，適合用來覆蓋其他降咒，使敵人難以在覆蓋用的降咒施加前，先移除底下受保護的降咒。",
+      "reason": "區分施放當下的技能發動條件與下次發動；將 cover hex 和 covered hex 分別譯出，避免現譯把受保護與用於覆蓋的降咒混為一談。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1489/variants/skill-version:gww:1489/notes/0",
+          "englishHash": "e3e9eef6594afb66d2bbd4104232c844a74430897eb00c26f29014ad2478c446",
+          "evidenceHash": "9d3c9ea11f1f5ccffc4b44261ee32c1eaa8c0261d4f4ee632d740538133d54a2"
+        }
+      ]
+    },
+    {
+      "source": "* Consider using with skills that require a Water Magic hex for a decent spike, such as Freezing Gust.\n* Unlike Incendiary Bonds, Lightning Strike, and Lightning Surge, removing Shatterstone prematurely using a hex removal skill will still trigger the end effect damage.\n* The additional damage will occur if the target dies before the hex expires.",
+      "text": "* 可搭配需要目標帶有水系魔法降咒的技能，例如寒風，造成可觀的爆發傷害。\n* 與燃燒連結、閃電衝擊和閃電震盪不同，使用解咒技能提早移除碎裂冰石，仍會觸發結束效果的傷害。\n* 目標在降咒失效前死亡，也會觸發額外傷害。",
+      "reason": "修正 spike 為爆發傷害及 hex 為降咒；保留提早解咒與死亡都會觸發結束傷害，並依可信術語使用四種技能名稱。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4332/variants/skill-version:gww:4332/notes/0",
+          "englishHash": "0094391c1e528c8306e4a2cf1c0e5e58582f674dd877061ecfe40d34c9a5c7ad",
+          "evidenceHash": "017e9816da94746e9a716c3a371fc06bff33ca581e04f9a52d80ea5309bd44e9"
+        }
+      ]
+    },
+    {
+      "source": "* Due to its low cost, short recharge, and simple effect, this skill is a reasonable hex removal option for any Monk-secondary character.\n* There is also a non-elite Monk hex removal skill for each Monk attribute, so if you are running a build with a Monk attribute invested at a high level, you may want to use the corresponding skill instead.",
+      "text": "* 此技能耗能低、冷卻短、效果單純，對任何副職業為僧侶的角色，都是合理的解咒選擇。\n* 僧侶的每個屬性也各有一項非精英解咒技能；若配置已在某項僧侶屬性投入高等級，可考慮改用該屬性的對應技能。",
+      "reason": "將 recharge 的充值誤譯改為冷卻，將 Monk-secondary 明確譯為副職業；保留每項屬性各有非精英替代技能的建議。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1530/variants/skill-version:gww:1530/notes/0",
+          "englishHash": "5debf88804afff14bfc89395a3b7338101228a32b53ba9972b36b192bbaeb637",
+          "evidenceHash": "3b86aa04b0b1b3430765f33e96ed742d6d81c452fd629a0968e993455eab6eb6"
+        }
+      ]
+    },
+    {
+      "source": "* Rather than causing the hex cast to fail as the description states, this skill prevents the hex from being applied to the user. \n** Initial effects, such as Dark Prison's Shadow Step, will still take place.\n** AoE hexes like Rust will still apply normally to all other targets.\n** End effects from hexes like Shatterstone will not trigger.",
+      "text": "* 此技能實際會阻止降咒施加到使用者身上，而非如說明所述，讓降咒的施放失敗。\n** 初始效果仍會發生，例如影牢的暗影步。\n** 紋章鏽蝕等範圍降咒，仍會正常施加到其他所有目標。\n** 碎裂冰石等降咒的結束效果不會觸發。",
+      "reason": "保留阻止施加而非阻止施放的機制差異；逐項區分初始效果、其他範圍目標與結束效果，統一暗影步術語。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1479/variants/skill-version:gww:1479/notes/0",
+          "englishHash": "01297dc1134d0c3d15394803812d2480e1bc5a417d35be19af49891b4f624081",
+          "evidenceHash": "84db7afb69e89c363a578fdda1cda51bc5a0f9d1137829c112c505267f03faf6"
+        }
+      ]
+    },
+    {
+      "source": "* The hex is applied before the damage, so if the damage done from this skill kills the target, the secondary effect occurs.\n* AI characters do not use this skill if the target is already hexed with Icy Veins, even though that would cause additional damage.\n** Heroes use this skill against foes with less than 83% health.",
+      "text": "* 此技能先施加降咒，再造成傷害，因此若此技能的傷害殺死目標，仍會觸發次要效果。\n* 若目標已帶有冰冷紋理，AI 角色就不會使用此技能，即使再次使用仍能造成額外傷害。\n** 英雄會對體力低於 83% 的敵人使用此技能。",
+      "reason": "保留先施咒再傷害的死亡觸發順序；明確指出 AI 不重施而非無法重施，並保留英雄嚴格低於 83% 的門檻。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4314/variants/skill-version:gww:4314/notes/0",
+          "englishHash": "ea17302d4bf756ae5343dacce7581f807b19dcb03a60e6806a1f4100c164af01",
+          "evidenceHash": "ff9fde306f06389423c59f48257c3f2fec64c50304147d8b231d769f424ac382"
+        }
+      ]
+    },
+    {
+      "source": "* Similarly to Ash Blast, Freezing Gust does not count as a hex spell if the target is hexed with a Water Magic hex. Skills that check for hexed foes (e.g. Soul Barbs) or skills that trigger when the user casts a hex spell (e.g. Elemental Flame) do not trigger if Freezing Gust hits a target hexed with a Water Magic hex.",
+      "text": "* 與塵暴類似，若目標已帶有水系魔法降咒，寒風就不算降咒魔法。寒風命中帶有水系魔法降咒的目標時，檢查敵人是否受到降咒影響的技能（例如靈魂荊棘），以及在使用者施放降咒魔法時觸發的技能（例如元素火焰），都不會觸發。",
+      "reason": "修正十六進位與施咒類型用語；保留已帶水系降咒時不算降咒魔法，且兩類觸發均不發生的原文陳述，不擅改其機制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16256/variants/skill-version:gww:16256/notes/0",
+          "englishHash": "a0634391b2c3613686e613efef5078174104b1c5eb21f33922237925718bdacf",
+          "evidenceHash": "09b61ffae2108a4cda959cb54b4cde75ab8c2d258042c37543a88560541d6af8"
+        }
+      ]
+    },
+    {
+      "source": "* The shadow step and the hex are considered separate effects:\n**If the shadow step fails (i.e. if the target is in an inaccessible location), the target will still be affected by the movement speed hex.\n**If the hex fails (i.e. the target is under the effects of Hex Breaker), you will still shadow step to the target.",
+      "text": "* 暗影步與降咒是兩個獨立效果：\n** 若暗影步失敗，例如目標位於無法到達的位置，目標仍會受到降低移動速度的降咒影響。\n** 若降咒未能施加，例如目標受到破咒頌歌影響，你仍會以暗影步移到目標身邊。",
+      "reason": "統一三種混雜的 shadow step 譯法為暗影步；逐項保留位置不可達與防降咒兩種獨立失敗，及另一效果仍生效的條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4439/variants/skill-version:gww:4439/notes/0",
+          "englishHash": "efe3515755277057632a8d478d78e2866328f21030ecfad4cc4ef584d461f402",
+          "evidenceHash": "f257aa0a7583d3433a2e74c2c27f666734344fb3ccfa637fc194b3462dca2399"
+        }
+      ]
+    },
+    {
+      "source": "* The shadow step and the hex are considered separate effects:\n**If the shadow step fails (i.e. if the target is in an inaccessible location), the target will still suffer the movement speed hex.\n**If the hex fails (i.e. the target is under the effects of Hex Breaker), you will still shadow step to the target.",
+      "text": "* 暗影步與降咒是兩個獨立效果：\n** 若暗影步失敗，例如目標位於無法到達的位置，目標仍會受到降低移動速度的降咒影響。\n** 若降咒未能施加，例如目標受到破咒頌歌影響，你仍會以暗影步移到目標身邊。",
+      "reason": "依影牢本身的固定來源核對兩個獨立效果；修正十六進位與陰影步誤譯，保留暗影步或降咒各自失敗不阻止另一效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14763/variants/skill-version:gww:14763/notes/0",
+          "englishHash": "91e76f33e7516166ec839954f708b70450178e0bd51f59ca7a78ef01c3b89684",
+          "evidenceHash": "14a01f95c40f0733789a2e5f30f57d8a503accd28ae9001b5b0a320d6b400d2a"
+        }
+      ]
+    },
+    {
+      "source": "bug: The description is misleading: this skill removes a hex for each recharging Divine Favor skill, including itself. However, if Deny Hexes recharges instantly (e.g. using Glyph of Renewal), it will not be included as a recharging skill thus it is possible that no hex will be removed.",
+      "text": "錯誤：技能說明具有誤導性：技能欄中每有一項正在冷卻的神恩技能，此技能就移除一個降咒，而且計入本技能。若降咒否決立即完成冷卻，例如使用再生符號，就不會被計為正在冷卻的技能，因此有可能完全不移除降咒。",
+      "reason": "保留 bug 標示；修正 recharging 為正在冷卻，明確指出本技能通常計入但立即冷卻時不計入，因而可能零解咒。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2772/variants/skill-version:gww:2772/notes/1",
+          "englishHash": "ff5a1d465007180813f610bef3382836638892e922490307e76dda07f895ef34",
+          "evidenceHash": "6456919cdf6942c326a723bb1472687dce75874b1f9acc2aa0271933a109ffce"
+        }
+      ]
+    },
+    {
+      "source": "The description is misleading: this skill removes a hex for each recharging Divine Favor skill, including itself. However, if Deny Hexes recharges instantly (e.g. using Glyph of Renewal), it will not be included as a recharging skill thus it is possible that no hex will be removed.",
+      "text": "技能說明具有誤導性：技能欄中每有一項正在冷卻的神恩技能，此技能就移除一個降咒，而且計入本技能。若降咒否決立即完成冷卻，例如使用再生符號，就不會被計為正在冷卻的技能，因此有可能完全不移除降咒。",
+      "reason": "此獨立欄位沒有 bug 前綴，保持其範圍；與備註一致保留每項冷卻神恩技能解一咒、自身計入及立即冷卻不計入的例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2772/variants/skill-version:gww:2772/notes/0",
+          "englishHash": "2746c6bdfd60b1357cd2b376139a9ff278409aaea1287f8a2c8f37e06ea9ef01",
+          "evidenceHash": "6456919cdf6942c326a723bb1472687dce75874b1f9acc2aa0271933a109ffce"
+        }
+      ]
+    },
+    {
+      "source": "* NPCs will cancel skills if casting it would cause them to die from this hex's effect, and afterwards they will not use skills until the hex expires or is removed.\n* Just like Spiteful Spirit, this hex is extremely useful in Hard mode as enemies cast and use skills faster.",
+      "text": "* 若施放某技能會因本降咒的效果而死亡，NPC 會取消該技能；之後不再使用技能，直到此降咒失效或被移除。\n* 困難模式的敵人施法與使用技能較快，因此此降咒與惡靈附身一樣，在該模式格外實用。",
+      "reason": "保留 NPC 預判會因本降咒死亡才取消技能的條件，以及直到解咒才恢復使用；修正 hex 誤譯並核對困難模式因果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1510/variants/skill-version:gww:1510/notes/0",
+          "englishHash": "ab11421754fe9ddadba09428c7a568ad6b84df381a6412df6440f69cbdfcaa92",
+          "evidenceHash": "0faf2387c821c4942f5c832d0ec126d92cd32640f433cc4e7032c5102aeaadef"
+        }
+      ]
+    },
+    {
+      "source": "* Recurring Insecurity only reapplies itself if it lasts its full duration. Therefore using a hex removal skill, such as Remove Hex, will safely remove Recurring Insecurity without it being reapplied.\n* Recurring Insecurity triggers Soul Barbs with each reapplication.",
+      "text": "* 危險循環只有在完整持續時間結束後，才會重新施加。因此，使用降咒消除等解咒技能，可安全移除危險循環，不會使其重新施加。\n* 危險循環每次重新施加，都會觸發靈魂荊棘。",
+      "reason": "依可信術語修正危險循環名稱；限定自然持續至結束才重施，解咒不會重施，且每次重施分別觸發靈魂荊棘。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1608/variants/skill-version:gww:1608/notes/0",
+          "englishHash": "12c460bd41635375b88cbc7e27b2752533a5caa4a445ec89b6ef3e0d7a166f11",
+          "evidenceHash": "2cb398c025991da2f515474be9a5e364655c1be8366c8db3affe0f8f54299b7d"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: Aneurysm does not take overcast into account when calculating how much energy to generate; as such, it combines well with skills that force overcast (such as Arcane Languor or Exhausting Assault) as it will deal high damage without actually returning energy.",
+      "text": "異常：Aneurysm 計算應產生多少能量時，沒有將過載納入計算；因此可搭配魔法耗盡或衰竭突襲等強制造成過載的技能，在實際未恢復能量的情況下造成高額傷害。",
+      "reason": "將 overcast 從陰天改回過載，保留計算應回能量與實際回能量的差異；Aneurysm 無可靠中文專名，保留英文。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:51841/variants/skill-version:gww:51841/notes/1",
+          "englishHash": "24f9362d336fda98cbcf6f18b82cc0c9c4821583f45db6ace656a1a7b1c02c38",
+          "evidenceHash": "b75abee8cd16f85b49a9a5ff5270f79011e6e323f83b8d4cedfd2365aa31239c"
+        }
+      ]
+    },
+    {
+      "source": "* If a foe hexed with Rising Bile dies, all foes in the area will be damaged. (As with Parasitic Bond, the game counts the hex as ended if the target dies.)\n* Re-casting Rising Bile has no effect. It will still expire after the initial 20 seconds.",
+      "text": "* 若帶有憤怒高漲的敵人死亡，區域內的所有敵人都會受到傷害。與寄生連結相同，遊戲會在目標死亡時視為降咒結束。\n* 重新施放憤怒高漲沒有作用；它仍會在最初施放後 20 秒失效。",
+      "reason": "修正重新鑄造為重新施放；保留死亡使降咒結束並傷害區域敵人，以及重施不延後最初 20 秒截止點。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16018/variants/skill-version:gww:16018/notes/0",
+          "englishHash": "aa5392a62bc0bbd747b0920234d28c394ce79a6d72ebaea756ebeba34714596c",
+          "evidenceHash": "b901fc3f34cb0ad227c97734337a150ae3fbcb02439c8c120082bcb5f81c1218"
+        }
+      ]
+    },
+    {
+      "source": "* Death from this skill will not cause the user to incur Death Penalty nor impede their Survivor title track progress.\n* PvE foes that die from this skill do not yield Experience or Loot, unless they are resurrected and killed again normally.",
+      "text": "* 使用者因本技能死亡，不會受到死亡懲罰，也不會中斷生存者稱號的累積進度。\n* 因本技能死亡的 PvE 敵人不會給予經驗值或掉落物；除非先將其復活，再以正常方式殺死。",
+      "reason": "修正死刑與標題曲目等誤譯，保留死亡懲罰和生存者進度的雙重豁免；明確復活後須正常再擊殺才取得敵人獎勵。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5038/variants/skill-version:gww:5038/notes/0",
+          "englishHash": "f0365bbc5c0b2be72e6cc8e53d8dd4f780b6a94a01aa15d62b5535a51570809b",
+          "evidenceHash": "7d6cca1a2505412ad13bbee6f4e49d73c6cbecb9e535350979a10f78744b78a1"
+        }
+      ]
+    },
+    {
+      "source": "Hex Spell. (5…33…40 seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. Deals 5…21…25 damage per point of Energy lost. If target foe's Energy drops to 0, it takes 15…83…100 damage and Mind Wrack ends.",
+      "text": "降咒魔法。持續 5…33…40 秒。敵人每次成為你非降咒類幻術師技能的目標時，失去 1 點能量；每因此失去一點能量，就受到 5…21…25 點傷害。若目標敵人的能量降至 0，便受到 15…83…100 點傷害，且心靈破壞結束。",
+      "reason": "保留非降咒類幻術師技能的限定和每點能量傷害；將降至 0 時的傷害與結束效果分清，完整保留三組數值。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1483/variants/skill-version:gww:1483/conciseDescription",
+          "englishHash": "020f81c6ab4c19ac8989cb0fee5b6537100f5cc3fdf4ed09a11c66f3e192a218",
+          "evidenceHash": "ce4b1e100d7f0b288295183c316b92cc285784a644a9ff9de9b030fc346dfedb"
+        }
+      ]
+    },
+    {
+      "source": "* The target will still take damage even if the hex is not applied, e.g., when under the effects of Hex Breaker.\n* Spirits cannot be the target of this skill, yet will receive its damage if nearby a creature that has been targeted.",
+      "text": "* 即使降咒未能施加，例如目標受到破咒頌歌影響，目標仍會受到傷害。\n* 此技能無法指定精靈為目標；但若精靈位於被指定生物的附近，仍會受到此技能的傷害。",
+      "reason": "修正靈魂為精靈，區分無法指定的直接目標與仍會受附近傷害的精靈；保留降咒被阻擋仍造成傷害的例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3143/variants/skill-version:gww:3143/notes/0",
+          "englishHash": "ff84cbf7c0b0b48cbb6f7f6819ce0f22f5886e3d71cfb3a7edcff524606e2d88",
+          "evidenceHash": "2248a06caa808cbca54442b7c07ee68a0855e307031d4d5389dac9aa02410ad1"
+        }
+      ]
+    },
+    {
+      "source": "Flash Enchantment Spell. (3…13…15 seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.",
+      "text": "閃現加持魔法。持續 3…13…15 秒。你的神喚使加持冷卻時間縮短 33%。初始效果：打斷所有緊鄰敵人。結束效果：打斷所有緊鄰敵人。若風之祈禱低於 5，有 50% 機率失敗。",
+      "reason": "修正快閃記憶體與充電誤譯；核對 PvE 與 PvP 共用短文，保留兩次緊鄰打斷、33% 冷卻及風之祈禱低於 5 的失敗條件。 兩版固定頁皆列 Decreased Recharge Time，故明確為冷卻時間縮短 33%，不換算比例。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14384/variants/skill-version:gww:14384/conciseDescription",
+          "englishHash": "b5d14fbbd5739dbf877223224197a4b3dd7d2dca19550087a86968af7279d9ff",
+          "evidenceHash": "0017dbc27558dfe8fe73341fe970754c2cbe65325dee8c2995436fa2bab2fab3"
+        },
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14384/variants/skill-version:gww:278539/conciseDescription",
+          "englishHash": "b5d14fbbd5739dbf877223224197a4b3dd7d2dca19550087a86968af7279d9ff",
+          "evidenceHash": "82cedb3f5eb1f261668221dffca389e58baf9ea8ab0dde906604b2f226235f14"
+        }
+      ]
+    },
+    {
+      "source": "Elite Form. (10…74…90 seconds.) You deal holy damage. Whenever you use a Dervish attack skill, you lose 1 hex. Heal allies in earshot for 5…41…50 Health when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+      "text": "精英型態。持續 10…74…90 秒。你造成神聖傷害。每當你使用神喚使攻擊技能，就移除自己的 1 個降咒。每當你失去神喚使加持，便為音量所及範圍內的盟友恢復 5…41…50 點體力。此技能會被禁用 45 秒。",
+      "reason": "修正 Form 的表格誤譯；將解自身降咒和失去加持後治療盟友分為兩個觸發，保留範圍、數值與 45 秒禁用。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1308/variants/skill-version:gww:1308/conciseDescription",
+          "englishHash": "a2c2408952b8192364a7f535c2705f021d5745bd727e2386fd0b424151301c79",
+          "evidenceHash": "9469e93d876214f23207f8b7267c7c2dfd9a59a9399ebe93f42f68a71c854ed6"
+        }
+      ]
+    }
+  ]
+}

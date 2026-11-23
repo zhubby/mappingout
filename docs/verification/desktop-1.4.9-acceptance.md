@@ -39,14 +39,86 @@
 包含 1 个角色、1 条任务进度和 0 条笔记。
 个人数据与上一轮导出相同。
 
-## 发布与设备状态
+## 正式流水线与公开回读
 
-正式流水线、公开产物回读与设备验收尚待执行。
-设备上一轮更新失败，仍提供 1.4.7。
-Portainer 当前需要管理员恢复登录。
-后续记录必须区分正式发布与设备部署结果。
+发布源码：`eddb9dccbdfcee10c76f7b126ff226d4794ee884`。
+[桌面流水线](https://github.com/zhubby/mappingout/actions/runs/45179529551)
+全部通过。Windows x86、x64 与 macOS arm64 各通过
+409 项单元测试、签名构建与 25 项原生测试。
+[main 容器流水线](https://github.com/zhubby/mappingout/actions/runs/45179491735)
+与 [正式容器流水线](https://github.com/zhubby/mappingout/actions/runs/45179529617)
+全部通过。每条流水线的两种架构各通过 409 项单元测试。
+最终镜像 HTTP 验收通过；amd64 各通过 28 项浏览器回归。
+已验收镜像原样上传并合并索引，没有失败或重跑。
+
+[1.4.9 正式版](https://github.com/zhubby/mappingout/releases/tag/desktop-v1.4.9)
+于 2026-11-23 13:19:47 UTC 公开。
+10 个公开文件的大小与 GitHub SHA-256 全部一致。
+安装包和更新包符合 SHA256SUMS.txt。
+三平台更新签名、可信版本注释与公开 latest 均通过。
+程序更新公钥保持原值。
+资源清单、频道及三个 ZIP 通过独立公钥与哈希校验。
+ZIP 中 3,713 个文件逐个通过大小与哈希校验。
+资源代次：
+`4c27db0c7691e60f59aae976a7408a4f187f8189a1211a4a6d44d06aff903d16`。
+
+| 资源包 | 文件数 | SHA-256 |
+| --- | ---: | --- |
+| media | 3,683 | `94ef222a5fe49e234c955ad9196ab397bfec4f7668ca4b4e0ccd13193f962249` |
+| data | 22 | `70f0f2ff2824a9f6ccef23c5fa75a51ed7733465275dd8f99803d3ec24f9e973` |
+| fonts | 8 | `1a18e395a4ba6a6b939d992d896fa7067f9c82edadfc19389743678890c381ee` |
+
+GHCR 1.4.9 与 latest 的匿名回读指向同一双架构索引。
+版本、源码与来源仓库标注符合本版标签。
+索引摘要：
+`sha256:be6fab30544742bf293da63df8d187b0c4e4a5f0c2760d0b854f7448e348f5a1`。
+
+| 架构 | 清单摘要 | 镜像配置摘要 |
+| --- | --- | --- |
+| amd64 | `sha256:0cf2a2d1b3ce1b75d12b0b6016ac80f2a97e67dc8642ecf8fd905293ab9bdd06` | `sha256:6819fda384b49a40aad4df3886a9155dc7e50ba1520c738dd61cd8a9beea6db8` |
+| arm64 | `sha256:5e9f61e2ded73b551aa2e8d7c3ca2530a568ac401361756a0a212bd6300e0937` | `sha256:9248c42e36c8f35df86b4ca33739cd1088ab3453fd414700ff100810dea9e7ce` |
+
+## ZimaBoard2 部署状态
+
+本轮正式版本已发布，设备部署尚未完成。
+设备原入口仍为 ZimaOS → MappingOut → 管理。
+1.4.8 的镜像源超时与低吞吐失败现场保留。
+本轮没有提交新的 1.4.9 重建请求。
+Portainer 回读仍为登录页；已保留页面等待管理员登录。
+ZimaOS 没有已验证的 Docker 归档导入入口。
+未更改全局镜像源、Docker 权限或现有服务。
+
+13:16:31 UTC 设备首页与 `/healthz` 均为 HTTP 200。
+护甲资料仍逐字节匹配 desktop-v1.4.7。
+响应为 1,488,787 字节，SHA-256：
+`33b4c414b04aef51f88f62db09189e07460d19b3459279dfdd039a799a81b954`。
+健康响应不代表本版部署成功。
+本版容器健康状态、部署后 YAML 与页面尚未验收。
+
+官方 GHCR 的 amd64 离线镜像归档已准备完成。
+RepoTag：`ghcr.io/zhubby/mappingout:1.4.9`。
+归档大小：231,747,584 字节。
+归档 SHA-256：
+`cdc6318974889478dd7e3342554d202b2a74578dbf80b57934628c5330c75a2e`。
+索引、平台清单、配置、11 个压缩层与解压层均校验通过。
+归档中的配置、层哈希与 RepoTag 再次校验通过。
+归档中的首页、脚本、样式及五套繁体资料共 8 个文件，
+与本地生产构建的大小和 SHA-256 全部一致。
+归档尚未导入 Docker，不能计为设备部署成功。
+文件：`releases/verification-1.4.9/mappingout-1.4.9-amd64.tar`。
+
+运行中 1.4.7、失败请求 1.4.8 的 YAML 均已保存。
+1.4.9 草稿只改镜像版本，仍使用 `18881:8080`。
+bridge、只读文件系统、tmpfs 与安全选项保持原值。
+配置和个人备份文件权限均为 600。
+本版不增加持久卷；个人记录保留同一 origin。
+恢复登录后，先导入已校验哈希的正式归档。
+随后从原 ZimaOS 入口更新 Tag，核对容器、HTTP 与页面。
+最后回读个人备份，比较角色与任务进度。
 
 入口：[MappingOut](http://192.168.11.35:18881/)。
-本版忽略目录：`releases/verification-1.4.9/`。
+完整证据：`releases/verification-1.4.9/`。
+局域网 HTTP 支持在线使用；完整 Web 离线缓存需要 HTTPS。
+本轮没有进行桌面安装包图形界面或游戏内全文验收。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

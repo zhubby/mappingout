@@ -21,7 +21,7 @@ desktop-1.4.5-acceptance.md: 1.4.5 来源解析修复、公开签名与 ZimaBoar
 desktop-1.4.7-acceptance.md: 1.4.7 校对批次、公开签名与 ZimaBoard2 部署验收。
 desktop-1.4.8-acceptance.md: 1.4.8 技能备注来源修复、校对批次、公开签名与 ZimaBoard2 验收。
 desktop-1.4.6-acceptance.md: 1.4.6 校对批次、公开签名与 ZimaBoard2 部署验收。
-desktop-1.4.9-acceptance.md: 1.4.9 逐文本校对、本地验证、正式发布和设备部署边界。
+desktop-1.4.9-acceptance.md: 1.4.9 校对、公开签名验证与待管理员登录的设备离线导入。
 traditional-chinese.md: 繁体迁移、审查修复、中文证据、资源兼容与发布部署验收。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T12:34:14.323Z",
+  "generatedAt": "2026-11-23T12:52:16.780Z",
   "scope": "All five Traditional Chinese and English data packs; UI reviewed separately",
   "reviewMethod": "Individual agent semantic comparison against exact English text and revision evidence; not human approval or in-game verification",
   "complete": false,
   "fields": 134129,
   "distinctEnglish": 42858,
-  "reviewedFields": 12923,
-  "reviewedDistinctEnglish": 3819,
-  "remainingFields": 121206,
-  "remainingDistinctEnglish": 39270,
+  "reviewedFields": 13169,
+  "reviewedDistinctEnglish": 3939,
+  "remainingFields": 120960,
+  "remainingDistinctEnglish": 39150,
   "englishRevisionCheck": {
     "checkedAt": "2026-11-23T04:23:21.606Z",
     "checked": 6899,
@@ -153,14 +153,14 @@
       "dataset": "calendar",
       "fields": 3284,
       "distinctEnglish": 1249,
-      "reviewedFields": 304,
-      "reviewedDistinctEnglish": 125,
-      "remainingFields": 2980,
-      "remainingDistinctEnglish": 1124,
+      "reviewedFields": 484,
+      "reviewedDistinctEnglish": 180,
+      "remainingFields": 2800,
+      "remainingDistinctEnglish": 1069,
       "unverifiedEnglishFields": 0,
       "riskFields": {
         "literal-game-concept": 0,
-        "source-placeholder": 1,
+        "source-placeholder": 0,
         "conditional-mechanic": 275
       },
       "riskExamples": []
@@ -291,15 +291,15 @@
       "dataset": "skills",
       "fields": 44208,
       "distinctEnglish": 13480,
-      "reviewedFields": 3601,
-      "reviewedDistinctEnglish": 1830,
-      "remainingFields": 40607,
-      "remainingDistinctEnglish": 11699,
+      "reviewedFields": 3667,
+      "reviewedDistinctEnglish": 1895,
+      "remainingFields": 40541,
+      "remainingDistinctEnglish": 11634,
       "unverifiedEnglishFields": 0,
       "riskFields": {
-        "literal-game-concept": 241,
+        "literal-game-concept": 234,
         "source-placeholder": 0,
-        "conditional-mechanic": 4350
+        "conditional-mechanic": 4294
       },
       "riskExamples": [
         {

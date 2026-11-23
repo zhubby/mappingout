@@ -1,0 +1,572 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "As per the Tahnnakai Temple mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依譚納凱神殿戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定攻略指向譚納凱神殿戰鬥任務，而非探索區；保留有中文證據的名稱，將完成記錄明確歸於接取時的輪換。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201791/notes","englishHash":"93d473cadfc967ed18bc7d80b83c679713c8ecfcddd52eb428cd7b4abe102066","evidenceHash":"1cd835f57239d317b6e87536ff7297bbb1ae045266d0015ad56a31d7e0b79929"}
+      ]
+    },
+    {
+      "source": "As per the Dzagonur Bastion mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依薩崗諾稜堡戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定頁僅轉介薩崗諾稜堡戰鬥任務攻略；現譯名稱正確，修正省略式指引及永久進度的表述，不增補戰術。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:200881/notes","englishHash":"a46bff65c1c73df79ac635bb27f00fc9565312e8bf4585f83daa66c6a70fd781","evidenceHash":"3072fbcdfb51b81644ea61edb2f45e9ace7999b0183aefbde7a6095d9441053a"}
+      ]
+    },
+    {
+      "source": "As per the Imperial Sanctum mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依帝國聖所戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對固定頁的 Imperial Sanctum 戰鬥任務連結與可信帝國聖所譯名；完成記錄屬接取時輪換，不改技能或征服的永久進度。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:216502/notes","englishHash":"36cb3e90700664269a169f2b58c5b4a79c1b53e512cbeaac9790318625522d04","evidenceHash":"5cd6002ccfb7cc1912ddea9ec704b1b96bd9de1c603cc308d3ab316c5e8d168d"}
+      ]
+    },
+    {
+      "source": "As per the Dunes of Despair mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依絕望沙丘戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定 Walkthrough 指向絕望沙丘戰鬥任務，名稱與中文證據一致；修正輪換歸屬及進步誤譯，不增加任務目標。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:207584/notes","englishHash":"0017e55d3ee297e10f30e57ea0d33fb07defe580b6b8a2ba4610272112adbbcc","evidenceHash":"2fb128369ffad6522cb735fb4f40a848f1cd428e8ecc8e5926357f9f23e9cf4e"}
+      ]
+    },
+    {
+      "source": "As per the Hell's Precipice mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依地獄懸崖戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對 Hell's Precipice 攻略參照與地獄懸崖譯名；將現譯的根據改成完整指令，並釐清接取輪換與永久進度分離。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:209241/notes","englishHash":"2e7afb2b712b9538af668fe45e2441532585d7c0e45489da97a2d34d83847d53","evidenceHash":"8744ef732a75b2c62227773a202555959be89e7dd0c87b723da6605edda6e1dd"}
+      ]
+    },
+    {
+      "source": "As per the Unwaking Waters mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依沉睡之水戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文模板 Unwaking Waters (Mission) 為沉睡之水，修正不醒之水的字面造名；本條只參照戰鬥任務攻略，保留輪換記錄範圍。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206186/notes","englishHash":"1388f0a659fe32bf4c10a60e2059a8d9bee9a080864085cbf8237fdf22439d94","evidenceHash":"2ba26f6c9990ab7779dfadc05b85cc016de3c8eb5f87313af81b0f0f0c26a108"}
+      ]
+    },
+    {
+      "source": "As per the Chahbek Village mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依夏貝克村莊戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文輪換模板將 Chahbek Village (mission) 寫為夏貝克村莊，取代未有證據的恰貝克村音譯；核對接取時輪換及永久進度不變。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204575/notes","englishHash":"4f451c8475b177fbd6316d7978e326c74d011d031233bf9365d05113b8677a5b","evidenceHash":"391c921eecb2d61d3cba5a12a84ee149968d8476357ba6c716d2bcb225e6aa74"}
+      ]
+    },
+    {
+      "source": "As per the Gate of Madness mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依瘋狂之門戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對 Gate of Madness 的固定戰鬥任務參照，沿用可信瘋狂之門名稱；修正完成記錄不是永久技能或征服進度的表述。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:208557/notes","englishHash":"2670a41ca3a65f23a5eec59d723f4263b6e09a68ad16a3bb98160b05b02dc199","evidenceHash":"78a796641e6c8f82f11d9bcdb39d7d81eda90b0fb17d7635aeb3afaf7eb085d1"}
+      ]
+    },
+    {
+      "source": "As per the The Four Horsemen quest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依多姆四騎士任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定頁參照 The Four Horsemen 任務，並非把四名騎士當新攻略步驟；保留可信多姆四騎士名稱及接取輪換歸屬。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203910/notes","englishHash":"197c258b7bb4865e085ca16cab310fbfdc1939e22d7a6bcb83c1f68d5a19c933","evidenceHash":"af085a1253cc6da4da039515255230b2eb6c00835d4639a4789dff1c692504e8"}
+      ]
+    },
+    {
+      "source": "As per D'Alessio Seaboard mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依達雷西海濱戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對 D'Alessio Seaboard 的戰鬥任務連結，保持達雷西海濱譯名；將完成記錄的輪換時點與永久進度界線寫清楚。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:215377/notes","englishHash":"107d0499cc027b0fc19c68383ff588ff210fe6a06c01522778ae46dcf109d153","evidenceHash":"7fc928413e9bc91395a8b532207d06a7f8b9b2c86f87620134b92ab74fd83a60"}
+      ]
+    },
+    {
+      "source": "As per the Moddok Crevice mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依摩多克裂縫戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定頁明確轉介 Moddok Crevice 戰鬥任務攻略，沿用有中文證據的摩多克裂縫；不把本輪勾選改寫成永久進度。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202816/notes","englishHash":"85980d620c8fc44cd16213cf55070fed2793f68c29a7b4bbc0307899fde38d32","evidenceHash":"3e97bdbc4e69366b55f85e5d424b987e8ca1d7c15313f20299377f7c6053e984"}
+      ]
+    },
+    {
+      "source": "As per the Nolani Academy mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依若拉尼學院戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對 Nolani Academy 的攻略參照及可信若拉尼學院名稱；修正不完整的根據句式與接取輪換的時間指代。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206409/notes","englishHash":"2ace5b47507f87dea5125a02d7b4517b90628485275b1f10ee5adf0a915d8e8b","evidenceHash":"a84a89a10befa7ff98e927af60b029cb3a204c57a03aad6762092782bcc37657"}
+      ]
+    },
+    {
+      "source": "As per the Venta Cemetery mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依凡特墓地戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文輪換模板將 Venta Cemetery (mission) 寫為凡特墓地，取代現譯文塔公墓；保留僅參照攻略及不改永久進度的範圍。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201491/notes","englishHash":"bd835b3867dbeed556d070a238b73a6669cf54e8492ef747a9e2abfeae66c595","evidenceHash":"fbbcd50a5d589ee52bd37d74c7876c4c3f8f956200278302957315d30f83493a"}
+      ]
+    },
+    {
+      "source": "As per the Gates of Kryta mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依科瑞塔關所戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定英文指向 Gates of Kryta 戰鬥任務；沿用中文來源已記錄的科瑞塔關所，未將另一來源異名科瑞塔之門當成不同地點；釐清輪換記錄。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202358/notes","englishHash":"158f61687c9309377acf8b271a71712f0b3bc0c2af5edc83490bfb4321d759ee","evidenceHash":"5c7b550205d949ccc8ccea2a91354ac3374efe8cbfed1c0d24748064d3afb609"}
+      ]
+    },
+    {
+      "source": "As per the Ruins of Morah mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依摩拉廢墟戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對 Ruins of Morah 的固定攻略連結及可信摩拉廢墟名稱；修正接取任務時的輪換歸屬，不添加首領或完成條件。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206289/notes","englishHash":"1a8fc0d19a12c320d45b798825a97583bdf41e66d79c0b118e140e8c433d700d","evidenceHash":"ab5171e604de4c3bec722f52e25850837403c360a7e6f7948e9a209ad3029fab"}
+      ]
+    },
+    {
+      "source": "As per the Bloodstone Fen mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依血石沼澤戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對 Bloodstone Fen 參照的是戰鬥任務攻略，保持可信血石沼澤名稱；將征服進步修正為征服的永久進度。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:211064/notes","englishHash":"390974652b9c0ef14cc3af5dcc3fa5a26b776261330c1a3dbe1db75d91f7589a","evidenceHash":"f62a5cce529add31693b7974a714bc9a4a54fdab4fdabaa7e1640712eed44fee"}
+      ]
+    },
+    {
+      "source": "As per the Jennur's Horde mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依徵納群落戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文輪換模板將 Jennur's Horde (mission) 寫為徵納群落，取代詹努爾的部落直譯；據點來源另寫征納群落，這裡依戰鬥任務來源用字。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206563/notes","englishHash":"c1faf15ec473767202f3a1b5e700e2ff3c190f9f67a005bfce8b570efa9ce8de","evidenceHash":"bbd7599a882a90d9b996863f12dc3241e77bf7ffe7fed6cf64d265ce068cd345"}
+      ]
+    },
+    {
+      "source": "As per the Gyala Hatchery mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依蓋拉孵化所戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定英文與中文模板均指向蓋拉孵化所戰鬥任務，未指探索區；修正接取輪換和永久技能或征服進度的語意。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:205872/notes","englishHash":"572a7bcfb2b026f747dd2d3368a4f128ba707633e46129addd2111a13d4cf0e4","evidenceHash":"cf576afc7fa6d81086906bce09d62cd51b800dd9093d3bdf6dfcfae923b82355"}
+      ]
+    },
+    {
+      "source": "As per the Abaddon's Gate mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依亞霸頓之門戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文輪換模板提供 Abaddon's Gate (mission) 的亞霸頓之門名稱，移除亞霸頓的 Gate 殘留；保留攻略參照與本輪記錄範圍。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:211562/notes","englishHash":"e19f9c9e6187e5dccb8bd3245f7a1b86d2aeef12e44fe389c3e467c17ade7501","evidenceHash":"db6cdc381ba0101cf8b1363ad030538d81a94d41de12bb5a0964921949ce138f"}
+      ]
+    },
+    {
+      "source": "As per the Urgoz's Warren mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依爾果的養殖場戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Urgoz 懸賞的固定攻略參照為 Urgoz's Warren；沿用可信爾果的養殖場，未將懸賞名稱與戰鬥任務名稱混用，並釐清永久進度不變。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206564/notes","englishHash":"572eb575066545178771026d36ded63be2036f18263ad30e2e47090eee1f19d6","evidenceHash":"c09f53b5447022b5377d64616f4759ff3326be59eb6e2b8466850e56a75a9ec3"}
+      ]
+    },
+    {
+      "source": "As per Borrguus Blisterbark notes.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "請參閱風吼 柏格斯的注意事項。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定連結指向 Borrguus Blisterbark 的 Notes，而非人物發言；保留可信風吼 柏格斯名稱與接取輪換記錄，不另寫首領戰術。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203266/notes","englishHash":"010bfd5a57675f2954388f7adb5039f564926cb5799c6d5631e79cf86cc81baa","evidenceHash":"f810f6a7965d8d16e803f0f0e7170d4d5252d39a843c193eade3e8f472998ffc"}
+      ]
+    },
+    {
+      "source": "As per the Foundry Breakout quest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Foundry Breakout 任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "The Black Beast of Arrgh 懸賞的固定攻略指向 Foundry Breakout 任務；該任務無可信中文身分，保留英文，避免把鑄造廠突圍直譯視為官方名。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:205425/notes","englishHash":"a56ba0b69987f0f2994b33bf465f86f5c43828d9ba568e71e8343fba0fbf456c","evidenceHash":"e02f078532d838e190afc6023c6934ae6b37ee3444cc70e8ac5ab280acb22e51"}
+      ]
+    },
+    {
+      "source": "As per the Thirsty River mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依乾枯河流戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定頁的 Thirsty River 參照與中文乾枯河流一致；維持戰鬥任務指向，釐清輪換記錄不改永久技能或征服進度。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202974/notes","englishHash":"42546601cd9e6d02731b191cfb42f193141c66997a954cb2ca2fd03c8eba8f83","evidenceHash":"6d4909a6756eb9fa8bc74eab45b38c85dd462acd2a5fb3b1d7e3719c7c7f0935"}
+      ]
+    },
+    {
+      "source": "As per The Eternal Grove mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依永恆之林戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文 The Eternal Grove (Mission) 為永恆之林，修正現譯永恆叢林；此處指戰鬥任務而非同名探索區，完成記錄歸接取輪換。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202698/notes","englishHash":"e2b46b91cf962d983d9a103cce4c1f9553d5e4dc6e3e1918b05411015bebea52","evidenceHash":"49d5cf4f8c42cacef8b86f491ee0f7c29e09679f8fef0fc215687e47aa0093cc"}
+      ]
+    },
+    {
+      "source": "As per the Rilohn Refuge mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依里歐恩難民營戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文輪換模板將 Rilohn Refuge (mission) 寫為里歐恩難民營，取代裡洛恩避難所的另造音譯；不增補來源未列的攻略步驟。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:216074/notes","englishHash":"ebff3e747a8c4dfdad6b91c008f0f4e5caa1a3d3b8420c1e57834d85dabe5a23","evidenceHash":"a78138d3c27e8d7f66682d8ad0a8bf5d431eeda97e19a6be8632dbcb309f01be"}
+      ]
+    },
+    {
+      "source": "As per Warband of Brothers quest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依戰爭軍團之友任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Warband of Brothers 有固定中文名稱戰爭軍團之友，修正兄弟戰團直譯；保留任務攻略參照，明確記錄只歸本輪換。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:216219/notes","englishHash":"3814ee92b2c9afeb562f0eb3419b7841df7ff8a52d8f8fd4a768122104901f76","evidenceHash":"e490580bd497101e06d095b4c1ba34ec0651471f14683862c38f479fc328e511"}
+      ]
+    },
+    {
+      "source": "As per the Boreas Seabed mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依風神海床戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文 Boreas Seabed (Mission) 為風神海床，取代北風之神海底；戰鬥任務與探索區的身分分開，永久進度不受本輪記錄影響。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201055/notes","englishHash":"ba65be81848ae82699d47ff8d82f6947719a05f7c740cf4d65c3d7652450a138","evidenceHash":"6f1874508993e83bd699e55be62fd0978510747ccc619ccef7b3c1baacbe348e"}
+      ]
+    },
+    {
+      "source": "As per the Aurora Glade mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依歐若拉林地戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定頁轉介 Aurora Glade 的 Walkthrough，現有歐若拉林地名稱有中文證據；修正指引句式和完成記錄的時間歸屬。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203642/notes","englishHash":"3a9e5851cf4f647ff732ca3295ddee995748dca265419802a3d978e92b7fee0d","evidenceHash":"49753b543fdbb2aa1836ff4f3276d6bbcc6fe2a64f7ad0842e3890acd33026ae"}
+      ]
+    },
+    {
+      "source": "As per the Gate of Pain mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依懲罰之門戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對 Gate of Pain 的固定戰鬥任務攻略與可信懲罰之門名稱；不把接取輪換內的完成勾選誤寫為永久進度。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203548/notes","englishHash":"913ae4e957f51c9699889a92bbfb53197970ff6b02a9fcc94e7501176514f2e7","evidenceHash":"ef25959667d9c11ddfeed0d42ad0a1bc87a5360617158fff763fa7b8a281681c"}
+      ]
+    },
+    {
+      "source": "As per Scrambled Reinforcements.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Scrambled Reinforcements 的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Arachni 懸賞的固定參照為 Scrambled Reinforcements，未有可信中文任務名；保留英文取代緊急增援直譯，並保留本輪記錄界線。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:212999/notes","englishHash":"6349d6e440d4bddc5a7d9fe392228e87ddc8de4dd8e0acf5b4f8705ec5a41f7b","evidenceHash":"d88efe9be14433dc35b47d247bc916fc3d7faba16e785cace2a810ec876f799d"}
+      ]
+    },
+    {
+      "source": "As per A Time for Heroes quest.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依英雄的光彩年代任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定頁明寫參照 A Time for Heroes 任務，沿用可信英雄的光彩年代；保留攻略指向，不將懸賞記錄變成永久技能或征服記錄。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:214511/notes","englishHash":"07db647b814ae8d71e120d157f111af13325ab8eb1b96c56f220058713bfa744","evidenceHash":"3cee4af96a312f4ea8dd5e01d41db8fe755509bfcf3e6f0be22ec517a040a117"}
+      ]
+    },
+    {
+      "source": "As per the Sanctum Cay mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依神聖沙灘戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Sanctum Cay 的固定攻略與中文神聖沙灘身分一致；此處使用戰鬥任務名稱，未套用另有主線字樣的懸賞別名。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204382/notes","englishHash":"2411b93ea600dd41e1ed1bd75496b6a93ad04ec9f4b28bf1b433b2872fe07d81","evidenceHash":"ae13fe165460bc8b5e6f28940be41441ba6b3fbb280b78203d800ab97736dff3"}
+      ]
+    },
+    {
+      "source": "As per the Elona Reach mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依伊洛那流域戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "核對 Elona Reach 的戰鬥任務攻略及可信伊洛那流域譯名；只修正指引與接取輪換語意，不補入水晶或時間條件。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204060/notes","englishHash":"16ea4ae25471ffbb666975fb95a90a3e31ae9ce98f0a30c0830398bbf32ded8e","evidenceHash":"ef83f426ceed0593ae84885593f71ec1dedd9d1ac4070ef91e4c6b0386815ae6"}
+      ]
+    },
+    {
+      "source": "As per the Zen Daijun mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依禎台郡戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文 Zen Daijun 戰鬥任務為禎台郡，使用專名中的台，不採機械繁化的臺或探索區異名禎邰郡；保留輪換與永久進度界線。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202499/notes","englishHash":"d7dfe1f36d560cc6e7b0399a3e5b464a0fc719fdb87946ab1885b0354f0efdd2","evidenceHash":"77ac179efabbd28fe23d1193f2456c1d45beca5c543e943b89594b0dd24ff35e"}
+      ]
+    },
+    {
+      "source": "As per the Fort Ranik mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依瑞尼克要塞戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文 Fort Ranik (mission) 為瑞尼克要塞，修正拉尼克堡音譯；未將崩壞前後據點分類括註加進戰鬥任務名稱。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202578/notes","englishHash":"5b6a1460fdcd2702f2d189377ac913950d261cc86e46dcfb6d5e1525b4d04730","evidenceHash":"5f5d3857bac3fb9704954392a5d9c302bda83efa16c73c214408df8e37b3b337"}
+      ]
+    },
+    {
+      "source": "As per Finding the Bloodstone.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依尋找血石的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定來源連到 Finding the Bloodstone 的 Walkthrough，沿用可信尋找血石名稱；不將既有正文的攻略參照擴寫成額外取得條件。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:205449/notes","englishHash":"a250a6b2127562a65a29b3da5963ff7799d596def0fde57ab7d9cc0dad132923","evidenceHash":"692d1752f280a1779124bb392da431e4f42d052eccc9eb65dcc579c5ddf3eeb9"}
+      ]
+    },
+    {
+      "source": "As per G.O.L.E.M. walkthrough.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 G.O.L.E.M. 的詳細攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定連結是 G.O.L.E.M. 的 Walkthrough，將演練修正為詳細攻略；保留可直接辨認的原任務縮寫，不誤指一般魔像或 NPC。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201353/notes","englishHash":"479c94f2621c0f5db4bd2fa5b6b48e3750d158e6ad7855bd4adf8ad6b171547a","evidenceHash":"aa61a8aa52fdaf08b77296245bfa490be883b46d6481b90884bd84db7e21d50a"}
+      ]
+    },
+    {
+      "source": "As per The Frost Gate mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依寒霜之門戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定中文 The Frost Gate (mission) 為寒霜之門；移除一般地區模板帶入的地區括註，保留戰鬥任務與輪換記錄的責任。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:205613/notes","englishHash":"b56b139bacd633b412acf431a89d7faeb522b6a8ba5fe7a2a55a681169db7e84","evidenceHash":"3aa82c083af4273b5d4f9c2d4534533713537656e2803a96117dd56122a19986"}
+      ]
+    },
+    {
+      "source": "As per the Nundu Bay mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依納度灣戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定 Nundu Bay 戰鬥任務與可信納度灣名稱相符；將省略式根據改為完整攻略指令，明確技能或征服的永久進度不變。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204217/notes","englishHash":"11b01dbad10f2f02ea25fd7e6984668979d14562dea84e48b9dcf2041b112bc1","evidenceHash":"a6a3e70a898b3a5d573c97b9c7f3663418d8e75a7d8c654ab53cd6c64e280a77"}
+      ]
+    },
+    {
+      "source": "As per Dragon's Lair mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依龍穴戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定連結實為 the Dragon's Lair，其中文模板與戰鬥任務輪換表均為龍穴；沿用此身分，不因英文顯示省略 The 而另造地名。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201640/notes","englishHash":"bab515504e7ee05fd354c04ec74f9209190a9024cfca6387a94f2562a6c36a79","evidenceHash":"920b3982df432af40d701481ee747f9eb4d32aec6cfa00620df7d705377509cd"}
+      ]
+    },
+    {
+      "source": "As per Curse of the Nornbear.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依諾恩熊的詛咒的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定頁參照 Curse of the Nornbear，沿用可信諾恩熊的詛咒名稱；將片段句改為攻略指引，保留接取時輪換歸屬。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:200756/notes","englishHash":"995690d18cf37a473bdfea4ee84d7cb893b52ad34e709151903fc33abbd45806","evidenceHash":"936a8c38b20a2df525ebce0d4e43ac13b4e063cc8b86040fd22788d5b36c25d3"}
+      ]
+    },
+    {
+      "source": "As per Kathandrax's Crusher.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Kathandrax's Crusher 的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Ilsundur 懸賞的固定攻略指向 Kathandrax's Crusher；沒有可信中文任務名時保留英文，避免把 Crusher 譯成機械破碎機。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:200753/notes","englishHash":"1f1fcec94b587cec491685f094f820ee71223a1db00e6e0f90ba5a7eb86116cd","evidenceHash":"60fd4aadb062dd500883b6fa135d97c7c40518eb116f0e8e63dffdb650968e0f"}
+      ]
+    },
+    {
+      "source": "As per Dredging the Depths.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Dredging the Depths 的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Zoldark 懸賞固定連到 Dredging the Depths 攻略；移除疏浚深度的字面機譯，保留英文任務身分與永久進度不變的記錄語意。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:202818/notes","englishHash":"fafac214025a3f8ec5054ce3ada2a6229b6bfa799948430a03dcd52eaa85c2bc","evidenceHash":"7152f872f90fd6a70c128d56eac4cb4eac00e6b1a1ba3fdd9535e64197e7ede6"}
+      ]
+    },
+    {
+      "source": "As per The Last Hierophant.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 The Last Hierophant 的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Forgewight 懸賞的固定參照為 The Last Hierophant；保留未有可信中文證據的英文任務名，不把最後的聖職者直譯當作官方名。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:209521/notes","englishHash":"28f7e1e4b9cc37171ea991621d391b336fbce297e5510e00995152f32033a318","evidenceHash":"e6d035368f7b4f8ab3d0f7eacb7f1c7353395b4335938d36026b61358f2d037e"}
+      ]
+    },
+    {
+      "source": "As per The Wilds mission.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依荒原戰鬥任務的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定頁參照 The Wilds 戰鬥任務，中文荒原有來源佐證；釐清這是攻略參照，而非要求另接一項本輪以外的任務。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:206079/notes","englishHash":"c31f6c128f00ee56af2622fe2787587a2e0f8e7146c799f96e775de300d00d90","evidenceHash":"3861f5005951f6887b467af7d0a96e1d6c5a24647005ef4ba424d28b1f834a2f"}
+      ]
+    },
+    {
+      "source": "See The Darkness (boss).\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "請參閱 The Darkness（首領）的攻略。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定連結指定 The Darkness 的 boss 版本，須保留與同名非首領生物的區別；修正老闆誤譯，未知中文專名保留英文。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:203549/notes","englishHash":"a05da41fed0cc577186482c3323a710ceeeb9139143b0f06fffbce505d5d355b","evidenceHash":"532486e9025628ad313c4d2ef6780d56ff18c9ca893adf80559634c3ff248643"}
+      ]
+    },
+    {
+      "source": "As per Ruins of Surmia.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依蘇米亞廢墟的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定來源連到 Ruins of Surmia 的 Walkthrough，沿用可信蘇米亞廢墟名稱；保留接取輪換歸屬，未增補來源沒有列出的存活目標。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:209385/notes","englishHash":"ac3c1b13a1633d9c723660388d6cceee6845da0dbeaf2c50ef823522a5a9f973","evidenceHash":"8baa79789fc3f1c9e076406c702a7ae719c2c326aacda49beb3de8698a25d3a8"}
+      ]
+    },
+    {
+      "source": "As per The Forge Heart.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 The Forge Heart 的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "The Iron Forgeman 懸賞的攻略參照為 The Forge Heart，不能將它誤認成鋼鐵巨人的名稱；未知中文任務身分保留英文。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:204375/notes","englishHash":"bac77f2c67d130849eeae0a6c690510bb47de16970561937418bb4142bbd4cce","evidenceHash":"dbaa2960223728073b04f37c0a36cc394a5e3b286b22a075a0ea9ebbeeaee0c2"}
+      ]
+    },
+    {
+      "source": "As per A Gate Too Far.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依一道過遠的門的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "固定來源指向 A Gate Too Far 的 Walkthrough，沿用有中文證據的一道過遠的門；不把名稱中的門誤解為額外的路線指令。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:207015/notes","englishHash":"63aa8c2810c51b2205b4e66f6220d46df4bac7871df550339acd1b05f211028e","evidenceHash":"4d80a39500f78b0a35edb758217739ab4deb705737e677271aaf918cbbde715e"}
+      ]
+    },
+    {
+      "source": "As per Cold Vengeance.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Cold Vengeance 的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Frostmaw 懸賞參照 Cold Vengeance 任務，Vengeance 在此不是復仇意志技能；移除冷復仇意志的錯誤詞彙替換，保留完整英文身分。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:201794/notes","englishHash":"b88e875fd487529f9d09ef08400d6184fa4390d8f9659cd184fd59ed60ad9948","evidenceHash":"33eec2658dce335022b29233feaf2376d62eef4c86023a7d18d1f5b8c92a37eb"}
+      ]
+    },
+    {
+      "source": "As per Tekks's War.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Tekks's War 的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Z'him Monns 懸賞的固定參照為 Tekks's War；沒有可信中文任務名時保留英文，避免把特克斯的戰爭音譯宣稱為官方名稱。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:208558/notes","englishHash":"ebe79add99331ca4bfd893f3ab69f5adf01efc834aa1b0c928223a2e4927454c","evidenceHash":"4a923a96e1f0bbfec0003612c2ce6f4234e7e05876bd13fbab9422775a6dc484"}
+      ]
+    },
+    {
+      "source": "As per Lost Souls.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "依 Lost Souls 的攻略進行。\n\n完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "Fendi Nin 懸賞的固定攻略指向 Lost Souls；保留未有中文身分證據的英文任務名，移除失落的靈魂直譯而不更動本輪記錄條件。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:214255/notes","englishHash":"5464726dbbe21b86d44fc546e38a403888f2ac0cc5d8e10ff157f13bfb5743f7","evidenceHash":"db336070c510d293795e8cf2b810fb00cd3092213dd39f98f0a0d70791ce9d48"}
+      ]
+    },
+    {
+      "source": "\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+      "text": "完成記錄歸屬於接取任務時的輪換，不會改變技能或征服的永久進度。",
+      "reason": "此筆只有應用程式的輪換記錄說明，對應 126 個征服懸賞綁定。逐一核對固定頁的困難模式全滅目標及缺少獨立攻略的語境；將接受改為接取，將進步修正為進度，不聲稱本輪勾選會改寫永久紀錄。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:275670/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"a3d3b98972f89b8cbb3767b62519db74798e821dffe7bbeb2023029e6fedbf15"},
+        {"dataset":"calendar","key":"activities/activity:gww:275671/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"2390abe60e2463939f00b6e0e279ba7c3f4fc449776477fbd6bdc8a829fd4992"},
+        {"dataset":"calendar","key":"activities/activity:gww:275750/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"782c5a08a16b936e2b061fedfb470c96b17b92c94971d7d42b451d0a71ce4472"},
+        {"dataset":"calendar","key":"activities/activity:gww:275830/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"6ddd228dcafabf83e5c7c0031a060a69400f3f8ecf7bf48d79177bc8a9eea899"},
+        {"dataset":"calendar","key":"activities/activity:gww:275904/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"f3704f6ae55adf0f2478903eebebdead912906de76ffafa757a93a280953a868"},
+        {"dataset":"calendar","key":"activities/activity:gww:275971/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"70ba3ed362633ce4cf0bef1acdd44ce758d9cb11ea6d0af37888d33e7296a34e"},
+        {"dataset":"calendar","key":"activities/activity:gww:276046/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"591ef943d99815e8903c514863ca1d52fc8b5212a8753ca8bcf95b3cbd52599c"},
+        {"dataset":"calendar","key":"activities/activity:gww:276108/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"648b0c0b45ae73519ab3373e3cb4c8dd1cea36ae16c33b504e891866210c69b3"},
+        {"dataset":"calendar","key":"activities/activity:gww:276176/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"c4e51bb736d83093d3d4fe92e8ccb16a1d9d1d4f89ec726e30a8ef24c3d2cc43"},
+        {"dataset":"calendar","key":"activities/activity:gww:276283/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"6da7aceb5cea39af7646ae332cef0f684c0b79c8544b317d8bcb2be21149b60b"},
+        {"dataset":"calendar","key":"activities/activity:gww:276380/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"58a74b34101cf7e6552631f082c9b5dd0eada357b567b984db80f91f9fe82001"},
+        {"dataset":"calendar","key":"activities/activity:gww:276434/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"436d6639ff9c542a8e7bceb48fd0206dbdbf8b4e92dfb6c0e3d0499963e39f2d"},
+        {"dataset":"calendar","key":"activities/activity:gww:276518/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"f24495bb2d5b557beb7e9d8095e97291e4a66856de099c08cd73c40ef9abab76"},
+        {"dataset":"calendar","key":"activities/activity:gww:276561/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"47778a57c49640f63c0b7743d9269afc0d5c60cdcd02b4afbe80b78e763cb55e"},
+        {"dataset":"calendar","key":"activities/activity:gww:276617/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"c4b2b5774d7c45954055c9d8f6fd54de5d868d59cdd7efc6438efa33b0d0cae6"},
+        {"dataset":"calendar","key":"activities/activity:gww:276657/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"fc773d9e8487b514a0b06a7a48a5e44701b121325258795f3a3709ddef353a96"},
+        {"dataset":"calendar","key":"activities/activity:gww:276736/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"522ab2364478279a5af328333158bafcb3fa5f8481ff2e7bfa012e93d3b46521"},
+        {"dataset":"calendar","key":"activities/activity:gww:276774/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"09667c94eda318eba7a6fb71597cf704c78f22da1fe5597a7f48fc7bb78b90ab"},
+        {"dataset":"calendar","key":"activities/activity:gww:276929/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"04763f42b92b847e3466b8441566b52b48633ff105f116fd939894b3baaf444d"},
+        {"dataset":"calendar","key":"activities/activity:gww:277010/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"43f7f0e89c1580d85c4de4ef2bb9ab422b8a9ac1aab0b06ac089579269bd4f1f"},
+        {"dataset":"calendar","key":"activities/activity:gww:277050/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"70290d3dc555e7ff8b2944777fc3ac2fb71e3b495595fb37386abcfb2b87c815"},
+        {"dataset":"calendar","key":"activities/activity:gww:277115/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"bd6fc506e8e80c532d1e74402cc4ccba1464d45d36ecc66d68532f368e218615"},
+        {"dataset":"calendar","key":"activities/activity:gww:277150/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"8d81b3c10c21c2afb7005708d40fbb6a165d414b882181034070f53e0d479d68"},
+        {"dataset":"calendar","key":"activities/activity:gww:277211/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"71acb97f62bab8dee70f922c8dc64b18e9af1d001c19c2d3917b5bc4b3fe212e"},
+        {"dataset":"calendar","key":"activities/activity:gww:277277/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"b9a918cd07815dc1df037d879cf2d358e618b6666660448896981d0237f2c988"},
+        {"dataset":"calendar","key":"activities/activity:gww:277328/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"2238dcd8485b9e0942acb0d396c72745ffd4caa856afa6ca0c7f0797dc79a402"},
+        {"dataset":"calendar","key":"activities/activity:gww:277355/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"13b1f09add05e4abaeae00b53ae2132e9217d28208ff622a30541f655c965cfd"},
+        {"dataset":"calendar","key":"activities/activity:gww:277488/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"6f058b0f493bda508ed77bfa6c4b520ff00795ffa0f1d58a4c3d3a6d3ff9c71c"},
+        {"dataset":"calendar","key":"activities/activity:gww:277617/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"2b6a48abcccc49a210979c0b3f470502c59bd9f5f3924e7df6866fca3b34b810"},
+        {"dataset":"calendar","key":"activities/activity:gww:277646/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"e0ae7a242a418cdfed123bff0ebd3bea215950becdeabf0ca16e7eb2a101f064"},
+        {"dataset":"calendar","key":"activities/activity:gww:277743/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"ebf10080656280ba66298cea09c98d041b503f673ccbd678eb3dbe2ca3115e21"},
+        {"dataset":"calendar","key":"activities/activity:gww:277795/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"8701c1c4462e10f6f9dc49a34ea0e3e4f21cd8bcf3af57dd641d983d9b3e056e"},
+        {"dataset":"calendar","key":"activities/activity:gww:277846/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"1b3cc7efee51c65377d226c70ef392831a25019078af636e3f4ccac567f9ee4e"},
+        {"dataset":"calendar","key":"activities/activity:gww:277903/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"988a74b456c11e16995fcba6bc38fd7d0490bbe1b0b00c7c9d5d4e852fca44d1"},
+        {"dataset":"calendar","key":"activities/activity:gww:277938/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"70df7331d00b91ad6b6d39362a1229d268aace9a063e1d180b42ccb1c52131fb"},
+        {"dataset":"calendar","key":"activities/activity:gww:277978/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"0836a6e76bc20f33f98415181d5de69285a42f53d7ede979a68550a4c1ab1c6e"},
+        {"dataset":"calendar","key":"activities/activity:gww:278028/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"e8b211eeec2d91009b254d5f1b53eb5dc85c6d8d123bbff8b3a20fc28e3c4d27"},
+        {"dataset":"calendar","key":"activities/activity:gww:278115/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"13f10c067bbb750c0212b876986af459573f2b023381797f4922d722b1e72aa6"},
+        {"dataset":"calendar","key":"activities/activity:gww:278158/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"b0b1793dc6d816f312ed55c4f988579ee7c3b710488048fb7f3e459f6757b5cd"},
+        {"dataset":"calendar","key":"activities/activity:gww:278201/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"b1df7643389578c0456bc50dd318661d026528a75d1e417bfc860c5b8426d1ad"},
+        {"dataset":"calendar","key":"activities/activity:gww:278224/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"c039f74406974bc076a00d3c6bdb8ad24e0f92b34967ae89c0ee8916f7bc884b"},
+        {"dataset":"calendar","key":"activities/activity:gww:278348/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"428e9600e5d4d828f0fe1bafe11829d5fd9b39adfe5a8ac83557c3cd244d37cd"},
+        {"dataset":"calendar","key":"activities/activity:gww:278410/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"12e5eefda6b7164c6e49d5cc8a9048263dd353b60c17fb34c4a13868bbbb4030"},
+        {"dataset":"calendar","key":"activities/activity:gww:278457/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"bc432ce6b160699f4f681b89f09dbb15931fb003c71c4841c2e6e73f1b6ff4aa"},
+        {"dataset":"calendar","key":"activities/activity:gww:278481/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"33760a6a6a89ee05e843244e64deacc4623df48d22666162c133ff3b12fb3c3b"},
+        {"dataset":"calendar","key":"activities/activity:gww:278507/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"6710434a9211710256935dc59e7e65479844450881395856afd2fd72eedb61b3"},
+        {"dataset":"calendar","key":"activities/activity:gww:278583/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"1ea4b5c9259757286b8f76bc3d8db52c43fddaabc460b74d50faf3b51343fa7f"},
+        {"dataset":"calendar","key":"activities/activity:gww:278625/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"cf6ef1934d9ff0813269c49216170dc3df0db6a3595d195f5bf47b72f9526f35"},
+        {"dataset":"calendar","key":"activities/activity:gww:278668/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"3ced0d94cdcd49b397c3c5fefb088b1fb27edf440d3f382183331bd99e7ee6dd"},
+        {"dataset":"calendar","key":"activities/activity:gww:278726/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"ce4c3f5f9c884e31f43a0c30c21d973c0f2aecf45623e6f836a95a37fb3cd4c9"},
+        {"dataset":"calendar","key":"activities/activity:gww:278835/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"f006da734400af4921c0ec79d2b5d01b6093495c1e84b5fc35506a34c4f36773"},
+        {"dataset":"calendar","key":"activities/activity:gww:278866/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"fc173505a7786b5c787b38f463d6ed46c02c02cc98a2e64f727c95e4f1166163"},
+        {"dataset":"calendar","key":"activities/activity:gww:278910/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"19f46fdd59f8413e69dd3400ec5e87c81394a571cce1d04ef255410bd2216589"},
+        {"dataset":"calendar","key":"activities/activity:gww:279054/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"2c14e0117f13cd067272dc9ddfe6b0b6af56aae04f0e116c0caced55d9ec374d"},
+        {"dataset":"calendar","key":"activities/activity:gww:279168/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"7d011a1732f784bea60a3252d921c0942fe7cb9af286b4341a248509c157ddb4"},
+        {"dataset":"calendar","key":"activities/activity:gww:279270/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"bbcd5ad84da95ca5be70ad06055ab5da6ad32a436bcbe3fd7716036034f07fe1"},
+        {"dataset":"calendar","key":"activities/activity:gww:279380/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"52cddcdf662ebb02d006b88e88eaec49d1578332a57099056357c1e664ee59b8"},
+        {"dataset":"calendar","key":"activities/activity:gww:279434/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"8af118298b4be436ce3e298b9d96cec1a2684bd2f69ea03debaa2bd213e35896"},
+        {"dataset":"calendar","key":"activities/activity:gww:279502/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"1e364821e1873f57490efe73bb91891d8039184b06451d4c1036f0400dbdc631"},
+        {"dataset":"calendar","key":"activities/activity:gww:279573/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"d0b1a532ac742fefab15d81234a3e48476bc49dec998968265413ef33991b85c"},
+        {"dataset":"calendar","key":"activities/activity:gww:279636/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"e8e379573e5c32a85d5a2b39aeba472cbeba77f478ae4894d35a829fabbfdfa9"},
+        {"dataset":"calendar","key":"activities/activity:gww:279687/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"92d15b63b24f5b92893d97372696092fee9e2300dd43c514d602ef92790bcc64"},
+        {"dataset":"calendar","key":"activities/activity:gww:279738/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"2f399d695c5f180da349e36de0a0f1b085de41e1d04eec8d3195cb6a71eb5638"},
+        {"dataset":"calendar","key":"activities/activity:gww:279774/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"5105896b61e98cc97cddf489466d9e85a2e777e10f12cf8b14b234fab9dcccff"},
+        {"dataset":"calendar","key":"activities/activity:gww:279824/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"ca88c03053eea9ad6aff2c7df7e03a38d5be2d4e9b2d49d49d398b0b9d1c0fca"},
+        {"dataset":"calendar","key":"activities/activity:gww:279863/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"6ceea1cb820b3f041961221a689f5e9a91ed6a0846ebb3fa4e7c93b8c761a783"},
+        {"dataset":"calendar","key":"activities/activity:gww:279928/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"a610509cbdca6c6a7a0df5dc108ff37b4dce935585d986a7e24d53cd3e144a1f"},
+        {"dataset":"calendar","key":"activities/activity:gww:279970/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"d9210b6c14c9b3e9e00436bc5dd46d7c8c40783cb1a45c5cb740c8ce2458bdbe"},
+        {"dataset":"calendar","key":"activities/activity:gww:279998/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"7723cb66564c065c003bfdbaa3222300209e1fe51e6ba8652abafcecc95617a7"},
+        {"dataset":"calendar","key":"activities/activity:gww:280089/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"c7a85376be4b78c9b62e3addb24adaa5a88382f7f1ad73fdf64000df84006114"},
+        {"dataset":"calendar","key":"activities/activity:gww:280277/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"dc1a89c8946f01dc9d63714e25ea2541d197164db13208335d7e51a7e69ac093"},
+        {"dataset":"calendar","key":"activities/activity:gww:280328/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"b94f65036ad855d8c48c58cab9b5fd47918055720aab80c6c421dea570cd776d"},
+        {"dataset":"calendar","key":"activities/activity:gww:280431/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"33ead0b6eab76ec1d9935f1ce5c9fff3594dd1601403c177c2a24f3e96b7292e"},
+        {"dataset":"calendar","key":"activities/activity:gww:280493/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"cf35c9736f8ab361f65fd9968b4b255c3f6afbd0d037142097b2b456332740f2"},
+        {"dataset":"calendar","key":"activities/activity:gww:280547/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"882dda9203c07959f70c0dc9ca4c06874fafe22dae05f33f89770ef84978d54e"},
+        {"dataset":"calendar","key":"activities/activity:gww:280639/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"9357b832414b39a7b35d301565cd179471046bf696aacc7f4cc52cb4b9da886f"},
+        {"dataset":"calendar","key":"activities/activity:gww:280732/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"0342e6c87456152b083d056219177eb2d916fa692d8bcc1efc18d47f4530ba52"},
+        {"dataset":"calendar","key":"activities/activity:gww:280767/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"1966ea1d1341b0e066efcdadfe613e60710de1e1b71b2dc68b4a069ad0d38d42"},
+        {"dataset":"calendar","key":"activities/activity:gww:280802/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"2259da08da979ed3c68f7b7fcb671521b328b4cc1f8d38e5a2139d2886155a54"},
+        {"dataset":"calendar","key":"activities/activity:gww:280880/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"64fb3d1f1cf9c78093f75dd7bd0a2983425395461b3c5380f7ee2270f2605c33"},
+        {"dataset":"calendar","key":"activities/activity:gww:280955/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"396ffd321b9bb3588d992d8fc49e3e9a3014da09e34fac27f32f432884e3059a"},
+        {"dataset":"calendar","key":"activities/activity:gww:281004/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"494f889d0355238898936a26e70daa1641ee0558e0ffa67884aea2889a66a093"},
+        {"dataset":"calendar","key":"activities/activity:gww:281042/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"876c4f5b843c577caec86a2c29ae4df9259c221ad046daba02f5b11b3ee56d40"},
+        {"dataset":"calendar","key":"activities/activity:gww:281100/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"b9f13dd617e7d80556bf960c044112360d29d1053d270243e4e35c511665ac6e"},
+        {"dataset":"calendar","key":"activities/activity:gww:281139/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"43342fb0c540406f693ec09478b79d20c56ae7b993c4661caa1edcc95191bca6"},
+        {"dataset":"calendar","key":"activities/activity:gww:281283/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"62fa9a8a9fb66d4ab5319a835fc68133abd2cdf60f3bec731598e31f66aa4374"},
+        {"dataset":"calendar","key":"activities/activity:gww:281416/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"63e665e499d8fab5acaa7612717e24269e7903bc879380cc12f0c5b2d155bf72"},
+        {"dataset":"calendar","key":"activities/activity:gww:281481/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"951b286c300dfc731ddb73af4ea61bc02bd0921138d8d2abe047725c24850e5e"},
+        {"dataset":"calendar","key":"activities/activity:gww:281557/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"6a2bc55784862ca1590790533a92c07e459ad860aeaadd4c58bceb493223cffd"},
+        {"dataset":"calendar","key":"activities/activity:gww:281604/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"df67320f52744249549ff19dcfcdf000ba9f7bcea7ac814e7a645d08b9bd6d60"},
+        {"dataset":"calendar","key":"activities/activity:gww:281664/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"6d7fec60ad1f5e020104089df9b918ac30e692b822ec418720619797208c2087"},
+        {"dataset":"calendar","key":"activities/activity:gww:281722/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"db9a5bf6428bd452870a84821ecf11147a0e7713e01c0e456c7ec1c0049686cc"},
+        {"dataset":"calendar","key":"activities/activity:gww:281769/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"602ec42ff7c380148de1bf4634ef62e3607cd61d3ccee3f904899b5fad27ea97"},
+        {"dataset":"calendar","key":"activities/activity:gww:281819/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"0ace33e74e05fcc41116edd85ed0d82261d68e86638301739aac848c67b40178"},
+        {"dataset":"calendar","key":"activities/activity:gww:281859/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"1fe3b88d520c8c7884bea584e656b3e569bd602f3fb207f37b1a4f5a82681b63"},
+        {"dataset":"calendar","key":"activities/activity:gww:281916/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"fe3ec11df223410dcd3134ef7a72ceb87351f9a5cd43b60582121295fcd2e6c0"},
+        {"dataset":"calendar","key":"activities/activity:gww:282018/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"cf92d65a38468faf5984348af14254e526f8f7446b59f0c5b745fd246da93b8f"},
+        {"dataset":"calendar","key":"activities/activity:gww:282082/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"a32ead79a45ca008b62e2f5fea8097cd73e13ee5cb41f77fc42aee15186b1f96"},
+        {"dataset":"calendar","key":"activities/activity:gww:282114/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"39baea521ac9af8395cf4f45caa5e5caea759f41e00891c99a08ef2a9eacfeff"},
+        {"dataset":"calendar","key":"activities/activity:gww:282154/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"8fedadee16da92c9a4197eddfec419474a5e42f6a128ef39ac90844f45c47958"},
+        {"dataset":"calendar","key":"activities/activity:gww:282211/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"3b1397df48a370f7683e6e80c4d6140ce7ac78c9cd4973a56f90161954bc2414"},
+        {"dataset":"calendar","key":"activities/activity:gww:282276/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"d4be3495b23817b94043b4609f828390280e2dd4f57d298edd92826493a19363"},
+        {"dataset":"calendar","key":"activities/activity:gww:282340/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"154954483f956a6ad54d1144795f1173eec6f1cc044f087dee57ae963f8491e8"},
+        {"dataset":"calendar","key":"activities/activity:gww:282419/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"c0a57853c4b8226f2caad9dc2665f994cd2bf44843c4e8d143df16ee095ff6b5"},
+        {"dataset":"calendar","key":"activities/activity:gww:282482/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"aa5b65e9294482ef2eb1bd745e9f5d436058df14470bca7a7916f5ec259b2fdc"},
+        {"dataset":"calendar","key":"activities/activity:gww:282548/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"af733115011097801894aa64cd66c85b8dc093eee59f12872254ba87c2386b81"},
+        {"dataset":"calendar","key":"activities/activity:gww:282604/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"6d43b4d6e1c437e84ec866b1abd6ae591d200847ab2955bf757b31948db5b6c0"},
+        {"dataset":"calendar","key":"activities/activity:gww:282635/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"8d553f24c533bda30985c2d5608438d4101c294e7653ea8bc775404e26a2002f"},
+        {"dataset":"calendar","key":"activities/activity:gww:282697/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"ebd95e91d4b38822c97bf70e8b74351ae951c70454795654f35e0bd5d9257d09"},
+        {"dataset":"calendar","key":"activities/activity:gww:282733/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"14b5bc03d5ea1273a4edd6f1d8f30e5fb4554116fa3d660d7ada26c3207b353d"},
+        {"dataset":"calendar","key":"activities/activity:gww:282796/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"41d3e11f4ea2c067ce6ce8810014d95530a3bcf012dec9a142901e92e7dc7f05"},
+        {"dataset":"calendar","key":"activities/activity:gww:282849/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"fcda50d37c9b67279fc7e5b2174d2e9689b70dbf688dc9501e5f5f2166c83272"},
+        {"dataset":"calendar","key":"activities/activity:gww:282898/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"1a19b73853d9af4d7029549bebe0975107f3b5edd156a8448bba80e969cb09ed"},
+        {"dataset":"calendar","key":"activities/activity:gww:282967/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"0f875c67eb3ae8e6f8f9a7ee86cdff0c119d03fc3fe85d0fd251d2d0606c95df"},
+        {"dataset":"calendar","key":"activities/activity:gww:283084/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"5d7d9309e58a600dee4857e3f69d4c243221be56090653d0b0016468ffe1e7b6"},
+        {"dataset":"calendar","key":"activities/activity:gww:283204/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"b3ccf7b444d080cf9567158f1d18ed60fa21499ab06e3b27b20645f5882ceb00"},
+        {"dataset":"calendar","key":"activities/activity:gww:283343/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"68b757ecab09e7b537c2f495c1229f3bbbe3c4887556b3f4acf9252a08eaab14"},
+        {"dataset":"calendar","key":"activities/activity:gww:283630/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"46777c8dc5fbd5f474a2b33aa462bbcea3d3ea52ab444b6bb4bf8f0f7a7afca4"},
+        {"dataset":"calendar","key":"activities/activity:gww:283758/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"f38fc046a046f072650c3083fae69fc2226931c22e42f3dc94ac61509d3a7284"},
+        {"dataset":"calendar","key":"activities/activity:gww:283883/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"595d92569089ff752761e3ac6e394bed68b9b0ae1c8244e3bc4cd1d93939f702"},
+        {"dataset":"calendar","key":"activities/activity:gww:284010/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"af41d6a1143471db05b141800e453f63ddc0287fdd93794c887a39a543066f00"},
+        {"dataset":"calendar","key":"activities/activity:gww:284113/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"2fa0c408638bec30d3f5f29ab482f68e78ca6b1b8eec81a917af0a23844aa889"},
+        {"dataset":"calendar","key":"activities/activity:gww:284504/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"a73652148834ac037d997b528a5bdb630d0192502f91d59a47d32ca6729b3ec1"},
+        {"dataset":"calendar","key":"activities/activity:gww:284733/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"08d11e91f23fbd9e3545931a975613eeb6f2c45f1eec2a60429d9492eb07eb30"},
+        {"dataset":"calendar","key":"activities/activity:gww:284735/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"c4c82d9b531fa8f5d243004b2402a3e339956d2e928439568f2142eff804f6f0"},
+        {"dataset":"calendar","key":"activities/activity:gww:284884/notes","englishHash":"2dc8f4eb18e84906459bd3447d36af5e7d84ef99bd1b5596f2673b1f2b5fc1c0","evidenceHash":"76dea806a9c3cb2391c21f70f1a195b15399b742a48dd217bf6699c399084ace"}
+      ]
+    },
+    {
+      "source": "[Incomplete source section]\n\nCompletion can be repeated during the same day. A tick here records at least one completion.",
+      "text": "[來源段落尚未完整]\n\n同一天可以重複完成；此處勾選表示當天至少完成過一次。",
+      "reason": "Codex Arena 固定 Walkthrough 僅有 section-stub；保留明確的來源未完成警示，將原始碼部分修正為來源段落，並核對同日可重複與至少一次的記錄語意。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:227517/notes","englishHash":"6096e147ad6e8f46e3874ee32215e7dbab5cc0a1ddf337760901e11f80fb4ae9","evidenceHash":"165d6a7ee207e6c595af5025beaa544b8489852e17e2c5df7fc47b72a9994660"}
+      ]
+    },
+    {
+      "source": "\n\nCompletion can be repeated during the same day. A tick here records at least one completion.",
+      "text": "同一天可以重複完成；此處勾選表示當天至少完成過一次。",
+      "reason": "Guild Versus Guild 固定頁沒有詳細攻略，候選只保留應用程式的當日記錄說明；維持可重複完成及至少一次的含義，不憑空加上 section-stub 警示。",
+      "bindings": [
+        {"dataset":"calendar","key":"activities/activity:gww:199265/notes","englishHash":"a710a66571008226f0cfdbddd451c3352b3e93d71bd882775c3b4b8be585beeb","evidenceHash":"e3a08ae71a97c748805de0bf8bc05c096437c622cf4b0034d5ac944c5ad82e45"}
+      ]
+    }
+  ]
+}

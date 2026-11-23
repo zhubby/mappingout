@@ -35,6 +35,9 @@ calendar-pass-7-b.json: 第七轮后半日历攻略，核对轮换记录、异�
 quest-pass-7-a.json: 第七轮前半任务长文，核对路线、否定条件与触发时序。
 quest-pass-7-b.json: 第七轮后半任务长文，核对敌群、病症与失败条件。
 skill-pass-7.json: 第七轮技能长备注，核对叠加、技能栏复制与来源机制歧义。
+calendar-pass-8.json: 第八轮日历攻略参照、任务专名与轮换记录语义校对。
+skill-pass-8-a.json: 第八轮前半技能备注，核对治疗时序、触发门槛与队伍对象。
+skill-pass-8-b.json: 第八轮后半技能备注，核对攻击命中、叠加、减伤与冷却条件。
 coverage.json: 全量文本校对覆盖、未审范围与风险分类。
 
 条目记录 source、text、reason 与 bindings。

@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "locale": "zh-TW",
+  "status": "agent-reviewed-not-in-game-verified",
+  "entries": [
+    {
+      "source": "* Where Verata's Sacrifice works on your own minions, Blood of the Master heals all allied minions, including those in separate parties. Be careful when using this skill if there is another minion master around.\n* A minion master spamming this skill can often keep their minions alive for periods far exceeding their usual life span; however, such a player can be a large drain on their party's healer.\n* If your party has multiple minion masters, heroes will kill themselves with this skill if not having access to strong self-healing. To counteract this, consider bringing Taste of Death on that hero, since this makes them much less likely to die. \n* It is even possible to kill yourself at full health by using this skill; with at least 48 minions, you will sacrifice 101% health.\nThe concise description is wrong regarding only healing your own minions.",
+      "text": "* 芙瑞達的犧牲只作用於自己的僕從；主人之血則會治療所有友方僕從，包括其他隊伍的僕從。附近有其他僕從大師時，使用此技能須小心。\n* 僕從大師反覆施放此技能，常能讓僕從遠超過一般存活時間；但也可能讓隊伍的治療者承受很大的治療負擔。\n* 隊伍有多名僕從大師時，若英雄缺乏強力自我治療，可能因使用此技能而死亡。可讓該英雄攜帶死亡滋味，大幅降低死亡風險。\n* 即使體力全滿，也可能因使用此技能而死亡：至少有 48 個僕從時，就會犧牲 101% 體力。\n簡短說明有誤，此技能不只治療自己的僕從。",
+      "reason": "修正 separate parties 為其他隊伍而非單人隊伍；死亡滋味是讓英雄攜帶而非對英雄施放，保留全友方僕從及 48 個、101% 自傷門檻。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:7946/variants/skill-version:gww:7946/notes/0",
+          "englishHash": "4d283a60c7a6f0060aafaee38f8b88354df21fe856d67f74c92d629278dcb9a4",
+          "evidenceHash": "b26808f0a21007c918f6a6d8328d7071cebf840343920b020cc5a33257aad97f"
+        }
+      ]
+    },
+    {
+      "source": "*Synergizes well with attack skills that can cause multiple attacks with a sword (Sun and Moon Slash and Twin Moon Sweep) and with hex spells that deal damage whenever the hexed foe takes physical damage (Barbs and Mark of Pain).\n**When Whirlwind Attack is used, this skill will trigger for each adjacent foe attacked.\n*Because this triggers on attack, you don't actually have to hit for the damage to occur.\n*The damage from Hundred Blades is inflicted before the damage from your sword. This is relevant for skills such as Reversal of Fortune or Empathy.\n*Because this damages all \"adjacent foes\", kiting opponents will avoid damage if they have moved away by the time the attack connects.\n*If you are using an emote when using this skill, no animation will show until you stop doing the emote. The animation will stack with several Hundred Blades.",
+      "text": "* 適合搭配能用劍發動多次攻擊的技能（日月斬與雙月掃蕩），以及荊棘、痛苦印記等在帶有降咒的敵人受到物理傷害時觸發傷害的降咒。\n** 使用 Whirlwind Attack 時，每名被攻擊的緊鄰敵人都會各觸發一次此技能。\n* 此技能在發動攻擊時觸發，因此即使沒有命中，也會造成傷害。\n* 快速劍的傷害先於劍本身的傷害結算，會影響幸運逆轉或自虐等技能。\n* 此技能傷害所有「緊鄰敵人」，因此走位拉開距離的對手，若在攻擊結算時已離開範圍，就能避開傷害。\n* 做表情動作時使用此技能，動畫會等到表情動作停止後才顯示。多次快速劍的動畫會疊加。",
+      "reason": "逐項核對 PvP 備註的發動攻擊觸發、逐敵觸發與先於劍傷結算；將 kite 與 emote 校正為走位及表情動作，保留本版技能列舉。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:3282/variants/skill-version:gww:321777/notes/0",
+          "englishHash": "2ce3033f0139bd396815723ad23179376f76c82d2208ea58aec33a893316c9a3",
+          "evidenceHash": "4bb013af3fe242868f5cea4d4b5313690653112b3c6b219af854aa05e0c1d11d"
+        }
+      ]
+    },
+    {
+      "source": "* Good adrenaline management is essential to quickly refill the adrenaline pool of this skill to make up for its short duration. \n** \"For Great Justice!\" works well in that regard, as it is also a warrior skill and does not require any investment. \n* After reaching the first allegiance rank, Kurzick/Luxon Supporter, level 20 characters may learn this skill from a Kurzick Bureaucrat or Luxon Scavenger for 3,000 faction.\n* The skill icon for the Kurzick version is on top, and the icon for the Luxon version is on the bottom.\n* +100 armor reduces non-armor-ignoring damage by 82.3%.\n* An Imbagon is a paragon build that maintains both \"Save Yourselves!\" and \"There's Nothing to Fear!\" for up to 88.5% total damage reduction on other party members.\nThe skill descriptions omit that only party members within earshot are affected.",
+      "text": "* 此技能持續時間短，須有效累積怒氣，才能快速補滿其怒氣需求。\n** 「為了正義！」同樣是戰士技能，且不需投入屬性點，適合用來支援怒氣獲取。\n* 角色達到 20 級，且效忠等級達到第一級「庫茲柯／勒克森支持者」後，可向庫茲柯理事或勒克森拾荒者花費 3,000 陣營值學習此技能。\n* 庫茲柯版本的技能圖示在上，勒克森版本在下。\n* +100 護甲可使非無視護甲傷害降低 82.3%。\n* Imbagon 是同時維持「Save Yourselves!」與「There's Nothing to Fear!」的聖言者配置，能讓其他隊伍成員獲得最高 88.5% 的總減傷。\n技能說明未提及，只有音量所及範圍內的隊伍成員會受到影響。",
+      "reason": "將 adrenaline 與 earshot 校正為怒氣、音量所及範圍；保留 +100 護甲、82.3% 與 88.5% 減傷，並區分聖言者配置及其他隊伍成員。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:41143/variants/skill-version:gww:41143/notes/0",
+          "englishHash": "677d59acd9d79ce2c500895eb3f444578eb8040329b59042c9d17c6128325d53",
+          "evidenceHash": "536777c157929ecda50575040b1c8ca204455bee1330e4cc2a3a8ea5e489b2f6"
+        }
+      ]
+    },
+    {
+      "source": "* Greater Conflagration or Stone Striker can be used to eliminate the downside of this skill.\n* Heroes do not maintain this stance and rarely use it, so it may require micromanagement. This differs from the otherwise similar stances Mantra of Flame, Mantra of Frost, Mantra of Earth, and Mantra of Lightning, which are all maintained permanently by heroes and hence easier to use against elemental damage.\nSimilar to Cracked Armor, this skill will not lower your armor rating below 60 or your \"core\" armor rating, if your \"core\" armor rating is lower than 60.\nIf you use a skill or combination of skills and effects that, after subtraction of the penalty from Elemental Resistance, still grants +26 or more armor rating against physical damage, Elemental Resistance's armor penalty does not function. See also armor calculation.",
+      "text": "* Greater Conflagration 或石之打擊可消除此技能的負面效果。\n* 英雄不會持續維持此態勢，也很少使用，因此可能需要手動操作。火焰頌歌、冰霜頌歌、大地頌歌及閃電頌歌雖然類似，英雄卻會持續維持，因而更容易用來對抗元素傷害。\n與 Cracked Armor 相同，此技能不會使護甲值低於 60；若你的「核心」護甲值原本低於 60，則不會使護甲低於該核心值。\n若使用某技能或多項技能與效果後，即使扣除此技能的懲罰，仍能對物理傷害提供至少 +26 護甲，此技能的護甲懲罰就不會生效。詳見護甲計算。",
+      "reason": "區分英雄不維持與其他頌歌常駐的行為；明確 60 或較低核心護甲的下限，以及扣除懲罰後仍至少 +26 物理護甲時懲罰失效的條件。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1641/variants/skill-version:gww:1641/notes/0",
+          "englishHash": "cbf9299b2dedc28c2ab234690d066c246dca189867ec5b77470a96b1be3cffa0",
+          "evidenceHash": "2137354b4ee19631734e4ce4f06067d1e53b781a8d2cb1dde168d41e3efcee24"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Displacement.\n* Often used with Shelter and Union to provide superior damage reduction.\n* Since this spirit will usually die very quickly, it is best to use this skill before the fight starts so that when it actually does begin, this skill will be ready to use again.\n* Armor of Unfeeling can be used to reduce the damage taken by this spirit due to its effect.\n* Miss effects can reduce the damage taken by this spirit, since they are resolved before this spirit's block chance.\nThere is a delay of 2-3 seconds from the spirit's creation to its effect being applied, unlike other skills.\nThe spirit will take damage even for attacks blocked by another blocking source. \nThe duration bar beneath the effects monitor skill icon does not shrink over time like other effects with durations.",
+      "text": "* 此技能會創造一個 Spirit of Displacement。\n* 常與庇護及聯合搭配，提供更強的減傷保護。\n* 此精靈通常很快死亡，因此最好在開戰前先施放，讓戰鬥真正開始時，此技能已能再次使用。\n* 無情護甲可減少精靈因自身效果受到的傷害。\n* 使攻擊未命中的效果，會先於此精靈的格擋機率結算，因此可減少精靈承受的傷害。\n與其他技能不同，精靈創造後須經過 2 至 3 秒，效果才會生效。\n即使攻擊由其他格擋來源擋下，此精靈仍會受到傷害。\n效果列技能圖示下方的持續時間條，不會像其他有時限的效果那樣隨時間縮短。",
+      "reason": "將 spirit 統一為精靈；保留未命中先於格擋結算、其他來源格擋仍傷害精靈，以及創造後 2–3 秒才生效與時間條異常。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6357/variants/skill-version:gww:6357/notes/0",
+          "englishHash": "01f76108be127a718f536a2355018aff2bb45a1c6e74b8c6ab9564a447119a49",
+          "evidenceHash": "95e54af99af5f7998c48f6aa67c0df4083577b95ba8713fa211de607d9093a89"
+        }
+      ]
+    },
+    {
+      "source": "* Damage inflicted by this skill is considered holy damage.\n* If the target takes more damage than the stated maximum, then the damage taken will be reduced by that maximum and the attacker will receive the same amount. For example, at 14 Smiting Prayers, a target with Reversal of Damage on them being struck by a Lightning Orb that would deal 100 damage would take 30 damage and the attacker would take 70.\n* The damage for this reversal is calculated before other damage reduction. So, a 55 Monk using Protective Spirit and Reversal of Damage can deal more than five damage, with the remaining (above the stated maximum for this skill) damage being reduced by Protective Spirit.\n* This skill will still prevent damage even if there is no foe to redirect damage to, for example when struck by environmental damage.",
+      "text": "* 此技能造成的傷害屬於神聖傷害。\n* 若目標原本會受到的傷害超過說明上限，就只減去該上限數值，並讓攻擊者受到相同數值的傷害。例如懲戒祈禱等級 14 時，目標帶有傷害反轉，遭到原本會造成 100 點傷害的閃電球命中，目標仍受 30 點傷害，攻擊者則受 70 點。\n* 反轉傷害會先於其他減傷計算。因此，55 僧侶同時使用精神守護與傷害反轉，仍能反轉超過 5 點傷害；超過此技能上限的剩餘傷害，再由精神守護減免。\n* 即使沒有敵人可承受反轉傷害，此技能仍能阻止傷害，例如受到環境傷害時。",
+      "reason": "釐清傷害超過反轉上限時只轉移上限數值，保留懲戒 14 的 100→30/70 例子；明確先反轉再減傷及沒有傷害承受敵人仍可防傷。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13039/variants/skill-version:gww:13039/notes/0",
+          "englishHash": "ba35a6919fc2acb49751b2aef47ce1c84cb99e55d3a0c57986b029ca7a3a4abb",
+          "evidenceHash": "c35f6d2ce266f607331854e1c916034af9a94875fa747e80fd8251fb4b2385a7"
+        }
+      ]
+    },
+    {
+      "source": "* Be careful using this skill on heroes. If they accumulate death penalty, or if for other reasons their maximum health drops below the health loss for this skill, they will use it regardless, killing themselves in the process. It may be wise to disable this on your heroes should they acquire death penalty.\n* Has no duration (this is one of the few skills that last indefinitely without an upkeep).\n* You do not lose health again if you recast this enchantment before the initial casting expires.\n* A damage packet must reduce you to less than 25% maximum health without killing you for the enchantment to trigger.\n* If you cast this skill as soon as you are resurrected you will not lose health due to temporary invulnerability.\nDespite the skill descriptions, this skill heals rather than provide health gain.",
+      "text": "* 讓英雄使用此技能須小心。若累積死亡懲罰，或因其他原因使最大體力低於此技能的體力損失，英雄仍會施放，因而死亡。英雄出現死亡懲罰時，可考慮停用此技能的自動使用。\n* 此技能沒有持續時間限制，是少數無須維持耗能、可永久存在的技能之一。\n* 原加持結束前重新施放，不會再次損失體力。\n* 必須由一次傷害將你的體力降至低於最大體力的 25%，且沒有殺死你，才會觸發此加持。\n* 復活後立即施放時，可利用短暫無敵而不損失體力。\n與技能說明不同，此技能實際提供治療，而非體力獲得效果。",
+      "reason": "修正死亡懲罰及英雄施放自致死亡的條件；保留重施不再扣體力、單次傷害須低於 25% 且存活，並區分治療與體力獲得。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1584/variants/skill-version:gww:1584/notes/0",
+          "englishHash": "2b8ec9f0f69d459209aa9fd4687cce6efda6404956b7f04da7f3396573cfa852",
+          "evidenceHash": "cb5d70585cbbb0f67aa6029d6a4b0bb5f8fee564a5ed4e4dfd62f209964bb6b9"
+        }
+      ]
+    },
+    {
+      "source": "* This skill can not steal monster-only enchantments (e.g. Demonic Agility); however, you still gain energy and Inspired Enchantment recharges instantly.\n* It is possible to steal enchantments you need to maintain, such as Holy Veil. They will remain active with upkeep cost when Inspired Enchantment ends.\n* Heroes will use the copied skill as they normally would do.\n** Maintained enchantments that heroes would dismiss can be disabled to be maintained for the duration of the copy effect. When the copy effect ends the enchantment will be dropped as soon as the AI dictates it to (i.e. the hero is not in a situation where it would normally maintain the enchantment). Out of combat, Blessed Aura, Divine Boon and Unyielding Aura are the only maintained enchantments that the AI won't immediately dismiss.",
+      "text": "* 此技能不能偷取怪物專用加持，例如 Demonic Agility；但仍會獲得能量，Inspired Enchantment 也會立即冷卻完畢。\n* 可偷取神聖遮罩等維持型加持。Inspired Enchantment 效果結束後，加持仍會持續，並繼續消耗維持費用。\n* 英雄會依一般使用規則操作複製的技能。\n** 若英雄原本會解除某維持型加持，可停用其技能欄中該技能的自動使用，使加持在複製期間持續維持。複製結束後，只要不符合 AI 平常維持該加持的情境，就會立即解除。非戰鬥時，AI 唯一不會立即解除的維持型加持，是祝福靈氣、神之恩賜與堅毅靈氣。",
+      "reason": "釐清怪物專用加持無法偷取但仍回能量並立即冷卻；將停用對象明確為英雄技能自動使用，保留複製後持續耗能及 AI 非戰鬥三項例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1647/variants/skill-version:gww:1647/notes/0",
+          "englishHash": "405debb3fc3092e8d370f5cf5f3bfafc0557d548c9fef999d9959527c6980b01",
+          "evidenceHash": "b167570dd36e3cda04bb5ca494b25fca0395a7f56e3fd22d8f0a1dead7705a60"
+        }
+      ]
+    },
+    {
+      "source": "* Synergizes well with attack skills that can cause multiple attacks with a scythe (Eremite's Attack, Twin Moon Sweep, and Whirlwind Attack) and with hex spells that deal damage whenever the hexed foe takes physical damage (Barbs and Mark of Pain).\n** When Eremite's Attack or Whirlwind Attack is used, this skill will trigger for each adjacent foe hit.\n* Because this triggers on attack, you don't actually have to hit for the damage to occur.\n* The damage from Vow of Strength is inflicted before the damage from your scythe. This is relevant for skills such as Reversal of Fortune or Empathy.\n* Because this damages all foes adjacent to the user, kiting opponents will avoid damage if they have moved away by the time the attack connects.\n* Extend Enchantments can be used to maintain this enchantment.",
+      "text": "* 適合搭配能用鐮刀發動多次攻擊的技能（隱士攻擊、雙月掃蕩與 Whirlwind Attack），以及荊棘、痛苦印記等在帶有降咒的敵人受到物理傷害時觸發傷害的降咒。\n** 使用隱士攻擊或 Whirlwind Attack 時，每命中一名緊鄰敵人都會各觸發一次此技能。\n* 此技能在發動攻擊時觸發，因此即使沒有命中，也會造成傷害。\n* 力量誓約的傷害先於鐮刀本身的傷害結算，會影響幸運逆轉或自虐等技能。\n* 此技能傷害使用者緊鄰的所有敵人，因此走位拉開距離的對手，若在攻擊結算時已離開範圍，就能避開傷害。\n* 可用加持延展來持續維持此加持。",
+      "reason": "區分一般發動攻擊觸發與多目標技能逐命中觸發；保留傷害先於鐮刀、範圍以使用者為中心與延長加持的用途，修正風箏機譯。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4539/variants/skill-version:gww:4539/notes/0",
+          "englishHash": "3eb175fc6fef47a2404d4754f26e50bc7c3224ab559b64e36a42abb7538b02b3",
+          "evidenceHash": "dd013b847bcedaee96e73c88fc17593d084f1edf6f8cc6b8e405a795fef24e6b"
+        }
+      ]
+    },
+    {
+      "source": "* When the Shambling Horror dies, the spawned Jagged Horror will trigger Explosive Growth, Boon of Creation, and Spirit's Gift.\n* Shambling Horrors are good targets for Taste of Death and Feast for the Dead, since it leaves a Jagged Horror when it dies.\n* When combined with Jagged Bones, two Jagged Horrors are produced.\n* The level of the Jagged Horror is determined by the Death Magic rank of the caster when the Shambling Horror was created.\n* Masterless Shambling Horrors do not spawn a Jagged Horror when they die.\n* This skill has a much longer recharge when compared to most animation skills, and thus cannot be relied upon alone to create a full army of minions.\n* The bleeding lasts for 25 seconds.\nThe descriptions do not mention the duration of the bleeding inflicted by the Jagged Horror.",
+      "text": "* Shambling Horror 死亡後產生的 Jagged Horror，會觸發爆發增長、創物者恩賜與生靈天賦。\n* Shambling Horror 適合作為死亡滋味或死亡盛宴的目標，因為死亡後仍會留下 Jagged Horror。\n* 搭配鋸齒骸骨，可產生兩個 Jagged Horror。\n* Jagged Horror 的等級，依最初創造 Shambling Horror 時施法者的死亡魔法等級決定。\n* 無主的 Shambling Horror 死亡時，不會產生 Jagged Horror。\n* 與多數操縱僕從的技能相比，此技能冷卻時間長得多，因此不能單靠它建立完整的僕從軍團。\n* 流血持續 25 秒。\n技能說明未提及 Jagged Horror 造成的流血持續時間。",
+      "reason": "修正兩種為兩個僕從、animation 為操縱僕從；保留創造原僕從時的屬性取值、無主不再生，以及 25 秒流血未見於說明。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:14053/variants/skill-version:gww:14053/notes/0",
+          "englishHash": "6fcedc9c8f5011f389c07c67e9743812e0f03e5c9d2954a988f5ccffb89c5f10",
+          "evidenceHash": "d6cfe09dc5a25c539aa7e1f8cc742482a0168ac31abad3646e6fa56238b2a6c4"
+        }
+      ]
+    },
+    {
+      "source": "* The count is refreshed when recast.\n* Contrary to the description, Spirit Bond will heal whenever an ally would take a damage packet above 50, even if it is reduced to 50 or below by other means, such as Protective Spirit or Shield of Absorption.\n** Spirit Bond and Protective Spirit make the basis for the \"600\" monk in the 600/smite team used for farming.\n* This skill can be used to mitigate the downside of skills that cause double damage (such as Frenzied Defense) or armor reduction on their user. \n* Spirit Bond will trigger its healing before the damage is registered.\nContrary to the descriptions, Spirit Bond will only end prematurely if it triggers ten times.\nDespite causing healing, triggering the healing from the skill does not cause Scourge Healing or Soul Bind to inflict damage.",
+      "text": "* 重新施放會重設觸發次數。\n* 與說明不同，只要盟友原本會受到一次超過 50 點的傷害，精神連結就會治療該盟友；即使傷害被精神守護或吸收盾等效果降至 50 以下或正好 50，也會觸發。\n** 精神連結與精神守護，是用於刷取的 600／懲戒雙人配置中「600」僧侶的基礎。\n* 此技能可減輕狂暴防禦等使使用者承受雙倍傷害，或降低護甲的技能之負面效果。\n* 精神連結的治療會先於傷害結算。\n與說明不同，精神連結只有在觸發十次後才會提前結束。\n雖然提供治療，但觸發此技能的治療，不會使災禍治癒或靈魂束縛造成傷害。",
+      "reason": "明確受治療者是盟友而非技能，保留以減傷前超過 50 判定、治療先結算及重施重計次數；保留治療懲罰降咒不觸發的例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:13696/variants/skill-version:gww:13696/notes/0",
+          "englishHash": "7b3ba53acf3936b5c95ac547c05d5b0b4e157b0598c8c49f23b53d5dbcd55ce1",
+          "evidenceHash": "9466edd5a4d36b2ddd2e8b6751123831d362497c502f2f217bccc21ba5f99c29"
+        }
+      ]
+    },
+    {
+      "source": "* This skill can not \"steal\" monster-only enchantments (e.g. Demonic Agility); however, the energy gain does happen and Revealed Enchantment recharges instantly.\n* It is possible to steal enchantments you need to maintain, such as Mending. They will remain active when Revealed Enchantment ends.\n* Heroes will use the copied skill as they normally would do.\n** Maintained enchantments that heroes would dismiss can be disabled to be maintained for the duration of the copy effect. When the copy effect ends the enchantment will be dropped as soon as the AI dictates it to (i.e. the hero is not in a situation where it would normally maintain the enchantment). Out of combat, Blessed Aura, Divine Boon and Unyielding Aura are the only maintained enchantments that the AI won't immediately dismiss.",
+      "text": "* 此技能不能「偷取」怪物專用加持，例如 Demonic Agility；但仍會獲得能量，Revealed Enchantment 也會立即冷卻完畢。\n* 可偷取癒合等維持型加持。Revealed Enchantment 效果結束後，加持仍會持續。\n* 英雄會依一般使用規則操作複製的技能。\n** 若英雄原本會解除某維持型加持，可停用其技能欄中該技能的自動使用，使加持在複製期間持續維持。複製結束後，只要不符合 AI 平常維持該加持的情境，就會立即解除。非戰鬥時，AI 唯一不會立即解除的維持型加持，是祝福靈氣、神之恩賜與堅毅靈氣。",
+      "reason": "依本頁獨立核對怪物加持不可偷取但回能量照常；釐清英雄技能停用與維持加持解除的差別，保留癒合例子與非戰鬥 AI 三項例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1669/variants/skill-version:gww:1669/notes/0",
+          "englishHash": "f79a6d20de1bc08c8a0c206ccabbfe6d12edcd512d66bc587e526d75b4d96273",
+          "evidenceHash": "1b5ab92f150289768eda944751e07fc95a4bce6e16382af735cb80839394e274"
+        }
+      ]
+    },
+    {
+      "source": "*This skill creates a Spirit of Frozen Soil.\n*This spirit prevents creatures in its range from using resurrection skills, not resurrection itself.\n**A creature outside the range of the spirit can resurrect a character inside its range, while a character inside its range cannot resurrect a character outside its range.\n**Unyielding Aura, Lively Was Naomei and Restoration will still resurrect when removed, dropped or destroyed respectively, but none of these can be cast while in range of this spirit.\n**A Scroll of Resurrection will still work, as it is not a skill.\n*Does not affect skills that resurrect pets.\n*Can be combined with Gaze of Fury or Rupture Soul to kill the spirit on command, expediting party resurrection.\nEternal Aura can be cast while under the effects of Frozen Soil.",
+      "text": "* 此技能會創造一個 Spirit of Frozen Soil。\n* 此精靈阻止範圍內的生物使用復活技能，而非阻止復活本身。\n** 範圍外的生物可復活範圍內的角色；範圍內的角色則無法復活範圍外的角色。\n** 堅毅靈氣被移除、復活者娜歐梅的物品被放下，以及復甦精靈被摧毀時，仍能復活；但這三個技能都不能在凍土範圍內施放。\n** 復活卷軸不是技能，因此仍然有效。\n* 此技能不影響復活寵物的技能。\n* 可搭配狂暴凝視或生靈迸裂，在需要時殺死此精靈，讓隊伍盡快開始復活。\nEternal Aura 仍可在凍土效果下施放。",
+      "reason": "區分施放復活技能與間接復活，逐項保留範圍內外的施法者關係、三種結束觸發、卷軸和寵物例外，以及 Eternal Aura 可施放。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6573/variants/skill-version:gww:6573/notes/0",
+          "englishHash": "901746b44f59cff6013a998921722c4eee61f2ccb7cd882776b4cc38f9404aa8",
+          "evidenceHash": "dc951a1b9a4c47f921001abfc016fb5436bef74a97ba14762d192f6e621cefa8"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Greater Conflagration.\n* Synergizes with skills/items that are contingent on fire damage: Mark of Rodgort, Conjure Flame, Pyrebound Insignia, Mantra of Flame, and others.\n** It is especially useful to counter certain enemy skills, e.g. Glint's Jagged Crystal Skin is rendered useless in The Dragon's Lair. \n** Combine with Winter to take advantage of cold-based contingencies, e.g. Mantra of Frost.\n\nUnlike Winter this skill requires the attacker to be inside the spirit area of effect.\n\nDoes not properly convert the physical damage of certain skills (notably: Ebon Vanguard Sniper Support and Veil of Thorns). As a result, the skill chain will not trigger the conditional effects of other skills that depend on fire damage (in particular, for Intensity).",
+      "text": "* 此技能會創造一個 Spirit of Greater Conflagration。\n* 可搭配依賴火焰傷害的技能或物品，例如洛葛特的印記、召喚火焰、Pyrebound Insignia、火焰頌歌等。\n** 也特別適合反制某些敵方技能，例如使龍穴中葛林特先知的鋸齒水晶外皮失去作用。\n** 搭配寒冬，可進一步利用冰霜頌歌等依賴寒冷傷害的效果。\n\n與寒冬不同，此技能必須由攻擊者位於精靈效果範圍內才會作用。\n\n某些技能的物理傷害不會被正確轉換，尤其是 Ebon Vanguard Sniper Support 與荊棘遮罩。因此，這些技能的連段無法觸發依賴火焰傷害的其他效果，特別是 Intensity。",
+      "reason": "修正寒冷相關 contingencies 為傷害觸發條件；保留攻擊者在範圍內才轉換，以及狙擊支援、荊棘遮罩無法正確轉換而不觸發 Intensity 的例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4087/variants/skill-version:gww:4087/notes/0",
+          "englishHash": "c3cd9f34482e2b6d6d0857c127e11b246da03d7a22ad5bf3530143f2835234be",
+          "evidenceHash": "b0a53b96c5b972a061e1d1441711b0e0c4071087bec9be609b9524c7ae519852"
+        }
+      ]
+    },
+    {
+      "source": "* This skill will remove existing Disease when applied, although this is not stated in its description. This is similar to other skills that provide immunity to a condition, except for Frigid Armor.\n* Heroes will maintain this on themselves in combat, but will not recast it to enchant other allies.\nAlthough this is a PBAoE skill with an effect centered around the caster, it still needs an allied target and you will run towards that target if not in cast range. Similar to Hex Eater Signet, the target won't be affected if it is not in range.\nBecause it is a targeted enchantment spell, it will always trigger Shame and Mark of Subversion. If standing in a Well of the Profane, you will be able to cast this enchantment if you pick any ally in cast range that is not inside the well.",
+      "text": "* 施加此技能時，會移除既有的疾病，雖然說明未提及。這與其他提供病症免疫的技能相同，冰凍護甲則是例外。\n* 英雄會在戰鬥中對自己維持此加持，但不會為了加持其他盟友而重新施放。\n雖然此技能的近身範圍效果以施法者為中心，仍須指定盟友目標；若不在施法距離內，你會跑向該目標。與噬咒紋章相同，目標若不在效果範圍內，就不會受到影響。\n因為這是指定目標的加持法術，所以會觸發羞愧與破壞印記。即使自己站在褻瀆之池內，只要選擇施法距離內、位於池外的盟友，仍可施放此加持。",
+      "reason": "修正 enchant 為加持而非迷惑；分開指定目標的施法距離與以施法者為中心的作用範圍，保留疾病移除、冰凍護甲例外及池內對池外施法。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4058/variants/skill-version:gww:4058/notes/0",
+          "englishHash": "8e76bb0bc63398447aee4a87de8e5dd31a60e286d2b8be38ce1f642fc418eb42",
+          "evidenceHash": "bb082b8e715a37743de1d11fd24b1e69cff4e0c326c1c445f9a19e825aa6492b"
+        }
+      ]
+    },
+    {
+      "source": "* This skill may seem to last indefinitely, but actually has a duration of 7 hours and 30 minutes, making it the longest finite duration for an effect in the game.\n** This skill can be activated well before triggering its effect, allowing for it to recharge before battle.\n** Since this is a shout, this can be used to trigger Soldier's Speed's additional effect for running purposes, or Signet of Aggression for building adrenaline before the fight. \n*Missed or blocked attacks don't count toward the number of attacks.\n*\"Attacks\" by this skill are considered to be hits, thus if you hit three enemies with a scythe, that counts as three attacks toward this shout.\nUnlike most shouts, \"I Am the Strongest!\" ends if it's reapplied before it expires, triggering the effects of echoes.",
+      "text": "* 此技能看似永久存在，實際持續 7 小時 30 分鐘，是遊戲中具有時限的效果裡最長的一種。\n** 可在效果真正觸發前很早就先發動，使技能在開戰前冷卻完畢。\n** 此技能屬於戰嚎，可觸發 Soldier's Speed 的附加效果來跑圖，或搭配侵略紋章在開戰前累積怒氣。\n* 未命中或被格擋的攻擊，不會計入攻擊次數。\n* 此技能所稱的「攻擊」實際按命中次數計算，因此鐮刀同時命中三名敵人，就會消耗三次戰嚎的攻擊次數。\n與多數戰嚎不同，在「I Am the Strongest!」結束前再次施加，會使原效果結束，因此能觸發迴響的效果。",
+      "reason": "保留 7 小時 30 分鐘上限與開戰前準備，將怒氣及戰嚎術語統一；區分命中計次、鐮刀三目標及重施先結束引發 echoes 的機制。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:58317/variants/skill-version:gww:58317/notes/0",
+          "englishHash": "464960f030770a0ca66aeb91c2c3c1ca3ddb79e90d8f0acefa7e8fcebcc3ab69",
+          "evidenceHash": "aa957c80a478ab1a33035da938ead1891cae7a6be990a903f751606ffdcf6cf7"
+        }
+      ]
+    },
+    {
+      "source": "* This skill will shadow step your pet to a target ally (or even to yourself); this also activates the skill's effect, allowing you to prep before engaging the enemy.\n** Your animal companion must be alive to use this skill.\n** You must be within casting range of your target, although your pet can be farther away.\n\nTargeting yourself or an ally will sometimes cause your pet to stop moving. It will unfreeze when an opponent enters your aggro bubble or attacks it. This is exploited to perform the portal jumping technique known as a SaO chain.\nStrike as One's description omits the fact that it has a limited duration of 30 seconds.\nThe French description of the skill mention an \"enemy target\" for the shadow step despite the fact that the skill can target either foe or friend",
+      "text": "* 此技能可讓寵物以暗影步移到指定盟友，甚至你自己身邊；同時也會啟動技能效果，讓你在交戰前先做好準備。\n** 動物夥伴必須仍存活，才能使用此技能。\n** 你與目標之間必須在施法距離內，但寵物可以離得更遠。\n\n指定自己或盟友時，寵物有時會停止移動，直到敵人進入你的引敵範圍或攻擊寵物，才恢復移動。可利用此現象進行稱為 SaO chain 的傳送門跳躍技巧。\nStrike as One 的說明未提及，其效果只有 30 秒的時限。\n法文說明將暗影步的目標寫成「敵人」，但實際上可指定敵人或友方。",
+      "reason": "校正施法距離以玩家與目標為準、寵物可更遠；保留盟友目標也觸發效果、寵物停止移動條件、30 秒時限及法文指定敵人錯誤。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4267/variants/skill-version:gww:4267/notes/0",
+          "englishHash": "a4ff1bee7788f588e609983c100b69fa855d3793b0a6d62bd57f38140745088d",
+          "evidenceHash": "6109f8162d1e048f65f1b217340e171d8b85424878158dd1674c456efa64f98d"
+        }
+      ]
+    },
+    {
+      "source": "* Serpent's Quickness can be maintained indefinitely while the user is enchanted with Dwarven Stability: with a Deldrimor rank of 2, the user needs a Wilderness Survival rank of 12; if the Deldrimor rank is 5 or higher, only rank 8 Wilderness Survival is required.\n* Serpent's Quickness will not reduce its own recharge, since stances end before being reapplied.\n* Serpent's Quickness will not end unless direct damage is dealt to the player while under 50% health. As such, it will not end early due to health sacrifice or degeneration.\n* Serpent's Quickness has a reduced effect on skills with short recharge times due to rounding. For example, Quick Shot's recharge time would be unaffected (i.e. a 33% reduction would be 0.67 seconds, which rounds back up to 1 second).",
+      "text": "* 身上有 Dwarven Stability 加持時，可持續維持蛇之敏捷：戴爾狄摩等級為 2 時，需要求生等級 12；戴爾狄摩等級至少 5 時，只需要求生等級 8。\n* 蛇之敏捷不會縮短自己的冷卻，因為態勢會先結束，再重新施加。\n* 只有玩家體力低於 50% 時再受到直接傷害，才會使蛇之敏捷提前結束；體力犧牲或衰減不會使它提前結束。\n* 因取整規則，對冷卻很短的技能，減少冷卻的效果會較弱。例如風速之箭的冷卻不受影響：減少 33% 後為 0.67 秒，取整後仍是 1 秒。",
+      "reason": "修正兩組聲望與求生門檻的對應；明確體力低於 50% 還須受到直接傷害才結束，保留不縮短自身冷卻及 0.67→1 秒取整。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6590/variants/skill-version:gww:6590/notes/0",
+          "englishHash": "0602fa6a1094d7710085ee3b71c0f1b5725c393b47e10563a32613ff5eb010e0",
+          "evidenceHash": "08e2e6214e7dbc816d0f8c57c15c22c1838c711322c65a5de478b7af36ae0b79"
+        }
+      ]
+    },
+    {
+      "source": "* This skill creates a Spirit of Shelter at the user's location and removes any previous allied Spirit of Shelter.\n* Often used with Displacement and Union to provide superior damage reduction.\n** Shelter and Union's effects are applied in the order they're created. For maximum damage reduction, always cast Shelter before Union.\n* If Protective Spirit is applied on a target before Shelter is cast, the spirit does not lose health when the target would have taken high damage.\nArmor of Unfeeling will reduce the health loss of this spirit caused by its damage mitigation effect.\nWhile skill descriptions state \"attacks\", damage from spells and signets is also reduced.\nShelter's effect persists briefly after it prevents damage in a way that would have killed it (video).",
+      "text": "* 此技能會在使用者位置創造一個 Spirit of Shelter，並移除先前的友方同類精靈。\n* 常與偏移及聯合搭配，提供更強的減傷保護。\n** 庇護與聯合依創造順序作用。要獲得最大減傷，應先施放庇護，再施放聯合。\n* 若先對目標施加精神守護，再施放庇護，即使目標原本會受到很高的傷害，此精靈也不會損失體力。\n無情護甲可減少此精靈因減傷效果付出的體力損失。\n技能說明雖然寫「攻擊」，但法術與紋章傷害也會受到減免。\n即使一次防傷本應使精靈死亡，庇護效果仍會短暫持續，詳見影片。",
+      "reason": "保留庇護與聯合依創造順序減傷，及先精神守護使精靈不耗體力；修正紋章與精靈，保留法術同樣減傷和死亡後短暫殘留效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6332/variants/skill-version:gww:6332/notes/0",
+          "englishHash": "980920d49336f619deed7ac3cd1e9f87ded3d64dd8b72569c1e4e108e42990ca",
+          "evidenceHash": "8e7dc29a57aff7d98430dc49bfbd9dd52550f78ebeae1c119475f7767b6ca634"
+        }
+      ]
+    },
+    {
+      "source": "* This skill will cause maximum health degeneration at rank 14 and above.\n* The healing effect scales to be ~50% of the hex's maximum damage potential. For example, at rank 12, the skill will inflict a maximum of 216 damage, healing 113 points when it ends.\n* You can increase the duration of the hex, increasing the net damage without affecting the amount of healing:\n** Using Mantra of Persistence. (+1/2/3 seconds at 0/8/11 Inspiration Magic, respectively)\n** By re-applying the hex before it runs out. \n* Removing the hex early (e.g. via Cure Hex) will trigger the healing. Use a cover hex to prevent this.\n* The healing caused by Illusion of Pain does not trigger Scourge Healing.\n* The AI only uses this skill on targets whose health is below two thirds of maximum.",
+      "text": "* 屬性等級達到 14 以上時，此技能可造成最高程度的體力衰減。\n* 治療量約為此降咒理論最大傷害的 50%。例如等級 12 時，最多造成 216 點傷害，結束時治療 113 點。\n* 可延長降咒，增加淨傷害，卻不增加治療量：\n** 使用持久頌歌；靈感魔法等級 0／8／11 時，分別延長 1／2／3 秒。\n** 在降咒結束前重新施加。\n* 提前移除降咒，例如使用 Cure Hex，也會觸發治療。可用另一個降咒覆蓋它，防止被提早移除。\n* 苦痛幻覺的治療不會觸發災禍治癒。\n* AI 只會對目前體力低於最大體力三分之二的目標使用此技能。",
+      "reason": "明確延長持續時間只提高淨傷害、不提高治療，保留 14 級衰減上限、216/113 數值及持久頌歌 0/8/11；修正六角蓋為覆蓋降咒。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1576/variants/skill-version:gww:1576/notes/0",
+          "englishHash": "3307d4ebd8145fe2d493f7ef453e52ee5f25520fd7cc9a62ac55f9366ba641eb",
+          "evidenceHash": "14a2c821461db2826fa2bb55571ddd888de5e119ec4bfae405a2125463b08d01"
+        }
+      ]
+    },
+    {
+      "source": "*For the first 30 seconds, it's impossible to use Totem of Man as it is recharging.\n*When you activate this skill, all Upkeep Enchantments you maintain will be removed.\n*When the blessing ends, you get your original skill bar back and Volfen Blessing starts recharging.\n*Good synergy with Quickening Zephyr, especially at higher Norn ranks, because Volfen Bloodlust can be maintained indefinitely.\n*Since this blessing and all associated skills do not require a weapon to be used, they can be used while carrying bundles.\n*Synergizes well with Binding Rituals; the spirits will keep attacking even when your normal skills are disabled, and the spirits' attacks are affected by Volfen Bloodlust. \nAlthough it is classified as a Form, the caster does not change appearance.",
+      "text": "* 最初 30 秒，Totem of Man 正在冷卻，因此無法使用。\n* 發動此技能時，你正在維持的所有維持型加持都會被移除。\n* 祝福結束後，會恢復原技能欄，Volfen Blessing 才開始冷卻。\n* 適合搭配活力微風，尤其諾恩等級較高時，能持續維持 Volfen Bloodlust。\n* 此祝福及相關技能都不需要武器，因此持有攜帶物時仍可使用。\n* 與縛靈儀式搭配良好：原技能被禁用時，精靈仍會攻擊，而且精靈攻擊會受到 Volfen Bloodlust 影響。\n雖然分類為型態，施法者的外觀卻不會改變。",
+      "reason": "區分初始 Totem 冷卻與祝福結束後本技能才冷卻，保留移除維持加持、持攜帶物可用及精靈仍攻擊；統一縛靈儀式和型態。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:58326/variants/skill-version:gww:58326/notes/0",
+          "englishHash": "f12507e6073aa942f845c8875578a97235f04c83e7d6fb078f9b8e88057d14b8",
+          "evidenceHash": "1dd704e2b98365ffec0642f57c5c3769e421ae336728a2274564f6edefe9dd36"
+        }
+      ]
+    },
+    {
+      "source": "* This skill will end prematurely if the caster dies.\n* This skill works effectively as a cover hex due to its low energy cost, cool down, and fixed duration. The healing notably provides a visual cue to the user when it is removed. \n* It is best not to remove Parasitic Bond if it is the only hex you or an ally is suffering from, because of numerous factors: the health degeneration it causes is negligible, removing it will heal the caster, it can be reapplied once it is removed due to its short recharge time, and it will end automatically once the caster dies anyway.\n*If you cast this skill on a target which an ally has already put Parasitic Bond on, you will gain two packets of healing. One for when theirs would have normally ended, and one when yours ends.",
+      "text": "* 施法者死亡時，此技能會提前結束。\n* 此技能耗能低、冷卻短、持續時間固定，適合覆蓋其他降咒。被移除時的治療，也會給施法者明顯的視覺提示。\n* 若你或盟友只受到寄生連結一個降咒，通常最好不移除：它造成的體力衰減很小；移除會治療施法者；冷卻短，很快就能重施；施法者死亡後，本來也會自動結束。\n* 若你對已帶有盟友所施寄生連結的目標，再施放此技能，你會獲得兩次治療：一次在盟友原降咒本應結束時，另一次在你的降咒結束時。",
+      "reason": "恢復低耗能、短冷卻與固定時間的覆蓋用途，區分受降咒者與獲得治療的施法者；保留覆蓋盟友同技能後兩個治療時點。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:5182/variants/skill-version:gww:5182/notes/0",
+          "englishHash": "71e4eb87e70e7376ae7c6e388cb79afa3e72d61e4c96999a4f1ae206f80224f0",
+          "evidenceHash": "bf28b6a25ba7cfce5609b44c09d1c36df5dbbb77f616ac308b40fff2b5347b1c"
+        }
+      ]
+    },
+    {
+      "source": "* Each of Barrage's arrows counts as a separate attack. Effects that trigger on attack/hit can trigger multiple times; however, some skills have no effect, or only affect the first arrow.\n** If Barrage is combined with Paragon shouts or chants that apply conditions or damage boosts such as Anthem of Flame or \"Find Their Weakness!\", the condition and/or bonus damage will be applied randomly to one of the foes hit by Barrage rather than all of them.\n* Barrage can be used to maintain adrenaline skills, since each arrow that hits will provide one strike of adrenaline. \n* Since the extra arrows are fired at foes adjacent to your target, always try to target an enemy in the middle of a large group.\n* Combine with Splinter Weapon for a large area of effect spike.",
+      "text": "* 齊射的每支箭都算獨立攻擊，因此依賴發動攻擊或命中的效果可觸發多次；但部分技能不生效，或只影響第一支箭。\n** 若搭配火焰聖歌或「找出弱點！」等會施加病症或增傷的聖言者戰嚎、聖歌，病症或額外傷害只會隨機作用於一名被齊射命中的敵人，而非全部敵人。\n* 每支命中的箭都會提供 1 擊怒氣，因此齊射可支援怒氣技能的持續使用。\n* 額外箭矢會射向目標緊鄰的敵人，因此應盡量指定大群敵人中央的目標。\n* 可搭配爆刺武裝，打出大範圍爆發傷害。",
+      "reason": "修正病症、怒氣與 spike 爆發傷害；保留每箭獨立攻擊、部分增益只隨機一目標，以及額外箭以指定目標緊鄰範圍選敵。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1728/variants/skill-version:gww:1728/notes/0",
+          "englishHash": "e3c5ffcb9eca3ae8d554f8cbd8605ef341267e5f9efc870082dab9f6f9e0e15c",
+          "evidenceHash": "0c557f325b80509bd517a3952c00ec093405d5393ec0e99246fc011ee2d2d7d5"
+        }
+      ]
+    },
+    {
+      "source": "* More effective in hard mode, where foes have higher health and attack rate and will thus trigger it more often.\n* This skill is highly potent against bosses, especially end-game bosses who have many times the health of a player character, assuming the boss attacks or casts targeted spells.\n* Spoil Victor or alternatively Spiteful Spirit can be used for solo farming. \n** Spoil Victor is especially effective for characters with low health, typically 55hp, as the character will almost always have low health and meet the requirement.\n* This skill will trigger when a healer casts a healing spell on an ally with less health; however, self-targeting a healing spell will not cause health loss. Resurrecting an ally with a spell will also trigger Spoil Victor.",
+      "text": "* 困難模式中，敵人體力較高、攻擊較快，因此觸發更頻繁，效果也更好。\n* 對首領尤其有效，特別是體力為玩家數倍的後期首領，前提是首領會攻擊或施放指定目標的法術。\n* 勝者的掠奪或惡靈附身可用於單人刷取。\n** 勝者的掠奪尤其適合低體力角色，常見如 55hp，因為這些角色幾乎總是體力較低的一方，容易滿足觸發條件。\n* 帶有此降咒的治療者，對體力比自己低的盟友施放治療法術時也會觸發；但對自己施放治療，不會損失體力。以法術復活盟友，也會觸發勝者的掠奪。",
+      "reason": "將 end-game 修正為後期而非遊戲結束，並明確低體力比較對象；保留首領須攻擊或指定施法，以及對低體力盟友治療與復活也觸發、自療例外。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1775/variants/skill-version:gww:1775/notes/0",
+          "englishHash": "5951b794e8b2c1735682d44a75067dd6602edcb1add39228fc5e98626c3c2873",
+          "evidenceHash": "9ebf0c414f0215c4811ec445b9dc1d1340deda0b98af2db37cd69157f4a2c21f"
+        }
+      ]
+    },
+    {
+      "source": "* As it only works on enemy-controlled spirits, hostile NPC spirits that are not controlled by another creature will not be affected by this skill. Examples of such spirits are:\n** Spirit of Portals.\n** Binding Guardians.\n** The Ritualist spirits that appear in Slavers' Exile and Oola's Lab.\n** The four spirits in Mallyx's chamber in the The Ebony Citadel of Mallyx.\n* If this skill fails due to low Spawning Power, the user does not lose health.\nSpirits taken control of with this skill ignore the restriction of having multiple allied spirits of the same name within range of each other. The restriction will however be correctly applied should the spirit be teleported via Draw Spirit, Swap or Summon Spirits, preserving only the most recent spirit.",
+      "text": "* 此技能只作用於受敵人控制的精靈；沒有其他生物控制的敵對 NPC 精靈不受影響，例如：\n** Spirit of Portals。\n** Binding Guardian。\n** 奴隸商人放逐地及 Oola's Lab 出現的祭祀者精靈。\n** The Ebony Citadel of Mallyx 中，Mallyx 房間裡的四個精靈。\n* 若因召喚屬性太低而失敗，使用者不會損失體力。\n透過此技能奪取的精靈，可無視作用範圍內不能同時存在多個同名友方精靈的限制。但若再用靈之牽引、交替或 Summon Spirits 移動精靈，便會重新套用該限制，只保留最新的一個精靈。",
+      "reason": "修正 spirits 的烈酒誤譯，區分敵對 NPC 精靈與敵人控制精靈；most recent 是最新而非距離最近，保留傳送後恢復同名限制及屬性不足不扣體力。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:6409/variants/skill-version:gww:6409/notes/0",
+          "englishHash": "f3a124648d51ab70d15b6f6da9bdf61442264d6ffa20211528959b3e13e73697",
+          "evidenceHash": "25e72ac96d5d3e8f4c195bc7d6bb33a69c3c8bf4a179c60a410b56ee76a0444f"
+        }
+      ]
+    },
+    {
+      "source": "* In PvP, most physical damage characters carry an elemental damage weapon for use against Warriors (who often have less armor against elemental damage). This stance can be quite dangerous to use since, upon seeing it used, attackers can simply swap weapons.\n* This skill is often used by Warriors when farming in the Underworld.\nSimilar to Cracked Armor, this skill will not lower your armor rating below 60 or your \"core\" armor rating, if your \"core\" armor rating is lower than 60.\nIf you use a skill or combination of skills and effects that, after subtraction of the penalty from Physical Resistance, still grants +26 or more armor rating against elemental damage, Physical Resistance's armor penalty does not function. See also armor calculation.",
+      "text": "* PvP 中，多數物理輸出角色會攜帶元素傷害武器，用來對付元素護甲通常較低的戰士。此態勢可能很危險，因為敵人看到你使用後，只須切換武器就能利用其弱點。\n* 戰士在 Underworld 刷取時常使用此技能。\n與 Cracked Armor 相同，此技能不會使護甲值低於 60；若「核心」護甲原本低於 60，則不會低於該核心值。\n若使用某技能或多項技能與效果後，即使扣除此技能的懲罰，仍能對元素傷害提供至少 +26 護甲，此技能的護甲懲罰就不會生效。詳見護甲計算。",
+      "reason": "修正 farming 與姿態用語，保留 PvP 換元素武器反制；與元素抵抗相反，此處 +26 門檻檢查元素護甲，並保留 60 或較低核心值的下限。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:1664/variants/skill-version:gww:1664/notes/0",
+          "englishHash": "748acbdf4fd93d2fe8e80fd1804dbb8f03b38e59af785d612df91d7972ecfc23",
+          "evidenceHash": "5cf938d9628319eb384505e97f66d5889480443b3d4722c36248ea2d009adb7c"
+        }
+      ]
+    },
+    {
+      "source": "* This is the only skill that affects all hostile minions, making it a powerful counter to minion masters.\n* Cover this enchantment to avoid its untimely removal.\n* The minions become bound to you only at the moment you cast the enchantment. This enchantment is not a persistent 'aura' effect that constantly binds minions close to you.\n\nRecasting Verata's Aura starts a new timer; it does not reset the original one (as would be the case with other enchantments). The minions covered by the original Aura will become masterless as scheduled; any created between the two castings will be covered by the second enchantment. Consider bringing self enchantment removal skills such as Contemplation of Purity, and only renew the enchantment near its end.",
+      "text": "* 這是唯一能影響所有敵對僕從的技能，因此是反制僕從大師的強力手段。\n* 用其他加持覆蓋此加持，避免它過早被移除。\n* 只有施放加持的瞬間，僕從才會歸你控制；此技能不會持續產生「靈氣」，將靠近的僕從不斷收歸控制。\n\n重新施放芙瑞達的靈氣會啟動新的計時，不會像一般加持那樣重設原計時。原效果控制的僕從仍會在原定時間變成無主；兩次施放之間新創造的僕從，則由第二次加持涵蓋。可考慮攜帶純淨的冥想等自行移除加持的技能，並只在接近結束時續施。",
+      "reason": "明確奪取只在施放瞬間，不是持續靈氣；修正重施不重設舊計時的對比，保留原僕從如期無主與新僕從由第二效果涵蓋的不同時限。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:16189/variants/skill-version:gww:16189/notes/0",
+          "englishHash": "4757ce5fbbb8132704e4f7ed3114b4d094b51196d97400d7668bb91cc01d8e2a",
+          "evidenceHash": "0036d2dcc1fabd477ca32806ad0241188e529fbe28fe8f71aa5ffa09db1da4fc"
+        }
+      ]
+    },
+    {
+      "source": "* Spirits have four pips of energy regeneration; they regain their maximum energy (30 energy) in about 23 seconds.\n** In Hard mode, enemy spirits have 41 energy, making them a better source.\n** Spirits do not use energy to attack, so Spirit Siphon will not reduce their effectiveness.\n* When used on multiple spirits, this skill allows for better energy returns over Offering of Spirit or Signet of Spirits (PvP).\n* This skill always targets the spirit closest to the caster. If two or more spirits are equal distance, the target is chosen at random.\n** There is no effect unless the closest spirit is within casting range; however, the skill will activate (and waste energy) with spirits outside of casting range or without spirits at all.",
+      "text": "* 精靈有 4 格能量恢復速率，約 23 秒可恢復至上限 30 點能量。\n** 困難模式的敵方精靈有 41 點能量，是更好的能量來源。\n** 精靈攻擊不消耗能量，因此 Spirit Siphon 不會降低其攻擊效能。\n* 輪流對多個精靈使用時，此技能可比生靈奉獻或縛靈紋章（PvP）提供更多能量。\n* 此技能永遠選擇距離施法者最近的精靈；若兩個以上精靈距離相同，則隨機選擇。\n** 最近的精靈必須在施法距離內才有效；即使精靈太遠，或根本沒有精靈，此技能仍會發動並浪費能量。",
+      "reason": "將 pips 校正為能量恢復格數，保留 30/41 點、約 23 秒；區分最近目標選取、同距隨機及無有效範圍目標仍耗能。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:4179/variants/skill-version:gww:4179/notes/0",
+          "englishHash": "7869e0f31c1b3254cc2ea1db69b3e04a69c37b7045d5ad64505b87bffa000992",
+          "evidenceHash": "4164843f4a990887b01696ff97784af9ec8c2eee68b0673e0fb2141077ceb695"
+        }
+      ]
+    },
+    {
+      "source": "*If you recast this skill while it is still active, the healing effect will not happen.\n*To determine the total damage reduction when combining skills like \"They're on Fire!\", multiply the % of damage not reduced of each skill by each other, and the result is the % of damage your affected party takes (provided all conditions are met). \n**Example (assuming all conditions are met, i.e. burning, in earshot, etc.):\n***\"They're on Fire!\" at Leadership 12 = 29% reduction / 71% damage\n***\"There's Nothing to Fear!\" at Sunspear rank 5 to 10 = 35% reduction / 65% damage\n***(ToF) .71 x (TNtF) .65 = .46 (or 46% damage is received / 54% reduction)\nWhen sorting skills by campaign, this is listed under Core although it's a Nightfall skill.",
+      "text": "* 此技能仍生效時重新施放，不會觸發治療效果。\n* 與「他們著火了！」等技能搭配時，將各技能「未減免的傷害比例」相乘，即為隊伍實際承受的傷害比例，前提是所有條件均已滿足。\n** 例如，假設燃燒、音量所及範圍等條件均已滿足：\n*** 領導等級 12 的「他們著火了！」：減傷 29%，仍承受 71%。\n*** 日戟等級 5 至 10 的「There's Nothing to Fear!」：減傷 35%，仍承受 65%。\n*** 0.71 × 0.65 ≈ 0.46，即承受約 46% 傷害，總減傷約 54%。\n按戰役排序技能時，此技能雖屬黑暗逆襲，卻會列在核心分類。",
+      "reason": "保留重施不治療及減傷採剩餘比例相乘；逐項核對領導 12、日戟 5–10、29/35% 與近似 46/54%，統一音量所及範圍並修正戰役排序。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:41125/variants/skill-version:gww:41125/notes/0",
+          "englishHash": "fded2f6b6ecf936e2b5fa4135483d7e30610ef232b1e2b9aa08476287325a170",
+          "evidenceHash": "333a1809261ddf897747806725e42a584939a4d870e81a3bc805f6463c94c596"
+        }
+      ]
+    },
+    {
+      "source": "* This skill significantly reduces both the arc and flight time of arrows for all bow types and sets them equal to one another. Under Read the Wind, arrows fly at the same arc and speed regardless of the type of bow they are fired from. \n\n* This skill does not change the modified arc or flight times from certain arc-changing bow attack skills, such as Broad Head Arrow, Needling Shot, Quick Shot, etc. These skills ignore the effect of Read the Wind. Arcing Shot, however, does have its arc significantly reduced.\n\n* The arrow speed enhancing effect of this skill does not stack with Favorable Winds. Favorable Winds will still provide additional damage; however, the flight of the arrow remains the same as Read the Wind by itself.",
+      "text": "* 此技能會大幅降低所有弓種的箭矢拋物線與飛行時間，並統一它們的表現。風之解讀生效時，無論使用哪種弓，箭矢的拋物線及速度都相同。\n\n* 闊首箭、刺針射擊、風速之箭等會自行改變拋物線或飛行時間的弓攻擊技能，不受風之解讀對這兩項數值的影響。但弧光射擊的拋物線仍會明顯降低。\n\n* 此技能的箭速提升不會與順風疊加。順風仍會增加傷害，但箭矢飛行表現與只使用風之解讀時相同。",
+      "reason": "依 PvP 固定頁保留箭速不與順風疊加，不套用 PvE 的施放順序例外；區分自行改變彈道的技能及弧光射擊仍受影響。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2417/variants/skill-version:gww:192502/notes/0",
+          "englishHash": "cd5e8bb56324b36a9ed2d0d70b646c7478cc133bf4e13fdae35a7a776462a785",
+          "evidenceHash": "83fb09ea89c7634b0249e01d0d033ad83f85ef9dd362ef464e6c537c6247f176"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: When Contemplation of Purity (or any skill that removes \"all enchantments\") triggers the damage effects of Mirage Cloak or Aura of Holy Might, it behaves inconsistently compared to skills that remove a specific number of enchantments:\n\nMirage Cloak: Damage will only trigger for a restricted list of Dervish enchantments (Aura of Thorns, Balthazar's Rage, Pious Renewal, Dust Cloak, Staggering Force, Grenth's Fingers, and itself).\n\nAura of Holy Might: Damage will trigger for all Dervish enchantments except Eternal Aura, Shield of Force, Grenth's Aura, and Vow of Revolution.\n\nSkills that remove a defined number of enchantments (like Rend Enchantments or standard Dervish teardowns) do not suffer from these restrictions.",
+      "text": "異常：純淨的冥想或其他移除「所有加持」的技能，觸發魔幻掩蔽或 Aura of Holy Might 的傷害時，行為與只移除指定數量加持的技能不同：\n\n魔幻掩蔽：只有移除下列神喚使加持才會觸發傷害：荊棘靈氣、巴薩澤盛怒、神性修補、塵土掩蔽、驚天神力、古蘭斯之指，以及魔幻掩蔽本身。\n\nAura of Holy Might：移除神喚使加持都會觸發傷害，但 Eternal Aura、Shield of Force、Grenth's Aura 與 Vow of Revolution 除外。\n\n移除指定數量加持的技能，例如粉碎加持或一般神喚使主動移除加持的技能，不受這些限制。",
+      "reason": "保留 anomaly 標記，逐一核對魔幻掩蔽七項觸發清單與 Aura 四項例外；修正傷害觸發的主語及 teardowns 機譯。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2900/variants/skill-version:gww:2900/notes/1",
+          "englishHash": "24850991ee8607963d1159e15d451e20d0944ce66db28c12625d64c27176eec8",
+          "evidenceHash": "d1ddd9db74e9073047cf161da69219f3cf7cb73fe070c959d645d18732ed40c2"
+        }
+      ]
+    },
+    {
+      "source": "* Usually combined with Dark Aura for AoE armor-ignoring damage.\n** Live Vicariously can help offset the health loss of Dark Aura.\n* The health sacrifice occurs for each hit rather than for each attack, so skills such as Cyclone Axe or Whirlwind Attack can trigger the health sacrifice multiple times, while skills such as Vigorous Spirit will trigger once, and Illusionary Weaponry will not trigger it at all.\n** Blood Bond can help offset the health sacrifice.\n** This can lead to a spike when combined with Dark Aura.\n* The health sacrifice occurs even if the attack misses or is blocked.\n* The concise description is correct: the damage is armor-ignoring bonus damage.\n\nThe health sacrifice does not appear on the damage monitor.",
+      "text": "* 通常搭配暗黑靈氣，造成無視護甲的範圍傷害。\n** 生命代理可補回暗黑靈氣造成的體力損失。\n* 體力犧牲依每次打擊分別計算，而非每次發動攻擊只計一次。因此，旋風斧或 Whirlwind Attack 可觸發多次體力犧牲；精力充沛等效果卻只觸發一次，幻象武器則完全不會觸發此犧牲。\n** 血之連結可補回犧牲的體力。\n** 搭配暗黑靈氣可形成爆發傷害。\n* 即使攻擊未命中或被格擋，也會發生體力犧牲。\n* 簡短說明正確：此技能提供無視護甲的額外傷害。\n\n體力犧牲不會顯示在傷害記錄中。",
+      "reason": "區分一次發動攻擊與多次打擊，完整保留未命中或格擋仍犧牲、精力充沛只一次及幻象武器不觸發；修正 spike 爆發傷害與體力犧牲。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:313294/variants/skill-version:gww:313294/notes/0",
+          "englishHash": "04a4b7d7f8a206d6f292b9288b424b7fedb3cb188338c222c2e686e2c4058e74",
+          "evidenceHash": "0ef7af4acce4c5da9b3ee8145eddfd4ba424a223c352dac1840d141dfb23453d"
+        }
+      ]
+    },
+    {
+      "source": "anomaly: When Release Enchantments (or any skill that removes \"all enchantments\") triggers the damage effects of Mirage Cloak or Aura of Holy Might, it behaves inconsistently compared to skills that remove a specific number of enchantments:\n\nMirage Cloak: Damage will only trigger for a restricted list of Dervish enchantments (Aura of Thorns, Balthazar's Rage, Pious Renewal, Dust Cloak, Staggering Force, Grenth's Fingers, and itself).\n\nAura of Holy Might: Damage will trigger for all Dervish enchantments except Eternal Aura, Shield of Force, Grenth's Aura, and Vow of Revolution.\n\nSkills that remove a defined number of enchantments (like Rend Enchantments or standard Dervish teardowns) do not suffer from these restrictions.",
+      "text": "異常：釋放加持或其他移除「所有加持」的技能，觸發魔幻掩蔽或 Aura of Holy Might 的傷害時，行為與只移除指定數量加持的技能不同：\n\n魔幻掩蔽：只有移除下列神喚使加持才會觸發傷害：荊棘靈氣、巴薩澤盛怒、神性修補、塵土掩蔽、驚天神力、古蘭斯之指，以及魔幻掩蔽本身。\n\nAura of Holy Might：移除神喚使加持都會觸發傷害，但 Eternal Aura、Shield of Force、Grenth's Aura 與 Vow of Revolution 除外。\n\n移除指定數量加持的技能，例如粉碎加持或一般神喚使主動移除加持的技能，不受這些限制。",
+      "reason": "依釋放加持的獨立異常綁定核對七項觸發與四項例外，保留所有加持與指定數量移除的差別，不將異常清單改成一般技能效果。",
+      "bindings": [
+        {
+          "dataset": "skills",
+          "key": "skills/skill:gww:2907/variants/skill-version:gww:2907/notes/1",
+          "englishHash": "eb5249739b29546521f6ceb3505cb3f2e6cab8427a37a6c454d09fbe10d9af93",
+          "evidenceHash": "de11190417d93e6befa65e1f8ced1b25dbbacafce16d411be17b2f9cb2d70cd1"
+        }
+      ]
+    }
+  ]
+}

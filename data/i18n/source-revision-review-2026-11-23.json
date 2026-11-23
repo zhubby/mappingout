@@ -1,0 +1,555 @@
+{
+  "checkedAt": "2026-11-23T03:56:25.950Z",
+  "status": "reviewed",
+  "scope": "All 12 changed references reported by wiki-current-revisions.json at 2026-11-23T03:48:54.894Z. Exact current revids were downloaded with the existing read-only Wiki api() client and compared before snapshot changes. The pages array preserves that original source-semantic assessment. The refresh object records later explicit adoption, input rebinding, and derived compilation; neither step is in-game verification.",
+  "pages": [
+    {
+      "title": "Energy Surge",
+      "pageid": 1481,
+      "pinned": 2731241,
+      "current": 2743590,
+      "pinnedSha256": "c8a08c0f251034e2fba6a9f53ff34f5b1617893e72b9f39e8c5620cec4284f59",
+      "currentSha256": "092dafdc581dfa5c951dd3f14590b78e7aa3ea1ec04602cf1792df465ab671f8",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": true,
+      "currentRevisionComment": "/* Acquisition */",
+      "changes": [
+        {
+          "section": "Acquisition",
+          "before": "Varny the Zealot (Tunnels of the Forsaken, level 3) appeared later in the Prophecies capture list.",
+          "after": "The identical Varny the Zealot acquisition entry is moved to the first position in the Prophecies list.",
+          "assessment": "List-order edit only. No boss, area, floor, campaign, or capture condition is added or removed."
+        }
+      ],
+      "gameplayImpact": "None. The acquisition set and skill mechanics are unchanged.",
+      "decision": "Keep the pinned gameplay data. A later source refresh can adopt this ordering edit without claiming a new acquisition method.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=Energy%20Surge&oldid=2743590",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=Energy%20Surge&oldid=2731241",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/1481-2743590.json",
+      "diffPath": "releases/proofreading-2026-11-23/1481-2731241-2743590.diff"
+    },
+    {
+      "title": "Feel No Pain",
+      "pageid": 58323,
+      "pinned": 2732702,
+      "current": 2743684,
+      "pinnedSha256": "0680f389e588acf09eff317e0f875c73d29d6cd9c47d78e4d2d2a106805d07d0",
+      "currentSha256": "d2fbd261bcae7936c8d7e216b689073c83e7502f7483f24fda487ae6e3af6924",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": false,
+      "currentRevisionComment": "Missing key information for those looking to unlock this skill.",
+      "changes": [
+        {
+          "section": "Acquisition",
+          "before": "The Great Norn Alemoot (from Olrun Olafdottir in Varajar Fells or Olaf Olafson in Olafstead)",
+          "after": "The Great Norn Alemoot (from Olrun Olafdottir in Varajar Fells (male characters) or Olaf Olafson in Olafstead (female characters))",
+          "assessment": "Adds a character-gender condition to each of the two quest-giver routes. The skill description, costs, recharge, and reward identity are unchanged."
+        }
+      ],
+      "gameplayImpact": "Acquisition fact clarification. A route shown without its character-gender restriction can send a player to the wrong quest giver. The revision alone does not establish that the game changed on this edit date.",
+      "decision": "Review and refresh the acquisition text and its source bindings before adopting the new revision. Preserve the male/female distinction; do not describe this as a skill balance change.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2743684",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2732702",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/58323-2743684.json",
+      "diffPath": "releases/proofreading-2026-11-23/58323-2732702-2743684.diff"
+    },
+    {
+      "title": "Ursan Blessing",
+      "pageid": 58325,
+      "pinned": 2742159,
+      "current": 2743607,
+      "pinnedSha256": "d9db77b6c2485e65a568dfdc80a60a6be9b9721bb5059d742f6d90261d9c5037",
+      "currentSha256": "444e4417e20cc96a1aa4eb2427a3b58c6ab0419d9fcf488b31bb5ee89d47ee63",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": false,
+      "currentRevisionComment": "Third person.",
+      "changes": [
+        {
+          "section": "Notes: activation and retained effects",
+          "before": "Activation removes maintained Upkeep Enchantments; separate bullets list retained Air of Superiority, Troll Unguent, Protector's Defense, Signet of Stamina, Together as One, and Never Rampage Alone.",
+          "after": "Activation removes most effects, with exceptions; effects on attributes, health, or armor are overridden. Bundles, including item-spell bundles, stay held. Summoned creatures are not dismissed when their related skills are removed. The retained-effect examples are regrouped.",
+          "assessment": "Adds broader removal/override rules and explicit bundle/summon survival claims. Existing examples are partly reorganized rather than entirely new. The research-needed warning is retained and moved before these notes."
+        },
+        {
+          "section": "Notes: combinations and temporary skills",
+          "before": "Binding Rituals are recommended because spirits continue attacking and their attacks are affected by Ursan Roar; no temporary-mission-skill return rule is stated.",
+          "after": "Adds drop-effect Item Spell combinations and states that temporary mission skills acquired while transformed are lost on leaving the form, but return if acquired before entering the form.",
+          "assessment": "New gameplay guidance and a new distinction between when temporary mission skills were obtained."
+        },
+        {
+          "section": "Notes and bug wording",
+          "before": "Original skill-bar return and quest-reward-skill bug are described in the second person.",
+          "after": "Uses the third person and clarifies that a newly obtained quest-reward skill becomes unusable after leaving the form until swapped in the Skills and Attributes panel.",
+          "assessment": "Partly editorial clarification of an existing bug. The first-30-seconds Totem of Man restriction remains in place."
+        }
+      ],
+      "gameplayImpact": "Gameplay-relevant behavior and strategy documentation changed. The skill infobox and numerical description did not change. The source still requests research about which effects are removed, so these notes are not game-verified by this review.",
+      "decision": "Review the new notes separately from the unchanged skill parameters. Retain the research-needed qualification and require in-game evidence before treating the complete exception list as definitive.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=Ursan%20Blessing&oldid=2743607",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=Ursan%20Blessing&oldid=2742159",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/58325-2743607.json",
+      "diffPath": "releases/proofreading-2026-11-23/58325-2742159-2743607.diff"
+    },
+    {
+      "title": "Ice Caves of Sorrow",
+      "pageid": 6707,
+      "pinned": 2743295,
+      "current": 2743582,
+      "pinnedSha256": "3346b41376adee7a6f24e61277558b44dd8823a74150092d4a0f0e0770af50ea",
+      "currentSha256": "3346b41376adee7a6f24e61277558b44dd8823a74150092d4a0f0e0770af50ea",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": true,
+      "editorialOnly": true,
+      "currentRevisionComment": "Undo revision 2743580 by [[Special:Contributions/116.86.229.64|116.86.229.64]] ([[User talk:116.86.229.64|Talk]]) - Not the place for generic buildcraft advice",
+      "changes": [
+        {
+          "section": "Entire raw wikitext",
+          "before": "Pinned revision 2743295.",
+          "after": "Current revision 2743582 has byte-identical UTF-8 wikitext. Its edit comment reverts an intervening generic buildcraft edit.",
+          "assessment": "No text, link, spelling, objective, reward, or walkthrough difference remains between the pinned and exact current revisions."
+        }
+      ],
+      "gameplayImpact": "None. The revision identifier advanced but the body returned to the pinned content.",
+      "decision": "Keep the pinned snapshot and bindings. Record the equal SHA-256 values; do not invalidate translations or claim a factual update merely because revid differs.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=Ice%20Caves%20of%20Sorrow&oldid=2743582",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=Ice%20Caves%20of%20Sorrow&oldid=2743295",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/6707-2743582.json",
+      "diffPath": "releases/proofreading-2026-11-23/6707-2743295-2743582.diff"
+    },
+    {
+      "title": "Hell's Precipice",
+      "pageid": 16173,
+      "pinned": 2737871,
+      "current": 2743581,
+      "pinnedSha256": "df6f631727bd8777a860c3bb508fae14d70532e8c3e787057eeabda5686ecb4c",
+      "currentSha256": "df6f631727bd8777a860c3bb508fae14d70532e8c3e787057eeabda5686ecb4c",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": true,
+      "editorialOnly": true,
+      "currentRevisionComment": "Undo revision 2743579 by [[Special:Contributions/116.86.229.64|116.86.229.64]] ([[User talk:116.86.229.64|Talk]]) - Not the place for generic buildcraft advice",
+      "changes": [
+        {
+          "section": "Entire raw wikitext",
+          "before": "Pinned revision 2737871.",
+          "after": "Current revision 2743581 has byte-identical UTF-8 wikitext. Its edit comment reverts an intervening generic buildcraft edit.",
+          "assessment": "No text, link, spelling, objective, reward, or walkthrough difference remains between these revisions."
+        }
+      ],
+      "gameplayImpact": "None. The current body is the pinned body despite its newer revision identifier.",
+      "decision": "Keep the pinned snapshot and bindings. Preserve the exact current comparison as evidence of content equality.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=Hell's%20Precipice&oldid=2743581",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=Hell's%20Precipice&oldid=2737871",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/16173-2743581.json",
+      "diffPath": "releases/proofreading-2026-11-23/16173-2737871-2743581.diff"
+    },
+    {
+      "title": "Pehrub/Collector armor",
+      "pageid": 50517,
+      "pinned": 2486239,
+      "current": 2743648,
+      "pinnedSha256": "8e8e54c63b067f10a883096dd2c57cbfa6cf47e626ead7721414c5b1142803af",
+      "currentSha256": "6c29a46faa6d5efe7f6d6b221007b23e83ae7e9ba506546f912b7bce86ef23c2",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": false,
+      "currentRevisionComment": "/* Pehrub */",
+      "changes": [
+        {
+          "section": "Collector armor table",
+          "before": "Column heading Other Modifiers. Ranger boots list Energy +5 and Armor +30 vs elemental damage. Monk, Necromancer, Mesmer, and Elementalist footwear list Energy +5. Paragon sandals list Energy +5. Dervish shoes list Health +25.",
+          "after": "Column heading Armor Bonus. Ranger Energy +5 is removed while Armor +30 remains. Monk, Necromancer, Mesmer, and Elementalist footwear list Energy recovery +1. Paragon sandals list none. Dervish shoes list Energy recovery +1 instead of Health +25.",
+          "assessment": "Substantive item-stat corrections for seven professions, not merely a heading change. Warrior statistics, base armor ratings, collection cost of 3 Fledgling Skree Wings, and 30-gold values are unchanged."
+        }
+      ],
+      "gameplayImpact": "Equipment facts changed. Maximum Energy/Health bonuses and Energy recovery are different game mechanics; the older table cannot be retained as an equivalent translation of the new table.",
+      "decision": "Review these collector-footwear bonuses against item/profession sources or in-game evidence, then refresh all derived armor facts and affected bilingual fields together. Do not label the table change as cosmetic.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=Pehrub%2FCollector%20armor&oldid=2743648",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=Pehrub%2FCollector%20armor&oldid=2486239",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/50517-2743648.json",
+      "diffPath": "releases/proofreading-2026-11-23/50517-2486239-2743648.diff"
+    },
+    {
+      "title": "Winds of Change/Walkthrough",
+      "pageid": 283590,
+      "pinned": 2677620,
+      "current": 2743588,
+      "pinnedSha256": "27bd7d4cbeb30998f4436b87d4535eecf99a3f2af3cea97151ede95c09cd7a59",
+      "currentSha256": "3122f0a71a1953d4a28fa9ad48620fc00c9ac080433a480fa1676b7b173c2887",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": true,
+      "currentRevisionComment": "/* Optional quests */",
+      "changes": [
+        {
+          "section": "Order of quest chains and Optional quests",
+          "before": "The overview already states that each of the 35 main and 6 optional quests has its own hard-mode version, for a total of 82.",
+          "after": "Adds a hard-mode link next to each of the 41 existing quest entries and links the introductory hard-mode term; adds a blank line.",
+          "assessment": "Navigation/link additions only. Main/optional counts, numbered order, quest givers, prerequisites, chained optional quests, and total 82 remain unchanged."
+        }
+      ],
+      "gameplayImpact": "No new quest or prerequisite fact. The added links expose hard-mode counterparts that the pinned prose already says exist.",
+      "decision": "Keep existing gameplay data. A later source refresh can include the hard-mode navigation links; avoid interpreting them as newly introduced hard-mode content.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=Winds%20of%20Change%2FWalkthrough&oldid=2743588",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=Winds%20of%20Change%2FWalkthrough&oldid=2677620",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/283590-2743588.json",
+      "diffPath": "releases/proofreading-2026-11-23/283590-2677620-2743588.diff"
+    },
+    {
+      "title": "Elegy for Those Left Behind",
+      "pageid": 320374,
+      "pinned": 2743321,
+      "current": 2743589,
+      "pinnedSha256": "d76f2b2a1569f2c92e403e1bcfcfefca4f6f66ea2013e1f8a8be2fbd28757002",
+      "currentSha256": "73471de88e6893124b036b2b584518adde41054eaf9c5ff37f8f4835115080ec",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": false,
+      "currentRevisionComment": "/* Dialogue */ Already covered on Althea's page.",
+      "changes": [
+        {
+          "section": "Reward",
+          "before": "100 gold without a mode qualification.",
+          "after": "100 Gold (Reforged mode only).",
+          "assessment": "Adds a reward eligibility condition. The 500 Experience reward is unchanged."
+        },
+        {
+          "section": "Walkthrough and Notes",
+          "before": "Advises clearing regular spirits, holding Furious Ghosts outside pyre range, and standing inside to progress the bar; no flag/melee-weapon or six-person-route advice.",
+          "after": "Adds that heroes/henchmen can flee the capture area, repeated flagging or equipping heroes with melee weapons mitigates this, and a party of 6 from Yak's Bend makes capture easier at the cost of a longer journey. Adds that the quest-spawned village spirits are hostile to regular spirits outside.",
+          "assessment": "Gameplay strategy and spawn-interaction additions. The existing member-minus-foe capture rule and disappearance of Furious Ghosts after ignition remain. The old explicit claim that the other spirits do not respawn is omitted."
+        },
+        {
+          "section": "Introduction, prose, and Dialogue",
+          "before": "No introductory quest summary; an after-reward Althea dialogue block is duplicated here.",
+          "after": "Adds a one-sentence quest summary, reorganizes walkthrough paragraphs, and removes the after-reward dialogue block with the edit comment Already covered on Althea's page.",
+          "assessment": "These parts are editorial organization or removal of duplicated dialogue, alongside the substantive reward and walkthrough edits."
+        }
+      ],
+      "gameplayImpact": "Reward-mode restriction and capture-strategy/spawn notes changed. The revision contains both factual additions and editorial cleanup; it is not spelling/link-only.",
+      "decision": "Review and refresh the reward condition and walkthrough/notes with their source bindings. Do not transfer removed dialogue back into gameplay instructions or present the new tactical observations as independently game-verified.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=Elegy%20for%20Those%20Left%20Behind&oldid=2743589",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=Elegy%20for%20Those%20Left%20Behind&oldid=2743321",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/320374-2743589.json",
+      "diffPath": "releases/proofreading-2026-11-23/320374-2743321-2743589.diff"
+    },
+    {
+      "title": "The Cost of Survival",
+      "pageid": 320375,
+      "pinned": 2743323,
+      "current": 2743587,
+      "pinnedSha256": "b432623030cbae282bddb6d82949bcb8c9548593205678d0e6c3bf475483e61c",
+      "currentSha256": "538b118c19dcb7cb79c92a88ca5b9b409e3f661c25fbd344d2ecf46390e96357",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": false,
+      "currentRevisionComment": "/* Notes */",
+      "changes": [
+        {
+          "section": "Reward",
+          "before": "100 gold without a mode qualification.",
+          "after": "100 Gold (Reforged mode only).",
+          "assessment": "Adds a reward eligibility condition; 500 Experience is unchanged."
+        },
+        {
+          "section": "Walkthrough and Notes",
+          "before": "Talk to Duke Willgrove to retrieve stolen supplies; no explicit inventory-space requirement or advice to accept the next quest immediately.",
+          "after": "Requires inventory space to receive the supplies; recommends accepting the following quest immediately to prevent level 20 ghosts from populating the dungeon on return. The Piken Square return route changes from can be faster to is faster.",
+          "assessment": "Adds an item-receipt prerequisite and a quest-state-dependent spawn warning. The route comparison is strengthened as guidance, not a demonstrated game patch."
+        },
+        {
+          "section": "Dialogue, maps, and bug/anomaly notes",
+          "before": "Two route images are stand-alone thumbnails; intermediate dialogue is split by level headings and some marker/chatbox bugs appear inline.",
+          "after": "Moves the same route images into infobox map fields; adds dialogue for talking to the Duke with or without the Stolen Supply Shipment; groups marker anomalies and the Quest Added rather than Quest Updated bug in Notes.",
+          "assessment": "Mostly presentation and dialogue-state clarification. The latter distinguishes a misleading UI message from an actual new quest acquisition."
+        }
+      ],
+      "gameplayImpact": "Reward eligibility, receiving the bundle, and subsequent quest-state/spawn guidance changed. The source also reorganizes existing material; it is not an editorial-only revision.",
+      "decision": "Review and refresh mode-restricted rewards, inventory and follow-up-quest warnings, and dialogue-state notes. Keep existing source pins until derived fields and translation bindings are updated together.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=The%20Cost%20of%20Survival&oldid=2743587",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=The%20Cost%20of%20Survival&oldid=2743323",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/320375-2743587.json",
+      "diffPath": "releases/proofreading-2026-11-23/320375-2743323-2743587.diff"
+    },
+    {
+      "title": "The Dreamer and the Zealot",
+      "pageid": 320377,
+      "pinned": 2740898,
+      "current": 2743586,
+      "pinnedSha256": "3ece7ec9ffb430f7265eeca826aa1dc633f5da8e539add556b1b2631190ea785",
+      "currentSha256": "08b73c3e824ba86319f2125b733bedc38b65f325ff69ef76d8a2fad747d49aa8",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": false,
+      "currentRevisionComment": "/* Dialogue */",
+      "changes": [
+        {
+          "section": "Reward",
+          "before": "100 gold without a mode qualification.",
+          "after": "100 Gold (Reforged mode only).",
+          "assessment": "Adds a reward eligibility condition. First-time 1000 Experience, repeated 500 Experience, and first-time Althea party join remain."
+        },
+        {
+          "section": "Walkthrough",
+          "before": "A short numbered stub says Althea follows from floor 2 and the God-touched Grawl becomes friendly around 10-20% health and helps the party.",
+          "after": "Replaces the stub with a fuller route: first-time high-level echoes can be removed by exiting/re-entering after taking the quest; Althea accompanies the first run on floors 2 and 3; an Enraged Phantom must be killed for the Boss Key; the God-touched Grawl becomes friendly at low health but does not attack the other grawl. Adds pulling advice, wave details, final chest spawn and completion dialogue.",
+          "assessment": "Substantive walkthrough expansion and a correction to the friendly boss's combat assistance. The approximate 10-20% threshold is replaced by nonnumeric low health; do not retain the precise older threshold as confirmed by this revision."
+        },
+        {
+          "section": "Maps, Dialogue, Notes, and bugs",
+          "before": "Maps and item screenshots appear inside the stub; a Ghost of Althea praise line appears in intermediate dialogue; an existing ledge-trigger bug references a screenshot.",
+          "after": "Moves route maps to infobox fields, removes the praise line, fixes Echos to Echoes, adds that asking Althea about the accepted quest closes the dialogue window, and describes the ledge trigger as near the Enraged Phantom.",
+          "assessment": "Mixed editorial/map organization and new or clarified UI/trigger bug observations. The repeated-run-only Echoes/Horsemen strategy remains."
+        }
+      ],
+      "gameplayImpact": "Reward eligibility, first-run quest-state behavior, boss assistance, and walkthrough/bug guidance changed. This is not just a spelling correction.",
+      "decision": "Review and refresh the expanded walkthrough and reward condition. Remove the obsolete claim that the friendly God-touched Grawl fights the other grawl; retain first-run versus repeated-run distinctions.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=The%20Dreamer%20and%20the%20Zealot&oldid=2743586",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=The%20Dreamer%20and%20the%20Zealot&oldid=2740898",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/320377-2743586.json",
+      "diffPath": "releases/proofreading-2026-11-23/320377-2740898-2743586.diff"
+    },
+    {
+      "title": "The Titan Source",
+      "pageid": 11215,
+      "pinned": 2718183,
+      "current": 2743632,
+      "pinnedSha256": "dfcd2c806522aff49245bd4dca85ce4042150ac39466e3d6483ab65ea15370eb",
+      "currentSha256": "05973c3194cba341e6978e225b6e3ebc138ca7b22d5800050791c4db3e6cfbd5",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": false,
+      "currentRevisionComment": "/* Bosses */",
+      "changes": [
+        {
+          "section": "Bosses",
+          "before": "Singe the Malevolent is listed as a level 26 Elementalist, without a capturable skill in this row.",
+          "after": "Adds Savannah Heat with requires Hard Mode and Nightfall and an explicit {{verify}} marker.",
+          "assessment": "Adds a gameplay acquisition claim, but the source itself marks it unverified. No other boss row or quest rule changes."
+        }
+      ],
+      "gameplayImpact": "Potentially relevant capture-route fact, not established fact. It would mislead users to drop the verification marker or treat the new claim as game-confirmed.",
+      "decision": "Hold the new Savannah Heat capture claim pending independent source or in-game verification. Preserve its Hard Mode/Nightfall conditions and explicit unverified status in any future adoption.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=The%20Titan%20Source&oldid=2743632",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=The%20Titan%20Source&oldid=2718183",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/11215-2743632.json",
+      "diffPath": "releases/proofreading-2026-11-23/11215-2718183-2743632.diff"
+    },
+    {
+      "title": "\"Find Their Weakness!\"",
+      "pageid": 14942,
+      "pinned": 2733273,
+      "current": 2743639,
+      "pinnedSha256": "12613f96c26ec97c672e2d83797d89504be9724903b1065b10dc6205d235307c",
+      "currentSha256": "4582cc3f59babc156c4a3914d019955f3ab52835db3c76cdc1a90b96993a21d6",
+      "hashScope": "Exact UTF-8 raw wikitext, without added or normalized whitespace.",
+      "bodyIdentical": false,
+      "editorialOnly": false,
+      "currentRevisionComment": "Updated the hero usage since the AI for this skill got updated.",
+      "changes": [
+        {
+          "section": "Notes: hero AI",
+          "before": "Heroes target party members wielding sword, axe, hammer, daggers, scythe, spear or shortbow, requiring at least 1 in the corresponding weapon mastery. Bonuses count, and Anniversary weapons are treated as having their regular requirement.",
+          "after": "Heroes use this skill on party members wielding any martial weapon. The mastery minimum and the two qualification sub-bullets are removed.",
+          "assessment": "Hero-targeting behavior documentation changed. The new statement includes martial bow types beyond the previously listed shortbow and no longer asserts the weapon-mastery threshold. The skill description and existing successful-hit/Deep Wound ordering notes are unchanged."
+        }
+      ],
+      "gameplayImpact": "Hero AI usage fact changed; numerical skill effects did not. The edit comment says the AI was updated, but this source revision alone does not prove the exact game update date.",
+      "decision": "Review and refresh the hero-usage note with its exact revision binding. Do not retain the removed attribute minimum or shortbow-only limitation as current-source behavior.",
+      "sourceUrl": "https://wiki.guildwars.com/index.php?title=%22Find%20Their%20Weakness!%22&oldid=2743639",
+      "pinnedSourceUrl": "https://wiki.guildwars.com/index.php?title=%22Find%20Their%20Weakness!%22&oldid=2733273",
+      "currentSnapshotPath": "releases/proofreading-2026-11-23/14942-2743639.json",
+      "diffPath": "releases/proofreading-2026-11-23/14942-2733273-2743639.diff"
+    }
+  ],
+  "refresh": {
+    "appliedAt": "2026-11-23T04:09:49.739Z",
+    "status": "snapshots-inputs-and-authorized-derived-datasets-refreshed",
+    "scope": "Adopts all 12 reviewed exact revisions. Original comparison and decisions remain historical evidence. This refresh does not verify gameplay and does not remove verify or research qualifications.",
+    "snapshots": [
+      {
+        "title": "Energy Surge",
+        "pageid": 1481,
+        "before": 2731241,
+        "after": 2743590,
+        "wikitextSha256": "092dafdc581dfa5c951dd3f14590b78e7aa3ea1ec04602cf1792df465ab671f8"
+      },
+      {
+        "title": "Feel No Pain",
+        "pageid": 58323,
+        "before": 2732702,
+        "after": 2743684,
+        "wikitextSha256": "d2fbd261bcae7936c8d7e216b689073c83e7502f7483f24fda487ae6e3af6924"
+      },
+      {
+        "title": "Ursan Blessing",
+        "pageid": 58325,
+        "before": 2742159,
+        "after": 2743607,
+        "wikitextSha256": "444e4417e20cc96a1aa4eb2427a3b58c6ab0419d9fcf488b31bb5ee89d47ee63"
+      },
+      {
+        "title": "Ice Caves of Sorrow",
+        "pageid": 6707,
+        "before": 2743295,
+        "after": 2743582,
+        "wikitextSha256": "3346b41376adee7a6f24e61277558b44dd8823a74150092d4a0f0e0770af50ea"
+      },
+      {
+        "title": "Hell's Precipice",
+        "pageid": 16173,
+        "before": 2737871,
+        "after": 2743581,
+        "wikitextSha256": "df6f631727bd8777a860c3bb508fae14d70532e8c3e787057eeabda5686ecb4c"
+      },
+      {
+        "title": "Pehrub/Collector armor",
+        "pageid": 50517,
+        "before": 2486239,
+        "after": 2743648,
+        "wikitextSha256": "6c29a46faa6d5efe7f6d6b221007b23e83ae7e9ba506546f912b7bce86ef23c2"
+      },
+      {
+        "title": "Winds of Change/Walkthrough",
+        "pageid": 283590,
+        "before": 2677620,
+        "after": 2743588,
+        "wikitextSha256": "3122f0a71a1953d4a28fa9ad48620fc00c9ac080433a480fa1676b7b173c2887"
+      },
+      {
+        "title": "Elegy for Those Left Behind",
+        "pageid": 320374,
+        "before": 2743321,
+        "after": 2743589,
+        "wikitextSha256": "73471de88e6893124b036b2b584518adde41054eaf9c5ff37f8f4835115080ec"
+      },
+      {
+        "title": "The Cost of Survival",
+        "pageid": 320375,
+        "before": 2743323,
+        "after": 2743587,
+        "wikitextSha256": "538b118c19dcb7cb79c92a88ca5b9b409e3f661c25fbd344d2ecf46390e96357"
+      },
+      {
+        "title": "The Dreamer and the Zealot",
+        "pageid": 320377,
+        "before": 2740898,
+        "after": 2743586,
+        "wikitextSha256": "08b73c3e824ba86319f2125b733bedc38b65f325ff69ef76d8a2fad747d49aa8"
+      },
+      {
+        "title": "The Titan Source",
+        "pageid": 11215,
+        "before": 2718183,
+        "after": 2743632,
+        "wikitextSha256": "05973c3194cba341e6978e225b6e3ebc138ca7b22d5800050791c4db3e6cfbd5"
+      },
+      {
+        "title": "\"Find Their Weakness!\"",
+        "pageid": 14942,
+        "before": 2733273,
+        "after": 2743639,
+        "wikitextSha256": "4582cc3f59babc156c4a3914d019955f3ab52835db3c76cdc1a90b96993a21d6"
+      }
+    ],
+    "inputs": [
+      {
+        "file": "data/wiki/inputs/boss-reviews.json",
+        "count": 43
+      },
+      {
+        "file": "data/wiki/inputs/zone-reviews.json",
+        "count": 2
+      },
+      {
+        "file": "data/wiki/inputs/quest-reviews.json",
+        "count": 3
+      },
+      {
+        "file": "data/wiki/inputs/collector-reviews.json",
+        "count": 1
+      },
+      {
+        "file": "data/wiki/inputs/translations.json",
+        "count": 1
+      }
+    ],
+    "templateBindings": [
+      {
+        "pageid": 6707,
+        "before": 2743295,
+        "after": 2743582,
+        "reason": "Exact raw UTF-8 wikitext SHA-256 equality; unchanged template context."
+      },
+      {
+        "pageid": 16173,
+        "before": 2737871,
+        "after": 2743581,
+        "reason": "Exact raw UTF-8 wikitext SHA-256 equality; unchanged template context."
+      }
+    ],
+    "completedAt": "2026-11-23T04:12:06.085Z",
+    "compilation": [
+      {
+        "command": "wiki:compile",
+        "result": "passed"
+      },
+      {
+        "command": "wiki:apply",
+        "result": "passed"
+      },
+      {
+        "command": "wiki:compile:features",
+        "result": "passed"
+      },
+      {
+        "command": "wiki:compile:skills",
+        "result": "passed"
+      }
+    ],
+    "questCompilation": "Delegated to the quest reviewer; not run by this reviewer.",
+    "englishImpact": [
+      {
+        "dataset": "catalog",
+        "changedTextFields": 37,
+        "reboundEvidenceFields": 375
+      },
+      {
+        "dataset": "armor",
+        "changedTextFields": 0,
+        "reboundEvidenceFields": 0
+      },
+      {
+        "dataset": "calendar",
+        "changedTextFields": 0,
+        "reboundEvidenceFields": 0
+      },
+      {
+        "dataset": "skills",
+        "changedTextFields": 31,
+        "reboundEvidenceFields": 130
+      }
+    ],
+    "englishChangeDetails": "releases/proofreading-2026-11-23/generated-english-refresh-diff.json",
+    "semanticImpact": {
+      "catalog": "Seven Pehrub armor-stat lines, two identical Feel No Pain acquisition fields, and one Ursan Blessing bug warning change. Twenty-seven Energy Surge field changes only reorder existing acquisition entries.",
+      "skills": "One Feel No Pain acquisition field, one Find Their Weakness notes field, and two Ursan Blessing notes fields change. Twenty-seven Energy Surge field changes only reorder existing acquisition entries.",
+      "armor": "No text changes.",
+      "calendar": "No text changes."
+    },
+    "qualifications": [
+      {
+        "title": "Ursan Blessing",
+        "status": "research-needed-preserved",
+        "detail": "Exact new raw snapshot retains the research-needed template. Compiled notes retain the same qualification; the refresh does not verify the exception list."
+      },
+      {
+        "title": "The Titan Source",
+        "status": "verify-marker-preserved-in-source",
+        "detail": "Exact new raw snapshot retains the verify template. The quest reviewer must preserve its unverified status before compiling or displaying the Savannah Heat capture claim."
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 /**
- * [INPUT]: 依赖界面键、旧界面值、OpenCC、中文术语及最终资料包。
- * [OUTPUT]: 生成繁体界面及兼容旧查询的静态别名。
+ * [INPUT]: 依赖界面键、编辑用词、旧查询、中文术语及最终资料包。
+ * [OUTPUT]: 生成繁体界面及兼容旧查询的静态别名，保留新旧效果名称。
  * [POS]: 维护期字形和术语编译；运行时不依赖 OpenCC。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -37,4 +37,6 @@ for(const name of ['fields','aliases','skillTypes']){
   const values=Function(`return (${literal})`)();
   maps[name]=Object.fromEntries(Object.entries(values).map(([key,value])=>[traditional(key),value]));
 }
+Object.assign(maps.fields,{'類型':'type','再生':'regeneration','衰減':'degeneration','體力竊取':'life-steal'});
+Object.assign(maps.aliases,{'再生':'regeneration','衰減':'degeneration','體力竊取':'life-steal'});
 save('src/i18n/query-aliases.json',maps);

@@ -19,7 +19,7 @@ test('atlas filters use custom menus and preserve empty values independently of 
   await expect(page.getByRole('combobox', {name:'地區篩選'})).toHaveAttribute('data-value', '');
   await expect(page.getByRole('combobox', {name:'區域篩選'})).toHaveAttribute('data-value', '');
   await selectOption(campaign, '');
-  await expect(page.getByRole('combobox', {name:'章節選擇'})).toHaveAttribute('data-value', '2');
+  await expect(page.getByRole('combobox', {name:'篇章選擇'})).toHaveAttribute('data-value', '2');
   const map = page.getByRole('combobox', {name:'地圖地區'});
   await map.click();
   await expect(page.getByRole('listbox').getByRole('option')).toHaveCount(4);
@@ -32,7 +32,7 @@ test('atlas filters use custom menus and preserve empty values independently of 
 
 test('map chapters constrain regions and follow shared links, reloads and location jumps', async ({page}) => {
   await page.goto('/?campaign=1&map=3:3');
-  const chapter = page.getByRole('combobox', {name:'章節選擇'});
+  const chapter = page.getByRole('combobox', {name:'篇章選擇'});
   const map = page.getByRole('combobox', {name:'地圖地區'});
   const filters = page.getByRole('combobox', {name:'篇章篩選'});
   await expect(page.locator('.breadcrumb > span')).toHaveText('世界地圖');
@@ -65,7 +65,7 @@ test('three map levels remain visible in both languages across viewport sizes', 
   await page.goto('/?map=4:1');
   for (const locale of ['zh-TW', 'en']) {
     await selectOption(page.getByRole('combobox', {name:'Language / 語言'}), locale);
-    const chapter = page.getByRole('combobox', {name:locale === 'en' ? 'Chapter selection' : '章節選擇'});
+    const chapter = page.getByRole('combobox', {name:locale === 'en' ? 'Campaign selection' : '篇章選擇'});
     const map = page.getByRole('combobox', {name:locale === 'en' ? 'Map region' : '地圖地區'});
     for (const width of [1440, 820, 560, 390, 320]) {
       await page.setViewportSize({width, height:920});

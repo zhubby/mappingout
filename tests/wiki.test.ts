@@ -9,6 +9,7 @@ import fs from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { plainText, templates } from '../scripts/wiki/lib/wikitext.mjs';
 import { skillFacts } from '../scripts/wiki/lib/skill-facts.mjs';
+import { compileEffects } from '../scripts/wiki/lib/skill-effects.mjs';
 import { npcFacts, weaponFacts, itemFacts } from '../scripts/wiki/lib/content-facts.mjs';
 import { locationFacts } from '../scripts/wiki/lib/location-facts.mjs';
 import { chestFacts, questFacts, questPages } from '../scripts/wiki/lib/source-facts.mjs';
@@ -40,6 +41,16 @@ describe('Wiki extraction uses the meaning of the source templates', () => {
   it('distinguishes attribute interpolation from title endpoints and retains unknown mechanics', () => {
     expect(plainText('{{gr|10|35}} {{gr2|10|20}} {{3/4}}')).toBe('10…30…35 10…20 0.75');
     expect(plainText('Damage: {{unknown formula|12}}')).toContain('{{unknown formula|12}}');
+  });
+  it('keeps Wiki sic tooltips out of game descriptions and effect templates', async () => {
+    const source = await page('Arcane Conundrum');
+    const facts = skillFacts(source);
+    expect(facts.description).toBe('Hex Spell. For 5…13…15 seconds, spells cast by target foe and all adjacent foes take twice as long to cast. When this hex ends, you gain 1…6…7 energy.');
+    expect(facts.conciseDescription).not.toContain('Unlike other');
+    const box = templates(source.wikitext, 'Skill infobox')[0].fields;
+    const effects = compileEffects(source, box, [], {title:source.title,pageid:source.pageid,revid:source.revid});
+    expect(effects.descriptionTemplate).not.toContain('Unlike other');
+    expect(plainText('For {{gray|5 seconds}}, gain energy.{{sic|Tooltip {{gr|1|7}}}}')).toBe('For 5 seconds, gain energy.');
   });
   it('reads skill costs and does not turn campaign headings into capture targets', async () => {
     const facts = skillFacts(await page('Word of Healing'));

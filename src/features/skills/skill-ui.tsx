@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖技能资源、效果等级与共用文案。
- * [OUTPUT]: 提供资源原图标、作用方式标签和动态说明。
+ * [OUTPUT]: 提供资源原图标、作用标签与逐次数值符号的动态说明。
  * [POS]: 技能结果与详情的共用呈现；数值只由领域规则计算。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -26,11 +26,15 @@ export function SkillResources({variant,icons,compact=false}:{variant:SkillVaria
 export function SkillDescription({variant,levels}:{variant:SkillVariant;levels:SkillLevels}){
  const text=variant.descriptionTemplate;
  if(!text)return <>{variant.description}</>;
+ const occurrences=new Map<string,number>();
  return <>{text.split(/(\[\[MO:[^\]]+\]\])/).map((part,index)=>{
   if(!part.startsWith('[[MO:'))return <Fragment key={index}>{part}</Fragment>;
-  const effect=variant.effects.find(effect=>effect.id===part.slice(5,-2)),value=effect&&effectValue(effect,levels);
-  const original=variant.descriptionParts.find(p=>p.effectId===effect?.id)?.raw;
-  return <strong key={index} className="skill-value" title={effect?.label}>{value===null||value===undefined?original||'—':`${original?.startsWith('+')?'+':original?.startsWith('-')?'-':''}${value}${original?.endsWith('%')?'%':''}`}</strong>;
+  const id=part.slice(5,-2),occurrence=occurrences.get(id)??0;
+  occurrences.set(id,occurrence+1);
+  const effect=variant.effects.find(effect=>effect.id===id),value=effect&&effectValue(effect,levels);
+  const original=variant.descriptionParts.filter(p=>p.effectId===id)[occurrence]?.raw;
+  const sign=value!==null&&value!==undefined&&value>=0?(original?.startsWith('+')?'+':/^[-−]/.test(original??'')?'-':''):'';
+  return <strong key={index} className="skill-value" title={effect?.label}>{value===null||value===undefined?original||'—':`${sign}${value}${original?.endsWith('%')?'%':''}`}</strong>;
  })}</>;
 }
 export function EffectValue({effect,levels}:{effect:SkillEffect;levels:SkillLevels}){

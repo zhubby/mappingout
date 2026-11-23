@@ -3130,6 +3130,15 @@
           {
             "method": "capture",
             "campaign": 1,
+            "title": "Varny the Zealot",
+            "areas": [
+              "Tunnels of the Forsaken"
+            ],
+            "text": "Varny the Zealot (Tunnels of the Forsaken, level 3)"
+          },
+          {
+            "method": "capture",
+            "campaign": 1,
             "title": "The Darkness (boss)",
             "areas": [
               "The Hall of Heroes (explorable area)"
@@ -3202,15 +3211,6 @@
           {
             "method": "capture",
             "campaign": 1,
-            "title": "Varny the Zealot",
-            "areas": [
-              "Tunnels of the Forsaken"
-            ],
-            "text": "Varny the Zealot (Tunnels of the Forsaken, level 3)"
-          },
-          {
-            "method": "capture",
-            "campaign": 1,
             "title": "Willem the Demeaning",
             "areas": [
               "Riverside Province (explorable area)",
@@ -3272,11 +3272,11 @@
         "reference": {
           "title": "Energy Surge",
           "pageid": 1481,
-          "revid": 2731241,
+          "revid": 2743590,
           "url": "https://wiki.guildwars.com/wiki/Energy_Surge",
-          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Energy%20Surge&oldid=2731241",
-          "revisedAt": "2026-06-25T05:22:34Z",
-          "retrievedAt": "2026-11-13T01:07:40.175Z"
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Energy%20Surge&oldid=2743590",
+          "revisedAt": "2026-11-18T16:37:15Z",
+          "retrievedAt": "2026-11-23T03:54:08.855Z"
         },
         "special": false,
         "capturable": true
@@ -3284,11 +3284,11 @@
       "wiki": {
         "title": "Energy Surge",
         "pageid": 1481,
-        "revid": 2731241,
+        "revid": 2743590,
         "url": "https://wiki.guildwars.com/wiki/Energy_Surge",
-        "revisionUrl": "https://wiki.guildwars.com/index.php?title=Energy%20Surge&oldid=2731241",
-        "revisedAt": "2026-06-25T05:22:34Z",
-        "retrievedAt": "2026-11-13T01:07:40.175Z",
+        "revisionUrl": "https://wiki.guildwars.com/index.php?title=Energy%20Surge&oldid=2743590",
+        "revisedAt": "2026-11-18T16:37:15Z",
+        "retrievedAt": "2026-11-23T03:54:08.855Z",
         "fields": [
           "description",
           "type",
@@ -4905,7 +4905,7 @@
               "Olaf Olafson",
               "Olafstead"
             ],
-            "text": "The Great Norn Alemoot (from Olrun Olafdottir in Varajar Fells or Olaf Olafson in Olafstead)"
+            "text": "The Great Norn Alemoot (from Olrun Olafdottir in Varajar Fells (male characters) or Olaf Olafson in Olafstead (female characters))"
           }
         ],
         "warnings": [],
@@ -4913,11 +4913,11 @@
         "reference": {
           "title": "Feel No Pain",
           "pageid": 58323,
-          "revid": 2732702,
+          "revid": 2743684,
           "url": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
-          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2732702",
-          "revisedAt": "2026-07-04T16:53:52Z",
-          "retrievedAt": "2026-11-13T01:07:59.988Z"
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2743684",
+          "revisedAt": "2026-11-22T23:49:03Z",
+          "retrievedAt": "2026-11-23T03:54:08.862Z"
         },
         "special": false,
         "capturable": false
@@ -4925,11 +4925,11 @@
       "wiki": {
         "title": "Feel No Pain",
         "pageid": 58323,
-        "revid": 2732702,
+        "revid": 2743684,
         "url": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
-        "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2732702",
-        "revisedAt": "2026-07-04T16:53:52Z",
-        "retrievedAt": "2026-11-13T01:07:59.988Z",
+        "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2743684",
+        "revisedAt": "2026-11-22T23:49:03Z",
+        "retrievedAt": "2026-11-23T03:54:08.862Z",
         "fields": [
           "description",
           "type",
@@ -11113,7 +11113,7 @@
         "sacrifice": "0",
         "overcast": "0",
         "description": "Elite Signet. All of your signets except Keystone Signet are recharged. For 20 seconds, the next 0…5…6 times you use a signet that targets a foe, all other foes adjacent to your target take 15…51…60 damage and are interrupted.",
-        "conciseDescription": "Elite Signet. (20 seconds.) Your next 0…5…6 signets interrupt Should be \"interrupts\" when it affects 1 signet and deal 15…51…60 damage to other foes adjacent to your target. Initial Effect: \"Effect\" is capitalized unlike most other descriptions with \"Initial effect\" recharges all of your other signets.",
+        "conciseDescription": "Elite Signet. (20 seconds.) Your next 0…5…6 signets interrupt and deal 15…51…60 damage to other foes adjacent to your target. Initial Effect: recharges all of your other signets.",
         "progression": [
           {
             "template": "Skill progression",
@@ -11444,7 +11444,7 @@
         "sacrifice": "0",
         "overcast": "0",
         "description": "Elite Hex Spell. For 10 seconds, target foe and all foes adjacent to your target take 5…21…25 damage each second. Foes using attack skills are Blinded for 3 seconds. This hex ends if you use a skill that targets this foe.",
-        "conciseDescription": "Elite Hex Spell. (10 seconds.) Deals 5…21…25 damage each second to target and adjacent foes. Inflicts Blindness Doesn't indicate Blindness duration on foes using attack skills. Ends if you use a skill that targets this foe.",
+        "conciseDescription": "Elite Hex Spell. (10 seconds.) Deals 5…21…25 damage each second to target and adjacent foes. Inflicts Blindness on foes using attack skills. Ends if you use a skill that targets this foe.",
         "progression": [
           {
             "template": "Skill progression",
@@ -12403,7 +12403,7 @@
         "sacrifice": "0",
         "overcast": "0",
         "description": "Elite Ward Spell. Create a Ward Against Harm at this location. For 5…13…15 seconds, non-spirit allies in this area have +1…3…3 health regeneration, +12…22…24 armor, and an additional +12…22…24 armor against elemental damage. This spell is disabled for 20 seconds.",
-        "conciseDescription": "Elite Ward Spell. the description starts with a second space after the skill type(5…13…15 seconds.) Allies in this ward have +1…3…3 Health regeneration, +12…22…24 armor, and +12…22…24 additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 20 seconds.",
+        "conciseDescription": "Elite Ward Spell. (5…13…15 seconds.) Allies in this ward have +1…3…3 Health regeneration, +12…22…24 armor, and +12…22…24 additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 20 seconds.",
         "progression": [
           {
             "template": "Skill progression",
@@ -20129,7 +20129,7 @@
         "sacrifice": "0",
         "overcast": "0",
         "description": "Elite Spell. Target touched foe and all foes in the area are struck for 7…91…112 fire damage and set on fire for 1…3…4 seconds. For each foe you hit, gain 2 Energy.",
-        "conciseDescription": "Elite Touch Spell. Deals 7…91…112 fire damage. Inflicts Burning (1…3…4 seconds). \"Seconds\" is plural even when it's \"1 second\" Gain 2 Energy for each foe struck. Also hits foes in the area.",
+        "conciseDescription": "Elite Touch Spell. Deals 7…91…112 fire damage. Inflicts Burning (1…3…4 seconds). Gain 2 Energy for each foe struck. Also hits foes in the area.",
         "progression": [
           {
             "template": "Skill progression",
@@ -29244,7 +29244,7 @@
     },
     "skill:3:52": {
       "englishName": "Healer's Boon",
-      "description": "Elite Enchantment Spell. For 10…46…55 seconds. a period is used instead of a comma Healing Prayers spells cast 50% faster and heal for 50% more Health.",
+      "description": "Elite Enchantment Spell. For 10…46…55 seconds. Healing Prayers spells cast 50% faster and heal for 50% more Health.",
       "descriptionLanguage": "en",
       "details": [
         "精英加持魔法",
@@ -29272,7 +29272,7 @@
         "upkeep": "0",
         "sacrifice": "0",
         "overcast": "0",
-        "description": "Elite Enchantment Spell. For 10…46…55 seconds. a period is used instead of a comma Healing Prayers spells cast 50% faster and heal for 50% more Health.",
+        "description": "Elite Enchantment Spell. For 10…46…55 seconds. Healing Prayers spells cast 50% faster and heal for 50% more Health.",
         "conciseDescription": "Elite Enchantment Spell. (10…46…55 seconds.) Healing Prayers spells cast 50% faster and heal for 50% more.",
         "progression": [
           {
@@ -37785,7 +37785,7 @@
     },
     "skill:3:125": {
       "englishName": "Cautery Signet",
-      "description": "Elite Signet. All party members lose all conditions. You are set on Fire \"Fire\" is capitalized, unlike other descriptions which state \"set on fire\" for 1 second for each condition removed in this way.",
+      "description": "Elite Signet. All party members lose all conditions. You are set on Fire for 1 second for each condition removed in this way.",
       "descriptionLanguage": "en",
       "details": [
         "精英纹章",
@@ -37813,7 +37813,7 @@
         "upkeep": "0",
         "sacrifice": "0",
         "overcast": "0",
-        "description": "Elite Signet. All party members lose all conditions. You are set on Fire \"Fire\" is capitalized, unlike other descriptions which state \"set on fire\" for 1 second for each condition removed in this way.",
+        "description": "Elite Signet. All party members lose all conditions. You are set on Fire for 1 second for each condition removed in this way.",
         "conciseDescription": "Elite Signet. All party members lose all conditions. You begin Burning (one second for each condition removed).",
         "progression": [],
         "acquisition": [
@@ -40051,7 +40051,7 @@
     },
     "skill:3:342": {
       "englishName": "Judgment Strike",
-      "description": "Elite Melee Attack. Attack target and adjacent foes. Each attack that hits deals +13…27…30 Holy damage for most skills, the \"h\" of holy is lowercase and knocks down attacking foes. PvE Skill",
+      "description": "Elite Melee Attack. Attack target and adjacent foes. Each attack that hits deals +13…27…30 Holy damage and knocks down attacking foes. PvE Skill",
       "descriptionLanguage": "en",
       "details": [
         "精英近身攻击技能 · 仅限 PvE",
@@ -40079,7 +40079,7 @@
         "upkeep": "0",
         "sacrifice": "0",
         "overcast": "0",
-        "description": "Elite Melee Attack. Attack target and adjacent foes. Each attack that hits deals +13…27…30 Holy damage for most skills, the \"h\" of holy is lowercase and knocks down attacking foes. PvE Skill",
+        "description": "Elite Melee Attack. Attack target and adjacent foes. Each attack that hits deals +13…27…30 Holy damage and knocks down attacking foes. PvE Skill",
         "conciseDescription": "Elite Melee Attack. Attacks target and adjacent foes for +13…27…30 Holy damage. Causes knock down on attacking foes. PvE Skill",
         "progression": [
           {
@@ -41743,7 +41743,7 @@
               "Olaf Olafson",
               "Olafstead"
             ],
-            "text": "The Great Norn Alemoot (from Olrun Olafdottir in Varajar Fells or Olaf Olafson in Olafstead)"
+            "text": "The Great Norn Alemoot (from Olrun Olafdottir in Varajar Fells (male characters) or Olaf Olafson in Olafstead (female characters))"
           }
         ],
         "warnings": [],
@@ -41751,11 +41751,11 @@
         "reference": {
           "title": "Feel No Pain",
           "pageid": 58323,
-          "revid": 2732702,
+          "revid": 2743684,
           "url": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
-          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2732702",
-          "revisedAt": "2026-07-04T16:53:52Z",
-          "retrievedAt": "2026-11-13T01:07:59.988Z"
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2743684",
+          "revisedAt": "2026-11-22T23:49:03Z",
+          "retrievedAt": "2026-11-23T03:54:08.862Z"
         },
         "special": false,
         "capturable": false
@@ -41763,11 +41763,11 @@
       "wiki": {
         "title": "Feel No Pain",
         "pageid": 58323,
-        "revid": 2732702,
+        "revid": 2743684,
         "url": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
-        "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2732702",
-        "revisedAt": "2026-07-04T16:53:52Z",
-        "retrievedAt": "2026-11-13T01:07:59.988Z",
+        "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2743684",
+        "revisedAt": "2026-11-22T23:49:03Z",
+        "retrievedAt": "2026-11-23T03:54:08.862Z",
         "fields": [
           "description",
           "type",
@@ -41954,18 +41954,18 @@
           },
           {
             "kind": "bug",
-            "text": "If you obtain a new skill (as a quest reward) you may equip it in any of the free slots and use it. After turning back to human form, you keep the skill but cannot use it until you swap it with another skill."
+            "text": "A new skill obtained (as a quest reward) while transformed may be used while in this form. After turning back to human form, the skill stays in the skill bar, but it becomes unusable until its position is swapped with another skill in the skills and attributes panel."
           }
         ],
         "unknownTemplates": false,
         "reference": {
           "title": "Ursan Blessing",
           "pageid": 58325,
-          "revid": 2742159,
+          "revid": 2743607,
           "url": "https://wiki.guildwars.com/wiki/Ursan_Blessing",
-          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ursan%20Blessing&oldid=2742159",
-          "revisedAt": "2026-10-03T18:03:50Z",
-          "retrievedAt": "2026-11-13T01:07:59.989Z"
+          "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ursan%20Blessing&oldid=2743607",
+          "revisedAt": "2026-11-19T18:26:48Z",
+          "retrievedAt": "2026-11-23T03:54:08.869Z"
         },
         "special": false,
         "capturable": false
@@ -41973,11 +41973,11 @@
       "wiki": {
         "title": "Ursan Blessing",
         "pageid": 58325,
-        "revid": 2742159,
+        "revid": 2743607,
         "url": "https://wiki.guildwars.com/wiki/Ursan_Blessing",
-        "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ursan%20Blessing&oldid=2742159",
-        "revisedAt": "2026-10-03T18:03:50Z",
-        "retrievedAt": "2026-11-13T01:07:59.989Z",
+        "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ursan%20Blessing&oldid=2743607",
+        "revisedAt": "2026-11-19T18:26:48Z",
+        "retrievedAt": "2026-11-23T03:54:08.869Z",
         "fields": [
           "description",
           "type",
@@ -43882,7 +43882,7 @@
         "sacrifice": "0",
         "overcast": "0",
         "description": "Enchantment Spell. For 24…30 seconds, your stances last 55…100% longer. If you activated this skill while drunk, you cannot be knocked down.",
-        "conciseDescription": "Enchantment Spell. (24…30 seconds.) Your stances last 55…100% longer. You cannot be knocked-down if you activated this skill while drunk . There's a space between 'drunk' and the period",
+        "conciseDescription": "Enchantment Spell. (24…30 seconds.) Your stances last 55…100% longer. You cannot be knocked-down if you activated this skill while drunk .",
         "progression": [
           {
             "template": "Skill progression max10",
@@ -46526,7 +46526,7 @@
         "sacrifice": "0",
         "overcast": "0",
         "description": "Elite Shout. For 3…13…15 seconds, all party members near you or near your pet deal +5…13…15 additional damage with attacks and gain +1…6…7 Health regeneration. PvE Skill",
-        "conciseDescription": "Elite Shout. (3…13…15 seconds.) All party members near you or your pet deal +5…13…15 damage Additional damage only applies to attacks and gain +1…6…7 Health regeneration. PvE Skill",
+        "conciseDescription": "Elite Shout. (3…13…15 seconds.) All party members near you or your pet deal +5…13…15 damage and gain +1…6…7 Health regeneration. PvE Skill",
         "progression": [
           {
             "template": "Skill progression",

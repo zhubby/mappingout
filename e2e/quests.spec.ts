@@ -12,9 +12,9 @@ const data:QuestCatalog=JSON.parse(fs.readFileSync('public/data/quests.json','ut
 const quest=(title:string)=>data.quests.find(q=>q.englishName===title)!;
 const url=(title:string)=>`/?view=quests&quest=${encodeURIComponent(quest(title).id)}`;
 async function createCharacter(page:Page,name:string){
-  await page.locator('.character-button').click();await page.getByLabel('角色名',{exact:true}).fill(name);
+  await page.locator('.character-button').click();await page.getByLabel('角色名稱',{exact:true}).fill(name);
   await page.getByRole('dialog').getByRole('button',{name:'建立探索者',exact:true}).click();
-  await page.getByRole('button',{name:'關閉彈窗'}).click();
+  await page.getByRole('button',{name:'關閉對話框'}).click();
 }
 async function readyWorker(page:Page){await page.evaluate(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise<void>(resolve=>navigator.serviceWorker.addEventListener('controllerchange',()=>resolve(),{once:true}));});}
 test('campaign and bilingual search persist while difficulty keeps the selected mission',async({page})=>{
@@ -23,10 +23,10 @@ test('campaign and bilingual search persist while difficulty keeps the selected 
   await selectOption(page.getByLabel('任務難度',{exact:true}),'hard');
   await expect(page.locator('.quest-title [lang=en]')).toHaveText('The Great Northern Wall');
   await expect(page).toHaveURL(/qMode=hard/);
-  await selectOption(page.getByLabel('攻略篇章',{exact:true}),'all');
+  await selectOption(page.getByLabel('篇章或故事',{exact:true}),'all');
   await page.getByLabel('搜尋任務',{exact:true}).fill('Cleansing Bukdek Byway');
   await expect(page.locator('.quest-title [lang=en]')).toHaveText('Cleansing Bukdek Byway (Hard mode)');
-  await page.reload();await expect(page.getByLabel('攻略篇章',{exact:true})).toHaveAttribute('data-value','all');
+  await page.reload();await expect(page.getByLabel('篇章或故事',{exact:true})).toHaveAttribute('data-value','all');
   const chinese=await page.locator('#quest-title').innerText();
   await page.getByLabel('搜尋任務',{exact:true}).fill(chinese.trim());
   await expect(page.locator('#quest-title')).toContainText(chinese.trim());
@@ -69,7 +69,7 @@ test('manual full preparation opens previously unvisited feature data offline',a
   const dialog=page.getByRole('dialog',{name:'離線資料準備'});
   await dialog.getByRole('button',{name:'開始離線準備'}).click();
   await expect(dialog.getByText('離線資料已準備完成。')).toBeVisible({timeout:100000});
-  await page.getByRole('button',{name:'關閉彈窗'}).click();
+  await page.getByRole('button',{name:'關閉對話框'}).click();
   await context.setOffline(true);
   await page.goto(url('The Great Northern Wall'));
   await expect(page.locator('.quest-article')).toBeVisible();
@@ -85,7 +85,7 @@ test('closing offline preparation cancels the worker task',async({page})=>{
   let dialog=page.getByRole('dialog',{name:'離線資料準備'});
   await dialog.getByRole('button',{name:'開始離線準備'}).click();
   await expect(dialog.getByRole('button',{name:'取消準備'})).toBeVisible();
-  await dialog.getByRole('button',{name:'關閉彈窗'}).click();
+  await dialog.getByRole('button',{name:'關閉對話框'}).click();
   await expect(dialog).toHaveCount(0);
   await open.click();
   dialog=page.getByRole('dialog',{name:'離線資料準備'});
@@ -109,20 +109,20 @@ test('character completion and bonus survive reload, isolate modes and round-tri
   const download=page.waitForEvent('download');await page.getByRole('button',{name:'資料備份',exact:true}).click();await page.getByRole('button',{name:/匯出個人資料/}).click();
   const backup=JSON.parse(fs.readFileSync((await (await download).path())!,'utf8'));
   expect(backup.version).toBe(3);expect(backup.data.questProgress).toHaveLength(1);
-  await page.getByRole('button',{name:'關閉彈窗'}).click();await createCharacter(page,'任務角色乙');
+  await page.getByRole('button',{name:'關閉對話框'}).click();await createCharacter(page,'任務角色乙');
   await expect(page.getByLabel('額外獎勵已完成',{exact:true})).not.toBeChecked();
   await page.getByLabel('匯入備份檔案').setInputFiles({name:'quests-v3.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
   await expect(page.getByRole('dialog')).toContainText('1 條任務記錄');
-  await page.getByRole('button',{name:'確認替換並恢復'}).click();await expect(page.getByLabel('額外獎勵已完成',{exact:true})).toBeChecked();
+  await page.getByRole('button',{name:'確認取代並還原'}).click();await expect(page.getByLabel('額外獎勵已完成',{exact:true})).toBeChecked();
 });
 test('master rewards and manually confirmed prerequisites belong to the selected character',async({page})=>{
   await page.goto(url('Minister Cho\'s Estate'));await expect(page.locator('#quest-title')).toBeVisible();await createCharacter(page,'大師記錄');
   await selectOption(page.getByLabel('任務獎勵等級',{exact:true}),'3');
   await expect(page.getByRole('button',{name:'已完成 · 撤銷',exact:true})).toBeVisible();
   await page.goto(url('Vizunah Square'));await page.locator('.quest-access>summary').click();
-  const condition=page.getByRole('combobox',{name:/確認領取條件/}).first();
+  const condition=page.getByRole('combobox',{name:/確認接取條件/}).first();
   await expect(condition).toHaveAttribute('data-value','');await selectOption(condition,'yes');await page.reload();
-  await page.locator('.quest-access>summary').click();await expect(page.getByRole('combobox',{name:/確認領取條件/}).first()).toHaveAttribute('data-value','yes');
+  await page.locator('.quest-access>summary').click();await expect(page.getByRole('combobox',{name:/確認接取條件/}).first()).toHaveAttribute('data-value','yes');
 });
 test('calendar and guides share the current rotation record without conflating permanent completion',async({page})=>{
   await page.clock.setFixedTime(new Date('2026-11-13T15:59:59Z'));await page.goto('/?view=calendar&cKind=mission');
@@ -180,5 +180,5 @@ test('a legacy resource set missing guides leaves the map and other tabs usable'
   await page.goto('/?view=quests');await expect(page.getByRole('alert')).toBeVisible();
   await expect(page.getByText('舊版離線資料包可能尚未包含任務攻略。')).toBeVisible();
   await page.getByRole('button',{name:'世界地圖',exact:true}).click();await expect(page.locator('.leaflet-container')).toBeVisible();
-  await page.getByRole('button',{name:'防具製作',exact:true}).click();await expect(page.getByRole('heading',{name:'防具製作',exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'護甲製作',exact:true}).click();await expect(page.getByRole('heading',{name:'護甲製作',exact:true})).toBeVisible();
 });

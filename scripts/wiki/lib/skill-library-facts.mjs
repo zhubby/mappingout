@@ -1,12 +1,17 @@
 /**
  * [INPUT]: 依赖固定技能页面、页面分类和成长模板。
- * [OUTPUT]: 提供可学习技能判定及逐等级成长表。
- * [POS]: 全技能编译的纯事实边界；不读取网络或个人记录。
+ * [OUTPUT]: 提供可学习技能判定、备注正文及逐等级成长表。
+ * [POS]: 全技能纯事实边界；备注隔离排序元数据，保留机制模板。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
-import {plainText,templates} from './wikitext.mjs';
+import {plainText,templates,section} from './wikitext.mjs';
 import {professions} from './skill-facts.mjs';
 import {wikiTables} from './tables.mjs';
+
+export function skillNotes(page) {
+ const notes=section(page.wikitext,'Notes').replace(/\{\{\s*DEFAULTSORT\s*:[^{}]*\}\}/gi,'');
+ return plainText(notes);
+}
 
 export function skillEligibility(page,categories=[]) {
  const fields=templates(page.wikitext,'Skill infobox')[0]?.fields;

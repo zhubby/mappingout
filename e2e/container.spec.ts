@@ -21,9 +21,9 @@ test('HTTP without secure-context Crypto APIs loads data and saves character pro
   await page.goto('/?kind=skill&q=' + encodeURIComponent('劈擊'));
   await expect(page.getByRole('heading', { name: '無法開啟探索志', exact: true })).toHaveCount(0);
   await page.getByRole('button', { name: '建立探索者', exact: true }).click();
-  await page.getByRole('textbox', { name: '角色名' }).fill('HTTP 探索者');
+  await page.getByRole('textbox', { name: '角色名稱' }).fill('HTTP 探索者');
   await page.getByRole('button', { name: '建立探索者', exact: true }).last().click();
-  await page.getByRole('button', { name: '關閉彈窗' }).click();
+  await page.getByRole('button', { name: '關閉對話框' }).click();
   await page.locator('.result').first().click();
   await page.getByRole('button', { name: '標記已捕獲', exact: true }).click();
   await expect(page.locator('.character-summary small')).toHaveText('已記錄 1 個技能');
@@ -79,9 +79,9 @@ test('character progress survives container recreation at the same origin', asyn
 
   await page.goto('/?kind=skill&q=' + encodeURIComponent('劈擊'));
   await page.getByRole('button', { name: '建立探索者', exact: true }).click();
-  await page.getByRole('textbox', { name: '角色名' }).fill('容器重建後的探索者');
+  await page.getByRole('textbox', { name: '角色名稱' }).fill('容器重建後的探索者');
   await page.getByRole('button', { name: '建立探索者', exact: true }).last().click();
-  await page.getByRole('button', { name: '關閉彈窗' }).click();
+  await page.getByRole('button', { name: '關閉對話框' }).click();
   await page.locator('.result').first().click();
   await page.getByRole('button', { name: '標記已捕獲', exact: true }).click();
   await expect(page.locator('.character-summary small')).toHaveText('已記錄 1 個技能');

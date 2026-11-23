@@ -312,7 +312,7 @@
     {
       "id": "skill:0:21",
       "title": "Energy Surge",
-      "revid": 2731241,
+      "revid": 2743590,
       "identity": "英文技能名称 / 描述、技能图标独立比对一致",
       "iconError": 10.508,
       "translated": true,
@@ -432,7 +432,7 @@
     {
       "id": "skill:0:293",
       "title": "Feel No Pain",
-      "revid": 2732702,
+      "revid": 2743684,
       "identity": "旧核心条目没有图片；与四章 Feel No Pain 的同名说明、效果与冷却一致，保留两个旧 ID。",
       "translated": false,
       "changedFields": [
@@ -4107,7 +4107,7 @@
     {
       "id": "skill:4:293",
       "title": "Feel No Pain",
-      "revid": 2732702,
+      "revid": 2743684,
       "identity": "英文技能名称 / 描述、技能图标独立比对一致",
       "iconError": 40.206,
       "translated": false,
@@ -4135,7 +4135,7 @@
     {
       "id": "skill:4:295",
       "title": "Ursan Blessing",
-      "revid": 2742159,
+      "revid": 2743607,
       "identity": "英文技能名称 / 描述、技能图标独立比对一致",
       "iconError": 0,
       "translated": false,

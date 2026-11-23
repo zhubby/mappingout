@@ -6386,6 +6386,27 @@
       "bytes": 13792
     },
     {
+      "id": "image:320502",
+      "title": "File:Elemental Keystone to Crystal Gate.png",
+      "file": "assets/quests/320502-1330bd37c1f1.webp",
+      "reference": {
+        "title": "File:Elemental Keystone to Crystal Gate.png",
+        "pageid": 320502,
+        "revid": 2727636,
+        "url": "https://wiki.guildwars.com/wiki/File:Elemental_Keystone_to_Crystal_Gate.png",
+        "revisionUrl": "https://wiki.guildwars.com/index.php?title=File%3AElemental%20Keystone%20to%20Crystal%20Gate.png&oldid=2727636",
+        "revisedAt": "2026-05-07T21:30:02Z",
+        "retrievedAt": "2026-11-23T04:18:34.293Z"
+      },
+      "originalUrl": "https://wiki.guildwars.com/images/a/a0/Elemental_Keystone_to_Crystal_Gate.png",
+      "originalSha1": "e0fc9191e6bcc8840ded3ff1a77b39bb310e11d2",
+      "uploadedAt": "2026-05-07T21:30:01Z",
+      "licenseDeclaration": "Map showing how to get to the 2nd floor for the dungeon",
+      "modification": "Scaled to fit 1600 by 1600 pixels and encoded as WebP, quality 88.",
+      "sha256": "937ac723ea618bcb8e9f02788cf148139a0db17128cbef16d93d2160ab3e1a8f",
+      "bytes": 12258
+    },
+    {
       "id": "image:142915",
       "title": "File:Elemental Knowledge map.jpg",
       "file": "assets/quests/142915-6f50d3581518.webp",
@@ -21401,6 +21422,27 @@
       "bytes": 42762
     },
     {
+      "id": "image:320500",
+      "title": "File:The_long_long_way.png",
+      "file": "assets/quests/320500-789b80b11288.webp",
+      "reference": {
+        "title": "File:The long long way.png",
+        "pageid": 320500,
+        "revid": 2727627,
+        "url": "https://wiki.guildwars.com/wiki/File:The_long_long_way.png",
+        "revisionUrl": "https://wiki.guildwars.com/index.php?title=File%3AThe%20long%20long%20way.png&oldid=2727627",
+        "revisedAt": "2026-05-07T21:06:10Z",
+        "retrievedAt": "2026-11-23T04:18:34.346Z"
+      },
+      "originalUrl": "https://wiki.guildwars.com/images/8/8d/The_long_long_way.png",
+      "originalSha1": "3814b123e52eeea2f20279055d685853b8086253",
+      "uploadedAt": "2026-05-07T21:06:10Z",
+      "licenseDeclaration": "Route to Duke Willgrove on the 2nd floor",
+      "modification": "Scaled to fit 1600 by 1600 pixels and encoded as WebP, quality 88.",
+      "sha256": "dfebb79e18707d59ae1e054946275353ca4cc49faa74018fdf4ba62e6decda93",
+      "bytes": 14856
+    },
+    {
       "id": "image:262092",
       "title": "File:The_Ranger's_Companion_map.jpg",
       "file": "assets/quests/262092-c5400c56df3e.webp",
@@ -22218,6 +22260,27 @@
       "modification": "Scaled to fit 1600 by 1600 pixels and encoded as WebP, quality 88.",
       "sha256": "55a188b290874c4e3bd5676eee92a038d6b8eb9e38beb91377d6fc55ccc7b553",
       "bytes": 31456
+    },
+    {
+      "id": "image:320504",
+      "title": "File:Tunnels floor 2 to 3.png",
+      "file": "assets/quests/320504-df984cb5d08e.webp",
+      "reference": {
+        "title": "File:Tunnels floor 2 to 3.png",
+        "pageid": 320504,
+        "revid": 2727650,
+        "url": "https://wiki.guildwars.com/wiki/File:Tunnels_floor_2_to_3.png",
+        "revisionUrl": "https://wiki.guildwars.com/index.php?title=File%3ATunnels%20floor%202%20to%203.png&oldid=2727650",
+        "revisedAt": "2026-05-07T22:02:05Z",
+        "retrievedAt": "2026-11-23T04:18:34.347Z"
+      },
+      "originalUrl": "https://wiki.guildwars.com/images/d/d9/Tunnels_floor_2_to_3.png",
+      "originalSha1": "e9df74fc7452aeeeee67a59072162d9a956643df",
+      "uploadedAt": "2026-05-07T22:02:05Z",
+      "licenseDeclaration": "Route from the start of floor 2 to the exits of floor 3",
+      "modification": "Scaled to fit 1600 by 1600 pixels and encoded as WebP, quality 88.",
+      "sha256": "4877a8ef2a5c587036797ca68cf40538215f3b072dc48252393868f5059fe489",
+      "bytes": 14940
     },
     {
       "id": "image:12908",

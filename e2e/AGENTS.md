@@ -15,4 +15,7 @@ skills.spec.ts: 繁体查询提示、点数及称号检索、成长、任务跳�
 desktop-updates.fixture.ts: 测试 IPC、检查就绪与进度事件；保留真实界面和 IndexedDB。
 desktop-updates.spec.ts: 更新弹窗、聚焦延迟、任务备份屏障与延期启动回归。
 
+界面定位器与断言跟随繁英审校措辞。
+简体查询用例保留旧名称与语法兼容验证。
+
 [PROTOCOL]: Update this header on change, then check AGENTS.md

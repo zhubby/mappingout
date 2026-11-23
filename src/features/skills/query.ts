@@ -1,6 +1,6 @@
 /**
  * [INPUT]: 依赖简繁英查询别名、点数单位及技能版本契约。
- * [OUTPUT]: 提供含科学计数值的查询及版本内效果分项匹配。
+ * [OUTPUT]: 提供科学计数值查询、效果别名与版本内分项匹配。
  * [POS]: 技能高级检索的纯规则；不执行用户输入或网络请求。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -119,7 +119,7 @@ function evaluate(node:Node,skill:LibrarySkill,variant:SkillVariant,options:Skil
  else if(field==='metric')found=!!effect&&(effect.metric===canonical(value)||(canonical(value)==='damage'&&effect.metric==='bonus-damage'));
  else if(field==='unit'||field==='scope')found=!!effect&&effect[field]===canonical(value);
  else if(field==='label')found=!!effect&&normalizeSkillText([effect.label,originalOf(effect).label,effect.condition].join(' ')).includes(needle);
- else if(field==='effect'||field==='tag')found=[...variant.tags,...raw.tags].some(tag=>canonical(tag)===canonical(value)||normalizeSkillText(tag).includes(needle));
+ else if(field==='effect'||field==='tag')found=[...variant.tags,...raw.tags].some(tag=>canonical(tag).includes(canonical(value)));
  else if(field==='id')found=[skill.id,variant.id,...variant.gameIds.map(String),...skill.legacyEntryIds].includes(value);
  else if(field==='name')found=normalizeSkillText([skill.name,skill.englishName,variant.name,variant.englishName,...skill.searchAliases||[]].join(' ')).includes(needle);
  else if(field==='source')found=normalizeSkillText([...variant.acquisition,...raw.acquisition].flatMap(a=>[a.method,a.title,a.text,...a.areas]).join(' ')).includes(needle);

@@ -1,5 +1,5 @@
 /**
- * [INPUT]: 依赖技能发现证据、固定页面、成长模板与图像清单。
+ * [INPUT]: 依赖技能发现、固定页面、备注隔离、成长模板与图像清单。
  * [OUTPUT]: 生成独立技能百科和逐项收录、排除及数值覆盖报告。
  * [POS]: 全技能离线编译入口；保留旧地图技能身份与进度。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
@@ -11,7 +11,7 @@ import {web,evidenceDir,readIndex,loadPage} from '../lib/client.mjs';
 import {templates,plainText,section,links} from '../lib/wikitext.mjs';
 import {skillFacts} from '../lib/skill-facts.mjs';
 import {reference} from '../lib/content-facts.mjs';
-import {compileGrowth,skillEligibility} from '../lib/skill-library-facts.mjs';
+import {compileGrowth,skillEligibility,skillNotes} from '../lib/skill-library-facts.mjs';
 import {compileEffects,resourcesOf,tagsOf} from '../lib/skill-effects.mjs';
 const read=async file=>JSON.parse(await fs.readFile(path.join(web,file),'utf8'));
 const discovery=await read('data/wiki/skill-library-discovery.json'),index=await readIndex(),legacy=await read('public/data/catalog.json');
@@ -39,7 +39,7 @@ for(const candidate of discovery.candidates){
  const image=media.skills.find(image=>image.pageid===page.pageid)?.file||'';
  const modes=pvp?['pvp']:facts.pveOnly||facts.hasPvp?['pve']:['pve','pvp'];
  const variant={id:variantId,name:page.title,englishName:page.title,...(/\(Codex\)$/.test(page.title)?{format:'codex'}:{}),gameIds:facts.gameIds,modes,profession:facts.profession,attribute:facts.attribute,campaigns:[...new Set([box.campaign||'Core',box.campaign2].filter(Boolean).map(c=>campaignIds[plainText(c)]).filter(c=>c!==undefined))],type:facts.type,elite:facts.elite,pveOnly:facts.pveOnly,image,
-  description:facts.description,conciseDescription:facts.conciseDescription,...content,resources:resourcesOf(box),target:plainText(box.target||''),range:plainText(box.range||''),aoe:plainText(box.aoe||''),tags:tagsOf(box,categories,facts.description),acquisition:acquisitionFacts.acquisition.map(({raw,...source})=>{const titles=links(raw).map(l=>l.title),questId=titles.map(title=>questByTitle.get(title)).find(Boolean),zoneIds=[...new Set(titles.map(title=>zoneByTitle.get(title)).filter(Boolean))];return {...source,reference:reference(acquisitionPage),...(questId?{questId}:{}),...(zoneIds.length?{zoneIds}:{})};}),notes:[plainText(section(page.wikitext,'Notes')),...facts.warnings.map(w=>`${w.kind}: ${w.text}`)].filter(Boolean),related:[],reference:ref};
+  description:facts.description,conciseDescription:facts.conciseDescription,...content,resources:resourcesOf(box),target:plainText(box.target||''),range:plainText(box.range||''),aoe:plainText(box.aoe||''),tags:tagsOf(box,categories,facts.description),acquisition:acquisitionFacts.acquisition.map(({raw,...source})=>{const titles=links(raw).map(l=>l.title),questId=titles.map(title=>questByTitle.get(title)).find(Boolean),zoneIds=[...new Set(titles.map(title=>zoneByTitle.get(title)).filter(Boolean))];return {...source,reference:reference(acquisitionPage),...(questId?{questId}:{}),...(zoneIds.length?{zoneIds}:{})};}),notes:[skillNotes(page),...facts.warnings.map(w=>`${w.kind}: ${w.text}`)].filter(Boolean),related:[],reference:ref};
  if(!variant.description||!variant.gameIds.length)throw Error(`Incomplete learnable skill: ${page.title}`);
  rawRelated.set(variantId,[...templates(section(page.wikitext,'Related skills')).filter(t=>/^(skill icon|duplicate skill icon)$/i.test(t.name)).flatMap(t=>[t.fields[1],...(t.name.toLowerCase()==='duplicate skill icon'?[t.fields[2]]:[])]),...links(section(page.wikitext,'Related skills')).map(l=>l.title)].filter(Boolean));
  const group=groups.get(id)||{id,name:base.title,englishName:base.title,reference:reference(base),legacyEntryIds:legacy.records.filter(r=>r.kind==='skill'&&r.englishName===base.title).map(r=>r.id),variants:[]};

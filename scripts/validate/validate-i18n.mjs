@@ -1,6 +1,6 @@
 /**
- * [INPUT]: 依赖繁英资料、固定中英文证据、来源记录与字体许可。
- * [OUTPUT]: 校验字段覆盖、术语污染、内容哈希与正式发布审校门禁。
+ * [INPUT]: 依赖繁英资料、固定证据、逐文本校对与字体许可。
+ * [OUTPUT]: 校验字段、动态效果身份、内容哈希与正式发布审校门禁。
  * [POS]: 本地和正式构建共用的双语验证入口。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -12,6 +12,7 @@ import path from 'node:path';
 import {contentFields,datasets} from '../../src/i18n/content-fields.ts';
 import {numericIssues,translationReviewMatches} from '../i18n/english-source.mjs';
 import {extractChineseTerms} from '../i18n/chinese-sources.mjs';
+import {loadProofreading,proofreadText,assertDynamicTokens} from '../i18n/proofreading.mjs';
 const hash=value=>createHash('sha256').update(value).digest('hex');
 export function validateI18n(root=projectRoot,release=false){
  const read=file=>fs.readFileSync(path.join(root,file),'utf8');
@@ -26,6 +27,9 @@ export function validateI18n(root=projectRoot,release=false){
  }
  const review=json('data/i18n/review.json').reviews;
  const provenance=json('data/i18n/zh-TW-provenance.json');
+ let proofreading=new Map();
+ try{proofreading=loadProofreading(path.join(root,'data/i18n/proofreading'));}catch(error){errors.push(error.message);}
+ const proofreadFields=new Set();
  const pages=[...json('data/i18n/chinese-sources.json').pages,...json('data/i18n/huiji-sources.json').pages];
  for(const page of pages){
   const text=page.captureKind==='rendered-table-transcription'?JSON.stringify(page.observedTerms):page.wikitext;
@@ -67,6 +71,14 @@ export function validateI18n(root=projectRoot,release=false){
       if([...text.matchAll(/[A-Za-z][A-Za-z'-]*/g)].some(match=>!allowed.has(match[0])))stats.mixedLanguage++;
     }
     const source=baseline.fields[field.key];
+    if(source)try{assertDynamicTokens(source.text,text);}catch(error){errors.push(`${error.message}: ${locale}/${dataset}/${field.key}`);}
+    if(locale==='zh-TW')try{
+      const correction=proofreadText(proofreading,dataset,field.key,source);
+      if(correction){
+        proofreadFields.add(`${dataset}/${field.key}`);
+        if(text!==correction.text)errors.push(`Proofread text differs: ${dataset}/${field.key}`);
+      }
+    }catch(error){errors.push(error.message);}
     if(source&&(source.legacyHash!==hash(field.source)||source.englishHash!==hash(source.text)||source.evidenceHash!==hash(JSON.stringify(source.references))))errors.push(`Stale Wiki field: ${dataset}/${field.key}`);
     if(locale==='en'&&source&&text!==source.text)errors.push(`English differs from Wiki baseline: ${dataset}/${field.key}`);
     const record=review[`${locale}/${dataset}/${field.key}`];
@@ -79,6 +91,7 @@ export function validateI18n(root=projectRoot,release=false){
    }
   }
  }
+ if(proofreadFields.size!==proofreading.size)errors.push('Proofreading includes stale or obsolete fields');
  if(release){
   const current=json('data/i18n/wiki-current-revisions.json');
   const referenceHash=hash(JSON.stringify([...wikiReferences.values()].sort((a,b)=>a.pageid-b.pageid)));

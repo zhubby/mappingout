@@ -1,7 +1,7 @@
 /**
  * [INPUT]: 依赖固定 Wiki 文本与模板、链接语法。
  * [OUTPUT]: 提供顶层切分、模板字段、纯文本、分节与链接。
- * [POS]: Wiki 采集和事实编译的基础解析层；未知模板保留原文。
+ * [POS]: Wiki 事实编译基础层；排除 sic 提示，保留未知机制模板。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 export function splitTopLevel(text, delimiter = '|') {
@@ -56,7 +56,8 @@ export function plainText(value = '') {
         const range = name === 'gr' ? `${a}…${Math.round(a + 12 * (b - a) / 15)}…${b}` : `${p[1]}…${p[2]}`;
         replacement = `${['+', '-'].includes(p[3]) ? p[3] : ''}${range}${p[4] === '%' ? '%' : ''}`;
       } else if (/^\d+\/\d+$/.test(name)) { const [a, b] = name.split('/').map(Number); replacement = String(a / b); }
-      else if (['gray', 'grey', 'sic', 'skill icon', 'monster skill icon', 'item icon', 'npc icon'].includes(name)) replacement = p[1] || '';
+      else if (name === 'sic') replacement = '';
+      else if (['gray', 'grey', 'skill icon', 'monster skill icon', 'item icon', 'npc icon'].includes(name)) replacement = p[1] || '';
       else if (name === '!' || name === 'pipe') replacement = '|';
       else if (name === 'anomaly' || name === 'bug' || name === 'note') replacement = p[1] || '';
       else if (professionIcons[name]) replacement = professionIcons[name];

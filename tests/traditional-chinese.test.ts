@@ -53,6 +53,12 @@ it('accepts every displayed attribute and title name as a query alias',()=>{
     expect(expected.length).toBeGreaterThan(0);
     expect(searchSkills(data,`屬性:${name}`,options).map(m=>m.skill.id)).toEqual(expected.map(m=>m.skill.id));
   }
+  for(const [name,metric] of [['再生','regeneration'],['衰減','degeneration'],['體力竊取','life-steal']]){
+    const expected=searchSkills(data,`${metric}>=1`,options).map(m=>m.skill.id);
+    expect(expected.length).toBeGreaterThan(0);
+    expect(searchSkills(data,`${name}>=1`,options).map(m=>m.skill.id)).toEqual(expected);
+    expect(searchSkills(data,`效果:${name}`,options).map(m=>m.skill.id)).toEqual(searchSkills(data,`effect:${metric}`,options).map(m=>m.skill.id));
+  }
 });
 it('transfers honest source status and old aliases across the worker clone boundary',()=>{
   const original={skills:[{id:'s',name:'旧译名',englishName:'Example',variants:[]}]};

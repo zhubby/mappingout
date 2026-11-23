@@ -10,7 +10,7 @@ desktop-resources.md: 签名资源、繁体兼容范围、缓存、离线导入�
 desktop-updates.md: 程序自动检查、缓存、延期与安装屏障。
 desktop.md: 客户端开发、备份、版本与发布入口。
 dropdown-menus.md: 全应用自定义菜单的责任边界与键盘行为。
-i18n.md: 繁体迁移、中文 Wiki 证据、待审边界与离线语言契约。
+i18n.md: 繁体证据、逐文本校对绑定、待审边界与离线语言契约。
 map-legend.md: 左上角职业图例按钮、两行五列浮框与验证边界。
 project-structure.md: 工程目录、依赖边界、命令入口与兼容约束。
 quest-guides.md: 任务覆盖、来源缺口、角色进度、全量离线准备及 v3 迁移。

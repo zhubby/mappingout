@@ -16,7 +16,7 @@ test('download survives settings closure; Escape defers and next startup backs u
   await page.evaluate(() => (window as any).qa.emit({phase:'downloading', downloaded:40, total:100}));
   await expect(page.getByRole('progressbar', {name:'下載進度'})).toHaveAttribute('value', '40');
   await page.getByLabel('用戶端設定').click();
-  await page.getByLabel('關閉彈窗').click();
+  await page.getByLabel('關閉對話框').click();
   await finishCheck(page);
   const dialog = page.getByRole('dialog', {name:'新版本已準備好'});
   await expect(dialog).toBeVisible();
@@ -29,9 +29,9 @@ test('download survives settings closure; Escape defers and next startup backs u
   await page.screenshot({path:testInfo.outputPath('update-ready.png')});
   await page.keyboard.press('Escape');
   await expect(dialog).toHaveCount(0);
-  await expect(page.getByText('新版本 1.3.0 將在下次開啟應用時安裝。')).toBeVisible();
+  await expect(page.getByText('新版本 1.3.0 將在下次開啟應用程式時安裝。')).toBeVisible();
   await page.getByLabel('用戶端設定').click();
-  await page.getByLabel('關閉彈窗').click();
+  await page.getByLabel('關閉對話框').click();
   await expect(dialog).toHaveCount(0);
   await page.reload();
   await expect.poll(() => updateActions(page)).toEqual([{command:'desktop_update_status'}, {command:'desktop_update_install'}]);
@@ -43,12 +43,12 @@ test('finishing a download waits for character editing and immediate installatio
   await nativeBridge(page);
   await page.goto('/');
   await page.getByRole('button', {name:'建立探索者', exact:true}).click();
-  await page.getByRole('textbox', {name:'角色名'}).fill('更新前的探索者');
+  await page.getByRole('textbox', {name:'角色名稱'}).fill('更新前的探索者');
   await finishCheck(page);
   await expect(page.getByRole('dialog', {name:'新版本已準備好'})).toHaveCount(0);
   await page.getByRole('button', {name:'建立探索者', exact:true}).last().click();
-  await expect(page.getByRole('textbox', {name:'角色名'})).toHaveValue('');
-  await page.getByLabel('關閉彈窗').click();
+  await expect(page.getByRole('textbox', {name:'角色名稱'})).toHaveValue('');
+  await page.getByLabel('關閉對話框').click();
   await page.getByRole('button', {name:'立即重啟更新', exact:true}).click();
   await expect.poll(async () => (await updateActions(page)).at(-1)?.command).toBe('desktop_update_install');
   const actions = await page.evaluate(() => (window as any).qa.actions);
@@ -74,10 +74,10 @@ test('installation backup includes committed quest rewards and character conditi
   await expect(page.locator('#quest-title')).toBeVisible();
   await expect.poll(() => updateActions(page)).toHaveLength(2);
   await page.getByRole('button', {name:'建立探索者', exact:true}).click();
-  await page.getByRole('textbox', {name:'角色名'}).fill('任務更新備份');
+  await page.getByRole('textbox', {name:'角色名稱'}).fill('任務更新備份');
   await page.getByRole('dialog').getByRole('button', {name:'建立探索者', exact:true}).click();
-  await expect(page.getByRole('textbox', {name:'角色名'})).toHaveValue('');
-  await page.getByLabel('關閉彈窗').click();
+  await expect(page.getByRole('textbox', {name:'角色名稱'})).toHaveValue('');
+  await page.getByLabel('關閉對話框').click();
   await page.locator('.quest-character-settings>summary').click();
   await selectOption(page.getByLabel('角色主職業', {exact:true}), '1');
   await expect(page.getByLabel('角色主職業', {exact:true})).toHaveAttribute('data-value', '1');
@@ -136,7 +136,7 @@ test('closing a focused editor with Escape releases the delayed update prompt', 
   await nativeBridge(page);
   await page.goto('/');
   await page.getByRole('button', {name:'建立探索者', exact:true}).click();
-  await page.getByRole('textbox', {name:'角色名'}).fill('尚未提交');
+  await page.getByRole('textbox', {name:'角色名稱'}).fill('尚未提交');
   await finishCheck(page);
   await page.keyboard.press('Escape');
   await expect(page.getByRole('dialog', {name:'新版本已準備好'})).toBeVisible();
@@ -149,7 +149,7 @@ test('failed backup prevents installation and the user can retry from client set
   await finishCheck(page);
   await page.evaluate(() => { (window as any).qa.backupFailure = true; });
   await page.getByRole('button', {name:'立即重啟更新', exact:true}).click();
-  await expect(page.getByText('更新未完成，可繼續使用當前版本，並在客戶端設定中重試。')).toBeVisible();
+  await expect(page.getByText('更新未完成，可繼續使用目前版本，並在用戶端設定中重試。')).toBeVisible();
   expect((await updateActions(page)).some((action: any) => action.command === 'desktop_update_install')).toBe(false);
   await page.evaluate(() => { (window as any).qa.backupFailure = false; });
   await page.getByLabel('用戶端設定').click();
@@ -163,7 +163,7 @@ test('interrupted installation keeps the app available without automatic check o
   await nativeBridge(page, {phase:'error', version:'1.3.0', error:'updates.interrupted'});
   await page.goto('/');
   await expect(page.getByLabel('用戶端設定')).toBeVisible();
-  await expect(page.getByText('上次更新未完成，請手動重試；當前版本仍可使用。')).toBeVisible();
+  await expect(page.getByText('上次更新未完成，請手動重試；目前版本仍可使用。')).toBeVisible();
   expect(await updateActions(page)).toEqual([{command:'desktop_update_status'}]);
   await page.getByLabel('用戶端設定').click();
   await page.getByRole('button', {name:'檢查更新', exact:true}).click();

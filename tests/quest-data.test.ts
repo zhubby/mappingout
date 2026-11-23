@@ -1,12 +1,12 @@
 /**
  * [INPUT]: 依赖固定任务资料、Wiki 解析器与部署验证器。
- * [OUTPUT]: 验证主线分支、攻略复用、清剿身份和安全内容转换。
+ * [OUTPUT]: 验证主线分支、攻略复用、奖励比较符与同级分节边界。
  * [POS]: 任务资料语义回归；不以界面快照替代来源校验。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import fs from 'node:fs';
 import {describe,expect,it} from 'vitest';
-import {cleanQuestText,contentBlocks,mapTitles} from '../scripts/wiki/lib/quest-content.mjs';
+import {cleanQuestText,contentBlocks,mapTitles,questSections} from '../scripts/wiki/lib/quest-content.mjs';
 import {validateQuestData} from '../scripts/validate/validate-quests.mjs';
 import type {QuestCatalog,QuestRequirement} from '../src/shared/contracts/quests';
 const data:QuestCatalog=JSON.parse(fs.readFileSync('public/data/quests.json','utf8'));
@@ -47,6 +47,70 @@ describe('pinned quest evidence',()=>{
   });
 });
 describe('safe quest text conversion',()=>{
+  it('preserves both reward comparison operators from the pinned Vizunah Square template',()=>{
+    const page=JSON.parse(fs.readFileSync('data/wiki/pages/10990.json','utf8'));
+    const rewards=questSections(page).find(section=>section.id==='rewards-1')!;
+    expect(rewards.blocks.map(block=>block.text)).toEqual([
+      'Campaign: Factions',
+      'Objective: Completion time',
+      'Normal mode — Standard objective: > 30 minutes',
+      "Normal mode — Expert's objective: 25 - 30 minutes",
+      "Normal mode — Master's objective: < 25 minutes",
+      'Hard mode — Standard objective: > 40 minutes',
+      "Hard mode — Expert's objective: 35 - 40 minutes",
+      "Hard mode — Master's objective: < 35 minutes",
+    ]);
+  });
+  it('keeps mathematical comparisons and decodes HTML comparison entities while removing real tags',()=>{
+    expect(cleanQuestText('Normal < 25 minutes; hard > 40 minutes.')).toBe('Normal < 25 minutes; hard > 40 minutes.');
+    expect(cleanQuestText('<a href="/wiki/Time">Time</a>: &lt;25 or &gt;40; &#60;30 or &#62;50; &#x3c;35 or &#x3E;45.')).toBe('Time: <25 or >40; <30 or >50; <35 or >45.');
+    expect(cleanQuestText('<span>Health</span> &le;50% and &ge;20%.')).toBe('Health ≤50% and ≥20%.');
+  });
+  it('separates the pinned Sentimental Treasures overview from its access condition',()=>{
+    const page=JSON.parse(fs.readFileSync('data/wiki/pages/14617.json','utf8'));
+    const sections=questSections(page),requirements=sections.find(section=>section.id==='requirements-1')!;
+    expect(requirements.blocks.map(block=>block.text)).toEqual(['Canthan (Factions) character']);
+    const overview=sections.find(section=>section.id==='overview-1')!;
+    expect(overview.title).toBe('Overview');
+    expect(overview.blocks[0].text).toContain('Miller Quang, a resident of the area');
+  });
+  it('retains early skill grants as a separate reward section from the pinned Talon quest',()=>{
+    const page=JSON.parse(fs.readFileSync('data/wiki/pages/25378.json','utf8'));
+    const sections=questSections(page),benefits=sections.find(section=>section.title==='Early benefits')!;
+    expect(benefits.id).toMatch(/^benefits-/);
+    expect(benefits.blocks.map(block=>block.text)).toEqual(['Healing Signet','Power Attack','Sever Artery']);
+    expect(sections.find(section=>section.id==='objectives-1')!.blocks.some(block=>block.text==='Healing Signet')).toBe(false);
+  });
+  it('removes editorial sic annotations before expanding quest prose',()=>{
+    expect(cleanQuestText('Bring your charcter{{sic|character}} to the gate.')).toBe('Bring your charcter to the gate.');
+  });
+  it('keeps nested Bonus dialogue out of the pinned Riverside Province guide',()=>{
+    const page=JSON.parse(fs.readFileSync('data/wiki/pages/12264.json','utf8'));
+    const sections=questSections(page);
+    expect(sections.some(section=>section.id.startsWith('bonus'))).toBe(false);
+    const walkthrough=sections.find(section=>section.id==='walkthrough-1')!;
+    expect(walkthrough.blocks.some(block=>block.kind==='heading'&&block.text==='Bonus')).toBe(true);
+    expect(sections.flatMap(section=>section.blocks).some(block=>block.text.includes('You must be more discreet'))).toBe(false);
+  });
+  it('removes the split-closing editorial comment from the pinned burning forest notes',()=>{
+    const page=JSON.parse(fs.readFileSync('data/wiki/pages/67503.json','utf8'));
+    const notes=questSections(page).flatMap(section=>section.blocks).map(block=>block.text).join(' ');
+    expect(notes).not.toContain('<!--');
+    expect(notes).not.toContain('although this is true about all animation');
+    expect(notes).toContain('This requires a full reset from a outpost.');
+  });
+  it('preserves the qualification and verification alert from the pinned Titan Source update',()=>{
+    const page=JSON.parse(fs.readFileSync('data/wiki/pages/11215.json','utf8'));
+    const line=page.wikitext.split('\n').find(line=>line.includes('Singe the Malevolent')&&line.includes('{{verify}}'))!;
+    expect(cleanQuestText(line)).toContain('requires Hard Mode and Nightfall');
+    expect(cleanQuestText(line)).toContain('[Source claim needs verification]');
+    expect(cleanQuestText('A claim.{{verify|editorial testing request}}')).toBe('A claim.[Source claim needs verification]');
+  });
+  it('only attaches deeper unknown headings to the current section',()=>{
+    const sections=questSections({wikitext:'==Mission information==\n===Requirements===\n* Reach level 10.\n====Additional detail====\nBring a key.\n===Background===\nA story, not an access condition.\n===Objectives===\n* Enter the gate.'});
+    expect(sections[0].blocks.map(block=>block.text)).toEqual(['Reach level 10.','Additional detail','Bring a key.']);
+    expect(sections[0].blocks.some(block=>block.text.includes('story'))).toBe(false);
+  });
   it('extracts template maps and gallery routes without leaking gallery markup into prose',()=>{
     const page={title:'The Great Northern Wall',wikitext:'{{Mission infobox\n| name = The Great Northern Wall\n}}\nA route.\n<gallery>\nFile:Northern wall carto north.jpg|Northern exploration route\nFile:ShrineWhereTheSearingIsCastPost.jpg|A landmark\n</gallery>'};
     expect(mapTitles(page)).toEqual(expect.arrayContaining(['File:The Great Northern Wall map.jpg','File:Northern wall carto north.jpg']));

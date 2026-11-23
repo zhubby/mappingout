@@ -10,7 +10,7 @@ content-fields.ts: 稳定实体路径与可翻译字段提取。
 attributes.ts: 属性标识、别名与语言标签。
 attribute-labels.json: 属性中英文标签。
 attribute-aliases.json: 简繁属性名称与固定英文身份。
-query-aliases.json: 繁体高级查询字段、效果和技能类型。
+query-aliases.json: 繁体高级查询字段、新旧效果名称和技能类型。
 fonts.css: 延迟加载本地双语字体；布局由 app/styles.css 提供。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

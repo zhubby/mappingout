@@ -41,7 +41,11 @@
     "生命衰減": "degeneration",
     "護甲": "armor",
     "速度變化": "speed",
-    "數量": "count"
+    "數量": "count",
+    "類型": "type",
+    "再生": "regeneration",
+    "衰減": "degeneration",
+    "體力竊取": "life-steal"
   },
   "aliases": {
     "打斷": "interrupt",
@@ -74,7 +78,10 @@
     "點": "points",
     "秒": "seconds",
     "百分比": "percent",
-    "格": "pips"
+    "格": "pips",
+    "再生": "regeneration",
+    "衰減": "degeneration",
+    "體力竊取": "life-steal"
   },
   "skillTypes": {
     "紋章": "signet",

@@ -90,9 +90,9 @@ export function distributionTests() {
   test('worker activation cleans old release caches and preserves local characters', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('button', { name: '建立探索者', exact: true }).click();
-    await page.getByRole('textbox', { name: '角色名' }).fill('釋出後仍保留的角色');
+    await page.getByRole('textbox', { name: '角色名稱' }).fill('釋出後仍保留的角色');
     await page.getByRole('button', { name: '建立探索者', exact: true }).last().click();
-    await page.getByRole('button', { name: '關閉彈窗' }).click();
+    await page.getByRole('button', { name: '關閉對話框' }).click();
     const result = await page.evaluate(async () => {
       async function activated(worker: ServiceWorker) {
         if (worker.state === 'activated') return;

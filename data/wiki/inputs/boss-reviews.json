@@ -3405,7 +3405,7 @@
     "areaSources": [
       {
         "title": "Ice Caves of Sorrow",
-        "revid": 2743295
+        "revid": 2743582
       }
     ],
     "skills": [
@@ -3435,7 +3435,7 @@
     "areaSources": [
       {
         "title": "Ice Caves of Sorrow",
-        "revid": 2743295
+        "revid": 2743582
       }
     ],
     "skills": [
@@ -3465,7 +3465,7 @@
     "areaSources": [
       {
         "title": "Ice Caves of Sorrow",
-        "revid": 2743295
+        "revid": 2743582
       }
     ],
     "skills": [
@@ -3495,7 +3495,7 @@
     "areaSources": [
       {
         "title": "Ice Caves of Sorrow",
-        "revid": 2743295
+        "revid": 2743582
       }
     ],
     "skills": [
@@ -3525,7 +3525,7 @@
     "areaSources": [
       {
         "title": "Ice Caves of Sorrow",
-        "revid": 2743295
+        "revid": 2743582
       }
     ],
     "skills": [
@@ -3555,7 +3555,7 @@
     "areaSources": [
       {
         "title": "Ice Caves of Sorrow",
-        "revid": 2743295
+        "revid": 2743582
       }
     ],
     "skills": [
@@ -4762,7 +4762,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Pantheras The Deceiver"
         ]
@@ -7372,7 +7372,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Balasi the Arcane"
         ]
@@ -7402,7 +7402,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Balasi the Arcane"
         ]
@@ -7432,7 +7432,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Balasi the Arcane"
         ]
@@ -7462,7 +7462,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Balasi the Arcane"
         ]
@@ -7492,7 +7492,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Balasi the Arcane"
         ]
@@ -10725,7 +10725,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10755,7 +10755,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10785,7 +10785,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10815,7 +10815,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10845,7 +10845,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10875,7 +10875,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10905,7 +10905,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10935,7 +10935,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10965,7 +10965,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -10995,7 +10995,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -11025,7 +11025,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -11055,7 +11055,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -11085,7 +11085,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -11115,7 +11115,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -11145,7 +11145,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -11175,7 +11175,7 @@
     "areaSources": [
       {
         "title": "Hell's Precipice",
-        "revid": 2737871
+        "revid": 2743581
       }
     ],
     "skills": [
@@ -11572,7 +11572,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Mercia the Smug"
         ]
@@ -11602,7 +11602,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Mercia the Smug"
         ]
@@ -11632,7 +11632,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Mercia the Smug"
         ]
@@ -12172,7 +12172,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Melek the Virtuous"
         ]
@@ -13162,7 +13162,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "The Darkness (boss)"
         ]
@@ -13192,7 +13192,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "The Darkness (boss)"
         ]
@@ -13222,7 +13222,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "The Darkness (boss)"
         ]
@@ -14662,7 +14662,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Mursaat Mesmer (boss)"
         ]
@@ -14692,7 +14692,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Mursaat Mesmer (boss)"
         ]
@@ -14722,7 +14722,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Mursaat Mesmer (boss)"
         ]
@@ -14752,7 +14752,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Mursaat Mesmer (boss)"
         ]
@@ -19492,7 +19492,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Milefaun Mindflayer"
         ]
@@ -24682,7 +24682,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Yammiron, Ether Lord"
         ]
@@ -24712,7 +24712,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Yammiron, Ether Lord"
         ]
@@ -26912,7 +26912,7 @@
       {
         "id": "skill:0:21",
         "title": "Energy Surge",
-        "revid": 2731241,
+        "revid": 2743590,
         "acquisitionTitles": [
           "Yammirvu, Ether Guardian"
         ]

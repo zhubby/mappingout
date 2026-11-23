@@ -215,12 +215,13 @@
     "Energy Surge": {
       "title": "Energy Surge",
       "pageid": 1481,
-      "revid": 2731241,
-      "revisedAt": "2026-06-25T05:22:34Z",
-      "sha1": "1fe5d8851d1d97b1c0d9392fcc37d55a364b11d9",
+      "revid": 2743590,
+      "revisedAt": "2026-11-18T16:37:15Z",
+      "sha1": "45f61c93b5a2eb8abcb8773e3d8eededda99420a",
       "url": "https://wiki.guildwars.com/wiki/Energy_Surge",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Energy%20Surge&oldid=2731241",
-      "retrievedAt": "2026-11-13T01:07:40.175Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Energy%20Surge&oldid=2743590",
+      "retrievedAt": "2026-11-23T03:54:08.855Z",
+      "comment": "/* Acquisition */"
     },
     "Mantra of Recovery": {
       "title": "Mantra of Recovery",
@@ -2935,12 +2936,13 @@
     "Feel No Pain": {
       "title": "Feel No Pain",
       "pageid": 58323,
-      "revid": 2732702,
-      "revisedAt": "2026-07-04T16:53:52Z",
-      "sha1": "b7383c2274aa971a3bbb77e40a75c0cc2f9e5ed5",
+      "revid": 2743684,
+      "revisedAt": "2026-11-22T23:49:03Z",
+      "sha1": "0fe7792f1c7454fa60f8af30be7c77061c5f4196",
       "url": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2732702",
-      "retrievedAt": "2026-11-13T01:07:59.988Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Feel%20No%20Pain&oldid=2743684",
+      "retrievedAt": "2026-11-23T03:54:08.862Z",
+      "comment": "Missing key information for those looking to unlock this skill."
     },
     "Raven Blessing": {
       "title": "Raven Blessing",
@@ -2955,12 +2957,13 @@
     "Ursan Blessing": {
       "title": "Ursan Blessing",
       "pageid": 58325,
-      "revid": 2742159,
-      "revisedAt": "2026-10-03T18:03:50Z",
-      "sha1": "04009da39b6ae2d0ef7c83b82faa0f27993b0a6e",
+      "revid": 2743607,
+      "revisedAt": "2026-11-19T18:26:48Z",
+      "sha1": "42b5132316debddb248999896b70385e79349685",
       "url": "https://wiki.guildwars.com/wiki/Ursan_Blessing",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ursan%20Blessing&oldid=2742159",
-      "retrievedAt": "2026-11-13T01:07:59.989Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ursan%20Blessing&oldid=2743607",
+      "retrievedAt": "2026-11-23T03:54:08.869Z",
+      "comment": "Third person."
     },
     "Volfen Blessing": {
       "title": "Volfen Blessing",
@@ -20315,12 +20318,13 @@
     "Pehrub/Collector armor": {
       "title": "Pehrub/Collector armor",
       "pageid": 50517,
-      "revid": 2486239,
-      "revisedAt": "2012-05-13T21:36:43Z",
-      "sha1": "3f46664b5854d1d3035eb366252b14852a573acb",
+      "revid": 2743648,
+      "revisedAt": "2026-11-21T20:09:41Z",
+      "sha1": "5e5a0c1e5afaa9d8e9227a94711a784a2a21984f",
       "url": "https://wiki.guildwars.com/wiki/Pehrub/Collector_armor",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pehrub%2FCollector%20armor&oldid=2486239",
-      "retrievedAt": "2026-11-13T01:52:36.523Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Pehrub%2FCollector%20armor&oldid=2743648",
+      "retrievedAt": "2026-11-23T03:54:08.879Z",
+      "comment": "/* Pehrub */"
     },
     "Gundok/Collector armor": {
       "title": "Gundok/Collector armor",
@@ -24905,12 +24909,13 @@
     "Ice Caves of Sorrow": {
       "title": "Ice Caves of Sorrow",
       "pageid": 6707,
-      "revid": 2743295,
-      "revisedAt": "2026-11-05T21:45:33Z",
+      "revid": 2743582,
+      "revisedAt": "2026-11-18T14:59:39Z",
       "sha1": "e60ec89bfcab5482c24fc18e1ea6e1d62f5958ac",
       "url": "https://wiki.guildwars.com/wiki/Ice_Caves_of_Sorrow",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ice%20Caves%20of%20Sorrow&oldid=2743295",
-      "retrievedAt": "2026-11-13T02:09:39.559Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Ice%20Caves%20of%20Sorrow&oldid=2743582",
+      "retrievedAt": "2026-11-23T03:54:08.872Z",
+      "comment": "Undo revision 2743580 by [[Special:Contributions/116.86.229.64|116.86.229.64]] ([[User talk:116.86.229.64|Talk]]) - Not the place for generic buildcraft advice"
     },
     "Abaddon's Mouth": {
       "title": "Abaddon's Mouth",
@@ -25045,12 +25050,13 @@
     "Hell's Precipice": {
       "title": "Hell's Precipice",
       "pageid": 16173,
-      "revid": 2737871,
-      "revisedAt": "2026-08-18T17:59:38Z",
+      "revid": 2743581,
+      "revisedAt": "2026-11-18T14:59:11Z",
       "sha1": "4e281744dd672fe8779d01e0ea81210aa6cf55b8",
       "url": "https://wiki.guildwars.com/wiki/Hell%27s_Precipice",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hell's%20Precipice&oldid=2737871",
-      "retrievedAt": "2026-11-13T02:09:39.564Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Hell's%20Precipice&oldid=2743581",
+      "retrievedAt": "2026-11-23T03:54:08.876Z",
+      "comment": "Undo revision 2743579 by [[Special:Contributions/116.86.229.64|116.86.229.64]] ([[User talk:116.86.229.64|Talk]]) - Not the place for generic buildcraft advice"
     },
     "Thunderhead Keep": {
       "title": "Thunderhead Keep",
@@ -68515,12 +68521,13 @@
     "Winds of Change/Walkthrough": {
       "title": "Winds of Change/Walkthrough",
       "pageid": 283590,
-      "revid": 2677620,
-      "revisedAt": "2022-04-19T21:07:50Z",
-      "sha1": "816a12df21d57806c59be20a90ac417bc054ba7f",
+      "revid": 2743588,
+      "revisedAt": "2026-11-18T16:31:33Z",
+      "sha1": "0f21f060ca453cdf42ad60d73c3cd377515ed1f8",
       "url": "https://wiki.guildwars.com/wiki/Winds_of_Change/Walkthrough",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winds%20of%20Change%2FWalkthrough&oldid=2677620",
-      "retrievedAt": "2026-11-16T13:44:56.964Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Winds%20of%20Change%2FWalkthrough&oldid=2743588",
+      "retrievedAt": "2026-11-23T03:54:08.882Z",
+      "comment": "/* Optional quests */"
     },
     "A Deal's a Deal": {
       "title": "A Deal's a Deal",
@@ -71465,12 +71472,13 @@
     "Elegy for Those Left Behind": {
       "title": "Elegy for Those Left Behind",
       "pageid": 320374,
-      "revid": 2743321,
-      "revisedAt": "2026-11-06T20:13:53Z",
-      "sha1": "3e6964de9e60eb96127264e1b49631258a6392fc",
+      "revid": 2743589,
+      "revisedAt": "2026-11-18T16:35:15Z",
+      "sha1": "4b6c76810ace9f5c24191ecbdf4b8b479e856bbf",
       "url": "https://wiki.guildwars.com/wiki/Elegy_for_Those_Left_Behind",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Elegy%20for%20Those%20Left%20Behind&oldid=2743321",
-      "retrievedAt": "2026-11-16T13:46:50.703Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=Elegy%20for%20Those%20Left%20Behind&oldid=2743589",
+      "retrievedAt": "2026-11-23T03:54:08.884Z",
+      "comment": "/* Dialogue */ Already covered on Althea's page."
     },
     "Elona": {
       "title": "Elona",
@@ -76835,22 +76843,24 @@
     "The Cost of Survival": {
       "title": "The Cost of Survival",
       "pageid": 320375,
-      "revid": 2743323,
-      "revisedAt": "2026-11-06T21:37:17Z",
-      "sha1": "5a9a9be6443c6665b1158d1e7ca34d2d827d68e5",
+      "revid": 2743587,
+      "revisedAt": "2026-11-18T16:27:54Z",
+      "sha1": "0bc30001018711ffff1cf525c874cbb99ec71cea",
       "url": "https://wiki.guildwars.com/wiki/The_Cost_of_Survival",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Cost%20of%20Survival&oldid=2743323",
-      "retrievedAt": "2026-11-16T13:47:22.344Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Cost%20of%20Survival&oldid=2743587",
+      "retrievedAt": "2026-11-23T03:54:08.886Z",
+      "comment": "/* Notes */"
     },
     "The Dreamer and the Zealot": {
       "title": "The Dreamer and the Zealot",
       "pageid": 320377,
-      "revid": 2740898,
-      "revisedAt": "2026-09-15T23:18:56Z",
-      "sha1": "6655ea61ba94b94ec45bd59dfad64b8e6f762faf",
+      "revid": 2743586,
+      "revisedAt": "2026-11-18T16:20:38Z",
+      "sha1": "8f51cad27836af2a5f5ce333e32698506bffc0bf",
       "url": "https://wiki.guildwars.com/wiki/The_Dreamer_and_the_Zealot",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Dreamer%20and%20the%20Zealot&oldid=2740898",
-      "retrievedAt": "2026-11-16T13:47:22.344Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Dreamer%20and%20the%20Zealot&oldid=2743586",
+      "retrievedAt": "2026-11-23T03:54:08.888Z",
+      "comment": "/* Dialogue */"
     },
     "The Emperor in Peril": {
       "title": "The Emperor in Peril",
@@ -78055,12 +78065,13 @@
     "The Titan Source": {
       "title": "The Titan Source",
       "pageid": 11215,
-      "revid": 2718183,
-      "revisedAt": "2026-01-19T16:13:37Z",
-      "sha1": "562902b253d26aa7a08a77468067b2092baa2408",
+      "revid": 2743632,
+      "revisedAt": "2026-11-20T20:37:13Z",
+      "sha1": "8861f6e14e513da9d6e499f540709e405256d750",
       "url": "https://wiki.guildwars.com/wiki/The_Titan_Source",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Titan%20Source&oldid=2718183",
-      "retrievedAt": "2026-11-16T13:47:29.429Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=The%20Titan%20Source&oldid=2743632",
+      "retrievedAt": "2026-11-23T03:54:08.892Z",
+      "comment": "/* Bosses */"
     },
     "The Tools of War": {
       "title": "The Tools of War",
@@ -80245,12 +80256,13 @@
     "\"Find Their Weakness!\"": {
       "title": "\"Find Their Weakness!\"",
       "pageid": 14942,
-      "revid": 2733273,
-      "revisedAt": "2026-07-05T17:17:09Z",
-      "sha1": "ccb9044367ac8523327a723bb144055f3738aa9f",
+      "revid": 2743639,
+      "revisedAt": "2026-11-21T08:39:13Z",
+      "sha1": "948f8611b8453c0d36dfbaa613610375a6e30ffe",
       "url": "https://wiki.guildwars.com/wiki/%22Find_Their_Weakness!%22",
-      "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Find%20Their%20Weakness!%22&oldid=2733273",
-      "retrievedAt": "2026-11-16T15:41:03.999Z"
+      "revisionUrl": "https://wiki.guildwars.com/index.php?title=%22Find%20Their%20Weakness!%22&oldid=2743639",
+      "retrievedAt": "2026-11-23T03:54:08.893Z",
+      "comment": "Updated the hero usage since the AI for this skill got updated."
     },
     "\"Fall Back!\"": {
       "title": "\"Fall Back!\"",

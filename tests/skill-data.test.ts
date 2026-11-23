@@ -1,15 +1,44 @@
 /**
- * [INPUT]: 依赖技能来源判定、成长与固定效果编译器。
- * [OUTPUT]: 验证收录边界、成长规则与固定效果的符号和指标。
+ * [INPUT]: 依赖固定技能快照、技能来源判定、成长与效果编译器。
+ * [OUTPUT]: 验证动态链接隔离、备注元数据、收录边界与成长指标。
  * [POS]: 技能数据语义回归；以独立预期值核对 Wiki 规则。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import {describe,expect,it} from 'vitest';
-import {compileGrowth,skillEligibility} from '../scripts/wiki/lib/skill-library-facts.mjs';
+import fs from 'node:fs';
+import {compileGrowth,skillEligibility,skillNotes} from '../scripts/wiki/lib/skill-library-facts.mjs';
 import {compileEffects,metricOf} from '../scripts/wiki/lib/skill-effects.mjs';
+import {templates} from '../scripts/wiki/lib/wikitext.mjs';
 const page=(fields:string)=>({title:'Test skill',wikitext:`{{Skill infobox\n${fields}\n}}`});
 const definition=(rows:string)=>`<div class="attr">{{{attribute}}}</div><div class="var">{{{var1 name}}}</div>${rows}`;
+describe('fixed skill notes',()=>{
+ it('excludes sorting metadata from the real Find Their Weakness notes without dropping hero guidance',()=>{
+  const source=JSON.parse(fs.readFileSync('data/wiki/pages/14942.json','utf8'));
+  const notes=skillNotes(source);
+  expect(notes).toContain('Heroes use this skill on party members wielding any martial weapon.');
+  expect(notes).toContain('only the target will have the damage and deep wound applied.');
+  expect(notes).not.toContain('DEFAULTSORT');
+ });
+ it('retains the research qualification and temporary-skill distinction in the real Ursan Blessing notes',()=>{
+  const source=JSON.parse(fs.readFileSync('data/wiki/pages/58325.json','utf8'));
+  const notes=skillNotes(source);
+  expect(notes).toContain('{{research needed|Which effects do the Norn elite forms remove and which ones do they leave?}}');
+  expect(notes).toContain('They will be returned if they were received before entering this form');
+ });
+});
 describe('fixed skill effects',()=>{
+ it.each([
+  [11193,'Enchantment Spell. For 30 seconds, you gain [[MO:growth:0:var1]] armor, but move [[MO:growth:0:var2]] slower.'],
+  [12218,'Enchantment Spell. For 7 seconds, you are set on fire and move [[MO:growth:0:var1]] faster. When Burning Speed ends, all adjacent foes are set on fire for [[MO:growth:0:var2]] seconds.'],
+ ])('keeps the real %i dynamic text free of Wiki link shells', (pageid,expected)=>{
+  const source=JSON.parse(fs.readFileSync(`data/wiki/pages/${pageid}.json`,'utf8'));
+  const progression=JSON.parse(fs.readFileSync('data/wiki/pages/11540.json','utf8'));
+  const fields=templates(source.wikitext,'Skill infobox')[0].fields;
+  const growth=compileGrowth(source,{'skill progression':progression.wikitext});
+  const result=compileEffects(source,fields,growth,{});
+  expect(result.descriptionTemplate).toBe(expected);
+  expect(result.descriptionParts.filter(part=>part.effectId).map(part=>part.effectId)).toEqual(['growth:0:var1','growth:0:var2']);
+ });
  it.each([['-40',-40],['+24',24],['−20',-20]])('preserves the sign of %s armor', (raw,value)=>{
   const result=compileEffects(page(''),{description:`You have ${raw} armor while using this skill.`},[],{});
   expect(result.effects).toHaveLength(1);

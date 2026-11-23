@@ -151,11 +151,11 @@ test('area review separates missions, dungeons and genuine vanquishing targets',
   await page.getByRole('button', { name: 'Mark as vanquished', exact: true }).click();
   await page.getByRole('textbox', { name: 'Character name' }).fill('區域核對者');
   await page.getByRole('button', { name: 'Create an explorer', exact: true }).last().click();
-  await page.getByRole('button', { name: 'Close pop-up window' }).click();
+  await page.getByRole('button', { name: 'Close dialog' }).click();
   await page.getByRole('button', { name: 'Mark as vanquished', exact: true }).click();
-  await expect(page.getByRole('button', { name: 'Completed · Click Undo', exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Completed · Undo', exact: true })).toBeVisible();
   await page.reload();
-  await expect(page.getByRole('button', { name: 'Completed · Click Undo', exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Completed · Undo', exact: true })).toBeVisible();
   await expectOriginalName(page,'Raisu Palace (explorable area)');
   await expect(page.getByLabel('Area filter')).toHaveAttribute('data-value', 'gww:10970');
 });
@@ -182,15 +182,15 @@ test('equipment distinguishes random skins, unique versions and unresolved ident
   await expectOriginalName(page,'Bonecage Scythe (unique)');
   await expect(page.locator('.description')).toContainText('unique scythe');
   await page.goto('/?kind=green&selected=green%3A4%3Afa6b4893b980e1a7');
-  await expect(page.locator('.wiki-pending')).toContainText('has not yet been identified');
-  await expect(page.getByRole('button', { name: 'Locate location 1', exact: true })).toBeDisabled();
+  await expect(page.locator('.wiki-pending')).toContainText('has not been identified');
+  await expect(page.getByRole('button', { name: 'Locate 1 on the map', exact: true })).toBeDisabled();
 });
 test('Wiki content supports bilingual search, revisions, PvP differences and skill learning', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('textbox', { name: '搜尋資料' }).fill('Tainted Flesh');
   await page.locator('.result').first().click();
   await expectOriginalName(page,'Tainted Flesh');
-  await expect(page.locator('.wiki-badge')).toContainText('本地化資料');
+  await expect(page.locator('.wiki-badge')).toContainText('在地化資料');
   await expect(page.locator('.wiki-provenance a[href*="oldid="]')).toHaveCount(1);
   await page.getByText('檢視舊版資料原文', { exact: true }).click();
   await expect(page.locator('.wiki-disclosure[open]')).toContainText('檢視舊版資料原文');
@@ -251,8 +251,8 @@ test('search, map location, share URL and responsive layout',async({page})=>{
 });
 test('character isolation, notes, backup preview and recovery',async({page})=>{
   await page.goto('/');await page.getByRole('button',{name:'建立探索者',exact:true}).click();
-  await page.getByRole('textbox',{name:'角色名'}).fill('伊洛那旅人');await page.getByRole('button',{name:'建立探索者',exact:true}).last().click();
-  await page.getByRole('button',{name:'關閉彈窗'}).click();
+  await page.getByRole('textbox',{name:'角色名稱'}).fill('伊洛那旅人');await page.getByRole('button',{name:'建立探索者',exact:true}).last().click();
+  await page.getByRole('button',{name:'關閉對話框'}).click();
   await page.getByRole('textbox',{name:'搜尋資料'}).fill('劈擊');await page.locator('.result').first().click();
   await page.getByRole('button',{name:'標記已捕獲'}).click();await expect(page.getByRole('button',{name:'已完成 · 點選撤銷'})).toBeVisible();
   await page.reload();await expect(page.getByRole('button',{name:'已完成 · 點選撤銷'})).toBeVisible();
@@ -260,11 +260,11 @@ test('character isolation, notes, backup preview and recovery',async({page})=>{
   await page.getByRole('textbox',{name:'筆記內容'}).fill('從這裡開始');await page.getByRole('button',{name:'儲存筆記'}).click();
   await page.getByRole('button',{name:'資料備份',exact:true}).click();
   const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:/匯出個人資料/}).click();const download=await downloadPromise;const filename=await download.path();
-  await page.getByRole('button',{name:'關閉彈窗'}).click();await page.getByRole('button',{name:'管理角色'}).click();
-  await page.getByRole('textbox',{name:'角色名'}).fill('第二位角色');await page.getByRole('button',{name:'建立探索者',exact:true}).click();await page.getByRole('button',{name:'關閉彈窗'}).click();
+  await page.getByRole('button',{name:'關閉對話框'}).click();await page.getByRole('button',{name:'管理角色'}).click();
+  await page.getByRole('textbox',{name:'角色名稱'}).fill('第二位角色');await page.getByRole('button',{name:'建立探索者',exact:true}).click();await page.getByRole('button',{name:'關閉對話框'}).click();
   await expect(page.getByRole('button',{name:'標記已捕獲'})).toBeVisible();
   await page.getByRole('button',{name:'資料備份',exact:true}).click();await page.getByLabel('匯入備份檔案').setInputFiles(filename!);
-  await expect(page.getByText('1 位角色', {exact:true})).toBeVisible();await page.getByRole('button',{name:'確認替換並恢復'}).click();
+  await expect(page.getByText('1 位角色', {exact:true})).toBeVisible();await page.getByRole('button',{name:'確認取代並還原'}).click();
   await expect(page.getByRole('button',{name:'已完成 · 點選撤銷'})).toBeVisible();await expect(page.locator('.atlas-marker.note')).toHaveCount(1);
   await page.getByLabel('匯入備份檔案').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{"version":99}')});await expect(page.getByRole('status')).toContainText('不支援');await expect(page.getByRole('button',{name:'已完成 · 點選撤銷'})).toBeVisible();
 });
@@ -278,7 +278,7 @@ test('all categories and offline visited resources',async({page,context})=>{
   await page.waitForFunction(()=>{const i=document.querySelector('.leaflet-image-layer') as HTMLImageElement;return i?.complete&&i.naturalWidth>0;});await context.setOffline(false);
 });
 test('treasure dates, vanquishing, filters and layer switches persist',async({page})=>{
-  await page.goto('/');await page.getByRole('button',{name:'建立探索者',exact:true}).click();await page.getByRole('textbox',{name:'角色名'}).fill('成就記錄者');await page.getByRole('button',{name:'建立探索者',exact:true}).last().click();await page.getByRole('button',{name:'關閉彈窗'}).click();
+  await page.goto('/');await page.getByRole('button',{name:'建立探索者',exact:true}).click();await page.getByRole('textbox',{name:'角色名稱'}).fill('成就記錄者');await page.getByRole('button',{name:'建立探索者',exact:true}).last().click();await page.getByRole('button',{name:'關閉對話框'}).click();
   await page.getByRole('button',{name:'寶藏',exact:true}).first().click();await page.locator('.result').first().click();await page.getByLabel('寶藏開啟日期').fill('2026-01-15');await page.getByRole('button',{name:'標記已開啟'}).click();await expect(page.getByText('上次開啟：2026-01-15')).toBeVisible();await page.reload();await expect(page.getByText('上次開啟：2026-01-15')).toBeVisible();
   await page.getByRole('button',{name:'區域',exact:true}).first().click();await page.getByText('僅顯示可追蹤的未完成目標').click();await page.locator('.result').first().click();await page.getByRole('button',{name:'標記已清剿'}).click();await expect(page.getByRole('button',{name:'已完成 · 點選撤銷'})).toBeVisible();
   await page.getByText('僅顯示可追蹤的未完成目標').click();await page.getByRole('button',{name:'技能',exact:true}).first().click();await selectOption(page.getByLabel('篇章篩選'), '2');await selectOption(page.getByLabel('地區篩選'), '2:2');await selectOption(page.getByLabel('職業篩選'), '7');
@@ -307,7 +307,7 @@ test('type changes clear hidden filters and regional results locate within their
 });
 test('tabs synchronize progress and a stale tab cannot overwrite it',async({page,context})=>{
   await page.goto('/');await page.getByRole('button',{name:'建立探索者',exact:true}).click();
-  await page.getByRole('textbox',{name:'角色名'}).fill('跨頁探索者');await page.getByRole('button',{name:'建立探索者',exact:true}).last().click();await page.getByRole('button',{name:'關閉彈窗'}).click();
+  await page.getByRole('textbox',{name:'角色名稱'}).fill('跨頁探索者');await page.getByRole('button',{name:'建立探索者',exact:true}).last().click();await page.getByRole('button',{name:'關閉對話框'}).click();
   const other=await context.newPage();await other.goto('/');await other.locator('.result').first().waitFor();
   const stale=await context.newPage();
   await stale.addInitScript(()=>Object.defineProperty(globalThis,'BroadcastChannel',{value:undefined,configurable:true}));
@@ -329,7 +329,7 @@ test('opening the report preserves the HTML shell for offline reloads',async({pa
   await page.goto('/');await page.locator('.result').first().waitFor();
   await page.evaluate(async()=>{await navigator.serviceWorker.ready;if(!navigator.serviceWorker.controller)await new Promise<void>(r=>navigator.serviceWorker.addEventListener('controllerchange',()=>r(),{once:true}));});
   await page.getByRole('button',{name:'資料說明'}).click();
-  const popupPromise=page.waitForEvent('popup');await page.getByRole('link',{name:'檢視完整資料校驗報告'}).click();const popup=await popupPromise;await popup.waitForLoadState();
+  const popupPromise=page.waitForEvent('popup');await page.getByRole('link',{name:'檢視完整資料驗證報告'}).click();const popup=await popupPromise;await popup.waitForLoadState();
   await expect.poll(()=>page.evaluate(async()=>!!await caches.match(new URL('data/report.json',location.href)))).toBe(true);
   expect(await page.evaluate(async()=>(await caches.match(location.origin+'/'))?.headers.get('content-type'))).toContain('text/html');
   await popup.close();await context.setOffline(true);await page.reload();await expect(page.getByTestId('atlas-map')).toBeVisible();await expect(page.locator('.result').first()).toBeVisible();

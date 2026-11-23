@@ -40,8 +40,8 @@ describe('language preference and labels',()=>{
   expect(displayMessage('native.backup-too-large')).toBe('Backup exceeds 20 MB.');
  });
  it('translates worker timeouts and HTTP failures in the active locale',()=>{
-  expect(displayMessage('Data read timed out without progress')).toBe('資料讀取超時，請檢查網路並重試。');
-  expect(displayMessage('Data HTTP 503')).toBe('資料伺服器返回 HTTP 503。');
+  expect(displayMessage('Data read timed out without progress')).toBe('資料讀取逾時且沒有進展，請檢查網路後重試。');
+  expect(displayMessage('Data HTTP 503')).toBe('資料伺服器回傳 HTTP 503。');
   setLocale('en');
   expect(displayMessage('Data resource exceeded five minutes')).toBe('A data resource did not finish loading within five minutes. Retry the request.');
  });

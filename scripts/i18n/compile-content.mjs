@@ -1,6 +1,6 @@
 /**
- * [INPUT]: 依赖固定英文基线、中文术语证据和繁体重新翻译稿。
- * [OUTPUT]: 生成五套繁英资料、旧名别名及逐文本来源记录。
+ * [INPUT]: 依赖固定英文基线、中文术语、繁体初稿与逐文本校对。
+ * [OUTPUT]: 生成繁英资料与来源；英文修订变化时拒绝旧校对。
  * [POS]: 离线语言编译入口；字形转换不继承人工审校。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
@@ -12,6 +12,7 @@ import {auditContent} from './audit-content.mjs';
 import {sha256} from './english-source.mjs';
 import {reviewedSkills} from './reviewed-skills.mjs';
 import {travelerItems} from './reviewed-traveler-items.mjs';
+import {loadProofreading,proofreadText} from './proofreading.mjs';
 const read=file=>JSON.parse(fs.readFileSync(projectPath(file),'utf8'));
 const save=(file,value)=>fs.writeFileSync(projectPath(file),JSON.stringify(value)+'\n');
 const traditional=Converter({from:'cn',to:'twp'});
@@ -22,8 +23,10 @@ const aliases=read('data/i18n/legacy-search-aliases.json').datasets;
 const skillSources=read('data/i18n/skill-review-sources.json');
 const {report,baselines}=auditContent();
 if(report.evidenceErrors.length)throw Error('Wiki evidence differs; inspect the accuracy audit before compiling.');
+const proofreadingDir=projectPath('data/i18n/proofreading');
+const proofreading=loadProofreading(proofreadingDir);
 const provenance={version:1,locale:'zh-TW',reviewStatus:'pending',datasets:{},texts:{},adaptations:{}};
-let count=0;
+let count=0,proofreadCount=0;
 const normalize=text=>text?.replace(/(\p{Script=Han})[ \t]+(?=\p{Script=Han})/gu,'$1').replaceAll('秘法','祕法');
 const lookup=source=>normalize(editorial.texts?.[source]??dictionary[source]??drafts[sha256(source)]?.text);
 for(const dataset of datasets){
@@ -37,9 +40,10 @@ for(const dataset of datasets){
   if(!source)throw Error(`Missing English source: ${dataset}/${field.key}`);
   if(!resolved)unverifiedFields.push(field.key);
   english[field.key]=source;
+  const correction=proofreadText(proofreading,dataset,field.key,resolved);
   const term=terms[source];
-  let text=lookup(source),kind=editorial.texts?.[source]?'editorial-translation':editorial.terms[source]?'editorial-label':term?'wiki-term':draft?.kind;
-  if(!dictionary[source]&&(!draft||draft.source!==source))throw Error(`Missing Traditional draft: ${dataset}/${field.key}; run i18n:translate:traditional`);
+  let text=correction?.text??lookup(source),kind=editorial.texts?.[source]?'editorial-translation':editorial.terms[source]?'editorial-label':term?'wiki-term':draft?.kind;
+  if(!correction&&!dictionary[source]&&!editorial.texts?.[source]&&(!draft||draft.source!==source))throw Error(`Missing Traditional draft: ${dataset}/${field.key}; run i18n:translate:traditional`);
   const [collection,index]=field.path,row=data[collection]?.[index];
   if(dataset==='catalog'&&row?.skill&&field.path.at(-1)==='description'){
    const skill=field.path.includes('pvp')?row.skill.pvp:row.skill,pin=skillSources[skill.title];
@@ -65,12 +69,13 @@ for(const dataset of datasets){
   if(/\bZaishen\b/.test(source))text=text.replace(/Zaishen|再神/g,'戰承');
   if(!resolved&&source.includes('<unk>'))text=text.replaceAll('<unk>','〔原始資料缺字〕');
   for(const number of source.match(/\d{1,3}(?:,\d{3})+/g)??[])text=text.replaceAll(number.replaceAll(',','、'),number);
-  text=normalize(text);
+  if(correction){text=correction.text;kind='agent-proofread';proofreadCount++;}
+  else text=normalize(text);
   if(!text?.trim())throw Error(`Empty Traditional translation: ${dataset}/${field.key}`);
   chinese[field.key]=text;
-  const origin={kind:kind??'english-retranslation',translationHash:sha256(text),...(draft?.provider?{provider:draft.provider}:{}),...(term?{references:term.references}:{}),...(editorial.terms[source]?{editorialReferences:editorial.references}:{})};
+  const origin={kind:kind??'english-retranslation',translationHash:sha256(text),...(correction?{reviewStatus:correction.status,reason:correction.reason,evidenceHash:resolved.evidenceHash}:draft?.provider?{provider:draft.provider}:{}),...(term?{references:term.references}:{}),...(editorial.terms[source]?{editorialReferences:editorial.references}:{})};
   const sourceHash=sha256(source);
-  if(text!==lookup(source))provenance.adaptations[`${dataset}/${field.key}`]={englishHash:sourceHash,...origin};
+  if(correction||text!==lookup(source))provenance.adaptations[`${dataset}/${field.key}`]={englishHash:sourceHash,...origin};
   else provenance.texts[sourceHash]=origin;
   if(field.path.at(-1)==='name'||field.path.at(-1)==='title'&&field.path.length===3){
    nameSources[field.key]={kind:term&&text===normalize(traditional(term.text))?'wiki-term':origin.kind,references:term?.references??[]};
@@ -88,6 +93,7 @@ for(const dataset of datasets){
  provenance.datasets[dataset]={...common,packHash:sha256(JSON.stringify(pack))};
 }
 // Existing zh-CN approvals remain historical records. No new approval is granted.
+if(proofreadCount!==proofreading.size)throw Error('Proofreading references fields no longer present in the corpus');
 save('data/i18n/zh-TW-provenance.json',provenance);
 save('data/i18n/accuracy-audit.json',auditContent().report);
-console.log({fields:count,textOrigins:Object.keys(provenance.texts).length,adaptations:Object.keys(provenance.adaptations).length,unresolvedEnglish:report.stats.unresolvedEnglish});
+console.log({fields:count,proofreadFields:proofreadCount,textOrigins:Object.keys(provenance.texts).length,adaptations:Object.keys(provenance.adaptations).length,unresolvedEnglish:report.stats.unresolvedEnglish});

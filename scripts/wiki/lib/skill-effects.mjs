@@ -1,7 +1,7 @@
 /**
- * [INPUT]: 依赖固定技能说明、逐等级成长表与 Wiki 文本解析。
+ * [INPUT]: 依赖固定技能说明、逐等级成长表与 Wiki 链接解析。
  * [OUTPUT]: 编译保留符号的固定效果、成长分项与资源语义。
- * [POS]: 技能数值与正文的单一编译入口；不估算战斗总伤害。
+ * [POS]: 技能数值与正文编译入口；先展开链接标签，再切分成长值。
  * [PROTOCOL]: Update this header on change, then check AGENTS.md
  */
 import {plainText,templates} from './wikitext.mjs';
@@ -44,7 +44,8 @@ function rangeMetric(source,start,end,context){
 }
 export function compileEffects(page,fields,growth,reference){
  let source=fields.description||'';
- for(let n=0;n<4;n++){let changed=false;for(const item of templates(source))if(/^(gray|grey|sic)$/i.test(item.name)){source=source.replace(item.raw,item.fields[1]||'');changed=true;}if(!changed)break;}
+ for(let n=0;n<4;n++){let changed=false;for(const item of templates(source))if(/^(gray|grey|sic)$/i.test(item.name)){source=source.replace(item.raw,item.name.toLowerCase()==='sic'?'':item.fields[1]||'');changed=true;}if(!changed)break;}
+ source=source.replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g,'$2');
  const ranges=templates(source).filter(t=>/^(gr|gr2)$/i.test(t.name)),positions=[];
  let cursor=0;
  for(const item of ranges){const start=source.indexOf(item.raw,cursor),end=start+item.raw.length,context=sentenceAt(source,start);positions.push({item,start,end,context,metric:rangeMetric(source,start,end,context)});cursor=end;}

@@ -76,7 +76,7 @@ test('both language packs and fonts work after going offline',async({page,contex
  await page.goto('/');await expect(page.getByTestId('atlas-map')).toBeVisible();
  await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
  await page.waitForFunction(()=>!!navigator.serviceWorker.controller);
- await page.locator('.module-nav').getByRole('button',{name:'防具製作',exact:true}).click();
+ await page.locator('.module-nav').getByRole('button',{name:'護甲製作',exact:true}).click();
  await expect(page.locator('.armor-results')).toBeVisible();
  await page.locator('.module-nav').getByRole('button',{name:'活動日曆',exact:true}).click();
  await expect(page.locator('.current-activities')).toBeVisible();

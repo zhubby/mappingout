@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "referenceVersion": "eebeb8d97f37b1471b39fe15",
+  "referenceVersion": "3a2da78368132f535c94d87f",
   "scope": "Current learnable player skills, profession/common/title-linked and PvE/PvP versions",
   "coverage": {
     "discovered": 1882,
@@ -187,7 +187,7 @@
         "List of paragon skills"
       ],
       "pageid": 14942,
-      "revid": 2733273,
+      "revid": 2743639,
       "included": true,
       "reason": "Current profession skill"
     },
@@ -6217,7 +6217,7 @@
         "List of mesmer skills"
       ],
       "pageid": 1481,
-      "revid": 2731241,
+      "revid": 2743590,
       "included": true,
       "reason": "Current profession skill"
     },
@@ -6993,7 +6993,7 @@
         "List of PvE-only skills"
       ],
       "pageid": 58323,
-      "revid": 2732702,
+      "revid": 2743684,
       "included": true,
       "reason": "Learnable title-linked PvE skill"
     },
@@ -19255,7 +19255,7 @@
         "List of PvE-only skills"
       ],
       "pageid": 58325,
-      "revid": 2742159,
+      "revid": 2743607,
       "included": true,
       "reason": "Learnable title-linked PvE skill"
     },
@@ -21256,6 +21256,6 @@
       }
     }
   ],
-  "unclassifiedEffects": 711,
+  "unclassifiedEffects": 702,
   "missingImages": []
 }

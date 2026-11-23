@@ -1,0 +1,459 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-23T04:23:37.635Z",
+  "scope": "All five Traditional Chinese and English data packs; UI reviewed separately",
+  "reviewMethod": "Individual agent semantic comparison against exact English text and revision evidence; not human approval or in-game verification",
+  "complete": false,
+  "fields": 134129,
+  "distinctEnglish": 42859,
+  "reviewedFields": 2343,
+  "reviewedDistinctEnglish": 1288,
+  "remainingFields": 131786,
+  "remainingDistinctEnglish": 41595,
+  "englishRevisionCheck": {
+    "checkedAt": "2026-11-23T04:23:21.606Z",
+    "checked": 6895,
+    "changed": 0,
+    "errors": 0
+  },
+  "datasets": [
+    {
+      "dataset": "catalog",
+      "fields": 43282,
+      "distinctEnglish": 14933,
+      "reviewedFields": 289,
+      "reviewedDistinctEnglish": 149,
+      "remainingFields": 42993,
+      "remainingDistinctEnglish": 14784,
+      "unverifiedEnglishFields": 2026,
+      "riskFields": {
+        "literal-game-concept": 185,
+        "source-placeholder": 16,
+        "conditional-mechanic": 2728
+      },
+      "riskExamples": [
+        {
+          "key": "records/skill:4:347/name",
+          "english": "Time Ward",
+          "chinese": "時間病房",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/boss:4:b7faead0ccd3d1f6/name",
+          "english": "Destroyer Chest",
+          "chinese": "驅逐艦寶箱",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/skill:1:197/description",
+          "english": "Elite Ward Spell. Create a Ward Against Harm at this location. For 5…13…15 seconds, non-spirit allies in this area have +1…3…3 health regeneration, +12…22…24 armor, and an additional +12…22…24 armor against elemental damage. This spell is disabled for 20 seconds.",
+          "chinese": "精英病房咒文魔法。在此位置建立守護結界。在 5…13…15 秒內，該區域的非精神盟友擁有 +1…3…3 生命恢復、+12…22…24 護甲以及額外的 +12…22…24 護甲來抵禦元素傷害。此法術將會停用 20 秒。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/skill:2:230/description",
+          "english": "Elite Spell. You and target other ally lose 1 condition and 1 hex, and are healed for 50.",
+          "chinese": "精英咒文魔法。你和目標其他盟友失去 1 病症和 1 十六進位制，並獲得 50 的治療。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/skill:2:235/description",
+          "english": "Elite Hex Spell. For 30 seconds, every time target foe is healed, the healer takes 20…68…80 damage. This hex ends if target is suffering from a Smiting Prayers hex.",
+          "chinese": "精英降咒魔法。在 30 秒內，每次治療目標敵人時，治療者都會受到 20…68…80 傷害。如果目標遭受懲戒祈禱十六進位，則該十六進位結束。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "records/skill:2:245/description",
+          "english": "Elite Hex Spell. For 5 seconds, target foe suffers from -1…5…6 Health degeneration. If that foe has another hex when Recurring Insecurity would end, it is reapplied.",
+          "chinese": "精英降咒魔法。在 5 秒內，目標敵人會受到 -1…5…6 體力衰減效果的影響。如果該敵人在危險迴圈結束時有另一個十六進位，則會重新套用它。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "records/skill:2:249/description",
+          "english": "Elite Spell. Remove up to 2 Hexes from target ally.",
+          "chinese": "精英咒文魔法。從目標盟友中移除最多 2 十六進位。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/skill:2:260/description",
+          "english": "Elite Spell. You gain 1 Energy and 5 Health for each point of Energy restricted by Overcast. You lose all enchantments.",
+          "chinese": "精英咒文魔法。對於受陰天限制的能量的每個點，您將獲得 1 能量和 5 體力。你會失去所有的魅力。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "records/skill:3:60/description",
+          "english": "Elite Signet. If target ally is under the effects of an enchantment, that ally loses one hex and one condition.",
+          "chinese": "精英紋章。如果目標盟友受到加持的影響，則該盟友會失去一個十六進位制和一個狀態。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "records/skill:3:75/description",
+          "english": "Elite Hex Spell. For 10 seconds, target foe and adjacent foes take 15…39…45 damage whenever they use a skill and 5…41…50 additional damage if not under the effects of another Mesmer hex.",
+          "chinese": "精英降咒魔法。在 10 秒內，目標敵人和鄰近敵人在使用技能時會受到 15…39…45 傷害，如果沒有受到另一個幻術師十六進位的影響，則會受到 5…41…50 額外傷害。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "records/skill:3:98/description",
+          "english": "Elite Hex Spell. Your non-Assassin skills are disabled for 3 seconds. For 1…8…10 seconds, target foe moves 50% slower. When this hex ends that foe is Crippled for 1…12…15 seconds.",
+          "chinese": "精英降咒魔法。您的非暗殺者技能將會停用 3 秒。在 1…8…10 秒內，目標敵人移動 50% 的速度變慢。當這個十六進位結束時，敵人處於殘癈狀態，持續 1…12…15 秒。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "records/skill:3:134/description",
+          "english": "Elite Flash Enchantment Spell. For 8 seconds, nothing happens. When this enchantment ends, Pious Renewal is recharged and you gain 0…4…5 Energy and 0…24…30 Health.",
+          "chinese": "精英快閃記憶體加持魔法。在 8 秒內，沒有任何反應。當此加持結束時，神性修補會重新充電，並且您會獲得 0…4…5 能量和 0…24…30 體力。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "armor",
+      "fields": 6180,
+      "distinctEnglish": 839,
+      "reviewedFields": 0,
+      "reviewedDistinctEnglish": 0,
+      "remainingFields": 6180,
+      "remainingDistinctEnglish": 839,
+      "unverifiedEnglishFields": 0,
+      "riskFields": {
+        "literal-game-concept": 1,
+        "source-placeholder": 24,
+        "conditional-mechanic": 389
+      },
+      "riskExamples": [
+        {
+          "key": "armorers/armorer:gww:67020/notes",
+          "english": "__NOTOC__\nGobrech Stonefoot is the armorer in Central Transfer Chamber. He crafts cross-profession armor pieces as well as stand alone profession-specific pieces commonly referred to as Deldrimor armor.\n*You must be rank 5 (Bold Delver) in the Deldrimor title track in order to use his services.",
+          "chinese": "__NOTOC__\n戈佈雷奇·斯通足是中央傳送室的軍械師。他製作跨職業盔甲部件以及通常稱為戴爾迪摩的獨立專業特定部件。\n*您必須在戴爾狄摩主打歌中排名為 5 (Bold Delver) 才能使用他的服務。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "calendar",
+      "fields": 3284,
+      "distinctEnglish": 1249,
+      "reviewedFields": 225,
+      "reviewedDistinctEnglish": 46,
+      "remainingFields": 3059,
+      "remainingDistinctEnglish": 1203,
+      "unverifiedEnglishFields": 0,
+      "riskFields": {
+        "literal-game-concept": 5,
+        "source-placeholder": 3,
+        "conditional-mechanic": 300
+      },
+      "riskExamples": [
+        {
+          "key": "activities/activity:gww:205970/objective",
+          "english": "* Reclaim the Asura Gate to the Central Transfer Chamber from the Destroyers in the Depths of Tyria.\n* *BONUS* Complete the mission in Hard Mode.\n* See Zehnchu [Zaishen Challenge] for your reward.",
+          "chinese": "* 從泰瑞亞深處的驅逐艦手中奪回通往中央傳送室的阿蘇拉大門。\n* *獎勵* 在困難模式下完成任務。\n* 獎勵請見Zehchu【戰承挑戰】。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "activities/activity:gww:203120/notes",
+          "english": "Korshek's group includes several Roaring Ethers and at least one other Djinn. There are also up to three satellite groups, each consisting of more Djinn and Roaring Ethers. In hard mode, Ruby Djinn can hit very hard with Liquid Flame (over 200 damage) and Korshek follows with Searing Flames which can deal over 250 damage against 60 armor rating characters. This means, even with no death penalty, the entire party can be wiped in two to three hits, as these are AoE attacks. Consider getting the Shielding Branches blessing from the Melandru's Watcher outside of Tihark Orchard to reduce the damage caused by Korshek and Ruby Djinn.\n\n=== Skill recommendations ===\n\n; Countering Searing Flames\nThere are several techniques to effectively counter Searing Flames:\n* Bring skills that interrupt or inflict Dazed.\n* Use Frigid Armor to prevent being set on fire. \n* Signet of Humility will prevent Searing Flames from being cast; Diversion will disable it for an extended period.\n* The boss will quickly kill itself while hexed with either Pain Inverter or Spoil Victor.\n\n; Other skills\n\n* Ward Against Elements or Ward Against Harm will reduce the elemental damage.\n* Winter converts all elemental damage to cold damage, which deals more damage to Ruby Djinns.\n* Extinguish and Breath of the Great Dwarf remove Burning from all party members.\n* Frozen Soil will prevent the Roaring Ethers from using Resurrection Signet.\n* The ethers are the only fleshy foes in Korshek's group, so it does not help much to bring skills that cause Bleeding, Disease, or Poison; similarly, skills that exploit corpses are ineffective for this battle.\n* Consider going to open the Do Not Touch Treasure in Forum Highlands after killing Korshek the Immolated, which is near the boss' location.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+          "chinese": "Korshek 的團隊包括幾個 Roaring Ethers 和至少一個其他巨靈怪。還有多達三個衛星組，每個衛星組由更多的巨靈怪和 Roaring Ethers 組成。在困難模式下，紅寶石巨靈可以使用液態火焰進行非常猛烈的攻擊（超過 200 傷害），而 Korshek 則使用爆裂火焰，它可以對 60 裝甲等級角色造成超過 250 的傷害。這意味著，即使沒有死刑，整個隊伍也可以在兩到三擊中被消滅，因為這些都是範圍性攻擊。考慮從提哈克果園外的梅蘭朵守望者那裡獲得遮蔽樹枝的祝福，以減少 Korshek 和紅寶石巨靈造成的傷害。\n\n=== 技能建議 ===\n\n;對抗爆裂火焰\n有多種技術可以有效對抗爆裂火焰：\n* 帶來打斷或造成暈眩的技能。\n* 使用冰凍護甲防止起火。 \n* 謙卑紋章將阻止爆裂火焰被施放； 牽制將長時間停用它。\n* 當使用苦痛變頻器或勝者的掠奪施咒時，Boss 會快速自殺。\n\n;其他技能\n\n* 元素結界或守護結界將減少元素傷害。\n* 寒冬將所有元素傷害轉化為寒冷傷害，這對紅寶石魔靈造成更多傷害。\n* 熄滅和偉大矮人的呼吸消除了所有隊伍成員的燃燒。\n* 凍土將阻止咆哮以太使用復活紋章。\n* 以太是Korshek團隊中唯一的肉質敵人，因此帶來導致流血、疾病或中毒的技能並沒有多大幫助；同樣的，利用屍體的技能對於這場戰鬥也是無效的。\n* 殺死靠近boss位置的宰殺者科薛克後，考慮開啟高地廣場中的請勿觸控寶藏。\n完成記錄屬於接受任務的輪替。它不會改變永久技能或征服進步。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "activities/activity:gww:203752/notes",
+          "english": "Head north through the Tahnnakai Temple explorable area from Zin Ku Corridor. Be prepared for area of effect fire damage from the Temple Guardians around him. If you follow the path in the the map posted on the right, you will only encounter Temple Guardians on your way to Quansong Spiritspeak. \n\n===Skill recommendations===\n* You will not encounter any physical attackers, so skills that block, cause misses, or inflict the blind condition are less effective here; however, Temple Guardians have Stun on Critical Hit.\n* Quansong Spiritspeak and Temple Guardians are not fleshy creatures, so skills that exploit corpses and inflict bleeding, disease, or poison are ineffective against them.\n* You will only encounter spellcaster mobs, so consider bringing anti-caster skills and/or various Ranger nature rituals that can benefit your party but cannot benefit the Temple Guardians (such as Favorable Winds, Infuriating Heat, and Winnowing).\n* Temple Guardians have less armor rating against cold damage, so consider bringing Winter or skills that deal cold damage. Consider bringing Water Magic hex spells that snare and deal cold damage (i.e. Deep Freeze, Ice Spikes, Mind Freeze, and Shard Storm), which will slow their movement speed and can help in preventing them from reaching your midline/backline and dealing point blank area of effect damage from Temple Guardians' Double Dragon and Quansong Spiritspeak's Ancestors' Rage.\n* Temple Guardians have less armor rating against blunt damage, so consider using a weapon that deals blunt damage.\n\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+          "chinese": "向北穿過譚納凱神殿可探索區域從辛庫走廊 。做好應對周圍聖殿守護者造成的區域火焰傷害的準備。如果你沿著右邊地圖上的路徑走，你只會在去的路上遇到神廟守護者。 通靈者魁嵩 。 \n\n=== 技能推薦===\n* 你不會遇到任何物理攻擊者，因此格擋、失手、致盲的技能在這裡效果較差；然而，聖殿守護者在暴擊時會暈眩。\n* 通靈者魁嵩神殿守護者不是肉質生物，因此利用屍體並造成流血、疾病或中毒的技能對他們無效。\n*你只會遇到施法者小怪，所以考慮帶上反施法者技能和/或各種遊俠可以使你的隊伍受益但不能使神殿守護者受益的自然儀式（例如順風 , 怒火 , 和吹拂之風 ）。\n* 神殿守護者對寒冷傷害的護甲等級較低，所以考慮帶上寒冬或造成寒冷傷害的技能。考慮帶水系魔法誘捕並造成寒冷傷害的十六進製法術（即強力凍結 , 冰之尖刺 , 心靈凍結 , 和冰風暴 ），這會減慢他們的移動速度，並有助於防止他們到達你的中線/後線並造成聖殿守護者的空白區域效果傷害雙龍和通靈者魁嵩的先人的盛怒 。\n* 聖殿守衛針對鈍器傷害的護甲等級較低，因此請考慮使用造成鈍器傷害的武器。\n\n完成記錄屬於接受任務的輪替。它不會改變永久技能或征服進步。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "activities/activity:gww:199595/notes",
+          "english": "Once a player gets in radar range of the spawn point location, either Harn or Maxine will spawn and begin patrolling around the island. The boss will go counter-clockwise on its patrol path, so it is best to go clockwise through its patrol path as the boss will move toward you when it spawns and you avoid needing to chase the boss through numerous mobs. If you go clockwise through its patrol path, there are mobs of Flesh Golems and Mahgo Hydras that patrol in a circle outside of Ember Light Camp. Your party can stay near the Resurrection Shrine and pull each mob.\n\n===Skill recommendations===\n*If you go clockwise through its patrol path:\n**You will only encounter spellcaster mobs (Dark Flame Dryders, Drakes, Flesh Golems, Mahgo Hydras, and Phantoms), so consider bringing anti-caster skills and/or various Ranger nature rituals that can benefit your party but cannot benefit the enemy spellcasters (such as Favorable Winds, Infuriating Heat, Toxicity since Dark Flame Dryders use Chilblains, and Winnowing).\n**The only physical attackers will be the Bone Minions created by the Flesh Golems via Animate Bone Minions, so skills that block, cause misses, or inflict the blind condition are less effective here.\n*This quest was first offered on April 25, 2009.\n*If you go clockwise through the boss' patrol path, you can take this opportunity to obtain a Volcanic Rock.\n*It's possible for Harn or Maxine to spawn at the beach on the north part of their path\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+          "chinese": "一旦玩家進入重生點位置的雷達範圍，哈恩或瑪克辛就會重生並開始在島嶼周圍巡邏。 Boss 會在其巡邏路徑上逆時針行走，因此最好順時針行走其巡邏路徑，因為 Boss 在生成時會向您移動，並且您無需在眾多小怪中追逐 Boss。如果你順時針穿過它的巡邏路徑，就會有血肉傀儡和瑪戈九頭蛇的小怪在外面一圈巡邏。 殘火營地 。您的聚會可以住在附近復活祭壇並拉動每個小怪。\n\n=== 技能推薦===\n*如果你順時針穿過它的巡邏路徑：\n**你只會遇到施法者小怪（暗焰乾燥者、龍、肉傀儡、瑪戈九頭蛇和幻影），所以考慮帶上反施法者技能和/或各種遊俠可以使你的隊伍受益但不能使敵方施法者受益的自然儀式（例如順風 , 怒火 , 毒性自從暗焰乾燥機使用以來凍傷 , 和吹拂之風 ）。\n**唯一的物理攻擊者將是由血肉傀儡通過操縱骸骨爪牙 ，因此格擋、造成失誤或造成失明狀態的技能在這裡效果較差。\n*此任務於四月首次提供 25 , 2009 。\n*如果你順時針穿過boss的巡邏路徑，你可以藉此機會獲得火山岩 。\n*哈恩或瑪克辛有可能在其路徑北部的海灘上生成\n完成記錄屬於接受任務的輪替。它不會改變永久技能或征服進步。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "activities/activity:gww:200414/notes",
+          "english": "If you follow the path in the the map posted on the right, you will only encounter Marrow Scarabs, Minotaurs, Rockshot Devourers, and Scarab Nest Builders on your way to Kepkhet Marrowfeast. Hex removal skills are unnecessary, as the aforementioned foes do not cast hexes.\n\nAvoid using condition-inflicting skills on Marrow Scarabs, as they will use Plague Touch and then Virulence. Marrow Scarabs use Well of the Profane, so either interrupt its activation, avoid bringing enchantments with long recharge times, and/or move away from corpses before they are exploited to create a Well of the Profane.\n\nRockshot Devourers and Scarab Nest Builders use Distracting Shot, so skills that block, inflict the blind condition, cause misses, or prevent interruption can be helpful. They also use numerous traps, so it may be a good idea to have one party member walk ahead of the party to trigger the traps and prevent the entire party from taking damage.\n\nSometimes Kepkhet Marrowfeast is hidden at first and won't popup until a party member approaches her spawn point. The Scarab Nest Builders surrounding Kepkhet Marrowfeast won't move if attacked from flatbow or longbow range, so you can cause Kepkhet Marrowfeast to deplete her energy by healing and protecting the Scarab Nest Builder prior to your party engaging Kepkhet Marrowfeast. When you go near Kepkhet Marrowfeast, several Marrow Scarabs will popup. If Kepkhet Marrowfeast casts Mark of Protection on herself, applying a condition or hex will cause her to use Contemplation of Purity and remove Mark of Protection.\n* Consider completing this quest at the same time as the Family Soul quest, since it also requires you to kill her.\nThe completion record belongs to the rotation in which the quest was accepted. It does not change permanent skill or vanquishing progress.",
+          "chinese": "如果您按照右側地圖中的路徑前進，則在前往柯柏海特食隨者的途中只會遇到骨髓聖甲蟲、牛頭怪、Rockshot 蠍和聖甲蟲築巢者。去除妖術的技能是不必要的，因為上述敵人不會施放妖術。\n\n避免對骨髓聖甲蟲使用造成條件的技能，因為它們會使用疫病之觸，然後使用惡毒。骨髓聖甲蟲使用褻瀆之池，因此要麼中斷其啟用，避免帶來較長充電時間的加持，和/或在屍體被利用以建立褻瀆之池之前遠離屍體。\n\nRockshot 蠍和 Scarab Nest Builders 使用震暈之箭，因此阻擋、造成盲態、導致錯誤或防止中斷的技能可能會有所幫助。他們也使用許多陷阱，因此最好讓一名隊伍成員走在隊伍前面來觸發陷阱並防止整個隊伍受到傷害。\n\n有時，柯柏海特食隨者一開始是隱藏的，直到隊伍成員接近她的重生點時才會彈出。如果受到平弓或長弓範圍的攻擊，柯柏海特食隨者周圍的聖甲蟲築巢者將不會移動，因此您可以在您的隊伍與柯柏海特食隨者交戰之前透過治療和保護聖甲蟲築巢者來耗盡柯柏海特食隨者的能量。當你靠近柯柏海特食隨者時，會彈出幾隻骨髓聖甲蟲。如果柯柏海特食隨者對自己施放守護印記，則套用條件或十六進位將導致她使用純淨的冥想並移除守護印記。\n*考慮與家庭靈魂任務同時完成這個任務，因為它也需要你殺死她。\n完成記錄屬於接受任務的輪替。它不會改變永久技能或征服進步。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "quests",
+      "fields": 37175,
+      "distinctEnglish": 17897,
+      "reviewedFields": 886,
+      "reviewedDistinctEnglish": 367,
+      "remainingFields": 36289,
+      "remainingDistinctEnglish": 17530,
+      "unverifiedEnglishFields": 0,
+      "riskFields": {
+        "literal-game-concept": 292,
+        "source-placeholder": 15,
+        "conditional-mechanic": 3868
+      },
+      "riskExamples": [
+        {
+          "key": "quests/quest:gww:25519/givenBy",
+          "english": "Reaper of the Spawning Pools",
+          "chinese": "產卵池的收割者",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:25519/givenAt",
+          "english": "Spawning Pools",
+          "chinese": "產卵池",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:11060/sections/notes-1/blocks/notes-1-15/text",
+          "english": "In Hard mode, if everyone in the party has a Death Penalty of 60%.",
+          "chinese": "在困難模式中，如果隊伍中的每個人都有 60% 的死刑。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-2/text",
+          "english": "1: clear mobs north and mainly south of your spawn point without aggroing any Abyssal or Shadow Ranger or Rastigan will run forward and probably die which will kill the party.",
+          "chinese": "1：清除產卵點以北和主要以南的小怪，而不會激怒任何深淵或闇影遊俠或拉斯蒂根將向前奔跑並可能死亡，從而殺死隊伍。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-8/text",
+          "english": "7*: (optional) you may want to head south toward the Spider Cave to clear it in advance to make next step a bit easier. Move carefully as many spiders will often pop up. Make your way up to the waterfall bordering the Fissure Shore. Beware at this spot as many groups will spawn.",
+          "chinese": "7*：（選購）您可能需要向南前往蜘蛛洞穴，提前清除它，以使下一步更容易。小心移動，因為經常會出現許多蜘蛛。前往與裂縫海岸接壤的瀑布。小心這個地方，因為許多群體會產卵。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:11060/sections/support-321058-walkthrough-1/blocks/support-321058-walkthrough-1-2-10/text",
+          "english": "9: take quest The Hunt from Nimros the Hunter: Shard Wolves will spawn at different location in the area, you will kill them while doing the other quests. A first spawn in right behind you.",
+          "chinese": "9：接受獵人尼姆羅斯的狩獵任務：碎片狼會在該區域的不同位置產卵，你將在執行其他任務時殺死它們。第一個重生點就在你身後。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16621-walkthrough-quest:gww:16621/blocks/elite-quest:gww:16621-walkthrough-1-2/text",
+          "english": "When a player accepts this quest three groups of Grasping Darknesses spawn nearby. Two of the groups spawn on the upper level of the beginning area and begin patrolling there. The third group spawns further away and will patrol from that point to the upper level of the beginning area and back. If the players stay on the lower area they will remain out of aggro range. The groups consist of three or four Darknesses each and aren't difficult to defeat for a prepared party.",
+          "chinese": "當玩家接受此任務時，附近會生成三組黑暗之握。其中兩個小組在起始區域的上層產卵並開始在那裡巡邏。第三組在更遠的地方生成，並將從該點巡邏到起始區域的上層並返回。如果玩家留在較低區域，他們將保持在仇恨範圍之外。每個團體由三到四個黑暗者組成，對於有準備的隊伍來說並不難擊敗。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16621-walkthrough-quest:gww:16621/blocks/elite-quest:gww:16621-walkthrough-1-4/text",
+          "english": "Be sure to kill all other enemy groups before attacking the Terrorwebs, because after you kill them a Reaper of the Labyrinth will spawn near the statue of Grenth in the chamber. If there are any enemies left at this point they might attack the Reaper and kill it, causing the party to be taken back to to the outpost from which they left to the Underworld. Speak to the Reaper to receive the quest reward. You might also want to save the quest reward for later on so that you can remove Death Penalty with it.",
+          "chinese": "請務必在攻擊恐怖網之前殺死所有其他敵方隊伍，因為在殺死他們後，迷宮收割者將在房間內的古蘭斯雕像附近生成。如果此時還剩下任何敵人，他們可能會攻擊收割者並殺死它，導致隊伍被帶回他們離開地獄的前哨站。與死神交談以獲得任務獎勵。您可能還想儲存任務獎勵以供日後使用，以便可以用它來消除死刑。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:16673-walkthrough-quest:gww:16673/blocks/elite-quest:gww:16673-walkthrough-1-2/text",
+          "english": "Pay extra caution at the monuments of Forgotten Vale, Twin Serpent Mountains and Spawning Pools. Kill the surrounding monsters before the Terrorweb Dryders, because otherwise they might attack the Reaper and cause your party to be taken back to the outpost from which you entered the Underworld.",
+          "chinese": "在被遺忘者谷、雙蛇山和產卵池的紀念碑處要格外小心。在恐怖網烘乾機之前殺死周圍的怪物，否則它們可能會攻擊收割者並導致你的隊伍被帶回你進入地獄的前哨站。",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:25517-walkthrough-quest:gww:25517/blocks/elite-quest:gww:25517-walkthrough-1-2/text",
+          "english": "Almost immediately upon taking the quest, three Skeletons of Dhuum will spawn, one at each spawn point. Shortly after, a group of Terrorweb Dryders (both standard and silver) will spawn to the south (near the bridge), followed by another smaller group spawning to the northeast (by the small hooked pathway). It is important to position your party more or less on the spawns, so that the dryders do not more forward and aggro the Spirits. A third group of three Terrorweb Dryders will spawn near the bridge, further south than the first, about a minute after the quest begins. If your group is fast enough with DPS, both other groups will be dead by the time they spawn. If the Tortured Spirits hadn't taken any aggro, they will have already begun moving towards the Reaper.",
+          "chinese": "幾乎在接受任務後，三個多姆骷髏就會生成，每個生成點各有一個。不久之後，一群恐網乾燥者（標準和銀色）將在南邊（靠近橋梁）產卵，隨後另一小群恐網乾燥者將在東北部（小鉤狀通道旁）產卵。將你的隊伍或多或少地定位在重生點上很重要，這樣乾燥者就不會更向前並激怒靈魂。任務開始後大約一分鐘，第三組三隻恐網烘乾機會在橋附近產卵，比第一組更南。如果你的隊伍的 DPS 夠快，那麼其他隊伍在生成時就會死亡。如果折磨之靈沒有受到任何仇恨，他們早就開始向死神移動了。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:2742/sections/elite-quest:gww:232300-walkthrough-quest:gww:232300/blocks/elite-quest:gww:232300-walkthrough-1-2/text",
+          "english": "While facing Dhuum, if you die or your death penalty hits 60%, you will be moved next to Mayor Alegheri in the Forgotten Vale and turned into Spirit Form. Players must talk to the Mayor to return to the battle; heroes are returned automatically. Consumables that remove death penalty or grant a Morale Boost can prevent this.",
+          "chinese": "當面對多姆時，如果你死了或你的死亡懲罰擊中了60%，你將被移到被遺忘者谷的市長阿萊蓋裡旁邊，並變成靈魂形態。玩家必須與市長對話才能重返戰鬥；英雄會自動返回。消除死刑或提高士氣的消耗品可以防止這種情況發生。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        },
+        {
+          "key": "quests/quest:gww:63264/sections/walkthrough-1/blocks/walkthrough-1-1/text",
+          "english": "A timer will appear showing \"Time remaining to escape\", giving you 3 minutes. The easiest way to complete this quest is to click on Burol Ironfist or Kodan on the way in to the meeting. After the meeting is over (or you and your party members click the \"skip\" button), just press the space bar to follow them. Your character will follow them, trying to catch up as they run their way to the Asura Gate, possibly catching up to them once or twice on the run. If this happens, just hit the space bar again. A lot of Destroyers will spawn behind your party and chase after. They can be ignored, and it is best to do so as fighting them will eat up time. As you approach the gate, be prepared for your character to stop moving when the NPC you were following enters the gate. Using this strategy, you reach the gate with roughly 1 minute left — provided you didn't stop to fight.",
+          "chinese": "將出現一個計時器，顯示“逃脫剩餘時間”，為您提供 3 分鐘。完成此任務的最簡單方法是在參加會議時點選布羅爾鐵拳或克丹。會議結束後（或您和您的團隊成員點選「跳過」按鈕），只需按空白鍵即可關注他們。你的角色將跟隨他們，試圖在他們跑向阿蘇拉門時追上他們，可能會在逃跑過程中追上他們一兩次。如果發生這種情況，只需再次按下空白鍵即可。許多驅逐艦會在你的隊伍後面生成並追趕。可以忽略它們，最好這樣做，因為與它們戰鬥會消耗時間。當您接近大門時，請做好準備，當您跟隨的 NPC 進入大門時，您的角色會停止移動。使用此策略，您在大約剩下 1 分鐘時到達大門 - 前提是您沒有停下來戰鬥。",
+          "flags": [
+            "literal-game-concept",
+            "conditional-mechanic"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "skills",
+      "fields": 44208,
+      "distinctEnglish": 13481,
+      "reviewedFields": 943,
+      "reviewedDistinctEnglish": 841,
+      "remainingFields": 43265,
+      "remainingDistinctEnglish": 12640,
+      "unverifiedEnglishFields": 0,
+      "riskFields": {
+        "literal-game-concept": 526,
+        "source-placeholder": 43,
+        "conditional-mechanic": 4987
+      },
+      "riskExamples": [
+        {
+          "key": "skills/skill:gww:51883/name",
+          "english": "Cure Hex",
+          "chinese": "治癒十六進位",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:313296/name",
+          "english": "Time Ward",
+          "chinese": "時間病房",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:51883/variants/skill-version:gww:51883/name",
+          "english": "Cure Hex",
+          "chinese": "治癒十六進位",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:313296/variants/skill-version:gww:313296/name",
+          "english": "Time Ward",
+          "chinese": "時間病房",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:14075/variants/skill-version:gww:14075/type",
+          "english": "Flash Enchantment Spell",
+          "chinese": "快閃記憶體加持魔法",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:1365/type",
+          "english": "Flash Enchantment Spell",
+          "chinese": "快閃記憶體加持魔法",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:1365/variants/skill-version:gww:278534/type",
+          "english": "Flash Enchantment Spell",
+          "chinese": "快閃記憶體加持魔法",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:12852/variants/skill-version:gww:12852/type",
+          "english": "Flash Enchantment Spell",
+          "chinese": "快閃記憶體加持魔法",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:1374/variants/skill-version:gww:1374/type",
+          "english": "Flash Enchantment Spell",
+          "chinese": "快閃記憶體加持魔法",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:1378/type",
+          "english": "Flash Enchantment Spell",
+          "chinese": "快閃記憶體加持魔法",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:1378/variants/skill-version:gww:278536/type",
+          "english": "Flash Enchantment Spell",
+          "chinese": "快閃記憶體加持魔法",
+          "flags": [
+            "literal-game-concept"
+          ]
+        },
+        {
+          "key": "skills/skill:gww:58695/variants/skill-version:gww:58695/type",
+          "english": "Ward Spell",
+          "chinese": "病房咒文魔法",
+          "flags": [
+            "literal-game-concept"
+          ]
+        }
+      ]
+    }
+  ]
+}

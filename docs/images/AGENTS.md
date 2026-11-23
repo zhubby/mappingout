@@ -51,4 +51,9 @@ zima-1.4.6-config.jpg: ZimaBoard2 保存后回读的 1.4.6 镜像和完整参数
 zima-1.4.6-loading.jpg: ZimaBoard2 真实任务下载量与三阶段加载进度。
 zima-1.4.6-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
 
+zima-1.4.7-config.jpg: ZimaBoard2 保存后回读的 1.4.7 镜像与原容器参数。
+zima-1.4.7-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
+zima-1.4.7-skills.jpg: ZimaBoard2 属性 12 的 Lava Font，过载与施放位置范围已校正。
+zima-1.4.7-loading.jpg: ZimaBoard2 新版资料的真实下载量与三阶段加载界面。
+
 [PROTOCOL]: Update this header on change, then check AGENTS.md

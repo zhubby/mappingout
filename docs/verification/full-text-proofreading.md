@@ -5,7 +5,7 @@
 第二轮校对已发布为 1.4.4，全文逐句校对未完成。
 第三轮校对已发布为 1.4.5。
 第四轮校对已发布为 1.4.6。
-第五轮校对准备发布为 1.4.7。
+第五轮校对已发布为 1.4.7。
 
 ## 1.4.7 第五轮校对
 
@@ -296,5 +296,6 @@ Friz 字体分发授权保持未批准。
 第二轮发布与部署结果见 [1.4.4 验收](desktop-1.4.4-acceptance.md)。
 第三轮发布与部署结果见 [1.4.5 验收](desktop-1.4.5-acceptance.md)。
 第四轮发布与部署结果见 [1.4.6 验收](desktop-1.4.6-acceptance.md)。
+第五轮发布与部署结果见 [1.4.7 验收](desktop-1.4.7-acceptance.md)。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

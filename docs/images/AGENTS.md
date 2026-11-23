@@ -42,5 +42,9 @@ zima-1.4.4-config.jpg: ZimaBoard2 保存后回读的 1.4.4 镜像与容器参数
 zima-1.4.4-progress.jpg: ZimaBoard2 升级后保留的角色和任务进行中记录。
 zima-1.4.4-loading.jpg: ZimaBoard2 真实下载字节量与三阶段加载界面。
 zima-1.4.4-skills.jpg: ZimaBoard2 新版火鳳凰正文和属性 15 的动态数值。
+zima-1.4.5-loading.jpg: ZimaBoard2 新版技能资料的真实下载与三阶段进度。
+zima-1.4.5-skills.jpg: ZimaBoard2 属性 12 的 Life Siphon，保留衰减与再生符号。
+zima-1.4.5-config.jpg: ZimaBoard2 保存后回读的 1.4.5 镜像与容器参数。
+zima-1.4.5-progress.jpg: ZimaBoard2 升级后保留的角色与任务进行中记录。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md

@@ -17,6 +17,7 @@ translation-accuracy-audit.md: 翻译准确性复核和未完成范围。
 full-text-proofreading.md: 1.4.3 至 1.4.5 逐文本审读、来源解析修复和完整待审范围。
 desktop-1.4.3-acceptance.md: 1.4.3 测试、公开发布与 ZimaBoard2 实机验收。
 desktop-1.4.4-acceptance.md: 1.4.4 校对批次、公开产物与 ZimaBoard2 部署验收。
+desktop-1.4.5-acceptance.md: 1.4.5 来源解析修复、公开签名与 ZimaBoard2 部署验收。
 traditional-chinese.md: 繁体迁移、审查修复、中文证据、资源兼容与发布部署验收。
 
 [PROTOCOL]: Update this header on change, then check AGENTS.md
